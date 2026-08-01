@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build evidence-backed relationship graphs from the UFO Files archive.">
+  <title>UFO Files — Graph Builder</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23174d3c'/%3E%3Ctext x='16' y='20' text-anchor='middle' font-family='sans-serif' font-size='10' font-weight='700' fill='white'%3EUF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./">
+      <img class="brand-logo" src="assets/logo.svg" alt="" aria-hidden="true">
+      <span><strong>UFO Files</strong><small>Relationship builder</small></span>
+    </a>
+    <div class="top-actions">
+      <button class="button quiet" id="shareButton">Copy link</button>
+      <button class="button primary" id="saveButton">Save view</button>
+    </div>
+  </header>
+
+  <main id="builderView" class="app-shell">
+    <aside class="builder-panel" aria-label="Graph configuration">
+      <section class="step open" data-step="1">
+        <button class="step-heading" aria-expanded="true">
+          <span class="step-number">1</span><span><strong>Graph type</strong><small>How should the answer read?</small></span>
+        </button>
+        <div class="step-body">
+          <div class="type-grid" id="typeGrid"></div>
+        </div>
+      </section>
+
+      <section class="step open" data-step="2">
+        <button class="step-heading" aria-expanded="true">
+          <span class="step-number">2</span><span><strong>Data roles</strong><small>What goes where?</small></span>
+        </button>
+        <div class="step-body" id="roleControls"></div>
+      </section>
+
+      <section class="step" data-step="3">
+        <button class="step-heading" aria-expanded="false">
+          <span class="step-number">3</span><span><strong>Graph properties</strong><small>Encoding, sort, and type</small></span>
+        </button>
+        <div class="step-body" id="encodeControls"></div>
+      </section>
+
+      <section class="step" data-step="4">
+        <button class="step-heading" aria-expanded="false">
+          <span class="step-number">4</span><span><strong>Refine</strong><small>Filters and evidence floor</small></span>
+        </button>
+        <div class="step-body" id="filterControls"></div>
+      </section>
+    </aside>
+
+    <section class="stage" aria-label="View preview">
+      <header class="stage-header">
+        <div>
+          <p class="eyebrow" id="graphKicker">Scatter</p>
+          <h2 id="graphTitle" contenteditable="true" spellcheck="false">Evidence map</h2>
+          <p id="graphSubtitle">Entities compared with Mentions.</p>
+        </div>
+        <div class="stage-tools">
+          <button class="icon-button" id="resetZoom" title="Reset view" aria-label="Reset view" hidden>↺</button>
+          <button class="button quiet" id="exportButton">Export SVG</button>
+        </div>
+      </header>
+      <div class="chart-wrap" id="chartWrap">
+        <div class="loading" id="loadingState"><span></span>Reading local catalog…</div>
+        <svg id="chart" role="img" aria-labelledby="graphTitle graphSubtitle"></svg>
+        <div id="tableView" class="table-view" aria-labelledby="graphTitle graphSubtitle" hidden></div>
+        <div class="chart-empty" id="emptyState" hidden>No records match these settings.</div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <footer class="stage-footer">
+        <span id="resultSummary">Preparing graph…</span>
+        <span id="policySummary">Evidence rules loading…</span>
+      </footer>
+    </section>
+
+    <aside class="inspector" id="inspector" aria-label="Evidence inspector">
+      <div class="inspector-empty">
+        <span class="inspect-icon">⌁</span>
+        <h3>Select a mark</h3>
+        <p>Choose a node, point, bar, cell, or table row to inspect the source records behind it.</p>
+      </div>
+    </aside>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
