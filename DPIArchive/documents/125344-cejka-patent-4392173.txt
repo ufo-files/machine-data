@@ -1,0 +1,368 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-03T21:28:10Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 4, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 91674, "source_file": "DPIArchive/documents/125344-cejka-patent-4392173.pdf", "source_sha256": "479cfc3a10c3cede8a445bbbf25275c4454ba9d12aaf0beed4e86a119a333e51"}
+
+===== PAGE 1 =====
+{"alpha_words": 245, "chars": 2088, "method": "ocr", "page": 1, "variant": "plain-vision"}
+United States Patent 119]
+Rubin
+154]
+CIRCUIT FOR REDUCING VOLTAGE
+STRESS ACROSS A TRANSFORMER
+[75]
+Inventor: Michael D. Rubin, Saratoga, Calif.
+[73] Assignee:
+Ford Aerospace & Communications
+Corporation, Detroit, Mich.
+[21] Appl. No.: 330,344
+[22] Filed:
+Dec. 14, 1981
+[51] Int. CI.3
+... H02H 9/04
+[52]
+U.S. CI.
+158
+361/35; 323/361
+Field of Search
+361/35, 43, 139;
+307/51, 75, 83, 326-328; 315/94, 101, 105, 107;
+336/171; 323/361
+156]
+References Cited
+U.S. PATENT DOCUMENTS
+1,586,162
+2,151.786
+2,599,890
+2,680,209
+3,376,491
+4,087,701
+5/1926 Palmer:
+3/1939 Marbury .
+6/1952 Bostick
+6/1954 Veronda .
+4/1968 Mas .
+5/1978 Anderson ....
+323/361 X
+OTHER PUBLICATIONS
+"Electron Gun Filament Supply"-Birkhoff et al. Jour-
+nal of Electron Spectroscopy and Related Phenomena
+1977.
+2
+SlIC
+SlIC
+R1.
+C1
+[11]
+[45]
+4,392,173
+Jul. 5, 1983
+Primary Examiner-Harry E. Moose, Jr.
+Attorney, Agent, or Firm-Edward J. Radlo; Robert D.
+Sanborn
+157]
+ABSTRACT
+Disclosed is a circuit for protecting a transformer from
+high voltages in those cases where a differential and a
+common mode output exist at the secondary of the
+transformer. The differential output is a load having a
+relatively small voltage thereacross; the common mode
+output is an output terminal connected to said load and
+having a relatively high voltage applied thereto. The
+present invention replaces the transformer with two or
+more smaller transformers cascaded together. A resistor
+is connected between the primary and the secondary of
+each transformer. Together the resistors form a voltage
+dividing network which splits the single high voltage
+among all of the transformers, relieving the stress on
+each. Optional capacitors are connected in parallel
+across each of the resistors in the case where the inter-
+winding capacitances of the transformers are not equal.
+Each of the load and the output terminal can be either
+an a.c. or a d.c. component. If the load is a d.c. compo-
+nent, a rectifier/filter is inserted between the secondary
+of the last transformer in the chain and the load
+6 Claims, 2 Drawing Figures
+14
+/ RECTIFIER /FILTER
+16
+
+===== PAGE 2 =====
+{"alpha_words": 9, "chars": 124, "method": "ocr", "page": 2, "variant": "plain-psm3"}
+4,392,173
+
+Jul. 5, 1983
+
+U.S. Patent
+
+FIG
+PRIOR ART
+
+i
+|
+1
+|
+|
+|
+|
+i
+i
+_
+
+TERRIER EIRDECEL
+
+—— NS
+| I |e
+
+NS
+| ~
+
+|
+|
+(.
+L
+
+===== PAGE 3 =====
+{"alpha_words": 955, "chars": 6467, "method": "ocr", "page": 3, "variant": "plain-vision"}
+4,392, 173
+11
+2
+inserted between the secondary of the last transformer
+CIRCUIT FOR REDUCING VOLTAGE STRESS
+ACROSS A TRANSFORMER
+in the chain and the load. In this case, the divider net-
+work is connected preferably at the d.c. side of the
+rectifier/filter rather than the a.c. side, to prevent the
+BACKGROUND OF THE INVENTION
+5 low voltage current from modulating the high voltage
+1. Field of the Invention
+current.
+This invention pertains to the field of the protection
+The number of transformers is normally chosen so as
+of transformers in the presence of high voltages in a
+to bring the voltage drop across each transformer low
+common mode/differentiated configuration. A particu-
+enough so as not to overstress any one transformer.
+larly useful application for this invention is in the field 10
+BRIEF DESCRIPTION OF THE DRAWINGS
+of protecting the power supply transformer of a travel-
+ing wave tube amplifier (TWTA).
+These and other more detailed and specific objects
+2. Description of the Prior Art
+and features of the present invention are more fully
+A prior art search uncovered the following U.S. pa-
+disclosed in the following specification, reference being
+tent references:
+15 had to the accompanying drawings, in which:
+U.S. Pat. No. 2,680,209 shows in FIG. 7 a choke
+FIG. 1 is a schematic diagram of a conventional
+(unlabeled) which transfers the voltage from the heater
+method for providing a power supply for a TWTA; and
+transformer in a klystron to the choke itself. This device
+FIG. 2 is a schematic diagram of the two transformer
+is useful only when the voltage supplied to the cathode
+embodiment of the present invention.
+(12') is pulsed voltage. The present invention, on the 20
+other hand, accommodates non-pulsed voltages includ-
+• DETAILED DESCRIPTION OF THE
+ing d.c. voltages as well as pulsed voltages. Further-
+PREFERRED EMBODIMENTS
+more, in the '209 patent, all the voltage drop is placed
+The invention has applicability whenever there is a
+across the choke, whereas the present invention spreads
+transformer having a differential and a common mode
+the voltage between two transformers or among several 25
+output. The differential output is an a.c. or d.c. load
+transformers.
+having a low (relative to the common mode output)
+U.S. Pat. No. 2,599,890 shows a circuit for isolating
+voltage drop across it. The common mode output is an
+heater transformer 18, 19 from the high voltage applied
+output terminal connected to the load and is elevated to
+to the cathode in a magnetron by means of using chokes
+16 and 17. As in the 209 patent, the voltage supplied to 30 a high a.c. or d.c. voltage with respect to ground.
+FIG. 1 illustrates the special case where the load is
+cathode 12 is a pulse, applied at terminal 13 via capaci-
+heater 8 of TWTA 6 and the output terminal is cathode
+tor 20. The present invention accommodates non-pulsed
+10 of TWTA 6. TWIA 6 also contains helix 12 and
+as well as pulsed high voltages. Furthermore,
+the '890
+patent develops the full voltage drop across chokes 16
+collector 14. It is often desirable in a TWTA to ground
+and 17, whereas the present invention spreads voltage 35 helix 12 and to operate collector 14 at or near ground
+potential. FIG. 1 illustrates the case where collector 14
+stress between two transformers or among several
+transformers.
+is operated at ground potential. In this case a very high
+Secondary references are: U.S. Pat. Nos: 1,586,162;
+negative voltage must be applied to cathode 10 to facili-
+2,151,786; and 3,376,49l:
+tate the movement of electrons through TWTA 6. This
+40
+is illustrated in FIG. 1 by means of showing d.c. power
+SUMMARY OF THE INVENTION
+supply 4 connected between cathode 10 and ground,
+In many applications a transformer is used to provide
+with the negative side of source 4 connected to cathode
+isolation between an a.c. source and a common mode/-
+•10.
+differential output. By this is meant that connected to
+Because it is difficult to provide high voltage insula-
+the transformer secondary is a load having a relatively 45 tion within the confines of TWTA 6 itself, heater 8 is
+low voltage drop across it, and connected to said load is
+electrically connected to cathode 10. The voltage drop
+an output terminal elevated above ground to a rela-
+across heater 8 is relatively much lower than the volt-
+tively much higher positive or negative voltage. This
+age drop between cathode 10 and ground as produced
+situațion occurs, for example, in the power supply for:
+by source 4.
+the heater and cathode of a TWTA. As a consequence 50
+Transformer T1 is used to provide isolation between
+of this configuration, the entire high voltage drop asso-
+a.c. source 2, connected to its primary, and heater 8 and
+ciated with the output terminal is placed across the
+cathode 10, connected to its secondary. Transformer T1
+transformer, subjecting it to grat voltage stress. It is
+also serves to apply the proper operating voltage across
+desirable to relieve this stress across the transformer to
+heater 8, which is shown as an a.c. load, although it
+reduce insulation requirements and/or improve reliabil- 55 could also be a d.c. load.
+ity, hence the desirability of the present circuit.
+In the circuit of FIG. 1, the entire high voltage pro-
+The present invention utilizes two or more transform-
+duced by source 4 is applied across transformer T1,
+ers in place of the single transformer of the prior art in
+placing transformer T1 under great voltage stress and
+such a way that the total voltage stress is spread (prefer-
+increasing the risk of breakdown in its insulation.
+ably evenly) between or among the transformers. This 60 Hence, the need arises to protect transformer T1 against
+is readily accomplished by means of a resistive voltage.
+very high voltages.
+divider network. Additionally, capacitors can be em-
+The present invention solves this problem, as is illus-
+ployed in parallel with each of the resistors in the volt-
+trated in FIG. 2. Transformer T1 is replaced by two
+age divider to compensate for the interwinding capaci-
+transformers, transformers T1 and T2, each having a
+tance differences of the transformers.
+65 voltage drop across it equal to half of the voltage across
+Each of the load and the output terminal can be either
+T1 of FIG. 1.
+an a.c. or a d.c. component. If the load is responsive to
+Resistive network R1 and R2 forms a voltage divider
+direct current, a rectifier and preferably a filter must be
+which splits the voltage from source 4 between T1 and
+
+===== PAGE 4 =====
+{"alpha_words": 809, "chars": 5311, "method": "ocr", "page": 4, "variant": "plain-vision"}
+4,392, 173
+3
+T2. RI is connected between the primary and second-
+ary of T1 and R2 is connected between the primary and
+secondary of T2. Capacitors C1 and C2, connected in
+parallel across resistors R1 and R2, respectively, com-
+pensate for possible differences in the interwinding
+capacitances of T1 and T2. If T1 and T2 have equal
+interwinding capacitances, then C1 and C2 can be elimi-
+nated.
+be apparent to one skilled in the art that would yet be
+encompassed by the spirit and scope of the invention.
+1. A circuit for reducing voltage stress on a first trans-
+former having a primary and a secondary, wherein a
+load coupled to said secondary has a first voltage there-
+across, and an output terminal is connected to said load,
+to which a second voltage is applied that is much
+In general, the equation that must be satisfied is:
+greater than said first voltage; said circuit comprising:
+at least one additional transformer, so that the total
+RI(C1 + CT1) = R2(C2 +CT2)
+number of transformers is an integer n, each trans-
+where CT1 is the interwinding capacitance associated
+former having a primary and a secondary, wherein
+with transformer T1 and CT2 is the interwinding capac-
+the primary of the jth transformer is connected to
+itance associated with transformer T2.
+the secondary of the (i-1)st transformer for all j
+If load 8 is a d.c. component, then a rectifier (and
+such that 2≤jEn, and the secondary of the nth
+preferably a filter) 16 is inserted between the secondary
+transformer is coupled to said load; and
+of T2 and load 8. This is shown by dotted lines in FIG.
+a voltage dividing network for shifting some of said
+2. In this case, the connection between resistive voltage
+second voltage from across said first transformer to
+divider network, R1, R2 and the secondary of trans- 20
+across said additional transformers), said voltage
+former T2 is made on the d.c. side rather than the a.c.
+dividing network comprising:
+side of rectifier/filter 16.
+n resistors, with one resistor connected between a
+If component 10 is an a.c. component rather than a
+primary and a secondary of each transformer;
+d.c. component, source 4 is replaced by an a.c. source
+and
+rather than a d.c. source.
+25.
+n capacitors, each resistor having a capacitor con-
+Preferably T1 and T2 are selected to be as equal as
+nected thereacross;
+possible; then the interwinding capacitances of these
+where RJ(Cj+CTj)=Rk(Ck+CTk) for all inte-
+transformers are equal and C1 and C2 can be eliminated.
+gers j, k such that 1=j≤n and 15k≤n, where
+R1 and R2 are preferably equal, causing the voltage
+Rj is the resistance of the jth resistor, Cj is the
+drop associated with source 4 to be spread equally 30
+capacitance of the jth capacitor, CTj is the inter-
+across T1 and T2. R1 and R2 should hve very high
+winding capacitance of the jth transformer, Rk is
+values (such as greater than 50 megohms) so the voltage
+the resistance of the kth resistor, Ck is the capac-
+divider will not draw too much power.
+itance of the kth capacitor, and CTk is the inter-
+In some applications where ultra high voltages are
+winding capacitance of the kth transformer.
+employed, it may be necessary or at least desirable to 35
+2. The circuit of claim 1 wherein said load is a heater
+spread the voltage among more than two transformers.
+of a traveling wave tube amplifier and said output termi-
+In this case, any integral number n of transformers may
+nal is a cathode of said traveling wave tube amplifier.
+be cascaded, with the primary of the jth transformer
+3. The circuit of claim 2 wherein the heater is opera-
+connected to the secondary of the (j-1)st transformer
+ble upon the placement of an a.c. voltage thereacross
+for 2=jEn. Each transformer has a resistor connected
+40 and said cathode is activated upon the placement of a
+between its primary and its secondary. If the transform-
+negative d.c. voltage thereupon.
+ers have unequal interwinding capacitances, a capacitor
+4. The circuit of claim 1 wherein at least one of the n
+is connected in parallel across each resistor. In general,
+transformers has a core around which is wrapped its
+the equation that must be satisfied is:
+primary and its secondary, wherein no core Is con-
+Rj(Cj+ CT)= Rk(Ck+ CTk)
+nected to said voltage dividing network.
+5. The circuit of claim 1 wherein the input imped-
+for all integral j, k such that 1=j≤n and 15k≤n.
+ances across the primaries of each of the n transformers
+Once again, if load 8 is a d.c. component, then a rec-
+are not all the same.
+6. The circuit of claim 1 wherein said load is activated
+tifier/filter is employed between the secondary of the 50 upon the application of a d.c. voltage thereacross, said
+nth transformer and load 8, and the nth resistor is con-
+nected preferably at the d.c. side rather than the a.c.
+circuit further comprising a rectifier connected between
+side of the nth transformer.
+the secondary of the nth transformer and said load for
+The above description is included to illustrate the
+converting between a.c. and d.c.;
+merat to limit the scope of embodimini and ip not ss
+wherein that end of the nth resistor which is con-
+nected to the secondary of the nth transformer is
+the invention is to be limited
+only by the following
+connected at the d.c. side of said rectifier.
+claims. From the above discussion, many variations will
+60
+65
