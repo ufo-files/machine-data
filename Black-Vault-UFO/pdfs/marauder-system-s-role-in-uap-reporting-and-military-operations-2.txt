@@ -1,0 +1,915 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-06T07:47:17Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 18, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 2586651, "source_file": "Black-Vault-UFO/pdfs/marauder-system-s-role-in-uap-reporting-and-military-operations-2.pdf", "source_sha256": "babab7d803715bbedd880df1e5ef0d6c533f23ce13136005f5d3fc2350455c0f"}
+
+===== PAGE 1 =====
+{"alpha_words": 297, "chars": 1958, "method": "ocr", "page": 1, "variant": "plain-vision"}
+DEPARTMENT OF THE AIR FORCE
+HEADQUARTERS 66TH AIR BASE GROUP
+HANSCOM AIR FORCE BASE MASSACHUSETTS
+18D STATES OF
+27 June 2024
+66 ABG/SCOK (FOIA/PA)
+35 Hamilton St., Bldg 1436
+Hanscom AFB, MA 01731-2800
+John Greenewald Jr.
+The Black Vault
+27305 W Live Oak Rd.
+Suite 1203
+Castaic, CA 91384
+Dear Mr. Greenwald,
+This responds to your Freedom of Information Act request from 2 February 2024 seeking the
+following:
+I respectfully request a copy of the Air Force Life Cycle Management Center, "Marauder
+Mission Reporting User Guide,"
+September 2021. Date Range 1/1/2021 to 2/2/2024
+We reviewed 15 pages for release and determined they are fully releasable in accordance with 5
+U.S.C. §552a. Our review included consideration of the "Foreseeable Harm Standard."
+The responsive record, consisting of 15 pages for request number 2024-02088-F, has been
+transmitted to you via DoD SAFE App.
+The FOIA provides for the collection of fees based on the costs of processing a FOIA request
+and your fee category. In this case, we have waived fees.
+If you disagree and interpret this response as an adverse action, you may appeal it in writing to
+the Secretary of the Air Force or submit your appeal on-line at the Air Force's Public Access
+Link: https://efoia.cce.af.mil/. If writing, your appeal should be postmarked no later than 90
+calendar days from the date of this letter. Address your letter as follows:
+Secretary of the Air Force Thru:
+66 ABG/SCOK (FOIA/PA)
+35 Hamilton St., Bldg 1436
+Hanscom AFB, MA 01731-2800
+Should you have any questions or concerns, please do not hesitate to contact me via email at
+garreth.harrington@us.af.mil and Hanscom.FOIA@us.af.mil.
+You may contact the Air Force FOIA Public Liaison Officer, Mr. Robert E. Bivins, concerning
+this final response at Air Force FOIA Public Liaison Office (SAF/CNZA), 1800 Air Force
+Pentagon, Washington, DC 20330-1800, daf.foia@af.mil or (703) 614-8500. You may also seek
+REVOLUTIONIZING THE WARFIGHTER'S EDGE
+
+===== PAGE 2 =====
+{"alpha_words": 54, "chars": 380, "method": "ocr", "page": 2, "variant": "plain-vision"}
+dispute resolution services from the Office of Government Information Services and can find
+information on this Office at https://www.archives.gov/ogis.
+Using the dispute resolution services, will not affect your appeal rights.
+Please reference your assigned case number when making inquiries, FOIA 2024-02088-F
+Sincerely,
+Garreth Harrington
+Base FOIA Manager
+66th Air Base Group
+
+===== PAGE 3 =====
+{"alpha_words": 65, "chars": 441, "method": "ocr", "page": 3, "variant": "plain-vision"}
+This document is made available through the declassification efforts
+and research of John Greenewald, Jr., creator of:
+The Black Vault
+The Black Vault is the largest online Freedom of Information Act (FOIA)
+document clearinghouse in the world. The research efforts here are
+responsible for the declassification of hundreds of thousands of pages
+released by the U.S. Government & Military.
+Discover the Truth at: http://www.theblackvault.com
+
+===== PAGE 4 =====
+{"alpha_words": 22, "chars": 152, "method": "ocr", "page": 4, "variant": "plain-vision"}
+MISSION
+GEN
+EXT-
+ON INO dad
+/
+MARAUDER
+Marauder
+Mission Reporting User Guide
+Version 2.43
+Feedback/Support: marauder@kr.af.mil | Last Updated: FEB 2024
+
+===== PAGE 5 =====
+{"alpha_words": 283, "chars": 2111, "method": "ocr", "page": 5, "variant": "plain-vision"}
+Summary
+Marauder provides the global mission reporting capability on SIPR for the
+Air Force, Space Force and select Joint Force partners. Key functionality
+includes:
+• Drafting mission reports
+• Quality control, rejection and approval pipeline to ensure
+fidelity of report
+• Publication of reports for global access
+• Export of published reports for analysis through Marauder's
+front-end interface or through Marauder's application
+programming interface (API)
+Vision
+The purpose of Marauder is to enable commanders and mission planners
+to make better decisions by leveraging the information contained in the
+mission report (MISREP). We accomplish this by creating high quality
+MISREPs for the military and for the military's partners, through
+standardization and automation.
+Roles
+A Marauder user is assigned a role in the application based on the user's
+obligations. You can find your role in your Profile on the app (see Profile
+Section below).
+Tier
+Role
+Viewer
+Application Privileges*
+View and Export published reports
+Drafter
+Users
+Analysts
+Unit Intel
+Write, Edit, and Submit reports for
+Review
+IlI
+Reviewer
+IV
+Approver
+Reject reports with comments,
+Submit reports for Approval
+Publishes and Export finalized
+reports
+Wing / CIC
+AOC
+* Each role includes ALL application privileges of the lower tiers.
+To update your role in Marauder, email marauder@kr.af.mil with the
+following information:
+Rank | First Name | MI | Last Name | DOD ID | Duty Status
+User Role Requested | Environment (Production/Demo/Other)
+Marauder - User Guide v.2.42.1|
+Table of Contents
+Table of Contents ........
+2
+Marauder Summary ...... 2
+Roles
+2
+Domains
+Air | Space | Ground
+Report Types ......
+MISREP | ACEREP
+Workflow ........
+Landing Page
+Draft
+QC (Quality Control)
+Approve
+Published
+3
+.... 3
+4
+Navigation
+Marauder Updates
+Help Resources
+Profile
+6
+Features
+...7
+Search and Filter
+Table
+Mission Basics ..
+9
+Equipment (Air Only)
+Events ....................... 10
+Summary
+Point of Contact (POCs) .. 11
+Miscellaneous ............. 11
+Saving
+Narrative
+Map
+Activity Log
+Profile
+Templates
+Frequently Asked
+Questions (FAQ)......
+.... 12
+2
+
+===== PAGE 6 =====
+{"alpha_words": 3, "chars": 32, "method": "ocr", "note": "low-confidence/possibly image-only page", "page": 6, "variant": "plain-vision"}
+Marauder - User Guide v.2.42.1|
+
+===== PAGE 7 =====
+{"alpha_words": 387, "chars": 2533, "method": "ocr", "page": 7, "variant": "plain-vision"}
+Domains
+Air
+Marauder is the mission reporting system of record for USAF air missions. The air domain is Marauder's most
+utilized domain. The published reports correspond to missions flown under the Air Tasking Order. Users can
+publish MISREPs, INTREPs, and ACEREPs by selecting the air domain in Marauder.
+Space
+The space domain supports the Space Command (now USSF) to track satellites and space assets. Space
+MISREPs are published in a process similar to air MISREPs; users of Marauder's space domain can only
+publish MISREPs in the space domain.
+Ground
+The ground domain is the latest domain in Marauder. Marauder supports short and long trip reports. Marauder
+limits reports in the ground domain to USAF Trip Reports. Note, the operations are on the ground continuously
+collecting intel.
+Report Types
+Mission Report (MISREP)
+The MISREP is the historical record of a mission. It is a report of the smallest unit of action, embracing the
+unit's maneuvers and observations. MISREPs are the primary way of conveying mission results and current
+intelligence to other theater units (all Services), Allied, Coalition, and Partner Nations and various other
+organizations in a timely manner. MISREPs are used to track intelligence collection, mission execution, combat
+mission results, or mission completion. MISREP data is also used to assess battle damage and plan missions,
+among other analytical efforts.
+Agile Combat Employment Report (ACEREP)
+Agile combat reporting is currently a Beta Feature in Marauder. Due to the resource-constrained, high ops-
+tempo, and likely communications-degraded environment expected during ACE operations, the standardized
+requirements of a traditional MISREP are replaced by a streamlined narrative summary that captures only
+mission-critical and high intelligence value information
+The ACEREPs can be accessed by going to the Marauder icon in the top left of the page. This will bring you to
+the home page where you can choose between MISREPs and ACEREPs. Once you click on ACEREP Drafts
+or Published, you can navigate back to MISREPs by clicking on the top left of the page.
+ACEREPs go immediately from Draft to Publish, bypassing the QC and Approve steps. The ACEREP only
+contains a Mission Basics section and an ACEREP Details section. In this version, there is no filter on the
+ACEREPs Published page and the ACEREPs are not available via the Marauder API. Future versions may
+explore these possibilities. Contact marauder@kr.af.mil to give feedback on ACEREPs.
+Marauder - User Guide v.2.42.1|
+4
+
+===== PAGE 8 =====
+{"alpha_words": 213, "chars": 1404, "method": "ocr", "page": 8, "variant": "plain-vision"}
+MARAUDER
+Mission Reporting
+DRAFT
+• Connected
+.. °
+OC ?
+APPROVE 21
+PUBLISHED
+STATS
+MARAUDER
+Mission Reports
+DRAFT
+Qc
+APPROVE
+PUBLISHED
+A Beta
+Agile Combat Reports
+DRAFT
+PUBLISHED
+Have feedback or need support? Email us on NIPR: marauder@kr.af.mil
+Powered by Kessel Run Q
+Workflow
+Landing Page
+The 'Landing Page' is the starting point once your account is approved. The landing page depends on your
+account: Unit Drafters will see unsubmitted MISREPs, Wing Reviewers will see MISREPs pending QC, AOC
+Unit Support approvers will see MISREPs pending approval, and everyone else will see published MISREPS.
+Draft
+Action buttons at the top of the table allow you to download the Marauder USMTF template (note, the
+Marauder USMT format differs from USMTF 2004/2014 format), ingest mission report data or create
+new reports.
+• Unsubmitted MISREPs - Drafters create templates to prefill data and submit drafts to QC. They can
+also view rejected MISREPs and filter by unit, A/C, callsign, and domain (Air & Space).
+• New MISREP Type - Drafters can create templates or start new drafts based on domain (Air & Space).
+• MISREP Templates - Drafters can currently create templates for Air and Space domains.
+QC (Quality Control)
+Reports in this step of the workflow are pending quality control (QC). Wings are required to monitor MISREPs
+in the Pending QC view and push for approval.
+Marauder - User Guide v.2.42.1|
+5
+
+===== PAGE 9 =====
+{"alpha_words": 267, "chars": 1762, "method": "ocr", "page": 9, "variant": "plain-vision"}
+Approve
+Reports in this step of the workflow are pending approval by unit support. Depending on which AOC the report
+has been drafted under, unit support is required to monitor MISREPs in the waiting approval view, then publish
+if they are accurate.
+Published
+Published reports are available to anyone with access to Marauder. If a report makes it to this step it should be
+considered valid and ready for analysis. Users can search against published reports based on a number of
+criteria (including events) and export them as a CSV or as a KMZ file. These are also the reports available via
+our application programming interface (API).
+Stats
+The stats page is separate from the Draft to Published workflow, but is accessible on the navigation bar. On
+the stats page a user can select an AOC and a timeframe - either the past 24 hours, the past 7 days, or the
+past 24 days - and view metrics for that AOC. This feature is only available to Air reports at this time. It shows
+the number of drafts created, reports published, the median time to publish between engine shutdown and a
+draft being published, and the percentage of reports that are being published within the respective IRD
+guideline.
+MARAUDER
+Mission Reporting
+• Connected
+DRAFT
+APPROVE 19
+PUBLISHED
+STATS
+Marauder Stats
+- Domall
+AIR
+Air Operations Center
+691h
+- rimespan
+Past 7 Days
+APPLY
+609th - AIR
+30 Jun 2022 01:32Z - 07 Jul 2022 01:32Z
+Drafts Created
+Reports Published
+Median Time To Publish
+Ohr 4min
+Published Within IRD Guidelines
+100%
+Reports Published Per Day
+Current Reports in Workflow
+0.75-
+0.5-
+0.25-
+6/30
+7/1
+7/7
+Have feedback or need support? Email us on NIPR: marauder@kr.af.mil
+• Draft
+• QC
+• Approve
+As of: 07 Jul 2022 01:32Z
+Powered by Kessel Run
+Marauder - User Guide v.2.42.1|
+6
+
+===== PAGE 10 =====
+{"alpha_words": 276, "chars": 1806, "method": "ocr", "page": 10, "variant": "plain-vision"}
+Navigation
+Notifications
+Marauder Updates
+Clicking on the star shaped icon in the top right of the screen will open a modal on recent updates to Marauder.
+The updates for each version will include the date and a list of new features and bug fixes.
+MARAUDER
+• Connected
+ac O
+APPROVE 32
+PUBLISHED
+Marauder Updates
+Questions about an update? Email marauder@kr.af.mil on NIPR
+Version 2.36.0 - March 6. 2023
+Features
+• Added ability to add/delete multiple phone numbers/email
+addresses in protile modal
+• POC page now displays all users who had modified report
+• Ability to view current profile information associated with POCs
+• MISREP ID now displayed in MISkEr neader
+• Added Closest Point of Approach, Safe/Unsafe fields to Enemy
+Intercept events
+• Global Campaign Plan (GCP) has been added to the ISR
+Marauder event. This option will allows users to associate
+tactical level MISREPs with strategic campaign plans as directed
+by the National Detense Strategy. Units can link their collection
+and actions to strategic priorities and assist strategic offices to
+convey tactical A-Isk MISkers to decision makers
+bug rixes
+• N/A
+Version 2.35.0 - January 20, 2023
+Version 2.34.0 - January 4, 2023
+Help Resources
+The question mark icon in the top right will open a pop-up with several options.
+• Help pulls up a page of Frequently Asked Questions.
+• Feedback will open a modal where you can rate Marauder and provide a short explanation for your
+rating. The Marauder team will see these reviews.
+• SIPR Email will open a SIPR email to members of the Marauder team directly. There is not a SIPR
+Marauder Orgbox email so this is the best way to contact the team.
+• Documents will open a modal with this user guide, as well as the latest versions of the MIRD, SIRD,
+PIRD, and BIRD.
+Marauder - User Guide v.2.42.1|
+7
+
+===== PAGE 11 =====
+{"alpha_words": 210, "chars": 1422, "method": "ocr", "page": 11, "variant": "plain-vision"}
+Mission keporting
+DRAFT
+ac O
+APPROVE 20
+PUBLISHED
+STATS
+• Connected
+version z.3o.U
+• What's New
+E FAQ
+F Feedback
+• Email Marauder
+• Training Material
+MARAUDER
+Mission Reports
+DRAFT
+OC
+APPROVE
+PUBLISHED
+A Beta
+Agile Combat Reports
+DRAFT
+Profile
+Profile contains information about the user logged into Marauder. Users are able to set some default filters.
+This is also the information that will populate the POC subsection on reports when users interact with the
+mission report.
+MARAUDER
+• Connected
+APPROVE
+Profile
+Marauder allows vou to record vour contact intormation under vour protile. Please add vour contact details below. This intormation
+will be used to populate the POC information on reports as you interact with Marauder.
+Civ admin marauder
+Assigned Role: Admin
+Rank *
+Full Name
+aamin maraude
+Service
+All rorce
+Default Domain -
+Operations Center *
+608 AOC
+~ Email Addresses
+Email Type
+NIPR Orgbox
+C Phone Numbers
+Phone Type *
+VOIP
+Wing+
+11 Wing
+Emall Address *
+rtoups@kr.af.mil
+Phone Number *
+555-555
+13 ARGS
++ ADDITIONAL EMAIL
++ ADDITIONAL PHONE
+SAVE
+Features
+Search and Filter
+This is how you find your report within Marauder. Select the values you want to filter against; the results will
+populate in the table below. You can filter for specific categories; or leave the filters blank to return all
+MISREPs (this is the default behavior). You can also use a free text search.
+Marauder - User Guide v.2.42.1
+8
+
+===== PAGE 12 =====
+{"alpha_words": 282, "chars": 1848, "method": "ocr", "page": 12, "variant": "plain-vision"}
+The Center Point and Radius NM fields allow a user to search by location. Put a coordinate into the Center
+Point field and the radius to search within.
+DRAFT
+ac O
+APPROVE 32
+PUBLISHED
+STATS
+= FILTER
+- Domain
+- Center Poin
+- Asset Type
+Show More v
+- Start Date
+•
+• Radius NM
+Type or click to select events
+• Load Saved Filter
+rull text search
+Q Search
+end Date
+Takeoft Callsign
+•
+• Connected
+Operations Center
+- Unit or Squadror
+AND
+• SAVE FILTER
+O CLEAR ALL
+APPLY
+Table
+The table contains the MISREPs returned by the search. You can interact with a MISREP by clicking on the
+specific row in the table to open the report. The various tabs (Draft, QC, Approve, Published) reflect the step in
+the pipeline you are currently searching against. Left clicking on a row will open the highlighted report, while
+right clicking will give you options to open this report in another tab (leaving your table unmodified).
+MARAUDER
+Mission Reporting
+• Connected
+DRAP I
+APPROVE
+PUBLISHED
+STATS
+AIR 609th
+= FILTER
+PUBLISHED REPORTS
+Table • Map
+* EXPORT
+MISREP I
+Domain
+Date Tasked y
+Unit or Squadron
+Drafter Wing
+Asset
+Callsign
+Mission Events
+Air
+01 JUL 2022 13:56Z
+7th AMXS
+1 FW
+C-12R
+urge
+0 18 0 10 0
+250838
+04 MAY 2022 00:00Z
+Unavailable
+AB-205
+• 1C DO DO 1O 10 10 10 10 1
+1 - 2 of 2 Reports
+Reports per page: 25-
+*The table in the Publish tab allows for selected rows to be included in your export. If the rows are unchecked,
+the entire table will be included in the export.
+Select Table Columns
+Clicking on the rectangles icon opens a pop up with every possible column. You can choose which columns
+you would like displayed on your table for easy visualization. Default columns are based on user feedback and
+usage, if you use a column frequently and would like to see it included please give the Marauder team that
+feedback.
+Marauder - User Guide v.2.42.1|
+9
+
+===== PAGE 13 =====
+{"alpha_words": 255, "chars": 1857, "method": "ocr", "page": 13, "variant": "plain-vision"}
+PUBLISHED REPORTS
+III
+Show Columns
+* EXPORT
+X
+MISREPD
+Domaln
+Date asked y
+Mission Number
+Unit or Squadron
+Asset
+Callsign
+Mission events
+MISREP ID
+Air
+01 MAR 2021 16:22Z
+1245
+Test
+AC-10
+Test
+• 1 1
+26720
+Air
+02 JAN 2021 00:00Z
+asdf
+asdf
+AEROSO...
+asdfasdf
+Domain
+Tasking Order
+Date Tasked
+Shift
+Mission Number
+25828
+Air
+30 NOV 2020 00:00Z
+fred
+A-10C
+jsm
+E 1
+Z4U0U
+All
+13 OCT 2020 00:00Z
+x
+A-129
+maverick2
+Unit or Squadron
+Drafter Wing
+Asset
+22803
+Air
+20 SEP 2020 00:00Z
+ZYX789
+222 FS
+F-16CJ
+HORSE 51
+Callsign
+MAJCOM
+Space
+UZSEP ZUZU ZEUUZ
+123
+© 1
+16019
+Air
+27 MAY 2020 00:00Z
+123
+123
+A-129D
+123
+• 1
+•
+Takeoff ICAO
+Landing ICAO
+Ops Center
+17106
+Cyber
+18 MAY 2020 13:28Z
+Op
+Mission Events
+Has Attachments)
+17380
+All
+18 MAY 2020 00:00Z
+123
+F-16 Squadron
+F-16AM
+123
+• 1®1
+*Note * To interact with attachments, go to the summary subsection of the mission report or go to the mission
+report's event timeline.
+*See Draft Section on how to get Marauder's unique USMTF template.
+Mission Basics
+In most cases, you will use the Air Tasking Order to fill out the mission basics fields. Note, the "Report Type" is
+chosen at this step.
+Air MISREP - Draft
+¡ DELETE
+a SAVE
+SUBMIT TO QC
+@ MISSION BASICS
+Mission Narrative
+* EQUIPMENT
+9 TIMELINE
+Testing for missing events
+1E SUMMARY
+E POCS
+* ACTIVITY LOG
+Classification
+- Classification *
+UNCLASSIFIED
+- Associated Caveats*
+FOUO
+Operation
+Operation*
+EXERCISE
+Operations Center*
+609th
+Mission ID
+- Tasking Order (ATO) *
+AC
+Mission Type *
+ADMIN
+Message ID
+- Report Type * .
+MISREP
+Originator (Unit or Squadron)
+7th AMXS
+ATO Ingest
+chosen at this step.
+In most cases, you will use the Air Tasking Order to fill out the mission basics fields. Note, the "Report Type" is
+Equipment (Air Only)
+In this section, you can add the aircraft information around assets associated with the mission report.
+Marauder - User Guide v.2.42.1|
+10
+
+===== PAGE 14 =====
+{"alpha_words": 266, "chars": 1789, "method": "ocr", "page": 14, "variant": "plain-vision"}
+AIR MISREP - bratt
+© MISSION BASICS
+• EQUIPMENT
+9 TIMELINE
+1B SUMMARY
+E POCS
+Equipment Data
+Reaper ® 0
+Aircraft Callsign
+Reaper1
+- Radar Name or Destination
+- Mission Davare Load or
+A ACTIVITY LOG
+• we So here Load or
+- vo Name or Designator
+Mies. Software Load or
+• Me So Trave Load or
+- ECM Name or Designator
+• M So Dare Load or
+- CMD Name or Designator
+- Chaff Designator
+- Number of Chaff or Cartridges
+7 Flare Designator
+narate Mor
+• DELETE
+B SAVE
+- Number of Flares
+Design Decoy Name or
+- To Me Doy Sorware Load
+Number of Towed Decoys
+- Type of Radar-Guided AAM
+Number of Radar-Guided AAM
+- Type of IR-Guided AAM
+- Number of IR-Guided AAM
+- Gun Name or Designato
+- Number of Gun Rounds
+•Actude Number open to
+- TGT Pod Name or Designator
+- Adaltonal Avionics
+- Data Link
+SUBMIT TO QC
+Have feedback or need support? Email us on NIPR: marauder@kr.af.mil
+Powered by Kessel Run Q
+Events
+In Air and Space reports, events are added under "Timeline". Ground-trip reports differ in that events exist
+under 'Reporting Period'. All events are added and organized in chronological order based on date time group
+(DTG) information. Each Air Domain timeline includes a takeoff & landing by default.
+Air MISREP - Draft
+® MISSION BASICS
+* EQUIPMENT
+9 TIMELINE
+§ SUMMARY
+Takeoff O
+E Pocs
+Flight Details
+@ ACTIVITY LOG
+- Number of Aircraft *
+- Asset Type (Aircratt) "i
+- Aircraft Tail Number (s) *
+Marative Map
+• COPY
+İ DELETE
+a SAVE
+SUBMIT TO QC
++
+TaKeoTT
+Landing
+• Mission Canceled
+$ Landing O
+Takeoff
+Landing
+•takeof Location CA C
+Code and Location (ICAO
+- Takeoff Time DTG *
+- Last Land Time *
+• Mode 3 (Irt Codes)
+• Last Engine Shutdown Time
+Each domain has a broad set of unique events; nevertheless, there are a few event types that are domain
+independent.
+Marauder - User Guide v.2.42.11
+11
+
+===== PAGE 15 =====
+{"alpha_words": 271, "chars": 1874, "method": "ocr", "page": 15, "variant": "plain-vision"}
+Summary
+Summary contains a brief overview of the events in the reporting timeline or reporting period. Associated
+attachments and general text can also be viewed & added from the summary tab.
+Air MISREP - Draft
+® MISSION BASICS
+Dates & limes
+Mission Summary
+→ EQUIPMENT
+NO DATE
+9 TIMELINE
+Takeoff
+3B SUMMARY
+Gentext (lakeott event Description)
+No text entered
+E POCS
+4 Landing
+Gentext (Landino event Description)
+No text entered
+Narative Map
+• COPY
+• DELETE
+B SAVE
+SUBMIT TO OC
+Attachments
+* NEW ATTACHMENT
+inere are no attacnments to displav
+W ACTIVITY LOG
+Mission Narrative
+Testing for missing events
+Point of Contact (POCs)
+Contact information is recorded from every user interaction with the mission report as it moves through the four
+steps in the workflow. (e.g., user profile information is recorded upon clicking submit to qo from draft).
+MARAUDER
+® Meton Repring
+DRAFT
+© MISSION BASICS
+• EQUIPMENT
+9 TIMELINE
+SAMARY
+E POCS
+ac O
+APPROVE 32
+AIr MISREP ID: 266053 - Draft
+USMTF (INGEST)
+Mai Ron Swanson
+DRAFTER (UNIT OR SQUADRON)
+Maj Ron Swanson
+1LT Homer Simphson O
+PUBLISHED
+Air Force
+Air Force
+Air Force
+STATS
+609 CAOC
+609 CAOC
+612 AOC
+7 FW
+1 FW
+14 FTW
+POC data is populated from profile info of logged in user upon submit.
+555-867-5309
+555-867-5309
+555-456-1254
+• Connected
+Narrative
+• COPY
+• DELETE
+B SAVE
+SUBMIT TO OC
+ronald.u.swanson@smil.mail.mil
+ronala.u.swanson @smi.mail.mll
+homer.j.simpson@smil.mail.mil
+Miscellaneous
+Saving
+Users should save manually and continuously throughout the mission reporting process to ensure data is not
+lost. Users may also save working copies of their draft as templates for later use.
+Narrative
+Provides a centralized account for the report. Used for details that would not be captured by a specific field in a
+report while providing a high level overview with context of the report itself.
+Marauder - User Guide v.2.42.1
+12
+
+===== PAGE 16 =====
+{"alpha_words": 280, "chars": 1862, "method": "ocr", "page": 16, "variant": "plain-vision"}
+Map
+Common picture for the locations of each event inside of a report. Currently only for Air Domain (as of v2.19.0).
+The map feature can only be enabled after opening a Mission Report containing geospatial information.
+DRAFT
+© MISSION BASICS
+→ EQUIPMENT
+9 TIMELINE
+9 SUMMARY
+• POCS
+ac O
+APPROVE 32
+PUBLISHED
+Air MISREP ID: 266141 - Draft
+México (Mexico
+Cayman Island
+SIAIS
+[ coPY
+• DELETE
+(Algeria) siliall
+Cabo Verde
+• SAVE
+SUBMIT TO QC
+(Libya) Lad
+That du
+26.59N79.6W
+@ ACTIVITY LOG
+Classification
+Operation
+Mission ID
+Message ID
+Activity Log
+The activity log provides information about a specific mission report's interactive history. This includes, for
+example, the point of contact (POC) who moved a mission report from one step in the workflow to another
+(from draft to qc, for example) or who initially created the mission report or who has performed specific tasks
+(such as rejections).
+Templates
+Drafters can share templates with pre-filled data to speed up the MISREP process. Users can include an
+additional set of initial events in a template. Select the template and edit, or use the template to create a draft.
+Users can also save working templates from drafts in progress. Templates can be referenced via Template ID.
+Frequently Asked Questions (FAQ)
+Where can I access Marauder?
+Production Marauder: https://marauder.kr.smil.mil/
+Demo/Training: https://marauder-demo.kr.smil.mil/
+Please verify all bookmarks match the above urls as they have changed over time.
+What do I do if Marauder goes down?
+If you are experiencing a Marauder outage, please email us at marauder@kr.af.mil (on NIPR) with as much
+detail as possible. We will promptly respond and gather a team to solve the issue with minimum interruptions.
+What is Kessel Run?
+Air Force Life Cycle Management Center (AFLCMC) / Detachment 12 - Hanscom, AFB
+Marauder - User Guide v.2.42.1|
+13
+
+===== PAGE 17 =====
+{"alpha_words": 416, "chars": 2776, "method": "ocr", "page": 17, "variant": "plain-vision"}
+Kessel Run revolutionizes the way the Air Force builds and delivers software capabilities by taking industry-
+proven software development practices and pairing them with talented Airmen. Kessel Run disrupts decades of
+government bureaucracy with the mission to provide cutting edge capabilities at a rapid pace to the war fighter.
+The Air Force Life cycle Management Center (AFLCMC) leads our initiative in partnership with the Defense
+Innovation Unit Experimental (DIUx) in order to honestly and efficiently modernize the Air Force's Targeting
+community and the Air & Space Operations Center (AOC).
+The team is based in Boston, Massachusetts, where they collaboratively work in balanced teams of software
+developers, designers, and product managers enabled by platform operators and support staff to build
+products Airmen love. Their teams utilize User Centered Design (UCD), Lean Startup, and Extreme
+Programming (XP) with Test Driven Development (TDD) processes and principles to succeed no matter the
+challenge. Visit: https://kesselrun.af.mil/ (NIPR) for further information.
+Does Marauder have an environment I can use for exercises or training?
+A training-only instance of Marauder that can be used for small exercises and training at this URL:
+https://marauder-demo.kr.smil.mil. Accounts and roles are managed separately for each instance so a new
+account needs to be requested and created for a different instance.
+We also have a QMO instance (https://marauder-qmo-ex.kr.af.smil.mil) for special large scale exercises that
+require a clean database so that only the MISREPS that are relevant for the exercise are captured.
+To request an account for the DEMO or the QMO instance, send the information below to marauder@kr.af.mil
+on NIPR.
+Rank: | First Name: | MI: | Last Name: | DOD ID: | Duty Status: | Requested Marauder Role: |
+Environment: (Production/Demo/Other)
+*Requesting exercise roles / accounts should be done through the Marauder org box.
+I need to onboard a lot of users quickly for an upcoming
+deployment / exercise
+Instead of submitting individual requests, please send us a spreadsheet with everyone's information.
+What applications is Marauder connected to?
+The Marauder team is currently engaged with multiple external teams from across the DOD to integrate
+reporting data with their applications. If you have proposals for applications that could benefit from the addition
+of Marauder data, please have them reach out to marauder@kr.af.mil to start the conversation.
+Can I connect to the Marauder API?
+Yes! If you have a valid use case for machine-to-machine access, we can provide credentials to connect to the
+application programming interface (API). Please reach out to marauder@kr.af.mil to discuss your needs.
+Marauder - User Guide v.2.42.1|
+14
+
+===== PAGE 18 =====
+{"alpha_words": 64, "chars": 423, "method": "ocr", "page": 18, "variant": "plain-vision"}
+How do I update my Marauder role?
+If a user has an existing account and wants to update their role, please send us the below information at
+marauder@kr.af.mil.
+Don't forget to specify for which environment this request applies (ex: PRODUCTION, DEMO or QMO).
+Rank: | First Name: | MI: | Last Name: | DOD ID: | Duty Status: | Requested Marauder Role: |
+Environment: (Production/Demo/Other)
+Marauder - User Guide v.2.42.1|
+15
