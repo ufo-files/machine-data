@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   request:
-    runs-on: ubuntu-latest
+    runs-on: ufo-agent-1-machine-data
     steps:
       - name: Check out graph builder
         uses: actions/checkout@v7
