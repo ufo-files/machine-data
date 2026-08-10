@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ufo-files.portuguese-worker</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>__INSTALL_ROOT__/scripts/portuguese_ssh_worker.py</string>
+    <string>--config</string>
+    <string>__INSTALL_ROOT__/config.json</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__INSTALL_ROOT__</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/Users/__USERNAME__/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>Nice</key>
+  <integer>10</integer>
+  <key>LowPriorityIO</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>300</integer>
+  <key>SoftResourceLimits</key>
+  <dict>
+    <key>ResidentSetSize</key>
+    <integer>12884901888</integer>
+  </dict>
+  <key>HardResourceLimits</key>
+  <dict>
+    <key>ResidentSetSize</key>
+    <integer>17179869184</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/__USERNAME__/Library/Logs/ufo-files/portuguese-worker.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/__USERNAME__/Library/Logs/ufo-files/portuguese-worker.log</string>
+</dict>
+</plist>
