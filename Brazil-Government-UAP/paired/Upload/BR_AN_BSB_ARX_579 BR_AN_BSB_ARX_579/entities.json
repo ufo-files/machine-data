@@ -2,7 +2,7 @@
   "entities": [
     {
       "aliases": [
-        "Brazilian Air Force"
+        "BRAZILIAN AIR FORCE"
       ],
       "category": "military_organization",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -13,12 +13,27 @@
       "mention_count": 1,
       "name": "Força Aérea Brasileira",
       "source_segment_ids": [
-        "seg-7bc3c2055ab45640f899aa69"
+        "seg-053efd6a03928e3fbd3f5f80"
       ]
     },
     {
       "aliases": [
-        "OVNi",
+        "BRASIL"
+      ],
+      "category": "country",
+      "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
+      "entity_id": "ent-a8298876bd52e8d5d51448c3",
+      "evidence_languages": [
+        "pt-BR"
+      ],
+      "mention_count": 1,
+      "name": "Brazil",
+      "source_segment_ids": [
+        "seg-053efd6a03928e3fbd3f5f80"
+      ]
+    },
+    {
+      "aliases": [
         "OVNI",
         "UFO",
         "UFOs"
@@ -30,12 +45,11 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 3,
+      "mention_count": 2,
       "name": "UFO",
       "source_segment_ids": [
-        "seg-2a420490c2ee0a87649fbe6a",
-        "seg-4a86be248411bf1f4b32cbff",
-        "seg-529c851b5acbd3e7997726cd"
+        "seg-1f7b02f2295a5194b317336e",
+        "seg-2111a9ea8d8b9e3aa938ea15"
       ]
     }
   ],
@@ -46,9 +60,29 @@
         "en"
       ],
       "mentions": [
-        "Brazilian Air Force"
+        "BRAZILIAN AIR FORCE"
       ],
-      "source_segment_id": "seg-7bc3c2055ab45640f899aa69"
+      "source_segment_id": "seg-053efd6a03928e3fbd3f5f80"
+    },
+    {
+      "entity_id": "ent-a8298876bd52e8d5d51448c3",
+      "languages": [
+        "pt-BR"
+      ],
+      "mentions": [
+        "BRASIL"
+      ],
+      "source_segment_id": "seg-053efd6a03928e3fbd3f5f80"
+    },
+    {
+      "entity_id": "ent-f513cab0f766319c28769063",
+      "languages": [
+        "en"
+      ],
+      "mentions": [
+        "UFO"
+      ],
+      "source_segment_id": "seg-1f7b02f2295a5194b317336e"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -57,31 +91,10 @@
         "pt-BR"
       ],
       "mentions": [
-        "OVNi",
         "OVNI",
         "UFOs"
       ],
-      "source_segment_id": "seg-2a420490c2ee0a87649fbe6a"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-4a86be248411bf1f4b32cbff"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-529c851b5acbd3e7997726cd"
+      "source_segment_id": "seg-2111a9ea8d8b9e3aa938ea15"
     }
   ],
   "schema": "ufo-files-cross-language-entities/v1"
