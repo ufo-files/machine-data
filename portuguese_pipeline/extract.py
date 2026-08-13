@@ -40,7 +40,15 @@ class Extraction:
 
 
 def command(name: str) -> str:
-    path = shutil.which(name, path="/opt/homebrew/bin:/Users/glennsorrentino/.local/bin:/usr/local/bin:/usr/bin:/bin")
+    search_paths = [
+        *os.environ.get("PATH", "").split(os.pathsep),
+        "/opt/homebrew/bin",
+        str(Path.home() / ".local" / "bin"),
+        "/usr/local/bin",
+        "/usr/bin",
+        "/bin",
+    ]
+    path = shutil.which(name, path=os.pathsep.join(dict.fromkeys(filter(None, search_paths))))
     if not path:
         raise RuntimeError(f"required command not found: {name}")
     return path
@@ -189,7 +197,21 @@ def extract_media(path: Path, *, work_dir: Path, model: str, model_revision: str
     model_path = Path(model)
     resolved_model = str(model_path) if model_path.exists() else snapshot_download(repo_id=model, revision=model_revision)
     environment = os.environ.copy()
-    environment["PATH"] = "/opt/homebrew/bin:/Users/glennsorrentino/.local/bin:/usr/local/bin:/usr/bin:/bin"
+    environment["PATH"] = os.pathsep.join(
+        dict.fromkeys(
+            filter(
+                None,
+                [
+                    *environment.get("PATH", "").split(os.pathsep),
+                    "/opt/homebrew/bin",
+                    str(Path.home() / ".local" / "bin"),
+                    "/usr/local/bin",
+                    "/usr/bin",
+                    "/bin",
+                ],
+            )
+        )
+    )
     args = [
         command("mlx_whisper"), str(path),
         "--model", resolved_model,
