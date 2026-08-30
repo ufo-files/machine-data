@@ -1,0 +1,44 @@
+{
+  "document_id": "doc-2e0052ff8a97bdfe3b3154ed",
+  "findings": [
+    {
+      "check": "negation",
+      "segment_id": "seg-542b994c70624ee72afe4942",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "10:20",
+        "10:30"
+      ],
+      "segment_id": "seg-1a35f67ae22d945fd2bb43c4",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "10",
+        "10",
+        "20",
+        "30"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [],
+      "segment_id": "seg-1a35f67ae22d945fd2bb43c4",
+      "severity": "warning",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}

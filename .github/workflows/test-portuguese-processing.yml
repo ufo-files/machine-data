@@ -1,0 +1,32 @@
+name: Test Portuguese processing
+
+on:
+  pull_request:
+    paths:
+      - "portuguese_pipeline/**"
+      - "scripts/**"
+      - "tests/**"
+      - "requirements-macos.txt"
+      - ".github/workflows/test-portuguese-processing.yml"
+  push:
+    branches: [main]
+    paths:
+      - "portuguese_pipeline/**"
+      - "scripts/**"
+      - "tests/**"
+      - "requirements-macos.txt"
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m compileall -q portuguese_pipeline scripts
+      - run: python -m unittest discover -s tests -v

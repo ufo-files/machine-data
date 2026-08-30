@@ -1,0 +1,2467 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-05T23:57:35Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 80, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 2141396, "source_file": "Black-Vault-UFO/pdfs/orbit-determination-of-sunlight-illuminated-objects-detected-by-overhead-platforms.pdf", "source_sha256": "d58ba167b4019a47389ce826d905bcecbabb33eb1d553ed080d114e3c09500ab"}
+
+===== PAGE 1 =====
+{"alpha_words": 87, "chars": 552, "method": "ocr", "page": 1, "variant": "plain-vision"}
+THIS FILE IS MADE AVAILABLE THROUGH THE DECLASSIFICATION EFFORTS AND RESEARCH OF:
+THE BLACK VAULT
+THE BLACK VAULT IS THE LARGEST ONLINE FREEDOM OF INFORMATION ACT/ GOVERNMENT
+RECORD CLEARING HOUSE IN THE WORLD. THE RESEARCH EFFORTS HERE ARE RESPONSIBLE
+FOR THE DECLASSIFICATION OF THOUSANDS OF DOCUMENTS THROUGHOUT THE U.S. GOVERNMENT,
+AND ALL CAN BE DOWNLOADED BY VISITING:
+HTTP://WWW.BLACKVAULT.COM
+YOU ARE ENCOURAGED TO FORWARD THIS DOCUMENT TO YOUR FRIENDS, BUT
+PLEASE KEEP THIS IDENTIFYING IMAGE AT THE TOP OF THE
+PDF SO OTHERS CAN DOWNLOAD MORE!
+
+===== PAGE 2 =====
+{"alpha_words": 58, "chars": 451, "method": "ocr", "page": 2, "variant": "plain-vision"}
+A1 P0:::1
+AD- A209
+, 227
+2333f1
+ORBIT DETERMINATION OF SUNLIGHT
+ILLUMUNATED OBJECTS DETECTED BY
+OVERHEAD PLATFORMS
+THESIS
+Richard P. Osedacz
+Captain, USAF
+AFIT/GA/ENX/89J-3
+DTIC
+ELECTE
+JUN 2 O 1989
+REPRODUCED FROM
+BEST AVAILABLE COPY
+DEPARTMENT OF THE AIR FORCE
+AIR UNIVERSITY
+AIR FORCE INSTITUTE OF TECHNOLOGY
+dato
+dobamant boa beas approysa
+As Fartlia rolecan and salong l
+Matibatos to anilmilou.
+Wright-Patterson Air Force Base, Ohio
+8
+9
+6
+19
+0% 2
+
+===== PAGE 3 =====
+{"alpha_words": 37, "chars": 293, "method": "ocr", "page": 3, "variant": "plain-psm3"}
+i +
+mmemeeEemeieweeEeEeeHeee&eHEE Um Ee HE Ee SF Ft
+
+:
+I
+
++
+
++
+
+:
+i .
+
+'
+
+‘
+
+AFIT/GA/ENY/89J-3
+
+ORBIT DETERMINATION OF SUNLIGHT
+ILLUMUNATED OBJECTS DETECTED BY
+OVERHEAD PLATFORMS
+THESIS
+
+Richard P. Osedac2
+Captain, USAF
+
+AFIT/GA/ENY/89J-3
+
+Approved for public release; distribution unlimited
+
+===== PAGE 4 =====
+{"alpha_words": 79, "chars": 564, "method": "ocr", "page": 4, "variant": "plain-vision"}
+AFIT/GA/ENY/89J-3
+Orbit Determination of Sunlight Illuminated Objects
+Detected by Overhead Platforms
+THESIS
+Presented to the Faculty of the School of Engineering
+of the Air Force Institute of Technology
+Air University
+In Partial Fulfillment of the
+Requirements for the Degree of
+Master of Science in Astronautical Engineering
+DTIC
+ІНФРАСТА
+Accession Por
+NITS GRAZI
+DTIC TAB
+Unannounced
+Justificrtion
+Richara P. Osedacz, B.S.
+Captain, USAF
+June 1989
+Dirtribueson.
+Ave1l:l1i1ts Codes
+wall na/or
+Dist
+!
+Spucial
+A-!
+Approved for public release; distribution unlimited
+
+===== PAGE 5 =====
+{"alpha_words": 156, "chars": 961, "method": "ocr", "page": 5, "variant": "plain-vision"}
+Acknowledgenents
+I am deeply indebted to a number of people for all of the
+help and support in perforning this project. First of all I
+would like to thank Dr. Wiesel and Capt Bain for their never
+ending support and patience when the going got tough. I also
+wish to thank the members of the Powered Flight Group, Flight
+Performance Division of the Foreign Technology Division for
+sponsoring me in this task. In particular I would like to
+thank Ed Creehan for getting me started on this project, Larry
+Lillard who coached me in the intricacies of estimation theory
+applied to trajectory reconstruction, Jim Bernier from Geody-
+namics Corporation for stimulating my interest in trajectory
+estimation and its other applications and the class of GA-89D
+for keeping my spirits up during dark and gloomy times.
+Finally I an extremely grateful to my wife Carol for her
+understanding and support during those long hours which was
+spent with the computer instead of her.
+
+===== PAGE 6 =====
+{"alpha_words": 88, "chars": 847, "method": "ocr", "page": 6, "variant": "plain-vision"}
+Table ef contents
+Acknowledgements
+Page
+i
+List of Figures
+List of Tables
+iv
+Abstract
+vi
+I.
+Introduction
+..
+e
+1
+Objective and Scope
+Research
+Approach ::
+..
+II. Orbit Generation Equations and Methods . .
+Coordinate Systems and Transformations
+Geopotential and Gravity Determination
+Orbital Element Generation . . . . . ...
+Orbital Element Sets
+Transformation from an
+ECI State Vector to
+Equinoctial Elements
+••.
+III. Propagation Methods . . .
+4th order Runge-Kutta-Nystrom (RKN) Numerical
+Integrator
+F and G Series
+State Transition Matrix
+':
+::
+::
+3
+4
+6
+6
+10
+14
+22
+24
+27
+27
+28
+32
+IV. Refining the Initial state Estimate
+Unobservability
+Range Determination
+•:::
+34
+..
+41
+43
+V.
+Results ...
+47
+Event A and B Analysis Results
+Multiple Collection Event
+•
+•
+:::
+47
+54
+VI. Summary and Conclusions
+VII. Recommendations
+Appendix
+• •
+•
+••.
+60
+...
+..
+63
+65
+ii
+
+===== PAGE 7 =====
+{"alpha_words": 25, "chars": 128, "method": "ocr", "page": 7, "variant": "plain-psm3"}
+Bibliography . . . . 2. 2. 2. 2 6 ee ee ew te we ww 66
+
+Vita . 1. 6 2 ew ew ew tw we wt lw tlw lt tl tk tw kw kt lt kl 68
+
+1il
+
+===== PAGE 8 =====
+{"alpha_words": 73, "chars": 697, "method": "ocr", "page": 8, "variant": "plain-vision"}
+List of Figures
+Figure
+1. Fastwalker Problem Geometry .
+2. Ellipsoidal Earth Model
+••.
+...
+3. Fastwalker Sensor Geometry
+4. Equinoctial Coordinate Frame
+•...
+•
+•
+•.
+5. Single Data Set Focal Plane Traces
+•..
+6. Simulated View Angle Rates for Various Targets
+7. Actual Angular Rate Ratio vs Range Ratio
+•..
+8. Event A Azimuth Residuals . . . . .
+•..
+9. Event A Elevation Residuals
+••..
+10. Event B Azimuth Residuals
+...
+•..
+11. Event B Elevation Residuals . .
+....
+12. O.' vs Slant Range for Single Data Set Events
+13. Multi-Day Event Focal Plane Traces
+14. Multiple Day Event Azimuth Residuals
+15. Multiple Day Event Elevation Residuals
+...
+•
+•..
+Page
+7
+9
+10
+23
+48
+49
+49
+52
+52
+53
+53
+55
+55
+56
+57
+iv
+
+===== PAGE 9 =====
+{"alpha_words": 31, "chars": 232, "method": "ocr", "page": 9, "variant": "plain-vision"}
+List ef Tables
+Table
+I. Description of Simulated Test Case Data . . .
+II. Single Data Set Event Converged Statistics • 54
+III. Derived Multiple Day Event Results . . . . . 59
+IV. Multiple Day Event Nadir Crossing Ranges
+Page
+3
+59
+V
+
+===== PAGE 10 =====
+{"alpha_words": 151, "chars": 1002, "method": "ocr", "page": 10, "variant": "plain-vision"}
+abstract
+A technique for determining the orbital element set of a
+sunlight-illuminated object detected by an overhead platform
+(when passing through the sensor's field of view) is devel-
+oped. The technique uses a Gauss orbit determination tech-
+nique to find an initial target state estimate and then the
+estimate is refined via a batch weighted least squares estima-
+tion routine. A six element state vector consisting of three
+position and three velocity components describe the state at
+epoch. It was found that the Gaussian method produced rea-
+sonable initial orbits when the data bias was sufficiently
+zero. Each analyst-supplied slant range fit the data equally
+well, indicating that orbit determination is impossible with
+a singie set oî cata. A unique series of events where the
+sane object was tracked four consecutive days was fit using
+the developed algorithm, producing favorable results. The re-
+sults of two single data set events and one multiple collec-
+tion events are presented.
+vi
+
+===== PAGE 11 =====
+{"alpha_words": 164, "chars": 1128, "method": "ocr", "page": 11, "variant": "plain-vision"}
+orbit Determination of Sunlight-Illuminated Objects
+Detected by Overhead Platforms
+I. Introduction
+Obiestive and scope
+Due to the multitude of objects in the geostationary
+belt, overhead platforms are heing saturated by reflected
+sunlight from orbiting objects passing through the sensors'
+field of view. These objects, known as fastwalkers, are
+creating a suspicion that some uncatalogued objects may exist
+or are being cross-tagged within the data base. The North
+American Aerospace Defense Command (NORAD) tasked the Foreign
+Technology Division, Flight Performance Division (FTD/SQDF)
+to analyze these 15 to 30 minute data tracks and determine the
+element set, identifying the object.
+The objective of this thesis is twofold: to determine the
+feasibility of determining the element set of an orbiting
+object from space-based metric data and if so, perform a
+commonality/occurrence frequency study of a year's worth of
+collected data. The project can be expanded to warn the
+sensor operator when the next occurrence will be so that he
+can take preventative measures to protect the sensor from
+damaging cell over-saturation.
+1
+
+===== PAGE 12 =====
+{"alpha_words": 216, "chars": 1389, "method": "ocr", "page": 12, "variant": "plain-vision"}
+In order to start the analysis, a few underlying assump-
+tions must be made. First, the sensor ephemerides are known
+exactly, since this is the best true baseline information
+available. Also, sensor location is a type of l-paraneter,
+where l-parameters are defined by Day as those parameters
+which effect the observations but, for some reason, cannot be
+estinated (5:3-1). Other examples of l-parameters are atmo-
+spheric density. data biases, and the like. P-parameters, on
+the other hand, are those parameters which can be estimated
+from the given data.
+Secondly, the objects (targets) are assuned to be non-
+thrusting bodies within 1000 km from the sensor since the col-
+lected data tracks can be as long as 30 minutes, implying that
+the object's orbital speed is nearly the same as the sensor's
+orbital speed. This assumption along with the fact that
+orbital perturbations will have no visible effect on the
+target during the span of the data track, the two body equa-
+tions of motion will be sufficient to estimate the orbital
+element set.
+The simulated data for this project were generated by the
+Modularized Vehicle Simulation/Trajectory Reconstruction
+Program (MVS/TRP), a batch weighted least squares estimator
+originally developed to validate the guidance equations of
+various space boosters.
+The data were generated with 1-0
+Gaussian white noise at one point every ten seconds.
+
+===== PAGE 13 =====
+{"alpha_words": 158, "chars": 1077, "method": "ocr", "page": 13, "variant": "plain-vision"}
+Table I Description of Simulated Test Case Data
+Data Rate: 1pt/10 sec
+Nominal 1-0 Data Errors
+Azimuth: 3.5 X 10"
+Elevation: 4.3 X 10°
+Research
+Since the fastwalker data base goes back as far as 1972,
+it is safe to assume that the problem has been in existence
+since then. It is most prevalent with a certain ballistic
+missile early warning satellite system located at various
+geostationary locations. wong in his paper performed his
+analysis using various intensity models and a least squares
+estimator (MVS/TRP) to find that there is a family of least
+squares solutions in r which satisfy the collected azimuth and
+elevation data (21:23-25). Little was done to resolve this
+family into a single possible fastwalker, hence his conclusion
+was that the problem was unsolvable.
+Some undocumented sinulations were performed in the Space
+Surveillance Center within the NORAD Cheyenne Mountain Complex
+where the sensor was boosteù into a higher orbit and then
+circularized 500 km above its original position. Then based
+on the viewing angle a collection of other satellites in its
+3
+
+===== PAGE 14 =====
+{"alpha_words": 204, "chars": 1272, "method": "ocr", "page": 14, "variant": "plain-vision"}
+field of view were listed at a particular epoch time. This
+proved to be futile in singling out one particular satellite
+as the fastwalker. Other than the above mentioned instances,
+no other work has been performed on fastwalker analysis.
+approach
+Since pure angular data is given along with the sensor
+epheneris over the data span, the Gauss orbit determination
+method will be used to determine an intial orbit. The initial
+target (fastwalker) state vector can then be refined with a
+batch weighted least squares estimator to further update the
+orbit.
+The epheneris is reported in latitude, longitude, alti-
+tude and time since no velocity information is required to fit
+the data (i.e. the data is also position related. No doppler
+or other velocity related effects need to be taken into ac-
+count to correct the data model). However, an accurate veloc-
+ity component of the sensor state vector must be determined
+if a six element state vector will be propagated over a few
+days.
+Assuming the first epheneris position data point is
+exact, the remainder of the position ephemeris can be fit
+using a least squares algorithm. The first difference is an
+excellent first guess to the velocity required to "hit" all
+of the remaining position ephemeris points. Once converged,
+4
+
+===== PAGE 15 =====
+{"alpha_words": 147, "chars": 920, "method": "ocr", "page": 15, "variant": "plain-vision"}
+the sensor state vector will be the best possible estimate
+given the data at hand.
+The next step is to refine the derived state vector fron
+the Gauss algorithr using a least squares estimator. Assuning
+the Gauss-derived estimate is reasonable, the target vector
+can be improved up to the error of the data. The 1-0 error
+figures of merit from the sensor specifications are used as
+an input into the program.
+These inputs form the data
+weighting natrix required by the least squares algorithm to
+normalize the data entries (see p. 37).
+With the fastwalker orbit now defined, it can be propa-
+gated forward to determine the next encounte: with another
+sensor in this or another constellation. This is easily done
+with the Air Force Jet Propulsion Laboratory's Long Tern Orbit
+Predictor (LOP). The accuracy of this predictor has been
+proven with simulations matching probe flight and highly
+eccentric orbit trajectories.
+5
+
+===== PAGE 16 =====
+{"alpha_words": 192, "chars": 1297, "method": "ocr", "page": 16, "variant": "plain-vision"}
+II. Orbit Generation Equatiens and Methods
+This chapter presents the equations necessary to accu-
+rately model the motion of an orbiting object over short and
+lorg periods of time. This Includes the differential equa-
+tions of motion, transfornation from an inertial state vector
+to classical orbital elements. Aıso included are the trans-
+formation from the sensor coordinate system to the inertial
+coordinate frame, which is the computational coordinate sys-
+tem. These transformations will be necessary for the weighted
+least squares (also known as differential correction) process
+where the observed measurements are compared to the assumed
+or estimated measurements.
+coordinate systems and Iransformations
+Many different coordinate systems are quite useful loI
+expressing the orbit of an artificial satellite. Iwo major
+coordinate systems, the sensor coordinate frame and the iner-
+tial coordinate frane will be described here.
+The computational coordinate syster for this algorithm,
+the frame in which the equations of motion are expressed and
+Integrated, is the Earth Centered Inertial, or ECI coordinate
+system shown in Figure 1, p. 7. The origin of this frame 1o
+at the center of the ellipsoidal earth model, the X-y plane
+1s the equatorial plane of the earth and the Z-axis 1s coinci-
+6
+
+===== PAGE 17 =====
+{"alpha_words": 103, "chars": 663, "method": "ocr", "page": 17, "variant": "plain-vision"}
+r = R + L p
+Target
+Lp
+Z
+r
+У
+Z
+Sensor
+Figure 1
+R
+Earth
+Fastwalker problen Geometry
+dent with the earth's axis of rotation. Ihis coordinate
+system is fixed in inertial space with X pointing toward the
+first point of Ares at some arbitrarily chosen time t.. For
+this program, t. is the midpoint of the data set for the ini-
+tial estimate of the state vector and the time of the first
+data point for the WLS estimation process.
+Iwo latitude types are normally associated with an ellip-
+soidal earth model -- the geocentric and geodetic latitudes
+(see Figure 2, f. 9). The geocentric latitude is defined as
+the angle between the equatorial plane and the vector from
+7
+
+===== PAGE 18 =====
+{"alpha_words": 180, "chars": 1173, "method": "ocr", "page": 18, "variant": "plain-vision"}
+the center of the earth to the satellite subpoint. Geodetic
+latitude on the other hand is the angle between the equatorial
+plane and the line perpendicular to the subpoint tangent
+(local horizontal). The two are related by (1:97)
+tan p* = (a/b)' tan y
+(2.1)
+where o is the geocentric latitude, pt is the yeoustic lati-
+tude and a and b are the earth's seminajor and semiminor axes
+respectively. Geocentric latitude is used for all computa-
+tions. If the latitudes are input as geodetic, they are
+converted to geocentric.
+The other coordinate systen is the sensor-fixed system
+where the x-axis is pointing toward the origin of the ECI
+frame; the y-axis is parallel with the equatorial plane of
+the earth and the z-axis forms a right-handed coordinate
+system where × X y = z (upper case letters denote the iner-
+tial frame, lower case letters denote sensor frane).
+Within the sensor frame, the target is measured in azi-
+muth and elevation. Azimuth is measured in the detector plane
+clockwise from "north"; elevation is neasured up from the
+nadir (x-axis) direction (see Figure 3, p. 11). Both can be
+expressed in the ECI frame
+cos (EL) = -
+R, P= + Ry py + R, Pa
+R P
+(2.2)
+8
+
+===== PAGE 19 =====
+{"alpha_words": 70, "chars": 536, "method": "ocr", "page": 19, "variant": "plain-vision"}
+LOCRI
+- Local Vertical
+6356.782
+Horizontal
+- 4*
+Eccentricity: 0.08182
+- 6378.135 kM —
+4: Geocentric Latitude
+p*: Geodetic Latitude
+Figure 2
+Ellipsoidal Earth Model
+sin A
+tan (Az) =
+cos A
+sin A = R (R, py - Ry Px)
+cOS A = pz (R,' + Ry') - R, (R, pa + Ry py)
+(2.3)
+(2.4)
+(2.5)
+where Ry, Ry and R, are the inertial sensor vector elenents and
+Pue py and e, are the inertial slant range vector elements.
+Projecting the range unit vector upon the sensor coordinate
+frame produces the direction cosines Le, Le and L, where
+Le = cos az
+(2.6)
+9
+
+===== PAGE 20 =====
+{"alpha_words": 58, "chars": 362, "method": "ocr", "page": 20, "variant": "plain-psm3"}
+of
+7 ia*,.
+fio) Lae
+
+Nadir \ /
+
+To Target
+
+Figure 3 Fastwalker Sensor Geometry
+L. = “sin el sin az (2.7)
+L, = sin el cos az. (2.8)
+
+A bias and scale factor is added to each azimuth and elevation
+
+calculation to account for other metric data formats.
+
+10
+
+Se ae ee ee em ee me mm me . - a ee i, a woe eee ae eee -meee — - eee me = - aa me em
+<3 a =. ~ — = _ = —
+
+===== PAGE 21 =====
+{"alpha_words": 124, "chars": 892, "method": "ocr", "page": 21, "variant": "plain-vision"}
+The two coordinate systems are related by two rotations.
+The first rotation is about the sensor y-axis by the latitude
+and then about the sensor z-axis by the local hour angle.
+Mathenatically,
+PxI
+PYL
+=
+cos a cos B
+-sin a cos B
+sin a -cos a sin B
+P ro
+cos a sin a sin B
+Pyo
+(2.9)
+sin B
+cos B
+P30
+where
+Puse etc. = inertial frame slant range vector elements
+Pu, etc. = sensor frame slant range vector elements
+a = -local hour angle = - l Bot wolttt.) + 1. 1
+9o = Greenwich hour angle at midnight
+w. = earth's rotation rate
+Itt. = time since midnight
+1. = sensor longitude
+B = -p. = sensor latitude.
+Geopotential and Gravity Determinatien
+Assuming a non-thrusting satellite above the earth's
+atmosphere, the only significant force acting on the body over
+a data span is gravity. Lillard in his thesis assumes negli-
+gible longitude dependence, hence the earth's geopotential
+becones (16:18)
+11
+
+===== PAGE 22 =====
+{"alpha_words": 131, "chars": 971, "method": "ocr", "page": 22, "variant": "plain-vision"}
+U= 4/8|1- IIn (a/I) P(sin(p)) 1,
+(2.10)
+u = Earth's gravitation constant 398600.8 km'/sec'
+I = distance from center of the earth to the satellite
+J, = harmonic constants
+a, = earth's equatorial radius, 6378.135 km
+P, = associated Legendre function
+• = geocentric latitude.
+This is also known as the zonal potential, which will be quite
+sufficient for the initial orbit estimate due to short data
+tracks relative to the time for perturbations to take effect.
+Hence four expansion terms are adequate. For long term propa-
+gation, tesseral and sectoral harmonics and other effects such
+as third body effects, solar drag, etc. must be included.
+The acceleration due to gravity is derived from the above
+potential. Since U is a solution to Laplace's equation, the
+gravity 9, is simply the gradient of U, or
+9.= = (2).
+(2.11)
+By setting
+sin(p) = z/I
+the geopotential and gravitational acceleration can be written
+entirely in the computational coordinate system, eliminating
+12
+
+===== PAGE 23 =====
+{"alpha_words": 52, "chars": 456, "method": "ocr", "page": 23, "variant": "plain-psm3"}
+the need to transform coordinates. Therefore, the gravita-
+
+tional acceleration becomes
+
+- |-3 + 42 — - 63 — (2.12)
+r’ r‘
+
+~
+o
+
+y" = xt (2.13)
+
+35
+
++J, |—] - |-15 + 70 — - 63 — (2.14)
+r 8 r’ r‘
+
+where ("*) denotes the second derivative with respect to time.
+These equations of motion are integrated using a Runge-Kutta-
+Nystrom numerical integrator to propagate the state along in
+
+time.
+
+13
+
+meee eee He neeeeH ae F&F Ge © & Ge
+oy
+e
+lad
+
+uJ
+WN
+WN
+we
+N
+*
+
+===== PAGE 24 =====
+{"alpha_words": 142, "chars": 1032, "method": "ocr", "page": 24, "variant": "plain-vision"}
+Orbital Element Generation
+For this specific problem, Escobal states the Gaussian
+method of orbit determination is "second to none" when the
+time between the observations is small (6:272). The Laplace
+nethod was found to be unsuitable since the direction cosine
+rates and accelerations were small enough to produce near-
+singular matrices.
+The Gauss method hinges on the fact that only two linear-
+ly independent vectors are needed to define the orbit plane,
+assuming negligible perturbation effects during the data span.
+Therefore a third vector can be written as a linear combina-
+tion of the independent vectors.
+Thus it is possible to
+determine a set of constants a, b, and e not all zero such
+that
+at, + bI, + Cr, = O.
+(2.15)
+Arbitrarily choosing I, as the dependent vector and redefining
+constants to c, and c,
+I, = C,I, + C,I,.
+(2.16)
+crossing I, with I, and I, three parallel vectors perpen-
+dicular to the orbit plane are found whereby
+I, XI, = K,I,SIn vs = 2A,,W
+I, X I, = I,,SÍN V" = 2A,,4
+I; XI, = I,E,RIN v11
+14
+(2.17)
+
+===== PAGE 25 =====
+{"alpha_words": 141, "chars": 898, "method": "ocr", "page": 25, "variant": "plain-vision"}
+where Al, are the areas of the triangles formed by the respec-
+tive radius vectors and v1y is the angle between the respective
+vectors.
+substituting,
+= •
+A,# = C,A,,W
+OI
+6, =
+Alo
+Ala
+A,,
+(2.18)
+The Gauss method only requires observations at three
+different times. Since data sets of more than three observa-
+tions are available, the set to be analyzed must be "averaged"
+in some sense (in this case, time). The number of data points
+was divided into three batches and the average time of each
+batch was used as the batch times. An n'-order least squares
+polynomial (determined by the using analyst) is fit to each
+data coordinate to snooth through the noise. Then based upon
+the resulting equation, ECI direction cosines and sensor
+location for each batch time can be calculated and stored.
+The above area ratios can be expressed as a function of
+time. For instance,
+A,, = 1/24 |1, × r,]
+(2.19)
+15
+
+===== PAGE 26 =====
+{"alpha_words": 42, "chars": 443, "method": "ocr", "page": 26, "variant": "plain-vision"}
+along with I, expressed in terns of I, in I and g series (see
+p. 28 for derivation), i.e.
+r, = f,r, + g,5',
+(2.20)
+substituting,
+(2.21)
+where h is the orbital angular momentum. Similarly A, can be
+expressed as
+Note that there a common area A,, where
+A =1/2W | (E,I, + 9,1'a) | X (EI, + g,I"a)) (2.23)
+AL = 1/2h (£,9,-f,9,)
+(2.24)
+In terms of the f and g expansions, the coefficients c, and c,
+are
+c, =
+c, =
+{,9,- 1,9,
+9,
+£,9, - f,9,
+(2.25)
+16
+
+===== PAGE 27 =====
+{"alpha_words": 59, "chars": 539, "method": "ocr", "page": 27, "variant": "plain-vision"}
+Truncating the f and g series after the second term, c, and c,
+can be approximated by
+= -
+1+
+(2.26)
+C, 2
+1+-
+where u, = HI. BY allowing
+T,
+т,
+A, =
+B, =
+A, = -
+B, =-
+T,
+6T1,
+9, = A, + Bu, and c, = A, + Bu,, where c, = -1.
+The vector equation I, = C,I, + C,I, can be modified using
+the basic relation I = p - R to produce the equation
+Cp, + Gps + C,P, = C,R, + CR, + C,R,.
+The vector p, can be written as a product of the direction
+cosine matrix I and magnitude p.
+The resulting equation
+takes the form
+Cp,L, + C,p,l, + C,p,b, = G
+(2.27)
+17
+
+===== PAGE 28 =====
+{"alpha_words": 64, "chars": 636, "method": "ocr", "page": 28, "variant": "plain-vision"}
+where G = C,R, + CR, + C,R,. Thus the previous equation can be
+expressed in matrix form as
+Lyi
+Las
+L,
+C,P,
+C,P=
+c,p,
+=
+G,
+Gy
+G,
+(2.28)
+It is possible to form the inverse of the matrix I,
+solving for the ce, matrix.
+If al, denotes the individual
+elements of L' and vectors
+A = (A,, - 1, A,)'
+«B = (B,, O, B,J, x = (X,, x,, X,I,
+y = (Y, Y,, Y,J, and Z=12,, Zz, Z,]"
+then the slant range p, for each batch time is
+A,' + B '4,
+P. =
+A, + B,4,
+e, = A; + B;'u°
+A; + B, 4,
+(2.29)
+P, =
+A, + B,4,
+where
+A = (a,AX + a,dy + a,,A z)
+B: = (aB X + a,BY + aB Z)
+A,= - (a,AX + a,A y + a,AZ)
+B;' = - (a"BX + a,BY + a,,BZ)
+A,' = (a,AX + a,A y + a,A Z)
+18
+
+===== PAGE 29 =====
+{"alpha_words": 133, "chars": 936, "method": "ocr", "page": 29, "variant": "plain-vision"}
+B, = (a,B X + a,BY + a,BZ).
+To determine the magnitude of the target's radius vector
+another equation is required. Another linearly independent
+relation can be derived by dotting the vector equation relat-
+ing target position to sensor position into itself, producing
+r, = pa - 2pL,R, + R,'.
+(2.30)
+The scalar products LiR are known from the collected angular
+observations and sensor location. At the center batch tine
+t,, let
+C, =-2 (X,Ly + Y,Lyz + 2,4,).
+Substituting p, and C, into the resultant dot prodlict equation
+- H'B," = 0.
+(2.31)
+one is not assured of a real root since this equation is
+of even order. By factoring this equation, all possible
+combinations of reasonable roots can be explored by the ana-
+lyst. The classical Newton-Raphson root finding technique
+finds only one root based upon an initial guess. Hence the
+former method was chosen.
+Velocity is found by first taking a Taylor series expan-
+sion of I,, i.e.,
+19
+
+===== PAGE 30 =====
+{"alpha_words": 77, "chars": 745, "method": "ocr", "page": 30, "variant": "plain-vision"}
+I, =
+I,'''
+• J=1,3
+(2.32)
+i!
+where ", = (1, -"). i, being the epoch time. When the expan-
+sion is written for batch times 1 and 3, time 2 being epoch
+I,"
+r,''
++ 93°
++ 0(9,')
+(2.33)
+24
+I,"
+I, = I, = "„I,'
+I,''
++
+6
++ 01151)
+(2.34)
+24
+Multiplying equation (2.33) by "», eguntion (2.34) by "s and
+adding produces an equation void of I,. Now multiplying the
+equation (2.33) by -1,' and equation (2.34) by Ti' and adding
+produces an equation void of I,". Differentiating each of
+these new expressions yields
+"„I, - 1„X," + ""I," = 119391, 1/2 I," + O(5,") (2.35)
+O (I,").
+(2.36)
+Assuming the O(I") terms can be ignored, one can solve for I,"
+and I," and substituting the respective derivatives into the
+equation void of I," derived above generatos
+20
+
+===== PAGE 31 =====
+{"alpha_words": 36, "chars": 417, "method": "ocr", "page": 31, "variant": "plain-psm3"}
+TisTayTis Ka! @ Tay K+ (0 - 1) E." + 7,,'F," =
+TisTaTis
+( ~T,,4r," + (7,5 ~ t,,)r," + 7,,'Y,"). (2.37)
+12
+Substituting the two-body equation of motion into the second
+
+derivative terms and allowing
+
+7; T,
+H, s— G, s -
+12 TiTs5
+7, T,
+H, =#- — G, = -
+12 T5715
+H, @ H, - H, G, # G, - G,
+then
+H,
+r,’
+and
+v= -dir, + dr, + d,r,. (2.39)
+
+At this point, the orbit is considered determined since
+
+both r and v are known.
+
+zl
+
+===== PAGE 32 =====
+{"alpha_words": 180, "chars": 1215, "method": "ocr", "page": 32, "variant": "plain-vision"}
+erbital Element sets
+Orbital elements are sets of six or more parameters which
+describe an orbit, whether be in
+size, shape, orientation,
+energy, momentum, etc. Of the three main types -- classical,
+equinoctial, and Delaunay •- the equinoctial element set
+provides the best accuracy since there are no singularities
+as there
+are in the classical and Delaunay sets, except at
+i=180°. The drawback, however, is that the equinoctial set is
+rather abstract compared to the classical set.
+The equinoctial elements in terms of the classical ele-
+ment set for & direct orbit are:
+a = a
+1 = Mo + w + 8
+K= e cos (w + 88)
+1 = e sin (w + s)
+p = tan (1/2) sin n g = tan (i/2) cos n.
+(2.40)
+Deriving these elements in terms of the state vector re-
+quires a little more knowledge of the geometry involved.
+Cefola in Figure 4 (p. 23) shows graphically what the equinoc-
+tial set represents (4:2). The orientation of the coordinate
+system is defined by an angle equal to the longitude of the
+ascending node, &, and the unit vector w perpendicular to the
+orbit plane. Unit vector f is in the orbit plane specified
+by 1/2 down from Ares and an angle n down from the node.
+Vector g forms the right-handed triad such that f Xg = w.
+22
+
+===== PAGE 33 =====
+{"alpha_words": 87, "chars": 555, "method": "ocr", "page": 33, "variant": "plain-vision"}
+Z
+figure 4
+f
+Equinoctial Coordinate Frame
+An orbit's shape is defined by the elements h and k,
+which are the components of the eccentricity vector projected
+upon the f and g vectors. The element 1, pinpoints the posi-
+tion of the satellite on the orbit since it is the sun of the
+three angles measured in the plane. The final two elements,
+p and 9, are the most abstract. In short, these elements
+merely characterize the orientation of the orbit. Both are
+required in the rotation matrix to transform the inertial
+frame to the equinoctial frame (4:3).
+23
+
+===== PAGE 34 =====
+{"alpha_words": 63, "chars": 476, "method": "ocr", "page": 34, "variant": "plain-vision"}
+For the direct orbit case, the unit vectors can be mathe-
+matically expressed as
+(2.41)
+1 + p' +g'
+9=
+1 + p' +9°
+W=
+- 2p
+1=309-8
+11-30-g)
+(2.42)
+(2.43)
+Iransformation from an ECI State Vector te Equinectial Ele-
+The transformation fron the state vector to the equinoc-
+tial elements is a fairly straight forward once the coordinate
+frame is understood. An orbit's specific energy directly
+produces the semimajor axis since
+(2.44)
+The
+eccentricity vector is given by
+(2.45)
+24
+
+===== PAGE 35 =====
+{"alpha_words": 79, "chars": 602, "method": "ocr", "page": 35, "variant": "plain-vision"}
+Another way to express the unit normal to the orbit plane is
+through the angular momentum, I Xv. Hence
+I X Y
+• = -
+11xVl
+(2.46)
+However, this expression has the same exact meaning as the
+previous w equation in terns of p and 9. Therefore, p and q
+are
+p =
+9 =
+(2.47)
+1 + П.
+1+ #.
+and the equinoctial elements h and k are merely
+h=eg,=e'I.
+(2.48)
+The remaining element to derive is the mean longitude,
+1o. First compute the position coordinates X and y relative
+to the orbital frame I-g-w by
+x=x I, x= x g.
+(2.49)
+Then compute
+(1 = K'B)X - hKBY
+5=k+ —
+(2.50)
+(1 - K'B)Y = hKßX
+sin Faht-
+a (1 -n' -K')
+25
+
+===== PAGE 36 =====
+{"alpha_words": 41, "chars": 300, "method": "ocr", "page": 36, "variant": "plain-vision"}
+where the variable B is
+B =
+1
+1 + 11-15 - 1'11.
+Then the mean longitude is given by
+1 = F-k sin F+4 cos F.
+(2.51)
+These equations are mainly used to compute the numerical
+partials for the Jacobian transforming the ECI state vector
+covariance matrix to the equinoctial element covariance ma-
+trix.
+26
+
+===== PAGE 37 =====
+{"alpha_words": 194, "chars": 1301, "method": "ocr", "page": 37, "variant": "plain-vision"}
+:
+III. Prepagation Metheds
+In order to calculate the sensor and target state vectors
+at times other than the epoch, the state must be propagated
+via some numerical technique.
+There are various methods to
+propagate the state along in time so that the calculated mea-
+surements can be compared to the actual observations. For
+this thesis, however, three main methods are used, each having
+a particular purpose. Iwo methods are used to propagate the
+state - - the 44-order Runge-Kutta-Nystron numerical integrator
+and f and g series expansions. A state transition matrix is
+used to propagate the covariance matrix, which consists of
+partial derivatives of the present state with respect to the
+estimated epoch state. The covariance matrix will be examined
+in the next chapter. Each propagation method will be briefly
+described.
+4th Order Runge-Kutta-Nystron (RKN) Numerical Integrator
+The RKN integrator is a closed form predictor-corrector
+numerical integrator specifically suited for 2n order differ-
+ential equations. One of the novelties of this integrator is
+that the position and velocity at time ttst are direct out-
+puts, so only one integration pass is required per time step.
+Battin does an excellent job of deriving the RKN inte-
+grator in minute detail (2:577). However, Kreysig describes
+27
+
+===== PAGE 38 =====
+{"alpha_words": 127, "chars": 876, "method": "ocr", "page": 38, "variant": "plain-vision"}
+the method in terms of a scalar function which is easier to
+follow (15:1078).
+The RKN numerical integrator algorithm is
+x= X. + hyo+ h'(ko + 2k,) /6 + 011°)
+y = yo + h(ko + 4k, + K,) /6 + 0(h")
+(3.1)
+where
+Ko = I(toe Xo)
+k, = Elto + M/2, xo + hyo/2, h°k/8)
+k= Ilt th, xo + Myo, hk,/2) .
+This algorithm is best suited for accurate propagation
+of a state vector in an estination routine since a precise
+state estimate is required at each data point. In addition,
+other effects can be included in the function I (t, x, y) to
+exactly model the physics of the problem.
+E and a Series
+The f and g series expansions are series solutions of the
+two-body equation of motion. In other words, any position I
+can be expressed in terms of the epoch position i. and the
+tine y from the epoch to the time desired. Mathematically,
+any function can be expressed as an infinite series, i.e.
+28
+
+===== PAGE 39 =====
+{"alpha_words": 76, "chars": 687, "method": "ocr", "page": 39, "variant": "plain-vision"}
+I=
+• ['n)
+(3.2)
+n!
+which is the form of a Taylor Series about zero (also known
+as a Maclaurin Series.)
+Assuming that the above series is a solution, differen-
+tiate the two-body equation of motion three times (making this
+expansion of fifth-order) holding the epoch time to constant
+and substituting I." = ur, (U=W/I') Wherever I." appears. The
+resulting equations are
+I.' =-U'I, -UT.'
+To = (-U"+ 4')I, - ZU'I"
+I.' = (-4'''+ 444'110 - (34"- L'I.
+(3.3)
+Substituting these expressions into the Taylor series produces
+the familiar equation
+r = fI, + gIo,
+(3.4)
+where
+{=1-1/248 - 1/6 U'T - 1/24 (4"- 4')8° - 1/120 (u''I
+(3.5a)
+and
+g = 1 = 1/6 ur' - 1/12 U'p' - 1/120 (3U" - 4')r'. (3.5b)
+29
+
+===== PAGE 40 =====
+{"alpha_words": 77, "chars": 512, "method": "ocr", "page": 40, "variant": "plain-vision"}
+In this form the f and g expressions are useless from a
+practical point of view since higher order derivatives of u
+are not known. Escobal states Lagrange proceeds as follows
+(6:109). Introduce the new variables p and g such that
+ґ'p =
+rg =
+d'(r')
+ar'
+(3.6)
+where
+r' - r'u
+P =
+- =
+r'
+g =
+r'
+so,
+u' =-
+3u dr
+- =-
+3u d(r')
+25'
+1
+p' =
+d'(r')
+aT'
+1 d(r') dr
+r' dy
+q' =-
+r'
+d'(r') dr
+1 d' (Ґ')
+-+
+I'dr
+(3.7)
+which becone by introduction of the previously defined p and
+u' = - 3up
+p' = q-p'
+g' =- (up + 2p9).
+30
+(3.8)
+
+===== PAGE 41 =====
+{"alpha_words": 95, "chars": 702, "method": "ocr", "page": 41, "variant": "plain-vision"}
+Differentiating u',
+u"=-3 (4D' + 4'p),
+which becomes
+4'=-3[4(9 - 2p') - 3up)
+(3.9)
+via substituting p and q.
+This process can be repeated to
+eliminate u', p' and g' from each derivative. Therefore, the
+5" order f and g series expansions are
+{=1-1/2 UT'+ 1/2 upt'+ 1/24 (3ug- 15up' + 4)T' +
+1/8 (7up' - 3upg - и'p)т°
+(3.10)
+g=1 - 1/6 ut'+ 1/4 upt + 1/120 (9uq - 45up' + u')r'.
+(3.11)
+These expressions are used to obtain a quick initial
+state estimate at the beginning of the data track. Since the
+series is truncated at 0(1'), this method is definitely not
+suited for long term propagation. As long as the initial
+target state estimate is "good", the least squares estimator
+can properly refine it.
+31
+
+===== PAGE 42 =====
+{"alpha_words": 174, "chars": 1158, "method": "ocr", "page": 42, "variant": "plain-vision"}
+State Transition Matrix
+In order to create the partial derivative matrix required
+for the least squares process, the partial derivatives of Az,
+and El, must be taken with respect to the state vector at the
+epoch time. Partial derivatives of the l" data point can be
+related to the epoch state vector by the state transition
+matrix, Ø(t,.,t,). This matrix is derived in many control
+theory texts, but its use for our purposes Wiesel derives it
+in terms of the required dynamical equations (18:26).
+In
+short, the state transition matrix demonstrates how the state
+changes in time but in matrix format.
+The state transition matrix is derived from the solution
+of the matrix differential equation
+d
+-
+#/t,to) = Alt) #(t,to)
+at
+(3.12)
+where in this case • is more appropriately called the equa-
+tions of variation since it contains the effects of all tra-
+jectories near the reference trajectory. In other words, it
+is not linearized. If one assumes that the changes in each
+element is negligible, • is a constant matrix. The matrix
+also takes on some interesting properties:
+•(t,t) =I
+•(t,,t.) = *(t,,t,) Ø(t,,to)
+•(t, to) = •(to,t)".
+(3.13a)
+(3.13b)
+(3.130)
+32
+
+===== PAGE 43 =====
+{"alpha_words": 84, "chars": 525, "method": "ocr", "page": 43, "variant": "plain-vision"}
+The partial derivative matrix of the data with respect
+to the state vector at t, can be related to the epoch state
+vector x, by the chain rule (equation 3.13b). Let H, be the
+partial derivative comparing the changes in the data to the
+state elements at time t,. Then HI, is related to the epoch
+vector by
+H1o=Hp(t1,t1) @(t_,t1a)... D(t,,t,) →(t,,to) (3.14)
+where Ho is the partial derivative matrix of the data at
+time t, with respect to the epoch state vector x. which is
+required for use in the least squares
+estimator.
+33
+
+===== PAGE 44 =====
+{"alpha_words": 181, "chars": 1204, "method": "ocr", "page": 44, "variant": "plain-vision"}
+IV. Refining the Initial state Estimate
+The main method of refining the state vector derived from
+the Gauss orbit method is least squares. The nethod of least
+squares, developed by Gauss for his astronomical studies in
+1795, Is concerned with estimating the values of a set of
+parameters of a measurement model, which relates the measure-
+ments to the paraneters to be estimated (16:35). These esti-
+mated measurements are then compared to a set observations to
+produce residuals. The sum-squared residuals are ninimized.
+The set of estimates which produces this minimum is said to
+be optimal in a least-squares sense (1.e. the azimuth and
+elevation data are the observations). The initial state esti-
+mate produces a corresponding set of observations which are
+subtracted from the measured observations to produce residu-
+als.
+The paraneters to estimate are called the state variables
+at some fixed time t. known as the epoch time. If we let the
+vector 2, represent the set of measured azimuth and elevation
+at time t,, the observation model may be represented as
+= = G,(Xo,to) + Es, 1= 1,2,...,n
+(4.1)
+where
+n= total number of measurement times
+* = the initial estimate of the state vector at epoch
+34
+
+===== PAGE 45 =====
+{"alpha_words": 152, "chars": 993, "method": "ocr", "page": 45, "variant": "plain-vision"}
+;
+G, = the vector of functions relating the state vector to
+the observations
+e, = the error vector of the observations at time ts.
+Therefore, the observations can be notationally expressed as
+Azoo, = Az, + Ere:
+Elo: = El, + Esi:
+(4.2)
+where
+ense es," the i" azimuth and elevation measurement error
+A2o. Elo, = the 1" measured azimuth and elevation
+Az, and El, a the true azimuth and elevation at time t,.
+The minimum state vector for an orbiting object is the
+six-element vector
+x.= (Xo, yo, za, Xo', Yo, 2.')
+(4.3)
+assuning a high altitude non-perturbed satellite. Perturba-
+tions, thrusting and other effects add extra elements. Since
+one of the assumptions is the object is non-thrusting and the
+data track is snall with respect the time it takes for pertur-
+bations to take effect, thesa elements are ignored.
+Il the ubservation Iolations were linear, one could take
+any i of them and solve for the unknown parameters, where ra
+is the number of unknown state elements in the relations.
+35
+
+===== PAGE 46 =====
+{"alpha_words": 123, "chars": 823, "method": "ocr", "page": 46, "variant": "plain-vision"}
+However, the observation relations are non-linear which forces
+us to expand the relations in an infinite series, truncate and
+then iterate. This is also known as linearization.
+A perfect sensor would measure the perfect state x, pro-
+ducing the exact set of measurements 2o. Then the estimated
+state can be represented as x = *. + ix. Hence the error
+vector e is given by
+€ = 8 - 8. = G(X. + 8X) - H(X)
+aG
+-
+- бх
+ax
+(4.4)
+Let to be the estimate of Xo. Then the first-order ap-
+proximation of the error by expanding the observation rela-
+tions in a Tayior series is
+Ens 1 = Aloo, = Az, -
+aA2,
+AX + O (AX')
+(4.5)
+dEl,
+EpI: = ELors - ELs
+AX + 0(AX')
+(4.6)
+where ax is the difference between the initial state and the
+state estimate. Then the partial derivative matrix of the
+observation relation G to the state elements is
+36
+
+===== PAGE 47 =====
+{"alpha_words": 91, "chars": 619, "method": "ocr", "page": 47, "variant": "plain-vision"}
+aG
+ax
+=
+aAz,
+aAz, BAz,
+ax.
+ay.
+az.
+aEL,
+aEl,
+aEl,
+ax.
+ay.
+az.
+(4.2)
+0
+When the higher order terms are ignored, the Taylor series
+expansion produces a linear set of equations in sx. Now we
+can apply the concept of non-linear least squares.
+Let e be the 2n X 1 matrix of error elements azimuth and
+elevation for each observation time
+E = l Ensio
+Ees z1
+(4.8)
+aG,
+H=
+aG,
+ax.
+aG,
+ax.
+...
+(4.9)
+ax.
+Azo, - Az, (X,t.)
+Elas,
+E1, (X,t.)
+Azoo,
+- AZ,(X,to)
+- El, (X, to)
+b =
+(4.10)
+Azas,
+- Az, (X, to)
+- EL,(X,to)
+With the above matrix definitions, the linearized observation
+relations can be rewritten as
+€ = b - HAx.
+(4.11)
+37
+
+===== PAGE 48 =====
+{"alpha_words": 202, "chars": 1319, "method": "ocr", "page": 48, "variant": "plain-vision"}
+There are two types of residuals -- azimuth and eleva-
+tion. Elevation is normally more accurate than azimuth, so
+the least squares process will try "fit" azimuth before it
+considers fitting elevation. Therefore weights must be ap-
+plied to the data to normalize the residuals (7:48). This way
+the least squares process will consider each observation
+equally. Also weighting gives us the opportunity to ignore
+unwanted or erroneous data.
+Assuming that the data is corrupted by Gaussian white
+noise (each observation is uncorrellated in time and space
+with zero mean), the weighting matrix W is a diagonal matrix
+with the weightings on the diagonal. This is not true since
+a sensor takes raw measurements and then transforms then into
+something which can be understood. Also, if the observations
+are measured by a moving sensor they are correlated in tine.
+However, these effects are generally small and the assumption
+is justified (5:B-3).
+It is clear when weighting is introduced, the estimate
+will be a direct function of the weights. Lillard states the
+optimal weighting matrix is the inverse covariance matrix of
+the measurement errors (16:43).
+Considering the above assunp-
+tions, the weighting matrix is composed of error variances on
+the diagonal with the variances of each observation data type
+being equal.
+38
+
+===== PAGE 49 =====
+{"alpha_words": 139, "chars": 955, "method": "ocr", "page": 49, "variant": "plain-vision"}
+Introducing the 2n X 2n weighting matrix W', the matrix
+error equation is
+(4,12)
+where the w subscript indicates the weighted error equation.
+"Squaring" e produces the squared residual matrix
+eie,=(W'D-W'H1X) (W'D -W''H1x) (4.13)
+Now taking the partial derivatives with respect to sx and
+since we are looking for a minimum, setting it equal to zero
+gives the standard weighted least squares difference equation
+1x= (HWH)" HWD
+(4.14)
+P = (HWH)".
+with P being the covarianse matrix associated with the esti-
+mate where the diagonal terms are the variances and the off-
+diagunal terms are the covariances.
+This equation is called a "difference" equation because
+it provides an update to the previous state estimate since the
+observation equations are non-linear. If they were linear
+there would be no need to iterate and the optimal least
+squares estimate is just sx + X.. Nonetheless, the optimal
+estinate for the non-linear case is found by continually
+39
+
+===== PAGE 50 =====
+{"alpha_words": 69, "chars": 565, "method": "ocr", "page": 50, "variant": "plain-vision"}
+updating the state estimate until some convergence criteria
+is reached.
+statistically,
+P. = E(SX 8x'),
+(4.15)
+where E is the expectation operator. Since the Taylor series
+was truncated to first order,
+8x = J sy,
+(4.16)
+where J is the Jacobian of x with respect to y. Substitut-
+ing,
+P. = ELT Sy (J 5y) |
+P, = E(J бу бу" Г).
+(4.17)
+Since J is a constant matrix, it can be brought outside of
+the expectation operator producing
+P, = JEl Sy Sy ) J'.
+P, = J P, T.
+(4.18)
+Solving for Pyr
+(4.19)
+Since J is an orthogonal symmetric matrix, J' = J",
+P, = JP, (J).
+40
+(4.20)
+
+===== PAGE 51 =====
+{"alpha_words": 198, "chars": 1266, "method": "ocr", "page": 51, "variant": "plain-vision"}
+Therefore, given the functional relationship between x and y,
+any covariance matrix in one space can be transformed into
+another space via the above association.
+unobservability
+one of the main problems with least squares is that the
+initial estimate must be sufficiently "close" to a solution
+to ensure convergence. This is due to the fact that the
+Taylor series was expanded about a reference orbit and trun-
+cated beyond the linear tern. The Gauss orbit determination
+method produces the initial state estimate for input into the
+least squares estimator. This estimate is a three dimensional
+estimate, however the data being fit is two-dimensional. In
+other words, one can determine the direction to the target
+with respect to the sensor, but the data contains no range
+information. Thus there will be an unobservable eigenvector
+parallel to the slant range vector corresponding to an infi-
+nite eigenvalue for P.
+In order for an estimate to exist, the matrix H'WH
+must be invertible. This is called the observability condi-
+tion (19:58).
+For out case, the zero eigenvalue of P' pre-
+vents inversion of this matrix to form the covariance but
+since computers introduce roundoff and ›ther errors we can
+invert this ill-conditioned natrix. If this matrix is used
+41
+
+===== PAGE 52 =====
+{"alpha_words": 146, "chars": 1002, "method": "ocr", "page": 52, "variant": "plain-vision"}
+to find the state estimate the solution will rapidly diverge
+due to an uncontrollable sx. Io control Ax, decompose Pi
+into its eigenvalues and determine the contribution of the
+unobservable eigenvector into the state update.
+Let I be the matrix of eigenvectors of P.
+• so
+1 = 1515185561
+(4.21)
+and the decomposed P' matrix is therefore
+P' = T^ T".
+(4.22)
+where 1 Is the diagonal matrix of eigenvalues 1, correspond-
+ing to 41. Taking the least squares equation and bringing the
+covariance natrix to the left hand side
+P' 4x = HWH.
+(4.23)
+Substituting the deconposed matrix and premultiplying each
+side by I" produces
+1 TAX = T'HWD.
+(4.24)
+Letting sy = I's transforms the state space correction
+vector into the eigenspace spanned by the vectors of I. Upon
+examining 1, there will be a zero eigenvalue and the corre-
+sponding element of sy is its contribution to the correction
+vector in the state space. Setting this element of sy to zero
+eliminates this contribution, hence transforming this vector
+42
+
+===== PAGE 53 =====
+{"alpha_words": 198, "chars": 1214, "method": "ocr", "page": 53, "variant": "plain-vision"}
+back to ax produces a new correction vector which will produce
+convergent updates.
+Performing this procedure is not without its drawbacks.
+Since the correction contribution along the slant range vector
+was nulled, there are many different solutions to the azimuth
+and elevation data fit.
+Hence any reasonable Input slant
+range will produce randow residuals upon convergence though
+the slant range derived from the converged solution will not
+vary much from the input value.
+Range Determination
+Based on the data alone, the slant range from the sensor
+to the target cannot be realized since the information con-
+tained in the data set is purely direction with respect to the
+orbiting platform. The best range estimate one can obtain
+given the data is from the Gauss method. Even then the ana-
+lyst must know something about the physics of the problem and
+the geometry involved. However, there is another inherent
+piece of information which can be derived fron the data -- the
+rate at which the target passes through the field of view.
+Assuming the platforms and objects are in circular co-
+planar orbits, the angular rate at which satellites revolve
+about the earth is the mean motion, n, in radians per second,
+43
+
+===== PAGE 54 =====
+{"alpha_words": 102, "chars": 708, "method": "ocr", "page": 54, "variant": "plain-vision"}
+-.....
+11/2
+(4.25)
+where a is the semimajor axis of the orbit and i is the
+Earth's gravitational paraneter. Defining », as the angular
+rate of the platform and a, its semimajor axis, the target
+angular rate u can be expressed in terms of a variation da
+away fron ay, or
+:12
+W =
+(4.26)
+" lay + da)'
+The above equation can be rewritten in a binomial series
+in terms of the ratio sala,
+" бат"
+w=wo
+(4.27)
+where the notation (a)n detotes the Pochhammer operator'.
+Assuming da is much less than a,, the third order series re-
+presentation is
+w=wo =wo + 15/80 = 35/160'1, a = da/ar.
+(4.28)
+Therefore the angular tate of the target relative to the
+sensor is
+"The Pochhammer operator (a)n= (a)(at1) (at2)...(ath-i).
+
+===== PAGE 55 =====
+{"alpha_words": 100, "chars": 775, "method": "ocr", "page": 55, "variant": "plain-vision"}
+(w - W0) = w, 1-3/20+15/802 - 35/160 1,
+а = ба/a,.
+(4.29)
+Since both objects are assumed in circular orbits, the
+radial velocity is equal to zero. This makes the velocity
+nerely the radius times the angular rate in radians per sec-
+ond, or y=tw.
+Substituting the seminajor axis for radius
+makes the velocities become
+V = i (a, + sa) , Vo= wa,
+(4.30)
+and the relative inertial target velocity
+SV = (V -Va) = a, (w t wa) - da w
+= 8a wa 1 - 1/2 + 3/80 - 5/160 + 35/1280 1,
+• = ба/a,.
+(4.31)
+The target position with respect to the platform is given
+by the vector equation
+I = p + R,
+I being the target, R the platform and p the relative position
+(slant range) vectors. Since e is measured in the sensor
+coordinate frame, the target velocity I' becomes
+I'= R'+ p'+ wXp
+(4.32)
+45
+
+===== PAGE 56 =====
+{"alpha_words": 124, "chars": 856, "method": "ocr", "page": 56, "variant": "plain-vision"}
+where ' indicates the time derivative. Moving R' to the left
+hand side and expanding e into its components,
+I' - R' = SV = p'e, + pB'eat we, X pe,.
+(4.33)
+The earth subtends approximately 17° at geosynchronous
+altitude. A simulation of two coplanar circular orbits and
+determing the relative motion of a lower altitude satellite
+with respect to a near-geosynchronous satellite has shown that
+within the viewing cone, the sensor relative aspect angle rate
+B' is constant. Though B' is constant, the value of B' varies
+with slant range distance.
+Assuming p is constant through the field of view, and
+since da is small, e = da, the relative inertial velocity can
+be written in terms of tangential components only, or
+(4.34)
+This makes the expression
+1-312+3/80-5/160 + 35/1280 ;,
+* = ба/а, (4.35)
+which can be solved for a since B' is known
+from the data.
+46
+
+===== PAGE 57 =====
+{"alpha_words": 198, "chars": 1315, "method": "ocr", "page": 57, "variant": "plain-vision"}
+V. Results
+Three events were analyzed with the developed program,
+two of which had single data set collections. The third event
+was quite unique in that there were four consecutive days
+worth of data collected on the same object. This multi-day
+collection was verified by analyzing the intensity profile
+history for each collection. Each data set had the identical
+rotation rate, nearly the same intensity level, and started
+approximately 72 seconds earlier each successive day pinpoint-
+ing da. The focal plane traces are shown in Figure 5. For
+classification purposes, the single data set events will be
+designated Event A and Event B. The multiple event will
+merely be called the multi-day event.
+Event A and B Analysis Results
+By analyzing Events A and B, deriving the slant range
+from the angular rate is plausible only when the ratio sa/a,
+is sufficiently large. Figure 6 illustrates the simulated
+relative viewing angle from a spaceborne platform of a co-
+planar target in a circular orbit. For ranges close to the
+sensor (within 1000 km), B has constant slope -3/2w, within
+the viewing cone produced by the limb of the earth at geo-
+synchronous altitude (8.5º or .148353 radian half-an-
+gle).
+Figure 7 shows that for small sa/a,, B'/w, increases
+linearly with the range ratio p/a, at a rate of .375 to 1
+47
+
+===== PAGE 58 =====
+{"alpha_words": 96, "chars": 626, "method": "ocr", "page": 58, "variant": "plain-vision"}
+/Event A
+Event B
+Figure 5
+Single Data Set Focal Plane Traces
+which was expected from the expansion (realistically, ia/a, s
+0.024, which is an optimistic figure). This means the sum
+3/2wg + B' must lie between -0.008877 and zero to yield a
+semi-major axis change of less than 1000 km, implying that
+B'‹0 since the change in semi-major axis, and hence slant
+range must be negative due to the equation's derivation (ex-
+pansion of the quantity da ta,). These constraints on B'
+gave rise to another problem.
+The constant term in the series equals 1.09079624 X 10"
+radians per second, which is approaching the data noise level.
+48
+
+===== PAGE 59 =====
+{"alpha_words": 31, "chars": 401, "method": "ocr", "page": 59, "variant": "clean-vision"}
+Santor
+42169km Inr9 sap Angie
+3 079
+2
+100 to
+200 kn
+300 ka
+400 km
+Vler Arole (rad)
+500 kID
+- 0
+- 9 2
+- 4
+•1 €
+Figure 6
+20
+60
+ті мт пошатов
+(60c)
+100
+120
+Simulated View Angle Rates for Various Targets
+340
+=1481
+- 9 402
+- 1 483
+- 1 481
+beta-cut/vo
++ 9406
+- 1
+487
+- 1
+406
+• 7
+409
+-1
+49
+481
+-1
+402
+-1
+493
+= 4 494
+- 1
+499
+496
+497
+490
+- +
+- 1. 5
+• D2
+04
+Figure 7
+Actual Anguiar Rate Ratio vs Range Ratio
+49
+
+===== PAGE 60 =====
+{"alpha_words": 197, "chars": 1339, "method": "ocr", "page": 60, "variant": "plain-vision"}
+Hence, the random noise on B' easily corrupts the sum
+3/2 wot B' producing unreasonable range results since the sura
+must be multiplied by 8/3a, (= 112645 km) for a first order
+approximation.
+Therefore, the slant range calculation is
+extremely sensitive to data corruption, making this method of
+range determination unfeasible. This result is in agreement
+with Hrastar who concluded that even with three onboard sen-
+sors, small uncertainties in target location produces large
+uncertainties in the range (11:3).
+The Gauss orbit determination method worked fairly well
+for determining an initial orbit and a relationship between
+r and v. Some of the derived range solutions were unrealistic
+since they produced targets either behind the sensor or too
+far away to be detected. Noise was a minimal contributor to
+this problem since the data were smoothed via an analyst
+supplied n" order least squares polynomial. In fact, chang-
+ing the polynomial order produced negligible change in the
+computed radius vector through 3ª order.
+After fitting the data on these events with an arbitrary
+slant range, the mean of the residuals was on the same order
+as the standard deviation, indicating a bias existed. This
+bias essentially shifted the estimated state vector away from
+the nominal solution producing unreasonable target selection
+choices.
+50
+
+===== PAGE 61 =====
+{"alpha_words": 226, "chars": 1444, "method": "ocr", "page": 61, "variant": "plain-vision"}
+Each targets' data set, regardless of its size, spans at
+best approximately 38 of its orbit on a single pass since the
+target is also near geosynchronous altitude. The slant range,
+which can be approximated by a change in semi-major axis
+between the target and sensor, is unknown; only the direction
+:
+from the sensor at any one time is known given the data.
+For
+both of the single set events, the least observable eigen-
+vector was exactly aligned with the direction cosine vector
+from the sensor to the target with a near-infinite eigenvalue.
+Therefore, each slant range chosen by the analyst will fit the
+data equally well. Figure 8 through Figure 11 show the resid-
+uals for both Event A and Event B. Table II lists the data
+fit statistics.
+The equinoctial element set was conputed from the state
+vector to avoid the singularities associated with the other
+element sets. The state vector covariance matrix was also
+transformed to the equinoctial covariance matrix to determine
+the uncertainties of each element, with the Jacobian being
+computed via numerical partials. Unsurprisingly, all of the
+elements with the exception of the semi-major axis were known.
+The single data set equinoctial element covariance matrices
+for a given range are shown in the appendix.
+Since the sensor position is assumed exactly known, the
+snaller the slant range, the smaller the semi-major axis
+variance, o.'. Figure 12 shows a higher order growth in the
+51
+
+===== PAGE 62 =====
+{"alpha_words": 40, "chars": 364, "method": "ocr", "page": 62, "variant": "plain-psm3"}
+0.0004
+
+0.0003
+
+0.90002
+
+0.0001
+
+Az Res iduel
+
+“0.0001
+
+-0.0002
+
+-0.0003
+
+ren] a
+Oo
+oO Oo
+©
+op Oo
+Oo
+oO o o.|.°8 ss)
+oO Oo O |
+o o eo ° o
+a) oa o
+_ O = =
+0 o 9 a Cc o oO fe)
+° \e) o \p) fe) Go ° a
+Q
+5 oO Oo
+a Q
+0 oO a
+Oo
+TOTO
+0 20 40 60 30
+
+Oata point
+
+Figure 8 Event A Azimuth Residuals
+
+Ei Resicdubp!
+
+(Times 10€-5)
+
+Cata Point
+
+Event A Elevation Residuals
+
+52
+
+===== PAGE 63 =====
+{"alpha_words": 13, "chars": 292, "method": "ocr", "page": 63, "variant": "clean-vision"}
+0. 0002
+0. 00015
+0.0001
+0.00003
+-0. 00005
+- 0 0001
+-0. 00015
+-0 .0002
+Figure 10
+3
+saR
+-2
+-=
+Figure 11
+0°
+0 0
+000
+20
+0 D
+8
+0°
+40
+60
+80
+100
+cata Point
+Event B Azimuth Residuais
+• 0
+• °
+8
+09.
+• 090
+120
+o°g
+700
+8088
+0°
+U
+20
+8
+40
+60
+s0
+109
+usta point
+Event B Elevation Residuals
+53
+120
+140
+c°
+"40
+
+===== PAGE 64 =====
+{"alpha_words": 142, "chars": 989, "method": "ocr", "page": 64, "variant": "plain-vision"}
+Table II
+Event. A
+A2:
+E1:
+Event B
+single Data Set Event Converged statistics
+Mean
+- 3.72130E-8
+-1.04324E-8
+1.75770E-
+1.46506E-
+1.38461E-4
+2.77278E-5
+5.25703E-5
+1.67384E-5
+RMS
+1. 37496E-4
+2. 75345E-5
+5.23875E-4
+1.66801E-4
+semi-major axis certainty the further the target is from the
+sensor.
+This makes perfectly good sense since P, =
+•(t,,t,)P, Ø(t,,t.)'• In fact, from this relation, o" should
+increase in the order of p'at best since & is at most second
+order.
+Multiple Collection Event
+It was quite fortunate that a series of collections on
+the same object was located in the data base. The target had
+a periodic intensity profile which repeated itself upon each
+track, thus ascertaining that it was the same object. Each
+profile consisted of a series of specular troughs and valleys
+indicating that it was multisurfaced. A rotation rate could
+not be derived since the intensity pattern did not repeat over
+the duration of the track.
+Figure 13 shows the composite
+focal plane traces.
+54
+
+===== PAGE 65 =====
+{"alpha_words": 39, "chars": 246, "method": "ocr", "page": 65, "variant": "plain-psm3"}
+w
+
+ge
+om
+28
+Et
+o
+s
+
+CEH
+LTTE TTT TEA
+TILE T TTT TAN.
+PEATE E TEE
+HE I.
+
+an @anrone?¢eo nan rr oOo
+r
+
+vs Slant Range for Single Data Set Events
+
+Multi-Day Event Focal Plane Traces
+55
+
+O.
+
+Couorit tw)
+Cur) 10. 6Ixe w0(au-juRG
+
+Figure 12
+Figure 13
+
+===== PAGE 66 =====
+{"alpha_words": 242, "chars": 1458, "method": "ocr", "page": 66, "variant": "plain-vision"}
+Knowing the change in track start times from the previous
+day would give the analyst an idea of what the target semima-
+jor axis should be based on the sensor period. For this
+event, the sensor had a period of 1436.154 minutes and each
+track started approximately 215 seconds earlier each day put-
+ting the target 70.5 km away.
+Since two body motion was used to propagate both sensor
+and target state vectors over three days, the integration step
+size had to be decreased a significant amount (approximately
+60 second increments) in order to fit the position ephener-
+Ides. This led to long analysis runs, but it was imperative
+that each succeeding day's sensor ephemerides (given) natch
+the propagated state vector. Also, each data partial had to
+be related back to the epoch time via the chain rule.
+Using the a-priori slant range value, an initial orbit
+was computed from the Gauss algorithm for the first day's
+worth of data. A trial and error method was used to find a
+slant range which would "hit" the next day's data. Though any
+range would fit data set, only one slant range would fit two
+data sets collected on the same on ".t. Each latter data set
+became easier to fit once the first two data sets were fit.
+Different subroutines were "turned off" so that the data
+could drive the covarlance matrix calculations. For instance,
+the eigenvalue/observability check routine was not needed
+since the covariance matrix was now invertible -- the slant
+56
+
+===== PAGE 67 =====
+{"alpha_words": 234, "chars": 1435, "method": "ocr", "page": 67, "variant": "plain-vision"}
+range was now defined.
+Data partial derivatives were not
+required between collections. Hence that routine was bypas-
+sed until the first data point of the next set was reached.
+The entire four data sets were fit using the nominal
+Gaussian standard deviations listed in the sensor specifica-
+tions. As expected, the semi-na jor axis error dropped signif-
+icantly to within 4 km. The error for the remainder of the
+elements also was reduced, but not to the extent as the semi-
+major axis error. Figure 14 and Figure 15 show the multiple
+day event data fit residuals. Note the end of each data set
+after careful inspection of the plots.
+Table Ill lists the derived classical element set and the
+respective element errors. Any element which involves veloci-
+ty in its computation (1.e. eccentricity, argument of perigee,
+mean anomaly and semi-major axis) has a higher uncertainty
+than the pure position derived elements (ascending node and
+inclination) since error is extremely sensitive to changes in
+position derivatives.
+Once the data was fit, the obtained fastwalker state
+vector was propagated to find the range at the nadir crossing
+for each of the four days, shown in Table IV. The target
+appeared to have drifted approxinately 40 km further from the
+sensor each day for two days and then stopped. This effect
+was due to the relative changes in the orbit between the
+sensor and target since the eccentricity is not exactly zero.
+57
+
+===== PAGE 68 =====
+{"alpha_words": 21, "chars": 244, "method": "ocr", "page": 68, "variant": "plain-psm3"}
+0.0002
+
+0.90018
+
+0.9001
+
+0.90005
+
+-0. 00015 ;
+
+0
+-0 .coo2
+
+oO 20 a0 60 80 100 120 440
+
+Cate Point
+
+Figure 14 Multiple Day Event Azimuth Residuals
+
+€ | Res idun |
+CTimes 10€-5)
+
+Cate Po: *t
+
+Figure 15 Multiple Day Event Elevation Residuals
+
+58
+
+===== PAGE 69 =====
+{"alpha_words": 47, "chars": 503, "method": "ocr", "page": 69, "variant": "plain-vision"}
+Table III
+Semi-major Axis, a
+Eccentricity, e
+Inclination, i
+Ascending Node, N
+Argument of Perigee, w
+Mean Anonaly, M
+Azimuth
+Mean: 8.17632E-7
+Elevation
+Mean: 5.61084E-7
+Derived Multiple Day Event Results
+42167.15 km
+• 00298
+5.664°
+70.566°
+316.800°
+96,489°
+0 = 3.6 кт
+• =
+• 000213
+o = .000305°
+o =
+.000746°
+o =
+.0198°
+0 = .00281°
+RMS: 4.96381E-5 o: 4.99205E-5
+RMS: 1.17450E-5 o: 1.20884E-5
+Table IV
+Multiple Day Event Nadir Crossing Ranges
+Day 0: 79.0 km
+Day 1: 130 km
+Day 2: 176.2 Km
+Day 3: 180.4 km
+59
+
+===== PAGE 70 =====
+{"alpha_words": 210, "chars": 1371, "method": "ocr", "page": 70, "variant": "plain-vision"}
+VI. Summary and Conclusions
+Fastwalker orbit determination cannot be performed witn
+a single data set. Multiple simultaneous collections by
+different sensors or another sighting by the same sensor on
+a different day is required to determine the orbital element
+set with any certainty. Hence any future occurrences with
+other censors cannot be conputed accurately since errors are
+also • ›pagated along with the state.
+A near-perfect estimate of the sensor position and veloc-
+ity is required so any errors contributed to the results will
+be due tr the data and not the ephemeris. This is accom-
+plished by assuming the first ephemeris position point is
+known and fitting the remainder of the position ephemerides
+by estimating the velocity.
+This adds confidence to the
+propagated state vector when fitting multiple day collections.
+The Gauss method provides a good initial orbit provided
+the data does not have any biases (zero mean), especially
+since the method assumes perfect data. Hence, no error sta.
+tistics are associated with the elements. Once the eighth-
+order polynomial is factored, the method occasionally produces
+possible target ranges where the target would not be detected
+due to the Iower reflected sunlight intensity level or a
+negative range neaning the target is behind the sensor. These
+outputs are naturally impossible and the method fails.
+The
+60
+
+===== PAGE 71 =====
+{"alpha_words": 242, "chars": 1498, "method": "ocr", "page": 71, "variant": "plain-vision"}
+method does however provide a relationship between the target
+position and velocity vectors as a function of range.
+Since the target is essentially coplanar with the sensor,
+the range is the difference in the target semi-major axis fron
+the sensor. Unfortunately, the least observable eigenvector
+derived fron the covariance matrix is along the line of sight
+indicating that any range will fit the azimuth and elevation
+data equally well. The least confident element is the semi-
+major axis; its error increases as a function of p'. The
+balance of the element errors, whether they be classical or
+equinoctial, increase at a much slower rate. For data sets
+with no • ero nean, the remainder of the elaments are confi-
+ciently known when the target is within 100 km. Otherwise the
+errors grow almosi as fast as the semi-major axis error.
+Multiple sightings on different days require à relatively
+small integration step if two body motion is to be used for
+propagating the sensor and initial fastwalker state vertors.
+The semi-najor axis error is significantly reduced with each
+additional data set. Once two data sets are fit (which is a
+chore in and of itself), the third and later sets become
+easier to analyze since the epoch estimate is more refined.
+'The najor problem is finding a range which will produce an
+orbit consistent with the second data set. Perturbations do
+not play a major tole since thesa eifects are insignificant
+over the time period of the analyzed events and they are also
+61
+
+===== PAGE 72 =====
+{"alpha_words": 145, "chars": 865, "method": "ocr", "page": 72, "variant": "plain-vision"}
+absorbed in the data noise. Though the data residuals still
+have trends, the RMS values are acceptible given the bias
+probiens.
+Care must be taken to ensure that the same object is
+being tracked else many hours will be wasted. This is done
+by comparing intensity history patterns of various detected
+objects. The intensity level is not important since it is a
+function of the materials used to build the target, location
+of the sun at the time of collection, target attitude with
+respect to the sensor and other effects in addition to dis-
+tance from the sensor. Only the specular pattern is important
+since most of the satellites in geosynchronous orbit are
+spinners with despun shelves. This pattern gives the analyst
+an idea of the target shape and the spin rate. It is similar
+to a fingerprint -- an identifying trait which discerns one
+object from another.
+62
+
+===== PAGE 73 =====
+{"alpha_words": 208, "chars": 1347, "method": "ocr", "page": 73, "variant": "plain-vision"}
+VII. Reconnendations
+The topic of this thesis has not been deeply investigated
+by many analysts within the space and intelligence conmunity.
+It is only recently that fastwalker analysis has become an
+important issue due to an ever increasing number of geosyn-
+chronous satellites and the inability to track and catalog
+these objects with ground-based sensors.
+Therefore many
+related topics are available for research.
+The main hurdle to overcome with fastwalker analysis with
+a single data set is the range anbiguity. Rederiving the
+Gauss orbit determination method to include state vector error
+statistics will be able to provide the estimator information
+about what it is calculating.
+Since the direction cosine
+vectors are fit with a least squares polynomial, there is some
+error information present which could be related to the ini-
+tial state estimate from the Gauss algorithm. It is possible
+to transform these error statistics into some type of a-priori
+covariance matrix which in turn can be added to the least
+squares covariance matrix. This will control the estimation
+process iteration and reduce the need to decompose the least
+squares covariance matrix.
+Secondly, devising a method to remove biases from the
+data will help allow the Gauss method to perform better with
+the given data thus providing a more confident initial state
+63
+
+===== PAGE 74 =====
+{"alpha_words": 84, "chars": 550, "method": "ocr", "page": 74, "variant": "plain-vision"}
+vector to the estimator. This can be combined with the above
+recomendation to again furnish the estimator with error
+statistics about what it is receiving.
+Lastly, one can perform intensity history profile compar-
+isons to determine when the same object is detected by two
+orbiting seisors in different locations. This will involve
+perturbation theory and propagating state vectors (or orbital
+elements) over long time periods and then fit two or more data
+sets. Accurate propagation models using the HAMING integrator
+will be required (19:B-12).
+64
+
+===== PAGE 75 =====
+{"alpha_words": 145, "chars": 1429, "method": "ocr", "page": 75, "variant": "plain-vision"}
+Appendix: covariance Matrices for Events_d and B
+The following matrices are typical single data set event
+covariance matrices. Each matrix is for a specific event and
+the matrix elements are functions of range and how well the
+data was fit.
+The given ranges were derived by the Gauss
+algorithm. Read the elements from left to right and top to
+bottom as follows: a, h, K, lor P, 9 (i.e. P, is the partial
+derivative of h with respect to k).
+Event A Equinectial Element Coyariance Matrix at Fo e = 25km
+0.46298E+00 0.36882E-03 0.60340E-03 0.41122E-04 0.12580E-02 0.11407E-02
+0.36882E-03 0.29422E-06 0.48127E-06 0.32800E-07 0.10034E-05 0.90989E-06
+0.60340E-03 O.48127E-06 0.78739E-06 0.53660E-07 0.16415E-05 0.14885E-05
+0.41122E-04 0.32800E-07 0.53660E-07 0.36570E-08 0.11187E-06 0.10144E-06
+0.12580E-02 0.10034E-05 0.16415E-05 0.11187E-06 0.34222E-05 0.31032E-05
+0.11407E-02 0.90989E-06 0.14885E-05 0.10144E-06 0.31032E-05 0.28140E-05
+Event B Equinectial Element Coyariance Matrix at Joe e = 425KM
+0.20772E+070.87512E+01 0.58293E+010.32037E+01 0.21847E+02-0.56257E+02
+0.87512E+01 0.37038E-04 0.24631E-04 0.13496E-04 0.92037E-04-0.23700E-03
+0.58293E+01 0.24631E-04 O.16394E-04 O.89899E-05 O.61306E-04-0.15787E-03
+0.32037E+01 0.13496E-04 0.89899E-05 0.49410E-05 O.33694E-04-0.86766E-04
+0.21847E+02 0.92037E-04 O.61306E-04 0.33694E-04 0.22977E-03-0.59168E-03
+-0.56257E+02-0.23700E-03-0.15787E-03-0.86766E-04-0.59168E-030.15236E-02
+65
+
+===== PAGE 76 =====
+{"alpha_words": 192, "chars": 1618, "method": "ocr", "page": 76, "variant": "plain-vision"}
+Bibliography
+1. Bate, R.R. et al. Fundamentals of Astrodynamics, Dover
+Publications, Inc., New York, 1971.
+2. Battin, Richard. An Introduction to the Mathematics and
+Methods el Astrodynamics, Wiley & sons, Mar 1988.
+3.
+conte, S.D. Elenentary Numerical Analysis, McGraw-Hill
+Book Company, New York, 1980.
+4.
+Cefola, Paul. Equinoctial Orbit Elements - ARplication
+te artificial satellite Orbits. AIAA Paper 72-937 pres-
+ented at the AIAA/AAS Astrodynamics Conference, Palo
+Alto, CA, September 11-12, 1972.
+5. Day, Kenton. Trajectory Reconstruction by the Method of
+Weighted Least Squares, Report No. SYA-06, Signal Sci-
+ences,
+Inc., Santa Clara, CA, 8 Oct 76.
+6. Escobal, Pedro R. Methods of Orbit Determination, Robert
+E. Krieger Publishing Co., Malabar, FL, 1965.
+7. Ferguson, Jack R.
+8. Geodynamics Corporation, "MVS/TRP Milestone 2/3 Report:
+Estimation Convergence Criteria, " March 1984.
+9.
+Geodynamics Corporation, "MVS/TRP Milestone 2/3 Report:
+SENSM Module Equation Logic, " March 1984.
+10.
+Greenwood, Denald.
+Principles of Dynanics, Prentice-
+Hall, Inc., Englewood Cliffs, New Jersey, 1965.
+11. Hrastar, John. "Estimation of the Length and Orientation
+of the Line Between Iwo Closely Co-orbiting Satellites:"
+Journal ef spacecraft and Reckets, Vol 7, No 10, October
+1970.
+12. Junkins, J.L. An Introduction te Optimal Estimation of
+Dynamical Systens, Sistoff and Nordoff Publishers,
+Netherlands, 1978.
+The
+13.
+Kaplan, Marshall. Medern spacecraft Dynamics and con-
+trel,
+John Wiley & Sons, New York, 1976.
+14.
+Seminar Notes for Satellite Orbit and Attitude
+Control Systens, George Washington University, 1986.
+66
+
+===== PAGE 77 =====
+{"alpha_words": 100, "chars": 890, "method": "ocr", "page": 77, "variant": "plain-vision"}
+15. Kreysig, Edwin. Adyanced Engineering Mathenatics, Sixth
+Edition, John Wiley & Sons, 1988.
+16. Lillard, Larry N. Post Flight Trajectory Reconstruction
+of a Maneuverina Reentry Vehicle fron Radar Measurenents,
+M.S. Thesis, Air Force Institute of Technology, wright-
+Patterson AFB, OH, Dec 1982.
+17. Mierovitch, L. Methods of Analytical Dynamics, McGraw-
+Hill Book Company, New York, 1970.
+18. Toines, C.C. et al. TRACE Orbit Determination Program
+Versien D, Report No TR-669(9990) - 3, Aerospace corpora-
+tion, September 1966.
+19.
+wiesel, William.
+Lecture Notes for MC 7.31, Modern
+Methods of Orbit Determination, Air Force Institute of
+Technology, wright-Patterson
+• AFB, OH, 1988.
+20.
+wolaver, L.E.
+Introductien,
+Modern Techniques in Astrodynamics -- An
+Defense
+Technical
+Information
+center,
+Alexandria, VA, December 1970 (AD 718963).
+21.
+wong, Len.
+Corporation
+EI Sequndo, CA
+1985.
+67
+
+===== PAGE 78 =====
+{"alpha_words": 114, "chars": 796, "method": "ocr", "page": 78, "variant": "plain-vision"}
+Vita
+Captain Richard P. Osedacz was born on 24 February 1962
+in Central Falls, Rhode Island. He graduated from high school
+in Cumberland, Rhode Island in 1980 and attended the United
+States Air Force Academy from which he received the degree of
+Bachelor of Science in Astronautical Engineering in May 1984.
+Upon graduation he received a regular commission in the USAF
+and was assigned to the Foreign Technology Division, Director-
+ate of MASINT Exploitation, Powered Flight Performance Group
+where he spent the next three years as a ballistic missile
+performance engineer. In 1987 he served as Deputy Branch
+Chief, Powered Flight Performance Group until entering the
+School of Engineering, Air Force Institute of Technology, in
+May 1988.
+Permanent Address: 44 E. Earle St
+cumberland, RI 02864
+68
+
+===== PAGE 79 =====
+{"alpha_words": 249, "chars": 2065, "method": "ocr", "page": 79, "variant": "plain-vision"}
+UNCLASSIFIED
+SECURITY CLASSIFICATION OF THIS PAGE
+REPORT DOCUMENTATION PAGE
+form Approved
+OMB No. 0704-0188
+1e. REPORT SECURITY CLASSIFICATION
+UNCLASSIFTED
+28. SECURITY CLASSIFICATION AUTHORITY
+Tb. RESTRICTIVE MARKINGS
+3. OISTRIBUTION / AVAILABILITY OF REPORT
+26. DECLASSIFICATION/DOWNGRADING SCHEDULE
+A. PERFORMING ORGANIZATION REPORT NUMBER(S)
+AFIT/GA/ENY/89J-3
+6e. NAME OF PERFORMING ORGANIZATION
+School of Engineering
+6C ADDRESS (City, state, and ZIP Code)
+Air Forde Institute of Technology
+Wright-Patterson AFB OH
+45433-6583
+5. MONITORING ORGANIZATION REPORT NUMBERS)
+6b. OFFICE SYMBOL
+(it applicable)
+AFIT/ENY
+7a. NAME OF MONITORING ORGANIZATION
+Tb. ADDRESS (City, State, and ZiP Code)
+8e. NAME OF FUNDING / SPONSORING
+ORGANIZATION
+Flight Performance Division
+8b. OFFICE SYMBOL
+(19 applicable)
+FTD/SQDF
+9. PROCUREMENT INSTRUMENT IDENTIFICATION NUMBER
+8c ADDRESS (City, State, and ZIP Code)
+Ho Foreign Technology Division
+IO. SOURCE OF FUNDING NUMBERS
+PROGRAM
+PROJECT
+ELEMENT NO.
+NO.
+TASK
+NO
+Wright-Patterson AFB OH
+45433
+11. TITLE (Include Securtty Classification)
+ORBIT DETERMINATION OF SUNLIGHT _ILLUMINATED OBJECTS DETECTED BY OVERHEAD PLATFORMS
+WORK UNIT
+ACCESSION NO.
+12. PERSONAL AUTHOR(S)
+Richard P. Osedacz, B.S., Capt, USAF
+130. TYPE OF REPORT
+13b. TIME COVERED
+MS Thesis
+FROM
+16. SUPPLEMENTARY NOTATION
+TO
+T4. DATE OF REPORT (Year, Month, Day)
+1989 June
+TS. PAGE COUNT
+78
+17.
+FIELD
+22
+COSATI CODES
+GROUP
+03
+18. SUBJECT TERMS (Continue on revarse if necessary and identify by block number)
+SUB-GROUP
+Orbit Determination
+Angh anly data
+Fastwalkers
+19. ABSTRACT (Continua on reverse if necessary and identity by block number)
+Thesis Advisor: Willian E. Wiesel
+Professor
+Department of Aeronautics and Astronautics
+20. DISTIBUTION AVAILABILITY OF ABSTRACT
+UNCLASSIFIED/UNLIMITED • SAME AS RPT.
+21m Meet Protestor
+DD Form 1473, JUN 86
+•OTIC USERS
+previous editions are obsolere.
+19
+21. ABSTRACT SECURITY CLASSIFICATIÓN
+UNCLASSIF LED
+226 TELEPHONE (Include Area Code) Z2e OFFICE SYMBOL
+513-255-3517
+ENT
+— SECURITY GLASSIFISATION DE THIS PAGE.
+UNCIASSIFIED
+
+===== PAGE 80 =====
+{"alpha_words": 155, "chars": 1044, "method": "ocr", "page": 80, "variant": "plain-vision"}
+UNCLASSIEIED
+A technique for deternining the orbital element set of a
+sunlight-illuminated object detected by an overhead platform
+(when passing through the sensor's fleld of view) is devel-
+oped. The technique uses a Gauss orbit determination tech-
+nique to find an initial target state estimate and then the
+estimate is refined via a batch weighted least squares estima-
+tion routine. A six element state vector consisting of three
+position and three velocity components describe the state at
+epoch. It was found that the Gaussian method produced rea-
+sonable initial orbits when the data bias was sufficiently
+zero. Each analyst-supplied slant range fit the data equally
+well, indicating that orbit determination 1s impossible with
+a single set of data. A unique series of events where the
+sane object was tracked four consecutive days was fit using
+the developed algorithi, producing favorable results. The re-
+sults of two single data set events and one multiple collec-
+tlon evente are prosented. V.p. do fight pasta; slit,.
+UNGLASSIEIER

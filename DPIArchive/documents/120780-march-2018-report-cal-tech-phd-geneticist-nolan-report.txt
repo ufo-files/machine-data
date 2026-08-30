@@ -1,0 +1,203 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-04T20:02:50Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 6, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 717545, "source_file": "DPIArchive/documents/120780-march-2018-report-cal-tech-phd-geneticist-nolan-report.pdf", "source_sha256": "fc0af507ba0bde68c51e63aa6071b2ee8544e1dd8e3307ab76ac1fc261e93311"}
+
+===== PAGE 1 =====
+{"alpha_words": 433, "chars": 2777, "method": "ocr", "page": 1, "variant": "plain-vision"}
+March 2018 report from reknowned Cal Tech PhD geneticist re Nolan report. - Mauch 2t
+Many "novel" mutations were found by PCR and sequencing, within the polymerase-copied DNA sample
+taken from a small mummy in Chile, that had been exposed to harsh local conditions in the desert there
+for 100 to 500 years: what might be the cause?
+The recovery of intact DNA from ancient samples is a subject fraught with technical difficulties. Most
+bone samples from even 100 years ago may show fragmentation to reduced mean sizes of 100-300 bp,
+plus oxidative damage to their bases which, if not eliminated from the sample before PCR, may appear
+as "misread bases" or "novel" genetic mutations in a final sequenced database.
+The most common kind of damage involves deamination of C cytosine or A adenine bases, which later
+causes them to be read as U uracil or H hypoxanthine respectively, due to errors in base pairing when a
+polymerase enzyme copies the damaged base (see for example
+https://www.mun.ca/biology/scarr/Nitrous_Acid_Mutagenesis.html). One standard method which may
+be used to reduce the frequency of misread C bases in a final sequenced product is to treat the aged or
+damaged sample with an enzyme UNG before PCR.
+Pre-treatment with UNG: remove many C bases deaminated by environmental damage, yet still keep
+real genetic mutants which formed while the organism was alive.
+Omit treatment with UNG: keep many C bases deaminated by environmental damage, and also keep
+real genetic mutants which formed while the organism was alive.
+This enzyme uracil-N-glycosylase cuts a DNA strand at uracil U bases, and also at deaminated C bases
+which resemble uracil U (see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4175022 or
+https://academic.oup.com/nar/article/29/23/4793/2359260).
+How damaged by age was the Chilean mummy DNA sample? Could low-level environmental damage be
+something we need to worry about, especially if we plan to study long nuclear coding regions, and base
+our bioinformatics strategy around whether single point-mutations are seen in long coding regions of
+500 to 2000 bp?
+The authors write (edited slightly for clarity): "The Ata DNA (sample) is relatively free of damage. The
+average DNA fragment size for Ata is 300 bp, consistent with a sample younger than 500 years."
+Yet fresh undamaged DNA from a modern sample is much longer than that! We can therefore know for
+sure that its sugar-phosphate chains were seriously damaged by age. In other words, we cannot rely on
+any sugar-phosphate chain from that mummy sample being intact and undamaged beyond a mean
+length of 300 bp in double-stranded form. There might also be "nicks" within the single-stranded form
+of that DNA sample with an even smaller range of sizes (not mentioned in the published paper).
+
+===== PAGE 2 =====
+{"alpha_words": 524, "chars": 3383, "method": "ocr", "page": 2, "variant": "plain-vision"}
+DNA bases such as A, G, C and Tare nearly as susceptible to chemical and/or environmental damage as
+are the sugar-phosphate chains. Might some of those DNA bases have been damaged also in the
+mummy sample, at a mean spacing along any strand of 300 bases or less? How did the authors look for
+chemical damage to the DNA bases, which might give a false overestimate of "mutations" later in high-
+throughput sequencing, due to polymerase misreading of damaged bases? How did they try to correct
+for this problem, which is seen in almost all samples of ancient DNA older than 100 years, which have
+not been frozen away somewhere in a freezer or in the Arctic permafrost? (see for example
+http://www.genetics.org/content/172/2/733)
+In Figure S1, they assess the extent of DNA damage by studying variations in sequence across small
+sequence-reads of just 101 bp. This method would only detect base-pair errors made during sequencing
+in vitro, mainly at the two ends of any small 101 bp fragment, due to polymerase misreading there.
+"Preserved DNA extracts may exhibit DNA damage or contaminants. We characterized the extent and
+type of DNA damage present by measuring nucleotide mis-incorporations, particularly cytosine
+deamination at the ends of fragments. We observed a very small increase in the frequency of C→T and
+G→A substitutions resulting from cytosine deamination at the 5' and 3' ends, respectively, with an
+approximately twofold difference in substitution frequency at the ends of the read versus the center."
+In other words, this particular method would not be capable of detecting a low level of age-related
+environmental damage of bases, all across the original mummy DNA fragments of mean size 300 bp.
+Their final derived sequences were just assumed to be "real" and full of "novel" mutations, even if they
+were slightly different in sequence from a human consensus. Once again, the mean size of DNA in their
+moderately degraded sample was just 300 bp (as a double helix), and it was 100-500 years old. There is
+no possibility whatsoever that some of its bases did not suffer serious chemical damage after the
+mummy died, and before its genomic DNA was extracted, perhaps at a low level of 0.1-0.5% as
+suggested by its reduced DNA lengths?
+Another test using mitochondrial DNA was shown in Fig. S2, yet was not described there in enough
+detail to be useful, for assessing the prevalence of very low-level mutations due to DNA damage. Thus
+the rates of nucleotide reading-error in nuclear genes, which might produce false and "novel" mutations
+by PCR and sequencing, and then affect later bioinformatics studies of long nuclear coding regions,
+would be expected to be only 0.1-0.5% or once every 200 to 1000 bp:
+"Overall we did not observe much damage in Ata's genome. As a result, the UNG treatment prior to
+amplification was not recommended (used). We also estimated contamination using the rate of
+mitochondrial heterozygosity. This analysis predicted the probability of authenticity of the specimen to
+be~1.00, due to limited or no heterozygosity of the mitochondria."
+Since they knew that their mummy sample was moderately degraded to a mean length of 300 bp in
+double-stranded form, and they planned to study long 500-2000 bp nuclear coding-regions later, within
+which the presence of even one "false mutation" might seriously impair the bioinformatics analysis, why
+
+===== PAGE 3 =====
+{"alpha_words": 502, "chars": 3093, "method": "ocr", "page": 3, "variant": "plain-vision"}
+did they choose not to use a standard enzyme UNG, at least as a control, to remove most of the
+deaminated C bases prior to PCR?
+This is likewise why studies of nuclear genes from ancient samples have been so problematic. It is easy
+to make some kind of "evolutionary tree" using sequences which are not quite accurate, without much
+effect on overall conclusions. Yet if we try to use DNA sequences of less than perfect quality to study
+long nuclear coding regions, as we might do when studying "fresh modern DNA" from medical patients,
+the entire exercise becomes fraught with technical difficulties. How do we know that what we are
+seeing was really there, while the organism was still alive, and not produced as an artefact after the
+organism died, then laid out in the Chilean desert for 100-500 years?
+One way to check a single genomic database for accuracy would be to compare its derived sequences to
+many real mutations of long nuclear genes which we can see, in other much-larger databases of a
+similar kind, derived from the consensus of thousands of modern, human individuals, Do the specific
+locations of certain critical "mutations" which we see, for an ancient DNA sample, match the detailed
+locations of real genetic mutations which have been established through studying modern humans who
+might have given fresh blood or skin samples?
+In fact, the investigators of that small Chilean mummy quickly saw lots of "novel" mutations in their final
+sequenced database, many of which did not match any other known mutations in current large,
+combined human databases. And so the "alarm bells" should have been ringing in their heads! What is
+really going on here? Are our DNA sequence data real, or could we have made a subtle mistake?
+Title: "Whole-genome sequencing of Atacama skeleton shows novel mutations linked with dysplasia"
+They found many "novel" DNA mutations, to which they ascribed critical and real genetic significances.
+Such a result is not impossible, but it needs to be checked very carefully, over and over again by a
+variety of methods and decisive controls, before it can be accepted as "fact". That is how experimental
+science should be done.
+The authors to their credit did "re-sequencing" of certain targeted regions, which was difficult because
+the mean size of DNA in that mummy sample was only 300 bp (their Table S5). Yet it was all done
+accordingly to the same methods as used before, and just confirmed that sequences from their whole-
+genome study were self-consistent and repeatable, rather than confirming that such DNA base changes
+were made while the mummy was still alive.
+The burden of proof therefore seems to lie on those investigators (or others) to independently
+reproduce the occurrence of so many "novel" base mutations in the mummy sample (after PCR and
+sequencing), by repeating the same procedure, except this time using UNG or a similar enzyme, or other
+established methods to remove deaminated C bases (or other lesions) beforehand, then ask whether so
+many "novel" mutations still appear after sequencing, in the same places as before?
+
+===== PAGE 4 =====
+{"alpha_words": 423, "chars": 2868, "method": "ocr", "page": 4, "variant": "plain-vision"}
+A full genomic-sequence analysis might be prohibitively expensive for every possible "control" set of
+conditions. Yet it would be relatively easy to check 6-12 "novel" mutations by PCR and sequencing, after
+applying various treatments which might eliminate damaged DNA bases, then ask whether the same
+"novel" mutations are still observed in the same places? Why were such important controls not asked
+for by the editor or referees of Genome Research?
+In summary, how do we know that such "novel" mutations are real, and due to genetic changes while
+that small mummy was still alive, instead of environmental damage after the organism died, and was
+exposed to harsh conditions for >100 years in the Chilean desert? We seemingly do not.
+Bioinformatics: how did they reach their unusual medical conclusion of a new "alien baby syndrome"?
+Next, how did these authors come to their conclusion that a combination of known and "novel"
+mutations might be responsible for a strange "alien" body shape of that small mummy? Their
+explanations do not seem entirely convincing (paraphrased here for clarity):
+"We identified 64 coding region SNVs predicted to be deleterious. Next we found that the majority were
+bone-associated, such as 'proportionate short stature' and '11 pairs of ribs'. As a negative control, we
+ran similar analyses on a randomly-selected Peruvian female. There were no overlapping genes with
+mutations identified from the Ata genome present in this individual. The SNVs that we identified are
+novel, but (other) previously identified mutations in all seven genes are implicated in osteo-chondro-
+dysplasias, and represent plausible causes of Ata's abnormal skull morphology, small stature, 10 ribs,
+and premature bone age."
+Only 64 coding-region mutations out of millions were first predicted to be "deleterious". Yet any single
+mutation in a coding region which changes an amino-acid can be "deleterious", for example in sickle-cell
+anaemia.
+Next a majority of those "chosen" 64 coding-region mutations were found to be located in "bone-
+associated genes". While a modern Peruvian woman shows none there (0 of 64)? And such "novel"
+mutations were not found in current human databases?
+If those were real "genetic mutations", made while the mummy was alive, this result would require
+some kind of chemical mutagen which miraculously "targets" 7 bone-associated genes among 30,000
+genes elsewhere in the genome. What might they say to further explain such unprecedented findings?
+"A chance combination of multiple known mutations and novel SNVs as identified here may explain
+Ata's small stature, inappropriate rib count, abnormal cranial features, and perceived advanced bone
+age. The specimen was found in La Noria, one of the Atacama Desert's many nitrate mining towns,
+which suggests a possible role for prenatal nitrate exposure leading to DNA damage."
+
+===== PAGE 5 =====
+{"alpha_words": 504, "chars": 3177, "method": "ocr", "page": 5, "variant": "plain-vision"}
+Now they say that multiple mutations were not apparently targeted to 7 bone-associated genes, as
+suggested before, but were due purely to random chance. How can we reconcile this logic with their
+earlier bioinformatics conclusions?
+Sodium nitrate as a cause of extensive genetic mutations in pregnant women, which causes the foetus
+to look like a small alien? This seems very unlikely (see for example
+https://link.springer.com/article/10.1007/BF03174993)
+Three possible hypotheses: age-related artefacts, an entirely new medical disease, or past interbreeding
+with an unknown humanoid?
+In order for the putative results of this study to be true, the authors would have had to identified an
+entirely new disease-causing syndrome, not previously known to medical science, which mysteriously
+(and for no known reason) caused an entire linked collection of bone-development genes within a
+human foetus to all mutate at the same time, thereby causing a normal Chilean mother to have an
+aborted baby which "looks like an alien". This concept seems somewhat akin to what happens when a
+normal man turns into a bone-mutated monster in the "Incredible Hulk" comic books, as the result of
+being exposed to gamma radiation in laboratory experiments.
+It is not impossible that they have made such a great, Nobel-Prize-winning discovery. "Prions" and
+"quasicrystals" for example were doubted for many years, yet later shown to be true. We will be the
+first to congratulate them, if this "discovery" is later verified by other known cases? Say if this discovery
+were repeated in the case of a modern mother and her baby, from which fresh undamaged DNA could
+be obtained, that would be evidence in their favour. It might even be called "alien baby syndrome"
+Still respected sceptics such as Carl Sagan have said that "extraordinary clams require extraordinary
+evidence". Here we see a case of "extraordinary claims" which have been based on weak or doubtful
+evidence, and the same sceptical logic has not been applied.
+Once all of those "novel" mutations from an aged and desert-exposed mummy sample are tested for
+factual genetic reality, using a series of established controls, then we might be able to say more. We
+need to see more controls for possible age-related artefacts, using the same polymerase as used in high-
+throughput sequencing, yet with various pre-treatments to remove damaged bases (UNG, heat, etc.)
+before we can be sure that any of those "novel" mutations are real, and certainly before we try to
+ascribe any possible causes to them (for example exposure to nitrate, past hybridization, etc.)
+If this were any other study of an aged mummy from mainstream "DNA archaeology", it is hard to see
+how the paper could have been accepted in its current form. Out of the thousands of ancient mummies
+or bone samples studied so far, none have ever shown an entire database filled with "novel" but real
+genetic mutations. Again it is not impossible that such mutations could be real, because this is such a
+strange-looking sample. Yet to attribute all such mutations to "normal human biology" or "nitrate
+mutagenesis" seems unlikely. Perhaps something else may be going on here?
+
+===== PAGE 6 =====
+{"alpha_words": 171, "chars": 1187, "method": "ocr", "page": 6, "variant": "plain-vision"}
+si ≤
+Other workers from DNA archaeology have been reluctant to draw firm conclusions concerning long
+nuclear genes for this very reason. Their comments on this paper would be welcome (see for example
+http://www.mdpi.com/2073-4425/9/3/135 or https://www.forensicmag.com/article/2016/03/nuclear-
+dna-analyzed-400000-year-old-bones), even though they have not yet uncovered any new medical
+syndromes, but are just studying multiple-human-species ancestries.
+If any of the mutations reported in this small Chilean mummy matched for example Neanderthal or
+Denisovan nuclear genes, that would be of great interest, since some of those pseudo-human species
+apparently interbred with modern humans long ago (see https://en.wikipedia.org/wiki/Denisovan or
+https://en.wikipedia.org/wiki/Neanderthal). Might the past existence of several pseudo-human species
+imply that some other "unknown" humanoid species interbred with that Chilean woman, hundreds of
+years ago, although their hybrid offspring may not have been fully viable?
+All of these three hypotheses: (1) age-related artefacts, (2) new medical syndrome, or (3) past
+interbreeding, might usefully be considered as we move forward.
+THE END

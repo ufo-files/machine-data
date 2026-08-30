@@ -1,0 +1,92 @@
+{
+  "document_id": "doc-569750e3f1ea7d866d520593",
+  "findings": [
+    {
+      "check": "negation",
+      "segment_id": "seg-c0ffe0ea03760ce29ebab8ba",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-1afdf93cd9e409eb9a299a0f",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "added_in_translation": [
+        "1977-06-25",
+        "1977-06-25",
+        "1977-06-25"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-b73d01642ea61254aa0ffdc0",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1977",
+        "1977",
+        "1977",
+        "25",
+        "25",
+        "25",
+        "6",
+        "6",
+        "6"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "25.06.1977",
+        "25.06.1977",
+        "25.06.1977"
+      ],
+      "segment_id": "seg-b73d01642ea61254aa0ffdc0",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "01:05",
+        "02:00",
+        "02:05",
+        "02:30"
+      ],
+      "segment_id": "seg-2e467933084a8de0ad74f6c9",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "30",
+        "5",
+        "5"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [],
+      "segment_id": "seg-2e467933084a8de0ad74f6c9",
+      "severity": "warning",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}

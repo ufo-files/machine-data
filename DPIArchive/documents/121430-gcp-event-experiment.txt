@@ -1,0 +1,351 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-05T07:26:21Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 6, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 1214109, "source_file": "DPIArchive/documents/121430-gcp-event-experiment.pdf", "source_sha256": "671fa1e88f1848eb46b742af01c701bce1518b55cbf484edad210e3225a52977"}
+
+===== PAGE 1 =====
+{"alpha_words": 303, "chars": 2062, "method": "ocr", "page": 1, "variant": "plain-vision"}
+GCP Event Experiment
+319
+Cumulative
+Z-score
+50
+100
+150
+200
+Event
+Fig. 3.
+The summed chronological deviation of 236 event z-scores. Each point represents the
+contribution from the normal z-score of a single event. The null expectation is zero and the
+parabola gives a 5% probability envelope for positive deviation. The relatively steady trend
+shows that the cumulative deviation is broadly distributed among many events and is not
+due to outlier events.
+i-
+le
+CS
+is
+al
+d,
+nS
+le
+зе
+IS.
+of
+55
+It
+tal
+he
+9).
+an
+be
+wO
+visualizations of the distribution: the chronological cumulative sum and the
+sorted cumulative distribution function.
+The formal experimental result combines diverse event predictions as equally
+weighted z-scores, Ze. As such, it does not provide information about which
+secondary parameters drive the measured effect. The relative importance of
+event types, durations and the different deviation statistics can only be addressed
+by a further analysis of the event data. However, a number of conclusions can be
+drawn from the distribution of the event z-scores. First, the event effect size of
+0.30 is broadly distributed and small. This means that although an individual
+event is likely to contribute to the aggregate result, there is not sufficient
+statistical power to meaningfully interpret a single event statistic and analyses
+must therefore use large event sets. For example, an idealized model which
+attributes a uniform population mean of 0.3 to events would require at least 70
+events to attain a power of 80% at the 95% confidence level. Second, given that
+there are no outliers, the small effect size implies that statistical noise will
+determine the distribution of event z-scores. An immediate consequence is that
+the distribution shape will be approximately Gaussian. Figure 4 shows that, aside
+from a shifted mean value, the event z-scores do have the form of a normal
+distribution. We find that the z-scores fit reasonably well to a standard normal
+distribution with mean 0.3, and that tests of the variance, skewness and kurtosis
+
+===== PAGE 2 =====
+{"alpha_words": 283, "chars": 2010, "method": "ocr", "page": 2, "variant": "plain-vision"}
+320
+P. Bancel and R. Nelson
+1.0 г
+0.8-
+0.6
+0.4
+0.2-
+0.04
+-3
+-2
+-1
+1
+2
+3
+Fig. 4.
+Z-score
+The plot compares the (sorted) cumulative distribution function of event z-scores with the
+standard normal distribution. The formal result is evidenced as a positive shift of the event
+z-scores along the horizontal axis. The median z-score is 0.365, as opposed to zero for the
+nuil hypothesis.
+also accord with a normal distribution of variance = 1. Third, the mean event
+z-score represents a lower bound of the measured effect. The positive aggregate
+result, which is in accord with the hypothesis, may nevertheless include some
+events that produce actual negative deviations. In this case, the magnitude of the
+true event effect size will be larger than our measured value. It is also plausible,
+given the exploratory nature of the event selection procedure, that a number of
+events might correspond to true null data periods 23
+We can develop these conclusions to estimate the fractions of events with null
+or negative variance deviation via a simple model. As discussed above, the event
+z-scores distribute normally about the experimental mean. A model for the
+fractions of positive, negative and null events can be constructed by taking the
+sum of three standard normal Gaussian distributions with positive, zero and
+negative means, respectively. The means and optimal weights of the model
+Gaussians are determined by fitting the model to the distribution of experimental
+z-scores. Details are described in Appendix 2. The model yields a region of
+preferred fractional composition which includes potential contributions from
+both null and negative-going events. We estimate a positive event fraction of
+67%. with 16% and 17% for the fractions of null and negative deviation events,
+respectively. The corresponding means for positive and negative deviation
+events are 0.56 + 0.09 and -0.49 - 0.20 (1-sigma uncertainties). The model
+thus finds a mean effect size for the positive deviation events that is substantially
+
+===== PAGE 3 =====
+{"alpha_words": 355, "chars": 2396, "method": "ocr", "page": 3, "variant": "plain-vision"}
+he
+ent
+he
+int
+ite
+ne
+he
+le,
+of
+ull
+int
+he
+he
+nd
+lel
+tal
+of
+)m
+of
+ItS,
+on
+del
+lly
+GCP Event Experiment
+321
+larger than the average event z-score of 0.30 + 0.08. A conservative conclusion
+is that the model provides quantitative evidence for the reasonable supposition
+that the mean event z-score is a lower bound to the event effect size. It also
+underscores the possibility that the sign of the variance deviations may be
+negative for a minority fraction of events.
+The experimental variance statistics measure different kinds of data deviations
+and we would like to know which of these drive the aggregate result, ZTor. The
+formal experiment selects a variance recipe depending
+the registry
+specifications for each event. Different variance statistics can be compared by
+applying them uniformly to the events and calculating the resulting Tor
+The network variance for different time blockings can be written compactly as
+a function of the network autocorrelation.?4 As expressed in Equation 4.2, the
+chi-squared variance statistic for an event is the sum of the squared block
+z-scores:
+(4.4)
+For network blockings of length T, this can be decomposed into a term
+proportional to the 1-second network variance and a term y which is a function
+of the autocorrelation.
+(4.5)
+The chi-squared variance is converted to a z-score for the event as:
+Zo
+ZE=
+= (T -1) P(1)
+(4.6)
+VT
+V2T:
+Here, Zo is the event z-score at 1-second blocking and p(l) is the auto-
+correlation of the 1-second z-scores ZB=1 for lag l. The decomposition shows
+that, for zero autocorrelation,
+the second term is identically zero and the
+measured event z-score decreases as the inverse square root of the block length.
+Figure 5 shows that the aggregate Zor for the network variance falls within a
+I-sigma envelope of the expected
+theoretical decrease for the case p = 0,
+demonstrating that temporal network autocorrelations are not present in the
+network-blocked event data. This calculation uses 212 events, instead of the
+full 236. We remove 19 New Year's events and 5 events which have extremely
+long durations and disproportionate weight, to allow uniform application of the
+variance recipes.
+Results for the device variance for a selection of blockings, T, are shown in
+Figure 6. The device variance has been calculated explicitly for unique blocking
+choices because trial vacancies (nulls) complicate a more general treatment.
+
+===== PAGE 4 =====
+{"alpha_words": 294, "chars": 2007, "method": "ocr", "page": 4, "variant": "plain-vision"}
+322
+P. Bancel and R. Nelson
+2
+1
+0
+10
+20
+30
+40
+50
+Block length (seconds )
+Fig. 5.
+The z-score, Tor for 212 events using network variance recipes. The aggregate z-score is
+calculated for time blockings ranging from 1 second to 1 minute. The value of Tot Is largest
+for 1-second blocking and remains within a 1-sigma envelope of theoretical expectation
+assuming zero autocorrelation. The plot indicates that the spatial network correlations do?
+not persist beyond the 1-second time-scale.
+(Trial vacancies do not affect the network blocking, which produces non-null
+data seconds for all events.) The blockings in this illustration extend from 1
+second to the full duration of the event. In all cases, the magnitude of the mean
+event z-score is less than 0.1, which is within 1.7 standard deviations of
+expectation. This is far below the formal result, which has a mean z-score of
+0.30. The different device variance estimates are not independent; the longer
+times include all shorter blocks. The dependence is strongest when the
+block size ratios are small, as is seen for the similar blocking results in the range
+of 120 to 900 seconds. We conclude that the device variance statistic (or
+equivalently, RNG autocorrelation) does not deviate significantly over the
+event data.
+As seen in Figure 6, the trial variance, with blocking (R = 1, T= I), is within
+a 1-sigma deviation from expectation. It is instructive to examine this minimal
+blocking more closely. Trial blocking assigns a single trial to each block and is
+insensitive to correlations between trials. Trial-blocked statistics are thus
+descriptive of the individual RNG behavior (they give the RNG state
+probabilities) and provide information on the RNG outputs exclusive of any
+correlation. Table 2 lists standard descriptive statistics of the event trials. All are
+consistent with null expectation, which indicates that the outputs of the RNG
+devices do not deviate from standard normality over the events. In contrast to the
+Fig
+Int
+ind
+1-5
+sh
+V2
+
+===== PAGE 5 =====
+{"alpha_words": 168, "chars": 1113, "method": "ocr", "page": 5, "variant": "plain-vision"}
+is
+ist
+Jo
+ill
+1
+an
+of
+of
+he
+ge
+Or
+he
+lin
+1al
+iS
+IUS
+ate
+ny
+are
+VG
+the
+GCP Event Experiment
+323
+Mean
+event
+•
+-0.3
+1
+5
+30
+120 300
+600 900event
+Block length (seconds )
+Fig. 6. Average device variance z-scores for events, calculated for various block lengths ranging
+over 1 second to 15 minutes, and for the whole event.
+intending-subject experiments, we find no anomalous deviations in the
+individual RNG behavior.
+These analyses demonstrate that the formal result
+is driven only by the
+1-second network variance, while the RNG state probabilities and autocorre-
+lation conform to expectation. The network variance can be decomposed to
+show its relation to synchronized RNG-RNG correlations. The chi-squared
+variance, in terms of the RNG trial z-scores, Zra, is the sum of the trial variance,
+Var[z], and a summation of trial pair-products.
+x° =
+N
+(4.7)
+(4.8)
+(4.9)
+Here, the (i) label RNGs and To is the length of the event, in seconds. Then,
+~ (N - 1)To (zi2j) + ToVar (z]
+(4.10)
+where the overstrike is an average over all seconds, To, and the brackets indicate
+an average over unique pairs of RNGs, which yields
+
+===== PAGE 6 =====
+{"alpha_words": 300, "chars": 2190, "method": "ocr", "page": 6, "variant": "plain-vision"}
+324
+P. Bancel and R. Nelson
+TABLE 2
+Descriptive Statistics for the Event Data RNG Trials
+Event weighting
+Expect
+Trial weighting
+Statistic
+Value
+Value
+Expect
+Mean
+Variance
+Skewness
+Kurtosis
+0.00014
+1.00045
+0.00083
+2.9908
+2.99
+0.69
+0.95
+0.51
+0.11
+0.00006
+0.999998
+0.000103
+0-0
+-
+2.99006
+2.99
+0.98
+-0.02
+0.69
+0.19
+The table lists the measured value, theoretical expectation and deviation from expectation (as
+a normal z-score) for trial statistics based on the first four distribution moments. The event-weighted
+values give the trial statistics' mean over all the 212 events. That is, the statistic is calculated
+separately for each event and the resultant values are averaged. Trial-weighted values are calculated
+for all 274 million trials in the event data combined as a single data set.
+~ NTo ((rig) + Var[z))
+(4.11)
+where we identify the time average of pair-products with the Pearson
+correlation, rig for RNGs i and j, and (rig) with the average of the RNG-RNG
+correlations over all RNG pairs. The pair-product averages can be approximated
+by the average of Pearson correlations since we have determined that the trial z's
+follow normal statistics and the event lengths satisfy To >1. Furthermore,
+deviations
+in the 1-second network variance must be dominated by the
+correlation term, since the expected fluctuations of Var[z] are relatively small,
+being of order 1/VN,
+(4.12)
+V2
+~ NTO
+v2
+(4.13)
+~To/2(1 + 0(N-1/2))
+(4.14)
+and the measured Var[z] is within a standard deviation of its null expectation.
+The value of Zor for the network variance recipe on the 212-event subset is Z=
+4.10. This assumes a theoretical zero mean of blocked z-scores (Equation 4.2).
+theoretical value. Details of the re-sampling procedure are given in Appendix 3.
+We conclude from the blocking analysis that the aggregate formal result, Zors
+is driven by inter-RNG correlations on a 1-second time-scale. This is the second
+major result of the experiment. It implies that the network deviations are due to
+anomalous correlations between RNGs separated, on average, by thousands of
+kilometers. This is, moreover, a new class of result, which could only be
+observed in a distributed network of RNGs.
+d
+ex:
+et
+d

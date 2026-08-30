@@ -1,0 +1,3011 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-03T07:26:52Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 56, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 2968770, "source_file": "Black-Vault-UFO/documents/download-a-zip-file-of-all-37-dird-reports-below/DIRD_25-DIRD_An_Introduction_to_the_Statistical_Drake_Equation.pdf", "source_sha256": "067d78430c340ac32776cd177cd1c8b2de4d087a98bea322aa33abdda7ca85be"}
+
+===== PAGE 1 =====
+{"alpha_words": 27, "chars": 225, "method": "ocr", "page": 1, "variant": "clean-vision"}
+UNCLASSIFIED//FOR OFFICIAŁ USE ONLY
+Defense
+Intelligence
+Reference
+Document
+Acquisition Threat Support
+11 March 2010
+ICOD: 1 December 2009
+An Introduction to the
+Statistical Drake Equation
+UNCLASSIFIED//FOR OFFICIAL USE ONE*
+
+===== PAGE 2 =====
+{"alpha_words": 65, "chars": 441, "method": "ocr", "page": 2, "variant": "plain-vision"}
+This document is made available through the declassification efforts
+and research of John Greenewald, Jr., creator of:
+The Black Vault
+The Black Vault is the largest online Freedom of Information Act (FOIA)
+document clearinghouse in the world. The research efforts here are
+responsible for the declassification of hundreds of thousands of pages
+released by the U.S. Government & Military.
+Discover the Truth at: http://www.theblackvault.com
+
+===== PAGE 3 =====
+{"alpha_words": 87, "chars": 738, "method": "ocr", "page": 3, "variant": "plain-vision"}
+UNCLASSIFIED//FOR-OFFREIAL USE ONLY
+An Introduction to the Statistical Drake Equation
+Prepared by:
+((b)(3):10 USC 424
+Defense Intelligence Agency
+Author:
+[(b)(6)
+Administrative Note
+COPYRIGHT WARNING: Further dissemination of the photographs in this publication is not authorized.
+This product is one in a series of advanced technology reports produced in FY 2009
+under the Defense Intelligence Agency, (b)(3):10 USC 424
+Advanced Aerospace
+Weapon System Applications (AAWSA) Program. Comments or questions pertaining to
+this document should be addressed to (b)(3): 10 USC 424;(b)(6)
+J, AAWSA Program
+Manager, Defense Intelligence Agency, ATTN: ((b)/3)10 USC 424 Bidg 6000, Washington,
+DC 20340-5100.
+il
+UNCLASSIFIED//FOR-OPPITAL USE ONLY
+
+===== PAGE 4 =====
+{"alpha_words": 126, "chars": 999, "method": "ocr", "page": 4, "variant": "plain-vision"}
+UNCLASSIFIED/ /FOR-OFFLEZAL USL ONLT
+Contents
+1. Introduction
+•iv
+2. The Key Question: How Far are They ?
+. 4
+3. Computing N By Virtue of the Drake Equation (1961)
+.. 7
+4. The Drake Equation is Over-Simplified
+10
+5. The Statistical Drake Equation
+- 11
+6. Solving the Statistical Drake Equation By Virtue of the Central Limit Theorem
+(CLT) of Statistics
+... 13
+7. An Example Explaining the Statistical Drake Equation
+15
+8. Finding the Probability Distribution of the Et-Distance By Virtue of the Statistical
+Drake Equation..
+.. 18
+9. The "Data Enrichment Principle" as the Best CLT Consequence Upon the
+Statistical Drake Equation (Any Number of Factors Allowed) ..
+23
+10, Conclusions …
+• 23
+Appendix A: Proof of Shannon's 1948 Theorem Stating That the Uniform
+Distribution is the "Most Uncertain" One Over a Finite Range of
+Values
+. 25
+Appendix B: Original Text of the Author's Paper #IAC-08-A4.1.4 Entitled the
+Statistical Drake Equation
+References ...
+28
+55
+iii
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+===== PAGE 5 =====
+{"alpha_words": 447, "chars": 2847, "method": "ocr", "page": 5, "variant": "plain-vision"}
+UNCLASSIFIED//EOR ASICIANGE OAK
+An Introduction to the Statistical Drake Equation
+1. Introduction
+SETI (an acronym for "Search for Extraterrestrial Intelligence") is a relatively
+new branch of scientific research, having begun only in 1959. Its goal is to
+ascertain whether alien civilizations exist in the universe, how far from us
+they exist, and possibly how much more advanced than us they may be.
+As of 2009, the only physical tools we know that could help us get in touch
+with aliens are the electromagnetic waves an alien civilization could emit and
+we could detect. This forces us to use the largest radiotelescopes on Earth for
+SETI research, because the higher our collecting area of electromagnetic
+radiation is, the higher our sensitivity is (that is, the farther in space we can
+probe. Yet, even by using the largest radiotelescopes on Earth (the 310-meter
+dish at Arecibo, for instance), we cannot search for aliens beyond, say, a few
+hundred light years away. This is a very, very small amount of space around us
+within our galaxy, the Milky Way, that is about 100,000 light years in diameter.
+Thus, current SETI can cover only a very tiny fraction of the galaxy, and it is
+not surprising that in the past 50 years of SETI searches, NO extraterrestrial
+civilization was discovered. Quite simply, we did not get far enough!
+This demands the construction of much more powerful and radically new
+radiotelescopes. Rather than big and heavy metal dishes, whose mechanical
+problems hamper SETI research too much, we are now turning to "software
+radiotelescopes," where a large number of small dishes (ATA = Allen
+Telescope Array, and ALMA = Atacama Large Millimeter/submillimeter Array)
+or even just of simple dipoles (LOFAR = Low Frequency Array) using state-of-
+the-art electronics and very-high-speed computing can outperform the
+classical radiotelescopes in many regards. The final dream in this field is the
+SKA (= Square Kilometer Array), currently being designed and expected to be
+completed around 2020.
+2. The Key Question: How Far are They ?
+But still, the key question remains: how far are they?
+Or, more correctly, how far do we expect the NEAREST extraterrestrial civilization to be
+from the Solar System in the galaxy?
+This question was first faced in a scientific manner back in 1961 by the same scientist
+who also was the tirst experimental SET radio astronomer ever: the American, Frank
+Donald Drake (born 1930). He first considered the shape and size of the galaxy where
+we are living: the Milky Way. This is a spiral galaxy measuring some 100,000 light
+years in diameter and some 16,000 light years in thickness of the Galactic Disk at half-
+way from its center. That is:
+The diameter of the galaxy is (about) 100,000 light years, (abbreviated ly) i.e., its
+radius, Routure is about 50,000 ly.
+iv
+UNCLASSIFIED//FOR OFF
+
+===== PAGE 6 =====
+{"alpha_words": 302, "chars": 1899, "method": "ocr", "page": 6, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFIGIAL HEE ONLY
+The thickness of the Galactic Disk at half-way from its center, hiday is about 16,000 ly.
+The volume of the galaxy may then be approximated as the volume of the
+corresponding cylinder, i.e.
+(1)
+Now consider the sphere around us having a radius r. The volume of such a sphere is
+Vour_Sphere =
+1-(Er. Dirance )*
+In the last equation, we had to divide the distance "ET_Distance" between ourselves
+and the nearest ET civilization by 2 because we are now going to make the
+inwarranted assumption that all ET civilizations are equally spaced from eaci
+other in the galaxy! This is a crazy assumption, clearly, and should be replaced b
+more scientifically-grounded assumptions as soon as we know more about our Galactic
+Neighborhood. At the moment, however, this is the best guess that we can make, and
+so we shall take it for granted, although we are aware that this is a weak point in the
+reasoning.
+Furthermore, let us denote by N the total number of civilizations now living in the
+galaxy, including ourselves. Of course, this number N is unknown. We only know that
+N≥I since one civilization does at least exist!
+Having thus assumed that ET civilizations are UNIFORMLY SPACED IN THE GALAXY, we
+can then write down the proportion:
+Yankey =
+N
+Vour-spire.
+That is, upon replacing both (1) and (2) into (3):
+ET_Distance '
+-.
+- N
+The last equation contains two unknowns: N and ET_Distance, and so we don't know
+which one it is better to solve for.
+However, we may suppose that, by resorting to the (rather uncertain) knowledge that
+we have about the Evolution of the galaxy through the last 10 billion years or so, we
+might somehow compute an approximate value for N.
+Then, we may solve (4) for ET_Distance thus obtaining the (AVERAGE) DISTANCE
+BETWEEN ANY PAIR OF NEIGHBORING CIVILIZATIONS IN THE GALAXY (DISTANCE
+LAW)
+(2)
+(3)
+(4)
+5
+UNCLASSIFIED/AFOR OFFICIAL USE ONLY
+
+===== PAGE 7 =====
+{"alpha_words": 331, "chars": 2196, "method": "ocr", "page": 7, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+ET_Distance(N) =
+- =
+UN
+where the positive constant C is defined by
+C=36 RakeyBalary= 28845 light years.
+Equations (5) and (6) are the starting point to understand the origin of the Drake
+equation that we discuss in detail in Section 3 of this paper.
+Let us just complete this section by pointing out three different numerical cases of the
+distance law (5):
+• We know that we exist, so N may not be smaller than 1, i.e., N21. Suppose then
+that we are alone in the galaxy, i.e., that N=1. Then the distance law (5) yields as
+distance to the nearest civilization from us just the constant C, i.e., 28,845 light
+years. This is about the distance in between ourselves and the center of the galaxy
+(i.e. the Galactic Bulge). Thus, this result seems to suggest that, if we do not find
+any extraterrestrial civilization around us in these outskirts of the galaxy where we
+live, we should look around the Galactic Center first. And this is indeed what is
+happening, i.e., many SETI searches are actually pointing the antennas towards the
+Galactic Center, looking for beacons (see, for instance ref. [1]).
+Suppose next that N=1000, i.e. there are about a thousand extraterrestrial
+communicating civilizations in the whole galaxy right now. Then the distance law (5)
+yields an average distance of 2,885 light years. This is a distance that most
+radiotelescopes in Earth may not reach for SETI searches right now: hence the need
+to build larger radiotelescopes, like ALMA, LOFAR and the SKA.
+• Suppose finally that N=1000000, i.e., there are a million communicating civilizations
+now in the galaxy. Then the distance law (5) yields an average distance of 288 light
+years. This is within the (upper) range of distances that our current radiotelescopes
+may reach for SETI searches, and that justifies all SETI searches that have been
+done so far in the first fifty years of SETI (1960-2010).
+In conclusion, interpolating the above three special cases of N, we may say that the
+distance law (5) yields the following key diagram of the average ET distance vs. the
+assumed number of communicating civilizations, N, in the galaxy right now (Figure 1):
+(5)
+(6)
+6
+UNCLASSIFIED/ (OR OFFICIA DEE ON
+
+===== PAGE 8 =====
+{"alpha_words": 318, "chars": 2085, "method": "ocr", "page": 8, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFICIAL USE ONLT
+Average DISTANCEolthe nearest ET civilization vs the ASSUMED NUMBER ol'ET civilizations in the Gala
+2000
+Average DISTANCE of the civilization nearest to us in LIGHT YEARS
+1750)
+1500
+1250H
+1000
+750
+501)
+250-
+()'
+100000
+2000(00
+300000
+40XJ00U
+500000 600000
+XOOOOO
+·00000
+1000000
+ASSUMED NUMBER of civilizations in the Galaxy (thar is. Nin the Drake equation)
+Figure 1. DISTANCE LAW; I.e., the Average Distance (plot along the vertical axis in light years) Versus
+the NUMBER of Communicating Civilizations ASSUMED to Exist in the Galaxy Right Now
+3. Computing N By Virtue of the Drake Equation (1961)
+In the previous section, the problem of finding how close the nearest ET civilization may
+be was "solved" by reducing it to the computation of N, the total number of
+extraterrestrial civilizations now existing in this galaxy. In this section the famous
+Drake equation is described, that was proposed back in 1961 by Frank Donald Drake
+(born 1930) to estimate the numerical value of N. We believe that no better
+introductory description of the Drake equations exists other than the one given by Carl
+Sagan in his 1983 book "Cosmos" (ref. [2]), in its turn based on the famous TV series
+"Cosmos." So, in this paragraph we report Carl Sagan's description of the Drake
+equation unabridged.
+"But is there anyone out there to talk to? With a third or a half a trillion stars in our
+Milky Way galaxy alone, could ours be the only one accompanied by an inhabited
+planet? How much more likely it is that technical civilizations are a cosmic
+commonplace, that the galaxy is pulsing and humming with advanced societies, and,
+therefore, that the nearest such culture is not so very far away - perhaps transmitting
+from antennas established on a planet of a naked-eye star just next door. Perhaps
+when we look up at the sky at night, near one of those faint pinpoints of light is a world
+on which someone quite different from us is then glancing idly at a star we call the Sun
+and entertaining, for just a moment, an outrageous speculation.
+7
+UNCLASSIFIED//FOR OI
+
+===== PAGE 9 =====
+{"alpha_words": 484, "chars": 3054, "method": "ocr", "page": 9, "variant": "plain-vision"}
+UNCLASSIFIED//FOR O
+It is very hard to be sure. There may be several impediments to the evolution of a
+technical civilization. Planets may be rarer than we think. Perhaps the origin of life is
+not so easy as our laboratory experiments suggest. Perhaps the evolution of advanced
+life forms is improbable. Or it may be that complex life forms evolve more readily, but
+intelligence and technical societies require an unlikely set of coincidences - just as the
+evolution of the human species depended on the demise of the dinosaurs and the ice-
+age recession of the forests in whose trees our ancestors screeched and dimly
+wondered. Or perhaps civilizations arise repeatedly, inexorably, on innumerable planets
+in the Milky Way, but are generally unstable; so all but a tiny fraction are unable to
+survive their technology and succumb to greed and ignorance, pollution and nuclear
+war.
+It is possible to explore this great issue further and make a crude estimate of N, the
+number of advanced civilizations in the galaxy. We define an advanced civilization as
+one capable of radio astronomy. This is, of course, a parochial if essential definition.
+There may be countless worlds on which the inhabitants are accomplished linguists or
+superb poets but indifferent radio astronomers. We will not hear from them. N can be
+written as the product or multiplication of a number of factors, each a kind of filter,
+every one of which must be sizable for there to be a large number of civilizations:
+• N5, the number of stars in the Milky Way galaxy.
+• fp, the fraction of stars that have planetary systems.
+• ne, the number of planets in a given system that are ecologically suitable for life.
+• fl, the fraction of otherwise suitable planets on which life actually arises.
+• fi, the fraction of inhabited planets on which an intelligent form of life evolves.
+• fc, the fraction of planets inhabited by intelligent beings on which a communicative
+technical civilization develops.
+• fL, the fraction of planetary lifetime graced by a technical civilization.
+Written out, the equation reads
+(7)
+All of the fs are fractions, having values between 0 and 1; they will pare down the
+large value of Ns.
+To derive N we must estimate each of these quantities. We know a fair amount about
+the early factors in the equation, the number of stars and planetary systems. We know
+very little about the later factors, concerning the evolution of intelligence or the lifetime
+of technical societies. In these cases our estimates will be little better than guesses. I
+invite you, if you disagree with my estimates below, make your own choices and see
+what implications your alternative suggestions have for the number of advanced
+civilizations in the galaxy. One of the great virtues of this equation, due to Frank Drake
+of Cornell, is that it involves subjects ranging from stellar and planetary astronomy to
+organic chemistry, evolutionary biology, history, politics and abnormal psychology.
+Much of the Cosmos is in the span of the Drake equation.
+8
+UNCLASSIFIED//FOR OFFICIAL ONEY
+
+===== PAGE 10 =====
+{"alpha_words": 637, "chars": 4034, "method": "ocr", "page": 10, "variant": "plain-vision"}
+UNCLASSIFIED//TOR
+We know Ns, the number of stars in the Milky Way galaxy, fairly well, by careful counts
+of stars in a small but representative region of the sky. It is a few hundred billion; some
+recent estimates place it at 4 x 1011. Very few of these stars are of the massive short-
+lived variety that squander their reserves of thermonuclear fuel. The great majority
+have lifetimes of billions or more years in which they are shining stably, providing a
+suitable energy source for the energy and evolution of life on nearby planets.
+There is evidence that planets are a frequent accompaniment of star formation: in the
+satellite systems of Jupiter, Saturn and Uranus, which are like miniature solar systems;
+in theories of the origin of the planets; in studies of double stars; in observations of
+accretion disks around stars; and is some preliminary investigations of gravitational
+perturbations of nearby stars.' Many, perhaps even most, stars may have planets. We
+take the fraction of stars that have planets, fp, as roughly equal to 1/3. Then the total
+number of planetary systems in the galaxy would be Ns fp ~ 1.3 × 10' (the symbol ~
+means "approximately equal to"). If each system were to have about ten planets, as
+ours does, the total number of worlds in the galaxy would be more than a trillion, a vast
+arena for the cosmic drama.
+In our own solar system there are several bodies that may be suitable for life of some
+sort: the Earth certainly, and perhaps Mars, Titan and Jupiter. Once life originates, it
+tends to be very adaptable and tenacious. There must be many different environments
+suitable for life in a given planetary system. But conservatively we choose ne=2. Then
+the number of planets in the galaxy suitable for life becomes Ns fp ne ~ 3 × 1011,
+Experiments show that under the most common cosmic conditions the molecular basis
+of life is readily made, the building blocks of molecules able to make copies of
+themselves. We are now on less certain grounds; there may, for example, be
+impediments in the evolution of the genetic code, although I think this is unlikely over
+billions of years of primeval chemistry. We choose fi ~ 1/3, implying a total number of
+planets in the Milky Way on which life has arisen at least once as Ns fp ne fl ~ 1 x 1011,
+a hundred billion inhabited worlds. That in itself is a remarkable conclusion. But we are
+not yet finished.
+The choices of fi and fc are more difficult. On the one hand, many individually unlikely
+steps had to occur in biological evolution and human history for our present intelligence
+and technology to develop. On the other hand, there must be quite different pathways
+to an advanced civilization of specified capabilities. Considering the apparent difficulty
+in the evolution of large organisms, represented by the Cambrian explosion, let us
+choose fix fc = 1/100, meaning that only 1 per cent of planets on which life arises
+actually produce a technical civilization. This estimate represents some middle ground
+among the varying scientific options. Some think that the equivalent of the step from
+the emergence of trilobites to the domestication of fire goes like a shot in all planetary
+systems; others think that, even given ten or fifteen billion years, the evolution of a
+technical civilization is unlikely. This is not a subject on which we can do much
+experimentation as long as our investigations are limited to a single planet. Multiplying
+' Cari Sagan was writings these lines back in the 1970's, when no extrasolar planets had been discovered yet. The
+first such discovery occurred in 1995, when Michel Mayor and Didier Queloz, working at the "Observatoire de Haute
+Provence" in France, discovered the first extrasolar planet orbiting the nearby star 51 Peg. This first extrasolar
+planet was hence named 51 Peg B. Many more extrasolar planets were discovered around nearby stars ever since.
+As of April 2009, 347 extrasolar planets (exoplanets) are listed in the Extrasolar Planets Encyclopaedia.
+g
+UNCLASSIFIED/ AFOR OFFICIAL USE ONLY
+
+===== PAGE 11 =====
+{"alpha_words": 594, "chars": 3870, "method": "ocr", "page": 11, "variant": "plain-vision"}
+UNCLASSIFIED//F
+these factors together, we find Ns fp ne fl fi fo ~ 1 x 10°, a billion planets on which
+technical civilizations have arisen at least once. But that is very different from saying
+that there are a billion planets on which technical civilizations now exist. For this we
+must also estimate fL.
+What percentage of the lifetime of a planet is marked by a technical civilization? The
+Earth has harbored a technical civilization characterized by radio astronomy for only a
+few decades out of a lifetime of a few billion years. So far, then, for our planet fl is less
+than 1/10%, a millionth of a percent. And it is hardly out of the question that we might
+destroy ourselves tomorrow. Suppose this were a typical case, and the destruction so
+complete that no other technical civilization - of the human or any other species - were
+able to emerge in the five or so billion years remaining before the Sun dies. Then Ns fp
+ne fl fife fL ~ 10, and, at a given time there would be only a tiny smattering, a handful,
+a pitiful few technical civilizations in the galaxy, the steady state number maintained as
+emerging societies replace those recently self-immolated. The number N might be even
+as small as 1 if civilizations tend to destroy themselves soon after reaching a
+technological phase; there might be no one for us to talk with but ourselves. And that
+we do but poorly. Civilizations would take billions of years of tortuous evolution, and
+then snuff themselves out in an instant of unforgivable neglect.
+But consider the alternative, the prospect that at least some civilizations learn to live
+with technology; that the contradictions posed by the vagaries of past brain evolution
+are consciously resolved and do not lead to self destruction; or that, even if major
+disturbances occur, they are reveres in the subsequent billions of years of biological
+evolution. Such societies might live to a prosperous old age, their lifetimes measured
+perhaps on geological or stellar evolutionary time scales. If 1 percent of civilizations can
+survive technological adolescence, take the proper fork at this critical historical branch
+point and achieve maturity, then fL ~ 1/100, N~ 107, and the number of extant
+civilizations in the galaxy is in the millions. Thus, for all our concern about the possible
+unreliability of our estimates of the early factors in the Drake equation, which involve
+astronomy, organic chemistry and evolutionary biology, the principal uncertainty comes
+to economics and politics and what, on Earth, we call human nature. It seems fairly
+clear that if self-destruction is not the overwhelmingly preponderant fate of galactic
+civilizations, then the sky is softly humming with messages from the stars.
+These estimates are stirring. They suggest that the receipt of a message from space is,
+even before we decode it, a profoundly hopeful sign. It means that someone has
+learned to live with high technology; that it is possible to survive technological
+adolescence. This alone, quite apart from the contents of the message, provides a
+powerful justification for the search for other civilizations.
+4. The Drake Equation is Over-Simplified
+In the nearly fifty years (1961-2009) elapsed since Frank Drake proposed his equation,
+a number of scientists and writers tried to find out which numerical values of its seven
+independent variables are more realistic in agreement with our present-day knowledge.
+Thus there is a considerable amount of literature about the Drake equation nowadays,
+and, as one can easily imagine, the results obtained by the various authors largely
+differ from one another. In other words, the value of N, that various authors obtained
+by different assumptions about the astronomy, the biology and the sociology implied by
+the Drake equation, may range from a few tens (in the pessimist's view) to some
+10
+UNCLASSIFIED//FOR
+
+===== PAGE 12 =====
+{"alpha_words": 509, "chars": 3267, "method": "ocr", "page": 12, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+HAL UGE OMLY
+million or even billions in the optimist's opinion. A lot of uncertainty is thus affecting our
+knowledge of N as of 2010. In all cases, however, the final result about N has always
+been a sheer number, i.e., a positive integer number ranging from 1 to millions or
+billions. This is precisely the aspect of the Drake equation that this author regarded as
+"too simplistic" and improved mathematically in his paper #IAC-08-A4.1.4, entitled
+"The Statistical Drake Equation" and presented on October 1st, 2008, at the 5gth
+International Astronautical Congress (IAC) held in Glasgow, Scotiand, UK, September
+2gth thru October 3rd
+, 2008. That paper is attached herewith as Appendix B. Newcomers
+to SETI and to the Drake equation, however, may find that paper too difficult to be
+understood mathematically at a first reading. Thus, I shall now explain the content of
+that paper "by speaking easily." I thank the reader for his or her attention.
+5. The Statistical Drake Equation
+We start by an example.
+Consider the first independent variable in the Drake equation (7), i.e., Ns, the number
+of stars in the Milky Way galaxy. Astronomers tell us that approximately there should
+be about 350 millions stars in the galaxy. Of course, nobody has counted (or even seen
+in the photographic plates) all the stars in the galaxy! There are too many practical
+difficulties preventing us from doing so: just to name one, the dust clouds that don't
+allow us to see even the Galactic Bulge (i.e. the central region of the galaxy) in the
+visible light (although we may "see it" at radio frequencies like the famous neutral
+hydrogen line at 1420 MHz). So, it doesn't make any sense to say that Ns = 350 x 106,
+or, say (even worse) that the number of stars in the galaxy is (say) 354,233,321, or
+similar fanciful exact integer numbers. That is just silly and non-scientific. Much more
+scientific, on the contrary, is to say that the number of stars in the galaxy is 350 million
+plus or minus, say, 50 millions (or whatever values the astronomers may regard as
+more appropriate, since this is just an example to let the reader understand the
+difficulty).
+Thus, it makes sense to REPLACE each of the seven independent variables in the Drake
+equation (7) by a MEAN VALUE (350 millions, in the above example) PLUS OR MINUS A
+CERTAIN STANDARD DEVIATION (50 millions, in the above example).
+By doing so, we have made a great step ahead: we have abandoned the too-simplistic
+equation (7) and replaced it by something more sophisticated and scientifically more
+serious: the STATISTICAL Drake equation. In other words, we have transformed the
+classical and simplistic Drake equation (7) into an advanced statistical tool for the
+investigation of a host of facts hardly known to us in detail. In other words still:
+• We replace each independent variable in (7) by a RANDOM VARIABLE, labeled
+D, (from Drake).
+• We assume that the MEAN VALUE of each D; is the same numerical value previously
+attributed to the corresponding independent variable in (7).
+• But now we also ADD A STANDARD DEVIATION on, on each side of the mean value,
+that is provided by the knowledge gathered by scientists in each discipline
+encompassed by each D,•
+11
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+===== PAGE 13 =====
+{"alpha_words": 404, "chars": 2612, "method": "ocr", "page": 13, "variant": "plain-vision"}
+UNCLASSIFIED/H
+Having so done, the next question is:
+How can we find out the PROBABILITY DISTRIBUTION for each D,?
+For instance, shall that be a Gaussian, or what?
+This is a difficult question, for nobody knows, for instance, the probability distribution of
+the number of stars in the galaxy, not to mention the probability distribution of the
+other six variables in the Drake equation (7).
+There is a brilliant way to get around this difficulty, though.
+We start by excluding the Gaussian because each variable in the Drake equation is a
+POSITIVE (or, more precisely, a non-negative) random variable, while the Gaussian
+applies to REAL random variables only. So, the Gaussian is out. Then, one might
+consider the large class of well-studied and positive probability densities called "the
+gamma distributions," but it is then unclear why one should adopt the gamma
+distributions and not any other. The solution to this apparent conundrum comes from
+Shannon's Information Theory and a theorem that he proved in 1948: "The probability
+distribution having maximum entropy (= uncertainty) over any FINITE range of real
+values is the UNIFORM distribution over that range," This is proven in Appendix A of the
+present document:
+So, at this point, we assume that each of the seven D; in (7) is a UNIFORM random
+variable, whose mean value and standard deviation is known by the scientists working
+in the respective field (let it be astronomy, or biology, or sociology). Notice that, for
+such a uniform distribution, the knowledge of the mean value 4, and of the standard
+deviation on, automatically determines the RANGE of that random variable in between
+its lower (called a;) and upper (called h) limits: in fact these limits are given by the
+equations
+4; =41, -55,
+6, =44, + 5301).
+(the "surprising" factor V3 in the above equations comes from the definitions of mean
+value and standard deviation: please see equations (12), (15) and (17) in Appendix B
+for the relevant proof). So the uniform distribution of each random variable D, is
+perfectly determined by its mean value and standard deviation, and so are all its other
+properties.
+The next problem is the following:
+OK, since we now know everything about each uniformly distributed D,, what is the
+probability distribution of N, given that N is the product (7) of all the D,?
+In other words, not only do we want to find the analytical expression of the probability
+density function of N, but we also want to relate its mean value ux to all mean values
+Mr of the Di, and its standard deviation oy to all standard deviations on of the Di.
+12
+(8)
+UNCLASSIFIED//FOR-
+
+===== PAGE 14 =====
+{"alpha_words": 367, "chars": 2416, "method": "ocr", "page": 14, "variant": "plain-vision"}
+This is a difficult problem.
+It occupied the author's mind for no less than about ten years (1997-2007).
+It is actually an ANALYTICALLY UNSOLVABLE problem, in that, to the best of this
+author's knowledge, it is IMPOSSIBLE to find an analytic expression for any FINITE
+PRODUCT of uniform random variables D . This result is proven in Sections 2 thru 3.3 of
+Appendix B (unfortunately!).
+6. Solving the Statistical Drake Equation By Virtue of the
+Central Limit Theorem (CLT) of Statistics
+The solution to the problem of finding the analytical expression for the probability
+density function of N in the statistical Drake equation was found by this author in
+September 2007. The key steps are the following:
+• Take the natural logs of both sides of the statistical Drake equation (7). This
+changes the product into a sum.
+• The mean values and standard deviations of the logs of the random variables D;
+may all be expressed analytically in terms of the mean values and standard
+deviations of the D.
+• Recall the Central Limit Theorem (CLT) of statistics, stating that (loosely speaking) if
+you have a SuM of independent random variables, each of which is ARBITRARILY
+DISIR-BUTED (hence, also including uniformly distributed), then, when the number
+of terms in the sum increases indefinitely (i.e. for a sum of random variables
+infinitely long)... the SUM RANDOM VARIABLE TENDS TO A GAUSSIAN.
+• Thus, the natural log of N tends to a Gaussian.
+• Thus, N tends to the LOGNORMAL DISTRIBUTION.
+• The mean value and standard deviations of this lognormal distribution of N may all
+be expressed analytically in terms of the mean values and standard deviations of
+the logs of the D, already found previously.
+This result is fundamental.
+All the relevant equations are summarized in the following Table 1. This table is actually
+the same as Table 2 of the author's original paper IAC-08-A4.1.4, entitled "The
+Statistical Drake Equation" and presented by him at the International Astronautical
+Congress (IAC) held in Glasgow, UK, on October 1st
+t, 2008. This original paper is
+reproduced in Appendix B.
+To sum up, not only is it found that N approaches the completely known lognormal
+distribution for an INFINITY of factors in the statistical Drake equation (7), but the way
+is paved to further applications by removing the condition that the number of terms in
+the product (7) must be FINITE.
+13
+UNCLASSIFIED//FOR OFFICIAL USE Of
+
+===== PAGE 15 =====
+{"alpha_words": 175, "chars": 1060, "method": "ocr", "page": 15, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+ALL ON
+This possibility of ADDING ANY NUMBER OF FACTORS IN THE DRAKE EQUATION (7)
+was not envisaged, of course, by Frank Drake back in 1961, when "summarizing" the
+evolution of life in the galaxy in SEVEN simple STEPS. But today, the number of factors
+in the Drake equation should already be increased: for instance, there is no mention in
+the original Drake equation of the possibility that asteroidal impacts might destroy the
+life on Earth at any time, and this is because the demise of the dinosaurs at the K/T
+impact had not been yet understood by scientists in 1961, and was so only in 1980!
+In practice, the number of factors should INCREASE as much as necessary in order to
+get better and better estimates of N as long as our scientific knowledge increases. This
+is called the "Data Enrichment Principle" and believe should be the next important goal
+in the study of the statistical Drake equation.
+Finally, a numerical example explaining how the statistical Drake equation works in the
+practice will be given in the next section.
+14
+
+===== PAGE 16 =====
+{"alpha_words": 181, "chars": 1261, "method": "ocr", "page": 16, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+Table 1. Summary of the Properties of the Lognormal Distribution That Applies
+to the Random Variable N = Number of ET Communicating Civilizations in the
+Galaxy
+N = number of communicating ET
+civilizations in galaxy
+Lognormal
+IN (r) =.
+1
+1
+VITE
+- e
+(1 ≥ 0)
+Random variable
+Probability distribution
+Probability density function
+Mean value
+Variance
+Standard deviation
+All the moments, i.e. K-th moment
+Mode (= abscissa of the lognormal peak)
+Value of the Mode Peak
+Median (= fifty-fifty probability value for
+N)
+Skewness
+median = m = e"
+Kurtosis
+= +2610+3135-6
+(к,)?
+Expression of uin terms of the lower (ai)
+and upper (bi) limits of the Drake
+uniform input random variables Di
+Expression of o'in terms of the lower (ai)
+and upper (bi) limits of the Drake
+uniform input random variables Di
+i-]
+D, - 11;
+7. An Example Explaining the Statistical Drake Equation
+To understand how things work in practice for the statistical Drake equation, please
+consider the following table 2. It is made up of three columns:
+• The first column on the left lists the seven input sheer numbers that also become
+The mean values (middle column).
+• Finally the last column on the right lists the seven input standard deviations.
+15
+UNCLASSIFIED//FOR OFFICIAŁ USE DALY
+
+===== PAGE 17 =====
+{"alpha_words": 282, "chars": 1928, "method": "ocr", "page": 17, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+The bottom line is the classical Drake equation (7). We see that, for this particular set
+of seven inputs, the classical Drake equation (i.e. the product of the seven numbers)
+yields a total of 3500 communicating extraterrestrial civilizations existing in the galaxy
+right now.
+I's: = 350-10°
+Sp: = 50
+ne = 1
+50
+fl:= -
+100
+20
+f := =
+100
+20
+100
+10000
+I :=
+10''
+hitip:= fp
+Une = ne
+ois: = 1:10°
+10
+100
+One:=
+1
+10
+Of = 100
+uti:= ti
+lite = te
+100
+10
+100
+GiL=
+1000
+101°
+I = 3500
+the classical Drake equation (7).
+The statistical Drake equation, however, provides a much more articulated answer than
+just the above sheer number N = 3500. In fact, a MathCad code written by this author
+and capable of performing all the numerical calculations required by the statistical
+Drake equation for a given set of seven input mean values plus seven input standard
+deviations, yields for N the lognormal distribution (thin curve) plotted in Figure 2. We
+see immediately that the peak of this thin curve (i.e. the mode) falls at about
+=250 (this is equation (99) of Appendix B), while the median (fifty-
+fifty value splitting the lognormal density in two parts with equal undergoing areas) falls
+at about "'median =e* =1740. These seem to be smaller values than N = 3500 provided by
+the classical Drake equations, but it's a wrong impression due to a poor "intuitive"
+understanding of what statistics is! In fact, neither the mode nor the median are the
+"really important" values: the really important value for N is the MEAN VALUE! Now if
+you look at the thin curve in Figure 2 below (i.e. the lognormal distribution arising from
+the Central Limit Theorem), you see that this curve has a LONG TAIL ON THE RIGHT! In
+other words, it does NOT immediately go down to nearly zero beyond the peak of the
+mode. Thus, when you actually compute the mean value, you should not be too
+16
+UNCLASSIFIED//Ter
+LINE USE UNET
+
+===== PAGE 18 =====
+{"alpha_words": 284, "chars": 2006, "method": "ocr", "page": 18, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFIGEAL UGE BALY
+surprised to find out that it equals (N) =p"e? =4589.559 ~ 4590 communicating
+civilizations now in the galaxy. This is the important number, and it is HIGHER than the
+3500 provided by the classical Drake equation. Thus, in conclusion, THE STATISTICAL
+EXTENSION of the classical Drake equation INCREASES OUR HOPES to find an
+extraterrestrial civilization!
+PROBABILITY DENSITY FUNCTION OF N
+6-104
+z 5.104
+§ 4.104
+3-104
+2-104
+Prob.
+1-104
+0
+1000
+2000
+3000
+N = Number of ET Civilizations in Galaxy
+4000
+Figure 2. Comparing the Two Probability Density Functions of the Random Variable N Found (1)
+Without Resorting to the CLT at All (thick curve) and (2) Using the CLT and the Relevant Lognormal
+Approximation (thin curve).
+Even more so our hopes are increased when we go on to consider the standard
+deviation associated with the mean value 4590. In fact, the standard deviation is given
+by equation (97) of Appendix B. This yields oN =*e" Ver -1=11195 and so the
+expected number of N may actually be even much higher than the 4590 provided by
+the mean value alone! The "upper limit of the one-sigma confidence interval" (as
+statisticians call it), i.e. the sum 4590+11195 = 15,785, yields a higher number still!
+(Note: the "lower limit of the one-sigma confidence interval is ZERO because the
+lognormal distribution is POSITIVE (or, more correctly, non-negative)). Finally, the
+reader should note that the thick curve depicted in Figure 2 is just the NUMERICAL
+solution of the statistical Drake equation for a FINITE number of 7 input factors. Figure
+2 actually shows that this curve "is well interpolated" by the lognormal distribution (thin
+curve), i.e., by the neat analytical expression provided by the Central Limit Theorem for
+an INFINITE number of factors in the Drake equation. That is, in conclusion, Figure 2
+visually shows that taking 7 factors or an infinity of factors "is almost the same thing"
+already for a value as small as 7.
+17
+• UNCLASSIFIED//FOR
+052-814
+
+===== PAGE 19 =====
+{"alpha_words": 266, "chars": 1841, "method": "ocr", "page": 19, "variant": "plain-vision"}
+UNCLASSIFIED//FOr
+8. Finding the Probability Distribution of the Et-Distance By
+Virtue of the Statistical Drake Equation
+Having solved the statistical Drake equation by finding the lognormal distribution, we
+are now in a position to solve the ET-DISTANCE problem by resorting to statistics again,
+rather than just to the purely deterministic Distance Law (5), as we did in Section 2.
+This is "scientifically more serious" than just the purely deterministic Distance Law (5)
+inasmuch as the new statistical Distance Law will yield a PROBABILITY DENSITY for the
+Distance, with the relevant mean value and standard deviation. In other words, the
+Distance Law (5) itself becomes a random variable whose probability distribution, mean
+value and standard deviation must be computed by "replacing" into (5) the fact that N
+is now known to follow the lognormal distribution. This is mathematically described in
+detail in Section 7 of Appendix A.
+The important new result is the PROBABILITY DENSITY FOR THE DISTANCE, the
+equation of which is
+20
+- e
+holding for rzo. This is equation (114) of Appendix B.
+Starting from this equation, the MEAN VALUE OF THE random variable ET_DISTANCE is
+computed as
+(ET Distance) = Co$ fE
+which is equation (119) of Appendix B, and finally the ET_DISTANCE STANDARD
+DEVIATION
+# 2
+(9)
+(10)
+"Disone
+(11)
+which is equation (123) of Appendix B. Of course, all other descriptive statistical
+quantities, such as moments, cumulants etc. can be computed upon starting from the
+probability density (9), and the result is Table twa hereafter, that is Table 3 or Appendix
+Finally, to complete this section, as well as this "introduction to the statistical Drake
+are determined. They are rese the quations (10) and 11) yield for the Input Table 1
+Timeans value = Ce
+3e1$ = 2,670 light years
+(12)
+18
+UNCLASSIFIED//FOR OFFICIANGE ON
+
+===== PAGE 20 =====
+{"alpha_words": 25, "chars": 214, "method": "ocr", "page": 20, "variant": "clean-vision"}
+UNCLASSIFIED/PROT-OPTICIAL OSE ONET
+which is equation (153) of Appendix B, and
+DET DisaRE = Ce i
+* 1" Ve " - 1 = 1,303 light years
+which is equation (154) of Appendix B.
+(13)
+19
+UNCLASSIFIED//FOR-OFFICIAL UGE DALK
+
+===== PAGE 21 =====
+{"alpha_words": 164, "chars": 1247, "method": "ocr", "page": 21, "variant": "plain-vision"}
+UNCLASSIFIED/ FOR OFTTE
+Table 2. Summary of the Properties of the Probability Distribution That Applies
+to the Random Variable ET_Distance Yielding the (average) Distance Between
+Any Two Neighboring Communicating Civilizations in the Galaxy
+Random variable
+ET_Distance between any two neighboring
+ET civilizations in galaxy assuming they are
+UNIFORMLY distributed throughout the
+whole galaxy volume.
+Unnamed
+Probability distribution
+Probability density function
+Numerical constant C related to the Milky
+Way size
+Mean value
+Variance
+Standard deviation
+All the moments, i.e. K-th moment
+Mode (= abscissa of the lognormal peak)
+Value of the Mode Peak
+3
+1
+207°
+/ET_Distan (r) =
+• P
+V2xO
+C = 3/6 Rentasy Malaxy = 28,845 light years
+(ET Distance) =Ce "
+e 18
+e"
+- 1
+(ET Distance") = C* e
+Median (= fifty-fifty probability value for N)
+Skewness
+Peak Value of ferDistine: (r) =
+3
+= fET Distance (Misdo) = -
+median = m = Ce 3
+Kurtosis
+Expression of lin terms of the lower (ai)
+and upper (bi) limits of the Drake uniform
+input random variables Di
+Expression of o in terms of the lower (ai)
+and upper (bi) limits of the Drake uniform
+input random variables Di
+20
+UNCLASSIFIED//FOR
+1-30""
+(к,)"
+• = €
+5+25+305-0
+i-l
+i-l
+ơ= 203=2-416 - 1(a)F
+i-l
+i-l
+(b, - a.)
+
+===== PAGE 22 =====
+{"alpha_words": 10, "chars": 76, "method": "ocr", "page": 22, "variant": "plain-vision"}
+UNCLASSIFIED//FGR GFFICIAL USE ONLY
+21
+UNCLASSIFIED/ /FOR OFFIGIAL UGE GALK
+
+===== PAGE 23 =====
+{"alpha_words": 265, "chars": 1785, "method": "ocr", "page": 23, "variant": "plain-vision"}
+It is clarifying to draw the graph of the ET_Distance probability density (9):
+5.63-1020)
+DISTANCE OF NEAREST ET_CIVILIZATION
+45-1020
+(1/incters)
+on
+|3.38-10-20)
+Probability density functi
+2.25-10:20
+1.13•102
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+ET_Distance from Earth (light years)
+Figure 3. The Probability of Finding the Nearest Extraterrestrial Civilization at the distance r From Earth
+(in light years) if the Values Assumed in the Drake Equation are Those Shown in Input Table 1, The
+relevant probability density function /ET_Distic (r) is given by equation (9). Its mode (peak abscissa) equals 1933
+light years, but its mean value is higher since the curve has a long tail on the right: the mean value equals in fact
+2670 light years. Finally, the standard deviation equals 1309 light years: THIS IS GOOD NEWS FOR SETI,
+inasmuch as the nearest ET galaxy civilization might lie at just 1 sigma = 2670-1309 = 1361 light years from us.
+From Figure 3 we see that the probability of finding extraterrestrials is practically zero
+up to a distance of about 500 light years from Earth. Then it starts increasing with the
+increasing distance from Earth, and reaches its maximum at
+3
+=1,933 light years.
+(14)
+This is the MOST LIKELY VALUE of the distance at which we can expect to find the
+nearest extraterrestrial civilization.
+It is not the mean value of the probability distribution (9) for fet Disine(r). In fact, the
+probability density (9) has an infinite tail on the right, as clearly shown in Figure 3, and
+hence its mean value must be higher than its peak value. As given by (10) and (12), its
+mean value is imam me Cetis = 3670 light year. This is the MEAN (value of the)
+DISTANCE at which we can expect to find extraterrestrials.
+22
+UNCLASSIFIED/AFOR
+OPEN USE ONLY
+
+===== PAGE 24 =====
+{"alpha_words": 402, "chars": 2604, "method": "ocr", "page": 24, "variant": "plain-vision"}
+UNCLASSIFIED/ Are
+TAL USE ONLY
+After having found the above two distances (1933 and 2670 light years, respectively),
+the next natural question that arises is: "what is the range, back and forth around the
+mean value of the distance, within which we can expect to find extraterrestrials with
+"the highest hopes?" The answer to this question is given by the notion of standard
+deviation that we already found to be given by (11) and (13),
+Mi DiN Go is No -1=1300 light years.
+More precisely, this is the so-called 1-sigma (distance) level. Probability theory then
+shows that the nearest extraterrestrial civilization is expected to be located within this
+range, i.e. within the two distances of (2670-1309) = 1361 light years and
+(2670+1309) = 3979 light years, with probability given by the integral of for Disun(r)
+taken in between these two lower and upper limits, that is:
+1979lightycars
+136 lightyean
+FAr Distina (7) dr = 0.75 = 75%
+(15)
+In plain words: with 75 percent probability, the nearest extraterrestrial civilization is
+located in between the distances of 1361 and 3979 light years from us, having assumed
+the input values to the Drake Equation given by table 1. If we change those input
+values, then all the numbers change again, of course.
+9. The "Data Enrichment Principle" as the Best CLT
+Consequence Upon the Statistical Drake Equation (Any
+Number of Factors Allowed)
+As a fitting climax to all the statistical equations developed so far, let us now state our
+"DATA ENRICHMENT PRINCIPLE." It simply states that "The Higher the Number of
+Factors in the Statistical Drake equation, The Better."
+Put in this simple way, it simply looks like a new way of saying that the CLT lets the
+random variable Y approach the normal distribution when the number of terms in the
+sum (4) approaches infinity. And this is the case, indeed.
+10. Conclusions
+We have sought to extend the classical Drake equation to let it encompass Statistics
+and Probability.
+This approach appears to pave the way to future, more profound investigations
+intended not only to associate "error bars" to each factor in the Drake equation, but
+especially to increase the number of factors themselves. In fact, this seems to be the
+only way to incorporate into the Drake equation more and more new scientific
+information as soon as it becomes available. In the long run, the Statistical Drake
+equation might just become a huge computer code, growing in size and especially in
+the depth of the scientific information it contains. It would thus be Humanity's first
+"Encyclopaedia Galactica."
+23
+UNCLASSIFIED/ FOR OFFICIAL AGE ONLY
+
+===== PAGE 25 =====
+{"alpha_words": 37, "chars": 255, "method": "ocr", "page": 25, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+Unfortunately, to extend the Drake equation to Statistics, it was necessary to use a
+mathematical apparatus that is more sophisticated than just the simple product of
+seven numbers.
+24
+UNCLASSIFIED//FOR OFFICIA SEE ONY
+
+===== PAGE 26 =====
+{"alpha_words": 134, "chars": 897, "method": "ocr", "page": 26, "variant": "plain-vision"}
+That the Uni Pro Distination to nean nee
+Over a Finite Range of Values
+Information Theory was initiated by Claude Shannon (1916-2001) in his well-known
+1948 two papers:
+A Mathematical Theory of Conmumication
+BICE SHAIRON
+In this Appendix, we wish to draw attention to a couple of theorems that Shannon
+proves on pages 36 and 37 of his work, and read, respectively (note that Shannon
+omits the upper and lower limits of all integrals in the first theorem: they are minus
+infinity and plus infinity, respectively):
+SLerpiribeace-dimensional derbuton. Te foucigar: giraga masmun entropy subecito we
+condition that tine standlaid derianen afribe fixed are is Garasian. To shorthis me must masinize
+*rath
+a; cossainis. This regure: by he calculu: of tarntions masonuzing
+The condion for thus is
+and consegently ladying the constant to satisty the con rants)
+and
+25
+UNCLASSIFIED/ /FOR OFFICIAL UST ONLY
+
+===== PAGE 27 =====
+{"alpha_words": 246, "chars": 1574, "method": "ocr", "page": 27, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+?. Ifts limited to a hallme pian - O fort. Drand the fast moment cêr is fired at a
+=-/,0017x
+Pix:
+and is egual to logen.
+Now, we wish to point out that there is a third possible case, other than the two given
+by Shannon. This is the case when the probability density function p(x) is limited to a
+FINITE INTERVAL as.xst. This is obviously the case with any physical POSITIVE
+'andom variable, such as a distance, or the number N of extraterrestrial communicating
+civilizations in the ,". And it is easy to prove that for any such finite random variable the
+maximum entropy distribution is the UNIFORM distribution over as.rsh. Shannon did
+not bother to prove this simple theorem in his 1948 papers since he probably regarded
+it as too trivial. But we prefer to point out this theorem since, in the language of the
+statistical Drake equation, it sounds like:
+"Since we don't know what the probability distribution of any one of the Drake random
+variables D; is, it is safer to assume that each of them has the maximum possible
+entropy over« ≤× ≤h;, i.e., that D, is UNIFORMLY distributed there.
+The proof of this theorem is along the same lines as for the previous two cases
+discussed by Shannon:
+We start by assuming that a, 5.x 5h;.
+We then form the linear combination of the entropy integral plus the normalization
+condition for Di
+where 2 is a Lagrange multiplier.
+Performing the variation, one finds
+-logp(x)-1+1=0 that is: p(r) =x.
+Applying the normalization condition (constraint) to the last expression for p(x) yields
+that yields
+1
+e*==
+bi - 11;
+26
+
+===== PAGE 28 =====
+{"alpha_words": 27, "chars": 237, "method": "ocr", "page": 28, "variant": "clean-vision"}
+UNCLASSIFIED//FOR OTTIETAL USE ONLY
+and finally
+1(8) = 5, -0,
+- with 4, ≤15h;
+showing that the maximum-entropy probability distribution over any FINITE interval
+a, ≤r≤h, is the UNIFORM distribution.
+27
+UNCLASSIFIED/HEAR OFFICIAL USE ONE
+
+===== PAGE 29 =====
+{"alpha_words": 524, "chars": 3535, "method": "ocr", "page": 29, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFICIALHONEY
+Appendix B: Original Text of the Author's Paper #IAC-08-
+A4.1.4 Titled the Statistical Drake Equation
+IAC-08-A4.1.4
+THE STATISTICAL DRAKE EQUATION
+Claudio Maccone
+Co-Vice Chair, SETI Permanent Study Group, International Academy of Astronuutics
+Address: Via Martorelli, 43 - Torino (Turin) 10155 - Italy
+URL: http://www.macconc.com/ -E-mail: clmaccon@libcro.it
+ABSTRACT. We provide the statistical generalization of the Drake equation.
+From a simple product of seven positive numbers, the Drake equation is now turned into the product of seven
+positive random variables. We call this "the Statistical Drake Equation," The mathematical consequences of
+this transformation are then derived. The proof of our results is based on the Central Limit Theorem (CLT) of
+Statistics. In loose terms, the CLT states that the sum of any number of independent random variables, each of
+which may be ARBITRARILY distributed, approaches a Gaussian (i.e. nonnal) random variable. This is called
+the Lyapunov Form of the CLT, orthe Lindeberg Form of'the CLT, depending on the mathematical constraints
+1) The new random variable N, yielding the number of communicating civilizations in the Galaxy. follows the
+LOGNORMAL distribution. Then, as a consequence. the mean value of this lognormal distribution is the
+ordinary Nin the Drake equation. The standard deviation, mode, and all the moments of this lognormal N
+are found also.
+2) The seven factors in the ordinary Drake equation now become seven positive random variables. The
+probability distribution of each random variable may be ARBITRARY. The CLT in the so-called
+Lyapunov or Lindeberg forms (that both do not assume the factors to be identically distributed) allows for
+that. In other words, the CLT "translates" into our statistical Drake equation by allowing an arbitrary
+probability distribution for each factor. This is both physically realistic and practically very useful, of
+3) An application ol'our statistical Drake equation then follows. The (average) DISTANCE berween any two
+neighboring and communicating civilizations in the Galaxy may be shown to be inversely proportional to
+the cubic root of N. Then, in our approach, this distance becomes a new random variable. We derive the
+relevant probability density function, apparently previously unknown and dubbed "Maccone dístribution"
+by Paul Davies.
+4) DATA ENRICHMENT PRINCIPLE. It should be noticed that ANY positive number of random variables
+in the Statistical Drake Equation is compatible with the CLT. So, our generalization allows for many more
+factors to be added in the future as long as more refined scientific knowledge about each factor will be
+known to the scientists. This capability to make room for more future factors in the statistical Drake
+equation we call the "Data Enrichment Principle", and we regard it as the key to more profound future
+results in the fields of Astrobiology and SETI.
+Finally, a practical example is given of how our statistical Drake cquation works numerically. We work out in
+detail the case where each of the seven random variables is uniformly distributed around its own mean value
+and has a given standard deviation. For instance, the number ol'stars in the Galaxy is assumed to be uniformly
+distributed around (say) 350 billions with a standard deviation of (say) 1 billion. Then, the resulting lognormal
+distribution of Nis computed numerically by virtue of a MathCad file that the author has written. This shows
+28
+UNCLASSIFIED/ (FOR OFFICIAL USE ONLY
+
+===== PAGE 30 =====
+{"alpha_words": 630, "chars": 3974, "method": "ocr", "page": 30, "variant": "plain-vision"}
+UNCLASSIFIED//FORG
+VEE ONLY
+that the mean value of the lognormal random variable N is actually of the same order as the classical N given
+by the ordinary Drake equation, as one might expect from a good statistical generalization.
+1. INTRODUCTION
+The Drake equation is a now famous result
+(see rel. [l] for the Wikipedia summary) in the
+fields of SETI (the Search for Extraterrestial
+Intelligence, see ret. [2J) and Astrobiology (see ret
+(3]). Devised in 1960, the Drake equation was the
+first scientific attempo to estimate the number N of
+ExtraTerrestrial civilizations in the Galaxy with
+which we might come in contact. Frank D. Drake
+(see ref. [4]) proposed it as the product of seven
+factors:
+(1)
+Where:
+1) Ns is the estimated number of stars in our
+Galaxy.
+2) fp is the fraction (= percentage) of such stars
+that have planets.
+3) ne is the number "Earth-type" such planets
+around the given star; in other words, ne is
+number of planets, in a given stellar system,
+on which the chemical conditions exist for life
+to begin its course: they are "ready for life,"
+4) fl is fraction (- percentage) of such "ready for
+life" planets on which life actually starts and
+grows up (but not yet to the "intelligence"
+level).
+5) Ji is the fraction (=
+"planets with life forms percentage) of such
+that actually evolve
+until some form of "intelligent civilization"
+(like
+the first. bistoric buman
+civilizations on Earth).
+6) Je is the fraction (= percentage) of such
+"planets with civilizations"
+where the
+civilizations evolve to the point of being able
+lo communicate across the inlerstellar
+distances with
+other (at least) similarly
+evolved civilizations. As far as we know in
+2008, this means that they must be aware of
+the Maxwell equations governing radio waves,
+as well as of computers and radioastronomy
+(at least).
+7) fL is the fraction of galactic civilizations alive
+at the time when we, poor humans, attempt to
+pick up their radio signals (that they throw out
+into space just as we have done since 1900,
+when
+Marconi
+started the transatlantic
+transmissions). In other words. fL is the
+number of civilizations now transmitting and
+recciving, and this implies an cstimate of 'how
+long will ¿ lechnological civilization live?"
+that nobody can make al the moment. Also.
+are they going to destroy themselves in a
+nuclear war, and thus live only a few decades
+of technological civilization? Or are they
+slowly becoming wiscr, reject war, speak a
+single language (like English today), and
+merge into a single "nation", thus living in
+peace for ages? Or will robots take over one
+day making
+"flesh animals" disappear forever
+(the so-called "post-biological universe")?
+No one knows...
+But let us go back to the Drake equation (1).
+In the fifty years of its existence, a number of
+suggestions have been put forward about the
+different numeric values of its seven factors. Of
+course, every different set of these seven input
+numbers yields a different value lor N, and we can
+endlessly play that way. But we claim that these
+are like... children plays!
+We claim the classical Drake equation (1), as
+we shall call it from now on to distinguish it from
+our statistical Drake equation to be introduced in
+the coming sections, well, the classical Drake
+equation is scientifically inadequate in one regard
+at least: it just handles sheer numbers and does not
+associate an error bar to each of its seven factors.
+At the very least, we want to associate an error
+bar to each Di.
+Well. we have thus reached STEP ONE in our
+improvement of the classical Drake equation:
+replace each sheer number by a probability
+The reader is now asked to look al the flow
+chart in the next page as a guide lo this paper,
+please.
+2. STEP 1: LETTING EACH FACTOR
+BECOME A RANDOM VARIABLE
+In this paper we adopt the nolations of the
+great book "Probability, Random Variables and
+Stochastic Processes" by Athanasios Papoulis
+(1921-2002), now re-published as Papoulis-Pillai,
+29
+UNCLASSIFIED//YOR-OPPTEIAL USE ONLT
+
+===== PAGE 31 =====
+{"alpha_words": 260, "chars": 1714, "method": "ocr", "page": 31, "variant": "plain-vision"}
+UNCLASSIFIED/+f
+ref. 15]. The advantage of this notation is that it
+makes a neat distinction between probabilistic (or
+statistical: it's the same thing here) variables,
+always denoted by capirals, from non-probabilistic
+(or "delerministic") variables, always denoted by
+lower-case letters. Adopling the Papoulis notation
+also is a tribute to bim by this author, who was a
+Fulbright Grantee in the United States with him at
+the
+Polytechnic Institute (now
+Polytechnic
+University) of New York in the years 1977-78-79.
+We thus introduce seven new (positive)
+random variables D, ("D" from "Drakc") defined
+(D = Ns
+Dy = lp
+Do = ne
+Ds = li
+Do = fi
+(2)
+so thal our STATISTICAL Drake equation may be
+simply rewritten as
+30
+(3)
+Of course. N now becomes a (positive) random
+variable too, having its own (positive) mean value
+and standard deviation. Just as each of the D, has its
+own (positive) incan value and standard deviation..
+... the natural question then arises: how are the seven
+mean values on the right related to the mean value on
+... and how are the seven standard deviations on the
+right related to the standard deviation on the left!
+Just take the next step...
+3. STEP 2: INTRODUCING LOGS TO
+CHANGE THE PRODUCT INTO A SUM
+Produets of random variables are not casy 1o
+handle in probability theory. I is actually much
+casicr lo handle sums of random variables, rather
+Iban products, bocause:
+1) The probability density of the sum of two or
+more independent randon variables is the
+convolucion of the relevant probability
+densities (worry nor about the equations,
+right now).
+2). The Fourier transform of the convolution
+simply is the product of the Fourie
+transforms (again, worry not about the
+equations,
+point)
+
+===== PAGE 32 =====
+{"alpha_words": 167, "chars": 1286, "method": "ocr", "page": 32, "variant": "plain-vision"}
+UNCLASSIFIED/ /TOR UPPICIAL USE ONL
+L1. Introduction
+2. Step 1: Letting each factor become a random
+2.1. Step 2: Introducing logs to change the product into a
+2.2. Step 3: The transformation law of random variables.
+3. Step 4: Assuming the easiest input distribution fo
+ach Di: the uniform distributio:
+.1. Step 5: A numerical example of the Statistical Drake equatio
+rith uniform distributions for the Drake randor
+variables Di.
+3.2. Step 6: Computing the logs of the
+7 uniformly distributed
+Drake random variables
+3.3. Step 7: Finding the probability
+density function of N, bul
+only numerically no
+analytically
+DEAD END!
+4. The Central Limit Theorem (CLT) of Statistics.
+5. LOGNORMAL distribution as the probability
+distribution of the number N of
+ommunicating ExtraTerrestrial Civilizatio
+• the Galax
+6. Comparing the CLT results with the Non-CLT
+results, and discarding the Non-CLT approach,
+Distance to the nearest i delization of the
+7.2 Probabilistic derivation of probability density
+function for nearest ET Civilization Distance.
+7.3 Statistical properties of the distribution.
+7.4 Numerical example of the distribution.
+B.
+DATA ENRICHMENT PRINCIPLE as the best
+CLT consequence upon the Drake equation:
+any number of factors allowed far.
+31
+UNCLASSIFIED/SPOR OFFICIAL USE ONLT
+
+===== PAGE 33 =====
+{"alpha_words": 550, "chars": 3578, "method": "ocr", "page": 33, "variant": "plain-vision"}
+UNCLASSIFIED//POK OFFI
+TAT
+So let at Dikthe natural logs or both sides of the
+(4)
+It is now convenient to introduce eight new (positive)
+random variables defined as tollows:
+[Y = In(N)
+/V, = In(D,) i =1...7.
+(5)
+Upon inversion, the first equation of (5) yields the
+important cquation, that will be used in the scque!
+N= e"
+(6)
+We are now ready to take STEP THREE.
+STEP 3: THE TRANSFORMATION LAW
+OFRANDOM VARIABLES
+So far we did not mention at all the problem:
+"which probability distribution
+shall we attach to
+each of the seven (positive) random variables D,'"
+It is not easy to answer this question because we
+do not have the least scientific clue to what
+probability distributions fit at best lo cach of the
+seven points listed in Section 1.
+Yet, at least one trivial error must be avoided:
+claiming that each of those seven random variables
+must have a Gaussian (i.e. normal) distribution. In
+fact, the Gaussian distribution, having the well-
+known bell-shaped probability density function
+_(r-4)
+(020)
+(7)
+V3ло
+has its independent variable y ranging belween -∞
+and a and so it can apply to a real random variable
+Y only, and never to positive random variables liko
+those in the scatistical Drake equation (3). Period.
+Searching again for probability density functions
+that represent positive random variables, an obvious
+choice would be the gamma distributions (see, for
+instance, ref. [6]). However, we discarded this choice
+r0o because of a different reason: please keep in mind
+that, necording to (5), once we selected a particular
+32
+type of probability densicy function (put) for the last
+seven of cquations (5), then we must compute the
+(new and different) pdt of the logs of such randomn
+variables. And the pdf of these logs certainly is not
+gamma-type any more.
+It is high time now to remind the reader of a
+certain theorem that is proved in probability courses,
+but, unfortunately, does not seem to have a specific
+name. It is the transformation law' (so we shall call
+it, see, for instance, ref. (5J) allowing us to compute
+the pot of a certain new random variable Y that is a
+known tunction Y=g(X) of another random
+variable X having a known pdf. In other words, it the
+pdf tx (i) of a certain random variable X is known,
+then the pdf fo(x) of the new random variable Y.
+related to X by the functional relationship
+y =8(X)
+(8)
+can be calculated according to this rule:
+1) First invert the corresponding non-probabilistic
+cquation y= 8(r) and denote by r, (p) the
+various real roots resulting from the this
+inversion.
+2)
+Second, take notice whether these real roots may
+be either finitely- or infinitely-many, according
+to the nature of the function y' = g(r).
+3) Third, the probability densiry function of Y is
+then given by the (finite or infinite) sur
+Sy (1) =
+2 * (:))
+713(+ (r))
+(9)
+where the summation extends to all roots x; (5) and
+Is (x, (s)) is the absolure value of the first
+derivative of g(x) where the ith root x; (r) has
+been replaced instead of t:
+Since we must use this transformacion law to transter
+from the D; to the Y, = In(Di), it is clear that we
+need to start from a D, pat that is as simple as
+possible. The gamma pof is not responding to this
+need because
+the analytic expression
+of the
+transformed pdf is very complicated (or, at least, it
+lonked so to this author in the fürst instance). Also,
+the gamma distribution has two free parameters in it,
+and this "complicates" its application to the various
+meanings of the Drake cquation. In conclusion, we
+discarded the gamma distributions and confined
+UNCLASSIFIED/LEOR DEELCIAL USE ONLY
+
+===== PAGE 34 =====
+{"alpha_words": 295, "chars": 2075, "method": "ocr", "page": 34, "variant": "plain-vision"}
+UNCLASSIFIED/+FOR 81
+ourselves to the simpler uniform distribution instead,
+as shown in the nest section.
+4. STEP 4: ASSUMING THE EASIEST
+INPUT DISTRIBUTION FOR EACH D;:
+THE UNIFORM DISTRIBUTION
+Let us now suppose that each of the seven Di is
+distributed UNIFORMLY in the interval ranging
+from the lover limit a 20 to the upper limit
+This is the same as saying that the probability
+density function of each of the seven Drake random
+variables D, has the equation
+Fumitormo, (x) =
+with 054; a; ≤h; (10)
+as it follows at once from the normalization condition
+(11)
+3(1, - 0,)
+The second moment of the uniform distribution is
+thus
+(13)
+From (12 and (13) we may now derive the variance
+of the uniform distribution
+Tuniva D, = (uniform D.?) - (uniforn D,)?
+Let us now consider the mean value of such
+uniform Di defined by
+(uniform Di) = J. * JunirD, (x) dr =
+Upon taking the square root of both sides of (14), We
+finally obtain the standard deviation of the uniform
+distribution:
+=
+hi-4
+2/3
+We now wish to perfonn a calculation that is
+mathematically trivial, but rather unexpected from
+the intuitive point of view, and very important for our
+applications 10 the statistical Drake equation. Just
+consider the lwo simultancous equations (12) and
+(14)
+(15)
+=
+= 2(0-4) =
+2
+By words (as it is intuitively obvious): the mean
+value of the uniform distribution simply is the mean
+of the lower plus upper limit of the variable range
+(12)
+In order to find the variance of the uniform
+distribution, we first need finding the sccond moment
+17 - 13
+- -
+3 I.,
+Kunitor D,) =
+a; +h;
+2
+=
+253
+(16)
+Upon inverting this trivial linear system, one finds
+"; = (uniform Di) - V3 O unition D.
+b = (uniform_D,) + V3 Ounitor
+(17)
+This is of paramount importance for our application
+the Statistical Drake equation inasmuch as it shows
+that:
+f one (scientifically) assigns the mean value an
+standard deviation of « certain Drake randon
+variable Di, then the lower and upper limits of the
+relevant uniform distribution are given by the two
+equations (17), respectively.
+33
+UNCLASSIFIED//FOR OFFICIAL AGE ONLY
+
+===== PAGE 35 =====
+{"alpha_words": 493, "chars": 3206, "method": "ocr", "page": 35, "variant": "plain-vision"}
+UNCLASSIFIED//FR
+TANGEON
+In other words,
+there is a factor of V3=1.732
+included in the two cquations (17) that is not obvious
+at all to human intuition, and must indeed be taken
+into account.
+The application of this result to the Statistical Drake
+cquation is discussed in the next section.
+3.1 STEP 5: A NUMERICAL EXAMPLE
+OF THE STATISTICAL DRAKE
+EQUATION WITH UNIFORM
+DISTRIBUTIONS FOR THE DRAKE
+RANDOM VARIABLES Di
+The first variable Ns in the classical Drako
+equation (1) is tho number of stars in our Galaxy.
+Nobody knows how many they are exactly (!). Only
+statistical estimates can be made by astronomers, and
+chey oscillare (say) around a mean value of 350
+billions (if this value is indeed correct!). This being
+the situation, we
+assume that our
+uniformly
+distributed random variable Ns has a mean value of
+350 billions minus or plus a standard deviation of
+(say) one billion (we don't care whether this number
+is scientifically the best estimate as of August 2008:
+we just want to set up a nomerical example of our
+Statistical Drake equation). In other words, we now
+assume that one has:
+(unitor D1) = 350•10°
+(18)
+Therefore, according to equations (17) the lower and
+upper limit of our uniform distribution for the
+random variable Ns=D, are, respectively
+relevant lower and upper limits for the uniform
+distribution of fp=Deturn out to be
+|" = (uniform D2) - 53O Wiia D; = 0.327
+1p= (uniform D2) + V3 Cunirm D: =0.673
+(20)
+The next Drake random variable is the number
+ne of "Earth-type" planets in a given star system.
+Taking example from the Solar System, since only
+the Earth is truly "Earth-type", the mean value of ne
+is clearly 1, but the standard deviation is not zero if
+we assume that Mars also may be regarded as Earth-
+type. Since there are thus two Harth-type planets in
+the
+Solar System, we must assume a standard
+222222
+type" plancs (Earth and Mars) for the upper limit of
+che random variable ne. In other words, we assume
+that
+"..= (unitorm Ds) - V3 Gunitro D, =0
+B= (unitorn Ds) + V3 Ouniform. D, =2
+(21)
+The next four Drake random variables have even
+more "arbitrarily" assumed values that we
+simply
+assume for the sake of making up a numerical
+example of our Statistical Drake equation
+with
+uniform entry distributions. So, we really make no
+assumption about the astronomy, or fhe biology, or
+the sociology of the Drake equation: we just care
+about its mathematies.
+All our assumed entries are given in Table 1.
+Plcase notice that, had we assumed all the
+standard deviations to equal zero in Table 1, then our
+Statistical Drake equation (3) would have obviously
+Similarly we procced for al the other six random
+variables in the Statistical Drake cquation (3).
+For instance, we assume that the fraction of stars
+that have planets is 50%, i.c. 50/100, and this will be
+the mean value of the random variable fp=Da. We
+also assume that the relevant standard deviation will
+be 10%. i. e. that ojp=10/100. Therefore, the
+N= 3500]
+(22)
+This is the important deterministic number that we
+ill use in the sequel of this paper for comparise
+ith our statistical results on the mican value of !
+i.e. (N). This will be explained in Sections 3.3 and 5.
+34
+UNCLASSIFIED/ /EOR DEFICIAL UGE ONLY
+
+===== PAGE 36 =====
+{"alpha_words": 245, "chars": 1753, "method": "ocr", "page": 36, "variant": "plain-vision"}
+UNCLASSIFIED//POM ORPICIAL YSE OMLY
+Ns : = 350-10°
+at's:= 1:10°
+tip:= 30
+100
+up:= tp
+ne = 1
+une = ne
+10
+ofp:=-
+100
+1
+one:=
+-
+1l =
+100
+ull = 1
+01:= 10
+100
+1 := 30
+100
+uti := ti
+100
+11:= 10000
+10'ü
+10
+at =-
+100
+Gic:= 10
+100
+1000
+OIL:=
+101ü
+N:= Is.fo-ne fl.fi.fc.fL
+1 = 3500
+Table 1. Input values (i.c. mean valucs and standard deviations) for the seven Drake uniform random variables Di.
+The first column on the left lists the seven input sheer numbers that also become the mcan values (middle column).
+Finally the last column on the right lists the seven input standard deviations. The bottom line is the classical Drake
+3.2 STEP 6: COMPUTING THE LOGS
+OF THE 7 UNIFORMY
+DISTRIBUTED DRAKE RANDOM
+VARIABLES Di
+So. if we have a uniformly distributed random
+variable Di with lower limit arand upper limit by, the
+random variable
+Intuitively speaking. the natural log of a
+uniformly distributed random variable may not be
+another uniformly distributed random variable! This
+is obvious from the trivial diagram of y = In(x)
+shown below:
+REAT. values of the natural log: y=ln(x)
+Natural logarithmotx
+2
+-1
+-2
+2
+3
+4
+POSITIVE independent variable x
+5
+Y, = In(D,) i=1...7
+(23)
+must have its range limited in between the lower limit
+In(ai) and the upper limit In(bid. In other words, this
+are the lower and apper limits of the relevant
+probability density tonction f(x). But what is the
+actual analytic expression of such a pot?. To find it,
+we must resort to the gencral transformation law for
+random variables, defined by equation (9). Hero we
+3 = 8(1) = In(r)
+(24)
+That, upon inversion, yields the single root
+* (y) = 1(1) = ei.
+(25)
+On the other hand, differentiating (24) one gets
+Figure 1. The simple function y = In(x).
+35
+UNCLASSIFIED/ FOR OFFIGIAL USE ONL*
+
+===== PAGE 37 =====
+{"alpha_words": 282, "chars": 1954, "method": "ocr", "page": 37, "variant": "plain-vision"}
+UNCLASSIFIED/ /FOR
+* (x) =- and s (+ (:)) =
+x, (1)
+where (25) was already used in the last step. By
+virtuc of the uniform probability density function
+(10) and of (26), the gencral transformation law (9)
+finally yields
+In order to find the variance also, we must first
+compule the mean value of the square of Y., thal is
+-. (27)
+3 - 4;
+In other words, the requested pdf of Y, is
+i = l.,7
+In(a) ≤ y ≤ In(6)
+probabit densin actions de th rake and of
+variables Di.
+1; -11;
+...(32)
+The sate near or 51, that after a rever be (3a,
+(33)
+casy to sco that its normalization condition is
+fulfilled:
+1n(c1) 5; - 11;
+...(29)
+Next we want to find the mean valuc and
+standard deviation of Y,, since these play a crucial
+role for future developments. The mean value (Y,) is
+given by
+- dy
+This in thurt mean vete of the randinal variatit
+(30)
+(31)
+b-1,
+(43, - «)?
+Whence the corresponding standard deviation
+Bx=Mo(2)=
+(34)
+(h, - 4)
+Let us now turn to another topic: the use of
+Fourict transforms, that, in probability theory, are
+called "characteristic functions," Following again the
+notations of Papoulis (rcf. (ST) we call "characteristic
+function", $y (5), ot an assigned probability
+distribution Y,, the Fourier transform of the relevant
+(35)
+The use of characteristic functions simplifies things
+greatly. For instance, the calculation of all moments
+of i known pof becomes trivial if the relevant
+characteristic function is known, and greatly
+simplified also are the proofs of important theorems
+of statistics, like the Central Limit Theoren that wo
+will use in Section 4. Anolber important result is that
+the characteristic function of the sum of a finito
+number of independent random variables is simply
+given by
+the product of the corresponding
+characteristic functions. This is just the case we wro
+facing in the Statistical Drake equation (3) and so we
+are now led to find the characteristic function of the
+random variable Yi, i.e.
+vin(ai)
+- ds
+b; - 17;
+36
+
+===== PAGE 38 =====
+{"alpha_words": 319, "chars": 2317, "method": "ocr", "page": 38, "variant": "plain-vision"}
+UNCLASSIFIED//F
+(0; -4)(1+ J5)
+Thus, the characteristic function of the natural log
+of the Drake uniform random variable Di is given by
+(36)
+(37)
+This author regrets that no was unable to compule the
+last integral analytically. He had to compute it
+numerically for the particular values of the 14 «i and
+Di that follow from Table 1 and equations 17. The
+result was the probability density function for Y =
+In(N) plotted in the following Figure 2.
+Probability density funcdon of y
+n. PROB. DENSITY FUNCTION OF Y=(N)
+0.3
+1).2
+5 6
+8
+Independent variable Y = In(Y)
+4 I0 11 12
+3.3 STEP 7: FINDING THE
+PROBABILITY DENSITY
+FUNCTION OF N, BUT ONLY
+NUMERICALLY NOT
+ANALYTICALLY
+Having
+found the characteristic functions
+$1 (5) of the logs of the seven input randon
+variables D; . we can now immediately find the
+characteristic function of the random variable Y =
+In(N) defined by (5). In fact, by virtue of (4), of the
+well-known Fourier transform property stating that
+*the Fourier transforin of a convolution is the product
+Fourier transforms",
+of (37), it
+immediately follows that Dy (5) cquals the product
+of the seven Фy (5):
+ø„(5)=Ґ[Фy(5)=Í
+• (38)
+The next step is to invert this Fourier transforn in
+ruer 10 get the probability density function of li
+indom variable Y = In(N). In other words, we mu
+compute the following inverse Fourier transform
+ty (3) =
+Figure 2. Probability density function of Y = In(M)
+computed numerically by virtue of the integral (39).
+The two "funny gaps" in the curve are due 1o the
+numeric limitations in the MathCad numeric solver
+that the author used for this numeric computation.
+We are now just one more step from tinding the
+probability density
+extra lerrestrial Civilizations in the Galaxy predicted
+by our Statistical Drake cquation (3). The point hero
+is to transter from the probability density function of
+that of N, knowing that Y = In(N), or
+alternatively, that N=exp(Y), as stated by (6). We
+must thus resort to the transformation law of random
+variables (9) by setting
+"' = 8(1) = e".
+(40)
+This, upon inversion. yields the single root
+*(x) = +(1) = In (1)
+(41)
+On the other hand, differentiating (40) one gets
+- I
+• I (6)05
+where (41) was already used in the last stop. The
+general transtormation law (9) finally yields
+(r ( (x)).
+(43)
+37
+UNCLASSIFIED/ / FOR OFFIGZAL USE ONLY
+
+===== PAGE 39 =====
+{"alpha_words": 467, "chars": 3246, "method": "ocr", "page": 39, "variant": "plain-vision"}
+UNCLASSIFIED/ MOR GAPICIAL USE ONE
+This probability density function fv (y) was
+computed numerically by using (43) and the numeric
+Curve given by (39), and the result is shown in Figure
+• 1.10 ROBABILITY DENSITY FUNCTION OEN
+30105*
+- 2104
+$ 110*
+Prob.
+0
+1000
+2000
+3000
+4000
+Y = Numher of ET Civilizations in Galazy
+Figure 3. The numeric (and not analytic) probability
+density function curve fu (v) of the number N of
+ExtraTerrestrial Civilizations in the Galaxy according
+to the Statistical Drake cquation (3). Wo sec that the
+curve peak (i.c. the mode) is very close to low values
+of N, but the tail on the right is high, meaning that the
+resulting nican value (N) is of the order of
+thousands.
+We now want to compute the mean value (N)
+of the probability density (43). Clearly, it is given by
+(44)
+This integral too was computed numerically, and the
+result was a perfect match with N=3500 of (22), that
+(N) = 3499.99880 177509 + 0.00000012 4914686i (45)
+Note that this result was computed numerically in the
+omplex domain because of the Fourier transforms
+ind that the real part is virtually 3500 (as expected
+that the theory presented so far is
+mathematically correct.
+Finally we want to consider the standard
+deviation. This also had to be computed numerically,
+resulting in
+rN = 3953.42910 143389 + 2800058i 2800058i. (46)
+This standard deviation. higher than the mean value,
+implies that N might range in berween D and 7453.
+This completes our study of the probability
+density function of N if the seven uniform Drake
+input random variable D; have the mean values and
+standard deviations listed in Table 1.
+We conclude that, unfortunately, even under the
+simplifying assumptions that the Di be uniformly
+distributed, it is impossible to solve the full problem
+analytically, since all calculations beyond equation
+(38) had to be performed numerically.
+This is no good.
+Shall we thus loose faith, and declare "impossible"
+the task of finding an analytic expression for the
+probability density function fN(V)?
+Rather surprisingly, the answer is "no", and there
+is indeed i way out of this dead-end, as we shall soc
+in the next section.
+5. THE CENTRAL LIMIT THEOREM (CLT)
+OF STATISTICS
+Indeed there is a good. approximating analytical
+expression for fvli), and this is the following
+lognormal probability density function
+IN (1,440)=
+1
+1
+- e
+V2TO
+(1=0)
+• (47)
+To understand why, we must resort to what is
+perhaps the most beautiful theorem of Statistics:
+the Central Limit Theorem (abbreviated CLT).
+Historically, the CLT was in fact proven first in
+1901 by the Russian mathematician Alexandr
+Lyapunor (1857-1918), and later (1920) by the
+Finnish mathematician Jarl Waldemar Lindeberg
+(1876-1932) under weaker conditions. These
+conditions are certainly fulfilled in the context of
+the Drake cquation hecause of the "reality" of the
+astronomy, biology and sociology involved with it,
+and we are not going to discuss this point any
+further here. A good, synthetic description of the
+Central Limit Theorem (CLT) of Statistics is found
+at the Wikipedia site (ret. 17]) to which the reader
+is referred for more details, such as the equations
+for the Lyapunov and the Lindeberg conditions,
+making the theorem "rigorously" valid.
+38
+UNCLASSIFIED/ FOR
+
+===== PAGE 40 =====
+{"alpha_words": 434, "chars": 2888, "method": "ocr", "page": 40, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFF
+Put in loose terms, the CI states that, if one
+of random variables even NOT
+identically distributed, this sum tends to a normal
+distribution when the number of terms making up
+the sum
+tends to infinity. Also,
+distribution mean value is the sum of the mean
+values of the addend random variables, and the
+normal distribution variance is the sum of the
+variances of the addend random variables.
+Let us now write down the equations of the CLT
+in the form needed to apply it to our Statistical Drake
+equation (3). The idea is to apply the CLT to the sum
+of random variables given by (4) and (5) whatever
+their probability distributions can possibly be. In
+other words, the CLT applied to the Statistical Drake
+equation (3) Icads immediately to the following three
+equations:
+1) The sum of the (arbitrarily distributed)
+independent random variables Y, makes up
+the new random variable Y.
+2) The sum of their mean values makes up the
+new mean value of Y.
+3) The sum of their variances makes up the
+new variance of Y.
+In equations:
+To understand this fact better in mathematical
+terms consider again of the transformation law (9) of
+random variables. The question is: what is the
+probability density function of the random variable N
+in equation (6), that is, what is the probability density
+tunction of the lognormal distribution? To find it, set
+(49)
+This, upon inversion, yickds the single root
+xi (v) = 1(3) = m(y).
+(50)
+On the other hand, differentiating (49) one gets
+8'(i) =e" and & (xi (v)) =ell'l = y
+(51)
+here (50) was already used in the last step. Il
+eneral transtormation law (9) finally yiel
+IN (0) =
+• ly (In (r)).
+(52)
+18 (4; (r))
+Therefore, replacing the probability density on the
+right by virtue of the well-known normal for
+Gaussian) distribution given by equation (7), the
+lognormal distribution of equation (47) is found, and
+the derivation of the lognormal distribution from the
+normal distribution is proved.
+In view of future calculations, it is also useful to
+point out the so-called "Caussian integral", that is:
+1(7) = 2(r)
+(48)
+o}=50
+This completes our synthetic description of the CLT
+for sums of random variables.
+6. THE LOGNORMAL DISTRIBTION IS
+THE DISTRIBUTION OF THE NUMBER
+NOFEXTRATERRESTRIAL
+CIVILIZATIONS IN THE GALAXY
+The CLT may of course be extended to products
+of random variables upon taking the logs of both
+sides, just as we did in equation (3). It then follows
+that the exponent random variable, like y in (6),
+tends to a normal random variable, and, as a
+consequence, it follows that the base random
+variable, like N in (6), tends to a lognormal random
+variable.
+" A>D.
+B= real. (53)
+This follows immediatcly from the normalization
+condition of the Gaussian (7). that is
+(54)
+-%.
+just upon expanding the square at the exponent and
+making the two replacements (we skip all steps)
+1
+A=
+(55)
+39
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+===== PAGE 41 =====
+{"alpha_words": 306, "chars": 2084, "method": "ocr", "page": 41, "variant": "plain-vision"}
+UNCLASSIFIED//FOR-OFFICIAN USE ONL
+In the seque! of this paper we shall denote the
+independent variable of the lognormal distribution
+(47) by a lower case letter n to remind the reader that
+corresponding random variable N is the positive
+integer number of ExtraTerrestrial Civilizations in
+the Galaxy, In other words, n will be treated as a
+positive real number in all calculations to follow
+because it is a "large" number (ie. a continuous
+variable) compared to the only civilization that we
+know of, i.e. ourselves. In conclusion, from now on
+the lognormat probability density function of N will
+be written as
+IN (11) =
+1
+" біла
+(n ≥0)
+(56)
+Having so said, we now turn to the statistical
+properties of the lognormal distribution (55), i.e. to
+the statistical properties that describe the number N
+of Extra Terrestrial Civilizations in the Galaxy.
+Our first goal is to prove an equation yielding all
+the moments of the lognormal distribution (56), that
+is, for every non-negative integer 4 - 0, 1, 2,... one
+(57)
+The relevant proof starts with the definition of the k-
+th moment
+Upon setting d=0 into
+(56),
+normalization condition for f'r (7) follows
+the
+(59)
+Upon setting * = 1 into (56), the importal
+lean value of the random variable N is foun
+[N) = ele?
+(60)
+Upon sciting k=2 into (56), the mean valuc
+of the square of the random variable N is found
+(61)
+The variance of N now follows from the last two
+formulae:
+(62)
+The square root of this is the important standard
+deviation formula for the N random variable
+one'ever
+(63)
+The third moment is obtained upon setting
+* = 3 into (56)
+(64)
+dn
+One then transforms the above integral by
+virtue of the substitution
+In[x]==.
+(58)
+The new integral in z is then seen to
+cduce to the Gaussian integral (53
+we skip all steps here) and (57
+follows
+Finally, upon setting k=4, the fourth moment
+of Nis found
+Our next goal is to find the cumulants of N. In
+principle, we could compute all the cumulants K;
+trom the generic ith moment a; by virtue of the
+recursion formula (see rel. [8])
+(65)
+(66)
+A-1
+40
+UNCLASSIFIED / /FOR OFFICIAL USE OMEN
+
+===== PAGE 42 =====
+{"alpha_words": 238, "chars": 1831, "method": "ocr", "page": 42, "variant": "plain-vision"}
+UNCLASSIFIED/ /POR OFFIEŁAŁ USE ONL*
+Il practice. however, here we shall confine
+ourselves to the computation of the first four
+umulants only because they only are required tr
+ind the skewness and kurtosis of the distributior
+Then, the first four cumulants in terms of the first
+four moments read:
+KJ=M
+K3 =#2-K}
+K. = 4;- 3K, K.- K}
+KJ = pis - 4K, K3-3K}-6K,к}-K$.
+(67)
+These equations yield, respoctively:
+(68)
+K2 =8?4 "(e"'-1).
+(69)
+K = ee" zo
+(70)
+Ky= et1120 (e"-1) (e30 +3420 +6e* +6) (71)
+From these we derive the skewness
+(K,)=
+= (* + 2
+F- r 320 +6 +6) (72)
+and the kurtosis
+K+
+- =e tr°
++2 30
+-6.
+(73)
+Finally, we want to lind the mode of the
+lognormal probability densily lunction. i.e. the
+abscissa of its peak. To do so, we must firs
+compute the derivative of the probability density
+function TN(") of equation (56), and then set it
+equal to zero. This derivative is actually the
+derivalive of the ratio of lwo lunctions of' n, as it
+plainly appears from (57). Thus, lel us set lor a
+moment
+41
+F(n) = (m[r]-4)2
+207
+(74)
+where "E" stands for
+differentiating this, one gets
+"exponent." Upon
+E (n)=
+-.2<1/r]-4) 1
+20°
+(75)
+ut the lognormal probability density function (5€
+y virtue of (74), now read
+Su(r)- Fro"
+e-E(=)
+So that its derivative is
+(76)
+d/ET Distane (°)
+Dero = WlE(n) -1 e sh)
+= Jino
+-e E)/e (1) n +1
+(77)
+Setting this derivative equal to zero means setting
+E (11) 4+1 = 0
+(78)
+That is, upon replacing (75).
+= (infrl-4)+1=0.
+(79)
+Rearranging, this becomes
+I[n]-u+0°=0
+(80)
+and finally
+Murde = Mpea Fel"e en
+(81)
+his is the most likely number of ExtraTerrestri
+ivilizations in the Galax
+low likely? To find the value of the probabilit
+ensity function fx(») corresponding to th
+value of the mode, we must obviously replace (81)
+into (56). After a fel rearangements, one then
+gets
+UNCLASSIFIED//TOR OFFICIAL USLANIA
+
+===== PAGE 43 =====
+{"alpha_words": 300, "chars": 2068, "method": "ocr", "page": 43, "variant": "plain-vision"}
+UNCLASSIFIED//FAR OFFICIALS ONLY
+IN(1000) =
+V27 o
+(82)
+This is
+"how likely" the most likely number of
+ExtraTerrestrial Civilizations in the Galaxy is, ie.
+it is the peak height in the lognormal probability
+density funetion IN (n).
+Next to the mode, the median i (ref. 191) is one
+more statistical number used to characterize any
+independent variable abscissa m such that i
+calization of the random variable will take up i
+value lower than in with 50% probability or a value
+higher than m with 50% probability again. In other
+words,
+the median m splits up our probability
+density in exactly two equally probable parts. Since
+the probability of occurrence of the random event
+cquals the arca under its density curve (i.c. the
+definite integral under its density curve) then the
+median m fof the lognormal distribution, in this
+caso) is defined as the integral upper limil m:
+"hen, after a fow reductions that we skip for the sak
+f' brevity, the full equation (83) is turned int
+tbat is
+(85)
+(86)
+=: (83)
+In order to find m, we may not differentiate (83) with
+respect to m, since tho "precise" factor ½ on the
+right would then disappear into a zero. On the
+we may try to perform the obvious
+substitution
+(In (17) -4)*
+=. =
+205°
+=20
+(84)
+into the integral (83) to reduce it to the following
+integral defining the error function erf(z
+andom variab
+obability distributio
+Probability density function
+Mean value
+Variance
+Standard deviation
+(87)
+Since from the definition (85) one obviously has
+ert(0)=0, (87) becomes
+In(m) - 4=0
+(88)
+N2o
+whence finally
+[median =m = el
+(89)
+his is the median of the lognormal distribution o
+• In other words, this is the number
+Extra Terrestrial civilizations in the Galaxy such
+that, with 50% probability the actual value of N will
+be lower than this median, and with 50% probability
+In conclusion, we feel useful to summarize all the
+equations that we derived about the random variable
+Nin the following Table 2.
+N= number of communicating ET civilizations in Galaxy
+Lognormal
+(n≥0)
+n V2AO
+ON =' (-1)
+42
+UNCLASSIFIED/ FOR OFFICIAL USE ONLY
+
+===== PAGE 44 =====
+{"alpha_words": 303, "chars": 2069, "method": "ocr", "page": 44, "variant": "plain-vision"}
+UNCLASSIFIED/ /FO
+All the moments, ie. k-th moment
+Mode (= abscissa of the lognormal peak)
+Mande =Mpeak =e"""
+1
+Value of the Mode Pcak
+Median (= fifty-fifty probability value for N)
+median =m = et
+Skewness
+Kurtosis
+#to +26305+36355-6
+(к=)
+Expression of pin terms of the lower (eri) and upper
+(b,) limits of the Drake uniform input random
+variables Di
+Expression of o' in terns of the lower (a,) and upper
+(bi) limits of the Drake uniform input random
+variables D,
+i-I
+(b, - 4,)
+Table 2. Summary of the properties of the lognormal distribution that applies to the random variable N = number of
+ET communicating civilizations in the Galaxy.
+We want to complete this section about the
+lognormal probability density function (56) by
+finding out its numeric values for the inputs to the
+Statistical Drake cquation (3) listed in Table 1.
+yielding the following numeric variance of to he
+inserted into the lognormal pat (56)
+0=1.938725
+(93)
+According to the CLT, the mean value a to be
+inserted into the lognormal densily (56) is given
+(according to the second equation (48)) by the sum of
+all the mean values (YA), that is. by virtue of (31), by:
+whence the numeric standard deviation o
+1o=1.392381
+(94)
+(90)
+Upon replacing the 14 a; and b, listed in Table 1
+into (90), the following numeric mean value fu is
+found
+и = 7.462176
+(91)
+Similariy, to get the numeric variance o? one
+must resort to the last of equations (48) and to (33):
+Upon replacing these iwo numeric values (84)
+and (86) into the lognormal pdf (56), the latter is
+perfectly determined. It is plotted in Figure 4
+hereafter as the thin curve.
+In other words, Figure 4 shows the lognormal
+distribution for the number N of Extra Terrestrial
+Civilizations in the Galaxy derived from the Central
+Limit Theorem as applied to the Drake equation
+(with the input data listed in Table I).
+We now like to point out the most importan
+¡tatistical properties of this lognonnal pdfi
+1) Mean Value of N. This is given by cquation (60)
+with pand o given hy (91) and (94), respectively
+(92)
+(h, - a,)
+43
+UNCLASSIFIED/ /FOR OFF
+
+===== PAGE 45 =====
+{"alpha_words": 420, "chars": 2765, "method": "ocr", "page": 45, "variant": "plain-vision"}
+UNCLASSIFIED/ AFOR OFFIST
+(N) = e" =
+=4589.559
+(95)
+In other words, there are 4590 ET Civilizations in
+the Galaxy according the Central Limit Theorem of
+Statistics with the inputs of Table I. This number
+4590 is HIGHER than the 3500 foreseen by the
+classical Drake equation working with sheer
+numbers only, rather than with probability
+distributions. Thus equation (95) IS GOOD FOR
+NEWS FOR SETT, since it shows that the expected
+umber of lls is HIGHER with an adequat
+statistical treatment than just with the too simpl
+Drake sheer numbers of (1).
+2) Variance of N. The variance of the lognormal
+distribution is given by (62) and turns out to be a
+huge number:
+o=ell 0 (00-1)=125328623. (96)
+Standard deviaton of N. The standard deviatio
+• the lognormal distribution is given by (63) an
+turns out 10 be:
+-1=11/95
+(97)
+Again, this is GOOD NEWS FOR SETI. In face,
+such a high standard deviation means that N may
+range from very low vatues (zero, theoretically, and
+one since Humanily exists) up to tens of thousands
+(4590+11195=15785 is (95)+(97)).
+4) Mode of N. The mode (= pcak abscissa) of the
+lognormal distribution of N is given by (81). and has
+a surprisingly low numeric value:
+5) Median of N. The median (= fifty-fifty abscissa,
+spline thoral i so exon ly is greatly ins
+nd has the numeric value:
+"median = et =1740
+(99)
+In words, assuming the input values listed in Table 1,
+we have exactly a 50% probability that the actual
+value of N is lower than 1740, and 50% that it is
+higher than 1740.
+7.
+COMPARING THE CET RESULTS
+WITH THE NON-CLT RESULTS
+The time is now ripe to compare the CLT-
+based results about the lognormal distribution of N.
+just described in Section 5, against the Non-CLT-
+bused results obtained numerically in Section 3.3
+To do so in a simple, visual way, let us plot on
+the same diagram two curves:
+1) The numeric curves appearing in Figure 2
+and ublained after laborious Fourier
+transform calculations in the complex
+domain, and
+2)
+The lognormal distribution (56)
+with
+numeric f and o given by (91) and (94)
+respectively.
+We sco that the two curves are virtually coincident
+for
+valucy of N larger than 1500. This is a
+consequence of the law of large numbers, of which
+the CLT is just one of the many facets.
+Similarly it happens for natural log of N. i.e. the
+random variable Y of (5). that is plotted in Figure 5
+both in ils normal curve version (thin curve) and in
+is numeric version, oblained via Fourier transforms
+nd already shown in Figure 2
+(98)
+This is well showo in Figure 4: the mode peak is very
+pronounced and close to the origin, but the right tail
+is high, and this means that the mean value of the
+distribution is much higher than the mode:
+4590>>250.
+CLT, ie. to the lognormal (56)
+44
+UNCLASSIFIED//FOR UNPICIAL USE ONES
+
+===== PAGE 46 =====
+{"alpha_words": 252, "chars": 1815, "method": "ocr", "page": 46, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+PROBABILITY DENSITY FUNCTION OFN
+6-109
+Z
+5:10%
+Prob density function
+4-107
+3-10%
+2-10%
+1-10°
+U
+1000
+2000
+3000
+N = Number of ET Civilizations in Galaxy
+4000
+Figure 4. Comparing the two probability density functions of the random variable N found:
+1)
+Al the end of Section 3.3. in a purcly numeric way and without rosorling to the CLT at all (thick curve) and
+2) Analytically by using the CLT and the relevant lognormal approximation (Chin curve).
+PROBABILITY DENSITY FUNCTION OF YEIn(N)
+0.5
+Probability density function of Y
+0.4
+02
+0.1
+0
+=
+3
+6
+7
+8
+Independent variable Y = In(N)
+10
+12
+Figure 5. Comparing the two probability density functions of the raodom variable Y=In(N) found:
+Authe end of Section 3.3. in a purely numeric way and without resorting to the CLT at all (thick curve) and
+Analylically by using the CLT and the relevant normal (Gaussian) approximation (thin Gaussian curve).
+8. DISTANCE OF THE NEAREST
+EXTRATERRESTRIAL CIVILIZATION
+AS A PROBABILITY DISTRIBUTION
+As an application of the Statistical Drake
+Equation developed in the previous sections of this
+paper, we now want to consider the problem of
+estimating the distance of the ExtraTerrestrial
+Civilization nearest to us in the Galaxy. In all
+Astrobiology textbooks (sec, for instance, rot. [I0])
+and in several web sites, the solution to this
+problem is reported with only slight differences in
+the mathematical proots among the various authors.
+In the first of the coming two sections (section 7.1)
+we derive the expression for this "ET_Distance"
+(as we like to denole it) in the classical, non-
+probabilistic way: in other words, this is the
+classical, deterministic derivation. In the second
+section (7.2)
+we provide the probabilistic
+derivation, arising from our Statistical Drake
+45
+UNCLASSIFIED//TO1
+
+===== PAGE 47 =====
+{"alpha_words": 473, "chars": 3136, "method": "ocr", "page": 47, "variant": "plain-vision"}
+UNCLASSIFIED/o
+Equation, of the corresponding probability density
+function ferDistanc(r) : here r is the distance
+between us and the nearest ET civilization
+assumed as the independent variable of its own
+probability density function. The ensuing sections
+provide more mathematical details about this
+/rT Dixtane: (r) such as its mean value, variance,
+standard deviation, all central moments. mode,
+median, cumulants, skewness and kurtosis.
+CLASSICAL, NON-PROBABILISTIC
+DERIVATION OF THE DISTANCE OF THE
+NEAREST ET CIVILIZATION
+Consider the Galactic Disk and assume that:
+1) The diameter of the Galaxy is (about) 100,000
+light years, (abbreviated ly) ie. its radius,
+Ratay is about 50,000 ly.
+The thickness of the Galactic Disk at half-way
+from its center, lauda, is about 16,000 ly.
+Then
+3) The volume of
+the Galaxy may be
+approximated
+the
+volume
+the
+corresponding cylinder, i.e.
+Valent = -
+Vour_Sphere.
+N
+(102)
+That is, upon replacing both (100) and (101) into
+(102):
+4
+(LET_Distance)?
+2
+--
+(103)
+N
+The only unknown in the last equation is
+ET_Distance, and so we may solve for it, thus
+getting the:
+(AVERAGE) DISTANCE BETWEEN ANY PAIR
+OF NEIGHBOURING CIVILIZATIONS IN
+THE GALAXY
+(100)
+4) Now consider the sphere around us having a
+radius r. The volume of such as sphere is
+Your_spiere
+(_Distance)
+(101)
+In the last equation, we had to divide the distance
+"ET Distance" between ourselves and the nearest
+ET Civilization by 2 because we are now going to
+make the unwarranted assumption that all ET
+Civilizations are equally space from each other in
+the Galaxy! This is a crazy assumption, clearly,
+and should be replaced by more scientifically-
+grounded assumptions as soon as we know more
+about our Galactic Neighbourhood. Al the moment,
+however, this is the best guess that we can make,
+and so we shall take it for granted, although we are
+aware that this is weak point in the reasoning.
+Having thus assumed that ET Civilizations
+are UNIFORMLY SPACED IN THE GALAXY,
+we can write down this proportion:
+ET_Distance = -
+VN
+VN
+(104)
+where the positive constant C is defined by
+C= /6 Rinay Moday & 28845 light years
+• (105)
+Equations (104) and (105) are the starting point for
+our first application of
+the Statistical Drake
+equation, that we discuss in detail in the coming
+sections of this paper.
+PROBABILISTIC DERIVATION OF THE
+PROBABILITY DENSITY FUNCTION FOR
+ET_DISTANCE
+The probability density function (pat) yielding
+the distance of the ET Civilization nearest to us in
+the Galaxy and presented in this section, was
+discovered by this author on September 5", 2007.
+He did not disclose it to other scientists until the
+SETI meeting run by the famous mathematical
+physicist and popular science author, Paul Davies,
+at the "Bevond" Center of the University of
+Arizona at Phoenix, on February 5-6-7-8, 2008.
+This mecting was also attended by SETI Institute
+experts Jill Tarter, Seth Shostak, Doug Vakuch,
+Tom Pierson and others. During this author's talk.
+Paul Davies suggested to call "the Maccone
+distribution" the new probability density function
+that yields the ET_Distance and is derived in this
+section.
+46
+UNCLASSIFIED//FO
+USE CRY
+
+===== PAGE 48 =====
+{"alpha_words": 270, "chars": 1968, "method": "ocr", "page": 48, "variant": "plain-vision"}
+UNCLASSIFIED/ A
+Let us go back to equation (104). Since Nis
+now a random variable (obeying the lognormal
+distribution), it follows that the ET_Distance must
+be a random variable as well. Hence it must have
+some unknown probability density function that
+we denote by
+firDosane (r)
+(106)
+where r is the new independent variable of such a
+probability distribution (it is denoted by r to
+remind the reader that it expresses the three-
+dimensional radial distance separating us from the
+nearest ET civilization in a full spherical symmetry
+of the space around us).
+The question then is: what is the unknown
+probability distribution (106) of the ET_Distance?
+We can answer this question upon making the two
+formal substitutions
+N → *
+(Er _distance → !
+(107)
+into the transformation law (8) for random
+variables. As a consequence, (104) takes form
+"= 8(1) =
+VF
+(108)
+In order to lind the unknown probability density
+fET Disame (7), we now to apply the rule (9) to
+(108). First. notice that (108), when inverted to
+yield the various roots x; (y), yields a single real
+root only
+10(1) 5
+(109)
+Then, the summation in (9) reduces to one term
+only.
+Second, diflerentialing (108) one finds
+8(1) = -C
+(110)
+Thus, the relevant absolute value reads
+47
+USE ONLY
+8 (r) =
+•. Y
+(111)
+Upon replacing (111) into (9), we then find
+...(112)
+This is the denominator of (9). The numerator
+simply is the lognormal probability density
+function (56) where the old independent variable r
+must now be re-written in terms of the new
+independent variable y by virtue of (109). By
+doing so, we finally arrive at the new probability
+density function fr(y)
+ELE
+3C°
+fy (1) =
+1
+1
+- €
+V2r0
+Rearranging and replacing y by r, the final form
+is:
+3
+(113)
+V270
+Now. just replace C in (113) by virtue of (105).
+Then:
+Galaxy in the spherical shell
+distances r and rtdr from Earth:
+3
+FET Diszune (r) =
+1
+20°
+-•e
+(114)
+holding for r≥0.
+STATISTICAL PROPERTIES OF THIS
+DISTRIBUTION
+UNCLASSIFIED/AFOR OFFIGIAL USE ONLY
+
+===== PAGE 49 =====
+{"alpha_words": 213, "chars": 1462, "method": "ocr", "page": 49, "variant": "plain-vision"}
+UNCLASSIFIED//POR OFFICIAL USE ONLY
+We now want to study this probability
+distribution in detail. Our next questions are:
+1) What is its mean value?
+What are its variance and
+standard
+deviation?
+3)
+What are its moments to any higher order?
+4)
+What are its cumulants?
+What are its skewness and kurtosis?
+6) What are the coordinates of its peak, i.e.
+the mode (pcak abscissa) and its ordinate?
+7) What is its median?
+The first three points in the list are all covered
+by the following theorem: all the moments of (113)
+are given by (here k is the generic and non-
+negative integer exponent, i.e. k = 0,1,2,3... 20)
+(ET _Distance") = Jar*. PET. Discane (r) dr
+1. 3
+JErO
+dr
+=C* e
+(115)
+To prove this result, one first transforms the above
+integral by virtue of the substitution
+In
+=i.
+(116)
+is found
+KET_Distance) = Ce "el*
+(119)
+Upon setting 4 = 2 into (117), the mean value of
+the square of the random variable ET_Distance is
+found
+(120)
+"he variance of ET_Distance now follows fror
+he last two formulae with a few reductions
+OỂT DistAN = (ET_Distance?) - (ET Distance)?
+(121)
+So, the variance of ET Distance is
+(115) follows from (53). In other words. we have
+proven that
+(ET_Distance" = C*e
+normalition cition For er bite (r) Tollows
+J/ET Divano (r) dr = 1.
+e
+-1
+(122)
+standar dent not the Et. i the nectam
+variable
+- 1
+(123)
+The third moment is obtained upon setting
+* = 3 into (117)
+(ET Distance") =C=1,%
+(124)
+48
+(117)
+(118)
+UNCLASSIFIED/AFOR AFOR ONLY
+(125)
+
+===== PAGE 50 =====
+{"alpha_words": 180, "chars": 1337, "method": "ocr", "page": 50, "variant": "plain-vision"}
+UNCLASSIFIED//Fe
+Our next goal is to find the cumulants of the
+ET_Distance. In principle, we could compute all
+the cumulants K, from the generic i-th moment
+#, by virue of the recursion formula (see ref. [8J)
+K; = Hi -.
+5(i-1
+(126)
+In practice,
+however, here we shall
+confine
+ourselves to the computation of the first four
+cumulants because they only are required to find
+the skewness and kurosis of the distribution (113).
+Then, the first four cumulants in terms of the first
+four moments read:
+(127)
+Ко = 19-3К, Кг-К}
+K+=4 - 4K, K.- 3K3- 6K,K} - K$.
+These equations yield, respectively:
+5„19
+(128)
+1 5 5-1.
+(129)
+= - 3е " + 12е7
+- бе
+...(132)
+and the kurtosis
++205 +34
+(к,)
+- 6.
+(133)
+Next we want to find the mode of this
+distribution. i.e. the abscissa of its peak. To do so,
+we must first compute the derivative of the
+probability density function frunisanu(r) of (113),
+and then set it equal to zero. This derivative is
+actually the derivative of the ratio of two functions
+of r, as its plainly appears from (113). Thus, let us
+set for a moment
+# (r) =
+(134)
+20
+where "E" stands for "exponent," Upon
+differentiating,
+one gets
+E (r) =
+(130)
+(131)
+= C*e
+e " -te
+But the probability density function (113) now
+reads
+From these we derive the skewness
+(K):
+3
+(135)
+(136)
+So that its derivative is
+49
+UNCLASSIFIED//FOR-OFFIETAL USE ONLY
+
+===== PAGE 51 =====
+{"alpha_words": 200, "chars": 1456, "method": "ocr", "page": 51, "variant": "plain-vision"}
+UNCLASSIFIED/AFOR
+(137)
+Setting this derivative equal to zero means setting
+E(r)r+1=0
+(138)
+That is, upon replacing (135) into (138), we get
+# 1-3)2r+s-0 (139)
+Rearranging, this becomes
+STAL NOT ONL
+...(144)
+This is the peak height in the pof ferDina (r).
+Next to the mode, the median m (rel: (91) is one
+more statistical mumber uscd to characterize any
+probability
+distribution.
+is defined
+independent variable abscissa mn such that a
+realization of the random variable will lake up a
+value lower than m with 50% probability or a value
+higher than n with 507 probability again. In other
+words,
+the median m splits up our probability
+densily in exactly two equally probable parts. Since
+the probability of occurrence of the randon event
+(140)
+case) is defined as the integral upper limit m:
+(145)
+that is
++34+0=0
+(141)
+Upon replacing (113), this becomes
+whence
+• 943
+(142)
+and finally
+9,
+1)
+(143)
+This is the most likely ET_Distance from Earth.
+How likely?
+1
+1
+(146)
+In order to find», we may not differentiate (146)
+with respect to m, since the "precise" lactor ½ on the
+right would then disappear into a zero. On the
+contrary, we may try to perform the obvious
+substitution
+- 1)
+==
+=20
+(147)
+207
+an exereise, the full equation (145). defining the
+median, is turned into the corresponding equation
+involving the error function er/(x) as defined by (85)
+Peak Value of far Distan (P) = firDistuna ("made)
+3
+=-
+-e3.e1.
+50
+UNCLASSIFIED//FOR OFFICIAL USE ONEY
+
+===== PAGE 52 =====
+{"alpha_words": 166, "chars": 1268, "method": "ocr", "page": 52, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFIGIAL UCE ONLY
+Random variable
+Probability distribution
+Probability density function
+(Defining the positive numeric constant C)
+Mean value
+Variance
+Standard deviation
+All the moments, i.c. k-th moment
+Mode (= abscissa of the probability density function
+peak)
+Value of the Mode Peak
+Median (= fifty-fifty probability
+value
+ET_Distance)
+for
+ET_Distance between any two neighboring ET
+Civilizations in Galaxy assuming they are UNIFORMLY
+distributed throughout the whole Galaxy volume
+Unnamed (Paul Davics suggested "Maccone distribution")
+SET Distan (r) = 3
+1
+-•€!
+20=
+C=36 BanyMay = 28845 light years
+(ET_Distance!) = C*e
+Peak Value of /ET_Distane (r) =
+3
+-... i.
+median =m = Co r
+- 3es, zer
+Skewness
+Ka
+(K)=
+105°
+Karlosis
+= =!
+(K,)
++203 +3e 9 -6
+Expression of pin terms of the lower (a) and upper
+(bi) limits of the Drake uniform input random
+hi - a;
+variables Di
+Expression of o'in terms of the lower (a,) and upper
+(b) limits of the Drake uniform input random
+0°=
+Lor.
+(b, - al)?
+variables D;
+Table 3. Summary of the properties of the probability distribution that applies to the random variable ET_ Distance
+rielding the (average) distance between any two neighboring communicating civilizations in the Galaxy
+51
+UNCLASSIFIED//FE
+SIAL JOE ONLY
+
+===== PAGE 53 =====
+{"alpha_words": 215, "chars": 1535, "method": "ocr", "page": 53, "variant": "plain-vision"}
+UNCLASSIFIED/ /FOR
+I tert
+N'-
+(148)
+that Is
+er/
+= 0
+(149)
+Since from the definition (147) one obviously has
+ert(0)=0, (149) yields
+- = 0
+(150)
+whence finally
+This is the median of the lognormal distribution of
+N. In other words, this
+ExtraTerresórial civilizations in the Galaxy such
+that, with 50% probability the actual value of N will
+be lower than this median, and with 50% probability
+it will be higher.
+1 conclusion, we feel useful to summarize all th
+quations that we derived about the random variab
+N in the following Table 2.
+NUMERICAL EXAMPLE OF THE
+ET_DISTANCE DISTRIBUTION
+In this section we provide a numerical
+example of the analytic calculations carried on so
+far.
+Consider the Drake Equation values reported
+in Table 1. Then, the graph of the corresponding
+probability density function of the "nearest
+ET_Distance, fET Distane (r), is shown in Figure 6.
+median =m = Ce
+503-10-200
+(151)
+DISTANCE OF NEAREST ET_CIVILIZATION
+15-10520
+(l/meters)
+function
+3.38-10)27
+122510720
+500
+1000
+1500
+2000
+2500
+3000
+3500
+ET_Distance from Earth flight years)
+4000
+4500
+5000
+Figure 6. This is the probability of finding the nearest ExtraTerrestrial Civilization at the distance i from
+Earth (in light years) if the values assumed in the Drake Equation are those shown in Table 1. The relevant
+probability density function feT Distan (r) is given by equation (113). Its mode (pcak abscissa) equals 1933
+light years. but its mean value is higher since the curve has a high tail on the right: the mean value equals in
+52
+UNCLASSIFIED/ MOR
+
+===== PAGE 54 =====
+{"alpha_words": 537, "chars": 3491, "method": "ocr", "page": 54, "variant": "plain-vision"}
+UNCLASSIFIED//FOR-OTPICIAL SE ONEY-
+fact 2670 light years. Finally, the standard deviation equals 1309 light years: THIS IS GOOD NEWS FOR
+SETI, inasmuch as the nearest ET Civilization might lie at just 1 sigma = 2670-1309 = 1361 light years
+from «s.
+From Figure 6, we see that the probability of
+finding Extraterrestnals is practically zero up lo a
+distance of about 500 light years from Earth. Then
+it starts increasing with the increasing distance
+from Earth, and reaches its maximum at
+=Ce
+" =1933 lighi years.
+(152)
+This is the MOST LIKELY VALUE of the
+distance at which we can expect to find the
+nearest ExtraT'errestrial chilization.
+It is not, however, the mean value of the
+probability distribution (113) for fier_Discane(1). Ill
+fact, the probability density (113) has an infinite
+tail on the right, as clearly shown in Figure 6. and
+hence its mean value must be higher than its peak
+value. As given by (119), its mean value is
+Tween vote = Ce 3e l# = 2670 light years
+(153)
+This is the MEAN (value of the) DISTANCE
+at which we can expect to find ExtraTerrestrials.
+After having found the above two distances (1933
+and 2670 light years, respectively), the next natural
+question that arises is: "what is the range, forth and
+back around the mean value of the distance, within
+which we can expect to find ExtraTerrestrials with
+"the highest hopes?." The answer to this question
+is given by the notion of standard deviation. that
+we already found to be given by (123)
+= Ce? e'Ve" -1=1309 light years.
+...(154)
+More precisely, this is the so called 1-sigma
+(distance) level, Prubabity theory then shows inat
+the nearest Extra Terrestrial civilization is expected
+to be located within this range, i.e. within the two
+distances of (2670-1309) = 1361 light years and
+(2670+1309) = 3979 light years, with probability
+53
+UNCLASSIFIED//FOR-O1
+given by the integral of lET_Distane(r) taken in
+between these two lower and upper limits, that is:
+e3979lighycars
+Ji3ollightycars
+SET Distan (F) dr = 0.75 = 75% (155)
+In plain words: with 75% probability, the nearest
+ExtraTerrestrial civilization is located in between
+the distances of 1361 and 3979 light years from us,
+having assumed the input values to the Drake
+Equation given by Table 1. If we change those
+input values, then all the numbers change again.
+y. THE "DATA ENRICHMENT
+PRINCIPLE" AS THE BEST CLT
+CONSEQUENCE UPON THE
+STATISTICAL DRAKE EQUATION
+(ANY NUMBER OF FACTORS
+ALLOWED)
+As il fitting climax to all the statistical
+equations developed so far, let us now state our
+"DATA ENRICHMENT PRINCIPLE, " It simply states that
+"The Higher the Number of Factors in the
+Statistical Drake equation, The Better, "
+Put in this simple way, it simply looks like a
+new way of saying that the CLT lets the random
+variable Y approach the normal distribution when
+the number of terms in the sum (4) approaches
+infinity. And this is the case, indeed. However, our
+"Data Enrichment Principle" has more profound
+methodological consequences that we cannot
+explain now, but hope to describe more precisely
+in one or more coming papers.
+CONCLUSIONS
+We have sought to extend the classical Drake
+equation to
+let it encompass Statistics and
+Probability.
+This approach appears to pave the way to
+future, more profound investigations intended not
+only to associate "error bars" to each factor in the
+Drake equation, but especially to increase the
+number of factors themselves. In fact, this seems to
+be the only way to incorporate into the Drake
+erAL USE ONLY
+
+===== PAGE 55 =====
+{"alpha_words": 331, "chars": 2230, "method": "ocr", "page": 55, "variant": "plain-vision"}
+UNCLASSIFIED//FOR
+equation more and more new scientific information
+as soon as it becomes available. In the long run,
+the Statistical Drake equation might just become a
+huge computer code, growing up in size and
+especially in the depth of the scientific information
+it contained. It would thus be Humanity's first
+"Encyclopacdia Galactica."
+Unfortunately, to extend the Drake equation to
+Statistics, it was necessary to use a mathematical
+apparatus that is more sophisticated than just the
+simple product of seven numbers.
+When this author had the honour and privilege
+to present his results at the SETI Institute on April
+, 2008, in front of an audience also including
+Professor Frank Drake, he felt he had to add these
+words: "My apologies, Frank, for disrupting the
+beautiful simplicity of your equation,"
+ACKNOWLEDGEMENTS
+The author is grateful to Drs. Jill Tarter, Paul
+Davies, Seth Shostak, Doug Vakoch, Tom Pierson,
+Carol Oliver, Paul Shuch and Kathryn Denning lor
+attending his first presentation ever about these
+topics at the "Beyond" Center of the University of
+Arizona at Phoenix on February 8", 2008. He also
+would like to thank Dan Werthimer and his School
+of SETI young experts for keeping alive the
+interplay between experimental and theoretical
+SETI. But the greatest "thanks" goes of course to
+the Teacher to all of us: Professor Frank D. Drake,
+whose equation opened a new way of thinking
+about the past and the future of Humans in the
+Galaxy.
+REFERENCES
+I1] http://en.wikipedia.org/wiki/Drake_equation
+12] http://en.wikipcdia.org/wiki/SETI
+[3] http://en.wikipedia.org/wiki/Astrobiology
+14] http://en.wikipedia.org/wiki/Frank_Drake
+Athanasios Papoulis and S. Unnikrishna Pillai,
+"Probability, Random Variables and Stochastic
+Processes", Fourth Edition, Tata McGraw-Hill.
+New Delhi, 2002. ISBN 0-07-048658-1.
+16) http://en.wikipedia.ore/wiki/Gamma_distribution
+171
+http://cn.wikipcdia.org/wiki/Central_limit theore
+181 hup://en.wikipodia.org/wiki/Cumulants
+191 hutp://on.wikipedra.org/wiki/Median
+[10] Jeffrey Bennett and Seth Shostak, "Life in the
+Universo", Second Edition, Pcarson - Addison-
+Weslcy, San Francisco. 2007, ISBN D-8053-
+4753-4. See in particular page 404.
+54
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+===== PAGE 56 =====
+{"alpha_words": 84, "chars": 683, "method": "ocr", "page": 56, "variant": "plain-vision"}
+UNCLASSIFIED//FOR OFFIIAL USE ONLY
+References
+[1] Benford, Gregory, Jim and Dominic, "Cost Optimized Interstellar Beacons: SETI",
+arXiv.org web site (22 Oct. 2008).
+[2] Carl Sagan, "Cosmos", Random House, New York, 1983. See in particular the pages
+298-302.
+[3] Bennet, Jeffrey, and Shostak, Seth, "Life in the Universe", second edition, Pearson -
+Addison Wesley, San Francisco, 2007. See in particular page 404.
+[4] C. Maccone, "The Statistical Drake Equation", paper #IAC-08-A4.1.4 presented on
+October 15t,
+, 2008, at the 59th International Astronautical Congress (IAC) held in
+Glasgow, Scotland, UK, September 29t thru October 3ra
+, 2008.
+55
+UNCLASSIFIED/ /FOR OFFICIAL DEE ONLY

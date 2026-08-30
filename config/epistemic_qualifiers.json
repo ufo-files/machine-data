@@ -1,0 +1,14 @@
+{
+  "schema": "ufo-files-epistemic-qualifier-rules/v1",
+  "policy": "Qualifiers preserve source text and raw counts while supplying evidence weights for downstream derived ranking. They never alter source data or publication eligibility.",
+  "rules": [
+    {"category": "explicit_conjecture", "confidence": 0.99, "evidenceWeight": 0.2, "pattern": "\\b((?:i(?:'ll| will)|i(?:'| a)m|we(?:'| a)re) (?:going to )?preface (?:this|it) as conjecture|my guess is)\\b"},
+    {"category": "evidence_not_reviewed", "confidence": 0.98, "evidenceWeight": 0.25, "pattern": "\\b(i (?:have not|haven't) (?:read|seen|reviewed|looked at) (?:(?:any|all|the|this|that|these|those|your) )?(?:evidence|books?|reports?|papers?|studies|articles?|documents?|files?|materials?|sources?))\\b"},
+    {"category": "reported_hearsay", "confidence": 0.96, "evidenceWeight": 0.4, "pattern": "\\b(i(?:'| a)m told|i was told(?!\\s+to\\b)|from what i (?:understand|was told))\\b"},
+    {"category": "explicit_uncertainty", "confidence": 0.96, "evidenceWeight": 0.5, "pattern": "\\b(i(?:'| a)m not (?:entirely |totally )?sure|i (?:could|may|might) be wrong|correct me if i(?:'| a)m wrong)\\b"},
+    {"category": "knowledge_gap", "confidence": 0.94, "evidenceWeight": 0.35, "pattern": "\\b(i (?:do not|don't) know (?:exactly |just )?(?:if|whether|how|why|what|where|when|who))\\b"},
+    {"category": "limited_recall", "confidence": 0.94, "evidenceWeight": 0.55, "pattern": "\\b(i (?:do not|don't|can't) remember|as far as i (?:know|remember|recall))\\b"},
+    {"category": "speaker_inference", "confidence": 0.72, "evidenceWeight": 0.75, "pattern": "\\b(i think|i believe|it seems to me|i suspect)\\b"}
+  ],
+  "nonClaimFollowupPattern": "^(?:(?:how )?to (?:say|speak|pronounce)|we (?:can|should) (?:start|continue)|that (?:wraps|is important))\\b"
+}

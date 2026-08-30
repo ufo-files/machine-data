@@ -1,0 +1,563 @@
+{"created_utc": "2026-08-28T08:43:19Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 251162, "source_file": "Steven-Greer-Document-Library/documents/18572-ancient-dna-mutations.pdf", "source_sha256": "29d4b4fde849bcba286448bed42039196feef186cb7538365cafdfd52b70a5b8"}
+
+Copyright Ó 2006 by the Genetics Society of America
+DOI: 10.1534/genetics.105.049718
+
+
+          Assessing the Fidelity of Ancient DNA Sequences Amplified From
+                                    Nuclear Genes
+
+    Jonas Binladen,* Carsten Wiuf,† M. Thomas P. Gilbert,‡ Michael Bunce,§ Ross Barnett,**
+          Greger Larson,** Alex D. Greenwood,††,‡‡ James Haile,** Simon Y. W. Ho,**
+                           Anders J. Hansen* and Eske Willerslev*,1
+ *Ancient DNA and Evolution Group, Centre for Ancient Genetics, Niels Bohr Institute and Biological Institute, University of Copenhagen,
+   Copenhagen DK-2100, Denmark, †Bioinformatics Research Center, University of Aarhus, Aarhus DK-8000, Denmark, ‡Ecology and
+     Evolutionary Biology, University of Arizona, Tucson, Arizona 85721, §Department of Anthropology, McMaster University, Hamilton,
+           Ontario L8S 4L9, Canada, **Henry Wellcome Ancient Biomolecules Centre, Department of Zoology, University of Oxford,
+               Oxford OX1 3PS, United Kingdom, ††Department of Vertebrate Zoology, American Museum of Natural History,
+                    New York, New York 10024 and ‡‡Institute of Molecular Virology, GSF-National Research Center for
+                                            Environment and Health, 85764 Neuherberg, Germany
+                                                      Manuscript received August 17, 2005
+                                                   Accepted for publication October 25, 2005
+
+
+                                                               ABSTRACT
+                 To date, the field of ancient DNA has relied almost exclusively on mitochondrial DNA (mtDNA) se-
+              quences. However, a number of recent studies have reported the successful recovery of ancient nuclear DNA
+              (nuDNA) sequences, thereby allowing the characterization of genetic loci directly involved in phenotypic
+              traits of extinct taxa. It is well documented that postmortem damage in ancient mtDNA can lead to the
+              generation of artifactual sequences. However, as yet no one has thoroughly investigated the damage spec-
+              trum in ancient nuDNA. By comparing clone sequences from 23 fossil specimens, recovered from environ-
+              ments ranging from permafrost to desert, we demonstrate the presence of miscoding lesion damage in both
+              the mtDNA and nuDNA, resulting in insertion of erroneous bases during amplification. Interestingly, no
+              significant differences in the frequency of miscoding lesion damage are recorded between mtDNA and
+              nuDNA despite great differences in cellular copy numbers. For both mtDNA and nuDNA, we find significant
+              positive correlations between total sequence heterogeneity and the rates of type 1 transitions (adenine /
+              guanine and thymine / cytosine) and type 2 transitions (cytosine / thymine and guanine / adenine),
+              respectively. Type 2 transitions are by far the most dominant and increase relative to those of type 1 with
+              damage load. The results suggest that the deamination of cytosine (and 5-methyl cytosine) to uracil (and
+              thymine) is the main cause of miscoding lesions in both ancient mtDNA and nuDNA sequences. We argue
+              that the problems presented by postmortem damage, as well as problems with contamination from exoge-
+              nous sources of conserved nuclear genes, allelic variation, and the reliance on single nucleotide poly-
+              morphisms, call for great caution in studies relying on ancient nuDNA sequences.
+
+
+W      HEN an organism dies, its DNA starts degrading
+        at a rate that is believed to be highly dependent
+on the environment and subsequent conditions of stor-
+                                                                              types of postmortem DNA modification block the exten-
+                                                                              sion of polymerase enzymes, thus rendering the mole-
+                                                                              cules unsuitable as template for PCR, others, termed
+age (Pääbo 1989; Lindahl 1993; Höss et al. 1996;                           miscoding lesions, allow for amplification, but result in
+Poinar et al. 1996; Hofreiter et al. 2001a; Smith et al.                      the incorporation of erroneous bases during PCR
+2001; Pääbo et al. 2004; Willerslev et al. 2004a;                           (Pääbo 1989; Lindahl 1993; Höss et al. 1996; Poinar
+Willerslev and Cooper 2005). Postmortem DNA is                                et al. 1998; Hansen et al. 2001; Hofreiter et al. 2001b;
+subject to degradation by microorganisms, soil inver-                         Gilbert et al. 2003a,b; Banerjee and Brown 2004;
+tebrates, and cellular nucleases, in addition to mod-                         Willerslev et al. 2004b; Mitchell et al. 2005; Gilbert
+ifications by spontaneous chemical reactions such as                          and Hansen 2006). The most commonly observed
+hydrolysis and oxidation (Lindahl 1993; Hofreiter                             miscoding lesions in ancient DNA (aDNA) studies are
+et al. 2001a; Gilbert and Hansen 2006). While some                            the transitions adenine / guanine (A / G), cytosine /
+                                                                              thymine (C / T), G / A, and T / C (Hansen et al.
+                                                                              2001; Hofreiter et al. 2001b; Gilbert et al. 2003b).
+   Sequence data from this article have been deposited with the EMBL/         Although four different transitions have been observed,
+GenBank Data Libraries under accession nos. DQ318533–DQ318562.                it has been argued that it is possible to differentiate
+   1
+    Corresponding author: Ancient DNA and Evolution Group, Centre for         the transitions into only two complementary groups,
+Ancient Genetics, Niels Bohr Institute and Biological Institute, University
+of Copenhagen, Juliane Maries vej 30, DK-2100, Denmark.                       termed type 1 (TS1: A / G/T / C) and type 2 (TS2:
+E-mail: ewillerslev@gfy.ku.dk                                                 C / T/G / A) transitions, caused putatively by the
+
+Genetics 172: 733–741 (February 2006)
+734                                                  J. Binladen et al.
+
+deamination of adenine to hypoxanthine (A / H) and               abundance of nuDNA templates relative to mtDNA tem-
+the deamination of cytosine (and its homolog 5-methyl            plates, carries the implication that sequences amplified
+cytosine) to uracil (and thymine), respectively (Hansen          from ancient nuDNA are at increased risk of contain-
+et al. 2001; Hofreiter et al. 2001b; Gilbert et al.              ing sequence errors. Furthermore, nuDNA sequences
+2003b). For example, consider a single cytosine to ura-          generated from fossil remains often are single nucleo-
+cil (C / U) deamination event on the light strand of             tide polymorphisms (SNPs), and the determination of
+mitochondrial DNA (mtDNA). The C / U event will                  SNPs as real or as the result of postmortem damage is
+be observed as a C / T transition on any light strand            crucial.
+sequences amplified directly from the original dam-                 In this study we investigate the frequency and types of
+aged template, but any of the derived complementary              miscoding lesions in various mtDNA and nuDNA mark-
+heavy strand sequences will exhibit a G / A transition.          ers across a variety of fossil specimens of different ages
+Similarly, any sequences derived directly from the               preserved under different environmental conditions. In
+amplification of an A / H event will be exhibited as             addition, we discuss some of the factors that need to be
+either an A / G or T / C transition. Intriguingly, even          considered when amplifying, sequencing, and inter-
+though miscoding lesions generating both type 1 and              preting nuclear data from archival and fossil remains.
+type 2 transitions are recorded for DNA in solution
+(deamination of cytosine with a rate 30–50 times
+higher than that for adenine; Lindahl 1993), it is still                       MATERIALS AND METHODS
+debated whether the deamination of adenine actually
+                                                                     We analyzed previously unreported DNA sequences ex-
+plays a role in the generation of type 1 events in aDNA          tracted from permafrost-preserved bones of the woolly rhi-
+or whether they are simply due to regular DNA poly-              noceros (Coelodonta antiquitatis, n ¼ 2) and the lion (Panthera
+merase errors (Hofreiter et al. 2001b; Gilbert et al.            leo spelaea, n ¼ 6), as well as temperate-preserved bones of the
+2003b; Pääbo et al. 2004).                                     pig (Sus scrofa, n ¼ 5) and the female moa (Dinornis robustus,
+   Although mtDNA is most frequently used in aDNA                n ¼ 4). Not included in the comparative study were amplifi-
+                                                                 cation results from one woolly rhinoceros, two pigs, and 28
+research, a number of recent studies have reported the           lion specimens yielding mtDNA sequences but no nuDNA
+successful retrieval of low- and single-copy nuclear DNA         sequences and from three woolly rhinoceroses and 88 lion
+(nuDNA) sequences (Greenwood et al. 1999, 2001;                  specimens yielding neither mtDNA nor nuDNA sequences.
+Bunce et al. 2003; Huynen et al. 2003; Jaenicke-Despres          Additionally, published mtDNA and nuDNA clone sequences
+et al. 2003; Orlando et al. 2003; Poinar et al. 2003;            from desert-preserved ground sloth coprolites and permafrost-
+                                                                 preserved woolly mammoth and woolly rhinoceros bones and
+Noonan et al. 2005). Such studies represent important            teeth (n ¼ 6) were included in the analyses (Poinar et al. 1996,
+breakthroughs, as nuDNA can be used to answer pre-               2003; Greenwood et al. 1999, 2001; Orlando et al. 2003).
+viously intractable questions, such as the establishment         Published sequences from ancient human remains were not
+of phenotypic characteristics (Bunce et al. 2003; Jaenicke-      included due to the high risk of contamination in such studies
+Despres et al. 2003) and the resolution of deep phylo-           (Cooper and Poinar 2001; Hofreiter et al. 2001b; Pääbo
+                                                                 et al. 2004; Willerslev and Cooper 2005). In total the data set
+genetic splits (Poinar et al. 2003). However, nuclear            comprised mtDNA and nuDNA sequences from 23 specimens
+genes are typically 5000–10,000 times less abundant per          (for sample details, see Table 1 and supplemental material at
+cell than those of mitochondrial origin, which is                http://www.genetics.org/supplemental/).
+probably the reason for ancient nuDNA being much                     Bone samples were collected, DNA extracted, and PCR
+more difficult to amplify than mtDNA from the same               amplified following established aDNA protocols: Using a
+                                                                 Dremel tool, 1-cm3 fragments 0.5 cm in depth were re-
+aDNA extracts (Poinar et al. 2003).                              moved from the bones. A Braun Mikrodismembrator was used
+   To date, studies that characterize DNA damage in              to grind samples. Grinding equipment (stainless-steel balls
+fossil remains have been restricted to mtDNA (Höss              and cups, rubber washers) was thoroughly bleached between
+et al. 1996; Hansen et al. 2001; Hofreiter et al. 2001a;         each use. Decalcification was done in 5–30 vol of 0.5 m EDTA
+Gilbert et al. 2003a,b; Threadgold and Brown 2003;               (pH 8) overnight at room temperature. The sediment was
+                                                                 collected by centrifugation and digested with 0.25 mg/ml
+Banerjee and Brown 2004; Gilbert et al. 2005).                   proteinase K/8 mg/ml DTTovernight at 50°–55°. The samples
+Although one study has reported substitutions in                 were extracted twice with phenol and once with chloroform,
+PCR-amplified ancient nuDNA sequences, the authors               and the DNA was recovered and up-concentrated with
+attribute the observed changes to mutagenic effects in-          Centricon-30 (Amicon, Beverly, MA) devices. The proofreading
+troduced under PCR reactions (Pusch et al. 2004),                polymerase Platinum Taq Hifidelity (Invitrogen, San Diego) was
+                                                                 used in PCR amplification to minimize the generation of DNA
+although this remains questionable (Serre et al. 2004a).         polymerase errors that can mimic errors caused by miscoding
+Despite the lack of publications, the characterization           lesions (Hansen et al. 2001). PCR amplifications were performed
+of damage in ancient nuDNA remains important to                  in 25-ml volumes adding 0.02- to 1-ml DNA extracts, 0–2 mg/ml
+the field. In particular, the fact that miscoding lesions        bovine serum albumin (BSA), 10 mm TrisHCl, 1.5 mm MgCl2,
+can result in modification of the consensus sequence             50 mm KCl (pH 8.3), 0.8 mm dNTPs, 1 mm of each primer, and
+                                                                 1 unit of DNA polymerase. Thermal cycling conditions were
+amplified from ancient mtDNA (Handt et al. 1996;                 typically 40 cycles of 95°/52°–66°/68° (30–90 sec each) for
+Gilbert et al. 2003a; Banerjee and Brown 2004;                   mtDNA amplifications and 40–50 cycles of 95°/52°–55°/68°
+Hebsgaard et al. 2005), along with the overall low               (45–60 sec each) for nuDNA amplifications. BSA was added to
+                                Damage in Ancient Mitochondrial and Nuclear DNA Sequences                                           735
+
+                                                             TABLE 1
+                                                           Sample details
+
+                                                                                     Sequence dataf            Sequence regiong
+                      Ageb       Specimen
+Sample namea         (YBP)         typec      Environmentd          Speciese        mtDNA     NuDNA       mtDNA             NuDNA
+Mp-Wrangel        4590 6 50       Bone        Permafrost         Mammuthus     4/556           14/1596 cyt b            Micro-satellites
+                                                                  primigenius
+Mp-Alaska8460 13,775 6 145        Tooth       Permafrost         Mammuthus    14/2098i        131/7252 cyt b            vWf,a2ab,irib,
+                                                                  primigenius                                             numt, micro-
+                                                                                                                          satellite
+Mp-Siberia       26,000 6 1600 Bone           Permafrost         Mammuthus          4/556      10/1140 cyt b            Micro-satellites
+                                                                    primigenius
+SC7400             60–70,000h     Tooth       Temperate cave     C. antiquitatis   43/7463i   4/680      cyt b          Numt
+SC81205            40–45,000h     Tooth       Temperate cave     C. antiquitatis   10/1820i   9/1260     12S            Numt
+PIN 3342-103        .49000        Bone        Permafrost         C. antiquitatis   47/11697i 12/3552     12S, cyt b j   Numt
+PIN 3100-169     43700 6 1000     Bone        Permafrost         C. antiquitatis    6/3842    3/837      12S j          Numt
+Ua11835          19875 6 215      Cropolite   Varm cave          Nothrotheriops    76/6671 115/6813      12S            28S,vW, Crem,
+                                                                    shastensis                                            PCLB4
+RB91            12,450 6 60       Bone        Permafrost         P. leospelaea     10/1440     5/720     atp8           Numt
+RB75            12,090 6 80       Bone        Permafrost         P. leospelaea     16/2304     2/288     atp8           Numt
+RB42               .50,600        Bone        Permafrost         P. leospelaea      9/1296     9/1296    atp8           Numt
+RB44            54,100 6 1800     Bone        Permafrost         P. leospelaea      8/1152    24/3456    atp8           Numt
+RB41            46,200 6 1500     Bone        Permafrost         P. leospelaea      9/1296     3/432     atp8           Numt
+RB46               .61,500        Bone        Permafrost         P. leospelaea      7/1008    14/2016    atp8           Numt
+GL92                    91        Bone        Museum             S. scrofa          8/1712     6/1038    D-loop         CD45
+GL71                    86        Bone        Museum             S. scrofa          7/1493     8/1384    D-loop         CD45
+GL55                    46        Bone        Museum             S. scrofa          6/1284i    6/1038    D-loop         CD45
+GL45                    98        Bone        Museum             S. scrofa          6/1284     7/1211    D-loop         CD45
+GL76                    50        Bone        Museum             S. scrofa          8/1712     8/1384    D-loop         CD45
+Moa716            700–5000h       Bone        Temperate cave     D. robustus       15/3031    15/615     D-loop         Kw1,j adh
+Moa237            700–5000        Bone        Temperate cave     D. robustus       15/3031    16/656     D-loop         Kw1, adh
+Moa660             613 6 90       Bone        Temperate cave     D. robustus       14/2828    15/615i    D-loop         Kw1, adh
+Moa799             1–3000h        Bone        Dry swamp          D. robustus       16/3232    32/2138    D-loop         Kw1,j adh
+   YBP, years before present.
+   a
+     Data sources: Moa716, Moa237, Moa660, and Moa799 are from Bunce et al. (2003) and data generated in this study; Mp-Wrangel,
+Mp-Sibiria, and MP-Alaska8460 are from Greenwood et al. (1999, 2001) and data generated in this study; Ua11835 is from Poinar
+et al. (1998, 2003); SC81205 and SC7400 are from Orlando et al. (2003); GL92, GL71, GL55, GL45, and GL76 are from Larson
+et al. (2005) and this study; RB41, RB42, RB44, RB46, RB75, and RB91 are from this study; PIN3342-103 and PIN3100-169 are also
+from this study.
+   b
+     Age of specimen based on museum records, accelerator mass spectrometer dating, or on stratigraphy.
+   c
+     Type of specimen.
+   d
+     Type of original preservation environment.
+   e
+     Species name of specimen.
+   f
+     Sampling effort. The numbers of mitochondrial or nuclear clones/the total length of the sequences in base pairs. The average
+number of clones is very similar for mtDNA (16; SD 17) and nuDNA (20; SD 33).
+   g
+     Name of the mitochondrial and nuclear sequences studied.
+   h
+     Age of specimen based on stratigraphy.
+   i
+     Results were independently replicated.
+   j
+     Results were quantified by real time PCR.
+
+
+the PCR to overcome inhibition. Additionally, dilutions (1:10–        City, CA) (for details see supplemental material at http://www.
+1:50) of the DNA extracts were attempted. For primer details          genetics.org/supplemental/). Independent replication was
+and amplification conditions, see Table 2. The amplification          carried out for a subset of results in dedicated aDNA facilities
+products were cloned and sequenced following established              in Copenhagen and Oxford (Table 1).
+procedures (Willerslev et al. 1999).                                     As described earlier, either of the complementary DNA
+   Strict protocols were followed to minimize the risk of             strands can act as templates for PCR, as any single miscoding
+sample and extract contamination with exogenous sources               lesion event can produce two observable phenotypes post-
+of DNA, including the use of aDNA facilities (physically iso-         PCR. It has been argued that since the chemical events re-
+lated from the laboratories where postamplification manipu-           quired to generate direct G / A and T / C transitions are
+lation is performed), the incorporation of extraction and PCR         biochemically unlikely, any G / A and T / C damage that is
+blank controls at ratios of 1:5 and 1:1–2, respectively, and          observed on a particular DNA strand must have originated on
+quantification of a few of the extracts by real time PCR using        the complementary strand as C / U and A / H events, re-
+SYBR green detection chemistry (Applied Biosystems, Foster            spectively (Gilbert et al. 2003b). Others have questioned this
+736                                                         J. Binladen et al.
+
+                                                                TABLE 2
+                                                     Primers and PCR conditions
+
+                                                                                                    Annealing
+                                                                                                  temperature/
+Species/genea               Primer nameb                  Primer sequence (59–39)c                   cyclesd              Sourcee
+Woolly rhino/             21pheF                AAAGCAAGGCATTGAAAATGCCTAGATGA                        55°/340        Tougard et al.
+ 12S rDNA                 684-12Sr              GGCGGTATATAGGCTGAATT                                                  (2001)
+Woolly rhino/             650-12sF              CCGATAAACCCCGATAAACC                                 56°/340        This study
+ 12S rDNA                 1085valR              TGAAATCTCCTGGGTGTAAGC
+Woolly rhino/             14228glu-2F           ACCAATGACATGAAAAATCATCGTT                            52°/340        This study
+ Cytochrome b             14596cytbR            TTTCAGGTTTCTAGGAAGGTGT
+Woolly rhino/             14279cytbF            ATGACTAACATCCGCAAATCCC                               66°/340        This study
+ Cytochrome b             15107cytbR            GGGATGGATCGTAGGATTGCGTA
+Woolly rhino/             14912cytbF            CCAACATAGACAAAATCCC                                  52°/340        This study
+ Cytochrome b             15446thrR             CCTTTTCTGGTTTACAAGACC
+Woolly rhino/             WR_QPCR_415F          ACGTCCTACCATGAGGCCAA                                 55°/340        This study
+ Real time PCR 1          WR_QPCR_484R          GGGATAGCTGAGAGAAGGTTTGTG
+Woolly rhino/             WR_QPCR_411F          GGCTACGTCCTACCATGAGGC                                55°/340        This study
+ Real time PCR 2          WR_QPCR_476R          TGAGAGAAGGTTTGTGATGACTGTG
+Woolly rhino/Numt-1       66WR-PseudoF          GTAAGCATATGGTAAGCAC                                  55°/350        This study
+                          405WR-PseudoR         GCTACACTTTGGTTTATCCAACTCC
+Pig / Mt. control         L15387                CTCCGCCATCAGCACCCAAAG                                56°/340        Larson et al.
+  region                  H648n                 GCTYATATGCATGGGGACT                                                   (2005)
+Pig / CD45                PigEx9f               GAGAAATACATGGATATCCCTG                               56°/340        This study
+                          PigEx9r               CTGGAGGTGTCTCTAAGAGG
+Lion / ATP8 and           ATP8_1F               GCCACAGTTAGATACATC                                   56°/340        I. Barnes,
+  num.                    ATP8_3R               GAGGTGAATAGATTTTCGTTC                                                  personal
+                                                                                                                       communication
+Moa / Mt. control         185fm-CR              GTACATTCCCTGCATTGGCTC                            55–60°/340         Bunce et al.
+ region                   294rm-CR              GCGAGATTTGAACAGTACG                                                    (2003)
+Moa / Mt. control         262fm-CR              GCGAAGACTGACTAGAAGC                              55–60°/340         Bunce et al.
+ region                   441rm-CR              CGCATACCGGGTCTGTTTATGC                                                 (2003)
+Moa / KW1 gene            Kw1-185f              GGCYRYTGCCTCAGAAATTACAG                          52–55°/340–50      Bunce et al.
+ (sex linked)             Kw1-260r              ATGCTATACTGCTTTAACAGA                                                  (2003)
+Moa / ADH gene            Adh-230f              GAGGAATTAGCTYRTTAGCTGTC                          52–55°/340–50      Bunce et al.
+                          Adh-290r              GGTTAACACTTTGCCAGTGG                                                   (2003)
+  a
+    Specimen name and sequence region amplified.
+  b
+    Primer name.
+  c
+    Primer sequence.
+  d
+    Annealing temperature/ no. of PCR cycles.
+  e
+    Primer source.
+
+
+hypothesis due to the limited knowledge of DNA damage in                log(1  pi), where ri ¼ aiT, T is the age of the specimen, and
+fossil remains (Pääbo et al. 2004). We have therefore decided         ai is the average damage rate per unit time. The ri, i ¼ TSH,
+to follow the approach by Hansen et al. (2001) and Hofreiter            TS1, and TS2, are referred to as the TSH, TS1, and TS2
+et al. (2001a) and not distinguish between the different phe-           rates, respectively.
+notypes of TS1 (A / G/T / C) and TS2 (C / T/G / A).                        Pearson’s correlation coefficient r was calculated between
+   Total sequence heterogeneity (TSH) was calculated as the             (i) TSH and TS1 rates; (ii) TSH and TS2 rates; (iii) TS1 and
+probability of observing transitions in a single position fol-          TS2 rates; (iv) age of specimens and TSH rate; (v) age of speci-
+lowing the formula TSH ¼ l/n, where l is the total number of            mens and TS1 rate; (vi) age of specimens and TS2 rate; (vii)
+observed substitutions and n is the total number of nucleotides         age and the ratio of TS2 rate to that of TS1 (TS2/TS1; ex-
+examined (after Gilbert et al. 2003a; Table 3; Figure 1). Two se-       cluding cases where rTS1 ¼ 0); and (viii) TSH rate and TS2/
+quences showing PCR artifacts in the form of ‘‘jumping PCR’’            TS1 (excluding cases where rTS1 ¼ 0). The correlation analysis
+are marked in the clone data sets (supplemental material S4–            was performed for all 46 clone sets and separately for the 23
+S40 at http://www.genetics.org/supplemental/) as CHI for                nuclear clones and the 23 mitochondrial clones.
+chimeric. These sequences were not included in the analysis.               A t-test was performed to investigate whether TSH rates
+   Type 1 and type 2 transitions were calculated in a similar           in nuDNA clones were significantly different from those in
+fashion, resulting in three values, pTSH, pTS1, and pTS2, for each      mtDNA clones. Data were further divided into three groups
+of the 2 3 23 ¼ 46 clone data sets. Transitions were scaled by          according to the environment of preservation: (i) permafrost
+multiplying with the AT:GC ratio of the specific gene region            specimens (n ¼ 11); (ii) cave and dry swamp specimens (n ¼ 7),
+to compensate for nucleotide composition bias. Subsequently,            which were originally excavated, although some had sub-
+pi, i ¼ TSH, TS1, and TS2, were transformed using ri ¼                  sequently been stored in museums for years; and (iii) museum
+                                Damage in Ancient Mitochondrial and Nuclear DNA Sequences                                      737
+
+                                                             TABLE 3
+                                                    Total sequence heterogeneity
+
+Substitutionsa         A/G/T/C          A/T/T/A          A/C/T/G         C/T/G/A          C/G/G/C          C/A/G/T           Total
+No. of substitutions      125.00            33.00            21.00           294.73           20.05            31.58        525.36
+  in mtDNA
+%                           23.79            6.28             4.00            56.10            3.82             6.01        100
+
+No. of substitutions        42.00            9.00             3.00           218.10            0.00             6.35        278.44
+  in nuDNA
+%                           15.08            3.23             1.08            78.33            0.00             2.28        100
+  a
+    The sum of the different substitutions for all 23 mitochondria and nuclear data sets. Substitutions originating from a C or a G
+have been corrected for the AT:GC ratio for each gene region.
+
+
+specimens (n ¼ 5), which had always been stored in museums.               molecule will not demonstrate any variation and
+Using t-tests it was investigated whether TSH rates, TSH rates            hence appear damage free. However, for the sequence
+divided by age, and the TS2/TS1 rates ratio differ among the
+                                                                          data generated in this study we are confident that the
+three groups. Finally, it was investigated (using a chi-square
+test) whether the observed patterns of base transitions in                PCR reactions started from considerably more than a
+mtDNA and nuDNA sequences were similarly distributed. All                 single template molecule, since dilutions up to 1/50
+tests were performed at the 1% significance level.                        of the extracts prior to amplification still yielded
+                                                                          amplification products for both the mtDNA and the
+                                                                          nuDNA markers, the clones showed variation, and
+             RESULTS AND DISCUSSION
+                                                                          the PCR products quantified showed starting tem-
+   In this study nuclear and mitochondrial DNA were                       plate numbers in the 102–104 range (supplemental
+PCR amplified, cloned, and sequenced from a variety of                    material at http://www.genetics.org/supplemental/).
+faunal remains and combined with previously published                iii. It seems unlikely that single-substitution hetero-
+clone data to compare the frequencies and types of                        plasmy and recombination in the mtDNA data sets
+miscoding lesion damage. As miscoding lesions are not                     influence the observed heterogeneity due to both
+the only factor that might influence intraclone hetero-                   their reported rarity in coding regions of mammalian
+geneity, it is important to take into account other                       mtDNA and their apparent absence in complete
+sources, such as innate DNA polymerase misincorpora-                      mtDNA studies (including D-loop sequences) of pigs,
+tion errors, natural sequence heterogeneity, and varia-                   moa, cats, mammoths, and rhinoceroses (Ghivizzani
+tion in the number of starting template molecules for                     et al. 1993; Lopez et al 1996; Xu and Arnason 1997;
+PCR (Hansen et al. 2001). We believe these factors are                    Ursing and Arnason 1998; Lin et al. 1999; Cooper
+unlikely to have influenced the data in a significant                     et al. 2001; J. Krause, personal communication).
+fashion for the following reasons:
+                                                                        However, we cannot exclude the possibility that ad-
+i.  The majority of the clone sequences analyzed were                verse amplifications of nuclear alleles, pseudogenes,
+    generated using the proofreading DNA polymerase                  and other gene duplicates might contribute to the ob-
+    enzyme Platinum Taq High Fidelity, an enzyme with                served variation in the nuclear data sets (for a discussion
+    an innate error rate on good quality DNA of 2.0 3                see below and Greenwood et al. 1999, 2001). Therefore,
+    106–6.5 3 107/nucleotide/cycle (Flaman et al.                  with regard to the validity of the data, we believe that the
+    1994; André et al. 1997). Although some have spe-               observed heterogeneity in the mtDNA clones can be
+    culated that aDNA extracts might increase the mis-               explained predominantly by damage, while the varia-
+    incorporation rates of some polymerases (e.g., Pusch             tion observed in the nuDNA data sets may have arisen
+    and Bachmann 2004), our enzyme has been shown to                 from a combination of miscoding lesions and other
+    retain its low misincorporation on DNA amplified                 factors. Despite this, only a minority of the specimens (8
+    from aDNA extracts (Gilbert et al. 2003b). There-                of 23) exhibited higher TSH in the nuDNA sequences
+    fore, regular sequence errors are likely to account for          than in the mtDNA sequences (P ¼ 17%, Figure 1).
+    only minor amounts of the calculated sequence                    However, no significant differences in TSH levels be-
+    heterogeneity, although we cannot completely ex-                 tween nuDNA and mtDNA sequences (P ¼ 17%) were
+    clude them from the data sets (e.g., errors generated            observed, suggesting that nuDNA miscoding lesion
+    during bacterial colony growth or sequencing).                   damage is less than or equal to that of mtDNA, despite
+ii. It is possible that the number of starting template              a lower number of cellular copies. Intriguingly, nuDNA
+    molecules in the PCR reactions might influence the               appears to be more limited by amplification length than
+    observed sequence heterogeneity. In the most ex-                 mtDNA (Bunce et al. 2003; Poinar et al. 2003). This may
+    treme case, a PCR that starts off a single template              represent a simple case of template quantity, whereby
+738                                                  J. Binladen et al.
+
+
+  Figure 1.—Total sequence heterogeneity observed in the mtDNA and nuDNA clone sequences from the 23 specimens (see
+Table 1). Solid bars, mtDNA total sequence heterogeneity. Shaded bars, nuDNA total sequence heterogeneity.
+
+
+the abundance of mtDNA makes it more likely that long            zyme used (supplemental material at http://www.genetics.
+undamaged molecules exist. Alternatively, the nucleo-            org/supplemental/). However, we do observe some
+some core (146 bp of nuDNA wrapped around a his-                 discrepancy in the levels of type 1 relative to type 2 transi-
+tone octamer) may represent a key ‘‘preservation unit’’          tions compared to previous observations (Gilbert et al.
+whereby strand breaks may be common in the linker                2003b). In this study, we observe a total of 167 and 512
+regions between adjacent cores. Finally, the proximity of        (1:3) type 1 and type 2 events (Table 3), respectively
+chromosomal proteins (e.g., histones) to the DNA in-             (counts are adjusted for base composition), which is
+creases the chance of forming protein–DNA crosslinks,            lower than the 177 and 366 (1:2) type 1 and type 2
+structures that could easily act as polymerase blocks            events observed by Gilbert et al. (2003b). Additionally,
+during amplification.                                            only 7 of the 46 data sets investigated (both mtDNA
+   A significant difference was observed in the distribu-        and nuDNA) show more type 1 than type 2 transitions
+tions of miscoding lesion ‘‘types’’ in the mtDNA and             (supplemental material at http://www.genetics.org/
+nuDNA sequences (P , 0.1%; Table 3). Overall the fre-            supplemental/) compared to 26 of 65 human mtDNA
+quency of type 1 transitions (A / G/T / C) is lower              data sets studied by Gilbert et al. (2003b). However, our
+in the nuDNA (15%) than in the mtDNA (24%) and                   observed type 1:type 2 ratio is higher than that reported
+the frequency of type 2 transitions (C / T/G / A) is             by Hofreiter et al. (2001a). When distinguishing be-
+higher (78% vs. 56%). This implies that different types          tween consistent and singleton substitutions, Hofreiter
+of damage could occur at different rates in the mito-            et al. (2001a) report consistent changes to be only type
+chondria and the nucleus. The fact that mtDNA is not             2 events, and the ratio for the remaining singletons to
+complexed with histone proteins could make it more               be 44 type 1 to 282 type 2 (1:6) (M. Hofreiter, un-
+susceptible to different types of oxidative and/or hydro-        published data).
+lytic damage. However, at this stage we cannot rule out             The correlation analyses show a clear overall bias
+that the observed differences are due to other factors           toward type 2 transitions (in both nuDNA and mtDNA
+such as natural variation in the nuDNA.                          templates) with increasing levels of total sequence
+   Although a number of aDNA studies attribute the               heterogeneity (r ¼ 0.42; P ¼ 0.7%; Figure 2D). This pat-
+presence of type 1 transitions to postmortem damage              tern has previously been reported for human D-loop
+(e.g., Hansen et al. 2001; Gilbert et al. 2003b), other          sequences (Gilbert et al. 2003b), although it has been
+studies (e.g., Hofreiter et al. 2001a; Pääbo et al. 2004)      argued that in this case the pattern could be partially or
+argue that their existence is an artifact of regular DNA         completely explained by contamination, which is espe-
+polymerase errors. The positive correlations observed in         cially problematic in studies of human aDNA (Pääbo
+this study between TSH and the number of type 1 (r ¼             et al. 2004). Our results therefore confirm the general
+0.48; Figure 2A) and type 2 transitions (r ¼ 0.66; Figure        presence of a type 2 damage bias in mtDNA and dem-
+2B) and between TS1 and TS2 rates (r ¼ 0.45; Figure              onstrate that this observation also holds true for nuDNA.
+2C) make it difficult to explain the type 1 transitions          As such, the results corroborate the previously noted
+solely on the basis of DNA polymerase errors. Further-           observation (Gilbert et al. 2003b) that, under equal en-
+more, we find no obvious correlation between the rate            vironmental conditions, type 2 transitions occur at a faster
+of type 1 transitions and the type of DNA polymerase en-         rate than type 1 transitions. This in turn indicates that
+                               Damage in Ancient Mitochondrial and Nuclear DNA Sequences                                     739
+
+
+   Figure 2.—Correlation analyses. Colors indicate the preservation environment: blue, permafrost; red, cave and swamp; and
+green, museum samples. 1 denotes mtDNA sequences and s denotes nuDNA sequences. (A) Type 1 transitions (TS1) as a func-
+tion of TSH. (B) Type 2 transitions (TS2) as a function of TSH. (C) TS1 as a function of TS2. (D) TS2/TS1 as a function of TSH.
+
+deamination of cytosine and its homolog 5-methyl cyto-            moth specimens (Greenwood et al. 1999, 2001). Impor-
+sine to uracil and adenine is the dominant type of mis-           tantly, the museum samples (all museum samples are
+coding lesion in both mtDNA and nuDNA sequences                   from pigs ,130 years of age) show significantly higher
+from fossil remains.                                              overall sequence heterogeneity than the environmental
+   The observed lack of correlation between DNA dam-              samples, suggesting that the given museum storage con-
+age and age of specimens was not unexpected (TSH: r ¼             ditions are not optimal for DNA preservation. Given that
+0.29, P ¼ 2.3%; TS1: r ¼ 0.15, P ¼ 16%; TS2: r ¼ 0.14,            museum/herbarium material is an important source
+P ¼ 17%; TS2/TS1: r ¼ 0.15, P ¼ 2.1%; supplemental               of aDNA, it is concerning that little research has been
+material at http://www.genetics.org/supplemental/) as             conducted to investigate how to maximize biomolecular
+numerous studies have demonstrated that preservation              preservation. If indeed DNA damage and/or degradation
+conditions rather than age determine rates of DNA                 accumulates as the result of suboptimal storage condi-
+degradation (Pääbo 1989; Lindahl 1993; Höss et al.             tions in museums (as has been observed empirically by
+1996; Poinar et al. 1996; Kumar et al. 2000; Hofreiter            many researchers), then alterations to current sample
+et al. 2001a; Smith et al. 2001; Gilbert et al. 2003b;            storage practices should be investigated.
+Pääbo et al. 2004; Willerslev et al. 2004a; Willerslev             In summary, this study demonstrates that there is no
+and Cooper 2005). More surprising is the apparent lack            significant evidence for nuDNA sequences being more
+of significant differences among the three groups
+(permafrost, cave, and museum) for TSH rate and the
+                                                                                            TABLE 4
+ratio of TS2/TS1 (P-values .20%; Table 4), because
+these environments represent different temperature re-                                   Results of t-test
+gimes of storage that are known to influence damage
+rates (Höss et al. 1996; Smith et al. 2001; Willerslev             Testa                              t-value        P (%)
+et al. 2004a). However, the museum group differed from              Permafrost vs. caves                0.18            85
+the other two groups when comparing TSH rate/age                    Permafrost vs. museum               1.31            20
+(permafrost, P , 1%; cave, P , 1%), while there was no              Caves vs. museum                    1.22            24
+difference between the permafrost and the cave groups               a
+                                                                      The total sequence heterogeneity for specimens preserved
+(P ¼ 12%). This is likely due to long-term storage at             under different conditions (permafrost, caves, or museum
+room temperature after excavation of most of the mam-             storage) is compared.
+740                                                    J. Binladen et al.
+
+prone to miscoding lesions than mtDNA sequences                    erable risk of coamplifying a functional duplicated gene
+despite the large discrepancy in cellular copy numbers.            or a nonfunctional pseudogene.
+The data also suggest that deamination of cytosine (and               Finally, contamination has been a major problem in
+5-methyl cytosine) is the most frequent type of miscod-            the field of aDNA (Pääbo et al. 2004; Willerslev and
+ing lesion in mtDNA and nuDNA sequences from fossil                Cooper 2005). When amplifying mitochondrial tem-
+remains, although the rate at which they are affected              plates, a contaminating sequence can often be identified;
+may differ. Additionally, a bias toward deamination of             for example, a D-loop sequence from contemporary hu-
+cytosine relative to type 1 transitions with an overall in-        mans is readily distinguishable from that of Neanderthals
+crease in damage appears to apply to both ancient                  (e.g., Serre et al. 2004b). When amplifying highly con-
+mtDNA and nuDNA sequences. Finally, we note that the               served nuclear targets, contamination will not be so easy
+findings reported in this study are limited by the sample          to spot and can easily be mistaken for allelic variation, and
+size, and as more relevant data accumulate, future                 consequently it might be difficult to distinguish between
+studies might be able to focus on other important ques-            exogenous and endogenous DNA sequences.
+tions, such as whether correlations exist between spec-               We advocate that as the field of aDNA moves into am-
+imen type and state of DNA damage.                                 plifying nuclear targets, factors such as damage, ampli-
+   In conclusion, in the decade ahead, the field of aDNA           con size, allelic variation, low template copy numbers,
+will increasingly focus on nuclear genes from fossil and           and contamination need to be taken into account.
+archival material. However, as the aDNA community                    We are grateful to Hendrik Poinar, Johannes Krause, Tina Brand,
+embarks in this new direction, considerable care needs             and Martin B. Hebsgaard for help and discussion; Andrei V. Sher and
+to be exercised to ensure that authentic sequences are             Ross Macphee for providing the woolly rhinoceros and mammoth
+generated. In the past two decades, many aDNA articles             samples; and Michael Hofreiter for providing unpublished sequence
+                                                                   data. J.B. and E.W. were supported by the Carlsberg Foundation of
+have been published in which the mtDNA data have
+                                                                   Denmark, the National Science Foundation of Denmark, and the
+turned out to be contaminated, pseudogenes, and/or                 Wellcome Trust. C.W. was supported by the Danish Cancer Society and
+modified by damage (for recent reviews see Pääbo et al.          the Carlsberg Foundation. R.B. was supported by the Biotechnology
+2004; Willerslev and Cooper 2005). Therefore, we                   and Biological Sciences Research Council and Natural Environment
+find it important to highlight briefly the variety of fac-         Research Council.
+tors that need to be considered when amplifying and
+analyzing ancient nuDNA.
+   To gain a complete, unbiased appraisal of the damage                                 LITERATURE CITED
+spectrum in both ancient nuclear and mitochondrial                 André, P., A. Kim, K. Khrapko and W. G. Thilly, 1997 Fidelity and
+DNA, further studies should attempt to generate PCR                    mutational spectrum of Pfu DNA polymerase on a human mito-
+                                                                       chondrial DNA sequence. Genome Res. 7: 843–852.
+products of the same length with an equal number of                Banerjee, M., and T. Brown, 2004 Non-random DNA damage re-
+starting template molecules. Additionally, when design-                sulting from heat treatment: implications for sequence analysis
+ing PCR assays for ancient nuclear loci, restricting                   of ancient DNA. J. Archaeol. Sci. 31: 59–63.
+                                                                   Bunce, M., T. H. Worthy, T. Ford, W. Hoppitt, E. Willerslev et al.,
+amplicon size will both increase the chance of successful              2003 Extreme reversed sexual size dimorphism in the extinct
+amplification and maximize the number of starting                      New Zealand moa Dinornis. Nature 425: 172–175.
+template molecules. Importantly, sequence heteroge-                Cooper, A., and H. N. Poinar, 2001 Ancient DNA: do it right or not
+                                                                       at all. Science 289: 1139.
+neity in the clone data might in fact represent real allelic       Cooper, A., C. Lalueza-Fox, S. Anderson, A. Rambaut, J. Austin
+variation. In this study we cannot rule out that some sites            et al., 2001 Complete mitochondrial genome sequences of
+interpreted as damaged might indeed represent real                     two extinct moas clarify ratite evolution. Nature 409: 704–707.
+                                                                   Flaman, J. M., T. Frebourg, V. Moreau, F. Charbonnier, C. Martin
+allelic differences (e.g., the fast-evolving CD45 gene seen            et al., 1994 A rapid PCR fidelity assay. Nucleic Acids Res. 22:
+in the pig data). For the moa data, however, one of the                3259–3260.
+nuclear genes (kw1) is sex linked and therefore will have          Ghivizzani, S. C., S. L. Mackay, C. S. Madsen, P. J. Laipis and W. W.
+                                                                       Hauswirth, 1993 Transcribed heteroplasmic repeated se-
+no allelic variation. Allelic variation in combination with            quences in the porcine mitochondrial DNA D-loop region.
+low starting template numbers can also lead to cases of                J. Mol. Evol. 37: 36–37.
+‘‘allelic dropout’’ whereby one allelic form is amplified          Gilbert, M. T. P., and A. J. Hansen, 2006 Post-mortem damage in
+                                                                       aDNA: implications and assessing aDNA quality, in Molecular
+preferentially over another, which calls for reproduc-                 Markers, PCR, Bioinformatics and Ancient DNA—Technology, Trouble-
+ibility of results (Taberlet et al. 1996; Morin et al. 2001).          shooting and Applications, edited by G. Dorado. Science Publish-
+   In the same way that nuclear mitochondrial insertions               ers, New York (in press).
+                                                                   Gilbert, M. T. P., E. Willerslev, A. J. Hansen, I. Barnes,
+(numts) have caused the misinterpretation of mitochon-                 L. Rudbeck et al., 2003a Distribution patterns of post-mortem dam-
+drial phylogenies (see Willerslev and Cooper 2005),                    age in human mitochondrial DNA. Am. J. Hum. Genet. 72:
+nuclear pseudogenes and gene duplications can cause                    32–47.
+                                                                   Gilbert, M. T. P., A. J. Hansen, E. Willerslev, I. Barnes, L. Rudbeck
+problems in the interpretation of nuDNA sequences.                     et al., 2003b Characterisation of genetic miscoding lesions
+Complete genomes are now available for a variety of or-                caused by post-mortem damage. Am. J. Hum. Genet. 72: 48–61.
+ganisms, making it possible to screen for the presence of          Gilbert, M. T. P., B. A. Shapiro, A. Drummond and A. Cooper,
+                                                                       2005 Post mortem DNA damage hotspots in Bison (Bison bison
+duplicated genes. However, in cases where a genetic                    and B. bonasus) provide supporting evidence for mutational hot-
+background is not well characterized, there is a consid-               spots in human mitochondria. J. Archaeol. Sci. 32: 1053–1060.
+                                     Damage in Ancient Mitochondrial and Nuclear DNA Sequences                                                   741
+
+Greenwood, A. D., C. Capelli, G. Possnert and S. Pääbo, 1999 Nu-          Pääbo, S., H. Poinar, D. Serre, V. Jaenicke-Despres, J. Hebler et al.,
+      clear DNA sequences from late Pleistocene megafauna. Mol. Biol.             2004 Genetic analyses from ancient DNA. Annu. Rev. Genet.
+      Evol. 16: 1466–1473.                                                        38: 645–679.
+Greenwood, A. D., F. Lee, C. Capelli, R. DeSalle, A. Tikhonov               Poinar, H. N., M. Höss, J. L. Bada and S. Pääbo, 1996 Amino acid
+      et al., 2001 Evolution of endogenous retrovirus-like elements               racemization and the preservation of ancient DNA. Science 272:
+      of the woolly mammoth (Mammuthus primigenius) and its rela-                 864–866.
+      tives. Mol. Biol. Evol. 18: 840–847.                                  Poinar, H. N., M. Hofreiter, G. S. Spaulding, P. S. Martin, A. B.
+Handt, O., M. Krings, R. H. Ward and S. Pääbo, 1996 The retrieval of            Stankiewicz et al., 1998 Molecular coproscopy: dung and diet
+      ancient human DNA sequences. Am. J. Hum. Genet. 59: 368–376.                of the extinct ground sloth Nothrotheriops shastensis. Science. 281:
+Hansen, A., E. Willerslev, C. Wiuf, T. Mourier and P. Arctander,                  402–406.
+      2001 Statistical evidence for miscoding lesions in ancient DNA        Poinar, H. N., M. Kuch, G. McDonald, P. Martin and S. Pääbo,
+      templates. Mol. Biol. Evol. 18: 262–265.                                    2003 Nuclear gene sequences from a late pleistocene sloth cop-
+Hebsgaard, M. B., M. J. Phillips and E. Willerslev, 2005 Geo-                     rolite. Curr. Biol. 13: 1150–1152.
+      logically ancient DNA: Fact or artefact? Trends Microbiol. 13:        Pusch, C. M., and L. Bachmann, 2004 Spiking of contemporary hu-
+      212–220.                                                                    man template DNA with ancient DNA extracts induces mutations
+Hofreiter, M., V. Jaenicke, D. Serre, A. von Haeseler and S. Pääbo,             under PCR and generates nonauthentic mitochondrial sequen-
+      2001a DNA sequences from multiple amplifications reveal arti-               ces. Mol. Biol. Evol. 21: 957–964.
+      facts induced by cytosine deamination in ancient DNA. Nucleic         Pusch, C. M., M. Broghammer, G. J. Nicholson, A. G. Nerlich,
+      Acids Res. 29: 4793–4799.                                                   A. Zink et al., 2004 PCR-induced sequence alterations hamper
+Hofreiter, M., D. Serre, H. N. Poinar, M. Kuch and S. Pääbo,                    the typing of prehistoric bone samples for diagnostic achondro-
+      2001b Ancient DNA. Nat. Rev. Genet. 2: 353–360.                             plasia mutations. Mol. Biol. Evol. 21: 2005–2011.
+Höss, M., P. Jaruga, T. H. Zastawny, M. Dizdaroglu and S. Pääbo,         Serre, D., A. Hofreiter, M. Pääbo, S. 2004a Mutations induced by
+      1996 DNA damage and DNA sequence retrieval from ancient                     ancient DNA extracts? Mol. Biol. Evol. 21: 1463–1467.
+      tissues. Nucleic Acids Res. 24: 1304–1307.                            Serre, D., A. Langaney, M. Chech, M. Teschler-Nicola,
+Huynen, L. C., D. Millar, R. P. Scofield and D. M. Lambert,                       M. Paunovic et al., 2004b No evidence of Neanderthal mtDNA
+      2003 Nuclear DNA sequences detect species limits in ancient                 contribution to early modern humans. PLoS Biol. 2: E57.
+      moa. Nature 425: 175–178.                                             Smith, C. I., A. T. Chamberlain, M. S. Riley, A. Cooper, C. B.
+Jaenicke-Despres, V., E. S. Buckler, B. D. Smith, M. T. P. Gilbert,               Stringer et al., 2001 Neanderthal DNA: Not just old but old
+      A. Cooper et al., 2003 Early allelic selection in maize as revealed         and cold? Nature 10: 771–772.
+      by ancient DNA. Science 302: 1206–1208.                               Taberlet, P., S. Griffin, B. Goossens, S. Questiau, V. Manceau
+Kumar, S. S., I. Nasidze, S. R. Walimbe and M. Stoneking,                         et al., 1996 Reliable genotyping of samples with very low DNA
+      2000 Brief communication: discouraging prospects for ancient                quantities using PCR. Nucleic Acids Res. 24: 3189–3194.
+      DNA from India. Am. J. Phys. Anthropol. 113: 129–133.                 Threadgold, J., and T. A. Brown, 2003 Degradation of DNA
+Larson, G., K. Dobney, U. Albarella, M. Fang, E. Matisoo-Smith                    in artificially charred wheat seeds. J. Archaeol. Sci. 30: 1067–
+      et al., 2005 Worldwide phylogeography of wild boar reveals mul-             1076.
+      tiple centers of pig domestication. Science 307: 1618–1621.           Tougard, C., T. Delefosse, C. Hanni and C. Montgelard,
+Lin, C. S., Y. L. Sun, C. Y. Liu, P. C. Yang, L. C. Chang, et al.,                2001 Phylogenetic relationships of the five extant Rhinoceros
+      1999 Complete nucleotide sequence of pig (Sus scrofa) mito-                 species (Rhinocerotidae, Perissodactyla) based on mitochondrial
+      chondrial genome and dating evolutionary divergence within                  cytochrome b and 12S rRNA genes. Mol. Phylogenet. Evol. 19:
+      Artiodactyla. Gene 236: 107–114.                                            34–44.
+Lindahl, T., 1993 Instability and decay of the primary structure of         Ursing, B. M., and U. Arnason, 1998 The complete mitochondrial
+      DNA. Nature 362: 709–715.                                                   DNA sequence of the pig (Sus scrofa). J. Mol. Evol. 47: 302–
+Lopez, J. V., S. Cevario and S. J. O’Brien, 1996 Complete nucleo-                 306.
+      tide sequences of the domestic cat (Felis catus) mitochondrial        Willerslev, E., and A. Cooper, 2005 Ancient DNA. Proc. Biol. Sci.
+      genome and a transposed mtDNA tandem repeat (Numt) in                       272: 3–16.
+      the nuclear genome. Genomics 33: 229–246.                             Willerslev, E., A. J. Hansen, B. Christensen, J. P. Steffensen and
+Mitchell, D., E. Willerslev and A. Hansen, 2005 Damage and re-                    P. Arctander, 1999 Diversity of Holocene life forms in fossil
+      pair of ancient DNA. Mutat. Res. 571: 265–276.                              glacier ice. Proc. Natl. Acad. Sci. USA 96: 8017–8021.
+Morin, P. A., K. E. Chambers, C. Boesch and L. Vigilant, 2001 Quan-         Willerslev, E., A. J. Hansen and H. N. Poinar, 2004a Isolation of
+      titative polymerase chain reaction analysis of DNA from noninvasive         nucleic acids and cultures from fossil ice and permafrost. Trends
+      samples for accurate microsatellite genotyping of wild chimpanzees          Ecol. Evol. 19: 141–147.
+      (Pan troglodytes verus). Mol. Ecol. 10: 1835–1844.                    Willerslev, E., A. J. Hansen, R. Rønn, T. B. Brand, I. Barnes et al.,
+Noonan, J. P., M. Hofreiter, D. Smith, J. R. Priest, N. Rohland                   2004b Long-term persistence of bacterial DNA. Curr. Biol. 14:
+      et al., 2005 Genomic sequencing of Pleistocene cave bears.                  R9–R10.
+      Science 309: 597–599.                                                 Xu, X., and U. Arnason, 1997 The complete mitochondrial DNA
+Orlando, L., J. A. Leonard, A. Thenot, V. Laudet, G. Guerin et al.,               sequence of the white rhinoceros, Ceratotherium simum, and com-
+      2003 Ancient DNA analysis reveals woolly rhino evolutionary re-             parison with the mtDNA sequence of the Indian rhinoceros,
+      lationships. Mol. Phylogenet. Evol. 28: 76–90.                              Rhinoceros unicornis. Mol. Phylogenet. Evol. 7: 189–194.
+Pääbo, S., 1989 Ancient DNA: extraction, characterization, molecu-
+      lar cloning and enzymatic amplification. Proc. Natl. Acad. Sci.
+      USA 86: 1939–1943.                                                                                     Communicating editor: N. Takahata

@@ -1,0 +1,330 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-08-07T10:08:39Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 4, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 3573095, "source_file": "DPIArchive/documents/125249-cejka-of-oscillator.pdf", "source_sha256": "5bf0209247bc7982667d4d57a5a967b73384805d13ee0da979789387928ddfca"}
+
+===== PAGE 1 =====
+{"alpha_words": 263, "chars": 1863, "method": "ocr", "page": 1, "variant": "plain-vision"}
+0GM
+SPECIFICATIONS
+1. Frequency Range
+2.
+3
+4
+•
+RF Output
+DC Power Required
+Frequency
+Tolerance with OF
+and 031300/031310 Crystal
+5.
+Operating Temperature
+6.
+requency Change with 1 vol
+Supply
+Change
+7. Output level
+Change with
+1 volt Supply Change
+8.
+Size
+9. Mounting
+LIST OF PARTS
+PART
+LO
+VALUE
+QTY
+HI
+VALUE
+Resistor
+680 ohm
+1
+470 ohm
+100 ohm
+47K ohm
+100 ohm
+2.2K
+4.7K
+Capacitor
+. 001mf
+. 01mf
+470pf
+220pf
+30pf
+1
+1
+2
+N~
+. 001mf
+. 01mf
+100pf
+220pf
+47 pf
+18pf
+OF
+OSCILLATOR
+HI
+LO-2mhz to 22mhz (For Fundamental
+Xtal)
+HI-18mhz to 60mhz (Overtone Xtal)
+. 2 volts rms into 50 ohms (min)
+9 volts at 20ma (operates 6 to 12 volts)
+. 02%
+O to 50 Degrees Centigrade
+. 001%- (max)
+2db (approx)
+1 1/2 x 1 1/2 x 1 1/4 inches
+4 holes with spacers or fits over 1 1/4
+inch chassis hole
+QTY
+PART
+QTY
+1
+1
+Printed Circuit Board
+Crystal Socket
+PN5130 Transistor
+1
+1
+3/8" spacer
+4-40 'x 7/8"
+screw
+#4 hex nut
+#4 flat washer
+#4 lockwasher
+Connectors, male for PC board
+Connectors, female for wire end
+4
+4
+GENERAL INFORMATION
+1. The OF oscillator is a resistor/ capacitor circuit. providing oscillation
+over a range
+of frequencies by merely
+inserting the desired crystal and with-
+out any tuning.
+The crystal/oscillator combination is intended for general
+purpose use where close tolerances are not required.
+The resultant crystal
+controlled signal will be within .02% of the nominal frequency (600hz at
+3000khz or 12khz at 60000khz). The power output is about - 10dbm.
+2. Unpack the kit and check each part against the parts list.
+Referring to
+the parts list and
+the legend printed on
+the circuit board, parts can be
+readily located in their proper position.
+PRINTED CIRCUIT WIRING
+1. Use only a good grade of rosin-core solder 50/50 or 60/40 tin-lead content.
+Very
+little solder
+make
+a good connection.
+Watch for shorts
+caused by the flow of solder between parts of the foil
+pattern.
+
+===== PAGE 2 =====
+{"alpha_words": 349, "chars": 2346, "method": "ocr", "page": 2, "variant": "plain-vision"}
+Do not overheat the connection. A pencil type Iron is ideal for this
+work. A 25 watt iron is adequate for printed circuit wiring.
+Foil side
+Leads spread after
+insertion in holes
+Clip lead after
+soldering
+3. Components are placed on the phenolic
+side of the board, with the leads pass-
+ing through the holes to the foil side.
+After inserting a part, fan the leads
+out slightly to prevent the part from
+falling out until it is soldered.
+4. The legend markings on the phenolic
+side are a guide for placement of parts.
+Phenolic side
+with legend
+ASSEMBLY
+The printed circuit board is marked with the value of each part to be
+Inserted in the various holes. A suggested sequence of assembly is given below.
+After inserting leads through the holes, spread them slightly to hold the part
+in place until it Is soldered. Clip the excess lead length.
+Insert the .01 and .001 mf disc ceramic capacitors followed by
+the crystal socket.
+Install the transistor with its "flat" positioned
+as shown on the printed circuit board. Position the transistor to
+stand 1 inch above the board. The remaining parts (R, C, and L) are
+selected according to the frequency range from the chart below.
+FREQUENCY RANGE MHZ
+OF-LO
+3.0 to 15.0
+R1
+100
+R2
+680
+R3
+47K
+C1
+470
+4.0 to 22.0
+100
+680
+47K
+Not
+Used
+Not
+Used
+220
+OF-HI
+18.0 to 29.0
+2.9 to 60.0
+100
+100
+470
+470
+4.7K
+4.7K
+2.2K
+2.2K
+220
+100
+4.
+crystal.
+Insert R1 thru R4 and C1 thru C3. Solder all connections and clip any excess
+component lead on the foil side of the board. Install the desired
+Make external connections, applying 9 volts de to the terminal indicated.
+Negative 9 volts is connected to the ground terminal.
+Output is taken at the RF and GND terminals next to the 100 ohm resistor.
+This is a low impedance source and must be considered in coupling to other
+equipment.
+Should any difficulty be encountered, look for parts inserted incorrect-
+ly, wrong coil range for crystal frequency, or poor solder connection. The
+oscillator circuit is straight forward and no problem should be had in obtaining
+proper operation. The transistor has been checked before shipment.
+SUGGESTED APPLICATIONS
+The following circuits indicate a few of the possible applications for the
+OF oscillator. For modulation, the oscillator will present approximately a
+300 ohm load to the audio source.
+C2
+470
+220
+47
+18
+C3
+30
+30
+jumper
+jumper
+2.
+
+===== PAGE 3 =====
+{"alpha_words": 45, "chars": 415, "method": "ocr", "page": 3, "variant": "clean-vision"}
+OF-1 OSC +DC
+GND
+CRYSTAL
+SOCKET
+C3
+RANGE NO
+RANGE NO
+R4
+C
+ICM
+J-XTAL-
+O-R4-
+J-R3.
+O-R1-
+1.01.
+00°
+GND
+RF
+OF-1 OSCILLATOR
+<R3
+TR-I
+-CI
+Tc2
+R2
+.OI
+GND
+CF-1
+LO (FUND)
+FREQUENCY MHZ
+2.0 to 15.0
+4.0 to 22.0
+R4
+OF-1
+(3RD OVERTONE)
+FREQUENCY MHZ
+18.0 to 28.0
+28.0 to 60.0
+RU
+2200
+2200
+-2-
+OOOO
+.OOl
+1<RF
+CGND
+RI
+100S
++ DC
+R2
+680
+680
+R2
+470
+470
+R3
+47K
+47K
+R3
+4700
+4700
+C1
+470
+220
+C1
+220
+100
+C2
+470
+220
+C2
+47
+18
+C3
+30
+30
+C3
+
+===== PAGE 4 =====
+{"alpha_words": 52, "chars": 356, "method": "ocr", "page": 4, "variant": "plain-vision"}
+OF -1
+OF-1
+(a) Coupling to High Impedance
+Circuit.
+Cc
+D*-ANT
+OF-1
+(b) Emitter Coupling
+to Mixer.
+OF -1
+RECEIVER
+• RF OUT
+OF -1
+OF -1
+ANT
+RECEIVER
+(c) Coupling to Receiver as
+Signal Generator. Amount
+of coupling Adjusted by Cc.
+AOS -Al
+AUDIO
+FLAT
+E
+B C
++ 6V
+80
+(d) Tone Modulating OF -1
+Oscillator.
+JE
+B- BASE
+C- COLLECTOR
+E- EMITTER
+COLLECTOR
+BASE
+EMITTER
