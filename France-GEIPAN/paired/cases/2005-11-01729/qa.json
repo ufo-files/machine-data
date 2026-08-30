@@ -1,0 +1,57 @@
+{
+  "document_id": "doc-974ac09944b3ac24abd5f327",
+  "findings": [
+    {
+      "added_in_translation": [
+        "2005-11-01"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-25f76b90f22c8ed6e0d2f8f1",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "18:45"
+      ],
+      "check": "times",
+      "missing_from_translation": [
+        "18:00",
+        "18:25"
+      ],
+      "segment_id": "seg-25f76b90f22c8ed6e0d2f8f1",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1",
+        "25",
+        "6"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "45"
+      ],
+      "segment_id": "seg-25f76b90f22c8ed6e0d2f8f1",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-25f76b90f22c8ed6e0d2f8f1",
+      "severity": "error",
+      "source_count": 2,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 1
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}

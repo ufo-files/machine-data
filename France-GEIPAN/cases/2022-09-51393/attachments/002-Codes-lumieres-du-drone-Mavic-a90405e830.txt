@@ -1,0 +1,48 @@
+{"created_utc": "2026-08-29T11:28:55Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 369749, "source_file": "France-GEIPAN/cases/2022-09-51393/attachments/002-Codes-lumieres-du-drone-Mavic-a90405e830.pdf", "source_sha256": "463d128e81eb36448568898efd7bc84974ef43740e4709fe66a3d40b5312c956"}
+
+Signaux lumineux sur le Mavic
+Code lumineux                                       Signification         Statut
+                  rouge, vert,
+                                     Mise en marche, autodiagnostique     Normal
+                  jaune
+
+
+                  vert jaune lent Pré-chauffe                             Normal
+
+
+                  jaune lent         Pas de GPS ni Vision system          Normal
+
+
+                                     Vol en sécurité (P-mode et S-mode,
+                  vert lent                                               Normal
+                                     avec GPS)
+                                     Vol en sécurité (P-mode et S-mode,
+                  vert X2            avec GPS et Vision system avant et   Normal
+                                     dessous)
+
+
+                  jaune rapide       Signal de la télécommande perdu      Alerte
+
+
+                  rouge lent         Avertissement de batterie            Alerte
+
+
+                  rouge rapide       Avertissement de batterie critique   Alerte
+
+
+                  rouge flash
+                                     Erreur IMU                           Alerte
+                  alternatif
+
+
+                  rouge continu Erreur critique                           Alerte
+
+
+                  rouge et jaune
+                                 Calibration compas requise               Alerte
+                  alterné
+
+
+                  vert rapide        Perte signal                         Alerte
+
+                               www.drone-mavic.fr
