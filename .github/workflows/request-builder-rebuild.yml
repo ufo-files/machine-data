@@ -14,40 +14,16 @@ concurrency:
 
 jobs:
   request:
-    runs-on: ufo-agent-1-machine-data
+    runs-on: ubuntu-latest
     steps:
-      - name: Check out graph builder
-        uses: actions/checkout@v7
-        with:
-          repository: ufo-files/relationship-graph-builder
-          ref: main
-          path: _builder
-          ssh-key: ${{ secrets.BUILDER_REBUILD_DEPLOY_KEY }}
-
       - name: Send rebuild request
         env:
+          GH_TOKEN: ${{ secrets.GRAPH_BUILDER_DISPATCH_TOKEN }}
           MACHINE_DATA_REVISION: ${{ github.sha }}
         shell: bash
         run: |
-          cd _builder
-          printf '%s\n' "$MACHINE_DATA_REVISION" > .machine-data-revision
-          if git diff --quiet -- .machine-data-revision; then
-            echo "Builder already has request $MACHINE_DATA_REVISION"
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .machine-data-revision
-          git commit -m "Request rebuild for machine-data@${MACHINE_DATA_REVISION:0:7}"
-
-          for attempt in 1 2 3; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            sleep $((attempt * 2))
-          done
-
-          echo "Unable to send the graph builder rebuild request" >&2
-          exit 1
+          gh api \
+            --method POST \
+            repos/ufo-files/relationship-graph-builder/dispatches \
+            --field event_type=machine-data-updated \
+            --field "client_payload[revision]=$MACHINE_DATA_REVISION"
