@@ -1,0 +1,1087 @@
+{"created_utc": "2026-09-04T11:48:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 73602, "source_ctime_ns": 1788522461726429993, "source_file": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-1---Leslie-Radosevich_mn5piuuMnik---transcript-automated-.pdf", "source_mtime_ns": 1788522461723651735, "source_rel": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-1---Leslie-Radosevich_mn5piuuMnik---transcript-automated-.pdf", "source_sha256": "1d58f9b2cba6b433a4b27ec3f8083d57e5b480efddc1bd6d5f9e3b0f4a8170a8"}
+
+1
+00:00:00,790 --> 00:00:07,320
+[Music]
+
+2
+00:00:12,470 --> 00:00:09,130
+[Applause]
+
+3
+00:00:13,879 --> 00:00:12,480
+hello good afternoon everyone my name is
+
+4
+00:00:15,770 --> 00:00:13,889
+Leslie from NASA Ames Research Center
+
+5
+00:00:17,740 --> 00:00:15,780
+I'm a chemical engineer over there
+
+6
+00:00:20,179 --> 00:00:17,750
+working as a Mission Support Engineer
+
+7
+00:00:22,190 --> 00:00:20,189
+today I wanted to talk about splice our
+
+8
+00:00:24,740 --> 00:00:22,200
+sample processor to enable the search
+
+9
+00:00:26,109 --> 00:00:24,750
+for life on icy worlds specifically what
+
+10
+00:00:29,560 --> 00:00:26,119
+we're gonna be talking about is a
+
+11
+00:00:32,299 --> 00:00:29,570
+microfluidic front-end to interface with
+
+12
+00:00:34,010 --> 00:00:32,309
+capillary electrophoresis or mass spec
+
+13
+00:00:37,280 --> 00:00:34,020
+or a number of different analytical
+
+14
+00:00:39,350 --> 00:00:37,290
+instruments it's specific to processing
+
+15
+00:00:41,960 --> 00:00:39,360
+samples and from ocean worlds and
+
+16
+00:00:44,030 --> 00:00:41,970
+solidus in Europa we had to we have
+
+17
+00:00:45,829 --> 00:00:44,040
+multiple configurations first place some
+
+18
+00:00:49,579 --> 00:00:45,839
+for a plume sampling some Firth Lander
+
+19
+00:00:51,229 --> 00:00:49,589
+sampling in which case each of our each
+
+20
+00:00:52,910 --> 00:00:51,239
+of our sample requirements were
+
+21
+00:00:54,500 --> 00:00:52,920
+different but specifically we're looking
+
+22
+00:00:56,450 --> 00:00:54,510
+at doing biomarker detection
+
+23
+00:00:59,899 --> 00:00:56,460
+habitability characterization and
+
+24
+00:01:02,000 --> 00:00:59,909
+building on our previous previous Mars
+
+25
+00:01:03,460 --> 00:01:02,010
+missions Viking and Phoenix which
+26
+00:01:07,070 --> 00:01:03,470
+utilize some of these same types of
+
+27
+00:01:08,480 --> 00:01:07,080
+characterization techniques so an
+
+28
+00:01:11,180 --> 00:01:08,490
+overview of what we're trying to
+
+29
+00:01:12,770 --> 00:01:11,190
+accomplish on these missions we're
+
+30
+00:01:14,870 --> 00:01:12,780
+looking at doing automated sample
+
+31
+00:01:17,539 --> 00:01:14,880
+handling of some very dilute low
+
+32
+00:01:19,490 --> 00:01:17,549
+concentration samples so we have a some
+
+33
+00:01:22,010 --> 00:01:19,500
+sort of sample collector and a fluidics
+
+34
+00:01:24,319 --> 00:01:22,020
+processor that interfaces to end up to a
+
+35
+00:01:26,870 --> 00:01:24,329
+giant and analytical instrument suite
+
+36
+00:01:28,459 --> 00:01:26,880
+so for a flukes processor we need to do
+
+37
+00:01:31,120 --> 00:01:28,469
+a number of things including extracting
+
+38
+00:01:34,039 --> 00:01:31,130
+the solution and sampling out particles
+
+39
+00:01:36,499 --> 00:01:34,049
+degassing adjusting ionic strength or
+
+40
+00:01:39,109 --> 00:01:36,509
+removing ions adjusting pH adjusting
+
+41
+00:01:40,849 --> 00:01:39,119
+polarity and eventually just delivering
+
+42
+00:01:45,349 --> 00:01:40,859
+to the number of instruments that we are
+
+43
+00:01:46,849 --> 00:01:45,359
+interfaced with so in order to
+
+44
+00:01:49,249 --> 00:01:46,859
+accomplish this we went through a
+
+45
+00:01:51,620 --> 00:01:49,259
+process of starting with component level
+
+46
+00:01:52,940 --> 00:01:51,630
+testing we had an idea of the things
+
+47
+00:01:55,160 --> 00:01:52,950
+that we needed to accomplish and we
+
+48
+00:01:57,289 --> 00:01:55,170
+started by miniaturizing these into
+
+49
+00:01:59,239 --> 00:01:57,299
+smaller component pieces that we could
+
+50
+00:02:01,130 --> 00:01:59,249
+test individually so shown here you have
+51
+00:02:03,200 --> 00:02:01,140
+some bubble traps check valves dry
+
+52
+00:02:05,510 --> 00:02:03,210
+reagent storage precision metering pumps
+
+53
+00:02:09,249 --> 00:02:05,520
+and a concentrator that's used to all
+
+54
+00:02:13,880 --> 00:02:09,259
+processes samples in different ways
+
+55
+00:02:15,680 --> 00:02:13,890
+after analyzing the capabilities of
+
+56
+00:02:18,350 --> 00:02:15,690
+these instruments we then integrated
+
+57
+00:02:19,640 --> 00:02:18,360
+them into a number of manifolds and so
+
+58
+00:02:20,910 --> 00:02:19,650
+here you can see that what we've
+
+59
+00:02:22,800 --> 00:02:20,920
+accomplished is
+
+60
+00:02:25,230 --> 00:02:22,810
+development of microfluidic manifolds
+
+61
+00:02:27,660 --> 00:02:25,240
+that behave like fused multi-layer
+
+62
+00:02:30,449 --> 00:02:27,670
+monoliths so there's a number of cut
+
+63
+00:02:32,430 --> 00:02:30,459
+channels down to 250 microliters or up
+
+64
+00:02:35,750 --> 00:02:32,440
+to one milliliter or approximately in
+
+65
+00:02:38,520 --> 00:02:35,760
+diameter that run through these channels
+
+66
+00:02:42,570 --> 00:02:38,530
+or that run through these manifolds to
+
+67
+00:02:44,699 --> 00:02:42,580
+handle either 2 micro liter or larger
+
+68
+00:02:49,770 --> 00:02:44,709
+milliliter size samples from these
+
+69
+00:02:54,300 --> 00:02:49,780
+missions so splice 1.0 was the original
+
+70
+00:02:56,729 --> 00:02:54,310
+og mandible that we we established and
+
+71
+00:03:02,190 --> 00:02:56,739
+this was made for MCA and a connection
+
+72
+00:03:03,650 --> 00:03:02,200
+to a micro with chemical lab I am and so
+
+73
+00:03:07,620 --> 00:03:03,660
+you see a number of the components there
+
+74
+00:03:10,800 --> 00:03:07,630
+this then increased in complexity when
+
+75
+00:03:14,310 --> 00:03:10,810
+we developed splice MS and here the big
+76
+00:03:18,240 --> 00:03:14,320
+thing being the the connection to the
+
+77
+00:03:21,210 --> 00:03:18,250
+mass spectrometer and then finally into
+
+78
+00:03:22,880 --> 00:03:21,220
+splice 2.0 which collected 2 which
+
+79
+00:03:25,830 --> 00:03:22,890
+connects to a micro capillary
+
+80
+00:03:28,140 --> 00:03:25,840
+electrophoresis instrument a micro what
+
+81
+00:03:31,500 --> 00:03:28,150
+chemistry lab as well as a mass
+
+82
+00:03:33,690 --> 00:03:31,510
+spectroscopy suite so in the case of all
+
+83
+00:03:35,370 --> 00:03:33,700
+of these manifolds and each of these
+
+84
+00:03:37,050 --> 00:03:35,380
+components were again tested
+
+85
+00:03:39,780 --> 00:03:37,060
+individually and then integrated into
+
+86
+00:03:41,550 --> 00:03:39,790
+one full suite that takes samples and
+
+87
+00:03:44,789 --> 00:03:41,560
+allows them to be processed and
+
+88
+00:03:48,180 --> 00:03:44,799
+delivered to multiple instruments in a
+
+89
+00:03:49,020 --> 00:03:48,190
+lot of the cases we're working or in all
+
+90
+00:03:51,780 --> 00:03:49,030
+of these manifolds
+
+91
+00:03:53,280 --> 00:03:51,790
+we are working with flight heritage 50
+
+92
+00:03:55,199 --> 00:03:53,290
+micro liter pumps and solenoid valves
+
+93
+00:03:57,449 --> 00:03:55,209
+and the integration of these manifolds
+
+94
+00:03:59,190 --> 00:03:57,459
+is down on the scale of inches so each
+
+95
+00:04:02,729 --> 00:03:59,200
+one of these manifolds is about 5 inches
+
+96
+00:04:06,930 --> 00:04:02,739
+by 5 inches and it's a weight is only
+
+97
+00:04:08,789 --> 00:04:06,940
+about half of a kilogram so previous
+
+98
+00:04:11,250 --> 00:04:08,799
+talks have kind of talked about some of
+
+99
+00:04:14,160 --> 00:04:11,260
+these capabilities that we have but one
+
+100
+00:04:16,289 --> 00:04:14,170
+of them is to go and connect to a sample
+101
+00:04:17,909 --> 00:04:16,299
+collector and to wet out that sample
+
+102
+00:04:20,099 --> 00:04:17,919
+collector and then retrieve all of the
+
+103
+00:04:22,290 --> 00:04:20,109
+particles from that collector to move
+
+104
+00:04:24,150 --> 00:04:22,300
+into the manifold with that we also have
+
+105
+00:04:27,680 --> 00:04:24,160
+the ability to concentrate these
+
+106
+00:04:30,060 --> 00:04:27,690
+particles on the order of 5 X
+
+107
+00:04:31,839 --> 00:04:30,070
+concentration from 35 microliters down
+
+108
+00:04:35,949 --> 00:04:31,849
+to 7 microliters within a 20 minute
+
+109
+00:04:37,139 --> 00:04:35,959
+span and as well as a number of other
+
+110
+00:04:40,949 --> 00:04:37,149
+autonomous
+
+111
+00:04:43,480 --> 00:04:40,959
+processes so specifically with the
+
+112
+00:04:46,989 --> 00:04:43,490
+autonomous development we've developed
+
+113
+00:04:49,929 --> 00:04:46,999
+flight hardware to control all of our
+
+114
+00:04:53,260 --> 00:04:49,939
+valves pumps etc to actually move these
+
+115
+00:04:55,659 --> 00:04:53,270
+samples where they need to go so some
+
+116
+00:04:57,489 --> 00:04:55,669
+routine functionality I'm we have dry
+
+117
+00:04:59,469 --> 00:04:57,499
+reagent storage on board as well as
+
+118
+00:05:01,869 --> 00:04:59,479
+bubble mitigation and pressure and
+
+119
+00:05:03,489 --> 00:05:01,879
+temperature sensing when I say routine
+
+120
+00:05:04,839 --> 00:05:03,499
+functionality I mean these aren't things
+
+121
+00:05:06,459 --> 00:05:04,849
+that are specialized but they are very
+
+122
+00:05:07,629 --> 00:05:06,469
+incredibly necessary for the sample
+
+123
+00:05:10,480 --> 00:05:07,639
+handling that we're trying to accomplish
+
+124
+00:05:12,939 --> 00:05:10,490
+out on Enceladus Europa deep space
+
+125
+00:05:17,019 --> 00:05:12,949
+missions dry reagent storage of course
+126
+00:05:18,399 --> 00:05:17,029
+it's very very powerful to have to
+
+127
+00:05:22,480 --> 00:05:18,409
+reduce your volumes inside of the
+
+128
+00:05:25,299 --> 00:05:22,490
+instrument eye as well as to have good
+
+129
+00:05:27,879 --> 00:05:25,309
+control of concentrations within your
+
+130
+00:05:29,259 --> 00:05:27,889
+manifold bubble mitigation we've had a
+
+131
+00:05:32,259 --> 00:05:29,269
+number of types of bubble traps which
+
+132
+00:05:35,589 --> 00:05:32,269
+we've all proved to work before but the
+
+133
+00:05:37,389 --> 00:05:35,599
+the nice improvement in slice 2.0 that
+
+134
+00:05:38,799 --> 00:05:37,399
+other manifolds haven't had is the
+
+135
+00:05:41,170 --> 00:05:38,809
+integrated pressure and temperature
+
+136
+00:05:45,399 --> 00:05:41,180
+sensing with the use of Honeywell
+
+137
+00:05:47,589 --> 00:05:45,409
+pressure sensors shown there so with dry
+
+138
+00:05:50,499 --> 00:05:47,599
+region storage what we've done is we've
+
+139
+00:05:52,869 --> 00:05:50,509
+taken these porous polymer monoliths and
+
+140
+00:05:54,429 --> 00:05:52,879
+actually dehydrated reagents onto the
+
+141
+00:05:56,350 --> 00:05:54,439
+monoliths and found that with
+
+142
+00:05:58,029 --> 00:05:56,360
+rehydration we can generally get back
+
+143
+00:05:59,889 --> 00:05:58,039
+about 90 percent of what we have put
+
+144
+00:06:02,379 --> 00:05:59,899
+onto the monolith to use for other
+
+145
+00:06:04,179 --> 00:06:02,389
+processes so we have a characterize
+
+146
+00:06:07,629 --> 00:06:04,189
+reconstitution of dry reagents from
+
+147
+00:06:09,309 --> 00:06:07,639
+absorbance measurements by using and but
+
+148
+00:06:11,739 --> 00:06:09,319
+we have characterized by using a single
+
+149
+00:06:13,659 --> 00:06:11,749
+point detector which takes absorbance
+
+150
+00:06:15,100 --> 00:06:13,669
+measurements so then see what's coming
+151
+00:06:19,659 --> 00:06:15,110
+off of the monoliths that we can
+
+152
+00:06:21,759 --> 00:06:19,669
+characterize and use so important to
+
+153
+00:06:23,739 --> 00:06:21,769
+this was the concentration control what
+
+154
+00:06:26,409 --> 00:06:23,749
+often happens with the dry reagent
+
+155
+00:06:28,629 --> 00:06:26,419
+storage is that as the reagent is
+
+156
+00:06:30,790 --> 00:06:28,639
+rehydrating especially if the kinetics
+
+157
+00:06:33,369 --> 00:06:30,800
+or the reagent are very quick you get a
+
+158
+00:06:36,040 --> 00:06:33,379
+very high concentration front and a very
+
+159
+00:06:37,570 --> 00:06:36,050
+low concentration tail so if you look
+
+160
+00:06:39,430 --> 00:06:37,580
+this concentration right here you can
+
+161
+00:06:41,409 --> 00:06:39,440
+see that on a normal on a regular
+
+162
+00:06:43,089 --> 00:06:41,419
+rehydration you start up with the
+
+163
+00:06:44,980 --> 00:06:43,099
+concentration that's at or above a
+
+164
+00:06:48,490 --> 00:06:44,990
+hundred percent that drops down to zero
+
+165
+00:06:52,420 --> 00:06:48,500
+but in the case of staining staining
+
+166
+00:06:53,980 --> 00:06:52,430
+cells staying any sort of materials that
+
+167
+00:06:55,719 --> 00:06:53,990
+we want with fluorescent tags and things
+
+168
+00:06:58,689 --> 00:06:55,729
+you really want a uniform concentration
+
+169
+00:07:02,409 --> 00:06:58,699
+that you can deliver to those samples to
+
+170
+00:07:04,170 --> 00:07:02,419
+be able to get the best to be able to
+
+171
+00:07:07,659 --> 00:07:04,180
+get the best fluorescence or the best
+
+172
+00:07:08,649 --> 00:07:07,669
+analysis of your samples and so the way
+
+173
+00:07:10,839 --> 00:07:08,659
+that we've done this is we've actually
+
+174
+00:07:13,350 --> 00:07:10,849
+developed a method for concentration
+
+175
+00:07:15,909 --> 00:07:13,360
+control by dilution additi so we use
+176
+00:07:18,309 --> 00:07:15,919
+irregular water dosing to take the
+
+177
+00:07:19,869 --> 00:07:18,319
+enriched flood front and turn it into a
+
+178
+00:07:24,180 --> 00:07:19,879
+uniform concentration that we can
+
+179
+00:07:27,550 --> 00:07:24,190
+deliver to your sample so another
+
+180
+00:07:31,149 --> 00:07:27,560
+another another use that we have found
+
+181
+00:07:32,409 --> 00:07:31,159
+and which in the case of dry reagent
+
+182
+00:07:34,270 --> 00:07:32,419
+storage is something that we have to
+
+183
+00:07:35,950 --> 00:07:34,280
+have but in the case of air gap
+
+184
+00:07:38,320 --> 00:07:35,960
+generation this is a feature that we do
+
+185
+00:07:41,290 --> 00:07:38,330
+we determined after the fact to be
+
+186
+00:07:44,050 --> 00:07:41,300
+useful for a process so ergo generation
+
+187
+00:07:45,339 --> 00:07:44,060
+is using our bubble traps reverse of the
+
+188
+00:07:47,559 --> 00:07:45,349
+way that they were meant to be used
+
+189
+00:07:50,019 --> 00:07:47,569
+so rather than capturing bubbles you are
+
+190
+00:07:51,999 --> 00:07:50,029
+now creating bubbles to create electric
+
+191
+00:07:54,159 --> 00:07:52,009
+isolation or could who create electrical
+
+192
+00:07:56,110 --> 00:07:54,169
+resistance inside of the manifold so in
+
+193
+00:07:58,959 --> 00:07:56,120
+the case of mass spec and there's high
+
+194
+00:08:01,029 --> 00:07:58,969
+voltage systems up to 20 kV that are
+
+195
+00:08:02,980 --> 00:08:01,039
+being employed in order to analyze the
+
+196
+00:08:06,100 --> 00:08:02,990
+sample and one of the concerns is then
+
+197
+00:08:08,170 --> 00:08:06,110
+worrying about the electrical components
+
+198
+00:08:10,930 --> 00:08:08,180
+that are on the manifold and so by
+
+199
+00:08:14,350 --> 00:08:10,940
+having a secondary protection against
+
+200
+00:08:17,499 --> 00:08:14,360
+those types of those types of voltage
+201
+00:08:20,019 --> 00:08:17,509
+output systems and we're helping prevent
+
+202
+00:08:24,219 --> 00:08:20,029
+you know mitigating risks basically
+
+203
+00:08:26,200 --> 00:08:24,229
+within our manifolds so the nice thing
+
+204
+00:08:27,879 --> 00:08:26,210
+about this air gap generation that we we
+
+205
+00:08:31,149 --> 00:08:27,889
+learned was that it didn't matter how
+
+206
+00:08:33,159 --> 00:08:31,159
+fast we created these air bubbles or how
+
+207
+00:08:34,930 --> 00:08:33,169
+slow or how fast we dispense them for
+
+208
+00:08:38,110 --> 00:08:34,940
+that matter we could get very very
+
+209
+00:08:40,029 --> 00:08:38,120
+consistent output for the displacement
+
+210
+00:08:42,430 --> 00:08:40,039
+that we wanted so if we pulled 5
+
+211
+00:08:43,240 --> 00:08:42,440
+microliters it didn't matter whether it
+
+212
+00:08:45,460 --> 00:08:43,250
+was up
+
+213
+00:08:46,780 --> 00:08:45,470
+50 microliters per second or 0.2 micro
+
+214
+00:08:48,850 --> 00:08:46,790
+liters per second we were always getting
+
+215
+00:08:53,800 --> 00:08:48,860
+a 5 micro liter bubble that we could use
+
+216
+00:08:56,680 --> 00:08:53,810
+for that secondary production so the
+
+217
+00:08:59,050 --> 00:08:56,690
+nice part is that in the in more recent
+
+218
+00:09:01,330 --> 00:08:59,060
+times the sensor development and contact
+
+219
+00:09:05,260 --> 00:09:01,340
+diocese specifically for sample
+
+220
+00:09:07,930 --> 00:09:05,270
+characterization and contact eysies have
+
+221
+00:09:10,210 --> 00:09:07,940
+a bad rap sometimes for being very
+
+222
+00:09:11,860 --> 00:09:10,220
+finicky um and I think this is something
+
+223
+00:09:14,560 --> 00:09:11,870
+that needs to do continue to be
+
+224
+00:09:16,510 --> 00:09:14,570
+developed as time goes on but what we've
+
+225
+00:09:19,260 --> 00:09:16,520
+done is we've actually developed or what
+226
+00:09:21,910 --> 00:09:19,270
+we found is that we can get pretty
+
+227
+00:09:22,870 --> 00:09:21,920
+consistent results from our excitation
+
+228
+00:09:24,640 --> 00:09:22,880
+and our occurrence when we're taking
+
+229
+00:09:29,440 --> 00:09:24,650
+conductivity measurements so
+
+230
+00:09:31,960 --> 00:09:29,450
+specifically below saturation a lot of
+
+231
+00:09:33,430 --> 00:09:31,970
+our we're able to take good measurements
+
+232
+00:09:34,720 --> 00:09:33,440
+on conductivity to make relative
+
+233
+00:09:37,840 --> 00:09:34,730
+assumptions about what's happening
+
+234
+00:09:39,790 --> 00:09:37,850
+inside I'm more development needs to be
+
+235
+00:09:41,050 --> 00:09:39,800
+done on this but one of the special
+
+236
+00:09:42,550 --> 00:09:41,060
+features has been the compact form
+
+237
+00:09:44,740 --> 00:09:42,560
+factor development where we've started
+
+238
+00:09:49,630 --> 00:09:44,750
+including multiple electrodes inside of
+
+239
+00:09:52,960 --> 00:09:49,640
+small diameter fittings so overall this
+
+240
+00:09:55,980 --> 00:09:52,970
+project has been sort of a maturation of
+
+241
+00:09:57,940 --> 00:09:55,990
+technologies and a furthering of
+
+242
+00:10:00,640 --> 00:09:57,950
+elements that we knew that worked before
+
+243
+00:10:04,180 --> 00:10:00,650
+but combined together to be able to move
+
+244
+00:10:07,240 --> 00:10:04,190
+this into an autonomous out IC world
+
+245
+00:10:08,680 --> 00:10:07,250
+situation and so in the process of
+
+246
+00:10:11,440 --> 00:10:08,690
+making these three manifolds what we've
+
+247
+00:10:13,090 --> 00:10:11,450
+seen is a reducing that reduction in
+
+248
+00:10:16,030 --> 00:10:13,100
+dead volume you know reduction in power
+
+249
+00:10:18,790 --> 00:10:16,040
+requirements improvement of the features
+
+250
+00:10:20,680 --> 00:10:18,800
+that we had need to be onto there the
+251
+00:10:23,079 --> 00:10:20,690
+increase in capabilities for temperature
+
+252
+00:10:24,730 --> 00:10:23,089
+monitoring as well as the increased
+
+253
+00:10:28,660 --> 00:10:24,740
+capabilities for dry reagent storage and
+
+254
+00:10:31,180 --> 00:10:28,670
+then the potential for IAC monitoring so
+
+255
+00:10:33,490 --> 00:10:31,190
+overall we have increasing experimental
+
+256
+00:10:35,350 --> 00:10:33,500
+capability and we have a transferable
+
+257
+00:10:37,540 --> 00:10:35,360
+technology development that could be
+
+258
+00:10:40,060 --> 00:10:37,550
+useful for any IC world mission let
+
+259
+00:10:41,740 --> 00:10:40,070
+alone any habitability characterization
+
+260
+00:10:46,340 --> 00:10:41,750
+mission that might be interested in any
+
+261
+00:10:51,269 --> 00:10:49,470
+so special thanks to your team Leah I
+
+262
+00:10:52,530 --> 00:10:51,279
+think Richard point is here today and
+
+263
+00:10:55,280 --> 00:10:52,540
+he'll be giving a talk later this week
+
+264
+00:10:58,440 --> 00:10:55,290
+and this was funded in part by NASA for
+
+265
+00:11:01,949 --> 00:10:58,450
+constantly coltec program I am for more
+
+266
+00:11:20,460 --> 00:11:01,959
+information you can go to Tony Rico list
+
+267
+00:11:28,240 --> 00:11:24,070
+can your ph probe measure the ph of a
+
+268
+00:11:30,310 --> 00:11:28,250
+sample that's a few microliters yes
+
+269
+00:11:33,520 --> 00:11:30,320
+depending on what you mean by a few
+
+270
+00:11:35,620 --> 00:11:33,530
+microliters and the tendency of the
+
+271
+00:11:37,840 --> 00:11:35,630
+micro flow redesign is to use very very
+
+272
+00:11:39,730 --> 00:11:37,850
+small ICS and to use very very small
+
+273
+00:11:42,070 --> 00:11:39,740
+channels and so if your miniaturizing
+
+274
+00:11:50,140 --> 00:11:42,080
+everything that is what we're aiming to
