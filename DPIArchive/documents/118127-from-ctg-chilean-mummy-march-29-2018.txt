@@ -1,70 +1,98 @@
-{"collection": "UFO Files Data Archive", "created_utc": "2026-08-03T21:25:42Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 2, "preprocessing": "imagemagick 600dpi: plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 90271, "source_file": "DPIArchive/documents/118127-from-ctg-chilean-mummy-march-29-2018.pdf", "source_sha256": "3403a97ce40a686ae97237cf3c8efc5c29a94b222c7dc881793ccfd5c609d4fe"}
+{"created_utc": "2026-09-04T10:03:02Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 90271, "source_ctime_ns": 1788304108464547116, "source_file": "DPIArchive/documents/118127-from-ctg-chilean-mummy-march-29-2018.pdf", "source_mtime_ns": 1785540646450000000, "source_rel": "DPIArchive/documents/118127-from-ctg-chilean-mummy-march-29-2018.pdf", "source_sha256": "3403a97ce40a686ae97237cf3c8efc5c29a94b222c7dc881793ccfd5c609d4fe"}
 
-===== PAGE 1 =====
-{"alpha_words": 445, "chars": 2885, "method": "ocr", "page": 1, "variant": "plain-vision"}
-4
-From CTG_ (Cal Tech Geneticist) - March 29, 2018
-Once again, the credibility of that mummy article among professional molecular biologists is very low,
-because: (1) it sat out in the desert for >100 years, and (2) it shows lots of "novel" mutations not found
-in medical databases, which are therefore probably artefactual. They may not think the mummy is
-"alien", but they suspect that the paper is "wrong".
-Interestingly from a medical point of view, most of those critical mutations which Nolan cites seem to be
-heterozygous, or present on 1 chromosomal copy only (listed in his Supplemental Tables), which would
+From CTG (Cal Tech Geneticist) — March 29, 2018
+
+
+ Once again, the credibility of that mummy article among professional molecular
+                                                                                     biologists is very low,
+ because: (1) it sat out in the desert for >100 years, and (2) it shows lots of "novel"
+                                                                                        mutations not found
+ in medical databases, which are therefore probably artefactual. They may not
+                                                                                   think the mummy is
+ "alien", but they suspect that the paper is "wrong".
+
+Interestingly from a medical point of view, most of those critical mutations which Nolan
+                                                                                         cites seem to be
+heterozygous, or present on 1 chromosomal copy only (listed in his Supplemental Tables),
+                                                                                            which would
 be unusual for real mutations of developmental significance.
-Finally here is a technical note which you might not wish to read in detail, quite long and boring, but
-which can refute anyone who says that Dr. Nolan used a computer program to "prove" there was no
+
+Finally here is a technical note which you might not wish to read in detail, quite long and
+                                                                                            boring, but
+which can refute anyone who says that Dr. Nolan used a computer program to
+                                                                                  "prove" there was no
 DNA damage?
-Appendix 1. An indirect computer model of DNA damage was used by the Chilean mummy researchers:
+
+
+Appendix 1. An indirect computer model of DNA damage was used by the Chilean mummy
+                                                                                   researchers:
 what is it really telling us?
-The researchers who did full-genome sequencing on this small Chilean mummy used an indirect,
+
+The researchers who did full-genome sequencing on this small Chilean mummy used an
+                                                                                              indirect,
 statistical approach to estimate damage to the DNA bases in their 300 bp, partly-degraded sample:
-namely a computer program called "mapDamage2.0". This program measures variations of base
-sequence, away from mean values, near the two ends of any 101 bp sequence-read. Such variations
+namely a computer program called "mapDamagez.0". This program measures variations of base
+sequence, away from mean values, near the two ends of any 101by sequence-read. Such variations
 come about partly because damaged (or deaminated) cytosine C bases may become converted to
 thymine T by polymerase-reading errors. One or more C-to-T transitions near the end of a PCR product
 may reduce its efficiency of ligating to a synthetic linker used later in sequencing, if that double-helical
 end becomes too AT-rich.
-We can see typically an excess of false C-to-T transitions near any 5' end, and false G-to-A transitions
-near any 3' end (see their Figure S1, lower part). The researchers of that small Chilean mummy did try to
-exclude some artefactual biases due to DNA damage from their final sequenced database, close to the
-two ends of any 101 bp sequence-read. Thus they "trimmed off" non-random sequence biases there of
-about 2% on each end. The program "mapDamage2.0" also suggested, for their final sequenced
-database, statistical estimates of C deamination as 2% near the ends of any 101 bp sequence-read, or
-1% near their centres (meaning 1 altered base in every 50 or 100 bp respectively).
-This program offers a fine way for researchers of ancient DNA to estimate approximately how
-"damaged" their DNA samples might be, by looking for artefactual biases of sequence away from
-random in large datasets. It also helps researchers to "trim away" some obvious sequencing artefacts
-near each end of any 101 bp, product. Yet the slow, age-related deamination of C bases in ancient DNA
-may come about in two ways. Firstly because each end of a 300 bp mummy DNA fragment may have
 
-===== PAGE 2 =====
-{"alpha_words": 343, "chars": 2290, "method": "ocr", "page": 2, "variant": "plain-vision"}
-extended or frayed into a single-stranded form, which makes C bases there more exposed to damage.
-Secondly, because other internal parts of a 300 bp mummy fragment may have become chemically
-damaged in some way.
-Even if we sequence some particular DNA strand 10 times over in excess, and trim away the two ends of
-wherever that 101 bp sequence might begin or end, still certain sequence errors will take place when
-deaminated C is copied to T in PCR, no matter where that might happen. The damaged base
-deaminated-C will be "read" by the polymerase as "U". There is no way to avoid this, except by treating
-the original genomic sample with an enzyme such as UNG before PCR and sequencing. You cannot
-remove DNA base damage by "trimming".
-The very process of breaking down a long DNA double helix into small fragments of mean size 300 bp
-involves chemical damage to its A or G bases (called "depurination"). So we can be fairly sure that
-significant chemical damage to the DNA bases has taken place within this small Chilean mummy, which
-lay exposed in the desert for 100-500 years! Both to its A or G bases ("depurination") and also to its C
-bases ("deamination").
-Why not measure such patterns of chemical damage directly to find out for sure? As opposed to all of
-these indirect measures, one could simply label the 5' or 3' ends of those 300 bp mummy DNA
-fragments with a fluorescent or radioactive marker, treat the labelled sample with an enzyme UNG, high
-heat, or other strand-breaking-at-damaged-base conditions, then look by gel or capillary electrophoresis
-to see whether the mean single-stranded length of that mummy sample was reduced? Such a quick and
-easy experiment would provide a direct measure of whether those 300 bp mummy DNA fragments were
-significantly damaged by C deamination. Yet no experiment of this kind was reported, despite many
-"novel" mutations being found in their final sequenced database, and being given great significance by
-bioinformatics strategies.
-Jonsson et al., "mapDamage2.O: fast approximate Bayesian estimates of ancient DNA damage
-parameters", Bioinformatics 29, 1682-1684, 2012)
-Seguin-Orlando et al., "Ligation bias in lllumina Next-Generation Libraries: implications for sequencing
-ancient genomes", PLOS ONE 8 (10), e78575, 2013.
-THE END
--
+We can see typically an excess of false C-to-T transitions near any 5' end, and false G-to-A transitions
+near any 3' end (see their Figure Si, lower part). The researchers of that small Chilean mummy did try to
+exclude some artefactual biases due to DNA damage from their final sequenced database, close to the
+two ends of any 101by sequence-read. Thus they "trimmed off' non-random sequence biases there of
+about 2% on each end. The program "mapDamage2.0" also suggested, for their final sequenced
+database, statistical estimates of C deamination as 2% near the ends of any 101by sequence-read, or
+1% near their centres (meaning 1 altered base in every 50 or 100 by respectively).
+
+                                                                  estimate approximately how
+This program offers a fine way for researchers of ancient DNA to
+                                                                    biases of sequence away from
+"damaged" their DNA samples might be, by looking for artefactual
+                                        researchers to "trim away" some obvious sequencing artefacts
+random in large datasets. ft also helps
+                              product. Yet the slow, age-related deamination of C bases in ancient DNA
+near each end of any 101by\
+                                                                              DNA fragment may have
+      come about in two ways. Firstly because each end of a 300 by mummy
+ may
+    S.
+
+
+         extended or frayed into a single-stranded form, which makes C bases there more exposed to damage.
+         Secondly, because other internal parts of a 300 by mummy fragment may have become chemically
+         damaged in some way.
+
+         Even if we sequence some particular DNA strand 10 times over in excess, and trim away the two ends of
+         wherever that 101 by sequence might begin or end, still certain sequence errors will take place when
+         deaminated C is copied to Tin PCR, no matter where that might happen. The damaged base
+         deaminated-C will be "read" by the polymerase as "U". There is no way to avoid this, except by treating
+         the original genomic sample with an enzyme such as UNG before PCR and sequencing. You cannot
+         remove DNA base damage by "trimming".
+
+         The very process of breaking down a long DNA double helix into small fragments of mean size 300 by
+         involves chemical damage to its A or G bases (called "depurination"). So we can be fairly sure that
+         significant chemical damage to the DNA bases has taken place within this small Chilean mummy, which
+         lay exposed in the desert for 100-500 yearsl Both to its A or G bases ("depurination") and also to its C
+         bases ("deamination").
+
+         Why not measure such patterns of chemical damage directly to find out for sure? As opposed to all of
+         these indirect measures, one could simply label the 5' or 3' ends of those 300 by mummy DNA
+         fragments with a fluorescent or radioactive marker, treat the labelled sample with an enzyme UNG, high
+         heat, or other strand-breaking-at-damaged-base conditions, then look by gel or capillary electrophoresis
+         to see whether the mean single-stranded length of that mummy sample was reduced? Such a quick and
+         easy experiment would provide a direct measure of whether those 300 by mummy DNA fragments were
+         significantly damaged by C deamination. Yet no experiment of this kind was reported, despite many
+         "novel" mutations being found in their final sequenced database, and being given great significance by
+         bioinformatics strategies.
+
+I
+         Jonsson et al., "mapDamage2.0: fast approximate Bayesian estimates of ancient DNA damage
+         parameters", Bioinformatics 29,1682-1684, 2012)
+
+                                                                                                       sequencing
+         Seguin-Orlando et al., "Ligation bias in Iilumina Next-Generation Libraries: implications for
+         ancient genomes", PLoS ONE 8 (10), e78575, 2013.
+
+         THE END
