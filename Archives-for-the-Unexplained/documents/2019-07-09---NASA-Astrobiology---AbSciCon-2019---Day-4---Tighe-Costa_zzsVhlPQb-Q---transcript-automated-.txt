@@ -1,0 +1,1312 @@
+{"created_utc": "2026-09-05T21:09:55Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 80391, "source_ctime_ns": 1788586518135168816, "source_file": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-4---Tighe-Costa_zzsVhlPQb-Q---transcript-automated-.pdf", "source_mtime_ns": 1788586518132659459, "source_rel": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-4---Tighe-Costa_zzsVhlPQb-Q---transcript-automated-.pdf", "source_sha256": "166f021c5baca86dda88400f9f09d91185b6506807ae6b9e8853878c594913a4"}
+
+1
+00:00:00,790 --> 00:00:07,320
+[Music]
+
+2
+00:00:12,859 --> 00:00:09,369
+[Applause]
+
+3
+00:00:14,900 --> 00:00:12,869
+good morning my name is Tai Casas I'm
+
+4
+00:00:16,400 --> 00:00:14,910
+here from Pasadena on behalf of honeybee
+
+5
+00:00:19,189 --> 00:00:16,410
+robotics the exploration technologies
+
+6
+00:00:21,589 --> 00:00:19,199
+group chrissa's in Greenland so I'm
+
+7
+00:00:23,529 --> 00:00:21,599
+doing the talk instead of him so today
+
+8
+00:00:25,490 --> 00:00:23,539
+I'm going to be talking to you about a
+
+9
+00:00:28,400 --> 00:00:25,500
+conceptual design of a probe for
+
+10
+00:00:30,259 --> 00:00:28,410
+penetrating through Europa's crust this
+
+11
+00:00:31,880 --> 00:00:30,269
+is an exercise in architecting a
+
+12
+00:00:35,060 --> 00:00:31,890
+solution that is just out of reach of
+
+13
+00:00:36,590 --> 00:00:35,070
+current technologies and but but those
+
+14
+00:00:37,970 --> 00:00:36,600
+technologies are just on the horizon so
+
+15
+00:00:39,920 --> 00:00:37,980
+it allows us to look ahead and sort of
+
+16
+00:00:42,170 --> 00:00:39,930
+direct our development efforts as we
+
+17
+00:00:45,139 --> 00:00:42,180
+move forward so here you can see a
+
+18
+00:00:47,630 --> 00:00:45,149
+section view of this conceptual vehicle
+
+19
+00:00:50,900 --> 00:00:47,640
+it is literally built around the probe
+
+20
+00:00:54,250 --> 00:00:50,910
+the probe is a 5 meter long 60
+
+21
+00:00:56,540 --> 00:00:54,260
+centimeter diameter self-contained
+
+22
+00:00:59,470 --> 00:00:56,550
+vehicle essentially for going through
+
+23
+00:01:02,119 --> 00:00:59,480
+the 15 kilometers of ice the fundamental
+
+24
+00:01:04,279 --> 00:01:02,129
+approach is a thermal mechanical
+
+25
+00:01:08,690 --> 00:01:04,289
+approach for drilling through the crust
+26
+00:01:10,790 --> 00:01:08,700
+of the the crust of the surface so about
+
+27
+00:01:11,990 --> 00:01:10,800
+that crust as you guys all know because
+
+28
+00:01:14,740 --> 00:01:12,000
+you're in the ocean world's technology
+
+29
+00:01:17,419 --> 00:01:14,750
+section there are three different layers
+
+30
+00:01:19,490 --> 00:01:17,429
+the brittle layer the ductile layer and
+
+31
+00:01:21,559 --> 00:01:19,500
+the ocean and while we don't really know
+
+32
+00:01:24,350 --> 00:01:21,569
+how thick the ice is exactly and it
+
+33
+00:01:26,089 --> 00:01:24,360
+varies over the surface we estimate
+
+34
+00:01:27,740 --> 00:01:26,099
+about 15 kilometers although it could be
+
+35
+00:01:30,199 --> 00:01:27,750
+as much as about 40 kilometers thick of
+
+36
+00:01:32,270 --> 00:01:30,209
+ice so there are some considerable
+
+37
+00:01:33,889 --> 00:01:32,280
+challenges with getting through this ice
+
+38
+00:01:35,749 --> 00:01:33,899
+crust as you can imagine the first one
+
+39
+00:01:38,389 --> 00:01:35,759
+being how the heck do you even get
+
+40
+00:01:40,070 --> 00:01:38,399
+through 15 kilometers of ice I don't
+
+41
+00:01:43,219 --> 00:01:40,080
+know if I drill long enough to do that
+
+42
+00:01:44,839 --> 00:01:43,229
+and then also how do you power the probe
+
+43
+00:01:46,729 --> 00:01:44,849
+as it's going through the ice how do you
+
+44
+00:01:48,290 --> 00:01:46,739
+make sure that it has energy as it
+
+45
+00:01:50,089 --> 00:01:48,300
+drills and then finally how do you
+
+46
+00:01:51,589 --> 00:01:50,099
+communicate with it on its journey so
+
+47
+00:01:53,570 --> 00:01:51,599
+how do you make sure that you can get
+
+48
+00:01:55,609 --> 00:01:53,580
+telemetry back and get science back etc
+
+49
+00:01:58,430 --> 00:01:55,619
+so this talk is going to be focused on
+
+50
+00:01:59,869 --> 00:01:58,440
+how to penetrate through or a drilling
+51
+00:02:03,260 --> 00:01:59,879
+and sampling company so this is sort of
+
+52
+00:02:04,400 --> 00:02:03,270
+our core competency but yeah so let's
+
+53
+00:02:06,199 --> 00:02:04,410
+start with a couple different deep
+
+54
+00:02:08,240 --> 00:02:06,209
+drilling approaches this is a pretty
+
+55
+00:02:10,669 --> 00:02:08,250
+dense chart but I'm gonna have you focus
+
+56
+00:02:12,680 --> 00:02:10,679
+on slush which is obviously the subject
+
+57
+00:02:16,610 --> 00:02:12,690
+of my presentation it combines some of
+
+58
+00:02:19,009 --> 00:02:16,620
+the pros of the two main different types
+
+59
+00:02:20,630 --> 00:02:19,019
+of penetrating through ice mechanical
+
+60
+00:02:21,940 --> 00:02:20,640
+which is drilling like you have at your
+
+61
+00:02:23,260 --> 00:02:21,950
+household drill and thermal
+
+62
+00:02:25,210 --> 00:02:23,270
+which is basically taking something
+
+63
+00:02:29,110 --> 00:02:25,220
+super hot and just pushing it through
+
+64
+00:02:32,140 --> 00:02:29,120
+the ice so the the sort of issues with
+
+65
+00:02:33,550 --> 00:02:32,150
+thermal of having trouble penetrating
+
+66
+00:02:36,220 --> 00:02:33,560
+through things that it can't melt
+
+67
+00:02:38,740 --> 00:02:36,230
+through obviously are of concern because
+
+68
+00:02:40,390 --> 00:02:38,750
+there are salts in the ice there are
+
+69
+00:02:42,729 --> 00:02:40,400
+salt layers we may come across like
+
+70
+00:02:45,190 --> 00:02:42,739
+different sedimentation stuff like that
+
+71
+00:02:46,509 --> 00:02:45,200
+but it's really robust and it's nice
+
+72
+00:02:48,070 --> 00:02:46,519
+because you don't have a lot of moving
+
+73
+00:02:49,390 --> 00:02:48,080
+parts whereas on the mechanical side you
+
+74
+00:02:50,589 --> 00:02:49,400
+have a lot of moving parts you need
+
+75
+00:02:52,119 --> 00:02:50,599
+rotary percussive we're talking about
+76
+00:02:54,479 --> 00:02:52,129
+drilling for something like three years
+
+77
+00:02:58,839 --> 00:02:54,489
+so you need a system that's like pretty
+
+78
+00:03:00,729 --> 00:02:58,849
+last for a pretty long time and what we
+
+79
+00:03:02,350 --> 00:03:00,739
+tried to do was take some of the things
+
+80
+00:03:04,630 --> 00:03:02,360
+from the best of both worlds and combine
+
+81
+00:03:06,910 --> 00:03:04,640
+them into a single architecture so we
+
+82
+00:03:08,890 --> 00:03:06,920
+approach this by doing sort of a
+
+83
+00:03:11,110 --> 00:03:08,900
+scaled-down version of the probe testing
+
+84
+00:03:12,789 --> 00:03:11,120
+this is a picture of the instrumented
+
+85
+00:03:15,280 --> 00:03:12,799
+drilling testbed that we use you may
+
+86
+00:03:17,170 --> 00:03:15,290
+recognize that drill from an early as an
+
+87
+00:03:18,280 --> 00:03:17,180
+earlier TRL version of the Arad's drill
+
+88
+00:03:21,660 --> 00:03:18,290
+that's popped up in a couple other
+
+89
+00:03:26,500 --> 00:03:21,670
+posters around here and essentially we
+
+90
+00:03:29,020 --> 00:03:26,510
+designed a probe that is about 18 mean
+
+91
+00:03:30,940 --> 00:03:29,030
+18 inches long the first four inches of
+
+92
+00:03:34,330 --> 00:03:30,950
+which is a rotating drill bit with an
+
+93
+00:03:36,280 --> 00:03:34,340
+auger and then the last 14 inches is the
+
+94
+00:03:37,599 --> 00:03:36,290
+cylinder behind it is on bearing so that
+
+95
+00:03:39,340 --> 00:03:37,609
+it doesn't rotate through the ice so the
+
+96
+00:03:41,620 --> 00:03:39,350
+idea is that simulates the sort of
+
+97
+00:03:44,800 --> 00:03:41,630
+rotating cutting head at the front of
+
+98
+00:03:46,390 --> 00:03:44,810
+the probe and the stationary body that
+
+99
+00:03:48,660 --> 00:03:46,400
+holds things like avionics and the
+
+100
+00:03:51,280 --> 00:03:48,670
+tether and whatnot that follows behind
+101
+00:03:52,720 --> 00:03:51,290
+I'm going to show you two videos I just
+
+102
+00:03:53,979 --> 00:03:52,730
+learned that actually I rotated the
+
+103
+00:03:55,960 --> 00:03:53,989
+videos the wrong direction so they're
+
+104
+00:03:59,979 --> 00:03:55,970
+gonna pop up sideways but bear with me
+
+105
+00:04:01,840 --> 00:03:59,989
+here um on the left is a video of yeah
+
+106
+00:04:04,270 --> 00:04:01,850
+that's that's a that's one way of doing
+
+107
+00:04:08,860 --> 00:04:04,280
+it on the left is a video of sloshing
+
+108
+00:04:11,710 --> 00:04:08,870
+through ice at 240 C 240 Kelvin scuse me
+
+109
+00:04:13,089 --> 00:04:11,720
+it is just water ice this is how we sort
+
+110
+00:04:14,530 --> 00:04:13,099
+of did a lot of our baseline tests I'm
+
+111
+00:04:16,870 --> 00:04:14,540
+going to replay that for you and what I
+
+112
+00:04:19,270 --> 00:04:16,880
+want you to know is how watery it is so
+
+113
+00:04:22,029 --> 00:04:19,280
+this is sort of a flushing approach that
+
+114
+00:04:23,350 --> 00:04:22,039
+favors the thermal side of things so
+
+115
+00:04:25,300 --> 00:04:23,360
+when you're actually melting most of the
+
+116
+00:04:27,040 --> 00:04:25,310
+chips that you generate this is nice
+
+117
+00:04:28,330 --> 00:04:27,050
+because it handles the chip transport
+
+118
+00:04:30,279 --> 00:04:28,340
+issues that you have when you have to
+
+119
+00:04:31,570 --> 00:04:30,289
+like actively move dried chips from the
+
+120
+00:04:33,190 --> 00:04:31,580
+front to the back of the probe and
+
+121
+00:04:34,630 --> 00:04:33,200
+recompress them but it's obviously not
+
+122
+00:04:35,220 --> 00:04:34,640
+very energy-efficient because you're
+
+123
+00:04:36,780 --> 00:04:35,230
+just melting
+
+124
+00:04:40,680 --> 00:04:36,790
+in the same way that you would with a
+
+125
+00:04:43,020 --> 00:04:40,690
+mel probe so this other video also
+126
+00:04:45,240 --> 00:04:43,030
+sideways is a much better balanced
+
+127
+00:04:47,580 --> 00:04:45,250
+version of the thermal and mechanical
+
+128
+00:04:49,320 --> 00:04:47,590
+power so you're only partially melting
+
+129
+00:04:50,940 --> 00:04:49,330
+the chips so it helps facilitate the
+
+130
+00:04:52,410 --> 00:04:50,950
+transport along the probe you actually
+
+131
+00:04:53,880 --> 00:04:52,420
+can take advantage of the environmental
+
+132
+00:04:55,290 --> 00:04:53,890
+conditions to refreeze to the same
+
+133
+00:04:57,330 --> 00:04:55,300
+density behind you so you don't get
+
+134
+00:04:59,280 --> 00:04:57,340
+stuck however you don't use nearly as
+
+135
+00:05:02,490 --> 00:04:59,290
+much energy to actually get through all
+
+136
+00:05:04,320 --> 00:05:02,500
+of the all of the material so sort of at
+
+137
+00:05:06,630 --> 00:05:04,330
+a high level um we wanted to do
+
+138
+00:05:07,860 --> 00:05:06,640
+apples-to-apples testing saying what is
+
+139
+00:05:10,350 --> 00:05:07,870
+the difference between just melting
+
+140
+00:05:12,810 --> 00:05:10,360
+flushing with a more optimized system
+
+141
+00:05:14,220 --> 00:05:12,820
+and just drilling so you can see the
+
+142
+00:05:15,870 --> 00:05:14,230
+difference in the kind of chips that we
+
+143
+00:05:17,850 --> 00:05:15,880
+make on the left you can see the big
+
+144
+00:05:19,350 --> 00:05:17,860
+puddle of water that comes from just
+
+145
+00:05:21,570 --> 00:05:19,360
+melting so this was turning on heat on
+
+146
+00:05:23,910 --> 00:05:21,580
+the drill not rotating in the center is
+
+147
+00:05:25,380 --> 00:05:23,920
+the combination from a reasonably well
+
+148
+00:05:27,960 --> 00:05:25,390
+balanced slushing just and on the right
+
+149
+00:05:30,300 --> 00:05:27,970
+is a pure drilling test so drilling as
+
+150
+00:05:31,950 --> 00:05:30,310
+you would normally with no he you can
+151
+00:05:34,350 --> 00:05:31,960
+see how powdery those cuttings are how
+
+152
+00:05:36,870 --> 00:05:34,360
+they bind up actually that caused us to
+
+153
+00:05:38,400 --> 00:05:36,880
+get stuck only shortly after the probe
+
+154
+00:05:39,840 --> 00:05:38,410
+body entered the ice because we weren't
+
+155
+00:05:41,520 --> 00:05:39,850
+actively transporting chips that's sort
+
+156
+00:05:43,130 --> 00:05:41,530
+of what we anticipated and the problem
+
+157
+00:05:47,190 --> 00:05:43,140
+we're trying to solve with the solution
+
+158
+00:05:50,310 --> 00:05:47,200
+so this is a chart that summarizes the
+
+159
+00:05:52,380 --> 00:05:50,320
+testing that we've done so far so each
+
+160
+00:05:54,240 --> 00:05:52,390
+of these groups of three bars represents
+
+161
+00:05:55,890 --> 00:05:54,250
+a different method the bar on the left
+
+162
+00:05:57,750 --> 00:05:55,900
+is the specific energy which is
+
+163
+00:06:00,180 --> 00:05:57,760
+essentially how much energy per cc you
+
+164
+00:06:02,460 --> 00:06:00,190
+need to excavate some of the ice the bar
+
+165
+00:06:04,440 --> 00:06:02,470
+in the middle is the power so the power
+
+166
+00:06:06,930 --> 00:06:04,450
+consumption and then on the right is our
+
+167
+00:06:08,790 --> 00:06:06,940
+AP or rate of penetration so you can see
+
+168
+00:06:10,440 --> 00:06:08,800
+that to draw your attention to the
+
+169
+00:06:12,120 --> 00:06:10,450
+leftmost bars first we're looking at
+
+170
+00:06:14,190 --> 00:06:12,130
+approximately an order of magnitude
+
+171
+00:06:16,830 --> 00:06:14,200
+difference between the specific energies
+
+172
+00:06:18,450 --> 00:06:16,840
+of melting slushing and drilling note
+
+173
+00:06:20,130 --> 00:06:18,460
+that the y-axis on the left is
+
+174
+00:06:22,230 --> 00:06:20,140
+logarithmic and the y-axis on the right
+
+175
+00:06:25,140 --> 00:06:22,240
+is linear it was the best way of
+176
+00:06:26,010 --> 00:06:25,150
+condensing us into one chart so you can
+
+177
+00:06:28,710 --> 00:06:26,020
+see the sort of order of magnitude
+
+178
+00:06:30,330 --> 00:06:28,720
+differences in the specific energy but
+
+179
+00:06:31,860 --> 00:06:30,340
+you also will notice how the power
+
+180
+00:06:34,260 --> 00:06:31,870
+difference between melting and slushing
+
+181
+00:06:36,030 --> 00:06:34,270
+really isn't all that different so why
+
+182
+00:06:38,190 --> 00:06:36,040
+is that how can we have such lower power
+
+183
+00:06:39,930 --> 00:06:38,200
+I'm coming up such lower energy than we
+
+184
+00:06:41,880 --> 00:06:39,940
+can that when we're using some more
+
+185
+00:06:43,380 --> 00:06:41,890
+power it's because we go way faster so
+
+186
+00:06:45,270 --> 00:06:43,390
+we were penetrating through ice maybe
+
+187
+00:06:47,250 --> 00:06:45,280
+five to 10 times faster because we have
+
+188
+00:06:48,750 --> 00:06:47,260
+this active drilling approach so we just
+
+189
+00:06:50,850 --> 00:06:48,760
+need less energy overall
+
+190
+00:06:53,460 --> 00:06:50,860
+and you can see that on the right the
+
+191
+00:06:55,440 --> 00:06:53,470
+drilling specific energy is even lower
+
+192
+00:06:57,120 --> 00:06:55,450
+by about another order of magnitude and
+
+193
+00:06:59,310 --> 00:06:57,130
+it's because we can go super super fast
+
+194
+00:07:00,960 --> 00:06:59,320
+when the whole drill is spinning so when
+
+195
+00:07:02,790 --> 00:07:00,970
+the whole probe is turning in ice and
+
+196
+00:07:05,430 --> 00:07:02,800
+excavating chips we can move really
+
+197
+00:07:06,870 --> 00:07:05,440
+quick but the issue of course is you can
+
+198
+00:07:08,520 --> 00:07:06,880
+tell by the Asterix next to drilling
+
+199
+00:07:10,710 --> 00:07:08,530
+the issue of course is that we don't
+
+200
+00:07:12,720 --> 00:07:10,720
+handle the chips so once you create all
+201
+00:07:14,610 --> 00:07:12,730
+this fluffy powder there's like what we
+
+202
+00:07:16,440 --> 00:07:14,620
+call a fluff factor basically how much
+
+203
+00:07:18,810 --> 00:07:16,450
+more the volume of the Powder consumes
+
+204
+00:07:20,850 --> 00:07:18,820
+than the actual bulk material and it's
+
+205
+00:07:23,250 --> 00:07:20,860
+bigger I mean powders fluffier than ice
+
+206
+00:07:24,750 --> 00:07:23,260
+so you need to make sure that behind the
+
+207
+00:07:26,220 --> 00:07:24,760
+probe when these chips move past you
+
+208
+00:07:30,750 --> 00:07:26,230
+your recompressing to the same density
+
+209
+00:07:32,640 --> 00:07:30,760
+or you basically get stuck and so we saw
+
+210
+00:07:35,910 --> 00:07:32,650
+the slushing as a nice sort of balance
+
+211
+00:07:38,190 --> 00:07:35,920
+between both the approaches of thermal
+
+212
+00:07:39,750 --> 00:07:38,200
+and mechanical drilling as well as the
+
+213
+00:07:42,960 --> 00:07:39,760
+power consumptions between the two of
+
+214
+00:07:44,850 --> 00:07:42,970
+them so this is a sort of section view
+
+215
+00:07:46,050 --> 00:07:44,860
+of the probe at a very high level I'm
+
+216
+00:07:49,140 --> 00:07:46,060
+just going to point out a couple things
+
+217
+00:07:51,870 --> 00:07:49,150
+the bottom of the probe in the hot
+
+218
+00:07:54,390 --> 00:07:51,880
+section is what it is where we have a
+
+219
+00:07:57,330 --> 00:07:54,400
+killer power reactor baselined for the
+
+220
+00:07:58,860 --> 00:07:57,340
+baseline for the mission the rear part
+
+221
+00:08:00,630 --> 00:07:58,870
+where the avionics and tether and
+
+222
+00:08:03,480 --> 00:08:00,640
+batteries live is cold they're separated
+
+223
+00:08:05,940 --> 00:08:03,490
+by a radiation shield you can see that
+
+224
+00:08:08,310 --> 00:08:05,950
+we also have these detachable tether
+
+225
+00:08:09,750 --> 00:08:08,320
+spools with wireless communication at
+226
+00:08:13,020 --> 00:08:09,760
+the back of the probe so the idea is
+
+227
+00:08:14,490 --> 00:08:13,030
+that if we come across as we're spooling
+
+228
+00:08:16,410 --> 00:08:14,500
+out if we come across something like a
+
+229
+00:08:18,720 --> 00:08:16,420
+water body or whatever we can detach and
+
+230
+00:08:20,940 --> 00:08:18,730
+use acoustic or RF instead of sorry we
+
+231
+00:08:22,620 --> 00:08:20,950
+can use acoustic instead of just a
+
+232
+00:08:24,750 --> 00:08:22,630
+tether to sort of make it across and
+
+233
+00:08:26,010 --> 00:08:24,760
+that way if we see like shifting of the
+
+234
+00:08:27,750 --> 00:08:26,020
+ice crust or something like that we can
+
+235
+00:08:29,630 --> 00:08:27,760
+screw leave a tether where it is use
+
+236
+00:08:31,620 --> 00:08:29,640
+wireless to jump between two repeaters
+
+237
+00:08:33,660 --> 00:08:31,630
+but since that's not the point of my
+
+238
+00:08:36,570 --> 00:08:33,670
+talk right now I'm going to jump into a
+
+239
+00:08:37,920 --> 00:08:36,580
+little promo video that we made to try
+
+240
+00:08:59,430 --> 00:08:37,930
+and get people excited about this
+
+241
+00:09:22,800 --> 00:09:16,760
+[Music]
+
+242
+00:09:28,020 --> 00:09:25,950
+and then finally the reason I'm up here
+
+243
+00:09:30,270 --> 00:09:28,030
+and Chris isn't is because he is
+
+244
+00:09:32,100 --> 00:09:30,280
+currently in Greenland testing a
+
+245
+00:09:34,500 --> 00:09:32,110
+prototype of the slush system so this is
+
+246
+00:09:36,450 --> 00:09:34,510
+a version of it that's actually a coring
+
+247
+00:09:38,220 --> 00:09:36,460
+drill instead of a full slushing so it's
+
+248
+00:09:39,810 --> 00:09:38,230
+pure mechanical and they're removing the
+
+249
+00:09:41,460 --> 00:09:39,820
+cores every time they drill down the
+
+250
+00:09:43,140 --> 00:09:41,470
+certain depth I'm so slightly different
+251
+00:09:44,670 --> 00:09:43,150
+architecture but the self-contained
+
+252
+00:09:48,390 --> 00:09:44,680
+probe idea and a lot of the technologies
+
+253
+00:09:50,070 --> 00:09:48,400
+are pretty analogous and they drilled on
+
+254
+00:09:52,200 --> 00:09:50,080
+June 14th actually just the other day
+
+255
+00:09:54,870 --> 00:09:52,210
+they made it down to 111 meters deep in
+
+256
+00:09:57,630 --> 00:09:54,880
+in Greenland ice and this is them on the
+
+257
+00:10:00,180 --> 00:09:57,640
+bottom righthand celebrating with a hot
+
+258
+00:10:04,770 --> 00:10:00,190
+toddy made with some old ice cores so in
+
+259
+00:10:07,470 --> 00:10:04,780
+conclusion so in conclusion there is a
+
+260
+00:10:09,060 --> 00:10:07,480
+bunch of reasons why mechanical and
+
+261
+00:10:11,550 --> 00:10:09,070
+thermal have advantages in terms of
+
+262
+00:10:13,650 --> 00:10:11,560
+robustness and in terms of complexity
+
+263
+00:10:15,450 --> 00:10:13,660
+and in terms of the materials that they
+
+264
+00:10:18,450 --> 00:10:15,460
+can cut through but we really think that
+
+265
+00:10:20,550 --> 00:10:18,460
+moving forward with slush is a good is a
+
+266
+00:10:22,560 --> 00:10:20,560
+good is a good high-level approach as we
+
+267
+00:10:24,030 --> 00:10:22,570
+start to conceptualize what a probe that
+
+268
+00:10:27,150 --> 00:10:24,040
+would be able to go through 15
+
+269
+00:10:29,030 --> 00:10:27,160
+kilometers of cryogenic and warm ice on
+
+270
+00:10:33,270 --> 00:10:29,040
+Europa would actually have to look like
+
+271
+00:10:40,920 --> 00:10:33,280
+so with that I'd like to open it up to
+
+272
+00:10:43,080 --> 00:10:40,930
+any questions thanks Dino we've got a
+
+273
+00:10:53,490 --> 00:10:43,090
+time for a question if you want to come
+
+274
+00:10:55,560 --> 00:10:53,500
+to the microphone we did it in about I
+
+275
+00:11:00,330 --> 00:10:55,570
+think it was 5 days from when we started
+276
+00:11:02,220 --> 00:11:00,340
+drilling I don't think they were working
+
+277
+00:11:15,850 --> 00:11:02,230
+24/7 though so I can't actually tell you
+
+278
+00:11:20,090 --> 00:11:18,170
+what difference is would it make when
+
+279
+00:11:20,420 --> 00:11:20,100
+you operate in vacuum this is the bottom
+
+280
+00:11:22,490 --> 00:11:20,430
+line
+
+281
+00:11:24,440 --> 00:11:22,500
+ah that's a really good question so at
+
+282
+00:11:26,540 --> 00:11:24,450
+the surface obviously the whole starting
+
+283
+00:11:29,000 --> 00:11:26,550
+is of challenge because you sublimate
+
+284
+00:11:30,790 --> 00:11:29,010
+all everything that you know and on
+
+285
+00:11:33,019 --> 00:11:30,800
+Europa that would mean that we have to
+
+286
+00:11:35,269 --> 00:11:33,029
+before we can start slushing and sort of
+
+287
+00:11:37,220 --> 00:11:35,279
+make taking advantage of this transport
+
+288
+00:11:38,840 --> 00:11:37,230
+method we would have to get fully buried
+
+289
+00:11:40,819 --> 00:11:38,850
+and ice so you would have to have the
+
+290
+00:11:43,250 --> 00:11:40,829
+top of the borehole crl over us
+
+291
+00:11:45,230 --> 00:11:43,260
+essentially once we're inside that's a
+
+292
+00:11:47,509 --> 00:11:45,240
+challenge that we are looking into right
+
+293
+00:11:50,240 --> 00:11:47,519
+now actually with these slush prototypes
+
+294
+00:11:51,530 --> 00:11:50,250
+we are trying to figure out do some
+
+295
+00:11:53,269 --> 00:11:51,540
+testing in our Mars chamber we have this
+
+296
+00:11:54,650 --> 00:11:53,279
+like cool like five meter chamber and
+
+297
+00:11:56,269 --> 00:11:54,660
+we're gonna pump it down and see what
+
+298
+00:11:57,290 --> 00:11:56,279
+happens when you start when you start
+
+299
+00:11:58,790 --> 00:11:57,300
+drilling there's also a lot of
+
+300
+00:12:00,410 --> 00:11:58,800
+challenges with a hole starting in terms
+301
+00:12:01,519 --> 00:12:00,420
+of thermal management and how you make
+
+302
+00:12:03,139 --> 00:12:01,529
+sure that you're actually directing as
+
+303
+00:12:04,610 --> 00:12:03,149
+much of the heat into the ice as
+
+304
+00:12:09,740 --> 00:12:04,620
+possible instead of just radiating out
+
+305
+00:12:12,290 --> 00:12:09,750
+the sides yeah last question do you need
+
+306
+00:12:14,329 --> 00:12:12,300
+to drill with the gravity vector or can
+
+307
+00:12:16,100 --> 00:12:14,339
+you drill up like to these technology
+
+308
+00:12:22,449 --> 00:12:16,110
+require the weight of the trailer um
+
+309
+00:12:25,310 --> 00:12:22,459
+that's also a very good question so this
+
+310
+00:12:27,500 --> 00:12:25,320
+the technology this technology requires
+
+311
+00:12:31,160 --> 00:12:27,510
+the gravity vector because we don't have
+
+312
+00:12:32,870 --> 00:12:31,170
+active transport in Lachie however these
+
+313
+00:12:34,370 --> 00:12:32,880
+anti torque features these anti torque
+
+314
+00:12:36,410 --> 00:12:34,380
+blades that I talked about that sort of
+
+315
+00:12:40,040 --> 00:12:36,420
+a counteract the rotational forces of
+
+316
+00:12:42,079 --> 00:12:40,050
+the auger um can be active as well as
+
+317
+00:12:43,910 --> 00:12:42,089
+passive and so for example the drill
+
+318
+00:12:46,160 --> 00:12:43,920
+that we just tested in Greenland has an
+
+319
+00:12:48,829 --> 00:12:46,170
+active feed stage so while we can't
+
+320
+00:12:50,510 --> 00:12:48,839
+steer so maybe looping around would be
+
+321
+00:12:51,590 --> 00:12:50,520
+pretty difficult if we started upside
+
+322
+00:12:52,880 --> 00:12:51,600
+down there isn't a reason that we
+
+323
+00:12:54,769 --> 00:12:52,890
+wouldn't be able to just lift ourselves
+
+324
+00:12:56,360 --> 00:12:54,779
+forward essentially it depends on
+
+325
+00:12:59,180 --> 00:12:56,370
+whether or not the anti torque features
+326
+00:13:01,069 --> 00:12:59,190
+glide in rails so you're just leaning
+
+327
+00:13:02,900 --> 00:13:01,079
+forward on the bit or whether or not
+
+328
+00:13:04,460 --> 00:13:02,910
+you're actually actively engaging with
+
+329
+00:13:08,569 --> 00:13:04,470
+the borehole walls and stabilizing
+
+330
+00:13:11,410 --> 00:13:08,579
+yourself to push forward all right let's
+
+331
+00:13:12,230 --> 00:13:11,420
+think tie for a great presentation
