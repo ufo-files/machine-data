@@ -1,0 +1,76 @@
+{
+  "document_id": "doc-c905d5287eefc17b81f55a22",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1979-01-03",
+        "1979-01-03",
+        "1979-01-03"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-e3f27167585ece7d5353dcdc",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1",
+        "1",
+        "1",
+        "1979",
+        "1979",
+        "1979",
+        "3",
+        "3",
+        "3"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "03.01.1979",
+        "03.01.1979",
+        "03.01.1979"
+      ],
+      "segment_id": "seg-e3f27167585ece7d5353dcdc",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "06:50"
+      ],
+      "check": "times",
+      "missing_from_translation": [
+        "06:00"
+      ],
+      "segment_id": "seg-08b8b3500032f26ba59f9f03",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "50"
+      ],
+      "segment_id": "seg-08b8b3500032f26ba59f9f03",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-08b8b3500032f26ba59f9f03",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
