@@ -1,0 +1,534 @@
+{"created_utc": "2026-09-06T22:00:47Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 124059, "source_ctime_ns": 1788562381945530769, "source_file": "Archives-for-the-Unexplained/documents/2021-10-04---NASA-Armstrong-Flight-Research-Center---Meet-EVAA-Autonomous-Software-to-Help-Save-Aircraft_84USpCnB9iM---transcript-automated-.pdf", "source_mtime_ns": 1788562381941365751, "source_rel": "Archives-for-the-Unexplained/documents/2021-10-04---NASA-Armstrong-Flight-Research-Center---Meet-EVAA-Autonomous-Software-to-Help-Save-Aircraft_84USpCnB9iM---transcript-automated-.pdf", "source_sha256": "5ab5cba29f91fbec0742e7e98df5887c23dce7182996e566c93a508e8a183ba0"}
+
+1
+00:00:00,000 --> 00:00:03,381
+[MUSIC PLAYING]
+
+2
+00:00:13,550 --> 00:00:17,040
+A NASA project called
+Resilient Autonomy
+
+3
+00:00:17,040 --> 00:00:19,290
+has developed autonomous
+software to help
+
+4
+00:00:19,290 --> 00:00:21,540
+prevent airplane crashes.
+
+5
+00:00:21,540 --> 00:00:25,080
+This software is called the
+Expandable Variable Autonomy
+
+6
+00:00:25,080 --> 00:00:29,130
+Architecture or EVAA, which
+stems from the automatic ground
+
+7
+00:00:29,130 --> 00:00:32,189
+collision avoidance
+system or Auto GCAS.
+
+8
+00:00:32,189 --> 00:00:35,700
+This technology started
+off 35 years ago
+
+9
+00:00:35,700 --> 00:00:39,840
+on the F-16 only a few hundred
+feet away from us right now.
+
+10
+00:00:39,840 --> 00:00:42,810
+That was the first aircraft
+on a high performance
+
+11
+00:00:42,810 --> 00:00:45,150
+aircraft with a digital
+flight control system.
+
+12
+00:00:45,150 --> 00:00:47,430
+And we started to bring a
+lot of automation onto it.
+
+13
+00:00:51,700 --> 00:00:55,720
+We quickly found that automated
+safety was a critical component
+
+14
+00:00:55,720 --> 00:00:58,210
+just even to flight tested.
+
+15
+00:00:58,210 --> 00:01:01,915
+Over the next 25 years, we work
+towards our automatic ground
+
+16
+00:01:01,915 --> 00:01:03,790
+collision avoidance
+system and eventually got
+
+17
+00:01:03,790 --> 00:01:06,470
+it field in the F-16 fleet.
+
+18
+00:01:06,470 --> 00:01:08,020
+Taking a roll inverted.
+
+19
+00:01:08,020 --> 00:01:10,690
+The Auto GCAS
+system takes control
+
+20
+00:01:10,690 --> 00:01:13,840
+of an aircraft from the pilot
+at the last possible moment
+
+21
+00:01:13,840 --> 00:01:15,860
+to avoid an imminent
+ground collision.
+22
+00:01:15,860 --> 00:01:17,390
+That's all automatic.
+
+23
+00:01:17,390 --> 00:01:22,400
+Today it's saved up to 11
+lives out there in the fleet.
+
+24
+00:01:22,400 --> 00:01:27,160
+But that technology was
+focused on supporting fighters.
+
+25
+00:01:27,160 --> 00:01:29,590
+And it didn't scale
+well to other platforms.
+
+26
+00:01:33,270 --> 00:01:35,460
+The team changed
+the algorithms used
+
+27
+00:01:35,460 --> 00:01:38,370
+in the F-16 version
+of Auto GCAS to make
+
+28
+00:01:38,370 --> 00:01:41,640
+them suitable for non-fighter
+aircraft like Cessnas
+
+29
+00:01:41,640 --> 00:01:44,160
+or remotely piloted aircraft.
+
+30
+00:01:44,160 --> 00:01:46,800
+We've created a
+software architecture
+
+31
+00:01:46,800 --> 00:01:50,760
+that can be expanded to support
+any mission or platform.
+
+32
+00:01:50,760 --> 00:01:52,180
+[SIDE CONVERSATION]
+
+33
+00:01:52,180 --> 00:01:54,510
+We support variable
+autonomy in the fact
+
+34
+00:01:54,510 --> 00:01:59,730
+that it can be a
+safety augmentation
+
+35
+00:01:59,730 --> 00:02:04,500
+and warn a pilot to all the way
+to a fully unpiloted aircraft
+
+36
+00:02:04,500 --> 00:02:06,990
+that doesn't even have
+a pilot in the loop.
+
+37
+00:02:06,990 --> 00:02:11,009
+The intent is to create a
+software architecture that
+
+38
+00:02:11,009 --> 00:02:16,500
+can easily be adapted to any
+form of mission or platform
+
+39
+00:02:16,500 --> 00:02:18,380
+or autonomy level you want.
+
+40
+00:02:18,380 --> 00:02:21,150
+See if it'll pick
+right or left here.
+
+41
+00:02:21,150 --> 00:02:24,570
+This version includes functions
+to prevent smaller airplanes
+
+42
+00:02:24,570 --> 00:02:27,810
+from diving into a canyon,
+into the side of a mountain,
+43
+00:02:27,810 --> 00:02:31,440
+or into the ground in the event
+of an emergency by avoiding
+
+44
+00:02:31,440 --> 00:02:34,830
+obstacles and guiding the
+plane to a safe landing area.
+
+45
+00:02:34,830 --> 00:02:39,390
+It draws upon multiple
+systems, multiple sensors.
+
+46
+00:02:39,390 --> 00:02:42,180
+And it leverages
+hopping from one system
+
+47
+00:02:42,180 --> 00:02:45,360
+to the next prioritizing
+different safety
+
+48
+00:02:45,360 --> 00:02:47,460
+elements or the mission.
+
+49
+00:02:47,460 --> 00:02:51,900
+So we're emphasizing that timing
+element of going from one thing
+
+50
+00:02:51,900 --> 00:02:54,150
+on to the next in
+rapid succession.
+
+51
+00:02:54,150 --> 00:02:56,490
+Now we will be in
+altitude hold mode.
+
+52
+00:02:56,490 --> 00:02:58,770
+Slightly different than
+we were before that
+53
+00:02:58,770 --> 00:03:03,810
+is going to fly us through that
+notch over this very complex
+
+54
+00:03:03,810 --> 00:03:05,370
+wind turbine farm.
+
+55
+00:03:05,370 --> 00:03:08,880
+All right, now we just picked
+up a detection of a king air
+
+56
+00:03:08,880 --> 00:03:10,650
+at our 6 o'clock high.
+
+57
+00:03:10,650 --> 00:03:12,900
+An element called
+the moral compass
+
+58
+00:03:12,900 --> 00:03:15,090
+helps the software
+decide which moves
+
+59
+00:03:15,090 --> 00:03:19,110
+to make by switching control to
+the highest priority task based
+
+60
+00:03:19,110 --> 00:03:21,150
+on weighing the odds of safety.
+
+61
+00:03:21,150 --> 00:03:24,885
+The moral compass is at the
+heart of this rapid switching.
+
+62
+00:03:24,885 --> 00:03:27,540
+OK, you can see it's
+triggered into the yellow mode
+
+63
+00:03:27,540 --> 00:03:30,120
+there well clear
+so it's in a dive.
+
+64
+00:03:30,120 --> 00:03:33,750
+You can see we've got basically
+a fence or a wall of these wind
+
+65
+00:03:33,750 --> 00:03:35,340
+turbines in front of us.
+
+66
+00:03:35,340 --> 00:03:38,430
+And we're just cresting over
+the top of a line of them
+
+67
+00:03:38,430 --> 00:03:39,570
+behind us.
+
+68
+00:03:39,570 --> 00:03:41,310
+But we're still in
+well clear mode,
+
+69
+00:03:41,310 --> 00:03:43,540
+it doesn't yet care
+about the wind turbines.
+
+70
+00:03:43,540 --> 00:03:45,000
+So we're descending
+out of the way
+
+71
+00:03:45,000 --> 00:03:48,810
+of that traffic that's almost
+directly overhead us now
+
+72
+00:03:48,810 --> 00:03:50,940
+on the approach.
+
+73
+00:03:50,940 --> 00:03:53,010
+We're getting closer
+to those wind turbines.
+
+74
+00:03:53,010 --> 00:03:55,680
+OK, now GCAS is
+taking over climbing
+
+75
+00:03:55,680 --> 00:03:58,770
+right turn and aggressive
+turn to the right.
+
+76
+00:03:58,770 --> 00:04:01,230
+Now it detects it's fairly
+close to the aircraft
+
+77
+00:04:01,230 --> 00:04:03,690
+so it is doing an
+aggressive left ACAS
+
+78
+00:04:03,690 --> 00:04:08,520
+turn climbing away right on
+the edge of these wind turbine
+
+79
+00:04:08,520 --> 00:04:09,780
+obstacles.
+
+80
+00:04:09,780 --> 00:04:12,180
+And now it's back
+into well clear.
+
+81
+00:04:12,180 --> 00:04:16,709
+We're trying to deconflict
+the hazards temporally.
+
+82
+00:04:16,709 --> 00:04:19,440
+Separate them in time
+and then quickly resolve
+
+83
+00:04:19,440 --> 00:04:21,660
+each individual
+one so that now we
+
+84
+00:04:21,660 --> 00:04:24,190
+can switch from one to the
+next, to the next, to the next.
+
+85
+00:04:24,190 --> 00:04:26,910
+So we bring this
+metadata processed,
+
+86
+00:04:26,910 --> 00:04:29,160
+metadata onto the
+aircraft, whether it's
+
+87
+00:04:29,160 --> 00:04:33,480
+terrain or obstacles
+or risk of landing.
+
+88
+00:04:33,480 --> 00:04:37,170
+And that gives our
+algorithms a strategic vision
+
+89
+00:04:37,170 --> 00:04:39,240
+of how it needs
+to execute things.
+
+90
+00:04:39,240 --> 00:04:41,910
+So we can then trade
+these and decide this
+
+91
+00:04:41,910 --> 00:04:43,890
+is the most important thing.
+
+92
+00:04:43,890 --> 00:04:47,880
+To increase aviation safety and
+decrease the number of crashes,
+
+93
+00:04:47,880 --> 00:04:50,370
+the DOD, the FAA
+and other groups
+
+94
+00:04:50,370 --> 00:04:52,680
+such as the Alaska
+Bush Pilot community
+
+95
+00:04:52,680 --> 00:04:54,600
+are looking into how
+the software could
+
+96
+00:04:54,600 --> 00:04:58,530
+be integrated into a variety
+of aircraft in the future.
+
+97
+00:04:58,530 --> 00:05:02,310
+General aviation, especially
+the Bush Pilot community
+
+98
+00:05:02,310 --> 00:05:06,990
+has a very challenging task
+to go out there and fly
+
+99
+00:05:06,990 --> 00:05:10,350
+in a very rough environment.
+
+100
+00:05:10,350 --> 00:05:13,140
+And they see higher loss rates.
+
+101
+00:05:13,140 --> 00:05:16,040
+This technology
+could prevent that.
+
+102
+00:05:16,040 --> 00:05:17,610
+[INAUDIBLE]
+
+103
+00:05:17,610 --> 00:05:19,500
+The EVAA software
+is being managed
+
+104
+00:05:19,500 --> 00:05:22,560
+under the NASA Armstrong Flight
+Research Center Technology
+
+105
+00:05:22,560 --> 00:05:23,820
+Transfer Office.
+
+106
+00:05:23,820 --> 00:05:27,030
+Future availability and
+capability enhancement
+
+107
+00:05:27,030 --> 00:05:30,180
+will be managed by an extended
+potential collaboration
+
+108
+00:05:30,180 --> 00:05:33,420
+of NASA, the DOD, and the FAA.
+
+109
+00:05:33,420 --> 00:05:35,250
+[INAUDIBLE]
+
+110
+00:05:35,250 --> 00:05:37,650
+Other NASA projects
+such as advanced air
+
+111
+00:05:37,650 --> 00:05:41,280
+mobility are looking at
+potential use cases of EVAA,
+
+112
+00:05:41,280 --> 00:05:44,610
+as they investigate how
+to help the FAA integrate
