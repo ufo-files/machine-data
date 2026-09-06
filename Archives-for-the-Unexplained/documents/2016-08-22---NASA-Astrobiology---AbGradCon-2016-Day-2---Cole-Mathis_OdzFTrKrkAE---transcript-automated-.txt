@@ -1,0 +1,1589 @@
+{"created_utc": "2026-09-06T07:04:05Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 99114, "source_ctime_ns": 1788527923155795211, "source_file": "Archives-for-the-Unexplained/documents/2016-08-22---NASA-Astrobiology---AbGradCon-2016-Day-2---Cole-Mathis_OdzFTrKrkAE---transcript-automated-.pdf", "source_mtime_ns": 1788527923152388900, "source_rel": "Archives-for-the-Unexplained/documents/2016-08-22---NASA-Astrobiology---AbGradCon-2016-Day-2---Cole-Mathis_OdzFTrKrkAE---transcript-automated-.pdf", "source_sha256": "5c224bb4a55bfdde964fd2311b5b6aa0b61abd127aa9ba9eb8e3292a1039a199"}
+
+1
+00:00:12,020 --> 00:00:09,200
+I'm Cole Mathis I'm a PhD student at
+
+2
+00:00:13,610 --> 00:00:12,030
+Arizona State University I'm a
+
+3
+00:00:15,049 --> 00:00:13,620
+theoretical physicist I study the
+
+4
+00:00:17,599 --> 00:00:15,059
+original life and I just got back from
+
+5
+00:00:20,689 --> 00:00:17,609
+10 days of field work with geochemists
+
+6
+00:00:22,099 --> 00:00:20,699
+in Yellowstone I already mentioned the
+
+7
+00:00:23,540 --> 00:00:22,109
+title of my talk before I get started I
+
+8
+00:00:25,400 --> 00:00:23,550
+want to thank a few people everyone for
+
+9
+00:00:28,269 --> 00:00:25,410
+me life is awesome a research lab
+
+10
+00:00:30,380 --> 00:00:28,279
+they're great these two smokes a
+
+11
+00:00:31,970 --> 00:00:30,390
+constant sounding board for me they're
+
+12
+00:00:33,500 --> 00:00:31,980
+both here I appreciate their input on
+
+13
+00:00:35,840 --> 00:00:33,510
+all these crazy and half warm thoughts
+
+14
+00:00:39,200 --> 00:00:35,850
+that come out of my head some people
+
+15
+00:00:40,910 --> 00:00:39,210
+that aren't here vim deck Vito
+
+16
+00:00:44,180 --> 00:00:40,920
+peel for introducing me to generative
+
+17
+00:00:46,160 --> 00:00:44,190
+models and Niles layman who does auto
+
+18
+00:00:49,520 --> 00:00:46,170
+catalytic sets in RNA chemistry has had
+
+19
+00:00:52,160 --> 00:00:49,530
+some interesting input my advisor Sarah
+
+20
+00:00:54,889 --> 00:00:52,170
+Walker she's spectacular she's super
+
+21
+00:00:56,840 --> 00:00:54,899
+awesome oh and the snake river for
+
+22
+00:00:59,450 --> 00:00:56,850
+nucleating the idea behind this talk in
+
+23
+00:01:01,580 --> 00:00:59,460
+my head somehow also if you're wondering
+
+24
+00:01:05,450 --> 00:01:01,590
+what a theoretical physicist ads for
+
+25
+00:01:07,910 --> 00:01:05,460
+field work that's that's about it it's
+26
+00:01:10,850 --> 00:01:07,920
+very theoretical all right here's a
+
+27
+00:01:11,929 --> 00:01:10,860
+slightly better name for my talk so I'm
+
+28
+00:01:14,240 --> 00:01:11,939
+going to talk about the emergence of
+
+29
+00:01:17,420 --> 00:01:14,250
+dynamic community structure and maybe
+
+30
+00:01:18,800 --> 00:01:17,430
+autocatalytic network so hopefully I can
+
+31
+00:01:21,859 --> 00:01:18,810
+unpack what that means by the end of
+
+32
+00:01:24,410 --> 00:01:21,869
+this talk it's a complicated idea but I
+
+33
+00:01:26,480 --> 00:01:24,420
+think with excellent introductions from
+
+34
+00:01:27,950 --> 00:01:26,490
+Harrison and then it'll be easier for
+
+35
+00:01:31,550 --> 00:01:27,960
+you swallow and hopefully I'll
+
+36
+00:01:32,749 --> 00:01:31,560
+understand what I'm saying all right so
+
+37
+00:01:34,160 --> 00:01:32,759
+if you study the original life
+
+38
+00:01:36,319 --> 00:01:34,170
+eventually you ask yourself this
+
+39
+00:01:37,730 --> 00:01:36,329
+question right and Tessa touched on this
+
+40
+00:01:39,649 --> 00:01:37,740
+earlier what is life we don't have a
+
+41
+00:01:40,880 --> 00:01:39,659
+good answer but there's some features
+
+42
+00:01:43,130 --> 00:01:40,890
+right it's a one feature of life that
+
+43
+00:01:44,840 --> 00:01:43,140
+you might want to try to explain is all
+
+44
+00:01:46,999 --> 00:01:44,850
+the diversity we find in the biosphere
+
+45
+00:01:48,980 --> 00:01:47,009
+right that's one thing that's like wow
+
+46
+00:01:51,080 --> 00:01:48,990
+how do we explain this diversity thats
+
+47
+00:01:54,050 --> 00:01:51,090
+everywhere how can we come up with a
+
+48
+00:01:55,340 --> 00:01:54,060
+mechanism to really handle that another
+
+49
+00:01:57,109 --> 00:01:55,350
+thing you might be curious about is like
+
+50
+00:01:59,870 --> 00:01:57,119
+life is actually this very ordered and
+51
+00:02:00,980 --> 00:01:59,880
+structured sort of set of chemical
+
+52
+00:02:03,249 --> 00:02:00,990
+reactions that have a particular
+
+53
+00:02:04,700 --> 00:02:03,259
+function and operate in particular way
+
+54
+00:02:06,590 --> 00:02:04,710
+so these are two different
+
+55
+00:02:08,809 --> 00:02:06,600
+interpretations to this question they're
+
+56
+00:02:09,919 --> 00:02:08,819
+both obviously valid answers but
+
+57
+00:02:11,360 --> 00:02:09,929
+depending on what you think is more
+
+58
+00:02:13,040 --> 00:02:11,370
+interesting more important you might go
+
+59
+00:02:13,670 --> 00:02:13,050
+different ways right so if you're
+
+60
+00:02:15,830 --> 00:02:13,680
+interested in
+
+61
+00:02:17,449 --> 00:02:15,840
+diversity you know our friend Darwin
+
+62
+00:02:19,009 --> 00:02:17,459
+told us there's a way to explain this
+
+63
+00:02:20,420 --> 00:02:19,019
+diversity it involves things that make
+
+64
+00:02:22,160 --> 00:02:20,430
+copies of themselves and a few other
+
+65
+00:02:24,380 --> 00:02:22,170
+features you might study things that do
+
+66
+00:02:25,849 --> 00:02:24,390
+this in this talk I'm going to focus on
+
+67
+00:02:27,589 --> 00:02:25,859
+the kinds of things Ben was talking
+
+68
+00:02:30,379 --> 00:02:27,599
+about which are autocatalytic sets which
+
+69
+00:02:32,330 --> 00:02:30,389
+are coupled reactions that form networks
+
+70
+00:02:34,849 --> 00:02:32,340
+and sometimes these networks have auto
+
+71
+00:02:36,259 --> 00:02:34,859
+catalytic features where they can make
+
+72
+00:02:38,990 --> 00:02:36,269
+more of themselves and everything in it
+
+73
+00:02:41,509 --> 00:02:39,000
+grows exponentially so that's what I'm
+
+74
+00:02:43,729 --> 00:02:41,519
+going to focus on today so here's a
+
+75
+00:02:45,199 --> 00:02:43,739
+brief outline I'm going to describe my
+76
+00:02:47,839 --> 00:02:45,209
+model which is very similar to the one
+
+77
+00:02:49,129 --> 00:02:47,849
+been described and then I'm going to
+
+78
+00:02:51,229 --> 00:02:49,139
+talk about some background in auto
+
+79
+00:02:54,080 --> 00:02:51,239
+catalytic sets some results from the
+
+80
+00:02:55,309 --> 00:02:54,090
+early 70s and some later refinements I'm
+
+81
+00:02:56,149 --> 00:02:55,319
+going to mention networks and in
+
+82
+00:02:58,280 --> 00:02:56,159
+particular i'm going to talk about
+
+83
+00:03:00,709 --> 00:02:58,290
+stochastic block models as a type of
+
+84
+00:03:02,360 --> 00:03:00,719
+generative model then i'm going to talk
+
+85
+00:03:03,920 --> 00:03:02,370
+about a little bit of information theory
+
+86
+00:03:07,399 --> 00:03:03,930
+describe mutual information it's easy
+
+87
+00:03:09,470 --> 00:03:07,409
+don't freak out and then I'm going to
+
+88
+00:03:11,360 --> 00:03:09,480
+show how to identify structure in the
+
+89
+00:03:13,339 --> 00:03:11,370
+dynamics of these autocatalytic sets and
+
+90
+00:03:14,929 --> 00:03:13,349
+maybe some hints that there's a phase
+
+91
+00:03:17,449 --> 00:03:14,939
+transition to dynamic order in these
+
+92
+00:03:20,089 --> 00:03:17,459
+things which is rampantly speculative
+
+93
+00:03:22,580 --> 00:03:20,099
+but I think I can justify all right so
+
+94
+00:03:23,509 --> 00:03:22,590
+my model is really similar to Ben's so
+
+95
+00:03:25,580 --> 00:03:23,519
+there's this sort of background
+
+96
+00:03:27,110 --> 00:03:25,590
+chemistry going on right there's great
+
+97
+00:03:28,640 --> 00:03:27,120
+squares and blue squares and they can
+
+98
+00:03:30,199 --> 00:03:28,650
+come together they can form these
+
+99
+00:03:31,640 --> 00:03:30,209
+sequences grain blue could be one and
+
+100
+00:03:33,770 --> 00:03:31,650
+zero they could be a and B whatever you
+101
+00:03:35,330 --> 00:03:33,780
+like so there's ligation when they come
+
+102
+00:03:37,969 --> 00:03:35,340
+together there's Association when they
+
+103
+00:03:40,490 --> 00:03:37,979
+fall apart in my model in contrast to
+
+104
+00:03:43,099 --> 00:03:40,500
+Ben's it's close mass and i explicitly
+
+105
+00:03:44,689 --> 00:03:43,109
+model the degradation so that has some
+
+106
+00:03:47,780 --> 00:03:44,699
+interesting feedbacks but it's very
+
+107
+00:03:49,670 --> 00:03:47,790
+similar so all of these reactions for
+
+108
+00:03:52,009 --> 00:03:49,680
+all possible combinations of sequences
+
+109
+00:03:53,929 --> 00:03:52,019
+are possible in mind and then there are
+
+110
+00:03:56,539 --> 00:03:53,939
+some catalyzed reactions so this is an
+
+111
+00:03:58,369 --> 00:03:56,549
+example of the formation of this gray
+
+112
+00:04:00,199 --> 00:03:58,379
+dimer could be catalyzed by the great
+
+113
+00:04:02,210 --> 00:04:00,209
+rhymer right there's lots of different
+
+114
+00:04:03,439 --> 00:04:02,220
+ones you could do I'm going to spend the
+
+115
+00:04:06,589 --> 00:04:03,449
+entire talk talking about this
+
+116
+00:04:08,270 --> 00:04:06,599
+particular network of reactions it's
+
+117
+00:04:12,080 --> 00:04:08,280
+sort of obvious when you look at it it's
+
+118
+00:04:14,929 --> 00:04:12,090
+a mirror image make dimers make trimers
+
+119
+00:04:18,620 --> 00:04:14,939
+trimers make these trimers help things
+
+120
+00:04:22,009 --> 00:04:18,630
+that go astray right so pretty simple is
+
+121
+00:04:23,839 --> 00:04:22,019
+anybody confused by this yet cool all
+
+122
+00:04:26,420 --> 00:04:23,849
+right it's a background on our kind of
+
+123
+00:04:26,890 --> 00:04:26,430
+like set theory so if you take all of
+
+124
+00:04:28,749 --> 00:04:26,900
+these
+
+125
+00:04:30,460 --> 00:04:28,759
+reactions and you randomly sprinkle
+126
+00:04:32,920 --> 00:04:30,470
+catalysts you say this molecule
+
+127
+00:04:36,760 --> 00:04:32,930
+catalyzes this reaction you're
+
+128
+00:04:39,490 --> 00:04:36,770
+guaranteed to get auto catalytic sets if
+
+129
+00:04:40,719 --> 00:04:39,500
+the random you're guaranteed to get auto
+
+130
+00:04:42,400 --> 00:04:40,729
+catalytic sets as long as the
+
+131
+00:04:44,800 --> 00:04:42,410
+probability is high enough and as long
+
+132
+00:04:47,110 --> 00:04:44,810
+as the polymers are long enough this is
+
+133
+00:04:48,939 --> 00:04:47,120
+a result from 1970 a lot of chemists got
+
+134
+00:04:52,029 --> 00:04:48,949
+really mad about it there's been a lot
+
+135
+00:04:54,550 --> 00:04:52,039
+of refinements it's held up for 40 years
+
+136
+00:04:55,900 --> 00:04:54,560
+at this point here's a great reference
+
+137
+00:04:57,219 --> 00:04:55,910
+if you're curious about these kind of
+
+138
+00:04:59,110 --> 00:04:57,229
+things didn't port act studies I'm
+
+139
+00:05:02,020 --> 00:04:59,120
+extensively and he's really good at at
+
+140
+00:05:04,300 --> 00:05:02,030
+handling them so now let's take a step
+
+141
+00:05:05,830 --> 00:05:04,310
+back so keep this in your head keep this
+
+142
+00:05:06,790 --> 00:05:05,840
+in your head here's another thing to
+
+143
+00:05:07,960 --> 00:05:06,800
+keep in your head all right what are
+
+144
+00:05:09,700 --> 00:05:07,970
+networks Harrison did a good job
+
+145
+00:05:11,260 --> 00:05:09,710
+describing these things here's some
+
+146
+00:05:13,510 --> 00:05:11,270
+example of networks right nodes and
+
+147
+00:05:15,730 --> 00:05:13,520
+edges an entity and a link between
+
+148
+00:05:17,980 --> 00:05:15,740
+entities right how do we describe them
+
+149
+00:05:19,570 --> 00:05:17,990
+one way to describe networks is with
+
+150
+00:05:21,820 --> 00:05:19,580
+what's called an adjacency matrix right
+151
+00:05:23,980 --> 00:05:21,830
+so like this network you have one two
+
+152
+00:05:26,980 --> 00:05:23,990
+three and four here right we could label
+
+153
+00:05:29,230 --> 00:05:26,990
+1234 1234 we could put a zero if there's
+
+154
+00:05:32,320 --> 00:05:29,240
+a no link and one if there is a link
+
+155
+00:05:33,730 --> 00:05:32,330
+right simple description and then you
+
+156
+00:05:35,050 --> 00:05:33,740
+could get different combinations of
+
+157
+00:05:37,240 --> 00:05:35,060
+these to form different different
+
+158
+00:05:39,240 --> 00:05:37,250
+matrices right so these these are two
+
+159
+00:05:41,920 --> 00:05:39,250
+representations of the same thing
+
+160
+00:05:43,420 --> 00:05:41,930
+similarly we could wait the edges right
+
+161
+00:05:46,629 --> 00:05:43,430
+so this is a slightly different kind of
+
+162
+00:05:48,430 --> 00:05:46,639
+network but all we've done is instead of
+
+163
+00:05:51,790 --> 00:05:48,440
+ones and zeros on this adjacency matrix
+
+164
+00:05:54,640 --> 00:05:51,800
+we've put real value numbers right the
+
+165
+00:05:56,260 --> 00:05:54,650
+slight generalization ok so now that's
+
+166
+00:05:58,750 --> 00:05:56,270
+in your head how do we describe networks
+
+167
+00:06:00,700 --> 00:05:58,760
+one way to describe networks is with a
+
+168
+00:06:01,990 --> 00:06:00,710
+thing called a generative model there's
+
+169
+00:06:04,089 --> 00:06:02,000
+lots of different kinds of generative
+
+170
+00:06:06,219 --> 00:06:04,099
+models and the idea here is you have a
+
+171
+00:06:08,110 --> 00:06:06,229
+statistical representation of the
+
+172
+00:06:11,290 --> 00:06:08,120
+network you define a set of parameters
+
+173
+00:06:12,969 --> 00:06:11,300
+that you can use to generate networks
+
+174
+00:06:14,740 --> 00:06:12,979
+which are statistically similar to the
+
+175
+00:06:18,129 --> 00:06:14,750
+one you're interested in so for example
+176
+00:06:19,689 --> 00:06:18,139
+here we've got three different networks
+
+177
+00:06:24,100 --> 00:06:19,699
+they all have four nodes and they all
+
+178
+00:06:27,760 --> 00:06:24,110
+have what four edges yeah maybe boy I
+
+179
+00:06:29,020 --> 00:06:27,770
+can't count so the idea here is these
+
+180
+00:06:30,370 --> 00:06:29,030
+are all equivalent they all have the
+
+181
+00:06:31,930 --> 00:06:30,380
+same number of nodes at the same number
+
+182
+00:06:34,210 --> 00:06:31,940
+of edges so I could make a generative
+
+183
+00:06:35,620 --> 00:06:34,220
+model that says I'm going to describe my
+
+184
+00:06:37,600 --> 00:06:35,630
+network by the number of nodes and the
+
+185
+00:06:39,459 --> 00:06:37,610
+number of edges you can refine that a
+
+186
+00:06:40,480 --> 00:06:39,469
+lot further right so generative models
+
+187
+00:06:42,809 --> 00:06:40,490
+described structure
+
+188
+00:06:46,180 --> 00:06:42,819
+in a statistical sense it's key point
+
+189
+00:06:48,939 --> 00:06:46,190
+all right I stole these slides from a
+
+190
+00:06:51,279 --> 00:06:48,949
+professor here at cu-boulder Erin closet
+
+191
+00:06:53,680 --> 00:06:51,289
+he's pretty rad he put them online for
+
+192
+00:06:56,760 --> 00:06:53,690
+free I don't think he'll mind they're
+
+193
+00:06:58,779 --> 00:06:56,770
+great right a particular class of
+
+194
+00:07:00,339 --> 00:06:58,789
+generative models for networks that have
+
+195
+00:07:02,980 --> 00:07:00,349
+become very very popular are called
+
+196
+00:07:05,050 --> 00:07:02,990
+stochastic block models stochastic block
+
+197
+00:07:07,930 --> 00:07:05,060
+models look for community structure in
+
+198
+00:07:09,040 --> 00:07:07,940
+networks so computer scientists mostly
+
+199
+00:07:10,450 --> 00:07:09,050
+worried about these kinds of things and
+
+200
+00:07:12,400 --> 00:07:10,460
+computer scientists like well-formed
+201
+00:07:15,159 --> 00:07:12,410
+problems right so here's a well-formed
+
+202
+00:07:17,050 --> 00:07:15,169
+problem I'm gonna give you guys a social
+
+203
+00:07:18,790 --> 00:07:17,060
+network for everyone in this room right
+
+204
+00:07:20,860 --> 00:07:18,800
+and then you're going to tell me if
+
+205
+00:07:22,689 --> 00:07:20,870
+there's community structure in it and
+
+206
+00:07:23,800 --> 00:07:22,699
+what that is right and so we know
+
+207
+00:07:25,270 --> 00:07:23,810
+there's community structure in here
+
+208
+00:07:26,950 --> 00:07:25,280
+right there's like a bunch of us from
+
+209
+00:07:29,260 --> 00:07:26,960
+ASU there's all these see you people
+
+210
+00:07:31,029 --> 00:07:29,270
+right so this might be our social
+
+211
+00:07:32,469 --> 00:07:31,039
+network lots of us know each other but
+
+212
+00:07:34,059 --> 00:07:32,479
+these might be the communities within it
+
+213
+00:07:35,830 --> 00:07:34,069
+right this might be a su this might be
+
+214
+00:07:37,899 --> 00:07:35,840
+bolder this might be somewhere else this
+
+215
+00:07:39,370 --> 00:07:37,909
+might be everybody else right so you
+
+216
+00:07:43,210 --> 00:07:39,380
+want to break you want to break the
+
+217
+00:07:44,890 --> 00:07:43,220
+network into structures where within the
+
+218
+00:07:46,749 --> 00:07:44,900
+community their links are their
+
+219
+00:07:48,700 --> 00:07:46,759
+properties are similar and without the
+
+220
+00:07:51,610 --> 00:07:48,710
+community their properties are different
+
+221
+00:07:53,140 --> 00:07:51,620
+right it's a simple idea there's a lot
+
+222
+00:07:55,959 --> 00:07:53,150
+of different ways to do with it do it
+
+223
+00:07:57,760 --> 00:07:55,969
+this is a associative network right so
+
+224
+00:07:59,499 --> 00:07:57,770
+where things that are similar associate
+
+225
+00:08:01,510 --> 00:07:59,509
+with each other starts to look like this
+226
+00:08:02,830 --> 00:08:01,520
+this is the inverse of that dissociative
+
+227
+00:08:04,240 --> 00:08:02,840
+you don't hang out with anybody that's
+
+228
+00:08:05,800 --> 00:08:04,250
+like you right this is what you should
+
+229
+00:08:07,089 --> 00:08:05,810
+do at a conference right don't hang out
+
+230
+00:08:09,909 --> 00:08:07,099
+with the people from your lab go meet
+
+231
+00:08:11,260 --> 00:08:09,919
+other people there's ordered ones where
+
+232
+00:08:12,879 --> 00:08:11,270
+it's kind of in between and then there's
+
+233
+00:08:16,330 --> 00:08:12,889
+these core periphery ones which are a
+
+234
+00:08:18,430 --> 00:08:16,340
+particular interest to metabolisms all
+
+235
+00:08:20,670 --> 00:08:18,440
+right so what have I told you I told you
+
+236
+00:08:23,379 --> 00:08:20,680
+about my model I've told you about a
+
+237
+00:08:24,850 --> 00:08:23,389
+generative model for networks right I we
+
+238
+00:08:26,890 --> 00:08:24,860
+can describe the structure of networks
+
+239
+00:08:28,990 --> 00:08:26,900
+and statistical sense by creating a
+
+240
+00:08:31,059 --> 00:08:29,000
+model that makes things like it right
+
+241
+00:08:33,010 --> 00:08:31,069
+all right everybody got all this in
+
+242
+00:08:35,019 --> 00:08:33,020
+their head I'm gonna add another piece
+
+243
+00:08:37,510 --> 00:08:35,029
+here's information theory this is like
+
+244
+00:08:38,709 --> 00:08:37,520
+page 2 of an information theory textbook
+
+245
+00:08:40,899 --> 00:08:38,719
+it's not stare it's called mutual
+
+246
+00:08:43,120 --> 00:08:40,909
+information if you have two variables x
+
+247
+00:08:45,790 --> 00:08:43,130
+and y the mutual information between x
+
+248
+00:08:48,100 --> 00:08:45,800
+and y is how much do I learn about why
+
+249
+00:08:49,720 --> 00:08:48,110
+given that I know X or how much do I
+
+250
+00:08:52,000 --> 00:08:49,730
+learn about x given that I know why it's
+251
+00:08:53,750 --> 00:08:52,010
+symmetric it's totally correlation
+
+252
+00:08:54,800 --> 00:08:53,760
+there's no causal anything
+
+253
+00:08:56,360 --> 00:08:54,810
+you can think of it like a linear
+
+254
+00:08:57,380 --> 00:08:56,370
+correlation except super generalized
+
+255
+00:08:59,060 --> 00:08:57,390
+right so it's kind of like a nard
+
+256
+00:09:01,100 --> 00:08:59,070
+squared value for things that are like
+
+257
+00:09:04,340 --> 00:09:01,110
+so far away from linear you couldn't
+
+258
+00:09:05,990 --> 00:09:04,350
+even couldn't even fathom all right so
+
+259
+00:09:08,030 --> 00:09:06,000
+remember my model this is why my model
+
+260
+00:09:10,580 --> 00:09:08,040
+looks right like right so what are my
+
+261
+00:09:11,870 --> 00:09:10,590
+variables I've got lots of the different
+
+262
+00:09:14,270 --> 00:09:11,880
+concentrations of these different
+
+263
+00:09:15,590 --> 00:09:14,280
+polymers floating around right so I
+
+264
+00:09:17,780 --> 00:09:15,600
+could look at a time series of these
+
+265
+00:09:19,820 --> 00:09:17,790
+concentrations which is what these are
+
+266
+00:09:21,860 --> 00:09:19,830
+right darker colors means there was more
+
+267
+00:09:25,010 --> 00:09:21,870
+at a given time lighter colors means
+
+268
+00:09:27,560 --> 00:09:25,020
+there was fewer time goes that way that
+
+269
+00:09:29,000 --> 00:09:27,570
+direction okay and I could say all right
+
+270
+00:09:31,490 --> 00:09:29,010
+this is one sequence and this is another
+
+271
+00:09:32,960 --> 00:09:31,500
+sequence how correlated are they what's
+
+272
+00:09:35,980 --> 00:09:32,970
+the mutual information between these two
+
+273
+00:09:38,060 --> 00:09:35,990
+sequences I get a number right great
+
+274
+00:09:40,190 --> 00:09:38,070
+simple number throat in this equation
+
+275
+00:09:42,320 --> 00:09:40,200
+comes out the other end I can do this
+276
+00:09:44,930 --> 00:09:42,330
+for all possible pairs of sequences in
+
+277
+00:09:47,690 --> 00:09:44,940
+my system right up to length 6 because I
+
+278
+00:09:48,950 --> 00:09:47,700
+don't want to do it forever all right
+
+279
+00:09:52,010 --> 00:09:48,960
+and I can build something like this
+
+280
+00:09:54,530 --> 00:09:52,020
+right so this is all these numbers where
+
+281
+00:09:55,850 --> 00:09:54,540
+I've calculated what would happen what
+
+282
+00:09:58,340 --> 00:09:55,860
+the mutual information between them
+
+283
+00:10:00,170 --> 00:09:58,350
+would be right so now I've got a
+
+284
+00:10:02,090 --> 00:10:00,180
+weighted network right this is an
+
+285
+00:10:05,510 --> 00:10:02,100
+adjacency matrix for a weighted network
+
+286
+00:10:07,040 --> 00:10:05,520
+where the weights on the edges are the
+
+287
+00:10:08,870 --> 00:10:07,050
+mutual information shared between those
+
+288
+00:10:12,280 --> 00:10:08,880
+two sequences and the nodes are the
+
+289
+00:10:17,090 --> 00:10:12,290
+sequences this is capturing the dynamic
+
+290
+00:10:20,450 --> 00:10:17,100
+correlations in this complicated model
+
+291
+00:10:21,980 --> 00:10:20,460
+right so this is what this model looks
+
+292
+00:10:24,530 --> 00:10:21,990
+like this is what the correlations look
+
+293
+00:10:27,380 --> 00:10:24,540
+like now I've got the stochastic block
+
+294
+00:10:28,910 --> 00:10:27,390
+model so i can ask is this structured is
+
+295
+00:10:31,970 --> 00:10:28,920
+their structure there is there a
+
+296
+00:10:36,260 --> 00:10:31,980
+rigorous way to characterize it and the
+
+297
+00:10:38,780 --> 00:10:36,270
+answer is yes sometimes so depending on
+
+298
+00:10:40,820 --> 00:10:38,790
+how effective my catalysts are structure
+
+299
+00:10:42,650 --> 00:10:40,830
+emerges or a dozen in this system right
+
+300
+00:10:44,030 --> 00:10:42,660
+so this is I used a different color
+301
+00:10:47,990 --> 00:10:44,040
+scheme I'm sorry I made all these slides
+
+302
+00:10:50,300 --> 00:10:48,000
+yesterday so these are the same networks
+
+303
+00:10:52,490 --> 00:10:50,310
+that I just showed you this is when the
+
+304
+00:10:54,770 --> 00:10:52,500
+catalyst is increases the reaction rate
+
+305
+00:10:56,480 --> 00:10:54,780
+by a factor of 10 and this is when the
+
+306
+00:10:59,720 --> 00:10:56,490
+catalyst increases the reaction rate by
+
+307
+00:11:05,270 --> 00:10:59,730
+a factor of 1.1 it's a zero but that's
+
+308
+00:11:07,490 --> 00:11:05,280
+type of right so in this case if i use a
+
+309
+00:11:09,590 --> 00:11:07,500
+bayesian inference method i can be
+
+310
+00:11:11,660 --> 00:11:09,600
+confident my belief can be almost unity
+
+311
+00:11:13,280 --> 00:11:11,670
+that there is structure here and it's
+
+312
+00:11:14,840 --> 00:11:13,290
+the algorithm kind of breaks it up into
+
+313
+00:11:17,150 --> 00:11:14,850
+this core periphery structure here which
+
+314
+00:11:20,510 --> 00:11:17,160
+is nice the same thing for the low
+
+315
+00:11:22,880 --> 00:11:20,520
+calluses rate my belief is like barely
+
+316
+00:11:24,740 --> 00:11:22,890
+better than then fifty-fifty chance I'm
+
+317
+00:11:26,450 --> 00:11:24,750
+like now this is just it's probably a
+
+318
+00:11:28,100 --> 00:11:26,460
+mistake like there might not be
+
+319
+00:11:31,160 --> 00:11:28,110
+structure there at all it's 5050 who
+
+320
+00:11:33,410 --> 00:11:31,170
+knows right so these are two limits okay
+
+321
+00:11:35,360 --> 00:11:33,420
+so now what I can do is swing between
+
+322
+00:11:36,530 --> 00:11:35,370
+these different catalysis rates and
+
+323
+00:11:39,140 --> 00:11:36,540
+figure out what the likelihood of
+
+324
+00:11:41,480 --> 00:11:39,150
+structure being seen there is which is
+
+325
+00:11:45,290 --> 00:11:41,490
+what you see here man that came out
+326
+00:11:47,690 --> 00:11:45,300
+really bad okay all right so this is is
+
+327
+00:11:50,030 --> 00:11:47,700
+basically relative belief how much
+
+328
+00:11:51,500 --> 00:11:50,040
+stronger do I think how much more should
+
+329
+00:11:54,740 --> 00:11:51,510
+I believe that there is structure there
+
+330
+00:11:57,710 --> 00:11:54,750
+then I shouldn't believe so 5050 means
+
+331
+00:11:59,960 --> 00:11:57,720
+like thats toss toss of a coin you can't
+
+332
+00:12:03,020 --> 00:11:59,970
+really be sure here is the catalysis
+
+333
+00:12:05,810 --> 00:12:03,030
+rate so i started at 0.1 here and then
+
+334
+00:12:07,580 --> 00:12:05,820
+all the way to 10 you know dislike it
+
+335
+00:12:09,650 --> 00:12:07,590
+stays pretty constant all the way till
+
+336
+00:12:12,470 --> 00:12:09,660
+about five five and a half and then you
+
+337
+00:12:14,390 --> 00:12:12,480
+get this sharp upswing here this is
+
+338
+00:12:16,010 --> 00:12:14,400
+actually very well known in a very
+
+339
+00:12:17,570 --> 00:12:16,020
+different context so people have seen
+
+340
+00:12:20,060 --> 00:12:17,580
+phase transitions like this in icing
+
+341
+00:12:23,060 --> 00:12:20,070
+models they've seen this in the
+
+342
+00:12:26,690 --> 00:12:23,070
+community detection literature in
+
+343
+00:12:28,940 --> 00:12:26,700
+network science so I can't be sure yet
+
+344
+00:12:30,170 --> 00:12:28,950
+because I made this yesterday but I'm
+
+345
+00:12:31,910 --> 00:12:30,180
+pretty sure this is a proper phase
+
+346
+00:12:33,440 --> 00:12:31,920
+transition so what do I even mean by
+
+347
+00:12:34,940 --> 00:12:33,450
+that what is this phase transition
+
+348
+00:12:37,550 --> 00:12:34,950
+represent running out of time so I'll
+
+349
+00:12:38,480 --> 00:12:37,560
+try it out quick what do I mean all
+
+350
+00:12:40,610 --> 00:12:38,490
+right do you guys know what Bernard
+351
+00:12:42,800 --> 00:12:40,620
+cells are like if you take a thin layer
+
+352
+00:12:44,600 --> 00:12:42,810
+of fluid and you heat it on the bottom
+
+353
+00:12:46,100 --> 00:12:44,610
+and like for a while nothing happens but
+
+354
+00:12:48,770 --> 00:12:46,110
+you turn it way up and you start to make
+
+355
+00:12:52,460 --> 00:12:48,780
+these like cycles right here right can
+
+356
+00:12:54,500 --> 00:12:52,470
+it the onset of convection instead of
+
+357
+00:12:58,040 --> 00:12:54,510
+just conduction that's what's happening
+
+358
+00:13:00,710 --> 00:12:58,050
+here this is order on the scale of the
+
+359
+00:13:04,160 --> 00:13:00,720
+dynamics in the system right this is
+
+360
+00:13:07,490 --> 00:13:04,170
+disordered this is ordered this is the
+
+361
+00:13:09,890 --> 00:13:07,500
+transition from disordered to ordered in
+
+362
+00:13:11,900 --> 00:13:09,900
+the dynamics so it's an ordered phase
+
+363
+00:13:21,330 --> 00:13:11,910
+transition in the dynamics and
+
+364
+00:13:27,070 --> 00:13:23,590
+all right we got time for like one
+
+365
+00:13:29,440 --> 00:13:27,080
+question if it's awesome anyone anyone
+
+366
+00:13:32,610 --> 00:13:29,450
+nothing so I confuse that everyone got
+
+367
+00:13:36,640 --> 00:13:32,620
+one oh man I just kind of noticed that
+
+368
+00:13:38,620 --> 00:13:36,650
+this catalytic increasing factor that's
+
+369
+00:13:39,970 --> 00:13:38,630
+something in this very abstract model
+
+370
+00:13:42,910 --> 00:13:39,980
+that you could actually relate to the
+
+371
+00:13:44,830 --> 00:13:42,920
+real world is so could you perhaps go
+
+372
+00:13:47,230 --> 00:13:44,840
+through and say like you know this
+
+373
+00:13:49,420 --> 00:13:47,240
+catalyst this enzyme is really efficient
+
+374
+00:13:52,060 --> 00:13:49,430
+so that would be more likely to cause
+
+375
+00:13:53,830 --> 00:13:52,070
+more order in the system right so so
+376
+00:13:54,910 --> 00:13:53,840
+that's what's interesting right so even
+
+377
+00:13:56,170 --> 00:13:54,920
+if you have catalysts if they're not
+
+378
+00:13:57,700 --> 00:13:56,180
+very effective if you're in this regime
+
+379
+00:14:00,040 --> 00:13:57,710
+you're not going to see this global
+
+380
+00:14:01,720 --> 00:14:00,050
+scale change hmm but they don't have to
+
+381
+00:14:04,390 --> 00:14:01,730
+be that effective right so the average
+
+382
+00:14:06,610 --> 00:14:04,400
+effect of the catalyst is to speed up
+
+383
+00:14:08,500 --> 00:14:06,620
+the like uncatalyzed reaction by a
+
+384
+00:14:10,000 --> 00:14:08,510
+factor of five right here which like we
+
+385
+00:14:12,100 --> 00:14:10,010
+care to the bios yeah that's not much
+
+386
+00:14:13,660 --> 00:14:12,110
+for right and here where it was
+
+387
+00:14:16,900 --> 00:14:13,670
+completely ordered it was only a factor
+
+388
+00:14:19,390 --> 00:14:16,910
+of 10 Wow so yeah so Troy factor of a
+
+389
+00:14:23,230 --> 00:14:19,400
+thousand right yeah million i did i did
+
+390
+00:14:27,220 --> 00:14:23,240
+this asymptotes it goes yeah yeah yeah
+
+391
+00:14:29,020 --> 00:14:27,230
+um so yeah it's a good question yeah
+
+392
+00:14:31,000 --> 00:14:29,030
+that's awesome all right thank you very
+
+393
+00:14:32,740 --> 00:14:31,010
+much oh I'm gonna plug one more thing if
+
+394
+00:14:34,420 --> 00:14:32,750
+you think that scientific publishing can
+
+395
+00:14:35,950 --> 00:14:34,430
+be done better and you think
+
+396
+00:14:37,510 --> 00:14:35,960
+astrobiology can help do it you should
+
+397
+00:14:39,940 --> 00:14:37,520
+talk to me before we leave because I'm
+
+398
+00:14:42,850 --> 00:14:39,950
+really passionate about that are you
+
+399
+00:14:44,200 --> 00:14:42,860
+starting your own journal I I'm open to
+
+400
+00:14:45,730 --> 00:14:44,210
+anything I'm gonna try to get everybody
+401
+00:14:47,470 --> 00:14:45,740
+on free prints first and then we could
