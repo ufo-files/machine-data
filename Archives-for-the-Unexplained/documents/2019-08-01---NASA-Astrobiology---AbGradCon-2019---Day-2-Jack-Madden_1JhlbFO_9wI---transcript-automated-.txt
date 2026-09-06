@@ -1,0 +1,1471 @@
+{"created_utc": "2026-09-06T03:31:57Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 91972, "source_ctime_ns": 1788593633790135524, "source_file": "Archives-for-the-Unexplained/documents/2019-08-01---NASA-Astrobiology---AbGradCon-2019---Day-2-Jack-Madden_1JhlbFO_9wI---transcript-automated-.pdf", "source_mtime_ns": 1788593633787134073, "source_rel": "Archives-for-the-Unexplained/documents/2019-08-01---NASA-Astrobiology---AbGradCon-2019---Day-2-Jack-Madden_1JhlbFO_9wI---transcript-automated-.pdf", "source_sha256": "3ed03f0d47b979c7379433b4b0750e35b2a4da5d1dcf23feb6fe2c359961eeea"}
+
+1
+00:00:00,240 --> 00:00:10,930
+[Music]
+
+2
+00:00:17,420 --> 00:00:14,570
+one thing I like about AB grad con is
+
+3
+00:00:20,060 --> 00:00:17,430
+the audiences is pretty chill so we're
+
+4
+00:00:22,610 --> 00:00:20,070
+all grad students undergrads so I get to
+
+5
+00:00:24,830 --> 00:00:22,620
+experiment with how I do presentations
+
+6
+00:00:26,570 --> 00:00:24,840
+so I need first I need some audience
+
+7
+00:00:32,630 --> 00:00:26,580
+participation
+
+8
+00:00:37,759 --> 00:00:32,640
+can someone give me a letter hey Jay
+
+9
+00:00:44,599 --> 00:00:37,769
+okay another lender okay now a number
+
+10
+00:00:48,619 --> 00:00:44,609
+between one mm I knew someone was gonna
+
+11
+00:00:54,559 --> 00:00:48,629
+say that I'm gonna go with 13 another
+
+12
+00:01:00,099 --> 00:00:54,569
+letter you okay this is great
+
+13
+00:01:01,399 --> 00:01:00,109
+all right now hot or cold hot all right
+
+14
+00:01:05,320 --> 00:01:01,409
+perfect
+
+15
+00:01:07,340 --> 00:01:05,330
+okay so I'm going to talk about color
+
+16
+00:01:10,160 --> 00:01:07,350
+I'm gonna be talking about in a couple
+
+17
+00:01:13,130 --> 00:01:10,170
+of contexts all related to exoplanet
+
+18
+00:01:16,010 --> 00:01:13,140
+habitability I'll be talking about how
+
+19
+00:01:18,020 --> 00:01:16,020
+we can use it to classify things now and
+
+20
+00:01:22,010 --> 00:01:18,030
+how I'm using it in some models to
+
+21
+00:01:24,470 --> 00:01:22,020
+classify things in a future and I want
+
+22
+00:01:29,710 --> 00:01:24,480
+to do it or telling the story of a
+
+23
+00:01:33,200 --> 00:01:29,720
+planet just recently discovered JC 13q
+
+24
+00:01:35,420 --> 00:01:33,210
+meaning it's there's many planets in
+
+25
+00:01:37,160 --> 00:01:35,430
+this system it's probably the most
+26
+00:01:39,590 --> 00:01:37,170
+impressive planetary system ever
+
+27
+00:01:42,860 --> 00:01:39,600
+discovered and it has this habitable
+
+28
+00:01:45,290 --> 00:01:42,870
+planet it's totally real it's there it's
+
+29
+00:01:47,900 --> 00:01:45,300
+got life teeming on it but how are we
+
+30
+00:01:52,640 --> 00:01:47,910
+gonna know how do we figure out that
+
+31
+00:01:55,040 --> 00:01:52,650
+it's there so right now we can't really
+
+32
+00:01:58,700 --> 00:01:55,050
+make detection zuv what the composition
+
+33
+00:02:00,560 --> 00:01:58,710
+yeah this feels like we have a range you
+
+34
+00:02:03,050 --> 00:02:00,570
+know we can detect habitability out to
+
+35
+00:02:06,110 --> 00:02:03,060
+like zero lightyears
+
+36
+00:02:09,150 --> 00:02:06,120
+so this planets much further than that
+
+37
+00:02:12,150 --> 00:02:09,160
+so what we can do now is we sort of can
+
+38
+00:02:15,150 --> 00:02:12,160
+make guesses and leader people like
+
+39
+00:02:16,830 --> 00:02:15,160
+Claire will you know use telescopes to
+
+40
+00:02:19,350 --> 00:02:16,840
+actually make the detection and confirm
+
+41
+00:02:22,080 --> 00:02:19,360
+our guesses so as we build up these
+
+42
+00:02:25,980 --> 00:02:22,090
+guesses we're sort of building a library
+
+43
+00:02:28,140 --> 00:02:25,990
+of sort of pictures of what potentially
+
+44
+00:02:29,760 --> 00:02:28,150
+habitable planets could look like and
+
+45
+00:02:32,010 --> 00:02:29,770
+then we have this reference catalog it's
+
+46
+00:02:33,720 --> 00:02:32,020
+like sort of like an Autobahn guide like
+
+47
+00:02:35,250 --> 00:02:33,730
+we're building up you know reference
+
+48
+00:02:36,660 --> 00:02:35,260
+pictures and then you go out in the wild
+
+49
+00:02:40,710 --> 00:02:36,670
+you actually observe something and you
+
+50
+00:02:42,810 --> 00:02:40,720
+try to match it as close as you can so
+51
+00:02:44,240 --> 00:02:42,820
+the first thing you sort of want to do
+
+52
+00:02:46,770 --> 00:02:44,250
+is you want to have like ground truths
+
+53
+00:02:49,110 --> 00:02:46,780
+to what you wanted to do first we need
+
+54
+00:02:51,300 --> 00:02:49,120
+to actually find some real planets and
+
+55
+00:02:53,640 --> 00:02:51,310
+what do those look like first so we have
+
+56
+00:02:56,360 --> 00:02:53,650
+a solar system that's pretty diverse we
+
+57
+00:03:00,510 --> 00:02:56,370
+do have a habitable planet which is nice
+
+58
+00:03:03,180 --> 00:03:00,520
+so some of the earlier work we did was
+
+59
+00:03:06,420 --> 00:03:03,190
+actually look at our neighbors stuff in
+
+60
+00:03:09,180 --> 00:03:06,430
+our own solar system to see what they'd
+
+61
+00:03:11,360 --> 00:03:09,190
+look like as exoplanets so we calculated
+
+62
+00:03:14,130 --> 00:03:11,370
+geometric adios for the 19 different
+
+63
+00:03:16,200 --> 00:03:14,140
+solar system objects you you know the
+
+64
+00:03:19,740 --> 00:03:16,210
+planets some dwarf planets a bunch of
+
+65
+00:03:21,150 --> 00:03:19,750
+moons to sort of build this you know
+
+66
+00:03:24,600 --> 00:03:21,160
+picture of what our solar system looks
+
+67
+00:03:26,900 --> 00:03:24,610
+like and then we use that to model what
+
+68
+00:03:28,760 --> 00:03:26,910
+they would look like around other stars
+
+69
+00:03:32,640 --> 00:03:28,770
+and here's our
+
+70
+00:03:34,500 --> 00:03:32,650
+JC 13 cute is down here so it doesn't
+
+71
+00:03:38,280 --> 00:03:34,510
+have the spectra of x3 when I figure out
+
+72
+00:03:39,449 --> 00:03:38,290
+what that's gonna be like so we reaffirm
+
+73
+00:03:41,370 --> 00:03:39,459
+and rip one of the things that you can
+
+74
+00:03:42,750 --> 00:03:41,380
+do with just something as simple as
+
+75
+00:03:44,520 --> 00:03:42,760
+looking at our own solar system and
+76
+00:03:46,350 --> 00:03:44,530
+that's distinguishing different types of
+
+77
+00:03:48,420 --> 00:03:46,360
+surfaces it's gonna be one of the first
+
+78
+00:03:52,199 --> 00:03:48,430
+steps when you find an exoplanets here's
+
+79
+00:03:54,420 --> 00:03:52,209
+a rocky as a gaseous as an icy so even
+
+80
+00:03:56,580 --> 00:03:54,430
+with something as simple as one of these
+
+81
+00:04:00,540 --> 00:03:56,590
+colors so people might not be familiar
+
+82
+00:04:03,890 --> 00:04:00,550
+with this rnj these are just different
+
+83
+00:04:06,570 --> 00:04:03,900
+filter bands you essentially just take
+
+84
+00:04:08,820 --> 00:04:06,580
+your spectra of the planet you have a
+
+85
+00:04:12,270 --> 00:04:08,830
+filter man you just integrate over that
+
+86
+00:04:13,680 --> 00:04:12,280
+and it's just this broad broad spectra
+
+87
+00:04:16,590 --> 00:04:13,690
+thank you think of like a very low
+
+88
+00:04:18,550 --> 00:04:16,600
+resolution spectra and this is just you
+
+89
+00:04:20,710 --> 00:04:18,560
+know a reddish color and this is
+
+90
+00:04:23,590 --> 00:04:20,720
+for red and here's a couple more
+
+91
+00:04:25,390 --> 00:04:23,600
+infrared so even with this very low
+
+92
+00:04:28,480 --> 00:04:25,400
+resolution spectral data you can
+
+93
+00:04:31,150 --> 00:04:28,490
+distinguish different surface types so
+
+94
+00:04:34,600 --> 00:04:31,160
+it's something we can do using objects
+
+95
+00:04:37,890 --> 00:04:34,610
+in our own solar system but there's this
+
+96
+00:04:41,020 --> 00:04:37,900
+can only go so far so if you have a
+
+97
+00:04:43,500 --> 00:04:41,030
+planet that has any sort of atmosphere
+
+98
+00:04:45,190 --> 00:04:43,510
+and you change the light source that
+
+99
+00:04:48,280 --> 00:04:45,200
+chemistry is going to be a little
+
+100
+00:04:50,860 --> 00:04:48,290
+different we can do things you know for
+101
+00:04:52,000 --> 00:04:50,870
+rocky planets like that don't have much
+
+102
+00:04:54,280 --> 00:04:52,010
+of an atmosphere that's not gonna change
+
+103
+00:04:56,590 --> 00:04:54,290
+much in terms of its colors if you put
+
+104
+00:04:57,790 --> 00:04:56,600
+on a different star you can adjust for
+
+105
+00:04:59,680 --> 00:04:57,800
+how the lights going to be different
+
+106
+00:05:02,500 --> 00:04:59,690
+there's no chemistry really changing the
+
+107
+00:05:05,980 --> 00:05:02,510
+atmosphere because there isn't any so if
+
+108
+00:05:08,860 --> 00:05:05,990
+you really want to look at something
+
+109
+00:05:12,700 --> 00:05:08,870
+like our planet which is around a hot
+
+110
+00:05:15,250 --> 00:05:12,710
+star so it's a lot hotter than our own
+
+111
+00:05:19,540 --> 00:05:15,260
+Sun so the light that's hitting it's
+
+112
+00:05:22,210 --> 00:05:19,550
+going to be different so if you look at
+
+113
+00:05:24,340 --> 00:05:22,220
+the models that we're using to simulate
+
+114
+00:05:28,260 --> 00:05:24,350
+what those atmospheres would look like
+
+115
+00:05:30,670 --> 00:05:28,270
+for habitable exoplanets we find that
+
+116
+00:05:34,330 --> 00:05:30,680
+they're they're sort of not good enough
+
+117
+00:05:36,279 --> 00:05:34,340
+they do do the job of changing the
+
+118
+00:05:39,190 --> 00:05:36,289
+chemistry of the atmosphere you can sort
+
+119
+00:05:42,730 --> 00:05:39,200
+of model how that that light is going to
+
+120
+00:05:45,070 --> 00:05:42,740
+change the chemistry but they they lack
+
+121
+00:05:49,719 --> 00:05:45,080
+another key feature which is the surface
+
+122
+00:05:52,210 --> 00:05:49,729
+albedo spectral information that points
+
+123
+00:05:57,490 --> 00:05:52,220
+a huge role in how the climate becomes
+
+124
+00:05:59,500 --> 00:05:57,500
+stable so to our model the planet kind
+
+125
+00:06:03,070 --> 00:05:59,510
+of looks like this it's gray it's just
+126
+00:06:05,620 --> 00:06:03,080
+there's no color information for the
+
+127
+00:06:07,000 --> 00:06:05,630
+surface it's just a single value that
+
+128
+00:06:09,190 --> 00:06:07,010
+you're using to treat the entire
+
+129
+00:06:12,250 --> 00:06:09,200
+reflectivity of the surface it's a
+
+130
+00:06:14,379 --> 00:06:12,260
+single number we want it to look like it
+
+131
+00:06:16,740 --> 00:06:14,389
+is something like less you know much
+
+132
+00:06:20,770 --> 00:06:16,750
+more close to what it's actually like
+
+133
+00:06:24,820 --> 00:06:20,780
+but we do use one dimensional models so
+
+134
+00:06:25,960 --> 00:06:24,830
+it's more like this and we want it to be
+
+135
+00:06:29,410 --> 00:06:25,970
+like this
+
+136
+00:06:30,850 --> 00:06:29,420
+so there's that still improvement and
+
+137
+00:06:33,610 --> 00:06:30,860
+there's there's a good reason to believe
+
+138
+00:06:36,220 --> 00:06:33,620
+that this just adding this color
+
+139
+00:06:39,550 --> 00:06:36,230
+information for the surface is going to
+
+140
+00:06:42,600 --> 00:06:39,560
+alter the climate over our planets a lot
+
+141
+00:06:46,180 --> 00:06:42,610
+so I'll do a little bit more complicated
+
+142
+00:06:50,100 --> 00:06:46,190
+albedo diagram than what amber showed so
+
+143
+00:06:53,170 --> 00:06:50,110
+we have our Sun here you know all the
+
+144
+00:06:55,560 --> 00:06:53,180
+incoming energy is hitting the planet
+
+145
+00:06:57,820 --> 00:06:55,570
+here which is gray have our atmosphere
+
+146
+00:07:00,460 --> 00:06:57,830
+and so what all these lines are telling
+
+147
+00:07:01,930 --> 00:07:00,470
+you is like there's you know hitting the
+
+148
+00:07:04,120 --> 00:07:01,940
+top of the atmosphere we have all the
+
+149
+00:07:05,980 --> 00:07:04,130
+energy from the Sun there's some being
+
+150
+00:07:07,930 --> 00:07:05,990
+absorbed by the atmosphere and reflected
+151
+00:07:09,640 --> 00:07:07,940
+off some is being absorbed by the
+
+152
+00:07:12,040 --> 00:07:09,650
+surface somes being reflected by the
+
+153
+00:07:15,040 --> 00:07:12,050
+surface and here we have longer
+
+154
+00:07:18,250 --> 00:07:15,050
+wavelengths the infrared being emitted
+
+155
+00:07:19,780 --> 00:07:18,260
+from the warm surface absorbed by the
+
+156
+00:07:22,810 --> 00:07:19,790
+atmosphere and re-emitted by the
+
+157
+00:07:28,980 --> 00:07:22,820
+atmosphere or then directly you know
+
+158
+00:07:33,760 --> 00:07:28,990
+radiated out into space so if we change
+
+159
+00:07:35,500 --> 00:07:33,770
+the Starlight that's good we have a gray
+
+160
+00:07:38,820 --> 00:07:35,510
+planet here so we don't have any
+
+161
+00:07:40,990 --> 00:07:38,830
+interaction between the albedo and the
+
+162
+00:07:42,850 --> 00:07:41,000
+changing star like it's gonna be pretty
+
+163
+00:07:46,300 --> 00:07:42,860
+much the same we can model how the
+
+164
+00:07:49,630 --> 00:07:46,310
+atmosphere is going to change here if we
+
+165
+00:07:52,780 --> 00:07:49,640
+add color to the planet now we don't
+
+166
+00:07:54,190 --> 00:07:52,790
+know exactly how you know there's going
+
+167
+00:07:56,110 --> 00:07:54,200
+to be changes in how much is getting
+
+168
+00:07:57,850 --> 00:07:56,120
+absorbed by the surface what's being
+
+169
+00:08:00,130 --> 00:07:57,860
+reflected and that's it going to be
+
+170
+00:08:02,200 --> 00:08:00,140
+affecting how much is then being reread
+
+171
+00:08:04,630 --> 00:08:02,210
+yet but a surface and then escaping into
+
+172
+00:08:07,390 --> 00:08:04,640
+space and this is where you're setting
+
+173
+00:08:09,610 --> 00:08:07,400
+habitability constraints as well because
+
+174
+00:08:12,159 --> 00:08:09,620
+you this is controlling you order
+
+175
+00:08:13,600 --> 00:08:12,169
+surface temperature and that's gonna be
+176
+00:08:15,400 --> 00:08:13,610
+what you need for habitability in them
+
+177
+00:08:18,040 --> 00:08:15,410
+I'm saying habitability I should define
+
+178
+00:08:20,050 --> 00:08:18,050
+that like surface water if you have
+
+179
+00:08:24,990 --> 00:08:20,060
+water on the surface we'll call that
+
+180
+00:08:28,919 --> 00:08:25,000
+habitable so to look at this in more
+
+181
+00:08:33,879 --> 00:08:33,100
+we have different star spectra here so
+
+182
+00:08:36,939 --> 00:08:33,889
+our planet
+
+183
+00:08:39,459 --> 00:08:36,949
+JC 13q is around a hotter star so it's
+
+184
+00:08:42,639 --> 00:08:39,469
+gonna be like an F star this is gonna be
+
+185
+00:08:45,850 --> 00:08:42,649
+this spectra here we have microns 0.5 to
+
+186
+00:08:48,069 --> 00:08:45,860
+2.5 s this is your infrared and this is
+
+187
+00:08:49,749 --> 00:08:48,079
+this the relative flux for these
+
+188
+00:08:54,840 --> 00:08:49,759
+different stars you have the Sun here in
+
+189
+00:08:57,699 --> 00:08:54,850
+white and then a cooler start here red
+
+190
+00:08:59,170 --> 00:08:57,709
+so you can see that they're emitting the
+
+191
+00:09:01,290 --> 00:08:59,180
+different light is gonna be playing the
+
+192
+00:09:04,449 --> 00:09:01,300
+planet around these different stories
+
+193
+00:09:06,970 --> 00:09:04,459
+here down here we have the reflectance
+
+194
+00:09:10,689 --> 00:09:06,980
+so this is that surface color surface
+
+195
+00:09:12,490 --> 00:09:10,699
+albedo I have this dashed line is the
+
+196
+00:09:16,150 --> 00:09:12,500
+flat this is what the model is used
+
+197
+00:09:18,090 --> 00:09:16,160
+right now it's just a gray surface it's
+
+198
+00:09:22,780 --> 00:09:18,100
+reflecting exactly the same in all
+
+199
+00:09:24,490 --> 00:09:22,790
+wavelengths and here I have an earth
+
+200
+00:09:27,550 --> 00:09:24,500
+model that's at the resolution of what
+201
+00:09:32,290 --> 00:09:27,560
+our models sort of look at you do the
+
+202
+00:09:34,210 --> 00:09:32,300
+radiative transfer at so let's go let's
+
+203
+00:09:36,699 --> 00:09:34,220
+go for this Sun let's start with the Sun
+
+204
+00:09:39,280 --> 00:09:36,709
+so if the Sun spectra is hitting the
+
+205
+00:09:41,679 --> 00:09:39,290
+flat that's okay that's what our models
+
+206
+00:09:43,900 --> 00:09:41,689
+had all been built to do all these
+
+207
+00:09:46,090 --> 00:09:43,910
+models are coming from Earth around the
+
+208
+00:09:48,670 --> 00:09:46,100
+Sun they were used to simulate the
+
+209
+00:09:51,819 --> 00:09:48,680
+Earth's climate and they've been sort of
+
+210
+00:09:55,780 --> 00:09:51,829
+ad hoc let's just mesh together to
+
+211
+00:09:57,509 --> 00:09:55,790
+create exoplanet models um so you can
+
+212
+00:10:01,300 --> 00:09:57,519
+really tell that this is something that
+
+213
+00:10:02,559 --> 00:10:01,310
+is left over from you know when it was
+
+214
+00:10:04,840 --> 00:10:02,569
+just being used for Earth because this
+
+215
+00:10:05,949 --> 00:10:04,850
+actually simulates fairly well you know
+
+216
+00:10:07,870 --> 00:10:05,959
+the surface temperature that you get
+
+217
+00:10:11,650 --> 00:10:07,880
+players so that's okay if we have this
+
+218
+00:10:16,600 --> 00:10:11,660
+one we can use the flat fine if we
+
+219
+00:10:18,850 --> 00:10:16,610
+change the star and it's still flat
+
+220
+00:10:22,240 --> 00:10:18,860
+there's really not much interaction here
+
+221
+00:10:24,939 --> 00:10:22,250
+it's you can you know every every change
+
+222
+00:10:28,530 --> 00:10:24,949
+that's occurring is just just captured
+
+223
+00:10:33,939 --> 00:10:28,540
+by the star but if we have a changing
+
+224
+00:10:36,340 --> 00:10:33,949
+albedo say this Paris model you can see
+
+225
+00:10:38,280 --> 00:10:36,350
+that if we change the star we're going
+226
+00:10:39,919 --> 00:10:38,290
+to be absorbing and reflecting different
+
+227
+00:10:42,090 --> 00:10:39,929
+in different parts of the spectrum now
+
+228
+00:10:46,199 --> 00:10:42,100
+that's gonna be altering our surface
+
+229
+00:10:51,059 --> 00:10:46,209
+temperature so if we have a cooler star
+
+230
+00:10:54,689 --> 00:10:51,069
+this M star we see that we're absorbing
+
+231
+00:10:57,359 --> 00:10:54,699
+more it's albedo is lower over here
+
+232
+00:10:59,609 --> 00:10:57,369
+we're more the sunlight a star lights
+
+233
+00:11:01,229 --> 00:10:59,619
+hitting so we're gonna be absorbing more
+
+234
+00:11:04,679 --> 00:11:01,239
+there so the planet should be hotter
+
+235
+00:11:07,229 --> 00:11:04,689
+than if we had just used a flat and if
+
+236
+00:11:10,289 --> 00:11:07,239
+we're around the star that our planets
+
+237
+00:11:12,900 --> 00:11:10,299
+around where a lot of the flux is at
+
+238
+00:11:15,599 --> 00:11:12,910
+these lower wavelengths or B we're
+
+239
+00:11:20,099 --> 00:11:15,609
+reflecting a lot more so our planet
+
+240
+00:11:22,499 --> 00:11:20,109
+should be cooler make sense and if we're
+
+241
+00:11:24,989 --> 00:11:22,509
+using an earth model from your service o
+
+242
+00:11:27,479 --> 00:11:24,999
+videos we use the Sun we should get a
+
+243
+00:11:28,769 --> 00:11:27,489
+same surface temperature as we did for
+
+244
+00:11:33,659 --> 00:11:28,779
+the flat because that's how the flat
+
+245
+00:11:36,439 --> 00:11:33,669
+model was chosen so we expect for
+
+246
+00:11:41,429 --> 00:11:36,449
+something like this albedo we expect
+
+247
+00:11:46,529 --> 00:11:41,439
+cooler stars to be hotter and hotter
+
+248
+00:11:48,960 --> 00:11:46,539
+stars bluer stars to be colder and
+
+249
+00:11:51,509 --> 00:11:48,970
+that's exactly what we see when we
+
+250
+00:11:53,369 --> 00:11:51,519
+change the models to accept this
+251
+00:11:57,569 --> 00:11:53,379
+wavelength dependent surface that we
+
+252
+00:12:00,449 --> 00:11:57,579
+don't so here I have this is temperature
+
+253
+00:12:04,049 --> 00:12:00,459
+deviation from between the flat model
+
+254
+00:12:07,319 --> 00:12:04,059
+and the wavelength dependent model this
+
+255
+00:12:10,109 --> 00:12:07,329
+is a surface temperature deviation as
+
+256
+00:12:12,629 --> 00:12:10,119
+you can see for M stars these cooler
+
+257
+00:12:15,689 --> 00:12:12,639
+stars the surface temperatures are
+
+258
+00:12:17,369 --> 00:12:15,699
+hotter and for the f stars the hotter
+
+259
+00:12:22,309 --> 00:12:17,379
+stars the surface temperature is cooler
+
+260
+00:12:25,199 --> 00:12:22,319
+this is so this is using the earth model
+
+261
+00:12:30,899 --> 00:12:25,209
+comparing it to the flat so we have
+
+262
+00:12:34,199 --> 00:12:30,909
+hotter cooler and the Sun the 0.3 albedo
+
+263
+00:12:35,579 --> 00:12:34,209
+that you saw here that's has been around
+
+264
+00:12:38,219 --> 00:12:35,589
+for a while and that's been calibrated
+
+265
+00:12:41,009 --> 00:12:38,229
+to give you the same surface temperature
+
+266
+00:12:44,189 --> 00:12:41,019
+as what the earth now if you had used a
+
+267
+00:12:46,829 --> 00:12:44,199
+really accurate earth model so this is
+
+268
+00:12:50,640 --> 00:12:46,839
+pretty big this is you know this is
+
+269
+00:12:52,800 --> 00:12:50,650
+changing how you would define sort of
+
+270
+00:12:53,390 --> 00:12:52,810
+if you're using wavelength dependent up
+
+271
+00:12:55,890 --> 00:12:53,400
+you go
+
+272
+00:12:57,840 --> 00:12:55,900
+now instead of just using a flat line if
+
+273
+00:13:01,320 --> 00:12:57,850
+you had something that more represented
+
+274
+00:13:03,420 --> 00:13:01,330
+what the surface actually looks like so
+
+275
+00:13:07,110 --> 00:13:03,430
+what does that mean for our planet
+276
+00:13:09,810 --> 00:13:07,120
+JC 13q it's got so many neighbors around
+
+277
+00:13:11,940 --> 00:13:09,820
+and I was thinking someone is someone's
+
+278
+00:13:13,560 --> 00:13:11,950
+gonna pick a really like late letter
+
+279
+00:13:14,730 --> 00:13:13,570
+we're just gonna have a lot of planets
+
+280
+00:13:16,590 --> 00:13:14,740
+in this system so there's probably
+
+281
+00:13:18,600 --> 00:13:16,600
+multiple there's even multiple planets
+
+282
+00:13:23,190 --> 00:13:18,610
+in the habitable zone for this so what
+
+283
+00:13:26,360 --> 00:13:23,200
+is this mean we don't know what the
+
+284
+00:13:29,580 --> 00:13:26,370
+surface is going to be for this planet
+
+285
+00:13:31,890 --> 00:13:29,590
+we have an idea of what happens surface
+
+286
+00:13:34,500 --> 00:13:31,900
+might look like so we could use an earth
+
+287
+00:13:37,080 --> 00:13:34,510
+model but we can also look at how this
+
+288
+00:13:39,780 --> 00:13:37,090
+line changes for different types of
+
+289
+00:13:41,700 --> 00:13:39,790
+services maybe there's more ocean
+
+290
+00:13:43,110 --> 00:13:41,710
+there's less ocean maybe there's more
+
+291
+00:13:45,990 --> 00:13:43,120
+vegetation maybe there's less of
+
+292
+00:13:49,140 --> 00:13:46,000
+education deserts stuff like that so we
+
+293
+00:13:51,780 --> 00:13:49,150
+can sort of look at the different
+
+294
+00:13:54,540 --> 00:13:51,790
+spectra that are around us use those as
+
+295
+00:13:57,480 --> 00:13:54,550
+surface albedo and see how they would
+
+296
+00:14:01,560 --> 00:13:57,490
+change the habitability of a planet
+
+297
+00:14:04,350 --> 00:14:01,570
+using this new method internet'll so
+
+298
+00:14:06,990 --> 00:14:04,360
+I'll just leave some ring up here thank
+
+299
+00:14:11,430 --> 00:14:07,000
+you thank you to my discovery team for
+
+300
+00:14:22,720 --> 00:14:14,330
+[Applause]
+301
+00:14:28,970 --> 00:14:24,310
+Hey
+
+302
+00:14:31,280 --> 00:14:28,980
+very cool presentation thank you are you
+
+303
+00:14:34,220 --> 00:14:31,290
+planning on using your model to any
+
+304
+00:14:36,680 --> 00:14:34,230
+extra work so planet any actual
+
+305
+00:14:40,670 --> 00:14:36,690
+exoplanets yes
+
+306
+00:14:43,010 --> 00:14:40,680
+we are using it to model some of the
+
+307
+00:14:44,320 --> 00:14:43,020
+recently found exercise and what did you
+
+308
+00:14:46,790 --> 00:14:44,330
+find
+
+309
+00:14:49,130 --> 00:14:46,800
+well we're sort of in the parent
+
+310
+00:14:52,010 --> 00:14:49,140
+luminary stages of testing it you know
+
+311
+00:14:55,420 --> 00:14:52,020
+trying out different surfaces um simple
+
+312
+00:14:57,500 --> 00:14:55,430
+way we've been using it for current
+
+313
+00:15:00,860 --> 00:14:57,510
+exoplanets is to use something that's
+
+314
+00:15:03,290 --> 00:15:00,870
+similar to earth for now but that's
+
+315
+00:15:06,050 --> 00:15:03,300
+still better than using a flat so we're
+
+316
+00:15:09,050 --> 00:15:06,060
+we're taking it one step at a time yeah
+
+317
+00:15:11,090 --> 00:15:09,060
+okay yeah we are we are finding that you
+
+318
+00:15:13,460 --> 00:15:11,100
+know it is changing so a five degree
+
+319
+00:15:17,450 --> 00:15:13,470
+difference in surface temperature can be
+
+320
+00:15:19,010 --> 00:15:17,460
+pretty big for habitability um so it
+
+321
+00:15:20,900 --> 00:15:19,020
+does make a pretty big difference if
+
+322
+00:15:42,540 --> 00:15:20,910
+you're on dem stars which are very
+
+323
+00:15:48,330 --> 00:15:45,540
+hi so I know this may be kind of a silly
+
+324
+00:15:49,920 --> 00:15:48,340
+question but I'm just curious if when
+
+325
+00:15:57,720 --> 00:15:49,930
+you're talking about like unserviceable
+326
+00:16:06,240 --> 00:15:57,730
+yo are you including cloud cover and yes
+
+327
+00:16:11,070 --> 00:16:06,250
+we're so if we go back to this if you've
+
+328
+00:16:13,140 --> 00:16:11,080
+seen a an earth albedo that's helped me
+
+329
+00:16:17,420 --> 00:16:13,150
+know it's actually very low it would
+
+330
+00:16:20,490 --> 00:16:17,430
+look something more like yes so this has
+
+331
+00:16:23,490 --> 00:16:20,500
+clouds incorporated into its albedo to
+
+332
+00:16:27,120 --> 00:16:23,500
+get it to match a surface temperature
+
+333
+00:16:31,620 --> 00:16:27,130
+that is the same as what we find for so
+
+334
+00:16:33,600 --> 00:16:31,630
+we use a cloud coverage of approximately
+
+335
+00:16:35,970 --> 00:16:33,610
+what we see today around like 50 percent
+
+336
+00:16:37,620 --> 00:16:35,980
+cloud coverage and if we do that it
+
+337
+00:16:41,040 --> 00:16:37,630
+actually gives us the same surface
+
+338
+00:16:44,130 --> 00:16:41,050
+temperature which was a nice check but
+
+339
+00:16:48,030 --> 00:16:44,140
+it is still not it's not like a cloud
+
+340
+00:16:49,980 --> 00:16:48,040
+layer in the model there is work on
+
+341
+00:16:52,740 --> 00:16:49,990
+incorporating those it's a very
+
+342
+00:16:54,360 --> 00:16:52,750
+difficult problem so there isn't a super
+
+343
+00:16:57,780 --> 00:16:54,370
+good solution yet on how to incorporate
+
+344
+00:17:07,750 --> 00:16:57,790
+it into a 1d model but it's being worked
+
+345
+00:17:13,510 --> 00:17:09,970
+um on your slide where you are showing
+
+346
+00:17:18,400 --> 00:17:13,520
+the different filters it looked like you
+
+347
+00:17:20,439 --> 00:17:18,410
+had gas ice and rocky does that mean
+
+348
+00:17:22,840 --> 00:17:20,449
+that you are not taking into account
+
+349
+00:17:26,159 --> 00:17:22,850
+water world's or are they considered
+
+350
+00:17:28,690 --> 00:17:26,169
+part of ice so these are just the
+351
+00:17:30,100 --> 00:17:28,700
+planets in our own solar system there
+
+352
+00:17:32,260 --> 00:17:30,110
+are objects in our own solar system ice
+
+353
+00:17:34,299 --> 00:17:32,270
+there are some moons here there's a lot
+
+354
+00:17:36,760 --> 00:17:34,309
+more dots than 19 because there's some
+
+355
+00:17:39,580 --> 00:17:36,770
+multiple observations you know this is
+
+356
+00:17:43,210 --> 00:17:39,590
+like a Neptune or something like this
+
+357
+00:17:44,590 --> 00:17:43,220
+cluster so yeah each one of these is one
+
+358
+00:17:49,390 --> 00:17:44,600
+of the objects in our solar system that
+
+359
+00:17:54,220 --> 00:17:49,400
+I had on this but if you did have it so
+
+360
+00:17:58,570 --> 00:17:54,230
+earth is pretty much it's very close to
+
+361
+00:18:01,450 --> 00:17:58,580
+a water world and we put it in the rocky
+
+362
+00:18:05,850 --> 00:18:01,460
+group and it it matches up which is
+
+363
+00:18:09,190 --> 00:18:05,860
+interesting because water and these
+
+364
+00:18:11,980 --> 00:18:09,200
+wavelength ranges looks very close to
+
+365
+00:18:14,200 --> 00:18:11,990
+rock it's actually very it's just very
+
+366
+00:18:16,510 --> 00:18:14,210
+dark it just absorbs everything so
+
+367
+00:18:18,370 --> 00:18:16,520
+that's a lot of what these rocks
+
+368
+00:18:21,070 --> 00:18:18,380
+actually look like so if that's an
+
+369
+00:18:23,020 --> 00:18:21,080
+interesting question to disentangle if
+
+370
+00:18:25,060 --> 00:18:23,030
+you had just these to work with how can
+
+371
+00:18:32,420 --> 00:18:25,070
+you distinguish between a water world
