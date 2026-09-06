@@ -1,0 +1,960 @@
+{"created_utc": "2026-09-06T20:43:11Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 122184, "source_ctime_ns": 1788519910158211292, "source_file": "Archives-for-the-Unexplained/documents/2023-06-19---Mick-West---Can-we-see-the-Bottle-Drop-Data-Please-_laYKUwawO20---transcript-automated-.pdf", "source_mtime_ns": 1788519910152586478, "source_rel": "Archives-for-the-Unexplained/documents/2023-06-19---Mick-West---Can-we-see-the-Bottle-Drop-Data-Please-_laYKUwawO20---transcript-automated-.pdf", "source_sha256": "c79c8a4bb1e7a209965c511f603d33bb94f14a477d3251fa964c6b71e6fafb1a"}
+
+1
+00:00:06,170 --> 00:00:03,409
+hello uh this video is directed towards
+
+2
+00:00:07,130 --> 00:00:06,180
+Eric Bard specifically Brandon fugle to
+
+3
+00:00:09,890 --> 00:00:07,140
+a degree
+
+4
+00:00:12,470 --> 00:00:09,900
+now yesterday Eric Bard was asked about
+
+5
+00:00:14,209 --> 00:00:12,480
+my request for data relating to the
+
+6
+00:00:16,430 --> 00:00:14,219
+helicopter drop specifically talking
+
+7
+00:00:17,990 --> 00:00:16,440
+about Mick West on Twitter where he
+
+8
+00:00:20,390 --> 00:00:18,000
+asked specifically asked for just the
+
+9
+00:00:22,910 --> 00:00:20,400
+raw data of I think it was the bottles
+
+10
+00:00:25,730 --> 00:00:22,920
+that they threw out of the helicopter
+
+11
+00:00:27,470 --> 00:00:25,740
+um and his response was that I need to
+
+12
+00:00:29,269 --> 00:00:27,480
+understand the contacts and the data and
+
+13
+00:00:31,609 --> 00:00:29,279
+the tools and the entire process and he
+
+14
+00:00:34,130 --> 00:00:31,619
+went over a little bit of that it's
+
+15
+00:00:36,290 --> 00:00:34,140
+logging internally in this case a GPS
+
+16
+00:00:38,209 --> 00:00:36,300
+position I've got some code that I've
+
+17
+00:00:40,430 --> 00:00:38,219
+written to go and parse the resulting
+
+18
+00:00:43,369 --> 00:00:40,440
+files he thinks that I need to
+
+19
+00:00:45,709 --> 00:00:43,379
+understand that before I can get to
+
+20
+00:00:48,170 --> 00:00:45,719
+grips with the data so what I want to do
+
+21
+00:00:49,729 --> 00:00:48,180
+is to basically demonstrate that I do
+
+22
+00:00:52,190 --> 00:00:49,739
+actually kind of understand what's going
+
+23
+00:00:54,170 --> 00:00:52,200
+on there and I I'm quite capable of
+
+24
+00:00:57,049 --> 00:00:54,180
+doing things with that data
+
+25
+00:01:00,950 --> 00:00:57,059
+so to recap the bottle drop experiment
+26
+00:01:02,810 --> 00:01:00,960
+was carried out on Skinwalker Ranch and
+
+27
+00:01:04,729 --> 00:01:02,820
+they thought there was anomaly an
+
+28
+00:01:07,070 --> 00:01:04,739
+anomaly up in the air above this
+
+29
+00:01:08,870 --> 00:01:07,080
+triangle area of the ranch and they
+
+30
+00:01:11,030 --> 00:01:08,880
+thought they would drop bottles out of
+
+31
+00:01:13,850 --> 00:01:11,040
+the helicopter to see what happened some
+
+32
+00:01:16,850 --> 00:01:13,860
+of the bottles had GPS receivers in them
+
+33
+00:01:18,410 --> 00:01:16,860
+which would record the GPS data
+
+34
+00:01:20,149 --> 00:01:18,420
+there were a whole bunch of different
+
+35
+00:01:22,310 --> 00:01:20,159
+bottles some of them were dummy bottles
+
+36
+00:01:24,289 --> 00:01:22,320
+some of them had little cameras in and
+
+37
+00:01:25,550 --> 00:01:24,299
+four of them had these GPS receivers
+
+38
+00:01:27,469 --> 00:01:25,560
+which are also meant to transmit the
+
+39
+00:01:28,969 --> 00:01:27,479
+data but that element of the experiment
+
+40
+00:01:30,710 --> 00:01:28,979
+didn't work
+
+41
+00:01:34,490 --> 00:01:30,720
+only one of these bottles was actually
+
+42
+00:01:37,429 --> 00:01:34,500
+recovered with workable data now the
+
+43
+00:01:40,609 --> 00:01:37,439
+data from these bottles is stored on a
+
+44
+00:01:42,710 --> 00:01:40,619
+memory card in what is called nmea
+
+45
+00:01:45,170 --> 00:01:42,720
+format which is the national Marine
+
+46
+00:01:47,090 --> 00:01:45,180
+Electronics Association it's a very
+
+47
+00:01:49,609 --> 00:01:47,100
+simple format it's just a text file with
+
+48
+00:01:51,469 --> 00:01:49,619
+a series of letters and numbers in a
+
+49
+00:01:53,929 --> 00:01:51,479
+kind of a comma separated value thing a
+
+50
+00:01:57,530 --> 00:01:53,939
+kind of a bit like a spreadsheet
+51
+00:02:00,050 --> 00:01:57,540
+and in this text file every second there
+
+52
+00:02:03,350 --> 00:02:00,060
+is recorded a bunch of different things
+
+53
+00:02:07,850 --> 00:02:03,360
+but most interestingly a GPS position it
+
+54
+00:02:11,029 --> 00:02:07,860
+latitude a longitude and an altitude
+
+55
+00:02:13,070 --> 00:02:11,039
+so what Eric did with this data was he
+
+56
+00:02:15,650 --> 00:02:13,080
+took it and he converted it into a
+
+57
+00:02:17,690 --> 00:02:15,660
+blender model now blender is a 3D
+
+58
+00:02:19,190 --> 00:02:17,700
+program and it displays things in three
+
+59
+00:02:21,470 --> 00:02:19,200
+dimensions so you can look at them from
+
+60
+00:02:23,630 --> 00:02:21,480
+different different angles so to take
+
+61
+00:02:26,030 --> 00:02:23,640
+the nmea data and convert it into
+
+62
+00:02:28,550 --> 00:02:26,040
+blender isn't actually very complicated
+
+63
+00:02:31,070 --> 00:02:28,560
+in fact it's a task you could ask chat
+
+64
+00:02:32,930 --> 00:02:31,080
+gbt4 to do you could just do a very
+
+65
+00:02:34,369 --> 00:02:32,940
+simple prompt and it will spit out the
+
+66
+00:02:36,470 --> 00:02:34,379
+program and it would work
+
+67
+00:02:38,570 --> 00:02:36,480
+uh but even if you didn't
+
+68
+00:02:40,010 --> 00:02:38,580
+have ai to help you it's not a
+
+69
+00:02:42,350 --> 00:02:40,020
+particularly complicated bit of code to
+
+70
+00:02:45,670 --> 00:02:42,360
+write it's just taking the numbers from
+
+71
+00:02:49,430 --> 00:02:45,680
+the right positions converting it from
+
+72
+00:02:51,470 --> 00:02:49,440
+lla latitude longitude and altitude to a
+
+73
+00:02:53,990 --> 00:02:51,480
+different coordinate system probably
+
+74
+00:02:56,509 --> 00:02:54,000
+something like enu which is East North
+
+75
+00:02:58,910 --> 00:02:56,519
+up which is a local frame of reference
+76
+00:03:00,229 --> 00:02:58,920
+it's very simple well understood thing
+
+77
+00:03:03,050 --> 00:03:00,239
+the type of thing I've done many many
+
+78
+00:03:04,970 --> 00:03:03,060
+times before now there wasn't just one
+
+79
+00:03:06,949 --> 00:03:04,980
+GPS track being displayed that was two
+
+80
+00:03:08,449 --> 00:03:06,959
+the other one wasn't from a bottle
+
+81
+00:03:10,250 --> 00:03:08,459
+though at least not from a bottle that
+
+82
+00:03:11,630 --> 00:03:10,260
+was dropped from the helicopter because
+
+83
+00:03:13,910 --> 00:03:11,640
+it showed the entire path of the
+
+84
+00:03:15,649 --> 00:03:13,920
+helicopter going up flying around and
+
+85
+00:03:17,210 --> 00:03:15,659
+then going back down again
+
+86
+00:03:19,670 --> 00:03:17,220
+so that track might have actually come
+
+87
+00:03:22,490 --> 00:03:19,680
+from the helicopter's GPS system perhaps
+
+88
+00:03:24,410 --> 00:03:22,500
+an egg finder in the helicopter or
+
+89
+00:03:26,330 --> 00:03:24,420
+perhaps something like the adsb data
+
+90
+00:03:27,770 --> 00:03:26,340
+from the helicopter either way there
+
+91
+00:03:29,809 --> 00:03:27,780
+we've got a one track which is the
+
+92
+00:03:32,270 --> 00:03:29,819
+helicopter and another one which shows
+
+93
+00:03:33,530 --> 00:03:32,280
+the bottle going up with the helicopter
+
+94
+00:03:36,350 --> 00:03:33,540
+then being thrown out and then
+
+95
+00:03:39,770 --> 00:03:36,360
+descending to the ground
+
+96
+00:03:41,809 --> 00:03:39,780
+now uh Eric converted the data into this
+
+97
+00:03:43,250 --> 00:03:41,819
+3D format and the team looked at it and
+
+98
+00:03:45,589 --> 00:03:43,260
+in the show you see they're looking at
+
+99
+00:03:48,470 --> 00:03:45,599
+the data on screen and they're pointing
+
+100
+00:03:51,530 --> 00:03:48,480
+to the screen and they claim that there
+101
+00:03:52,729 --> 00:03:51,540
+is a bounce something bounces well the
+
+102
+00:03:56,630 --> 00:03:52,739
+bottle actually bounces off something
+
+103
+00:03:58,789 --> 00:03:56,640
+and changes Direction in a radical way
+
+104
+00:04:01,070 --> 00:03:58,799
+this is something that's quite hard to
+
+105
+00:04:02,809 --> 00:04:01,080
+verify just by looking at this thing on
+
+106
+00:04:05,270 --> 00:04:02,819
+on the screen especially for me what for
+
+107
+00:04:06,770 --> 00:04:05,280
+what is being shown because it's very
+
+108
+00:04:09,229 --> 00:04:06,780
+hard to look at a 3D perspective
+
+109
+00:04:10,789 --> 00:04:09,239
+projection of something and see what
+
+110
+00:04:12,470 --> 00:04:10,799
+it's actually doing when you're looking
+
+111
+00:04:14,270 --> 00:04:12,480
+at things from a certain angle you get
+
+112
+00:04:15,649 --> 00:04:14,280
+perspective for shortening things look
+
+113
+00:04:18,050 --> 00:04:15,659
+very strange when you're looking
+
+114
+00:04:19,729 --> 00:04:18,060
+straight at them versus looking at them
+
+115
+00:04:21,830 --> 00:04:19,739
+from the side and with perspective
+
+116
+00:04:24,590 --> 00:04:21,840
+things get even more strange
+
+117
+00:04:26,270 --> 00:04:24,600
+so what I'd like to do is try to verify
+
+118
+00:04:29,330 --> 00:04:26,280
+the claim that the model bounds up
+
+119
+00:04:31,850 --> 00:04:29,340
+something and there's two ways two ways
+
+120
+00:04:34,370 --> 00:04:31,860
+of analyzing this that I would do
+
+121
+00:04:36,530 --> 00:04:34,380
+the first one is I would animate the
+
+122
+00:04:38,330 --> 00:04:36,540
+data instead of just showing a static
+
+123
+00:04:40,430 --> 00:04:38,340
+model just showing the path that it
+
+124
+00:04:42,890 --> 00:04:40,440
+takes I show the actual thing moving
+
+125
+00:04:44,870 --> 00:04:42,900
+along that path so if there's any bump
+126
+00:04:47,629 --> 00:04:44,880
+along that path you would actually see
+
+127
+00:04:49,490 --> 00:04:47,639
+it this is far better than simply
+
+128
+00:04:50,749 --> 00:04:49,500
+looking at a line because you can
+
+129
+00:04:52,969 --> 00:04:50,759
+actually see how fast the object is
+
+130
+00:04:55,129 --> 00:04:52,979
+moving along the line and how much at a
+
+131
+00:04:57,170 --> 00:04:55,139
+time that bump actually takes sometimes
+
+132
+00:04:59,870 --> 00:04:57,180
+if it's going around a smooth thing it's
+
+133
+00:05:02,090 --> 00:04:59,880
+not really bumping if it goes boom boom
+
+134
+00:05:03,830 --> 00:05:02,100
+then you can tell it's actually bumping
+
+135
+00:05:05,810 --> 00:05:03,840
+the second thing I would do and this is
+
+136
+00:05:07,730 --> 00:05:05,820
+probably the more useful thing is that I
+
+137
+00:05:10,070 --> 00:05:07,740
+would graph the second derivative of the
+
+138
+00:05:11,689 --> 00:05:10,080
+position that should say complicated way
+
+139
+00:05:14,629 --> 00:05:11,699
+of saying I would create a graph that
+
+140
+00:05:18,110 --> 00:05:14,639
+shows the acceleration or the forces
+
+141
+00:05:19,430 --> 00:05:18,120
+that are acting upon this bottle now the
+
+142
+00:05:20,930 --> 00:05:19,440
+second derivative what does that mean
+
+143
+00:05:23,570 --> 00:05:20,940
+well the first derivative of something
+
+144
+00:05:25,010 --> 00:05:23,580
+is just how much it changes so if we
+
+145
+00:05:27,590 --> 00:05:25,020
+have the positions
+
+146
+00:05:29,870 --> 00:05:27,600
+of where the bottle is we take the first
+
+147
+00:05:31,070 --> 00:05:29,880
+derivative that tells you the speed or
+
+148
+00:05:33,950 --> 00:05:31,080
+the velocity
+
+149
+00:05:35,330 --> 00:05:33,960
+if you take this second derivative you
+
+150
+00:05:38,570 --> 00:05:35,340
+that tells you how fast the speed
+151
+00:05:41,390 --> 00:05:38,580
+changes which is the acceleration now
+
+152
+00:05:43,790 --> 00:05:41,400
+a bump in something is actually an
+
+153
+00:05:45,590 --> 00:05:43,800
+acceleration its velocity changes either
+
+154
+00:05:48,050 --> 00:05:45,600
+from zero to something or
+
+155
+00:05:50,510 --> 00:05:48,060
+from something to something else so if
+
+156
+00:05:53,150 --> 00:05:50,520
+there is a bump if something is bumping
+
+157
+00:05:54,830 --> 00:05:53,160
+off something it will show up on a graph
+
+158
+00:05:56,990 --> 00:05:54,840
+of the second derivative it will show up
+
+159
+00:05:58,430 --> 00:05:57,000
+on a graph of the acceleration as a
+
+160
+00:06:00,950 --> 00:05:58,440
+spike
+
+161
+00:06:01,969 --> 00:06:00,960
+it'll show be very distinctive so if
+
+162
+00:06:04,670 --> 00:06:01,979
+there is actually something there
+
+163
+00:06:06,469 --> 00:06:04,680
+something anomalous then it will show up
+
+164
+00:06:08,150 --> 00:06:06,479
+on this graph
+
+165
+00:06:09,650 --> 00:06:08,160
+we can do the graph in multiple
+
+166
+00:06:10,969 --> 00:06:09,660
+different ways just to make sure we
+
+167
+00:06:13,730 --> 00:06:10,979
+understand what we're actually looking
+
+168
+00:06:15,710 --> 00:06:13,740
+at we can do the most straightforward
+
+169
+00:06:17,689 --> 00:06:15,720
+one is the rate of the change or the
+
+170
+00:06:19,270 --> 00:06:17,699
+magnitude of the Velocity which doesn't
+
+171
+00:06:22,070 --> 00:06:19,280
+sound straightforward but it's basically
+
+172
+00:06:25,070 --> 00:06:22,080
+the speed of the object along its path
+
+173
+00:06:27,469 --> 00:06:25,080
+and how fast that changes so how fast is
+
+174
+00:06:30,170 --> 00:06:27,479
+it is it accelerating along the path the
+
+175
+00:06:32,450 --> 00:06:30,180
+instantaneous acceleration
+176
+00:06:34,850 --> 00:06:32,460
+we can also measure independently the
+
+177
+00:06:37,249 --> 00:06:34,860
+vertical acceleration which normally
+
+178
+00:06:39,409 --> 00:06:37,259
+would just be gravity minus friction
+
+179
+00:06:41,990 --> 00:06:39,419
+from the air but if there's something
+
+180
+00:06:44,809 --> 00:06:42,000
+else going on pushing it up or down we
+
+181
+00:06:47,210 --> 00:06:44,819
+would say see variance in that
+
+182
+00:06:49,490 --> 00:06:47,220
+we can also separate out entirely the
+
+183
+00:06:50,809 --> 00:06:49,500
+horizontal acceleration now the claim is
+
+184
+00:06:52,550 --> 00:06:50,819
+that there's a bump which is pushing
+
+185
+00:06:54,110 --> 00:06:52,560
+something to the side so that would
+
+186
+00:06:56,510 --> 00:06:54,120
+definitely show up as a spike in the
+
+187
+00:06:58,610 --> 00:06:56,520
+graph of the horizontal acceleration and
+
+188
+00:07:01,909 --> 00:06:58,620
+what's more we can do both these things
+
+189
+00:07:03,710 --> 00:07:01,919
+we can animate the scene we can animate
+
+190
+00:07:05,629 --> 00:07:03,720
+the object moving along the path and we
+
+191
+00:07:07,370 --> 00:07:05,639
+can share a graph and we can sync them
+
+192
+00:07:09,050 --> 00:07:07,380
+together so we can show where things are
+
+193
+00:07:10,370 --> 00:07:09,060
+in the graph at any point in this
+
+194
+00:07:12,650 --> 00:07:10,380
+animation and we can rotate things
+
+195
+00:07:15,050 --> 00:07:12,660
+around in 3D and have a look at it see
+
+196
+00:07:16,550 --> 00:07:15,060
+exactly what's going on this is the type
+
+197
+00:07:18,650 --> 00:07:16,560
+of thing that I do this is the type of
+
+198
+00:07:20,990 --> 00:07:18,660
+thing I've done many many many times
+
+199
+00:07:23,089 --> 00:07:21,000
+before I've got a special tool for doing
+
+200
+00:07:24,830 --> 00:07:23,099
+this which I call set rack situation
+201
+00:07:25,610 --> 00:07:24,840
+Recreation where I can just drop things
+
+202
+00:07:28,010 --> 00:07:25,620
+in
+
+203
+00:07:29,809 --> 00:07:28,020
+and I can create scenarios like this
+
+204
+00:07:33,409 --> 00:07:29,819
+with a little bit of extra coding
+
+205
+00:07:36,409 --> 00:07:33,419
+so I think I will be able to demonstrate
+
+206
+00:07:39,170 --> 00:07:36,419
+very clearly if there is actually some
+
+207
+00:07:41,809 --> 00:07:39,180
+kind of bump or if there isn't
+
+208
+00:07:43,909 --> 00:07:41,819
+now there are concerns that I would
+
+209
+00:07:45,830 --> 00:07:43,919
+manipulate the data that I would somehow
+
+210
+00:07:47,749 --> 00:07:45,840
+change it I think the concern was that
+
+211
+00:07:50,450 --> 00:07:47,759
+it was such a small file it would be
+
+212
+00:07:52,969 --> 00:07:50,460
+very easy for me to change well
+
+213
+00:07:56,029 --> 00:07:52,979
+I'm suggesting that you release the data
+
+214
+00:07:58,610 --> 00:07:56,039
+publicly so that the data cannot be
+
+215
+00:08:01,129 --> 00:07:58,620
+messed with other people can very easily
+
+216
+00:08:03,170 --> 00:08:01,139
+replicate what I do it's not going to be
+
+217
+00:08:05,150 --> 00:08:03,180
+very complicated at all anyone can take
+
+218
+00:08:07,430 --> 00:08:05,160
+this the second derivative of the
+
+219
+00:08:09,050 --> 00:08:07,440
+position very very simple again you
+
+220
+00:08:10,010 --> 00:08:09,060
+could probably write an AI script to do
+
+221
+00:08:12,710 --> 00:08:10,020
+it for you
+
+222
+00:08:14,390 --> 00:08:12,720
+if I manipulated data in any way it
+
+223
+00:08:17,150 --> 00:08:14,400
+would be perfectly apparent
+
+224
+00:08:19,189 --> 00:08:17,160
+and I will be completely discredited and
+
+225
+00:08:21,710 --> 00:08:19,199
+game over for Mick so obviously I'm not
+226
+00:08:23,749 --> 00:08:21,720
+going to do that but you can check you
+
+227
+00:08:26,629 --> 00:08:23,759
+can check if I do it
+
+228
+00:08:28,129 --> 00:08:26,639
+so I hope this makes it clear that I
+
+229
+00:08:30,770 --> 00:08:28,139
+understand the situation I understand
+
+230
+00:08:32,589 --> 00:08:30,780
+where the data came from what the data
+
+231
+00:08:35,449 --> 00:08:32,599
+are
+
+232
+00:08:36,829 --> 00:08:35,459
+what you did to the data and I've
+
+233
+00:08:38,870 --> 00:08:36,839
+explained what I'm going to do to the
+
+234
+00:08:40,370 --> 00:08:38,880
+data to try to verify the claims that
+
+235
+00:08:43,490 --> 00:08:40,380
+were made on the show
+
+236
+00:08:45,350 --> 00:08:43,500
+so I'll be happy to discuss this more
+
+237
+00:08:48,650 --> 00:08:45,360
+but if that's enough you can just email
+
+238
+00:08:52,070 --> 00:08:48,660
+me the data all I need are the two nmea
+
+239
+00:08:54,710 --> 00:08:52,080
+files the one for the bottle drop and
+
+240
+00:08:56,269 --> 00:08:54,720
+the one for the the helicopter or
+
+241
+00:08:58,850 --> 00:08:56,279
+whatever format you have that one in if
+
+242
+00:09:02,269 --> 00:08:58,860
+it's not an MEA and you can email them

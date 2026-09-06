@@ -1,0 +1,1795 @@
+{"created_utc": "2026-09-06T20:36:58Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 122017, "source_ctime_ns": 1788577411905830909, "source_file": "Archives-for-the-Unexplained/documents/2016-08-22---NASA-Astrobiology---AbGradCon-2016-Day-2---Alyssa-Adams_JzhAjcbSupM---transcript-automated-.pdf", "source_mtime_ns": 1788577411901695290, "source_rel": "Archives-for-the-Unexplained/documents/2016-08-22---NASA-Astrobiology---AbGradCon-2016-Day-2---Alyssa-Adams_JzhAjcbSupM---transcript-automated-.pdf", "source_sha256": "c3f102de251a8c7c01b9b3d02d053c2b8da2b23f7a23f5a3fb05fe9a370cdea3"}
+
+1
+00:00:12,110 --> 00:00:09,080
+hi everybody my name is Alyssa like he
+
+2
+00:00:16,550 --> 00:00:12,120
+just said and I'm also a physicist so oh
+
+3
+00:00:20,810 --> 00:00:16,560
+right but I love biology so that's why
+
+4
+00:00:22,670 --> 00:00:20,820
+I'm here also i am a amateur computer
+
+5
+00:00:25,250 --> 00:00:22,680
+theorists so if I say anything wrong
+
+6
+00:00:26,599 --> 00:00:25,260
+please like correct me because you know
+
+7
+00:00:28,339 --> 00:00:26,609
+I wasn't trained in any of this
+
+8
+00:00:30,410 --> 00:00:28,349
+background but I love it so yeah okay
+
+9
+00:00:32,389 --> 00:00:30,420
+I'm going to talk about it okay from
+
+10
+00:00:36,080 --> 00:00:32,399
+touring two turtles a theory of
+
+11
+00:00:38,600 --> 00:00:36,090
+biological computation how exciting okay
+
+12
+00:00:41,030 --> 00:00:38,610
+so first I'm going to kind of talk about
+
+13
+00:00:44,479 --> 00:00:41,040
+what do I mean by computation the
+
+14
+00:00:46,639 --> 00:00:44,489
+dreaded one is live question and then
+
+15
+00:00:48,380 --> 00:00:46,649
+we're actually just going to look at one
+
+16
+00:00:50,630 --> 00:00:48,390
+part of life which is open-ended
+
+17
+00:00:52,189 --> 00:00:50,640
+evolution and then we're going to do
+
+18
+00:00:55,240 --> 00:00:52,199
+some stuff with a toy model and then
+
+19
+00:00:58,250 --> 00:00:55,250
+we're going to discuss what we found
+
+20
+00:01:02,299 --> 00:00:58,260
+okay computation things that we can
+
+21
+00:01:04,609 --> 00:01:02,309
+compute is life something we can compute
+
+22
+00:01:08,090 --> 00:01:04,619
+this is the big enchilada question this
+
+23
+00:01:10,850 --> 00:01:08,100
+is it has a lot of interest in a life
+
+24
+00:01:13,399 --> 00:01:10,860
+and artificial intelligence but here's
+
+25
+00:01:16,940 --> 00:01:13,409
+an issue what is life what does it mean
+26
+00:01:18,620 --> 00:01:16,950
+to compute well in order to understand
+
+27
+00:01:21,679 --> 00:01:18,630
+computers we have to go back to the
+
+28
+00:01:24,140 --> 00:01:21,689
+1850s where this is Sir Charles Babbage
+
+29
+00:01:26,210 --> 00:01:24,150
+and he actually invaded invented the
+
+30
+00:01:29,330 --> 00:01:26,220
+very first computer unfortunately he
+
+31
+00:01:31,010 --> 00:01:29,340
+never finished it um because he was
+
+32
+00:01:32,660 --> 00:01:31,020
+notorious for getting really gung-ho
+
+33
+00:01:36,190 --> 00:01:32,670
+about projects and then not ever
+
+34
+00:01:40,130 --> 00:01:36,200
+finishing them so he actually was fired
+
+35
+00:01:41,510 --> 00:01:40,140
+and his machines were never necessarily
+
+36
+00:01:44,990 --> 00:01:41,520
+completed but they did eventually
+
+37
+00:01:48,170 --> 00:01:45,000
+compute the complete them like I guess
+
+38
+00:01:49,999 --> 00:01:48,180
+100 years later but um there was one
+
+39
+00:01:52,280 --> 00:01:50,009
+person that really understood what
+
+40
+00:01:55,670 --> 00:01:52,290
+Charles Babbage was doing which was Ada
+
+41
+00:01:58,280 --> 00:01:55,680
+Lovelace and she actually looked at this
+
+42
+00:02:01,249 --> 00:01:58,290
+thing and was like oh my gosh this is a
+
+43
+00:02:02,899 --> 00:02:01,259
+thing you put in input you crank the
+
+44
+00:02:06,080 --> 00:02:02,909
+handle and then you get an output on the
+
+45
+00:02:08,210 --> 00:02:06,090
+other side this is computation and what
+
+46
+00:02:09,919 --> 00:02:08,220
+you can do is you can use the output
+
+47
+00:02:11,290 --> 00:02:09,929
+from one side and feed it back into the
+
+48
+00:02:12,880 --> 00:02:11,300
+input again and then
+
+49
+00:02:14,770 --> 00:02:12,890
+just goes around and around and it runs
+
+50
+00:02:17,800 --> 00:02:14,780
+and she's like that's a really cool
+51
+00:02:19,990 --> 00:02:17,810
+thing but what she did know is that the
+
+52
+00:02:23,050 --> 00:02:20,000
+engine has no pretentious to originate
+
+53
+00:02:25,660 --> 00:02:23,060
+anything and so it can only do whatever
+
+54
+00:02:27,160 --> 00:02:25,670
+we tell it to do so this is every single
+
+55
+00:02:29,200 --> 00:02:27,170
+computer in the entire world this is
+
+56
+00:02:33,160 --> 00:02:29,210
+your smartphone's this is your laptop's
+
+57
+00:02:35,560 --> 00:02:33,170
+it all works like this so we know what
+
+58
+00:02:38,160 --> 00:02:35,570
+computing is all right but what about
+
+59
+00:02:41,110 --> 00:02:38,170
+life so because we can't necessarily
+
+60
+00:02:43,150 --> 00:02:41,120
+describe what life is because we only
+
+61
+00:02:46,210 --> 00:02:43,160
+have one sample which is here on earth
+
+62
+00:02:48,700 --> 00:02:46,220
+the only thing we can do is be extremely
+
+63
+00:02:50,290 --> 00:02:48,710
+general so what I mean by extremely
+
+64
+00:02:52,990 --> 00:02:50,300
+general I mean like moving away from
+
+65
+00:02:56,380 --> 00:02:53,000
+chemistry into the abstract sense of
+
+66
+00:03:00,520 --> 00:02:56,390
+life so we could say that it uses energy
+
+67
+00:03:03,070 --> 00:03:00,530
+it processes information there are some
+
+68
+00:03:06,130 --> 00:03:03,080
+replicators in there but one thing that
+
+69
+00:03:08,830 --> 00:03:06,140
+is agreed on is that life has this thing
+
+70
+00:03:11,500 --> 00:03:08,840
+called open-ended evolution and what the
+
+71
+00:03:13,660 --> 00:03:11,510
+heck is that so it means that life
+
+72
+00:03:15,850 --> 00:03:13,670
+evolves forwards and not backwards and
+
+73
+00:03:18,400 --> 00:03:15,860
+it also constantly innovates and creates
+
+74
+00:03:20,020 --> 00:03:18,410
+new things so you'll never well we
+
+75
+00:03:22,600 --> 00:03:20,030
+haven't seen anything in the biosphere
+76
+00:03:24,400 --> 00:03:22,610
+be like okay now the entire tree of life
+
+77
+00:03:25,900 --> 00:03:24,410
+is going back to bacteria so it's
+
+78
+00:03:29,350 --> 00:03:25,910
+open-ended it keeps getting more
+
+79
+00:03:33,430 --> 00:03:29,360
+complicated and things like that so the
+
+80
+00:03:36,280 --> 00:03:33,440
+general sense is if we can compute
+
+81
+00:03:38,050 --> 00:03:36,290
+things like open-ended evolution and we
+
+82
+00:03:40,120 --> 00:03:38,060
+can compute things that process
+
+83
+00:03:45,040 --> 00:03:40,130
+information and replicators then maybe
+
+84
+00:03:46,270 --> 00:03:45,050
+we can compete life after all okay so
+
+85
+00:03:48,460 --> 00:03:46,280
+let's learn a little bit more about
+
+86
+00:03:49,840 --> 00:03:48,470
+open-ended evolution because that's the
+
+87
+00:03:53,020 --> 00:03:49,850
+thing that I want to try to compute
+
+88
+00:03:55,690 --> 00:03:53,030
+right so in the open-ended evolution
+
+89
+00:04:00,820 --> 00:03:55,700
+community there is a big consensus on
+
+90
+00:04:02,770 --> 00:04:00,830
+what it is and this is a summary it's
+
+91
+00:04:05,530 --> 00:04:02,780
+there's ongoing innovation and
+
+92
+00:04:09,640 --> 00:04:05,540
+generation of novelty it's unbounded
+
+93
+00:04:12,160 --> 00:04:09,650
+it's constantly being complex and it's a
+
+94
+00:04:14,130 --> 00:04:12,170
+defining feature of life but the issue
+
+95
+00:04:15,970 --> 00:04:14,140
+is that these things aren't necessarily
+
+96
+00:04:18,550 --> 00:04:15,980
+quantifiable like what does it mean to
+
+97
+00:04:21,640 --> 00:04:18,560
+be innovative and what does it mean to
+
+98
+00:04:23,710 --> 00:04:21,650
+be complex all those kinds of things so
+
+99
+00:04:24,990 --> 00:04:23,720
+what I spent the last two years doing
+
+100
+00:04:27,810 --> 00:04:25,000
+was trying
+101
+00:04:30,210 --> 00:04:27,820
+to get away to where we can take all
+
+102
+00:04:34,200 --> 00:04:30,220
+these ideas and put them into something
+
+103
+00:04:37,530 --> 00:04:34,210
+that you can measure so emerging these
+
+104
+00:04:39,120 --> 00:04:37,540
+definitions um because I like computers
+
+105
+00:04:42,060 --> 00:04:39,130
+and I'm interested if we can compute
+
+106
+00:04:44,070 --> 00:04:42,070
+life I'm going to focus only on finite
+
+107
+00:04:46,230 --> 00:04:44,080
+and deterministic systems so that's
+
+108
+00:04:48,570 --> 00:04:46,240
+something that uses ones or zeros or
+
+109
+00:04:51,060 --> 00:04:48,580
+some sort of alphabet and there's no
+
+110
+00:04:54,930 --> 00:04:51,070
+stochasticity whatsoever it's completely
+
+111
+00:04:57,390 --> 00:04:54,940
+deterministic just like our computers so
+
+112
+00:04:59,100 --> 00:04:57,400
+um one of the first things that you may
+
+113
+00:05:01,290 --> 00:04:59,110
+or may not learn about with dynamic
+
+114
+00:05:03,360 --> 00:05:01,300
+systems is the Poincare recurrence down
+
+115
+00:05:04,980 --> 00:05:03,370
+basically it just says if you have
+
+116
+00:05:07,320 --> 00:05:04,990
+finite deterministic system like your
+
+117
+00:05:10,020 --> 00:05:07,330
+computer it's guaranteed to always come
+
+118
+00:05:12,900 --> 00:05:10,030
+back to the beginning so what does that
+
+119
+00:05:14,550 --> 00:05:12,910
+mean um if you have a really simple
+
+120
+00:05:16,200 --> 00:05:14,560
+computer so pretend you could see your
+
+121
+00:05:19,260 --> 00:05:16,210
+computer as black and white squares
+
+122
+00:05:22,020 --> 00:05:19,270
+right if you just ran that thing it's
+
+123
+00:05:23,700 --> 00:05:22,030
+just always going to repeat so you're
+
+124
+00:05:24,870 --> 00:05:23,710
+always going to get repeating patterns
+
+125
+00:05:26,640 --> 00:05:24,880
+because of the Poincare recurrence
+126
+00:05:29,580 --> 00:05:26,650
+theorem there's no way around it
+
+127
+00:05:31,200 --> 00:05:29,590
+whatsoever um and of course because you
+
+128
+00:05:33,030 --> 00:05:31,210
+have the same patterns that are
+
+129
+00:05:36,480 --> 00:05:33,040
+repeating it puts a cap on the
+
+130
+00:05:40,200 --> 00:05:36,490
+complexity so already we're sad because
+
+131
+00:05:44,090 --> 00:05:40,210
+we can't type into a code of life and
+
+132
+00:05:48,030 --> 00:05:44,100
+then really cool things will pop out um
+
+133
+00:05:49,500 --> 00:05:48,040
+but what we can say is if we want
+
+134
+00:05:51,000 --> 00:05:49,510
+something that's unbounded evolution
+
+135
+00:05:52,680 --> 00:05:51,010
+it's going to have to break the point
+
+136
+00:05:54,240 --> 00:05:52,690
+create recurrence time so that's all
+
+137
+00:05:55,680 --> 00:05:54,250
+we're saying here so if you have
+
+138
+00:05:57,780 --> 00:05:55,690
+something that breaks your point career
+
+139
+00:06:03,380 --> 00:05:57,790
+currents time it's probably unbounded
+
+140
+00:06:06,090 --> 00:06:03,390
+evolution and so we have to say that
+
+141
+00:06:08,190 --> 00:06:06,100
+there's input from an external system
+
+142
+00:06:09,900 --> 00:06:08,200
+because the Poincare recurrence time is
+
+143
+00:06:11,640 --> 00:06:09,910
+only concerned with things that are
+
+144
+00:06:14,010 --> 00:06:11,650
+completely internal so if you have
+
+145
+00:06:16,350 --> 00:06:14,020
+something else that's like kind of
+
+146
+00:06:18,930 --> 00:06:16,360
+giving it some signals then you're going
+
+147
+00:06:22,200 --> 00:06:18,940
+to be able to push past that so this is
+
+148
+00:06:23,700 --> 00:06:22,210
+kind of like a paradigm shift um so now
+
+149
+00:06:25,500 --> 00:06:23,710
+we have to have a notion of an
+
+150
+00:06:27,930 --> 00:06:25,510
+environment and we have to have a notion
+151
+00:06:30,780 --> 00:06:27,940
+of like biology or an organism or
+
+152
+00:06:32,280 --> 00:06:30,790
+something so that can get a little bit
+
+153
+00:06:34,500 --> 00:06:32,290
+strange because when you look at a
+
+154
+00:06:36,719 --> 00:06:34,510
+picture like this you kind of say okay
+
+155
+00:06:37,679 --> 00:06:36,729
+what's the environment well it really
+
+156
+00:06:38,549 --> 00:06:37,689
+just depends on
+
+157
+00:06:40,169 --> 00:06:38,559
+what you're talking about you talking
+
+158
+00:06:43,529 --> 00:06:40,179
+about the trees then the environment
+
+159
+00:06:45,959 --> 00:06:43,539
+might be other stuff so what about
+
+160
+00:06:48,659 --> 00:06:45,969
+innovation so innovation what we're
+
+161
+00:06:51,509 --> 00:06:48,669
+going to say is ok if we have some sort
+
+162
+00:06:55,649 --> 00:06:51,519
+of biology and it's integrated into
+
+163
+00:06:58,559 --> 00:06:55,659
+everything on then we say that it could
+
+164
+00:07:00,209 --> 00:06:58,569
+have an about unbounded evolution but if
+
+165
+00:07:02,219 --> 00:07:00,219
+we have something that's just all by
+
+166
+00:07:03,779 --> 00:07:02,229
+itself the exact same size and there's
+
+167
+00:07:05,999 --> 00:07:03,789
+no external things we're going to call
+
+168
+00:07:09,600 --> 00:07:06,009
+that the isolated system so that's like
+
+169
+00:07:11,399 --> 00:07:09,610
+our control right so if we imagine all
+
+170
+00:07:13,949 --> 00:07:11,409
+the things that are by themselves and we
+
+171
+00:07:16,049 --> 00:07:13,959
+track their behavior we say these are
+
+172
+00:07:17,609 --> 00:07:16,059
+our control like this is our control but
+
+173
+00:07:19,409 --> 00:07:17,619
+if we see something different that
+
+174
+00:07:22,979 --> 00:07:19,419
+hasn't been tracked in the isolated
+
+175
+00:07:24,959 --> 00:07:22,989
+systems and we say its innovative so if
+176
+00:07:29,009 --> 00:07:24,969
+you don't understand any of that that's
+
+177
+00:07:31,829 --> 00:07:29,019
+fine because I pictures instead so these
+
+178
+00:07:34,379 --> 00:07:31,839
+are examples of what innovation means so
+
+179
+00:07:37,429 --> 00:07:34,389
+these are cellular automata they're just
+
+180
+00:07:39,649 --> 00:07:37,439
+black and white squares um and they're
+
+181
+00:07:42,029 --> 00:07:39,659
+notoriously famous for creating patterns
+
+182
+00:07:44,399 --> 00:07:42,039
+now we've never seen these patterns
+
+183
+00:07:46,859 --> 00:07:44,409
+before in cellular automata because they
+
+184
+00:07:48,779 --> 00:07:46,869
+have some sort of additional input and
+
+185
+00:07:50,069 --> 00:07:48,789
+since they look different than we've
+
+186
+00:07:52,619 --> 00:07:50,079
+ever seen them before we call them
+
+187
+00:07:56,729 --> 00:07:52,629
+innovative so hey is it a video we've
+
+188
+00:07:58,979 --> 00:07:56,739
+never seen it before great so if its
+
+189
+00:08:01,619 --> 00:07:58,989
+innovative and it's both unbounded that
+
+190
+00:08:03,779 --> 00:08:01,629
+means it is open and it's it's got
+
+191
+00:08:05,699 --> 00:08:03,789
+open-ended evolution in it which is
+
+192
+00:08:08,609 --> 00:08:05,709
+great because that's a one of the
+
+193
+00:08:12,989 --> 00:08:08,619
+defining features of life okay so more
+
+194
+00:08:15,629 --> 00:08:12,999
+pictures yay okay for a quick crash
+
+195
+00:08:17,399 --> 00:08:15,639
+course in cellular automata basically
+
+196
+00:08:19,679 --> 00:08:17,409
+all it is is you start with a grid of
+
+197
+00:08:23,279 --> 00:08:19,689
+black and white squares so they could be
+
+198
+00:08:25,259 --> 00:08:23,289
+12 zeroes and you run this rule on it so
+
+199
+00:08:27,059 --> 00:08:25,269
+you start with the top state and then
+
+200
+00:08:30,389 --> 00:08:27,069
+you're like okay well that is going to
+201
+00:08:32,909 --> 00:08:30,399
+update to the next row using this rule
+
+202
+00:08:35,850 --> 00:08:32,919
+and as you can see four different rules
+
+203
+00:08:38,059 --> 00:08:35,860
+of CA you get different patterns so
+
+204
+00:08:41,369 --> 00:08:38,069
+different rules mean different patterns
+
+205
+00:08:43,829 --> 00:08:41,379
+and just these classic ones the
+
+206
+00:08:47,249 --> 00:08:43,839
+elementary cellular topic just the ones
+
+207
+00:08:49,670 --> 00:08:47,259
+that have been studied they have a point
+
+208
+00:08:51,800 --> 00:08:49,680
+a recurrence time of two
+
+209
+00:08:53,210 --> 00:08:51,810
+to the system size so the bigger the
+
+210
+00:08:55,040 --> 00:08:53,220
+system size the longer it's going to
+
+211
+00:08:59,389 --> 00:08:55,050
+take to repeat but I promise it will
+
+212
+00:09:02,180 --> 00:08:59,399
+repeat anyway okay but what we did is we
+
+213
+00:09:05,019 --> 00:09:02,190
+were like hey instead of just having
+
+214
+00:09:08,240 --> 00:09:05,029
+these guys right here what if we had a
+
+215
+00:09:10,940 --> 00:09:08,250
+an organism that could change its
+
+216
+00:09:14,660 --> 00:09:10,950
+updateable so what do I mean by that so
+
+217
+00:09:17,889 --> 00:09:14,670
+what if we had a organism or a biology
+
+218
+00:09:20,240 --> 00:09:17,899
+thing and it's over here but it's got an
+
+219
+00:09:22,639 --> 00:09:20,250
+environment a separate environment and
+
+220
+00:09:25,040 --> 00:09:22,649
+what if we made them interact in some
+
+221
+00:09:27,050 --> 00:09:25,050
+sort of way would we get organisms that
+
+222
+00:09:29,210 --> 00:09:27,060
+are open-ended can we break that point
+
+223
+00:09:31,010 --> 00:09:29,220
+cry or occurrence time and we're like
+
+224
+00:09:32,150 --> 00:09:31,020
+that's like an interesting question so
+
+225
+00:09:33,860 --> 00:09:32,160
+there's different there's so many
+226
+00:09:36,170 --> 00:09:33,870
+different ways these two can interact
+
+227
+00:09:39,579 --> 00:09:36,180
+but we just picked three of them and the
+
+228
+00:09:42,829 --> 00:09:39,589
+first one is a lot like biology so if
+
+229
+00:09:45,710 --> 00:09:42,839
+I'm a biological organism I'm not just
+
+230
+00:09:47,750 --> 00:09:45,720
+going to be obeying some sort of fixed
+
+231
+00:09:50,000 --> 00:09:47,760
+law I'm going to take information about
+
+232
+00:09:53,269 --> 00:09:50,010
+what I'm doing and information about the
+
+233
+00:09:56,000 --> 00:09:53,279
+environment to change my behavior so um
+
+234
+00:09:58,280 --> 00:09:56,010
+probably probably I'm hungry right and
+
+235
+00:10:00,769 --> 00:09:58,290
+I'm like oh I'm so hungry that's
+
+236
+00:10:02,900 --> 00:10:00,779
+information about myself but if I see a
+
+237
+00:10:04,610 --> 00:10:02,910
+food truck over there that's information
+
+238
+00:10:06,350 --> 00:10:04,620
+about the environment so I take those
+
+239
+00:10:09,650 --> 00:10:06,360
+two things of information and I change
+
+240
+00:10:12,980 --> 00:10:09,660
+my behavior to go get myself sandwich so
+
+241
+00:10:14,840 --> 00:10:12,990
+that's what's happening here you get
+
+242
+00:10:17,870 --> 00:10:14,850
+your organism it's taking information
+
+243
+00:10:19,640 --> 00:10:17,880
+about its current state and also taking
+
+244
+00:10:22,160 --> 00:10:19,650
+information about the environment at the
+
+245
+00:10:25,280 --> 00:10:22,170
+same time and using that information to
+
+246
+00:10:27,230 --> 00:10:25,290
+change its update rule so that's the
+
+247
+00:10:29,570 --> 00:10:27,240
+thing up there so it doesn't just use
+
+248
+00:10:33,310 --> 00:10:29,580
+one it can pick and choose between all
+
+249
+00:10:35,480 --> 00:10:33,320
+possible update rules so in terms of
+
+250
+00:10:37,490 --> 00:10:35,490
+computation bringing this thing back
+251
+00:10:40,040 --> 00:10:37,500
+again it's almost as if the environment
+
+252
+00:10:42,230 --> 00:10:40,050
+is being dictated by one Turing machine
+
+253
+00:10:44,420 --> 00:10:42,240
+and it just does its thing right the
+
+254
+00:10:47,540 --> 00:10:44,430
+organism is also dictated by a Turing
+
+255
+00:10:49,910 --> 00:10:47,550
+machine but it has a second Turing
+
+256
+00:10:51,829 --> 00:10:49,920
+machine manipulating the first one so
+
+257
+00:10:55,310 --> 00:10:51,839
+it's a Turing machine on top of a Turing
+
+258
+00:10:58,280 --> 00:10:55,320
+machine and this meta Turing machine it
+
+259
+00:10:59,120 --> 00:10:58,290
+is using information about this Turing
+
+260
+00:11:06,260 --> 00:10:59,130
+machine
+
+261
+00:11:10,160 --> 00:11:06,270
+classical computation it's pretty
+
+262
+00:11:12,650 --> 00:11:10,170
+different ok so we're like well what if
+
+263
+00:11:15,230 --> 00:11:12,660
+we can get open-ended evolution
+
+264
+00:11:18,470 --> 00:11:15,240
+organisms but they don't depend on their
+
+265
+00:11:22,600 --> 00:11:18,480
+own update rule so what I mean by that
+
+266
+00:11:25,520 --> 00:11:22,610
+instead of like having the organism
+
+267
+00:11:27,020 --> 00:11:25,530
+affected by its own state like if I'm
+
+268
+00:11:28,730 --> 00:11:27,030
+hungry I'm only affected by the
+
+269
+00:11:30,440 --> 00:11:28,740
+environment so the environment in this
+
+270
+00:11:34,430 --> 00:11:30,450
+case is dictating everything that I do
+
+271
+00:11:35,990 --> 00:11:34,440
+so no filter at all right so um you know
+
+272
+00:11:37,730 --> 00:11:36,000
+you're turning machine here and then
+
+273
+00:11:39,290 --> 00:11:37,740
+you're turning machine here and this
+
+274
+00:11:41,060 --> 00:11:39,300
+Turing machine is only using information
+
+275
+00:11:43,550 --> 00:11:41,070
+about that turning machine to change
+276
+00:11:46,430 --> 00:11:43,560
+this Turing machine so it's still a
+
+277
+00:11:47,720 --> 00:11:46,440
+weird kind of computation and in case
+
+278
+00:11:50,570 --> 00:11:47,730
+three what if we just did something
+
+279
+00:11:54,140 --> 00:11:50,580
+random because randomness is fun but it
+
+280
+00:11:57,530 --> 00:11:54,150
+turns out all it is is just a giant
+
+281
+00:11:59,090 --> 00:11:57,540
+random randomly turning Turing machine
+
+282
+00:12:00,170 --> 00:11:59,100
+changing this bottom Turing machine and
+
+283
+00:12:01,760 --> 00:12:00,180
+as you can see there's no environment
+
+284
+00:12:06,290 --> 00:12:01,770
+over here because the environment is
+
+285
+00:12:09,080 --> 00:12:06,300
+coming from this input at the top ok so
+
+286
+00:12:11,900 --> 00:12:09,090
+how many open-ended organisms did we get
+
+287
+00:12:14,090 --> 00:12:11,910
+so if we have just a regular Turing
+
+288
+00:12:16,640 --> 00:12:14,100
+machine these are our we call it the
+
+289
+00:12:18,530 --> 00:12:16,650
+control cases of course we don't get any
+
+290
+00:12:19,970 --> 00:12:18,540
+open-endedness because the point career
+
+291
+00:12:22,970 --> 00:12:19,980
+occurrence theorem right they're all
+
+292
+00:12:26,090 --> 00:12:22,980
+subject to it but if I have the first
+
+293
+00:12:28,760 --> 00:12:26,100
+case then i get a percent of
+
+294
+00:12:32,990 --> 00:12:28,770
+open-endedness that it doesn't
+
+295
+00:12:35,210 --> 00:12:33,000
+necessarily increase linearly or
+
+296
+00:12:36,980 --> 00:12:35,220
+according to some sort of like nice
+
+297
+00:12:38,360 --> 00:12:36,990
+function that we can write down but
+
+298
+00:12:41,620 --> 00:12:38,370
+instead it has like this up and down
+
+299
+00:12:45,230 --> 00:12:41,630
+kind of thing where this axis or this
+
+300
+00:12:46,910 --> 00:12:45,240
+here is the size of the organism so you
+301
+00:12:48,770 --> 00:12:46,920
+start off with a really small organism
+
+302
+00:12:52,310 --> 00:12:48,780
+being three bits long it's just got a
+
+303
+00:12:53,570 --> 00:12:52,320
+few cases but if you have five bits long
+
+304
+00:12:55,160 --> 00:12:53,580
+then you have three percent of your
+
+305
+00:12:58,460 --> 00:12:55,170
+cases are open-ended which is pretty
+
+306
+00:13:00,830 --> 00:12:58,470
+good um but we say this is the only one
+
+307
+00:13:03,800 --> 00:13:00,840
+that's scalable because if you look over
+
+308
+00:13:05,600 --> 00:13:03,810
+here like your case to where you're an
+
+309
+00:13:08,260 --> 00:13:05,610
+organism only being dictated by your
+
+310
+00:13:10,610 --> 00:13:08,270
+environment your number of
+
+311
+00:13:11,260 --> 00:13:10,620
+open-endedness cases is going to
+
+312
+00:13:12,730 --> 00:13:11,270
+decrease
+
+313
+00:13:16,330 --> 00:13:12,740
+dramatically as the size of your
+
+314
+00:13:18,280 --> 00:13:16,340
+organism increases and even more
+
+315
+00:13:19,720 --> 00:13:18,290
+dramatically with just random so this is
+
+316
+00:13:21,760 --> 00:13:19,730
+a whole monkey than on typewriter thing
+
+317
+00:13:24,360 --> 00:13:21,770
+you know it's going to take you forever
+
+318
+00:13:27,370 --> 00:13:24,370
+to find something that's interesting but
+
+319
+00:13:29,140 --> 00:13:27,380
+you'll find it but it just it takes way
+
+320
+00:13:30,640 --> 00:13:29,150
+too long so we're we're saying this is
+
+321
+00:13:33,390 --> 00:13:30,650
+the only one that's scalable so that's
+
+322
+00:13:36,820 --> 00:13:33,400
+great um real quick I'm just going to
+
+323
+00:13:39,760 --> 00:13:36,830
+tell you what this means um if we look
+
+324
+00:13:43,180 --> 00:13:39,770
+at a organism and its environment is
+
+325
+00:13:44,500 --> 00:13:43,190
+much much greater than the organism then
+326
+00:13:46,780 --> 00:13:44,510
+it's going to have the most amount of
+
+327
+00:13:49,840 --> 00:13:46,790
+open-ended cases so like twenty eight
+
+328
+00:13:51,790 --> 00:13:49,850
+percent if your environment is five and
+
+329
+00:13:54,520 --> 00:13:51,800
+a half times larger than your organism
+
+330
+00:13:57,070 --> 00:13:54,530
+so bigger the environment and the
+
+331
+00:13:59,620 --> 00:13:57,080
+smaller the organism the better off
+
+332
+00:14:01,300 --> 00:13:59,630
+you're going to find open-ended cases so
+
+333
+00:14:03,070 --> 00:14:01,310
+Turing machines acting on Turing
+
+334
+00:14:06,040 --> 00:14:03,080
+machines breaks the Poincare recurrence
+
+335
+00:14:08,470 --> 00:14:06,050
+time and here's what they look like to
+
+336
+00:14:10,900 --> 00:14:08,480
+sew on each panel you have your
+
+337
+00:14:14,200 --> 00:14:10,910
+environment and then your organism next
+
+338
+00:14:15,670 --> 00:14:14,210
+to it and the blue is the point the
+
+339
+00:14:18,040 --> 00:14:15,680
+expected point create recurrence time
+
+340
+00:14:20,080 --> 00:14:18,050
+and the red is the actual recurrence
+
+341
+00:14:22,990 --> 00:14:20,090
+time so as you can see the red is longer
+
+342
+00:14:25,990 --> 00:14:23,000
+than the blue so that's great and also
+
+343
+00:14:28,900 --> 00:14:26,000
+you have um if you just looked at this
+
+344
+00:14:31,210 --> 00:14:28,910
+red part here it's not repeating within
+
+345
+00:14:33,190 --> 00:14:31,220
+that red part so it's also innovative so
+
+346
+00:14:35,140 --> 00:14:33,200
+since it's breaking the Poincare
+
+347
+00:14:38,710 --> 00:14:35,150
+recurrence time and innovative it's an
+
+348
+00:14:41,140 --> 00:14:38,720
+open-ended organism yay so if more
+
+349
+00:14:46,030 --> 00:14:41,150
+informational not please visit this it's
+
+350
+00:14:48,640 --> 00:14:46,040
+on archive yes okay so i told you about
+351
+00:14:51,580 --> 00:14:48,650
+computation we talked about how we can't
+
+352
+00:14:53,860 --> 00:14:51,590
+define life we also picked one part of
+
+353
+00:14:55,450 --> 00:14:53,870
+biology which is open-endedness we
+
+354
+00:14:57,550 --> 00:14:55,460
+tested with a toy model and found out we
+
+355
+00:15:04,090 --> 00:14:57,560
+can compute it so what does this all
+
+356
+00:15:07,450 --> 00:15:04,100
+mean discussion lies all of them lies
+
+357
+00:15:09,760 --> 00:15:07,460
+I'm just kidding not all of them but if
+
+358
+00:15:11,650 --> 00:15:09,770
+there's this really great paper that
+
+359
+00:15:13,960 --> 00:15:11,660
+came out on which is the limits of
+
+360
+00:15:16,540 --> 00:15:13,970
+decidable States on open-ended evolution
+
+361
+00:15:18,550 --> 00:15:16,550
+and emergence and what this is about is
+
+362
+00:15:21,700 --> 00:15:18,560
+any Turing computable system that is
+
+363
+00:15:24,040 --> 00:15:21,710
+truly open-ended is undecidable and what
+
+364
+00:15:24,770 --> 00:15:24,050
+that means in terms of cherry of
+
+365
+00:15:28,130 --> 00:15:24,780
+computation
+
+366
+00:15:32,120 --> 00:15:28,140
+is for something to be truly open ended
+
+367
+00:15:36,110 --> 00:15:32,130
+you can't compute it according to the
+
+368
+00:15:38,570 --> 00:15:36,120
+Turing definition of computation okay
+
+369
+00:15:41,630 --> 00:15:38,580
+but wait um I thought you I just showed
+
+370
+00:15:44,150 --> 00:15:41,640
+that you can do that but actually we're
+
+371
+00:15:45,980 --> 00:15:44,160
+not using a Turing computable system
+
+372
+00:15:47,270 --> 00:15:45,990
+even though it's using Turing machines
+
+373
+00:15:49,340 --> 00:15:47,280
+it's using turning machines in a
+
+374
+00:15:52,490 --> 00:15:49,350
+different way that allows you to get
+
+375
+00:15:54,530 --> 00:15:52,500
+open-endedness and we're saying that the
+376
+00:15:57,140 --> 00:15:54,540
+only way you can do it is you have to
+
+377
+00:15:59,780 --> 00:15:57,150
+define open-endedness with respect to
+
+378
+00:16:02,330 --> 00:15:59,790
+something else so it's open-endedness on
+
+379
+00:16:04,670 --> 00:16:02,340
+the scale of the organism but not
+
+380
+00:16:07,780 --> 00:16:04,680
+open-ended on the scale of the entire
+
+381
+00:16:12,200 --> 00:16:07,790
+ecosystem so time scales are important
+
+382
+00:16:16,100 --> 00:16:12,210
+ok so now about to the question can we
+
+383
+00:16:18,440 --> 00:16:16,110
+compute life well we would have to move
+
+384
+00:16:20,840 --> 00:16:18,450
+beyond Turing in order to do so we have
+
+385
+00:16:22,540 --> 00:16:20,850
+to move past the idea of you have one
+
+386
+00:16:24,920 --> 00:16:22,550
+Turing machine and it does its thing
+
+387
+00:16:28,700 --> 00:16:24,930
+instead we need to do something that
+
+388
+00:16:31,670 --> 00:16:28,710
+involves self-reference it needs to
+
+389
+00:16:33,770 --> 00:16:31,680
+involve subsystems and separating your
+
+390
+00:16:36,800 --> 00:16:33,780
+organism from your environment it needs
+
+391
+00:16:38,960 --> 00:16:36,810
+to be subjective and i'm going to say
+
+392
+00:16:41,240 --> 00:16:38,970
+down with random and also up with random
+
+393
+00:16:43,310 --> 00:16:41,250
+because randomness doesn't exist in
+
+394
+00:16:44,840 --> 00:16:43,320
+terms of computational theory and is
+
+395
+00:16:47,660 --> 00:16:44,850
+really really bad for creating
+
+396
+00:16:49,550 --> 00:16:47,670
+open-endedness but it's also really
+
+397
+00:16:53,360 --> 00:16:49,560
+important for processing information in
+
+398
+00:16:55,280 --> 00:16:53,370
+terms of information theory so also if
+
+399
+00:16:58,600 --> 00:16:55,290
+you guys have any other ideas of how to
+
+400
+00:17:00,650 --> 00:16:58,610
+compute life using a new kind of
+401
+00:17:03,740 --> 00:17:00,660
+computational method then let me know
+
+402
+00:17:06,460 --> 00:17:03,750
+because it's super interesting ok
+
+403
+00:17:09,560 --> 00:17:06,470
+special thanks to everybody our
+
+404
+00:17:13,190 --> 00:17:09,570
+incredible fantastic lab and my advisor
+
+405
+00:17:14,780 --> 00:17:13,200
+Sarah and Hector and also Paul and then
+
+406
+00:17:24,259 --> 00:17:14,790
+of course all of you guys because
+
+407
+00:17:35,100 --> 00:17:30,810
+turtles well there's tert there's
+
+408
+00:17:40,950 --> 00:17:35,110
+Turtles all the way down you'll find
+
+409
+00:17:42,870 --> 00:17:40,960
+them so I guess using its physical
+
+410
+00:17:45,210 --> 00:17:42,880
+example of a guest case one does that
+
+411
+00:17:46,799 --> 00:17:45,220
+mean nor for life to actually evolve
+
+412
+00:17:50,070 --> 00:17:46,809
+does that mean then you need to have a
+
+413
+00:17:52,110 --> 00:17:50,080
+system that's actually organism that
+
+414
+00:17:54,119 --> 00:17:52,120
+actually has like I see a feedback loop
+
+415
+00:17:55,830 --> 00:17:54,129
+and be able to actually be able to move
+
+416
+00:17:57,840 --> 00:17:55,840
+and actually be able to interact with
+
+417
+00:18:00,240 --> 00:17:57,850
+the environment and vice versa is that
+
+418
+00:18:02,789 --> 00:18:00,250
+what's being said yeah yeah yeah and
+
+419
+00:18:06,149 --> 00:18:02,799
+actually we didn't explicitly have a
+
+420
+00:18:08,340 --> 00:18:06,159
+case where we had the organism change
+
+421
+00:18:10,710 --> 00:18:08,350
+the update rule of the environment like
+
+422
+00:18:12,149 --> 00:18:10,720
+where it's double feedback system we
+
+423
+00:18:13,649 --> 00:18:12,159
+haven't done that yet but that's
+
+424
+00:18:15,450 --> 00:18:13,659
+definitely something that we would like
+
+425
+00:18:16,950 --> 00:18:15,460
+to do in the future so I guess it would
+426
+00:18:18,690 --> 00:18:16,960
+be almost getting too close to what we
+
+427
+00:18:20,909 --> 00:18:18,700
+humans do and just basically alter the
+
+428
+00:18:22,259 --> 00:18:20,919
+environment as building buildings and
+
+429
+00:18:35,580 --> 00:18:22,269
+carbon emissions and stuff like that
+
+430
+00:18:39,940 --> 00:18:38,080
+so if you're as you just mentioned
+
+431
+00:18:42,400 --> 00:18:39,950
+changing the update rule of the
+
+432
+00:18:45,880 --> 00:18:42,410
+environment and the environment has its
+
+433
+00:18:48,400 --> 00:18:45,890
+own little Turing machine in terms of
+
+434
+00:18:51,060 --> 00:18:48,410
+this open evolution open-ended evolution
+
+435
+00:18:54,400 --> 00:18:51,070
+sense could you have the environment
+
+436
+00:18:56,530 --> 00:18:54,410
+exhibit open into devolution that's a
+
+437
+00:18:58,270 --> 00:18:56,540
+really great question um and I love that
+
+438
+00:19:00,910 --> 00:18:58,280
+questions so much because it really like
+
+439
+00:19:03,250 --> 00:19:00,920
+challenges what's an environment you
+
+440
+00:19:06,190 --> 00:19:03,260
+know because at least providers live
+
+441
+00:19:09,790 --> 00:19:06,200
+yeah exactly and I think of an
+
+442
+00:19:13,600 --> 00:19:09,800
+environment in like when you partition
+
+443
+00:19:17,410 --> 00:19:13,610
+up a system into subsystems it's almost
+
+444
+00:19:20,050 --> 00:19:17,420
+like where do you call the environment
+
+445
+00:19:22,780 --> 00:19:20,060
+and I think the answer is like you you
+
+446
+00:19:25,900 --> 00:19:22,790
+can't necessarily call the environment
+
+447
+00:19:29,140 --> 00:19:25,910
+in very many places like this this room
+
+448
+00:19:30,520 --> 00:19:29,150
+isn't like its biology like we made this
+
+449
+00:19:32,020 --> 00:19:30,530
+this is these are things that we have
+
+450
+00:19:35,830 --> 00:19:32,030
+done this is things that biology is
+451
+00:19:37,570 --> 00:19:35,840
+computed but on yeah I definitely think
+
+452
+00:19:38,890 --> 00:19:37,580
+the environment should be open-ended to
+
+453
+00:19:44,440 --> 00:19:38,900
+I think that's a really great thing to
