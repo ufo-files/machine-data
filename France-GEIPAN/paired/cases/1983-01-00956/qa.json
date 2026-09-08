@@ -1,0 +1,94 @@
+{
+  "document_id": "doc-4a2e305e8b1761629a1cf72c",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1983-01-23",
+        "1983-01-23",
+        "1983-01-23",
+        "1983-01-23"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-4982d8b5d64ca5d3c038a09d",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1983",
+        "1983",
+        "1983",
+        "1983",
+        "23",
+        "23",
+        "23",
+        "23"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "23.01.1983",
+        "23.01.1983",
+        "23.01.1983",
+        "23.01.1983"
+      ],
+      "segment_id": "seg-4982d8b5d64ca5d3c038a09d",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "10"
+      ],
+      "segment_id": "seg-f109ca5b6fbb3dce12775287",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "17:15",
+        "17:30"
+      ],
+      "check": "times",
+      "missing_from_translation": [
+        "17:00",
+        "17:00"
+      ],
+      "segment_id": "seg-4674d550df3a1568f8fca3d0",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "15",
+        "30"
+      ],
+      "segment_id": "seg-4674d550df3a1568f8fca3d0",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-4674d550df3a1568f8fca3d0",
+      "severity": "error",
+      "source_count": 2,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 1
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}

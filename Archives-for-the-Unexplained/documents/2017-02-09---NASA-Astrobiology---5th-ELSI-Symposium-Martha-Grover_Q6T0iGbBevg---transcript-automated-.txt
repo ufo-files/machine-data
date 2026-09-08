@@ -1,0 +1,4072 @@
+{"created_utc": "2026-09-08T12:50:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 182210, "source_ctime_ns": 1788579678814652021, "source_file": "Archives-for-the-Unexplained/documents/2017-02-09---NASA-Astrobiology---5th-ELSI-Symposium-Martha-Grover_Q6T0iGbBevg---transcript-automated-.pdf", "source_mtime_ns": 1788579678806514900, "source_rel": "Archives-for-the-Unexplained/documents/2017-02-09---NASA-Astrobiology---5th-ELSI-Symposium-Martha-Grover_Q6T0iGbBevg---transcript-automated-.pdf", "source_sha256": "a78ed4e6644ff3d884b0c81a4c7f1a9d7bc8928a44786b2c1c8279faaab57faf"}
+
+1
+00:00:00,160 --> 00:00:14,169
+[Music]
+
+2
+00:00:17,450 --> 00:00:15,499
+thank you
+
+3
+00:00:20,300 --> 00:00:17,460
+I appreciate the opportunity to talk to
+
+4
+00:00:22,790 --> 00:00:20,310
+you all today I'm from Georgia Tech it
+
+5
+00:00:24,410 --> 00:00:22,800
+which is in Atlanta Georgia and I'm
+
+6
+00:00:26,839 --> 00:00:24,420
+gonna be talking to you today about a
+
+7
+00:00:29,089 --> 00:00:26,849
+research that I've been involved in in
+
+8
+00:00:31,519 --> 00:00:29,099
+the Center for chemical evolution the
+
+9
+00:00:33,410 --> 00:00:31,529
+title is a system-level viewpoint on the
+
+10
+00:00:34,790 --> 00:00:33,420
+chemical origins of life probably the
+
+11
+00:00:36,560 --> 00:00:34,800
+word polymer should appear somewhere in
+
+12
+00:00:38,780 --> 00:00:36,570
+this title because it's very a polymer
+
+13
+00:00:41,240 --> 00:00:38,790
+focused in terms of the research we've
+
+14
+00:00:42,229 --> 00:00:41,250
+been doing and by system-level there are
+
+15
+00:00:44,990 --> 00:00:42,239
+a lot of different things that could
+
+16
+00:00:46,910 --> 00:00:45,000
+that could mean but I'm coming from a
+
+17
+00:00:47,840 --> 00:00:46,920
+background in engineering I'm in the
+
+18
+00:00:50,510 --> 00:00:47,850
+school of chemical and biomolecular
+
+19
+00:00:52,580 --> 00:00:50,520
+engineering at Georgia Tech and I'm in
+
+20
+00:00:54,770 --> 00:00:52,590
+the the field subfield called process
+
+21
+00:00:56,360 --> 00:00:54,780
+systems engineering usually what that
+
+22
+00:00:58,700 --> 00:00:56,370
+means is that we use mathematical models
+
+23
+00:01:00,560 --> 00:00:58,710
+to help encode our understanding and
+
+24
+00:01:03,950 --> 00:01:00,570
+then make predictions and design systems
+
+25
+00:01:05,600 --> 00:01:03,960
+my particular original area of research
+26
+00:01:06,530 --> 00:01:05,610
+is in feedback control although I'm not
+
+27
+00:01:08,660 --> 00:01:06,540
+actually going to talk to you about
+
+28
+00:01:12,140 --> 00:01:08,670
+feedback control today but certainly I
+
+29
+00:01:13,340 --> 00:01:12,150
+think that's relevant to the research
+
+30
+00:01:16,700 --> 00:01:13,350
+we're all talking about this meeting as
+
+31
+00:01:18,560 --> 00:01:16,710
+well and so I'm gonna I'm gonna try to
+
+32
+00:01:20,570 --> 00:01:18,570
+talk about some of the research that
+
+33
+00:01:22,999 --> 00:01:20,580
+we've been doing and some of the
+
+34
+00:01:27,499 --> 00:01:23,009
+insights that we've learned from this
+
+35
+00:01:33,690 --> 00:01:31,590
+so the research goal is to design and
+
+36
+00:01:36,029 --> 00:01:33,700
+demonstrate prebiotic ly plausible
+
+37
+00:01:37,770 --> 00:01:36,039
+minimal systems that can first of all
+
+38
+00:01:40,260 --> 00:01:37,780
+polymerize so we're not assuming that we
+
+39
+00:01:42,779 --> 00:01:40,270
+start with the polymers but we are we do
+
+40
+00:01:45,419 --> 00:01:42,789
+have a polymer focused a research
+
+41
+00:01:47,399 --> 00:01:45,429
+program we want to store information in
+
+42
+00:01:49,649 --> 00:01:47,409
+those polymers transfer the information
+
+43
+00:01:50,969 --> 00:01:49,659
+through replication catalyzed reactions
+
+44
+00:01:54,319 --> 00:01:50,979
+or perform other functions and
+
+45
+00:01:56,789 --> 00:01:54,329
+ultimately undergo chemical evolution
+
+46
+00:01:58,559 --> 00:01:56,799
+now ideally it would be nice to find a
+
+47
+00:02:02,010 --> 00:01:58,569
+common environment in which all of these
+
+48
+00:02:05,100 --> 00:02:02,020
+steps could occur for nucleic acid
+
+49
+00:02:07,169 --> 00:02:05,110
+polymers peptides other biopolymers
+
+50
+00:02:08,460 --> 00:02:07,179
+maybe polysaccharides we don't
+51
+00:02:10,199 --> 00:02:08,470
+necessarily have to find a common
+
+52
+00:02:12,809 --> 00:02:10,209
+environment but if we do start to find
+
+53
+00:02:14,940 --> 00:02:12,819
+key features common features in the
+
+54
+00:02:21,150 --> 00:02:14,950
+environment that might might be helpful
+
+55
+00:02:22,650 --> 00:02:21,160
+going forward and in order to design and
+
+56
+00:02:24,569 --> 00:02:22,660
+demonstrate these systems we need to not
+
+57
+00:02:26,220 --> 00:02:24,579
+necessarily solve but address what are
+
+58
+00:02:29,520 --> 00:02:26,230
+some long-standing problems in the field
+
+59
+00:02:32,670 --> 00:02:29,530
+many of which were articulated in Shaw
+
+60
+00:02:34,199 --> 00:02:32,680
+stacks a list of eight problems that was
+
+61
+00:02:35,819 --> 00:02:34,209
+referenced in the in the past talk one
+
+62
+00:02:38,309 --> 00:02:35,829
+is the the water problem if we're trying
+
+63
+00:02:39,720 --> 00:02:38,319
+to make biopolymers or proto biopolymers
+
+64
+00:02:42,180 --> 00:02:39,730
+through condensation reactions that's
+
+65
+00:02:43,979 --> 00:02:42,190
+just not favored in water the hydrolysis
+
+66
+00:02:44,849 --> 00:02:43,989
+is driving us backwards so that's
+
+67
+00:02:46,979 --> 00:02:44,859
+something that we need to deal with
+
+68
+00:02:49,740 --> 00:02:46,989
+another one is the Strand inhibition
+
+69
+00:02:53,009 --> 00:02:49,750
+problem in order to have copying we
+
+70
+00:02:55,680 --> 00:02:53,019
+could use thermal cycling in order to
+
+71
+00:02:57,030 --> 00:02:55,690
+drive strand separation but upon cooling
+
+72
+00:02:59,039 --> 00:02:57,040
+then the strands might just come back
+
+73
+00:03:00,089 --> 00:02:59,049
+together so that's another another
+
+74
+00:03:02,759 --> 00:03:00,099
+problem that we've been trying to
+
+75
+00:03:05,970 --> 00:03:02,769
+address and a third is the single winter
+76
+00:03:08,039 --> 00:03:05,980
+scenario survival of the fittest so many
+
+77
+00:03:11,159 --> 00:03:08,049
+especially theoretical models especially
+
+78
+00:03:13,470 --> 00:03:11,169
+particularly eigen have selection based
+
+79
+00:03:14,789 --> 00:03:13,480
+on replication and that doesn't
+
+80
+00:03:17,629 --> 00:03:14,799
+necessarily need to lead to a productive
+
+81
+00:03:20,190 --> 00:03:17,639
+outcome in terms of designing minimal
+
+82
+00:03:21,330 --> 00:03:20,200
+evolutionary systems so really we need
+
+83
+00:03:25,500 --> 00:03:21,340
+to select for function not just
+
+84
+00:03:27,509 --> 00:03:25,510
+replication and we also need to generate
+
+85
+00:03:28,949 --> 00:03:27,519
+and sustain diversity in our system so
+
+86
+00:03:34,320 --> 00:03:28,959
+that we can continue to have evolution
+
+87
+00:03:41,160 --> 00:03:37,560
+and we're as a systems engineer I'm very
+
+88
+00:03:43,470 --> 00:03:41,170
+focused on designing an entire system
+
+89
+00:03:45,120 --> 00:03:43,480
+out of parts ideally these are parts
+
+90
+00:03:47,460 --> 00:03:45,130
+that we understand well we may that may
+
+91
+00:03:49,080 --> 00:03:47,470
+or may not be true in the system and the
+
+92
+00:03:50,850 --> 00:03:49,090
+research I will be talking to you about
+
+93
+00:03:52,260 --> 00:03:50,860
+going forward but we look at parts and
+
+94
+00:03:54,600 --> 00:03:52,270
+how they interact with each other so
+
+95
+00:03:56,490 --> 00:03:54,610
+it's the interactions between the parts
+
+96
+00:03:58,740 --> 00:03:56,500
+that ultimately lead to this system
+
+97
+00:04:00,030 --> 00:03:58,750
+level or emergent behavior and so we
+
+98
+00:04:02,100 --> 00:04:00,040
+really want to understand not only the
+
+99
+00:04:05,040 --> 00:04:02,110
+chemistry but also the environment and
+
+100
+00:04:06,780 --> 00:04:05,050
+the coupling between them and the main
+101
+00:04:09,390 --> 00:04:06,790
+concept that we have been looking at in
+
+102
+00:04:12,000 --> 00:04:09,400
+this research is the environmental cycle
+
+103
+00:04:14,400 --> 00:04:12,010
+so here maybe we have the Sun that's
+
+104
+00:04:17,009 --> 00:04:14,410
+driving water evaporation and then that
+
+105
+00:04:20,009 --> 00:04:17,019
+gives us maybe this viscous layer here
+
+106
+00:04:23,040 --> 00:04:20,019
+that has low water activity then we have
+
+107
+00:04:24,810 --> 00:04:23,050
+rehydration at night maybe cooling and
+
+108
+00:04:27,180 --> 00:04:24,820
+then we have this cycle that goes on so
+
+109
+00:04:29,220 --> 00:04:27,190
+you know we all we are we all know we're
+
+110
+00:04:31,500 --> 00:04:29,230
+all driven by cycles those of us who
+
+111
+00:04:33,780 --> 00:04:31,510
+came from abroad very aware of it
+
+112
+00:04:36,300 --> 00:04:33,790
+through the jet lag that we're now out
+
+113
+00:04:38,130 --> 00:04:36,310
+of sync but we do want to look at
+
+114
+00:04:39,750 --> 00:04:38,140
+environmental cycles they're not only
+
+115
+00:04:41,880 --> 00:04:39,760
+prebiotic ly possible but probably
+
+116
+00:04:44,940 --> 00:04:41,890
+prebiotic ly necessary that could be
+
+117
+00:04:48,240 --> 00:04:44,950
+daily or tidal or seasonal cycles these
+
+118
+00:04:50,790 --> 00:04:48,250
+could be hot cold wet dry pH swings all
+
+119
+00:04:52,380 --> 00:04:50,800
+of the above the hot cold could really
+
+120
+00:04:55,250 --> 00:04:52,390
+drive the wet and dry and that could
+
+121
+00:04:57,570 --> 00:04:55,260
+then drive the pH swings in fact so
+
+122
+00:04:59,970 --> 00:04:57,580
+having this sort of cycle driven by the
+
+123
+00:05:02,820 --> 00:04:59,980
+influx of solar energy gives us non
+
+124
+00:05:06,510 --> 00:05:02,830
+equilibrium behavior and it induces
+
+125
+00:05:08,040 --> 00:05:06,520
+reversible phenomenon that are lifelike
+126
+00:05:11,940 --> 00:05:08,050
+in some ways I'm not going to define
+
+127
+00:05:13,200 --> 00:05:11,950
+life for you but but over the course of
+
+128
+00:05:14,940 --> 00:05:13,210
+the cycle we want to sometimes have
+
+129
+00:05:16,680 --> 00:05:14,950
+polymerization and then sometimes have
+
+130
+00:05:18,690 --> 00:05:16,690
+hydrolysis and we don't want to just
+
+131
+00:05:20,280 --> 00:05:18,700
+drive ourselves into a thermodynamic
+
+132
+00:05:23,000 --> 00:05:20,290
+dead-end we might want to have duplex
+
+133
+00:05:25,260 --> 00:05:23,010
+formation but then separate then
+
+134
+00:05:27,210 --> 00:05:25,270
+separation later on in the cycle and
+
+135
+00:05:31,130 --> 00:05:27,220
+that these sorts of dynamic reversible
+
+136
+00:05:33,390 --> 00:05:31,140
+systems are lifelike in some sense and
+
+137
+00:05:34,770 --> 00:05:33,400
+then the other feature in addition to
+
+138
+00:05:36,360 --> 00:05:34,780
+the environmental cycles that we have
+
+139
+00:05:40,290 --> 00:05:36,370
+really been focusing on are non aqueous
+
+140
+00:05:42,420 --> 00:05:40,300
+solvents so we are water-based or not
+
+141
+00:05:44,909 --> 00:05:42,430
+trying to argue that life the origins of
+
+142
+00:05:46,770 --> 00:05:44,919
+life did not involve water but that
+
+143
+00:05:47,250 --> 00:05:46,780
+might not be the whole story in terms of
+
+144
+00:05:49,320 --> 00:05:47,260
+this
+
+145
+00:05:51,660 --> 00:05:49,330
+either the solvent being an
+
+146
+00:05:53,490 --> 00:05:51,670
+environmental condition so there were
+
+147
+00:05:55,950 --> 00:05:53,500
+many organics present in the prebiotic
+
+148
+00:05:58,830 --> 00:05:55,960
+inventory and some of these non aqueous
+
+149
+00:06:00,900 --> 00:05:58,840
+solvents could have been created from
+
+150
+00:06:04,650 --> 00:06:00,910
+non volatile organics after water
+151
+00:06:07,080 --> 00:06:04,660
+evaporation and some of the desirable
+
+152
+00:06:08,280 --> 00:06:07,090
+features of non aqueous solvents in this
+
+153
+00:06:10,350 --> 00:06:08,290
+context are that we can drive
+
+154
+00:06:12,180 --> 00:06:10,360
+condensation polymerization forward if
+
+155
+00:06:16,290 --> 00:06:12,190
+we remove the water that's off the water
+
+156
+00:06:17,640 --> 00:06:16,300
+problem for us we can also these
+
+157
+00:06:19,590 --> 00:06:17,650
+solvents might be more viscous than
+
+158
+00:06:21,570 --> 00:06:19,600
+water and that can give us differential
+
+159
+00:06:24,660 --> 00:06:21,580
+mobility between different species in
+
+160
+00:06:27,150 --> 00:06:24,670
+these solvents and also it can promote
+
+161
+00:06:29,430 --> 00:06:27,160
+intermolecular folding by suppressing
+
+162
+00:06:31,890 --> 00:06:29,440
+intermolecular reactions so if we have a
+
+163
+00:06:33,090 --> 00:06:31,900
+viscous solvent then the species might
+
+164
+00:06:35,130 --> 00:06:33,100
+not be very mobile and they might have
+
+165
+00:06:37,530 --> 00:06:35,140
+more time to fold before they undergo
+
+166
+00:06:42,890 --> 00:06:37,540
+intermolecular interactions or the
+
+167
+00:06:47,220 --> 00:06:45,660
+so in order to understand the system
+
+168
+00:06:49,110 --> 00:06:47,230
+level behavior one of the tools that we
+
+169
+00:06:52,340 --> 00:06:49,120
+have available to us is mathematical
+
+170
+00:06:54,540 --> 00:06:52,350
+modeling and this allows us to evaluate
+
+171
+00:06:56,310 --> 00:06:54,550
+interactions between the environment and
+
+172
+00:06:58,800 --> 00:06:56,320
+the chemistry in order to predict
+
+173
+00:07:01,080 --> 00:06:58,810
+overall system level performance this
+
+174
+00:07:02,610 --> 00:07:01,090
+can be helpful because there are so many
+
+175
+00:07:04,260 --> 00:07:02,620
+different parameters that we might be
+176
+00:07:06,960 --> 00:07:04,270
+able to vary and a model can help us
+
+177
+00:07:08,460 --> 00:07:06,970
+clarify what some of the minimal
+
+178
+00:07:11,010 --> 00:07:08,470
+interactions in our system need to be
+
+179
+00:07:13,710 --> 00:07:11,020
+and what is the window of performance
+
+180
+00:07:18,720 --> 00:07:13,720
+that we can get with maybe a minimal
+
+181
+00:07:21,060 --> 00:07:18,730
+type of experimental system so this
+
+182
+00:07:22,860 --> 00:07:21,070
+model also can help us or a model can
+
+183
+00:07:24,780 --> 00:07:22,870
+help to predict trade-offs between
+
+184
+00:07:26,250 --> 00:07:24,790
+simultaneously occurring phenomena in
+
+185
+00:07:30,570 --> 00:07:26,260
+our system which is hard to do with a
+
+186
+00:07:32,790 --> 00:07:30,580
+more reductionist approach and we
+
+187
+00:07:34,050 --> 00:07:32,800
+considered a particular case study that
+
+188
+00:07:36,750 --> 00:07:34,060
+I'm going to talk to you about today
+
+189
+00:07:38,610 --> 00:07:36,760
+which is the idea that the first
+
+190
+00:07:40,170 --> 00:07:38,620
+functional biopolymer could have been
+
+191
+00:07:41,720 --> 00:07:40,180
+the monomer synthetase this is an idea
+
+192
+00:07:44,490 --> 00:07:41,730
+that Naqada has talked about before and
+
+193
+00:07:47,070 --> 00:07:44,500
+Nick is a really collaborator on all of
+
+194
+00:07:52,980 --> 00:07:47,080
+this work so appreciate his little setup
+
+195
+00:07:54,420 --> 00:07:52,990
+in the back but the idea is that if we
+
+196
+00:07:55,950 --> 00:07:54,430
+want to select for function a simpler
+
+197
+00:07:57,900 --> 00:07:55,960
+function than say a polymerase would be
+
+198
+00:07:58,680 --> 00:07:57,910
+to make more monomer so that's what
+
+199
+00:08:00,780 --> 00:07:58,690
+we're looking at in this particular
+
+200
+00:08:02,850 --> 00:08:00,790
+study and looking for reactor
+201
+00:08:04,860 --> 00:08:02,860
+and diffusivities in our system that
+
+202
+00:08:07,920 --> 00:08:04,870
+would allow us to have functional
+
+203
+00:08:10,140 --> 00:08:07,930
+evolution and we also looked at this
+
+204
+00:08:12,570 --> 00:08:10,150
+made this assumption of Universal
+
+205
+00:08:13,710 --> 00:08:12,580
+sequence replication in which all of our
+
+206
+00:08:15,180 --> 00:08:13,720
+different sequences had the same
+
+207
+00:08:16,980 --> 00:08:15,190
+replication rate so we weren't going to
+
+208
+00:08:18,690 --> 00:08:16,990
+get selection based on that inherent
+
+209
+00:08:20,730 --> 00:08:18,700
+replication rate and so we were going to
+
+210
+00:08:26,790 --> 00:08:20,740
+look for selection based on other
+
+211
+00:08:27,990 --> 00:08:26,800
+properties of the system so and in this
+
+212
+00:08:30,840 --> 00:08:28,000
+particular study that I going to talk
+
+213
+00:08:33,170 --> 00:08:30,850
+about was led by Sarah Walker who was a
+
+214
+00:08:35,370 --> 00:08:33,180
+postdoc in the Center at the time and
+
+215
+00:08:38,850 --> 00:08:35,380
+did this work collaboratively with Nick
+
+216
+00:08:42,060 --> 00:08:38,860
+and myself so we defined this relatively
+
+217
+00:08:44,280 --> 00:08:42,070
+minimal a chemical system in which we
+
+218
+00:08:46,400 --> 00:08:44,290
+had a de phase that was dehydrated in a
+
+219
+00:08:49,890 --> 00:08:46,410
+night phase which was hydrated and
+
+220
+00:08:51,780 --> 00:08:49,900
+during the dehydrated day phase we had
+
+221
+00:08:53,850 --> 00:08:51,790
+different monomers of type A and B so
+
+222
+00:08:56,610 --> 00:08:53,860
+instead of four nucleobases you could
+
+223
+00:08:59,400 --> 00:08:56,620
+just think of a two called a and B and
+
+224
+00:09:02,460 --> 00:08:59,410
+they could form through a spontaneous
+
+225
+00:09:03,960 --> 00:09:02,470
+polymerization random sequences so
+226
+00:09:07,130 --> 00:09:03,970
+that's one of the parameters in our
+
+227
+00:09:09,600 --> 00:09:07,140
+model is a rate constant for spontaneous
+
+228
+00:09:11,010 --> 00:09:09,610
+formation of new sequences we also could
+
+229
+00:09:13,020 --> 00:09:11,020
+have copying of those sequences the
+
+230
+00:09:15,630 --> 00:09:13,030
+replication rate so those are two of the
+
+231
+00:09:17,100 --> 00:09:15,640
+five parameters in our model and during
+
+232
+00:09:19,080 --> 00:09:17,110
+the night phase we could break down
+
+233
+00:09:21,450 --> 00:09:19,090
+those sequences through hydrolysis and
+
+234
+00:09:23,610 --> 00:09:21,460
+also during that hydrated phase we would
+
+235
+00:09:27,630 --> 00:09:23,620
+have diffusion the monomers and polymers
+
+236
+00:09:29,370 --> 00:09:27,640
+could both diffuse these these monomers
+
+237
+00:09:30,660 --> 00:09:29,380
+are all assumed to be the same length we
+
+238
+00:09:34,050 --> 00:09:30,670
+have a lot of simplifications in this
+
+239
+00:09:35,790 --> 00:09:34,060
+model they're all xx MERS and they form
+
+240
+00:09:37,830 --> 00:09:35,800
+based on second-order reaction kinetics
+
+241
+00:09:39,360 --> 00:09:37,840
+from the monomers so the rates of
+
+242
+00:09:40,830 --> 00:09:39,370
+polymer formation are dependent on the
+
+243
+00:09:42,270 --> 00:09:40,840
+local resources in the system and that
+
+244
+00:09:44,130 --> 00:09:42,280
+was that was another property that we
+
+245
+00:09:46,220 --> 00:09:44,140
+want to bring in so really depending on
+
+246
+00:09:48,510 --> 00:09:46,230
+where these sequences nucleated
+
+247
+00:09:51,180 --> 00:09:48,520
+spatially they would be more or less fit
+
+248
+00:09:53,310 --> 00:09:51,190
+based on the local resources not based
+
+249
+00:09:54,780 --> 00:09:53,320
+on their inherent sequence because all
+
+250
+00:09:57,660 --> 00:09:54,790
+sequences have the same rate constants
+251
+00:10:00,690 --> 00:09:57,670
+for replication so this slide just shows
+
+252
+00:10:02,190 --> 00:10:00,700
+an example of one particular set of five
+
+253
+00:10:06,510 --> 00:10:02,200
+parameters that are shown there on the
+
+254
+00:10:09,120 --> 00:10:06,520
+right and what we saw was over time on
+
+255
+00:10:14,880 --> 00:10:09,130
+the top right the total population in
+
+256
+00:10:19,990 --> 00:10:17,850
+the total polymer population grew from
+
+257
+00:10:21,310 --> 00:10:20,000
+monomers and then stabilized but we had
+
+258
+00:10:22,900 --> 00:10:21,320
+a lot of dynamics in terms of our
+
+259
+00:10:36,240 --> 00:10:22,910
+individual sequences and I'm just going
+
+260
+00:10:40,240 --> 00:10:38,650
+okay so early on in the system we didn't
+
+261
+00:10:42,340 --> 00:10:40,250
+have any sequences and then we had many
+
+262
+00:10:43,870 --> 00:10:42,350
+random sequences form some of them took
+
+263
+00:10:45,970 --> 00:10:43,880
+hold in the population like that upper
+
+264
+00:10:48,670 --> 00:10:45,980
+blue one others went extinct these are
+
+265
+00:10:50,230 --> 00:10:48,680
+stochastic simulations so we can have
+
+266
+00:10:51,819 --> 00:10:50,240
+zero one behavior or we can have
+
+267
+00:10:53,460 --> 00:10:51,829
+actually a large number of species in
+
+268
+00:10:55,930 --> 00:10:53,470
+our system like 800 for that blue one
+
+269
+00:10:57,490 --> 00:10:55,940
+and we looked at not only the temporal
+
+270
+00:10:59,769 --> 00:10:57,500
+evolution but also spatial distribution
+
+271
+00:11:01,389 --> 00:10:59,779
+because we have these diffusivities so
+
+272
+00:11:03,280 --> 00:11:01,399
+the polymers are shown in that upper set
+
+273
+00:11:04,630 --> 00:11:03,290
+of panels and the monomers in the lower
+
+274
+00:11:06,699 --> 00:11:04,640
+set of panels but you can see these
+
+275
+00:11:10,440 --> 00:11:06,709
+clusters emerging which actually we did
+276
+00:11:12,850 --> 00:11:10,450
+not expect but it actually came through
+
+277
+00:11:15,130 --> 00:11:12,860
+recycling of monomers so that when we
+
+278
+00:11:17,050 --> 00:11:15,140
+had hydrolysis and freed monomers from
+
+279
+00:11:18,970 --> 00:11:17,060
+polymers they would be more likely to be
+
+280
+00:11:20,889 --> 00:11:18,980
+taken up by nearby polymers and that
+
+281
+00:11:22,569 --> 00:11:20,899
+stabilized the cluster even though we
+
+282
+00:11:27,460 --> 00:11:22,579
+did not build in any inherent
+
+283
+00:11:30,160 --> 00:11:27,470
+interaction between the polymers so as
+
+284
+00:11:32,319 --> 00:11:30,170
+we varied the monomer diffusion rate
+
+285
+00:11:34,870 --> 00:11:32,329
+across the top and the polymer diffusion
+
+286
+00:11:36,639 --> 00:11:34,880
+rate down the bottom we saw differences
+
+287
+00:11:38,889 --> 00:11:36,649
+in terms of the spatial patterning so we
+
+288
+00:11:40,509 --> 00:11:38,899
+could have larger clusters if we had
+
+289
+00:11:41,860 --> 00:11:40,519
+more polymer diffusion the monomer
+
+290
+00:11:43,930 --> 00:11:41,870
+diffusion was actually important in
+
+291
+00:11:44,980 --> 00:11:43,940
+order to have good resource allocations
+
+292
+00:11:52,090 --> 00:11:44,990
+so that the mountain would be available
+
+293
+00:11:53,410 --> 00:11:52,100
+to all of these replicating polymers ok
+
+294
+00:11:55,090 --> 00:11:53,420
+so I talked about the importance of
+
+295
+00:11:56,350 --> 00:11:55,100
+functional selection but up until this
+
+296
+00:11:58,840 --> 00:11:56,360
+point we had all these replicating
+
+297
+00:12:01,000 --> 00:11:58,850
+polymers that had no function so in this
+
+298
+00:12:03,540 --> 00:12:01,010
+particular case study we then introduced
+
+299
+00:12:05,590 --> 00:12:03,550
+at a later time the appearance of
+
+300
+00:12:10,360 --> 00:12:05,600
+functional polymer that could make more
+301
+00:12:12,189 --> 00:12:10,370
+a and what we saw was that compared to
+
+302
+00:12:14,439 --> 00:12:12,199
+the green curve with no functional
+
+303
+00:12:16,689 --> 00:12:14,449
+sequence once this functional polymer
+
+304
+00:12:18,220 --> 00:12:16,699
+was introduced we had this this red
+
+305
+00:12:20,050 --> 00:12:18,230
+curve that really bootstrapped up the
+
+306
+00:12:24,310 --> 00:12:20,060
+entire population so by making more
+
+307
+00:12:26,650 --> 00:12:24,320
+monomer it not only was it amplified in
+
+308
+00:12:29,079 --> 00:12:26,660
+the population but also everybody
+
+309
+00:12:32,110 --> 00:12:29,089
+benefited but not as much okay so this
+
+310
+00:12:34,480 --> 00:12:32,120
+Illustrated that really there was a
+
+311
+00:12:37,090 --> 00:12:34,490
+balance needed between competition and
+
+312
+00:12:40,030 --> 00:12:37,100
+cooperation to achieve higher system
+
+313
+00:12:42,939 --> 00:12:40,040
+level performance and and this was
+
+314
+00:12:45,190 --> 00:12:42,949
+enabled by limited diffusing furthermore
+
+315
+00:12:47,170 --> 00:12:45,200
+if at a later time and added
+
+316
+00:12:50,010 --> 00:12:47,180
+different location we introduced the B
+
+317
+00:12:52,180 --> 00:12:50,020
+synthetase to a different sequence now
+
+318
+00:12:53,950 --> 00:12:52,190
+we could really bootstrap up the
+
+319
+00:12:55,780 --> 00:12:53,960
+population with that blue curve up to a
+
+320
+00:12:59,320 --> 00:12:55,790
+much higher level because we could
+
+321
+00:13:02,680 --> 00:12:59,330
+better utilize both RA and RB polymer
+
+322
+00:13:04,960 --> 00:13:02,690
+and so this is a way that we could build
+
+323
+00:13:07,030 --> 00:13:04,970
+out something like a hyper cycle in
+
+324
+00:13:08,440 --> 00:13:07,040
+which we did not need to have both of
+
+325
+00:13:09,280 --> 00:13:08,450
+these functions appearing at the same
+326
+00:13:11,980 --> 00:13:09,290
+time they could appear at different
+
+327
+00:13:14,800 --> 00:13:11,990
+times in different locations stepwise
+
+328
+00:13:21,910 --> 00:13:14,810
+building up a cooperative chemical
+
+329
+00:13:23,590 --> 00:13:21,920
+Network okay so what were some of the
+
+330
+00:13:25,510 --> 00:13:23,600
+insights that we gained from this one
+
+331
+00:13:28,560 --> 00:13:25,520
+was that the optimal system behavior in
+
+332
+00:13:30,790 --> 00:13:28,570
+order to generate and sustain diversity
+
+333
+00:13:32,170 --> 00:13:30,800
+occurred at sweet spot so it wasn't
+
+334
+00:13:33,400 --> 00:13:32,180
+always more is better and so this is
+
+335
+00:13:36,040 --> 00:13:33,410
+something that without a mathematical
+
+336
+00:13:37,690 --> 00:13:36,050
+model would be difficult to predict that
+
+337
+00:13:39,070 --> 00:13:37,700
+we wanted to have some reversibility in
+
+338
+00:13:41,290 --> 00:13:39,080
+our polymerization so that we could
+
+339
+00:13:42,430 --> 00:13:41,300
+generate new sequences and continue to
+
+340
+00:13:44,320 --> 00:13:42,440
+look through sequence space for these
+
+341
+00:13:46,510 --> 00:13:44,330
+probably small fraction of sequences
+
+342
+00:13:48,100 --> 00:13:46,520
+that would be functional but if you have
+
+343
+00:13:49,960 --> 00:13:48,110
+to traverse ability then all have reddit
+
+344
+00:13:51,640 --> 00:13:49,970
+a would be lost right so we need a
+
+345
+00:13:53,320 --> 00:13:51,650
+middle ground there we also needed a
+
+346
+00:13:57,220 --> 00:13:53,330
+middle ground in terms of diffusion of
+
+347
+00:13:58,510 --> 00:13:57,230
+polymer and and monomer in order to have
+
+348
+00:14:01,270 --> 00:13:58,520
+some diffusion to efficiently use
+
+349
+00:14:03,430 --> 00:14:01,280
+utilize all of our resources but by
+
+350
+00:14:04,900 --> 00:14:03,440
+having limited diffusion we were able to
+351
+00:14:06,550 --> 00:14:04,910
+then generate different functional
+
+352
+00:14:08,620 --> 00:14:06,560
+sequences and not have a single winner
+
+353
+00:14:11,380 --> 00:14:08,630
+scenario but to generate and sustain
+
+354
+00:14:13,060 --> 00:14:11,390
+diversity and have the ability to
+
+355
+00:14:14,970 --> 00:14:13,070
+continue to explore sequence space so
+
+356
+00:14:18,580 --> 00:14:14,980
+that we could have this cooperative
+
+357
+00:14:20,920 --> 00:14:18,590
+catalytic Network evolve our develop
+
+358
+00:14:22,180 --> 00:14:20,930
+over time and so that's the second
+
+359
+00:14:24,400 --> 00:14:22,190
+bullet point that these cooperative
+
+360
+00:14:25,780 --> 00:14:24,410
+networks could emerge stepwise we don't
+
+361
+00:14:29,920 --> 00:14:25,790
+have to have the hyper cycle if you're
+
+362
+00:14:31,240 --> 00:14:29,930
+all at one time and the third insight
+
+363
+00:14:33,220 --> 00:14:31,250
+that we gained was that this clustering
+
+364
+00:14:35,650 --> 00:14:33,230
+emerged through our recycling dynamic
+
+365
+00:14:39,220 --> 00:14:35,660
+through breaking down and reusing these
+
+366
+00:14:41,140 --> 00:14:39,230
+monomers and that was just not something
+
+367
+00:14:44,470 --> 00:14:41,150
+that we anticipated when we started
+
+368
+00:14:46,330 --> 00:14:44,480
+running these simulations and and also
+
+369
+00:14:48,460 --> 00:14:46,340
+that this limited diffusion on surfaces
+
+370
+00:14:50,710 --> 00:14:48,470
+could provide an early sort of
+
+371
+00:14:56,270 --> 00:14:50,720
+compartmentalization prior to
+
+372
+00:15:02,360 --> 00:14:59,900
+so in designing our experiments we took
+
+373
+00:15:04,130 --> 00:15:02,370
+forward some of these ideas and that
+
+374
+00:15:06,350 --> 00:15:04,140
+backbone reversibility and monomers
+
+375
+00:15:09,680 --> 00:15:06,360
+recycling was going to be important to
+376
+00:15:11,300 --> 00:15:09,690
+explore sequence space the environmental
+
+377
+00:15:13,580 --> 00:15:11,310
+cycling was helpful for driving
+
+378
+00:15:15,650 --> 00:15:13,590
+condensation and hydrolysis driving
+
+379
+00:15:19,040 --> 00:15:15,660
+duplex separation and ultimately
+
+380
+00:15:20,930 --> 00:15:19,050
+replication that we wanted to build in
+
+381
+00:15:23,930 --> 00:15:20,940
+limited diffusion to bias our mobility
+
+382
+00:15:25,610 --> 00:15:23,940
+and that we wanted to continue to look
+
+383
+00:15:30,530 --> 00:15:25,620
+for selection based not only on
+
+384
+00:15:31,700 --> 00:15:30,540
+replication but really unfunctional so
+
+385
+00:15:33,470 --> 00:15:31,710
+next I want to talk to you about a
+
+386
+00:15:35,840 --> 00:15:33,480
+candidate that we have for reversible
+
+387
+00:15:37,280 --> 00:15:35,850
+linkages and this is a work that Shang
+
+388
+00:15:38,480 --> 00:15:37,290
+Shang you talked about yesterday and his
+
+389
+00:15:39,980 --> 00:15:38,490
+poster and we'll talk about again
+
+390
+00:15:41,750 --> 00:15:39,990
+tomorrow if you want more details so
+
+391
+00:15:44,150 --> 00:15:41,760
+I'll give some of the highlights the
+
+392
+00:15:46,250 --> 00:15:44,160
+hypothesis was that polyesters could be
+
+393
+00:15:48,170 --> 00:15:46,260
+a prebiotic precursor to peptides so
+
+394
+00:15:49,880 --> 00:15:48,180
+instead of looking at amino acids look
+
+395
+00:15:52,670 --> 00:15:49,890
+at alpha hydroxy acids which are also
+
+396
+00:15:54,740 --> 00:15:52,680
+present in miller-urey type experiments
+
+397
+00:15:57,560 --> 00:15:54,750
+and there are a number of indications
+
+398
+00:16:00,790 --> 00:15:57,570
+that polyesters and alpha hydroxy yeah
+
+399
+00:16:04,610 --> 00:16:00,800
+play this role one is that the ribozyme
+
+400
+00:16:07,040 --> 00:16:04,620
+that the ribosome catalyzes alpha
+401
+00:16:09,170 --> 00:16:07,050
+hydroxy acid coupling that the
+
+402
+00:16:10,460 --> 00:16:09,180
+polyesters could also have similar side
+
+403
+00:16:11,960 --> 00:16:10,470
+chain interactions although they would
+
+404
+00:16:14,450 --> 00:16:11,970
+not have the backbone hydrogen bonds of
+
+405
+00:16:15,770 --> 00:16:14,460
+peptides and that the ester bond just
+
+406
+00:16:18,710 --> 00:16:15,780
+simply polymerize is more readily than
+
+407
+00:16:21,290 --> 00:16:18,720
+the amide bond and so this could really
+
+408
+00:16:22,850 --> 00:16:21,300
+help us in generating significant yield
+
+409
+00:16:26,600 --> 00:16:22,860
+and length in terms of our polymers
+
+410
+00:16:28,310 --> 00:16:26,610
+through non enzymatic reactions and so
+
+411
+00:16:30,290 --> 00:16:28,320
+this this idea was put forward by Leslie
+
+412
+00:16:32,030 --> 00:16:30,300
+Orgel and has been out there for a while
+
+413
+00:16:33,680 --> 00:16:32,040
+but people thought well maybe polyesters
+
+414
+00:16:35,780 --> 00:16:33,690
+are just not stable enough but actually
+
+415
+00:16:37,670 --> 00:16:35,790
+our simulations and actually maybe we
+
+416
+00:16:41,170 --> 00:16:37,680
+want them to we don't want them to be
+
+417
+00:16:43,400 --> 00:16:41,180
+too stable if we want to evolve so this
+
+418
+00:16:46,280 --> 00:16:43,410
+slide shows kind of a comparison between
+
+419
+00:16:48,350 --> 00:16:46,290
+amino and alpha and amino and hydroxy
+
+420
+00:16:51,050 --> 00:16:48,360
+acids if you're trying to do non
+
+421
+00:16:52,640 --> 00:16:51,060
+enzymatic peptide polymerization you
+
+422
+00:16:54,950 --> 00:16:52,650
+have a couple of problems one is that
+
+423
+00:16:58,280 --> 00:16:54,960
+it's thermodynamically unfavorable in
+
+424
+00:17:00,350 --> 00:16:58,290
+terms of drying reactions or or in
+
+425
+00:17:02,650 --> 00:17:00,360
+solvent and then we also have the dakedo
+426
+00:17:06,260 --> 00:17:02,660
+Pipper zine sink in which we form this
+
+427
+00:17:08,360 --> 00:17:06,270
+cyclic dimer so the ester solution has a
+
+428
+00:17:10,130 --> 00:17:08,370
+more favorable bond formation free
+
+429
+00:17:12,880 --> 00:17:10,140
+energy and although it does form cycle
+
+430
+00:17:15,140 --> 00:17:12,890
+they're reversible so we've been looking
+
+431
+00:17:17,150 --> 00:17:15,150
+for the last five years or so and
+
+432
+00:17:20,300 --> 00:17:17,160
+reactions of these polyesters and this
+
+433
+00:17:22,000 --> 00:17:20,310
+shows one of our early papers led by
+
+434
+00:17:24,350 --> 00:17:22,010
+arena Mamedov and
+
+435
+00:17:26,660 --> 00:17:24,360
+malic acid cycling and we built a
+
+436
+00:17:29,930 --> 00:17:26,670
+kinetic model to predict the effect
+
+437
+00:17:31,790 --> 00:17:29,940
+under wet/dry cycles under different
+
+438
+00:17:33,770 --> 00:17:31,800
+temperatures and we did the experiments
+
+439
+00:17:36,680 --> 00:17:33,780
+and they agreed pretty well in terms of
+
+440
+00:17:38,180 --> 00:17:36,690
+the monomer dimer and trimer
+
+441
+00:17:40,100 --> 00:17:38,190
+concentrations and it showed kind of a
+
+442
+00:17:42,680 --> 00:17:40,110
+ratcheting behavior in which we could
+
+443
+00:17:44,300 --> 00:17:42,690
+form the poly malic acid over time and
+
+444
+00:17:46,850 --> 00:17:44,310
+then achieve kind of a cyclic steady
+
+445
+00:17:49,270 --> 00:17:46,860
+state in terms of polymerizing forward
+
+446
+00:17:55,310 --> 00:17:49,280
+and then hydrolyzing somewhat during the
+
+447
+00:17:59,000 --> 00:17:55,320
+wet period so the idea here was that the
+
+448
+00:18:01,940 --> 00:17:59,010
+polyesters could be a proto peptide but
+
+449
+00:18:03,260 --> 00:18:01,950
+then along the way our team member
+
+450
+00:18:07,280 --> 00:18:03,270
+around christian murphy said well what
+451
+00:18:09,380 --> 00:18:07,290
+about Esther amid exchange so we all
+
+452
+00:18:11,630 --> 00:18:09,390
+said what and then you know did some of
+
+453
+00:18:13,670 --> 00:18:11,640
+the initial experiments to try this out
+
+454
+00:18:16,790 --> 00:18:13,680
+we published a paper last year at on
+
+455
+00:18:18,770 --> 00:18:16,800
+Covanta cami on this topic in which by
+
+456
+00:18:20,420 --> 00:18:18,780
+first making polyesters and then adding
+
+457
+00:18:24,500 --> 00:18:20,430
+amino acids into the system they
+
+458
+00:18:26,780 --> 00:18:24,510
+exchanged and if we dry and cycle
+
+459
+00:18:29,810 --> 00:18:26,790
+glycine only we really make nothing with
+
+460
+00:18:31,850 --> 00:18:29,820
+lactic acid we do make polymers but when
+
+461
+00:18:33,250 --> 00:18:31,860
+we mix them together we form all of
+
+462
+00:18:36,710 --> 00:18:33,260
+these different copolymers
+
+463
+00:18:38,240 --> 00:18:36,720
+moreover over time because the amadon is
+
+464
+00:18:44,540 --> 00:18:38,250
+more stable we move further and farther
+
+465
+00:18:46,250 --> 00:18:44,550
+toward peptides and then Shan Shan is
+
+466
+00:18:49,040 --> 00:18:46,260
+posters talking about a system level
+
+467
+00:18:51,920 --> 00:18:49,050
+model in which we consider the wet dry
+
+468
+00:18:53,990 --> 00:18:51,930
+cycling of this mixture of hydroxy and
+
+469
+00:18:55,460 --> 00:18:54,000
+amino acids and we look at the different
+
+470
+00:18:57,590 --> 00:18:55,470
+species that are formed there all Quan
+
+471
+00:18:59,690 --> 00:18:57,600
+nine different species quantitated here
+
+472
+00:19:02,420 --> 00:18:59,700
+over time at four different temperatures
+
+473
+00:19:05,960 --> 00:19:02,430
+and he built a kinetic model to describe
+
+474
+00:19:08,750 --> 00:19:05,970
+based on five parameters a forward
+
+475
+00:19:11,240 --> 00:19:08,760
+polymerization rate for the polyester is
+476
+00:19:13,580 --> 00:19:11,250
+a hydrolysis rate a strand exchange mass
+
+477
+00:19:17,450 --> 00:19:13,590
+transfer coefficient we also have
+
+478
+00:19:18,920 --> 00:19:17,460
+hydrolysis and we're able to get really
+
+479
+00:19:21,020 --> 00:19:18,930
+remarkable achievement I think between
+
+480
+00:19:22,220 --> 00:19:21,030
+for all nine of these species and helped
+
+481
+00:19:23,869 --> 00:19:22,230
+us to understand that this reaction
+
+482
+00:19:25,699 --> 00:19:23,879
+could be understood in terms of element
+
+483
+00:19:27,979 --> 00:19:25,709
+tree mass action kinetics and
+
+484
+00:19:29,509 --> 00:19:27,989
+diffusional mass transfer and from the
+
+485
+00:19:32,059 --> 00:19:29,519
+model we were able to gain some insights
+
+486
+00:19:33,769 --> 00:19:32,069
+that it for different temperatures our
+
+487
+00:19:35,269 --> 00:19:33,779
+rate constants and mass transfer
+
+488
+00:19:36,859 --> 00:19:35,279
+coefficient really are very Arrhenius
+
+489
+00:19:38,749 --> 00:19:36,869
+like now this would never be expected
+
+490
+00:19:40,969 --> 00:19:38,759
+because we're drying the system it's
+
+491
+00:19:43,609 --> 00:19:40,979
+really not ideal but we can still see
+
+492
+00:19:44,809 --> 00:19:43,619
+this same Arenas type of behavior and we
+
+493
+00:19:47,479 --> 00:19:44,819
+were also able to look at the reaction
+
+494
+00:19:50,299 --> 00:19:47,489
+pathway and to show that compared to
+
+495
+00:19:52,609 --> 00:19:50,309
+just drying and cycling the amino acids
+
+496
+00:19:56,869 --> 00:19:52,619
+we were really able to lower the barrier
+
+497
+00:19:59,149 --> 00:19:56,879
+towards making the peptide bond by
+
+498
+00:20:01,789 --> 00:19:59,159
+having this two-step reaction using the
+
+499
+00:20:04,609 --> 00:20:01,799
+hydroxy acids and also that it was
+
+500
+00:20:06,439 --> 00:20:04,619
+really based on the analysis of the
+501
+00:20:09,049 --> 00:20:06,449
+model that it's an engine of the
+
+502
+00:20:10,609 --> 00:20:09,059
+entropic barrier and not the enthalpic
+
+503
+00:20:15,960 --> 00:20:10,619
+barrier may be similar to something that
+
+504
+00:20:21,000 --> 00:20:19,570
+so some of the insights that we gained
+
+505
+00:20:24,610 --> 00:20:21,010
+from this particular study is that
+
+506
+00:20:27,180 --> 00:20:24,620
+hydroxy acids could potentially play the
+
+507
+00:20:29,620 --> 00:20:27,190
+role of amino acids in a prototype tide
+
+508
+00:20:31,990 --> 00:20:29,630
+that was the original idea then we had
+
+509
+00:20:33,519 --> 00:20:32,000
+this kind of turn in the road where now
+
+510
+00:20:35,440 --> 00:20:33,529
+it turns out the hydroxy acids might be
+
+511
+00:20:37,539 --> 00:20:35,450
+the catalyst for the amino acid
+
+512
+00:20:41,019 --> 00:20:37,549
+polymerization through ester and
+
+513
+00:20:42,850 --> 00:20:41,029
+exchange over time we go from having
+
+514
+00:20:45,700 --> 00:20:42,860
+these copolymers between hydroxy and
+
+515
+00:20:47,500 --> 00:20:45,710
+amino acid to peptides but it also may
+
+516
+00:20:49,600 --> 00:20:47,510
+be that these copolymers also called FC
+
+517
+00:20:51,279 --> 00:20:49,610
+peptides could actually be important
+
+518
+00:20:53,139 --> 00:20:51,289
+evolutionary intermediates because they
+
+519
+00:20:57,340 --> 00:20:53,149
+have greater reversibility through the
+
+520
+00:21:04,210 --> 00:20:57,350
+ester bond than do the amino acids and
+
+521
+00:21:06,970 --> 00:21:04,220
+peptides and moreover we had kind of a
+
+522
+00:21:08,590 --> 00:21:06,980
+new view on the water problem which is
+
+523
+00:21:11,110 --> 00:21:08,600
+that perhaps it's not a problem at all
+
+524
+00:21:13,480 --> 00:21:11,120
+so our simulation study had indicated
+
+525
+00:21:15,820 --> 00:21:13,490
+that we really needed this recycling and
+526
+00:21:18,840 --> 00:21:15,830
+reversibility in order to evolve to
+
+527
+00:21:21,010 --> 00:21:18,850
+generate and sustain diversity and so
+
+528
+00:21:23,080 --> 00:21:21,020
+perhaps that is why life uses
+
+529
+00:21:24,970 --> 00:21:23,090
+condensation polymers is that because it
+
+530
+00:21:26,620 --> 00:21:24,980
+needs to have these bonds that are
+
+531
+00:21:29,260 --> 00:21:26,630
+reversible that could be broken by water
+
+532
+00:21:33,789 --> 00:21:29,270
+in order to search sequence base and
+
+533
+00:21:35,799 --> 00:21:33,799
+evolve and now I'd like to move on to
+
+534
+00:21:38,799 --> 00:21:35,809
+kind of the third of the three topics
+
+535
+00:21:40,389 --> 00:21:38,809
+that I wanted to discuss today which is
+
+536
+00:21:44,019 --> 00:21:40,399
+some recent work of ours on the Strand
+
+537
+00:21:45,880 --> 00:21:44,029
+inhibition problem and so now this is
+
+538
+00:21:47,110 --> 00:21:45,890
+more of a nucleic acid viewpoint as
+
+539
+00:21:52,360 --> 00:21:47,120
+opposed to the previous study that's
+
+540
+00:21:55,330 --> 00:21:52,370
+more that's a focusing on peptides the
+
+541
+00:21:58,120 --> 00:21:55,340
+Strand inhibition problem is about
+
+542
+00:22:01,210 --> 00:21:58,130
+replication really of a generally of a
+
+543
+00:22:03,549 --> 00:22:01,220
+duplex sort of structure and let's say
+
+544
+00:22:06,669 --> 00:22:03,559
+you want to make a copy of that red-blue
+
+545
+00:22:09,130 --> 00:22:06,679
+say maybe DNA or RNA sequence you can
+
+546
+00:22:11,470 --> 00:22:09,140
+heat not enzymatically or snow enzymes
+
+547
+00:22:13,930 --> 00:22:11,480
+so you can heat the system and separate
+
+548
+00:22:15,549 --> 00:22:13,940
+the strands but when you cool the system
+
+549
+00:22:18,100 --> 00:22:15,559
+instead of making a copy instead of
+
+550
+00:22:19,810 --> 00:22:18,110
+coding and and doubling the number of
+551
+00:22:22,570 --> 00:22:19,820
+strands in the system when you cool down
+
+552
+00:22:24,909 --> 00:22:22,580
+you really just go back to because the
+
+553
+00:22:28,360 --> 00:22:24,919
+duplex reforms that's the thermodynamic
+
+554
+00:22:31,480 --> 00:22:28,370
+product and so you and
+
+555
+00:22:34,000 --> 00:22:31,490
+and this was a problem articulated by
+
+556
+00:22:35,320 --> 00:22:34,010
+Jack szostak in his paper that was
+
+557
+00:22:37,360 --> 00:22:35,330
+mentioned earlier and they've also
+
+558
+00:22:38,560 --> 00:22:37,370
+recently published an approach to
+
+559
+00:22:40,270 --> 00:22:38,570
+solving stranded admission using
+
+560
+00:22:41,830 --> 00:22:40,280
+arginine and so we have a different
+
+561
+00:22:44,770 --> 00:22:41,840
+approach that we have been looking at
+
+562
+00:22:46,810 --> 00:22:44,780
+which is to use viscosity so the
+
+563
+00:22:48,730 --> 00:22:46,820
+hypothesis is that through Mars through
+
+564
+00:22:50,610 --> 00:22:48,740
+thermal cycling in a viscous environment
+
+565
+00:22:53,440 --> 00:22:50,620
+you can overcome strand inhibition and
+
+566
+00:22:55,840 --> 00:22:53,450
+promote template directed nucleic acid
+
+567
+00:22:57,880 --> 00:22:55,850
+synthesis so now if we have a viscous
+
+568
+00:23:00,100 --> 00:22:57,890
+environment we can heat the system and
+
+569
+00:23:04,680 --> 00:23:00,110
+separate the strands same as the same as
+
+570
+00:23:08,230 --> 00:23:04,690
+in aqueous buffer but now when we cool
+
+571
+00:23:10,780 --> 00:23:08,240
+what we thought what our hypothesis the
+
+572
+00:23:12,160 --> 00:23:10,790
+hypothesis was that when we would cool
+
+573
+00:23:14,650 --> 00:23:12,170
+the long strands would not move very
+
+574
+00:23:16,060 --> 00:23:14,660
+fast in the viscous solution the short
+
+575
+00:23:18,460 --> 00:23:16,070
+strands would move faster and they would
+576
+00:23:21,430 --> 00:23:18,470
+be able to coat this but actually when
+
+577
+00:23:22,030 --> 00:23:21,440
+we kind of did some numbers work some
+
+578
+00:23:23,350 --> 00:23:22,040
+numbers
+
+579
+00:23:24,850 --> 00:23:23,360
+it didn't seem like maybe we were going
+
+580
+00:23:26,049 --> 00:23:24,860
+to get that much differential mobility
+
+581
+00:23:28,630 --> 00:23:26,059
+because they're probably going square
+
+582
+00:23:31,380 --> 00:23:28,640
+root of the length and so but anyway it
+
+583
+00:23:33,460 --> 00:23:31,390
+was you know something that we want that
+
+584
+00:23:36,880 --> 00:23:33,470
+hypothesis the Nick had and that we we
+
+585
+00:23:38,230 --> 00:23:36,890
+tried out and what we found actually was
+
+586
+00:23:42,760 --> 00:23:38,240
+that we were getting intermolecular
+
+587
+00:23:44,710 --> 00:23:42,770
+folding and of the long strands and that
+
+588
+00:23:46,540 --> 00:23:44,720
+was probably also playing a role along
+
+589
+00:23:47,799 --> 00:23:46,550
+with the differential mobility in order
+
+590
+00:23:50,799 --> 00:23:47,809
+to keep the long strands from coming
+
+591
+00:23:53,620 --> 00:23:50,809
+back apart and that would give us a
+
+592
+00:23:55,060 --> 00:23:53,630
+window of time a kinetic solution to
+
+593
+00:23:57,400 --> 00:23:55,070
+this thermodynamic problem of strand
+
+594
+00:23:59,440 --> 00:23:57,410
+inhibition in which we could coat the
+
+595
+00:24:01,510 --> 00:23:59,450
+long strands maybe using kind of a
+
+596
+00:24:03,669 --> 00:24:01,520
+toehold mechanism to open up the strands
+
+597
+00:24:05,680 --> 00:24:03,679
+with these short oligomers coat them
+
+598
+00:24:08,850 --> 00:24:05,690
+ligate them before we actually got to
+
+599
+00:24:13,180 --> 00:24:08,860
+the thermodynamic duplex Reformation and
+
+600
+00:24:15,760 --> 00:24:13,190
+then we could go around again so this
+601
+00:24:17,440 --> 00:24:15,770
+was a paper that was published this year
+
+602
+00:24:20,650 --> 00:24:17,450
+is online in Nature Chemistry and should
+
+603
+00:24:22,660 --> 00:24:20,660
+come out 2017 at some point in a in an
+
+604
+00:24:24,669 --> 00:24:22,670
+actual issue so a one thing that we
+
+605
+00:24:27,040 --> 00:24:24,679
+needed to do is to choose the viscous
+
+606
+00:24:28,750 --> 00:24:27,050
+solvent the work I'll show you today is
+
+607
+00:24:31,120 --> 00:24:28,760
+using like choline which is a mixture of
+
+608
+00:24:33,190 --> 00:24:31,130
+glycerol and choline chloride also known
+
+609
+00:24:37,630 --> 00:24:33,200
+as a eutectic solvent or a deep eutectic
+
+610
+00:24:39,850 --> 00:24:37,640
+solvent and this is a system that also
+
+611
+00:24:41,860 --> 00:24:39,860
+arena had been looking at previously for
+
+612
+00:24:44,760 --> 00:24:41,870
+a nucleic acid
+
+613
+00:24:48,400 --> 00:24:44,770
+Assembly G quadruplex in particular and
+
+614
+00:24:50,260 --> 00:24:48,410
+what they have found in a group in the
+
+615
+00:24:52,240 --> 00:24:50,270
+past is that within this particular
+
+616
+00:24:55,840 --> 00:24:52,250
+mixture of glycol E and the B form of
+
+617
+00:24:57,640 --> 00:24:55,850
+DNA was retained and so that's kind of I
+
+618
+00:24:59,380 --> 00:24:57,650
+don't know interesting and and notable I
+
+619
+00:25:02,770 --> 00:24:59,390
+think that DNA would take its native
+
+620
+00:25:04,510 --> 00:25:02,780
+form and these solvents are also
+
+621
+00:25:06,910 --> 00:25:04,520
+miscible with water and so we could have
+
+622
+00:25:09,040 --> 00:25:06,920
+a cycle with these non aqueous solvents
+
+623
+00:25:13,420 --> 00:25:09,050
+with water some periods of time and then
+
+624
+00:25:15,820 --> 00:25:13,430
+dehydrated other periods of time and the
+
+625
+00:25:18,160 --> 00:25:15,830
+the melting temperature of DNA is also
+626
+00:25:19,270 --> 00:25:18,170
+it's suppressed it's lowered in these
+
+627
+00:25:21,340 --> 00:25:19,280
+solvents and that turned out to be just
+
+628
+00:25:23,020 --> 00:25:21,350
+helpful from a practical point of view
+
+629
+00:25:24,760 --> 00:25:23,030
+in the experiment that we could we could
+
+630
+00:25:29,799 --> 00:25:24,770
+separate our straight and long very long
+
+631
+00:25:32,240 --> 00:25:29,809
+strands under reasonable temperatures
+
+632
+00:25:34,580 --> 00:25:32,250
+and so these are just going to show you
+
+633
+00:25:38,930 --> 00:25:34,590
+a few of the results this slide shows
+
+634
+00:25:40,910 --> 00:25:38,940
+how we were able to just look at do that
+
+635
+00:25:42,680 --> 00:25:40,920
+separating the duplex and then cooling
+
+636
+00:25:45,140 --> 00:25:42,690
+it back down and we had a window of time
+
+637
+00:25:46,850 --> 00:25:45,150
+and this glyco leaned in which we could
+
+638
+00:25:47,930 --> 00:25:46,860
+get the single-stranded DNA so you can
+
+639
+00:25:49,730 --> 00:25:47,940
+look you look at the gel at the top
+
+640
+00:25:52,340 --> 00:25:49,740
+there's the top bands is the double
+
+641
+00:25:53,990 --> 00:25:52,350
+double duplex DNA and the lower one is a
+
+642
+00:25:56,960 --> 00:25:54,000
+single strand so and glyco lean we would
+
+643
+00:25:59,030 --> 00:25:56,970
+have a period of time in which we would
+
+644
+00:26:01,190 --> 00:25:59,040
+have single strand before it really old
+
+645
+00:26:04,669 --> 00:26:01,200
+where as an aqueous buffer it would
+
+646
+00:26:06,560 --> 00:26:04,679
+really pretty much immediately Rhea Neil
+
+647
+00:26:08,450 --> 00:26:06,570
+unless we had an extremely high cooling
+
+648
+00:26:10,130 --> 00:26:08,460
+rate something like 40 degrees C per
+
+649
+00:26:13,810 --> 00:26:10,140
+minute which probably is not prebiotic
+
+650
+00:26:17,419 --> 00:26:13,820
+ly plausible and then we were able to
+651
+00:26:20,210 --> 00:26:17,429
+show that we could lie date assemble
+
+652
+00:26:22,100 --> 00:26:20,220
+nucleotides on those long pieces during
+
+653
+00:26:24,470 --> 00:26:22,110
+that window of time and so that's really
+
+654
+00:26:27,260 --> 00:26:24,480
+what this particular slide shows we
+
+655
+00:26:31,010 --> 00:26:27,270
+looked at eleven-thirty tumors adjacent
+
+656
+00:26:34,640 --> 00:26:31,020
+along a three Killa base template and we
+
+657
+00:26:36,440 --> 00:26:34,650
+could make the full-length product in
+
+658
+00:26:41,180 --> 00:26:36,450
+glycol in whereas we would not be able
+
+659
+00:26:43,340 --> 00:26:41,190
+to make it in aqueous buffer and so
+
+660
+00:26:45,740 --> 00:26:43,350
+again I wanted to describe the
+
+661
+00:26:48,590 --> 00:26:45,750
+progression of ideas that got us to this
+
+662
+00:26:52,820 --> 00:26:48,600
+point there's actually this earlier idea
+
+663
+00:26:54,049 --> 00:26:52,830
+notice again image on/off 2010 on using
+
+664
+00:26:57,380 --> 00:26:54,059
+non aqueous solvents to drive
+
+665
+00:26:58,490 --> 00:26:57,390
+condensation polymerization and so
+
+666
+00:27:00,980 --> 00:26:58,500
+there's the kind of history of that
+
+667
+00:27:02,750 --> 00:27:00,990
+within the center research and the HUD
+
+668
+00:27:04,520 --> 00:27:02,760
+lab the original idea for this project
+
+669
+00:27:07,580 --> 00:27:04,530
+was to add visca jhin's to aqueous
+
+670
+00:27:09,230 --> 00:27:07,590
+buffer B polysaccharides to slow the REO
+
+671
+00:27:10,850 --> 00:27:09,240
+kneeling of the duplex to get that
+
+672
+00:27:12,169 --> 00:27:10,860
+differential mobility that turned out
+
+673
+00:27:13,520 --> 00:27:12,179
+from a practical point of view to be
+
+674
+00:27:14,570 --> 00:27:13,530
+sort of difficult we had these sugars
+
+675
+00:27:16,430 --> 00:27:14,580
+and we were trying to separate our
+676
+00:27:20,900 --> 00:27:16,440
+duplex and we were caramelizing the
+
+677
+00:27:22,610 --> 00:27:20,910
+sugars and and so so we decided to try
+
+678
+00:27:25,450 --> 00:27:22,620
+to use it the small molecule non aqueous
+
+679
+00:27:27,740 --> 00:27:25,460
+viscous solvents instead as a visca j'en
+
+680
+00:27:29,450 --> 00:27:27,750
+we really didn't need the fact that they
+
+681
+00:27:33,350 --> 00:27:29,460
+were non aqueous so much but we wanted
+
+682
+00:27:35,030 --> 00:27:33,360
+the viscous part then we were able to
+
+683
+00:27:36,230 --> 00:27:35,040
+observe the desired behavior but it
+
+684
+00:27:37,669 --> 00:27:36,240
+wasn't really for the reason that we
+
+685
+00:27:39,740 --> 00:27:37,679
+thought it wasn't necessarily so much of
+
+686
+00:27:41,450 --> 00:27:39,750
+viscosity maybe partly but the
+
+687
+00:27:43,110 --> 00:27:41,460
+intramolecular folding that happened
+
+688
+00:27:45,210 --> 00:27:43,120
+while we had this window of time
+
+689
+00:27:47,549 --> 00:27:45,220
+Stram separation more than the
+
+690
+00:27:49,200 --> 00:27:47,559
+preferential diffusion but ultimately
+
+691
+00:27:50,549 --> 00:27:49,210
+this gave us a new insight which is that
+
+692
+00:27:54,030 --> 00:27:50,559
+viscous environments could help us
+
+693
+00:27:56,430 --> 00:27:54,040
+select for long strands and folded
+
+694
+00:27:58,530 --> 00:27:56,440
+structures for function for
+
+695
+00:28:00,420 --> 00:27:58,540
+catalytically functional nucleic acid
+
+696
+00:28:03,480 --> 00:28:00,430
+polymers under may be more typical
+
+697
+00:28:04,680 --> 00:28:03,490
+aqueous buffer conditions the unfolded
+
+698
+00:28:07,170 --> 00:28:04,690
+structures are actually easier to
+
+699
+00:28:09,450 --> 00:28:07,180
+replicate and so you're selecting for
+
+700
+00:28:10,590 --> 00:28:09,460
+lack of function and set up our function
+701
+00:28:14,310 --> 00:28:10,600
+so we think this can actually be a
+
+702
+00:28:15,810 --> 00:28:14,320
+pretty important idea going forward so
+
+703
+00:28:18,180 --> 00:28:15,820
+I'll just make a few closing remarks
+
+704
+00:28:20,460 --> 00:28:18,190
+while the light is still yellow orange
+
+705
+00:28:22,110 --> 00:28:20,470
+one is that through this estimate
+
+706
+00:28:23,730 --> 00:28:22,120
+exchange mechanism the peptide World may
+
+707
+00:28:25,919 --> 00:28:23,740
+actually be more accessible than has
+
+708
+00:28:28,110 --> 00:28:25,929
+previously been thought challenging the
+
+709
+00:28:32,070 --> 00:28:28,120
+single dominance of the RNA world
+
+710
+00:28:34,020 --> 00:28:32,080
+hypothesis perhaps there were multiple
+
+711
+00:28:36,200 --> 00:28:34,030
+things going on at once that are all
+
+712
+00:28:38,310 --> 00:28:36,210
+important as well as their interactions
+
+713
+00:28:40,290 --> 00:28:38,320
+another insight is that in an aqueous
+
+714
+00:28:42,240 --> 00:28:40,300
+environment condensation polymers may
+
+715
+00:28:46,830 --> 00:28:42,250
+have been selected in life because they
+
+716
+00:28:48,510 --> 00:28:46,840
+could evolve we also think that viscous
+
+717
+00:28:51,260 --> 00:28:48,520
+environments can drive selection for
+
+718
+00:28:53,510 --> 00:28:51,270
+folding and functions function and that
+
+719
+00:28:55,350 --> 00:28:53,520
+furthermore that this research
+
+720
+00:28:58,740 --> 00:28:55,360
+serendipity that we're having these
+
+721
+00:29:01,100 --> 00:28:58,750
+surprises that are helpful may or may
+
+722
+00:29:04,080 --> 00:29:01,110
+not suggest that some of these
+
+723
+00:29:05,880 --> 00:29:04,090
+environments and chemistry's together as
+
+724
+00:29:10,740 --> 00:29:05,890
+a system could mimic some key features
+
+725
+00:29:13,590 --> 00:29:10,750
+of the prebiotic world so with that I
+726
+00:29:15,540 --> 00:29:13,600
+just like to acknowledge all the members
+
+727
+00:29:18,900 --> 00:29:15,550
+of the Center for chemical evolution and
+
+728
+00:29:20,010 --> 00:29:18,910
+our funding from NSF and NASA also like
+
+729
+00:29:22,820 --> 00:29:20,020
+to acknowledge some of the key players
+
+730
+00:29:24,810 --> 00:29:22,830
+in the work I presented today NIC hood
+
+731
+00:29:26,669 --> 00:29:24,820
+first and foremost and thank him for
+
+732
+00:29:28,860 --> 00:29:26,679
+inviting me into the center to work on
+
+733
+00:29:31,290 --> 00:29:28,870
+this exciting area Sarah Walker
+
+734
+00:29:33,540 --> 00:29:31,300
+qianxiang you Kristine he and arena
+
+735
+00:29:34,710 --> 00:29:33,550
+ma'am Adama and I believe Chris butch
+
+736
+00:29:36,240 --> 00:29:34,720
+I did not talk about Chris's work I
+
+737
+00:29:40,500 --> 00:29:36,250
+think I believe he's the tall one
+
+738
+00:29:42,690 --> 00:29:40,510
+standing in the back right there in this
+
+739
+00:29:45,330 --> 00:29:42,700
+picture from the center so anyway of
+
+740
+00:29:48,120 --> 00:29:45,340
+many many Center members to acknowledge
+
+741
+00:29:50,250 --> 00:29:48,130
+here and I also just listed three of the
+
+742
+00:29:52,320 --> 00:29:50,260
+key publications from this work and with
+
+743
+00:29:55,340 --> 00:29:52,330
+that I'd like to conclude and welcome
+
+744
+00:29:55,350 --> 00:30:01,520
+[Applause]
+
+745
+00:30:10,140 --> 00:30:03,240
+hey-ya so we have some time for
+
+746
+00:30:12,030 --> 00:30:10,150
+questions and discussion hi um I was
+
+747
+00:30:15,330 --> 00:30:12,040
+very interested by your work at the
+
+748
+00:30:18,420 --> 00:30:15,340
+beginning with the the polymers and
+
+749
+00:30:21,480 --> 00:30:18,430
+wondered are you aware of Dave Demers
+
+750
+00:30:23,340 --> 00:30:21,490
+work on polymerization like around
+751
+00:30:25,770 --> 00:30:23,350
+thermal vents because that also gets rid
+
+752
+00:30:28,830 --> 00:30:25,780
+of your problem of actually dropping 40
+
+753
+00:30:31,380 --> 00:30:28,840
+degrees in a minute so you're talking
+
+754
+00:30:40,560 --> 00:30:31,390
+about the Strand inhibition problem with
+
+755
+00:30:44,010 --> 00:30:40,570
+the 40 degrees yeah so so you don't well
+
+756
+00:30:46,830 --> 00:30:44,020
+or even polymerizing or even naturing
+
+757
+00:30:48,840 --> 00:30:46,840
+and sort of along those lines it seems
+
+758
+00:30:51,290 --> 00:30:48,850
+to me that your results are going to
+
+759
+00:30:54,420 --> 00:30:51,300
+depend a lot on the concentration of
+
+760
+00:30:56,100 --> 00:30:54,430
+your solutes and so presumably you would
+
+761
+00:30:57,270 --> 00:30:56,110
+not have very much of your double strand
+
+762
+00:30:59,760 --> 00:30:57,280
+you have much more short
+
+763
+00:31:01,560 --> 00:30:59,770
+eligos or single nucleotides and
+
+764
+00:31:03,990 --> 00:31:01,570
+therefore I question whether that
+
+765
+00:31:06,090 --> 00:31:04,000
+actually is a terrific way to get
+
+766
+00:31:09,390 --> 00:31:06,100
+variability and you don't actually have
+
+767
+00:31:10,740 --> 00:31:09,400
+a strand inhibition problem so so
+
+768
+00:31:13,020 --> 00:31:10,750
+because there's so much more monomer
+
+769
+00:31:20,070 --> 00:31:13,030
+than polymer that that would help with
+
+770
+00:31:22,710 --> 00:31:20,080
+strand inhibition so so that would be a
+
+771
+00:31:25,290 --> 00:31:22,720
+helpful direction I agree with that when
+
+772
+00:31:27,420 --> 00:31:25,300
+many of our initial experiments in this
+
+773
+00:31:30,180 --> 00:31:27,430
+case here we have four to one monomer to
+
+774
+00:31:31,860 --> 00:31:30,190
+polymer or ligament a polymer although
+
+775
+00:31:33,720 --> 00:31:31,870
+early on we did experiments more with
+776
+00:31:39,780 --> 00:31:33,730
+twenty to one something like that
+
+777
+00:31:41,880 --> 00:31:39,790
+DNA is remarkably good associating well
+
+778
+00:31:43,800 --> 00:31:41,890
+you know where I I guess one thing that
+
+779
+00:31:47,420 --> 00:31:43,810
+I would say is that that we're trying to
+
+780
+00:31:51,470 --> 00:31:47,430
+design and demonstrate minimal chemical
+
+781
+00:31:53,940 --> 00:31:51,480
+systems that can evolve and so we're not
+
+782
+00:31:55,620 --> 00:31:53,950
+saying that this environment is right
+
+783
+00:31:57,300 --> 00:31:55,630
+and this environment is wrong but we're
+
+784
+00:32:01,850 --> 00:31:57,310
+focusing on this particular environment
+
+785
+00:32:04,820 --> 00:32:01,860
+of drawing and rewedding but you know we
+
+786
+00:32:07,350 --> 00:32:04,830
+look forward to seeing evolving systems
+
+787
+00:32:08,460 --> 00:32:07,360
+from other environments as well this is
+
+788
+00:32:14,279 --> 00:32:08,470
+the particular advice
+
+789
+00:32:16,620 --> 00:32:14,289
+that were that we're considering okay
+
+790
+00:32:19,529 --> 00:32:16,630
+great thank you very exciting work and
+
+791
+00:32:22,080 --> 00:32:19,539
+as a planetary scientists have been
+
+792
+00:32:24,510 --> 00:32:22,090
+always wondering what the environment
+
+793
+00:32:26,549 --> 00:32:24,520
+was during a time of origin of life and
+
+794
+00:32:31,799 --> 00:32:26,559
+the artwork is quite interesting in that
+
+795
+00:32:35,970 --> 00:32:31,809
+science but exactly how viscous that
+
+796
+00:32:40,320 --> 00:32:35,980
+environment you require you give as an
+
+797
+00:32:44,909 --> 00:32:40,330
+example an auto code and how frequent
+
+798
+00:32:49,440 --> 00:32:44,919
+were your environment change some
+
+799
+00:32:52,980 --> 00:32:49,450
+examples well choline is about a hundred
+
+800
+00:32:56,220 --> 00:32:52,990
+centipoise viscosity which is about a
+801
+00:32:59,159 --> 00:32:56,230
+similar to motor oil so not as viscous
+
+802
+00:33:01,470 --> 00:32:59,169
+as honey but significantly more viscous
+
+803
+00:33:03,750 --> 00:33:01,480
+than water now we've also demonstrated
+
+804
+00:33:06,060 --> 00:33:03,760
+this approach with this is work for DNA
+
+805
+00:33:08,250 --> 00:33:06,070
+but we've also done it in RNA and we've
+
+806
+00:33:12,990 --> 00:33:08,260
+also demonstrated the phenomenon and
+
+807
+00:33:18,960 --> 00:33:13,000
+glycerol and in raylene a urea choline
+
+808
+00:33:21,390 --> 00:33:18,970
+chloride so if we also have diluted the
+
+809
+00:33:23,340 --> 00:33:21,400
+glycol in with water and so we can also
+
+810
+00:33:26,940 --> 00:33:23,350
+see the effective viscosity just simply
+
+811
+00:33:29,490 --> 00:33:26,950
+through dilution so you know this seems
+
+812
+00:33:32,600 --> 00:33:29,500
+to be a general physical principle and
+
+813
+00:33:35,490 --> 00:33:32,610
+phenomenon that's not specific only to
+
+814
+00:33:40,470 --> 00:33:35,500
+glycol Ian in this particular viscosity
+
+815
+00:33:43,620 --> 00:33:40,480
+but you do need to have enough slowing
+
+816
+00:33:45,210 --> 00:33:43,630
+of a movement so that you can get this
+
+817
+00:33:47,730 --> 00:33:45,220
+intramolecular folding but it seems to
+
+818
+00:33:52,760 --> 00:33:47,740
+have a pretty broad window but these are
+
+819
+00:33:58,260 --> 00:33:52,770
+for motor oil the the temperature here
+
+820
+00:34:00,630 --> 00:33:58,270
+so we needed to separate the two strands
+
+821
+00:34:03,149 --> 00:34:00,640
+and so in order to do that we needed to
+
+822
+00:34:05,299 --> 00:34:03,159
+get above the melting temperature so in
+
+823
+00:34:08,520 --> 00:34:05,309
+glycol eeen that's about fifty degrees
+
+824
+00:34:11,820 --> 00:34:08,530
+and so so we needed to separate the
+
+825
+00:34:14,159 --> 00:34:11,830
+strands and then we cool down to ambient
+826
+00:34:16,829 --> 00:34:14,169
+temperature room temperature at a
+
+827
+00:34:19,349 --> 00:34:16,839
+variety of different rates so I went
+
+828
+00:34:20,909 --> 00:34:19,359
+through this fairly quickly but you can
+
+829
+00:34:22,120 --> 00:34:20,919
+see here we tried a number of different
+
+830
+00:34:24,820 --> 00:34:22,130
+rates from four degrees
+
+831
+00:34:26,620 --> 00:34:24,830
+see per minute up to 40 degrees c per
+
+832
+00:34:30,850 --> 00:34:26,630
+minute and and then compared the aqueous
+
+833
+00:34:35,830 --> 00:34:30,860
+buffer to the glycol een so really this
+
+834
+00:34:37,450 --> 00:34:35,840
+is a proof of principle so exactly what
+
+835
+00:34:40,270 --> 00:34:37,460
+these numbers would be would depend on
+
+836
+00:34:43,090 --> 00:34:40,280
+your viscosity would depend on the
+
+837
+00:34:45,250 --> 00:34:43,100
+particular nucleic acid polymer that
+
+838
+00:34:47,470 --> 00:34:45,260
+you're looking at so the we're looking
+
+839
+00:34:49,000 --> 00:34:47,480
+at glycol één which is glycerol and
+
+840
+00:34:51,010 --> 00:34:49,010
+choline chloride so glycerol would be
+
+841
+00:34:53,950 --> 00:34:51,020
+considered prebiotic lea plausible the
+
+842
+00:34:55,990 --> 00:34:53,960
+core choline chloride is the choline is
+
+843
+00:34:57,910 --> 00:34:56,000
+questionable you know maybe you could
+
+844
+00:35:00,160 --> 00:34:57,920
+argue and it's been mentioned in
+
+845
+00:35:02,320 --> 00:35:00,170
+prebiotic literature but we're really
+
+846
+00:35:04,510 --> 00:35:02,330
+using this as a proof of principle more
+
+847
+00:35:13,630 --> 00:35:04,520
+than that this particular solvent would
+
+848
+00:35:18,359 --> 00:35:16,210
+and thank you very much I've got
+
+849
+00:35:23,829 --> 00:35:18,369
+interested in earning enough your
+
+850
+00:35:27,700 --> 00:35:23,839
+hypothesis that their hydroxy acid can
+851
+00:35:29,609 --> 00:35:27,710
+work as a catalyst for amino acid for
+
+852
+00:35:33,999 --> 00:35:29,619
+meditation
+
+853
+00:35:39,849 --> 00:35:34,009
+why did you conclude in that way I just
+
+854
+00:35:44,140 --> 00:35:39,859
+asking the hydroxy acid has some
+
+855
+00:35:47,920 --> 00:35:44,150
+specificity for selective amino acid
+
+856
+00:35:50,620 --> 00:35:47,930
+sequence or you have the general
+
+857
+00:35:56,859 --> 00:35:50,630
+catalyst reaction for any types of I
+
+858
+00:35:58,450 --> 00:35:56,869
+mean so so if we look at the the figures
+
+859
+00:36:00,579 --> 00:35:58,460
+on the right there you can see that the
+
+860
+00:36:03,759 --> 00:36:00,589
+amino acids and the hydroxy acids have
+
+861
+00:36:07,269 --> 00:36:03,769
+their analog so glycine and glycolic
+
+862
+00:36:09,370 --> 00:36:07,279
+acid alanine and lactic acid so they
+
+863
+00:36:11,680 --> 00:36:09,380
+differ only by the amine group versus
+
+864
+00:36:13,720 --> 00:36:11,690
+the O H group so so they're very similar
+
+865
+00:36:15,579 --> 00:36:13,730
+to amino acids and that was what led
+
+866
+00:36:17,259 --> 00:36:15,589
+Nick I don't know eight years ago to
+
+867
+00:36:18,999 --> 00:36:17,269
+come to my office and say look you got
+
+868
+00:36:22,749 --> 00:36:19,009
+to read this paper about glycolic acid
+
+869
+00:36:25,239 --> 00:36:22,759
+and an or gal had had talked about its
+
+870
+00:36:27,249 --> 00:36:25,249
+importance but this ester Hammad
+
+871
+00:36:29,499 --> 00:36:27,259
+exchange is not so much about the
+
+872
+00:36:32,940 --> 00:36:29,509
+similarity between these molecules it's
+
+873
+00:36:35,620 --> 00:36:32,950
+a stramit exchange is a well known
+
+874
+00:36:38,680 --> 00:36:35,630
+chemical reaction and in elementary
+
+875
+00:36:41,650 --> 00:36:38,690
+textbooks but it just had not been
+876
+00:36:43,479 --> 00:36:41,660
+applied to these polymers or in an
+
+877
+00:36:45,479 --> 00:36:43,489
+origins context actually these deficits
+
+878
+00:36:47,769 --> 00:36:45,489
+peptides are documented in terms of
+
+879
+00:36:52,180 --> 00:36:47,779
+biomedical applications in the
+
+880
+00:36:55,769 --> 00:36:52,190
+literature and so it was sort of right
+
+881
+00:36:59,079 --> 00:36:55,779
+there hiding in plain sight I think
+
+882
+00:37:05,170 --> 00:36:59,089
+couldn't find it any selectivity for
+
+883
+00:37:06,940 --> 00:37:05,180
+each or so we tried we have tried this
+
+884
+00:37:09,430 --> 00:37:06,950
+reaction for many different hydroxy
+
+885
+00:37:11,859 --> 00:37:09,440
+acids and many different amino acids and
+
+886
+00:37:13,839 --> 00:37:11,869
+some have more reactivity than others
+
+887
+00:37:16,299 --> 00:37:13,849
+but it is a general phenomenon it's not
+
+888
+00:37:21,130 --> 00:37:16,309
+specific to particular amino acid and we
+
+889
+00:37:22,660 --> 00:37:21,140
+have made sequences copolymer sequences
+
+890
+00:37:24,880 --> 00:37:22,670
+with different amino acids different
+
+891
+00:37:27,249 --> 00:37:24,890
+hydroxy acids so it's a it's a it's a
+
+892
+00:37:27,640 --> 00:37:27,259
+just a general reaction that just has no
+
+893
+00:37:30,690 --> 00:37:27,650
+differ
+
+894
+00:37:34,690 --> 00:37:30,700
+so rates depending on the particular
+
+895
+00:37:40,360 --> 00:37:34,700
+hydroxy acid or amino acid but it seems
+
+896
+00:37:43,360 --> 00:37:40,370
+to be very robust so I'm just wondering
+
+897
+00:37:45,610 --> 00:37:43,370
+about the geochemical settings of the
+
+898
+00:37:51,040 --> 00:37:45,620
+dry/wet cycles or any kind of cycles
+
+899
+00:37:53,590 --> 00:37:51,050
+like that so it is really interesting to
+
+900
+00:37:55,120 --> 00:37:53,600
+have like these polymers clusters and
+901
+00:37:57,400 --> 00:37:55,130
+everything but these kind of settings
+
+902
+00:37:59,980 --> 00:37:57,410
+should don't you like also take it to
+
+903
+00:38:03,910 --> 00:37:59,990
+account the fact that well you will have
+
+904
+00:38:05,950 --> 00:38:03,920
+salts in the in the water and since you
+
+905
+00:38:07,960 --> 00:38:05,960
+have salt it will be like a evaporite
+
+906
+00:38:09,220 --> 00:38:07,970
+basin or whatever so you will have to
+
+907
+00:38:12,250 --> 00:38:09,230
+take into account the fact that you have
+
+908
+00:38:15,310 --> 00:38:12,260
+at least one more of any salt the salt
+
+909
+00:38:18,070 --> 00:38:15,320
+there so after you have your brine is it
+
+910
+00:38:22,360 --> 00:38:18,080
+reversible do you expect that you will
+
+911
+00:38:26,650 --> 00:38:22,370
+have the same kind of result yes
+
+912
+00:38:28,630 --> 00:38:26,660
+certainly adding other species will add
+
+913
+00:38:29,950 --> 00:38:28,640
+complexity to the reactions and
+
+914
+00:38:33,550 --> 00:38:29,960
+potentially change the events we have
+
+915
+00:38:35,380 --> 00:38:33,560
+been focusing more on pH dependence one
+
+916
+00:38:37,690 --> 00:38:35,390
+point that I did not make here but that
+
+917
+00:38:39,100 --> 00:38:37,700
+is important for the estimated exchange
+
+918
+00:38:43,990 --> 00:38:39,110
+reactions is that because we have
+
+919
+00:38:46,180 --> 00:38:44,000
+hydroxy acids they're acidic so that
+
+920
+00:38:50,200 --> 00:38:46,190
+drives forward and acid catalyzed
+
+921
+00:38:52,390 --> 00:38:50,210
+polymerization of the polyesters and
+
+922
+00:38:53,800 --> 00:38:52,400
+then when we dry its might start out not
+
+923
+00:38:55,690 --> 00:38:53,810
+as acidic then we dry down then it
+
+924
+00:38:56,920 --> 00:38:55,700
+becomes acidic so there's a lot going on
+
+925
+00:38:58,810 --> 00:38:56,930
+that we've been looking at in terms of
+926
+00:39:00,460 --> 00:38:58,820
+the pH dynamics of the system not that
+
+927
+00:39:02,410 --> 00:39:00,470
+we're imposing but that just sort of
+
+928
+00:39:05,860 --> 00:39:02,420
+naturally emerge from the lactic acid
+
+929
+00:39:08,170 --> 00:39:05,870
+presence of the the hydroxy acid so we
+
+930
+00:39:09,580 --> 00:39:08,180
+also have talked about the presence of
+
+931
+00:39:11,650 --> 00:39:09,590
+salt and the addition of salt and that's
+
+932
+00:39:13,330 --> 00:39:11,660
+something that you know of course will
+
+933
+00:39:17,220 --> 00:39:13,340
+have impact on the system but I don't
+
+934
+00:39:19,480 --> 00:39:17,230
+think it's a show stopper in any way
+
+935
+00:39:21,700 --> 00:39:19,490
+we've we've talked about it actually in
+
+936
+00:39:23,740 --> 00:39:21,710
+some of the other projects and kind of
+
+937
+00:39:26,020 --> 00:39:23,750
+the micro environments direction that I
+
+938
+00:39:28,180 --> 00:39:26,030
+did not talk about today but certainly
+
+939
+00:39:34,390 --> 00:39:28,190
+I'm salt we would be present and we play
+
+940
+00:39:36,970 --> 00:39:34,400
+a role when you refer to the monomers in
+
+941
+00:39:39,220 --> 00:39:36,980
+taste are you assuming that these thin
+
+942
+00:39:41,170 --> 00:39:39,230
+stages are actually like short polymers
+
+943
+00:39:43,359 --> 00:39:41,180
+of either peptide
+
+944
+00:39:46,569 --> 00:39:43,369
+you know lactic has always worried it
+
+945
+00:39:49,030 --> 00:39:46,579
+can actually drive the chemical reaction
+
+946
+00:39:51,220 --> 00:39:49,040
+and throughout the metabolic yes so the
+
+947
+00:39:53,020 --> 00:39:51,230
+idea in those simulations is that we
+
+948
+00:39:55,240 --> 00:39:53,030
+have a fixed amount of mass in the
+
+949
+00:39:57,370 --> 00:39:55,250
+system the simulation is closed to mass
+
+950
+00:39:59,049 --> 00:39:57,380
+and that it's a scarce resource and the
+951
+00:40:01,930 --> 00:39:59,059
+different polymers are competing for it
+
+952
+00:40:04,780 --> 00:40:01,940
+and so that if a polymer could make more
+
+953
+00:40:05,890 --> 00:40:04,790
+than especially that's co-localize you
+
+954
+00:40:08,559 --> 00:40:05,900
+know then it would have a great
+
+955
+00:40:09,910 --> 00:40:08,569
+advantage in terms of replication but
+
+956
+00:40:12,640 --> 00:40:09,920
+yeah the assumption is that there would
+
+957
+00:40:14,380 --> 00:40:12,650
+be a similar small molecule present in
+
+958
+00:40:16,480 --> 00:40:14,390
+the environment that's similar to the
+
+959
+00:40:19,030 --> 00:40:16,490
+monomer and this would you know perhaps
+
+960
+00:40:20,349 --> 00:40:19,040
+you know truncate off some piece or
+
+961
+00:40:22,720 --> 00:40:20,359
+perform some sort of chemical
+
+962
+00:40:24,960 --> 00:40:22,730
+modification that would turn it into say
+
+963
+00:40:27,220 --> 00:40:24,970
+the amino acid and then if you
+
+964
+00:40:28,750 --> 00:40:27,230
+incorporate the recycling cycle I really
+
+965
+00:40:32,109 --> 00:40:28,760
+loved that recycling cycle concept
+
+966
+00:40:35,079 --> 00:40:32,119
+because actually because the sequence of
+
+967
+00:40:37,809 --> 00:40:35,089
+those polymers in the environment will
+
+968
+00:40:40,240 --> 00:40:37,819
+be governed by the composition of those
+
+969
+00:40:42,160 --> 00:40:40,250
+each polymers so actually if they're if
+
+970
+00:40:45,099 --> 00:40:42,170
+you introduce these monomers in taste
+
+971
+00:40:48,280 --> 00:40:45,109
+into the system then that will probably
+
+972
+00:40:50,049 --> 00:40:48,290
+change the composition of the in the
+
+973
+00:40:51,549 --> 00:40:50,059
+environment which will change the
+
+974
+00:40:54,250 --> 00:40:51,559
+sequence based kind of kind of shape the
+
+975
+00:40:55,390 --> 00:40:54,260
+sequence space of the those randomly
+976
+00:40:56,620 --> 00:40:55,400
+yeah that's right and that's what you
+
+977
+00:40:59,079 --> 00:40:56,630
+can see actually in this middle panel
+
+978
+00:41:01,380 --> 00:40:59,089
+here where we have a nays I'm we have an
+
+979
+00:41:03,730 --> 00:41:01,390
+enrichment of the a monomer and then
+
+980
+00:41:06,039 --> 00:41:03,740
+depletion of the B monomer in this case
+
+981
+00:41:07,690 --> 00:41:06,049
+though we had all of our polymers we're
+
+982
+00:41:09,490 --> 00:41:07,700
+assumed to have equal amounts of a and B
+
+983
+00:41:10,480 --> 00:41:09,500
+different sequences but same composition
+
+984
+00:41:12,069 --> 00:41:10,490
+so we just didn't introduce that
+
+985
+00:41:13,450 --> 00:41:12,079
+additional complexity into the
+
+986
+00:41:15,430 --> 00:41:13,460
+simulation but you're absolutely right
+
+987
+00:41:17,799 --> 00:41:15,440
+that if we have more a than that would
+
+988
+00:41:19,599 --> 00:41:17,809
+it be easier for polymers rich in a to
+
+989
+00:41:21,069 --> 00:41:19,609
+replicate and that would be an
+
+990
+00:41:25,290 --> 00:41:21,079
+additional effect to include that we did
+
+991
+00:41:30,390 --> 00:41:28,920
+I can use this one okay so towards the
+
+992
+00:41:33,150 --> 00:41:30,400
+end you had this very brief comment that
+
+993
+00:41:35,670 --> 00:41:33,160
+perhaps the biological polymers evolved
+
+994
+00:41:37,710 --> 00:41:35,680
+because they are good at evolution which
+
+995
+00:41:38,700 --> 00:41:37,720
+I think sounds very interesting so I was
+
+996
+00:41:42,690 --> 00:41:38,710
+wondering if you could say a little tiny
+
+997
+00:41:48,180 --> 00:41:42,700
+bit more about that I think I don't know
+
+998
+00:41:49,520 --> 00:41:48,190
+I mean I do I like that idea as well and
+
+999
+00:41:53,280 --> 00:41:49,530
+that's something that Nick and I have
+
+1000
+00:41:58,380 --> 00:41:53,290
+discussing and that he perhaps really
+1001
+00:41:59,760 --> 00:41:58,390
+articulated but but but I think we think
+
+1002
+00:42:05,190 --> 00:41:59,770
+was kind of present in this earlier
+
+1003
+00:42:07,170 --> 00:42:05,200
+modeling study that yeah I guess I guess
+
+1004
+00:42:10,620 --> 00:42:07,180
+I would like to hear people who disagree
+
+1005
+00:42:12,180 --> 00:42:10,630
+and for what reasons I think it it makes
+
+1006
+00:42:14,610 --> 00:42:12,190
+a lot of sense but that we just don't
+
+1007
+00:42:16,140 --> 00:42:14,620
+want we don't want a system that is too
+
+1008
+00:42:18,750 --> 00:42:16,150
+stable that's something that we saw very
+
+1009
+00:42:20,760 --> 00:42:18,760
+clearly in that simulation study was
+
+1010
+00:42:24,120 --> 00:42:20,770
+that if you have a limited monomer
+
+1011
+00:42:25,680 --> 00:42:24,130
+resource and you want to explore so many
+
+1012
+00:42:27,680 --> 00:42:25,690
+sequences you have this combinatorial
+
+1013
+00:42:30,900 --> 00:42:27,690
+explosion of sequences you just can't
+
+1014
+00:42:32,880 --> 00:42:30,910
+lock up all of your resources in
+
+1015
+00:42:34,860 --> 00:42:32,890
+sequences that are probably not
+
+1016
+00:42:36,390 --> 00:42:34,870
+functional and so this turnover is so
+
+1017
+00:42:39,090 --> 00:42:36,400
+important so that's what that recycling
+
+1018
+00:42:40,860 --> 00:42:39,100
+recycling idea is is about is that you
+
+1019
+00:42:43,350 --> 00:42:40,870
+you need to have that recycling and so
+
+1020
+00:42:45,480 --> 00:42:43,360
+you know these probably esters that orgo
+
+1021
+00:42:49,110 --> 00:42:45,490
+had talked about them as being a
+
+1022
+00:42:51,030 --> 00:42:49,120
+potential proto peptide but they were
+
+1023
+00:42:53,220 --> 00:42:51,040
+maybe just dismissed because they're
+
+1024
+00:42:56,130 --> 00:42:53,230
+just not stable enough and that that but
+
+1025
+00:43:00,000 --> 00:42:56,140
+actually you just can't be too stable
+1026
+00:43:04,370 --> 00:43:00,010
+or you're just not going to get em okay
+
+1027
+00:43:08,390 --> 00:43:04,380
+well thank you very much for for that
+
+1028
+00:43:20,740 --> 00:43:08,400
+[Applause]
