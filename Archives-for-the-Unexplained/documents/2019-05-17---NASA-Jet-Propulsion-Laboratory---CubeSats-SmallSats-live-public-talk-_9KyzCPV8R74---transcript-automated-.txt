@@ -1,0 +1,7284 @@
+{"created_utc": "2026-09-12T06:04:43Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 251663, "source_ctime_ns": 1788521246843740239, "source_file": "Archives-for-the-Unexplained/documents/2019-05-17---NASA-Jet-Propulsion-Laboratory---CubeSats-SmallSats-live-public-talk-_9KyzCPV8R74---transcript-automated-.pdf", "source_mtime_ns": 1788521246833509455, "source_rel": "Archives-for-the-Unexplained/documents/2019-05-17---NASA-Jet-Propulsion-Laboratory---CubeSats-SmallSats-live-public-talk-_9KyzCPV8R74---transcript-automated-.pdf", "source_sha256": "1cdfbbbaed5a5a1cb67dce7c374983c65e9513cc21b2a0597481566a78a458b0"}
+
+1
+00:00:10,040 --> 00:00:05,840
+NASA's Jet Propulsion Laboratory
+
+2
+00:00:12,470 --> 00:00:10,050
+presents the von Karman lecture a series
+
+3
+00:00:14,839 --> 00:00:12,480
+of talks by scientists and engineers who
+
+4
+00:00:17,500 --> 00:00:14,849
+are exploring our planet our solar
+
+5
+00:00:25,430 --> 00:00:17,510
+system and all that lies beyond
+
+6
+00:00:25,440 --> 00:00:32,750
+[Applause]
+
+7
+00:00:37,619 --> 00:00:34,920
+Brod I brought out some admirers
+
+8
+00:00:39,000 --> 00:00:37,629
+apparently hello and welcome to NASA's
+
+9
+00:00:41,009 --> 00:00:39,010
+Jet Propulsion Laboratory in Pasadena
+
+10
+00:00:42,180 --> 00:00:41,019
+California and our monthly public
+
+11
+00:00:44,040 --> 00:00:42,190
+lecture which we call the von Karman
+
+12
+00:00:45,959 --> 00:00:44,050
+series I'm Preston dykes from the
+
+13
+00:00:48,540 --> 00:00:45,969
+communications office here
+
+14
+00:00:51,780 --> 00:00:48,550
+well they're small they're modular
+
+15
+00:00:54,420 --> 00:00:51,790
+they're relatively inexpensive to build
+
+16
+00:00:57,630 --> 00:00:54,430
+and launch our topic this month is Cube
+
+17
+00:00:59,430 --> 00:00:57,640
+sets and small sets it's a field with
+
+18
+00:01:01,049 --> 00:00:59,440
+immense potential and it's led to an
+
+19
+00:01:03,660 --> 00:01:01,059
+explosion of new ideas in the last few
+
+20
+00:01:06,810 --> 00:01:03,670
+years our two speakers today are helping
+
+21
+00:01:10,290 --> 00:01:06,820
+to lead that innovation here at JPL now
+
+22
+00:01:12,270 --> 00:01:10,300
+both Travis and Annie began their career
+
+23
+00:01:14,880 --> 00:01:12,280
+journey as engineers working on small
+
+24
+00:01:16,590 --> 00:01:14,890
+satellites and as you'll learn it's a
+
+25
+00:01:18,450 --> 00:01:16,600
+field that offers a lot of opportunities
+26
+00:01:19,859 --> 00:01:18,460
+for students and others who were earlier
+
+27
+00:01:21,779 --> 00:01:19,869
+in their careers to play meaningful
+
+28
+00:01:24,090 --> 00:01:21,789
+roles in actual spacecraft missions
+
+29
+00:01:25,680 --> 00:01:24,100
+which is pretty exciting so after our
+
+30
+00:01:26,760 --> 00:01:25,690
+two talks we'll take questions from here
+
+31
+00:01:28,649 --> 00:01:26,770
+in the audience and if you're watching
+
+32
+00:01:30,389 --> 00:01:28,659
+our live webcast we'll work in a few of
+
+33
+00:01:33,990 --> 00:01:30,399
+your questions you can submit questions
+
+34
+00:01:35,850 --> 00:01:34,000
+by the chat on youtube so to start us
+
+35
+00:01:38,190 --> 00:01:35,860
+off our first speaker is a systems
+
+36
+00:01:39,960 --> 00:01:38,200
+engineer here at JPL and he's worked on
+
+37
+00:01:42,389 --> 00:01:39,970
+a variety of small satellite missions
+
+38
+00:01:45,810 --> 00:01:42,399
+with interesting names like rain cube
+
+39
+00:01:47,819 --> 00:01:45,820
+and lunar flashlights he serves as a
+
+40
+00:01:50,039 --> 00:01:47,829
+subject matter expert for small
+
+41
+00:01:51,569 --> 00:01:50,049
+satellite missions concepts that are our
+
+42
+00:01:53,880 --> 00:01:51,579
+teams here that are formulating and
+
+43
+00:01:56,100 --> 00:01:53,890
+designing new missions he's a graduate
+
+44
+00:01:59,370 --> 00:01:56,110
+of the University of Texas at Austin
+
+45
+00:02:09,140 --> 00:01:59,380
+and he's been with JPL since 2014 please
+
+46
+00:02:13,620 --> 00:02:11,070
+all right well thank you for the
+
+47
+00:02:15,930 --> 00:02:13,630
+introduction Preston this is really
+
+48
+00:02:17,400 --> 00:02:15,940
+exciting to be here when Anna and I were
+
+49
+00:02:19,470 --> 00:02:17,410
+talking yesterday preparing for this
+
+50
+00:02:21,270 --> 00:02:19,480
+talk we both realized that we've worked
+51
+00:02:23,520 --> 00:02:21,280
+on a lot of small satellites over our
+
+52
+00:02:24,960 --> 00:02:23,530
+years and although we've had the office
+
+53
+00:02:26,640 --> 00:02:24,970
+of opportunity to work on them here at
+
+54
+00:02:28,410 --> 00:02:26,650
+JPL we've also been able to work on them
+
+55
+00:02:32,610 --> 00:02:28,420
+in school as part of our path to get
+
+56
+00:02:34,380 --> 00:02:32,620
+here so though about myself as Preston
+
+57
+00:02:36,090 --> 00:02:34,390
+mentioned I'm originally from Texas I
+
+58
+00:02:37,830 --> 00:02:36,100
+ended up getting both my bachelor's and
+
+59
+00:02:39,840 --> 00:02:37,840
+master's from the University of Texas at
+
+60
+00:02:42,080 --> 00:02:39,850
+Austin and aerospace engineering here's
+
+61
+00:02:44,970 --> 00:02:42,090
+a picture of me before I had a beard
+
+62
+00:02:48,390 --> 00:02:44,980
+this eventually led me to here at JPL to
+
+63
+00:02:51,030 --> 00:02:48,400
+be a systems engineer since 2014 and
+
+64
+00:02:52,260 --> 00:02:51,040
+then my time of both in the university
+
+65
+00:02:53,960 --> 00:02:52,270
+and here at JPL have had the opportunity
+
+66
+00:02:56,730 --> 00:02:53,970
+to work on seven different cube sets
+
+67
+00:02:58,260 --> 00:02:56,740
+this beautiful one you see here is reine
+
+68
+00:03:01,670 --> 00:02:58,270
+cube a mission I worked on from
+
+69
+00:03:04,830 --> 00:03:01,680
+formulation through flight right now and
+
+70
+00:03:07,200 --> 00:03:04,840
+as well as two other missions that have
+
+71
+00:03:09,390 --> 00:03:07,210
+also been launched this is Bevo one and
+
+72
+00:03:10,950 --> 00:03:09,400
+Bevo two for those of you not upon your
+
+73
+00:03:13,200 --> 00:03:10,960
+University of Texas trivia that's the
+
+74
+00:03:15,570 --> 00:03:13,210
+name of our Cal mascot Bevo so we named
+
+75
+00:03:18,240 --> 00:03:15,580
+it as such I've worked on three others
+76
+00:03:20,190 --> 00:03:18,250
+that are still in progress and there is
+
+77
+00:03:21,660 --> 00:03:20,200
+one more but in this case I'll just say
+
+78
+00:03:23,790 --> 00:03:21,670
+a picture's worth a thousand words
+
+79
+00:03:28,830 --> 00:03:23,800
+on when that one tried to get into orbit
+
+80
+00:03:31,140 --> 00:03:28,840
+so so what is a CubeSat well the CubeSat
+
+81
+00:03:34,620 --> 00:03:31,150
+standard was first imagined 20 years ago
+
+82
+00:03:38,310 --> 00:03:34,630
+in 1999 by Geordi boots wari and Bob
+
+83
+00:03:40,740 --> 00:03:38,320
+Twiggs the CubeSat is this this is what
+
+84
+00:03:43,320 --> 00:03:40,750
+we call a one unit or a 1u for short
+
+85
+00:03:45,720 --> 00:03:43,330
+CubeSat is 10 centimeters on each side
+
+86
+00:03:46,980 --> 00:03:45,730
+if you're going if the walls were solid
+
+87
+00:03:48,570 --> 00:03:46,990
+and you're gonna fill it with water it
+
+88
+00:03:51,180 --> 00:03:48,580
+would hold exactly one liter worth of
+
+89
+00:03:53,040 --> 00:03:51,190
+liquid and once we finished cramming all
+
+90
+00:03:54,750 --> 00:03:53,050
+of the metal electronics boards and
+
+91
+00:03:55,770 --> 00:03:54,760
+other wires into this volume it ends up
+
+92
+00:04:01,620 --> 00:03:55,780
+weighing about one in the third
+
+93
+00:04:03,930 --> 00:04:01,630
+kilograms per unit so I CubeSat is
+
+94
+00:04:05,280 --> 00:04:03,940
+miniature you can hold it in the hand
+
+95
+00:04:06,840 --> 00:04:05,290
+you saw me holding on the previous slide
+
+96
+00:04:09,900 --> 00:04:06,850
+here's a blown-up picture of our ibex
+
+97
+00:04:12,030 --> 00:04:09,910
+CubeSat the CubeSat is also designed to
+
+98
+00:04:13,770 --> 00:04:12,040
+a common standard so in this photo we
+
+99
+00:04:15,570 --> 00:04:13,780
+see three one unit cube sets and
+
+100
+00:04:17,340 --> 00:04:15,580
+although they all generally conform to
+101
+00:04:18,720 --> 00:04:17,350
+the same outside form factors designed
+
+102
+00:04:20,340 --> 00:04:18,730
+to fit within a dispenser you can see
+
+103
+00:04:22,140 --> 00:04:20,350
+they look radically different they have
+
+104
+00:04:23,219 --> 00:04:22,150
+different solar panel arrangements and
+
+105
+00:04:24,330 --> 00:04:23,229
+you look closely at that one on the
+
+106
+00:04:26,610 --> 00:04:24,340
+right you can actually see those yellow
+
+107
+00:04:28,560 --> 00:04:26,620
+stripes well that team actually decided
+
+108
+00:04:29,760 --> 00:04:28,570
+to use yellow painted spring steel tape
+
+109
+00:04:30,749 --> 00:04:29,770
+measures just like you get a Home Depot
+
+110
+00:04:32,159 --> 00:04:30,759
+and they're using those as their
+
+111
+00:04:36,420 --> 00:04:32,169
+antennas so they can communicate back to
+
+112
+00:04:38,249 --> 00:04:36,430
+her so instead of building three Cube
+
+113
+00:04:39,930 --> 00:04:38,259
+sets some clever people have said well
+
+114
+00:04:41,430 --> 00:04:39,940
+hey why don't we just stack them on top
+
+115
+00:04:43,650 --> 00:04:41,440
+of each other fill in the space in
+
+116
+00:04:45,390 --> 00:04:43,660
+between to make one monolithic satellite
+
+117
+00:04:47,040 --> 00:04:45,400
+so this is what we have here this is
+
+118
+00:04:48,870 --> 00:04:47,050
+what we call a three unit cube set or a
+
+119
+00:04:50,879 --> 00:04:48,880
+3u for short basically we've taken all
+
+120
+00:04:52,650 --> 00:04:50,889
+that volume then stacked it up from
+
+121
+00:04:54,120 --> 00:04:52,660
+there the standard gets bigger we could
+
+122
+00:04:55,409 --> 00:04:54,130
+double this and width would make it what
+
+123
+00:04:56,460 --> 00:04:55,419
+we call a sixty like the rain cube
+
+124
+00:04:58,680 --> 00:04:56,470
+satellite I showed in the previous slide
+
+125
+00:05:01,110 --> 00:04:58,690
+and they can get even bigger twelve you
+126
+00:05:04,590 --> 00:05:01,120
+eighteen you twenty seven you it's all
+
+127
+00:05:05,730 --> 00:05:04,600
+modular another unique thing about it
+
+128
+00:05:07,980 --> 00:05:05,740
+CubeSat is they're all delivered to
+
+129
+00:05:10,200 --> 00:05:07,990
+space inside of a dispenser so this is a
+
+130
+00:05:12,090 --> 00:05:10,210
+6u dispenser it's for the Marco cube
+
+131
+00:05:13,620 --> 00:05:12,100
+says that and we'll talk about later so
+
+132
+00:05:14,730 --> 00:05:13,630
+there's a CubeSat inside of this box and
+
+133
+00:05:16,560 --> 00:05:14,740
+you can actually see there's a door here
+
+134
+00:05:18,839 --> 00:05:16,570
+on this edge that would actually open up
+
+135
+00:05:19,860 --> 00:05:18,849
+and fling the cubes out into space this
+
+136
+00:05:21,689 --> 00:05:19,870
+is something that's unique about the
+
+137
+00:05:23,490 --> 00:05:21,699
+CubeSat platform they're all delivered
+
+138
+00:05:24,749 --> 00:05:23,500
+usually into space inside of a box and
+
+139
+00:05:28,920 --> 00:05:24,759
+I'll talk a little bit more about why
+
+140
+00:05:30,870 --> 00:05:28,930
+that is on a later slide so our talk
+
+141
+00:05:32,310 --> 00:05:30,880
+tonight is about Cube sets and small
+
+142
+00:05:33,870 --> 00:05:32,320
+sets and I'm mostly going to talk about
+
+143
+00:05:35,040 --> 00:05:33,880
+cube SATs and then an we'll talk a
+
+144
+00:05:37,350 --> 00:05:35,050
+little bit more about some of our small
+
+145
+00:05:38,460 --> 00:05:37,360
+set concepts in her presentation but
+
+146
+00:05:40,620 --> 00:05:38,470
+it's important to remember that a
+
+147
+00:05:43,020 --> 00:05:40,630
+CubeSat is part of the small set family
+
+148
+00:05:45,600 --> 00:05:43,030
+now one thing about small sets is
+
+149
+00:05:46,890 --> 00:05:45,610
+they're not exactly new in fact the very
+
+150
+00:05:48,870 --> 00:05:46,900
+first spacecraft that the Unites States
+151
+00:05:51,210 --> 00:05:48,880
+ever launched into space was a small set
+
+152
+00:05:55,740 --> 00:05:51,220
+so this is Explorer one I think from 51
+
+153
+00:05:57,810 --> 00:05:55,750
+years ago in this picture I feature kind
+
+154
+00:05:59,070 --> 00:05:57,820
+of some what we'd call small sets so in
+
+155
+00:06:00,240 --> 00:05:59,080
+this case you can see some fundamental
+
+156
+00:06:01,980 --> 00:06:00,250
+differences from what I talked about in
+
+157
+00:06:04,469 --> 00:06:01,990
+the CubeSat you can see they're bigger
+
+158
+00:06:05,399 --> 00:06:04,479
+maybe the size of a mini-fridge you can
+
+159
+00:06:06,990 --> 00:06:05,409
+see they've kind of taken different
+
+160
+00:06:08,219 --> 00:06:07,000
+shapes and sizes depending on what
+
+161
+00:06:10,200 --> 00:06:08,229
+needed to be done for their missions
+
+162
+00:06:11,189 --> 00:06:10,210
+what their payloads were and you can
+
+163
+00:06:13,850 --> 00:06:11,199
+also see that they're the primary
+
+164
+00:06:16,050 --> 00:06:13,860
+payload on top of this rocket
+
+165
+00:06:17,730 --> 00:06:16,060
+however bringing back her old friend
+
+166
+00:06:19,140 --> 00:06:17,740
+rain cube being constrained in a box
+
+167
+00:06:21,180 --> 00:06:19,150
+doesn't actually affect the shape that
+
+168
+00:06:22,589 --> 00:06:21,190
+your satellite takes in the end in our
+
+169
+00:06:24,180 --> 00:06:22,599
+case though we went up in a nice square
+
+170
+00:06:25,500 --> 00:06:24,190
+form factor we opened up our solar
+
+171
+00:06:27,240 --> 00:06:25,510
+panels you can see here at the bottom
+
+172
+00:06:28,860 --> 00:06:27,250
+and we added the pin furling this giant
+
+173
+00:06:33,060 --> 00:06:28,870
+1/2 meter mesh antenna so we could
+
+174
+00:06:34,860 --> 00:06:33,070
+complete our science mission so
+
+175
+00:06:35,730 --> 00:06:34,870
+something that's really exciting about
+176
+00:06:37,410 --> 00:06:35,740
+cube SATs
+
+177
+00:06:38,550 --> 00:06:37,420
+is how similar they are to spacecraft
+
+178
+00:06:39,780 --> 00:06:38,560
+but how different they are to some of
+
+179
+00:06:41,640 --> 00:06:39,790
+the traditional spacecraft that you've
+
+180
+00:06:46,200 --> 00:06:41,650
+that you've known up from JPL for
+
+181
+00:06:47,970 --> 00:06:46,210
+example what's key is access to space so
+
+182
+00:06:50,850 --> 00:06:47,980
+this is a picture I'm from the Indian
+
+183
+00:06:53,400 --> 00:06:50,860
+Space Agency this is a launch from 2017
+
+184
+00:06:53,790 --> 00:06:53,410
+and I want I want the audience to guess
+
+185
+00:06:55,170 --> 00:06:53,800
+here
+
+186
+00:06:59,790 --> 00:06:55,180
+how many cube SATs do you think were
+
+187
+00:07:01,320 --> 00:06:59,800
+launched on this rocket anybody one okay
+
+188
+00:07:02,400 --> 00:07:01,330
+I heard one it's more than one otherwise
+
+189
+00:07:05,160 --> 00:07:02,410
+I wouldn't be showing this picture any
+
+190
+00:07:06,630 --> 00:07:05,170
+other guesses okay if you said 100
+
+191
+00:07:08,100 --> 00:07:06,640
+you're really close there were actually
+
+192
+00:07:10,410 --> 00:07:08,110
+a hundred and four total satellites
+
+193
+00:07:12,390 --> 00:07:10,420
+launched on this vehicle 103 of which
+
+194
+00:07:16,380 --> 00:07:12,400
+were cube sets so that's a really big
+
+195
+00:07:18,180 --> 00:07:16,390
+deal I also like to say that cube SATs
+
+196
+00:07:19,020 --> 00:07:18,190
+are different than big spacecraft
+
+197
+00:07:20,970 --> 00:07:19,030
+because they have was kind of a
+
+198
+00:07:22,170 --> 00:07:20,980
+constrained complexity on our big
+
+199
+00:07:23,640 --> 00:07:22,180
+missions like the ones you see in this
+
+200
+00:07:25,410 --> 00:07:23,650
+room you can see they take the shape
+201
+00:07:27,810 --> 00:07:25,420
+needed to complete their science mission
+
+202
+00:07:29,760 --> 00:07:27,820
+in our case looking on the insides of
+
+203
+00:07:32,670 --> 00:07:29,770
+rain cube you can see when we had to fit
+
+204
+00:07:34,740 --> 00:07:32,680
+with on the box form factor we did our
+
+205
+00:07:37,080 --> 00:07:34,750
+best to make this engineered web of
+
+206
+00:07:38,640 --> 00:07:37,090
+cables RF connectors and electronics
+
+207
+00:07:40,380 --> 00:07:38,650
+boards you can't imagine how we could
+
+208
+00:07:42,150 --> 00:07:40,390
+actually stuff anymore in here so that
+
+209
+00:07:43,650 --> 00:07:42,160
+limited the amount of redundancy we can
+
+210
+00:07:45,030 --> 00:07:43,660
+have and for other missions that might
+
+211
+00:07:46,110 --> 00:07:45,040
+limit the complexity of your payloads or
+
+212
+00:07:49,590 --> 00:07:46,120
+even the number of payloads you carry
+
+213
+00:07:51,150 --> 00:07:49,600
+over all keeps that's also leverage
+
+214
+00:07:52,710 --> 00:07:51,160
+commercial components so if you learn
+
+215
+00:07:53,400 --> 00:07:52,720
+one acronym tonight diadem you can learn
+
+216
+00:07:54,570 --> 00:07:53,410
+is cots
+
+217
+00:07:57,330 --> 00:07:54,580
+this stands for commercial off-the-shelf
+
+218
+00:07:58,920 --> 00:07:57,340
+a cost component is something like the
+
+219
+00:08:00,210 --> 00:07:58,930
+electronics you have in your laptop in
+
+220
+00:08:02,220 --> 00:08:00,220
+your smartphone or maybe even your
+
+221
+00:08:04,560 --> 00:08:02,230
+Fitbit so generally these are components
+
+222
+00:08:06,900 --> 00:08:04,570
+that are very powerful in terms of like
+
+223
+00:08:09,240 --> 00:08:06,910
+performance but also use low power in
+
+224
+00:08:11,370 --> 00:08:09,250
+terms of watts there's also a lot of
+
+225
+00:08:12,780 --> 00:08:11,380
+availability so you can go online you
+226
+00:08:14,100 --> 00:08:12,790
+can buy components very cheap you can
+
+227
+00:08:16,820 --> 00:08:14,110
+iterate and you can pack a lot of
+
+228
+00:08:19,020 --> 00:08:16,830
+performance into these small packages
+
+229
+00:08:20,340 --> 00:08:19,030
+finally something that makes cube SATs
+
+230
+00:08:22,500 --> 00:08:20,350
+unique is how many that you can simply
+
+231
+00:08:24,240 --> 00:08:22,510
+launch at a time a lot of missions we
+
+232
+00:08:25,380 --> 00:08:24,250
+have at JPL you launch one maybe two
+
+233
+00:08:27,390 --> 00:08:25,390
+spacecraft that are similar to each
+
+234
+00:08:29,430 --> 00:08:27,400
+other this is a picture I borrowed from
+
+235
+00:08:31,140 --> 00:08:29,440
+Planet Labs and each of these
+
+236
+00:08:32,850 --> 00:08:31,150
+spacecrafts is called a dove and they
+
+237
+00:08:34,980 --> 00:08:32,860
+actually launch a flock of their doves
+
+238
+00:08:36,390 --> 00:08:34,990
+into space so all of these cube sets are
+
+239
+00:08:38,250 --> 00:08:36,400
+essentially copies of one another they
+
+240
+00:08:39,150 --> 00:08:38,260
+all have an imaging payload and when
+
+241
+00:08:41,010 --> 00:08:39,160
+they're launched together they actually
+
+242
+00:08:42,720 --> 00:08:41,020
+spread out within the orbit and take
+
+243
+00:08:44,280 --> 00:08:42,730
+images one after another in space at the
+
+244
+00:08:45,930 --> 00:08:44,290
+same ground target and that gives us
+
+245
+00:08:48,240 --> 00:08:45,940
+unprecedented access that's seeing kind
+
+246
+00:08:49,500 --> 00:08:48,250
+of the small time variation on the two
+
+247
+00:08:51,090 --> 00:08:49,510
+and be able to get if you only had one
+
+248
+00:08:53,310 --> 00:08:51,100
+spacecraft may be flying over the same
+
+249
+00:08:57,510 --> 00:08:53,320
+point every of hours days or maybe even
+
+250
+00:08:59,100 --> 00:08:57,520
+weeks so I want to come back and talk
+251
+00:09:00,180 --> 00:08:59,110
+about access to space because I think
+
+252
+00:09:03,180 --> 00:09:00,190
+this is something that makes the keeps
+
+253
+00:09:05,280 --> 00:09:03,190
+that platform truly unique so this is a
+
+254
+00:09:06,930 --> 00:09:05,290
+picture of a satellite called NPP you
+
+255
+00:09:08,160 --> 00:09:06,940
+can see a white frock person in the
+
+256
+00:09:09,960 --> 00:09:08,170
+lower left corner for scale
+
+257
+00:09:11,310 --> 00:09:09,970
+I need audience participation again can
+
+258
+00:09:14,070 --> 00:09:11,320
+anybody find the cubes hats in this
+
+259
+00:09:15,360 --> 00:09:14,080
+picture okay well I drew it a nice
+
+260
+00:09:16,950 --> 00:09:15,370
+yellow circle so they're actually just
+
+261
+00:09:19,290 --> 00:09:16,960
+stuff down here in the corner for scale
+
+262
+00:09:21,090 --> 00:09:19,300
+so this is three three unit two CubeSat
+
+263
+00:09:22,470 --> 00:09:21,100
+dispensers and this has been the more
+
+264
+00:09:25,050 --> 00:09:22,480
+traditional way of how cube cells get
+
+265
+00:09:27,330 --> 00:09:25,060
+into orbit so there's a very big payload
+
+266
+00:09:28,890 --> 00:09:27,340
+that you can see here they've paid most
+
+267
+00:09:30,090 --> 00:09:28,900
+of the cost for the rocket they're
+
+268
+00:09:31,890 --> 00:09:30,100
+paying to get into the orbit they want
+
+269
+00:09:34,200 --> 00:09:31,900
+to go to and they keep set say hey
+
+270
+00:09:35,820 --> 00:09:34,210
+you've got extra volume extra mass let's
+
+271
+00:09:38,010 --> 00:09:35,830
+tag along and they pay a much reduced
+
+272
+00:09:39,630 --> 00:09:38,020
+price to get into space the only
+
+273
+00:09:40,890 --> 00:09:39,640
+consequence of that is you ultimately
+
+274
+00:09:42,240 --> 00:09:40,900
+kind of end up in a similar orbit
+
+275
+00:09:45,840 --> 00:09:42,250
+similar to where the actual paying
+276
+00:09:47,070 --> 00:09:45,850
+customer is going another method we have
+
+277
+00:09:49,410 --> 00:09:47,080
+is through the International Space
+
+278
+00:09:51,420 --> 00:09:49,420
+Station and this is rather rather Rube
+
+279
+00:09:53,460 --> 00:09:51,430
+Goldberg process so the cube sets are
+
+280
+00:09:55,080 --> 00:09:53,470
+actually packaged up as cargo with the
+
+281
+00:09:56,580 --> 00:09:55,090
+astronauts food in their water were
+
+282
+00:09:59,010 --> 00:09:56,590
+inside the pressurized environmentally
+
+283
+00:10:00,960 --> 00:09:59,020
+controlled volume of the cargo capsules
+
+284
+00:10:02,460 --> 00:10:00,970
+and they go up to the space station the
+
+285
+00:10:04,110 --> 00:10:02,470
+astronauts will then actually pull the
+
+286
+00:10:05,880 --> 00:10:04,120
+cube sets out carry them through the
+
+287
+00:10:08,190 --> 00:10:05,890
+station or float through the station I
+
+288
+00:10:09,480 --> 00:10:08,200
+suppose and then when time is right
+
+289
+00:10:11,040 --> 00:10:09,490
+they'll actually open up the airlock on
+
+290
+00:10:13,380 --> 00:10:11,050
+the Japanese module it's slide these
+
+291
+00:10:15,270 --> 00:10:13,390
+dispensers out and then they fire the
+
+292
+00:10:17,400 --> 00:10:15,280
+button and the CubeSat scum sailing out
+
+293
+00:10:18,900 --> 00:10:17,410
+so here they were with the solar panels
+
+294
+00:10:21,240 --> 00:10:18,910
+of ISS behind us and you'll see they
+
+295
+00:10:23,700 --> 00:10:21,250
+rain cube which is on the left and then
+
+296
+00:10:24,990 --> 00:10:23,710
+halo sat on the right sail off to begin
+
+297
+00:10:27,960 --> 00:10:25,000
+their science missions
+
+298
+00:10:29,430 --> 00:10:27,970
+I think the ISS is actually the most
+
+299
+00:10:30,570 --> 00:10:29,440
+exciting way to launch keeps us because
+
+300
+00:10:34,710 --> 00:10:30,580
+you get astronauts taking pictures of
+301
+00:10:37,170 --> 00:10:34,720
+your satellites coming out something
+
+302
+00:10:38,880 --> 00:10:37,180
+else that's being developed is really
+
+303
+00:10:40,290 --> 00:10:38,890
+unique so in this first picture I showed
+
+304
+00:10:42,390 --> 00:10:40,300
+you to keep that SERP at the bottom in
+
+305
+00:10:43,830 --> 00:10:42,400
+this case though that keeps us are up at
+
+306
+00:10:45,150 --> 00:10:43,840
+the top so this is a picture of the
+
+307
+00:10:48,150 --> 00:10:45,160
+electron rocket from a company called
+
+308
+00:10:49,590 --> 00:10:48,160
+rocket lab and they're part of an
+
+309
+00:10:50,580 --> 00:10:49,600
+initiative to develop small launch
+
+310
+00:10:52,860 --> 00:10:50,590
+vehicles and they're dedicated to
+
+311
+00:10:54,600 --> 00:10:52,870
+launching cube sets so before that
+
+312
+00:10:55,650 --> 00:10:54,610
+fairing installed this is actually what
+
+313
+00:10:58,560 --> 00:10:55,660
+it looked like at the top of the rocket
+
+314
+00:11:00,420 --> 00:10:58,570
+so if I counted right I see 15 different
+
+315
+00:11:02,970 --> 00:11:00,430
+CubeSat dispensers and this is part of
+
+316
+00:11:03,720 --> 00:11:02,980
+NASA's Elana 19 mission which actually
+
+317
+00:11:05,250 --> 00:11:03,730
+launched 10 different
+
+318
+00:11:07,379 --> 00:11:05,260
+nasa cube sets amongst other missions
+
+319
+00:11:09,150 --> 00:11:07,389
+from these so in this case similar to
+
+320
+00:11:11,280 --> 00:11:09,160
+the first picture I showed these keeps
+
+321
+00:11:12,660 --> 00:11:11,290
+has both mostly all got to kind of pick
+
+322
+00:11:14,069 --> 00:11:12,670
+the orbits that they went to it was one
+
+323
+00:11:15,300 --> 00:11:14,079
+that was desirable to them although they
+
+324
+00:11:20,129 --> 00:11:15,310
+all ended up kind of going to the same
+
+325
+00:11:24,600 --> 00:11:20,139
+place so time for some data and I have
+326
+00:11:25,980 --> 00:11:24,610
+one big chart so starting in 1999 people
+
+327
+00:11:28,769 --> 00:11:25,990
+were developing cube sets the first
+
+328
+00:11:30,750 --> 00:11:28,779
+launch we have recorded is from 2000 but
+
+329
+00:11:32,490 --> 00:11:30,760
+you can see through 2012 we really into
+
+330
+00:11:35,129 --> 00:11:32,500
+the plunging no more than about 25 a
+
+331
+00:11:38,579 --> 00:11:35,139
+year in 2013 you can clearly see that
+
+332
+00:11:40,680 --> 00:11:38,589
+exploded so my colleague Mike sward out
+
+333
+00:11:42,750 --> 00:11:40,690
+in the st. Louis University collects
+
+334
+00:11:44,730 --> 00:11:42,760
+this data and he's done a lot of work
+
+335
+00:11:47,519 --> 00:11:44,740
+into defining who's building cube sets
+
+336
+00:11:50,639 --> 00:11:47,529
+and what's going on so the first
+
+337
+00:11:52,470 --> 00:11:50,649
+category here is hobbyists he defines
+
+338
+00:11:54,420 --> 00:11:52,480
+this as organizations such as
+
+339
+00:11:55,829 --> 00:11:54,430
+universities or amateur groups that are
+
+340
+00:11:57,269 --> 00:11:55,839
+doing this for the learning experience
+
+341
+00:11:59,910 --> 00:11:57,279
+or perhaps for other kinds of
+
+342
+00:12:01,590 --> 00:11:59,920
+development activities and when I was
+
+343
+00:12:02,910 --> 00:12:01,600
+reading up on this I actually learned
+
+344
+00:12:04,439 --> 00:12:02,920
+that even though I thought I was really
+
+345
+00:12:06,120 --> 00:12:04,449
+cool doing cube sets as a university
+
+346
+00:12:08,009 --> 00:12:06,130
+student today there have actually been
+
+347
+00:12:10,319 --> 00:12:08,019
+high schools middle schools and
+
+348
+00:12:14,490 --> 00:12:10,329
+elementary schools that have actually
+
+349
+00:12:16,439 --> 00:12:14,500
+launched cube SATs into space so the
+
+350
+00:12:18,360 --> 00:12:16,449
+next category we have is traditional
+351
+00:12:20,009 --> 00:12:18,370
+traditional would be institutions much
+
+352
+00:12:22,710 --> 00:12:20,019
+like JPL where we're used to building
+
+353
+00:12:24,960 --> 00:12:22,720
+big spacecraft and we build small
+
+354
+00:12:27,269 --> 00:12:24,970
+spacecraft perhaps tailoring some of our
+
+355
+00:12:31,860 --> 00:12:27,279
+practices down to meet the CubeSat form
+
+356
+00:12:33,569 --> 00:12:31,870
+factor the next category is yellow it's
+
+357
+00:12:36,210 --> 00:12:33,579
+a made-up word we call it the small
+
+358
+00:12:37,920 --> 00:12:36,220
+satyrs so this is a group of companies
+
+359
+00:12:40,410 --> 00:12:37,930
+whose core business model is based
+
+360
+00:12:42,389 --> 00:12:40,420
+around the small satellite form JPL
+
+361
+00:12:44,309 --> 00:12:42,399
+loves to partner with these companies in
+
+362
+00:12:46,139 --> 00:12:44,319
+fact rain cube we built the radar
+
+363
+00:12:47,430 --> 00:12:46,149
+payload for rain cube and a small set
+
+364
+00:12:49,110 --> 00:12:47,440
+our company called tie vac down in
+
+365
+00:12:50,699 --> 00:12:49,120
+Irvine built the spacecraft bus that
+
+366
+00:12:53,629 --> 00:12:50,709
+hosted our payload and then together we
+
+367
+00:12:56,280 --> 00:12:53,639
+flew that mission together as rain cube
+
+368
+00:12:57,750 --> 00:12:56,290
+now you're saying okay well what's green
+
+369
+00:12:59,970 --> 00:12:57,760
+that makes up most of this plot well
+
+370
+00:13:01,680 --> 00:12:59,980
+Green is actually a subset of the small
+
+371
+00:13:02,819 --> 00:13:01,690
+satyrs and these are the small set or
+
+372
+00:13:04,559 --> 00:13:02,829
+companies that are actually in the
+
+373
+00:13:07,309 --> 00:13:04,569
+business of making constellations much
+
+374
+00:13:10,379 --> 00:13:07,319
+like the figure I showed of the planet
+
+375
+00:13:11,850 --> 00:13:10,389
+flock of doves in this case you can see
+376
+00:13:13,710 --> 00:13:11,860
+that once the constellation company
+
+377
+00:13:15,929 --> 00:13:13,720
+starts launching they launch a lot and
+
+378
+00:13:17,100 --> 00:13:15,939
+you really see this big bump here in
+
+379
+00:13:19,470 --> 00:13:17,110
+2017
+
+380
+00:13:21,900 --> 00:13:19,480
+so that launch of 103 cube SATs that was
+
+381
+00:13:25,350 --> 00:13:21,910
+on the Israel launch 88 of those were
+
+382
+00:13:27,270 --> 00:13:25,360
+from Planet so if you were to add all of
+
+383
+00:13:29,310 --> 00:13:27,280
+this up I think this is the you know big
+
+384
+00:13:31,290 --> 00:13:29,320
+take-home message of the night is that -
+
+385
+00:13:35,100 --> 00:13:31,300
+through the end of 2018 we have launched
+
+386
+00:13:36,420 --> 00:13:35,110
+over 1,000 cube SATs into space a few
+
+387
+00:13:39,660 --> 00:13:36,430
+more statistics this has actually been
+
+388
+00:13:42,510 --> 00:13:39,670
+done by over 256 unique organizations
+
+389
+00:13:44,100 --> 00:13:42,520
+across 54 countries in the world so this
+
+390
+00:13:46,190 --> 00:13:44,110
+is truly a worldwide initiative to get
+
+391
+00:13:48,660 --> 00:13:46,200
+access to space
+
+392
+00:13:49,890 --> 00:13:48,670
+another question that will probably come
+
+393
+00:13:51,330 --> 00:13:49,900
+up the queue nice all addressed now is
+
+394
+00:13:52,920 --> 00:13:51,340
+well okay you've launched a thousand
+
+395
+00:13:54,930 --> 00:13:52,930
+into space what about the space debris
+
+396
+00:13:56,460 --> 00:13:54,940
+problem and that's something that's kind
+
+397
+00:13:58,800 --> 00:13:56,470
+of unique to the small set form factor
+
+398
+00:14:00,930 --> 00:13:58,810
+since most of them stay in low-earth
+
+399
+00:14:02,400 --> 00:14:00,940
+orbit they're actually only a few
+
+400
+00:14:03,690 --> 00:14:02,410
+hundred kilometers above Earth and
+401
+00:14:04,980 --> 00:14:03,700
+there's actually sufficient atmospheric
+
+402
+00:14:06,720 --> 00:14:04,990
+drag that most of these actually will
+
+403
+00:14:09,300 --> 00:14:06,730
+end up deorbiting within a few months to
+
+404
+00:14:10,770 --> 00:14:09,310
+a few years after their launch that's
+
+405
+00:14:12,060 --> 00:14:10,780
+why in the constellation since they
+
+406
+00:14:13,290 --> 00:14:12,070
+actually have to keep launching more
+
+407
+00:14:17,970 --> 00:14:13,300
+keep sets because they have to replenish
+
+408
+00:14:20,730 --> 00:14:17,980
+the ones that are falling down so I
+
+409
+00:14:21,870 --> 00:14:20,740
+borrowed this chart from headquarters
+
+410
+00:14:23,520 --> 00:14:21,880
+the small satellite Coordination
+
+411
+00:14:26,100 --> 00:14:23,530
+Committee on courtesy of Charles Norton
+
+412
+00:14:27,420 --> 00:14:26,110
+and this is the subset of NASA Cube sets
+
+413
+00:14:29,040 --> 00:14:27,430
+and small sets and we call this the
+
+414
+00:14:31,380 --> 00:14:29,050
+fleet these are both operating missions
+
+415
+00:14:32,520 --> 00:14:31,390
+and future now there's somebody to count
+
+416
+00:14:34,020 --> 00:14:32,530
+here but I guess you're all here for a
+
+417
+00:14:35,160 --> 00:14:34,030
+few hours tonight so we can probably go
+
+418
+00:14:35,700 --> 00:14:35,170
+through each of these one by one if
+
+419
+00:14:37,620 --> 00:14:35,710
+you'd like
+
+420
+00:14:39,450 --> 00:14:37,630
+well I tease I'm actually I'm gonna get
+
+421
+00:14:41,670 --> 00:14:39,460
+a feature for and then Anne will feature
+
+422
+00:14:43,560 --> 00:14:41,680
+many more that are on this plot so ice
+
+423
+00:14:45,150 --> 00:14:43,570
+ara and white is a technology and
+
+424
+00:14:46,620 --> 00:14:45,160
+exploration mission we have Asteria
+
+425
+00:14:48,390 --> 00:14:46,630
+which is an astrophysics mission and
+426
+00:14:51,590 --> 00:14:48,400
+then tempest D and my own beloved rain
+
+427
+00:14:54,270 --> 00:14:51,600
+cube I went to earth science missions
+
+428
+00:14:56,520 --> 00:14:54,280
+alright so ice ara ice R is the
+
+429
+00:14:58,950 --> 00:14:56,530
+integrated solar array and reflect array
+
+430
+00:15:00,990 --> 00:14:58,960
+antenna mission this is a picture of it
+
+431
+00:15:04,440 --> 00:15:01,000
+here so now the trail experts - anybody
+
+432
+00:15:06,060 --> 00:15:04,450
+gets the form factor of this CubeSat 3u
+
+433
+00:15:08,850 --> 00:15:06,070
+all right good you're up to speed on the
+
+434
+00:15:09,900 --> 00:15:08,860
+lingo so you can see guys sir also
+
+435
+00:15:12,630 --> 00:15:09,910
+didn't want to stay in the shape that
+
+436
+00:15:14,280 --> 00:15:12,640
+they went up in so this is ice Aras
+
+437
+00:15:16,950 --> 00:15:14,290
+reflect array you can kind of see this
+
+438
+00:15:17,970 --> 00:15:16,960
+circle pattern here and this mission was
+
+439
+00:15:19,620 --> 00:15:17,980
+demonstrating high data rate
+
+440
+00:15:21,390 --> 00:15:19,630
+communications so there's a radio
+
+441
+00:15:23,190 --> 00:15:21,400
+frequency feed right here that then
+
+442
+00:15:24,600 --> 00:15:23,200
+bounced off of this antenna and then
+
+443
+00:15:27,630 --> 00:15:24,610
+being high data-rate ka-band
+
+444
+00:15:28,950 --> 00:15:27,640
+communications back to earth so here's a
+
+445
+00:15:30,180 --> 00:15:28,960
+picture of it in orbit so you can
+
+446
+00:15:30,780 --> 00:15:30,190
+basically see the same view although you
+
+447
+00:15:32,240 --> 00:15:30,790
+can get
+
+448
+00:15:35,940 --> 00:15:32,250
+but better view at the reflector ray
+
+449
+00:15:37,320 --> 00:15:35,950
+excuse me the feed view up here now of
+
+450
+00:15:39,840 --> 00:15:37,330
+course the acronym said was integrated
+451
+00:15:41,520 --> 00:15:39,850
+solar ray and reflector antenna so a
+
+452
+00:15:43,530 --> 00:15:41,530
+technology infusion we had on a saara
+
+453
+00:15:45,120 --> 00:15:43,540
+was we actually took the reflector rate
+
+454
+00:15:46,260 --> 00:15:45,130
+and on the opposite side and I did my
+
+455
+00:15:47,460 --> 00:15:46,270
+best to find a picture but I couldn't
+
+456
+00:15:49,230 --> 00:15:47,470
+but on the opposite side there's
+
+457
+00:15:50,820 --> 00:15:49,240
+actually a solar panel so all of the
+
+458
+00:15:51,810 --> 00:15:50,830
+solar rays are able to flop out you're
+
+459
+00:15:53,490 --> 00:15:51,820
+able to generate lots of power and
+
+460
+00:15:54,960 --> 00:15:53,500
+rapportive antenna at the Sun and you
+
+461
+00:15:56,400 --> 00:15:54,970
+can also then turn and then point that
+
+462
+00:15:57,210 --> 00:15:56,410
+into the doubt at earth on when you
+
+463
+00:15:59,880 --> 00:15:57,220
+needed to do the high data-rate
+
+464
+00:16:01,230 --> 00:15:59,890
+communication something else that was
+
+465
+00:16:02,550 --> 00:16:01,240
+unique about a saara is that their
+
+466
+00:16:04,020 --> 00:16:02,560
+primary mission was to demonstrate this
+
+467
+00:16:06,180 --> 00:16:04,030
+high data-rate communication but they
+
+468
+00:16:07,890 --> 00:16:06,190
+had extra payload volume so the
+
+469
+00:16:09,390 --> 00:16:07,900
+Aerospace Corporation included these
+
+470
+00:16:12,510 --> 00:16:09,400
+three infrared cameras that you can see
+
+471
+00:16:13,650 --> 00:16:12,520
+right here and here's a picture from one
+
+472
+00:16:15,900 --> 00:16:13,660
+of those cameras this is from the
+
+473
+00:16:17,520 --> 00:16:15,910
+shortwave infrared camera this is
+
+474
+00:16:19,440 --> 00:16:17,530
+actually a picture of Lake Superior and
+
+475
+00:16:20,790 --> 00:16:19,450
+the frequency of this camera was tuned
+476
+00:16:22,830 --> 00:16:20,800
+to actually differentiate between land
+
+477
+00:16:24,540 --> 00:16:22,840
+and water so the white you see here is
+
+478
+00:16:26,190 --> 00:16:24,550
+all the land surrounding Lake Superior
+
+479
+00:16:27,870 --> 00:16:26,200
+so this is a really cool kind of
+
+480
+00:16:30,150 --> 00:16:27,880
+technology innovation demonstrating
+
+481
+00:16:30,960 --> 00:16:30,160
+these new infrared cameras and then as
+
+482
+00:16:32,580 --> 00:16:30,970
+well as this high data rate
+
+483
+00:16:34,650 --> 00:16:32,590
+communication and synergistic
+
+484
+00:16:36,290 --> 00:16:34,660
+combination of the solar panel with the
+
+485
+00:16:38,850 --> 00:16:36,300
+antenna
+
+486
+00:16:40,290 --> 00:16:38,860
+alright so tempest D and then I always
+
+487
+00:16:42,120 --> 00:16:40,300
+need to check my acronym here this is
+
+488
+00:16:43,770 --> 00:16:42,130
+the temporal experiment for storms and
+
+489
+00:16:45,660 --> 00:16:43,780
+tropical systems I don't know how they
+
+490
+00:16:48,180 --> 00:16:45,670
+got tempest out of that but the D stands
+
+491
+00:16:51,030 --> 00:16:48,190
+for the demonstrator so tempest D is
+
+492
+00:16:52,200 --> 00:16:51,040
+this bird shaped mission you see here
+
+493
+00:16:55,890 --> 00:16:52,210
+again does anybody want to guess the
+
+494
+00:16:57,810 --> 00:16:55,900
+form-factor six to you all right yes and
+
+495
+00:16:58,980 --> 00:16:57,820
+it carried a Radiometer and the
+
+496
+00:16:59,790 --> 00:16:58,990
+radiometer actually viewed out of this
+
+497
+00:17:03,420 --> 00:16:59,800
+hole right here
+
+498
+00:17:05,760 --> 00:17:03,430
+and it was five different channels so
+
+499
+00:17:07,560 --> 00:17:05,770
+the first channel is 87 gigahertz and in
+
+500
+00:17:09,930 --> 00:17:07,570
+this case the 87 gigahertz is really de
+501
+00:17:11,520 --> 00:17:09,940
+sensitive to saying where is water so in
+
+502
+00:17:12,780 --> 00:17:11,530
+this animation you see here it can
+
+503
+00:17:15,360 --> 00:17:12,790
+basically see the vapor clouds of
+
+504
+00:17:17,400 --> 00:17:15,370
+precipitation as expected you have a lot
+
+505
+00:17:18,780 --> 00:17:17,410
+of weather here around the equator kind
+
+506
+00:17:20,250 --> 00:17:18,790
+of between the atrophic s-- and of
+
+507
+00:17:20,940 --> 00:17:20,260
+course the land masses you see around or
+
+508
+00:17:22,290 --> 00:17:20,950
+red because it's not a lot of
+
+509
+00:17:23,700 --> 00:17:22,300
+precipitation there although if you look
+
+510
+00:17:25,260 --> 00:17:23,710
+really closely on this animation you can
+
+511
+00:17:28,860 --> 00:17:25,270
+actually see that it can pick up some of
+
+512
+00:17:30,810 --> 00:17:28,870
+the the big lakes in Africa your other
+
+513
+00:17:32,520 --> 00:17:30,820
+four channels of tempest e radiometer
+
+514
+00:17:34,200 --> 00:17:32,530
+allowed to actually get cross-sections
+
+515
+00:17:37,560 --> 00:17:34,210
+of the atmosphere each a few kilometers
+
+516
+00:17:38,790 --> 00:17:37,570
+apart so the 181 gigahertz you see here
+
+517
+00:17:40,920 --> 00:17:38,800
+in the top right is actually the highest
+
+518
+00:17:43,110 --> 00:17:40,930
+cross-section then we stepped on to 184
+
+519
+00:17:43,860 --> 00:17:43,120
+excuse me 164 gigahertz in the lowest
+
+520
+00:17:46,740 --> 00:17:43,870
+cross
+
+521
+00:17:48,930 --> 00:17:46,750
+so in this image we actually in
+
+522
+00:17:50,490 --> 00:17:48,940
+September of 2018 tempis D flew over
+
+523
+00:17:52,560 --> 00:17:50,500
+typhoon trami which was just off the
+
+524
+00:17:58,980 --> 00:17:52,570
+coast of Japan and was able to get these
+
+525
+00:18:01,350 --> 00:17:58,990
+four horizontal slices of the storm so
+526
+00:18:02,789 --> 00:18:01,360
+the other earth science mission to
+
+527
+00:18:04,440 --> 00:18:02,799
+feature is rain cube which hack I told
+
+528
+00:18:07,529 --> 00:18:04,450
+you is my my own beloved mission so
+
+529
+00:18:09,749 --> 00:18:07,539
+here's a big big version of it so we had
+
+530
+00:18:11,370 --> 00:18:09,759
+this giant deployable antenna and of
+
+531
+00:18:12,960 --> 00:18:11,380
+course seeing that we had something big
+
+532
+00:18:15,240 --> 00:18:12,970
+and complicated to playing we had to put
+
+533
+00:18:17,399 --> 00:18:15,250
+a camera on board to catch it see I can
+
+534
+00:18:18,990 --> 00:18:17,409
+actually see here our motor driving our
+
+535
+00:18:21,600 --> 00:18:19,000
+antenna out of the inside of the CubeSat
+
+536
+00:18:24,480 --> 00:18:21,610
+it actually filled up this volume kind
+
+537
+00:18:25,590 --> 00:18:24,490
+of inside and then as we were going over
+
+538
+00:18:29,310 --> 00:18:25,600
+earth that took about three minutes to
+
+539
+00:18:31,889 --> 00:18:29,320
+actually pop it out now fortunately both
+
+540
+00:18:34,860 --> 00:18:31,899
+rain cube and tempest D both flew over
+
+541
+00:18:36,149 --> 00:18:34,870
+typhoon trami around the same time so
+
+542
+00:18:38,909 --> 00:18:36,159
+here you can see rain cube took a very
+
+543
+00:18:39,930 --> 00:18:38,919
+similar track over the storm right over
+
+544
+00:18:41,279 --> 00:18:39,940
+the eye which happen to be very
+
+545
+00:18:45,029 --> 00:18:41,289
+fortuitous and we ended up producing
+
+546
+00:18:46,529 --> 00:18:45,039
+this plot so if you look closely here's
+
+547
+00:18:48,029 --> 00:18:46,539
+the left wall of the hurricane and we
+
+548
+00:18:50,249 --> 00:18:48,039
+actually got the left wall of storms
+
+549
+00:18:51,629 --> 00:18:50,259
+right here the eye is this space right
+
+550
+00:18:53,909 --> 00:18:51,639
+here in the middle and then the right
+551
+00:18:55,320 --> 00:18:53,919
+wall right here we then continued along
+
+552
+00:18:59,340 --> 00:18:55,330
+our way until we actually caught another
+
+553
+00:19:00,240 --> 00:18:59,350
+storm later in our track so you might
+
+554
+00:19:02,249 --> 00:19:00,250
+see where this is going
+
+555
+00:19:03,869 --> 00:19:02,259
+we had to cut to cube sets they both
+
+556
+00:19:06,690 --> 00:19:03,879
+viewed the same storm about five minutes
+
+557
+00:19:08,190 --> 00:19:06,700
+apart what can you do with that so
+
+558
+00:19:10,619 --> 00:19:08,200
+refresher here's what the data looked
+
+559
+00:19:12,470 --> 00:19:10,629
+like and we did some data processing and
+
+560
+00:19:14,909 --> 00:19:12,480
+we actually ended up with this graphic
+
+561
+00:19:15,840 --> 00:19:14,919
+so this is animated so don't let it get
+
+562
+00:19:18,419 --> 00:19:15,850
+too dizzy because it will spin around
+
+563
+00:19:20,610 --> 00:19:18,429
+spin around ad nauseam so this is taking
+
+564
+00:19:23,009 --> 00:19:20,620
+those horizontal 2d slices from tempest
+
+565
+00:19:24,810 --> 00:19:23,019
+D you can count the four slices here
+
+566
+00:19:26,549 --> 00:19:24,820
+then with the vertical slice of rain
+
+567
+00:19:27,480 --> 00:19:26,559
+cube going up and down and we're
+
+568
+00:19:29,009 --> 00:19:27,490
+actually able to get a really
+
+569
+00:19:32,549 --> 00:19:29,019
+interesting cross section of what
+
+570
+00:19:33,659 --> 00:19:32,559
+typhoon trami looked like now although
+
+571
+00:19:34,950 --> 00:19:33,669
+this is kind of an opportunistic
+
+572
+00:19:37,409 --> 00:19:34,960
+measurement I think this is really
+
+573
+00:19:37,769 --> 00:19:37,419
+exciting for what you might have in the
+
+574
+00:19:38,970 --> 00:19:37,779
+future
+
+575
+00:19:41,340 --> 00:19:38,980
+imagine that you might have
+576
+00:19:42,450 --> 00:19:41,350
+constellations just like the imagers we
+
+577
+00:19:44,310 --> 00:19:42,460
+have from Planet lives but
+
+578
+00:19:45,899 --> 00:19:44,320
+constellations of these radars and
+
+579
+00:19:47,430 --> 00:19:45,909
+radiometers where they could be flying
+
+580
+00:19:48,840 --> 00:19:47,440
+one after another each collecting the
+
+581
+00:19:49,799 --> 00:19:48,850
+same measurement or perhaps spread out
+
+582
+00:19:52,379 --> 00:19:49,809
+in space so you're getting different
+
+583
+00:19:53,430 --> 00:19:52,389
+vertical profiles side-by-side then you
+
+584
+00:19:54,750 --> 00:19:53,440
+can combine all of these measurements
+
+585
+00:19:55,850 --> 00:19:54,760
+together and you actually get a really
+
+586
+00:19:57,650 --> 00:19:55,860
+unique insight
+
+587
+00:19:59,930 --> 00:19:57,660
+the evolution of storms because when you
+
+588
+00:20:01,580 --> 00:19:59,940
+have rapid passes of the same storm
+
+589
+00:20:03,260 --> 00:20:01,590
+system you can begin to understand the
+
+590
+00:20:05,299 --> 00:20:03,270
+short timescale evolutions of these
+
+591
+00:20:10,490 --> 00:20:05,309
+storms which can be a huge boon to
+
+592
+00:20:11,630 --> 00:20:10,500
+weather in climate modeling so my last
+
+593
+00:20:13,460 --> 00:20:11,640
+mission I wanted to talk about is
+
+594
+00:20:15,320 --> 00:20:13,470
+hysteria and that's the arcsecond
+
+595
+00:20:18,080 --> 00:20:15,330
+telescope for enabling research in
+
+596
+00:20:20,000 --> 00:20:18,090
+astrophysics so Assyria was a six unit
+
+597
+00:20:22,520 --> 00:20:20,010
+CubeSat they also have these flop out
+
+598
+00:20:24,080 --> 00:20:22,530
+solar arrays here now this blue thing
+
+599
+00:20:27,140 --> 00:20:24,090
+you see here is actually their main
+
+600
+00:20:28,520 --> 00:20:27,150
+payload that's their telescope so
+601
+00:20:30,890 --> 00:20:28,530
+Asterius mission is to hunt for
+
+602
+00:20:32,330 --> 00:20:30,900
+exoplanets and if you came to last
+
+603
+00:20:35,000 --> 00:20:32,340
+month's von-karman talk you learned all
+
+604
+00:20:36,560 --> 00:20:35,010
+about how to find exoplanets so although
+
+605
+00:20:39,020 --> 00:20:36,570
+that CubeSat like platform does its best
+
+606
+00:20:40,700 --> 00:20:39,030
+to get very still in space and compared
+
+607
+00:20:43,039 --> 00:20:40,710
+Olivia gets pretty still if you're
+
+608
+00:20:45,320 --> 00:20:43,049
+staring at a star very very very very
+
+609
+00:20:47,450 --> 00:20:45,330
+far away you need to be very precise and
+
+610
+00:20:48,680 --> 00:20:47,460
+how you look at it so this telescope was
+
+611
+00:20:50,030 --> 00:20:48,690
+actually able to take out all of that
+
+612
+00:20:52,940 --> 00:20:50,040
+noise that was still in the keeps that
+
+613
+00:20:54,380 --> 00:20:52,950
+platform and focus in on one target it
+
+614
+00:20:57,110 --> 00:20:54,390
+also achieved an incredible thermal
+
+615
+00:21:00,710 --> 00:20:57,120
+stability which was needed to dwell on
+
+616
+00:21:02,630 --> 00:21:00,720
+those targets for some time so what it
+
+617
+00:21:04,460 --> 00:21:02,640
+looked like and the animation didn't
+
+618
+00:21:06,200 --> 00:21:04,470
+work on this one but this is essentially
+
+619
+00:21:08,659 --> 00:21:06,210
+what I serious cameras the raw data look
+
+620
+00:21:10,250 --> 00:21:08,669
+like so this orange dot you see here is
+
+621
+00:21:11,480 --> 00:21:10,260
+essentially the star and it would
+
+622
+00:21:12,620 --> 00:21:11,490
+actually just stare at it and if this
+
+623
+00:21:14,000 --> 00:21:12,630
+animation played you would actually see
+
+624
+00:21:15,350 --> 00:21:14,010
+that the orange dot would not move
+
+625
+00:21:18,740 --> 00:21:15,360
+throughout all of the frames so it was
+626
+00:21:20,600 --> 00:21:18,750
+incredibly successful and what a serious
+
+627
+00:21:21,860 --> 00:21:20,610
+mission was doing is it was waiting and
+
+628
+00:21:23,060 --> 00:21:21,870
+staring and waiting for a planet to
+
+629
+00:21:25,250 --> 00:21:23,070
+actually transit in front of That star
+
+630
+00:21:26,510 --> 00:21:25,260
+so as it searches the star it would
+
+631
+00:21:28,549 --> 00:21:26,520
+actually be looking for a dip in the
+
+632
+00:21:30,289 --> 00:21:28,559
+brightness with the signature u-shape
+
+633
+00:21:32,510 --> 00:21:30,299
+here and that would actually signal that
+
+634
+00:21:34,070 --> 00:21:32,520
+an exoplanet had had come and had passed
+
+635
+00:21:35,330 --> 00:21:34,080
+in front of that star so this is a
+
+636
+00:21:36,560 --> 00:21:35,340
+really exciting mission as something
+
+637
+00:21:41,780 --> 00:21:36,570
+that has really never been attempted on
+
+638
+00:21:44,210 --> 00:21:41,790
+the CubeSat platform to date so here we
+
+639
+00:21:46,220 --> 00:21:44,220
+are back at this chart and I'm wrapping
+
+640
+00:21:47,960 --> 00:21:46,230
+up on my few missions but the future is
+
+641
+00:21:49,070 --> 00:21:47,970
+really exciting or we've had some
+
+642
+00:21:50,299 --> 00:21:49,080
+exciting missions that have led us this
+
+643
+00:21:52,010 --> 00:21:50,309
+point and we have a lot of exciting
+
+644
+00:21:53,539 --> 00:21:52,020
+missions coming up you can see that I've
+
+645
+00:21:55,220 --> 00:21:53,549
+just covered a few of these we have many
+
+646
+00:21:57,200 --> 00:21:55,230
+more earth science missions technology
+
+647
+00:21:58,190 --> 00:21:57,210
+missions and astrophysics missions but
+
+648
+00:21:59,510 --> 00:21:58,200
+we also have missions that are getting
+
+649
+00:22:01,280 --> 00:21:59,520
+ready to explore throughout the solar
+
+650
+00:22:03,590 --> 00:22:01,290
+system and Anne will tell you a lot
+651
+00:22:12,049 --> 00:22:03,600
+about that so with that I'd like to say
+
+652
+00:22:16,849 --> 00:22:13,969
+great thanks a lot Travis appreciate
+
+653
+00:22:18,379 --> 00:22:16,859
+that well I assume you all feel like
+
+654
+00:22:20,450 --> 00:22:18,389
+you're CubeSat experts now I think you
+
+655
+00:22:22,009 --> 00:22:20,460
+should because I heard six you three you
+
+656
+00:22:24,289 --> 00:22:22,019
+you guys are shouting out the form
+
+657
+00:22:26,749 --> 00:22:24,299
+factors like like experts
+
+658
+00:22:28,099 --> 00:22:26,759
+well I'm sure at this point you're ready
+
+659
+00:22:30,200 --> 00:22:28,109
+to learn a little more about the
+
+660
+00:22:32,359 --> 00:22:30,210
+potential of these fascinating little
+
+661
+00:22:33,649 --> 00:22:32,369
+spacecraft so our next speaker will
+
+662
+00:22:34,759 --> 00:22:33,659
+delve into some of the really neat
+
+663
+00:22:36,409 --> 00:22:34,769
+things that we hope to do with these
+
+664
+00:22:38,479 --> 00:22:36,419
+spacecraft going forward
+
+665
+00:22:40,459 --> 00:22:38,489
+she's the lead engineer for JPL's
+
+666
+00:22:43,549 --> 00:22:40,469
+collaborative design team for CubeSat
+
+667
+00:22:46,519 --> 00:22:43,559
+and small set missions called team x c
+
+668
+00:22:48,619 --> 00:22:46,529
+and the c is for CubeSat she served as a
+
+669
+00:22:50,779 --> 00:22:48,629
+systems engineer on the first CubeSat
+
+670
+00:22:53,329 --> 00:22:50,789
+mission sent to deep space the Mars cube
+
+671
+00:22:56,239 --> 00:22:53,339
+one or Marco mission which last years
+
+672
+00:22:58,369 --> 00:22:56,249
+successfully demonstrated that cube SATs
+
+673
+00:22:58,879 --> 00:22:58,379
+can operate at destinations far beyond
+
+674
+00:23:01,039 --> 00:22:58,889
+Earth
+
+675
+00:23:03,979 --> 00:23:01,049
+she's an MIT graduate who's been with
+676
+00:23:12,150 --> 00:23:03,989
+JPL since 2016 please welcome dr. Anne
+
+677
+00:23:17,440 --> 00:23:15,460
+Thank You Preston hello
+
+678
+00:23:21,070 --> 00:23:17,450
+I'm Ann I'm going to be talking about
+
+679
+00:23:23,610 --> 00:23:21,080
+what happens or what we what we view for
+
+680
+00:23:27,040 --> 00:23:23,620
+cube sets going beyond low-earth orbit
+
+681
+00:23:30,190 --> 00:23:27,050
+so just like Travis I started in cube
+
+682
+00:23:31,780 --> 00:23:30,200
+sets in the university program so that I
+
+683
+00:23:34,660 --> 00:23:31,790
+actually wanted to be an astronaut when
+
+684
+00:23:37,150 --> 00:23:34,670
+I was about nine years old I dug I dug
+
+685
+00:23:40,900 --> 00:23:37,160
+up this photo of me at a Girl Scout
+
+686
+00:23:42,640 --> 00:23:40,910
+Space Camp the fun fact about two years
+
+687
+00:23:45,730 --> 00:23:42,650
+after this picture was taken was when
+
+688
+00:23:48,790 --> 00:23:45,740
+small CubeSat form factor was actually
+
+689
+00:23:49,870 --> 00:23:48,800
+invented so I had no idea about it at
+
+690
+00:23:53,290 --> 00:23:49,880
+the time but that's a pretty cool
+
+691
+00:23:54,940 --> 00:23:53,300
+overlay in time I did a my bachelor's in
+
+692
+00:23:57,070 --> 00:23:54,950
+aerospace engineering at the University
+
+693
+00:23:59,080 --> 00:23:57,080
+of Michigan that's when I was there
+
+694
+00:24:01,210 --> 00:23:59,090
+there was just starting up a lab that
+
+695
+00:24:02,920 --> 00:24:01,220
+worked specifically on cube sets I
+
+696
+00:24:04,960 --> 00:24:02,930
+worked on a couple things particularly
+
+697
+00:24:07,000 --> 00:24:04,970
+with my senior design class actually
+
+698
+00:24:10,660 --> 00:24:07,010
+designing a CubeSat that later flew
+
+699
+00:24:13,120 --> 00:24:10,670
+after I graduated and then at MIT we I
+
+700
+00:24:15,820 --> 00:24:13,130
+helped design and build and fly the very
+701
+00:24:18,630 --> 00:24:15,830
+first CubeSat that MIT built so just
+
+702
+00:24:23,140 --> 00:24:18,640
+like Travis I've worked on I think
+
+703
+00:24:24,760 --> 00:24:23,150
+Counting and with differing levels of
+
+704
+00:24:26,470 --> 00:24:24,770
+involvement in the missions I worked on
+
+705
+00:24:29,170 --> 00:24:26,480
+about seven cube sets including the ones
+
+706
+00:24:32,350 --> 00:24:29,180
+at JPL so I've been at JPL for about
+
+707
+00:24:34,090 --> 00:24:32,360
+almost three years now and here I've
+
+708
+00:24:35,890 --> 00:24:34,100
+worked on the Marco mission going to
+
+709
+00:24:37,840 --> 00:24:35,900
+deep space and another mission going to
+
+710
+00:24:40,450 --> 00:24:37,850
+deep space called nia scout that I will
+
+711
+00:24:41,620 --> 00:24:40,460
+also be talking about later but with
+
+712
+00:24:44,230 --> 00:24:41,630
+these cube sets because they're all
+
+713
+00:24:46,510 --> 00:24:44,240
+about the same size there's very little
+
+714
+00:24:48,670 --> 00:24:46,520
+difference between the integration and
+
+715
+00:24:51,040 --> 00:24:48,680
+the experience you get in a university
+
+716
+00:24:52,690 --> 00:24:51,050
+setting versus than what you do turning
+
+717
+00:24:55,120 --> 00:24:52,700
+around and working at a place like JPL
+
+718
+00:24:58,390 --> 00:24:55,130
+it's an amazing opportunity and it's
+
+719
+00:25:03,040 --> 00:24:58,400
+surprisingly applicable for getting for
+
+720
+00:25:07,780 --> 00:25:03,050
+future careers in space exploration so
+
+721
+00:25:10,960 --> 00:25:07,790
+what do I mean by beyond Earth and when
+
+722
+00:25:13,840 --> 00:25:10,970
+you fly into when you fly a CubeSat into
+
+723
+00:25:16,810 --> 00:25:13,850
+or any satellite into lower or lower
+
+724
+00:25:18,850 --> 00:25:16,820
+Earth orbit the there are certain
+
+725
+00:25:20,380 --> 00:25:18,860
+advantages you can there's certain
+726
+00:25:23,170 --> 00:25:20,390
+things you can take advantage of so of
+
+727
+00:25:24,790 --> 00:25:23,180
+the the thousand cube sets that Travis
+
+728
+00:25:26,140 --> 00:25:24,800
+mentioned launched only two
+
+729
+00:25:28,900 --> 00:25:26,150
+of them have actually gone beyond
+
+730
+00:25:30,940 --> 00:25:28,910
+low-earth orbit so somewhat advantages
+
+731
+00:25:34,570 --> 00:25:30,950
+of being in low-earth orbit you have
+
+732
+00:25:36,250 --> 00:25:34,580
+your only I say only only about a few
+
+733
+00:25:37,750 --> 00:25:36,260
+hundred kilometers away from the surface
+
+734
+00:25:39,520 --> 00:25:37,760
+of the earth when you're trying to
+
+735
+00:25:43,480 --> 00:25:39,530
+communicate to a satellite you have a
+
+736
+00:25:45,070 --> 00:25:43,490
+fairly a fairly wide range of bandwidths
+
+737
+00:25:46,810 --> 00:25:45,080
+that you can play with and so you can
+
+738
+00:25:48,430 --> 00:25:46,820
+have ground stations all over the world
+
+739
+00:25:49,960 --> 00:25:48,440
+at different frequencies you can there
+
+740
+00:25:51,520 --> 00:25:49,970
+are universities that even build their
+
+741
+00:25:53,650 --> 00:25:51,530
+own ground stations to talk to these
+
+742
+00:25:56,710 --> 00:25:53,660
+satellites you can also take advantage
+
+743
+00:25:58,470 --> 00:25:56,720
+of systems in orbit around Earth like
+
+744
+00:26:00,640 --> 00:25:58,480
+global positioning systems or
+
+745
+00:26:02,890 --> 00:26:00,650
+communications networks like iridium and
+
+746
+00:26:05,140 --> 00:26:02,900
+global star to actually figure out where
+
+747
+00:26:08,350 --> 00:26:05,150
+your satellite is and have another way
+
+748
+00:26:10,360 --> 00:26:08,360
+of getting the data down and another
+
+749
+00:26:12,190 --> 00:26:10,370
+cool thing that you can do with around
+
+750
+00:26:14,860 --> 00:26:12,200
+Earth is actually take advantage of its
+751
+00:26:16,420 --> 00:26:14,870
+magnetic field so if you're flying close
+
+752
+00:26:18,130 --> 00:26:16,430
+enough to the surface of the earth it
+
+753
+00:26:20,170 --> 00:26:18,140
+kind of acts as a shield for high
+
+754
+00:26:21,400 --> 00:26:20,180
+energetic higher energetic particles
+
+755
+00:26:23,860 --> 00:26:21,410
+that come from the Sun and for
+
+756
+00:26:25,750 --> 00:26:23,870
+interstellar space you can also use the
+
+757
+00:26:28,360 --> 00:26:25,760
+magnetic field and put sensors on your
+
+758
+00:26:30,220 --> 00:26:28,370
+spacecraft to tell how it's oriented to
+
+759
+00:26:32,050 --> 00:26:30,230
+some extent where it is in the orbit and
+
+760
+00:26:34,480 --> 00:26:32,060
+actually use magnets onboard your
+
+761
+00:26:36,820 --> 00:26:34,490
+spacecraft to orient it by aligning it
+
+762
+00:26:40,480 --> 00:26:36,830
+and not aligning that with the magnetic
+
+763
+00:26:43,780 --> 00:26:40,490
+field in space you don't have any of
+
+764
+00:26:46,000 --> 00:26:43,790
+that so with the two marcos satellites
+
+765
+00:26:48,400 --> 00:26:46,010
+and I'll talk about their technologies
+
+766
+00:26:50,410 --> 00:26:48,410
+in particulars there's the the first two
+
+767
+00:26:53,830 --> 00:26:50,420
+that have actually successfully gone
+
+768
+00:26:56,260 --> 00:26:53,840
+into a space beyond low-earth orbit in
+
+769
+00:26:58,210 --> 00:26:56,270
+the CubeSat form factor so when you go
+
+770
+00:26:59,740 --> 00:26:58,220
+beyond earth some of the issues you have
+
+771
+00:27:01,540 --> 00:26:59,750
+to deal with is a the earth is much
+
+772
+00:27:03,730 --> 00:27:01,550
+farther away so instead of being
+
+773
+00:27:05,500 --> 00:27:03,740
+hundreds of kilometers from the surface
+
+774
+00:27:08,350 --> 00:27:05,510
+of the earth you're now millions and
+
+775
+00:27:10,720 --> 00:27:08,360
+millions of billions of miles or
+776
+00:27:13,000 --> 00:27:10,730
+kilometers away from the surface of the
+
+777
+00:27:15,280 --> 00:27:13,010
+earth so your radio has to be more
+
+778
+00:27:18,550 --> 00:27:15,290
+powerful your antennas have to be bigger
+
+779
+00:27:21,640 --> 00:27:18,560
+and right now the only way you can
+
+780
+00:27:23,680 --> 00:27:21,650
+really communicate with and with
+
+781
+00:27:26,140 --> 00:27:23,690
+spacecraft that far away is through the
+
+782
+00:27:28,720 --> 00:27:26,150
+NASA Deep Space Network these are it's
+
+783
+00:27:31,300 --> 00:27:28,730
+an array of 12 satellites or satellite
+
+784
+00:27:33,160 --> 00:27:31,310
+dishes around the globe so you can in
+
+785
+00:27:34,840 --> 00:27:33,170
+they're spaced about 120 degrees apart
+
+786
+00:27:36,490 --> 00:27:34,850
+so you can get continuous coverage of
+
+787
+00:27:39,340 --> 00:27:36,500
+anything in the solar system
+
+788
+00:27:41,140 --> 00:27:39,350
+and these are there's 34 meter size in a
+
+789
+00:27:42,550 --> 00:27:41,150
+70 meter size and in order to take
+
+790
+00:27:44,410 --> 00:27:42,560
+advantage of that you have to have a
+
+791
+00:27:46,480 --> 00:27:44,420
+radio that is compatible with this
+
+792
+00:27:48,490 --> 00:27:46,490
+network but what it gets you is
+
+793
+00:27:50,530 --> 00:27:48,500
+communication with your satellite and a
+
+794
+00:27:52,720 --> 00:27:50,540
+way to figure out where your satellite
+
+795
+00:27:55,540 --> 00:27:52,730
+is and how fast it's going and where
+
+796
+00:27:58,000 --> 00:27:55,550
+it's going just based on the radio
+
+797
+00:28:00,460 --> 00:27:58,010
+signals so if you don't have GPS you
+
+798
+00:28:02,080 --> 00:28:00,470
+kind of need something like this you
+
+799
+00:28:04,150 --> 00:28:02,090
+also don't have a magnetic field to
+
+800
+00:28:07,090 --> 00:28:04,160
+torque against an orient your satellite
+801
+00:28:08,680 --> 00:28:07,100
+so anything any way you want to move
+
+802
+00:28:10,630 --> 00:28:08,690
+your satellite or change its position
+
+803
+00:28:12,820 --> 00:28:10,640
+you have to bring it on board and that
+
+804
+00:28:16,510 --> 00:28:12,830
+usually takes the form of propellant of
+
+805
+00:28:18,970 --> 00:28:16,520
+some sort and in interstellar space you
+
+806
+00:28:22,000 --> 00:28:18,980
+also have an interplanetary space or not
+
+807
+00:28:23,830 --> 00:28:22,010
+an interstellar keeps us yet then there
+
+808
+00:28:25,150 --> 00:28:23,840
+is a much more extreme thermal or
+
+809
+00:28:26,620 --> 00:28:25,160
+radiation environments a harsher
+
+810
+00:28:28,090 --> 00:28:26,630
+environment that you have to deal with
+
+811
+00:28:30,160 --> 00:28:28,100
+when you're closer to the Sun your
+
+812
+00:28:32,380 --> 00:28:30,170
+satellites get a lot hotter you have to
+
+813
+00:28:33,940 --> 00:28:32,390
+deal with thermal issues that you don't
+
+814
+00:28:34,540 --> 00:28:33,950
+necessarily have to deal with around low
+
+815
+00:28:36,220 --> 00:28:34,550
+Earth orbit
+
+816
+00:28:38,950 --> 00:28:36,230
+obviously the farther away you get from
+
+817
+00:28:41,200 --> 00:28:38,960
+the Sun the dimmer the Sun is the colder
+
+818
+00:28:43,360 --> 00:28:41,210
+it tends to be and not only is it colder
+
+819
+00:28:46,510 --> 00:28:43,370
+now because the Sun is dimmer you have
+
+820
+00:28:48,340 --> 00:28:46,520
+to deal with less power being generated
+
+821
+00:28:50,310 --> 00:28:48,350
+so most CubeSat missions use solar
+
+822
+00:28:53,080 --> 00:28:50,320
+panels and batteries very effectively
+
+823
+00:29:04,240 --> 00:28:53,090
+missions like Cassini and Voyager had
+
+824
+00:29:08,680 --> 00:29:04,250
+radioisotope thermoelectric reiated that
+
+825
+00:29:10,900 --> 00:29:08,690
+way too so Marco as was mentioned
+826
+00:29:12,310 --> 00:29:10,910
+several times Mars cube one mission
+
+827
+00:29:15,820 --> 00:29:12,320
+these were two satellites that were
+
+828
+00:29:17,920 --> 00:29:15,830
+launched with the insight Lander so NASA
+
+829
+00:29:20,800 --> 00:29:17,930
+launched a mission called insight to
+
+830
+00:29:22,630 --> 00:29:20,810
+Mars in 2018 it want it landed on the
+
+831
+00:29:26,650 --> 00:29:22,640
+surface of Mars in November the Monday
+
+832
+00:29:29,050 --> 00:29:26,660
+after Thanksgiving and the orbit of the
+
+833
+00:29:31,420 --> 00:29:29,060
+orbit of the orbiters that were on that
+
+834
+00:29:33,520 --> 00:29:31,430
+are around Mars weren't quite in the
+
+835
+00:29:35,440 --> 00:29:33,530
+right position to get the data back real
+
+836
+00:29:37,450 --> 00:29:35,450
+time there was an orbiter that flew over
+
+837
+00:29:39,100 --> 00:29:37,460
+a while insight was going through its
+
+838
+00:29:41,710 --> 00:29:39,110
+entry descent and landing to pick up the
+
+839
+00:29:43,000 --> 00:29:41,720
+data but it wasn't going to it wasn't
+
+840
+00:29:45,160 --> 00:29:43,010
+going to get the data back to earth
+
+841
+00:29:47,230 --> 00:29:45,170
+until several hours after the saddle
+
+842
+00:29:47,610 --> 00:29:47,240
+after the lander had actually landed on
+
+843
+00:29:50,640 --> 00:29:47,620
+the search
+
+844
+00:29:53,730 --> 00:29:50,650
+of Mars so very shortly before insight
+
+845
+00:29:54,900 --> 00:29:53,740
+launched at least very shortly before it
+
+846
+00:29:58,650 --> 00:29:54,910
+was supposed to launch the first time
+
+847
+00:30:02,070 --> 00:29:58,660
+that they came up with this idea of well
+
+848
+00:30:04,020 --> 00:30:02,080
+could we fly cube sets along with it to
+
+849
+00:30:06,030 --> 00:30:04,030
+be in the right position to relay that
+
+850
+00:30:08,370 --> 00:30:06,040
+data back so the to Marco spacecraft
+851
+00:30:10,770 --> 00:30:08,380
+actually launched on the same vehicle
+
+852
+00:30:13,350 --> 00:30:10,780
+that insight did and it was kind of in
+
+853
+00:30:15,990 --> 00:30:13,360
+what we we consider steerage class
+
+854
+00:30:17,880 --> 00:30:16,000
+almost they were active the dispensers
+
+855
+00:30:21,180 --> 00:30:17,890
+were put right next to the engine bell
+
+856
+00:30:23,780 --> 00:30:21,190
+of the upper stage insight was inside
+
+857
+00:30:27,090 --> 00:30:23,790
+the fairing all nice and protective the
+
+858
+00:30:28,830 --> 00:30:27,100
+but the true Marco satellites had to be
+
+859
+00:30:31,680 --> 00:30:28,840
+in the correct place at the correct time
+
+860
+00:30:34,440 --> 00:30:31,690
+to really that data back from insight so
+
+861
+00:30:36,780 --> 00:30:34,450
+that was one of the primary things that
+
+862
+00:30:38,280 --> 00:30:36,790
+Marco flew for and it was to demonstrate
+
+863
+00:30:40,310 --> 00:30:38,290
+this architecture of these small
+
+864
+00:30:42,630 --> 00:30:40,320
+satellites providing a critical mission
+
+865
+00:30:44,610 --> 00:30:42,640
+critical mission support for a primary
+
+866
+00:30:47,520 --> 00:30:44,620
+mission like in sight but in order to do
+
+867
+00:30:49,680 --> 00:30:47,530
+that it had just both satellites had to
+
+868
+00:30:51,240 --> 00:30:49,690
+survive six months in this brand new
+
+869
+00:30:52,020 --> 00:30:51,250
+environment with technology they had
+
+870
+00:30:55,590 --> 00:30:52,030
+never flown before
+
+871
+00:30:57,540 --> 00:30:55,600
+so the some of the key technologies that
+
+872
+00:31:00,030 --> 00:30:57,550
+were developed for the Marco mission are
+
+873
+00:31:01,290 --> 00:31:00,040
+radio and antennas they have to be
+
+874
+00:31:03,600 --> 00:31:01,300
+compatible with the Deep Space Network
+
+875
+00:31:05,280 --> 00:31:03,610
+they have to be big enough in order to
+876
+00:31:07,350 --> 00:31:05,290
+get enough gain to send all that data
+
+877
+00:31:09,930 --> 00:31:07,360
+back to earth so this pattern might look
+
+878
+00:31:12,990 --> 00:31:09,940
+familiar to you it's it's a reflector
+
+879
+00:31:14,910 --> 00:31:13,000
+antenna very it's essentially what I saw
+
+880
+00:31:16,650 --> 00:31:14,920
+I flew just had just modified for a
+
+881
+00:31:17,940 --> 00:31:16,660
+different wavelengths so a lot of the
+
+882
+00:31:19,919 --> 00:31:17,950
+technology that's developed for
+
+883
+00:31:22,860 --> 00:31:19,929
+low-earth orbit like Travis mentioned is
+
+884
+00:31:24,870 --> 00:31:22,870
+then flown in deep space because you can
+
+885
+00:31:27,540 --> 00:31:24,880
+have it gives you a lot of the same
+
+886
+00:31:31,280 --> 00:31:27,550
+advantages same thing with the
+
+887
+00:31:34,500 --> 00:31:31,290
+deployable solar arrays so there again
+
+888
+00:31:36,990 --> 00:31:34,510
+Marco went by Mars it's about half the
+
+889
+00:31:39,120 --> 00:31:37,000
+power that you're getting from solar
+
+890
+00:31:40,950 --> 00:31:39,130
+panels at Earth and so we had to have
+
+891
+00:31:43,290 --> 00:31:40,960
+these deployable solar arrays to get all
+
+892
+00:31:45,570 --> 00:31:43,300
+the power we needed to perform the
+
+893
+00:31:47,880 --> 00:31:45,580
+mission and then we also demonstrated a
+
+894
+00:31:50,310 --> 00:31:47,890
+propulsion system so as there is a cold
+
+895
+00:31:52,230 --> 00:31:50,320
+gas thrusters system the volume of the
+
+896
+00:31:56,040 --> 00:31:52,240
+propellant itself was about half of this
+
+897
+00:31:57,510 --> 00:31:56,050
+6u volume and there are tiny little
+
+898
+00:31:58,710 --> 00:31:57,520
+thrusters you can't even see them in
+
+899
+00:32:01,379 --> 00:31:58,720
+this picture but there are eight of them
+
+900
+00:32:03,419 --> 00:32:01,389
+in on this face of the
+901
+00:32:05,849 --> 00:32:03,429
+satellite and the propellant onboard was
+
+902
+00:32:08,940 --> 00:32:05,859
+fire extinguisher fluid it was cold gas
+
+903
+00:32:10,709 --> 00:32:08,950
+and you heated it up and then spouted
+
+904
+00:32:14,039 --> 00:32:10,719
+out in little spurts and that was enough
+
+905
+00:32:16,529 --> 00:32:14,049
+to change and adjust the trajectory of
+
+906
+00:32:22,849 --> 00:32:16,539
+each Marco spacecraft so that we flew by
+
+907
+00:32:22,859 --> 00:32:33,330
+Marco a and Marco be canceled entry
+
+908
+00:32:33,340 --> 00:32:38,299
+[Applause]
+
+909
+00:32:47,609 --> 00:32:41,999
+Lander separation commanded altitude 600
+
+910
+00:32:50,430 --> 00:32:47,619
+meters 200 meters 50 meters constant
+
+911
+00:32:55,060 --> 00:32:50,440
+velocity 17 meters standing by for
+
+912
+00:33:00,150 --> 00:32:55,070
+touchdown touchdown confirmed
+
+913
+00:33:02,890 --> 00:33:00,160
+[Applause]
+
+914
+00:33:04,510 --> 00:33:02,900
+not only got the data from inside as it
+
+915
+00:33:10,900 --> 00:33:04,520
+went through the Martian atmosphere in
+
+916
+00:33:12,760 --> 00:33:10,910
+real-time we saw the first it's just a
+
+917
+00:33:14,799 --> 00:33:12,770
+great tribute to the pole Marko team
+
+918
+00:33:17,169 --> 00:33:14,809
+that exceeded all of our wildest
+
+919
+00:33:18,820 --> 00:33:17,179
+expectations that both worked perfectly
+
+920
+00:33:20,860 --> 00:33:18,830
+we just opened the door to a new class
+
+921
+00:33:25,000 --> 00:33:20,870
+of planetary science I think to the
+
+922
+00:33:25,390 --> 00:33:25,010
+Marco's this was seen all around the
+
+923
+00:33:29,500 --> 00:33:25,400
+world
+
+924
+00:33:32,440 --> 00:33:29,510
+crowds watch live in LA Chicago and New
+
+925
+00:33:34,540 --> 00:33:32,450
+York insight was followed to Mars by two
+926
+00:33:36,910 --> 00:33:34,550
+miniature NASA spacecraft called Mars
+
+927
+00:33:38,860 --> 00:33:36,920
+cube one or Marco shortly after landing
+
+928
+00:33:41,380 --> 00:33:38,870
+the first picture relayed by two
+
+929
+00:33:43,690 --> 00:33:41,390
+miniature NASA spacecraft called Marco
+
+930
+00:33:46,270 --> 00:33:43,700
+but on board Marco itself we had one
+
+931
+00:33:48,940 --> 00:33:46,280
+more gift this image was taken from
+
+932
+00:33:50,640 --> 00:33:48,950
+marco 10-15 minutes after GDLs self
+
+933
+00:33:55,340 --> 00:33:50,650
+happened
+
+934
+00:34:00,210 --> 00:33:57,960
+so this is the picture that Marco took
+
+935
+00:34:03,960 --> 00:34:00,220
+right after insight EDL so this is a
+
+936
+00:34:06,299 --> 00:34:03,970
+very very I love this picture then so
+
+937
+00:34:08,399 --> 00:34:06,309
+like I saw it and like green cube if you
+
+938
+00:34:09,869 --> 00:34:08,409
+have a deployable on a cube set like
+
+939
+00:34:11,490 --> 00:34:09,879
+this you want to have a camera on there
+
+940
+00:34:14,460 --> 00:34:11,500
+to make sure it works so we had the
+
+941
+00:34:18,450 --> 00:34:14,470
+equivalent of like a flip phone quality
+
+942
+00:34:21,359 --> 00:34:18,460
+grade camera but it's a cube set but you
+
+943
+00:34:23,430 --> 00:34:21,369
+can see the the feed here from the feed
+
+944
+00:34:26,790 --> 00:34:23,440
+going on to this reflector II and then
+
+945
+00:34:27,840 --> 00:34:26,800
+this is the flat high gain antenna you
+
+946
+00:34:29,399 --> 00:34:27,850
+can see the edge of it and we actually
+
+947
+00:34:31,830 --> 00:34:29,409
+compared it to pictures we took on the
+
+948
+00:34:34,080 --> 00:34:31,840
+ground to verify that did deploy fully
+
+949
+00:34:35,750 --> 00:34:34,090
+but we had this camera on board and even
+
+950
+00:34:39,720 --> 00:34:35,760
+though it's not a great quality camera
+951
+00:34:42,720 --> 00:34:39,730
+you get Mars which is amazing and so our
+
+952
+00:34:45,119 --> 00:34:42,730
+navigation engineers I overlaid where
+
+953
+00:34:46,950 --> 00:34:45,129
+the landing locations are for a lot of
+
+954
+00:34:49,409 --> 00:34:46,960
+other missions that have flown to Mars
+
+955
+00:34:53,520 --> 00:34:49,419
+this is a very cool thing to see from
+
+956
+00:34:54,960 --> 00:34:53,530
+something the size of a cereal box so
+
+957
+00:34:57,090 --> 00:34:54,970
+the applications that Marco could have
+
+958
+00:35:00,120 --> 00:34:57,100
+enabled to go into deep space so a lot
+
+959
+00:35:01,440 --> 00:35:00,130
+like low-earth orbit you can these cube
+
+960
+00:35:03,510 --> 00:35:01,450
+sets are enabling a lot of different
+
+961
+00:35:05,340 --> 00:35:03,520
+kinds of mission architectures so one is
+
+962
+00:35:07,530 --> 00:35:05,350
+like Marco performing functions to
+
+963
+00:35:09,540 --> 00:35:07,540
+support a main mission like insight in
+
+964
+00:35:12,810 --> 00:35:09,550
+in the case of Marco is a communications
+
+965
+00:35:15,990 --> 00:35:12,820
+relay capability there's a mission that
+
+966
+00:35:18,390 --> 00:35:16,000
+the European Space Agency is flying in a
+
+967
+00:35:20,070 --> 00:35:18,400
+few years called Hera that is visiting
+
+968
+00:35:22,740 --> 00:35:20,080
+an asteroid called didymus in its
+
+969
+00:35:24,900 --> 00:35:22,750
+companion and it will be carrying two
+
+970
+00:35:26,790 --> 00:35:24,910
+spacecraft unlike Marco these spacecraft
+
+971
+00:35:30,060 --> 00:35:26,800
+will actually be carried on the
+
+972
+00:35:32,160 --> 00:35:30,070
+mothership and they will have science
+
+973
+00:35:34,200 --> 00:35:32,170
+instruments on them to complement that
+
+974
+00:35:36,450 --> 00:35:34,210
+main mission so it's so now we're
+
+975
+00:35:38,520 --> 00:35:36,460
+talking about CubeSat some small sensor
+976
+00:35:41,400 --> 00:35:38,530
+with instruments on them performing
+
+977
+00:35:45,380 --> 00:35:41,410
+science to supplement a mission already
+
+978
+00:35:48,060 --> 00:35:45,390
+going to another body you can also think
+
+979
+00:35:49,890 --> 00:35:48,070
+you can also take that a step farther
+
+980
+00:35:52,650 --> 00:35:49,900
+and go even farther out into the solar
+
+981
+00:35:54,210 --> 00:35:52,660
+system where these outer planets have
+
+982
+00:35:56,550 --> 00:35:54,220
+really interesting moons and really
+
+983
+00:35:59,400 --> 00:35:56,560
+interesting behaviors that we don't
+
+984
+00:36:02,370 --> 00:35:59,410
+really understand so you can have almost
+
+985
+00:36:04,510 --> 00:36:02,380
+disposable or single-use probes they
+
+986
+00:36:06,370 --> 00:36:04,520
+don't they won't necessarily be being a
+
+987
+00:36:08,440 --> 00:36:06,380
+that form-factor like I mentioned if you
+
+988
+00:36:10,720 --> 00:36:08,450
+go beyond low-earth orbit you have all
+
+989
+00:36:14,109 --> 00:36:10,730
+these challenges in terms of power
+
+990
+00:36:16,000 --> 00:36:14,119
+generation and data volume and all in
+
+991
+00:36:17,350 --> 00:36:16,010
+thermal and everything that you have to
+
+992
+00:36:19,570 --> 00:36:17,360
+deal with so it might not look like a
+
+993
+00:36:21,580 --> 00:36:19,580
+cube but a lot of the technology being
+
+994
+00:36:24,580 --> 00:36:21,590
+developed is directly applicable to
+
+995
+00:36:25,960 --> 00:36:24,590
+missions like this and then they can
+
+996
+00:36:29,680 --> 00:36:25,970
+also do their own science with a whole
+
+997
+00:36:32,830 --> 00:36:29,690
+flock to talk wine to use the planet
+
+998
+00:36:35,530 --> 00:36:32,840
+term of these small sets so you can
+
+999
+00:36:37,720 --> 00:36:35,540
+apply the same principle of using a
+
+1000
+00:36:40,000 --> 00:36:37,730
+constellation or formation flying on in
+1001
+00:36:42,970 --> 00:36:40,010
+low-earth orbit and apply it to either
+
+1002
+00:36:45,250 --> 00:36:42,980
+observing locations beyond the solar
+
+1003
+00:36:48,580 --> 00:36:45,260
+system or even going to locations beyond
+
+1004
+00:36:53,950 --> 00:36:48,590
+the solar system and making these
+
+1005
+00:36:56,230 --> 00:36:53,960
+observations so the next upcoming event
+
+1006
+00:36:59,680 --> 00:36:56,240
+in small satellite deep space
+
+1007
+00:37:01,270 --> 00:36:59,690
+applications is em1 so this e-m1 stands
+
+1008
+00:37:02,800 --> 00:37:01,280
+for exploration mission-1
+
+1009
+00:37:05,260 --> 00:37:02,810
+it's the first launch of the Space
+
+1010
+00:37:09,730 --> 00:37:05,270
+Launch System in the Space Launch System
+
+1011
+00:37:12,640 --> 00:37:09,740
+or SLS is a high heavy lift launch
+
+1012
+00:37:14,140 --> 00:37:12,650
+vehicle in development by NASA and so
+
+1013
+00:37:16,870 --> 00:37:14,150
+the first launch of this it's going to
+
+1014
+00:37:19,270 --> 00:37:16,880
+carry the Orion spacecraft nominally to
+
+1015
+00:37:22,060 --> 00:37:19,280
+the moon but the first demonstration
+
+1016
+00:37:25,330 --> 00:37:22,070
+launch will actually have 13 of these
+
+1017
+00:37:27,490 --> 00:37:25,340
+six you Cube sets on a ring that sits
+
+1018
+00:37:29,170 --> 00:37:27,500
+under like underneath the Orion payload
+
+1019
+00:37:34,810 --> 00:37:29,180
+they're called the lucky 13 cube sets
+
+1020
+00:37:37,150 --> 00:37:34,820
+the and they do a variety of science and
+
+1021
+00:37:40,270 --> 00:37:37,160
+engineering demonstrations so of these
+
+1022
+00:37:42,670 --> 00:37:40,280
+13 missions four of them I think come
+
+1023
+00:37:45,330 --> 00:37:42,680
+from NASA and then the other ones come
+
+1024
+00:37:47,590 --> 00:37:45,340
+from universities even and and
+
+1025
+00:37:49,810 --> 00:37:47,600
+organizations around the world so it is
+1026
+00:37:53,670 --> 00:37:49,820
+a very global effort to put these
+
+1027
+00:37:55,990 --> 00:37:53,680
+satellites into interplanetary space and
+
+1028
+00:37:57,910 --> 00:37:56,000
+they're all going to different locations
+
+1029
+00:37:59,230 --> 00:37:57,920
+so a lot of them are going around the
+
+1030
+00:38:01,599 --> 00:37:59,240
+moon and they're demonstrating these new
+
+1031
+00:38:03,670 --> 00:38:01,609
+for new propellant propulsion
+
+1032
+00:38:06,250 --> 00:38:03,680
+capabilities in order to get these small
+
+1033
+00:38:08,230 --> 00:38:06,260
+satellites into a lunar orbit they're
+
+1034
+00:38:11,740 --> 00:38:08,240
+also demonstrating new communications
+
+1035
+00:38:13,420 --> 00:38:11,750
+capabilities and new science instruments
+
+1036
+00:38:15,580 --> 00:38:13,430
+and ways of generating power actually
+
+1037
+00:38:16,359 --> 00:38:15,590
+staying alive in interplanetary space
+
+1038
+00:38:18,670 --> 00:38:16,369
+but there
+
+1039
+00:38:20,170 --> 00:38:18,680
+are also capitalizing on a lot of the
+
+1040
+00:38:22,180 --> 00:38:20,180
+technology that was developed and flown
+
+1041
+00:38:25,210 --> 00:38:22,190
+on the Marco mission six of these Cube
+
+1042
+00:38:27,099 --> 00:38:25,220
+sets are using the same radio or the
+
+1043
+00:38:30,789 --> 00:38:27,109
+next generation version of the radio
+
+1044
+00:38:32,289 --> 00:38:30,799
+that flew successfully on Mirko so just
+
+1045
+00:38:34,180 --> 00:38:32,299
+highlighting a couple of them that JPL
+
+1046
+00:38:35,380 --> 00:38:34,190
+is involved with so near-earth asteroid
+
+1047
+00:38:36,730 --> 00:38:35,390
+Scout that I'm working on it's a
+
+1048
+00:38:39,279 --> 00:38:36,740
+collaboration between Marshall Space
+
+1049
+00:38:40,809 --> 00:38:39,289
+Flight Center and JPL some Marshall
+
+1050
+00:38:42,309 --> 00:38:40,819
+Space Flight Center is a NASA Center in
+1051
+00:38:44,650 --> 00:38:42,319
+Alabama they are managing the mission
+
+1052
+00:38:48,509 --> 00:38:44,660
+and this mission is actually using a
+
+1053
+00:38:51,130 --> 00:38:48,519
+solar sail as its primary method of
+
+1054
+00:38:53,140 --> 00:38:51,140
+propel Earth propulsion to get this
+
+1055
+00:38:55,509 --> 00:38:53,150
+these spacecraft to and near-earth
+
+1056
+00:38:59,739 --> 00:38:55,519
+asteroid and there's a camera on board
+
+1057
+00:39:01,720 --> 00:38:59,749
+to image image and characterize and get
+
+1058
+00:39:03,339 --> 00:39:01,730
+more information about small near-earth
+
+1059
+00:39:05,349 --> 00:39:03,349
+asteroids that are difficult to
+
+1060
+00:39:07,079 --> 00:39:05,359
+characterize from the surface of the
+
+1061
+00:39:09,430 --> 00:39:07,089
+earth
+
+1062
+00:39:11,499 --> 00:39:09,440
+another one that JPL is involved with is
+
+1063
+00:39:15,940 --> 00:39:11,509
+called lunar flashlight JPL is managing
+
+1064
+00:39:18,130 --> 00:39:15,950
+this mission this the flashlight is a
+
+1065
+00:39:20,109 --> 00:39:18,140
+laser on board that will illuminate
+
+1066
+00:39:22,259 --> 00:39:20,119
+permanently shadowed craters on the moon
+
+1067
+00:39:25,059 --> 00:39:22,269
+we know there is water ice in these
+
+1068
+00:39:26,950 --> 00:39:25,069
+shadowed craters so lunar flashlights
+
+1069
+00:39:28,479 --> 00:39:26,960
+will fly in an orbit a very highly
+
+1070
+00:39:30,460 --> 00:39:28,489
+elliptical orbit around the moon it only
+
+1071
+00:39:31,809 --> 00:39:30,470
+gets about 15 kilometers from the
+
+1072
+00:39:34,180 --> 00:39:31,819
+surface of the Moon when it's out the
+
+1073
+00:39:35,499 --> 00:39:34,190
+South Pole and it will illuminate these
+
+1074
+00:39:37,960 --> 00:39:35,509
+craters and then there's a reflect
+
+1075
+00:39:41,229 --> 00:39:37,970
+amador instrument onboard that's tuned
+1076
+00:39:43,749 --> 00:39:41,239
+to water wavelengths that will detect
+
+1077
+00:39:46,749 --> 00:39:43,759
+water ice and try to map where that ice
+
+1078
+00:39:48,819 --> 00:39:46,759
+is in these craters and it's also
+
+1079
+00:39:51,069 --> 00:39:48,829
+demonstrating a new propulsion
+
+1080
+00:39:56,170 --> 00:39:51,079
+capability it's using this green mana
+
+1081
+00:39:57,789 --> 00:39:56,180
+propellant fluid which is it's it's more
+
+1082
+00:39:59,559 --> 00:39:57,799
+energetic than a cold gas like a fire
+
+1083
+00:40:01,239 --> 00:39:59,569
+extinguisher it's less energetic than
+
+1084
+00:40:06,789 --> 00:40:01,249
+something like hydrazine but it's also
+
+1085
+00:40:09,220 --> 00:40:06,799
+not as toxic so good another thing that
+
+1086
+00:40:12,670 --> 00:40:09,230
+JPL has involved with this is sunrise
+
+1087
+00:40:15,009 --> 00:40:12,680
+it's another fleet of six you cube sets
+
+1088
+00:40:16,630 --> 00:40:15,019
+this is currently in a study phase right
+
+1089
+00:40:18,640 --> 00:40:16,640
+now and it's been proposed to the NASA
+
+1090
+00:40:21,309 --> 00:40:18,650
+small Explorer call and I do want to
+
+1091
+00:40:23,380 --> 00:40:21,319
+point out here that the a lot of NASA
+
+1092
+00:40:26,259 --> 00:40:23,390
+has regular calls that go out for
+
+1093
+00:40:27,960 --> 00:40:26,269
+missions to do science for earth earth
+
+1094
+00:40:29,700 --> 00:40:27,970
+science astrophysics heliophysics
+
+1095
+00:40:31,680 --> 00:40:29,710
+planetary science
+
+1096
+00:40:34,320 --> 00:40:31,690
+and more and more of these calls are
+
+1097
+00:40:36,599 --> 00:40:34,330
+being expanded to include cube sets and
+
+1098
+00:40:38,670 --> 00:40:36,609
+small satellites because in the last few
+
+1099
+00:40:40,260 --> 00:40:38,680
+years alone the number of missions who
+
+1100
+00:40:42,540 --> 00:40:40,270
+have been able to demonstrate really
+1101
+00:40:44,670 --> 00:40:42,550
+good science like Travis talked about
+
+1102
+00:40:46,440 --> 00:40:44,680
+with Riaan cuban tempest tea has really
+
+1103
+00:40:48,390 --> 00:40:46,450
+shown the community that these are these
+
+1104
+00:40:51,480 --> 00:40:48,400
+are viable science platforms now so
+
+1105
+00:40:54,060 --> 00:40:51,490
+there the the proposal calls have
+
+1106
+00:40:55,650 --> 00:40:54,070
+started to reflect that and so this is
+
+1107
+00:40:57,810 --> 00:40:55,660
+flying a constellation of sixty Cube
+
+1108
+00:40:59,520 --> 00:40:57,820
+sets in a geostationary orbit so it's
+
+1109
+00:41:01,680 --> 00:40:59,530
+still around Earth but I'm considering
+
+1110
+00:41:03,990 --> 00:41:01,690
+it kind of interplanetary because there
+
+1111
+00:41:06,089 --> 00:41:04,000
+it's far enough away that you have to do
+
+1112
+00:41:07,050 --> 00:41:06,099
+a lot of you have to you still have to
+
+1113
+00:41:09,150 --> 00:41:07,060
+take into account a lot of
+
+1114
+00:41:11,220 --> 00:41:09,160
+considerations that you that are more
+
+1115
+00:41:13,770 --> 00:41:11,230
+like interplanetary space than like
+
+1116
+00:41:16,079 --> 00:41:13,780
+low-earth orbit and the purpose of
+
+1117
+00:41:19,109 --> 00:41:16,089
+sunrise is to observe the Sun and
+
+1118
+00:41:22,530 --> 00:41:19,119
+essentially it's a it's acting as a ten
+
+1119
+00:41:24,810 --> 00:41:22,540
+kilometer radio telescope you can never
+
+1120
+00:41:27,560 --> 00:41:24,820
+launch a ten kilometer telescope so
+
+1121
+00:41:30,030 --> 00:41:27,570
+they're using these six Cube sets to
+
+1122
+00:41:35,010 --> 00:41:30,040
+synthesize that aperture by flying them
+
+1123
+00:41:36,510 --> 00:41:35,020
+in a loose formation and this ice stuck
+
+1124
+00:41:38,400 --> 00:41:36,520
+in there you'll notice it's not a
+
+1125
+00:41:40,410 --> 00:41:38,410
+CubeSat but there's definitely a cube
+1126
+00:41:43,440 --> 00:41:40,420
+element to it so this is the Mars
+
+1127
+00:41:45,599 --> 00:41:43,450
+helicopter it is flying with Mars 2020
+
+1128
+00:41:48,270 --> 00:41:45,609
+it's supposed to launch next year too
+
+1129
+00:41:50,790 --> 00:41:48,280
+and the helicopter is kind of a
+
+1130
+00:41:52,530 --> 00:41:50,800
+companion to the rover its mission is to
+
+1131
+00:41:54,870 --> 00:41:52,540
+fly around and be able to take pictures
+
+1132
+00:42:28,880 --> 00:41:54,880
+and then relay the pictures of the train
+
+1133
+00:42:35,700 --> 00:42:33,660
+wait so like the so the with helicopter
+
+1134
+00:42:37,770 --> 00:42:35,710
+and similar missions like that it's it's
+
+1135
+00:42:39,660 --> 00:42:37,780
+you know you don't launch it in a
+
+1136
+00:42:42,690 --> 00:42:39,670
+dispenser it's not what some might
+
+1137
+00:42:44,940 --> 00:42:42,700
+consider a real CubeSat but a lot of the
+
+1138
+00:42:46,980 --> 00:42:44,950
+the technology advancements that came
+
+1139
+00:42:48,420 --> 00:42:46,990
+with the CubeSat and small set paradigm
+
+1140
+00:42:51,210 --> 00:42:48,430
+involves shrinking all of these
+
+1141
+00:42:53,340 --> 00:42:51,220
+technologies that are would normally fit
+
+1142
+00:42:55,230 --> 00:42:53,350
+in a satellite the size of a bus like
+
+1143
+00:42:57,690 --> 00:42:55,240
+Cassini or Voyager for the people in
+
+1144
+00:43:02,850 --> 00:42:57,700
+this room and really making them
+
+1145
+00:43:05,070 --> 00:43:02,860
+extremely making very capable satellites
+
+1146
+00:43:06,450 --> 00:43:05,080
+and payloads that are very small and so
+
+1147
+00:43:09,960 --> 00:43:06,460
+there's no reason why you can't use
+
+1148
+00:43:12,420 --> 00:43:09,970
+these small new technologies in bigger
+
+1149
+00:43:16,170 --> 00:43:12,430
+missions or new new missions that aren't
+
+1150
+00:43:18,540 --> 00:43:16,180
+the shape of a cube so the next couple
+1151
+00:43:22,200 --> 00:43:18,550
+charts are sketches like literal
+
+1152
+00:43:24,480 --> 00:43:22,210
+sketches there's a there's a the graphic
+
+1153
+00:43:26,730 --> 00:43:24,490
+designer who did these her name is Kat
+
+1154
+00:43:30,330 --> 00:43:26,740
+Park she works here at JPL in a studio
+
+1155
+00:43:31,920 --> 00:43:30,340
+and the idea is none of these these are
+
+1156
+00:43:34,230 --> 00:43:31,930
+all mission concepts but it's kind of an
+
+1157
+00:43:36,990 --> 00:43:34,240
+idea of what kind of missions you could
+
+1158
+00:43:40,200 --> 00:43:37,000
+see in the not so distant future with
+
+1159
+00:43:42,750 --> 00:43:40,210
+these small sets and cube sets so one is
+
+1160
+00:43:44,490 --> 00:43:42,760
+very similar to Marco flying small sets
+
+1161
+00:43:46,590 --> 00:43:44,500
+to Mars these would probably be a little
+
+1162
+00:43:48,330 --> 00:43:46,600
+bit bigger than a lot of the six use
+
+1163
+00:43:49,410 --> 00:43:48,340
+that we've been presenting but they
+
+1164
+00:43:50,910 --> 00:43:49,420
+would have their own propulsion they
+
+1165
+00:43:53,160 --> 00:43:50,920
+would have these big solar panels and
+
+1166
+00:43:55,110 --> 00:43:53,170
+they could go go to destinations like
+
+1167
+00:43:57,810 --> 00:43:55,120
+Phobos and Deimos and they could use
+
+1168
+00:44:00,120 --> 00:43:57,820
+novel propulsion capabilities like solar
+
+1169
+00:44:02,670 --> 00:44:00,130
+electric propulsion or even ones that
+
+1170
+00:44:06,210 --> 00:44:02,680
+we've never thought of to do cool
+
+1171
+00:44:09,510 --> 00:44:06,220
+science without a primary mission to go
+
+1172
+00:44:12,150 --> 00:44:09,520
+along with there's also this idea that
+
+1173
+00:44:15,510 --> 00:44:12,160
+you could go to an asteroid and fly a
+
+1174
+00:44:17,220 --> 00:44:15,520
+small set or some probe through plumes
+
+1175
+00:44:18,240 --> 00:44:17,230
+to get kind of institution measurements
+1176
+00:44:20,910 --> 00:44:18,250
+of what might be there you would never
+
+1177
+00:44:22,860 --> 00:44:20,920
+want to fly a big expensive spacecraft
+
+1178
+00:44:25,890 --> 00:44:22,870
+because it's a little bit risky with
+
+1179
+00:44:28,050 --> 00:44:25,900
+particles flying at your satellite but
+
+1180
+00:44:29,610 --> 00:44:28,060
+it could community and it could either
+
+1181
+00:44:31,290 --> 00:44:29,620
+communicate directly to earth or you
+
+1182
+00:44:32,760 --> 00:44:31,300
+could have an architecture where there's
+
+1183
+00:44:34,980 --> 00:44:32,770
+a mothership sending that information
+
+1184
+00:44:37,770 --> 00:44:34,990
+back to earth and making its own
+
+1185
+00:44:38,930 --> 00:44:37,780
+measurements potentially or you can send
+
+1186
+00:44:40,910 --> 00:44:38,940
+them to a comment and
+
+1187
+00:44:42,500 --> 00:44:40,920
+Kasich comments it's spewing a lot more
+
+1188
+00:44:44,210 --> 00:44:42,510
+particles out there as the tale forms
+
+1189
+00:44:45,859 --> 00:44:44,220
+and so you could fly a whole fleet of
+
+1190
+00:44:47,569 --> 00:44:45,869
+them and maybe even have them start
+
+1191
+00:44:50,420 --> 00:44:47,579
+talking to each other to coordinate
+
+1192
+00:44:51,980 --> 00:44:50,430
+better measurements and again you could
+
+1193
+00:44:54,020 --> 00:44:51,990
+have them talk back to a mothership you
+
+1194
+00:44:57,020 --> 00:44:54,030
+can have them talk back to kind of a
+
+1195
+00:44:58,970 --> 00:44:57,030
+leader spacecraft back to earth and so a
+
+1196
+00:45:02,839 --> 00:44:58,980
+lot of these concepts is not just
+
+1197
+00:45:04,760 --> 00:45:02,849
+physical you don't have just physical
+
+1198
+00:45:06,319 --> 00:45:04,770
+limitations in terms of getting bigger
+
+1199
+00:45:07,670 --> 00:45:06,329
+antennas and bigger solar panels and
+
+1200
+00:45:09,980 --> 00:45:07,680
+bigger propulsion systems you also have
+1201
+00:45:13,700 --> 00:45:09,990
+to make the satellites smarter so a lot
+
+1202
+00:45:16,069 --> 00:45:13,710
+of autonomy and and advances in
+
+1203
+00:45:17,420 --> 00:45:16,079
+computing capabilities would really
+
+1204
+00:45:18,589 --> 00:45:17,430
+enable missions like this so the
+
+1205
+00:45:20,599 --> 00:45:18,599
+satellites can kind of think for
+
+1206
+00:45:23,210 --> 00:45:20,609
+themselves and decide which observations
+
+1207
+00:45:25,819 --> 00:45:23,220
+are the most interesting or figure out
+
+1208
+00:45:27,859 --> 00:45:25,829
+if if they lose a satellite that's fine
+
+1209
+00:45:31,280 --> 00:45:27,869
+we can reconfigure to still get the
+
+1210
+00:45:35,089 --> 00:45:31,290
+measurement we want and thinking even
+
+1211
+00:45:37,430 --> 00:45:35,099
+farther out there so the if you're going
+
+1212
+00:45:40,010 --> 00:45:37,440
+to an outer planet could you bring a
+
+1213
+00:45:42,470 --> 00:45:40,020
+bunch of really small sensors and
+
+1214
+00:45:44,089 --> 00:45:42,480
+instead of getting again like a lot of
+
+1215
+00:45:46,670 --> 00:45:44,099
+low Earth orbit applications instead of
+
+1216
+00:45:48,140 --> 00:45:46,680
+sending one spacecraft to get a bunch of
+
+1217
+00:45:50,270 --> 00:45:48,150
+measurements over a certain period of
+
+1218
+00:45:52,640 --> 00:45:50,280
+time if you send a whole flock of
+
+1219
+00:45:55,520 --> 00:45:52,650
+spacecraft a fleet of really tiny
+
+1220
+00:45:58,490 --> 00:45:55,530
+sensors to get a whole distributed
+
+1221
+00:46:00,380 --> 00:45:58,500
+spatial set of measurements out of at a
+
+1222
+00:46:02,210 --> 00:46:00,390
+specific point in time it's a different
+
+1223
+00:46:03,710 --> 00:46:02,220
+kind of measurement technique than has
+
+1224
+00:46:05,630 --> 00:46:03,720
+historically been done and it's very
+
+1225
+00:46:07,130 --> 00:46:05,640
+exciting especially if you're kind of on
+1226
+00:46:11,150 --> 00:46:07,140
+a flyby trajectory and you only get one
+
+1227
+00:46:13,490 --> 00:46:11,160
+shot similar thing if you want to go
+
+1228
+00:46:14,750 --> 00:46:13,500
+into orbit or a slower flyby or
+
+1229
+00:46:16,520 --> 00:46:14,760
+something like Clipper where it kind of
+
+1230
+00:46:19,460 --> 00:46:16,530
+goes Europa clipper is a mission that
+
+1231
+00:46:22,640 --> 00:46:19,470
+JPL is working on to go to Europa I mean
+
+1232
+00:46:24,349 --> 00:46:22,650
+a moon of Jupiter and it kind of it it's
+
+1233
+00:46:26,300 --> 00:46:24,359
+not quite a flyby but it doesn't go
+
+1234
+00:46:29,630 --> 00:46:26,310
+entirely into orbit it gets a bunch of
+
+1235
+00:46:31,250 --> 00:46:29,640
+orbits around Europa and then leaves but
+
+1236
+00:46:34,040 --> 00:46:31,260
+if you maybe if you brought a whole
+
+1237
+00:46:36,440 --> 00:46:34,050
+swarm of cube sets or small sets these
+
+1238
+00:46:39,260 --> 00:46:36,450
+would probably be bigger they could
+
+1239
+00:46:41,829 --> 00:46:39,270
+again do that kind of formation flying
+
+1240
+00:46:46,250 --> 00:46:41,839
+and coordinated architecture of
+
+1241
+00:46:47,569 --> 00:46:46,260
+measurement X measurements and science
+
+1242
+00:46:49,730 --> 00:46:47,579
+that you can't do with just one
+
+1243
+00:46:51,470 --> 00:46:49,740
+spacecraft or you gonna have to send a
+
+1244
+00:46:52,320 --> 00:46:51,480
+whole fleet of them a lot like Assyria
+
+1245
+00:46:55,740 --> 00:46:52,330
+and
+
+1246
+00:46:57,210 --> 00:46:55,750
+have look at interests look at look more
+
+1247
+00:46:59,910 --> 00:46:57,220
+into interstellar space than a whole
+
+1248
+00:47:02,790 --> 00:46:59,920
+fleet of them to look at of little
+
+1249
+00:47:04,740 --> 00:47:02,800
+imagers to look at one star instead of
+
+1250
+00:47:07,230 --> 00:47:04,750
+one telescope looking at multiple stars
+1251
+00:47:09,450 --> 00:47:07,240
+or even what would it look like if you
+
+1252
+00:47:12,570 --> 00:47:09,460
+try to send one of these interstellar so
+
+1253
+00:47:15,990 --> 00:47:12,580
+that's theirs this is actually a chipset
+
+1254
+00:47:17,130 --> 00:47:16,000
+so the going into interstellar space you
+
+1255
+00:47:18,780 --> 00:47:17,140
+have to go really far you have to go
+
+1256
+00:47:20,190 --> 00:47:18,790
+really fast it's really it's a lot
+
+1257
+00:47:21,930 --> 00:47:20,200
+easier to do that if it's really small
+
+1258
+00:47:24,270 --> 00:47:21,940
+so if these new advances in
+
+1259
+00:47:25,890 --> 00:47:24,280
+miniaturizing technologies could you
+
+1260
+00:47:27,780 --> 00:47:25,900
+potentially envision something that's
+
+1261
+00:47:29,670 --> 00:47:27,790
+the size of a postage stamp that
+
+1262
+00:47:32,430 --> 00:47:29,680
+actually has all of the capability and
+
+1263
+00:47:37,320 --> 00:47:32,440
+needs to go beyond the solar system I
+
+1264
+00:47:40,350 --> 00:47:37,330
+don't know it's conjecture so yeah so
+
+1265
+00:47:42,270 --> 00:47:40,360
+interplanetary travel with cube sets has
+
+1266
+00:47:43,710 --> 00:47:42,280
+really only been around for the last
+
+1267
+00:47:45,540 --> 00:47:43,720
+five years as I mentioned of the
+
+1268
+00:47:47,670 --> 00:47:45,550
+thousand cube sets that have launched
+
+1269
+00:47:49,800 --> 00:47:47,680
+two of them have gone below low-earth
+
+1270
+00:47:51,450 --> 00:47:49,810
+orbits so it's still a very new field
+
+1271
+00:47:53,130 --> 00:47:51,460
+but it's a really exciting field
+
+1272
+00:47:54,510 --> 00:47:53,140
+especially because a lot of these
+
+1273
+00:47:56,100 --> 00:47:54,520
+technologies that have been developed
+
+1274
+00:47:58,230 --> 00:47:56,110
+for low-earth orbit are directly
+
+1275
+00:48:00,930 --> 00:47:58,240
+applicable in many cases to flying
+1276
+00:48:03,900 --> 00:48:00,940
+beyond low-earth orbit and it'd be
+
+1277
+00:48:05,340 --> 00:48:03,910
+really interesting to see if how many of
+
+1278
+00:48:07,710 --> 00:48:05,350
+these bodies you could actually have
+
+1279
+00:48:11,580 --> 00:48:07,720
+small satellites on in the next 10 years
+
+1280
+00:48:12,870 --> 00:48:11,590
+or so that is the end of my talk thank
+
+1281
+00:48:23,520 --> 00:48:12,880
+you very much for listening and I
+
+1282
+00:48:28,320 --> 00:48:26,520
+all right well thanks Annie
+
+1283
+00:48:30,780 --> 00:48:28,330
+this is the part of the show where we
+
+1284
+00:48:32,580 --> 00:48:30,790
+transition to your questions so if you
+
+1285
+00:48:35,040 --> 00:48:32,590
+if you have a question here in the
+
+1286
+00:48:37,740 --> 00:48:35,050
+audience we'll have a microphone in the
+
+1287
+00:48:40,140 --> 00:48:37,750
+center and you can step right up there
+
+1288
+00:48:42,840 --> 00:48:40,150
+to the to the middle aisle and prepare
+
+1289
+00:48:44,220 --> 00:48:42,850
+your question and if you submitted a
+
+1290
+00:48:45,540 --> 00:48:44,230
+question online on the YouTube chat
+
+1291
+00:48:49,350 --> 00:48:45,550
+we'll get to a couple of those as well
+
+1292
+00:48:51,060 --> 00:48:49,360
+so do we have any questions here there
+
+1293
+00:48:52,980 --> 00:48:51,070
+comes John with the microphone well I'll
+
+1294
+00:48:56,160 --> 00:48:52,990
+get started because I because I had a I
+
+1295
+00:48:58,800 --> 00:48:56,170
+have all kinds of questions so just
+
+1296
+00:49:03,180 --> 00:48:58,810
+since you both talked a lot about how
+
+1297
+00:49:06,120 --> 00:49:03,190
+you you started your careers working on
+
+1298
+00:49:07,830 --> 00:49:06,130
+Cube sets how has has it this topic
+
+1299
+00:49:14,400 --> 00:49:07,840
+specifically shaped your careers as
+
+1300
+00:49:16,670 --> 00:49:14,410
+engineers okay well I kind of maintain
+1301
+00:49:19,200 --> 00:49:16,680
+that the experience that I got in
+
+1302
+00:49:20,790 --> 00:49:19,210
+undergrad and well that's probably more
+
+1303
+00:49:24,720 --> 00:49:20,800
+in grad school of actually building and
+
+1304
+00:49:26,310 --> 00:49:24,730
+flying one of these satellites I don't
+
+1305
+00:49:28,590 --> 00:49:26,320
+think I would have gotten the position I
+
+1306
+00:49:30,590 --> 00:49:28,600
+did on the Marco team without having
+
+1307
+00:49:33,300 --> 00:49:30,600
+that experience and so there's a lot of
+
+1308
+00:49:35,310 --> 00:49:33,310
+getting real hands on it space it's hard
+
+1309
+00:49:36,990 --> 00:49:35,320
+no matter who's actually flying the
+
+1310
+00:49:38,520 --> 00:49:37,000
+satellite into space so I think it's
+
+1311
+00:49:41,160 --> 00:49:38,530
+it's giving me a lot of hands-on
+
+1312
+00:49:44,070 --> 00:49:41,170
+experience in a much more in-depth
+
+1313
+00:49:45,660 --> 00:49:44,080
+appreciation for how difficult flying
+
+1314
+00:49:47,580 --> 00:49:45,670
+something in space is and the challenges
+
+1315
+00:49:49,860 --> 00:49:47,590
+you have to overcome and kind of
+
+1316
+00:49:50,970 --> 00:49:49,870
+experience you know banging your head
+
+1317
+00:49:53,460 --> 00:49:50,980
+against the wall trying to figure out
+
+1318
+00:49:55,530 --> 00:49:53,470
+why it's not working before you even get
+
+1319
+00:49:57,330 --> 00:49:55,540
+out of school so I think it's I think
+
+1320
+00:50:00,210 --> 00:49:57,340
+it's invaluable to have that hands-on
+
+1321
+00:50:02,010 --> 00:50:00,220
+experience yes I think I think it's
+
+1322
+00:50:03,540 --> 00:50:02,020
+unique about the CubeSat form factor as
+
+1323
+00:50:04,650 --> 00:50:03,550
+if you remember I showed my picture of
+
+1324
+00:50:06,750 --> 00:50:04,660
+how we tried to jam everything we
+
+1325
+00:50:08,880 --> 00:50:06,760
+couldn't to the box but that means that
+1326
+00:50:10,530 --> 00:50:08,890
+you as an engineer can actually kind of
+
+1327
+00:50:12,030 --> 00:50:10,540
+understand everything that's in that box
+
+1328
+00:50:13,980 --> 00:50:12,040
+all the subsystems are touching
+
+1329
+00:50:15,540 --> 00:50:13,990
+literally and electronically and
+
+1330
+00:50:17,010 --> 00:50:15,550
+everything else but you can begin to
+
+1331
+00:50:18,330 --> 00:50:17,020
+understand how your power subsystem
+
+1332
+00:50:19,920 --> 00:50:18,340
+connects to everything else how your
+
+1333
+00:50:21,390 --> 00:50:19,930
+radio subsystem is connected everything
+
+1334
+00:50:22,770 --> 00:50:21,400
+that's how your payload requires the
+
+1335
+00:50:25,200 --> 00:50:22,780
+whole spacecraft to perform perfectly
+
+1336
+00:50:26,970 --> 00:50:25,210
+and working on these payloads when one
+
+1337
+00:50:27,960 --> 00:50:26,980
+thing goes wrong you kind of see how it
+
+1338
+00:50:28,770 --> 00:50:27,970
+flows through the system and what
+
+1339
+00:50:30,450 --> 00:50:28,780
+something goes right you see how it
+
+1340
+00:50:31,950 --> 00:50:30,460
+flows out the system that's the thing I
+
+1341
+00:50:33,900 --> 00:50:31,960
+think this is unique when it's small you
+
+1342
+00:50:35,340 --> 00:50:33,910
+actually have the capability as a single
+
+1343
+00:50:36,100 --> 00:50:35,350
+person to understand everything you're
+
+1344
+00:50:38,680 --> 00:50:36,110
+working on
+
+1345
+00:50:40,690 --> 00:50:38,690
+and that was kind of a good introduction
+
+1346
+00:50:43,090 --> 00:50:40,700
+to all sorts of different disciplines of
+
+1347
+00:50:45,130 --> 00:50:43,100
+engineering and science and physics and
+
+1348
+00:50:50,040 --> 00:50:45,140
+other topics some through school and
+
+1349
+00:50:54,430 --> 00:50:53,140
+given that there are limited numbers
+
+1350
+00:50:56,350 --> 00:50:54,440
+that can be launched even though there
+1351
+00:50:58,690 --> 00:50:56,360
+are a thousand out there I suspect
+
+1352
+00:51:00,070 --> 00:50:58,700
+there's a great desire for more by those
+
+1353
+00:51:02,970 --> 00:51:00,080
+who are making them and studying them
+
+1354
+00:51:05,230 --> 00:51:02,980
+I'm curious about the decision-making
+
+1355
+00:51:08,470 --> 00:51:05,240
+that's involved of the competitiveness
+
+1356
+00:51:10,030 --> 00:51:08,480
+to end up on a launch vehicle to get out
+
+1357
+00:51:13,210 --> 00:51:10,040
+there you showed for instance that there
+
+1358
+00:51:15,280 --> 00:51:13,220
+would be 13 on an upcoming mission how
+
+1359
+00:51:18,700 --> 00:51:15,290
+did you decide or how did somebody
+
+1360
+00:51:20,470 --> 00:51:18,710
+decide so I won't quote the number but
+
+1361
+00:51:21,850 --> 00:51:20,480
+there are actually many companies that
+
+1362
+00:51:23,380 --> 00:51:21,860
+we call news space companies the new
+
+1363
+00:51:24,370 --> 00:51:23,390
+space are kind of these aerospace
+
+1364
+00:51:26,350 --> 00:51:24,380
+companies that have just come around
+
+1365
+00:51:27,850 --> 00:51:26,360
+within the past decade or so and there's
+
+1366
+00:51:30,370 --> 00:51:27,860
+actually several companies that are
+
+1367
+00:51:31,900 --> 00:51:30,380
+competing both through NASA funds and
+
+1368
+00:51:33,730 --> 00:51:31,910
+privately funded to actually develop
+
+1369
+00:51:35,770 --> 00:51:33,740
+this whole a kind of small fleet of
+
+1370
+00:51:37,330 --> 00:51:35,780
+rocket launchers so much like that
+
+1371
+00:51:39,970 --> 00:51:37,340
+electron rocket I showed from rocket
+
+1372
+00:51:43,240 --> 00:51:39,980
+labs there's a thing just virgin orbit
+
+1373
+00:51:44,200 --> 00:51:43,250
+one company vector Firefly are all
+
+1374
+00:51:46,030 --> 00:51:44,210
+companies that are actually being
+
+1375
+00:51:48,100 --> 00:51:46,040
+designed for kind of this 100 kilogram
+1376
+00:51:50,080 --> 00:51:48,110
+class payload and whether that hundred
+
+1377
+00:51:51,610 --> 00:51:50,090
+kilogram is one spacecraft or a company
+
+1378
+00:51:53,980 --> 00:51:51,620
+that wants to launch you know 33
+
+1379
+00:51:55,690 --> 00:51:53,990
+kilogram spacecraft they can do it so
+
+1380
+00:51:56,860 --> 00:51:55,700
+there's actually a huge investment from
+
+1381
+00:51:58,660 --> 00:51:56,870
+the launch services side to actually
+
+1382
+00:52:00,820 --> 00:51:58,670
+meet the commercial demand from these
+
+1383
+00:52:03,670 --> 00:52:00,830
+small satyrs especially constellation
+
+1384
+00:52:06,190 --> 00:52:03,680
+companies until your question on tm1
+
+1385
+00:52:07,930 --> 00:52:06,200
+payloads so some of them like the ones
+
+1386
+00:52:09,760 --> 00:52:07,940
+that were proposed they're funded by
+
+1387
+00:52:11,350 --> 00:52:09,770
+NASA so is the proposal process a lot
+
+1388
+00:52:13,180 --> 00:52:11,360
+like you'd have a discovery or new
+
+1389
+00:52:14,560 --> 00:52:13,190
+frontiers kind of mission there are
+
+1390
+00:52:16,030 --> 00:52:14,570
+actually three cubes that's on there
+
+1391
+00:52:18,430 --> 00:52:16,040
+that are part of a thing called a cube
+
+1392
+00:52:20,200 --> 00:52:18,440
+quest competition and there was it was
+
+1393
+00:52:22,840 --> 00:52:20,210
+mostly universities but some hobbyists
+
+1394
+00:52:25,690 --> 00:52:22,850
+actually in there that had to go through
+
+1395
+00:52:27,130 --> 00:52:25,700
+a series of I forget what they called
+
+1396
+00:52:30,310 --> 00:52:27,140
+them but essentially student knowledge
+
+1397
+00:52:31,750 --> 00:52:30,320
+yeah I'm crunches - I kind of milestones
+
+1398
+00:52:33,700 --> 00:52:31,760
+and they were whittled down from I
+
+1399
+00:52:35,710 --> 00:52:33,710
+forgot how many initially proposed but
+
+1400
+00:52:39,880 --> 00:52:35,720
+then they had but they've filled three
+1401
+00:52:44,130 --> 00:52:39,890
+slots of those 13 so it's it does it is
+
+1402
+00:52:45,860 --> 00:52:44,140
+also partially competitive hey there oh
+
+1403
+00:52:49,650 --> 00:52:45,870
+yeah
+
+1404
+00:52:52,500 --> 00:52:49,660
+thanks for the great talk question on
+
+1405
+00:52:56,520 --> 00:52:52,510
+your open Enceladus and cube sets in
+
+1406
+00:53:00,440 --> 00:52:56,530
+that domain how how much easier or more
+
+1407
+00:53:03,480 --> 00:53:00,450
+complicated our planetary protection
+
+1408
+00:53:07,200 --> 00:53:03,490
+needs in the case of building some of my
+
+1409
+00:53:08,730 --> 00:53:07,210
+excel for smaller smaller craft that are
+
+1410
+00:53:11,940 --> 00:53:08,740
+going to travel into those environments
+
+1411
+00:53:13,140 --> 00:53:11,950
+it's a really good question so then you
+
+1412
+00:53:14,460 --> 00:53:13,150
+still have to meet the planetary
+
+1413
+00:53:15,180 --> 00:53:14,470
+protection requirements kind of no
+
+1414
+00:53:17,400 --> 00:53:15,190
+matter how big you are
+
+1415
+00:53:19,560 --> 00:53:17,410
+with the Marco spacecraft we also had
+
+1416
+00:53:21,630 --> 00:53:19,570
+planetary protection requirements we had
+
+1417
+00:53:23,910 --> 00:53:21,640
+to meet and there are a couple ways to
+
+1418
+00:53:26,280 --> 00:53:23,920
+do that one is to show that your
+
+1419
+00:53:27,840 --> 00:53:26,290
+trajectory if you're completely off and
+
+1420
+00:53:30,300 --> 00:53:27,850
+kind of a brick and that's how you
+
+1421
+00:53:31,860 --> 00:53:30,310
+essentially to be safe that's kind of
+
+1422
+00:53:34,530 --> 00:53:31,870
+what you assume that the cube sets are a
+
+1423
+00:53:36,690 --> 00:53:34,540
+secondary payload is one way is to show
+
+1424
+00:53:38,760 --> 00:53:36,700
+that your trajectory will never impact
+
+1425
+00:53:40,290 --> 00:53:38,770
+something that is protected in this
+1426
+00:53:42,690 --> 00:53:40,300
+planetary protection environment the
+
+1427
+00:53:45,720 --> 00:53:42,700
+other way is to do a lot of simulations
+
+1428
+00:53:48,230 --> 00:53:45,730
+and put what's called a bio burden on
+
+1429
+00:53:50,760 --> 00:53:48,240
+the satellite and so it's you basically
+
+1430
+00:53:53,100 --> 00:53:50,770
+give a metric for how clean the
+
+1431
+00:53:55,200 --> 00:53:53,110
+satellite has to be when it launches to
+
+1432
+00:53:58,380 --> 00:53:55,210
+get the probability of it bringing
+
+1433
+00:54:00,240 --> 00:53:58,390
+unwanted life with it below a certain
+
+1434
+00:54:02,460 --> 00:54:00,250
+threshold so you have to do that same
+
+1435
+00:54:04,680 --> 00:54:02,470
+kind of analysis on a small satellite as
+
+1436
+00:54:06,330 --> 00:54:04,690
+you would with a larger satellite with
+
+1437
+00:54:08,340 --> 00:54:06,340
+the Marco process we were able to tailor
+
+1438
+00:54:11,010 --> 00:54:08,350
+it a little bit and kind of through
+
+1439
+00:54:13,140 --> 00:54:11,020
+measurements show that we were meeting
+
+1440
+00:54:17,490 --> 00:54:13,150
+requirements without having to kind of
+
+1441
+00:54:21,240 --> 00:54:17,500
+jump through a lot of Hoops to to do it
+
+1442
+00:54:22,920 --> 00:54:21,250
+in a more analytical kind of way heard
+
+1443
+00:54:24,780 --> 00:54:22,930
+you mentioned sylph so for those in the
+
+1444
+00:54:26,490 --> 00:54:24,790
+audience self was a small set concept to
+
+1445
+00:54:28,590 --> 00:54:26,500
+JPL produced which would fly through a
+
+1446
+00:54:31,140 --> 00:54:28,600
+plume on Europa and it was a trash can
+
+1447
+00:54:33,150 --> 00:54:31,150
+size satellite so like a propane tank is
+
+1448
+00:54:34,710 --> 00:54:33,160
+about 80 kilograms and from planetary
+
+1449
+00:54:37,260 --> 00:54:34,720
+protection in that case we actually
+
+1450
+00:54:39,480 --> 00:54:37,270
+leverage some of the CubeSat concepts so
+1451
+00:54:40,710 --> 00:54:39,490
+by going from a square form factor to
+
+1452
+00:54:43,260 --> 00:54:40,720
+this round form factor we actually
+
+1453
+00:54:44,580 --> 00:54:43,270
+designed it to to basically meet the
+
+1454
+00:54:47,070 --> 00:54:44,590
+planetary protection requirements of
+
+1455
+00:54:48,600 --> 00:54:47,080
+Europa and because it was small we said
+
+1456
+00:54:50,610 --> 00:54:48,610
+we took the approach of saying what if
+
+1457
+00:54:52,260 --> 00:54:50,620
+it does impact and design it to be that
+
+1458
+00:54:54,030 --> 00:54:52,270
+designed it to basically meet those
+
+1459
+00:54:55,140 --> 00:54:54,040
+requirements the thing that made it kind
+
+1460
+00:54:56,520 --> 00:54:55,150
+of cute that like even though it was
+
+1461
+00:54:58,260 --> 00:54:56,530
+cylinder shaped in that in that
+
+1462
+00:54:59,790 --> 00:54:58,270
+Jupiter's environment was
+
+1463
+00:55:01,260 --> 00:54:59,800
+it was actually in a dispenser of its
+
+1464
+00:55:03,180 --> 00:55:01,270
+own that actually acted as the bio
+
+1465
+00:55:05,370 --> 00:55:03,190
+barrier to keep outside contamination
+
+1466
+00:55:06,540 --> 00:55:05,380
+from getting on that probe itself so
+
+1467
+00:55:08,400 --> 00:55:06,550
+that's kind of a leveraging of those
+
+1468
+00:55:12,420 --> 00:55:08,410
+technologies which actually was really
+
+1469
+00:55:14,760 --> 00:55:12,430
+interesting thank you so I got a twofer
+
+1470
+00:55:15,870 --> 00:55:14,770
+for you from from YouTube from our
+
+1471
+00:55:18,420 --> 00:55:15,880
+viewers on YouTube because I think
+
+1472
+00:55:20,490 --> 00:55:18,430
+they're connected so the first question
+
+1473
+00:55:23,550 --> 00:55:20,500
+comes from yan who asks is the
+
+1474
+00:55:25,500 --> 00:55:23,560
+probability of a CubeSat collision with
+
+1475
+00:55:30,120 --> 00:55:25,510
+space debris so small that it's not a
+1476
+00:55:32,880 --> 00:55:30,130
+concern but sue Miyagi asks what is the
+
+1477
+00:55:34,710 --> 00:55:32,890
+lifetime of a CubeSat and I am i right
+
+1478
+00:55:36,660 --> 00:55:34,720
+that those are connected they are
+
+1479
+00:55:38,010 --> 00:55:36,670
+connected so in the case of rain cube
+
+1480
+00:55:39,780 --> 00:55:38,020
+you know we saw our had we had our
+
+1481
+00:55:41,340 --> 00:55:39,790
+deployables and there's actually a low
+
+1482
+00:55:43,020 --> 00:55:41,350
+there's very little atmosphere in our
+
+1483
+00:55:44,400 --> 00:55:43,030
+altitude we're up at about 400
+
+1484
+00:55:47,070 --> 00:55:44,410
+kilometers which is similar to the space
+
+1485
+00:55:48,660 --> 00:55:47,080
+station depending on if we're flying
+
+1486
+00:55:51,330 --> 00:55:48,670
+with our solar panels like right in the
+
+1487
+00:55:52,740 --> 00:55:51,340
+in I would call the wind but depending
+
+1488
+00:55:55,020 --> 00:55:52,750
+on how much drag you have to fix your
+
+1489
+00:55:56,460 --> 00:55:55,030
+life so we designed rain cube for a
+
+1490
+00:55:58,530 --> 00:55:56,470
+three month mission thinking it might
+
+1491
+00:55:59,520 --> 00:55:58,540
+come down as quickly as six months but
+
+1492
+00:56:01,440 --> 00:55:59,530
+it looks like it can actually stay up
+
+1493
+00:56:02,940 --> 00:56:01,450
+for a few years as you get a little bit
+
+1494
+00:56:05,310 --> 00:56:02,950
+higher in the few hundred kilometer
+
+1495
+00:56:06,600 --> 00:56:05,320
+category it might take more years but
+
+1496
+00:56:08,280 --> 00:56:06,610
+generally there is a requirement that
+
+1497
+00:56:11,430 --> 00:56:08,290
+you have to show that your spacecraft
+
+1498
+00:56:12,810 --> 00:56:11,440
+will deorbit within 25 years so you can
+
+1499
+00:56:14,550 --> 00:56:12,820
+do that through either analysis saying
+
+1500
+00:56:17,040 --> 00:56:14,560
+that the atmospheric drag models say you
+1501
+00:56:18,840 --> 00:56:17,050
+will or perhaps you put on a propulsion
+
+1502
+00:56:20,280 --> 00:56:18,850
+system to push you down there's also
+
+1503
+00:56:22,200 --> 00:56:20,290
+concepts that have these giant
+
+1504
+00:56:23,520 --> 00:56:22,210
+inflatable airbags basically to increase
+
+1505
+00:56:26,700 --> 00:56:23,530
+their drag to actually pull them down
+
+1506
+00:56:30,030 --> 00:56:26,710
+down faster I don't know if there's been
+
+1507
+00:56:33,140 --> 00:56:30,040
+a collision I don't know of one with a
+
+1508
+00:56:33,150 --> 00:56:38,900
+[Laughter]
+
+1509
+00:56:43,890 --> 00:56:41,040
+sorry I'm new to the CubeSat
+
+1510
+00:56:46,890 --> 00:56:43,900
+technology so sorry if I misinterpret
+
+1511
+00:56:50,220 --> 00:56:46,900
+the acronyms but my question was how
+
+1512
+00:56:51,840 --> 00:56:50,230
+long is the cube stats that are out
+
+1513
+00:56:53,640 --> 00:56:51,850
+there what's the longest that they've
+
+1514
+00:56:55,140 --> 00:56:53,650
+been out there the one that thousands or
+
+1515
+00:56:58,200 --> 00:56:55,150
+so that you had mentioned that are up in
+
+1516
+00:57:00,450 --> 00:56:58,210
+space what like what's the longest time
+
+1517
+00:57:02,490 --> 00:57:00,460
+that they've been out in orbit the first
+
+1518
+00:57:09,030 --> 00:57:02,500
+ones that his phone is actually still
+
+1519
+00:57:13,800 --> 00:57:11,430
+as a Japanese one and I'm gonna have to
+
+1520
+00:57:16,410 --> 00:57:13,810
+look up the name now but then yeah it's
+
+1521
+00:57:18,480 --> 00:57:16,420
+it's still operating it's it is this
+
+1522
+00:57:20,130 --> 00:57:18,490
+it's at a slightly higher orbit so I
+
+1523
+00:57:21,960 --> 00:57:20,140
+think it'll that one in particular might
+
+1524
+00:57:25,140 --> 00:57:21,970
+stay up there for a little longer than
+
+1525
+00:57:27,300 --> 00:57:25,150
+25 years but the yeah that's that's the
+1526
+00:57:29,100 --> 00:57:27,310
+longest-running one that I know of a lot
+
+1527
+00:57:31,260 --> 00:57:29,110
+of the more recent ones are flown to an
+
+1528
+00:57:32,760 --> 00:57:31,270
+International Space Station orbit and
+
+1529
+00:57:36,270 --> 00:57:32,770
+those are low enough that they kind of
+
+1530
+00:57:39,750 --> 00:57:36,280
+come down within a few years give or
+
+1531
+00:57:41,130 --> 00:57:39,760
+take and the for those I think most of
+
+1532
+00:57:44,190 --> 00:57:41,140
+us have actually been limited by the
+
+1533
+00:57:47,310 --> 00:57:44,200
+lifetime they've still been working it's
+
+1534
+00:57:49,770 --> 00:57:47,320
+like there's kind of a within the first
+
+1535
+00:57:53,010 --> 00:57:49,780
+day or like early part of the mission if
+
+1536
+00:57:56,310 --> 00:57:53,020
+there's kind of a bimodal failure so
+
+1537
+00:57:57,630 --> 00:57:56,320
+there's some that die very quickly but
+
+1538
+00:58:00,390 --> 00:57:57,640
+if you kind of get past that initial
+
+1539
+00:58:02,490 --> 00:58:00,400
+hump they actually tend to last pretty
+
+1540
+00:58:04,560 --> 00:58:02,500
+long time I'm trying to get my brain
+
+1541
+00:58:07,820 --> 00:58:04,570
+wrapped around what keeps them staying
+
+1542
+00:58:10,890 --> 00:58:07,830
+up that long like what's the I guess the
+
+1543
+00:58:12,300 --> 00:58:10,900
+energy that they use they're in orbit so
+
+1544
+00:58:14,190 --> 00:58:12,310
+just like the International Space
+
+1545
+00:58:16,350 --> 00:58:14,200
+Station and other big satellites out
+
+1546
+00:58:18,510 --> 00:58:16,360
+there they're designed and high enough
+
+1547
+00:58:20,520 --> 00:58:18,520
+and going fast enough that they're
+
+1548
+00:58:23,550 --> 00:58:20,530
+essentially continuously falling but
+
+1549
+00:58:25,650 --> 00:58:23,560
+they're falling at a speed high in a
+
+1550
+00:58:26,880 --> 00:58:25,660
+speed high enough and an altitude high
+1551
+00:58:28,290 --> 00:58:26,890
+enough that they will never hit the
+
+1552
+00:58:30,150 --> 00:58:28,300
+surface of the earth so they keep
+
+1553
+00:58:31,680 --> 00:58:30,160
+sustaining that okay thank you so much
+
+1554
+00:58:34,230 --> 00:58:31,690
+you could put a propulsion like some
+
+1555
+00:58:35,610 --> 00:58:34,240
+missions that like Marco which have a
+
+1556
+00:58:37,650 --> 00:58:35,620
+propulsion system you can actually use
+
+1557
+00:58:39,750 --> 00:58:37,660
+that to actually keep yourself up so in
+
+1558
+00:58:40,890 --> 00:58:39,760
+the case of rain cube if we had a future
+
+1559
+00:58:42,660 --> 00:58:40,900
+mission that we one of the last for many
+
+1560
+00:58:44,070 --> 00:58:42,670
+years a future concept could have a
+
+1561
+00:58:46,020 --> 00:58:44,080
+propulsion system that actually keep us
+
+1562
+00:58:52,620 --> 00:58:46,030
+at the specific altitude we needed for
+
+1563
+00:58:54,930 --> 00:58:52,630
+science so I heard you mentioning that
+
+1564
+00:58:56,660 --> 00:58:54,940
+the cube SATs are starting to even be
+
+1565
+00:58:59,490 --> 00:58:56,670
+used in high schools and middle schools
+
+1566
+00:59:02,220 --> 00:58:59,500
+are these seen in like the future more
+
+1567
+00:59:03,630 --> 00:59:02,230
+as like an educational tool or like you
+
+1568
+00:59:05,760 --> 00:59:03,640
+know introduction into like you know
+
+1569
+00:59:10,290 --> 00:59:05,770
+aerospace engineering class type of
+
+1570
+00:59:12,510 --> 00:59:10,300
+thing oh well I guess yeah so I'm not I
+
+1571
+00:59:13,800 --> 00:59:12,520
+know that some of the schools that have
+
+1572
+00:59:15,030 --> 00:59:13,810
+been featured like the high schools and
+
+1573
+00:59:17,430 --> 00:59:15,040
+missile have actually been partnerships
+
+1574
+00:59:18,990 --> 00:59:17,440
+with NASA centers so similar I think you
+
+1575
+00:59:20,430 --> 00:59:19,000
+might select some robotics programs that
+1576
+00:59:21,600 --> 00:59:20,440
+have partnerships but they are
+
+1577
+00:59:23,309 --> 00:59:21,610
+traditionally used as kind of an
+
+1578
+00:59:24,990 --> 00:59:23,319
+educational platform
+
+1579
+00:59:26,430 --> 00:59:25,000
+with the proliferation of the standard
+
+1580
+00:59:29,279 --> 00:59:26,440
+you've actually seen companies that are
+
+1581
+00:59:30,990 --> 00:59:29,289
+basically developing kits that you can
+
+1582
+00:59:31,950 --> 00:59:31,000
+buy and you can take to your school and
+
+1583
+00:59:33,750 --> 00:59:31,960
+you can learn kind of the first
+
+1584
+00:59:35,609 --> 00:59:33,760
+principles of engineering but then it
+
+1585
+00:59:37,289 --> 00:59:35,619
+kind of has this open perhaps has an
+
+1586
+00:59:38,460 --> 00:59:37,299
+open interface for you could plug in
+
+1587
+00:59:40,019 --> 00:59:38,470
+your own camera or plug in a different
+
+1588
+00:59:41,069 --> 00:59:40,029
+payload so they've done a lot of the
+
+1589
+00:59:42,809 --> 00:59:41,079
+engineering to kind of make something
+
+1590
+00:59:44,039 --> 00:59:42,819
+that will get up there and power on and
+
+1591
+00:59:46,349 --> 00:59:44,049
+communicate back to you and then you can
+
+1592
+00:59:47,940 --> 00:59:46,359
+kind of grow from there I'm not too
+
+1593
+00:59:50,010 --> 00:59:47,950
+familiar with some of these packages but
+
+1594
+00:59:52,529 --> 00:59:50,020
+I'm sure you know it'd be easy to find
+
+1595
+00:59:53,970 --> 00:59:52,539
+and and it'd be a great opportunity for
+
+1596
+00:59:55,019 --> 00:59:53,980
+young people I wish I had been able to
+
+1597
+00:59:56,309 --> 00:59:55,029
+work on keep stats when I was in
+
+1598
+01:00:02,279 --> 00:59:56,319
+elementary school but I was just you
+
+1599
+01:00:04,319 --> 01:00:02,289
+know I don't know NASA Ames is actually
+
+1600
+01:00:06,359 --> 01:00:04,329
+running a program called tech ed set and
+1601
+01:00:09,539 --> 01:00:06,369
+so they fly a lot of essentially they
+
+1602
+01:00:12,000 --> 01:00:09,549
+would they fly the main spacecraft and
+
+1603
+01:00:14,279 --> 01:00:12,010
+then you can kind of buy a slice or
+
+1604
+01:00:16,140 --> 01:00:14,289
+design a slice to go in that CubeSat and
+
+1605
+01:00:18,390 --> 01:00:16,150
+kind of fly your own payload along with
+
+1606
+01:00:20,250 --> 01:00:18,400
+it so that's another way that it from
+
+1607
+01:00:24,660 --> 01:00:20,260
+kind of more educational perspectives
+
+1608
+01:00:32,549 --> 01:00:24,670
+and a little bit of a smaller bite to
+
+1609
+01:00:35,309 --> 01:00:32,559
+chew on I am my name is Susan Park from
+
+1610
+01:00:39,210 --> 01:00:35,319
+South Korea today and I prepared some
+
+1611
+01:00:42,710 --> 01:00:39,220
+questions about in addition to her
+
+1612
+01:00:46,769 --> 01:00:42,720
+question do you think it is possible for
+
+1613
+01:00:50,010 --> 01:00:46,779
+individuals to explore and use space by
+
+1614
+01:00:52,589 --> 01:00:50,020
+Cuba sets in the future can you repeat
+
+1615
+01:00:56,329 --> 01:00:52,599
+the question again sorry do you think it
+
+1616
+01:01:00,480 --> 01:00:56,339
+is possible to utilize the space and
+
+1617
+01:01:02,549 --> 01:01:00,490
+explore the space by using Cuba says so
+
+1618
+01:01:05,069 --> 01:01:02,559
+I think your are you asking if an
+
+1619
+01:01:08,250 --> 01:01:05,079
+individual person might be make their
+
+1620
+01:01:11,960 --> 01:01:08,260
+own CubeSat yeah if you have the right
+
+1621
+01:01:17,940 --> 01:01:14,519
+yeah it's a lot of it's almost like
+
+1622
+01:01:21,150 --> 01:01:17,950
+building a computer but the computer has
+
+1623
+01:01:22,289 --> 01:01:21,160
+to work a lot farther away from you and
+
+1624
+01:01:23,849 --> 01:01:22,299
+you have to be able to talk to it and
+
+1625
+01:01:26,789 --> 01:01:23,859
+you can't touch it if something breaks
+1626
+01:01:28,920 --> 01:01:26,799
+so it's a lot more complicated than you
+
+1627
+01:01:30,210 --> 01:01:28,930
+might initially think but Dad on to that
+
+1628
+01:01:32,910 --> 01:01:30,220
+I think you know with the proliferation
+
+1629
+01:01:34,289 --> 01:01:32,920
+of these small set companies you now
+
+1630
+01:01:36,049 --> 01:01:34,299
+have companies that are dedicated to
+
+1631
+01:01:37,279 --> 01:01:36,059
+providing ground stations
+
+1632
+01:01:38,989 --> 01:01:37,289
+so they're building the antennas and
+
+1633
+01:01:40,880 --> 01:01:38,999
+they build a beautiful web interface for
+
+1634
+01:01:42,799 --> 01:01:40,890
+you to just log in and you can point the
+
+1635
+01:01:44,599 --> 01:01:42,809
+antenna at your CubeSat so there's been
+
+1636
+01:01:46,039 --> 01:01:44,609
+a huge push as all these other companies
+
+1637
+01:01:47,979 --> 01:01:46,049
+have grown for I think a great
+
+1638
+01:01:50,660 --> 01:01:47,989
+opportunity for individuals to start
+
+1639
+01:01:53,959 --> 01:01:50,670
+getting their own access into space and
+
+1640
+01:01:58,699 --> 01:01:53,969
+thank you and I have read the fact sheet
+
+1641
+01:02:02,679 --> 01:01:58,709
+about Marco and do you have any special
+
+1642
+01:02:05,809 --> 01:02:02,689
+reason to use identical two chipsets
+
+1643
+01:02:07,670 --> 01:02:05,819
+mostly because when you build two of the
+
+1644
+01:02:09,920 --> 01:02:07,680
+same thing you know how to do it so you
+
+1645
+01:02:11,089 --> 01:02:09,930
+if you build one you know exactly how to
+
+1646
+01:02:12,459 --> 01:02:11,099
+build the second one you don't have to
+
+1647
+01:02:15,469 --> 01:02:12,469
+change anything
+
+1648
+01:02:16,880 --> 01:02:15,479
+it was also redundancy so I actually
+
+1649
+01:02:18,739 --> 01:02:16,890
+worked on the other side I was actually
+
+1650
+01:02:21,259 --> 01:02:18,749
+working on insight I'm during the the
+1651
+01:02:22,459 --> 01:02:21,269
+EDL day and when both mark both markers
+
+1652
+01:02:23,599 --> 01:02:22,469
+were actually collecting the data but
+
+1653
+01:02:24,979 --> 01:02:23,609
+that way in case there was a hiccup with
+
+1654
+01:02:25,880 --> 01:02:24,989
+one if the other one was still there
+
+1655
+01:02:29,319 --> 01:02:25,890
+would still be able to get it back
+
+1656
+01:02:33,289 --> 01:02:29,329
+although they both works perfectly so
+
+1657
+01:02:38,709 --> 01:02:33,299
+and one more and during the way to Mars
+
+1658
+01:02:41,749 --> 01:02:38,719
+for the two cube sets and it it will be
+
+1659
+01:02:45,529 --> 01:02:41,759
+exposed to very high particles and
+
+1660
+01:02:49,069 --> 01:02:45,539
+radiations how can we simulate the
+
+1661
+01:02:52,669 --> 01:02:49,079
+situation in Earth's there are actually
+
+1662
+01:02:55,309 --> 01:02:52,679
+test facilities a few of them throughout
+
+1663
+01:02:57,410 --> 01:02:55,319
+the world that do radiation testing so
+
+1664
+01:02:59,539 --> 01:02:57,420
+it's a very it's a very controlled test
+
+1665
+01:03:02,630 --> 01:02:59,549
+but you essentially have you can send an
+
+1666
+01:03:04,880 --> 01:03:02,640
+ion beam to simulate like high energetic
+
+1667
+01:03:07,429 --> 01:03:04,890
+high energy particles you can also have
+
+1668
+01:03:10,549 --> 01:03:07,439
+it just sitting next to a source of
+
+1669
+01:03:13,309 --> 01:03:10,559
+radiation and kind of getting a total
+
+1670
+01:03:15,019 --> 01:03:13,319
+dose accumulating on it and you
+
+1671
+01:03:18,709 --> 01:03:15,029
+essentially put test boards in there and
+
+1672
+01:03:20,599 --> 01:03:18,719
+just see when they fail we're gonna take
+
+1673
+01:03:23,120 --> 01:03:20,609
+another question here from YouTube we
+
+1674
+01:03:26,179 --> 01:03:23,130
+have SSR 98 who's asking
+
+1675
+01:03:28,279 --> 01:03:26,189
+what are the most most used or preferred
+1676
+01:03:29,749 --> 01:03:28,289
+materials for building cube sets you
+
+1677
+01:03:32,150 --> 01:03:29,759
+talked about tape measures from the
+
+1678
+01:03:35,449 --> 01:03:32,160
+hardware store what else do you use to
+
+1679
+01:03:37,099 --> 01:03:35,459
+make these things a lot of aluminum and
+
+1680
+01:03:40,459 --> 01:03:37,109
+I remember once when I was in the
+
+1681
+01:03:43,189 --> 01:03:40,469
+university we actually bought like 5
+
+1682
+01:03:45,229 --> 01:03:43,199
+feet of an aluminum block it was five
+
+1683
+01:03:47,539 --> 01:03:45,239
+feet in is 5 inches on each side and we
+
+1684
+01:03:49,109 --> 01:03:47,549
+actually ended up slicing that up and
+
+1685
+01:03:50,460 --> 01:03:49,119
+then we milled out the inside
+
+1686
+01:03:52,529 --> 01:03:50,470
+the outsides to actually make the walls
+
+1687
+01:03:54,690 --> 01:03:52,539
+of our CubeSat and I remember thinking
+
+1688
+01:03:56,670 --> 01:03:54,700
+like oh we got like you know 300 pounds
+
+1689
+01:03:58,140 --> 01:03:56,680
+of aluminum it was only like $200 you
+
+1690
+01:04:01,650 --> 01:03:58,150
+know for all of that so a lot of
+
+1691
+01:04:03,900 --> 01:04:01,660
+aluminum a lot of circuit boards a lot
+
+1692
+01:04:05,160 --> 01:04:03,910
+of wiring wiring takes up a lot of the
+
+1693
+01:04:07,109 --> 01:04:05,170
+volume especially when you realize that
+
+1694
+01:04:09,120 --> 01:04:07,119
+wires have to bend around each other so
+
+1695
+01:04:10,920 --> 01:04:09,130
+that was one of the challenge would in
+
+1696
+01:04:12,539 --> 01:04:10,930
+school are one of our preferred tools
+
+1697
+01:04:14,640 --> 01:04:12,549
+for assembly was actually using dental
+
+1698
+01:04:15,660 --> 01:04:14,650
+tools so we would actually like stick
+
+1699
+01:04:16,769 --> 01:04:15,670
+you know you know in these to scrape
+
+1700
+01:04:17,910 --> 01:04:16,779
+your teeth to actually like stick that
+1701
+01:04:19,559 --> 01:04:17,920
+inside the CubeSat and use that to pull
+
+1702
+01:04:24,599 --> 01:04:19,569
+the wires through our little nooks and
+
+1703
+01:04:27,150 --> 01:04:24,609
+crannies so that gentleman's question
+
+1704
+01:04:30,150 --> 01:04:27,160
+about individuals using or building and
+
+1705
+01:04:32,579 --> 01:04:30,160
+using cube sets to do their own sort of
+
+1706
+01:04:35,579 --> 01:04:32,589
+private exploration of space got me
+
+1707
+01:04:37,559 --> 01:04:35,589
+wondering what are the legal regimes
+
+1708
+01:04:39,029 --> 01:04:37,569
+that govern the launch of these the
+
+1709
+01:04:40,769 --> 01:04:39,039
+crafts is the same as just launching
+
+1710
+01:04:41,849 --> 01:04:40,779
+larger satellites in other words how do
+
+1711
+01:04:45,180 --> 01:04:41,859
+you get that clearance who gives the
+
+1712
+01:04:48,480 --> 01:04:45,190
+clearance etc yeah so a lot of it is the
+
+1713
+01:04:49,980 --> 01:04:48,490
+FCC which is how you know know like
+
+1714
+01:04:53,390 --> 01:04:49,990
+Federal Communications Commission's
+
+1715
+01:04:55,829 --> 01:04:53,400
+Commission yeah so the so spectrum and
+
+1716
+01:04:59,539 --> 01:04:55,839
+one of them big things you really need
+
+1717
+01:05:01,349 --> 01:04:59,549
+to get approved regulation wise is the
+
+1718
+01:05:03,359 --> 01:05:01,359
+communication spectrum you use in the
+
+1719
+01:05:05,970 --> 01:05:03,369
+band you're using theirs in the
+
+1720
+01:05:08,569 --> 01:05:05,980
+frequencies that are typically used by
+
+1721
+01:05:11,130 --> 01:05:08,579
+cube sensing like the UHF regime
+
+1722
+01:05:15,089 --> 01:05:11,140
+specifically there is a lot there are a
+
+1723
+01:05:16,259 --> 01:05:15,099
+lot of assets using that band so it can
+
+1724
+01:05:17,970 --> 01:05:16,269
+get very noisy and so there are
+
+1725
+01:05:19,440 --> 01:05:17,980
+restrictions on what kind of bandwidth
+1726
+01:05:21,120 --> 01:05:19,450
+you can use what kind of power levels
+
+1727
+01:05:23,160 --> 01:05:21,130
+you can have when you can transmit them
+
+1728
+01:05:26,150 --> 01:05:23,170
+so that's that's one of the big ones in
+
+1729
+01:05:28,559 --> 01:05:26,160
+terms of regulations for flying these
+
+1730
+01:05:30,690 --> 01:05:28,569
+all right well there's a question from
+
+1731
+01:05:32,430 --> 01:05:30,700
+YouTube from ultimate who wants to know
+
+1732
+01:05:35,999 --> 01:05:32,440
+how are you planning to improve these
+
+1733
+01:05:37,319 --> 01:05:36,009
+satellites how are you you know what are
+
+1734
+01:05:38,370 --> 01:05:37,329
+you talked about some of the places you
+
+1735
+01:05:40,650 --> 01:05:38,380
+want to send them and some of the things
+
+1736
+01:05:42,450 --> 01:05:40,660
+they could do but what would you like to
+
+1737
+01:05:48,989 --> 01:05:42,460
+them to do better do they need to be
+
+1738
+01:05:55,109 --> 01:05:48,999
+smaller I think we're doing a great job
+
+1739
+01:05:56,759 --> 01:05:55,119
+right now I well so an mentioned a lot
+
+1740
+01:05:59,339 --> 01:05:56,769
+of the grand challenges that I think
+
+1741
+01:06:00,870 --> 01:05:59,349
+keeps had to have earth is really nice
+
+1742
+01:06:02,400 --> 01:06:00,880
+because you know you go you have
+
+1743
+01:06:02,820 --> 01:06:02,410
+sunshine but you have a clip so you got
+
+1744
+01:06:06,090 --> 01:06:02,830
+the magnet
+
+1745
+01:06:07,680 --> 01:06:06,100
+field designing everything I think in my
+
+1746
+01:06:09,600 --> 01:06:07,690
+opinion altum Utley boils down to power
+
+1747
+01:06:11,220 --> 01:06:09,610
+so you need power to communicate back to
+
+1748
+01:06:13,650 --> 01:06:11,230
+earth at these incredible distances and
+
+1749
+01:06:15,570 --> 01:06:13,660
+you need power to keep yourself warm at
+
+1750
+01:06:17,310 --> 01:06:15,580
+these incredible distances and one of
+1751
+01:06:18,510 --> 01:06:17,320
+the grand challenges is once you start
+
+1752
+01:06:19,910 --> 01:06:18,520
+going out farther in the solar system
+
+1753
+01:06:23,460 --> 01:06:19,920
+how do you generate enough electricity
+
+1754
+01:06:24,600 --> 01:06:23,470
+so you know if we have Voyager sitting
+
+1755
+01:06:26,490 --> 01:06:24,610
+over here which you used to know the
+
+1756
+01:06:28,590 --> 01:06:26,500
+radioisotope power sources we have
+
+1757
+01:06:30,270 --> 01:06:28,600
+Europa clipper which is using solar
+
+1758
+01:06:32,940 --> 01:06:30,280
+panels out at Jupiter's distances but
+
+1759
+01:06:34,050 --> 01:06:32,950
+those solar panels are so huge compared
+
+1760
+01:06:37,350 --> 01:06:34,060
+to the size of the actual spacecraft
+
+1761
+01:06:39,420 --> 01:06:37,360
+itself and on the small form-factor it
+
+1762
+01:06:42,150 --> 01:06:39,430
+can be very difficult to fit these very
+
+1763
+01:06:44,250 --> 01:06:42,160
+giant arrays onto such kind of a small
+
+1764
+01:06:47,190 --> 01:06:44,260
+box it doesn't really quite scale as
+
+1765
+01:06:49,020 --> 01:06:47,200
+nicely so I think a grand challenge is
+
+1766
+01:06:49,950 --> 01:06:49,030
+how do we get enough power when we're
+
+1767
+01:06:51,390 --> 01:06:49,960
+far away I think we know how to
+
+1768
+01:06:53,760 --> 01:06:51,400
+communicate and keep ourselves warm when
+
+1769
+01:06:58,040 --> 01:06:53,770
+we're there but I would personally like
+
+1770
+01:07:02,220 --> 01:07:00,540
+the 3u is the perfect size in the next
+
+1771
+01:07:03,900 --> 01:07:02,230
+heat of this all of ours were 6 use and
+
+1772
+01:07:08,670 --> 01:07:03,910
+they're like ah but 12 use those are the
+
+1773
+01:07:09,540 --> 01:07:08,680
+future now so I'm interested in the the
+
+1774
+01:07:11,040 --> 01:07:09,550
+dream of the future and that's
+
+1775
+01:07:12,990 --> 01:07:11,050
+interstellar and going to some other
+1776
+01:07:15,000 --> 01:07:13,000
+planet or star and get bringing back
+
+1777
+01:07:17,130 --> 01:07:15,010
+images do we have electronics that are
+
+1778
+01:07:18,990 --> 01:07:17,140
+that are capable of handling that sort
+
+1779
+01:07:20,760 --> 01:07:19,000
+of hard life or you know hard radiation
+
+1780
+01:07:22,470 --> 01:07:20,770
+because you're gonna have to do a nav
+
+1781
+01:07:24,690 --> 01:07:22,480
+system and you can't communicate it
+
+1782
+01:07:26,820 --> 01:07:24,700
+light at Lightyear distances how are we
+
+1783
+01:07:28,860 --> 01:07:26,830
+getting in there I said to my knowledge
+
+1784
+01:07:30,150 --> 01:07:28,870
+we don't have any technology right now
+
+1785
+01:07:32,930 --> 01:07:30,160
+but I know a lot of people are
+
+1786
+01:07:37,080 --> 01:07:32,940
+interested in doing that and so I'm sure
+
+1787
+01:07:43,830 --> 01:07:37,090
+we'll see it at some point comes back to
+
+1788
+01:07:46,740 --> 01:07:43,840
+power power had communications question
+
+1789
+01:07:49,260 --> 01:07:46,750
+given the sub our second pointing
+
+1790
+01:07:51,780 --> 01:07:49,270
+accuracy of Asteria what are your
+
+1791
+01:07:54,270 --> 01:07:51,790
+thoughts on optical communications Opel
+
+1792
+01:07:58,890 --> 01:07:54,280
+style from cue sets within cislunar
+
+1793
+01:08:01,710 --> 01:07:58,900
+space to earth optical communications is
+
+1794
+01:08:03,030 --> 01:08:01,720
+it is an active area of research and
+
+1795
+01:08:05,250 --> 01:08:03,040
+there have been a couple of payloads
+
+1796
+01:08:07,440 --> 01:08:05,260
+that have flown and and demonstrated the
+
+1797
+01:08:09,740 --> 01:08:07,450
+capability to do optical communications
+
+1798
+01:08:12,510 --> 01:08:09,750
+from and keeps that platform from
+
+1799
+01:08:14,520 --> 01:08:12,520
+distances beyond low-earth orbit it
+
+1800
+01:08:15,910 --> 01:08:14,530
+becomes more challenging for any kind of
+1801
+01:08:18,640 --> 01:08:15,920
+spacecraft because the you know
+
+1802
+01:08:21,340 --> 01:08:18,650
+pointing does have to be better I think
+
+1803
+01:08:23,710 --> 01:08:21,350
+there's at least one of the e/m payload
+
+1804
+01:08:26,590 --> 01:08:23,720
+em1 payloads that might be demonstrating
+
+1805
+01:08:27,640 --> 01:08:26,600
+that but I might be thinking of a
+
+1806
+01:08:29,530 --> 01:08:27,650
+different one yeah they've been
+
+1807
+01:08:31,510 --> 01:08:29,540
+universities and other institutions that
+
+1808
+01:08:34,530 --> 01:08:31,520
+have worked on optical on communication
+
+1809
+01:08:36,880 --> 01:08:34,540
+demonstration technologies thanks
+
+1810
+01:08:43,060 --> 01:08:36,890
+alright last question the honor goes to
+
+1811
+01:08:44,320 --> 01:08:43,070
+you sir sorry so regarding CubeSat C you
+
+1812
+01:08:46,270 --> 01:08:44,330
+know how in space we have larger
+
+1813
+01:08:48,100 --> 01:08:46,280
+satellites communicating with the earth
+
+1814
+01:08:49,630 --> 01:08:48,110
+right I'm wondering if we could have
+
+1815
+01:08:51,160 --> 01:08:49,640
+CubeSat to be the new future of
+
+1816
+01:08:54,160 --> 01:08:51,170
+technology to communicate with the rest
+
+1817
+01:08:55,870 --> 01:08:54,170
+of us if so how yes so there are
+
+1818
+01:08:57,730 --> 01:08:55,880
+companies like there's a company called
+
+1819
+01:08:59,620 --> 01:08:57,740
+one web and I believe SpaceX is looking
+
+1820
+01:09:01,840 --> 01:08:59,630
+into this too of building sending
+
+1821
+01:09:03,310 --> 01:09:01,850
+constellations of small sets not
+
+1822
+01:09:06,100 --> 01:09:03,320
+necessarily keep sets but definitely
+
+1823
+01:09:07,960 --> 01:09:06,110
+small sets to do just that to kind of
+
+1824
+01:09:10,180 --> 01:09:07,970
+provide this global internet or global
+
+1825
+01:09:13,020 --> 01:09:10,190
+communications capability so it's
+1826
+01:09:15,070 --> 01:09:13,030
+especially with the new with advances in
+
+1827
+01:09:17,080 --> 01:09:15,080
+shrinking this technology to fit on a
+
+1828
+01:09:18,460 --> 01:09:17,090
+smaller platform obviously the smaller
+
+1829
+01:09:20,050 --> 01:09:18,470
+it is the easier it is to launch the
+
+1830
+01:09:22,990 --> 01:09:20,060
+easier it is to launch a lot of them so
+
+1831
+01:09:27,730 --> 01:09:23,000
+that is a very very attractive thing to
+
+1832
+01:09:29,830 --> 01:09:27,740
+want to do well folks that's all the
+
+1833
+01:09:32,230 --> 01:09:29,840
+time we have for today thanks to
+
+1834
+01:09:34,450 --> 01:09:32,240
+everyone for joining us here and online
+
+1835
+01:09:36,730 --> 01:09:34,460
+of course thanks to our speakers join us
+
+1836
+01:09:39,610 --> 01:09:36,740
+again next month for a look at how we
+
+1837
+01:09:41,530 --> 01:09:39,620
+develop new space missions from concept
+
+1838
+01:09:43,150 --> 01:09:41,540
+to the launch pad so we'll see you then
+
+1839
+01:09:55,540 --> 01:09:43,160
+thank you so much for joining us
