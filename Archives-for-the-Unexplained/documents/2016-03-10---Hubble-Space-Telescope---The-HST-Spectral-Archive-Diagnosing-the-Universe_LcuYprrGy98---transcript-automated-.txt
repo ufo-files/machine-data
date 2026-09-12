@@ -1,0 +1,6302 @@
+{"created_utc": "2026-09-12T12:08:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 263622, "source_ctime_ns": 1788533533163672913, "source_file": "Archives-for-the-Unexplained/documents/2016-03-10---Hubble-Space-Telescope---The-HST-Spectral-Archive-Diagnosing-the-Universe_LcuYprrGy98---transcript-automated-.pdf", "source_mtime_ns": 1788533533153709790, "source_rel": "Archives-for-the-Unexplained/documents/2016-03-10---Hubble-Space-Telescope---The-HST-Spectral-Archive-Diagnosing-the-Universe_LcuYprrGy98---transcript-automated-.pdf", "source_sha256": "b517976616f2c33dd341c148dcbe473c03e7322fbe70abd36ef3482391029c86"}
+
+1
+00:00:09,080 --> 00:00:07,010
+hello everybody welcome back for this
+
+2
+00:00:10,669 --> 00:00:09,090
+week's Hubble hang out my name is Tony
+
+3
+00:00:12,049 --> 00:00:10,679
+Darnell and I think we've got another
+
+4
+00:00:13,839 --> 00:00:12,059
+great hangout planned for you this week
+
+5
+00:00:18,500 --> 00:00:13,849
+we're going to be talking about data and
+
+6
+00:00:20,179 --> 00:00:18,510
+analyzing the universe and so we we've
+
+7
+00:00:21,349 --> 00:00:20,189
+got all kinds of new stuff to show you
+
+8
+00:00:24,050 --> 00:00:21,359
+some new data sets that are available
+
+9
+00:00:25,490 --> 00:00:24,060
+not only just for astronomers and people
+
+10
+00:00:28,099 --> 00:00:25,500
+doing research but also to the general
+
+11
+00:00:30,019 --> 00:00:28,109
+public and so we're going to show you
+
+12
+00:00:31,040 --> 00:00:30,029
+some of these tools we're going to talk
+
+13
+00:00:32,479 --> 00:00:31,050
+about some of the data and some of the
+
+14
+00:00:34,700 --> 00:00:32,489
+things you can learn from them and how
+
+15
+00:00:36,200 --> 00:00:34,710
+you can access them as well but before I
+
+16
+00:00:40,450 --> 00:00:36,210
+get into all of that I have to introduce
+
+17
+00:00:46,670 --> 00:00:44,240
+introduce my co-host dr. carol christian
+
+18
+00:00:47,990 --> 00:00:46,680
+she is the HST outreach project
+
+19
+00:00:51,740 --> 00:00:48,000
+scientist see i can read i'm reading
+
+20
+00:00:53,990 --> 00:00:51,750
+your little lower third prize hello
+
+21
+00:00:55,880 --> 00:00:54,000
+everybody i have new skills i've just
+
+22
+00:00:58,910 --> 00:00:55,890
+got mad skills and also joining me is
+
+23
+00:01:01,939 --> 00:00:58,920
+scott lewis the online outreach what's
+
+24
+00:01:05,600 --> 00:01:01,949
+that word specialist i am just special
+
+25
+00:01:07,609 --> 00:01:05,610
+just put special no botanist yeah you
+26
+00:01:09,679 --> 00:01:07,619
+know Scott our little a little meme of
+
+27
+00:01:11,690 --> 00:01:09,689
+mo bigger mo better didn't catch on last
+
+28
+00:01:14,149 --> 00:01:11,700
+week you know there's a I'd be as I
+
+29
+00:01:17,120 --> 00:01:14,159
+didn't see it well I'll work on that
+
+30
+00:01:18,859 --> 00:01:17,130
+yeah mo mo bigger mo bigger well today
+
+31
+00:01:20,539 --> 00:01:18,869
+we're talking about mo better we r mo
+
+32
+00:01:22,219 --> 00:01:20,549
+better today because we are going to be
+
+33
+00:01:24,530 --> 00:01:22,229
+talking about some data that are coming
+
+34
+00:01:27,859 --> 00:01:24,540
+from the Hubble Space Telescope and is
+
+35
+00:01:29,840 --> 00:01:27,869
+being archived on that on the Mikulski
+
+36
+00:01:31,490 --> 00:01:29,850
+archive for space telescopes now one of
+
+37
+00:01:32,929 --> 00:01:31,500
+the things that you may not realize
+
+38
+00:01:35,450 --> 00:01:32,939
+about what the Institute does in
+
+39
+00:01:37,219 --> 00:01:35,460
+addition to operating the Hubble on a
+
+40
+00:01:38,960 --> 00:01:37,229
+day to day basis it employs great many
+
+41
+00:01:41,929 --> 00:01:38,970
+astronomers who do science with it also
+
+42
+00:01:46,219 --> 00:01:41,939
+on a daily basis and but we also handle
+
+43
+00:01:47,960 --> 00:01:46,229
+and distribute and serve the data that
+
+44
+00:01:49,700 --> 00:01:47,970
+comes off of not just humble but a lot
+
+45
+00:01:51,020 --> 00:01:49,710
+of different instruments and we're going
+
+46
+00:01:52,160 --> 00:01:51,030
+to talk about that today with some of
+
+47
+00:01:54,410 --> 00:01:52,170
+the people who were working on and
+
+48
+00:01:59,359 --> 00:01:54,420
+joining me today is dr. Molly peoples
+
+49
+00:02:00,980 --> 00:01:59,369
+estranha Molly ok and add she's gonna
+
+50
+00:02:02,510 --> 00:02:00,990
+here to tell us about it she's been in
+51
+00:02:04,999 --> 00:02:02,520
+hangouts before welcome back Polly it's
+
+52
+00:02:06,830 --> 00:02:05,009
+good to see you again we're also to
+
+53
+00:02:08,240 --> 00:02:06,840
+explain the archive with us dr. Jason
+
+54
+00:02:13,100 --> 00:02:08,250
+Tomlinson he's been on these before he
+
+55
+00:02:13,700 --> 00:02:13,110
+is not on Twitter as his as the has in
+
+56
+00:02:15,470 --> 00:02:13,710
+his
+
+57
+00:02:18,860 --> 00:02:15,480
+heard everybody says I'm getting a lot
+
+58
+00:02:21,260 --> 00:02:18,870
+of sweet Lonnie yeah so welcome Jason
+
+59
+00:02:25,580 --> 00:02:21,270
+good glad notice a note on Twitter okay
+
+60
+00:02:27,410 --> 00:02:25,590
+I get it no no tundra not on Twitter yes
+
+61
+00:02:29,450 --> 00:02:27,420
+and so everybody says eating a lot of
+
+62
+00:02:31,460 --> 00:02:29,460
+glare from my glasses so I should
+
+63
+00:02:34,580 --> 00:02:31,470
+probably back up I'll do this then okay
+
+64
+00:02:37,070 --> 00:02:34,590
+so there we go sorry I can't do it it's
+
+65
+00:02:40,280 --> 00:02:37,080
+still there yeah that's okay I'll dirt
+
+66
+00:02:42,980 --> 00:02:40,290
+yeah that's good that's good how about I
+
+67
+00:02:45,230 --> 00:02:42,990
+can look up like this yeah so can we do
+
+68
+00:02:47,360 --> 00:02:45,240
+spectroscopy and what's being reflected
+
+69
+00:02:49,070 --> 00:02:47,370
+the dresser you can watch me surf the
+
+70
+00:02:51,650 --> 00:02:49,080
+internet while I'm gonna doing to hang
+
+71
+00:02:54,170 --> 00:02:51,660
+out I got I guess I better keep it clean
+
+72
+00:02:55,940 --> 00:02:54,180
+huh okay so we we want you guys to
+
+73
+00:02:58,970 --> 00:02:55,950
+interact with us and ask us questions
+
+74
+00:03:00,680 --> 00:02:58,980
+and talk to us about these the the
+
+75
+00:03:01,730 --> 00:03:00,690
+babies we're going to be showing you as
+76
+00:03:03,710 --> 00:03:01,740
+well as any questions you might have
+
+77
+00:03:05,710 --> 00:03:03,720
+regarding Hubble or some of the science
+
+78
+00:03:07,640 --> 00:03:05,720
+that can be done with this with this
+
+79
+00:03:09,260 --> 00:03:07,650
+data that we're going to be showing you
+
+80
+00:03:11,750 --> 00:03:09,270
+but before we do we should tell you how
+
+81
+00:03:13,940 --> 00:03:11,760
+to do it now one of a there's a hint
+
+82
+00:03:16,040 --> 00:03:13,950
+right there on my lower third I am on
+
+83
+00:03:17,570 --> 00:03:16,050
+Twitter but I'm also looking for that
+
+84
+00:03:19,340 --> 00:03:17,580
+and I'm gonna have Scott tell you how to
+
+85
+00:03:20,930 --> 00:03:19,350
+do it Scotty that's right i mean it kind
+
+86
+00:03:23,060 --> 00:03:20,940
+of helps if we show you how we can do
+
+87
+00:03:24,770 --> 00:03:23,070
+that so he bests the way since you're
+
+88
+00:03:26,450 --> 00:03:24,780
+watching it's live right now hopefully
+
+89
+00:03:27,710 --> 00:03:26,460
+I'm if you're not we'll we'll give you
+
+90
+00:03:29,090 --> 00:03:27,720
+those other things later but as I'm
+
+91
+00:03:30,620 --> 00:03:29,100
+seeing here we have a bunch of people in
+
+92
+00:03:32,870 --> 00:03:30,630
+our live chat so we're up on YouTube
+
+93
+00:03:35,060 --> 00:03:32,880
+right now i'm using a youtube live event
+
+94
+00:03:37,130 --> 00:03:35,070
+and so i'm seeing a bunch of people
+
+95
+00:03:40,490 --> 00:03:37,140
+already commenting so hello everyone in
+
+96
+00:03:42,860 --> 00:03:40,500
+the youtube live chat hello is Tony had
+
+97
+00:03:44,480 --> 00:03:42,870
+mentioned we are on Twitter she will be
+
+98
+00:03:46,370 --> 00:03:44,490
+live tweeting this event ins as far as
+
+99
+00:03:47,750 --> 00:03:46,380
+any pictures and links that are going on
+
+100
+00:03:49,370 --> 00:03:47,760
+with it and we'll be using the hashtag
+101
+00:03:51,680 --> 00:03:49,380
+Hubble hang out so if you have any
+
+102
+00:03:54,140 --> 00:03:51,690
+questions or comments about spectroscopy
+
+103
+00:03:56,720 --> 00:03:54,150
+and the topics that will be hitting
+
+104
+00:03:59,120 --> 00:03:56,730
+today please use that hashtag hub will
+
+105
+00:04:00,200 --> 00:03:59,130
+hang out and I'm also monitoring the the
+
+106
+00:04:02,090 --> 00:04:00,210
+comments that are being put up on her
+
+107
+00:04:03,680 --> 00:04:02,100
+Facebook and Google+ events so if you
+
+108
+00:04:05,720 --> 00:04:03,690
+have anything like that I will try to
+
+109
+00:04:07,310 --> 00:04:05,730
+get to them but the best and most
+
+110
+00:04:10,640 --> 00:04:07,320
+efficient way is the YouTube live chat
+
+111
+00:04:12,920 --> 00:04:10,650
+and on Twitter okay so someone just
+
+112
+00:04:15,110 --> 00:04:12,930
+joined who is this John yeah this is
+
+113
+00:04:18,050 --> 00:04:15,120
+John okay hi John you want to reduce
+
+114
+00:04:19,310 --> 00:04:18,060
+yourself yeah I'm John O'Mara from st.
+
+115
+00:04:21,590 --> 00:04:19,320
+Michael's College in the great state of
+
+116
+00:04:22,730 --> 00:04:21,600
+Vermont frequent Hubble user oh cool
+
+117
+00:04:24,500 --> 00:04:22,740
+alright so you're here to tell us about
+
+118
+00:04:26,450 --> 00:04:24,510
+the spectral archive as well you're
+
+119
+00:04:27,660 --> 00:04:26,460
+awesome great well we're getting started
+
+120
+00:04:29,220 --> 00:04:27,670
+just now so welcome
+
+121
+00:04:30,390 --> 00:04:29,230
+uh we would like to have you have a
+
+122
+00:04:31,740 --> 00:04:30,400
+lower third but we don't have time to
+
+123
+00:04:34,170 --> 00:04:31,750
+get into that right now so we'll just go
+
+124
+00:04:36,090 --> 00:04:34,180
+ahead and get started so as I mentioned
+
+125
+00:04:39,330 --> 00:04:36,100
+at the start of this we are we're
+126
+00:04:41,400 --> 00:04:39,340
+talking about the Hubble uh the Hubble
+
+127
+00:04:44,910 --> 00:04:41,410
+spectral archive now we in the past
+
+128
+00:04:46,710 --> 00:04:44,920
+we've given you hangouts on the Hubble
+
+129
+00:04:48,480 --> 00:04:46,720
+legacy archive which has to do with old
+
+130
+00:04:50,250 --> 00:04:48,490
+the older data that the hubble hubble
+
+131
+00:04:52,470 --> 00:04:50,260
+spin around for 25 years folks so we've
+
+132
+00:04:53,610 --> 00:04:52,480
+got a lot of data to serve and from all
+
+133
+00:04:56,330 --> 00:04:53,620
+kinds of different instruments there's
+
+134
+00:04:58,710 --> 00:04:56,340
+also the mast archive in general which
+
+135
+00:05:00,780 --> 00:04:58,720
+hosts not just data from Hubble but
+
+136
+00:05:02,790 --> 00:05:00,790
+carol can you give us a brief background
+
+137
+00:05:05,580 --> 00:05:02,800
+what are some of the other instruments
+
+138
+00:05:10,050 --> 00:05:05,590
+that we're serving data from in the in
+
+139
+00:05:13,070 --> 00:05:10,060
+the archive oh my god well it's a lot
+
+140
+00:05:16,140 --> 00:05:13,080
+right there's no yo yes all the Hubble
+
+141
+00:05:19,680 --> 00:05:16,150
+and people are most familiar with the
+
+142
+00:05:21,120 --> 00:05:19,690
+imagery from the old cameras you know we
+
+143
+00:05:23,850 --> 00:05:21,130
+still we have all the imagery from the
+
+144
+00:05:26,390 --> 00:05:23,860
+old cameras that were removed like with
+
+145
+00:05:30,300 --> 00:05:26,400
+pick and pick two and things like that
+
+146
+00:05:33,000 --> 00:05:30,310
+we had wide field camera 3 advanced
+
+147
+00:05:35,340 --> 00:05:33,010
+camera for surveys etc and then the
+
+148
+00:05:38,160 --> 00:05:35,350
+spectrographs this dis and call cost as
+
+149
+00:05:43,350 --> 00:05:38,170
+they're called but we have something
+
+150
+00:05:46,910 --> 00:05:43,360
+like 13 missions in the archive and the
+151
+00:05:50,250 --> 00:05:46,920
+great thing is that with those data now
+
+152
+00:05:53,490 --> 00:05:50,260
+you don't have to select each mission
+
+153
+00:05:55,320 --> 00:05:53,500
+and look for your favorite object you
+
+154
+00:05:58,260 --> 00:05:55,330
+can go to something called the portal
+
+155
+00:06:02,520 --> 00:05:58,270
+and you enter the name or the
+
+156
+00:06:04,410 --> 00:06:02,530
+coordinates of the object and it will go
+
+157
+00:06:06,630 --> 00:06:04,420
+out and depending on what you have
+
+158
+00:06:08,700 --> 00:06:06,640
+specified if you specify nothing it's it
+
+159
+00:06:12,660 --> 00:06:08,710
+searches for everything if you specify
+
+160
+00:06:15,210 --> 00:06:12,670
+like a oval or spitzer or genre or other
+
+161
+00:06:17,070 --> 00:06:15,220
+other archives it will tell you what
+
+162
+00:06:20,790 --> 00:06:17,080
+data it has and then if you want that
+
+163
+00:06:23,390 --> 00:06:20,800
+data to analyze you can get it and
+
+164
+00:06:26,040 --> 00:06:23,400
+download it and use your favorite
+
+165
+00:06:30,480 --> 00:06:26,050
+reduction technique the idea what the
+
+166
+00:06:32,520 --> 00:06:30,490
+spectra is well imagery it's true for
+
+167
+00:06:35,010 --> 00:06:32,530
+imagery to is that that one of the ideas
+
+168
+00:06:37,350 --> 00:06:35,020
+of the hubble legacy archive was that
+
+169
+00:06:40,910 --> 00:06:37,360
+you don't want to just astronomers are
+
+170
+00:06:42,680 --> 00:06:40,920
+tired of downloading all of the raw
+
+171
+00:06:44,900 --> 00:06:42,690
+before they can even see what they're
+
+172
+00:06:47,770 --> 00:06:44,910
+going to get so the idea of the Hubble
+
+173
+00:06:50,000 --> 00:06:47,780
+legacy archive was to process the data
+
+174
+00:06:51,860 --> 00:06:50,010
+calibrate it to an astronomer can take
+
+175
+00:06:53,720 --> 00:06:51,870
+the data and say wow that's what I have
+176
+00:06:56,150 --> 00:06:53,730
+yes that's what I want now I'm going to
+
+177
+00:06:58,550 --> 00:06:56,160
+do some analysis on it so the spectral
+
+178
+00:07:00,650 --> 00:06:58,560
+archive we haven't had that and so the
+
+179
+00:07:02,630 --> 00:07:00,660
+idea it's a it's a lot of work to put it
+
+180
+00:07:06,530 --> 00:07:02,640
+together and you have to be careful that
+
+181
+00:07:08,750 --> 00:07:06,540
+the calibration is right and collect as
+
+182
+00:07:11,330 --> 00:07:08,760
+much of the specter as possible and now
+
+183
+00:07:12,620 --> 00:07:11,340
+people will be able to you know get the
+
+184
+00:07:16,400 --> 00:07:12,630
+spectra so we're going to learn all
+
+185
+00:07:17,810 --> 00:07:16,410
+about that because astronomers hey they
+
+186
+00:07:19,760 --> 00:07:17,820
+would like to look at the data as its
+
+187
+00:07:22,040 --> 00:07:19,770
+process apiece some of us are lazy and
+
+188
+00:07:24,260 --> 00:07:22,050
+we just like to have the observatory do
+
+189
+00:07:26,630 --> 00:07:24,270
+that calibration for us and at least get
+
+190
+00:07:28,640 --> 00:07:26,640
+a first hint of the kind of astrophysics
+
+191
+00:07:33,140 --> 00:07:28,650
+that we can do with that so it's pretty
+
+192
+00:07:36,740 --> 00:07:33,150
+cool it's not just laziness it's also
+
+193
+00:07:39,110 --> 00:07:36,750
+okay on my part I said like me well it's
+
+194
+00:07:41,870 --> 00:07:39,120
+also you know 10 years from now 15 years
+
+195
+00:07:43,820 --> 00:07:41,880
+from now when these instruments haven't
+
+196
+00:07:45,800 --> 00:07:43,830
+forbid or no longer active we want the
+
+197
+00:07:48,640 --> 00:07:45,810
+data to still be useful and they will
+
+198
+00:07:51,530 --> 00:07:48,650
+still be useful um but as the expertise
+
+199
+00:07:54,070 --> 00:07:51,540
+moves on to other things and the people
+
+200
+00:07:56,030 --> 00:07:54,080
+who are actively maintaining the
+201
+00:07:58,510 --> 00:07:56,040
+calibration and integrity of the
+
+202
+00:08:01,310 --> 00:07:58,520
+instruments are not doing that anymore
+
+203
+00:08:04,430 --> 00:08:01,320
+we want to leave behind a strong legacy
+
+204
+00:08:06,620 --> 00:08:04,440
+of data for future generations of people
+
+205
+00:08:08,900 --> 00:08:06,630
+to still be able to use and discover new
+
+206
+00:08:10,670 --> 00:08:08,910
+things from okay so let's go ahead and
+
+207
+00:08:12,950 --> 00:08:10,680
+get to this particular archive there now
+
+208
+00:08:14,660 --> 00:08:12,960
+the over the years this this interface
+
+209
+00:08:16,280 --> 00:08:14,670
+has undergone quite a quite a bit of
+
+210
+00:08:18,290 --> 00:08:16,290
+quite a few changes it's gotten a lot
+
+211
+00:08:19,550 --> 00:08:18,300
+easier to use for scientists oh look I'm
+
+212
+00:08:21,380 --> 00:08:19,560
+going to do this now so people don't
+
+213
+00:08:23,990 --> 00:08:21,390
+have to would be with that people have
+
+214
+00:08:25,940 --> 00:08:24,000
+gotten it's gotten a lot more easier to
+
+215
+00:08:29,210 --> 00:08:25,950
+use over the years but Jason can you
+
+216
+00:08:30,650 --> 00:08:29,220
+give us some background on what the what
+
+217
+00:08:31,880 --> 00:08:30,660
+we're talking about today the spectral
+
+218
+00:08:34,670 --> 00:08:31,890
+archive itself give us some background
+
+219
+00:08:36,350 --> 00:08:34,680
+on why why has just been set up and have
+
+220
+00:08:37,670 --> 00:08:36,360
+the data always been there and it's just
+
+221
+00:08:39,530 --> 00:08:37,680
+recently become available through this
+
+222
+00:08:41,630 --> 00:08:39,540
+yeah or give us a background on this
+
+223
+00:08:44,350 --> 00:08:41,640
+yeah so it's funny you say that the
+
+224
+00:08:47,360 --> 00:08:44,360
+interface has changed all over the years
+
+225
+00:08:50,840 --> 00:08:47,370
+you know I like to think I'm still pre
+226
+00:08:53,480 --> 00:08:50,850
+mid career so I'm not that old that I
+
+227
+00:08:55,010 --> 00:08:53,490
+remember when you got used to get your
+
+228
+00:09:01,880 --> 00:08:55,020
+hair is a lot less greater than
+
+229
+00:09:04,370 --> 00:09:01,890
+fine in fact I don't see any hahahaha I
+
+230
+00:09:05,720 --> 00:09:04,380
+remember the days back in the 90s when
+
+231
+00:09:07,070 --> 00:09:05,730
+we were working with the instrument
+
+232
+00:09:09,050 --> 00:09:07,080
+called the faint object spectrograph
+
+233
+00:09:11,030 --> 00:09:09,060
+that was the first generation instrument
+
+234
+00:09:13,100 --> 00:09:11,040
+on Hubble and you would get your data
+
+235
+00:09:14,720 --> 00:09:13,110
+mailed to you on these little magnetic
+
+236
+00:09:17,420 --> 00:09:14,730
+tapes that were about as big as a
+
+237
+00:09:19,250 --> 00:09:17,430
+playing card sort of like maybes big the
+
+238
+00:09:21,230 --> 00:09:19,260
+business card and you would put that in
+
+239
+00:09:22,940 --> 00:09:21,240
+your machine and you would issue lots of
+
+240
+00:09:26,030 --> 00:09:22,950
+obscure commands to read your day off
+
+241
+00:09:28,880 --> 00:09:26,040
+with a deal T tapes ordeal tease exabyte
+
+242
+00:09:30,680 --> 00:09:28,890
+was what I had X of my tonight and we
+
+243
+00:09:36,860 --> 00:09:30,690
+had to carry the stacks of them through
+
+244
+00:09:39,020 --> 00:09:36,870
+the snow remember I better punch cards
+
+245
+00:09:41,510 --> 00:09:39,030
+in floppy disks okay I'm to the old mag
+
+246
+00:09:44,390 --> 00:09:41,520
+day and remember though is Jason's to
+
+247
+00:09:46,040 --> 00:09:44,400
+you Irene was Kirk was a tape into your
+
+248
+00:09:48,230 --> 00:09:46,050
+machine you then had to shovel work hole
+
+249
+00:09:51,680 --> 00:09:48,240
+into the machine to read the tape I know
+
+250
+00:09:53,810 --> 00:09:51,690
+or and pray it was based on videotape
+251
+00:09:55,940 --> 00:09:53,820
+technology so was amazing the stuff ran
+
+252
+00:09:57,620 --> 00:09:55,950
+at all and you're always like oh god I
+
+253
+00:10:00,770 --> 00:09:57,630
+hope I can rehash data back off again
+
+254
+00:10:02,330 --> 00:10:00,780
+yeah yeah those days you is a huge deal
+
+255
+00:10:05,540 --> 00:10:02,340
+when you started being able to get your
+
+256
+00:10:06,710 --> 00:10:05,550
+data from Hubble over the internet
+
+257
+00:10:08,450 --> 00:10:06,720
+because then you could get it within a
+
+258
+00:10:11,750 --> 00:10:08,460
+matter of you know weeks instead of
+
+259
+00:10:14,290 --> 00:10:11,760
+months and it's now down to the point
+
+260
+00:10:16,520 --> 00:10:14,300
+because the archive has that
+
+261
+00:10:19,040 --> 00:10:16,530
+continuously improve this technology
+
+262
+00:10:20,750 --> 00:10:19,050
+it's now down to the point where you can
+
+263
+00:10:22,790 --> 00:10:20,760
+get your data sometimes within hours of
+
+264
+00:10:25,850 --> 00:10:22,800
+the telescope taking your data my
+
+265
+00:10:28,460 --> 00:10:25,860
+personal record a program i did a few
+
+266
+00:10:30,980 --> 00:10:28,470
+years ago with Hubble the data made it
+
+267
+00:10:33,320 --> 00:10:30,990
+from the instrument costs to the
+
+268
+00:10:35,330 --> 00:10:33,330
+computers on the observatory down
+
+269
+00:10:36,740 --> 00:10:35,340
+through the TDRs satellites that NASA
+
+270
+00:10:39,110 --> 00:10:36,750
+operates to communicate with the
+
+271
+00:10:40,460 --> 00:10:39,120
+satellite in orbit through White Sands
+
+272
+00:10:42,020 --> 00:10:40,470
+Missile Range through goddard space
+
+273
+00:10:45,950 --> 00:10:42,030
+flight center and here to the Institute
+
+274
+00:10:47,690 --> 00:10:45,960
+in two and a half hours so you know two
+
+275
+00:10:50,060 --> 00:10:47,700
+and a half hours from the data being
+276
+00:10:51,710 --> 00:10:50,070
+taken by Hubble we had it on my postdocs
+
+277
+00:10:54,830 --> 00:10:51,720
+laptop and we were dancing a little you
+
+278
+00:10:57,530 --> 00:10:54,840
+know Jacob haha and what one was a paper
+
+279
+00:11:01,820 --> 00:10:57,540
+written uh about a year and a half later
+
+280
+00:11:04,580 --> 00:11:01,830
+oh so that little okay so I make it
+
+281
+00:11:04,580 --> 00:11:04,590
+short period of time
+
+282
+00:11:08,580 --> 00:11:07,350
+well we've talked about data quite a few
+
+283
+00:11:10,019 --> 00:11:08,590
+quite a bit here on these on these
+
+284
+00:11:11,400 --> 00:11:10,029
+hangouts where the Hubble data the
+
+285
+00:11:13,710 --> 00:11:11,410
+process for getting in the fact that
+
+286
+00:11:16,380 --> 00:11:13,720
+because Hubble is run by NASA and as a
+
+287
+00:11:19,769 --> 00:11:16,390
+taxpayer funded program everybody
+
+288
+00:11:21,660 --> 00:11:19,779
+ultimately gets access to the data but
+
+289
+00:11:22,769 --> 00:11:21,670
+the scientists the ones who and carol
+
+290
+00:11:24,060 --> 00:11:22,779
+has told us about this before with the
+
+291
+00:11:25,890 --> 00:11:24,070
+time allocation committee and things
+
+292
+00:11:28,410 --> 00:11:25,900
+like that where when you get time on
+
+293
+00:11:31,050 --> 00:11:28,420
+hubble and you take your data you're
+
+294
+00:11:33,510 --> 00:11:31,060
+given the first usually the first shot
+
+295
+00:11:36,390 --> 00:11:33,520
+at that data it's something called one
+
+296
+00:11:37,980 --> 00:11:36,400
+bar going proprietary period for well
+
+297
+00:11:40,260 --> 00:11:37,990
+usually it's less about a year unless
+
+298
+00:11:41,579 --> 00:11:40,270
+something special is arranged or unless
+
+299
+00:11:43,200 --> 00:11:41,589
+there's it's done with double the
+
+300
+00:11:44,550 --> 00:11:43,210
+director discretionary time in which
+301
+00:11:47,130 --> 00:11:44,560
+case the data become available to the
+
+302
+00:11:51,290 --> 00:11:47,140
+public right away for everybody and this
+
+303
+00:11:54,000 --> 00:11:51,300
+so somali this stuff here this this uh
+
+304
+00:11:56,790 --> 00:11:54,010
+spectral data that we've got it does it
+
+305
+00:11:58,500 --> 00:11:56,800
+fall under the same kind of umbrella as
+
+306
+00:12:00,269 --> 00:11:58,510
+the other visual data my goods are
+
+307
+00:12:02,010 --> 00:12:00,279
+proprietary period does it take is there
+
+308
+00:12:04,019 --> 00:12:02,020
+a delay between when it's taken and when
+
+309
+00:12:08,310 --> 00:12:04,029
+it's available the we're talking about
+
+310
+00:12:10,770 --> 00:12:08,320
+today are the the actual data is the
+
+311
+00:12:12,120 --> 00:12:10,780
+exact same data that if you went into
+
+312
+00:12:16,200 --> 00:12:12,130
+the mass portal that carol was
+
+313
+00:12:19,860 --> 00:12:16,210
+describing and searched for what is
+
+314
+00:12:22,440 --> 00:12:19,870
+publicly available data that cost has
+
+315
+00:12:24,630 --> 00:12:22,450
+looked at in the far ultraviolet and you
+
+316
+00:12:26,100 --> 00:12:24,640
+just downloaded all of that which is
+
+317
+00:12:29,250 --> 00:12:26,110
+what we did a few weeks ago when
+
+318
+00:12:31,260 --> 00:12:29,260
+preparing the final release uh that's
+
+319
+00:12:35,760 --> 00:12:31,270
+the data that we're talking about today
+
+320
+00:12:39,180 --> 00:12:35,770
+um but the extra value that we've given
+
+321
+00:12:40,590 --> 00:12:39,190
+to that is uh when the data are taken
+
+322
+00:12:43,620 --> 00:12:40,600
+they're taken in lots of different
+
+323
+00:12:45,720 --> 00:12:43,630
+exposures that in order to actually do
+
+324
+00:12:47,490 --> 00:12:45,730
+science on you want to add up the
+
+325
+00:12:51,090 --> 00:12:47,500
+different exposures to get a deeper
+326
+00:12:54,900 --> 00:12:51,100
+higher signal-to-noise spectrum the same
+
+327
+00:12:56,760 --> 00:12:54,910
+way that with images you take a bunch of
+
+328
+00:13:00,240 --> 00:12:56,770
+images and then you combine them to get
+
+329
+00:13:03,960 --> 00:13:00,250
+a higher resolution deeper image and
+
+330
+00:13:06,810 --> 00:13:03,970
+that combining of images has been
+
+331
+00:13:10,410 --> 00:13:06,820
+available in the archive for users for
+
+332
+00:13:12,230 --> 00:13:10,420
+decades but has not yet been available
+
+333
+00:13:15,740 --> 00:13:12,240
+at the level we are delivered
+
+334
+00:13:17,570 --> 00:13:15,750
+in this archive now for spectra yeah I
+
+335
+00:13:20,870 --> 00:13:17,580
+would say the analogy I would use is
+
+336
+00:13:23,510 --> 00:13:20,880
+that you know imagine you're going to do
+
+337
+00:13:25,880 --> 00:13:23,520
+research on a paper you're writing it
+
+338
+00:13:27,560 --> 00:13:25,890
+most people wrote their term papers in
+
+339
+00:13:28,850 --> 00:13:27,570
+there with college and let's say you're
+
+340
+00:13:31,160 --> 00:13:28,860
+going to do research and you went to the
+
+341
+00:13:35,180 --> 00:13:31,170
+library and the librarian handed you a
+
+342
+00:13:37,220 --> 00:13:35,190
+stack of pages instead of a book and you
+
+343
+00:13:38,449 --> 00:13:37,230
+had to figure out what paid what or the
+
+344
+00:13:40,850 --> 00:13:38,459
+pages should be in before you can even
+
+345
+00:13:42,019 --> 00:13:40,860
+get started on on your research that's
+
+346
+00:13:44,810 --> 00:13:42,029
+kind of where we've been with our
+
+347
+00:13:47,300 --> 00:13:44,820
+spectroscopy for years and years we gave
+
+348
+00:13:49,280 --> 00:13:47,310
+people the individual exposures but we
+
+349
+00:13:51,260 --> 00:13:49,290
+weren't putting them together into that
+
+350
+00:13:53,180 --> 00:13:51,270
+fully combined way that would allow them
+351
+00:13:54,860 --> 00:13:53,190
+to do their science from day one Scott
+
+352
+00:13:57,380 --> 00:13:54,870
+could you float that flow chart what
+
+353
+00:13:59,870 --> 00:13:57,390
+hang on hang on just a sec so while you
+
+354
+00:14:01,610 --> 00:13:59,880
+while you are looking at the data or
+
+355
+00:14:03,620 --> 00:14:01,620
+you're going through the data in this
+
+356
+00:14:06,440 --> 00:14:03,630
+sort of difficult format you were
+
+357
+00:14:08,510 --> 00:14:06,450
+talking about Jason doing the science on
+
+358
+00:14:10,760 --> 00:14:08,520
+it has been somewhat difficult now most
+
+359
+00:14:12,769 --> 00:14:10,770
+people who use Hubble data like to use
+
+360
+00:14:14,630 --> 00:14:12,779
+the images they most Hubble huggers that
+
+361
+00:14:16,250 --> 00:14:14,640
+I know of in the pub general public we
+
+362
+00:14:19,460 --> 00:14:16,260
+care about the images but molly was just
+
+363
+00:14:21,680 --> 00:14:19,470
+mentioning before before we started that
+
+364
+00:14:23,449 --> 00:14:21,690
+real science is done with the spectrum
+
+365
+00:14:24,889 --> 00:14:23,459
+so let's go ahead and start and then
+
+366
+00:14:26,600 --> 00:14:24,899
+we'll put up the the flowchart that
+
+367
+00:14:27,949 --> 00:14:26,610
+Molly talking about but list I want to
+
+368
+00:14:29,870 --> 00:14:27,959
+take a look at the archive so Scott if
+
+369
+00:14:32,090 --> 00:14:29,880
+you'll put that up let's let's take a
+
+370
+00:14:35,750 --> 00:14:32,100
+look at what what we're talking about
+
+371
+00:14:38,389 --> 00:14:35,760
+here this is available this is there it
+
+372
+00:14:40,960 --> 00:14:38,399
+is so this is based off of the Mikulski
+
+373
+00:14:44,660 --> 00:14:40,970
+archive for space telescopes masked and
+
+374
+00:14:47,600 --> 00:14:44,670
+this so tell us a little bit about what
+
+375
+00:14:49,100 --> 00:14:47,610
+we're looking at here Molly um well
+376
+00:14:51,980 --> 00:14:49,110
+right now what's slipping through or
+
+377
+00:14:55,329 --> 00:14:51,990
+just some images of what you get if you
+
+378
+00:14:58,550 --> 00:14:55,339
+click through the individual portal um
+
+379
+00:15:01,730 --> 00:14:58,560
+which will will do in a bit if you
+
+380
+00:15:03,350 --> 00:15:01,740
+wanted to go back to this question of
+
+381
+00:15:04,699 --> 00:15:03,360
+what what is the science that you're
+
+382
+00:15:08,990 --> 00:15:04,709
+able to do with spectra that you just
+
+383
+00:15:13,490 --> 00:15:09,000
+simply aren't able to get with regular
+
+384
+00:15:15,290 --> 00:15:13,500
+images um the traditional way I mean so
+
+385
+00:15:17,420 --> 00:15:15,300
+one way to think of it is these images
+
+386
+00:15:20,230 --> 00:15:17,430
+keep keep flipping through is you see
+
+387
+00:15:24,160 --> 00:15:20,240
+all these squiggly lines on here um
+
+388
+00:15:26,139 --> 00:15:24,170
+that's not noise that's where the
+
+389
+00:15:28,629 --> 00:15:26,149
+information is so in these where you see
+
+390
+00:15:30,699 --> 00:15:28,639
+these bright emission lines the lights
+
+391
+00:15:32,560 --> 00:15:30,709
+going up a lot of these absorption lines
+
+392
+00:15:33,910 --> 00:15:32,570
+where you see little divots in the light
+
+393
+00:15:37,900 --> 00:15:33,920
+or like you know this one that's this
+
+394
+00:15:42,280 --> 00:15:37,910
+big comb of lines or this one um there
+
+395
+00:15:45,879 --> 00:15:42,290
+those correspond to individual elements
+
+396
+00:15:49,030 --> 00:15:45,889
+have different quantum signatures that
+
+397
+00:15:53,710 --> 00:15:49,040
+respond to light differently and as it
+
+398
+00:15:56,650 --> 00:15:53,720
+turns out um most of the gas in the
+
+399
+00:15:59,769 --> 00:15:56,660
+universe um is that temperatures and
+
+400
+00:16:01,660 --> 00:15:59,779
+densities such that the wavelengths of
+401
+00:16:04,269 --> 00:16:01,670
+light that it most interacts with are in
+
+402
+00:16:06,040 --> 00:16:04,279
+the ultraviolet um and so you have to go
+
+403
+00:16:09,040 --> 00:16:06,050
+to space in order to see this light
+
+404
+00:16:12,310 --> 00:16:09,050
+which is why this Hubble spectryx Copic
+
+405
+00:16:14,350 --> 00:16:12,320
+archive is so powerful um and eat the
+
+406
+00:16:16,600 --> 00:16:14,360
+location of each of these lines and the
+
+407
+00:16:20,470 --> 00:16:16,610
+patterns tell you about the physical
+
+408
+00:16:22,780 --> 00:16:20,480
+conditions of what's causing either the
+
+409
+00:16:24,970 --> 00:16:22,790
+submission or absorption which can
+
+410
+00:16:29,650 --> 00:16:24,980
+really get at what what is the physics
+
+411
+00:16:32,769 --> 00:16:29,660
+of this star or this diffuse gas around
+
+412
+00:16:34,689 --> 00:16:32,779
+this galaxy or the atmosphere of this
+
+413
+00:16:37,840 --> 00:16:34,699
+planet that's passing in front of front
+
+414
+00:16:39,610 --> 00:16:37,850
+of most are so I wanted to interject
+
+415
+00:16:43,900 --> 00:16:39,620
+that as people are looking at the
+
+416
+00:16:46,540 --> 00:16:43,910
+spectra when you see the big dips that's
+
+417
+00:16:50,560 --> 00:16:46,550
+where an element or a molecule has
+
+418
+00:16:52,600 --> 00:16:50,570
+absorbed the light so for example we see
+
+419
+00:16:55,480 --> 00:16:52,610
+this in the Sun as well so you have the
+
+420
+00:16:57,490 --> 00:16:55,490
+light that comes from the Sun and then
+
+421
+00:17:00,759 --> 00:16:57,500
+in the outer atmosphere or there are
+
+422
+00:17:03,610 --> 00:17:00,769
+elements that absorb in other cases
+
+423
+00:17:08,140 --> 00:17:03,620
+there might the the absorption might be
+
+424
+00:17:10,539 --> 00:17:08,150
+done at the store or it might be
+
+425
+00:17:12,880 --> 00:17:10,549
+intervening material sometimes we use
+426
+00:17:15,069 --> 00:17:12,890
+the parent star and the light that goes
+
+427
+00:17:16,990 --> 00:17:15,079
+through the atmosphere of a planet if it
+
+428
+00:17:19,230 --> 00:17:17,000
+happens to pass in front of it and we
+
+429
+00:17:22,539 --> 00:17:19,240
+can look at what molecule or chem
+
+430
+00:17:24,340 --> 00:17:22,549
+chemical is absorbing in other cases in
+
+431
+00:17:27,340 --> 00:17:24,350
+some of these things you're seeing when
+
+432
+00:17:30,310 --> 00:17:27,350
+you see these spikes that go up that's
+
+433
+00:17:33,399 --> 00:17:30,320
+when a particular chemical element is
+
+434
+00:17:35,770 --> 00:17:33,409
+emitting and then you can also determine
+
+435
+00:17:37,990 --> 00:17:35,780
+not only that the chemical is there but
+
+436
+00:17:42,460 --> 00:17:38,000
+as Molly said what's the temp
+
+437
+00:17:44,530 --> 00:17:42,470
+what the conditions are that create an
+
+438
+00:17:46,360 --> 00:17:44,540
+environment for the chemical and so you
+
+439
+00:17:48,970 --> 00:17:46,370
+don't look at just one chemical you look
+
+440
+00:17:50,170 --> 00:17:48,980
+at all of them so that you can and
+
+441
+00:17:52,570 --> 00:17:50,180
+that's why it's astrophysics you're
+
+442
+00:17:55,480 --> 00:17:52,580
+looking at the physical conditions in
+
+443
+00:17:58,180 --> 00:17:55,490
+which caused either the absorption the
+
+444
+00:18:01,300 --> 00:17:58,190
+emission or sometimes you get both and
+
+445
+00:18:03,880 --> 00:18:01,310
+in an object right and so as we've
+
+446
+00:18:07,000 --> 00:18:03,890
+pointed out before with past data
+
+447
+00:18:08,680 --> 00:18:07,010
+archive hangouts the images that we see
+
+448
+00:18:10,660 --> 00:18:08,690
+from Hubble usually come from things
+
+449
+00:18:12,130 --> 00:18:10,670
+like wide field camera 3 the whip c3
+
+450
+00:18:14,230 --> 00:18:12,140
+they also in the past have come through
+451
+00:18:15,610 --> 00:18:14,240
+over the 25 years Hubble has been up
+
+452
+00:18:17,680 --> 00:18:15,620
+there it has had a lot of different
+
+453
+00:18:20,020 --> 00:18:17,690
+cameras they take really amazing
+
+454
+00:18:22,240 --> 00:18:20,030
+pictures we've all seen that but as both
+
+455
+00:18:24,310 --> 00:18:22,250
+both Molly and Carol just pointed out
+
+456
+00:18:26,710 --> 00:18:24,320
+these are these are the kinds of data
+
+457
+00:18:28,960 --> 00:18:26,720
+that you can get different information
+
+458
+00:18:32,680 --> 00:18:28,970
+from remember last week when we told you
+
+459
+00:18:35,140 --> 00:18:32,690
+that we told you about exactly Alex this
+
+460
+00:18:36,610 --> 00:18:35,150
+most distant galaxies and the end they
+
+461
+00:18:38,140 --> 00:18:36,620
+were looking at it through through
+
+462
+00:18:39,430 --> 00:18:38,150
+different filters and they can kind of
+
+463
+00:18:41,860 --> 00:18:39,440
+get a sense because of how bright it
+
+464
+00:18:43,450 --> 00:18:41,870
+wasn't a filter where how far away that
+
+465
+00:18:46,090 --> 00:18:43,460
+galaxy was that's called a photometric
+
+466
+00:18:47,860 --> 00:18:46,100
+redshift is nowhere near is accurate as
+
+467
+00:18:49,390 --> 00:18:47,870
+what we're talking about here by looking
+
+468
+00:18:51,850 --> 00:18:49,400
+at that galaxy through getting its
+
+469
+00:18:53,170 --> 00:18:51,860
+spectra you can actually see the red
+
+470
+00:18:55,900 --> 00:18:53,180
+shift and Molly was alluding to the fact
+
+471
+00:18:58,030 --> 00:18:55,910
+that this is where the meat the the meat
+
+472
+00:18:59,800 --> 00:18:58,040
+potatoes are where the tire the the
+
+473
+00:19:03,460 --> 00:18:59,810
+rubber hits the road whether analogy can
+
+474
+00:19:06,940 --> 00:19:03,470
+I hit it's like this is gonna make the
+
+475
+00:19:08,920 --> 00:19:06,950
+same check yeah it's just a very wise
+476
+00:19:11,140 --> 00:19:08,930
+man once said the astronomer of
+
+477
+00:19:15,810 --> 00:19:11,150
+spectroscopy somebody help train me said
+
+478
+00:19:17,950 --> 00:19:15,820
+a spectrum is worth a thousand pictures
+
+479
+00:19:21,480 --> 00:19:17,960
+spectrum is worth a thousand pictures so
+
+480
+00:19:23,650 --> 00:19:21,490
+there you go and with with the with the
+
+481
+00:19:25,270 --> 00:19:23,660
+two int there's two instruments on
+
+482
+00:19:27,310 --> 00:19:25,280
+hubble right now that from which this
+
+483
+00:19:28,870 --> 00:19:27,320
+data are well maybe there's more Molly
+
+484
+00:19:30,670 --> 00:19:28,880
+and you guys can tell me know but this
+
+485
+00:19:33,010 --> 00:19:30,680
+is the cosmic origins spectrograph and
+
+486
+00:19:34,810 --> 00:19:33,020
+the spectrograph which I don't remember
+
+487
+00:19:37,540 --> 00:19:34,820
+what that stands for its telescope
+
+488
+00:19:40,060 --> 00:19:37,550
+imaging spectrograph oh there you go and
+
+489
+00:19:42,280 --> 00:19:40,070
+these were mostly everything as it turns
+
+490
+00:19:45,250 --> 00:19:42,290
+out it has a imaging camera it has a
+
+491
+00:19:47,110 --> 00:19:45,260
+spectrograph and has a coronagraph it
+
+492
+00:19:49,060 --> 00:19:47,120
+can you know make your coffee in the
+
+493
+00:19:50,740 --> 00:19:49,070
+morning it does basically everything
+
+494
+00:19:52,240 --> 00:19:50,750
+doesn't do back rubs cuz that would be
+
+495
+00:19:55,120 --> 00:19:52,250
+okay well that's great so
+
+496
+00:19:56,860 --> 00:19:55,130
+so and at and as we've talked about in
+
+497
+00:19:58,090 --> 00:19:56,870
+his curls and both Molly have said in
+
+498
+00:20:00,760 --> 00:19:58,100
+this this hangout this is it these are
+
+499
+00:20:02,020 --> 00:20:00,770
+give you wavelengths that you have to
+
+500
+00:20:04,510 --> 00:20:02,030
+get out into space to see the
+501
+00:20:06,190 --> 00:20:04,520
+ultraviolet and help us Hubble's the
+
+502
+00:20:09,550 --> 00:20:06,200
+only one in town the only game in town
+
+503
+00:20:11,380 --> 00:20:09,560
+for this wavelength right guys so so the
+
+504
+00:20:14,320 --> 00:20:11,390
+interesting thing about this is that you
+
+505
+00:20:16,380 --> 00:20:14,330
+know the reason we can't see these
+
+506
+00:20:18,970 --> 00:20:16,390
+wavelengths from the ground is that the
+
+507
+00:20:21,430 --> 00:20:18,980
+atmosphere and particularly the ozone in
+
+508
+00:20:22,960 --> 00:20:21,440
+the atmosphere very efficiently blocks
+
+509
+00:20:24,760 --> 00:20:22,970
+these wavelengths these are the
+
+510
+00:20:26,800 --> 00:20:24,770
+wavelengths in the ultraviolet that
+
+511
+00:20:28,780 --> 00:20:26,810
+would give you a very very bad suntan
+
+512
+00:20:31,120 --> 00:20:28,790
+right so it's a good thing you're right
+
+513
+00:20:33,190 --> 00:20:31,130
+okay I like to stay you can either have
+
+514
+00:20:35,230 --> 00:20:33,200
+UV astronomy from the ground or you can
+
+515
+00:20:40,420 --> 00:20:35,240
+have all life on Earth but you can't
+
+516
+00:20:44,320 --> 00:20:40,430
+have both choose wisely so since we
+
+517
+00:20:45,910 --> 00:20:44,330
+decided it was no UV astronomy and well
+
+518
+00:20:48,040 --> 00:20:45,920
+you know there's a few of us already
+
+519
+00:20:50,170 --> 00:20:48,050
+burst into flames when I'm outside as is
+
+520
+00:20:53,020 --> 00:20:50,180
+so if that happened to where if not
+
+521
+00:20:54,670 --> 00:20:53,030
+being absorbed by we're I'm just faced
+
+522
+00:20:58,270 --> 00:20:54,680
+and do your duty astronomy from the
+
+523
+00:21:00,310 --> 00:20:58,280
+ground but anyway uh yeah so that's it
+
+524
+00:21:03,190 --> 00:21:00,320
+that's the chief reason why we had to
+
+525
+00:21:04,600 --> 00:21:03,200
+move our observatories into space it's
+526
+00:21:06,880 --> 00:21:04,610
+not only the blurring of the atmosphere
+
+527
+00:21:08,860 --> 00:21:06,890
+that makes the stars twinkle it's the
+
+528
+00:21:09,940 --> 00:21:08,870
+fact that there are some some colors of
+
+529
+00:21:11,890 --> 00:21:09,950
+lighter some wavelengths of light you
+
+530
+00:21:15,340 --> 00:21:11,900
+simply can't see from the ground at all
+
+531
+00:21:16,930 --> 00:21:15,350
+oh my gosh I think I'm gonna have to
+
+532
+00:21:18,910 --> 00:21:16,940
+read this Scott just posted it in the
+
+533
+00:21:20,650 --> 00:21:18,920
+chat room so Michael jobin this up this
+
+534
+00:21:24,340 --> 00:21:20,660
+is terrible but Scott you're the one
+
+535
+00:21:27,550 --> 00:21:24,350
+responsible no I love punter storms oh I
+
+536
+00:21:30,910 --> 00:21:27,560
+think his comment is I think Molly knows
+
+537
+00:21:36,250 --> 00:21:30,920
+something about molecules let's but I
+
+538
+00:21:38,560 --> 00:21:36,260
+mean ah ok so never heard that before
+
+539
+00:21:40,660 --> 00:21:38,570
+alright so let's guess I because of data
+
+540
+00:21:42,010 --> 00:21:40,670
+here help us I want to get some data
+
+541
+00:21:44,020 --> 00:21:42,020
+from this a Scott's been showing this
+
+542
+00:21:45,460 --> 00:21:44,030
+thing flash madness so help us get some
+
+543
+00:21:48,490 --> 00:21:45,470
+data Molly out and tell me what to do
+
+544
+00:21:50,790 --> 00:21:48,500
+though um the other unique thing that
+
+545
+00:21:56,470 --> 00:21:50,800
+we've done about this it done with this
+
+546
+00:21:58,300 --> 00:21:56,480
+archive is the way that you normally
+
+547
+00:22:01,540 --> 00:21:58,310
+would get data from the art so for
+
+548
+00:22:03,430 --> 00:22:01,550
+example if both Jason and I work on
+
+549
+00:22:04,600 --> 00:22:03,440
+quasar absorption lines and so if you
+
+550
+00:22:07,960 --> 00:22:04,610
+wanted to get a
+551
+00:22:10,539 --> 00:22:07,970
+sample of all the quasars that Hubble
+
+552
+00:22:12,280 --> 00:22:10,549
+has looked at before this archaic away
+
+553
+00:22:14,530 --> 00:22:12,290
+you would do that if you would say well
+
+554
+00:22:16,360 --> 00:22:14,540
+that Tomlinson guys sure looked at a
+
+555
+00:22:18,039 --> 00:22:16,370
+bunch you'd go search for Tomlinson in
+
+556
+00:22:21,250 --> 00:22:18,049
+the archive and download all of his data
+
+557
+00:22:23,260 --> 00:22:21,260
+and then you'd be like uh uh Markarian
+
+558
+00:22:24,640 --> 00:22:23,270
+509 that's a good place are maybe
+
+559
+00:22:26,049 --> 00:22:24,650
+somebody's looked at that one and see
+
+560
+00:22:30,070 --> 00:22:26,059
+look you try to kind of hodgepodge
+
+561
+00:22:32,049 --> 00:22:30,080
+things together that way um but one of
+
+562
+00:22:35,049 --> 00:22:32,059
+the kind of breakthroughs we had when
+
+563
+00:22:39,909 --> 00:22:35,059
+constructing this archive is despite all
+
+564
+00:22:42,580 --> 00:22:39,919
+of its power and high popularity on the
+
+565
+00:22:47,169 --> 00:22:42,590
+observatory cost has only been around
+
+566
+00:22:48,820 --> 00:22:47,179
+since 2009 and they're actually hasn't
+
+567
+00:22:51,580 --> 00:22:48,830
+really been that much data taken with it
+
+568
+00:22:54,970 --> 00:22:51,590
+only about 1200 objects or so we've been
+
+569
+00:22:56,919 --> 00:22:54,980
+looked at with cost um which in terms of
+
+570
+00:22:59,049 --> 00:22:56,929
+scientific potential is enormous but in
+
+571
+00:23:00,970 --> 00:22:59,059
+terms of data volume really isn't that
+
+572
+00:23:04,350 --> 00:23:00,980
+much it actually all fits all the data
+
+573
+00:23:06,580 --> 00:23:04,360
+about to show you fit onto one of these
+
+574
+00:23:09,789 --> 00:23:06,590
+so you can just put in your pocket and
+
+575
+00:23:11,710 --> 00:23:09,799
+you know download what's on here and use
+576
+00:23:15,010 --> 00:23:11,720
+I don't everyone around with me just for
+
+577
+00:23:16,539 --> 00:23:15,020
+some just in case you know um spectral
+
+578
+00:23:18,400 --> 00:23:16,549
+so you say spectral data doesn't take up
+
+579
+00:23:20,560 --> 00:23:18,410
+as much room as a as I guess that image
+
+580
+00:23:21,730 --> 00:23:20,570
+would that reduced yeah you know it's
+
+581
+00:23:23,350 --> 00:23:21,740
+one-dimensional instead of
+
+582
+00:23:25,780 --> 00:23:23,360
+two-dimensional just row in numbers
+
+583
+00:23:27,400 --> 00:23:25,790
+awesome okay yeah all the bits that came
+
+584
+00:23:28,690 --> 00:23:27,410
+off the telescope is quite a bit because
+
+585
+00:23:31,090 --> 00:23:28,700
+it is a true device that street
+
+586
+00:23:32,289 --> 00:23:31,100
+dimensional and sexually i think though
+
+587
+00:23:34,120 --> 00:23:32,299
+if i pulled the whole thing it would be
+
+588
+00:23:35,409 --> 00:23:34,130
+five terabytes but when you used like
+
+589
+00:23:37,419 --> 00:23:35,419
+the reduced data and then you combine it
+
+590
+00:23:40,900 --> 00:23:37,429
+exactly it works out i think our whole
+
+591
+00:23:43,659 --> 00:23:40,910
+18 gigabyte good yeah wish got Scrolls
+
+592
+00:23:45,970 --> 00:23:43,669
+down there's actually a link on here you
+
+593
+00:23:47,409 --> 00:23:45,980
+can just download the entire thing want
+
+594
+00:23:50,500 --> 00:23:47,419
+the entire thing it's just like right
+
+595
+00:23:51,940 --> 00:23:50,510
+there don't don't do it it'll get oh i
+
+596
+00:23:57,490 --> 00:23:51,950
+have the bandwidth but i'm not going to
+
+597
+00:24:00,580 --> 00:23:57,500
+do highest was that the 1200 ish objects
+
+598
+00:24:03,010 --> 00:24:00,590
+means that we could just go in and sort
+
+599
+00:24:04,690 --> 00:24:03,020
+them into well which ones are galaxies
+
+600
+00:24:06,700 --> 00:24:04,700
+which ones are quasars which ones are
+601
+00:24:07,900 --> 00:24:06,710
+stars okay i want to get i want to get
+
+602
+00:24:09,250 --> 00:24:07,910
+to that in a minute but now i want to
+
+603
+00:24:11,230 --> 00:24:09,260
+get some data so show us how to do it
+
+604
+00:24:14,380 --> 00:24:11,240
+that's what we're doing so scroll down
+
+605
+00:24:17,330 --> 00:24:14,390
+go down so click on pre-sorted target
+
+606
+00:24:21,860 --> 00:24:19,370
+and that's what this is so the top we
+
+607
+00:24:25,190 --> 00:24:21,870
+have all the data um which you can
+
+608
+00:24:27,200 --> 00:24:25,200
+download from up there and then we have
+
+609
+00:24:28,880 --> 00:24:27,210
+things sorted by you know what's in the
+
+610
+00:24:30,950 --> 00:24:28,890
+solar system what are galaxies and
+
+611
+00:24:33,350 --> 00:24:30,960
+clusters what kind of you know what
+
+612
+00:24:34,730 --> 00:24:33,360
+what's your favorite kind of star oh so
+
+613
+00:24:36,440 --> 00:24:34,740
+wait wait a minute wait a minute I don't
+
+614
+00:24:38,900 --> 00:24:36,450
+have to query this thing at all then
+
+615
+00:24:40,880 --> 00:24:38,910
+you've got it already so what up great
+
+616
+00:24:45,170 --> 00:24:40,890
+things if you just want to download all
+
+617
+00:24:46,640 --> 00:24:45,180
+of the you know every extrasolar planet
+
+618
+00:24:49,640 --> 00:24:46,650
+that's been looked at with costs that we
+
+619
+00:24:51,170 --> 00:24:49,650
+can identify or scroll down um yeah
+
+620
+00:24:54,140 --> 00:24:51,180
+Scott if you click the targets link
+
+621
+00:24:56,240 --> 00:24:54,150
+there yeah so actually so too yeah
+
+622
+00:24:58,880 --> 00:24:56,250
+that's a good one I think that n n dash
+
+623
+00:25:02,300 --> 00:24:58,890
+14 means what that there's only for the
+
+624
+00:25:04,760 --> 00:25:02,310
+tell me draw two targets and so now you
+
+625
+00:25:06,260 --> 00:25:04,770
+can get an idea well what data exists we
+626
+00:25:09,020 --> 00:25:06,270
+have the names with the location on the
+
+627
+00:25:14,110 --> 00:25:09,030
+sky how many individual exposures the
+
+628
+00:25:16,970 --> 00:25:14,120
+target description that the person who
+
+629
+00:25:18,830 --> 00:25:16,980
+asked for the data gave it a the
+
+630
+00:25:22,490 --> 00:25:18,840
+alternative name which is often the
+
+631
+00:25:26,060 --> 00:25:22,500
+official name and either of the Ned
+
+632
+00:25:27,890 --> 00:25:26,070
+which is the kind of official extra
+
+633
+00:25:31,160 --> 00:25:27,900
+galactic database of objects or Sinbad
+
+634
+00:25:33,110 --> 00:25:31,170
+which is the same thing for stars the
+
+635
+00:25:34,340 --> 00:25:33,120
+link to the mast portal which is what
+
+636
+00:25:37,670 --> 00:25:34,350
+you would normally get for one of these
+
+637
+00:25:39,530 --> 00:25:37,680
+if you just click on one this is
+
+638
+00:25:42,250 --> 00:25:39,540
+normally if you would search for this
+
+639
+00:25:44,450 --> 00:25:42,260
+target and mast and this is what um
+
+640
+00:25:47,750 --> 00:25:44,460
+carol was talking about earlier this is
+
+641
+00:25:50,210 --> 00:25:47,760
+what it shows up you get all the images
+
+642
+00:25:53,600 --> 00:25:50,220
+and spectra of this target that have
+
+643
+00:25:56,150 --> 00:25:53,610
+been taken with different observatories
+
+644
+00:25:57,740 --> 00:25:56,160
+so for example Swift has looked at this
+
+645
+00:26:00,440 --> 00:25:57,750
+one you can see what they on the left
+
+646
+00:26:06,410 --> 00:26:00,450
+the galaxy's looked at it so if you
+
+647
+00:26:11,780 --> 00:26:06,420
+click the back button well you we have
+
+648
+00:26:13,430 --> 00:26:11,790
+uh okay okay hang on you're going you're
+
+649
+00:26:16,250 --> 00:26:13,440
+going really fast here so what I want to
+
+650
+00:26:19,100 --> 00:26:16,260
+stay here for a sec so I've got this I'm
+651
+00:26:22,220 --> 00:26:19,110
+looking at a lot of stuff on the left
+
+652
+00:26:23,810 --> 00:26:22,230
+the left column I'm seeing us but this
+
+653
+00:26:25,460 --> 00:26:23,820
+is the mass portal that carol was
+
+654
+00:26:27,950 --> 00:26:25,470
+talking about earlier if normally if you
+
+655
+00:26:30,110 --> 00:26:27,960
+have a target that you have a name or a
+
+656
+00:26:30,620 --> 00:26:30,120
+location on the sky and you search and
+
+657
+00:26:34,870 --> 00:26:30,630
+you want to know
+
+658
+00:26:37,370 --> 00:26:34,880
+Oh what data exists on this target you
+
+659
+00:26:39,110 --> 00:26:37,380
+this is what you get you get here all
+
+660
+00:26:40,250 --> 00:26:39,120
+the images here all the spectra here are
+
+661
+00:26:42,770 --> 00:26:40,260
+different missions that have looked at
+
+662
+00:26:46,880 --> 00:26:42,780
+it different instruments on the right is
+
+663
+00:26:48,590 --> 00:26:46,890
+an overlay of wear on the sky the
+
+664
+00:26:50,390 --> 00:26:48,600
+different footprints are so the big
+
+665
+00:26:52,160 --> 00:26:50,400
+squares are going to be your images and
+
+666
+00:26:53,990 --> 00:26:52,170
+then those little circles down right at
+
+667
+00:26:56,720 --> 00:26:54,000
+where the star is that that's cost
+
+668
+00:26:58,520 --> 00:26:56,730
+that's the cost aperture okay so that's
+
+669
+00:27:00,440 --> 00:26:58,530
+the spectrum there so I can see that
+
+670
+00:27:02,000 --> 00:27:00,450
+with this there's lots of there's three
+
+671
+00:27:03,920 --> 00:27:02,010
+different missions that have seen it HST
+
+672
+00:27:05,390 --> 00:27:03,930
+GALEX and Swift and there's lots of
+
+673
+00:27:07,880 --> 00:27:05,400
+instruments that have seen it that's the
+
+674
+00:27:09,970 --> 00:27:07,890
+ones below and in the middle column
+
+675
+00:27:13,310 --> 00:27:09,980
+these are the actual observations with a
+676
+00:27:14,630 --> 00:27:13,320
+thumbnail when avail all of what it is
+
+677
+00:27:16,280 --> 00:27:14,640
+we're looking at of course there's an
+
+678
+00:27:17,480 --> 00:27:16,290
+entire footprint off to the side there
+
+679
+00:27:19,100 --> 00:27:17,490
+there there's some day there's some
+
+680
+00:27:22,070 --> 00:27:19,110
+there's some squiggly lines right there
+
+681
+00:27:23,660 --> 00:27:22,080
+so this is this data right here now John
+
+682
+00:27:26,120 --> 00:27:23,670
+let me give let me get you into this
+
+683
+00:27:27,740 --> 00:27:26,130
+just a little bit John oh no I just
+
+684
+00:27:30,740 --> 00:27:27,750
+looked at your handle are you really a
+
+685
+00:27:33,200 --> 00:27:30,750
+strong amira what I need to I need to
+
+686
+00:27:36,110 --> 00:27:33,210
+get the best I need to get an M name now
+
+687
+00:27:37,130 --> 00:27:36,120
+I call my daughter on a Darnell I got
+
+688
+00:27:40,760 --> 00:27:37,140
+you i feel that strong a Molly
+
+689
+00:27:42,080 --> 00:27:40,770
+astronomer photo/tony I have to I have
+
+690
+00:27:44,600 --> 00:27:42,090
+to give credit where credit to do I
+
+691
+00:27:48,410 --> 00:27:44,610
+stole that idea from from Molly's oh did
+
+692
+00:27:51,770 --> 00:27:48,420
+you okay all right very create a strong
+
+693
+00:27:54,140 --> 00:27:51,780
+at o'neill's oh you use this stuff
+
+694
+00:27:55,760 --> 00:27:54,150
+you're a user of this data is this how
+
+695
+00:27:58,100 --> 00:27:55,770
+you is this how you do it is this how
+
+696
+00:28:00,080 --> 00:27:58,110
+you get it well I think traditionally
+
+697
+00:28:02,630 --> 00:28:00,090
+how I would have done it in the past is
+
+698
+00:28:04,790 --> 00:28:02,640
+is to go through your directly through
+
+699
+00:28:07,220 --> 00:28:04,800
+mast after going after one hour one
+
+700
+00:28:09,920 --> 00:28:07,230
+target in mind or 11 specific
+701
+00:28:12,380 --> 00:28:09,930
+observation in mind but the really nice
+
+702
+00:28:14,420 --> 00:28:12,390
+thing about having having it packaged up
+
+703
+00:28:17,150 --> 00:28:14,430
+the way that they have now in the new
+
+704
+00:28:19,520 --> 00:28:17,160
+archive is that it really facilitates
+
+705
+00:28:21,470 --> 00:28:19,530
+discovery pates places for for people
+
+706
+00:28:22,910 --> 00:28:21,480
+who don't have really good spectral kung
+
+707
+00:28:24,770 --> 00:28:22,920
+fu and how to manipulate the data
+
+708
+00:28:26,480 --> 00:28:24,780
+because when you take any individual
+
+709
+00:28:29,020 --> 00:28:26,490
+frame and you're trying to get something
+
+710
+00:28:31,010 --> 00:28:29,030
+out of it you may not completely
+
+711
+00:28:33,080 --> 00:28:31,020
+understand what you're looking at a
+
+712
+00:28:34,640 --> 00:28:33,090
+hundred percent whereas if you have an
+
+713
+00:28:36,440 --> 00:28:34,650
+archive which has gone and taken all the
+
+714
+00:28:38,000 --> 00:28:36,450
+exposures of something and put them
+
+715
+00:28:40,370 --> 00:28:38,010
+together for you you can immediately
+
+716
+00:28:43,100 --> 00:28:40,380
+start doing science with it so you
+
+717
+00:28:44,330 --> 00:28:43,110
+either know astronomy yes a stroll
+
+718
+00:28:46,490 --> 00:28:44,340
+astronomy no but no
+
+719
+00:28:48,620 --> 00:28:46,500
+astronomy guess all you get squish like
+
+720
+00:28:51,080 --> 00:28:48,630
+grape right see that you have you did
+
+721
+00:28:52,789 --> 00:28:51,090
+you you did it you started with the with
+
+722
+00:28:56,960 --> 00:28:52,799
+the spectral kunku I had to bring mr.
+
+723
+00:28:58,760 --> 00:28:56,970
+Miyagi into it yeah well sir and and and
+
+724
+00:29:00,649 --> 00:28:58,770
+i think what what's exciting about
+
+725
+00:29:02,659 --> 00:29:00,659
+archives like this especially sort of
+726
+00:29:05,360 --> 00:29:02,669
+refined data product archives like this
+
+727
+00:29:06,860 --> 00:29:05,370
+is that it's going to open up a lot more
+
+728
+00:29:09,320 --> 00:29:06,870
+people to to doing what's called
+
+729
+00:29:10,820 --> 00:29:09,330
+archival proposals that's another type
+
+730
+00:29:12,500 --> 00:29:10,830
+of proposals that have that happened
+
+731
+00:29:13,820 --> 00:29:12,510
+with Space Telescope and it's and it's
+
+732
+00:29:16,159 --> 00:29:13,830
+the way that I think that Hubble is
+
+733
+00:29:17,360 --> 00:29:16,169
+really going to be a century telescope
+
+734
+00:29:19,549 --> 00:29:17,370
+it's going to be a telescope people are
+
+735
+00:29:21,649 --> 00:29:19,559
+using data from for a hundred years and
+
+736
+00:29:24,320 --> 00:29:21,659
+that you know you can really mind this
+
+737
+00:29:26,899 --> 00:29:24,330
+archive without having to do a lot of
+
+738
+00:29:28,730 --> 00:29:26,909
+the work that takes a lot of time and
+
+739
+00:29:30,830 --> 00:29:28,740
+preparing the data to go from something
+
+740
+00:29:32,360 --> 00:29:30,840
+like that thumbnail on the mast portal
+
+741
+00:29:34,639 --> 00:29:32,370
+that you have right now to something you
+
+742
+00:29:35,930 --> 00:29:34,649
+can actually use to do science and if
+
+743
+00:29:37,549 --> 00:29:35,940
+you can spend more of your time trying
+
+744
+00:29:39,590 --> 00:29:37,559
+to do the science with the data and not
+
+745
+00:29:41,510 --> 00:29:39,600
+trying to finesse the data that that
+
+746
+00:29:43,399 --> 00:29:41,520
+really opens up a lot of possibilities
+
+747
+00:29:45,620 --> 00:29:43,409
+and it opens up possibilities for people
+
+748
+00:29:47,029 --> 00:29:45,630
+who may not always be safe quasar
+
+749
+00:29:49,669 --> 00:29:47,039
+absorption like people but who are
+
+750
+00:29:52,220 --> 00:29:49,679
+galaxies people and they can just go
+751
+00:29:54,769 --> 00:29:52,230
+straight to a specific question in data
+
+752
+00:29:56,450 --> 00:29:54,779
+that's ready for them to use yeah that
+
+753
+00:29:59,810 --> 00:29:56,460
+was a pic to your point the fact that
+
+754
+00:30:01,970 --> 00:29:59,820
+this group the fact that you may have a
+
+755
+00:30:04,310 --> 00:30:01,980
+particular object that's a starburst
+
+756
+00:30:05,960 --> 00:30:04,320
+galaxy or something like that and if you
+
+757
+00:30:07,610 --> 00:30:05,970
+go here and you find the spectra then
+
+758
+00:30:09,409 --> 00:30:07,620
+you can see the other objects like it
+
+759
+00:30:11,450 --> 00:30:09,419
+you go oh I didn't realize that there
+
+760
+00:30:13,580 --> 00:30:11,460
+was an observation of my other favorite
+
+761
+00:30:15,169 --> 00:30:13,590
+off you know object can come ova and
+
+762
+00:30:18,139 --> 00:30:15,179
+then you can look at that data as well
+
+763
+00:30:20,539 --> 00:30:18,149
+so that the comfortable groupings are
+
+764
+00:30:22,940 --> 00:30:20,549
+really really useful when you're trying
+
+765
+00:30:25,519 --> 00:30:22,950
+to look at a class of object that you're
+
+766
+00:30:30,940 --> 00:30:25,529
+interested in exactly and so Scott if
+
+767
+00:30:34,970 --> 00:30:30,950
+you go back to light the samples page um
+
+768
+00:30:36,919 --> 00:30:34,980
+go let's go to one that has more data
+
+769
+00:30:40,399 --> 00:30:36,929
+one of the galaxy or quasar once or
+
+770
+00:30:43,279 --> 00:30:40,409
+white dwarfs if you go back piano lab I
+
+771
+00:30:45,740 --> 00:30:43,289
+think desert so I'm looking at um there
+
+772
+00:30:47,899 --> 00:30:45,750
+we are yeah so just scroll down and pick
+
+773
+00:30:51,649 --> 00:30:47,909
+one that has like a lot of objects in it
+
+774
+00:30:54,169 --> 00:30:51,659
+all stars for instance um yeah Our Stars
+
+775
+00:30:55,399 --> 00:30:54,179
+has a lot white chocolate why you are so
+776
+00:30:56,860 --> 00:30:55,409
+nice because they're very bright in the
+
+777
+00:30:59,320 --> 00:30:56,870
+UV and see a very high
+
+778
+00:31:03,790 --> 00:30:59,330
+single story is nice um so one of the
+
+779
+00:31:06,310 --> 00:31:03,800
+nice things about this one is that so
+
+780
+00:31:07,720 --> 00:31:06,320
+for example um carol is mentioning if
+
+781
+00:31:10,540 --> 00:31:07,730
+you have your favorite target if you
+
+782
+00:31:12,790 --> 00:31:10,550
+scroll to the top and you know the name
+
+783
+00:31:14,860 --> 00:31:12,800
+of the target you're looking for you can
+
+784
+00:31:16,780 --> 00:31:14,870
+type it into the little search bar so
+
+785
+00:31:18,790 --> 00:31:16,790
+for example type WD there are a lot of
+
+786
+00:31:21,100 --> 00:31:18,800
+white dwarfs names that start with WD
+
+787
+00:31:29,230 --> 00:31:21,110
+and they're all just going to pop up
+
+788
+00:31:31,810 --> 00:31:29,240
+here sorry sorry um WD 0 um because it's
+
+789
+00:31:33,400 --> 00:31:31,820
+also searching yeah so here are but you
+
+790
+00:31:38,620 --> 00:31:33,410
+know a bunch of ones that start like
+
+791
+00:31:40,090 --> 00:31:38,630
+that um and so now if you click uh you
+
+792
+00:31:43,510 --> 00:31:40,100
+can also be all these tables are also
+
+793
+00:31:47,200 --> 00:31:43,520
+sortable so if you click to erase your
+
+794
+00:31:51,130 --> 00:31:47,210
+search bar this is just an example so
+
+795
+00:31:52,930 --> 00:31:51,140
+click on number of exposures yep and
+
+796
+00:31:55,600 --> 00:31:52,940
+click on it again so it's sort of
+
+797
+00:31:56,919 --> 00:31:55,610
+reverse sort yeah so these first few
+
+798
+00:31:58,210 --> 00:31:56,929
+ones or ones that we use to calibrate
+
+799
+00:32:01,150 --> 00:31:58,220
+the instrument is why there's an
+
+800
+00:32:04,169 --> 00:32:01,160
+insanely large number of exposures but
+801
+00:32:08,650 --> 00:32:04,179
+if you just click on one like maybe they
+
+802
+00:32:09,760 --> 00:32:08,660
+will be a good one the WD 1654 i'm
+
+803
+00:32:11,380 --> 00:32:09,770
+pointing at the screen as if you can
+
+804
+00:32:16,330 --> 00:32:11,390
+tell where I'm pointing down near the
+
+805
+00:32:18,610 --> 00:32:16,340
+bottom yeah that one it's your telepathy
+
+806
+00:32:20,320 --> 00:32:18,620
+is pretty good yeah we're cross country
+
+807
+00:32:23,770 --> 00:32:20,330
+we're getting it going yeah so this is
+
+808
+00:32:27,070 --> 00:32:23,780
+just an example of if you want to then
+
+809
+00:32:31,240 --> 00:32:27,080
+see what data exists for this object the
+
+810
+00:32:33,130 --> 00:32:31,250
+top gives these histograms and I random
+
+811
+00:32:35,860 --> 00:32:33,140
+example isn't very good give sort of the
+
+812
+00:32:37,480 --> 00:32:35,870
+demographics of what what configurations
+
+813
+00:32:40,440 --> 00:32:37,490
+where the instrument was the instrument
+
+814
+00:32:44,140 --> 00:32:40,450
+in when the different data were taken um
+
+815
+00:32:46,320 --> 00:32:44,150
+and then as you scroll down the first
+
+816
+00:32:49,480 --> 00:32:46,330
+thing that shows up is the full
+
+817
+00:32:51,400 --> 00:32:49,490
+combination of all the spectrum and it
+
+818
+00:32:52,870 --> 00:32:51,410
+looks very nice and then as you scroll
+
+819
+00:32:54,610 --> 00:32:52,880
+down which you can see are the
+
+820
+00:32:57,610 --> 00:32:54,620
+individual exposures which will look a
+
+821
+00:32:59,260 --> 00:32:57,620
+little bit right here but then the idea
+
+822
+00:33:01,299 --> 00:32:59,270
+is that once they were combined very
+
+823
+00:33:07,060 --> 00:33:01,309
+there's a lot more single there that can
+
+824
+00:33:08,800 --> 00:33:07,070
+be used for science okay well so I got a
+
+825
+00:33:10,210 --> 00:33:08,810
+comment here from the nebulous mistress
+826
+00:33:10,630 --> 00:33:10,220
+which brings up the next point I want to
+
+827
+00:33:13,030 --> 00:33:10,640
+break
+
+828
+00:33:15,550 --> 00:33:13,040
+bring up and I'm assuming it so she says
+
+829
+00:33:18,820 --> 00:33:15,560
+man i wish this database was online when
+
+830
+00:33:21,580 --> 00:33:18,830
+i wrote my thesis hayes hope to hear
+
+831
+00:33:22,810 --> 00:33:21,590
+that so let me add so let me tell this
+
+832
+00:33:24,580 --> 00:33:22,820
+talk about that a little bit are you
+
+833
+00:33:26,770 --> 00:33:24,590
+hoping and one of the reed what about
+
+834
+00:33:29,140 --> 00:33:26,780
+new astronomers coming up with these
+
+835
+00:33:31,300 --> 00:33:29,150
+tools are they do you think in a better
+
+836
+00:33:34,180 --> 00:33:31,310
+position to ask science questions of
+
+837
+00:33:35,500 --> 00:33:34,190
+this data then you guys Lucas jason said
+
+838
+00:33:36,910 --> 00:33:35,510
+something earlier about we go to the
+
+839
+00:33:39,010 --> 00:33:36,920
+library and get just to pay a bunch of
+
+840
+00:33:41,380 --> 00:33:39,020
+pages in a book and you're expected to
+
+841
+00:33:43,990 --> 00:33:41,390
+sort through them yourself now I did my
+
+842
+00:33:46,900 --> 00:33:44,000
+thesis in the very late 90s in the early
+
+843
+00:33:48,820 --> 00:33:46,910
+aughts and we had you know massed in
+
+844
+00:33:50,680 --> 00:33:48,830
+those days you went you basically got
+
+845
+00:33:52,480 --> 00:33:50,690
+one object at a time so the library
+
+846
+00:33:53,770 --> 00:33:52,490
+analogy you checked out one book at a
+
+847
+00:33:56,380 --> 00:33:53,780
+time and took it home and you wait and
+
+848
+00:33:58,150 --> 00:33:56,390
+check out another one and and and
+
+849
+00:34:00,040 --> 00:33:58,160
+remember it was in the forum where the
+
+850
+00:34:02,260 --> 00:34:00,050
+book wasn't bound it was just a set of
+851
+00:34:04,690 --> 00:34:02,270
+pages right because it was we didn't
+
+852
+00:34:07,420 --> 00:34:04,700
+combine the exposures into a single
+
+853
+00:34:11,470 --> 00:34:07,430
+spectrum for each target so you got one
+
+854
+00:34:14,649 --> 00:34:11,480
+pile of pages at a time now we're in a
+
+855
+00:34:16,090 --> 00:34:14,659
+situation where we hope that the users
+
+856
+00:34:17,980 --> 00:34:16,100
+can go to the library and just get the
+
+857
+00:34:19,030 --> 00:34:17,990
+pile of books they want and go off and
+
+858
+00:34:20,800 --> 00:34:19,040
+do the research you know they're not
+
+859
+00:34:23,050 --> 00:34:20,810
+they're not having to wade through the
+
+860
+00:34:25,419 --> 00:34:23,060
+card catalog and figure anybody remember
+
+861
+00:34:27,250 --> 00:34:25,429
+what card catalog is yeah I mean a way
+
+862
+00:34:29,710 --> 00:34:27,260
+through the catalog and figure out you
+
+863
+00:34:31,270 --> 00:34:29,720
+know it's sort of like you know the old
+
+864
+00:34:34,659 --> 00:34:31,280
+days you if you don't watch ghostbusters
+
+865
+00:34:36,880 --> 00:34:34,669
+the opening scene right haha it's like
+
+866
+00:34:38,409 --> 00:34:36,890
+us know that he always managed to make
+
+867
+00:34:40,899 --> 00:34:38,419
+me feel old in these things why do you
+
+868
+00:34:43,570 --> 00:34:40,909
+always just cuz it's like if you are
+
+869
+00:34:45,909 --> 00:34:43,580
+needed to know the name where you run in
+
+870
+00:34:48,149 --> 00:34:45,919
+yeah and now you can go and you just say
+
+871
+00:34:51,850 --> 00:34:48,159
+give me all the books you have on
+
+872
+00:34:54,520 --> 00:34:51,860
+ectoplasm and there is okay but to be
+
+873
+00:34:57,640 --> 00:34:54,530
+fair back in the day there weren't that
+
+874
+00:34:59,410 --> 00:34:57,650
+many books to look at okay we were
+
+875
+00:35:02,200 --> 00:34:59,420
+looking in cuneiform to be fair you'll
+876
+00:35:03,880 --> 00:35:02,210
+have to know their names and know where
+
+877
+00:35:05,740 --> 00:35:03,890
+to find them and then once you do have
+
+878
+00:35:08,280 --> 00:35:05,750
+the data you had to spend all of your
+
+879
+00:35:10,420 --> 00:35:08,290
+time reinventing the same data reduction
+
+880
+00:35:12,610 --> 00:35:10,430
+techniques that everybody else was
+
+881
+00:35:15,310 --> 00:35:12,620
+spending our time ya doing and to be
+
+882
+00:35:17,860 --> 00:35:15,320
+fair you still can download even from
+
+883
+00:35:20,880 --> 00:35:17,870
+these portals or all the individual
+
+884
+00:35:23,400 --> 00:35:20,890
+exposures and if what you really
+
+885
+00:35:26,190 --> 00:35:23,410
+I do is combine them in some way that's
+
+886
+00:35:28,349 --> 00:35:26,200
+specific to you that's not the choices
+
+887
+00:35:30,870 --> 00:35:28,359
+that we did you can still do that you
+
+888
+00:35:32,819 --> 00:35:30,880
+can stop for most science purposes time
+
+889
+00:35:35,299 --> 00:35:32,829
+is better spent actually doing science
+
+890
+00:35:38,099 --> 00:35:35,309
+on the reduced to data rather than
+
+891
+00:35:41,490 --> 00:35:38,109
+trying to figure out the data's phone
+
+892
+00:35:43,470 --> 00:35:41,500
+number and how to dial it ok well the
+
+893
+00:35:44,839 --> 00:35:43,480
+Venice library analogy still has legs
+
+894
+00:35:48,059 --> 00:35:44,849
+but I'm going to use it one more time
+
+895
+00:35:51,390 --> 00:35:48,069
+wait when you're using a bubble like
+
+896
+00:35:53,069 --> 00:35:51,400
+like me or Molly or John you might have
+
+897
+00:35:54,299 --> 00:35:53,079
+created a few data sets and you're
+
+898
+00:35:55,680 --> 00:35:54,309
+interested in going to get your data
+
+899
+00:35:58,079 --> 00:35:55,690
+sets out of the archive that's like you
+
+900
+00:35:59,970 --> 00:35:58,089
+go check out a book you wrote right but
+901
+00:36:01,440 --> 00:35:59,980
+you also when you write that paper or do
+
+902
+00:36:03,029 --> 00:36:01,450
+a research project you'd like to read
+
+903
+00:36:05,190 --> 00:36:03,039
+the same the books that everybody else
+
+904
+00:36:06,930 --> 00:36:05,200
+wrote on that topic and the reason this
+
+905
+00:36:08,940 --> 00:36:06,940
+is really really enabling is that it
+
+906
+00:36:11,670 --> 00:36:08,950
+makes it very very easy for you to go
+
+907
+00:36:13,620 --> 00:36:11,680
+and quickly grab your data plus every
+
+908
+00:36:15,450 --> 00:36:13,630
+other kind of data every other data set
+
+909
+00:36:18,210 --> 00:36:15,460
+on that same kind of object that
+
+910
+00:36:20,099 --> 00:36:18,220
+everybody else is created so you get the
+
+911
+00:36:22,259 --> 00:36:20,109
+force multiplier effect of having all of
+
+912
+00:36:23,549 --> 00:36:22,269
+it in one place well that brings up the
+
+913
+00:36:25,170 --> 00:36:23,559
+next question I wanted to ask both of
+
+914
+00:36:26,640 --> 00:36:25,180
+you so that's perfect point to make
+
+915
+00:36:28,200 --> 00:36:26,650
+right this moment Jason because this is
+
+916
+00:36:30,480 --> 00:36:28,210
+for all of you and Carol you can even
+
+917
+00:36:32,249 --> 00:36:30,490
+client chime in if you'd like to but
+
+918
+00:36:33,749 --> 00:36:32,259
+this day and in this day and age you see
+
+919
+00:36:35,430 --> 00:36:33,759
+a lot of papers being published a lot of
+
+920
+00:36:36,839 --> 00:36:35,440
+science being done on the data and
+
+921
+00:36:38,910 --> 00:36:36,849
+they're saying from the data I have
+
+922
+00:36:41,910 --> 00:36:38,920
+asked this question and reached this
+
+923
+00:36:44,400 --> 00:36:41,920
+conclusion and it's important now isn't
+
+924
+00:36:46,859 --> 00:36:44,410
+it in in science especially using these
+
+925
+00:36:49,319 --> 00:36:46,869
+archives and using the data that is now
+926
+00:36:52,499 --> 00:36:49,329
+we're calling big data to be able to
+
+927
+00:36:55,890 --> 00:36:52,509
+reproduce those results effectively and
+
+928
+00:36:57,480 --> 00:36:55,900
+so does an archive like this lets you do
+
+929
+00:36:59,279 --> 00:36:57,490
+that better if I read a paper let's say
+
+930
+00:37:00,779 --> 00:36:59,289
+Jason puts out a paper using this data
+
+931
+00:37:03,269 --> 00:37:00,789
+and i want to say well i'm not sure he's
+
+932
+00:37:06,059 --> 00:37:03,279
+right let me try it myself and see if i
+
+933
+00:37:07,559 --> 00:37:06,069
+can get the same answer this helps it a
+
+934
+00:37:09,359 --> 00:37:07,569
+lot more than say back in the day when
+
+935
+00:37:11,549 --> 00:37:09,369
+you only have the card catalog right so
+
+936
+00:37:15,509 --> 00:37:11,559
+way back in the day when when these
+
+937
+00:37:17,880 --> 00:37:15,519
+these people were children I was working
+
+938
+00:37:19,740 --> 00:37:17,890
+on on cluster star clusters and in
+
+939
+00:37:22,740 --> 00:37:19,750
+particular globular clusters and there
+
+940
+00:37:25,650 --> 00:37:22,750
+was a discrepancy and a number of people
+
+941
+00:37:29,160 --> 00:37:25,660
+were researching the chemistry of those
+
+942
+00:37:30,960 --> 00:37:29,170
+clusters using spectra and so but in
+
+943
+00:37:33,210 --> 00:37:30,970
+those days and age you went and you've
+
+944
+00:37:34,740 --> 00:37:33,220
+got the spectra and it was your data and
+
+945
+00:37:37,140 --> 00:37:34,750
+so we had a
+
+946
+00:37:39,630 --> 00:37:37,150
+conference where everybody come by
+
+947
+00:37:41,400 --> 00:37:39,640
+agreed to exchange the data store they
+
+948
+00:37:43,200 --> 00:37:41,410
+had to format the data and they sent
+
+949
+00:37:45,510 --> 00:37:43,210
+tapes back and forth and all this stuff
+
+950
+00:37:47,490 --> 00:37:45,520
+and then and then everybody would
+951
+00:37:49,320 --> 00:37:47,500
+analyze each other's data that those
+
+952
+00:37:51,270 --> 00:37:49,330
+days are over you just go get the data
+
+953
+00:37:53,250 --> 00:37:51,280
+and you analyze it you say well why did
+
+954
+00:37:56,160 --> 00:37:53,260
+this person get this and will my
+
+955
+00:37:59,520 --> 00:37:56,170
+algorithm work the same way so I get
+
+956
+00:38:01,530 --> 00:37:59,530
+Jason spectra and I use my model or
+
+957
+00:38:03,570 --> 00:38:01,540
+whatever and then I say oh this is how
+
+958
+00:38:05,220 --> 00:38:03,580
+it's different so this this really
+
+959
+00:38:09,150 --> 00:38:05,230
+chained and you get those answers very
+
+960
+00:38:10,710 --> 00:38:09,160
+quickly and so it doesn't take like a
+
+961
+00:38:12,570 --> 00:38:10,720
+year do you have to have another
+
+962
+00:38:15,330 --> 00:38:12,580
+conference a year later oh we all did
+
+963
+00:38:16,650 --> 00:38:15,340
+you know it was painful good i would say
+
+964
+00:38:19,020 --> 00:38:16,660
+that des archives have really
+
+965
+00:38:20,700 --> 00:38:19,030
+strengthened the overall ethic of
+
+966
+00:38:23,850 --> 00:38:20,710
+reproducibility which is an important
+
+967
+00:38:26,660 --> 00:38:23,860
+part absolutely no comparability about
+
+968
+00:38:28,920 --> 00:38:26,670
+different people analyze information
+
+969
+00:38:31,890 --> 00:38:28,930
+over after which we shouldn't overlook
+
+970
+00:38:35,070 --> 00:38:31,900
+is that these these these data are from
+
+971
+00:38:38,490 --> 00:38:35,080
+missions that that the public paid for
+
+972
+00:38:40,980 --> 00:38:38,500
+so you know we need to make sure that
+
+973
+00:38:43,980 --> 00:38:40,990
+whatever we're generating is accessible
+
+974
+00:38:45,870 --> 00:38:43,990
+and intelligible and useful because it
+
+975
+00:38:47,490 --> 00:38:45,880
+really belongs just like Hubble itself
+976
+00:38:49,730 --> 00:38:47,500
+it all had eight applause all of us and
+
+977
+00:38:52,500 --> 00:38:49,740
+one of the things about these different
+
+978
+00:38:54,360 --> 00:38:52,510
+samples that we've put together that you
+
+979
+00:38:58,640 --> 00:38:54,370
+know has been fascinating just for us
+
+980
+00:39:00,450 --> 00:38:58,650
+going through and I'm sure certain
+
+981
+00:39:02,130 --> 00:39:00,460
+members of the public with certain
+
+982
+00:39:06,060 --> 00:39:02,140
+dispositions but also find fascinating
+
+983
+00:39:08,820 --> 00:39:06,070
+to go through is you know I had never
+
+984
+00:39:12,540 --> 00:39:08,830
+seen a UV spectrum of a supernova before
+
+985
+00:39:14,340 --> 00:39:12,550
+and now I can just go to the Superdome a
+
+986
+00:39:16,800 --> 00:39:14,350
+sample and click through if you like wow
+
+987
+00:39:22,140 --> 00:39:16,810
+what's going on there and look at that
+
+988
+00:39:23,490 --> 00:39:22,150
+and um you know I have gotten a lot
+
+989
+00:39:25,170 --> 00:39:23,500
+better because I've just been looking or
+
+990
+00:39:27,270 --> 00:39:25,180
+I don't work on white horse I can now
+
+991
+00:39:29,850 --> 00:39:27,280
+kind of go through white dwarfs and be
+
+992
+00:39:32,190 --> 00:39:29,860
+like oh you look really like you've just
+
+993
+00:39:33,660 --> 00:39:32,200
+got hydrogen home oh you you look like
+
+994
+00:39:36,180 --> 00:39:33,670
+you've got some metal line absorption
+
+995
+00:39:38,820 --> 00:39:36,190
+that's interesting like I you it's just
+
+996
+00:39:40,110 --> 00:39:38,830
+once you have the full database that you
+
+997
+00:39:42,720 --> 00:39:40,120
+can go through instead of just
+
+998
+00:39:44,880 --> 00:39:42,730
+individual objects there's just a lot of
+
+999
+00:39:47,100 --> 00:39:44,890
+fascinating stuff that you can just kind
+
+1000
+00:39:48,329 --> 00:39:47,110
+of pick up by I ok now here but here's
+1001
+00:39:50,069 --> 00:39:48,339
+what worries me about this and
+
+1002
+00:39:52,109 --> 00:39:50,079
+it's not just about this archive but all
+
+1003
+00:39:54,239 --> 00:39:52,119
+archives where you're getting already
+
+1004
+00:39:57,539 --> 00:39:54,249
+analyzed or processed data in some way
+
+1005
+00:40:00,029 --> 00:39:57,549
+are we introducing biases and are we how
+
+1006
+00:40:02,749 --> 00:40:00,039
+careful are we that we are that
+
+1007
+00:40:05,160 --> 00:40:02,759
+everybody is starting with and the right
+
+1008
+00:40:06,690 --> 00:40:05,170
+foundation to ask their questions
+
+1009
+00:40:08,999 --> 00:40:06,700
+because what worries me is if somebody
+
+1010
+00:40:10,979 --> 00:40:09,009
+gets a wrong processing step line and
+
+1011
+00:40:13,049 --> 00:40:10,989
+everybody's paper is based on this let
+
+1012
+00:40:15,059 --> 00:40:13,059
+down the road how susceptible or a week
+
+1013
+00:40:17,640 --> 00:40:15,069
+to that that was a big concern of ours
+
+1014
+00:40:20,039 --> 00:40:17,650
+because we are we are all users of this
+
+1015
+00:40:22,890 --> 00:40:20,049
+kind of stuff ourselves and we know how
+
+1016
+00:40:24,690 --> 00:40:22,900
+difficult it can be to perform those
+
+1017
+00:40:27,440 --> 00:40:24,700
+reduction steps to get the analysis
+
+1018
+00:40:29,339 --> 00:40:27,450
+right we also know that different
+
+1019
+00:40:30,870 --> 00:40:29,349
+scientists who've been trained to do
+
+1020
+00:40:33,509 --> 00:40:30,880
+this kind of thing make different
+
+1021
+00:40:35,009 --> 00:40:33,519
+judgments a lot of the steps you do come
+
+1022
+00:40:37,380 --> 00:40:35,019
+down to judgment calls about whether
+
+1023
+00:40:39,029 --> 00:40:37,390
+you're willing to do this or that step
+
+1024
+00:40:41,759 --> 00:40:39,039
+which may be computationally intensive
+
+1025
+00:40:43,950 --> 00:40:41,769
+you know there's never a single unique
+1026
+00:40:45,450 --> 00:40:43,960
+answer for every step in the process so
+
+1027
+00:40:46,890 --> 00:40:45,460
+you have to when you're doing it for
+
+1028
+00:40:48,749 --> 00:40:46,900
+yourself you have to make choices and
+
+1029
+00:40:51,059 --> 00:40:48,759
+you're doing it for everybody like we
+
+1030
+00:40:52,469 --> 00:40:51,069
+did you have to often you have to make
+
+1031
+00:40:53,880 --> 00:40:52,479
+those same choices so we actually
+
+1032
+00:40:56,670 --> 00:40:53,890
+brought in a group of experts from
+
+1033
+00:40:59,670 --> 00:40:56,680
+outside the Institute side Space
+
+1034
+00:41:01,499 --> 00:40:59,680
+Telescope and some people from inside we
+
+1035
+00:41:04,920 --> 00:41:01,509
+all got together over a period of a few
+
+1036
+00:41:07,440 --> 00:41:04,930
+months and these are some of the best
+
+1037
+00:41:09,150 --> 00:41:07,450
+people yeah you can you could you could
+
+1038
+00:41:10,890 --> 00:41:09,160
+possibly get whoever done spectroscopy
+
+1039
+00:41:12,870 --> 00:41:10,900
+including people have been doing it you
+
+1040
+00:41:14,819 --> 00:41:12,880
+know for the entire lifetime with Hubble
+
+1041
+00:41:16,559 --> 00:41:14,829
+and even before that entire lifetime me
+
+1042
+00:41:18,989 --> 00:41:16,569
+and then we here we got it we got them
+
+1043
+00:41:21,420 --> 00:41:18,999
+together we talked about how to make
+
+1044
+00:41:24,089 --> 00:41:21,430
+these choices and we tried we know we
+
+1045
+00:41:25,890 --> 00:41:24,099
+can't produce data sets that are going
+
+1046
+00:41:29,249 --> 00:41:25,900
+to be perfect for every purpose it's
+
+1047
+00:41:31,620 --> 00:41:29,259
+just not possible but we know we can
+
+1048
+00:41:34,410 --> 00:41:31,630
+write we thought and we turned up to be
+
+1049
+00:41:35,609 --> 00:41:34,420
+right that we could produce data sets
+
+1050
+00:41:37,259 --> 00:41:35,619
+that would be you know ninety percent
+1051
+00:41:39,509 --> 00:41:37,269
+useful to ninety percent of the science
+
+1052
+00:41:42,329 --> 00:41:39,519
+cases by making the broadest possible
+
+1053
+00:41:44,519 --> 00:41:42,339
+set of choices and as we go along one of
+
+1054
+00:41:46,170 --> 00:41:44,529
+the reasons where we've kind of arranged
+
+1055
+00:41:47,999 --> 00:41:46,180
+things this way we have an email address
+
+1056
+00:41:50,130 --> 00:41:48,009
+for people to send us feedback if
+
+1057
+00:41:52,890 --> 00:41:50,140
+website we're doing this hangout we want
+
+1058
+00:41:54,900 --> 00:41:52,900
+people to tell us what the data could do
+
+1059
+00:41:57,089 --> 00:41:54,910
+for them that it's not doing and then
+
+1060
+00:41:58,559 --> 00:41:57,099
+over time the Institute will continue to
+
+1061
+00:42:02,160 --> 00:41:58,569
+support this and it will evolve and
+
+1062
+00:42:04,470 --> 00:42:02,170
+we're hoping to make it even more useful
+
+1063
+00:42:06,150 --> 00:42:04,480
+in in that way so you know Tony you're
+
+1064
+00:42:07,470 --> 00:42:06,160
+okay Bo but wait a minute that that
+
+1065
+00:42:09,870 --> 00:42:07,480
+that's that bothers me a little bit
+
+1066
+00:42:11,400 --> 00:42:09,880
+Jason only because how can i if I call
+
+1067
+00:42:13,410 --> 00:42:11,410
+you and tell you well the datas I'm not
+
+1068
+00:42:16,140 --> 00:42:13,420
+you're not what you're not saying I hope
+
+1069
+00:42:17,550 --> 00:42:16,150
+is that while the data is not doing what
+
+1070
+00:42:19,320 --> 00:42:17,560
+it needs to be doing for me I need you
+
+1071
+00:42:20,670 --> 00:42:19,330
+to change it I mean isn't it this is
+
+1072
+00:42:23,850 --> 00:42:20,680
+objective thing these are measurements
+
+1073
+00:42:26,490 --> 00:42:23,860
+that were taken I want to serve oh well
+
+1074
+00:42:29,370 --> 00:42:26,500
+so to rephrase your question if you know
+
+1075
+00:42:32,850 --> 00:42:29,380
+we get an email that's saying oh it
+1076
+00:42:35,550 --> 00:42:32,860
+looks like you know you've got some
+
+1077
+00:42:37,860 --> 00:42:35,560
+weird you know error property is
+
+1078
+00:42:39,630 --> 00:42:37,870
+happening when you're combining the edge
+
+1079
+00:42:41,910 --> 00:42:39,640
+of this one segment with the edge of
+
+1080
+00:42:43,530 --> 00:42:41,920
+this other segments and let me show you
+
+1081
+00:42:45,000 --> 00:42:43,540
+this example case where something's
+
+1082
+00:42:47,520 --> 00:42:45,010
+clearly don't clearly going we were like
+
+1083
+00:42:50,220 --> 00:42:47,530
+oh okay we need to look at that that
+
+1084
+00:42:53,010 --> 00:42:50,230
+didn't show up in our tests it you know
+
+1085
+00:42:55,050 --> 00:42:53,020
+okay um but at some point there is an
+
+1086
+00:42:57,390 --> 00:42:55,060
+objective high weight low fish the
+
+1087
+00:42:59,040 --> 00:42:57,400
+question that I had kept asking when we
+
+1088
+00:43:00,570 --> 00:42:59,050
+were trying to decide okay are we ready
+
+1089
+00:43:02,100 --> 00:43:00,580
+to release this product the question
+
+1090
+00:43:04,140 --> 00:43:02,110
+that I kept asking Jason and other
+
+1091
+00:43:06,210 --> 00:43:04,150
+people the team is you know well you
+
+1092
+00:43:08,430 --> 00:43:06,220
+know we know that there are always ways
+
+1093
+00:43:10,650 --> 00:43:08,440
+to improve the data product and the
+
+1094
+00:43:12,150 --> 00:43:10,660
+question was well you know you're
+
+1095
+00:43:14,820 --> 00:43:12,160
+someone who does spectroscopy for a
+
+1096
+00:43:16,680 --> 00:43:14,830
+living would you use this site you know
+
+1097
+00:43:18,720 --> 00:43:16,690
+do you use this data product to be your
+
+1098
+00:43:22,560 --> 00:43:18,730
+own science and once the answer was well
+
+1099
+00:43:25,110 --> 00:43:22,570
+yeah that's when we were like okay we're
+
+1100
+00:43:28,610 --> 00:43:25,120
+not and and I also want to point
+1101
+00:43:31,350 --> 00:43:28,620
+something out there are other notable
+
+1102
+00:43:34,380 --> 00:43:31,360
+fields of science not all but there are
+
+1103
+00:43:36,480 --> 00:43:34,390
+some where the research is done behind
+
+1104
+00:43:38,880 --> 00:43:36,490
+closed doors and paid for by commercial
+
+1105
+00:43:42,720 --> 00:43:38,890
+companies and you don't get to see the
+
+1106
+00:43:44,970 --> 00:43:42,730
+data this is a completely open class you
+
+1107
+00:43:47,190 --> 00:43:44,980
+can look at the data reduction code you
+
+1108
+00:43:49,740 --> 00:43:47,200
+can modify the data reduction code you
+
+1109
+00:43:51,420 --> 00:43:49,750
+can start from Ground Zero and get every
+
+1110
+00:43:54,800 --> 00:43:51,430
+little bit that came down from the
+
+1111
+00:43:58,350 --> 00:43:54,810
+telescope you can it's a good points or
+
+1112
+00:44:00,690 --> 00:43:58,360
+integrate a complete open process it's
+
+1113
+00:44:02,790 --> 00:44:00,700
+open source there till we see every step
+
+1114
+00:44:03,870 --> 00:44:02,800
+that was taken not just oh you're just
+
+1115
+00:44:05,400 --> 00:44:03,880
+gonna take it because this is what we're
+
+1116
+00:44:08,040 --> 00:44:05,410
+getting it and the way that we're
+
+1117
+00:44:11,040 --> 00:44:08,050
+delivering these data is the individual
+
+1118
+00:44:13,470 --> 00:44:11,050
+exposures that went into the final
+
+1119
+00:44:16,350 --> 00:44:13,480
+edition that we're delivering are
+
+1120
+00:44:16,590 --> 00:44:16,360
+delivered along with that co edition so
+
+1121
+00:44:19,740 --> 00:44:16,600
+you
+
+1122
+00:44:21,930 --> 00:44:19,750
+look at the final project can be like
+
+1123
+00:44:23,220 --> 00:44:21,940
+yeah okay that makes sense or but that's
+
+1124
+00:44:25,080 --> 00:44:23,230
+where I was hoping to get to because
+
+1125
+00:44:27,720 --> 00:44:25,090
+there is some there's some check or some
+1126
+00:44:30,390 --> 00:44:27,730
+objective storing let me reassure you
+
+1127
+00:44:32,730 --> 00:44:30,400
+that although astronomers are not the
+
+1128
+00:44:35,820 --> 00:44:32,740
+dominant science in this country we are
+
+1129
+00:44:37,920 --> 00:44:35,830
+filled with skeptics and you know and
+
+1130
+00:44:40,050 --> 00:44:37,930
+our colleagues are skeptics and they
+
+1131
+00:44:43,320 --> 00:44:40,060
+will go through all this and reassure
+
+1132
+00:44:45,480 --> 00:44:43,330
+themselves that that the data is correct
+
+1133
+00:44:47,700 --> 00:44:45,490
+which is not like astronomers like oh
+
+1134
+00:44:50,520 --> 00:44:47,710
+yay Jason and reduced my data for me so
+
+1135
+00:44:52,770 --> 00:44:50,530
+I'll just use that you know we're more
+
+1136
+00:44:55,680 --> 00:44:52,780
+community of skeptics we've been showing
+
+1137
+00:44:58,460 --> 00:44:55,690
+and demonstrating these data products to
+
+1138
+00:45:01,110 --> 00:44:58,470
+our colleagues and other astronomers
+
+1139
+00:45:03,270 --> 00:45:01,120
+since the SS mean the American National
+
+1140
+00:45:05,220 --> 00:45:03,280
+slightly meeting January and I've had a
+
+1141
+00:45:07,980 --> 00:45:05,230
+couple people tell me that based on what
+
+1142
+00:45:09,690 --> 00:45:07,990
+they've seen it doesn't meet their very
+
+1143
+00:45:11,760 --> 00:45:09,700
+very strict requirements for this or
+
+1144
+00:45:13,230 --> 00:45:11,770
+that reason and I say well sorry but
+
+1145
+00:45:15,570 --> 00:45:13,240
+we'll try to you know we can try to
+
+1146
+00:45:17,430 --> 00:45:15,580
+incorporate that in the future but I've
+
+1147
+00:45:18,990 --> 00:45:17,440
+had you know 20 times as many people
+
+1148
+00:45:20,430 --> 00:45:19,000
+tell me boy you just saved me a year's
+
+1149
+00:45:22,530 --> 00:45:20,440
+worth of effort trolling the earth and
+
+1150
+00:45:24,060 --> 00:45:22,540
+adding all this stuff over I wish I had
+1151
+00:45:26,730 --> 00:45:24,070
+this when I was bred or my favorite
+
+1152
+00:45:33,000 --> 00:45:26,740
+responses oh my grad students be really
+
+1153
+00:45:35,010 --> 00:45:33,010
+upset just yeah yeah I'm very I'm very
+
+1154
+00:45:36,690 --> 00:45:35,020
+impressed by the searchability of this
+
+1155
+00:45:38,160 --> 00:45:36,700
+data set and how you can look at a
+
+1156
+00:45:40,410 --> 00:45:38,170
+variety of different objects and things
+
+1157
+00:45:42,900 --> 00:45:40,420
+you get you have made it I think is a is
+
+1158
+00:45:46,020 --> 00:45:42,910
+extremely easy to ask science questions
+
+1159
+00:45:48,540 --> 00:45:46,030
+of this data will vanderheide up hi woh
+
+1160
+00:45:51,120 --> 00:45:48,550
+tis good to see you again is asking he's
+
+1161
+00:45:53,940 --> 00:45:51,130
+from well I shouldn't say is the entire
+
+1162
+00:45:56,310 --> 00:45:53,950
+library accessible for non-us citizens
+
+1163
+00:45:58,560 --> 00:45:56,320
+because i'd like to have NASA benefits
+
+1164
+00:46:01,230 --> 00:45:58,570
+tags for it yeah yeah just click on that
+
+1165
+00:46:03,030 --> 00:46:01,240
+download all the data link and later a
+
+1166
+00:46:05,820 --> 00:46:03,040
+little bit yeah so anybody in the world
+
+1167
+00:46:08,070 --> 00:46:05,830
+can get access to act yes and wealth of
+
+1168
+00:46:15,710 --> 00:46:08,080
+fury there from Europe or Canada it's
+
+1169
+00:46:18,000 --> 00:46:15,720
+not text can anyone pick up a good point
+
+1170
+00:46:20,940 --> 00:46:18,010
+melissa is a collaboration with you
+
+1171
+00:46:24,090 --> 00:46:20,950
+hello that's right that's right okay
+
+1172
+00:46:25,770 --> 00:46:24,100
+well that's very good and so the I want
+
+1173
+00:46:27,810 --> 00:46:25,780
+to talk a little bit about well first of
+
+1174
+00:46:29,550 --> 00:46:27,820
+all let me ask you Molly and Jason have
+
+1175
+00:46:30,540 --> 00:46:29,560
+I have you shown everything you wanted
+1176
+00:46:31,680 --> 00:46:30,550
+to see is or something
+
+1177
+00:46:33,150 --> 00:46:31,690
+that we should be showing that we have
+
+1178
+00:46:36,030 --> 00:46:33,160
+it yet we had a couple of interesting
+
+1179
+00:46:37,710 --> 00:46:36,040
+little eyes nuggets that yeah thought
+
+1180
+00:46:39,810 --> 00:46:37,720
+we'd mentioned because it shows you go
+
+1181
+00:46:44,150 --> 00:46:39,820
+ahead things that people discover with
+
+1182
+00:46:47,850 --> 00:46:44,160
+this these data sets like these um so
+
+1183
+00:46:51,870 --> 00:46:47,860
+Scott I guess plot the samp the that
+
+1184
+00:46:54,810 --> 00:46:51,880
+mean welcome page which one you want to
+
+1185
+00:46:56,340 --> 00:46:54,820
+shippers well I there was a some nice
+
+1186
+00:47:00,660 --> 00:46:56,350
+graphics on the black backgrounds that
+
+1187
+00:47:02,970 --> 00:47:00,670
+yeah it showed the I think so which said
+
+1188
+00:47:05,580 --> 00:47:02,980
+am I going off of well when I sent you
+
+1189
+00:47:07,410 --> 00:47:05,590
+the last time that the Black slides with
+
+1190
+00:47:08,580 --> 00:47:07,420
+them oh yeah yeah yeah I'll just run
+
+1191
+00:47:09,540 --> 00:47:08,590
+through those real quick just to show
+
+1192
+00:47:11,640 --> 00:47:09,550
+you what kinds of things we're talking
+
+1193
+00:47:13,230 --> 00:47:11,650
+about and while those are being brought
+
+1194
+00:47:14,340 --> 00:47:13,240
+up one of the we're talking about open
+
+1195
+00:47:15,630 --> 00:47:14,350
+data and one of the things that we've
+
+1196
+00:47:18,830 --> 00:47:15,640
+done with archives one of the things
+
+1197
+00:47:21,600 --> 00:47:18,840
+we're really hoping will happen with uh
+
+1198
+00:47:25,020 --> 00:47:21,610
+making this archive both publicly
+
+1199
+00:47:28,260 --> 00:47:25,030
+available and easily searchable is the
+
+1200
+00:47:30,600 --> 00:47:28,270
+real power is when people propose to
+1201
+00:47:32,190 --> 00:47:30,610
+take observations with Hubble you know
+
+1202
+00:47:33,870 --> 00:47:32,200
+they had their science question that
+
+1203
+00:47:36,570 --> 00:47:33,880
+they want to ask of the data they're
+
+1204
+00:47:38,490 --> 00:47:36,580
+getting uh but a lot of different sized
+
+1205
+00:47:41,880 --> 00:47:38,500
+questions can be asked and answered with
+
+1206
+00:47:47,220 --> 00:47:41,890
+the data so what's really going to come
+
+1207
+00:47:50,070 --> 00:47:47,230
+out of this archival data is questions
+
+1208
+00:47:51,990 --> 00:47:50,080
+and answers that the people who
+
+1209
+00:47:54,210 --> 00:47:52,000
+originally proposed those observations
+
+1210
+00:47:56,880 --> 00:47:54,220
+never even thought to ask in the first
+
+1211
+00:48:00,150 --> 00:47:56,890
+place that if the data we're just
+
+1212
+00:48:05,400 --> 00:48:00,160
+sitting in some drawer somewhere that's
+
+1213
+00:48:07,350 --> 00:48:05,410
+right ok so the Scott brought up a nice
+
+1214
+00:48:14,280 --> 00:48:07,360
+graphic I wanted to just show a couple
+
+1215
+00:48:15,810 --> 00:48:14,290
+of things which are the you know sort of
+
+1216
+00:48:19,080 --> 00:48:15,820
+some science highlights for what you can
+
+1217
+00:48:22,020 --> 00:48:19,090
+get out of this stuff one of the things
+
+1218
+00:48:24,780 --> 00:48:22,030
+that people can do with with Hubble this
+
+1219
+00:48:26,640 --> 00:48:24,790
+is actually with the this particular
+
+1220
+00:48:29,850 --> 00:48:26,650
+observations with this instrument not
+
+1221
+00:48:33,210 --> 00:48:29,860
+cost but it's the same idea there's this
+
+1222
+00:48:36,300 --> 00:48:33,220
+planet which is a natural like planet an
+
+1223
+00:48:39,390 --> 00:48:36,310
+ice giant orbiting a star called GJ 436
+
+1224
+00:48:41,460 --> 00:48:39,400
+and the planet is close to its star that
+
+1225
+00:48:43,260 --> 00:48:41,470
+the radiation from the star is actually
+1226
+00:48:44,370 --> 00:48:43,270
+evaporating the atmosphere of the planet
+
+1227
+00:48:46,559 --> 00:48:44,380
+boiling it away
+
+1228
+00:48:48,029 --> 00:48:46,569
+and over time you know hundreds of
+
+1229
+00:48:49,859 --> 00:48:48,039
+millions or maybe billions of years the
+
+1230
+00:48:51,509 --> 00:48:49,869
+plan is just completely dissipate and
+
+1231
+00:48:54,569 --> 00:48:51,519
+you might be left with just the rocky
+
+1232
+00:48:56,220 --> 00:48:54,579
+core and if you take a spectrum of that
+
+1233
+00:48:58,400 --> 00:48:56,230
+planet you can actually see the
+
+1234
+00:49:00,980 --> 00:48:58,410
+signature of the hydrogen and the oxygen
+
+1235
+00:49:03,539 --> 00:49:00,990
+boiling off the atmosphere of the planet
+
+1236
+00:49:05,819 --> 00:49:03,549
+with Hubble data so that you know the
+
+1237
+00:49:07,769 --> 00:49:05,829
+fact that there are planets being
+
+1238
+00:49:10,049 --> 00:49:07,779
+destroyed by their host stars was a real
+
+1239
+00:49:11,609 --> 00:49:10,059
+discovery of Hubble's and this was the
+
+1240
+00:49:12,900 --> 00:49:11,619
+observation that did it and that you
+
+1241
+00:49:14,400 --> 00:49:12,910
+would have met you would have noticed
+
+1242
+00:49:16,470 --> 00:49:14,410
+any other way would you really oh
+
+1243
+00:49:19,579 --> 00:49:16,480
+absolutely not you can't Anna to take
+
+1244
+00:49:21,839 --> 00:49:19,589
+pictures of that that planet and that
+
+1245
+00:49:24,180 --> 00:49:21,849
+star all day and you would never see
+
+1246
+00:49:25,529 --> 00:49:24,190
+this because on the one number one the
+
+1247
+00:49:27,749 --> 00:49:25,539
+planets too close to the star to
+
+1248
+00:49:28,980 --> 00:49:27,759
+actually separate them and number two is
+
+1249
+00:49:31,019 --> 00:49:28,990
+you wouldn't be able to see the fact
+
+1250
+00:49:32,609 --> 00:49:31,029
+that the gases coming off the planet
+1251
+00:49:34,859 --> 00:49:32,619
+have a velocity as they come off the
+
+1252
+00:49:37,380 --> 00:49:34,869
+planet as they boil off you can only
+
+1253
+00:49:40,499 --> 00:49:37,390
+measure those velocities and the content
+
+1254
+00:49:43,019 --> 00:49:40,509
+of that stuff that's boiling off with a
+
+1255
+00:49:46,380 --> 00:49:43,029
+with a spectrum in the ultraviolet so
+
+1256
+00:49:51,349 --> 00:49:46,390
+cool observation and then if you go to
+
+1257
+00:49:54,269 --> 00:49:51,359
+the next slide in that set this one is
+
+1258
+00:49:55,920 --> 00:49:54,279
+really cool and I got an issue a
+
+1259
+00:49:58,970 --> 00:49:55,930
+disclaimer I'm actually on the paper
+
+1260
+00:50:01,890 --> 00:49:58,980
+Andrew had a whole thing about it yeah
+
+1261
+00:50:03,900 --> 00:50:01,900
+our friend Andrew Fox who did right yeah
+
+1262
+00:50:05,400 --> 00:50:03,910
+so Andy Fox is an astronomer here at
+
+1263
+00:50:06,870 --> 00:50:05,410
+Space Telescope and actually he was
+
+1264
+00:50:10,349 --> 00:50:06,880
+involved with the group of us that put
+
+1265
+00:50:11,549 --> 00:50:10,359
+this archive together in addition to
+
+1266
+00:50:12,779 --> 00:50:11,559
+leading up this area of science so
+
+1267
+00:50:14,999 --> 00:50:12,789
+there's these things called the Fermi
+
+1268
+00:50:17,609 --> 00:50:15,009
+bubbles these are very high energetic
+
+1269
+00:50:18,930 --> 00:50:17,619
+that observed in gamma rays these
+
+1270
+00:50:20,609 --> 00:50:18,940
+bubbles that come up out of the Milky
+
+1271
+00:50:23,970 --> 00:50:20,619
+Way galaxy and it's thought that these
+
+1272
+00:50:26,130 --> 00:50:23,980
+were created by ejecta from the
+
+1273
+00:50:28,049 --> 00:50:26,140
+supermassive black hole that lives in
+
+1274
+00:50:30,720 --> 00:50:28,059
+the center of the Milky Way so what Andy
+
+1275
+00:50:33,210 --> 00:50:30,730
+did was to take the gamma-ray maps that
+1276
+00:50:35,880 --> 00:50:33,220
+was produced by NASA's Fermi satellite
+
+1277
+00:50:38,009 --> 00:50:35,890
+and then use Hubble's costs instrument
+
+1278
+00:50:39,990 --> 00:50:38,019
+the spectrograph to look for the gas
+
+1279
+00:50:44,339 --> 00:50:40,000
+that's associated with this gamma-ray
+
+1280
+00:50:46,079 --> 00:50:44,349
+emission what we didn't know was whether
+
+1281
+00:50:48,329 --> 00:50:46,089
+whatever event it was from the
+
+1282
+00:50:51,059 --> 00:50:48,339
+supermassive black hole only generated
+
+1283
+00:50:52,620 --> 00:50:51,069
+this gamma-ray emission or whether it
+
+1284
+00:50:55,049 --> 00:50:52,630
+would actually driven you know get a
+
+1285
+00:50:57,089 --> 00:50:55,059
+bubble of gas up out of the disk and
+
+1286
+00:50:57,870 --> 00:50:57,099
+into this bubble shape and when you
+
+1287
+00:50:59,910 --> 00:50:57,880
+observe
+
+1288
+00:51:01,050 --> 00:50:59,920
+objects on the other side of the bubble
+
+1289
+00:51:04,890 --> 00:51:01,060
+from where the Sun is you can actually
+
+1290
+00:51:06,420 --> 00:51:04,900
+see that gas flow and in the same way as
+
+1291
+00:51:08,250 --> 00:51:06,430
+I mentioned for the exoplanet just now
+
+1292
+00:51:10,770 --> 00:51:08,260
+you can only measure the gas velocities
+
+1293
+00:51:15,420 --> 00:51:10,780
+with the technique that they ain t used
+
+1294
+00:51:17,370 --> 00:51:15,430
+so the data that was used to produce
+
+1295
+00:51:18,780 --> 00:51:17,380
+these measurements and that some of the
+
+1296
+00:51:21,810 --> 00:51:18,790
+data you're seeing these little squiggly
+
+1297
+00:51:24,660 --> 00:51:21,820
+lines here in this graphic are in our
+
+1298
+00:51:26,910 --> 00:51:24,670
+spectroscopic legacy archive andy's data
+
+1299
+00:51:29,610 --> 00:51:26,920
+and a bunch of data like it are sitting
+
+1300
+00:51:34,410 --> 00:51:29,620
+right there you can go and get it it's
+1301
+00:51:37,050 --> 00:51:34,420
+also decidedly American hahaha yeah
+
+1302
+00:51:39,210 --> 00:51:37,060
+that's all I'm gonna beat friend water
+
+1303
+00:51:41,610 --> 00:51:39,220
+French or French yes it could be it some
+
+1304
+00:51:42,870 --> 00:51:41,620
+kind of accidental yeah so the the joke
+
+1305
+00:51:47,070 --> 00:51:42,880
+there you say it's French or American
+
+1306
+00:51:49,680 --> 00:51:47,080
+headies English but I'll see a Union
+
+1307
+00:51:53,160 --> 00:51:49,690
+Jack there yeah the reason is that the
+
+1308
+00:51:55,140 --> 00:51:53,170
+reason is that the on the on the side
+
+1309
+00:51:56,490 --> 00:51:55,150
+facing us the side facing the Sun which
+
+1310
+00:51:58,620 --> 00:51:56,500
+is the right side here in the graphic
+
+1311
+00:52:01,020 --> 00:51:58,630
+that absorption is blue shifted it's
+
+1312
+00:52:03,540 --> 00:52:01,030
+moving towards us and the Doppler effect
+
+1313
+00:52:05,460 --> 00:52:03,550
+causes it as it's moving toward us to
+
+1314
+00:52:07,530 --> 00:52:05,470
+look to move to slightly shorter
+
+1315
+00:52:09,360 --> 00:52:07,540
+wavelengths and on the other side where
+
+1316
+00:52:11,670 --> 00:52:09,370
+the gas is moving away it's sort of in
+
+1317
+00:52:14,070 --> 00:52:11,680
+this flow which is moving like that up
+
+1318
+00:52:15,630 --> 00:52:14,080
+out of the center the on the other side
+
+1319
+00:52:17,310 --> 00:52:15,640
+it's red shifted because the velocity is
+
+1320
+00:52:18,960 --> 00:52:17,320
+moving it away from us and its
+
+1321
+00:52:21,540 --> 00:52:18,970
+wavelength hits a little longer so in
+
+1322
+00:52:23,070 --> 00:52:21,550
+the spectral trace down there the red
+
+1323
+00:52:26,880 --> 00:52:23,080
+stuff corresponds with the red stuff in
+
+1324
+00:52:29,640 --> 00:52:26,890
+the blue stuff this stuff and again at
+
+1325
+00:52:32,010 --> 00:52:29,650
+velocity those kinematics you would
+1326
+00:52:35,730 --> 00:52:32,020
+never know if you didn't have a spectrum
+
+1327
+00:52:38,310 --> 00:52:35,740
+if you just take a picture okay did you
+
+1328
+00:52:39,270 --> 00:52:38,320
+have it yeah so that shows the value of
+
+1329
+00:52:40,530 --> 00:52:39,280
+some of the things you're getting out of
+
+1330
+00:52:43,740 --> 00:52:40,540
+here did you have another use case there
+
+1331
+00:52:45,330 --> 00:52:43,750
+Jason I don't okay so well guys wanna
+
+1332
+00:52:47,160 --> 00:52:45,340
+make sure you got to you got to show the
+
+1333
+00:52:48,660 --> 00:52:47,170
+ones you were thinking of because I now
+
+1334
+00:52:50,580 --> 00:52:48,670
+I'd like to get you guys to comment on
+
+1335
+00:52:52,500 --> 00:52:50,590
+something that I've been thinking about
+
+1336
+00:52:54,740 --> 00:52:52,510
+quite a bit with these archives and that
+
+1337
+00:52:57,450 --> 00:52:54,750
+is these for a long time we thought that
+
+1338
+00:52:58,620 --> 00:52:57,460
+and I know that this isn't exactly big
+
+1339
+00:53:00,870 --> 00:52:58,630
+data because you can get the whole thing
+
+1340
+00:53:03,630 --> 00:53:00,880
+to fit on a thumb drive and that's not
+
+1341
+00:53:06,360 --> 00:53:03,640
+exactly big data but this idea that the
+
+1342
+00:53:09,090 --> 00:53:06,370
+data are becoming presentable in ways
+
+1343
+00:53:10,770 --> 00:53:09,100
+that are very interesting to not to not
+
+1344
+00:53:11,340 --> 00:53:10,780
+just scientist but in ways that we
+
+1345
+00:53:13,860 --> 00:53:11,350
+probably
+
+1346
+00:53:15,120 --> 00:53:13,870
+might not have thought to look at these
+
+1347
+00:53:16,200 --> 00:53:15,130
+data before I like to get you guys to
+
+1348
+00:53:18,390 --> 00:53:16,210
+comment a little bit about the
+
+1349
+00:53:19,800 --> 00:53:18,400
+importance of there were there was a
+
+1350
+00:53:21,180 --> 00:53:19,810
+there was a movement in the past I don't
+1351
+00:53:22,680 --> 00:53:21,190
+even know what happened to it I having
+
+1352
+00:53:24,720 --> 00:53:22,690
+something called a virtual Observatory
+
+1353
+00:53:26,040 --> 00:53:24,730
+where lots of different data archives
+
+1354
+00:53:27,660 --> 00:53:26,050
+plugged into it and you could ask
+
+1355
+00:53:29,490 --> 00:53:27,670
+science questions of the virtual
+
+1356
+00:53:30,960 --> 00:53:29,500
+observatory I think those have kind of
+
+1357
+00:53:34,200 --> 00:53:30,970
+gone away a little bit in favor of these
+
+1358
+00:53:38,120 --> 00:53:34,210
+individual ones but do you think no this
+
+1359
+00:53:41,130 --> 00:53:38,130
+is the feud you girls meant to ask I
+
+1360
+00:53:45,270 --> 00:53:41,140
+don't agree with you but go ahead what
+
+1361
+00:53:49,890 --> 00:53:45,280
+about what what I said yes I don't agree
+
+1362
+00:53:52,920 --> 00:53:49,900
+with your premise yeah didn't stop my
+
+1363
+00:53:55,410 --> 00:53:52,930
+premise yet observatories went away
+
+1364
+00:53:58,110 --> 00:53:55,420
+that's not true but go ahead all right
+
+1365
+00:54:04,250 --> 00:53:58,120
+well I think even the ones that I knew
+
+1366
+00:54:08,910 --> 00:54:04,260
+it you know even here they don't go away
+
+1367
+00:54:09,930 --> 00:54:08,920
+then how important do you think and I
+
+1368
+00:54:12,390 --> 00:54:09,940
+like to get your comments and thoughts
+
+1369
+00:54:14,520 --> 00:54:12,400
+on this are these archives are to
+
+1370
+00:54:15,810 --> 00:54:14,530
+answering not just the science questions
+
+1371
+00:54:18,210 --> 00:54:15,820
+you know about that you set out to
+
+1372
+00:54:19,860 --> 00:54:18,220
+answer but maybe even think about those
+
+1373
+00:54:22,560 --> 00:54:19,870
+things you hadn't thought to answer do
+
+1374
+00:54:24,510 --> 00:54:22,570
+these visualization tools you think have
+
+1375
+00:54:25,410 --> 00:54:24,520
+a bright or are they how important do
+1376
+00:54:28,590 --> 00:54:25,420
+you think they're going to be the future
+
+1377
+00:54:30,180 --> 00:54:28,600
+scientists going forward and maybe Molly
+
+1378
+00:54:33,510 --> 00:54:30,190
+you could start commenting and I'll just
+
+1379
+00:54:36,540 --> 00:54:33,520
+go down the row um I'm not gonna dive
+
+1380
+00:54:37,890 --> 00:54:36,550
+into the whole virtual observatory okay
+
+1381
+00:54:40,650 --> 00:54:37,900
+I don't want to get booked into the debt
+
+1382
+00:54:44,010 --> 00:54:40,660
+I died what I meant to say was I'll
+
+1383
+00:54:50,180 --> 00:54:44,020
+argue with him later yeah what but I'll
+
+1384
+00:54:53,490 --> 00:54:50,190
+stay X on periscope Carol braids Tony I
+
+1385
+00:54:57,710 --> 00:54:53,500
+think this I you're gonna start seeing a
+
+1386
+00:55:01,530 --> 00:54:57,720
+lot more of this idea of being able to
+
+1387
+00:55:06,570 --> 00:55:01,540
+search by what kinds of targets you're
+
+1388
+00:55:09,420 --> 00:55:06,580
+interested in um rather than just
+
+1389
+00:55:11,520 --> 00:55:09,430
+searching by the traditional way would
+
+1390
+00:55:17,670 --> 00:55:11,530
+be to search by a location on the sky
+
+1391
+00:55:19,860 --> 00:55:17,680
+and if you're interested in physics in
+
+1392
+00:55:23,340 --> 00:55:19,870
+what's going on with something
+
+1393
+00:55:24,780 --> 00:55:23,350
+physically then you know you don't
+
+1394
+00:55:28,530 --> 00:55:24,790
+really care
+
+1395
+00:55:30,720 --> 00:55:28,540
+where it is on the sky right even in the
+
+1396
+00:55:35,970 --> 00:55:30,730
+case of you know this mapping that flows
+
+1397
+00:55:37,560 --> 00:55:35,980
+out of the Milky Way where a you you
+
+1398
+00:55:38,940 --> 00:55:37,570
+know really do care to figure out that
+
+1399
+00:55:40,470 --> 00:55:38,950
+geometry the location of those
+
+1400
+00:55:42,870 --> 00:55:40,480
+individual objects you're looking at on
+1401
+00:55:44,490 --> 00:55:42,880
+the sky to map the geometry the first
+
+1402
+00:55:47,430 --> 00:55:44,500
+thing you care about is what those
+
+1403
+00:55:49,350 --> 00:55:47,440
+objects are and then you care about
+
+1404
+00:55:50,910 --> 00:55:49,360
+where they are on the sky the first
+
+1405
+00:55:52,770 --> 00:55:50,920
+thing is well is this object and I be
+
+1406
+00:55:57,650 --> 00:55:52,780
+able to be useful to answer my science
+
+1407
+00:56:00,510 --> 00:55:57,660
+question um so I think that that mode of
+
+1408
+00:56:03,390 --> 00:56:00,520
+interacting with data is going to become
+
+1409
+00:56:06,270 --> 00:56:03,400
+a lot more common and definitely I think
+
+1410
+00:56:11,700 --> 00:56:06,280
+that these kinds of archives especially
+
+1411
+00:56:14,540 --> 00:56:11,710
+um ones that show you that give you data
+
+1412
+00:56:19,320 --> 00:56:14,550
+that you could use out of the box
+
+1413
+00:56:23,640 --> 00:56:19,330
+instead of having to just download and
+
+1414
+00:56:26,250 --> 00:56:23,650
+reproduce all of the data in some
+
+1415
+00:56:29,790 --> 00:56:26,260
+painstaking way it's definitely going to
+
+1416
+00:56:31,290 --> 00:56:29,800
+increase the longevity of things okay
+
+1417
+00:56:33,330 --> 00:56:31,300
+John how about you not here I could talk
+
+1418
+00:56:34,560 --> 00:56:33,340
+about this yeah y'all want to get to
+
+1419
+00:56:36,300 --> 00:56:34,570
+John on this okay let's get your
+
+1420
+00:56:38,580 --> 00:56:36,310
+thoughts on this one well I I have two
+
+1421
+00:56:39,930 --> 00:56:38,590
+thoughts I mean one of them is is that
+
+1422
+00:56:42,270 --> 00:56:39,940
+the other really exciting thing about
+
+1423
+00:56:43,830 --> 00:56:42,280
+this and why it's exciting for me
+
+1424
+00:56:46,080 --> 00:56:43,840
+because I mix ground and space-based
+
+1425
+00:56:48,330 --> 00:56:46,090
+astronomy all the time is that I've
+1426
+00:56:50,280 --> 00:56:48,340
+worked on a similar effort with the Keck
+
+1427
+00:56:52,560 --> 00:56:50,290
+telescope in what we call the Kodiak
+
+1428
+00:56:56,250 --> 00:56:52,570
+survey to build up a giant public survey
+
+1429
+00:56:58,200 --> 00:56:56,260
+Kodiak with a Q with a que yeah but
+
+1430
+00:57:04,080 --> 00:56:58,210
+spelled a queue at the end right and
+
+1431
+00:57:06,330 --> 00:57:04,090
+it's it fits it well but the purpose of
+
+1432
+00:57:08,790 --> 00:57:06,340
+that is to is to bring as much pet data
+
+1433
+00:57:10,200 --> 00:57:08,800
+to public as well but what's going to be
+
+1434
+00:57:12,240 --> 00:57:10,210
+really exciting is where these two
+
+1435
+00:57:14,040 --> 00:57:12,250
+things overlap in the sense that there
+
+1436
+00:57:16,410 --> 00:57:14,050
+is going to be a significant parameter
+
+1437
+00:57:18,570 --> 00:57:16,420
+space from from the Hubble spectroscopic
+
+1438
+00:57:21,240 --> 00:57:18,580
+archives and the ground-based by
+
+1439
+00:57:22,920 --> 00:57:21,250
+spectroscopic archives where as long as
+
+1440
+00:57:25,770 --> 00:57:22,930
+you know and in many ways Kodiaks
+
+1441
+00:57:28,170 --> 00:57:25,780
+searchability was inspired by mast and
+
+1442
+00:57:30,600 --> 00:57:28,180
+then archives like this what to try to
+
+1443
+00:57:33,090 --> 00:57:30,610
+give as much discovery space to people
+
+1444
+00:57:34,770 --> 00:57:33,100
+who haven't thought explicitly about the
+
+1445
+00:57:36,810 --> 00:57:34,780
+nitty-gritty details of data reduction
+
+1446
+00:57:37,410 --> 00:57:36,820
+in this than the other thing and so I'm
+
+1447
+00:57:39,089 --> 00:57:37,420
+really
+
+1448
+00:57:41,490 --> 00:57:39,099
+cited about seeing how these things
+
+1449
+00:57:42,930 --> 00:57:41,500
+might overlap the other point that I was
+
+1450
+00:57:44,819 --> 00:57:42,940
+going to make real quickly is that and
+1451
+00:57:46,740 --> 00:57:44,829
+not to sound like a downer but we're not
+
+1452
+00:57:51,470 --> 00:57:46,750
+going to have a UV spectrograph in space
+
+1453
+00:57:53,910 --> 00:57:51,480
+forever and the you know the the great
+
+1454
+00:57:55,319 --> 00:57:53,920
+opportunities afforded by archives which
+
+1455
+00:57:59,789 --> 00:57:55,329
+have given a lot of thought to things
+
+1456
+00:58:01,890 --> 00:57:59,799
+like this it's really helpful continuing
+
+1457
+00:58:03,990 --> 00:58:01,900
+and continuing our ability to do UV
+
+1458
+00:58:05,339 --> 00:58:04,000
+space astronomy that's true God we
+
+1459
+00:58:07,589 --> 00:58:05,349
+brought that point up in many hangouts
+
+1460
+00:58:09,359 --> 00:58:07,599
+word in all the one game in town and I
+
+1461
+00:58:11,309 --> 00:58:09,369
+think graduate students will be trained
+
+1462
+00:58:14,190 --> 00:58:11,319
+on archives like this because they won't
+
+1463
+00:58:16,260 --> 00:58:14,200
+have new native Nick like this for at
+
+1464
+00:58:17,819 --> 00:58:16,270
+least four at least for a while boy for
+
+1465
+00:58:19,620 --> 00:58:17,829
+educational use as well this will be
+
+1466
+00:58:21,450 --> 00:58:19,630
+amazing resource for people Jason can I
+
+1467
+00:58:24,900 --> 00:58:21,460
+get your thoughts on that well yeah it's
+
+1468
+00:58:27,450 --> 00:58:24,910
+funny so a couple things uh the the
+
+1469
+00:58:31,410 --> 00:58:27,460
+Kodiak project is a perfect example of
+
+1470
+00:58:34,079 --> 00:58:31,420
+what you the power of unleashing data
+
+1471
+00:58:35,760 --> 00:58:34,089
+and unlocking it taking out taking it
+
+1472
+00:58:37,109 --> 00:58:35,770
+out of the individual astronomers desk
+
+1473
+00:58:39,270 --> 00:58:37,119
+drawer and putting it in the public
+
+1474
+00:58:42,270 --> 00:58:39,280
+domain the Kinect project the Keck
+
+1475
+00:58:44,309 --> 00:58:42,280
+telescope in Hawaii organized by private
+1476
+00:58:46,799 --> 00:58:44,319
+universities they never were obliged by
+
+1477
+00:58:48,930 --> 00:58:46,809
+law to release their data until NASA
+
+1478
+00:58:50,160 --> 00:58:48,940
+made and do it now you're starting to
+
+1479
+00:58:51,569 --> 00:58:50,170
+see more and more of a kept a to come
+
+1480
+00:58:53,370 --> 00:58:51,579
+out in public and people are using it
+
+1481
+00:58:55,500 --> 00:58:53,380
+you're seeing that publication rates and
+
+1482
+00:58:57,599 --> 00:58:55,510
+the impact of that data finally come out
+
+1483
+00:59:00,839 --> 00:58:57,609
+the other thing is a story I heard
+
+1484
+00:59:03,180 --> 00:59:00,849
+recently uh you know we all know that
+
+1485
+00:59:04,770 --> 00:59:03,190
+back in the medieval times the reason
+
+1486
+00:59:06,660 --> 00:59:04,780
+all the Greek and Roman manuscript
+
+1487
+00:59:09,089 --> 00:59:06,670
+survived was that the monks were copying
+
+1488
+00:59:11,250 --> 00:59:09,099
+them right what I don't have first-hand
+
+1489
+00:59:13,950 --> 00:59:11,260
+experience but do you know why they had
+
+1490
+00:59:15,690 --> 00:59:13,960
+to copy them it wasn't that they wanted
+
+1491
+00:59:18,660 --> 00:59:15,700
+to read more copies it was that the
+
+1492
+00:59:20,549 --> 00:59:18,670
+copies sitting on the shelf had a finite
+
+1493
+00:59:24,089 --> 00:59:20,559
+lifetime because they literally the
+
+1494
+00:59:26,220 --> 00:59:24,099
+bookworms would eat them so if Iran even
+
+1495
+00:59:27,990 --> 00:59:26,230
+if you didn't want to sim simma Nate the
+
+1496
+00:59:30,359 --> 00:59:28,000
+manuscript and pass the information
+
+1497
+00:59:32,670 --> 00:59:30,369
+around you still had to make sure that
+
+1498
+00:59:34,950 --> 00:59:32,680
+it stayed alive by copying the version
+
+1499
+00:59:37,049 --> 00:59:34,960
+that you had in your monastery because
+
+1500
+00:59:39,660 --> 00:59:37,059
+otherwise it would get eaten by worms so
+1501
+00:59:41,309 --> 00:59:39,670
+what we're in in that same way what
+
+1502
+00:59:45,210 --> 00:59:41,319
+we're doing here is keeping a database
+
+1503
+00:59:47,039 --> 00:59:45,220
+alive we're making sure you know through
+
+1504
+00:59:48,770 --> 00:59:47,049
+our own intellects and through the work
+
+1505
+00:59:50,850 --> 00:59:48,780
+of our IT people in the whole process
+
+1506
+00:59:54,150 --> 00:59:50,860
+making sure that that data
+
+1507
+00:59:57,360 --> 00:59:54,160
+Days alive and available you know you're
+
+1508
+01:00:00,000 --> 00:59:57,370
+not going to be able to read a CD in 15
+
+1509
+01:00:01,980 --> 01:00:00,010
+years already my kids who is four and
+
+1510
+01:00:04,080 --> 01:00:01,990
+eight they don't know what a wild record
+
+1511
+01:00:05,580 --> 01:00:04,090
+is oh yeah well we've all yes anybody
+
+1512
+01:00:08,400 --> 01:00:05,590
+who's had a floppy disk and had to make
+
+1513
+01:00:11,550 --> 01:00:08,410
+it go to see each other's and then they
+
+1514
+01:00:14,010 --> 01:00:11,560
+will know he is right you can't rely on
+
+1515
+01:00:15,480 --> 01:00:14,020
+the physical medium so we're you know
+
+1516
+01:00:17,700 --> 01:00:15,490
+it's our job here at Space Telescope to
+
+1517
+01:00:20,070 --> 01:00:17,710
+make sure that the data itself is the
+
+1518
+01:00:21,900 --> 01:00:20,080
+thing we're trying to preserve stays in
+
+1519
+01:00:23,610 --> 01:00:21,910
+the form that's usable through the
+
+1520
+01:00:25,080 --> 01:00:23,620
+decades eventually as O'Meara says
+
+1521
+01:00:25,920 --> 01:00:25,090
+Hubble isn't going to last forever but
+
+1522
+01:00:27,960 --> 01:00:25,930
+eventually we're going to have a
+
+1523
+01:00:29,700 --> 01:00:27,970
+telescope that's much bigger a lot of us
+
+1524
+01:00:33,240 --> 01:00:29,710
+are working on a 10 or 12 your space
+
+1525
+01:00:35,430 --> 01:00:33,250
+telescope jwst and we will definitely
+1526
+01:00:37,320 --> 01:00:35,440
+absolutely want to reabsorb of the stuff
+
+1527
+01:00:38,880 --> 01:00:37,330
+that Hubble's looked at and we'll want
+
+1528
+01:00:40,230 --> 01:00:38,890
+to go back and compare new results with
+
+1529
+01:00:42,660 --> 01:00:40,240
+those future observatories to what
+
+1530
+01:00:44,580 --> 01:00:42,670
+Hubble saw 20 30 years before we have to
+
+1531
+01:00:46,110 --> 01:00:44,590
+have these archives in place and they
+
+1532
+01:00:48,480 --> 01:00:46,120
+have to still be intelligible readable
+
+1533
+01:00:49,710 --> 01:00:48,490
+to us for that to work so there's a
+
+1534
+01:00:52,290 --> 01:00:49,720
+really strong reason why we're keeping
+
+1535
+01:00:54,180 --> 01:00:52,300
+these things away from the bookworms and
+
+1536
+01:00:55,890 --> 01:00:54,190
+broadway to be put back on just that
+
+1537
+01:00:58,170 --> 01:00:55,900
+last point for two seconds real fast
+
+1538
+01:00:59,670 --> 01:00:58,180
+because we are with with the remaining
+
+1539
+01:01:01,320 --> 01:00:59,680
+years of Hubble that we have every
+
+1540
+01:01:04,140 --> 01:01:01,330
+second is precious and so the other
+
+1541
+01:01:06,060 --> 01:01:04,150
+thing that this archive does is it helps
+
+1542
+01:01:08,010 --> 01:01:06,070
+inform the last set of proposals that
+
+1543
+01:01:09,930 --> 01:01:08,020
+will be made on Hubble's Mesa that were
+
+1544
+01:01:11,790 --> 01:01:09,940
+not made wasting time and be so that we
+
+1545
+01:01:14,430 --> 01:01:11,800
+really are getting the best photons down
+
+1546
+01:01:17,160 --> 01:01:14,440
+the bucket and in archives like this are
+
+1547
+01:01:18,320 --> 01:01:17,170
+crucial for things yes and I you guys
+
+1548
+01:01:20,580 --> 01:01:18,330
+are raising a lot of really interesting
+
+1549
+01:01:22,500 --> 01:01:20,590
+topics that I'd like to get into not not
+
+1550
+01:01:24,000 --> 01:01:22,510
+just the educational aspects of what
+1551
+01:01:25,470 --> 01:01:24,010
+these archives can we can bring but also
+
+1552
+01:01:27,660 --> 01:01:25,480
+the fact that what Jason brought up the
+
+1553
+01:01:28,980 --> 01:01:27,670
+the perpetuating of the data set the
+
+1554
+01:01:30,930 --> 01:01:28,990
+saving of them to make sure we don't
+
+1555
+01:01:33,540 --> 01:01:30,940
+lose any of this stuff as well as making
+
+1556
+01:01:35,700 --> 01:01:33,550
+as John points out more efficient use of
+
+1557
+01:01:36,720 --> 01:01:35,710
+the tools that we do have already and we
+
+1558
+01:01:38,310 --> 01:01:36,730
+don't read OOP we don't duplicate
+
+1559
+01:01:40,440 --> 01:01:38,320
+efforts so these are all excellent
+
+1560
+01:01:42,210 --> 01:01:40,450
+points and big data oh my gosh that's
+
+1561
+01:01:44,310 --> 01:01:42,220
+like 10 hangouts all in all right there
+
+1562
+01:01:46,080 --> 01:01:44,320
+so we do really go into a lot of this
+
+1563
+01:01:47,640 --> 01:01:46,090
+stuff's but but I hope you guys got a
+
+1564
+01:01:49,680 --> 01:01:47,650
+good introduction into this new
+
+1565
+01:01:51,000 --> 01:01:49,690
+structural archive that's out available
+
+1566
+01:01:52,890 --> 01:01:51,010
+on mass now I want to thank Molly
+
+1567
+01:01:54,000 --> 01:01:52,900
+people's Jason Tomlinson and John
+
+1568
+01:01:56,280 --> 01:01:54,010
+O'Meara for telling us a little bit
+
+1569
+01:01:58,740 --> 01:01:56,290
+about it go visit go ask your questions
+
+1570
+01:02:01,200 --> 01:01:58,750
+go explore it's there for you it's wide
+
+1571
+01:02:02,820 --> 01:02:01,210
+open and ready to go and I am excited
+
+1572
+01:02:04,260 --> 01:02:02,830
+for this hopefully we'll see a lot of
+
+1573
+01:02:06,060 --> 01:02:04,270
+really cool new sign
+
+1574
+01:02:08,070 --> 01:02:06,070
+coming out of it and I even wanted to
+
+1575
+01:02:10,800 --> 01:02:08,080
+talk about citizen science impact but we
+1576
+01:02:12,450 --> 01:02:10,810
+just didn't have time so anyway many
+
+1577
+01:02:14,880 --> 01:02:12,460
+turn it all into an art project you know
+
+1578
+01:02:20,940 --> 01:02:14,890
+yeah exactly is a little heavy there's a
+
+1579
+01:02:23,160 --> 01:02:20,950
+lot of major oh we're doing that okay
+
+1580
+01:02:24,420 --> 01:02:23,170
+okay guys well thank you all for I guess
+
+1581
+01:02:26,220 --> 01:02:24,430
+we have to stop it there I did see one
+
+1582
+01:02:28,200 --> 01:02:26,230
+quick comment from from Twitter from
+
+1583
+01:02:30,660 --> 01:02:28,210
+days off 77 who's talking about a great
+
+1584
+01:02:33,990 --> 01:02:30,670
+library from HST what a great tool the
+
+1585
+01:02:36,480 --> 01:02:34,000
+Hubble legacy offside archive please
+
+1586
+01:02:37,770 --> 01:02:36,490
+guys go explore this is your data set so
+
+1587
+01:02:39,150 --> 01:02:37,780
+we hope you guys can get a lot of good
+
+1588
+01:02:41,100 --> 01:02:39,160
+use out of it the astronomers I'm sure
+
+1589
+01:02:42,660 --> 01:02:41,110
+well and we look forward to see what
+
+1590
+01:02:43,920 --> 01:02:42,670
+comes out of it on behalf of carol
+
+1591
+01:02:46,160 --> 01:02:43,930
+christian and scott lewis i want to
