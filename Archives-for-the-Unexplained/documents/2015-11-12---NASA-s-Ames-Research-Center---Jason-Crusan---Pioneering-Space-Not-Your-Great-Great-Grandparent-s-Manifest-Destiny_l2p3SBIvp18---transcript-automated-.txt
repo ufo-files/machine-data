@@ -1,0 +1,6498 @@
+{"created_utc": "2026-09-12T10:23:43Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 260253, "source_ctime_ns": 1788557723767489218, "source_file": "Archives-for-the-Unexplained/documents/2015-11-12---NASA-s-Ames-Research-Center---Jason-Crusan---Pioneering-Space-Not-Your-Great-Great-Grandparent-s-Manifest-Destiny_l2p3SBIvp18---transcript-automated-.pdf", "source_mtime_ns": 1788557723758080631, "source_rel": "Archives-for-the-Unexplained/documents/2015-11-12---NASA-s-Ames-Research-Center---Jason-Crusan---Pioneering-Space-Not-Your-Great-Great-Grandparent-s-Manifest-Destiny_l2p3SBIvp18---transcript-automated-.pdf", "source_sha256": "2bc9bbaa660f16c323396ea96ced66ec064f0a9927332953ea0f33e670827ad4"}
+
+1
+00:00:01,000 --> 00:00:04,000
+[music playing]
+
+2
+00:00:16,866 --> 00:00:21,833
+- Welcome to the
+2015 NASA Ames Summer Series.
+
+3
+00:00:23,266 --> 00:00:26,366
+We're curious
+about our surrounding.
+
+4
+00:00:26,366 --> 00:00:31,666
+Curiosity is
+an innate behavior that we have.
+
+5
+00:00:31,666 --> 00:00:34,966
+That behavior drives exploration
+
+6
+00:00:34,966 --> 00:00:38,533
+and our need to explore.
+
+7
+00:00:38,533 --> 00:00:42,833
+Exploration of new places
+on Earth, here,
+
+8
+00:00:42,833 --> 00:00:45,400
+or far away places in space
+
+9
+00:00:45,400 --> 00:00:47,433
+is important for our survival.
+
+10
+00:00:47,433 --> 00:00:50,666
+It's the way
+that we evolve.
+
+11
+00:00:50,666 --> 00:00:54,833
+But an evolvable system
+is what we need
+12
+00:00:54,833 --> 00:00:56,400
+for space exploration.
+
+13
+00:00:56,400 --> 00:01:02,233
+One that advances us,
+to eventually get to Mars,
+
+14
+00:01:02,233 --> 00:01:04,233
+and beyond.
+
+15
+00:01:04,233 --> 00:01:07,633
+Today's talk entitled
+
+16
+00:01:07,633 --> 00:01:12,133
+"Pioneering Space
+Evolvable Mars Campaign:
+
+17
+00:01:12,133 --> 00:01:14,933
+Architecture Studies
+on Carrying Out
+
+18
+00:01:14,933 --> 00:01:17,000
+the Journey To Mars"
+
+19
+00:01:17,000 --> 00:01:20,300
+will be given by Jason Crusan.
+
+20
+00:01:20,300 --> 00:01:22,700
+Jason is the director
+
+21
+00:01:22,700 --> 00:01:24,833
+of Advanced Exploration
+Systems Division
+
+22
+00:01:24,833 --> 00:01:28,033
+at NASA headquarters.
+
+23
+00:01:28,033 --> 00:01:29,300
+He has a bachelor's degree
+
+24
+00:01:29,300 --> 00:01:32,900
+in electrical engineering
+and physics
+
+25
+00:01:32,900 --> 00:01:37,566
+and a master's degrees in
+computers information systems.
+
+26
+00:01:37,566 --> 00:01:40,500
+He is also currently
+a PhD candidate
+
+27
+00:01:40,500 --> 00:01:44,800
+in Engineering Management
+at George Washington University.
+
+28
+00:01:44,800 --> 00:01:49,200
+For those students realize that
+while he is at headquarters,
+
+29
+00:01:49,200 --> 00:01:53,166
+he's still continuing his
+education to receive his PhD.
+
+30
+00:01:53,166 --> 00:01:56,533
+Please join me
+in welcoming Jason Crusan.
+
+31
+00:01:56,533 --> 00:01:59,533
+[applause]
+
+32
+00:02:04,633 --> 00:02:05,900
+- Thank you, guys.
+
+33
+00:02:05,900 --> 00:02:07,200
+Glad this will be
+probably easier than
+34
+00:02:07,200 --> 00:02:09,900
+a dissertation defense
+and those kind of things.
+
+35
+00:02:09,900 --> 00:02:12,966
+So, I'm gonna talk to you
+a little bit about today about
+
+36
+00:02:12,966 --> 00:02:15,500
+what's been going on in
+human spaceflight planning
+
+37
+00:02:15,500 --> 00:02:18,266
+at NASA,
+and you may hear a lot of terms
+
+38
+00:02:18,266 --> 00:02:21,166
+like "Journey to Mars,"
+"Pioneering Space,"
+
+39
+00:02:21,166 --> 00:02:23,066
+"Evolvable Mars Campaign,"
+and what I'm gonna try
+
+40
+00:02:23,066 --> 00:02:24,833
+to attempt to do
+is give you a little construct
+
+41
+00:02:24,833 --> 00:02:27,900
+or con--uh--what--what do those
+things mean and what's actually
+
+42
+00:02:27,900 --> 00:02:29,800
+really going on
+that we have.
+
+43
+00:02:29,800 --> 00:02:32,300
+So, to start that off,
+
+44
+00:02:32,300 --> 00:02:35,700
+we obviously use
+in a lot of our talking points
+
+45
+00:02:35,700 --> 00:02:36,733
+and visual graphics
+
+46
+00:02:36,733 --> 00:02:38,500
+this graphic
+that you see up here,
+
+47
+00:02:38,500 --> 00:02:39,733
+the Journey to Mars graphic.
+
+48
+00:02:39,733 --> 00:02:42,500
+And it's great for kinda
+communicating
+
+49
+00:02:42,500 --> 00:02:44,700
+to the general public
+about our overall strategy,
+
+50
+00:02:44,700 --> 00:02:47,133
+but it lacks kind of the detail
+of what's really going on,
+
+51
+00:02:47,133 --> 00:02:50,366
+and how we make
+this transition,
+
+52
+00:02:50,366 --> 00:02:52,833
+from where we're at today
+to getting to Mars.
+
+53
+00:02:52,833 --> 00:02:54,166
+So I actually draw
+your attention
+
+54
+00:02:54,166 --> 00:02:55,333
+to the very bottom
+of the chart,
+
+55
+00:02:55,333 --> 00:02:56,866
+which I think
+is the most important piece
+
+56
+00:02:56,866 --> 00:02:59,933
+and it talks about this
+transition from Earth Reliant
+
+57
+00:02:59,933 --> 00:03:03,066
+through a proving ground
+period of time and space
+
+58
+00:03:03,066 --> 00:03:06,200
+into, moving on to being
+Earth Independent.
+
+59
+00:03:06,200 --> 00:03:07,500
+So I'm gonna kinda
+walk you through
+
+60
+00:03:07,500 --> 00:03:12,000
+that thought process today,
+and what that means.
+
+61
+00:03:12,000 --> 00:03:13,966
+So, when people think about
+human spaceflight,
+
+62
+00:03:13,966 --> 00:03:17,033
+this is an iconic image
+that comes to people's mind.
+
+63
+00:03:17,033 --> 00:03:20,033
+There's a famous photographer
+taking a picture
+
+64
+00:03:20,033 --> 00:03:21,800
+of somebody coming down
+the steps of the LEM,
+
+65
+00:03:21,800 --> 00:03:26,033
+Buzz Aldrin stepping
+onto the surface of the moon.
+
+66
+00:03:26,033 --> 00:03:28,000
+People think about
+this construct.
+
+67
+00:03:28,000 --> 00:03:30,133
+It was Apollo.
+"Get there first,
+
+68
+00:03:30,133 --> 00:03:32,133
+plant the flag,
+less than ten years."
+
+69
+00:03:32,133 --> 00:03:34,500
+It was a very kind
+of singular goal in nature.
+
+70
+00:03:34,500 --> 00:03:37,666
+We ran that duration
+of the Apollo program.
+
+71
+00:03:37,666 --> 00:03:39,466
+The Apollo program stopped,
+
+72
+00:03:39,466 --> 00:03:41,066
+not because we ran out
+of hardware.
+
+73
+00:03:41,066 --> 00:03:42,766
+There's some really good
+museum pieces
+
+74
+00:03:42,766 --> 00:03:45,133
+at three or four locations
+around the country
+75
+00:03:45,133 --> 00:03:47,266
+of actual flight hardware
+that never did fly.
+
+76
+00:03:47,266 --> 00:03:48,900
+We didn't run
+out of hardware,
+
+77
+00:03:48,900 --> 00:03:51,366
+we ran out of a will to go,
+and much of that
+
+78
+00:03:51,366 --> 00:03:54,533
+I would attribute to
+a kind of a myopic view
+
+79
+00:03:54,533 --> 00:03:58,200
+of a singular goal of
+where we're at.
+
+80
+00:03:58,200 --> 00:03:59,866
+So I'm gonna step into
+where we're at today.
+
+81
+00:03:59,866 --> 00:04:01,866
+Fast-forward
+to the space station era
+
+82
+00:04:01,866 --> 00:04:03,166
+that we live in today,
+
+83
+00:04:03,166 --> 00:04:06,700
+and what also we term
+as Earth Reliant.
+
+84
+00:04:06,700 --> 00:04:08,466
+The space station
+is fundamentally different
+85
+00:04:08,466 --> 00:04:10,500
+than what we saw
+during Apollo.
+
+86
+00:04:10,500 --> 00:04:11,866
+It's not a singular goal.
+
+87
+00:04:11,866 --> 00:04:14,900
+It's arguably four goals
+in the way I lay it out.
+
+88
+00:04:14,900 --> 00:04:18,033
+It's, obviously, advancing
+the technology and systems
+
+89
+00:04:18,033 --> 00:04:19,833
+to sustain human presence
+off the planet,
+
+90
+00:04:19,833 --> 00:04:22,000
+all the technology work
+that's going on there.
+
+91
+00:04:22,000 --> 00:04:25,266
+It's allowing us to understand
+the fundamental biology
+
+92
+00:04:25,266 --> 00:04:27,400
+of the human--
+the human system
+
+93
+00:04:27,400 --> 00:04:29,100
+living off the planet.
+And what does that mean
+
+94
+00:04:29,100 --> 00:04:30,533
+to actually live
+off the planet?
+
+95
+00:04:30,533 --> 00:04:33,933
+It's allowing us to do
+fundamental research development
+
+96
+00:04:33,933 --> 00:04:37,100
+of understanding effects
+that the lack of gravity
+
+97
+00:04:37,100 --> 00:04:39,133
+in the space environment
+actually emphasize
+
+98
+00:04:39,133 --> 00:04:41,600
+in order for us to understand
+scientific fundamentals
+
+99
+00:04:41,600 --> 00:04:43,700
+that are benefiting us
+back here today.
+
+100
+00:04:43,700 --> 00:04:46,800
+And the fourth goal is actually
+another one that people
+
+101
+00:04:46,800 --> 00:04:50,300
+kind of miss, but it's building
+an off-world economy
+
+102
+00:04:50,300 --> 00:04:53,633
+and how do we actually build
+a low-Earth orbit economy
+
+103
+00:04:53,633 --> 00:04:57,033
+or a true space economy
+that's out there?
+
+104
+00:04:57,033 --> 00:04:59,500
+So you see this
+human spaceflight
+
+105
+00:04:59,500 --> 00:05:01,266
+went from this kinda
+singular goal:
+
+106
+00:05:01,266 --> 00:05:03,466
+Plant a flag
+in less than ten years.
+
+107
+00:05:03,466 --> 00:05:04,733
+Fast-forward to today
+
+108
+00:05:04,733 --> 00:05:07,700
+to a very complex
+human spaceflight endeavor
+
+109
+00:05:07,700 --> 00:05:09,766
+that we have with these
+multidisciplinary,
+
+110
+00:05:09,766 --> 00:05:13,000
+multi-economic goals
+coupled with scientific goals
+
+111
+00:05:13,000 --> 00:05:15,100
+of living off the planet.
+
+112
+00:05:15,100 --> 00:05:17,333
+But we're very much
+in this Earth Reliant phase.
+
+113
+00:05:17,333 --> 00:05:19,866
+So 10-15%
+of a global launch business
+
+114
+00:05:19,866 --> 00:05:22,766
+goes to resupply the
+space station on a yearly basis.
+
+115
+00:05:22,766 --> 00:05:25,466
+We can get crews back
+in less than 17 hours
+
+116
+00:05:25,466 --> 00:05:27,066
+if there's a medical emergency.
+
+117
+00:05:27,066 --> 00:05:30,300
+Cargo flights,
+now it's relatively routine
+
+118
+00:05:30,300 --> 00:05:32,366
+to see a launch,
+and six hours later, docking.
+
+119
+00:05:32,366 --> 00:05:35,400
+But there's that
+high supply chain,
+
+120
+00:05:35,400 --> 00:05:37,533
+a logistics chain
+that's out there.
+
+121
+00:05:37,533 --> 00:05:40,366
+So one of the things,
+as we extend human presence
+
+122
+00:05:40,366 --> 00:05:42,966
+out there, is it's
+much more about the logistics
+
+123
+00:05:42,966 --> 00:05:45,233
+than a lot of other things
+that weigh on us.
+
+124
+00:05:45,233 --> 00:05:47,666
+So keep that in mind.
+
+125
+00:05:47,666 --> 00:05:50,800
+So you fast-forward again
+to our current administration
+126
+00:05:50,800 --> 00:05:53,733
+and a talk that he gave
+down at Kennedy Space Center
+
+127
+00:05:53,733 --> 00:05:54,933
+in April 2010.
+
+128
+00:05:54,933 --> 00:05:58,466
+Most people talk about
+asteroid by 2025s,
+
+129
+00:05:58,466 --> 00:06:01,666
+and Mars vicinity
+in the 2030s.
+
+130
+00:06:01,666 --> 00:06:04,366
+Okay, let's not harp
+on that piece,
+
+131
+00:06:04,366 --> 00:06:06,433
+but let's actually pull back
+what he said right before that,
+
+132
+00:06:06,433 --> 00:06:09,100
+which most people didn't
+pay attention to.
+
+133
+00:06:09,100 --> 00:06:12,133
+And I'll paraphrase it
+in my own words, which is,
+
+134
+00:06:12,133 --> 00:06:14,300
+extended human presence
+further and further
+
+135
+00:06:14,300 --> 00:06:17,133
+and staying for
+longer and longer in space.
+
+136
+00:06:17,133 --> 00:06:20,166
+Those two kind of fundamentals,
+"go farther" and "stay longer,"
+
+137
+00:06:20,166 --> 00:06:22,700
+I think are in the air of how
+we're actually designing
+
+138
+00:06:22,700 --> 00:06:25,133
+our human spaceflight
+exploration program today.
+
+139
+00:06:25,133 --> 00:06:27,000
+And it's not just
+exploration anymore,
+
+140
+00:06:27,000 --> 00:06:29,100
+it's about that extended
+human presence.
+
+141
+00:06:29,100 --> 00:06:31,733
+And, in fact,
+in the 2014 strategic plan,
+
+142
+00:06:31,733 --> 00:06:33,833
+'cause NASA does
+strategic plans--
+
+143
+00:06:33,833 --> 00:06:35,900
+you may not have actually
+looked at it,
+
+144
+00:06:35,900 --> 00:06:38,233
+but in there was the first time
+we actually wrote,
+
+145
+00:06:38,233 --> 00:06:40,533
+"A human presence
+into the solar system,"
+
+146
+00:06:40,533 --> 00:06:42,766
+"the surface of Mars."
+By the way,
+
+147
+00:06:42,766 --> 00:06:43,833
+that's the first time
+it's ever been written
+
+148
+00:06:43,833 --> 00:06:47,266
+in our strategic plan
+to my knowledge.
+
+149
+00:06:47,266 --> 00:06:49,733
+And--and for this multiple
+kind of focuses,
+
+150
+00:06:49,733 --> 00:06:52,100
+"advancing exploration,
+science, innovation,
+
+151
+00:06:52,100 --> 00:06:53,633
+"international,
+and the humanity--
+
+152
+00:06:53,633 --> 00:06:55,100
+the benefits to humanity."
+
+153
+00:06:55,100 --> 00:06:58,900
+So again, kind of a rephrase
+of that kind of complex nature
+
+154
+00:06:58,900 --> 00:07:01,300
+of what human spaceflight
+is today.
+
+155
+00:07:01,300 --> 00:07:04,066
+So how do we go
+from this Earth Reliant phase
+
+156
+00:07:04,066 --> 00:07:05,866
+to being Earth Independent?
+
+157
+00:07:05,866 --> 00:07:07,800
+Well, we don't just
+do that overnight.
+
+158
+00:07:07,800 --> 00:07:09,033
+We don't build the systems.
+
+159
+00:07:09,033 --> 00:07:10,200
+We're learning a lot
+from space station,
+
+160
+00:07:10,200 --> 00:07:11,600
+but we're gonna need
+to figure out
+
+161
+00:07:11,600 --> 00:07:14,566
+where to assemble things,
+where to live off this planet
+
+162
+00:07:14,566 --> 00:07:15,866
+for extended periods of time,
+
+163
+00:07:15,866 --> 00:07:18,166
+and we call this the
+Proving Ground period of time.
+
+164
+00:07:18,166 --> 00:07:20,800
+Some people refer to it
+as a space, physical--
+
+165
+00:07:20,800 --> 00:07:22,666
+I mean an actual location
+in space.
+
+166
+00:07:22,666 --> 00:07:24,833
+In our nomenclature,
+it's in cislunar
+167
+00:07:24,833 --> 00:07:27,266
+or the lunar distant
+retrograde orbit,
+
+168
+00:07:27,266 --> 00:07:30,800
+L1, L2, whatever you want
+to call it, in cislunar space.
+
+169
+00:07:30,800 --> 00:07:33,500
+It's a location by which
+we can advance all the systems,
+
+170
+00:07:33,500 --> 00:07:35,133
+but, more importantly,
+it's a location that
+
+171
+00:07:35,133 --> 00:07:38,166
+will actually build our
+spaceships to take us to Mars
+
+172
+00:07:38,166 --> 00:07:41,033
+and also return them
+and park them on the way back
+
+173
+00:07:41,033 --> 00:07:42,966
+for the next trip
+going outbound.
+
+174
+00:07:42,966 --> 00:07:45,100
+So this is
+an artist rendition
+
+175
+00:07:45,100 --> 00:07:48,733
+that's actually physics correct
+of seeing ourselves
+
+176
+00:07:48,733 --> 00:07:50,500
+out at a lunar distance
+retrograde orbit
+177
+00:07:50,500 --> 00:07:52,500
+with the moon there and
+the Earth off in the distance
+
+178
+00:07:52,500 --> 00:07:55,933
+working on one of those
+habitation systems
+
+179
+00:07:55,933 --> 00:07:57,533
+and transportation systems
+that would take us
+
+180
+00:07:57,533 --> 00:08:00,533
+to Mars and back.
+
+181
+00:08:00,533 --> 00:08:02,400
+This is all
+in a stepping stone
+
+182
+00:08:02,400 --> 00:08:04,800
+kind of build out approach
+that allows us then
+
+183
+00:08:04,800 --> 00:08:07,233
+to move into that
+Earth Independent phase.
+
+184
+00:08:07,233 --> 00:08:11,300
+But we don't do that
+through just guessing
+
+185
+00:08:11,300 --> 00:08:12,700
+on what decisions
+we need to make.
+
+186
+00:08:12,700 --> 00:08:15,366
+We actually put together
+a set of guiding principles
+
+187
+00:08:15,366 --> 00:08:19,033
+on how do we make decisions
+of what investments
+
+188
+00:08:19,033 --> 00:08:20,600
+we need to make?
+How do we--
+
+189
+00:08:20,600 --> 00:08:22,000
+How do we
+as a human spaceflight
+
+190
+00:08:22,000 --> 00:08:25,500
+or a total space community
+
+191
+00:08:25,500 --> 00:08:26,733
+make some of those decisions?
+
+192
+00:08:26,733 --> 00:08:28,433
+So we put together
+some strategic principles
+
+193
+00:08:28,433 --> 00:08:31,200
+that we think are pretty robust
+on what we think
+
+194
+00:08:31,200 --> 00:08:33,533
+are the drivers
+to make all these decisions.
+
+195
+00:08:33,533 --> 00:08:34,866
+I'll walk
+through these briefly
+
+196
+00:08:34,866 --> 00:08:36,933
+'cause it's good
+to spend some time with them.
+
+197
+00:08:36,933 --> 00:08:40,300
+So one of them is the
+budget reality that we live in.
+
+198
+00:08:40,300 --> 00:08:43,466
+Let's not design
+a human spaceflight endeavor,
+
+199
+00:08:43,466 --> 00:08:45,566
+or pioneering space,
+or exploration endeavor
+
+200
+00:08:45,566 --> 00:08:49,466
+that counts on some
+unrealistic budget allocation
+
+201
+00:08:49,466 --> 00:08:52,200
+coming to NASA or the
+global community and budgets.
+
+202
+00:08:52,200 --> 00:08:54,600
+There's been a lot of people
+over the years
+
+203
+00:08:54,600 --> 00:08:55,633
+that have talked about,
+
+204
+00:08:55,633 --> 00:08:57,266
+"Oh, if we just had
+a better plan,
+
+205
+00:08:57,266 --> 00:08:58,566
+somebody will give us
+the money."
+
+206
+00:08:58,566 --> 00:09:00,466
+There's been
+a lot of smart people
+
+207
+00:09:00,466 --> 00:09:02,533
+that have tried to do that
+over the past decades,
+208
+00:09:02,533 --> 00:09:04,000
+and that's not been
+the reality.
+
+209
+00:09:04,000 --> 00:09:07,800
+So instead of kinda quibbling
+about building a better plan,
+
+210
+00:09:07,800 --> 00:09:09,466
+let's actually start
+doing things.
+
+211
+00:09:09,466 --> 00:09:10,733
+And--but let's do them in a way
+
+212
+00:09:10,733 --> 00:09:12,133
+that we can actually do it
+without having to ask
+
+213
+00:09:12,133 --> 00:09:14,066
+for the additional
+budget authority today.
+
+214
+00:09:14,066 --> 00:09:15,633
+And we believe
+that we can actually do that
+
+215
+00:09:15,633 --> 00:09:17,166
+with the budget we have.
+
+216
+00:09:17,166 --> 00:09:19,233
+The next one is,
+"exploration enables science,
+
+217
+00:09:19,233 --> 00:09:20,533
+science enables exploration."
+
+218
+00:09:20,533 --> 00:09:23,900
+This is a quote
+from the late Mike Wargo,
+
+219
+00:09:23,900 --> 00:09:26,000
+our past
+chief exploration scientist.
+
+220
+00:09:26,000 --> 00:09:29,000
+And he liked to point out
+that science and exploration
+
+221
+00:09:29,000 --> 00:09:31,233
+are not against each other,
+but rather additive
+
+222
+00:09:31,233 --> 00:09:32,966
+to each other.
+
+223
+00:09:32,966 --> 00:09:36,066
+And by concentrating
+on them working together,
+
+224
+00:09:36,066 --> 00:09:38,300
+we'll do a lot more,
+and this--this kinda harp--
+
+225
+00:09:38,300 --> 00:09:41,300
+harps on that principle
+that we have.
+
+226
+00:09:41,300 --> 00:09:43,233
+Next is technology readiness.
+
+227
+00:09:43,233 --> 00:09:46,266
+So we're the--obviously
+gonna hi--apply technologies
+
+228
+00:09:46,266 --> 00:09:48,166
+that are ready to actually
+implement the missions today,
+229
+00:09:48,166 --> 00:09:49,500
+but we're not gonna
+cut our seed corn
+
+230
+00:09:49,500 --> 00:09:51,233
+for the next generation
+of technology that we need
+
+231
+00:09:51,233 --> 00:09:55,366
+to keep on expanding that
+horizon into the solar system.
+
+232
+00:09:55,366 --> 00:09:58,200
+So how do we have
+a balanced technology portfolio?
+
+233
+00:09:58,200 --> 00:10:01,433
+Near-term mission cadence
+that's also not designed
+
+234
+00:10:01,433 --> 00:10:03,800
+an overall plan
+for human spaceflight
+
+235
+00:10:03,800 --> 00:10:05,133
+that has long periods of time
+
+236
+00:10:05,133 --> 00:10:07,166
+where there's no flights
+going on
+
+237
+00:10:07,166 --> 00:10:08,466
+like we have today.
+
+238
+00:10:08,466 --> 00:10:11,100
+We've made that mistake
+several times.
+
+239
+00:10:11,100 --> 00:10:12,333
+Let's not make it
+once again.
+
+240
+00:10:12,333 --> 00:10:16,100
+And how do a monch--uh,
+kind of a marching cadence
+
+241
+00:10:16,100 --> 00:10:17,966
+of missions
+on a regular basis?
+
+242
+00:10:17,966 --> 00:10:19,933
+'Cause there's nothing
+more inspirational
+
+243
+00:10:19,933 --> 00:10:21,600
+than actually
+flying hardware,
+
+244
+00:10:21,600 --> 00:10:23,533
+and flying our missions.
+
+245
+00:10:23,533 --> 00:10:25,433
+So how do we--how do we
+design that cadence
+
+246
+00:10:25,433 --> 00:10:27,300
+to be engaging?
+
+247
+00:10:27,300 --> 00:10:29,000
+Commercial business.
+
+248
+00:10:29,000 --> 00:10:30,700
+Very much I talked about
+
+249
+00:10:30,700 --> 00:10:32,633
+the building
+the low-Earth orbit economy
+250
+00:10:32,633 --> 00:10:33,833
+with the ISS.
+
+251
+00:10:33,833 --> 00:10:35,733
+A lot of that
+we got into after
+
+252
+00:10:35,733 --> 00:10:38,500
+we had already completed
+station completion and all that.
+
+253
+00:10:38,500 --> 00:10:40,533
+Let's actually figure out
+how to do
+
+254
+00:10:40,533 --> 00:10:42,433
+this whole
+pioneering endeavor
+
+255
+00:10:42,433 --> 00:10:45,200
+by involving the commercial
+sector from day one
+
+256
+00:10:45,200 --> 00:10:47,166
+instead of the reverse
+
+257
+00:10:47,166 --> 00:10:49,200
+where we traditionally do
+at NASA.
+
+258
+00:10:49,200 --> 00:10:52,300
+So how do we leverage the--
+the actual space economy,
+
+259
+00:10:52,300 --> 00:10:53,933
+the commercial business
+that's out there,
+
+260
+00:10:53,933 --> 00:10:57,566
+and actually baseline that
+as part of our overall plans
+
+261
+00:10:57,566 --> 00:10:59,800
+for all of our endeavors?
+
+262
+00:10:59,800 --> 00:11:03,533
+The other piece is multi-use in
+evolvable space infrastructure.
+
+263
+00:11:03,533 --> 00:11:05,000
+This means two things.
+
+264
+00:11:05,000 --> 00:11:07,600
+Let's not
+throw away hardware,
+
+265
+00:11:07,600 --> 00:11:09,966
+which we have a tendency to do
+in the space program.
+
+266
+00:11:09,966 --> 00:11:12,266
+Fly something,
+throw away 80% of it,
+
+267
+00:11:12,266 --> 00:11:14,700
+or if not, 100% of it
+by the end of the mission.
+
+268
+00:11:14,700 --> 00:11:16,000
+But rather,
+let's build infrastructure
+
+269
+00:11:16,000 --> 00:11:17,400
+that's reused over time.
+
+270
+00:11:17,400 --> 00:11:19,833
+We've not demonstrated
+in the habitation world,
+271
+00:11:19,833 --> 00:11:22,633
+at least, that we can build
+30-year habitation structures.
+
+272
+00:11:22,633 --> 00:11:23,966
+The space station,
+in it's lifetime,
+
+273
+00:11:23,966 --> 00:11:25,466
+will be in there
+over 30 years
+
+274
+00:11:25,466 --> 00:11:28,666
+of actual certification
+and flight.
+
+275
+00:11:28,666 --> 00:11:31,033
+And most of the--
+most of the components can be
+
+276
+00:11:31,033 --> 00:11:33,233
+changed out and retrofitted
+and upgraded over time.
+
+277
+00:11:33,233 --> 00:11:34,966
+So let's keep
+that kind of mantra,
+
+278
+00:11:34,966 --> 00:11:37,466
+with whatever we're doing.
+
+279
+00:11:37,466 --> 00:11:40,366
+The second aspect of this,
+is if there is something
+
+280
+00:11:40,366 --> 00:11:42,300
+that we need to throw away,
+or something that needs
+
+281
+00:11:42,300 --> 00:11:45,100
+repeatable design,
+how do you do that once
+
+282
+00:11:45,100 --> 00:11:47,600
+and kind of
+the assembly line approach
+
+283
+00:11:47,600 --> 00:11:49,866
+of re-flight of the same
+hardware over and over?
+
+284
+00:11:49,866 --> 00:11:52,933
+And modularize your designs
+to a point that you can
+
+285
+00:11:52,933 --> 00:11:54,500
+maximize reusability.
+
+286
+00:11:54,500 --> 00:11:56,833
+The last is we're not
+gonna do this alone.
+
+287
+00:11:56,833 --> 00:11:58,800
+We're gonna do this
+with our international partners.
+
+288
+00:11:58,800 --> 00:12:01,300
+Leveraging the current
+ISS partners,
+
+289
+00:12:01,300 --> 00:12:03,666
+but then building
+upon those partners
+
+290
+00:12:03,666 --> 00:12:06,366
+and expanding to all
+the emerging space organizations
+
+291
+00:12:06,366 --> 00:12:07,900
+that are out there as well.
+
+292
+00:12:07,900 --> 00:12:10,633
+And with that,
+we've been
+
+293
+00:12:10,633 --> 00:12:12,233
+a concerted effort
+over the past couple years.
+
+294
+00:12:12,233 --> 00:12:13,566
+We have what we call
+
+295
+00:12:13,566 --> 00:12:16,166
+an International Space
+Exploration Coordination Group.
+
+296
+00:12:16,166 --> 00:12:18,466
+They've designed
+and developed what we call
+
+297
+00:12:18,466 --> 00:12:19,966
+our Global Exploration Roadmap.
+
+298
+00:12:19,966 --> 00:12:22,466
+So what you see here
+is the front cover of that.
+
+299
+00:12:22,466 --> 00:12:25,266
+But more importantly,
+you see the list of seven items
+
+300
+00:12:25,266 --> 00:12:28,166
+on the left-hand side there,
+and we actually have
+
+301
+00:12:28,166 --> 00:12:30,233
+among the 14 countries
+at the table
+302
+00:12:30,233 --> 00:12:32,566
+a common understanding
+of what the goals are
+
+303
+00:12:32,566 --> 00:12:34,633
+for exploration
+around the world.
+
+304
+00:12:34,633 --> 00:12:37,500
+Not just at NASA, but all
+of our international partners.
+
+305
+00:12:37,500 --> 00:12:39,166
+And that's
+a huge accomplishment
+
+306
+00:12:39,166 --> 00:12:41,600
+to actually get
+global space leadership
+
+307
+00:12:41,600 --> 00:12:45,533
+to agree on what the commonality
+of all that is.
+
+308
+00:12:45,533 --> 00:12:48,100
+The other side of it is
+we also got agreement
+
+309
+00:12:48,100 --> 00:12:51,700
+on what we don't know related
+to strategic knowledge gaps.
+
+310
+00:12:51,700 --> 00:12:53,833
+So there's a bunch of things
+that we need to know
+
+311
+00:12:53,833 --> 00:12:56,100
+about places that we want to go
+before we go there.
+312
+00:12:56,100 --> 00:12:58,500
+That weighs into our
+engineering knowledge,
+
+313
+00:12:58,500 --> 00:13:00,800
+it weighs into our
+overall architecture planning.
+
+314
+00:13:00,800 --> 00:13:03,066
+Are there resources there
+that we can gather
+
+315
+00:13:03,066 --> 00:13:05,433
+and utilize on trips
+in the future?
+
+316
+00:13:05,433 --> 00:13:09,700
+Will the environment cause
+hazards for our humans
+
+317
+00:13:09,700 --> 00:13:11,200
+when we send them there?
+
+318
+00:13:11,200 --> 00:13:13,200
+So we've actually developed
+a whole set
+
+319
+00:13:13,200 --> 00:13:14,666
+of strategic knowledge gaps,
+worked with
+
+320
+00:13:14,666 --> 00:13:17,933
+the three assessment bodies for
+lunar, Mars, and small bodies,
+
+321
+00:13:17,933 --> 00:13:20,700
+and got commonality there
+and understanding,
+
+322
+00:13:20,700 --> 00:13:22,733
+and then worked that with
+the international community
+
+323
+00:13:22,733 --> 00:13:24,366
+and came up
+with a whole set of findings
+
+324
+00:13:24,366 --> 00:13:28,333
+of where--where do we see
+commonalities even across
+
+325
+00:13:28,333 --> 00:13:29,900
+all the destinations
+that are out there?
+
+326
+00:13:29,900 --> 00:13:32,500
+And this is kind of a short list
+of those kind of things.
+
+327
+00:13:32,500 --> 00:13:34,533
+But all that
+is public information
+
+328
+00:13:34,533 --> 00:13:37,100
+and posted, actually, on all
+three of the assessment groups.
+
+329
+00:13:37,100 --> 00:13:40,233
+And we're constantly
+revisiting that data as we get
+
+330
+00:13:40,233 --> 00:13:43,800
+and close actual strategic
+knowledge gaps as well.
+
+331
+00:13:43,800 --> 00:13:46,033
+With industry,
+I talked about the involvement
+
+332
+00:13:46,033 --> 00:13:47,366
+of commercial industry.
+
+333
+00:13:47,366 --> 00:13:48,800
+One of the things
+that NASA's been doing
+
+334
+00:13:48,800 --> 00:13:50,900
+a lot lately
+is running a whole series
+
+335
+00:13:50,900 --> 00:13:54,266
+of RFIs, BAAs, nontraditional
+procurement things
+
+336
+00:13:54,266 --> 00:13:56,066
+of how do you ask
+commercial industry
+
+337
+00:13:56,066 --> 00:13:58,066
+how they want
+to participate with us?
+
+338
+00:13:58,066 --> 00:14:00,900
+So the most kind of
+visual things are things
+
+339
+00:14:00,900 --> 00:14:02,966
+like commercial cargo
+and commercial crew,
+
+340
+00:14:02,966 --> 00:14:06,266
+and our CASIS organization
+working on National Lab.
+
+341
+00:14:06,266 --> 00:14:08,166
+But then
+you see emerging things
+
+342
+00:14:08,166 --> 00:14:10,266
+like our
+Asteroid Redirect Mission BAA,
+
+343
+00:14:10,266 --> 00:14:13,333
+which was looking in
+to optimize our design choices
+
+344
+00:14:13,333 --> 00:14:15,500
+to maximize
+commercial involvement
+
+345
+00:14:15,500 --> 00:14:17,600
+in the
+Asteroid Redirect Mission,
+
+346
+00:14:17,600 --> 00:14:19,066
+to things like
+Lunar CATALYST,
+
+347
+00:14:19,066 --> 00:14:22,166
+where we're not building
+lander capabilities ourselves
+
+348
+00:14:22,166 --> 00:14:24,433
+but rather helping accelerate
+the commercial industry--
+
+349
+00:14:24,433 --> 00:14:27,400
+commercial industry's ability
+to provide
+
+350
+00:14:27,400 --> 00:14:28,833
+that capability
+in the future,
+
+351
+00:14:28,833 --> 00:14:31,133
+to things that are
+farther reaching out
+
+352
+00:14:31,133 --> 00:14:33,833
+like Mars telecom RFI,
+where we're asking
+
+353
+00:14:33,833 --> 00:14:35,933
+the public sector,
+"How would you implement
+
+354
+00:14:35,933 --> 00:14:39,200
+telecommunication services
+commercially from Mars
+
+355
+00:14:39,200 --> 00:14:41,800
+and along the way to Mars?"
+
+356
+00:14:41,800 --> 00:14:44,600
+How do we evolve
+the ISS?
+
+357
+00:14:44,600 --> 00:14:46,400
+There's another ongoing
+discussion of,
+
+358
+00:14:46,400 --> 00:14:47,733
+"How do we evolve
+from a government owned
+
+359
+00:14:47,733 --> 00:14:50,400
+and operated space station
+to commercially owned
+
+360
+00:14:50,400 --> 00:14:52,166
+and operated space stations
+over time?"
+
+361
+00:14:52,166 --> 00:14:53,533
+That's an ongoing dialogue
+
+362
+00:14:53,533 --> 00:14:55,566
+between us
+and the commercial sector.
+363
+00:14:55,566 --> 00:14:57,866
+And then lately we've been
+moving into things like
+
+364
+00:14:57,866 --> 00:15:01,900
+additional calls related
+to Asteroid Redirect Mission
+
+365
+00:15:01,900 --> 00:15:05,033
+on follow up with the commercial
+strategy for that.
+
+366
+00:15:05,033 --> 00:15:07,866
+And then most recently
+our NextSTEP BAA,
+
+367
+00:15:07,866 --> 00:15:11,100
+where we asked people
+to give us synergies between
+
+368
+00:15:11,100 --> 00:15:12,966
+advanced propulsion systems
+that we want
+
+369
+00:15:12,966 --> 00:15:15,233
+and commercial industry wants,
+habitation systems,
+
+370
+00:15:15,233 --> 00:15:19,100
+and even the small satellite
+industry on that as well.
+
+371
+00:15:19,100 --> 00:15:21,400
+And I'll actually touch base
+on a few of those investments
+
+372
+00:15:21,400 --> 00:15:24,800
+and selections we made
+from that recent announcement.
+373
+00:15:24,800 --> 00:15:28,166
+So if you think about
+this big philosophy change
+
+374
+00:15:28,166 --> 00:15:30,800
+of human spaceflight,
+and the whole fact
+
+375
+00:15:30,800 --> 00:15:33,000
+that you wanna actually analyze
+against all those
+
+376
+00:15:33,000 --> 00:15:35,400
+strategic principles,
+we have an activity called
+
+377
+00:15:35,400 --> 00:15:37,766
+The Evolvable Mars Campaign.
+
+378
+00:15:37,766 --> 00:15:40,966
+What it is not--
+it is not a plan to actually
+
+379
+00:15:40,966 --> 00:15:43,366
+set out every mission
+from here to Mars.
+
+380
+00:15:43,366 --> 00:15:45,900
+We're not gonna do that
+'cause the fact is,
+
+381
+00:15:45,900 --> 00:15:48,066
+as soon as you publish it,
+it will be wrong.
+
+382
+00:15:48,066 --> 00:15:50,333
+We've done this
+in the past.
+383
+00:15:50,333 --> 00:15:53,633
+We call it Design Reference
+Architecture 5.0.
+
+384
+00:15:53,633 --> 00:15:55,333
+When it was written,
+
+385
+00:15:55,333 --> 00:15:57,300
+we hadn't discovered
+water on the moon.
+
+386
+00:15:57,300 --> 00:15:59,033
+We hadn't discovered
+water on Mars.
+
+387
+00:15:59,033 --> 00:16:02,466
+There's a whole host and
+series of other design trades
+
+388
+00:16:02,466 --> 00:16:05,300
+that were in DRA 5.0,
+and as soon as it was published,
+
+389
+00:16:05,300 --> 00:16:07,400
+scientific and technology
+advancement eclipsed
+
+390
+00:16:07,400 --> 00:16:08,933
+its relevance.
+
+391
+00:16:08,933 --> 00:16:11,100
+So rather,
+what we're using
+
+392
+00:16:11,100 --> 00:16:14,333
+in the Evolvable Mars Campaign
+is a series of trade analyses
+
+393
+00:16:14,333 --> 00:16:16,833
+to help us make really solid
+near-term decisions
+
+394
+00:16:16,833 --> 00:16:18,400
+in the next, say, five years--
+
+395
+00:16:18,400 --> 00:16:19,833
+things that we actually
+have the budget for--
+
+396
+00:16:19,833 --> 00:16:22,666
+make the acquisition choices
+and how we work with industry
+
+397
+00:16:22,666 --> 00:16:25,733
+in the next five to ten years,
+and actually explore that
+
+398
+00:16:25,733 --> 00:16:27,733
+with the industrial
+and international partners
+
+399
+00:16:27,733 --> 00:16:29,166
+and get that kinda queued up
+as the next things
+
+400
+00:16:29,166 --> 00:16:31,266
+we need to do,
+and then the kind of
+
+401
+00:16:31,266 --> 00:16:32,600
+ten-year-and-out work.
+
+402
+00:16:32,600 --> 00:16:34,533
+How do you then make sure
+whatever decisions
+
+403
+00:16:34,533 --> 00:16:37,633
+we're making today,
+or in the next five to ten range
+404
+00:16:37,633 --> 00:16:38,900
+with the industry folks--
+
+405
+00:16:38,900 --> 00:16:41,500
+how do we make sure that
+that doesn't get us
+
+406
+00:16:41,500 --> 00:16:43,466
+to a point that we can't
+continue on
+
+407
+00:16:43,466 --> 00:16:46,866
+in our overall journey to Mars
+and this whole pioneering space?
+
+408
+00:16:46,866 --> 00:16:48,633
+So make sure
+we don't have any dead ends
+
+409
+00:16:48,633 --> 00:16:50,433
+and kinda
+follow that through.
+
+410
+00:16:50,433 --> 00:16:52,366
+So some things that we're
+looking at are,
+
+411
+00:16:52,366 --> 00:16:54,700
+how do you split apart
+habitation capabilities?
+
+412
+00:16:54,700 --> 00:16:57,433
+How do you optimize
+for LEO commercialization,
+
+413
+00:16:57,433 --> 00:17:00,700
+habit exploration, class
+habitation at the same time?
+414
+00:17:00,700 --> 00:17:02,566
+Where's the commonality
+of those kind of systems?
+
+415
+00:17:02,566 --> 00:17:05,666
+So split habs versus
+large monolithic habs.
+
+416
+00:17:05,666 --> 00:17:09,333
+Cargo pre-emplacement, so
+how do you pre-emplace systems
+
+417
+00:17:09,333 --> 00:17:11,733
+at Mars instead of having
+a whole sequence of missions
+
+418
+00:17:11,733 --> 00:17:13,533
+kinda clumped up together
+that you have to do
+
+419
+00:17:13,533 --> 00:17:14,900
+all your deployment?
+
+420
+00:17:14,900 --> 00:17:17,166
+So things like that
+we're analyzing.
+
+421
+00:17:17,166 --> 00:17:19,133
+The Evolvable Mars Campaign
+is made up of
+
+422
+00:17:19,133 --> 00:17:21,833
+a whole series of NASA centers
+including here at Ames
+
+423
+00:17:21,833 --> 00:17:24,633
+and also the various
+mission directorates
+
+424
+00:17:24,633 --> 00:17:27,600
+both on our science side
+and our technology side as well,
+
+425
+00:17:27,600 --> 00:17:29,766
+our international partners
+through what I said,
+
+426
+00:17:29,766 --> 00:17:31,666
+the International Space
+Exploration Coordination Group
+
+427
+00:17:31,666 --> 00:17:35,100
+industry through
+all these RFIs and such,
+
+428
+00:17:35,100 --> 00:17:37,166
+and then strategic knowledge
+gaps working with our
+
+429
+00:17:37,166 --> 00:17:39,066
+assessment groups
+and the--and the scientists
+
+430
+00:17:39,066 --> 00:17:41,300
+and understanding
+where we need to answer
+
+431
+00:17:41,300 --> 00:17:44,966
+some key questions for these
+overall architectures as well.
+
+432
+00:17:44,966 --> 00:17:48,433
+So on the left-hand side
+what you see here is
+
+433
+00:17:48,433 --> 00:17:49,600
+what we've done in the past
+
+434
+00:17:49,600 --> 00:17:52,433
+and what is continuing
+to do--be done.
+
+435
+00:17:52,433 --> 00:17:54,366
+There's a lot of
+architecture studies out there.
+
+436
+00:17:54,366 --> 00:17:57,800
+Design Reference Architecture
+5.0 is one example.
+
+437
+00:17:57,800 --> 00:17:59,500
+If somebody asks us
+how we're gonna get to Mars,
+
+438
+00:17:59,500 --> 00:18:02,266
+that's one example
+of how you get to Mars.
+
+439
+00:18:02,266 --> 00:18:05,766
+There are a whole host of other
+ways to do that as well.
+
+440
+00:18:05,766 --> 00:18:08,166
+And we have these
+design reference architectures,
+
+441
+00:18:08,166 --> 00:18:09,266
+and we're going to continue
+to have them.
+
+442
+00:18:09,266 --> 00:18:11,233
+Many of you are students
+in the group.
+
+443
+00:18:11,233 --> 00:18:13,266
+Many of your university
+senior projects and all that
+
+444
+00:18:13,266 --> 00:18:15,900
+are also going to be doing
+design reference architectures.
+
+445
+00:18:15,900 --> 00:18:17,800
+These are great.
+We should encourage this.
+
+446
+00:18:17,800 --> 00:18:19,000
+The more the merrier,
+
+447
+00:18:19,000 --> 00:18:21,833
+looking at the entire
+Tradespace of options
+
+448
+00:18:21,833 --> 00:18:23,200
+that we have out there.
+
+449
+00:18:23,200 --> 00:18:26,233
+What we then use
+is the Evolvable Mars Campaign
+
+450
+00:18:26,233 --> 00:18:28,633
+to actually analyze
+that entire Tradespace
+
+451
+00:18:28,633 --> 00:18:30,733
+to help us
+make concrete decisions
+
+452
+00:18:30,733 --> 00:18:33,333
+of real missions to fly
+in the near-term,
+
+453
+00:18:33,333 --> 00:18:35,700
+and then do that
+overall long-range planning,
+
+454
+00:18:35,700 --> 00:18:38,033
+not set every single step
+from here
+455
+00:18:38,033 --> 00:18:39,866
+for the next 30 years in stone.
+
+456
+00:18:39,866 --> 00:18:42,400
+So this is
+that kinda parallel
+
+457
+00:18:42,400 --> 00:18:44,566
+of how these work together
+and what we have going on.
+
+458
+00:18:44,566 --> 00:18:47,200
+So I'm going to actually touch
+on some of the results
+
+459
+00:18:47,200 --> 00:18:48,833
+of some of these studies.
+
+460
+00:18:48,833 --> 00:18:52,633
+So in FY 14,
+we were actually catching up
+
+461
+00:18:52,633 --> 00:18:55,600
+a lot of our knowledge,
+related to destinations,
+
+462
+00:18:55,600 --> 00:18:57,533
+in the Mars vicinity.
+
+463
+00:18:57,533 --> 00:19:00,333
+So what do ConOps--uh,
+concepts of operations
+
+464
+00:19:00,333 --> 00:19:01,600
+look like at Mars?
+
+465
+00:19:01,600 --> 00:19:04,500
+Things like even
+Phobos operations?
+
+466
+00:19:04,500 --> 00:19:06,400
+We didn't understand
+what that would look like
+
+467
+00:19:06,400 --> 00:19:08,400
+and hadn't done a lot of work
+in that area.
+
+468
+00:19:08,400 --> 00:19:10,700
+Transportation
+and trajectory
+
+469
+00:19:10,700 --> 00:19:12,066
+staging point analysis.
+
+470
+00:19:12,066 --> 00:19:15,166
+How do we get to the
+lunar distant retrograde orbit
+
+471
+00:19:15,166 --> 00:19:17,266
+as the staging point
+versus LEO,
+
+472
+00:19:17,266 --> 00:19:19,433
+versus pick
+your favorite orbit,
+
+473
+00:19:19,433 --> 00:19:21,133
+L1 and L2,
+all those kinds of things?
+
+474
+00:19:21,133 --> 00:19:24,400
+How do we get
+to where we're at with that?
+
+475
+00:19:24,400 --> 00:19:27,000
+Looking at habitation
+and our overall
+476
+00:19:27,000 --> 00:19:28,833
+Mars habitation strategy.
+
+477
+00:19:28,833 --> 00:19:31,200
+Looking at the Solar
+Electric Propulsion system
+
+478
+00:19:31,200 --> 00:19:33,366
+that is proposed
+for the ARM mission,
+
+479
+00:19:33,366 --> 00:19:35,333
+and how does
+Solar Electric Propulsion
+
+480
+00:19:35,333 --> 00:19:38,900
+fundamentally change the way
+we do cargo pre-emplacement?
+
+481
+00:19:38,900 --> 00:19:40,466
+Again, this is
+another difference.
+
+482
+00:19:40,466 --> 00:19:44,066
+When DRA 5.0 was written,
+we had dreams of maybe
+
+483
+00:19:44,066 --> 00:19:45,700
+5 kilowatt SEP systems.
+
+484
+00:19:45,700 --> 00:19:49,433
+They have made
+incredible advancements
+
+485
+00:19:49,433 --> 00:19:52,700
+both within the government
+and also within the industry,
+
+486
+00:19:52,700 --> 00:19:55,500
+and now we can imagine
+multi-tens of kilowatt
+
+487
+00:19:55,500 --> 00:19:56,800
+Solar Electric
+Propulsion systems
+
+488
+00:19:56,800 --> 00:19:59,900
+that we couldn't imagine
+back then being ready.
+
+489
+00:19:59,900 --> 00:20:02,833
+Other things like--
+we're building SLS.
+
+490
+00:20:02,833 --> 00:20:04,933
+Wouldn't it be great
+to actually send cargo along
+
+491
+00:20:04,933 --> 00:20:06,033
+with the crew or have that
+
+492
+00:20:06,033 --> 00:20:08,566
+excess capacity
+of SLS be utilized
+
+493
+00:20:08,566 --> 00:20:10,466
+to do some of that
+cargo pre-emplacement?
+
+494
+00:20:10,466 --> 00:20:12,500
+So what does
+co-manifesting look like?
+
+495
+00:20:12,500 --> 00:20:15,733
+And those sorts of things.
+
+496
+00:20:15,733 --> 00:20:19,000
+So all this helps us
+actually set up,
+
+497
+00:20:19,000 --> 00:20:20,900
+what are some of our
+proving ground objectives?
+
+498
+00:20:20,900 --> 00:20:23,666
+What do we need to learn about
+in this time period?
+
+499
+00:20:23,666 --> 00:20:25,500
+What do we need to learn about
+in cislunar space
+
+500
+00:20:25,500 --> 00:20:26,633
+before we're ready to go?
+
+501
+00:20:26,633 --> 00:20:28,233
+There's a list
+of things up here.
+
+502
+00:20:28,233 --> 00:20:30,166
+I won't read them to you,
+but things like
+
+503
+00:20:30,166 --> 00:20:32,733
+living in deep space
+for a long duration,
+
+504
+00:20:32,733 --> 00:20:35,566
+how to do some of these
+semi-autonomous operations
+
+505
+00:20:35,566 --> 00:20:36,933
+that we may have.
+It's a slightly different
+
+506
+00:20:36,933 --> 00:20:38,600
+operational model
+that we have.
+507
+00:20:38,600 --> 00:20:41,033
+Actually conducting EVAs
+in deep space.
+
+508
+00:20:41,033 --> 00:20:43,466
+We haven't done that
+in a few--a few years
+
+509
+00:20:43,466 --> 00:20:47,366
+and actually this whole
+large scale robotics systems
+
+510
+00:20:47,366 --> 00:20:48,966
+and human systems
+working together
+
+511
+00:20:48,966 --> 00:20:52,033
+and how to do
+deep space trajectory flight
+
+512
+00:20:52,033 --> 00:20:54,533
+is another challenge
+that we have working on.
+
+513
+00:20:54,533 --> 00:20:58,133
+People talk about, "Well,
+when are we going to Mars?
+
+514
+00:20:58,133 --> 00:20:59,966
+And where does
+going to Mars mean?"
+
+515
+00:20:59,966 --> 00:21:03,533
+If you notice that the talk,
+when the--when the president
+
+516
+00:21:03,533 --> 00:21:05,733
+announced it, he said,
+"Mars vicinity," by the 2030s.
+517
+00:21:05,733 --> 00:21:07,266
+So we get a lot of talk about,
+
+518
+00:21:07,266 --> 00:21:09,266
+does that mean Mars' surface?
+Mars' moons?
+
+519
+00:21:09,266 --> 00:21:11,466
+Mars' orbit?
+
+520
+00:21:11,466 --> 00:21:12,866
+Quite frankly,
+it doesn't matter
+
+521
+00:21:12,866 --> 00:21:14,766
+at the stage
+that we're at today.
+
+522
+00:21:14,766 --> 00:21:16,800
+We need to be able to figure out
+the way to get
+
+523
+00:21:16,800 --> 00:21:19,766
+from here to there
+into the Mars system.
+
+524
+00:21:19,766 --> 00:21:22,700
+There's a lot of commonality
+that we can work on right now.
+
+525
+00:21:22,700 --> 00:21:24,333
+And we can--we can
+actually put off
+
+526
+00:21:24,333 --> 00:21:26,066
+the final decision
+of where we're going
+
+527
+00:21:26,066 --> 00:21:28,000
+for some time,
+and that's okay.
+
+528
+00:21:28,000 --> 00:21:30,800
+We can concentrate on
+
+529
+00:21:30,800 --> 00:21:32,966
+all the commonality
+of those type systems.
+
+530
+00:21:32,966 --> 00:21:35,966
+So, to give you an example,
+in long duration habitation,
+
+531
+00:21:35,966 --> 00:21:39,633
+we've been looking at transit
+versus Phobos versus surface
+
+532
+00:21:39,633 --> 00:21:42,933
+trying to find the common ground
+in habitation systems.
+
+533
+00:21:42,933 --> 00:21:44,466
+Yes, there's gravity
+dependent components
+
+534
+00:21:44,466 --> 00:21:46,700
+in some hab stuff,
+but a lot of the components
+
+535
+00:21:46,700 --> 00:21:49,400
+are actually--there's--
+you don't need to
+
+536
+00:21:49,400 --> 00:21:50,733
+actually figure out
+where you wanna go,
+
+537
+00:21:50,733 --> 00:21:52,366
+that a lot
+of the transit systems,
+
+538
+00:21:52,366 --> 00:21:53,666
+which is what you're
+gonna need first,
+
+539
+00:21:53,666 --> 00:21:55,533
+are actually extensible
+to all the other areas.
+
+540
+00:21:55,533 --> 00:21:57,933
+So how do you concentrate
+on the common ground
+
+541
+00:21:57,933 --> 00:22:00,133
+and then leave the small changes
+for the future
+
+542
+00:22:00,133 --> 00:22:02,500
+that you need to do
+to make that change?
+
+543
+00:22:02,500 --> 00:22:05,733
+So I talked about,
+where do we do assembly?
+
+544
+00:22:05,733 --> 00:22:09,200
+We have people talk about a
+lunar distant retrograde orbit.
+
+545
+00:22:09,200 --> 00:22:11,766
+This is a graphic
+to kinda show you visually
+
+546
+00:22:11,766 --> 00:22:15,966
+what gravity wells really mean
+in a relatively simple way.
+
+547
+00:22:15,966 --> 00:22:17,933
+So you've got Earth there,
+at the center
+
+548
+00:22:17,933 --> 00:22:19,600
+with its gravity well.
+
+549
+00:22:19,600 --> 00:22:21,233
+You kinda come up
+the circles there
+
+550
+00:22:21,233 --> 00:22:24,566
+and you kinda see where ISS
+is sitting in its orbit
+
+551
+00:22:24,566 --> 00:22:27,933
+and you see the GEO belt
+out there near L3
+
+552
+00:22:27,933 --> 00:22:31,100
+and you kinda see
+their relative gravity wells.
+
+553
+00:22:31,100 --> 00:22:33,866
+You see moon out there.
+You see the Lagrange Points.
+
+554
+00:22:33,866 --> 00:22:36,533
+And you see the--
+in yellow,
+
+555
+00:22:36,533 --> 00:22:38,566
+the lunar distant
+retrograde orbit.
+
+556
+00:22:38,566 --> 00:22:41,500
+It's not "a" orbit.
+It's a whole family of orbits.
+
+557
+00:22:41,500 --> 00:22:42,500
+It's 70,000 kilometers,
+558
+00:22:42,500 --> 00:22:44,700
+plus-or-minus
+20 kilometers-ish
+
+559
+00:22:44,700 --> 00:22:46,933
+and it's relatively stable.
+
+560
+00:22:46,933 --> 00:22:48,733
+We actually
+hadn't studied that orbit
+
+561
+00:22:48,733 --> 00:22:50,433
+in a long period of time,
+until, actually,
+
+562
+00:22:50,433 --> 00:22:51,933
+the ARM mission came along.
+
+563
+00:22:51,933 --> 00:22:54,033
+We were looking at a place
+to park the asteroid
+
+564
+00:22:54,033 --> 00:22:56,133
+that would take
+very little Delta-v
+
+565
+00:22:56,133 --> 00:22:58,200
+to keep it there,
+and we went back to a lot of
+
+566
+00:22:58,200 --> 00:23:01,000
+the trajectory analysis
+we had done
+
+567
+00:23:01,000 --> 00:23:04,233
+and went back
+and rediscovered LDROs.
+
+568
+00:23:04,233 --> 00:23:05,666
+It's a good staging point
+
+569
+00:23:05,666 --> 00:23:08,233
+and what we found now is
+actually staging out of an LDRO,
+
+570
+00:23:08,233 --> 00:23:09,800
+because it takes
+very little energy
+
+571
+00:23:09,800 --> 00:23:11,033
+to keep something there.
+
+572
+00:23:11,033 --> 00:23:14,433
+Again, that 70,000 mile--
+70,000 kilometers--
+
+573
+00:23:14,433 --> 00:23:18,033
+plus-or-minus 20,000 kilometers,
+
+574
+00:23:18,033 --> 00:23:19,566
+it will stay there
+for 80 years
+
+575
+00:23:19,566 --> 00:23:21,933
+with no energy input.
+
+576
+00:23:21,933 --> 00:23:23,633
+That's really great when
+you're assembling something
+
+577
+00:23:23,633 --> 00:23:26,733
+you wanna send
+somewhere else.
+
+578
+00:23:26,733 --> 00:23:29,966
+So this whole discussion about
+Lagrange points versus LDRO
+579
+00:23:29,966 --> 00:23:32,200
+and all that,
+quite frankly it's kinda moot
+
+580
+00:23:32,200 --> 00:23:36,433
+because physics kinda
+tell us where we park things.
+
+581
+00:23:36,433 --> 00:23:38,900
+And you see
+the intersection of LDROs
+
+582
+00:23:38,900 --> 00:23:41,300
+transferred from that
+to L1, L2.
+
+583
+00:23:41,300 --> 00:23:43,966
+These are all very minor
+amounts of energy to do that.
+
+584
+00:23:43,966 --> 00:23:47,500
+So we--we can agree
+on a common area
+
+585
+00:23:47,500 --> 00:23:48,766
+where we do assembly,
+
+586
+00:23:48,766 --> 00:23:51,466
+and kind of move on
+to the next decisions.
+
+587
+00:23:51,466 --> 00:23:54,333
+At the same thing
+on the Mars system,
+
+588
+00:23:54,333 --> 00:23:56,500
+we don't know where
+to do staging out of.
+
+589
+00:23:56,500 --> 00:23:58,966
+And we've been doing a lot
+of trajectory analysis for Mars.
+
+590
+00:23:58,966 --> 00:24:02,966
+So what you see here is Mars'
+equivalent gravity well,
+
+591
+00:24:02,966 --> 00:24:04,366
+and you see Phobos and Deimos.
+
+592
+00:24:04,366 --> 00:24:07,533
+What you also notice
+is Phobos and Deimos
+
+593
+00:24:07,533 --> 00:24:08,966
+almost have no effect.
+
+594
+00:24:08,966 --> 00:24:10,400
+They're kinda little blips
+on the r--
+
+595
+00:24:10,400 --> 00:24:12,666
+in the Mars gravity forces.
+
+596
+00:24:12,666 --> 00:24:15,366
+And in fact, any kind of
+missions to Phobos or Deimos
+
+597
+00:24:15,366 --> 00:24:18,166
+are actually more impacted
+by the gravity of Mars
+
+598
+00:24:18,166 --> 00:24:20,433
+than they are
+by their own self, but how--
+
+599
+00:24:20,433 --> 00:24:21,600
+where to stage things out?
+600
+00:24:21,600 --> 00:24:22,866
+So you get
+different approaches.
+
+601
+00:24:22,866 --> 00:24:25,533
+Hyperbolic approach
+and departure in the green line
+
+602
+00:24:25,533 --> 00:24:27,400
+is one thing
+that you could do.
+
+603
+00:24:27,400 --> 00:24:30,166
+You also have
+1-sol and 5-sol orbits,
+
+604
+00:24:30,166 --> 00:24:32,733
+and these are a
+function of what kind
+
+605
+00:24:32,733 --> 00:24:35,166
+of in-space propulsion system
+do you use.
+
+606
+00:24:35,166 --> 00:24:36,733
+Do you use
+a multi-stage approach,
+
+607
+00:24:36,733 --> 00:24:39,733
+where you bring
+multiple chemical stages,
+
+608
+00:24:39,733 --> 00:24:42,333
+and/or multiple chemical
+and SEP stages?
+
+609
+00:24:42,333 --> 00:24:45,600
+And you could easily
+get into kind of a 1-sol orbit
+610
+00:24:45,600 --> 00:24:48,733
+with that kind of--
+that kind of architecture.
+
+611
+00:24:48,733 --> 00:24:51,200
+Or do you do a hybrid stage
+where you actually combine
+
+612
+00:24:51,200 --> 00:24:54,266
+the best of chemical and SEP
+into a single stage
+
+613
+00:24:54,266 --> 00:24:57,400
+in say a LOX methane
+SEP stage?
+
+614
+00:24:57,400 --> 00:25:00,433
+Then you can get into
+something like a 5-sol orbit
+
+615
+00:25:00,433 --> 00:25:01,800
+relatively easy.
+
+616
+00:25:01,800 --> 00:25:03,633
+And then you're looking at 5--
+5 sol orbits
+
+617
+00:25:03,633 --> 00:25:04,866
+as your staging point.
+
+618
+00:25:04,866 --> 00:25:07,166
+We haven't decided where
+we stage at at Mars,
+
+619
+00:25:07,166 --> 00:25:09,333
+but this is the type
+of analysis that's going on
+
+620
+00:25:09,333 --> 00:25:12,333
+by all the teams
+internally and externally.
+
+621
+00:25:12,333 --> 00:25:14,900
+So when we talked about
+co-manifesting
+
+622
+00:25:14,900 --> 00:25:18,100
+to give you a perspective
+of what that looks like,
+
+623
+00:25:18,100 --> 00:25:19,700
+we have
+an expiration upper stage
+
+624
+00:25:19,700 --> 00:25:21,366
+that's gonna be added to SLS.
+
+625
+00:25:21,366 --> 00:25:24,833
+That increases
+its overall launch capacity.
+
+626
+00:25:24,833 --> 00:25:27,366
+We don't need that, obviously,
+to throw just "Orion,"
+
+627
+00:25:27,366 --> 00:25:29,300
+but we wanna be able
+to put cargo with it.
+
+628
+00:25:29,300 --> 00:25:32,100
+So here's a couple variants
+of kind of
+
+629
+00:25:32,100 --> 00:25:34,466
+what the fairings look like in
+these different configurations.
+
+630
+00:25:34,466 --> 00:25:37,800
+One of them's with Orion
+with a habitation module
+
+631
+00:25:37,800 --> 00:25:39,533
+sitting up underneath it.
+
+632
+00:25:39,533 --> 00:25:42,933
+One's another with
+a robotic lunar lander,
+
+633
+00:25:42,933 --> 00:25:45,666
+say, and a short duration
+hab module grouped together
+
+634
+00:25:45,666 --> 00:25:47,133
+that could also fit in there.
+
+635
+00:25:47,133 --> 00:25:48,366
+And they got a couple
+blunt nose kind of
+
+636
+00:25:48,366 --> 00:25:49,500
+fairing configurations.
+
+637
+00:25:49,500 --> 00:25:51,266
+This is what it would look like
+if you have
+
+638
+00:25:51,266 --> 00:25:53,833
+a scientific mission going out
+to an outer planet
+
+639
+00:25:53,833 --> 00:25:56,533
+or something like
+in the ARM mission as well.
+
+640
+00:25:56,533 --> 00:25:57,833
+And then we're doing
+further analysis
+
+641
+00:25:57,833 --> 00:26:00,900
+on fairing optimization
+for long duration,
+
+642
+00:26:00,900 --> 00:26:02,500
+for things like
+large telescopes
+
+643
+00:26:02,500 --> 00:26:04,400
+and the habitation systems
+we need for Mars,
+
+644
+00:26:04,400 --> 00:26:06,900
+and trying to figure out,
+"Is it an 8 meter, 10 meter?"
+
+645
+00:26:06,900 --> 00:26:09,533
+Again, try to drive commonality
+to get some cost
+
+646
+00:26:09,533 --> 00:26:11,100
+out of the system
+to figure that out.
+
+647
+00:26:11,100 --> 00:26:13,866
+But you can imagine
+that if you flew Orion
+
+648
+00:26:13,866 --> 00:26:15,766
+with a habitation system
+like this one here,
+
+649
+00:26:15,766 --> 00:26:19,866
+over three to four launches
+of this kind of configuration,
+
+650
+00:26:19,866 --> 00:26:22,666
+you can aggregate the volume
+you need for habitation
+
+651
+00:26:22,666 --> 00:26:24,533
+for a transit to Mars
+
+652
+00:26:24,533 --> 00:26:26,533
+in that kind of
+launch configuration,
+
+653
+00:26:26,533 --> 00:26:28,000
+where you don't have
+a dedicated launch
+
+654
+00:26:28,000 --> 00:26:29,433
+that's separate
+just for a hab,
+
+655
+00:26:29,433 --> 00:26:30,833
+but rather,
+you aggregate it over time.
+
+656
+00:26:30,833 --> 00:26:33,600
+So things like that
+are being looked at.
+
+657
+00:26:33,600 --> 00:26:35,800
+To give you
+perspective on solar array
+
+658
+00:26:35,800 --> 00:26:39,100
+and Solar Electric Propulsion,
+ARM is kinda
+
+659
+00:26:39,100 --> 00:26:40,766
+in the middle
+of its class.
+
+660
+00:26:40,766 --> 00:26:42,166
+"Deep Space 1" and "Dawn"
+are over there
+
+661
+00:26:42,166 --> 00:26:43,633
+as things that we've done
+in the past
+
+662
+00:26:43,633 --> 00:26:45,066
+and where ARM's gonna get us.
+
+663
+00:26:45,066 --> 00:26:47,266
+And then what we need for
+Solar Electric Propulsion
+
+664
+00:26:47,266 --> 00:26:51,166
+for cargo and that hybrid stage
+for Mars Crew.
+
+665
+00:26:51,166 --> 00:26:53,100
+That's the power levels
+that we're looking at
+
+666
+00:26:53,100 --> 00:26:54,666
+that we need
+for those class missions.
+
+667
+00:26:54,666 --> 00:26:56,366
+Another simple way
+to look at it,
+
+668
+00:26:56,366 --> 00:26:58,800
+if you look at a comparison
+with space shuttle main engine.
+
+669
+00:26:58,800 --> 00:26:59,900
+There are three of those.
+
+670
+00:26:59,900 --> 00:27:02,566
+First is a
+300 kilowatt SEP system.
+
+671
+00:27:02,566 --> 00:27:06,266
+There's Isp and thrust
+up here that you have.
+672
+00:27:06,266 --> 00:27:09,800
+If you have time on your side
+the burn time there--
+
+673
+00:27:09,800 --> 00:27:11,833
+if you have time in order
+for the transit,
+
+674
+00:27:11,833 --> 00:27:13,533
+and you can actually use that
+as your dial.
+
+675
+00:27:13,533 --> 00:27:16,233
+You can actually get
+the equivalent energy
+
+676
+00:27:16,233 --> 00:27:19,733
+out of--out of that kind
+of propulsion system
+
+677
+00:27:19,733 --> 00:27:22,000
+as you would out of a
+traditional chemical system,
+
+678
+00:27:22,000 --> 00:27:25,200
+at a--at a fraction
+of the propellant mass.
+
+679
+00:27:25,200 --> 00:27:28,033
+So this is, in a very simple
+term, is what it means.
+
+680
+00:27:28,033 --> 00:27:30,766
+So the equivalent
+of 32,000 kilograms
+
+681
+00:27:30,766 --> 00:27:33,666
+of launched mass
+will get us the same amount
+682
+00:27:33,666 --> 00:27:36,133
+of total energy
+if we have time
+
+683
+00:27:36,133 --> 00:27:37,866
+to do the pre-emplacement
+of the cargo.
+
+684
+00:27:37,866 --> 00:27:39,833
+So this is where some of that
+
+685
+00:27:39,833 --> 00:27:44,366
+comes into some of our
+design analysis.
+
+686
+00:27:44,366 --> 00:27:47,333
+So we--we do this EMC not as a
+whole series of decisions,
+
+687
+00:27:47,333 --> 00:27:49,866
+but rather a series of questions
+that are kinda asked every year.
+
+688
+00:27:49,866 --> 00:27:51,733
+And the questions that are
+going through this year
+
+689
+00:27:51,733 --> 00:27:53,633
+are things like,
+"How do we do this
+
+690
+00:27:53,633 --> 00:27:55,533
+overall pioneering
+kind of approach?"
+
+691
+00:27:55,533 --> 00:27:57,233
+And in ISRU,
+"What is the role
+692
+00:27:57,233 --> 00:28:00,700
+of in-situ resource utilization
+on our overall architecture?"
+
+693
+00:28:00,700 --> 00:28:02,033
+That's one of the pieces
+we're looking at.
+
+694
+00:28:02,033 --> 00:28:04,800
+What are the objectives,
+engineering, and operational
+
+695
+00:28:04,800 --> 00:28:06,666
+considerations
+for a landing site?
+
+696
+00:28:06,666 --> 00:28:08,466
+And, in fact, we have
+a landing site activity
+
+697
+00:28:08,466 --> 00:28:10,366
+that I'll talk about
+going on.
+
+698
+00:28:10,366 --> 00:28:11,566
+There's a whole other
+sequence here.
+
+699
+00:28:11,566 --> 00:28:13,500
+We talked about
+the asteroid redirect vehicle
+
+700
+00:28:13,500 --> 00:28:15,566
+and pre-emplacement of cargo,
+and I'll show you that,
+
+701
+00:28:15,566 --> 00:28:17,400
+how it scales up.
+
+702
+00:28:17,400 --> 00:28:20,133
+And then, "How do we look at
+commonality of habitation
+
+703
+00:28:20,133 --> 00:28:22,433
+systems for short-duration hab?"
+is another one.
+
+704
+00:28:22,433 --> 00:28:25,566
+So if you think about coming off
+the surface of Mars,
+
+705
+00:28:25,566 --> 00:28:28,766
+versus a Mars-vicinity taxi,
+if you're in that 5-sol orbit,
+
+706
+00:28:28,766 --> 00:28:30,300
+how do you go
+from a 5-sol orbit
+
+707
+00:28:30,300 --> 00:28:31,833
+to actually going
+to the surface?
+
+708
+00:28:31,833 --> 00:28:34,933
+Those may be short-duration
+habitation systems.
+
+709
+00:28:34,933 --> 00:28:37,366
+So even our initial exploration
+hab that we would need
+
+710
+00:28:37,366 --> 00:28:40,200
+in deep space, where is
+the commonality of that.
+
+711
+00:28:40,200 --> 00:28:41,333
+And we're doing a lot
+of commonality
+
+712
+00:28:41,333 --> 00:28:45,300
+and modularity studies
+as well.
+
+713
+00:28:45,300 --> 00:28:47,633
+So there's a whole series
+of questions we have going on
+
+714
+00:28:47,633 --> 00:28:50,033
+and I'll touch on the ones
+I just highlighted.
+
+715
+00:28:50,033 --> 00:28:51,500
+In-situ resource utilization.
+
+716
+00:28:51,500 --> 00:28:54,433
+How do we go from
+what our baseline assumption,
+
+717
+00:28:54,433 --> 00:28:57,900
+which was creating an oxidizer
+from the atmosphere of Mars,
+
+718
+00:28:57,900 --> 00:29:01,066
+to now knowing that there's
+robust water sources on Mars
+
+719
+00:29:01,066 --> 00:29:03,566
+and other bodies
+like asteroids and the moon?
+
+720
+00:29:03,566 --> 00:29:05,200
+And how do those actually
+play into
+
+721
+00:29:05,200 --> 00:29:07,233
+the logistics challenge
+that we have?
+
+722
+00:29:07,233 --> 00:29:09,333
+And how do we build that up
+over time
+
+723
+00:29:09,333 --> 00:29:12,966
+to be our sources of consumables
+and propellants
+
+724
+00:29:12,966 --> 00:29:14,866
+that we need
+for overall architectures?
+
+725
+00:29:14,866 --> 00:29:16,833
+And that's one of the key things
+that we're looking at.
+
+726
+00:29:16,833 --> 00:29:18,766
+Things like our
+Resource Prospector Mission
+
+727
+00:29:18,766 --> 00:29:20,866
+that's in formulation right now
+
+728
+00:29:20,866 --> 00:29:22,966
+is a key measurement
+that we're looking at.
+
+729
+00:29:22,966 --> 00:29:25,933
+We know water exists
+with pretty high confidence,
+
+730
+00:29:25,933 --> 00:29:27,466
+but we don't know
+how it's bound,
+
+731
+00:29:27,466 --> 00:29:30,133
+we don't know its distribution
+and all that on the surface,
+
+732
+00:29:30,133 --> 00:29:32,266
+but how do we understand
+that better
+
+733
+00:29:32,266 --> 00:29:35,433
+so then we can start counting
+on it for our architectures?
+
+734
+00:29:35,433 --> 00:29:36,766
+Site selection.
+
+735
+00:29:36,766 --> 00:29:38,500
+We're actually working with,
+between us
+
+736
+00:29:38,500 --> 00:29:40,000
+and our science mission
+directorate colleagues,
+
+737
+00:29:40,000 --> 00:29:42,666
+on actually determining which
+sites are the most likely ones
+
+738
+00:29:42,666 --> 00:29:45,566
+that we want to send humans to.
+
+739
+00:29:45,566 --> 00:29:47,466
+So over the course
+of this next year,
+
+740
+00:29:47,466 --> 00:29:49,133
+we're gonna have a whole series
+of workshops
+
+741
+00:29:49,133 --> 00:29:51,533
+and public engagements
+to actually determine
+
+742
+00:29:51,533 --> 00:29:54,266
+which are
+the high likelihood sites
+743
+00:29:54,266 --> 00:29:58,266
+and downselect the sites that we
+would want to actually target
+
+744
+00:29:58,266 --> 00:30:00,166
+for every future science mission
+going to Mars
+
+745
+00:30:00,166 --> 00:30:01,866
+as our areas of interest
+where we'll get
+
+746
+00:30:01,866 --> 00:30:04,400
+the high resolution imagery,
+get all the data that we want
+
+747
+00:30:04,400 --> 00:30:06,433
+from a civil engineering
+perspective
+
+748
+00:30:06,433 --> 00:30:08,466
+along with
+a scientific perspective
+
+749
+00:30:08,466 --> 00:30:11,733
+to actually do that
+pre-emplacement over time.
+
+750
+00:30:11,733 --> 00:30:14,066
+But it's really key
+that we narrow down
+
+751
+00:30:14,066 --> 00:30:16,833
+where we're looking at Mars now
+in order to concentrate
+
+752
+00:30:16,833 --> 00:30:20,166
+our scientific assets
+on that capability.
+753
+00:30:20,166 --> 00:30:22,300
+So to show you a little bit
+of how things scale up
+
+754
+00:30:22,300 --> 00:30:24,166
+on the Solar Electric
+Propulsion--
+
+755
+00:30:24,166 --> 00:30:26,100
+on the left-hand side
+is the size
+
+756
+00:30:26,100 --> 00:30:28,733
+of the Solar Electric Propulsion
+bus as it's currently
+
+757
+00:30:28,733 --> 00:30:31,566
+being thought about
+for the ARM mission.
+
+758
+00:30:31,566 --> 00:30:34,700
+It's 50 kilowatts, 40-kilowatt
+electric propulsion system,
+
+759
+00:30:34,700 --> 00:30:36,300
+and then 10 tons of xenon.
+
+760
+00:30:36,300 --> 00:30:38,033
+If you were to take that
+and scale it up
+
+761
+00:30:38,033 --> 00:30:43,033
+to a multi-stage approach where
+you have a full chemical stage
+
+762
+00:30:43,033 --> 00:30:45,866
+and you have a full Solar
+Electric Propulsion stage.
+
+763
+00:30:45,866 --> 00:30:48,400
+That Solar Electric Propulsion
+stage would look like
+
+764
+00:30:48,400 --> 00:30:50,800
+190-kilowatt solar arrays,
+
+765
+00:30:50,800 --> 00:30:53,333
+150-kilowatt electric
+propulsion system,
+
+766
+00:30:53,333 --> 00:30:55,400
+and 16 tons of xenon.
+
+767
+00:30:55,400 --> 00:30:57,233
+Now, instead of having
+two stages,
+
+768
+00:30:57,233 --> 00:30:58,633
+which is two development
+efforts,
+
+769
+00:30:58,633 --> 00:31:01,533
+how do you put those together
+into like a hybrid stage?
+
+770
+00:31:01,533 --> 00:31:02,900
+What does that look like?
+
+771
+00:31:02,900 --> 00:31:04,566
+And then what does
+its packaging look like?
+
+772
+00:31:04,566 --> 00:31:06,700
+And how would
+it be launched into space?
+
+773
+00:31:06,700 --> 00:31:08,600
+And those are the specs
+for the hybrid stage,
+774
+00:31:08,600 --> 00:31:09,900
+and there's two concepts there.
+
+775
+00:31:09,900 --> 00:31:12,466
+You can literally take
+two of the ARM type buses
+
+776
+00:31:12,466 --> 00:31:15,400
+and put them together
+underneath a chemical stage,
+
+777
+00:31:15,400 --> 00:31:17,333
+and you can get
+a packing efficiency
+
+778
+00:31:17,333 --> 00:31:20,100
+that fits in a 10-meter fairing
+on an SLS.
+
+779
+00:31:20,100 --> 00:31:22,900
+Or you could actually
+repackage it
+
+780
+00:31:22,900 --> 00:31:24,766
+and get a little more elegant
+in the engineering
+
+781
+00:31:24,766 --> 00:31:28,400
+and you can get down 8.4 meters
+in a fairing size.
+
+782
+00:31:28,400 --> 00:31:32,300
+So these are the trades that
+we're actually doing with us
+
+783
+00:31:32,300 --> 00:31:34,900
+and even industry right now
+to figure out what that is--
+784
+00:31:34,900 --> 00:31:38,600
+what does that in-space
+propulsion stage look like?
+
+785
+00:31:38,600 --> 00:31:40,966
+All this, though,
+for in-space propulsion,
+
+786
+00:31:40,966 --> 00:31:43,700
+landing site analysis,
+all this comes together
+
+787
+00:31:43,700 --> 00:31:46,000
+in figuring out,
+how do we actually land?
+
+788
+00:31:46,000 --> 00:31:48,133
+And you always hear the number--
+we want to land
+
+789
+00:31:48,133 --> 00:31:51,166
+40 metric tons on the surface
+of Mars.
+
+790
+00:31:51,166 --> 00:31:53,000
+Well, how do you get
+the 40 metric tons?
+
+791
+00:31:53,000 --> 00:31:57,433
+Well, it happens to be
+we took the largest indivisible
+
+792
+00:31:57,433 --> 00:32:02,000
+payload unit and--
+which happens to be
+
+793
+00:32:02,000 --> 00:32:03,866
+your ascent vehicle to get home.
+
+794
+00:32:03,866 --> 00:32:05,966
+That's not something
+you want to DIY
+
+795
+00:32:05,966 --> 00:32:08,400
+on the surface of Mars
+to get back home.
+
+796
+00:32:08,400 --> 00:32:11,300
+Crew kind of frowns on that.
+
+797
+00:32:11,300 --> 00:32:14,200
+If you take that
+and with all the propellant
+
+798
+00:32:14,200 --> 00:32:18,266
+that you need in it and such,
+it's about 35.5 tons,
+
+799
+00:32:18,266 --> 00:32:21,733
+and that's where
+that 40-ton number came from.
+
+800
+00:32:21,733 --> 00:32:23,200
+You combine that
+with the payload elements
+
+801
+00:32:23,200 --> 00:32:25,233
+and the crew,
+you get to this 40-ton chunk
+
+802
+00:32:25,233 --> 00:32:27,133
+that needs to get down
+to the surface.
+
+803
+00:32:27,133 --> 00:32:29,966
+But if you think about
+in-situ resource utilization--
+
+804
+00:32:29,966 --> 00:32:34,000
+either your LOX, just the LOX
+side or your methane side,
+
+805
+00:32:34,000 --> 00:32:35,700
+you can then get savings.
+
+806
+00:32:35,700 --> 00:32:38,600
+So one of those things
+is if you have an ISRU plant
+
+807
+00:32:38,600 --> 00:32:41,900
+just for LOX only,
+you can save yourself
+
+808
+00:32:41,900 --> 00:32:43,600
+a significant amount of mass.
+
+809
+00:32:43,600 --> 00:32:47,100
+So if your LOX is 19.2 tons
+but it only takes you
+
+810
+00:32:47,100 --> 00:32:49,800
+10 tons of plant
+to produce that,
+
+811
+00:32:49,800 --> 00:32:52,133
+now you can save yourself
+9 tons of mass
+
+812
+00:32:52,133 --> 00:32:54,000
+right there in a landed
+kind of increment.
+
+813
+00:32:54,000 --> 00:32:55,733
+And then you get down
+to landers
+
+814
+00:32:55,733 --> 00:33:00,933
+that are in the 27-ton
+to 18-ton category.
+815
+00:33:00,933 --> 00:33:06,133
+If we're also producing methane
+from Mars once we get there,
+
+816
+00:33:06,133 --> 00:33:08,766
+that will be
+a further reduction,
+
+817
+00:33:08,766 --> 00:33:10,000
+and that's actually one
+of the pieces
+
+818
+00:33:10,000 --> 00:33:13,133
+that folks are studying now
+as well.
+
+819
+00:33:13,133 --> 00:33:15,633
+The other part is, like,
+surface propellant transfer.
+
+820
+00:33:15,633 --> 00:33:17,100
+Could we just bring
+propellant tanks
+
+821
+00:33:17,100 --> 00:33:18,700
+and do transfers?
+
+822
+00:33:18,700 --> 00:33:20,100
+And that's another strategy.
+
+823
+00:33:20,100 --> 00:33:22,166
+And you can get down
+to 15 tons or 18 tons
+
+824
+00:33:22,166 --> 00:33:23,433
+in that scenario.
+
+825
+00:33:23,433 --> 00:33:27,133
+So when people talk about,
+"What size of things
+
+826
+00:33:27,133 --> 00:33:28,666
+do you want to land
+on the surface?"
+
+827
+00:33:28,666 --> 00:33:31,033
+you have to do your homework
+and analyze
+
+828
+00:33:31,033 --> 00:33:32,700
+your launch capacity,
+your fairings,
+
+829
+00:33:32,700 --> 00:33:34,833
+your in-space propulsion stages,
+
+830
+00:33:34,833 --> 00:33:36,666
+this in-situ resource
+utilization.
+
+831
+00:33:36,666 --> 00:33:39,500
+So what the Evolvable Mars
+Campaign teams
+
+832
+00:33:39,500 --> 00:33:41,500
+both internally
+and externally do--
+
+833
+00:33:41,500 --> 00:33:44,033
+look through
+the entire trade set,
+
+834
+00:33:44,033 --> 00:33:46,200
+all these architectures that
+other people are publishing
+
+835
+00:33:46,200 --> 00:33:48,833
+to find new ideas,
+and then run through
+
+836
+00:33:48,833 --> 00:33:51,700
+a lot of this trade analysis
+that we have.
+
+837
+00:33:51,700 --> 00:33:53,100
+At the same time,
+we're looking at
+
+838
+00:33:53,100 --> 00:33:55,266
+commonality
+of habitation systems.
+
+839
+00:33:55,266 --> 00:33:57,033
+So you have two kinds of habs--
+
+840
+00:33:57,033 --> 00:33:58,766
+things that you need to live
+for a short time,
+
+841
+00:33:58,766 --> 00:34:00,766
+things that you want
+to live in for a long time.
+
+842
+00:34:00,766 --> 00:34:02,733
+And you can look at--
+how do you get
+
+843
+00:34:02,733 --> 00:34:04,633
+and drive common elements?
+
+844
+00:34:04,633 --> 00:34:06,500
+So if you think
+about an initial hab
+
+845
+00:34:06,500 --> 00:34:08,500
+to allow you to live
+30 to 60 days
+846
+00:34:08,500 --> 00:34:10,766
+with an LDRO
+combined with Orion,
+
+847
+00:34:10,766 --> 00:34:11,966
+you might be able
+to fit something like that
+
+848
+00:34:11,966 --> 00:34:14,533
+in the SLS
+co-manifested space.
+
+849
+00:34:14,533 --> 00:34:17,533
+But that kind of habitable unit
+could also be the basis
+
+850
+00:34:17,533 --> 00:34:19,166
+of your logistics carrier.
+
+851
+00:34:19,166 --> 00:34:21,400
+It could be the basis
+of your pressurized volume
+
+852
+00:34:21,400 --> 00:34:25,000
+for a taxi to go out of that
+5-sol orbit to Phobos
+
+853
+00:34:25,000 --> 00:34:27,200
+and do visits there.
+
+854
+00:34:27,200 --> 00:34:28,566
+It could be
+the same pressurized volume
+
+855
+00:34:28,566 --> 00:34:30,233
+that you have
+on a surface mobility unit
+
+856
+00:34:30,233 --> 00:34:33,000
+once you get to Phobos
+or the surface of Mars.
+
+857
+00:34:33,000 --> 00:34:34,600
+And it could be
+the same pressurized volume
+
+858
+00:34:34,600 --> 00:34:36,500
+that you need
+for your ascent vehicle.
+
+859
+00:34:36,500 --> 00:34:40,166
+So where is that kind
+of commonality approach there?
+
+860
+00:34:40,166 --> 00:34:42,800
+The other side
+is long-duration hab.
+
+861
+00:34:42,800 --> 00:34:44,833
+So if we just think about
+a very large hab
+
+862
+00:34:44,833 --> 00:34:48,100
+that can actually support
+500 days on the surface of Mars
+
+863
+00:34:48,100 --> 00:34:51,133
+or a transit to Phobos
+or just your in-space transit
+
+864
+00:34:51,133 --> 00:34:54,033
+that you need,
+where is a commonality
+
+865
+00:34:54,033 --> 00:34:55,633
+from that perspective?
+
+866
+00:34:55,633 --> 00:34:58,133
+Now, you don't have to pick
+one or the other.
+
+867
+00:34:58,133 --> 00:35:01,766
+You can look at it from a
+modularity perspective as well.
+
+868
+00:35:01,766 --> 00:35:04,366
+So you can look at it from--
+do you build something up
+
+869
+00:35:04,366 --> 00:35:05,466
+that's out of that large element
+
+870
+00:35:05,466 --> 00:35:07,000
+that then follows
+all the way through?
+
+871
+00:35:07,000 --> 00:35:09,000
+But then you have to design this
+very large habitation
+
+872
+00:35:09,000 --> 00:35:10,600
+from day one.
+
+873
+00:35:10,600 --> 00:35:12,966
+Or do you want to incrementally
+build it up over time?
+
+874
+00:35:12,966 --> 00:35:16,333
+But then you go back
+to that landed mass chunk.
+
+875
+00:35:16,333 --> 00:35:17,900
+Do you want to aggregate
+your hab
+
+876
+00:35:17,900 --> 00:35:19,333
+on the surface of Mars or not?
+
+877
+00:35:19,333 --> 00:35:23,833
+So these are the types of trades
+that are ongoing out there.
+
+878
+00:35:23,833 --> 00:35:27,433
+So we bring back--
+it's not just NASA.
+
+879
+00:35:27,433 --> 00:35:28,966
+We talk about this ecosystem.
+
+880
+00:35:28,966 --> 00:35:30,200
+It's more than just NASA.
+
+881
+00:35:30,200 --> 00:35:31,933
+It's not just NASA
+and its contractors.
+
+882
+00:35:31,933 --> 00:35:33,433
+There's an entire
+industrial base
+
+883
+00:35:33,433 --> 00:35:35,100
+of the space economy out there.
+
+884
+00:35:35,100 --> 00:35:36,400
+So how do we engage them?
+
+885
+00:35:36,400 --> 00:35:38,466
+And I talked about these
+commercial strategies
+
+886
+00:35:38,466 --> 00:35:40,666
+and engagement strategies
+that we have with them.
+
+887
+00:35:40,666 --> 00:35:42,900
+We have--the most recent
+announcement
+888
+00:35:42,900 --> 00:35:44,966
+was our NextSTEP BAA.
+
+889
+00:35:44,966 --> 00:35:46,633
+It's a broad
+agency announcement.
+
+890
+00:35:46,633 --> 00:35:49,633
+It's a way to engage
+in funding mechanisms
+
+891
+00:35:49,633 --> 00:35:52,233
+with the external sector
+that we don't define
+
+892
+00:35:52,233 --> 00:35:53,866
+set requirements.
+
+893
+00:35:53,866 --> 00:35:55,400
+Like you'd normally do
+a requirements definition
+
+894
+00:35:55,400 --> 00:35:57,966
+but you'd rather just set
+performance goals
+
+895
+00:35:57,966 --> 00:36:01,000
+or objectives and you don't tell
+people how to do it.
+
+896
+00:36:01,000 --> 00:36:05,066
+So we asked the commercial
+sector in academics and industry
+
+897
+00:36:05,066 --> 00:36:07,466
+as a whole,
+how would they approach
+
+898
+00:36:07,466 --> 00:36:09,433
+advanced propulsion systems?
+
+899
+00:36:09,433 --> 00:36:12,100
+So how do we do some of these
+larger thrusters that we want?
+
+900
+00:36:12,100 --> 00:36:13,866
+How would they
+approach habitation,
+
+901
+00:36:13,866 --> 00:36:16,333
+including the life-support
+elements that we have?
+
+902
+00:36:16,333 --> 00:36:18,800
+And then because we also have
+a large number
+
+903
+00:36:18,800 --> 00:36:20,500
+of strategic knowledge gaps
+that we need to know
+
+904
+00:36:20,500 --> 00:36:23,700
+about destinations,
+there is also this whole surge
+
+905
+00:36:23,700 --> 00:36:25,400
+of small satellites occurring.
+
+906
+00:36:25,400 --> 00:36:27,333
+So how do we leverage
+that advancement
+
+907
+00:36:27,333 --> 00:36:29,900
+in small satellite technology
+that they can leverage here
+
+908
+00:36:29,900 --> 00:36:31,833
+in LEO and GEO
+and then we can use it
+909
+00:36:31,833 --> 00:36:34,000
+to send missions out
+into deep space
+
+910
+00:36:34,000 --> 00:36:35,633
+using CubeSats and such.
+
+911
+00:36:35,633 --> 00:36:38,800
+So we put out a call,
+and what was unique about this
+
+912
+00:36:38,800 --> 00:36:41,933
+is these were
+fixed price contracts.
+
+913
+00:36:41,933 --> 00:36:45,900
+We actually required them
+to put their own money,
+
+914
+00:36:45,900 --> 00:36:48,600
+their own skin in the game
+at half the price
+
+915
+00:36:48,600 --> 00:36:50,766
+of what they were asking us
+to pay for.
+
+916
+00:36:50,766 --> 00:36:53,766
+So these weren't just your idle,
+standby folks.
+
+917
+00:36:53,766 --> 00:36:56,733
+They were actually putting just
+as much money in it as NASA was.
+
+918
+00:36:56,733 --> 00:36:59,133
+And we got a very,
+very robust response.
+919
+00:36:59,133 --> 00:37:01,266
+We ended up selecting
+a couple CubeSat missions.
+
+920
+00:37:01,266 --> 00:37:04,700
+These are 6U CubeSats
+that will also fly on EM-1,
+
+921
+00:37:04,700 --> 00:37:06,466
+along with the ones that we're
+building here at NASA,
+
+922
+00:37:06,466 --> 00:37:09,300
+including BioSentinel
+that's being built here at Ames.
+
+923
+00:37:09,300 --> 00:37:11,466
+One's by Morehead State
+University
+
+924
+00:37:11,466 --> 00:37:14,366
+in partnership with Busek
+for their propulsion system,
+
+925
+00:37:14,366 --> 00:37:16,200
+and another one
+is Lockheed Martin,
+
+926
+00:37:16,200 --> 00:37:18,433
+which has a whole cadre
+of technologies
+
+927
+00:37:18,433 --> 00:37:19,800
+that they're advancing.
+
+928
+00:37:19,800 --> 00:37:22,166
+These are gonna help us get some
+of the measurements
+
+929
+00:37:22,166 --> 00:37:24,566
+that we need about resources,
+
+930
+00:37:24,566 --> 00:37:27,533
+and lunar resources specifically
+in this case,
+
+931
+00:37:27,533 --> 00:37:31,366
+as they do and conduct
+their missions.
+
+932
+00:37:31,366 --> 00:37:34,966
+On the propulsion side,
+we had three different companies
+
+933
+00:37:34,966 --> 00:37:37,433
+we selected.
+So I've talked about ARM.
+
+934
+00:37:37,433 --> 00:37:39,800
+We talk about 10-kilowatt
+per thruster
+
+935
+00:37:39,800 --> 00:37:44,000
+kind of is what the performance
+is of the ARM-class SEP system.
+
+936
+00:37:44,000 --> 00:37:46,733
+I talked about scaling up
+to 300 kilowatts.
+
+937
+00:37:46,733 --> 00:37:48,966
+Well, you can do that
+by just ganging together
+
+938
+00:37:48,966 --> 00:37:52,200
+a whole 10-kilowatt
+and have 30 of those
+
+939
+00:37:52,200 --> 00:37:53,933
+on the back end
+of your spacecraft,
+
+940
+00:37:53,933 --> 00:37:57,666
+or you could go to larger scale
+single thrusters.
+
+941
+00:37:57,666 --> 00:38:00,233
+We believe there is probably an
+optimization that at some point
+
+942
+00:38:00,233 --> 00:38:01,933
+we want these
+larger scale thrusters
+
+943
+00:38:01,933 --> 00:38:04,366
+in the 50- to 300-kilowatt
+range.
+
+944
+00:38:04,366 --> 00:38:06,300
+And you notice
+the companies here--
+
+945
+00:38:06,300 --> 00:38:09,366
+Ad Astra, Aerojet, and MSNW--
+
+946
+00:38:09,366 --> 00:38:11,966
+they've done a lot of work
+on their thruster designs
+
+947
+00:38:11,966 --> 00:38:14,200
+and power management systems
+over the past couple years,
+
+948
+00:38:14,200 --> 00:38:17,966
+but none of them have actually
+demonstrated continuous thrust
+
+949
+00:38:17,966 --> 00:38:21,100
+at a reasonable amount of time
+that's useful.
+
+950
+00:38:21,100 --> 00:38:24,800
+So what these awards were
+for were three-year awards.
+
+951
+00:38:24,800 --> 00:38:26,500
+They have to demonstrate
+100 kilowatt
+
+952
+00:38:26,500 --> 00:38:28,466
+for 100 hours continuous thrust
+
+953
+00:38:28,466 --> 00:38:31,400
+with full thermal management
+and control of their thruster.
+
+954
+00:38:31,400 --> 00:38:34,666
+This will get 'em at a TRL-6--
+5, 6 level--
+
+955
+00:38:34,666 --> 00:38:36,766
+that is then
+in the competition range
+
+956
+00:38:36,766 --> 00:38:38,700
+for next upcoming
+design trades we have.
+
+957
+00:38:38,700 --> 00:38:40,833
+So how do we--
+this is the seed corn
+
+958
+00:38:40,833 --> 00:38:42,633
+kind of feeding some of that.
+
+959
+00:38:42,633 --> 00:38:46,200
+And some of these are--
+we know Nested Hall Thrusters
+960
+00:38:46,200 --> 00:38:47,333
+have been around for a while.
+
+961
+00:38:47,333 --> 00:38:48,800
+That's Aerojet's concept.
+
+962
+00:38:48,800 --> 00:38:50,233
+Plasma thrusters--
+Ad Astra's been doing
+
+963
+00:38:50,233 --> 00:38:52,833
+quite a bit of advancement
+with that as well.
+
+964
+00:38:52,833 --> 00:38:55,833
+Now it's time to actually
+not just talk about it
+
+965
+00:38:55,833 --> 00:38:57,400
+and not do just the engineering,
+
+966
+00:38:57,400 --> 00:39:00,066
+but actually do the test
+and get the data for it.
+
+967
+00:39:00,066 --> 00:39:03,033
+On the habitation side, we--
+I'll split it
+
+968
+00:39:03,033 --> 00:39:04,533
+into kind of two sections.
+
+969
+00:39:04,533 --> 00:39:07,300
+We talk about habitation,
+the module that you'll live in,
+
+970
+00:39:07,300 --> 00:39:09,533
+and then the life support
+that will keep you alive.
+971
+00:39:09,533 --> 00:39:11,666
+So on the habitation side,
+we awarded to Lockheed,
+
+972
+00:39:11,666 --> 00:39:13,800
+Bigelow, Orbital, and Boeing.
+
+973
+00:39:13,800 --> 00:39:15,966
+And what we're trying to do
+is that commonality,
+
+974
+00:39:15,966 --> 00:39:18,166
+modularity kind of discussion
+I had.
+
+975
+00:39:18,166 --> 00:39:20,766
+What is that low-Earth orbit
+commercial strategy
+
+976
+00:39:20,766 --> 00:39:24,033
+versus our habitation strategy
+we need for deep space?
+
+977
+00:39:24,033 --> 00:39:28,433
+Where's the Venn diagram overlap
+with what industry wants
+
+978
+00:39:28,433 --> 00:39:30,366
+and is capable of doing?
+
+979
+00:39:30,366 --> 00:39:31,833
+So we're asking
+all four companies
+
+980
+00:39:31,833 --> 00:39:33,833
+to give us their
+independent approaches
+
+981
+00:39:33,833 --> 00:39:36,966
+to optimizing for what--
+meeting our NASA need,
+
+982
+00:39:36,966 --> 00:39:39,200
+the exploration need,
+but at the same time,
+
+983
+00:39:39,200 --> 00:39:41,433
+maximizing their potential
+to use it for other things
+
+984
+00:39:41,433 --> 00:39:43,966
+like low-Earth orbit
+commercialization.
+
+985
+00:39:43,966 --> 00:39:45,766
+And we're doing this right
+from the get-go
+
+986
+00:39:45,766 --> 00:39:48,066
+instead of kind of
+after the fact,
+
+987
+00:39:48,066 --> 00:39:49,400
+so we're trying to get
+that industry participation
+
+988
+00:39:49,400 --> 00:39:50,966
+from day one.
+
+989
+00:39:50,966 --> 00:39:53,133
+So these are some of their
+graphical mock-ups
+
+990
+00:39:53,133 --> 00:39:55,833
+of what their ideas look like.
+
+991
+00:39:55,833 --> 00:39:58,833
+On the life support side,
+we did three awards.
+
+992
+00:39:58,833 --> 00:40:01,700
+Two of 'em are related
+to kind of architectures.
+
+993
+00:40:01,700 --> 00:40:05,066
+"How do you put together
+a modular habitation system?"
+
+994
+00:40:05,066 --> 00:40:08,366
+was the basis of
+Hamilton Sundstrand's proposal.
+
+995
+00:40:08,366 --> 00:40:09,966
+Hamilton's got
+a long track record
+
+996
+00:40:09,966 --> 00:40:13,266
+of building life support systems
+for ISS and also Orion,
+
+997
+00:40:13,266 --> 00:40:15,700
+but they're not modular
+in nature.
+
+998
+00:40:15,700 --> 00:40:17,933
+So how do you actually readdress
+the modularity
+
+999
+00:40:17,933 --> 00:40:19,766
+of life support systems?
+
+1000
+00:40:19,766 --> 00:40:22,000
+Orbitec.
+Very interesting.
+
+1001
+00:40:22,000 --> 00:40:24,533
+There's a lot of talk
+about bio and chemical
+1002
+00:40:24,533 --> 00:40:25,700
+and electrochemical systems
+
+1003
+00:40:25,700 --> 00:40:27,100
+working together
+in life support.
+
+1004
+00:40:27,100 --> 00:40:32,000
+The last study we had on biology
+based life support systems
+
+1005
+00:40:32,000 --> 00:40:36,266
+was at a time when LED lights
+were not invented yet.
+
+1006
+00:40:36,266 --> 00:40:39,766
+So if you had to keep your
+biology alive
+
+1007
+00:40:39,766 --> 00:40:41,933
+with those heavy,
+older ways of doing that,
+
+1008
+00:40:41,933 --> 00:40:44,300
+it didn't trade well
+on our overall architecture.
+
+1009
+00:40:44,300 --> 00:40:46,133
+So this is a basis
+of getting Orbitec
+
+1010
+00:40:46,133 --> 00:40:49,366
+to actually update our
+integrated system analysis
+
+1011
+00:40:49,366 --> 00:40:51,000
+of what does it really mean
+when you say,
+1012
+00:40:51,000 --> 00:40:54,133
+"I'm taking a biology based
+life support system"?
+
+1013
+00:40:54,133 --> 00:40:56,100
+And then Dynetics.
+
+1014
+00:40:56,100 --> 00:40:59,366
+One of our primary challenges
+we have on the space station
+
+1015
+00:40:59,366 --> 00:41:01,600
+is our CO2 removal.
+
+1016
+00:41:01,600 --> 00:41:03,700
+It's one of our
+most troublesome systems.
+
+1017
+00:41:03,700 --> 00:41:06,100
+So Dynetics
+actually proposed a new way
+
+1018
+00:41:06,100 --> 00:41:07,933
+that actually separates the CO2
+
+1019
+00:41:07,933 --> 00:41:10,733
+from the other
+undesirable gases.
+
+1020
+00:41:10,733 --> 00:41:13,833
+And this is--what you see there
+is one rack of--
+
+1021
+00:41:13,833 --> 00:41:16,300
+that would fit in one rack unit
+of the space station.
+
+1022
+00:41:16,300 --> 00:41:19,100
+And the consumables for that
+would be on the order
+
+1023
+00:41:19,100 --> 00:41:22,733
+of something about 6 inches
+by 6 inches by 6 inches
+
+1024
+00:41:22,733 --> 00:41:25,333
+for an entire duration trip
+to Mars.
+
+1025
+00:41:25,333 --> 00:41:28,833
+This is drastically changing
+the equation
+
+1026
+00:41:28,833 --> 00:41:31,366
+on how to remove CO2.
+
+1027
+00:41:31,366 --> 00:41:34,266
+And that's gonna be really
+intriguing to see
+
+1028
+00:41:34,266 --> 00:41:35,400
+their advancement they make
+
+1029
+00:41:35,400 --> 00:41:37,466
+over the next couple of years
+on that.
+
+1030
+00:41:37,466 --> 00:41:40,833
+So my whole purpose of today
+
+1031
+00:41:40,833 --> 00:41:44,133
+is to actually give you
+a little more technical detail
+
+1032
+00:41:44,133 --> 00:41:45,800
+behind what our real planning
+that's going on
+
+1033
+00:41:45,800 --> 00:41:48,600
+in human spaceflight and
+actually to draw your attention
+
+1034
+00:41:48,600 --> 00:41:51,933
+away from the squiggly lines
+up there at the top
+
+1035
+00:41:51,933 --> 00:41:54,233
+and actually think about
+the bottom part.
+
+1036
+00:41:54,233 --> 00:41:56,333
+What does it really mean
+to go from Earth Reliant
+
+1037
+00:41:56,333 --> 00:41:57,833
+to Earth Independent?
+
+1038
+00:41:57,833 --> 00:42:00,400
+And how do we make decisions
+and technology investments
+
+1039
+00:42:00,400 --> 00:42:03,233
+and mission decisions
+that maximize our ability
+
+1040
+00:42:03,233 --> 00:42:05,833
+to live off the planet
+for longer and longer?
+
+1041
+00:42:05,833 --> 00:42:07,866
+'Cause I think that's
+our fundamental challenge.
+
+1042
+00:42:07,866 --> 00:42:10,200
+And then if we prove
+that we do that,
+
+1043
+00:42:10,200 --> 00:42:12,533
+then the destinations
+are all open to us.
+
+1044
+00:42:12,533 --> 00:42:15,100
+So with that, I'll turn it over
+for questions.
+
+1045
+00:42:15,100 --> 00:42:18,100
+[applause]
+
+1046
+00:42:23,566 --> 00:42:25,300
+- So if you have questions,
+please line up
+
+1047
+00:42:25,300 --> 00:42:27,366
+on the microphone in the middle
+of the aisle.
+
+1048
+00:42:27,366 --> 00:42:29,400
+One question and be succinct,
+please.
+
+1049
+00:42:29,400 --> 00:42:32,400
+Thank you.
+
+1050
+00:42:41,433 --> 00:42:43,633
+So let me ask a question
+until we get
+
+1051
+00:42:43,633 --> 00:42:46,300
+other questions coming in.
+
+1052
+00:42:46,300 --> 00:42:48,866
+At one point, as you have
+an evolvable system,
+
+1053
+00:42:48,866 --> 00:42:50,966
+you have to make a decision
+and say,
+1054
+00:42:50,966 --> 00:42:53,266
+"Okay, now we stop
+with our current technology
+
+1055
+00:42:53,266 --> 00:42:55,800
+and we go to that location,"
+
+1056
+00:42:55,800 --> 00:43:00,100
+whether it's Mars, ARM,
+or any of those locations.
+
+1057
+00:43:00,100 --> 00:43:02,466
+How are you planning
+to determine that stage
+
+1058
+00:43:02,466 --> 00:43:06,633
+in the evolvable design
+scenario?
+
+1059
+00:43:06,633 --> 00:43:08,233
+- The basic premise of that is,
+
+1060
+00:43:08,233 --> 00:43:11,133
+make no decision
+before you have to.
+
+1061
+00:43:11,133 --> 00:43:13,966
+And that just basically means
+that we do a lot
+
+1062
+00:43:13,966 --> 00:43:15,566
+of technology roadmaps
+and we have
+
+1063
+00:43:15,566 --> 00:43:17,966
+pre-deceive kind of
+decision points
+
+1064
+00:43:17,966 --> 00:43:19,766
+of when we think we need
+to make a decision.
+
+1065
+00:43:19,766 --> 00:43:22,066
+But it's very important
+that we actually make decisions
+
+1066
+00:43:22,066 --> 00:43:25,266
+when we really have to
+and not close the on-ramps
+
+1067
+00:43:25,266 --> 00:43:28,566
+of other new solutions
+too prematurely
+
+1068
+00:43:28,566 --> 00:43:30,300
+and keep our investments.
+
+1069
+00:43:30,300 --> 00:43:32,233
+Now we can't fund everything
+either, so that--
+
+1070
+00:43:32,233 --> 00:43:36,133
+there's a kind of a tug of war
+on being able to fund everything
+
+1071
+00:43:36,133 --> 00:43:38,766
+versus making some of those
+downselect choices.
+
+1072
+00:43:38,766 --> 00:43:41,966
+So through some of this
+trade analysis that we have,
+
+1073
+00:43:41,966 --> 00:43:44,933
+we will narrow down the areas,
+
+1074
+00:43:44,933 --> 00:43:48,700
+but we won't narrow down
+the specific implementation
+1075
+00:43:48,700 --> 00:43:50,766
+or the technologies
+that we actually choose,
+
+1076
+00:43:50,766 --> 00:43:52,533
+and we'll allow
+technology advancement
+
+1077
+00:43:52,533 --> 00:43:54,933
+and scientific understanding
+to advance
+
+1078
+00:43:54,933 --> 00:43:57,000
+and still make future decisions
+as well.
+
+1079
+00:43:57,000 --> 00:44:00,466
+So we gotta fight against
+laying out
+
+1080
+00:44:00,466 --> 00:44:03,400
+every mission from here to Mars
+and actually say,
+
+1081
+00:44:03,400 --> 00:44:05,133
+"Well, we already decided
+what the mission is
+
+1082
+00:44:05,133 --> 00:44:06,666
+15 years from now."
+
+1083
+00:44:06,666 --> 00:44:08,533
+Well, guess what.
+It'll be wrong.
+
+1084
+00:44:08,533 --> 00:44:10,333
+So let's not make
+that decision now,
+1085
+00:44:10,333 --> 00:44:13,000
+but rather put that off
+as long as we can
+
+1086
+00:44:13,000 --> 00:44:15,500
+in order to allow technology
+to continue to advance.
+
+1087
+00:44:15,500 --> 00:44:17,466
+So...
+
+1088
+00:44:17,466 --> 00:44:19,066
+- Hi.
+My name's Thomas Graham.
+
+1089
+00:44:19,066 --> 00:44:20,666
+I'm an intern here
+for the summer,
+
+1090
+00:44:20,666 --> 00:44:22,933
+and I liked your presentation.
+
+1091
+00:44:22,933 --> 00:44:24,666
+I'll say that.
+
+1092
+00:44:24,666 --> 00:44:29,600
+But there's a lot of talk
+about going to Mars with people,
+
+1093
+00:44:29,600 --> 00:44:32,900
+sending a lot
+of research equipment
+
+1094
+00:44:32,900 --> 00:44:36,000
+and doing a lot of research
+on Mars looking for life.
+
+1095
+00:44:36,000 --> 00:44:40,066
+And with respect
+to the proving ground idea,
+
+1096
+00:44:40,066 --> 00:44:45,466
+where do you see
+lunar missions in that regard?
+
+1097
+00:44:45,466 --> 00:44:48,166
+And what is your opinion
+on the importance
+
+1098
+00:44:48,166 --> 00:44:52,133
+of going to the moon or using
+the moon or lunar orbits
+
+1099
+00:44:52,133 --> 00:44:54,566
+as this proving ground?
+
+1100
+00:44:54,566 --> 00:44:58,100
+- Yeah, so, the basic premise
+of the program is lunar orbit.
+
+1101
+00:44:58,100 --> 00:45:00,766
+That is our
+staging point there.
+
+1102
+00:45:00,766 --> 00:45:04,266
+So, the lunar environment is
+intriguing to us in many ways.
+
+1103
+00:45:04,266 --> 00:45:06,566
+Not as a place to go back
+and plant another flag
+
+1104
+00:45:06,566 --> 00:45:08,833
+and footprint, but rather,
+as a place that is a source
+
+1105
+00:45:08,833 --> 00:45:11,633
+for resources
+to implement this reduction
+1106
+00:45:11,633 --> 00:45:13,200
+of logistics from Earth.
+
+1107
+00:45:13,200 --> 00:45:17,100
+So if and when we can actually
+capture resources--
+
+1108
+00:45:17,100 --> 00:45:19,633
+be they lunar resources,
+asteroid resources,
+
+1109
+00:45:19,633 --> 00:45:21,466
+Mars,
+Mars' moon's resources,
+
+1110
+00:45:21,466 --> 00:45:23,633
+we should be going after
+this kind of
+
+1111
+00:45:23,633 --> 00:45:26,100
+resource analysis piece
+and how that
+
+1112
+00:45:26,100 --> 00:45:27,966
+trades into our architecture.
+
+1113
+00:45:27,966 --> 00:45:30,033
+The preliminary--
+all the scientific data that
+
+1114
+00:45:30,033 --> 00:45:33,966
+we have today points to a
+pretty robust water environment
+
+1115
+00:45:33,966 --> 00:45:36,233
+that exists
+on the lunar surface.
+
+1116
+00:45:36,233 --> 00:45:39,433
+We don't know how it's bounded,
+we don't know hard it is,
+
+1117
+00:45:39,433 --> 00:45:42,800
+we don't know how
+to extract that material,
+
+1118
+00:45:42,800 --> 00:45:44,466
+what it'll cost to do that.
+
+1119
+00:45:44,466 --> 00:45:47,266
+We do know that the dial
+of impact on our
+
+1120
+00:45:47,266 --> 00:45:49,900
+overall logistics chain
+to Mars
+
+1121
+00:45:49,900 --> 00:45:51,900
+could be
+extremely significant.
+
+1122
+00:45:51,900 --> 00:45:54,000
+So, it's not something
+to abandon
+
+1123
+00:45:54,000 --> 00:45:56,700
+at this point in any means
+and that's actually why
+
+1124
+00:45:56,700 --> 00:46:00,400
+we've been keeping things
+like these two additional
+
+1125
+00:46:00,400 --> 00:46:02,100
+CubeSats missions
+that I just showed you,
+
+1126
+00:46:02,100 --> 00:46:03,800
+but even more so,
+going to the surface
+
+1127
+00:46:03,800 --> 00:46:05,433
+in a mission like
+Resource Prospector
+
+1128
+00:46:05,433 --> 00:46:08,500
+to actually get the surface
+validation of that measurement
+
+1129
+00:46:08,500 --> 00:46:10,533
+and how is that
+water distributed
+
+1130
+00:46:10,533 --> 00:46:12,533
+and how hard will it be
+to actually utilize
+
+1131
+00:46:12,533 --> 00:46:14,466
+an overall architecture?
+
+1132
+00:46:14,466 --> 00:46:18,300
+So, yeah, it's--
+I think it's gonna be key--
+
+1133
+00:46:18,300 --> 00:46:20,500
+resources will be key
+no matter where we wanna go.
+
+1134
+00:46:20,500 --> 00:46:22,600
+So...
+- Thank you.
+
+1135
+00:46:24,033 --> 00:46:27,833
+- Hi, Jason.
+[laughs]
+
+1136
+00:46:27,833 --> 00:46:29,600
+When you make a decision,
+you have some notion
+
+1137
+00:46:29,600 --> 00:46:32,733
+of better or worse
+
+1138
+00:46:32,733 --> 00:46:35,833
+and you also have
+some notion of technology
+
+1139
+00:46:35,833 --> 00:46:37,566
+that you use to analyze
+all the information
+
+1140
+00:46:37,566 --> 00:46:40,433
+at your disposal and say,
+"I can quantify some decision
+
+1141
+00:46:40,433 --> 00:46:43,033
+as better or worse
+or possibly incomparable."
+
+1142
+00:46:43,033 --> 00:46:46,133
+So what is it
+that people are doing
+
+1143
+00:46:46,133 --> 00:46:48,800
+in order to take
+all the analyses,
+
+1144
+00:46:48,800 --> 00:46:51,600
+all the trades,
+all the architectures,
+
+1145
+00:46:51,600 --> 00:46:53,533
+and to put them into,
+if you like,
+
+1146
+00:46:53,533 --> 00:46:57,066
+one decision support system
+that helps you understand
+1147
+00:46:57,066 --> 00:46:59,333
+"Even if I can't say
+'this is best,
+
+1148
+00:46:59,333 --> 00:47:00,966
+what is better
+and what is worse?'"
+
+1149
+00:47:00,966 --> 00:47:03,333
+How do you
+actually do that?
+
+1150
+00:47:03,333 --> 00:47:06,200
+- Yeah, so, to me, it's--
+
+1151
+00:47:06,200 --> 00:47:09,333
+you can boil down all the
+capability areas that you need
+
+1152
+00:47:09,333 --> 00:47:11,666
+to sustain human presence
+and send them out there.
+
+1153
+00:47:11,666 --> 00:47:13,233
+There's different ways
+to slice it.
+
+1154
+00:47:13,233 --> 00:47:15,066
+The National Research Council
+does it one way,
+
+1155
+00:47:15,066 --> 00:47:17,533
+and NASA has it's
+roadmaps another way,
+
+1156
+00:47:17,533 --> 00:47:20,066
+however many capability areas
+that you have.
+1157
+00:47:20,066 --> 00:47:22,533
+And you can actually analyze
+those capability,
+
+1158
+00:47:22,533 --> 00:47:26,133
+kind of, decisions through
+almost like a Pareto Analysis--
+
+1159
+00:47:26,133 --> 00:47:29,466
+finding the optimal points on
+curves for the best or worst
+
+1160
+00:47:29,466 --> 00:47:32,700
+from an engineering perspective
+that you have out there.
+
+1161
+00:47:32,700 --> 00:47:35,466
+So, it's good to have
+sound good engineering analysis
+
+1162
+00:47:35,466 --> 00:47:38,133
+of what from a technical
+performance basis is best.
+
+1163
+00:47:38,133 --> 00:47:41,700
+That, not necessarily,
+will be the thing we do.
+
+1164
+00:47:41,700 --> 00:47:44,466
+Because then you also then
+bring in the alignment with
+
+1165
+00:47:44,466 --> 00:47:48,033
+industry,
+commercial use of that,
+
+1166
+00:47:48,033 --> 00:47:49,900
+the application
+of the technology beyond
+1167
+00:47:49,900 --> 00:47:52,000
+just NASA's requirement
+for it,
+
+1168
+00:47:52,000 --> 00:47:53,833
+international contributions,
+
+1169
+00:47:53,833 --> 00:47:58,200
+so, you have this very
+multi-variable problem
+
+1170
+00:47:58,200 --> 00:48:01,433
+that it's very difficult
+actually to determine
+
+1171
+00:48:01,433 --> 00:48:03,733
+"better or worse"
+and it's--
+
+1172
+00:48:03,733 --> 00:48:06,766
+I would argue it's impossible
+to determine best
+
+1173
+00:48:06,766 --> 00:48:10,333
+'cause it's an unbound problem
+
+1174
+00:48:10,333 --> 00:48:14,700
+and, so, if you analyze
+that by capability area
+
+1175
+00:48:14,700 --> 00:48:17,033
+you can make
+good enough decisions
+
+1176
+00:48:17,033 --> 00:48:19,433
+that you at least
+have a confidence level
+
+1177
+00:48:19,433 --> 00:48:21,700
+that you've not made a decision
+that will close off
+
+1178
+00:48:21,700 --> 00:48:25,900
+some future architecture
+down the pipe.
+
+1179
+00:48:25,900 --> 00:48:27,266
+This is a delicate area,
+though,
+
+1180
+00:48:27,266 --> 00:48:31,100
+so this is an area kind of
+ripe for all of you in the room
+
+1181
+00:48:31,100 --> 00:48:32,900
+to actually help with.
+
+1182
+00:48:32,900 --> 00:48:35,866
+I don't think we have
+good decision logics
+
+1183
+00:48:35,866 --> 00:48:38,033
+and decision trees
+that do this kind of things.
+
+1184
+00:48:38,033 --> 00:48:39,600
+We're really good
+at systems engineering
+
+1185
+00:48:39,600 --> 00:48:41,300
+when we have a bounded problem,
+
+1186
+00:48:41,300 --> 00:48:42,766
+but how do you
+do a systems engineering
+
+1187
+00:48:42,766 --> 00:48:45,133
+when you have
+an unbounded problem?
+1188
+00:48:45,133 --> 00:48:48,233
+And that's what we're facing
+and I don't think
+
+1189
+00:48:48,233 --> 00:48:49,666
+we should try to bound it.
+
+1190
+00:48:49,666 --> 00:48:51,866
+So, that means we have
+to figure out the other part.
+
+1191
+00:48:51,866 --> 00:48:54,333
+So, I don't know if that
+answers your question, Jeremy,
+
+1192
+00:48:54,333 --> 00:48:57,100
+but I think some of your
+guy's algorithm development
+
+1193
+00:48:57,100 --> 00:49:01,000
+and decision type things
+are key to some of that too.
+
+1194
+00:49:01,000 --> 00:49:03,300
+So...
+Yes?
+
+1195
+00:49:03,300 --> 00:49:04,600
+- Hi, Jason,
+Ryan Vaughn.
+
+1196
+00:49:04,600 --> 00:49:06,200
+I'm a system engineer
+here at Ames.
+
+1197
+00:49:06,200 --> 00:49:09,100
+I work on Resource Prospector.
+[chuckles]
+1198
+00:49:09,100 --> 00:49:10,866
+I have a question about
+what kind of research
+
+1199
+00:49:10,866 --> 00:49:14,166
+is in place for
+long duration exposure
+
+1200
+00:49:14,166 --> 00:49:18,166
+to radiation both
+on transit and in habs on Mars
+
+1201
+00:49:18,166 --> 00:49:21,000
+and what kind of
+work can be done
+
+1202
+00:49:21,000 --> 00:49:25,833
+between now and these proving
+grounds that mature that?
+
+1203
+00:49:25,833 --> 00:49:28,266
+- Yeah, so, for
+the radiation environment piece
+
+1204
+00:49:28,266 --> 00:49:31,366
+I boil it down to
+kinda three categories.
+
+1205
+00:49:31,366 --> 00:49:34,166
+First is we need to actually
+know no doubt what
+
+1206
+00:49:34,166 --> 00:49:36,900
+the radiation environment is,
+so that's the measurement piece.
+
+1207
+00:49:36,900 --> 00:49:39,433
+So, with that, we've actually
+got a whole team
+1208
+00:49:39,433 --> 00:49:42,333
+of radiation Dosimetry--
+both internal to NASA
+
+1209
+00:49:42,333 --> 00:49:44,400
+and outside of NASA,
+working together
+
+1210
+00:49:44,400 --> 00:49:46,833
+on everything from
+the Mars "Curiosity" instrument
+
+1211
+00:49:46,833 --> 00:49:50,200
+to the ISS instruments,
+EFT-1 flight of Orion
+
+1212
+00:49:50,200 --> 00:49:53,166
+had a radiation sensor on it,
+and even things like
+
+1213
+00:49:53,166 --> 00:49:55,700
+BioSentinel that's being built
+here as a CubeSat.
+
+1214
+00:49:55,700 --> 00:49:58,566
+There's commonality
+in all those instruments
+
+1215
+00:49:58,566 --> 00:50:00,766
+and there's definitely
+commonality on the team
+
+1216
+00:50:00,766 --> 00:50:03,700
+so that we're actually
+getting the radiation,
+
+1217
+00:50:03,700 --> 00:50:06,166
+no doubt, measurements of what
+the environments are gonna be.
+1218
+00:50:06,166 --> 00:50:08,833
+And, in fact, on "Curiosity"
+we monitored the--
+
+1219
+00:50:08,833 --> 00:50:11,866
+we had our radiation instrument
+on the entire transit
+
+1220
+00:50:11,866 --> 00:50:15,833
+to Mars and we've had operations
+on the surface of Mars as well
+
+1221
+00:50:15,833 --> 00:50:18,000
+and as we get
+these next instruments
+
+1222
+00:50:18,000 --> 00:50:20,366
+in orbit around Mars,
+
+1223
+00:50:20,366 --> 00:50:23,766
+from there we're actually
+gonna get now
+
+1224
+00:50:23,766 --> 00:50:25,900
+orbital characterization
+radiation
+
+1225
+00:50:25,900 --> 00:50:27,866
+coupled with the ground
+characterization
+
+1226
+00:50:27,866 --> 00:50:29,500
+and now we can figure out
+directionality
+
+1227
+00:50:29,500 --> 00:50:32,466
+and atmospheric effects
+and all that.
+
+1228
+00:50:32,466 --> 00:50:35,400
+So, that's the Dosimetry piece
+and I think well in hand
+
+1229
+00:50:35,400 --> 00:50:37,166
+of really understanding
+the environment.
+
+1230
+00:50:37,166 --> 00:50:39,433
+The next is actually
+modeling.
+
+1231
+00:50:39,433 --> 00:50:42,266
+The actual entire
+solar system effects
+
+1232
+00:50:42,266 --> 00:50:43,800
+and the heliophysics
+and all that.
+
+1233
+00:50:43,800 --> 00:50:46,100
+And that's working closely
+with our science folks
+
+1234
+00:50:46,100 --> 00:50:48,000
+in heliophysics
+and figuring out
+
+1235
+00:50:48,000 --> 00:50:49,966
+when you have an event,
+what does that event mean
+
+1236
+00:50:49,966 --> 00:50:51,933
+and how does it propagate
+and how do you do
+
+1237
+00:50:51,933 --> 00:50:54,400
+real-time operational
+warning systems?
+
+1238
+00:50:54,400 --> 00:50:58,133
+And right now, our modeling
+could be a lot better
+
+1239
+00:50:58,133 --> 00:51:01,966
+and there's considerable effort
+on taking that, kind of,
+
+1240
+00:51:01,966 --> 00:51:04,533
+scientific operational data--
+the measurement data they have,
+
+1241
+00:51:04,533 --> 00:51:07,133
+and propagating that
+into our models that then
+
+1242
+00:51:07,133 --> 00:51:09,566
+carry it through
+the solar system
+
+1243
+00:51:09,566 --> 00:51:13,133
+and understand what--
+even down to, say I was standing
+
+1244
+00:51:13,133 --> 00:51:14,966
+in the middle of a hab,
+what is the hab's effects
+
+1245
+00:51:14,966 --> 00:51:16,600
+and actually translating that
+all the way down.
+
+1246
+00:51:16,600 --> 00:51:18,433
+There's error bars on every one
+of those steps,
+
+1247
+00:51:18,433 --> 00:51:20,433
+and the modeling
+needs to improve.
+
+1248
+00:51:20,433 --> 00:51:23,333
+And then there's the Human
+Research Program side of this
+
+1249
+00:51:23,333 --> 00:51:26,666
+of once you actually
+do get the radiation effect
+
+1250
+00:51:26,666 --> 00:51:28,833
+to that individual,
+what does it mean to them
+
+1251
+00:51:28,833 --> 00:51:30,500
+and how do you mitigate that?
+
+1252
+00:51:30,500 --> 00:51:33,566
+There's a whole
+cadre of research going on
+
+1253
+00:51:33,566 --> 00:51:35,866
+in the Human Research Program
+
+1254
+00:51:35,866 --> 00:51:39,966
+that I can't talk
+about as much as they could,
+
+1255
+00:51:39,966 --> 00:51:42,466
+but the levels that we're
+seeing--even in a Mars transit,
+
+1256
+00:51:42,466 --> 00:51:45,266
+are within reasonable limits.
+
+1257
+00:51:45,266 --> 00:51:47,766
+These are not
+hard achievable things.
+
+1258
+00:51:47,766 --> 00:51:51,166
+The PI for Mars "Curiosity"
+put the estimate
+1259
+00:51:51,166 --> 00:51:54,233
+of the lifetime risk
+at 5% if you would have been
+
+1260
+00:51:54,233 --> 00:51:56,100
+on "Curiosity" yourself.
+
+1261
+00:51:56,100 --> 00:51:57,866
+Our current limit is 3%
+
+1262
+00:51:57,866 --> 00:52:00,166
+based on radiation workers
+tolerances.
+
+1263
+00:52:00,166 --> 00:52:04,066
+We have 5% of your total risk
+
+1264
+00:52:04,066 --> 00:52:05,533
+of lifetime cancer.
+
+1265
+00:52:05,533 --> 00:52:07,933
+So that puts it in perspective,
+
+1266
+00:52:07,933 --> 00:52:09,866
+the risk levels
+that we're talking about.
+
+1267
+00:52:09,866 --> 00:52:11,566
+So...
+
+1268
+00:52:14,666 --> 00:52:16,900
+- Would it be possible,
+and/or better,
+
+1269
+00:52:16,900 --> 00:52:20,900
+to use nuclear power sources
+for these 100s of kilowatt
+1270
+00:52:20,900 --> 00:52:23,033
+electrical supplies
+that you need?
+
+1271
+00:52:23,033 --> 00:52:26,366
+Would a small nuclear reactor
+have a higher
+
+1272
+00:52:26,366 --> 00:52:29,200
+power output to mass ratio?
+
+1273
+00:52:29,200 --> 00:52:31,366
+What is your
+thoughts on that?
+
+1274
+00:52:31,366 --> 00:52:32,766
+- Yeah, so there's--
+
+1275
+00:52:32,766 --> 00:52:34,966
+- Is there some other reason
+you would not use nuclear power?
+
+1276
+00:52:34,966 --> 00:52:37,566
+- Yeah, so, nuclear is still
+in our tradespace.
+
+1277
+00:52:37,566 --> 00:52:39,900
+It's in our tradespace
+in three areas.
+
+1278
+00:52:39,900 --> 00:52:41,766
+Nuclear Thermal Propulsion,
+
+1279
+00:52:41,766 --> 00:52:45,300
+so anywhere you saw
+chemical stage there is still
+
+1280
+00:52:45,300 --> 00:52:47,666
+a potential of trading out
+that chemical stage
+
+1281
+00:52:47,666 --> 00:52:50,033
+for a Nuclear Thermal
+Propulsion stage.
+
+1282
+00:52:50,033 --> 00:52:54,266
+And, in fact, we're still
+doing the research on fuels
+
+1283
+00:52:54,266 --> 00:52:56,900
+within AES,
+the program I run,
+
+1284
+00:52:56,900 --> 00:52:58,566
+and we're advancing
+the fuels technology
+
+1285
+00:52:58,566 --> 00:53:00,633
+and recovering
+what we lost from NERVA
+
+1286
+00:53:00,633 --> 00:53:02,500
+and actually moving forward
+in our understanding
+
+1287
+00:53:02,500 --> 00:53:05,433
+of the fuels piece
+for nuclear thermal rockets.
+
+1288
+00:53:05,433 --> 00:53:07,233
+The rocket
+is relatively simple.
+
+1289
+00:53:07,233 --> 00:53:09,100
+Not to underestimate
+the rocket folks,
+
+1290
+00:53:09,100 --> 00:53:10,933
+but it's a heat exchanger.
+1291
+00:53:10,933 --> 00:53:12,766
+It doesn't have the complexity
+of a normal rocket,
+
+1292
+00:53:12,766 --> 00:53:15,633
+so the fuels
+are the hard piece there.
+
+1293
+00:53:15,633 --> 00:53:18,400
+Surface power
+is the other area.
+
+1294
+00:53:18,400 --> 00:53:20,600
+If you're doing all this in situ
+research utilization
+
+1295
+00:53:20,600 --> 00:53:21,833
+you're probably gonna need
+significant power
+
+1296
+00:53:21,833 --> 00:53:23,333
+on the surface.
+
+1297
+00:53:23,333 --> 00:53:25,900
+So surface power--
+surface nuclear power
+
+1298
+00:53:25,900 --> 00:53:28,733
+is an area that's still going on
+and you have investments by our
+
+1299
+00:53:28,733 --> 00:53:30,066
+Space Technology
+Mission Directorates
+
+1300
+00:53:30,066 --> 00:53:32,233
+in things like Kilopower
+is their project.
+1301
+00:53:32,233 --> 00:53:34,366
+They're looking
+at a 400 kilogram,
+
+1302
+00:53:34,366 --> 00:53:37,766
+one kilowatt
+nuclear reactor
+
+1303
+00:53:37,766 --> 00:53:40,200
+and how does--
+one kilowatt doesn't scale.
+
+1304
+00:53:40,200 --> 00:53:43,900
+I mean, that small of a size
+isn't worth it at that mass,
+
+1305
+00:53:43,900 --> 00:53:45,833
+but you need to figure out,
+"Can we--
+
+1306
+00:53:45,833 --> 00:53:48,733
+"we don't need 40 kilowatts
+in a single chunk
+
+1307
+00:53:48,733 --> 00:53:50,966
+of nuclear power, but, maybe,
+a ten kilowatt."
+
+1308
+00:53:50,966 --> 00:53:53,133
+And how does that scale and what
+is the incremental cost?
+
+1309
+00:53:53,133 --> 00:53:54,933
+And that's one of
+the investments that's going on.
+
+1310
+00:53:54,933 --> 00:53:56,766
+We may not need it
+for the initial missions,
+1311
+00:53:56,766 --> 00:53:58,766
+but we will need it over time.
+
+1312
+00:53:58,766 --> 00:54:01,033
+Your last question
+was nuclear reactors--
+
+1313
+00:54:01,033 --> 00:54:02,966
+Nuclear Electric
+Propulsion,
+
+1314
+00:54:02,966 --> 00:54:04,733
+or nuclear power there.
+
+1315
+00:54:04,733 --> 00:54:08,366
+If you look at
+multi-megawatt reactors
+
+1316
+00:54:08,366 --> 00:54:09,900
+on that kind of scale,
+
+1317
+00:54:09,900 --> 00:54:12,533
+when you're getting several
+hundreds of kilowatts and such,
+
+1318
+00:54:12,533 --> 00:54:14,300
+that is a potential solution.
+
+1319
+00:54:14,300 --> 00:54:16,833
+Most of those reactors,
+though
+
+1320
+00:54:16,833 --> 00:54:18,266
+the designs
+for those reactors
+
+1321
+00:54:18,266 --> 00:54:20,800
+run at temperatures that are--
+even our ground based
+1322
+00:54:20,800 --> 00:54:23,233
+nuclear folks have not seen
+
+1323
+00:54:23,233 --> 00:54:24,666
+except in runaway conditions.
+
+1324
+00:54:24,666 --> 00:54:28,600
+So you can look at reactors
+as a function of heat and, so,
+
+1325
+00:54:28,600 --> 00:54:30,600
+that's a new development
+effort and that could be
+
+1326
+00:54:30,600 --> 00:54:32,633
+a multi-billion dollar
+development effort.
+
+1327
+00:54:32,633 --> 00:54:34,900
+So we've been concentrating
+on using
+
+1328
+00:54:34,900 --> 00:54:36,633
+Solar Electrical Propulsion
+and we believe,
+
+1329
+00:54:36,633 --> 00:54:38,966
+in this scale,
+300-400 kilowatt range,
+
+1330
+00:54:38,966 --> 00:54:42,766
+is reasonably achieved
+by Solar Electric Propulsion.
+
+1331
+00:54:42,766 --> 00:54:45,400
+The state of the art today
+of Solar Electric Propulsion--
+
+1332
+00:54:45,400 --> 00:54:46,933
+if you look at
+the space station arrays,
+
+1333
+00:54:46,933 --> 00:54:48,666
+you could generate
+the same amount of power
+
+1334
+00:54:48,666 --> 00:54:52,266
+the station has with 20%
+the acreage.
+
+1335
+00:54:52,266 --> 00:54:54,266
+So the advancement
+of solar array technology
+
+1336
+00:54:54,266 --> 00:54:56,200
+has come a long way.
+
+1337
+00:54:56,200 --> 00:54:58,266
+So if you think about
+station,
+
+1338
+00:54:58,266 --> 00:55:01,433
+what we need is acreage the size
+of the space station,
+
+1339
+00:55:01,433 --> 00:55:04,300
+but that same acreage
+would produce five times
+
+1340
+00:55:04,300 --> 00:55:06,033
+the amount of power
+the space station has.
+
+1341
+00:55:06,033 --> 00:55:09,566
+So it is something
+technically achievable today.
+
+1342
+00:55:09,566 --> 00:55:12,066
+Now, at what cost to launch
+that kind of acreage
+
+1343
+00:55:12,066 --> 00:55:14,100
+is the challenge,
+so, right now, we've chose
+
+1344
+00:55:14,100 --> 00:55:16,766
+not to do the investment
+in the in space nuclear,
+
+1345
+00:55:16,766 --> 00:55:19,300
+but rather concentrate
+on the engines to get there,
+
+1346
+00:55:19,300 --> 00:55:21,200
+if we want to trade out
+Nuclear Thermal Propulsion
+
+1347
+00:55:21,200 --> 00:55:23,533
+and the surface power
+as our first steps
+
+1348
+00:55:23,533 --> 00:55:26,800
+and then use solar electric
+for the transit piece.
+
+1349
+00:55:26,800 --> 00:55:27,966
+It doesn't mean that
+it couldn't
+
+1350
+00:55:27,966 --> 00:55:30,500
+come on board
+at some point, though.
+
+1351
+00:55:30,500 --> 00:55:32,133
+- So, please join me
+
+1352
+00:55:32,133 --> 00:55:34,733
+in thanking Jason
+for an excellent talk.
+
+1353
+00:55:34,733 --> 00:55:37,733
+[applause]
