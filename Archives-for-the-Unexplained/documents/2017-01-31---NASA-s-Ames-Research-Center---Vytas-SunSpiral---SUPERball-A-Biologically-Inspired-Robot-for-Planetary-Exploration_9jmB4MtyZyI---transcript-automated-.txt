@@ -1,0 +1,7696 @@
+{"created_utc": "2026-09-13T06:37:48Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 294713, "source_ctime_ns": 1788519034610084932, "source_file": "Archives-for-the-Unexplained/documents/2017-01-31---NASA-s-Ames-Research-Center---Vytas-SunSpiral---SUPERball-A-Biologically-Inspired-Robot-for-Planetary-Exploration_9jmB4MtyZyI---transcript-automated-.pdf", "source_mtime_ns": 1788519034599228952, "source_rel": "Archives-for-the-Unexplained/documents/2017-01-31---NASA-s-Ames-Research-Center---Vytas-SunSpiral---SUPERball-A-Biologically-Inspired-Robot-for-Planetary-Exploration_9jmB4MtyZyI---transcript-automated-.pdf", "source_sha256": "ecb3ff0459cc6262a7686adc8431e768da931380ec3f1b08a96ac6e62958435b"}
+
+1
+00:00:02,700 --> 00:00:16,100
+[music playing]
+
+2
+00:00:16,100 --> 00:00:22,600
+- Welcome to the 2016
+NASA Ames Summer Series.
+
+3
+00:00:22,600 --> 00:00:24,130
+Hmm.
+
+4
+00:00:24,130 --> 00:00:26,870
+[laughter]
+
+5
+00:00:26,870 --> 00:00:30,170
+Evolution in front of us.
+
+6
+00:00:30,170 --> 00:00:33,930
+So nature evolved solutions
+
+7
+00:00:33,930 --> 00:00:38,170
+to various applications
+for thousands of years,
+
+8
+00:00:38,170 --> 00:00:41,930
+and thus, provides templates
+to mimic
+
+9
+00:00:41,930 --> 00:00:44,830
+for our own applications.
+
+10
+00:00:44,830 --> 00:00:47,970
+But when we try to mimic,
+
+11
+00:00:47,970 --> 00:00:52,330
+we also gain insight
+on the original.
+
+12
+00:00:52,330 --> 00:00:54,600
+Today's seminar entitled
+
+13
+00:00:54,600 --> 00:00:57,070
+"SUPERball: A Biological--
+
+14
+00:00:57,070 --> 00:01:01,000
+A Biologically Inspired Robot
+for Planetary Exploration"
+
+15
+00:01:01,000 --> 00:01:07,300
+will be given by
+Mr. Vytas SunSpiral.
+
+16
+00:01:07,300 --> 00:01:11,870
+Mr. SunSpiral received a BA
+in symbolic systems
+
+17
+00:01:18,730 --> 00:01:13,870
+from Stanford University
+
+18
+00:01:18,730 --> 00:01:23,000
+In 1998 he founded Mobot,
+
+19
+00:01:23,000 --> 00:01:25,700
+which sold the world's first
+commercial--
+
+20
+00:01:25,700 --> 00:01:32,070
+commercially available
+autonomous tour guide robot.
+
+21
+00:01:32,070 --> 00:01:34,470
+He joined Ames in 2002
+
+22
+00:01:34,470 --> 00:01:36,670
+as a robotic researcher
+
+23
+00:01:36,670 --> 00:01:39,130
+and is now a principle
+investigator
+
+24
+00:01:39,130 --> 00:01:41,900
+for the Dynamic Tensegrity
+Robotic Lab
+
+25
+00:01:41,900 --> 00:01:45,000
+in the Intelligent Robotic Group
+at NASA Ames.
+
+26
+00:01:45,000 --> 00:01:48,800
+Please join me in welcoming
+Vytas SunSpiral.
+
+27
+00:01:48,800 --> 00:01:52,500
+[applause]
+
+28
+00:01:52,500 --> 00:01:55,730
+- Thank you, Jacob.
+
+29
+00:01:55,730 --> 00:01:57,570
+All right.
+
+30
+00:01:57,570 --> 00:02:02,900
+Let's get the presentation
+on the road.
+
+31
+00:02:02,900 --> 00:02:09,370
+There we go.
+This is the one we want.
+
+32
+00:02:09,370 --> 00:02:11,330
+All right, everybody, hello.
+
+33
+00:02:11,330 --> 00:02:12,930
+all: Hello.
+
+34
+00:02:12,930 --> 00:02:15,570
+- Okay, so I'm gonna give you
+an initial teaser here
+
+35
+00:02:15,570 --> 00:02:18,900
+of where we're going
+with this story.
+
+36
+00:02:18,900 --> 00:02:22,230
+This is the sort of NASA vision
+of this project,
+
+37
+00:02:22,230 --> 00:02:24,530
+which is to build a robot
+that's so robust,
+
+38
+00:02:24,530 --> 00:02:26,030
+so compliant and adaptable,
+
+39
+00:02:26,030 --> 00:02:27,870
+that it can survive landing
+on another planet
+
+40
+00:02:27,870 --> 00:02:29,800
+as if it was its own air bag.
+
+41
+00:02:29,800 --> 00:02:32,470
+So now you don't need an air bag
+and you can explore
+
+42
+00:02:32,470 --> 00:02:34,000
+in all sorts of new
+and interesting ways,
+
+43
+00:02:34,000 --> 00:02:36,400
+and it has lots of
+mission design impacts.
+
+44
+00:02:36,400 --> 00:02:39,800
+And we will get back to this
+in a moment
+45
+00:02:39,800 --> 00:02:41,770
+with a lot more details.
+
+46
+00:02:41,770 --> 00:02:44,100
+But I wanted to sort of show you
+where the--the current state
+
+47
+00:02:44,100 --> 00:02:46,830
+of the technology
+and where we're headed is.
+
+48
+00:02:46,830 --> 00:02:51,730
+So--but this all started with
+my own personal quest originally
+
+49
+00:02:51,730 --> 00:02:54,030
+to really understand
+our intelligence.
+
+50
+00:02:54,030 --> 00:02:55,500
+You know, as he mentioned,
+I came from
+
+51
+00:02:55,500 --> 00:02:57,730
+the symbolic systems program,
+which is really a program
+
+52
+00:02:57,730 --> 00:03:00,430
+that looked at a lot of
+human intelligence,
+
+53
+00:03:00,430 --> 00:03:01,770
+artificial intelligence,
+
+54
+00:03:01,770 --> 00:03:03,930
+and--and how complex systems
+like that work.
+
+55
+00:03:03,930 --> 00:03:06,970
+And as I got into this
+over the years,
+
+56
+00:03:06,970 --> 00:03:10,000
+I really started to feel that
+you needed to understand
+
+57
+00:03:10,000 --> 00:03:12,200
+how we move
+
+58
+00:03:12,200 --> 00:03:14,370
+if you want to understand
+how we think.
+
+59
+00:03:14,370 --> 00:03:16,100
+These two are
+very tightly related.
+
+60
+00:03:16,100 --> 00:03:19,270
+and if you really dive back into
+the origins of evolution,
+
+61
+00:03:19,270 --> 00:03:23,030
+you'll see that
+the very first neurons appeared
+
+62
+00:03:23,030 --> 00:03:24,830
+in order to control motors,
+
+63
+00:03:24,830 --> 00:03:26,930
+i.e. the first muscles,
+early muscles.
+
+64
+00:03:26,930 --> 00:03:29,330
+So neurons are originally
+motor controllers
+
+65
+00:03:29,330 --> 00:03:31,100
+and then they evolved
+on top of that
+66
+00:03:31,100 --> 00:03:33,030
+and evolution happened
+on top of that.
+
+67
+00:03:33,030 --> 00:03:34,570
+And as nature does,
+
+68
+00:03:34,570 --> 00:03:36,530
+once it figures out
+a really good trick,
+
+69
+00:03:36,530 --> 00:03:38,270
+it figures out how to reuse it
+and reapply it
+
+70
+00:03:38,270 --> 00:03:39,900
+in more and more complex ways.
+
+71
+00:03:39,900 --> 00:03:41,270
+And so if you want to
+understand--
+
+72
+00:03:41,270 --> 00:03:43,500
+if you--if you start by
+understanding how we move
+
+73
+00:03:43,500 --> 00:03:45,100
+and--and really get that,
+
+74
+00:03:45,100 --> 00:03:46,600
+then you start seeing
+the foundation
+
+75
+00:03:46,600 --> 00:03:48,900
+for all these other
+more complex things we do
+
+76
+00:03:48,900 --> 00:03:52,000
+like the finer points
+of politics and art.
+
+77
+00:03:52,000 --> 00:03:54,100
+And whether we like burritos
+or hamburgers
+
+78
+00:03:54,100 --> 00:03:55,830
+and all that sort of stuff,
+all right?
+
+79
+00:03:55,830 --> 00:03:57,270
+So it's all related.
+
+80
+00:03:57,270 --> 00:04:02,130
+So the story that
+I'm gonna tell you today
+
+81
+00:04:02,130 --> 00:04:04,400
+really involves
+starting with the brain.
+
+82
+00:04:04,400 --> 00:04:05,730
+I'll tell you a little bit
+about that.
+
+83
+00:04:05,730 --> 00:04:06,900
+We're gonna start
+
+84
+00:04:06,900 --> 00:04:08,600
+by tearing apart
+a lot of common assumptions,
+
+85
+00:04:08,600 --> 00:04:10,400
+and that's sort of at the heart
+often of science.
+
+86
+00:04:10,400 --> 00:04:12,670
+To learn new things you have to
+often forget old things.
+87
+00:04:12,670 --> 00:04:14,630
+and there's a lot of things
+that, you know,
+
+88
+00:04:14,630 --> 00:04:17,000
+as science progresses,
+we're sort of discovering,
+
+89
+00:04:17,000 --> 00:04:19,600
+and some of it is theoretical
+and some of it is proven
+
+90
+00:04:19,600 --> 00:04:21,430
+and, you know, it's all
+kind of there in the mix.
+
+91
+00:04:21,430 --> 00:04:23,200
+But so we're gonna start
+a little bit about the brain.
+
+92
+00:04:23,200 --> 00:04:25,670
+and then we're gonna dive into
+how the body works
+
+93
+00:04:25,670 --> 00:04:27,500
+and have some maybe
+
+94
+00:04:27,500 --> 00:04:29,900
+possibly surprising
+new insights into that
+
+95
+00:04:29,900 --> 00:04:32,570
+and that will bring us to
+tensegrity structures,
+
+96
+00:04:32,570 --> 00:04:37,070
+which are a very interesting
+form of tensile structure.
+97
+00:04:37,070 --> 00:04:38,670
+And from there,
+we'll get to the robots,
+
+98
+00:04:38,670 --> 00:04:41,030
+and then back to the brain
+and the control system
+
+99
+00:04:41,030 --> 00:04:43,600
+of how we actually move,
+and that will really lead us to
+
+100
+00:04:43,600 --> 00:04:45,900
+some final philosophical
+insights.
+
+101
+00:04:45,900 --> 00:04:49,070
+So diving in.
+
+102
+00:04:49,070 --> 00:04:51,070
+We generally assume
+
+103
+00:04:51,070 --> 00:04:53,170
+that the brain is where we do
+all the thinking
+
+104
+00:04:53,170 --> 00:04:54,670
+and all the reasoning
+and all the controls
+
+105
+00:04:54,670 --> 00:04:57,170
+and the motor cortexes where
+we drive all of our motion from.
+
+106
+00:04:57,170 --> 00:04:59,730
+But it turns out
+this is not quite true.
+
+107
+00:04:59,730 --> 00:05:01,270
+The brain does,
+obviously, have
+
+108
+00:05:01,270 --> 00:05:03,400
+some very important roles
+to play,
+
+109
+00:05:03,400 --> 00:05:06,600
+but people have been researching
+for quite a while
+
+110
+00:05:06,600 --> 00:05:09,170
+the fact that if you remove
+the brain from an animal,
+
+111
+00:05:09,170 --> 00:05:12,230
+what's called decerebration,
+
+112
+00:05:12,230 --> 00:05:14,200
+or a decerebrated animal,
+
+113
+00:05:14,200 --> 00:05:17,670
+where they sever the cerebellum
+from the brain stem.
+
+114
+00:05:17,670 --> 00:05:19,770
+It turns out they can do
+all sorts of very interesting
+
+115
+00:05:19,770 --> 00:05:21,270
+and complicated actions.
+
+116
+00:05:21,270 --> 00:05:23,830
+All right, everything from--
+like, they've put cows
+
+117
+00:05:23,830 --> 00:05:25,970
+on tilt tables,
+this was done a long time ago,
+118
+00:05:25,970 --> 00:05:27,970
+where, you know, it would--
+it would resist the--
+
+119
+00:05:27,970 --> 00:05:29,900
+the changing gravity field.
+
+120
+00:05:29,900 --> 00:05:30,970
+You can see them walking.
+
+121
+00:05:30,970 --> 00:05:32,130
+You can see them scratching,
+
+122
+00:05:32,130 --> 00:05:33,770
+all these very complicated
+motions.
+
+123
+00:05:33,770 --> 00:05:35,770
+And we've all heard about
+chickens running around
+
+124
+00:05:35,770 --> 00:05:38,800
+with their heads cut off,
+and--and this is real.
+
+125
+00:05:38,800 --> 00:05:40,500
+You can do it.
+You can go to a farm.
+
+126
+00:05:40,500 --> 00:05:42,900
+I've done this
+and ended up eating a chicken.
+
+127
+00:05:42,900 --> 00:05:44,300
+[laughter]
+
+128
+00:05:44,300 --> 00:05:49,200
+And it is notable that
+the chicken with no head
+129
+00:05:49,200 --> 00:05:52,500
+is no longer purposeful
+in where it's going.
+
+130
+00:05:52,500 --> 00:05:54,470
+It's running randomly around.
+It doesn't have a goal.
+
+131
+00:05:54,470 --> 00:05:56,300
+It doesn't have a direction,
+right?
+
+132
+00:05:56,300 --> 00:05:59,200
+But it is coordinating
+hundreds of muscles
+
+133
+00:05:59,200 --> 00:06:01,570
+and managing its balance
+on two legs,
+
+134
+00:06:01,570 --> 00:06:04,230
+and that's a very complex set
+of behaviors to do.
+
+135
+00:06:04,230 --> 00:06:06,500
+And the brain is
+mechanically removed,
+
+136
+00:06:06,500 --> 00:06:08,130
+so you know that's not
+part of the solution.
+
+137
+00:06:08,130 --> 00:06:11,670
+So this has been more formally
+studied, as I mentioned.
+
+138
+00:06:11,670 --> 00:06:13,530
+I'm gonna show you a video
+that was made
+139
+00:06:13,530 --> 00:06:16,570
+almost a century ago by one of
+the earliest researchers
+
+140
+00:06:16,570 --> 00:06:19,800
+into this field who showed that
+locomotion can occur
+
+141
+00:06:19,800 --> 00:06:22,970
+purely in the spine,
+from processes in the spine.
+
+142
+00:06:22,970 --> 00:06:24,600
+Now, this is a video of a cat,
+
+143
+00:06:24,600 --> 00:06:28,330
+so anyone who's gonna be
+disturbed by that,
+
+144
+00:06:28,330 --> 00:06:29,730
+it still has its head attached,
+
+145
+00:06:29,730 --> 00:06:32,330
+but as I said,
+the brain has been removed.
+
+146
+00:06:32,330 --> 00:06:34,370
+You know, you can feel free
+to cover your eyes.
+
+147
+00:06:34,370 --> 00:06:36,770
+But I always figure that since
+the science has been done,
+
+148
+00:06:36,770 --> 00:06:38,130
+we might as well learn from it.
+
+149
+00:06:38,130 --> 00:06:40,100
+So hang with it if you can.
+
+150
+00:06:40,100 --> 00:06:43,470
+So what you see in this video
+is that the cat,
+
+151
+00:06:43,470 --> 00:06:46,000
+as the treadmill goes through
+different speeds,
+
+152
+00:06:46,000 --> 00:06:48,730
+the cat will express three
+different types of gaits.
+
+153
+00:06:48,730 --> 00:06:51,300
+It will go from a walk
+to a trot to a gallop.
+
+154
+00:06:51,300 --> 00:06:53,300
+And we know, again, as I said,
+
+155
+00:06:53,300 --> 00:06:55,000
+that the brain
+is not involved in this.
+
+156
+00:06:55,000 --> 00:06:56,530
+This is purely from the spine,
+
+157
+00:06:56,530 --> 00:06:59,300
+and the spine is interesting.
+It's decentralized.
+
+158
+00:06:59,300 --> 00:07:03,600
+It has each vertebra is its own
+little node of neurons,
+
+159
+00:07:03,600 --> 00:07:06,030
+and so it's this segmented,
+
+160
+00:07:06,030 --> 00:07:08,870
+modular, decentralized system.
+
+161
+00:07:08,870 --> 00:07:10,570
+So there's not some central CPU.
+
+162
+00:07:10,570 --> 00:07:13,330
+There's not some motor cortex
+in the middle of the spine
+
+163
+00:07:13,330 --> 00:07:14,800
+that's coordinating all of this.
+
+164
+00:07:14,800 --> 00:07:16,630
+So you're getting
+this coordination
+
+165
+00:07:16,630 --> 00:07:17,900
+out of a decentralized system,
+
+166
+00:07:17,900 --> 00:07:19,530
+and that's a very,
+very important clue.
+
+167
+00:07:19,530 --> 00:07:23,730
+And we're gonna come back to it
+a lot later on in the talk.
+
+168
+00:07:23,730 --> 00:07:27,230
+So that's my teaser for the--
+
+169
+00:07:27,230 --> 00:07:30,170
+for the controls
+and to get you out of
+
+170
+00:07:30,170 --> 00:07:32,030
+maybe your comfort zone
+of thinking of how the brain
+
+171
+00:07:32,030 --> 00:07:34,030
+might be at the center
+of everything.
+
+172
+00:07:34,030 --> 00:07:35,630
+We will get back to it
+at the end of the talk,
+
+173
+00:07:35,630 --> 00:07:39,000
+but to really dive into
+understanding all this,
+
+174
+00:07:39,000 --> 00:07:40,200
+we also have to look at the body
+
+175
+00:07:40,200 --> 00:07:41,670
+and understand how it functions,
+all right.
+
+176
+00:07:41,670 --> 00:07:43,730
+No matter how smart
+your control system is
+
+177
+00:07:43,730 --> 00:07:45,530
+you can't make a brick fly,
+all right.
+
+178
+00:07:45,530 --> 00:07:47,600
+You have to combine
+both the structure
+
+179
+00:07:47,600 --> 00:07:50,300
+and the controls together
+in an intelligent way.
+
+180
+00:07:50,300 --> 00:07:54,130
+So you may have had
+this skeleton
+
+181
+00:07:54,130 --> 00:07:58,070
+in your classroom, biology
+classroom in elementary school.
+
+182
+00:07:58,070 --> 00:07:59,730
+There are very useful
+initial insights to it
+
+183
+00:07:59,730 --> 00:08:01,930
+but it's telling you a lie,
+all right.
+
+184
+00:08:01,930 --> 00:08:04,900
+You look at this
+and it leads you to think
+
+185
+00:08:04,900 --> 00:08:07,670
+that the skeleton is this thing,
+this, like, structure
+
+186
+00:08:07,670 --> 00:08:09,570
+kind of like the rafters
+
+187
+00:08:09,570 --> 00:08:11,570
+and, you know, the
+infrastructure of a house,
+
+188
+00:08:11,570 --> 00:08:13,000
+the--the, you know,
+the walls and the roof
+
+189
+00:08:13,000 --> 00:08:15,170
+and the ceiling joists
+and all that.
+
+190
+00:08:15,170 --> 00:08:17,430
+But actually, it's held together
+by a bunch of aftermarket pins
+
+191
+00:08:17,430 --> 00:08:19,930
+and hinges that don't exist
+in reality.
+
+192
+00:08:19,930 --> 00:08:21,500
+If it was really just
+a bunch of bones,
+
+193
+00:08:21,500 --> 00:08:23,600
+it would be a pile of bones
+on the floor, right.
+
+194
+00:08:23,600 --> 00:08:25,430
+What holds our body together
+
+195
+00:08:25,430 --> 00:08:27,400
+is all this soft
+tensile material,
+
+196
+00:08:27,400 --> 00:08:30,770
+the muscles, the ligaments,
+the tendons, all right,
+
+197
+00:08:30,770 --> 00:08:33,430
+collectively often called
+the fascia.
+
+198
+00:08:33,430 --> 00:08:37,330
+And--and what you'll see here
+on this MRI video
+
+199
+00:08:37,330 --> 00:08:39,930
+on the side
+is that the bones
+
+200
+00:08:39,930 --> 00:08:43,030
+don't just move around
+a single axis hinge
+
+201
+00:08:43,030 --> 00:08:44,370
+like is often assumed.
+202
+00:08:44,370 --> 00:08:46,070
+If you think like, oh, my knee,
+it's a hinge, right?
+
+203
+00:08:46,070 --> 00:08:47,600
+I can just bend it.
+
+204
+00:08:47,600 --> 00:08:50,200
+Actually what you see is the
+bones do very complex gliding
+
+205
+00:08:50,200 --> 00:08:53,400
+and sliding motion because
+they're not just pin hinged.
+
+206
+00:08:53,400 --> 00:08:55,270
+There's no pin
+holding it together.
+
+207
+00:08:55,270 --> 00:08:57,330
+It's the soft material that
+holds it all together
+
+208
+00:08:57,330 --> 00:09:00,570
+and allows for very complex
+multidimensional motions
+
+209
+00:09:00,570 --> 00:09:02,430
+of the bones relative
+to each other.
+
+210
+00:09:02,430 --> 00:09:04,170
+And that turns out to be
+very important.
+
+211
+00:09:04,170 --> 00:09:06,900
+It looks like, from the outside,
+a very subtle difference.
+
+212
+00:09:06,900 --> 00:09:09,070
+Very easy to say,
+okay, this is just a hinge.
+
+213
+00:09:09,070 --> 00:09:10,770
+But if you actually start
+looking at how forces
+
+214
+00:09:10,770 --> 00:09:14,170
+flow through the structure
+and what becomes possible
+
+215
+00:09:14,170 --> 00:09:16,870
+when you have
+all this complexity
+
+216
+00:09:16,870 --> 00:09:18,930
+and freedom of motion
+between the bones,
+
+217
+00:09:18,930 --> 00:09:21,100
+it opens up a whole different
+design space
+
+218
+00:09:21,100 --> 00:09:26,030
+than we are accustomed to using
+in traditional robots.
+
+219
+00:09:26,030 --> 00:09:28,070
+So as I mentioned,
+this soft tissue...
+
+220
+00:09:28,070 --> 00:09:29,500
+We're gonna dive into it more.
+
+221
+00:09:29,500 --> 00:09:32,200
+is often, again, sort of
+collectively known as fascia,
+
+222
+00:09:32,200 --> 00:09:34,030
+the connective tissue.
+
+223
+00:09:34,030 --> 00:09:36,500
+It was often ignored early on in
+anatomical studies, right?
+
+224
+00:09:36,500 --> 00:09:38,700
+People looked at, oh, it's
+the muscles. It's the bones.
+
+225
+00:09:38,700 --> 00:09:40,770
+These are the, you know,
+simple segments
+
+226
+00:09:40,770 --> 00:09:42,270
+and we cut all
+the other stuff apart.
+
+227
+00:09:42,270 --> 00:09:43,570
+The tendons are just connectors
+
+228
+00:09:43,570 --> 00:09:46,330
+between the motors
+and the bones.
+
+229
+00:09:46,330 --> 00:09:47,730
+Well, it turns out that
+the fascia is actually
+
+230
+00:09:47,730 --> 00:09:49,130
+a continuous system.
+
+231
+00:09:49,130 --> 00:09:50,270
+Unlike the bones
+which will just end up
+
+232
+00:09:50,270 --> 00:09:51,930
+being a pile on the floor,
+
+233
+00:09:51,930 --> 00:09:54,630
+it's the fascia that is
+continuous from end to end.
+
+234
+00:09:54,630 --> 00:09:57,730
+It is the outer layer
+of your bones,
+
+235
+00:09:57,730 --> 00:10:00,100
+the periosteum,
+is a bunch of fibers
+
+236
+00:10:00,100 --> 00:10:03,300
+and those fibers are continuous
+with the fibers of your tendon.
+
+237
+00:10:03,300 --> 00:10:06,400
+And those fibers are continuous
+with your--
+
+238
+00:10:06,400 --> 00:10:08,570
+the fibers that are all through
+and around your muscles.
+
+239
+00:10:08,570 --> 00:10:12,500
+And in fact, when you start off
+as embryonic,
+
+240
+00:10:12,500 --> 00:10:14,800
+you start off
+as a mass of fascia,
+
+241
+00:10:14,800 --> 00:10:16,500
+as a mass of soft tissue.
+
+242
+00:10:16,500 --> 00:10:18,930
+And it's only later
+during your development
+
+243
+00:10:18,930 --> 00:10:21,600
+that the bones start to
+harden into the pockets.
+
+244
+00:10:21,600 --> 00:10:25,270
+Muscles and bones grow into
+the pockets in the soft tissue.
+
+245
+00:10:25,270 --> 00:10:28,730
+So this soft tissue is the
+fundamental form of your body,
+
+246
+00:10:28,730 --> 00:10:31,030
+and bones and muscles
+come later.
+
+247
+00:10:31,030 --> 00:10:32,630
+Very important.
+
+248
+00:10:32,630 --> 00:10:35,100
+So people have been
+studying this
+
+249
+00:10:35,100 --> 00:10:38,500
+There is--Tom Myers
+is one of the researchers
+
+250
+00:10:38,500 --> 00:10:41,530
+and--who's looked a lot
+into mapping
+
+251
+00:10:41,530 --> 00:10:46,000
+the long-distance chains
+of soft tissue in the body
+
+252
+00:10:46,000 --> 00:10:47,830
+and he's worked with
+a bunch of other anatomists,
+
+253
+00:10:47,830 --> 00:10:51,730
+sort of a new revolutionary way
+of doing dissections in anatomy.
+
+254
+00:10:51,730 --> 00:10:55,400
+And they work with unpreserved,
+fresh cadavers,
+
+255
+00:10:55,400 --> 00:10:56,870
+because when you take
+formaldehyde
+
+256
+00:10:56,870 --> 00:10:58,530
+and you preserve a cadaver,
+
+257
+00:10:58,530 --> 00:11:01,030
+it binds and hardens
+all the fascia together,
+
+258
+00:11:01,030 --> 00:11:02,930
+and it loses some of
+the key qualities that matter
+
+259
+00:11:02,930 --> 00:11:04,970
+in a living body, all right.
+
+260
+00:11:04,970 --> 00:11:06,500
+So they've been doing
+these dissections
+
+261
+00:11:06,500 --> 00:11:09,430
+and trying to follow the long
+lines of fibers in the body,
+
+262
+00:11:09,430 --> 00:11:11,270
+and what you see over here,
+for instance,
+
+263
+00:11:11,270 --> 00:11:13,800
+is the continuous connection
+
+264
+00:11:13,800 --> 00:11:17,170
+from the trapezius,
+sort of the muscles up here,
+
+265
+00:11:17,170 --> 00:11:18,570
+all the way down
+to your fingers.
+
+266
+00:11:18,570 --> 00:11:20,930
+That is one system,
+and it's actually continuous
+
+267
+00:11:20,930 --> 00:11:22,600
+with the rest of the body, too,
+right.
+
+268
+00:11:22,600 --> 00:11:24,830
+But that's just one segment
+that you can go look at.
+
+269
+00:11:24,830 --> 00:11:27,030
+And so now
+you start thinking about
+
+270
+00:11:27,030 --> 00:11:29,870
+the tensile connections
+
+271
+00:11:29,870 --> 00:11:32,900
+and pathways in the body
+as being the primary way
+
+272
+00:11:32,900 --> 00:11:35,900
+that forces and loads are
+transmitted through the body,
+
+273
+00:11:35,900 --> 00:11:37,100
+and those are important, right?
+
+274
+00:11:37,100 --> 00:11:38,700
+When you move, you step,
+when you push on things,
+
+275
+00:11:38,700 --> 00:11:40,930
+those are all forces and loads
+that you need to move through
+
+276
+00:11:40,930 --> 00:11:42,800
+the body in different ways
+
+277
+00:11:42,800 --> 00:11:45,170
+and control and manage in order
+to be able to walk and move
+
+278
+00:11:45,170 --> 00:11:47,170
+and carry things of the world.
+
+279
+00:11:47,170 --> 00:11:49,270
+So what's really interesting,
+and this is--
+
+280
+00:11:49,270 --> 00:11:51,400
+this becomes much more
+speculative is that Tom Myers,
+
+281
+00:11:51,400 --> 00:11:54,170
+he calls one of his books
+"Anatomy Trains,"
+
+282
+00:11:54,170 --> 00:11:57,470
+he's mapped out a number of
+these long-distance pathways
+
+283
+00:11:57,470 --> 00:11:59,370
+and he finds that they end up
+looking a lot like
+
+284
+00:11:59,370 --> 00:12:02,070
+the meridians of Chinese
+acupuncture, right,
+285
+00:12:02,070 --> 00:12:04,430
+and so that's interesting.
+
+286
+00:12:04,430 --> 00:12:06,770
+There's some research
+that sort of indicates
+
+287
+00:12:06,770 --> 00:12:10,400
+that, again, it's along these
+pathways of tensile load-bearing
+
+288
+00:12:10,400 --> 00:12:13,500
+that you get your primary
+proprioceptive centers.
+
+289
+00:12:13,500 --> 00:12:15,830
+All the strain gauges,
+the Golgi tendon organs
+
+290
+00:12:15,830 --> 00:12:18,430
+is what they're called,
+and other sensors
+
+291
+00:12:18,430 --> 00:12:20,430
+that tell us where
+and how our body is moving
+
+292
+00:12:20,430 --> 00:12:21,900
+and dealing with forces,
+
+293
+00:12:21,900 --> 00:12:25,630
+tend to concentrate along these
+pathways of load transfer,
+
+294
+00:12:25,630 --> 00:12:26,770
+which makes sense.
+
+295
+00:12:26,770 --> 00:12:28,200
+That's right where
+the loads are,
+
+296
+00:12:28,200 --> 00:12:29,670
+that's right where we need
+to measure things.
+
+297
+00:12:29,670 --> 00:12:30,870
+And so it is possible that
+
+298
+00:12:30,870 --> 00:12:32,570
+that's part of what
+acupuncture is doing
+
+299
+00:12:32,570 --> 00:12:35,430
+is starting to play with these
+sensory inputs to ourselves,
+
+300
+00:12:35,430 --> 00:12:38,500
+and therefore, jiggle with
+our control systems
+
+301
+00:12:38,500 --> 00:12:40,700
+in interesting and unique ways.
+
+302
+00:12:40,700 --> 00:12:42,530
+Very speculative at that point.
+
+303
+00:12:42,530 --> 00:12:44,630
+So...
+
+304
+00:12:44,630 --> 00:12:46,830
+Now, having sort of introduced
+this idea of the body
+
+305
+00:12:46,830 --> 00:12:49,000
+as primarily a tensile system,
+
+306
+00:12:49,000 --> 00:12:50,900
+though it obviously does have
+bones in there.
+
+307
+00:12:50,900 --> 00:12:52,200
+They are playing a role.
+
+308
+00:12:52,200 --> 00:12:53,270
+I wanted to sort of point out,
+
+309
+00:12:53,270 --> 00:12:54,570
+like, what are we used to
+building?
+
+310
+00:12:54,570 --> 00:12:56,170
+We're used to building things
+like this,
+
+311
+00:12:56,170 --> 00:12:59,130
+like this house on the side of
+the picture here, this building.
+
+312
+00:12:59,130 --> 00:13:01,100
+We build static objects
+that are load-bearing.
+
+313
+00:13:01,100 --> 00:13:03,600
+We call them continuous
+compression structures, right.
+
+314
+00:13:03,600 --> 00:13:06,430
+The load of the roof rests on
+the walls
+
+315
+00:13:06,430 --> 00:13:08,170
+and that passes
+to the next floor down,
+
+316
+00:13:08,170 --> 00:13:09,730
+and it accumulates
+and accumulates load
+317
+00:13:09,730 --> 00:13:11,600
+all the way down to the ground.
+
+318
+00:13:11,600 --> 00:13:13,970
+I used to work with this robot
+
+319
+00:13:13,970 --> 00:13:17,770
+that--that was built down at
+JPL, Jet Propulsion Laboratory,
+
+320
+00:13:17,770 --> 00:13:19,930
+and it's called ATHLETE.
+
+321
+00:13:19,930 --> 00:13:21,600
+It was designed to carry
+
+322
+00:13:21,600 --> 00:13:23,900
+lunar habitat infrastructure
+components,
+
+323
+00:13:23,900 --> 00:13:27,500
+big pieces of--
+of hardware on the moon,
+
+324
+00:13:27,500 --> 00:13:29,470
+where you don't have forklifts
+to take it off the lander
+
+325
+00:13:29,470 --> 00:13:31,000
+and all of that.
+
+326
+00:13:31,000 --> 00:13:33,400
+So it was able to walk and roll,
+do all sorts of amazing things.
+
+327
+00:13:33,400 --> 00:13:37,000
+It has six legs with seven
+degrees of freedom in each leg.
+328
+00:13:37,000 --> 00:13:39,470
+And the most recent version of
+ATHLETE
+
+329
+00:13:39,470 --> 00:13:40,830
+was, I think, six meters.
+
+330
+00:13:40,830 --> 00:13:43,130
+It could spread its legs
+up to six meters wide, four--
+
+331
+00:13:43,130 --> 00:13:45,570
+It could stand four meters tall,
+very big robot.
+
+332
+00:13:45,570 --> 00:13:48,300
+And I was working on
+walking algorithms for it.
+
+333
+00:13:48,300 --> 00:13:50,530
+And this robot can do
+amazing things, right.
+
+334
+00:13:50,530 --> 00:13:52,800
+It can climb over complex cliffs
+and ledges.
+
+335
+00:13:52,800 --> 00:13:55,430
+Takes all day to sort of figure
+out every little detail
+
+336
+00:13:55,430 --> 00:13:57,070
+to make it happen,
+but it can do it, right?
+
+337
+00:13:57,070 --> 00:13:58,830
+Really capable robot.
+
+338
+00:13:58,830 --> 00:14:02,030
+And yet, there we were sometimes
+in the Mars Yard,
+
+339
+00:14:02,030 --> 00:14:04,430
+which is their flat dirt yard
+where they do Rover testing,
+
+340
+00:14:04,430 --> 00:14:06,400
+and would be on what to the rest
+of us would appear
+
+341
+00:14:06,400 --> 00:14:10,630
+essentially flat ground, and--
+dirt ground,
+
+342
+00:14:10,630 --> 00:14:13,530
+and suddenly one of the ankles
+would be completely saturated,
+
+343
+00:14:13,530 --> 00:14:15,800
+like, over-torqued,
+couldn't do anything.
+
+344
+00:14:15,800 --> 00:14:17,330
+We had to sort of reposition
+the whole robot
+
+345
+00:14:17,330 --> 00:14:19,100
+until we got the loads
+off of that ankle
+
+346
+00:14:19,100 --> 00:14:21,370
+and it could move again
+on flat ground.
+
+347
+00:14:21,370 --> 00:14:24,200
+And what I came to realize
+was that
+
+348
+00:14:24,200 --> 00:14:26,170
+because it's
+a rigid structure--
+
+349
+00:14:26,170 --> 00:14:28,170
+there's this rigid pinned
+connection
+
+350
+00:14:28,170 --> 00:14:29,470
+between all the components--
+
+351
+00:14:29,470 --> 00:14:32,570
+you were able to get
+six-meter-long lever arms
+
+352
+00:14:32,570 --> 00:14:34,230
+internal to the structure.
+
+353
+00:14:34,230 --> 00:14:37,000
+So even if you stood on some
+small, little lump of dirt,
+
+354
+00:14:37,000 --> 00:14:39,170
+that could be enough,
+with a six-meter--
+
+355
+00:14:39,170 --> 00:14:41,200
+six meters of leverage
+
+356
+00:14:41,200 --> 00:14:44,970
+to cause enormous torques and
+loads to enter into the joints.
+
+357
+00:14:44,970 --> 00:14:47,270
+And this is one of
+the core limitations
+
+358
+00:14:47,270 --> 00:14:50,830
+of sort of a traditional,
+rigidly defined structure.
+359
+00:14:50,830 --> 00:14:52,470
+And if you really want
+to think about it in a--
+
+360
+00:14:52,470 --> 00:14:55,630
+in a more sort of
+philosophical perspective,
+
+361
+00:14:55,630 --> 00:14:57,930
+these kinds of rigidly designed
+systems
+
+362
+00:14:57,930 --> 00:14:59,900
+where everything is sort of
+connected together
+
+363
+00:14:59,900 --> 00:15:01,300
+the way we build our houses,
+
+364
+00:15:01,300 --> 00:15:03,570
+they're really good for
+building static structures,
+
+365
+00:15:03,570 --> 00:15:04,730
+something that's gonna
+sit still.
+
+366
+00:15:04,730 --> 00:15:05,970
+You define all the load paths.
+
+367
+00:15:05,970 --> 00:15:07,100
+You know exactly where
+it's gonna go.
+
+368
+00:15:07,100 --> 00:15:08,770
+You put the materials
+exactly there.
+
+369
+00:15:08,770 --> 00:15:11,070
+It supports the loads,
+boom, you're fine.
+
+370
+00:15:11,070 --> 00:15:12,500
+And then we've taken that
+concept
+
+371
+00:15:12,500 --> 00:15:14,470
+and we started adding motors to
+it and said, hey, look,
+
+372
+00:15:14,470 --> 00:15:15,700
+we can make moving structures.
+
+373
+00:15:15,700 --> 00:15:17,900
+But it's the wrong
+structural concept
+
+374
+00:15:17,900 --> 00:15:20,930
+for something that's
+intended to move.
+
+375
+00:15:20,930 --> 00:15:24,270
+So this is what brings us to
+tensegrity structures.
+
+376
+00:15:24,270 --> 00:15:28,270
+Tensegrity is a word coined by
+Buckminster Fuller.
+
+377
+00:15:28,270 --> 00:15:30,930
+It comes from "tension"
+and "integrity."
+
+378
+00:15:30,930 --> 00:15:33,170
+And it is this structural
+concept
+
+379
+00:15:33,170 --> 00:15:35,070
+that looks at
+the tensile network
+
+380
+00:15:35,070 --> 00:15:37,470
+as the primary system
+
+381
+00:15:37,470 --> 00:15:39,930
+for integrating the whole
+structure, right.
+
+382
+00:15:39,930 --> 00:15:43,270
+So you get these very
+interesting art structures
+
+383
+00:15:43,270 --> 00:15:45,670
+where these rods are just
+floating in space
+
+384
+00:15:45,670 --> 00:15:47,930
+and they're held together by
+the tension network of cables.
+
+385
+00:15:47,930 --> 00:15:51,000
+Very fascinating,
+very sort of awe-inspiring.
+
+386
+00:15:51,000 --> 00:15:53,730
+You can--if you're local,
+you can go to Stanford
+
+387
+00:15:53,730 --> 00:15:55,800
+and there's one of them
+on the campus there.
+
+388
+00:15:55,800 --> 00:15:59,370
+So I think maybe my years there
+made it sort of intuitive to me
+
+389
+00:15:59,370 --> 00:16:02,970
+that such a thing would exist
+and--and it was sensible.
+390
+00:16:02,970 --> 00:16:05,330
+But it's very counter to
+our traditional way of thinking
+
+391
+00:16:05,330 --> 00:16:07,430
+about structures.
+
+392
+00:16:07,430 --> 00:16:11,500
+They have a number of really
+interesting physical properties,
+
+393
+00:16:11,500 --> 00:16:14,200
+now that you've sort of switched
+around how things work.
+
+394
+00:16:14,200 --> 00:16:16,570
+One of them is that
+they have a very high
+
+395
+00:16:16,570 --> 00:16:18,400
+strength-to-weight ratio, right.
+
+396
+00:16:18,400 --> 00:16:21,000
+The--the--the materials are
+either experiencing
+
+397
+00:16:21,000 --> 00:16:22,730
+pure compression,
+
+398
+00:16:22,730 --> 00:16:25,000
+where those rods are being
+squeezed by the tensile network,
+
+399
+00:16:25,000 --> 00:16:27,500
+or the cables are experiencing
+pure tension.
+
+400
+00:16:27,500 --> 00:16:31,130
+So you don't need to deal with
+bending and shear forces
+
+401
+00:16:31,130 --> 00:16:33,870
+to the same extent you do
+in a traditional mechanism.
+
+402
+00:16:33,870 --> 00:16:36,370
+You're also--you don't have
+internal lever arms
+
+403
+00:16:36,370 --> 00:16:39,300
+where you are magnifying
+the forces into joints,
+
+404
+00:16:39,300 --> 00:16:42,170
+like I showed on that JPL robot,
+the ATHLETE,
+
+405
+00:16:42,170 --> 00:16:44,570
+which is a great robot,
+by the way.
+
+406
+00:16:44,570 --> 00:16:47,130
+You're not magnifying those
+forces into those joints
+
+407
+00:16:47,130 --> 00:16:50,000
+so you don't have to massively
+oversize them to,
+
+408
+00:16:50,000 --> 00:16:52,600
+you know, deal with all
+the forces that accumulate.
+
+409
+00:16:52,600 --> 00:16:55,400
+Instead, these structures have
+an interesting property
+
+410
+00:16:55,400 --> 00:16:58,530
+of distributing and diffusing
+applied loads.
+
+411
+00:16:58,530 --> 00:16:59,970
+You see on my little chart here,
+
+412
+00:16:59,970 --> 00:17:02,800
+if you push down
+on one of those rods,
+
+413
+00:17:02,800 --> 00:17:05,770
+that force actually propagates
+and diffuses
+
+414
+00:17:05,770 --> 00:17:07,770
+through the whole structure
+such that all the cables
+
+415
+00:17:07,770 --> 00:17:11,200
+and all the rods participate
+in absorbing that stress
+
+416
+00:17:11,200 --> 00:17:12,900
+and it spreads it out.
+
+417
+00:17:12,900 --> 00:17:14,730
+And this is something that you
+see in our bodies, too, right.
+
+418
+00:17:14,730 --> 00:17:16,500
+We do amazing things
+
+419
+00:17:16,500 --> 00:17:18,370
+because we are able to use
+our whole bodies
+
+420
+00:17:18,370 --> 00:17:20,930
+to, you know, hold ourselves in
+strange and--
+421
+00:17:20,930 --> 00:17:22,830
+and awkward positions.
+
+422
+00:17:22,830 --> 00:17:25,470
+I'll show you some images
+of that later.
+
+423
+00:17:25,470 --> 00:17:28,500
+And another thing that's very
+valuable about these
+
+424
+00:17:28,500 --> 00:17:30,570
+is that they have
+tunable stiffness.
+
+425
+00:17:30,570 --> 00:17:34,270
+You find this in modern robotics
+as we take robots out of the lab
+
+426
+00:17:34,270 --> 00:17:36,800
+and we try to get them to move
+in real-world situations,
+
+427
+00:17:36,800 --> 00:17:38,730
+how stiff you are
+is very important, right.
+
+428
+00:17:38,730 --> 00:17:40,700
+If you bump into something
+accidentally,
+
+429
+00:17:40,700 --> 00:17:42,030
+you want to be soft.
+
+430
+00:17:42,030 --> 00:17:45,430
+You want to not break the podium
+or yourself, right.
+
+431
+00:17:45,430 --> 00:17:47,030
+You want to comply to that.
+
+432
+00:17:47,030 --> 00:17:49,400
+Yet, at the same time, if you
+want to pick up a heavy load,
+
+433
+00:17:49,400 --> 00:17:51,200
+you need to become a little
+rigid to do that.
+
+434
+00:17:51,200 --> 00:17:52,770
+Otherwise you're just
+gonna be floppy.
+
+435
+00:17:52,770 --> 00:17:54,130
+You're not gonna be able
+to get anything done, right.
+
+436
+00:17:54,130 --> 00:17:55,900
+So you need to be able to change
+your stiffness
+
+437
+00:17:55,900 --> 00:17:57,470
+in order to do different things.
+
+438
+00:17:57,470 --> 00:17:59,830
+As you move across different
+soils, different terrains,
+
+439
+00:17:59,830 --> 00:18:01,300
+you need to change
+your stiffness
+
+440
+00:18:01,300 --> 00:18:02,900
+to adapt to the type of terrain
+you're on.
+
+441
+00:18:02,900 --> 00:18:04,770
+If you're on hard soil
+versus sand,
+442
+00:18:04,770 --> 00:18:06,430
+you actually want a different
+stiffness in your body
+
+443
+00:18:06,430 --> 00:18:09,730
+so that you can move
+efficiently.
+
+444
+00:18:09,730 --> 00:18:11,370
+And these structures enable that
+
+445
+00:18:11,370 --> 00:18:13,070
+because they are pre-tensioned.
+
+446
+00:18:13,070 --> 00:18:14,900
+You can change all the--
+tighten up all the cables
+
+447
+00:18:14,900 --> 00:18:16,470
+and the whole thing
+becomes stiffer.
+
+448
+00:18:16,470 --> 00:18:18,370
+What's interesting about it,
+though,
+
+449
+00:18:18,370 --> 00:18:21,170
+is that these structures are
+hard to make static.
+
+450
+00:18:21,170 --> 00:18:23,270
+If you look at those art
+structures that I showed you
+
+451
+00:18:23,270 --> 00:18:26,070
+on the last slide,
+they're--you know,
+
+452
+00:18:26,070 --> 00:18:27,870
+people have talked about this
+in architecture.
+
+453
+00:18:27,870 --> 00:18:29,500
+They're like, oh, we can make
+buildings out of this.
+
+454
+00:18:29,500 --> 00:18:31,700
+We're like, well, they're not
+great at static structures.
+
+455
+00:18:31,700 --> 00:18:33,430
+They always want to oscillate.
+
+456
+00:18:33,430 --> 00:18:35,100
+They always want to move
+a little bit,
+
+457
+00:18:35,100 --> 00:18:36,900
+and we'll come back to this when
+we get to the control section,
+
+458
+00:18:36,900 --> 00:18:38,830
+but it's an important quality.
+
+459
+00:18:38,830 --> 00:18:41,030
+These are structures
+that want to move.
+
+460
+00:18:41,030 --> 00:18:44,270
+Inherently the quality
+of the system.
+
+461
+00:18:44,270 --> 00:18:47,130
+So that seems to make sense as
+something you'd want to do
+
+462
+00:18:47,130 --> 00:18:50,000
+if you were gonna build a robot
+that moves.
+
+463
+00:18:50,000 --> 00:18:51,730
+Other interesting clues we have
+
+464
+00:18:51,730 --> 00:18:53,230
+is that there are
+a number of researchers
+
+465
+00:18:53,230 --> 00:18:55,970
+who have been looking at
+tensegrity systems in biology.
+
+466
+00:18:55,970 --> 00:18:58,130
+So we have folks like
+Donald Ingber
+
+467
+00:18:58,130 --> 00:18:59,730
+at the Harvard Wyss Institute
+
+468
+00:18:59,730 --> 00:19:01,670
+who has spent
+the last 20, 30 years
+
+469
+00:19:01,670 --> 00:19:03,970
+looking at cell structures,
+
+470
+00:19:03,970 --> 00:19:06,500
+the microtubules
+and microfilaments in cells,
+
+471
+00:19:06,500 --> 00:19:09,470
+and seeing a lot of similarity
+to the tensegrity systems
+
+472
+00:19:09,470 --> 00:19:11,430
+that we build as--as humans.
+
+473
+00:19:11,430 --> 00:19:15,070
+And so he's built various models
+of them.
+
+474
+00:19:15,070 --> 00:19:18,430
+And there's other folks who are
+looking at our gross physiology
+
+475
+00:19:18,430 --> 00:19:21,470
+as tensegrity structures, right,
+so spines and knees and legs.
+
+476
+00:19:21,470 --> 00:19:23,400
+And a spine's a really
+interesting one, right?
+
+477
+00:19:23,400 --> 00:19:26,570
+I have this model in my lab,
+or a similar model to it,
+
+478
+00:19:26,570 --> 00:19:27,770
+and you can compress it.
+
+479
+00:19:27,770 --> 00:19:29,470
+You can put load on it
+
+480
+00:19:29,470 --> 00:19:31,130
+and the vertebrae don't touch.
+
+481
+00:19:31,130 --> 00:19:33,230
+All the forces pass through
+the cables, right.
+
+482
+00:19:33,230 --> 00:19:34,870
+And it can still hold itself up
+
+483
+00:19:34,870 --> 00:19:36,630
+and all the vertebrae
+are kind of floating,
+
+484
+00:19:36,630 --> 00:19:38,200
+and this is really compelling,
+right.
+
+485
+00:19:38,200 --> 00:19:40,800
+It's--it's not an exact model of
+how our spine works.
+
+486
+00:19:40,800 --> 00:19:42,430
+It's abstracted and simplified,
+
+487
+00:19:42,430 --> 00:19:44,400
+and there's a lot of research
+still to be done here,
+
+488
+00:19:44,400 --> 00:19:47,300
+but, you know, we--
+what one would wonder,
+
+489
+00:19:47,300 --> 00:19:49,730
+if you take the traditional view
+of our spine
+
+490
+00:19:49,730 --> 00:19:51,570
+being a stack of vertebrae
+and disks,
+
+491
+00:19:51,570 --> 00:19:52,970
+why don't we all have
+bulging disks?
+
+492
+00:19:52,970 --> 00:19:55,000
+Why don't we all have
+pinched nerves, right?
+
+493
+00:19:55,000 --> 00:19:56,430
+One of the arguments that I make
+
+494
+00:19:56,430 --> 00:20:00,330
+is that because primarily
+495
+00:20:00,330 --> 00:20:03,870
+the loads and forces should be
+passing through your muscles
+
+496
+00:20:03,870 --> 00:20:06,330
+and your tendons and ligaments,
+
+497
+00:20:06,330 --> 00:20:08,800
+and it's when you get
+out of balance,
+
+498
+00:20:08,800 --> 00:20:11,500
+when you've been spending
+ten hours a day sitting,
+
+499
+00:20:11,500 --> 00:20:13,700
+working or in front of
+the television or in a car,
+
+500
+00:20:13,700 --> 00:20:16,970
+that you are starting to get
+a dysfunction
+
+501
+00:20:16,970 --> 00:20:18,500
+in that balance of tension
+
+502
+00:20:18,500 --> 00:20:21,730
+and no longer keep those
+vertebrae floating separately
+
+503
+00:20:21,730 --> 00:20:23,000
+like they should be.
+
+504
+00:20:23,000 --> 00:20:26,300
+So this--and this story goes
+a lot deeper,
+
+505
+00:20:26,300 --> 00:20:28,100
+but that's just to give
+some ideas
+
+506
+00:20:28,100 --> 00:20:31,370
+of what--what's out there
+and what's possible.
+
+507
+00:20:31,370 --> 00:20:34,100
+So taking all that inspiration,
+
+508
+00:20:34,100 --> 00:20:36,430
+I'm gonna show you a little bit
+of the robotics work
+
+509
+00:20:36,430 --> 00:20:39,070
+that then we're doing here
+at NASA with this
+
+510
+00:20:39,070 --> 00:20:41,230
+to explore this possibility
+
+511
+00:20:41,230 --> 00:20:43,730
+as a way to design
+the future robots.
+
+512
+00:20:43,730 --> 00:20:47,600
+And then we'll end up talking
+about how we can control them.
+
+513
+00:20:47,600 --> 00:20:51,900
+So again, SUPERball,
+right now we build robots
+
+514
+00:20:51,900 --> 00:20:55,170
+and then we pack 'em in these--
+with various landing systems,
+
+515
+00:20:55,170 --> 00:20:58,730
+air bags, you know,
+sky cranes, whatever,
+516
+00:20:58,730 --> 00:21:01,500
+very complex systems that you
+use once and then discard.
+
+517
+00:21:01,500 --> 00:21:03,270
+It's a lot of mass
+that you've wasted.
+
+518
+00:21:03,270 --> 00:21:05,430
+I mean, you need it 'cause
+that's the critical moment,
+
+519
+00:21:05,430 --> 00:21:07,900
+but could you
+get away from that?
+
+520
+00:21:07,900 --> 00:21:09,270
+And so what
+we're showing here is,
+
+521
+00:21:09,270 --> 00:21:11,670
+in this very first prototype,
+
+522
+00:21:11,670 --> 00:21:14,100
+we actually designed this
+prototype to really explore
+
+523
+00:21:14,100 --> 00:21:16,230
+how it can move,
+how it can roll,
+
+524
+00:21:16,230 --> 00:21:18,430
+so we put a lot of focus into
+its--its--
+
+525
+00:21:18,430 --> 00:21:21,330
+just the mechatronics of
+designing the motors
+526
+00:21:21,330 --> 00:21:24,200
+and actuators and controls
+for it
+
+527
+00:21:24,200 --> 00:21:26,230
+and yet, despite that,
+not really--
+
+528
+00:21:26,230 --> 00:21:28,330
+despite not really focusing on
+the landing part,
+
+529
+00:21:28,330 --> 00:21:30,730
+we were able to, as you see,
+drop it off of
+
+530
+00:21:30,730 --> 00:21:32,700
+even just one-meter-tall
+loading docks,
+
+531
+00:21:32,700 --> 00:21:36,730
+which most robots of this size
+don't handle very gracefully.
+
+532
+00:21:36,730 --> 00:21:40,370
+So that's kind of
+where we are.
+
+533
+00:21:40,370 --> 00:21:43,170
+And what's interesting is when
+you build the kind of robot
+
+534
+00:21:43,170 --> 00:21:46,100
+that--something that could land
+from orbit safely
+
+535
+00:21:46,100 --> 00:21:47,370
+and not break,
+
+536
+00:21:47,370 --> 00:21:50,230
+it also changes how you explore
+another planet.
+
+537
+00:21:50,230 --> 00:21:52,130
+There's lots of places
+we want to go where
+
+538
+00:21:52,130 --> 00:21:55,270
+the science is not necessarily
+the easy place, right?
+
+539
+00:21:55,270 --> 00:21:57,270
+I mean, nice big, flat fields,
+you find a rock,
+
+540
+00:21:57,270 --> 00:21:58,630
+that's great, right?
+
+541
+00:21:58,630 --> 00:22:00,270
+We can do that with our Rovers
+today.
+
+542
+00:22:00,270 --> 00:22:02,570
+But science isn't waiting for us
+
+543
+00:22:02,570 --> 00:22:03,800
+where it's easy for us to go.
+
+544
+00:22:03,800 --> 00:22:05,500
+We need to build the robots
+that can handle
+
+545
+00:22:05,500 --> 00:22:07,570
+the risky and dangerous places
+where the science--
+
+546
+00:22:07,570 --> 00:22:09,400
+the good science really is.
+547
+00:22:09,400 --> 00:22:11,600
+And so for instance, we want to
+explore places like Europa,
+
+548
+00:22:11,600 --> 00:22:13,600
+one of the icy moons
+
+549
+00:22:13,600 --> 00:22:15,800
+that may harbor life
+under that crust of ice
+
+550
+00:22:15,800 --> 00:22:17,530
+in that subsurface ocean.
+
+551
+00:22:17,530 --> 00:22:20,970
+We speculate that the surface
+may be very, very jagged
+
+552
+00:22:20,970 --> 00:22:24,230
+and complicated tumble
+of ice blocks
+
+553
+00:22:24,230 --> 00:22:26,870
+that have, you know, broken
+and refused and whatnot.
+
+554
+00:22:26,870 --> 00:22:28,500
+We don't really know yet,
+
+555
+00:22:28,500 --> 00:22:30,130
+but it could be a very, very
+difficult environment
+
+556
+00:22:30,130 --> 00:22:32,730
+that a traditional Rover
+would not do well with.
+
+557
+00:22:32,730 --> 00:22:35,300
+So we want to be able to send
+a robot there,
+
+558
+00:22:35,300 --> 00:22:36,830
+or anywhere,
+
+559
+00:22:36,830 --> 00:22:39,730
+where there's an inherent risk
+of it slipping,
+
+560
+00:22:39,730 --> 00:22:42,000
+an inherent risk of it falling,
+right.
+
+561
+00:22:42,000 --> 00:22:44,230
+That's--that could happen if
+you're gonna go somewhere
+
+562
+00:22:44,230 --> 00:22:47,070
+that's, you know, more complex
+than an easy, flat terrain.
+
+563
+00:22:47,070 --> 00:22:49,930
+And so if that happens, what
+robot's gonna survive that?
+
+564
+00:22:49,930 --> 00:22:51,830
+That's really the quality you
+need to--to look at,
+
+565
+00:22:51,830 --> 00:22:53,170
+the structure of the robot.
+
+566
+00:22:53,170 --> 00:22:55,630
+How is it gonna survive
+the unexpected, right?
+
+567
+00:22:55,630 --> 00:22:57,070
+You can plan all you want,
+
+568
+00:22:57,070 --> 00:22:58,700
+but if the soil turns out
+from underneath your foot
+
+569
+00:22:58,700 --> 00:23:01,100
+and you fall,
+what happens next?
+
+570
+00:23:01,100 --> 00:23:03,830
+And so building the robots
+that can handle the risk
+
+571
+00:23:03,830 --> 00:23:06,970
+of real rough--
+real-world situations
+
+572
+00:23:06,970 --> 00:23:09,470
+is sort of one of my motivators
+in all of this.
+
+573
+00:23:09,470 --> 00:23:13,270
+We started doing this a couple
+years ago with some funding
+
+574
+00:23:13,270 --> 00:23:16,200
+from the NASA Innovative
+Advanced Concepts Program,
+
+575
+00:23:16,200 --> 00:23:19,200
+which is a very sort of
+early stage new ideas program.
+
+576
+00:23:19,200 --> 00:23:21,000
+And we started--
+I started by building
+
+577
+00:23:21,000 --> 00:23:23,370
+a physics-based simulator,
+NTRT,
+
+578
+00:23:23,370 --> 00:23:24,830
+the NASA Tensegrity
+Robotics Toolkit.
+
+579
+00:23:24,830 --> 00:23:26,400
+This has actually been
+open sourced.
+
+580
+00:23:26,400 --> 00:23:28,930
+You can find it on GitHub,
+and you can use it.
+
+581
+00:23:28,930 --> 00:23:30,600
+You can--can, you know,
+
+582
+00:23:30,600 --> 00:23:32,400
+participate in the community
+that's using it.
+
+583
+00:23:32,400 --> 00:23:35,000
+And we have made it easy
+to design
+
+584
+00:23:35,000 --> 00:23:37,130
+new tensegrity structures.
+
+585
+00:23:37,130 --> 00:23:40,130
+We've integrated all sorts of
+machine learning techniques
+
+586
+00:23:40,130 --> 00:23:42,530
+and some of the neuroscience
+inspired control techniques
+
+587
+00:23:42,530 --> 00:23:44,630
+that I'll mention later,
+
+588
+00:23:44,630 --> 00:23:46,670
+and really sort of built it up
+as a system
+589
+00:23:46,670 --> 00:23:50,000
+that can allow for
+the exploration of both form
+
+590
+00:23:50,000 --> 00:23:52,630
+and structure and locomotion
+and movement
+
+591
+00:23:52,630 --> 00:23:55,030
+and really to try to be a touch
+point for a community of people
+
+592
+00:23:55,030 --> 00:23:57,900
+interested in furthering
+this arm of science.
+
+593
+00:23:57,900 --> 00:24:00,200
+And, of course,
+it is an ongoing project,
+
+594
+00:24:00,200 --> 00:24:02,530
+so it can always use
+more help, too.
+
+595
+00:24:02,530 --> 00:24:05,570
+And so we did various studies,
+right.
+
+596
+00:24:05,570 --> 00:24:07,430
+So this is one study
+that just showed
+
+597
+00:24:07,430 --> 00:24:08,800
+that you can take these--
+the structure
+
+598
+00:24:08,800 --> 00:24:11,430
+and you can pack it flat
+and then deploy it,
+599
+00:24:11,430 --> 00:24:13,030
+turn it into its full shape,
+
+600
+00:24:13,030 --> 00:24:15,170
+and that helps you when you're
+launching stuff into space
+
+601
+00:24:15,170 --> 00:24:16,700
+'cause it all has to fit
+into a rocket.
+
+602
+00:24:16,700 --> 00:24:19,930
+So anything you can pack small
+and then deploy is helpful.
+
+603
+00:24:19,930 --> 00:24:22,800
+You can put a payload
+in the center of it
+
+604
+00:24:22,800 --> 00:24:25,200
+where that ball is
+and really protect that.
+
+605
+00:24:25,200 --> 00:24:28,100
+That ball ends up acting like
+the--the key elements
+
+606
+00:24:28,100 --> 00:24:29,830
+inside your air bag, right.
+
+607
+00:24:29,830 --> 00:24:32,130
+So you can make sure that,
+you know,
+
+608
+00:24:32,130 --> 00:24:35,170
+your sensitive instruments are
+safely protected on landing
+
+609
+00:24:35,170 --> 00:24:38,100
+It can roll over a variety
+of complex terrains.
+
+610
+00:24:38,100 --> 00:24:39,870
+It is kind of like a ball.
+
+611
+00:24:39,870 --> 00:24:41,470
+It kind of has that spherical
+rolling thing,
+
+612
+00:24:41,470 --> 00:24:43,200
+but it also has feet,
+if you will.
+
+613
+00:24:43,200 --> 00:24:45,170
+So we call it
+punctuated rolling.
+
+614
+00:24:45,170 --> 00:24:48,430
+It's an interesting hybrid
+between rolling and walking.
+
+615
+00:24:48,430 --> 00:24:51,100
+So there's a lot that it can do.
+
+616
+00:24:51,100 --> 00:24:54,970
+And then...
+
+617
+00:24:54,970 --> 00:24:58,670
+It also--I've shown that you
+can remove one of the cables
+
+618
+00:24:58,670 --> 00:25:00,130
+that would normally
+have been there,
+
+619
+00:25:00,130 --> 00:25:02,270
+and you can still get the whole
+thing to hold together and roll.
+620
+00:25:02,270 --> 00:25:04,970
+So it's--it's redundant
+to some of these failures
+
+621
+00:25:04,970 --> 00:25:07,730
+that might come up.
+
+622
+00:25:07,730 --> 00:25:10,630
+And we did some early
+prototype testing.
+
+623
+00:25:10,630 --> 00:25:13,130
+This was with some students
+from University of Idaho.
+
+624
+00:25:13,130 --> 00:25:14,700
+They built various prototypes.
+
+625
+00:25:14,700 --> 00:25:17,770
+They put--they put
+accelerometers in it
+
+626
+00:25:17,770 --> 00:25:20,530
+and started dropping it
+and gathered the data
+
+627
+00:25:20,530 --> 00:25:22,570
+and found that it matched
+our analytical models.
+
+628
+00:25:22,570 --> 00:25:23,970
+So it really
+gave us confidence that
+
+629
+00:25:23,970 --> 00:25:26,430
+the physics-based simulations
+we were doing
+
+630
+00:25:26,430 --> 00:25:27,500
+were holding up to reality,
+
+631
+00:25:27,500 --> 00:25:29,470
+in that, okay, this is
+reasonable to do
+
+632
+00:25:29,470 --> 00:25:31,330
+from a structural perspective,
+
+633
+00:25:31,330 --> 00:25:34,730
+that you could land at
+15 meters a second and survive.
+
+634
+00:25:34,730 --> 00:25:38,100
+So then the next question is,
+can you make it move and also--
+
+635
+00:25:38,100 --> 00:25:40,000
+and have that
+whole structure land
+
+636
+00:25:40,000 --> 00:25:42,300
+at 15 meters a second
+and survive?
+
+637
+00:25:42,300 --> 00:25:44,300
+So we started building
+various prototypes
+
+638
+00:25:44,300 --> 00:25:46,200
+and in that prototype there,
+we actually put it
+
+639
+00:25:46,200 --> 00:25:48,200
+in a motion capture system
+
+640
+00:25:48,200 --> 00:25:50,100
+and, again, compared it to
+our simulator to say,
+641
+00:25:50,100 --> 00:25:53,100
+okay, look, the--the motion
+controls that we developed
+
+642
+00:25:53,100 --> 00:25:55,530
+in simulation seemed to be
+holding up in reality.
+
+643
+00:25:55,530 --> 00:25:57,130
+And then that led us to
+
+644
+00:25:57,130 --> 00:25:59,530
+the SUPERball prototype
+that you see now,
+
+645
+00:25:59,530 --> 00:26:01,470
+which is our current prototype
+that we're working with.
+
+646
+00:26:01,470 --> 00:26:03,100
+It's not a full prototype.
+
+647
+00:26:03,100 --> 00:26:05,170
+It's--it's, you know, kind of
+got half the actuators
+
+648
+00:26:05,170 --> 00:26:06,530
+that we'd like it to have,
+
+649
+00:26:06,530 --> 00:26:08,700
+and there's already many lessons
+we've learned
+
+650
+00:26:08,700 --> 00:26:11,430
+that we're gonna, hopefully, fix
+in the next version.
+
+651
+00:26:11,430 --> 00:26:12,730
+But this is how science goes.
+
+652
+00:26:12,730 --> 00:26:14,270
+You--you start with
+what you can and--
+
+653
+00:26:14,270 --> 00:26:16,200
+and it gets better over time.
+
+654
+00:26:16,200 --> 00:26:19,230
+We looked at, you know,
+putting payloads in it
+
+655
+00:26:19,230 --> 00:26:20,600
+and controlling
+where the payload is.
+
+656
+00:26:20,600 --> 00:26:22,070
+So even if you have
+an instrument in that payload,
+
+657
+00:26:22,070 --> 00:26:24,030
+you can drop the payload
+down to the ground
+
+658
+00:26:24,030 --> 00:26:26,330
+and take direct samples
+of the soil
+
+659
+00:26:26,330 --> 00:26:28,130
+is one of the things you can do.
+
+660
+00:26:28,130 --> 00:26:31,100
+And now that we understand
+
+661
+00:26:31,100 --> 00:26:34,930
+how to do a lot of
+the basics of locomotion
+
+662
+00:26:34,930 --> 00:26:36,630
+with this robot,
+
+663
+00:26:36,630 --> 00:26:39,470
+we also are now,
+
+664
+00:26:39,470 --> 00:26:41,130
+under the Game Changing
+Developments Program,
+
+665
+00:26:41,130 --> 00:26:42,600
+pushing this along.
+
+666
+00:26:42,600 --> 00:26:45,030
+We're really pushing things
+like, how do you control--
+
+667
+00:26:45,030 --> 00:26:47,070
+how do you understand
+where it is in space?
+
+668
+00:26:47,070 --> 00:26:48,970
+You know, on a traditional
+robot, you know--
+
+669
+00:26:48,970 --> 00:26:50,470
+you can put--you can put
+a sensor here
+
+670
+00:26:50,470 --> 00:26:52,470
+that tells you exactly what
+angle the joint is at.
+
+671
+00:26:52,470 --> 00:26:55,530
+Although, again, this is not
+a normal robot joint,
+
+672
+00:26:55,530 --> 00:26:58,700
+but here we started--it's
+a little more complicated.
+673
+00:26:58,700 --> 00:27:00,570
+You've got all this freedom of
+motion between the bones,
+
+674
+00:27:00,570 --> 00:27:02,530
+so how do you tell where they
+are relative to each other?
+
+675
+00:27:02,530 --> 00:27:05,100
+How do you manage to sense
+its overall state?
+
+676
+00:27:05,100 --> 00:27:08,200
+So we--we've pushed
+that algorithm forward,
+
+677
+00:27:08,200 --> 00:27:12,500
+and now we're working with some
+collaborators at UC, Berkeley
+
+678
+00:27:12,500 --> 00:27:14,970
+to use some of their advanced
+machine learning techniques
+
+679
+00:27:14,970 --> 00:27:17,870
+to figure out how to
+get this to move, right.
+
+680
+00:27:17,870 --> 00:27:19,600
+I showed you a lot of stuff
+in simulation
+
+681
+00:27:19,600 --> 00:27:21,300
+and we used
+evolutionary algorithms
+
+682
+00:27:21,300 --> 00:27:23,130
+and--and other sort of machine
+learning techniques
+683
+00:27:23,130 --> 00:27:26,270
+that took 10,000 iterations
+to--to complete,
+
+684
+00:27:26,270 --> 00:27:27,830
+which is fine in simulation,
+
+685
+00:27:27,830 --> 00:27:29,000
+but on a real hardware robot,
+
+686
+00:27:29,000 --> 00:27:32,030
+you need to do it in
+a more efficient manner,
+
+687
+00:27:32,030 --> 00:27:34,400
+because 10,000 iterations might
+become a little tedious
+
+688
+00:27:34,400 --> 00:27:36,670
+or otherwise threaten
+to break your robot.
+
+689
+00:27:36,670 --> 00:27:39,530
+So what you see here is a really
+sort of funny jangly movement.
+
+690
+00:27:39,530 --> 00:27:41,470
+It's almost like a baby
+learning to walk.
+
+691
+00:27:41,470 --> 00:27:43,870
+It's randomly
+moving itself around,
+
+692
+00:27:43,870 --> 00:27:47,070
+and from doing so, starting to
+discover its own dynamics.
+
+693
+00:27:47,070 --> 00:27:48,730
+And that's part of this
+algorithm that
+
+694
+00:27:48,730 --> 00:27:50,470
+we're working with
+from Berkeley,
+
+695
+00:27:50,470 --> 00:27:52,070
+the Guided Policy Search
+algorithm.
+
+696
+00:27:52,070 --> 00:27:56,530
+It actually helps learn in
+a very, very few experiments
+
+697
+00:27:56,530 --> 00:27:58,630
+on a hardware robot
+
+698
+00:27:58,630 --> 00:28:01,100
+how to move through
+optimal trajectories
+
+699
+00:28:01,100 --> 00:28:03,470
+and then how to generalize that
+to a broader class of--
+
+700
+00:28:03,470 --> 00:28:05,830
+of motion strategies.
+
+701
+00:28:05,830 --> 00:28:07,200
+So that's kind of
+right where we are
+
+702
+00:28:07,200 --> 00:28:08,730
+in the control state right now.
+
+703
+00:28:08,730 --> 00:28:10,070
+We've gotten a little further
+than this.
+704
+00:28:10,070 --> 00:28:12,100
+I'm just not showing
+the most recent videos.
+
+705
+00:28:12,100 --> 00:28:14,600
+And then, as I mentioned, we're
+making the next prototype,
+
+706
+00:28:14,600 --> 00:28:17,330
+and we hope to do this over
+the course of the next year,
+
+707
+00:28:17,330 --> 00:28:19,570
+SUPERball 2.0.
+
+708
+00:28:19,570 --> 00:28:22,070
+Our intention here is to really
+now take what we understand
+
+709
+00:28:22,070 --> 00:28:24,770
+about how to make it move
+and make it robust to landing
+
+710
+00:28:24,770 --> 00:28:26,400
+and we're gonna start
+rolling this thing
+
+711
+00:28:26,400 --> 00:28:29,170
+off the roof of buildings
+and have it survive.
+
+712
+00:28:29,170 --> 00:28:30,900
+That's my hope.
+
+713
+00:28:30,900 --> 00:28:33,270
+And if that works,
+it'll be fun.
+
+714
+00:28:33,270 --> 00:28:34,770
+And that's just the beginning,
+right?
+
+715
+00:28:34,770 --> 00:28:36,030
+Then we're gonna throw it--
+
+716
+00:28:36,030 --> 00:28:37,370
+throw it at other planets,
+eventually, right, so...
+
+717
+00:28:37,370 --> 00:28:39,470
+[laughs]
+You can't be shy.
+
+718
+00:28:39,470 --> 00:28:41,400
+[laughter]
+
+719
+00:28:41,400 --> 00:28:45,100
+One of our other collaborators
+is at Rutgers University,
+
+720
+00:28:45,100 --> 00:28:46,670
+and they've been looking at,
+
+721
+00:28:46,670 --> 00:28:48,330
+how do you do long-range motion
+planning, right?
+
+722
+00:28:48,330 --> 00:28:50,800
+So you understand the dynamics,
+you can get it to roll,
+
+723
+00:28:50,800 --> 00:28:53,000
+but what if you want to do
+really complicated movements
+
+724
+00:28:53,000 --> 00:28:54,730
+and get through
+complex terrains?
+725
+00:28:54,730 --> 00:28:56,870
+And so they've been using
+some really advanced
+
+726
+00:28:56,870 --> 00:29:00,970
+kinodynamic planning algorithms
+to look at,
+
+727
+00:29:00,970 --> 00:29:05,430
+how would you plan a complex
+trajectory through there?
+
+728
+00:29:05,430 --> 00:29:07,830
+So that's sort of
+the state of SUPERball.
+
+729
+00:29:07,830 --> 00:29:09,900
+But SUPERball is really
+just the first
+
+730
+00:29:09,900 --> 00:29:11,900
+of what many possible robots
+could be.
+
+731
+00:29:11,900 --> 00:29:13,730
+Again, this is
+a structural concept.
+
+732
+00:29:13,730 --> 00:29:16,270
+It's a design approach
+to robotics,
+
+733
+00:29:16,270 --> 00:29:19,600
+and so one of the things we look
+at when we look back at humans
+
+734
+00:29:19,600 --> 00:29:21,600
+is that we move from our core,
+right.
+735
+00:29:21,600 --> 00:29:23,900
+This is going back to like, how
+do people do this stuff, right?
+
+736
+00:29:23,900 --> 00:29:25,400
+I mean, I can't.
+I can do a handstand,
+
+737
+00:29:25,400 --> 00:29:27,430
+or at least I used to be able
+to, but--
+
+738
+00:29:27,430 --> 00:29:29,730
+[laughs]
+but that's crazy.
+
+739
+00:29:29,730 --> 00:29:32,570
+And you talk to any athlete,
+and again, it's from the core,
+
+740
+00:29:32,570 --> 00:29:34,970
+from the--from your spine
+and all these core muscles.
+
+741
+00:29:34,970 --> 00:29:36,830
+That's the source of motion.
+
+742
+00:29:36,830 --> 00:29:39,130
+Yet, you know, you ask
+an amateur to pick up
+
+743
+00:29:39,130 --> 00:29:40,670
+a tennis racket and they swing
+from their arms, right.
+
+744
+00:29:40,670 --> 00:29:43,170
+And then the expert learns
+to drive from here.
+745
+00:29:43,170 --> 00:29:46,300
+And so you look at our robotics
+today, what do we do?
+
+746
+00:29:46,300 --> 00:29:49,300
+We spend a lot of time, if you
+look at legged and armed robots,
+
+747
+00:29:49,300 --> 00:29:51,800
+we spend a lot of time building
+really just complex,
+
+748
+00:29:51,800 --> 00:29:54,000
+compliant, adaptable
+arms and legs
+
+749
+00:29:54,000 --> 00:29:55,730
+and then bolting it
+to a rigid box
+
+750
+00:29:55,730 --> 00:29:57,570
+and calling it a robot, right.
+
+751
+00:29:57,570 --> 00:29:58,630
+Great place to start.
+
+752
+00:29:58,630 --> 00:30:00,000
+We have to start somewhere,
+
+753
+00:30:00,000 --> 00:30:02,030
+but obviously,
+that's still amateur.
+
+754
+00:30:02,030 --> 00:30:04,730
+All right, if we want to have
+really excellent moving robots,
+
+755
+00:30:04,730 --> 00:30:07,030
+we need to get to the point
+where we can understand
+
+756
+00:30:07,030 --> 00:30:09,870
+how the spine works,
+so you can get that dynamic,
+
+757
+00:30:09,870 --> 00:30:12,200
+flexible, and powerful motion.
+
+758
+00:30:12,200 --> 00:30:13,830
+Now, the--the challenge is
+
+759
+00:30:13,830 --> 00:30:15,730
+in a traditional robotics
+control approach,
+
+760
+00:30:15,730 --> 00:30:17,330
+how do you control so many
+degrees of freedom,
+
+761
+00:30:17,330 --> 00:30:19,330
+so many flexible joints
+and--and all that?
+
+762
+00:30:19,330 --> 00:30:21,000
+It's just like--
+it breaks all the rules.
+
+763
+00:30:21,000 --> 00:30:24,570
+It makes the--the algorithms
+really, really complicated.
+
+764
+00:30:24,570 --> 00:30:27,830
+But again, can't be afraid
+of--of things that are hard.
+
+765
+00:30:27,830 --> 00:30:29,970
+Started exploring this,
+really looking at
+766
+00:30:29,970 --> 00:30:31,800
+this tensegrity spine model
+
+767
+00:30:31,800 --> 00:30:33,230
+and exploring,
+well, what can we do?
+
+768
+00:30:33,230 --> 00:30:35,300
+Can we--I want to put arms
+and legs on it eventually,
+
+769
+00:30:35,300 --> 00:30:36,800
+but let's just make it look like
+a snake at first
+
+770
+00:30:36,800 --> 00:30:37,970
+and crawl around just to see,
+
+771
+00:30:37,970 --> 00:30:40,530
+how do we get those
+to control motion?
+
+772
+00:30:40,530 --> 00:30:44,370
+And it's been a very interesting
+path, right?
+
+773
+00:30:44,370 --> 00:30:46,570
+What we found is that the--
+
+774
+00:30:46,570 --> 00:30:49,300
+these are very nice, adaptable,
+flexible systems.
+
+775
+00:30:49,300 --> 00:30:51,330
+They respond well
+with the integrate forces
+
+776
+00:30:51,330 --> 00:30:53,370
+from wherever you--
+you apply them.
+
+777
+00:30:53,370 --> 00:30:55,570
+And we started using,
+
+778
+00:30:55,570 --> 00:30:58,000
+and I'll talk more about this
+in our control system,
+
+779
+00:30:58,000 --> 00:30:59,970
+these ideas out of neuroscience,
+
+780
+00:30:59,970 --> 00:31:03,330
+central pattern generators,
+they are rhythmic controllers.
+
+781
+00:31:03,330 --> 00:31:06,930
+That--this spine actually has
+no central control whatsoever.
+
+782
+00:31:06,930 --> 00:31:09,700
+Each string has its own
+individual controller
+
+783
+00:31:09,700 --> 00:31:12,270
+and they're all oscillating
+in a certain way
+
+784
+00:31:12,270 --> 00:31:15,570
+such that you get this uniform
+behavior of locomotion.
+
+785
+00:31:15,570 --> 00:31:17,630
+And then we started exploring
+around in our simulator
+
+786
+00:31:17,630 --> 00:31:19,230
+different structures, right.
+
+787
+00:31:19,230 --> 00:31:21,770
+If you--if you change the design
+of the spine
+
+788
+00:31:21,770 --> 00:31:23,500
+from that first
+tetrahedral complex
+
+789
+00:31:23,500 --> 00:31:27,730
+to these more interesting
+sort of vertebrae-like systems
+
+790
+00:31:27,730 --> 00:31:29,630
+and then throw our machine
+learning algorithms
+
+791
+00:31:29,630 --> 00:31:32,300
+on top of it and explore it
+until it kind of defines
+
+792
+00:31:32,300 --> 00:31:35,300
+an optimal locomotion pattern,
+what do you get?
+
+793
+00:31:35,300 --> 00:31:37,830
+And so it's this--the space
+
+794
+00:31:37,830 --> 00:31:40,500
+between structural design
+and controls
+
+795
+00:31:40,500 --> 00:31:42,970
+where you can really start
+exploring what's possible.
+
+796
+00:31:42,970 --> 00:31:45,800
+And so then we added ribs to it,
+and you know, to sort of--
+
+797
+00:31:45,800 --> 00:31:48,170
+no direction on how this thing
+should learn,
+
+798
+00:31:48,170 --> 00:31:49,970
+we added ribs
+and it started slithering.
+
+799
+00:31:49,970 --> 00:31:53,070
+I thought that was interesting.
+
+800
+00:31:53,070 --> 00:31:54,230
+[laughter]
+
+801
+00:31:54,230 --> 00:31:55,670
+And then, of course, you know,
+you can always--
+
+802
+00:31:55,670 --> 00:31:57,530
+Again, you always have that fear
+that--that, you know,
+
+803
+00:31:57,530 --> 00:31:58,630
+you're doing stuff
+in a simulator
+
+804
+00:31:58,630 --> 00:32:00,170
+and it's just pretty videos.
+
+805
+00:32:00,170 --> 00:32:02,130
+So we--we built a little
+prototype robot
+
+806
+00:32:02,130 --> 00:32:04,930
+and found that we could use
+the same controls
+
+807
+00:32:04,930 --> 00:32:07,800
+that we were learning at some of
+the early tetrahedral ones
+808
+00:32:07,800 --> 00:32:09,770
+and we got very similar motion.
+
+809
+00:32:09,770 --> 00:32:13,300
+So again, we feel confident
+that...
+
+810
+00:32:13,300 --> 00:32:17,570
+there is some reality
+behind those videos
+
+811
+00:32:17,570 --> 00:32:20,230
+that were built in
+the physics simulator.
+
+812
+00:32:20,230 --> 00:32:22,070
+So spines were a place to start.
+
+813
+00:32:22,070 --> 00:32:25,070
+And now, working with
+some students at UC Santa Cruz,
+
+814
+00:32:25,070 --> 00:32:27,370
+we were going a little bit more
+directly towards what we want,
+
+815
+00:32:27,370 --> 00:32:28,870
+which is actually
+a quadruped robot,
+
+816
+00:32:28,870 --> 00:32:30,300
+a legged, walking robot.
+
+817
+00:32:30,300 --> 00:32:32,330
+This is what's gonna really
+enable, some day,
+
+818
+00:32:32,330 --> 00:32:35,130
+the ability to clamber around
+on complex terrains,
+
+819
+00:32:35,130 --> 00:32:36,500
+like--like a mountain goat does,
+right?
+
+820
+00:32:36,500 --> 00:32:38,200
+We can go anywhere, right.
+
+821
+00:32:38,200 --> 00:32:39,630
+It's just like, there's science,
+let's go there, okay.
+
+822
+00:32:39,630 --> 00:32:41,930
+We've got a mountain goat,
+let's do it, all right.
+
+823
+00:32:41,930 --> 00:32:43,300
+And what do you see
+in this quality?
+
+824
+00:32:43,300 --> 00:32:45,400
+This is just sort of passively
+being poked right now.
+
+825
+00:32:45,400 --> 00:32:46,930
+This is just
+the passive structure.
+
+826
+00:32:46,930 --> 00:32:48,600
+And it has exactly
+what you want, right?
+
+827
+00:32:48,600 --> 00:32:50,130
+It is a stable structure.
+
+828
+00:32:50,130 --> 00:32:52,170
+It's able to hold itself up.
+
+829
+00:32:52,170 --> 00:32:53,800
+And yet, at the same time,
+if you poke it,
+
+830
+00:32:53,800 --> 00:32:56,100
+if you prod it, if you drop it,
+it responds.
+
+831
+00:32:56,100 --> 00:32:59,230
+It adapts.
+It's really nice and compliant.
+
+832
+00:32:59,230 --> 00:33:01,570
+And so we took it
+
+833
+00:33:01,570 --> 00:33:03,770
+and then in the simulator
+
+834
+00:33:03,770 --> 00:33:06,770
+dropped it onto a variety of
+random block fields.
+
+835
+00:33:06,770 --> 00:33:09,030
+And what we found is that
+it adapts really nicely.
+
+836
+00:33:09,030 --> 00:33:10,870
+I especially like this one
+over here,
+
+837
+00:33:10,870 --> 00:33:14,700
+where it's on the sort of
+cross body of blocks.
+
+838
+00:33:14,700 --> 00:33:16,470
+And that's just it passively
+and naturally
+
+839
+00:33:16,470 --> 00:33:19,070
+redistributing its load
+840
+00:33:19,070 --> 00:33:20,430
+and rebalancing itself.
+
+841
+00:33:20,430 --> 00:33:22,400
+No control was used
+to make that happen.
+
+842
+00:33:22,400 --> 00:33:23,700
+And it's possible, right?
+
+843
+00:33:23,700 --> 00:33:25,600
+A normal robot with a rigid
+torso would fall over
+
+844
+00:33:25,600 --> 00:33:27,200
+in a situation like this.
+
+845
+00:33:27,200 --> 00:33:29,770
+This is possible because of
+the flexible spine
+
+846
+00:33:29,770 --> 00:33:32,400
+that allows all the forces of
+contact to be integrated,
+
+847
+00:33:32,400 --> 00:33:35,300
+twisted, rotated,
+whatever needs to be done.
+
+848
+00:33:35,300 --> 00:33:37,070
+And that's what you are really
+gonna need
+
+849
+00:33:37,070 --> 00:33:38,530
+if you want to be able to
+clamber over
+
+850
+00:33:38,530 --> 00:33:40,670
+really complex things
+and, you know,
+
+851
+00:33:40,670 --> 00:33:42,530
+stem up some rock face
+
+852
+00:33:42,530 --> 00:33:45,470
+and still control
+how your forces
+
+853
+00:33:45,470 --> 00:33:49,000
+are pushing into the ground
+so that you don't slip and fall.
+
+854
+00:33:49,000 --> 00:33:51,770
+Other folks at UC Santa Cruz
+that I collaborate with
+
+855
+00:33:51,770 --> 00:33:54,700
+are also then looking at arms
+and legs and shoulders, right.
+
+856
+00:33:54,700 --> 00:33:56,500
+Our shoulders are
+really amazing joints.
+
+857
+00:33:56,500 --> 00:33:57,870
+These are big, spherical joints
+
+858
+00:33:57,870 --> 00:34:00,600
+with really complex
+ranges of motion.
+
+859
+00:34:00,600 --> 00:34:02,730
+So they're trying to explore how
+you can build robots
+
+860
+00:34:02,730 --> 00:34:05,230
+that take this advantage--
+861
+00:34:05,230 --> 00:34:06,870
+take advantage of
+this tensegrity principle
+
+862
+00:34:06,870 --> 00:34:09,400
+and give you
+those ranges of motion.
+
+863
+00:34:09,400 --> 00:34:11,530
+But as I said,
+
+864
+00:34:11,530 --> 00:34:12,970
+you know, that's sort of
+the far future
+
+865
+00:34:12,970 --> 00:34:14,500
+early sort of research
+
+866
+00:34:14,500 --> 00:34:16,670
+mostly in collaboration
+with other folks to--
+
+867
+00:34:16,670 --> 00:34:18,600
+to see what's possible,
+
+868
+00:34:18,600 --> 00:34:20,730
+but the other big question is,
+how do you control these things?
+
+869
+00:34:20,730 --> 00:34:22,770
+And as I mentioned
+at the beginning,
+
+870
+00:34:22,770 --> 00:34:24,700
+they're--these structures are
+oscillatory.
+
+871
+00:34:24,700 --> 00:34:26,770
+They want to move.
+They vibrate.
+
+872
+00:34:26,770 --> 00:34:29,900
+If you go to that big
+art structure at Stanford,
+
+873
+00:34:29,900 --> 00:34:31,270
+the tensegrity structure,
+
+874
+00:34:31,270 --> 00:34:32,970
+and you happen to be there
+late at night
+
+875
+00:34:32,970 --> 00:34:35,730
+and you push on it
+rhythmically for a while,
+
+876
+00:34:35,730 --> 00:34:38,030
+you'll find this thing
+that looks pretty static
+
+877
+00:34:38,030 --> 00:34:40,870
+and it's pretty giant and
+it'll--it starts moving, right.
+
+878
+00:34:40,870 --> 00:34:43,330
+You're like, okay, that's--maybe
+I don't want that for my house.
+
+879
+00:34:43,330 --> 00:34:44,830
+Right?
+[laughter]
+
+880
+00:34:44,830 --> 00:34:46,070
+So how do I control this, right.
+
+881
+00:34:46,070 --> 00:34:49,270
+If you talk to your average
+controls engineer,
+882
+00:34:49,270 --> 00:34:51,100
+maybe an airplane designer,
+they'll be like,
+
+883
+00:34:51,100 --> 00:34:52,630
+"Oh, yeah, oscillations,
+those are bad.
+
+884
+00:34:52,630 --> 00:34:54,900
+Yeah, we don't want any of those
+in our structures."
+
+885
+00:34:54,900 --> 00:34:56,130
+[laughs]
+
+886
+00:34:56,130 --> 00:34:57,470
+They make the plane explode,
+right?
+
+887
+00:34:57,470 --> 00:34:58,930
+And--and they're true.
+
+888
+00:34:58,930 --> 00:35:01,670
+Uncontrolled oscillation is
+a really bad thing.
+
+889
+00:35:01,670 --> 00:35:04,030
+If you can't sense it
+and you can't control it,
+
+890
+00:35:04,030 --> 00:35:05,770
+that's causes trouble, right?
+
+891
+00:35:05,770 --> 00:35:09,170
+Then you can get into runaway
+oscillation and resonances.
+
+892
+00:35:09,170 --> 00:35:11,030
+But if you can control it,
+893
+00:35:11,030 --> 00:35:13,200
+if you can sense the oscillation
+
+894
+00:35:13,200 --> 00:35:14,630
+and you can control it,
+
+895
+00:35:14,630 --> 00:35:17,700
+there's a lot of variancing
+things you can do with it.
+
+896
+00:35:17,700 --> 00:35:19,830
+And beyond just oscillation,
+
+897
+00:35:19,830 --> 00:35:23,330
+these are complex nonlinear
+systems, that really sort of
+
+898
+00:35:23,330 --> 00:35:25,800
+very limited design
+and engineering tools for us.
+
+899
+00:35:25,800 --> 00:35:28,000
+So we're really sort of at
+the beginning of figuring out
+
+900
+00:35:28,000 --> 00:35:29,470
+how to make this all work.
+
+901
+00:35:29,470 --> 00:35:31,500
+So again, let's turn to biology.
+
+902
+00:35:31,500 --> 00:35:32,930
+Everything we do it rhythmic.
+
+903
+00:35:32,930 --> 00:35:35,070
+Very basic things,
+your heartbeat, rhythmic.
+904
+00:35:35,070 --> 00:35:38,100
+How you eat, chewing
+is a very rhythmic thing.
+
+905
+00:35:38,100 --> 00:35:39,500
+How we talk with each other,
+
+906
+00:35:39,500 --> 00:35:41,800
+everything from the phonemes,
+the basic sounds,
+
+907
+00:35:41,800 --> 00:35:43,400
+those are, you know,
+frequency based,
+
+908
+00:35:43,400 --> 00:35:46,100
+to high-level dialogue.
+
+909
+00:35:46,100 --> 00:35:47,470
+If I...
+
+910
+00:35:47,470 --> 00:35:49,130
+started talking very...
+
+911
+00:35:49,130 --> 00:35:50,570
+randomly and differently,
+
+912
+00:35:50,570 --> 00:35:52,170
+you'd think it was
+kind of weird, right?
+
+913
+00:35:52,170 --> 00:35:54,730
+Rhythm matters to how we even
+engage with each other.
+
+914
+00:35:54,730 --> 00:35:57,400
+Dancing, we love that,
+singing, walking,
+915
+00:35:57,400 --> 00:35:59,770
+the basics of motion,
+all these things are rhythmic.
+
+916
+00:35:59,770 --> 00:36:02,030
+And then,
+the most important of all,
+
+917
+00:36:02,030 --> 00:36:04,030
+your breathing, I hope.
+
+918
+00:36:04,030 --> 00:36:06,330
+And therefore everything you do
+is rhythmic.
+
+919
+00:36:06,330 --> 00:36:08,000
+So here's a quick experiment
+for you to try.
+
+920
+00:36:08,000 --> 00:36:09,970
+So this also
+will keep you awake.
+
+921
+00:36:09,970 --> 00:36:11,630
+Sort of sit up a little bit
+so you're not slouched
+
+922
+00:36:11,630 --> 00:36:15,030
+into your chair,
+and stick your finger out.
+
+923
+00:36:15,030 --> 00:36:17,900
+Maybe don't poke anyone,
+unless they--they want you to,
+
+924
+00:36:17,900 --> 00:36:20,500
+but, you know, point your finger
+at something
+
+925
+00:36:20,500 --> 00:36:22,530
+and you think, okay, now look,
+I'm gonna hold my finger still,
+
+926
+00:36:22,530 --> 00:36:24,170
+and that's not rhythmic, right?
+
+927
+00:36:24,170 --> 00:36:26,130
+Look, I'm holding
+my finger still.
+
+928
+00:36:26,130 --> 00:36:27,900
+Now, take some deep breaths...
+[inhales deeply]
+
+929
+00:36:27,900 --> 00:36:29,670
+and keep holding
+that finger still.
+
+930
+00:36:29,670 --> 00:36:30,900
+[exhales sharply]
+Notice your chest.
+
+931
+00:36:30,900 --> 00:36:32,630
+Notice your upper body.
+
+932
+00:36:32,630 --> 00:36:35,700
+It's moving as you take
+those breaths.
+
+933
+00:36:35,700 --> 00:36:37,800
+So even though you're holding
+your finger still,
+
+934
+00:36:37,800 --> 00:36:40,400
+your arm and your upper body,
+all those muscles
+
+935
+00:36:40,400 --> 00:36:43,470
+are having to actuate
+and organize themselves
+
+936
+00:36:43,470 --> 00:36:45,230
+in a rhythmic manner to
+counteract the fact
+
+937
+00:36:45,230 --> 00:36:46,570
+that you're breathing.
+
+938
+00:36:46,570 --> 00:36:48,300
+So the very fact that you can
+hold yourself still,
+
+939
+00:36:48,300 --> 00:36:50,400
+or at least some part
+of your body still,
+
+940
+00:36:50,400 --> 00:36:52,030
+requires rhythmic control.
+
+941
+00:36:52,030 --> 00:36:53,970
+Because you're breathing,
+everything is rhythmic.
+
+942
+00:36:53,970 --> 00:36:56,030
+And I really hope
+you don't stop breathing.
+
+943
+00:36:56,030 --> 00:36:57,500
+[laughter]
+
+944
+00:36:57,500 --> 00:36:59,830
+So here's--here's
+another experiment.
+
+945
+00:36:59,830 --> 00:37:03,370
+If you guys could all clap
+together in unison, without--
+
+946
+00:37:03,370 --> 00:37:05,330
+I'm not gonna lead.
+I'm not gonna show you how.
+
+947
+00:37:05,330 --> 00:37:06,600
+I think you can do it.
+
+948
+00:37:06,600 --> 00:37:07,630
+All right, go ahead
+and give it a try.
+
+949
+00:37:07,630 --> 00:37:08,730
+Just start clapping in unison.
+
+950
+00:37:08,730 --> 00:37:11,070
+[applause]
+
+951
+00:37:11,070 --> 00:37:13,470
+[rhythmic clapping]
+
+952
+00:37:13,470 --> 00:37:15,930
+Thank you, thank you.
+
+953
+00:37:15,930 --> 00:37:17,630
+All right, I like
+to get that done early
+
+954
+00:37:17,630 --> 00:37:19,170
+'cause I don't know what's gonna
+happen at the end of the talk.
+
+955
+00:37:19,170 --> 00:37:20,930
+[laughter]
+
+956
+00:37:20,930 --> 00:37:23,200
+But--but that's interesting,
+right?
+
+957
+00:37:23,200 --> 00:37:24,470
+No one was telling you
+how to do that
+
+958
+00:37:24,470 --> 00:37:26,170
+yet you did.
+
+959
+00:37:26,170 --> 00:37:28,530
+So this turns out to be
+a really important principle
+
+960
+00:37:28,530 --> 00:37:30,630
+that rhythmic things
+
+961
+00:37:30,630 --> 00:37:33,030
+that share some energy
+can synchronize,
+
+962
+00:37:33,030 --> 00:37:35,530
+can come into
+a coordinated behavior.
+
+963
+00:37:35,530 --> 00:37:39,230
+So this is everything from--
+
+964
+00:37:39,230 --> 00:37:41,100
+Let's get both of these going.
+
+965
+00:37:41,100 --> 00:37:45,230
+everything from metronomes
+on a table, right--
+
+966
+00:37:45,230 --> 00:37:47,030
+Let's get randomly started.
+
+967
+00:37:47,030 --> 00:37:50,470
+to, this is sort of a simulation
+of fireflies flashing,
+
+968
+00:37:50,470 --> 00:37:52,200
+and there are fireflies in
+nature that do this,
+
+969
+00:37:52,200 --> 00:37:54,530
+where they all flash in unison,
+all right.
+
+970
+00:37:54,530 --> 00:37:57,470
+And the fireflies,
+they don't share a clock
+
+971
+00:37:57,470 --> 00:37:59,600
+They're not on a--
+they're not on an atomic clock.
+
+972
+00:37:59,600 --> 00:38:02,200
+They don't have a king
+or queen firefly, you know.
+
+973
+00:38:02,200 --> 00:38:03,900
+There's no common bus.
+
+974
+00:38:03,900 --> 00:38:05,200
+They're just flashing.
+
+975
+00:38:05,200 --> 00:38:07,000
+Yet, they can synchronize
+and behave.
+
+976
+00:38:07,000 --> 00:38:08,800
+And these metronomes,
+what's happening here
+
+977
+00:38:08,800 --> 00:38:12,070
+is they're--they're moving
+but they share some vibration
+
+978
+00:38:12,070 --> 00:38:14,500
+through the table they're on,
+physical vibration.
+979
+00:38:14,500 --> 00:38:16,900
+And because of that small,
+minute amount of vibration,
+
+980
+00:38:16,900 --> 00:38:18,630
+they will eventually
+all synchronize.
+
+981
+00:38:18,630 --> 00:38:20,130
+So this is
+a very important property.
+
+982
+00:38:20,130 --> 00:38:21,500
+It's been studied.
+
+983
+00:38:21,500 --> 00:38:23,770
+There's a mathematician
+at Cornell, Steven Strogatz,
+
+984
+00:38:23,770 --> 00:38:25,400
+who's written some
+really good books about this.
+
+985
+00:38:25,400 --> 00:38:29,370
+One of them's called "Sync:
+How Order Emerges from Chaos."
+
+986
+00:38:29,370 --> 00:38:31,300
+This is a very, very fundamental
+principle.
+
+987
+00:38:31,300 --> 00:38:32,730
+It's a mathematical principle
+
+988
+00:38:32,730 --> 00:38:35,970
+independent of the physics
+of implementation, right,
+
+989
+00:38:35,970 --> 00:38:39,030
+as you can see in these two
+different videos,
+
+990
+00:38:39,030 --> 00:38:41,500
+that--that rhythmic systems
+
+991
+00:38:41,500 --> 00:38:43,170
+that exchanged energy
+can synchronize.
+
+992
+00:38:43,170 --> 00:38:45,400
+And so you find this
+all throughout nature,
+
+993
+00:38:45,400 --> 00:38:46,900
+and it's a really
+important thing
+
+994
+00:38:46,900 --> 00:38:48,600
+because we often hear
+about entropy
+
+995
+00:38:48,600 --> 00:38:50,600
+and how everything is
+tending towards disorder.
+
+996
+00:38:50,600 --> 00:38:52,800
+And then you ask ourselves,
+why are we so organized?
+
+997
+00:38:52,800 --> 00:38:55,130
+I mean, maybe my house
+isn't organized,
+
+998
+00:38:55,130 --> 00:38:57,100
+but why, you know,
+we as living things
+
+999
+00:38:57,100 --> 00:38:58,730
+are highly organized systems.
+
+1000
+00:38:58,730 --> 00:39:00,530
+How's that come around
+if entropy exists?
+
+1001
+00:39:00,530 --> 00:39:02,400
+Well, it turns out that
+because rhythmic systems
+
+1002
+00:39:02,400 --> 00:39:05,070
+can create order
+with no central control,
+
+1003
+00:39:05,070 --> 00:39:06,900
+not top-down management,
+
+1004
+00:39:06,900 --> 00:39:10,370
+but purely as an emergent
+mathematical property.
+
+1005
+00:39:10,370 --> 00:39:11,600
+So we find this--
+
+1006
+00:39:11,600 --> 00:39:14,200
+I'm not gonna wait for that
+to synchronize.
+
+1007
+00:39:14,200 --> 00:39:16,330
+Well, let's here--
+It's--
+
+1008
+00:39:16,330 --> 00:39:18,970
+That just--ahh.
+
+1009
+00:39:18,970 --> 00:39:22,200
+I'll just show you that
+at the end of the video
+
+1010
+00:39:22,200 --> 00:39:25,430
+it is--
+
+1011
+00:39:25,430 --> 00:39:28,130
+Come on, do it.
+
+1012
+00:39:28,130 --> 00:39:30,100
+All right.
+
+1013
+00:39:30,100 --> 00:39:33,200
+Yeah, there they are.
+They all got there, right.
+
+1014
+00:39:33,200 --> 00:39:35,300
+So and, you know,
+
+1015
+00:39:35,300 --> 00:39:37,100
+these algorithms are--
+are understandable.
+
+1016
+00:39:37,100 --> 00:39:38,600
+There's lots--you can
+go find lots of people
+
+1017
+00:39:38,600 --> 00:39:40,270
+making synthetic algorithms
+for synchronization
+
+1018
+00:39:40,270 --> 00:39:41,900
+in distributed manners.
+
+1019
+00:39:41,900 --> 00:39:43,430
+So it turns out
+that this is at the heart
+
+1020
+00:39:43,430 --> 00:39:45,000
+of modern neuroscience, right.
+
+1021
+00:39:45,000 --> 00:39:46,800
+You've got people like
+Gyorgy Buzsaki
+
+1022
+00:39:46,800 --> 00:39:49,130
+who are really saying that
+brains are primarily concerned
+
+1023
+00:39:49,130 --> 00:39:51,800
+with rhythm, timing,
+and temporal prediction.
+
+1024
+00:39:51,800 --> 00:39:52,870
+And this makes sense.
+
+1025
+00:39:52,870 --> 00:39:54,000
+If everything is rhythmic,
+
+1026
+00:39:54,000 --> 00:39:55,670
+and all the other animals
+are rhythmic,
+
+1027
+00:39:55,670 --> 00:39:57,800
+then, you know, you really want
+to be able to track
+
+1028
+00:39:57,800 --> 00:39:59,270
+other rhythmic motions, right.
+
+1029
+00:39:59,270 --> 00:40:00,700
+The sun's cycle is rhythmic.
+
+1030
+00:40:00,700 --> 00:40:02,730
+When a--when a particular tree
+
+1031
+00:40:02,730 --> 00:40:04,830
+is gonna become ripe with fruit
+is rhythmic.
+
+1032
+00:40:04,830 --> 00:40:08,070
+If you're the--if you're the
+leopard sitting in a tree branch
+
+1033
+00:40:08,070 --> 00:40:10,030
+waiting for the gazelle
+to pass underneath
+
+1034
+00:40:10,030 --> 00:40:11,300
+and you want to jump on it,
+
+1035
+00:40:11,300 --> 00:40:13,000
+you better understand
+the rhythm of its motion
+
+1036
+00:40:13,000 --> 00:40:14,300
+and get your timing just right.
+
+1037
+00:40:14,300 --> 00:40:15,770
+Otherwise, you're gonna
+face-plant
+
+1038
+00:40:15,770 --> 00:40:17,000
+and miss lunch, right.
+
+1039
+00:40:17,000 --> 00:40:18,570
+So rhythm's at the heart
+of it all,
+
+1040
+00:40:18,570 --> 00:40:20,100
+and we see this
+in neurons, right.
+
+1041
+00:40:20,100 --> 00:40:23,870
+They are rhythmic, bursting,
+oscillatory systems.
+
+1042
+00:40:23,870 --> 00:40:27,300
+Besides individual neurons,
+you have networks of neurons
+1043
+00:40:27,300 --> 00:40:28,930
+that are called
+central pattern generators,
+
+1044
+00:40:28,930 --> 00:40:30,330
+CPGs.
+
+1045
+00:40:30,330 --> 00:40:33,700
+And this is at the heart of
+a lot of modern research
+
+1046
+00:40:33,700 --> 00:40:35,570
+into mammalian locomotion,
+
+1047
+00:40:35,570 --> 00:40:37,800
+that these networks of CPGs
+
+1048
+00:40:37,800 --> 00:40:41,130
+are able to create rhythms
+and generate them
+
+1049
+00:40:41,130 --> 00:40:42,500
+and then interact with
+each other
+
+1050
+00:40:42,500 --> 00:40:46,300
+and coordinate the control of
+motors, i.e. muscles,
+
+1051
+00:40:46,300 --> 00:40:50,430
+and be at the center
+of a lot of gait production,
+
+1052
+00:40:50,430 --> 00:40:52,330
+a lot of the rhythmic
+motions that we do,
+
+1053
+00:40:52,330 --> 00:40:54,730
+everything from chewing
+to walking.
+
+1054
+00:40:54,730 --> 00:40:58,500
+So why are CPGs interesting
+then?
+
+1055
+00:40:58,500 --> 00:41:00,500
+They have a couple
+interesting properties, right.
+
+1056
+00:41:00,500 --> 00:41:02,600
+If you have this
+distributed system,
+
+1057
+00:41:02,600 --> 00:41:04,930
+that is able, from its own
+intrinsic dynamics,
+
+1058
+00:41:04,930 --> 00:41:08,530
+to be able to come up with
+an organized rhythmic behavior
+
+1059
+00:41:08,530 --> 00:41:10,900
+and coordinate its actions,
+
+1060
+00:41:10,900 --> 00:41:12,500
+then you get a reduction
+dimensionality of control,
+
+1061
+00:41:12,500 --> 00:41:13,770
+right.
+
+1062
+00:41:13,770 --> 00:41:16,430
+So what would normally be
+hundreds of degrees
+
+1063
+00:41:16,430 --> 00:41:18,630
+of--of--of muscles that need
+to be coordinated,
+1064
+00:41:18,630 --> 00:41:21,730
+you can simplify that down
+to a much simpler problem.
+
+1065
+00:41:21,730 --> 00:41:24,530
+And one of the things
+that I see
+
+1066
+00:41:24,530 --> 00:41:27,970
+in tensegrity structures
+and in CPGs,
+
+1067
+00:41:27,970 --> 00:41:30,430
+if you dive into the how that
+control works
+
+1068
+00:41:30,430 --> 00:41:32,170
+how information passes through
+a network
+
+1069
+00:41:32,170 --> 00:41:34,570
+of these rhythmic controllers,
+
+1070
+00:41:34,570 --> 00:41:36,930
+it ends up being very adaptable
+and compliant
+
+1071
+00:41:36,930 --> 00:41:39,930
+in much the same way that
+these tensegrity structures
+
+1072
+00:41:39,930 --> 00:41:41,370
+are adaptable and compliant
+
+1073
+00:41:41,370 --> 00:41:43,630
+to the forces
+they are experiencing.
+
+1074
+00:41:43,630 --> 00:41:46,730
+So in terms of that
+reduction of complexity,
+
+1075
+00:41:46,730 --> 00:41:49,630
+here is a 30-segment spine
+
+1076
+00:41:49,630 --> 00:41:52,300
+that's running using
+a bunch of these CPGs.
+
+1077
+00:41:52,300 --> 00:41:54,430
+Each cable has its own
+CPG controller.
+
+1078
+00:41:54,430 --> 00:41:58,700
+A--for reference, a dog has
+32 segments in its spine.
+
+1079
+00:41:58,700 --> 00:42:00,230
+So this has, overall,
+
+1080
+00:42:00,230 --> 00:42:03,100
+232 different individually
+controlled muscles.
+
+1081
+00:42:03,100 --> 00:42:06,470
+If you try to do this with
+traditional inverse kinematics
+
+1082
+00:42:06,470 --> 00:42:08,200
+or other forms
+of robotic control,
+
+1083
+00:42:08,200 --> 00:42:10,230
+you would just break
+every machine
+
+1084
+00:42:10,230 --> 00:42:11,470
+you could throw at it, right?
+1085
+00:42:11,470 --> 00:42:13,030
+It would be way too complicated,
+
+1086
+00:42:13,030 --> 00:42:15,400
+and that's why you don't see
+robots with complex spines.
+
+1087
+00:42:15,400 --> 00:42:17,170
+Yet, here we are
+controlling this
+
+1088
+00:42:17,170 --> 00:42:18,930
+computationally very efficiently
+
+1089
+00:42:18,930 --> 00:42:23,030
+because it is a distributed,
+very simple form of control
+
+1090
+00:42:23,030 --> 00:42:25,430
+that allows its coordination
+to come
+
+1091
+00:42:25,430 --> 00:42:28,400
+as an intrinsic property
+of its rhythm.
+
+1092
+00:42:28,400 --> 00:42:30,670
+So then the question is,
+you can push this out,
+
+1093
+00:42:30,670 --> 00:42:32,770
+you can use a bunch of
+sine waves to make these rhythms
+
+1094
+00:42:32,770 --> 00:42:34,730
+and have them, you know,
+move in that way,
+
+1095
+00:42:34,730 --> 00:42:36,870
+but what's more important is
+when you close the loop.
+
+1096
+00:42:36,870 --> 00:42:40,200
+When you take your--
+Up at the top,
+
+1097
+00:42:40,200 --> 00:42:42,630
+we have the--the actual
+low-level controllers.
+
+1098
+00:42:42,630 --> 00:42:44,570
+You have the physics model
+at the bottom.
+
+1099
+00:42:44,570 --> 00:42:46,230
+You get some sensor information
+about length,
+
+1100
+00:42:46,230 --> 00:42:48,130
+tension, velocity,
+
+1101
+00:42:48,130 --> 00:42:50,570
+and then we pass it through
+a very simple neural network
+
+1102
+00:42:50,570 --> 00:42:53,030
+to close the loop
+back into that CPG,
+
+1103
+00:42:53,030 --> 00:42:55,400
+so now that--you start
+actually getting feedback
+
+1104
+00:42:55,400 --> 00:42:56,800
+from the environment.
+
+1105
+00:42:56,800 --> 00:42:58,800
+And what you see here,
+right now, the feedback is off.
+1106
+00:42:58,800 --> 00:43:00,430
+This is what we call
+open-loop control.
+
+1107
+00:43:00,430 --> 00:43:02,700
+We're just sort of commanding
+the robot to move.
+
+1108
+00:43:02,700 --> 00:43:04,300
+And when we turn on
+the feedback,
+
+1109
+00:43:04,300 --> 00:43:06,900
+which just happened, you'll see
+that its gait cycle changes,
+
+1110
+00:43:06,900 --> 00:43:08,130
+and now you start getting a gait
+
+1111
+00:43:08,130 --> 00:43:10,330
+that's a much larger
+amplitude gait,
+
+1112
+00:43:10,330 --> 00:43:13,100
+and it's really tuning to
+the coupled dynamics
+
+1113
+00:43:13,100 --> 00:43:16,170
+of the robot interacting
+with this environment.
+
+1114
+00:43:16,170 --> 00:43:18,430
+And that's that natural tendency
+
+1115
+00:43:18,430 --> 00:43:20,270
+to just couple with
+the environment
+
+1116
+00:43:20,270 --> 00:43:21,530
+and with the actual
+structure itself,
+
+1117
+00:43:21,530 --> 00:43:23,030
+which makes
+this control approach
+
+1118
+00:43:23,030 --> 00:43:24,870
+so flexible
+and dynamic.
+
+1119
+00:43:24,870 --> 00:43:28,170
+You don't have to understand
+the external reality perfectly.
+
+1120
+00:43:28,170 --> 00:43:30,270
+Rather, it's just based on
+the forces and experience
+
+1121
+00:43:30,270 --> 00:43:32,070
+of its own motion.
+
+1122
+00:43:32,070 --> 00:43:35,300
+It's gonna find an efficient way
+to continue to move.
+
+1123
+00:43:35,300 --> 00:43:37,700
+Then we have
+the final question of--
+
+1124
+00:43:37,700 --> 00:43:39,800
+That's all great.
+You got these robots moving.
+
+1125
+00:43:39,800 --> 00:43:41,930
+They're moving across, you know,
+fields of flat ground
+
+1126
+00:43:41,930 --> 00:43:43,930
+or lumpy ground or whatever,
+but how do you do something?
+
+1127
+00:43:43,930 --> 00:43:46,700
+How do you actually make it go
+accomplish some goal?
+
+1128
+00:43:46,700 --> 00:43:49,830
+And this is where the brain
+comes back in finally, right?
+
+1129
+00:43:49,830 --> 00:43:52,670
+The--the brain that we took off
+at the beginning,
+
+1130
+00:43:52,670 --> 00:43:56,400
+we actually started putting
+a layer of more--
+
+1131
+00:43:56,400 --> 00:43:59,170
+artificial neurons on there
+where we start looking at a goal
+
+1132
+00:43:59,170 --> 00:44:01,630
+and start saying, what's
+our direction to that goal?
+
+1133
+00:44:01,630 --> 00:44:04,170
+And using that
+to influence
+
+1134
+00:44:04,170 --> 00:44:07,830
+how the central pattern
+generator works, right,
+
+1135
+00:44:07,830 --> 00:44:10,070
+what direction it's going,
+and what you'll see...
+
+1136
+00:44:10,070 --> 00:44:12,000
+I'm gonna start
+all these videos.
+
+1137
+00:44:12,000 --> 00:44:14,530
+is that across a variety
+of different terrains
+
+1138
+00:44:14,530 --> 00:44:16,270
+and a variety
+of different goals,
+
+1139
+00:44:16,270 --> 00:44:19,230
+we eventually were able
+to get these robots
+
+1140
+00:44:19,230 --> 00:44:22,870
+to drive to
+these goal targets.
+
+1141
+00:44:22,870 --> 00:44:25,300
+And it's pretty much--it's just
+pretty much doing the steering.
+
+1142
+00:44:25,300 --> 00:44:27,470
+It's not trying to control
+all the individual muscles,
+
+1143
+00:44:27,470 --> 00:44:29,070
+like you would on
+a traditional robot.
+
+1144
+00:44:29,070 --> 00:44:30,730
+Rather, we're saying,
+go a little more left,
+
+1145
+00:44:30,730 --> 00:44:31,930
+go a little more right,
+the goal's over there.
+
+1146
+00:44:31,930 --> 00:44:33,270
+That's where
+we're trying to go.
+
+1147
+00:44:33,270 --> 00:44:35,000
+It's just kind of
+straightforward visual servoing
+
+1148
+00:44:35,000 --> 00:44:37,230
+if you will,
+but with the very complex
+
+1149
+00:44:37,230 --> 00:44:40,070
+underlying distributed system
+that manages all the details
+
+1150
+00:44:40,070 --> 00:44:41,770
+of the physical interaction
+within our environment
+
+1151
+00:44:41,770 --> 00:44:43,370
+so you don't have to do that all
+in your brain.
+
+1152
+00:44:43,370 --> 00:44:44,870
+My head would hurt
+if I had to think about
+
+1153
+00:44:44,870 --> 00:44:48,500
+every little bit of force and
+contact that I needed to control
+
+1154
+00:44:48,500 --> 00:44:52,930
+in order to operate
+this computer, for instance.
+
+1155
+00:44:52,930 --> 00:44:55,270
+So that's the big part
+of the story,
+
+1156
+00:44:55,270 --> 00:44:56,830
+and it brings us back to
+the brain, right.
+
+1157
+00:44:56,830 --> 00:44:58,370
+And this is where we get to
+the fun part of it all.
+
+1158
+00:44:58,370 --> 00:45:00,930
+Why do science
+if you don't have philosophy?
+
+1159
+00:45:00,930 --> 00:45:03,600
+And--which is this.
+
+1160
+00:45:03,600 --> 00:45:06,770
+You know, we tend to use the
+current technology of the day
+
+1161
+00:45:06,770 --> 00:45:09,170
+as our model for how
+we think about things, right?
+
+1162
+00:45:09,170 --> 00:45:11,070
+So we tend to think about
+our brains like the CPUs
+
+1163
+00:45:11,070 --> 00:45:13,270
+of our computers, 'cause that's
+today's technology.
+
+1164
+00:45:13,270 --> 00:45:15,530
+But what this talk hopefully
+might have shown you
+
+1165
+00:45:15,530 --> 00:45:17,600
+is that you have a computational
+system in your head
+
+1166
+00:45:17,600 --> 00:45:19,930
+that is perhaps built around
+synchronization
+
+1167
+00:45:19,930 --> 00:45:22,200
+rather than on
+binary logical flows, right.
+
+1168
+00:45:22,200 --> 00:45:24,630
+The fact that we can do math
+is amazing,
+
+1169
+00:45:24,630 --> 00:45:26,130
+but we don't necessarily
+use math
+
+1170
+00:45:26,130 --> 00:45:28,370
+at the basis of our brains,
+other than the fact
+
+1171
+00:45:28,370 --> 00:45:31,230
+that synchronization is
+a mathematical property but...
+
+1172
+00:45:31,230 --> 00:45:33,570
+So what are some of the things
+that come out of this, right?
+
+1173
+00:45:33,570 --> 00:45:36,870
+If you have a system built
+around synchronization,
+
+1174
+00:45:36,870 --> 00:45:40,430
+you see qualities that are
+very hard for us
+
+1175
+00:45:40,430 --> 00:45:42,670
+to accomplish in traditional
+AI techniques.
+
+1176
+00:45:42,670 --> 00:45:44,300
+Everything from
+pattern recognition,
+
+1177
+00:45:44,300 --> 00:45:46,230
+seeing a bunch of things
+being similar, right?
+
+1178
+00:45:46,230 --> 00:45:47,470
+It's very hard.
+
+1179
+00:45:47,470 --> 00:45:49,300
+Some of the deep learning
+algorithms of today
+
+1180
+00:45:49,300 --> 00:45:51,100
+are starting to be able to
+accomplish this.
+
+1181
+00:45:51,100 --> 00:45:53,370
+But associations,
+like connections.
+
+1182
+00:45:53,370 --> 00:45:54,470
+What do humans love to do?
+
+1183
+00:45:54,470 --> 00:45:56,030
+We love to connect
+with each other.
+
+1184
+00:45:56,030 --> 00:45:59,530
+We love to make new friends and
+just resonate with each other.
+
+1185
+00:45:59,530 --> 00:46:01,130
+And what else do we do,
+you know?
+
+1186
+00:46:01,130 --> 00:46:03,000
+We--we--if you move somewhere,
+
+1187
+00:46:03,000 --> 00:46:05,570
+if you, say, move to Georgia
+and live there for a few years,
+
+1188
+00:46:05,570 --> 00:46:07,130
+you would pick up
+a Southern drawl.
+
+1189
+00:46:07,130 --> 00:46:08,670
+It--it's almost impossible
+to stop.
+
+1190
+00:46:08,670 --> 00:46:10,930
+We synchronize with the people
+around us.
+
+1191
+00:46:10,930 --> 00:46:13,070
+We become like the people
+we hang out with.
+
+1192
+00:46:13,070 --> 00:46:15,470
+You develop a new group
+of friends,
+
+1193
+00:46:15,470 --> 00:46:16,830
+you might start
+dressing like them,
+
+1194
+00:46:16,830 --> 00:46:19,930
+putting on funny party hats,
+whatever they do.
+
+1195
+00:46:19,930 --> 00:46:23,100
+And--or--or, you know,
+there's a very good chance
+
+1196
+00:46:23,100 --> 00:46:24,930
+that you share a lot of
+the same political views
+
+1197
+00:46:24,930 --> 00:46:27,200
+as the people that you love
+and trust the most, right?
+
+1198
+00:46:27,200 --> 00:46:28,570
+That's just part of what we do.
+
+1199
+00:46:28,570 --> 00:46:30,170
+We synchronize
+with those around us.
+
+1200
+00:46:30,170 --> 00:46:33,270
+So we start seeing
+a lot of these qualities
+
+1201
+00:46:33,270 --> 00:46:36,270
+that are very human, high level,
+social interaction qualities
+
+1202
+00:46:36,270 --> 00:46:39,700
+having the same
+underlying drivers
+
+1203
+00:46:39,700 --> 00:46:42,570
+as we see in the basis of
+how do we move our bodies
+
+1204
+00:46:42,570 --> 00:46:43,600
+through the world.
+
+1205
+00:46:43,600 --> 00:46:45,770
+This quality of rhythm
+and synchronization
+
+1206
+00:46:45,770 --> 00:46:47,770
+and the fact that
+we like to dance,
+
+1207
+00:46:47,770 --> 00:46:49,530
+unless we're too embarrassed
+by ourselves,
+
+1208
+00:46:49,530 --> 00:46:51,870
+but that's its own problem.
+
+1209
+00:46:51,870 --> 00:46:54,000
+So anyways,
+
+1210
+00:46:54,000 --> 00:46:56,930
+that's the philosophy
+behind all of this, you know.
+
+1211
+00:46:56,930 --> 00:46:59,400
+Hopefully it also helps us go
+explore the solar system.
+
+1212
+00:46:59,400 --> 00:47:01,730
+And I did not do this alone.
+
+1213
+00:47:01,730 --> 00:47:04,400
+Here are at least a small
+portion of the people
+
+1214
+00:47:04,400 --> 00:47:05,670
+who have helped me
+along the way.
+
+1215
+00:47:05,670 --> 00:47:07,930
+These were students
+from summer of 2014,
+
+1216
+00:47:07,930 --> 00:47:10,230
+and I really need to make
+a new photo of that this summer
+
+1217
+00:47:10,230 --> 00:47:13,670
+of all the other new people
+who have really helped out
+
+1218
+00:47:13,670 --> 00:47:15,230
+building this vision.
+
+1219
+00:47:15,230 --> 00:47:17,000
+And so thanks
+to all of them,
+
+1220
+00:47:17,000 --> 00:47:19,170
+and thanks to you
+for listening.
+
+1221
+00:47:19,170 --> 00:47:20,870
+And that's my talk.
+
+1222
+00:47:20,870 --> 00:47:25,570
+[applause]
+
+1223
+00:47:25,570 --> 00:47:29,170
+- Thank you.
+Nice talk.
+
+1224
+00:47:29,170 --> 00:47:30,630
+So we have time for
+a few questions.
+
+1225
+00:47:30,630 --> 00:47:32,830
+If you have a question,
+please raise your hand,
+
+1226
+00:47:32,830 --> 00:47:33,770
+wait for a microphone,
+
+1227
+00:47:33,770 --> 00:47:36,670
+and then ask
+one question only.
+
+1228
+00:47:36,670 --> 00:47:37,830
+Go ahead, right there.
+
+1229
+00:47:37,830 --> 00:47:39,370
+- I am so delighted
+to hear all of this.
+
+1230
+00:47:39,370 --> 00:47:40,800
+I thought that nobody else
+in the world
+
+1231
+00:47:40,800 --> 00:47:42,600
+was thinking about brains
+and bodies
+
+1232
+00:47:42,600 --> 00:47:44,670
+and oscillators and stuff
+in this way,
+
+1233
+00:47:44,670 --> 00:47:46,700
+and you're way closer to
+the ground truth.
+
+1234
+00:47:46,700 --> 00:47:48,730
+You're actually building it
+and it's working.
+
+1235
+00:47:48,730 --> 00:47:52,700
+My approach is information
+science, theoretical physics,
+
+1236
+00:47:52,700 --> 00:47:55,200
+and algorithms
+and stuff like that,
+
+1237
+00:47:55,200 --> 00:47:56,530
+so I've been working
+in the valley.
+
+1238
+00:47:56,530 --> 00:47:58,070
+So I'd like to offer
+a couple of predictions...
+
+1239
+00:47:58,070 --> 00:48:00,230
+I know far too much about it
+to call 'em questions.
+
+1240
+00:48:00,230 --> 00:48:02,300
+about where this project
+is going
+
+1241
+00:48:02,300 --> 00:48:04,500
+and why it's gonna be
+so wonderful.
+
+1242
+00:48:04,500 --> 00:48:07,500
+It's exactly the right way
+of taking it apart.
+
+1243
+00:48:07,500 --> 00:48:09,170
+Tensegrity is a beautiful
+sort of thing,
+
+1244
+00:48:09,170 --> 00:48:12,330
+and when you make it big enough,
+it paradoxically gets simpler.
+
+1245
+00:48:12,330 --> 00:48:15,500
+You were talking about
+232 classical robotic
+
+1246
+00:48:15,500 --> 00:48:18,700
+sort of hinge variables
+down to 30 segments.
+
+1247
+00:48:18,700 --> 00:48:21,200
+Well, once you get, like,
+a zillion segments,
+
+1248
+00:48:21,200 --> 00:48:23,030
+it's now just
+a three-dimensional structure.
+
+1249
+00:48:23,030 --> 00:48:26,670
+So you're gonna find yourself
+solving continuous equations,
+
+1250
+00:48:26,670 --> 00:48:29,700
+as if it were Gumby,
+and continuous vibrations.
+
+1251
+00:48:29,700 --> 00:48:32,670
+The other prediction is that
+you're gonna find
+
+1252
+00:48:32,670 --> 00:48:34,730
+all the interesting stuff
+at the very highest bandwidth.
+
+1253
+00:48:34,730 --> 00:48:37,470
+When you look for
+central pattern recognition,
+
+1254
+00:48:37,470 --> 00:48:39,970
+that tends to synchronize,
+and it's kind of slow.
+
+1255
+00:48:39,970 --> 00:48:41,900
+There's not much information
+flow in a pendulum
+
+1256
+00:48:41,900 --> 00:48:43,430
+once it starts swinging.
+
+1257
+00:48:43,430 --> 00:48:45,530
+But all the tiny little ripples
+
+1258
+00:48:45,530 --> 00:48:47,500
+from our million
+mechanoreceptors
+
+1259
+00:48:47,500 --> 00:48:49,170
+and our million muscle fibers,
+1260
+00:48:49,170 --> 00:48:50,570
+it's like a 3-D tomography
+problem
+
+1261
+00:48:50,570 --> 00:48:53,900
+with, you know, a million little
+firecrackers going off
+
+1262
+00:48:53,900 --> 00:48:56,870
+and the brain has to gather
+all those vibrations somehow
+
+1263
+00:48:56,870 --> 00:48:59,100
+and make sense of it in 3-D.
+
+1264
+00:48:59,100 --> 00:49:00,700
+So ultimately,
+once you solve that,
+
+1265
+00:49:00,700 --> 00:49:01,770
+you're gonna understand yoga,
+
+1266
+00:49:01,770 --> 00:49:03,400
+you're gonna understand
+acupuncture,
+
+1267
+00:49:03,400 --> 00:49:05,630
+because you're going to
+understand bodies.
+
+1268
+00:49:05,630 --> 00:49:08,300
+as megahertz-level
+vibrating instruments.
+
+1269
+00:49:08,300 --> 00:49:09,730
+You can hear the tremor
+in my voice.
+
+1270
+00:49:09,730 --> 00:49:11,370
+It's kind of obvious, right?
+
+1271
+00:49:11,370 --> 00:49:13,470
+But you'll also understand
+our communication,
+
+1272
+00:49:13,470 --> 00:49:15,730
+not as merely the syncing
+of pendulums
+
+1273
+00:49:15,730 --> 00:49:18,170
+but as chaos-control ripples
+
+1274
+00:49:18,170 --> 00:49:20,730
+in which the very vibrations
+from inside my body
+
+1275
+00:49:20,730 --> 00:49:23,630
+are being felt by everyone.
+
+1276
+00:49:23,630 --> 00:49:28,000
+- Thank you.
+
+1277
+00:49:28,000 --> 00:49:31,030
+- I had a question
+regarding the motion.
+
+1278
+00:49:31,030 --> 00:49:33,630
+How do you control--
+like, have you tried
+
+1279
+00:49:33,630 --> 00:49:35,670
+a downhill motion of the robot?
+
+1280
+00:49:35,670 --> 00:49:37,970
+Because--because it seems
+unstable right now
+
+1281
+00:49:37,970 --> 00:49:40,000
+because it's pivoting at
+one or two points
+
+1282
+00:49:40,000 --> 00:49:41,830
+and it's just rolling down.
+
+1283
+00:49:41,830 --> 00:49:43,100
+So have you already figured out
+
+1284
+00:49:43,100 --> 00:49:46,300
+how you'll control
+the downhill motion?
+
+1285
+00:49:46,300 --> 00:49:49,000
+- Yeah, so the--the way--
+
+1286
+00:49:49,000 --> 00:49:51,170
+Like, I showed you both just
+rolling it down a hill
+
+1287
+00:49:51,170 --> 00:49:52,870
+in a passive way,
+
+1288
+00:49:52,870 --> 00:49:55,100
+and then I also showed
+some videos of it
+
+1289
+00:49:55,100 --> 00:49:57,130
+just rolling over
+on flat ground.
+
+1290
+00:49:57,130 --> 00:50:00,870
+And the way SUPERball is
+locomoting right now
+
+1291
+00:50:00,870 --> 00:50:03,930
+is that it is moving
+its center of mass
+1292
+00:50:03,930 --> 00:50:06,930
+over the polygon of support
+of its feet
+
+1293
+00:50:06,930 --> 00:50:08,630
+until it falls over,
+much like us.
+
+1294
+00:50:08,630 --> 00:50:11,930
+I mean, we--we--we move by
+falling over our support base
+
+1295
+00:50:11,930 --> 00:50:13,330
+and then catching ourselves.
+
+1296
+00:50:13,330 --> 00:50:15,470
+So it has that similar quality
+
+1297
+00:50:15,470 --> 00:50:18,030
+of moving its center of mass
+and then--
+
+1298
+00:50:18,030 --> 00:50:20,170
+and then causing that
+to be a dynamic motion.
+
+1299
+00:50:20,170 --> 00:50:23,400
+So if you want to slow it down
+while going downhill,
+
+1300
+00:50:23,400 --> 00:50:25,030
+you would want to move
+your center of mass
+
+1301
+00:50:25,030 --> 00:50:28,070
+towards the uphill
+so that you could,
+
+1302
+00:50:28,070 --> 00:50:29,770
+you know, control that slightly.
+
+1303
+00:50:29,770 --> 00:50:31,800
+Now, that being said,
+
+1304
+00:50:31,800 --> 00:50:34,400
+it may not be the best at really
+having controlled descent
+
+1305
+00:50:34,400 --> 00:50:35,700
+down a really steep hill,
+
+1306
+00:50:35,700 --> 00:50:38,170
+but the thing to remember is
+that this is a robot
+
+1307
+00:50:38,170 --> 00:50:40,370
+that, hopefully, will
+safely fall from orbit.
+
+1308
+00:50:40,370 --> 00:50:43,630
+So if it tumbles down a hill
+
+1309
+00:50:43,630 --> 00:50:45,600
+in a somewhat dynamic manner,
+
+1310
+00:50:45,600 --> 00:50:47,530
+it is not necessarily gonna be
+the end of the mission
+
+1311
+00:50:47,530 --> 00:50:49,070
+like it would
+in a traditional Rover, right.
+
+1312
+00:50:49,070 --> 00:50:51,500
+This is gonna be something
+that it could handle
+
+1313
+00:50:51,500 --> 00:50:52,870
+as--as a structure.
+
+1314
+00:50:52,870 --> 00:50:54,930
+So the other thing--
+point to remember is
+
+1315
+00:50:54,930 --> 00:50:56,470
+SUPERball is the beginning,
+
+1316
+00:50:56,470 --> 00:50:58,000
+and I think in and of itself
+
+1317
+00:50:58,000 --> 00:51:01,070
+it has some real potential value
+
+1318
+00:51:01,070 --> 00:51:04,070
+exactly as it is
+as a flight mission
+
+1319
+00:51:04,070 --> 00:51:06,470
+when we have continued to build
+the technologies further.
+
+1320
+00:51:06,470 --> 00:51:08,270
+But there's a lot more--
+
+1321
+00:51:08,270 --> 00:51:09,970
+a lot of variations
+you could build on this, right.
+
+1322
+00:51:09,970 --> 00:51:11,670
+Instead of just being six bars,
+
+1323
+00:51:11,670 --> 00:51:14,370
+you could have a version of it
+that has 12 or 30 bars
+
+1324
+00:51:14,370 --> 00:51:15,670
+or whatever,
+1325
+00:51:15,670 --> 00:51:18,330
+and then that starts becoming
+more like a real sphere
+
+1326
+00:51:18,330 --> 00:51:19,630
+that you can deform even further
+
+1327
+00:51:19,630 --> 00:51:22,070
+and you could flatten it down to
+look more like a tread
+
+1328
+00:51:22,070 --> 00:51:24,200
+or, you know, change its--
+its body shape
+
+1329
+00:51:24,200 --> 00:51:26,870
+and change its ground contact
+surface a lot more.
+
+1330
+00:51:26,870 --> 00:51:29,100
+That's obviously a much more
+complicated mechanism
+
+1331
+00:51:29,100 --> 00:51:33,570
+that would stretch the limited
+budget that I've had
+
+1332
+00:51:33,570 --> 00:51:35,200
+in terms of building it.
+
+1333
+00:51:35,200 --> 00:51:36,730
+So we're working with
+the simplest one
+
+1334
+00:51:36,730 --> 00:51:38,930
+we can possibly make
+that has a fewer number
+
+1335
+00:51:38,930 --> 00:51:40,500
+of motors and components in it.
+
+1336
+00:51:40,500 --> 00:51:42,570
+But down the road, we will be
+opening up that exploration,
+
+1337
+00:51:42,570 --> 00:51:44,630
+which is also why I'm exploring
+the legged robots,
+
+1338
+00:51:44,630 --> 00:51:48,370
+because they will have
+even better abilities
+
+1339
+00:51:48,370 --> 00:51:50,930
+to manage complex terrains
+than SUPERball has.
+
+1340
+00:51:50,930 --> 00:51:53,670
+And so somewhere
+in all of that design space
+
+1341
+00:51:53,670 --> 00:51:56,670
+will be the perfect balance
+between
+
+1342
+00:51:56,670 --> 00:51:58,770
+shock absorption for landing
+
+1343
+00:51:58,770 --> 00:52:01,030
+and trainability for
+exploration.
+
+1344
+00:52:01,030 --> 00:52:02,570
+And when you get to
+the trade studies of
+
+1345
+00:52:02,570 --> 00:52:04,100
+what do we want to do
+for a particular mission,
+
+1346
+00:52:04,100 --> 00:52:05,500
+that's when you start sort of
+figuring out
+
+1347
+00:52:05,500 --> 00:52:13,470
+where in that design space
+you really want to go.
+
+1348
+00:52:13,470 --> 00:52:16,670
+- Hi, so my question is,
+
+1349
+00:52:16,670 --> 00:52:18,670
+like, based on your--
+the projects you work on
+
+1350
+00:52:18,670 --> 00:52:21,600
+with the SUPERball,
+what's your ultimate goal,
+
+1351
+00:52:21,600 --> 00:52:24,530
+like, with the project?
+
+1352
+00:52:24,530 --> 00:52:26,930
+Are you trying to send it up
+into space
+
+1353
+00:52:26,930 --> 00:52:28,700
+and collect information?
+
+1354
+00:52:28,700 --> 00:52:31,500
+I just--I'm just curious to know
+what's your ultimate goal.
+
+1355
+00:52:31,500 --> 00:52:33,330
+- Well, you know what,
+I figure
+
+1356
+00:52:33,330 --> 00:52:35,030
+why limit yourself to one goal,
+right?
+
+1357
+00:52:35,030 --> 00:52:36,630
+Embrace the power of "and."
+
+1358
+00:52:36,630 --> 00:52:38,570
+It--it's all of the above,
+right.
+
+1359
+00:52:38,570 --> 00:52:42,900
+I definitely would love to have
+this mature
+
+1360
+00:52:42,900 --> 00:52:45,630
+to the point where we have
+a whole new approach
+
+1361
+00:52:45,630 --> 00:52:47,500
+to doing exploration of
+the solar system
+
+1362
+00:52:47,500 --> 00:52:49,000
+and we can--and--and bring
+this technology
+
+1363
+00:52:49,000 --> 00:52:51,300
+to service in that way.
+
+1364
+00:52:51,300 --> 00:52:53,700
+And at the same time, as Jacob
+hinted at the beginning of this,
+
+1365
+00:52:53,700 --> 00:52:55,800
+the very quest to--to understand
+these things,
+
+1366
+00:52:55,800 --> 00:52:57,900
+the very quest to imitate
+1367
+00:52:57,900 --> 00:52:59,870
+or be inspired by biology is--
+
+1368
+00:52:59,870 --> 00:53:01,870
+[coughs]
+Pardon me.
+
+1369
+00:53:01,870 --> 00:53:04,330
+Is also very informative
+about ourselves.
+
+1370
+00:53:04,330 --> 00:53:07,070
+And if we come away
+with new ideas
+
+1371
+00:53:07,070 --> 00:53:09,030
+and new understandings
+of how we work--
+
+1372
+00:53:09,030 --> 00:53:10,730
+I mean, a lot of these theories
+I've shown you
+
+1373
+00:53:10,730 --> 00:53:12,430
+about how the body works
+and how the brain works,
+
+1374
+00:53:12,430 --> 00:53:13,700
+they're out there.
+
+1375
+00:53:13,700 --> 00:53:15,170
+They're being discussed
+and debated
+
+1376
+00:53:15,170 --> 00:53:16,570
+in different scientific
+communities,
+
+1377
+00:53:16,570 --> 00:53:18,330
+but if we can then say,
+hey, look, this is why
+
+1378
+00:53:18,330 --> 00:53:21,400
+it makes sense to have a body
+that's not rigidly connected.
+
+1379
+00:53:21,400 --> 00:53:22,630
+This is the advantages you get
+
+1380
+00:53:22,630 --> 00:53:24,630
+because I can build robots
+that can do things
+
+1381
+00:53:24,630 --> 00:53:26,200
+no other robot can do.
+
+1382
+00:53:26,200 --> 00:53:28,600
+That's gonna tell us something
+about how human bodies work,
+
+1383
+00:53:28,600 --> 00:53:30,600
+and that may inform
+how surgeries are done
+
+1384
+00:53:30,600 --> 00:53:31,930
+and how health care is managed
+
+1385
+00:53:31,930 --> 00:53:33,600
+and how people take care of
+their bodies, right.
+
+1386
+00:53:33,600 --> 00:53:35,100
+These are very useful things
+
+1387
+00:53:35,100 --> 00:53:37,470
+that will impact millions of
+lives potentially.
+1388
+00:53:37,470 --> 00:53:39,200
+And I would love to see
+that impact.
+
+1389
+00:53:39,200 --> 00:53:41,170
+I'd love to see
+our controls research
+
+1390
+00:53:41,170 --> 00:53:43,470
+to have an influence on how
+we understand neuroscience.
+
+1391
+00:53:43,470 --> 00:53:47,400
+And even beyond that, if this
+open up new forms of robotics
+
+1392
+00:53:47,400 --> 00:53:49,230
+that just impact life
+here on Earth,
+
+1393
+00:53:49,230 --> 00:53:50,570
+that would be great, too, right.
+
+1394
+00:53:50,570 --> 00:53:53,670
+It doesn't just have to be
+the singular quest
+
+1395
+00:53:53,670 --> 00:53:55,100
+of exploring other planets,
+
+1396
+00:53:55,100 --> 00:53:58,470
+but that is the real driver
+for these projects
+
+1397
+00:53:58,470 --> 00:54:01,030
+is to build a robot that can go
+explore another planet.
+
+1398
+00:54:01,030 --> 00:54:03,900
+And all the rest of it is part
+of the--part of the benefits,
+
+1399
+00:54:03,900 --> 00:54:05,830
+and that's part of
+what NASA does.
+
+1400
+00:54:05,830 --> 00:54:08,130
+We explore the universe so that
+we gain all sorts of knowledge
+
+1401
+00:54:08,130 --> 00:54:09,800
+that gets used
+all over the place.
+
+1402
+00:54:09,800 --> 00:54:11,970
+Much of your technologies
+of your daily life
+
+1403
+00:54:11,970 --> 00:54:14,100
+are influenced by
+prior generations
+
+1404
+00:54:14,100 --> 00:54:16,970
+of NASA research.
+
+1405
+00:54:16,970 --> 00:54:18,830
+- Questions?
+
+1406
+00:54:18,830 --> 00:54:20,430
+- I was wondering if you had
+a chance to check out
+
+1407
+00:54:20,430 --> 00:54:24,530
+Theo Jansen's Strandbeest
+exhibit at the Exploratorium.
+
+1408
+00:54:24,530 --> 00:54:25,900
+- Oh, I haven't seen it
+in person.
+1409
+00:54:25,900 --> 00:54:27,370
+I've seen lots of videos
+over the years.
+
+1410
+00:54:27,370 --> 00:54:28,900
+- You can see it in person now
+over the summer.
+
+1411
+00:54:28,900 --> 00:54:30,430
+- Yeah, I just heard this week
+about that, so...
+
+1412
+00:54:30,430 --> 00:54:33,070
+- I noticed that shares
+a lot of similarities.
+
+1413
+00:54:33,070 --> 00:54:35,000
+- Yeah, yeah,
+very exciting stuff.
+
+1414
+00:54:35,000 --> 00:54:36,730
+I look forward to finding a time
+to do that.
+
+1415
+00:54:36,730 --> 00:54:37,770
+Thank you.
+
+1416
+00:54:37,770 --> 00:54:39,100
+[laughter]
+
+1417
+00:54:39,100 --> 00:54:41,130
+Time, though, is one of
+the tricky parts.
+
+1418
+00:54:41,130 --> 00:54:43,070
+[laughs]
+
+1419
+00:54:43,070 --> 00:54:44,300
+- Thank you.
+
+1420
+00:54:44,300 --> 00:54:46,770
+It's a very fascinating
+design idea,
+
+1421
+00:54:46,770 --> 00:54:49,070
+but I am wondering
+
+1422
+00:54:49,070 --> 00:54:51,630
+how fast
+this thing's gonna be
+
+1423
+00:54:51,630 --> 00:54:55,070
+and how energy efficient
+they--they can be,
+
+1424
+00:54:55,070 --> 00:54:56,430
+the locomotion.
+
+1425
+00:54:56,430 --> 00:55:00,400
+And also, if they need to carry
+not just themselves,
+
+1426
+00:55:00,400 --> 00:55:02,430
+but some stable platform,
+
+1427
+00:55:02,430 --> 00:55:05,500
+like sensors pointing
+at certain directions
+
+1428
+00:55:05,500 --> 00:55:07,600
+all the way
+or something like this,
+
+1429
+00:55:07,600 --> 00:55:09,730
+how can you achieve this?
+Thank you.
+
+1430
+00:55:09,730 --> 00:55:11,900
+- All right, I'll attempt to
+answer your four questions.
+
+1431
+00:55:11,900 --> 00:55:14,200
+[laughs]
+
+1432
+00:55:14,200 --> 00:55:17,830
+So again,
+energy efficiency-wise,
+
+1433
+00:55:17,830 --> 00:55:21,000
+they--one of the arguments,
+
+1434
+00:55:21,000 --> 00:55:22,870
+and we are not yet
+to the point--
+
+1435
+00:55:22,870 --> 00:55:24,570
+We're still figuring out
+the--the--the basics
+
+1436
+00:55:24,570 --> 00:55:26,430
+of how to control these, right,
+and so I'm not--
+
+1437
+00:55:26,430 --> 00:55:28,600
+I would not claim that we are at
+the point of optimizing
+
+1438
+00:55:28,600 --> 00:55:30,930
+and maximizing their
+energy efficiency yet.
+
+1439
+00:55:30,930 --> 00:55:32,300
+I'd like to get there someday.
+
+1440
+00:55:32,300 --> 00:55:34,200
+But one of the theories is that
+1441
+00:55:34,200 --> 00:55:37,130
+if you can control a structure
+
+1442
+00:55:37,130 --> 00:55:39,830
+at its resonant modes,
+
+1443
+00:55:39,830 --> 00:55:42,830
+then you get the most energy
+efficient means of locomotion
+
+1444
+00:55:42,830 --> 00:55:44,470
+for that structure.
+
+1445
+00:55:44,470 --> 00:55:47,070
+And--and that's part of
+what we see
+
+1446
+00:55:47,070 --> 00:55:49,030
+in this combined
+flexible structure
+
+1447
+00:55:49,030 --> 00:55:53,400
+and--and rhythmic
+controllers
+
+1448
+00:55:53,400 --> 00:55:56,770
+is that they do tend
+towards synchronizing
+
+1449
+00:55:56,770 --> 00:55:58,400
+to the resonant mode
+of the structure.
+
+1450
+00:55:58,400 --> 00:56:00,800
+And this is part of, like,
+how birds fly
+
+1451
+00:56:00,800 --> 00:56:04,300
+at a fraction of the energetics
+1452
+00:56:04,300 --> 00:56:05,800
+of our airplanes, right.
+
+1453
+00:56:05,800 --> 00:56:09,270
+Because they are working at
+a coupled resonance
+
+1454
+00:56:09,270 --> 00:56:11,300
+between the bird
+and the local environments--
+
+1455
+00:56:11,300 --> 00:56:13,600
+the bird's body and the local
+
+1456
+00:56:13,600 --> 00:56:15,430
+aerodynamic environment
+that it's in,
+
+1457
+00:56:15,430 --> 00:56:17,100
+which is also influencing.
+
+1458
+00:56:17,100 --> 00:56:18,970
+And so getting the ability to
+figure out how to do that
+
+1459
+00:56:18,970 --> 00:56:20,500
+coupling of the dynamics
+from your--
+
+1460
+00:56:20,500 --> 00:56:22,130
+all the way from
+your control structure
+
+1461
+00:56:22,130 --> 00:56:23,800
+through the body
+to the local environment
+
+1462
+00:56:23,800 --> 00:56:25,470
+and make that one coupled system
+
+1463
+00:56:25,470 --> 00:56:27,570
+is, I think, the holy grail
+of efficiency.
+
+1464
+00:56:27,570 --> 00:56:29,600
+and I think this is, hopefully,
+part of the solution
+
+1465
+00:56:29,600 --> 00:56:31,300
+of getting there, right.
+
+1466
+00:56:31,300 --> 00:56:32,730
+I can't claim
+that I'm there yet,
+
+1467
+00:56:32,730 --> 00:56:34,600
+but I think it's a direction
+that will get us
+
+1468
+00:56:34,600 --> 00:56:36,000
+to very high levels
+of efficiency
+
+1469
+00:56:36,000 --> 00:56:38,230
+Arguably, one little side
+amusing point,
+
+1470
+00:56:38,230 --> 00:56:40,600
+is that we should be able to
+build a robotic horse
+
+1471
+00:56:40,600 --> 00:56:42,630
+that we can run with
+a one-horsepower motor, right?
+
+1472
+00:56:42,630 --> 00:56:44,770
+So that just shows you how
+inefficient--
+1473
+00:56:44,770 --> 00:56:46,800
+[laughter]
+
+1474
+00:56:46,800 --> 00:56:49,830
+That--that's how inefficient
+our current approaches are.
+
+1475
+00:56:49,830 --> 00:56:51,900
+All right.
+
+1476
+00:56:51,900 --> 00:56:54,730
+Locomotion speed,
+
+1477
+00:56:54,730 --> 00:56:56,100
+again, this is
+a design principle.
+
+1478
+00:56:56,100 --> 00:56:58,000
+I mean, SUPERball is gonna be
+somewhat limited
+
+1479
+00:56:58,000 --> 00:56:59,570
+in its top speeds.
+
+1480
+00:56:59,570 --> 00:57:01,870
+In simulation, we had it going
+really fast at times,
+
+1481
+00:57:01,870 --> 00:57:03,970
+but it's--you know,
+you're doing the sort of
+
+1482
+00:57:03,970 --> 00:57:05,470
+dynamic flopping and rolling.
+
+1483
+00:57:05,470 --> 00:57:06,770
+We haven't pushed it
+to the point
+1484
+00:57:06,770 --> 00:57:09,430
+of trying to get super,
+you know, dynamic locomotions.
+
+1485
+00:57:09,430 --> 00:57:10,800
+Again, in simulation we have,
+
+1486
+00:57:10,800 --> 00:57:13,200
+and it looks nice
+and fun and fast,
+
+1487
+00:57:13,200 --> 00:57:15,500
+but we haven't built that yet
+in hardware.
+
+1488
+00:57:15,500 --> 00:57:17,300
+But again, it's a design
+principle
+
+1489
+00:57:17,300 --> 00:57:19,300
+so I don't think there's
+any particular limitation
+
+1490
+00:57:19,300 --> 00:57:20,870
+to its ultimate speed.
+
+1491
+00:57:20,870 --> 00:57:22,170
+And then you would really
+start--
+
+1492
+00:57:22,170 --> 00:57:23,530
+if you really want to have
+a fast-moving robot,
+
+1493
+00:57:23,530 --> 00:57:25,230
+you start getting into
+the biomechanical design of it,
+
+1494
+00:57:25,230 --> 00:57:26,630
+right.
+
+1495
+00:57:26,630 --> 00:57:28,770
+Are you gonna be using legs?
+Are you gonna, you know--
+
+1496
+00:57:28,770 --> 00:57:30,870
+What's the overall shape
+of the robot gonna be,
+
+1497
+00:57:30,870 --> 00:57:33,230
+and how are you generating
+that power and force?
+
+1498
+00:57:33,230 --> 00:57:36,800
+Stability of
+the sensor platform.
+
+1499
+00:57:36,800 --> 00:57:38,370
+Yes, so this is gonna be
+
+1500
+00:57:38,370 --> 00:57:39,830
+one of the interesting
+challenges, right.
+
+1501
+00:57:39,830 --> 00:57:41,830
+Right now we have this concept
+of putting a payload
+
+1502
+00:57:41,830 --> 00:57:45,070
+in the centrally suspended
+mechanism
+
+1503
+00:57:45,070 --> 00:57:46,300
+in the middle of the robot,
+
+1504
+00:57:46,300 --> 00:57:47,670
+and then you've got
+this rolling robot,
+1505
+00:57:47,670 --> 00:57:49,500
+and you're like, "Oh, my gosh,
+I'm gonna get--
+
+1506
+00:57:49,500 --> 00:57:52,670
+I'm gonna get really dizzy
+trying to drive this thing."
+
+1507
+00:57:52,670 --> 00:57:55,900
+And--but there are
+a number of solutions
+
+1508
+00:57:55,900 --> 00:57:57,500
+I can imagine
+to that, right.
+
+1509
+00:57:57,500 --> 00:58:00,700
+One idea is you have a number
+of very small cameras
+
+1510
+00:58:00,700 --> 00:58:02,200
+around that payload
+
+1511
+00:58:02,200 --> 00:58:04,370
+and you can do a virtual
+aperture, you know, algorithm.
+
+1512
+00:58:04,370 --> 00:58:06,430
+This is stuff that's been done
+many times
+
+1513
+00:58:06,430 --> 00:58:09,670
+where you create a synthetic
+single stable view
+
+1514
+00:58:09,670 --> 00:58:11,800
+out of a bunch of
+rolling moving cameras.
+1515
+00:58:11,800 --> 00:58:13,130
+It's possible to do that, right?
+
+1516
+00:58:13,130 --> 00:58:16,000
+There may be other solutions
+for, how do you manage
+
+1517
+00:58:16,000 --> 00:58:19,530
+the locomotion and navigation
+of the system?
+
+1518
+00:58:19,530 --> 00:58:21,670
+And again, you know,
+
+1519
+00:58:21,670 --> 00:58:23,270
+there may be other approaches
+that we--
+
+1520
+00:58:23,270 --> 00:58:25,270
+we end up coming up with
+eventually
+
+1521
+00:58:25,270 --> 00:58:27,500
+that will give us the--
+sort of the ultimate
+
+1522
+00:58:27,500 --> 00:58:30,370
+perfect hybrid, right.
+
+1523
+00:58:30,370 --> 00:58:32,570
+You know, one--one--one thing
+that we have to remember
+
+1524
+00:58:32,570 --> 00:58:34,770
+is that when you're building
+an actual space system,
+
+1525
+00:58:34,770 --> 00:58:37,770
+you are always trading off
+different requirements,
+
+1526
+00:58:37,770 --> 00:58:39,670
+different optimizations
+against each other, right.
+
+1527
+00:58:39,670 --> 00:58:42,370
+So we may be losing
+
+1528
+00:58:42,370 --> 00:58:44,900
+certain forms of stability
+and management
+
+1529
+00:58:44,900 --> 00:58:46,670
+in the locomotion,
+
+1530
+00:58:46,670 --> 00:58:48,600
+but gaining this great ability
+
+1531
+00:58:48,600 --> 00:58:50,370
+to be robust to falls and slips
+
+1532
+00:58:50,370 --> 00:58:53,130
+and to be able to survive
+a landing without an air bag,
+
+1533
+00:58:53,130 --> 00:58:55,770
+and so you may trade off some of
+these, you know, capabilities,
+
+1534
+00:58:55,770 --> 00:58:57,400
+one for the other, to enable
+sort of the--
+
+1535
+00:58:57,400 --> 00:58:59,400
+the perfect mission design.
+
+1536
+00:58:59,400 --> 00:59:01,870
+So these are all areas, though,
+that we're very interested
+
+1537
+00:59:01,870 --> 00:59:03,330
+in continuing to--
+to think about,
+
+1538
+00:59:03,330 --> 00:59:04,930
+and I just haven't had
+the opportunity
+
+1539
+00:59:04,930 --> 00:59:08,730
+to really tackle head-on yet.
+
+1540
+00:59:08,730 --> 00:59:11,830
+- Hi, thank you.
+That was a great talk.
+
+1541
+00:59:11,830 --> 00:59:13,900
+As a biologist who loves robots,
+
+1542
+00:59:13,900 --> 00:59:17,930
+this is a fun interface to see
+someone playing around in.
+
+1543
+00:59:17,930 --> 00:59:21,300
+But I think you may have
+probably already thought of this
+
+1544
+00:59:21,300 --> 00:59:23,330
+considering
+your closed loop thing
+
+1545
+00:59:23,330 --> 00:59:25,500
+that you were
+playing around with,
+
+1546
+00:59:25,500 --> 00:59:29,230
+but the--there was
+a C. elegans robot
+1547
+00:59:29,230 --> 00:59:31,700
+that was made
+and it responds--
+
+1548
+00:59:31,700 --> 00:59:35,230
+a couple years ago
+and it will respond by itself
+
+1549
+00:59:35,230 --> 00:59:38,130
+to an obstacle, for example.
+
+1550
+00:59:38,130 --> 00:59:41,600
+So it runs into--and C. elegans
+has a stereotype behavior
+
+1551
+00:59:41,600 --> 00:59:44,170
+to get around it eventually.
+
+1552
+00:59:44,170 --> 00:59:46,200
+And I'm wondering,
+
+1553
+00:59:46,200 --> 00:59:49,630
+because you may drop a robot
+in an environment,
+
+1554
+00:59:49,630 --> 00:59:52,630
+you may not know
+what's there exactly.
+
+1555
+00:59:52,630 --> 00:59:54,530
+Are you thinking about how you
+can get this robot
+
+1556
+00:59:54,530 --> 00:59:59,270
+to just respond to just
+an obstacle, for example?
+
+1557
+00:59:59,270 --> 01:00:01,830
+- Yeah, well, so in some of
+the videos that you--I showed,
+
+1558
+01:00:01,830 --> 01:00:04,000
+like, where it was going over
+some of the lump--
+
+1559
+01:00:04,000 --> 01:00:06,500
+like, the spine robot was going
+over some of the lumpy ground
+
+1560
+01:00:06,500 --> 01:00:08,670
+or some of the blocks
+and things like that,
+
+1561
+01:00:08,670 --> 01:00:12,930
+and even--I had one picture here
+
+1562
+01:00:12,930 --> 01:00:14,570
+that was from some
+very early research
+
+1563
+01:00:14,570 --> 01:00:17,930
+when we were doing
+the spine robots.
+
+1564
+01:00:17,930 --> 01:00:20,270
+This one, right.
+
+1565
+01:00:20,270 --> 01:00:22,700
+And--and where you see it going
+across these various terrains
+
+1566
+01:00:22,700 --> 01:00:24,600
+and the walls and whatnot,
+
+1567
+01:00:24,600 --> 01:00:26,400
+that was all done with no
+knowledge of the environment.
+
+1568
+01:00:26,400 --> 01:00:28,830
+That was all done as--
+as using the sort of
+
+1569
+01:00:28,830 --> 01:00:30,700
+reactive distributive control
+approach,
+
+1570
+01:00:30,700 --> 01:00:32,230
+where it would just
+run into these things
+
+1571
+01:00:32,230 --> 01:00:34,730
+and sort of eventually
+find its way over them.
+
+1572
+01:00:34,730 --> 01:00:37,770
+So I think there is a lot that
+can be done with that.
+
+1573
+01:00:37,770 --> 01:00:41,000
+And you can imagine--
+so, you know, it's...
+
+1574
+01:00:41,000 --> 01:00:42,370
+[sighs]
+
+1575
+01:00:42,370 --> 01:00:44,730
+We took--you know,
+if you just use
+
+1576
+01:00:44,730 --> 01:00:46,200
+your proprioceptive sensors,
+
+1577
+01:00:46,200 --> 01:00:48,630
+your sense of touch and your
+sense of feeling the forces
+
+1578
+01:00:48,630 --> 01:00:50,270
+and the things you collide with,
+1579
+01:00:50,270 --> 01:00:51,970
+you can figure out
+all sorts of ways
+
+1580
+01:00:51,970 --> 01:00:54,430
+to manage how to navigate
+through very complex situations
+
+1581
+01:00:54,430 --> 01:00:56,130
+I have a one-year-old son
+at home
+
+1582
+01:00:56,130 --> 01:00:58,030
+and he's learning to walk,
+and, you know, he doesn't have
+
+1583
+01:00:58,030 --> 01:00:59,430
+a very complex
+planning algorithm.
+
+1584
+01:00:59,430 --> 01:01:01,530
+He just kind of like
+pushes and pushes
+
+1585
+01:01:01,530 --> 01:01:03,530
+until he eventually, like,
+crawls over my body
+
+1586
+01:01:03,530 --> 01:01:05,470
+and, you know, and goes
+wherever he's going, right.
+
+1587
+01:01:05,470 --> 01:01:08,370
+And it works.
+It gets you there.
+
+1588
+01:01:08,370 --> 01:01:11,100
+The advantage of using things
+like your eyes,
+1589
+01:01:11,100 --> 01:01:13,630
+your other distance sensors,
+
+1590
+01:01:13,630 --> 01:01:16,170
+allow you to do things
+in a more efficient manner.
+
+1591
+01:01:16,170 --> 01:01:18,770
+It really optimizes
+how you spend your energy.
+
+1592
+01:01:18,770 --> 01:01:21,970
+Now, you can, instead of, like,
+bumping into this and--
+
+1593
+01:01:21,970 --> 01:01:23,800
+and getting around it
+eventually,
+
+1594
+01:01:23,800 --> 01:01:25,130
+you're like, "Oh, yeah,
+
+1595
+01:01:25,130 --> 01:01:26,470
+I could just, you know,
+walk around that."
+
+1596
+01:01:26,470 --> 01:01:28,200
+That'd be real easy, right.
+
+1597
+01:01:28,200 --> 01:01:29,600
+So you do your own motion
+planning
+
+1598
+01:01:29,600 --> 01:01:31,100
+and it's--it's more
+energy efficient
+
+1599
+01:01:31,100 --> 01:01:33,570
+and nicer on the skin, too.
+
+1600
+01:01:33,570 --> 01:01:35,300
+So--so it's all about what level
+of capability
+
+1601
+01:01:35,300 --> 01:01:36,800
+you want to get to.
+
+1602
+01:01:36,800 --> 01:01:38,700
+But I think
+the important thing is
+
+1603
+01:01:38,700 --> 01:01:40,230
+that a lot of
+traditional robotics
+
+1604
+01:01:40,230 --> 01:01:43,470
+has started coming out of, like,
+a very industrial environment,
+
+1605
+01:01:43,470 --> 01:01:45,770
+where you're like,
+I need to perfectly plan
+
+1606
+01:01:45,770 --> 01:01:47,670
+every single thing I do,
+
+1607
+01:01:47,670 --> 01:01:49,900
+and--and have that control
+from the top end.
+
+1608
+01:01:49,900 --> 01:01:51,570
+We think about our tasks.
+
+1609
+01:01:51,570 --> 01:01:53,700
+This is what we are mentally
+aware of are all the tasks
+
+1610
+01:01:53,700 --> 01:01:55,070
+that we want to accomplish,
+
+1611
+01:01:55,070 --> 01:01:56,930
+and so we've designed robots
+to do things that way.
+
+1612
+01:01:56,930 --> 01:02:00,000
+I think it's very important to
+actually throw that all away
+
+1613
+01:02:00,000 --> 01:02:03,070
+for a moment,
+start from the bottom up.
+
+1614
+01:02:03,070 --> 01:02:06,500
+Figure out, how do you make
+a system that is so capable
+
+1615
+01:02:06,500 --> 01:02:07,900
+and robust of interacting
+with the environment
+
+1616
+01:02:07,900 --> 01:02:09,630
+that you can do this,
+that you can bump into stuff
+
+1617
+01:02:09,630 --> 01:02:12,770
+and eventually find your way
+around it without breaking.
+
+1618
+01:02:12,770 --> 01:02:14,000
+Have that as your foundation.
+
+1619
+01:02:14,000 --> 01:02:16,200
+And now on top of
+that foundation,
+
+1620
+01:02:16,200 --> 01:02:18,170
+you start figuring out how to
+take that capability
+
+1621
+01:02:18,170 --> 01:02:20,130
+and plan for it and control it
+
+1622
+01:02:20,130 --> 01:02:22,930
+through a more complex, planned,
+intentional movement.
+
+1623
+01:02:22,930 --> 01:02:26,330
+And that's really gonna be where
+you get the optimal balance
+
+1624
+01:02:26,330 --> 01:02:28,130
+of capabilities.
+
+1625
+01:02:28,130 --> 01:02:30,500
+But it means taking kind of
+a couple steps backwards,
+
+1626
+01:02:30,500 --> 01:02:32,800
+relative to state-of-the-art
+robotics,
+
+1627
+01:02:32,800 --> 01:02:36,300
+in order to make
+the big leap forward.
+
+1628
+01:02:36,300 --> 01:02:38,770
+- So please join me
+in thanking Vytas
+
+1629
+01:02:38,770 --> 01:02:40,300
+for an excellent seminar.
+
+1630
+01:02:40,300 --> 01:02:41,400
+[applause]
+
+1631
+01:02:41,400 --> 01:02:43,500
+Thank you very much.
