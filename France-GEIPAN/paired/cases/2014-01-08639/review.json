@@ -1,0 +1,83 @@
+{
+  "document_id": "doc-a26fd60dfbdc1f58922fdbbc",
+  "remaining_manual_review_count": 11,
+  "schema": "ufo-files-french-review-queue/v1",
+  "segments": [
+    {
+      "reasons": [
+        "official-abbreviation",
+        "translation-failure-or-qa"
+      ],
+      "review_status": "failed-protected-token-check",
+      "segment_id": "seg-1d878271e07dab45e444397e",
+      "weight": 13
+    },
+    {
+      "reasons": [
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
+      "segment_id": "seg-d8c882e921bce67f17125b66",
+      "weight": 10
+    },
+    {
+      "reasons": [
+        "official-abbreviation"
+      ],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-80557f8650bae21ba8335d22",
+      "weight": 3
+    },
+    {
+      "reasons": [
+        "classification"
+      ],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-84a21ab5ac929a06b582afb8",
+      "weight": 3
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-21542effe7227f1a12f7696e",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-330749e8478807e9fd090310",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-34148ddf22a0c3fce4ff6f04",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-6b289a3e28fe3e25c7363fea",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-8f496abf9ea02ac2771b6532",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-c375d9f3879404f32edc6931",
+      "weight": 0
+    },
+    {
+      "reasons": [],
+      "review_status": "not-required",
+      "segment_id": "seg-f3ceee447be3ea3e4f6e2f7a",
+      "weight": 0
+    }
+  ],
+  "selection_method": "deterministic weighted sample: failures, QA findings, official abbreviations, and classification"
+}
