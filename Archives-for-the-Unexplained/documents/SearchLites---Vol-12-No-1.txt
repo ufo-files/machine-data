@@ -1,0 +1,513 @@
+{"created_utc": "2026-09-14T09:17:31Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 337768, "source_ctime_ns": 1788551907604228768, "source_file": "Archives-for-the-Unexplained/documents/SearchLites---Vol-12-No-1.pdf", "source_mtime_ns": 1788551907591804085, "source_rel": "Archives-for-the-Unexplained/documents/SearchLites---Vol-12-No-1.pdf", "source_sha256": "d0f45981c48003363eddc1cc8d6d3d2fb4d844d6533689e4aede05d0ed56fbdd"}
+
+SearchLites
+                                                    Vol. 12 No. 1, Winter 2006
+                                        The Quarterly Newsletter of The SETI League, Inc.
+
+Offices:
+   433 Liberty Street                                 Active Assessment of Active SETI
+   PO Box 555                                             By H. Paul Shuch, Ph.D. Executive Director
+   Little Ferry NJ
+   07643 USA
+                                         Almost since its inception nearly half a century ago, SETI science has seen its supporters wage
+                                    a running battle over the question of transmissions from Earth. Deliberate transmission of signals
+Phone:                              into space, sometimes called Active SETI, is justified by its proponents on the grounds of reciproc-
+  (201) 641-1770                    ity. That is, some argue, we cannot in good conscience search for signals which we would hope
+Facsimile:                          other civilizations might choose to beam our way, if we ourselves are not willing to transmit such
+  (201) 641-1771                    signals from Earth. The counter-argument involves the safety, and some would say the very sur-
+Email:
+                                    vival, of our planet. Critics to Active SETI point out the dangers of shouting in the jungle. Radio
+  info@setileague.org
+Web:                                amateurs in support of Active SETI counter that (1) the cat is already out of the bag, as we have
+  www.setileague.org                been inadvertently transmitting to the stars for a century or so, and (2) if everybody’s listening and
+                                    nobody calls CQ, the bands will appear dead to all concerned.
+President:                               Eloquent arguments on both sides of the issue have appeared in the pages of SearchLites, and
+   Richard Factor                   on The SETI League’s website, since our organization was founded more than a decade ago. They
+Registered Agent:
+                                    reflect a very real concern on the part of parties subscribing to two diverging philosophies, but I
+    Marc Arnold, Esq.
+Secretary/Treasurer:                find it interesting that the argument itself evidences a significant agreement: all seem to accept as a
+   A. Heather Wood                  given the existence of technological civilizations beyond Earth. The existence of ETI would appear
+Executive Director:                 no longer open to question; only its intensions are a subject of debate.
+   H. Paul Shuch, Ph.D.                  Recently, the arguments about the advisability of transmitting from Earth have led to renewed
+Trustees:                           efforts to establish international transmission protocols. Predictably, there are those who would
+   Richard Factor                   urge no policy restrictions against free flow of information to the stars, and others who would re-
+   Marc Arnold, Esq.                strict transmission from Earth, or at least subject it to political scrutiny prior to deeming it accept-
+   Martin Schreiber, CPA            able. The problem with such discussions is that, regardless of the side of the issue a given person
+                                    takes, the parties seem to desire a blanket and inflexible policy, one that fails to consider the merits
+Advisory Board:                     and risks of transmissions on an individual basis.
+  Anthony Agnello                        But, despite the language of any constitution, not all transmissions are created equal! The
+  Sir Arthur C. Clarke              benefits and risk of a given interstellar transmission are related to its power relative to the electro-
+  Robert S. Dixon, Ph.D.            magnetic background, to its duration, its directionality, its bandwidth, and its information content.
+  Frank D. Drake, Ph.D.             Even the most cautious critic of Active SETI will recognize that some transmissions are so unlikely
+  Malcolm I. Raff, Ph.D.
+                                    ever to be detected that their potential impact (be it for good or for ill) is negligible. Other trans-
+  Clifford Stoll, Ph.D.
+                                    mission scenarios can be envisioned which would so mark Earth as an aggressive and inconsiderate
+                                    planet as to alarm even the staunchest proponent of Active SETI. So, any blanket policy (either for
+SearchLites, ISSN 1096-5599,        or against transmission) which fails to distinguish between signals is missing an important point.
+is the Quarterly Newsletter of           Is it not possible to evaluate individual Active SETI proposals in terms of their potential im-
+The SETI League, Inc., a            pact, perhaps quantifying each on some sort of objective scale? Our Hungarian friend and col-
+membership-supported,       non-
+profit [501(c)(3)], educational
+                                    league Ivan Almar thinks so, and last Spring he proposed, at a SETI conference in San Marino, a
+and scientific corporation, dedi-   new analytical tool to do just that. Now called the San Marino Scale, Dr. Almar’s proposal has
+cated to the electromagnetic        been discussed and refined (but not yet adopted) by the SETI Permanent Study Group of the Inter-
+Search for Extra-Terrestrial        national Academy of Astronautics, on which several SETI League members serve. It would quan-
+Intelligence. SETI League, Dr.      tify on an integer scale of 1 to 10, based upon specific, measurable characteristics, the transmission
+SETI, and the above logo are all    risk associated with any Active SETI project, historical or proposed, or for that matter any other
+registered service marks of The     transmission of electromagnetic energy from Earth. The San Marino Scale is described at some
+SETI League, Inc. Entire con-       length on that Study Group’s website, http://iaaseti.org (from the main menu at the left of each
+tents copyright © 2006 by The       page, click on “Protocols;” then scroll down the page and look for the San Marino Scale link).
+SETI League, Inc. Permission
+is hereby granted for re-
+                                          I urge all SETI League members to familiarize themselves with this new analytical tool.
+production in whole or in part,     Whether promoting transmissions, or arguing for international sanctions, let us do the quantifiable
+provided credit is given. All       risk/benefit analysis for which engineers are noted. A transmission with a San Marino score of 1
+opinions expressed are those        (‘insignificant’) through 3 (‘minor’), I would suggest, scarcely warrants scrutiny. An impact score
+of the individual contributors.     of 8 (‘far-reaching’) through 10 (‘extraordinary), on the other hand, should give even the most ar-
+                                    dent Active SETI supporter pause.                                                             
+
+                                                                  Page 1
+                                    SearchLites Volume 12, Number 1 -- Winter 2006
+
+      About SETI Range and Sensitivity                                       parasitic noise peaks prevent clear discrimination. With 8192
+                      by Lieven Philips                                      points (Figure 5), the FFT results in a high S/N ratio. This
+                                                                             means that with a sufficiently long time window (i.e. FFT
+     In this short paper I would like to make an additional                  length) when can detect every CW signal, no matter how weak
+comment on the discussion of the achievable range of the Are-                it is. All figures obtained using Matlab.
+cibo radio telescope, in SearchLites Vol. 11, No 3 (Summer                         This reasoning is not in contradiction with what we nor-
+2005).                                                                       mally understand as sensitivity, or with what the Shannon
+     When Arecibo is mapping the hydrogen distribution in the                theorem tells us. Sensitivity is typically defined as the signal
+Milky Way, then the radio telescope's receiver is piling up                  level above noise that is still detectable by a receiver. How-
+energy in a relatively narrow band centered around a certain                 ever, with the coherent detection we can go arbitrary far below
+frequency. Only the energy of the signal is important; there's               the noise + interference floor, because we have defined our
+no phase information recovered (it doesn't make sense). When                 level of detectability not in function of a telecommunications
+Arecibo was receiving the beacon signal from Pioneer 10, it                  link, but only in function of the detectability of the presence of
+was also about recovery of energy in a very narrow band. But                 a signal, not the signal content. Similarly, there is no violation
+when there is data communication with a space probe (e.g.                    of the Shannon theorem: we can consider the narrowband CW
+compressed images from Cassini-Huygens) then recovery of                     signal as a single bit, smeared out infinitely, over a very nar-
+the data involves data demodulation, and data demodulation                   row bandwidth; as a consequence, the S/N can go arbitrarily
+implies coherent tracking, i.e. carrier phase recovery (for a                low, or the range can be arbitrarily extended, at the expense of
+PSK signal). The range that can be achieved depends on the                   computation time.
+transmission power and the bandwidth. We can increase the                          In principle, this kind of search would be applicable to
+range by reducing the data rate (which determines the band-                  check out globular clusters or galaxies. The gigantic amount
+width), at constant transmission power.                                      of computation would be compensated by the number of stars
+     In most SETI searches, we are looking for very narrow-                  that can be scrutinized simultaneously: it is sufficient that one
+band (CW) signals, which we try to detect with multi-million                 civilization on one planet of one star in the Andromeda Gal-
+points FFT's. The accumulation of energy in each frequency                   axy has detected a life bearing planet in our Galaxy (e.g. spec-
+bin (each possible channel) is performed over a certain limited              troscopically), and decided to install an eternal beacon di-
+time (say 100 seconds), in order to average out fluctuations of              rected to us. This search strategy would comply with the hy-
+the noise power. The time interval is limited because Doppler                pothesis from Cohen and Hohlfeld (Sky and Telescope) that
+effects and interstellar scintillation (fading) gradually influ-             life in the universe is quite rare, and hence we have to search
+ence the frequency and the amplitude of the signal. Instead of               for a beacon which is "very powerful, but very far away".
+accumulating energy, however, we could also attempt - in
+principle - to track the CW ETI beacon over an extended dura-
+tion. If this was possible, then we could detect CW signals
+which are deeply buried in the noise, because the coherent
+FFT gain is proportional to the tracking interval (i.e. the dura-
+tion of the coherent correlation). This means that - if it was
+possible to track the CW signal - we could extend the recovery
+range far beyond the typical range non-coherent energy detec-
+tion or modulated signals.
+     Of course it is not possible to actually track the CW sig-
+nal, because we cannot phase synchronize to it (because the
+CW signal is assumed to be buried in the noise). But what we
+can do is to run a vast amount of hypotheses on the phase evo-
+lution on our interval (of say 1 hour duration). These hypothe-
+ses are similar to the Doppler compensation hypotheses that
+are applied e.g. in SETI@home. This leads to an explosion of                                               Figure 1
+calculations, but at the benefit of significantly extending the
+range. Moore's law and advances in grid computing would
+eventually allow this to be a practical approach.
+
+Example:
+     Consider a 5 kHz wide frequency bin with a sine wave-
+form (CW signal) at 1500 kHz at power = 1, accumulated on a
+noise signal (random variable) with variance = 36. This is
+hence a signal deeply buried in the noise. Figure 1 shows the
+signal, Figure 2 the signal in the noise. Now we perform
+FFT's with different lengths: Figure 3 shows the spectrum
+resulting from a 512-points FFT. The signal is not detected.
+Figure 4 shows the spectral analysis at an 8 times longer time
+interval, using a 4096-points FFT: the signal is present, but
+                                                                                                         Figure 2
+                                                                    Page 2
+       SearchLites Volume 12, Number 1 -- Winter 2006
+
+
+                                                 Event Horizon
+                                        SearchLites' readers are apprised of the following
+                                    conferences and meetings at which SETI-related infor-
+                                    mation will be presented. League members are invited
+                                    to check our World Wide Web site (www.setileague.org)
+                                    under Event Horizon, or email to us at
+                                    info@setileague.org, to obtain further details. Members
+                                    are also encouraged to send in information about upcom-
+                                    ing events of which we may be unaware.
+
+                                    December 9 - 11, 2005: Philcon 2005, Philadelphia PA.
+                                    April 22, 2006, 0000 UTC - 2359 UTC: Eighth annual
+                                    SETI League Ham Radio QSO Party, 14.204, 21.306,
+                                    and 28.408 MHz.
+                                    April 30, 2006: Twelfth SETI League Annual Member-
+Figure 3                            ship Meeting, SETI League Headquarters, Little Ferry
+                                    NJ.
+                                    May 19 - 21, 2006: Hamvention 2006, Dayton OH.
+                                    June 18 - 21, 2006: SETICon06 Technical Symposium,
+                                    in conjunction with Society of Amateur Radio Astrono-
+                                    mers Conference, NRAO Green Bank WV.
+                                    July 27 - 30, 2006: Central States VHF Conference,
+                                    Minneapolis MN.
+                                    August 23 - 27, 2006: L.A.Con IV World Science Fic-
+                                    tion Convention, Los Angeles, CA.
+                                    August 25 - 27, 2006: EME Conference 2006, Wuerz-
+                                    burg Germany.
+                                    September 8 - 10, 2006: EuroSETI06, in conjunction
+                                    with the Fourth International Congress for Radio As-
+                                    tronomy, Heideburg Germany.
+                                    October 2 - 6, 2006: 57th International Astronautical
+                                    Congress, Valencia Spain.
+                                    October 6 - 8, 2006: AMSAT Space Symposium, San
+  Figure 4                          Francisco CA.
+                                    April 21, 2007, 0000 UTC - 2359 UTC: Eighth annual
+                                    SETI League Ham Radio QSO Party, 14.204, 21.306,
+                                    and 28.408 MHz.
+                                    May 18 - 20, 2007: Hamvention 2007, Dayton OH.
+                                    June 2007 (dates TBA): Society of Amateur Radio As-
+                                    tronomers Conference, NRAO Green Bank WV.
+                                    July 26 - 29, 2007: Central States VHF Conference, San
+                                    Antonio TX.
+                                    August 30 - September 3, 2007: 65th World Science
+                                    Fiction Convention, Yokohama Japan.
+                                    September 24 - 28, 2007: 58th International Astronau-
+                                    tical Congress, New Delhi, India.
+                                    September 30 - October 4, 2008 (proposed): 59th In-
+                                    ternational Astronautical Congress, Glasgow, Scotland.
+                                        
+
+
+  Figure 5
+
+
+                           Page 3
+                                     SearchLites Volume 12, Number 1 -- Winter 2006
+
+                                                                                For the first 5 Gyr of the life of the Galaxy, there would not
+                 How Old is ET?                                                 have been enough time for a civilisation to develop, and so ET
+                       by Ray Norris                                            did not exist. Between 5 and 10 Gyr, assuming a constant rate
+           Austrailian National Telescope Facility                              of star formation, the number of civilisations would increase
+          PO Box 76, Epping, NSW1710, Australia                                 linearly until the present day. At around the present time,
+              email ray.norris@atnf.csiro.au                                    some of those first solar-type stars will be dying at the same
+                                                                                rate as others are forming, and so, assuming their civilisations
+ABSTRACT                                                                        die at the same rate as they do, the number of civilisations is
+     This paper considers the factors that determine the prob-                  then level from now on.
+able age of a civilisation that might be detected in a SETI                          The median age of a civilisation is therefore the median
+search. Simple stellar evolution considerations suggest an age                  age of those civilisations that started between 5 and 0 Gyr ago,
+of a few Gyr. Supernovae and Gamma-ray-bursters could in                        which is 1.7 Gyr. Therefore, in the absence of other factors,
+principle shorten the lifetime of a civilisation, but the fact that             any civilisation that we detect via SETI is likely to be 1.7 Gyr
+life on Earth has survived for at least 4 Gyr places a severe                   more advanced than we are.
+constraint on such factors. If a civilisation is detected as a re-
+sult of a SETI search, it is likely to be of order 1 Gyr more                   3. THE EFFECT OF SUPERNOVAE
+advanced than us.                                                                    A supernova results from the explosion of a high-mass
+                                                                                star after its hydrogen and helium fuels are used up, at the end
+1. INTRODUCTION                                                                 of its lifetime. A supernova exploding within 50 ly of the
+      When we conduct searches for extra-terrestrial intelli-                   Earth will have a catastrophic effect. The 1040 J of energy pro-
+gence, we often make implicit assumptions about the age of                      duced in the first few days bathes the earth in a total amount of
+the civilisation that we are trying to find. For example, our                   ionisation some 300 times greater than the annual amount of
+strategy for searching for a life-form of a similar age to us is                ionisation from cosmic rays. Surprisingly, little of this radia-
+likely to be different from that for a civilisation billions of                 tion reaches Earth. Instead, Most of it ionises atmospheric
+years more advanced than us. Similarly, in the event of a con-                  nitrogen, which reacts with oxygen to form nitrous oxide,
+firmed detection, the way in which we plan our response will                    which in turn reacts with ozone 3. The effect will be to reduce
+also depend on how advanced that civilisation may be. In this                   the amount of ozone in the Earth's atmosphere by about 95%,
+paper, I estimate the likely age of the civilisation that we are                resulting in a level of UV on the Earth's surface some four
+most likely to detect, should we be successful in our searches.                 orders of magnitude greater than normal, which continues for
+      The two key factors that determine how old a detected                     a period of 2 years. This will certainly result in almost 100%
+civilisation is likely to be are (a) the length of time since intel-            mortality of small organisms and most plants. The effect on
+ligent life first appeared in our Galaxy and (b) the median life-               mammals is not clear, and some might survive. However this
+time of a civilisation. The second of these is more problem-                    2-year period is followed by a longer (80 years) period of
+atic, since the development of a civilisation can be cut short by               bombardment by the cosmic rays from the supernova, which
+a wide range of events, including disease, war, global mis-                     have similar, although slightly reduced, effects. It is difficult
+management, asteroids, supernovae, and gamma-ray bursters.                      to see how anything other than an advanced civilisation could
+We should also acknowledge the possible existence of other                      survive such an extended holocaust.
+hazards, of which we are not yet aware. For example, the dev-                        A supernova such as this goes off in our galaxy roughly
+astating effect of gamma-ray busters has only been appreci-                     every 5 years, and we expect one within 50 ly (light-years) of
+ated in the last 2-3 years, and there are probably other phe-                   the earth roughly once every 5 Myr. We expect one even
+nomena yet to be discovered. Events such as disease, war, and                   closer (within 10 ly) every 200 Myr. Therefore all life would
+global mismanagement are almost impossible to quantify, and                     be expected to be destroyed at this interval. Clearly this has
+so in this paper I concentrate on those events that we can                      not happened, since we are still here, and I will return to pos-
+quantify: asteroids, supernovae, and gamma-ray bursters. But                    sible reasons in a later section.
+in the first section of this paper, I consider what the maximum
+lifetime of a planetary-bound civilisation might be.                            4. THE EFFECT OF GAMMA-RAY-BURSTERS
+      Throughout this paper, I make a very conservative as-                           Gamma-ray bursters (GRB) are a recently discovered
+sumption that an extraterrestrial civilisation (ET) resembles us                phenomenon, in which some 1045 J of energy are released in a
+in most significant respects (other than age and evolution). In                 few seconds. The ones that have been observed on earth ap-
+other words, ET lives on a planet orbiting a solar-type star,                   pear to be distributed uniformly across the observable Uni-
+and has taken as long after the formation of their star to evolve               verse. Their power is such that we are able to detect GRB right
+to "civilisation" as we have, which is ~5 Gyr (Gigayears, or                    up to the edge of the observable universe. The mechanism is
+billion years). I therefore estimate the longevity of ET by                     still not known, but is likely to involve the merging of two
+looking at the hazards that confront the Earth.                                 neutron stars, possibly resulting in the formation of a black
+                                                                                hole.
+2. THE NATURAL LIFETIME OF A CIVILISATION                                             A GRB is some 5 orders of magnitude more energetic
+     I assume that stars like our Sun have been forming since                   than a supernova, and could occur even at the Galactic centre,
+the formation of the Galaxy some 10 Gyr ago. Observed                           25 000 ly away from us, and have a similar effect as a super-
+changes in metallicity since then are not sufficient to alter this              nova within 50 ly. However, in this case there is an even more
+simple assumption significantly. Our Sun is now about 5 Gyr                     deadly effect, in that, should a GRB go off in the Galactic cen-
+old, and has an expected total lifetime of 10 Gyr.                              tre, the immediate blast of ionising radiation is followed by an
+                                                                       Page 4
+                                    SearchLites Volume 12, Number 1 -- Winter 2006
+
+intense blast of cosmic rays lasting perhaps a few weeks 4.                  7. CONCLUSION
+These cosmic rays will initiate a shower of relativistic muons                    Conventional models imply that supernovae and gamma-
+in the Earth's atmosphere, causing a radiation level on the sur-             ray-bursters will extinguish life on planets at intervals of about
+face of the earth some 100 times greater than the lethal dose                200 Myr. Since this has not happened on Earth, either these
+for a human being. The muons are so energetic that they                      conventional models are wrong, or else life on Earth is proba-
+would even penetrate nuclear air-raid shelters to a depth of                 bly unique in the Galaxy. The first case predicts a median age
+perhaps hundreds of metres 2.                                                of ET as being of the order of 1 billion years. The second case
+     We expect such a GRB roughly once every 200 Myr, and                    predicts that we will never detect ET. Thus, if we do detect
+it would almost certainly result in the extinction of all life on            ET, the median age is of order 1 billion years. Note that, in
+earth other than that deep in the ocean. Again, clearly this has             this case, the probability of ET being less than one million
+not happened, since we are here.                                             years older than us is less than 1 part in 1000.
+                                                                                  Therefore, any successful SETI detection will have de-
+5. MASS EXTINCTIONS ON EARTH                                                 tected a civilisation almost certainly at least a million years
+     The geological and biological record shows a series of                  older than ours, and more probably of order a billion years
+mass extinctions of life on Earth. The most famous is that at                older.
+the Cretaceous-Tertiary (KT) boundary, which was almost                      REFERENCES
+certainly caused by an asteroid hitting the earth about 65 Myr                    1. Annis, J., 1999, JBIS, 52, 19.
+ago. The KT mass extinction wiped out the dinosaurs, and                          2. Leonard, P.J.T., & Bonnell, J.T, 1998, Sky & Tele-
+paved the way for the emergence of mammals as the dominant                            scope, 95, 28.
+species on Earth.                                                                 3. Rudermann, M.A., 1974, Science, 184, 1079.
+     Less well known are a series of similar, and in some cases                   4. Thorsett, S.E., ApJ, 444, L53.
+even more extreme, mass extinctions every few tens of Myr,                        Reprinted from When SETI Succeeds: The Impact of
+and many smaller extinctions, the last of which was only                     High-Information Contact, Allen Tough, Editor, Copyright ©
+11000 yr ago. The cause of most of these is unknown. It is                   2000 Foundation for the Future, by the kind permission of the
+likely that a range of causes including asteroids, distant super-            author.                 
+novae, and climatic changes are responsible for them.
+     All these mass extinctions are on a much smaller scale                  Ask Dr. SETI:
+than the catastrophic events we expect from a nearby super-
+nova or a gamma-ray burst in the Galactic centre. In each of                 Where Should I Point My Dish?
+these cases, a number of species (sometimes as many as 50%)                  Dear Dr. SETI:
+were extinguished, but a sufficient range of diversity remained                   I am setting up my Project Argus station. I have some
+for the biota to recover in a relatively short time.                         problems, because my backyard is a bit small, and I will have
+                                                                             trouble rotating my 2.45 meter dish in some directions. Which
+6. WHY ARE WE HERE?                                                          is better, to have a smaller dish that I can move to track celes-
+     I have identified two causes that should wipe out essen-                tial objects, or a larger one, fixed in position? Also, if I put the
+tially all life on Earth roughly every 200 Myr, and yet we are               larger antenna in a fixed position, what is the best azimuth
+here. Two possible explanations are:                                         and elevation position for drift-scan mode?
+     • The calculation of either the timescales or the sever-                     Iban (Spain)
+           ity of the effects is erroneous, or                               The Doctor Responds:
+     • We have been very lucky!                                                   Almost all of our members opt for a larger dish, Iban, and
+     In the first case, simply multiplying the timescale by a                generally operate successfully in meridian transit (drift-scan)
+factor of a few is insufficient. We have been evolving for at                mode. Many simply point the dish straight up ("bird bath"
+least 4 Gyr, and so the interval between catastrophes must be                mode). As long as there are stars in the general direction of
+at least 4 Gyr for us to survive so far. Presumably the precise              "up", then this is as reasonable a strategy for all-sky surveys as
+interval will vary randomly around this figure, and so any sur-              any other.
+viving civilisation can look forward to a lifetime of between                     For any fixed antenna, I believe the best azimuth to use is
+zero and a few Gyr. In this case, if we detect ET, then ET will              0 or 180 degrees true, because this will give you meridian
+have a median age of perhaps 1 or 2 Gyr, which is similar to                 scan. That is, your Local Mean Sidereal Time will be equal to
+the 1.7 Gyr derived from simple stellar evolution arguments.                 Right Ascension, which simplifies all astronomical calcula-
+Thus, in this case, the supernovae and GRBs have not signifi-                tions.
+cantly changed the median age of ET.                                              As for elevation, most of our members just point straight
+     In the second case, we have already survived for some 20                up, 90 degrees from the horizon, which sets their declination
+times the mean interval between catastrophes, which is very                  equal to their latitude. In addition to simplifying the mathe-
+lucky indeed. Whilst it is not possible to quantify this without             matics, this has the added advantage of minimizing wind load-
+more detailed knowledge of the frequency distribution of su-                 ing on the antenna. But you can really use whatever elevation
+pernovae and GRB, it is likely that the probability is so low                is convenient, that will keep your antenna clear of obstruc-
+that we are alone in the Galaxy. Apart from providing a solu-                tions.
+tion to the Fermi paradox 1, this implies that the median life-                   Remember, there are no wrong directions for SETI, ex-
+time of ET is meaningless, as we will never detect ET!                       cept "down", which might be your choice for SSTI (Search for
+                                                                             Sub-Terranean Intelligence)!
+
+                                                                    Page 5
+                                    SearchLites Volume 12, Number 1 -- Winter 2006
+
+
+                                                                              receiver is sensitive over the enormous frequency range char-
+                Justifying Janskys                                            acteristic of continuum signals. Hence the radio astronomer
+           by Roy Norris, Birmingham AL                                       constructs his/her receiver to capture a limited but as wide a
+               (Argus Station EM34ts)                                         band of frequencies as is feasible. Therefore, the radio as-
+                                                                              tronomer must allow for the portion of the continuum radia-
+     When specifying the strength of an electromagnetic wave                  tion he is able to capture which is determined not only by the
+received from a non-terrestrial source, a variety of units are                capture area of the antenna but also by the bandwidth of
+used depending on the nature of the source and the nature of                  his/her receiver. The broader the bandwidth, the greater the
+the receiving device. The strength of the received signal is of               signal power captured.
+significant interest since it determines the required gain of the                  Radio astronomers have formalized a unit called the
+antenna (hence it’s size) and the amount of amplification that                Jansky to express signal strength for continuum signals:
+will be required in the receiver in order to make the signal
+audible or recordable.                                                            1 Jansky = 1 X 10-26 __Watts____
+     In most traditional SETI applications, a weak, narrow                                              Meter2 Hertz
+bandwidth signal is generally the sought after target because
+an artificially generated electromagnetic wave can be most                         So, to determine the theoretical received signal power,
+efficiently generated and detected when the bandwidth of the                  one simply multiplies the signal strength in Jansky of the
+signal is narrow. All of the energy of the wave is contained                  source by the capture area of the antenna in square meters and
+within a narrow band of frequencies, referred to as signal                    by the receiver bandwidth in Hertz with the result expressed in
+bandwidth. But unfortunately, all signals are also accompanied                Watts.
+by noise. Since the signal’s energy is contained in a narrow                       In the case of the sought after SETI signal, the radiated
+bandwidth frequency range, we can reject much of the accom-                   power from an artificial extraterrestrial source is expected to
+panying noise by the use of narrow bandwidth filters on the                   be of narrow bandwidth for maximum efficiency and delecta-
+receiving end which are just wide enough to pass the signal                   bility; perhaps as narrow as 1/100 of a Hertz. No increase in
+energy but reject most of the noise energy. We thereby dra-                   received signal power is gained by listening to a wider band of
+matically improve the delectability of a weak signal because                  frequencies than that of the expected signal. Listening to
+delectability is ultimately dependent on the ratio of the signal              bandwidths wider than the expected signal only increases the
+to the noise; the higher the ratio, the more easily the signal is             amount of noise which is received, deteriorating the signal to
+detected.                                                                     noise ration and making detection more difficult. Since its
+     On the other hand, most natural astronomical radio                       assumed that the receiver captures the full power of the signal
+sources such as active radio galaxies, pulsars, the 3 degree K                within its narrow bandwidth, signal strength need only be
+microwave background radiation, and synchrotron radiation                     specified in __Watts_ .
+from our own galaxy radiate electromagnetic waves over a                                       Meter2
+very wide band of frequencies, by nature, often extending over                     So, to determine the theoretical received signal power of a
+many thousands of megahertz. Such sources are often referred                  narrowband SETI signal we simply multiply the signal
+to as “continuum sources”. Radio astronomers intent on cap-                   strength in watts/meter2 by the capture area of the antenna
+turing the weakest of these signals, therefore use extremely                  with the results expressed in Watts.
+wideband receivers and antennas in order to capture as much                        The Watt is the basic unit for expressing power, as in 100
+of the signal power as possible, which is dispersed over a wide               watt light bulbs and other commonly encountered sources or
+bandwidth of frequencies.                                                     expenders of power. But the Watt is a very large unit for
+     These two fundamentally different requirements, the de-                  power when dealing with signals that may have traveled over
+tection of narrow band width signals for the SETI scientist and               many light years of space to reach us. Even the milliwatt
+the detection of wide bandwidth continuum sources for radio                   (1/1000 of a Watt) is far too large for these purposes. Com-
+astronomers lend themselves to two different methods of                       munications engineers long ago developed a way of express-
+specifying signal strength, also called flux density, each                    ing very low levels of power by relating it to 1 milliwatt us-
+uniquely suited to the nature of the received signal. For nar-                ing a logarithmic scale so the numbers did not get too large.
+rowband signals of greatest interest to SETI, signal strength is              This unit is the dBm. It is defined as follows:
+specified in watts/square meter. For wideband continuum
+signals of interest to radio astronomers signal strength is speci-            Power (in dBm) = 10 X Log ___Power (in Watts)___
+fied in watts per square meter per hertz.                                                                       .001 Watt
+     In both cases, the actual signal power available to the re-
+ceiver to be amplified and recorded is dependent upon the                          Note that for power levels less than 1 milliwatt, the
+capture area of the antenna. Just as in a rainfall, a bigger                  power in dBm will carry a negative sign. For powers above
+bucket (more capture area) traps more raindrops, the larger the               the level of 1 milliwatt, the power in dBm will carry a posi-
+capture area of the antenna, the more signal power it captures                tive sign. Don’t get confused into thinking these are positive
+as well.                                                                      and negative powers. The negative sign is just the result of the
+     But in the case of the radio astronomer’s wide band con-                 use of a logarithmic scale and how we express decimal frac-
+tinuum signal, another factor must be taken into consideration.               tions in terms of exponents. These calculations can be easily
+Since the signal power is distributed over a wide band of fre-                performed on a simple scientific calculator which will keep
+quencies, we cannot hope to capture all of it since no practical              the pluses and minuses straight for you.
+                                                                     Page 6
+                                   SearchLites Volume 12, Number 1 -- Winter 2006
+
+     Are there occasions when SETI participants will want to
+use Jansky units ? Well, not in conjunction with narrow band                    SETI League Wins Twice in
+signals but there are occasions when they may be useful. For
+example you might wish to test or calibrate the sensitivity of
+                                                                                  Bird Charity Auction
+your SETI receiving station using an astronomical source.
+Most astronomical sources have their signal strengths listed in             LITTLE FERRY, NJ.., 14 September 2005 -- The SETI
+Jansky units in various catalogs of astronomical radio sources.             League, Inc., grassroots leader in the privatized Search for
+These can be very useful in measuring the sensitivity of our                Extra-Terrestrial Intelligence, has received both a unique piece
+SETI stations.                                                              of electronics equipment and a substantial cash contribution,
+     As a typical example, lets say I have a 10 foot parabolic              in an unusual charity auction sponsored by a leading manufac-
+dish antenna and I point it at a continuum radio source listed              turer of electronics test equipment.
+in the catalog as having a signal strength of 25 Jansky at the                   Bird ® Electronic Corporation of Solon, OH.(a division
+frequency I am interested in observing and I am just able to                of Bird Technologies Group), has reached the 300,000 unit
+detect it. What is the power level in dBm presented to the                  mark on the production of its Model 43 Thruline® Wattmeter.
+receiver by the antenna and hence a measure of the sensitivity              In production since 1952, this instrument has become the in-
+of my SETI station? For the purpose of this exercise I will use             dustry standard for radio frequency (RF) power measurement.
+the widest bandwidth my receiver is capable of to maximize                  To commemorate this milestone, meter number 300,000 was
+the power I capture from the signal, say 1 MHz.                             manufactured with a special gold-plated finish. The company
+                                                                            then decided to auction off this unique piece of electronics
+    The Givens:                                                             industry history, with the cash amount of the winning bid be-
+    25 Jansky signal strength                                               ing contributed to the charity of the successful bidder's choos-
+    10 foot diameter parabolic dish antenna                                 ing.
+    Assume 50% antenna aperture efficiency                                       The auction closed on August 31, 2005, with the winning
+    1 MHz receiver bandwidth.                                               bidder naming The SETI League as his designated charity.
+                                                                            Thus, The SETI League has received a check for the bid price.
+Theoretical Antenna Capture Area                                            Then, in a move that surprised and pleased SETI League offi-
+                                                                            cials, the anonymous donor contributed the milestone meter
+   = ΑR2 = 3.1416 X (5)2 = 78.54 feet2
+                                                                            itself to the nonprofit science group. "We will use this impres-
+    = 78.54 feet2 X 0.0929 meters2 = 7.30 meters2
+                                                                            sive piece of test equipment to monitor the operation of our
+                               feet2
+                                                                            Lunar Reflective Calibration Beacon, which bounces micro-
+                                                                            wave signals off the surface of the Moon, to be received by
+Effective Antenna Capture Area
+                                                                            radio astronomy facilities around the world," stated SETI
+     = 0.5 X Theoretical Capture Area      = 3.65 meters2
+                                                                            League executive director Dr. H. Paul Shuch.
+                                                                                 Bird® Technologies Group provides technology solutions
+Power Level to the Receiver
+                                                                            for semiconductor, public safety, wireless, broadcast, govern-
+  = Signal Strength X Eff Ant Capt Area X Rcvr Bandwidth
+                                                                            ment, and military applications. Since 1942, they have pro-
+  = 25 x 10-26 _Watts__    x 3.65 meters2 x 1 x 106 Hz
+                     2                                                      vided comprehensive RF equipment diagnostic and testing
+                meter Hz
+                                                                            solutions. With a worldwide network of partners, Bird offers
+                                                                            the latest technology and most reliable customer care to all of
+  = 9.125 x 10-19 Watts
+                                                                            the markets they serve.
+Converting Watts to dBm:
+
+Power Level to the Receiver
+= 10 x Log 9.125 x 10-19 Watts = -150.4 dBm
+               0.01 Watts
+
+    Hence, my SETI station can detect signals as weak as -
+150.4 dBm which is very good performance.
+
+     You can also use calculations similar to these to deter-
+mine how large an antenna and how much gain will be re-
+quired in your receiver/preamplifier system in order to detect a
+given signal strength. However, in these cases remember to
+allow for feed line losses, mixer losses, and filter insertion
+losses which must be offset with additional amplifier or an-
+tenna gain. Also, the effects of internally generated noise
+plays a major role, but that’s another story. 
+
+
+                                                                   Page 7
+                                           SearchLites Volume 12, Number 1 -- Winter 2006
+
+
+The SETI League, Inc.
+ 433 Liberty Street                                                                 ADDRESS SERIVCE REQUESTED
+     PO Box 555
+   Little Ferry NJ
+     07643 USA
+
+
+                                                                    To:
+
+        Has your address changed?
+Please correct your label and return it to us.
+      SearchLites Volume 12 No. 1, Winter 2006
+                           Printed in the USA
+
+                               Annual Renewal: Is This Your Last SearchLites?
+SETI League memberships are issued for the Calendar Year. Please check the expiration date indicated on your
+mailing label. If it reads December 2005 or earlier, you have already expired, and must renew your SETI
+League membership now! Please fill out and return this page along with your payment.
+
+  Please renew my membership in this category:                                         Order Your Membership Premiums:
+Full Member                                                    $50 / yr                                                        (u *)       (o *)
+                                                                                       Pocket protectors                       $ 3         $ 4
+Supporting Member (elderly, retired, or disabled)              $35 / yr
+                                                                                       Mouse pads                              $ 5         $ 7
+Scholarship Member (full-time students only)                   $25 / yr                SETI League Technical Manual            $10         $13
+Household Member (same address as a Full Member)               $15 / yr                Sing a Song of SETI (Songbook)          $10         $13
+Household Life Member (same address as a Life Member)             $300                 Sing More Songs of SETI (Songbook) $10              $13
+Life Member (until we make contact)                             $1,000                 T-shirts, specify M, L, or XL           $15         $18
+                                                                                       Proceedings of SETICon01                $20         $25
+Sustaining Life Member – a generous annual pledge of:        $1,000 / yr
+                                                                                       Proceedings of SETICon02                $20         $25
+Patron (priority use of The SETI League’s radio telescope)     $10,000                 Proceedings of SETICon03                $20         $25
+Director (Patron membership plus seat on advisory board)      $100,000                 Proceedings of EuroSETI04 (CD)          $15         $20
+Benefactor (a major radio telescope named for you)           $1,000,000                Proceedings of SETICon04(CD)            $15         $20
+                                                                                       Project Cyclops 2nd Edition             $20         $25
+Annual memberships are issued for the calendar year. Those                             Tune In The Universe! (CD-ROM)          $25         $30
+processed in January through April expire on 31 December of                            The Listeners by James Gunn             $15         $15
+that year. Those processed in September through December                               SETI Nerd Gift Set (one each Mouse Pad, Pocket
+expire on 31 December of the following year. Those members                               Protector, Project Cyclops and Tech Manual) at
+joining in May through August should remit half the annual                               20% Savings to Members Only:          $30         $40
+dues indicated, and will expire on 31 December of the same                             * Includes postage to (u) US, or (o) other addresses.
+year.                                                                                Payments may be by US Dollars check payable through a
+                                                                                          US bank, or by Credit Card (see form below).
+                Pleased to Accept Credit Cards                                      Cardholder:
+                                                                                    Address:                                               ___
+    The SETI League invites you to pay your member-                                 Phone:                        email:
+ship dues and additional contributions via Visa or
+MasterCard. Please fill out the form below and return it                            Ham call:              URL:
+with any order. We thank you for your ongoing support.                              Total Contribution (US Dollars):
+ Circle One: Visa / MasterCard Exp.         /                                       Signature:
+Card Number:                                                                        Today’s date:
+                                                                           Page 8
