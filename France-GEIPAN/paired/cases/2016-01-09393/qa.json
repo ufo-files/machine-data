@@ -1,0 +1,62 @@
+{
+  "document_id": "doc-59cf1e213bb73fc3968cdb14",
+  "findings": [
+    {
+      "check": "negation",
+      "segment_id": "seg-5a7de7ff80f247bd97808afa",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "added_in_translation": [
+        "2016-01-01"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-888f3702d6370d0d9fdfabbc",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "00:15"
+      ],
+      "segment_id": "seg-888f3702d6370d0d9fdfabbc",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1",
+        "12",
+        "15"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [],
+      "segment_id": "seg-888f3702d6370d0d9fdfabbc",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "protected-tokens",
+      "missing_from_translation": [
+        "GEIPAN",
+        "PAN"
+      ],
+      "segment_id": "seg-888f3702d6370d0d9fdfabbc",
+      "severity": "error",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
