@@ -1,0 +1,92 @@
+{
+  "document_id": "doc-30a2a2c2ef38dbb72cede55e",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1980-02-24",
+        "1980-02-24",
+        "1980-02-24",
+        "1980-02-24",
+        "1980-02-24"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-93df2fcf45288f58856d35ca",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "1980",
+        "1980",
+        "1980",
+        "1980",
+        "1980",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "24.02.1980",
+        "24.02.1980",
+        "24.02.1980",
+        "24.02.1980",
+        "24.02.1980"
+      ],
+      "segment_id": "seg-93df2fcf45288f58856d35ca",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "03:05",
+        "03:12",
+        "03:15"
+      ],
+      "check": "times",
+      "missing_from_translation": [
+        "03:00",
+        "03:00",
+        "03:00"
+      ],
+      "segment_id": "seg-898ee435d12d289c5bb4c69f",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "12",
+        "15",
+        "5"
+      ],
+      "segment_id": "seg-898ee435d12d289c5bb4c69f",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-898ee435d12d289c5bb4c69f",
+      "severity": "error",
+      "source_count": 3,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 2
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
