@@ -2,22 +2,34 @@
   "entities": [
     {
       "aliases": [
-        "geipan",
         "GEIPAN"
       ],
       "category": "government_agency",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
       "entity_id": "ent-d42504e6e5e36caf576b702a",
       "evidence_languages": [
-        "en",
         "fr-FR"
       ],
-      "mention_count": 3,
+      "mention_count": 1,
       "name": "GEIPAN",
       "source_segment_ids": [
-        "seg-b4251b9fef3f941f7b8d4a14",
-        "seg-c81fa492319ffae8f2670126",
-        "seg-e7e2ef12b016cd5d511cc3a2"
+        "seg-c27001d14ee14d42ba685603"
+      ]
+    },
+    {
+      "aliases": [
+        "PAN"
+      ],
+      "category": "subject",
+      "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
+      "entity_id": "ent-ed6d865c60b2943df93a88ed",
+      "evidence_languages": [
+        "fr-FR"
+      ],
+      "mention_count": 1,
+      "name": "UAP",
+      "source_segment_ids": [
+        "seg-c27001d14ee14d42ba685603"
       ]
     },
     {
@@ -33,7 +45,7 @@
       "mention_count": 1,
       "name": "UFO",
       "source_segment_ids": [
-        "seg-e7e2ef12b016cd5d511cc3a2"
+        "seg-c27001d14ee14d42ba685603"
       ]
     }
   ],
@@ -41,36 +53,22 @@
     {
       "entity_id": "ent-d42504e6e5e36caf576b702a",
       "languages": [
-        "en",
         "fr-FR"
       ],
       "mentions": [
         "GEIPAN"
       ],
-      "source_segment_id": "seg-b4251b9fef3f941f7b8d4a14"
+      "source_segment_id": "seg-c27001d14ee14d42ba685603"
     },
     {
-      "entity_id": "ent-d42504e6e5e36caf576b702a",
+      "entity_id": "ent-ed6d865c60b2943df93a88ed",
       "languages": [
-        "en",
         "fr-FR"
       ],
       "mentions": [
-        "GEIPAN"
+        "PAN"
       ],
-      "source_segment_id": "seg-c81fa492319ffae8f2670126"
-    },
-    {
-      "entity_id": "ent-d42504e6e5e36caf576b702a",
-      "languages": [
-        "en",
-        "fr-FR"
-      ],
-      "mentions": [
-        "geipan",
-        "GEIPAN"
-      ],
-      "source_segment_id": "seg-e7e2ef12b016cd5d511cc3a2"
+      "source_segment_id": "seg-c27001d14ee14d42ba685603"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -80,7 +78,7 @@
       "mentions": [
         "UFO"
       ],
-      "source_segment_id": "seg-e7e2ef12b016cd5d511cc3a2"
+      "source_segment_id": "seg-c27001d14ee14d42ba685603"
     }
   ],
   "schema": "ufo-files-cross-language-entities/v1"
