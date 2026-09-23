@@ -1,0 +1,48 @@
+{
+  "document_id": "doc-a36de4c0125f8e96a7f7703f",
+  "findings": [
+    {
+      "check": "protected-tokens",
+      "missing_from_translation": [
+        "AERO-1954-R"
+      ],
+      "segment_id": "seg-a744ca18eb53a93419122e89",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "4300 m"
+      ],
+      "check": "measurements",
+      "missing_from_translation": [
+        "300 m"
+      ],
+      "segment_id": "seg-66f5218cc43d43e49f3ce36f",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "10000",
+        "4300"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "0",
+        "10",
+        "300",
+        "4"
+      ],
+      "segment_id": "seg-66f5218cc43d43e49f3ce36f",
+      "severity": "warning",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
