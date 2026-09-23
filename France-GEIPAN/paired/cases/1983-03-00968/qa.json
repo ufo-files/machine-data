@@ -1,0 +1,86 @@
+{
+  "document_id": "doc-2d8f203b8fb5d7d73f63cadc",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1983-03-15"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-b3ed58a74b30b7946a793d65",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "15",
+        "1983",
+        "3"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "15.03.1983"
+      ],
+      "segment_id": "seg-b3ed58a74b30b7946a793d65",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "20:00",
+        "21:00"
+      ],
+      "segment_id": "seg-6a55bfd61dcac754d84d1310",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "100 m"
+      ],
+      "check": "measurements",
+      "missing_from_translation": [],
+      "segment_id": "seg-6a55bfd61dcac754d84d1310",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "0",
+        "100",
+        "8"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [],
+      "segment_id": "seg-6a55bfd61dcac754d84d1310",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-6a55bfd61dcac754d84d1310",
+      "severity": "error",
+      "source_count": 2,
+      "source_marker": "aucun",
+      "status": "mismatch",
+      "translation_equivalent_count": 1
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-6a55bfd61dcac754d84d1310",
+      "severity": "error",
+      "source_count": 4,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 1
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
