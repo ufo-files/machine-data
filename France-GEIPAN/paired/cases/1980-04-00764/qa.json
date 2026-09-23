@@ -1,0 +1,126 @@
+{
+  "document_id": "doc-c2ca22c7cae83c18ac87fa7b",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1980-04-11",
+        "1980-04-11",
+        "1980-04-11",
+        "1980-04-12"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-c53936474694224001f0c033",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "11",
+        "11",
+        "11",
+        "12",
+        "1980",
+        "1980",
+        "1980",
+        "1980",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "11.04.1980",
+        "11.04.1980",
+        "11.04.1980",
+        "12.04.1980"
+      ],
+      "segment_id": "seg-c53936474694224001f0c033",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "00:20",
+        "00:25",
+        "00:30",
+        "00:30",
+        "10:00",
+        "12:00",
+        "23:50",
+        "23:50"
+      ],
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "0",
+        "1.2",
+        "10",
+        "2.7",
+        "20",
+        "30",
+        "30",
+        "301",
+        "308",
+        "4",
+        "4.4",
+        "5",
+        "6.2"
+      ],
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "error",
+      "source_count": 2,
+      "source_marker": "aucun",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "error",
+      "source_count": 10,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "protected-tokens",
+      "missing_from_translation": [
+        "OVNI",
+        "PAN"
+      ],
+      "segment_id": "seg-85f8f93bf4b9efc874ce6ce6",
+      "severity": "error",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
