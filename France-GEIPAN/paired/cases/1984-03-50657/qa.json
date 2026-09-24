@@ -1,0 +1,100 @@
+{
+  "document_id": "doc-9b77c4bc79935f3196a6a298",
+  "findings": [
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "04:00",
+        "04:30",
+        "06:30",
+        "19:00",
+        "20:00"
+      ],
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "02.03.1984",
+        "05.03.1984",
+        "1984",
+        "2",
+        "3",
+        "3.1984",
+        "35",
+        "988",
+        "988",
+        "988"
+      ],
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "source_count": 1,
+      "source_marker": "jamais",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "source_count": 3,
+      "source_marker": "sans",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "source_count": 2,
+      "source_marker": "aucun",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "source_count": 4,
+      "source_marker": "aucune",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "negation",
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "source_count": 7,
+      "source_marker": "pas",
+      "status": "mismatch",
+      "translation_equivalent_count": 0
+    },
+    {
+      "check": "protected-tokens",
+      "missing_from_translation": [
+        "FOA (LA) (988) --.03.1984",
+        "T1-T2",
+        "T3-T4"
+      ],
+      "segment_id": "seg-9df095c11d1dceaf74c0ce5d",
+      "severity": "error",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
