@@ -1,0 +1,299 @@
+{"created_utc": "2026-09-24T13:55:17Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 25699, "source_ctime_ns": 1790255956431538532, "source_file": "Archives-for-the-Unexplained/documents/2017-03-27---NASA-Goddard---Timing-Is-Everything_sKc-eLfarD0---transcript-automated-.pdf", "source_mtime_ns": 1790255956425226301, "source_rel": "Archives-for-the-Unexplained/documents/2017-03-27---NASA-Goddard---Timing-Is-Everything_sKc-eLfarD0---transcript-automated-.pdf", "source_sha256": "06b93c858d8686980b956e8a33d66f63c1c483bc0653e7348bc6435fbd8201fa"}
+
+1
+00:00:08,070 --> 00:00:05,749
+the atlas instrument on the icesat-2
+
+2
+00:00:10,310 --> 00:00:08,080
+satellite measures elevation by timing
+
+3
+00:00:12,310 --> 00:00:10,320
+the flight of laser light pulses that
+
+4
+00:00:15,270 --> 00:00:12,320
+leave the satellite bounce off the
+
+5
+00:00:17,590 --> 00:00:15,280
+surface and return to atlas
+
+6
+00:00:20,070 --> 00:00:17,600
+the speed of light is very fast and so a
+
+7
+00:00:22,870 --> 00:00:20,080
+regular stopwatch would give us too wide
+
+8
+00:00:25,269 --> 00:00:22,880
+a range of time a big margin of error
+
+9
+00:00:27,429 --> 00:00:25,279
+the timing has to be ultra precise less
+
+10
+00:00:29,029 --> 00:00:27,439
+than one billionth of a second in order
+
+11
+00:00:31,509 --> 00:00:29,039
+to measure the height of the surface
+
+12
+00:00:33,510 --> 00:00:31,519
+within just a few centimeters
+
+13
+00:00:35,830 --> 00:00:33,520
+i'm phil lars i'm deputy instrument
+
+14
+00:00:38,150 --> 00:00:35,840
+system engineer on the atlas instrument
+
+15
+00:00:39,990 --> 00:00:38,160
+on the icesat-2 mission
+
+16
+00:00:41,830 --> 00:00:40,000
+calculating the elevation of the ice is
+
+17
+00:00:44,069 --> 00:00:41,840
+all about time of flight it's
+
+18
+00:00:47,190 --> 00:00:44,079
+time-of-flight of the photon from the
+
+19
+00:00:50,709 --> 00:00:47,200
+laser down to the surface of the ice and
+
+20
+00:00:53,270 --> 00:00:50,719
+back so what we are doing is creating
+
+21
+00:00:55,510 --> 00:00:53,280
+time tags of the transmit when the laser
+
+22
+00:00:56,790 --> 00:00:55,520
+fires and time tags of the receipt of
+
+23
+00:00:58,790 --> 00:00:56,800
+the photon
+
+24
+00:01:00,790 --> 00:00:58,800
+so it all starts with the transmitter
+
+25
+00:01:02,630 --> 00:01:00,800
+when the laser fires it puts out
+26
+00:01:04,229 --> 00:01:02,640
+billions and billions of photons we pick
+
+27
+00:01:05,910 --> 00:01:04,239
+off a little bit of that and we send it
+
+28
+00:01:07,270 --> 00:01:05,920
+to a detector and we produce a start
+
+29
+00:01:09,910 --> 00:01:07,280
+pulse and that is the start of our
+
+30
+00:01:12,230 --> 00:01:09,920
+timing system the spacecraft sends us a
+
+31
+00:01:14,070 --> 00:01:12,240
+position and attitude message every
+
+32
+00:01:16,870 --> 00:01:14,080
+second that tells us where we are in the
+
+33
+00:01:19,030 --> 00:01:16,880
+orbit from that we calculate where we
+
+34
+00:01:21,510 --> 00:01:19,040
+think the spots are on the ground we
+
+35
+00:01:23,429 --> 00:01:21,520
+have a rough database of the whole earth
+
+36
+00:01:25,190 --> 00:01:23,439
+with elevation as it travels up and down
+
+37
+00:01:27,590 --> 00:01:25,200
+mountains and down into valleys and over
+
+38
+00:01:29,510 --> 00:01:27,600
+ice sheets for each spot we calculate
+
+39
+00:01:32,069 --> 00:01:29,520
+where we think the surface is and we
+
+40
+00:01:34,630 --> 00:01:32,079
+open up a range window for every photon
+
+41
+00:01:38,069 --> 00:01:34,640
+that's received in that range window we
+
+42
+00:01:43,109 --> 00:01:40,630
+now the sun produces a lot of green
+
+43
+00:01:45,590 --> 00:01:43,119
+photons too many more than our laser
+
+44
+00:01:48,149 --> 00:01:45,600
+does so our laser produces billions and
+
+45
+00:01:49,590 --> 00:01:48,159
+billions of photons with every shot
+
+46
+00:01:52,310 --> 00:01:49,600
+if you add the noise in there you won't
+
+47
+00:01:54,310 --> 00:01:52,320
+be able to tell the sun's photons from
+
+48
+00:01:57,109 --> 00:01:54,320
+the laser photons so if you just took
+
+49
+00:01:59,270 --> 00:01:57,119
+one shot the one laser photon would be
+
+50
+00:02:00,950 --> 00:01:59,280
+lost in the noise but if you take 200
+51
+00:02:02,870 --> 00:02:00,960
+shots now finally you have enough
+
+52
+00:02:05,270 --> 00:02:02,880
+surface signal coming out by the noise
+
+53
+00:02:07,830 --> 00:02:05,280
+that fly software on board can pick out
+
+54
+00:02:09,430 --> 00:02:07,840
+this is noise and this is the signal
+
+55
+00:02:11,910 --> 00:02:09,440
+from the surface
+
+56
+00:02:13,830 --> 00:02:11,920
+once we downlink the photon time tags
+
+57
+00:02:15,510 --> 00:02:13,840
+from the receiver and the transmitter
+
+58
+00:02:17,589 --> 00:02:15,520
+and we have the range windows you put
+
+59
+00:02:19,589 --> 00:02:17,599
+those all together you have the transmit
+
+60
+00:02:21,670 --> 00:02:19,599
+time tags you have the time until the
+
+61
+00:02:24,070 --> 00:02:21,680
+range window opened you have the receive
+
+62
+00:02:25,110 --> 00:02:24,080
+time tags in the range window you
+
+63
+00:02:27,030 --> 00:02:25,120
+calculate
+
+64
+00:02:29,350 --> 00:02:27,040
+all that put together gives you the time
+
+65
+00:02:30,790 --> 00:02:29,360
+of flight of a photon which ultimately
+
+66
+00:02:32,869 --> 00:02:30,800
+gives you the distance between the
+
+67
+00:02:34,630 --> 00:02:32,879
+spacecraft and the ground so if you know
+
+68
+00:02:36,150 --> 00:02:34,640
+where the spacecraft is and you know the
+
+69
+00:02:37,990 --> 00:02:36,160
+time of flight you know the distance to
+
+70
+00:02:38,920 --> 00:02:38,000
+the ground now you have the elevation of
+
+71
+00:02:41,509 --> 00:02:38,930
+the ice
+
+72
+00:02:43,350 --> 00:02:41,519
+[Music]
+
+73
+00:02:45,509 --> 00:02:43,360
+technology that can measure elevation
+
+74
+00:02:48,390 --> 00:02:45,519
+adds a third dimension to how we map our
+
+75
+00:02:55,160 --> 00:02:48,400
+earth and allows us to study change
