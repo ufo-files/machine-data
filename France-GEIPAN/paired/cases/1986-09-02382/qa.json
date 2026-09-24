@@ -1,0 +1,76 @@
+{
+  "document_id": "doc-9705ddea0c1c150c25f0f76c",
+  "findings": [
+    {
+      "added_in_translation": [
+        "1986-09-15",
+        "1986-09-23",
+        "1986-09-24",
+        "2008-02-23"
+      ],
+      "check": "dates",
+      "missing_from_translation": [],
+      "segment_id": "seg-9cb3c18fdee8ccf035b80f80",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "times",
+      "missing_from_translation": [
+        "07:30",
+        "07:30",
+        "07:30"
+      ],
+      "segment_id": "seg-9cb3c18fdee8ccf035b80f80",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "15",
+        "15",
+        "1986",
+        "1986",
+        "1986",
+        "2008",
+        "23",
+        "23",
+        "24",
+        "30",
+        "30",
+        "30",
+        "7",
+        "7",
+        "7"
+      ],
+      "check": "numbers",
+      "missing_from_translation": [
+        "15.09.1986",
+        "15.09.1986",
+        "23.02.2008",
+        "23.09.1986",
+        "24.09.1986"
+      ],
+      "segment_id": "seg-9cb3c18fdee8ccf035b80f80",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "check": "protected-tokens",
+      "missing_from_translation": [
+        "GEIPAN",
+        "PAN"
+      ],
+      "segment_id": "seg-9cb3c18fdee8ccf035b80f80",
+      "severity": "error",
+      "status": "mismatch"
+    }
+  ],
+  "page_count_match": true,
+  "schema": "ufo-files-french-translation-qa/v1",
+  "segment_count_match": true,
+  "source_language": "fr-FR",
+  "status": "needs-review",
+  "target_language": "en"
+}
