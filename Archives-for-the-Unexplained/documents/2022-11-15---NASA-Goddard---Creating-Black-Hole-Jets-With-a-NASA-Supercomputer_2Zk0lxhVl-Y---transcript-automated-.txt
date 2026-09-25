@@ -1,0 +1,691 @@
+{"created_utc": "2026-09-25T15:18:02Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 75067, "source_ctime_ns": 1790161494565967944, "source_file": "Archives-for-the-Unexplained/documents/2022-11-15---NASA-Goddard---Creating-Black-Hole-Jets-With-a-NASA-Supercomputer_2Zk0lxhVl-Y---transcript-automated-.pdf", "source_mtime_ns": 1790161494553220940, "source_rel": "Archives-for-the-Unexplained/documents/2022-11-15---NASA-Goddard---Creating-Black-Hole-Jets-With-a-NASA-Supercomputer_2Zk0lxhVl-Y---transcript-automated-.pdf", "source_sha256": "3fd0b7a164864ec1a59931b3bec96c5456d069a4b9ac9502af229ca9f3c634e2"}
+
+1
+00:00:05,210 --> 00:00:02,649
+foreign
+
+2
+00:00:06,950 --> 00:00:05,220
+there are some problems in astrophysics
+
+3
+00:00:08,099 --> 00:00:06,960
+that can't be solved on a normal
+
+4
+00:00:10,190 --> 00:00:08,109
+computer
+
+5
+00:00:23,890 --> 00:00:10,200
+[Music]
+
+6
+00:00:31,790 --> 00:00:27,410
+my name is Ryan Tanner I study active
+
+7
+00:00:34,910 --> 00:00:31,800
+collect nuclei and star formation and
+
+8
+00:00:37,310 --> 00:00:34,920
+how they affect galaxies I have been
+
+9
+00:00:40,369 --> 00:00:37,320
+doing research and computer simulations
+
+10
+00:00:41,389 --> 00:00:40,379
+of Galactic outflows for a number of
+
+11
+00:00:44,569 --> 00:00:41,399
+years now
+
+12
+00:00:47,389 --> 00:00:44,579
+my name is Kim Weaver and I work at Nasa
+
+13
+00:00:51,049 --> 00:00:47,399
+I've been looking at AGN for a very long
+
+14
+00:00:53,930 --> 00:00:51,059
+time and we just don't understand how
+
+15
+00:00:57,670 --> 00:00:53,940
+the Jets impact the galaxies in these
+
+16
+00:01:02,510 --> 00:00:59,150
+[Music]
+
+17
+00:01:04,969 --> 00:01:02,520
+an AGN is where you have a supermassive
+
+18
+00:01:08,810 --> 00:01:04,979
+black hole at the center of a galaxy and
+
+19
+00:01:10,310 --> 00:01:08,820
+occasionally there's gas or a star or
+
+20
+00:01:13,070 --> 00:01:10,320
+something that gets too close to the
+
+21
+00:01:15,530 --> 00:01:13,080
+supermassive black hole and it begins to
+
+22
+00:01:17,929 --> 00:01:15,540
+get pulled in by gravity but when it
+
+23
+00:01:21,590 --> 00:01:17,939
+does that it releases a huge amount of
+
+24
+00:01:24,710 --> 00:01:21,600
+energy there are strong Jets and weak
+
+25
+00:01:26,570 --> 00:01:24,720
+Jets high intensity AGN large Jets have
+26
+00:01:28,429 --> 00:01:26,580
+been studied for a long time we've seen
+
+27
+00:01:30,770 --> 00:01:28,439
+they're very obvious you can see them on
+
+28
+00:01:32,450 --> 00:01:30,780
+the sky you see them bright in the radio
+
+29
+00:01:36,350 --> 00:01:32,460
+emission you see them bright in the
+
+30
+00:01:39,469 --> 00:01:36,360
+optical the largest ones can get several
+
+31
+00:01:42,109 --> 00:01:39,479
+million light years in size the low
+
+32
+00:01:44,569 --> 00:01:42,119
+Luminosity jets are much harder to find
+
+33
+00:01:46,789 --> 00:01:44,579
+and often do not even leave their
+
+34
+00:01:48,649 --> 00:01:46,799
+galaxies and are very compact we know
+
+35
+00:01:50,270 --> 00:01:48,659
+some things about the AGN but we don't
+
+36
+00:01:52,249 --> 00:01:50,280
+know everything it's like a big puzzle
+
+37
+00:01:53,810 --> 00:01:52,259
+piece we're doing a jigsaw puzzle and
+
+38
+00:01:55,550 --> 00:01:53,820
+there's pieces that are missing and
+
+39
+00:01:58,310 --> 00:01:55,560
+there's some that we have fairly well
+
+40
+00:02:00,109 --> 00:01:58,320
+put together but others where we have no
+
+41
+00:02:03,350 --> 00:02:00,119
+idea what's there one of the major
+
+42
+00:02:06,889 --> 00:02:03,360
+puzzle pieces that we're missing is how
+
+43
+00:02:09,050 --> 00:02:06,899
+these low Luminosity agns impact and
+
+44
+00:02:10,550 --> 00:02:09,060
+determine the evolution of their host
+
+45
+00:02:12,410 --> 00:02:10,560
+galaxies
+
+46
+00:02:16,820 --> 00:02:12,420
+for this problem we have to use super
+
+47
+00:02:22,190 --> 00:02:18,670
+[Music]
+
+48
+00:02:24,890 --> 00:02:22,200
+for my research I use a code called
+
+49
+00:02:28,729 --> 00:02:24,900
+Athena it can do anything from planet
+
+50
+00:02:31,190 --> 00:02:28,739
+formation star formation supernovas and
+51
+00:02:34,430 --> 00:02:31,200
+anything in between and I did some
+
+52
+00:02:36,830 --> 00:02:34,440
+modifications to it in order to tailor
+
+53
+00:02:38,630 --> 00:02:36,840
+it to my exact problem that I have the
+
+54
+00:02:40,430 --> 00:02:38,640
+process of watching this was impressive
+
+55
+00:02:43,550 --> 00:02:40,440
+because you know there's so much
+
+56
+00:02:46,130 --> 00:02:43,560
+computation going in and there's so much
+
+57
+00:02:48,229 --> 00:02:46,140
+Focus going into this project and the
+
+58
+00:02:55,430 --> 00:02:48,239
+outcome is going to be something pretty
+
+59
+00:02:55,440 --> 00:02:59,830
+foreign
+
+60
+00:03:05,449 --> 00:03:02,210
+came to me and said I need a super new
+
+61
+00:03:08,330 --> 00:03:05,459
+Peter and I said okay what what because
+
+62
+00:03:10,550 --> 00:03:08,340
+I had never helped anybody get the super
+
+63
+00:03:13,369 --> 00:03:10,560
+computer time I've seen it I've been in
+
+64
+00:03:17,210 --> 00:03:13,379
+the room it's amazing you submit a
+
+65
+00:03:19,670 --> 00:03:17,220
+request online in the system you have to
+
+66
+00:03:21,949 --> 00:03:19,680
+provide a justification for what you're
+
+67
+00:03:23,869 --> 00:03:21,959
+going to use you have to explain the
+
+68
+00:03:26,089 --> 00:03:23,879
+project behind it you have to explain
+
+69
+00:03:28,309 --> 00:03:26,099
+basically what you expect to get out of
+
+70
+00:03:30,530 --> 00:03:28,319
+it and how you will use those results
+
+71
+00:03:32,869 --> 00:03:30,540
+and that goes through a review process
+
+72
+00:03:34,970 --> 00:03:32,879
+that can take several months the formal
+
+73
+00:03:37,729 --> 00:03:34,980
+review process can take anywhere between
+
+74
+00:03:40,490 --> 00:03:37,739
+six months up to I've Been Told 18
+
+75
+00:03:40,500 --> 00:03:45,229
+foreign
+76
+00:03:49,369 --> 00:03:47,390
+basically I can use the supercomputer
+
+77
+00:03:52,309 --> 00:03:49,379
+from anywhere in the world as long as I
+
+78
+00:03:54,589 --> 00:03:52,319
+have a secure connection to it and then
+
+79
+00:03:56,930 --> 00:03:54,599
+once I'm logged on to it it's as if I'm
+
+80
+00:03:59,030 --> 00:03:56,940
+there using the supercomputer in the
+
+81
+00:04:02,930 --> 00:03:59,040
+actual building where it's housed I can
+
+82
+00:04:05,570 --> 00:04:02,940
+upload the code that I need to use to
+
+83
+00:04:08,869 --> 00:04:05,580
+run in any data files that need to go in
+
+84
+00:04:10,850 --> 00:04:08,879
+for inputs and then I can simply use a
+
+85
+00:04:13,250 --> 00:04:10,860
+command to submit a job on the
+
+86
+00:04:15,050 --> 00:04:13,260
+supercomputer and it puts it in a long
+
+87
+00:04:19,729 --> 00:04:15,060
+queue of different people who have
+
+88
+00:04:19,739 --> 00:04:22,490
+foreign
+
+89
+00:04:31,189 --> 00:04:28,450
+[Music]
+
+90
+00:04:33,890 --> 00:04:31,199
+how things were going and he said it's
+
+91
+00:04:36,530 --> 00:04:33,900
+going to be another few days because I
+
+92
+00:04:38,330 --> 00:04:36,540
+have a simulations running so for the
+
+93
+00:04:40,310 --> 00:04:38,340
+paper that we wrote for this particular
+
+94
+00:04:44,210 --> 00:04:40,320
+result it was about
+
+95
+00:04:45,770 --> 00:04:44,220
+800 000 hours of computational time when
+
+96
+00:04:48,230 --> 00:04:45,780
+I'm actually doing the research and
+
+97
+00:04:49,909 --> 00:04:48,240
+doing the simulations like I said I
+
+98
+00:04:51,890 --> 00:04:49,919
+don't think too much about it but when I
+
+99
+00:04:54,170 --> 00:04:51,900
+talk to other people and explain what
+
+100
+00:04:56,210 --> 00:04:54,180
+I'm doing that's when I realized oh this
+101
+00:04:57,830 --> 00:04:56,220
+is these are really big simulations and
+
+102
+00:04:59,930 --> 00:04:57,840
+these are there's a lot of stuff going
+
+103
+00:05:02,150 --> 00:04:59,940
+on here that most people will never see
+
+104
+00:05:04,610 --> 00:05:02,160
+or the amount of computational resources
+
+105
+00:05:05,230 --> 00:05:04,620
+most people will never use in their life
+
+106
+00:05:13,870 --> 00:05:05,240
+foreign
+
+107
+00:05:18,469 --> 00:05:16,670
+ER and getting the simulation data back
+
+108
+00:05:20,210 --> 00:05:18,479
+was a process that just continuously
+
+109
+00:05:22,370 --> 00:05:20,220
+would do it over several months I would
+
+110
+00:05:24,830 --> 00:05:22,380
+have to run a simulation download the
+
+111
+00:05:26,689 --> 00:05:24,840
+data look at it see if there was doing
+
+112
+00:05:28,550 --> 00:05:26,699
+what I expected it to do if there was
+
+113
+00:05:30,469 --> 00:05:28,560
+anything that was wrong I had to go back
+
+114
+00:05:32,689 --> 00:05:30,479
+and figure out what was wrong with the
+
+115
+00:05:34,730 --> 00:05:32,699
+code then I would make that change to
+
+116
+00:05:36,890 --> 00:05:34,740
+the code on the supercomputer run on the
+
+117
+00:05:38,990 --> 00:05:36,900
+simulation Again download the data look
+
+118
+00:05:41,510 --> 00:05:39,000
+at it and just repeat the process over
+
+119
+00:05:43,790 --> 00:05:41,520
+many many months over basically a year
+
+120
+00:05:46,010 --> 00:05:43,800
+fact is sometimes it can take decades to
+
+121
+00:05:47,930 --> 00:05:46,020
+things happen but you have to have the
+
+122
+00:05:50,330 --> 00:05:47,940
+patience and that's hopefully that's
+
+123
+00:05:51,830 --> 00:05:50,340
+what most astronomers have and they need
+
+124
+00:05:54,050 --> 00:05:51,840
+is patience
+
+125
+00:05:56,990 --> 00:05:54,060
+because the universe doesn't always bend
+126
+00:06:06,600 --> 00:05:57,000
+to your will and you have to wait to
+
+127
+00:06:15,350 --> 00:06:12,710
+[Music]
+
+128
+00:06:18,170 --> 00:06:15,360
+it was one of those things where I
+
+129
+00:06:19,969 --> 00:06:18,180
+didn't know exactly what would come out
+
+130
+00:06:22,570 --> 00:06:19,979
+of the simulations that's why we're
+
+131
+00:06:27,170 --> 00:06:24,770
+and that's sort of the case as it was
+
+132
+00:06:29,990 --> 00:06:27,180
+here was We Run The simulations and then
+
+133
+00:06:32,990 --> 00:06:30,000
+something unexpected came out of these
+
+134
+00:06:35,390 --> 00:06:33,000
+AGN these low power agns actually have a
+
+135
+00:06:38,090 --> 00:06:35,400
+very large impact on their host galaxies
+
+136
+00:06:40,790 --> 00:06:38,100
+the blue color in the center the blue
+
+137
+00:06:44,270 --> 00:06:40,800
+green colors indicate the the Galaxy
+
+138
+00:06:46,490 --> 00:06:44,280
+itself when you see the pink colors that
+
+139
+00:06:49,490 --> 00:06:46,500
+are coming out and the purple that is
+
+140
+00:06:52,670 --> 00:06:49,500
+the actual jet itself the Jets can be
+
+141
+00:06:55,670 --> 00:06:52,680
+split they can be split by a dense Cloud
+
+142
+00:06:59,150 --> 00:06:55,680
+into streams as they come out of the
+
+143
+00:07:02,029 --> 00:06:59,160
+Galaxy they can be deflected which is
+
+144
+00:07:04,129 --> 00:07:02,039
+they change direction entirely and in
+
+145
+00:07:06,469 --> 00:07:04,139
+some cases the jet can be entirely
+
+146
+00:07:08,990 --> 00:07:06,479
+stopped are we seeing star formation
+
+147
+00:07:10,670 --> 00:07:09,000
+that's being created by the Jets
+
+148
+00:07:12,650 --> 00:07:10,680
+impacting the clouds which I think would
+
+149
+00:07:14,629 --> 00:07:12,660
+be really cool because again that says
+
+150
+00:07:17,809 --> 00:07:14,639
+the black holes are doing something
+151
+00:07:20,390 --> 00:07:17,819
+amazing to the galaxies by being there
+
+152
+00:07:22,850 --> 00:07:20,400
+or we can see that the Jets could be
+
+153
+00:07:24,830 --> 00:07:22,860
+disrupting the star formation and
+
+154
+00:07:26,990 --> 00:07:24,840
+slowing it down which is another
+
+155
+00:07:29,029 --> 00:07:27,000
+possibility and those two things we
+
+156
+00:07:31,610 --> 00:07:29,039
+don't know yet which one is the right
+
+157
+00:07:34,070 --> 00:07:31,620
+answer the two major things to draw out
+
+158
+00:07:36,050 --> 00:07:34,080
+of this is just how complex these jets
+
+159
+00:07:38,450 --> 00:07:36,060
+are because they interact with their
+
+160
+00:07:41,029 --> 00:07:38,460
+host Galaxy they're not simple they're
+
+161
+00:07:44,629 --> 00:07:41,039
+not nice smooth outflows the other thing
+
+162
+00:07:46,430 --> 00:07:44,639
+is that these low power AGM Jets the
+
+163
+00:07:48,950 --> 00:07:46,440
+Galaxy determines what the Jets look
+
+164
+00:07:50,809 --> 00:07:48,960
+like to a greater degree than has been
+
+165
+00:07:53,270 --> 00:07:50,819
+assumed before
+
+166
+00:07:56,029 --> 00:07:53,280
+I never thought I'd be involved in a
+
+167
+00:07:59,270 --> 00:07:56,039
+project that uses supercomputer so to me
+
+168
+00:08:01,309 --> 00:07:59,280
+it was a bit of an alien thing and so I
+
+169
+00:08:05,089 --> 00:08:01,319
+was fascinated that we actually were
+
+170
+00:08:08,330 --> 00:08:05,099
+doing this and yes and when I saw the
+
+171
+00:08:10,430 --> 00:08:08,340
+results that came out I was impressed I
+
+172
+00:08:12,409 --> 00:08:10,440
+was excited
+
+173
+00:08:14,629 --> 00:08:12,419
+just a very exciting thing to study
+
+174
+00:08:17,280 --> 00:08:14,639
+something that is so incredibly new to
