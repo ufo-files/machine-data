@@ -135,7 +135,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-824bf0ac605bdc478ba52c97",
           "qa_findings": [
@@ -160,23 +160,15 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "[AERO CTL] COGNAC (16) 17.12.1957"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-39df1bd4e24fb41a20aa72f2",
           "segment_index": 9,
           "source_segment_id": "seg-39df1bd4e24fb41a20aa72f2",
           "source_text_sha256": "70b2c2c302247ea405063afd40fbb694a9ae77481f7d9930a11b174c888b504d",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Testimonies: [AERO CTL] COGNAC (16) 17.12.1957 T1 PV AERO (1957309636).pdf [AERO CTL] COGNAC (16) 12/27/1957 T2",
           "translation_text_sha256": "e3eb8315385d68929f080cf50b79e5644cdefb50b7330d8ee7a4999692e585e3"
         },
@@ -203,16 +195,6 @@
           "page_id": "page-824bf0ac605bdc478ba52c97",
           "qa_findings": [
             {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "15:01",
-                "15:45"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
               "added_in_translation": [
                 "2880 km",
                 "2880 km"
@@ -227,16 +209,12 @@
             },
             {
               "added_in_translation": [
-                "1",
-                "15",
-                "15",
                 "16",
                 "25",
                 "2880",
                 "2880",
                 "37",
-                "40",
-                "45"
+                "40"
               ],
               "check": "numbers",
               "missing_from_translation": [
@@ -266,13 +244,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-29T02:47:30Z",
+    "generated_at": "2026-09-25T17:30:11Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

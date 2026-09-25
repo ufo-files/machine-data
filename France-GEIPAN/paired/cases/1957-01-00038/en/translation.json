@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-481c6642161353feeb0aafb5",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DZ.42"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-5a7497a63337b26f34cf3870",
           "segment_index": 9,
           "source_segment_id": "seg-5a7497a63337b26f34cf3870",
           "source_text_sha256": "d7a8f5c4dc48e64c12bff2177eb10df2fd61b178388b22e10f8931e4ff826c9a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies: HADJOUT (DZ.42) 03.01.1957",
           "translation_text_sha256": "0b126106b4802a77c9485ec73e8521524029c73fcc7e19e6f41be092c73c2fa8"
         },
@@ -179,34 +170,14 @@
           "error": null,
           "field": "description",
           "page_id": "page-481c6642161353feeb0aafb5",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "20:22"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "20",
-                "22"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-8639481cb6306c2f1904686c",
           "segment_index": 11,
           "source_segment_id": "seg-8639481cb6306c2f1904686c",
           "source_text_sha256": "ab9b7796dfc591ba3c26a01b9de076169ff8caae76363a8aedd1ad11ba6919e7",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "Description: On January 3, 1957 at 20:22 (UTC) three witnesses in flight south of Marengo (now Hadjout, Algeria) observed for 15 seconds a glowing object with a green then red trail crossing the sky on a regular descending trajectory from south to north east. Only one testimony was collected. The GEIPAN classified this case B: probable passage of a meteoroid.",
           "translation_text_sha256": "eefa1ccd9393bc6950a12589a78f56c36b816ee932e1ef5de26ff58f8f9cf018"
         }
@@ -219,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-26T07:05:24Z",
+    "generated_at": "2026-09-25T17:24:54Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

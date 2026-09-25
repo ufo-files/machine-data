@@ -167,28 +167,29 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-b2c33bd6495a104da91a6ff4",
           "qa_findings": [
             {
-              "check": "protected-tokens",
+              "added_in_translation": [],
+              "check": "numbers",
               "missing_from_translation": [
-                "GEIPAN"
+                "13"
               ],
-              "severity": "error",
+              "severity": "warning",
               "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-5f2fe06a37b04833d4706914",
           "segment_index": 11,
           "source_segment_id": "seg-5f2fe06a37b04833d4706914",
           "source_text_sha256": "35c50b3dd5b9e1b922dc897106e4a86f508cec0590f9633d5dc8af3f3f57e061",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On Saturday, November 5, 1960, around 8:30 PM, two individuals observed green-orange-red lights appearing to emanate from a slowly moving object in the sky. A few days later, on November 13 at 2:45 AM, one of the witnesses was intrigued by a green glow in his room. After waking his partner, they both observed flashing green-orange-red lights, and then the partner fell back asleep. The witness then went to the door and noticed a circular object, several meters in diameter, about 150 meters away, that had landed on a disused railroad track near the residence. The silent object, resting on a tripod, emitted orange and green lights. The observation lasted approximately twenty minutes before the object silently lifted off and disappeared towards the south-west, alternating green lights. Intrigued, the witness reported the observation to a regional newspaper reporter. No traces were found at the scene during a gendarmerie investigation. Investigators interviewed several residents, including two SNCF employees on duty that night at the nearby level crossings: nothing unusual was noted by these railway workers that evening. During the investigation, the credibility of the primary witness, well-known to the authorities, was strongly challenged by all those interviewed and local officials. No other testimony regarding this observation corroborated the witness's account. The GEIPAN classified this case as \"B,\" likely a hoax.",
-          "translation_text_sha256": "06b322bd409cd639be480f8b4d250c8bf77267fe70ad9388f7646927b1b6888a"
+          "status": "needs-review",
+          "text": "Description: On Saturday, November 5, 1960, at approximately 8:30 PM, two individuals observed green-orange-red lights appearing to emanate from a slowly moving object in the sky. A few days later, on November 13th around 2:45 AM, one of the witnesses was intrigued by a green light shining into his room. Waking up his companion, she actually observes the flickering of green-orange and red lights, then falls back asleep. The witness then walks to their door and notices a circular craft several meters in diameter, located 150 meters away, landing on a nearby abandoned railroad track. The craft, silent, resting on a tripod, emits orange and green lights. The observation lasted approximately twenty minutes before the craft silently took off and disappeared towards the south-east, alternating green lights. Intrigued, the witness will report his observation to a reporter for a regional newspaper. No trace will be found at the scene during the gendarmerie investigation. Investigators will interview several residents, including two SNCF (French National Railway Company) staff on duty that night at the level crossings in the affected area: these railway workers reported nothing unusual that evening. During the investigation, the credibility of the main witness, well-known to the authorities, is strongly disputed by all the interviewed individuals and local authority representatives. No other testimony regarding this observation will corroborate the witness's statement. The GEIPAN classifies this case as \"B\" for likely a hoax.",
+          "translation_text_sha256": "217a49df9a836df37a49b038775c642f1adf9483e266a14f9ef54302c2179dec"
         }
       ],
       "source_page_id": "page-b2c33bd6495a104da91a6ff4"
@@ -199,13 +200,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-23T11:40:46Z",
+    "generated_at": "2026-09-25T17:47:03Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
