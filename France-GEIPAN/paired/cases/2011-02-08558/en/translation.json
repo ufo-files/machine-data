@@ -151,51 +151,33 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-f0541c4eebfa1c272af052bf",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-1844cd035d35d04595aff4fe",
           "segment_index": 10,
           "source_segment_id": "seg-1844cd035d35d04595aff4fe",
           "source_text_sha256": "c986f9139e0450a9fc110dea23d86d60c1525bfaa858fb0970b15cbc64c5a43c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Temoignages GEIPAN.xlsx",
           "translation_text_sha256": "7a0f8f8ddc69b0d1a391cd2aa41fd469b87146c5e15277a313f22e0417c1135a"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-f0541c4eebfa1c272af052bf",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-2011-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-5a1bbf3d7a0923a12f0a59c8",
           "segment_index": 11,
           "source_segment_id": "seg-5a1bbf3d7a0923a12f0a59c8",
           "source_text_sha256": "e2acccc01462f559e568d14e8571a2f662d330575fdcc902c6c10b0e12c60db2",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies: [AERO] BOLQUERE (66) 18.02.2011 2011211914-AERO-2011-R.pdf Questionnaire terre-R.pdf [RN568] de ARLES (13) vers FOS-SUR-MER (13) 18.02.2011 Questionnaire terre-R.pdf PEYPIN (13) 18.02.2011 Questionnaire terre-R.pdf Questionnaire terre-R.pdf",
           "translation_text_sha256": "b90da27dfaa5a3b34528171e20c11ad5b7c8dfc91ddc4a8fbd0359f56111a530"
         },
@@ -240,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T12:34:11Z",
+    "generated_at": "2026-09-25T16:45:34Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
