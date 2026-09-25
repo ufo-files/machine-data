@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-aad91c4baee329ddf116df9e",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "MA.01"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d4bda3dbd8f2cecdf2511222",
           "segment_index": 9,
           "source_segment_id": "seg-d4bda3dbd8f2cecdf2511222",
           "source_text_sha256": "08dba038ed33e66bb00911b5eb77bf21ef6e1a5ec807e853fcde2d1fdd329d66",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies: TANGER (MA.01) 05.09.1954",
           "translation_text_sha256": "4d142138b4e2bc5faa329d8852833e4c943ff723b859e90d0b7def40c1e56b28"
         },
@@ -199,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-05T13:11:36Z",
+    "generated_at": "2026-09-25T17:00:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

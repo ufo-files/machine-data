@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-6bec68af39aed4748926e538",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GA.8"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ef7564738df55ebc5f950304",
           "segment_index": 9,
           "source_segment_id": "seg-ef7564738df55ebc5f950304",
           "source_text_sha256": "0151dd44b797b858383ab00bbd67b0c3d078545b0817937fe8939f62e5bf266b",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies: PORT-GENTIL (GA.8) 01.06.1952",
           "translation_text_sha256": "591baecda2b8a2482e1ea1fb9762216efb27c3307ee1fb7308f33a939488c80c"
         },
@@ -190,19 +181,8 @@
               "status": "mismatch"
             },
             {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "02:40"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
               "added_in_translation": [
-                "1",
-                "2",
-                "40"
+                "1"
               ],
               "check": "numbers",
               "missing_from_translation": [],
@@ -229,13 +209,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-30T01:54:10Z",
+    "generated_at": "2026-09-25T16:49:20Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
