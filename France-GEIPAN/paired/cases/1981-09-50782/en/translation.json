@@ -199,7 +199,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-251839e645c099dd75e90826",
           "qa_findings": [
@@ -213,25 +213,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-3e436fe340f7a2a19d53f80d",
           "segment_index": 13,
           "source_segment_id": "seg-3e436fe340f7a2a19d53f80d",
           "source_text_sha256": "18404867a805999a0225d4c759e68730bb73d9199854938ec3d97919f5a58805",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: The GEIPAN (French UFO investigation body) continues to publish its entire archive on its public website www.geipan.fr. Among its publications are older cases classified at the time (A, B, C, or D) that are now being reexamined with the sole purpose of being more relevant in their conclusions. Thanks to new technical means (software) and the investigative experience gained over the past years, this reexamination sometimes leads to new observations or a change in classification. A previously classified case D and published under the name BOURG-MADAME (66) 1981 is part of a recent set of cases that have been reexamined. This case involved observations by three witnesses in three different communes in the department of Pyrénées-Orientales (66) during the months of September and October 1981. These three observations of PAN of different natures had been mistakenly considered part of the same phenomenon during the initial analysis. The failure to detect this had led to a perception of extreme strangeness (initial D classification). The new analysis (see the investigation report) highlights that these are indeed three observations of PAN of different natures.\n\n- SAINTE-LEOCADIE (66) 19.09.1981\n- CORNEILLA-DE-CONFLENT (66) 27.09.1981\n- VERNET-LES-BAINS (66) 03.10.1981\n\nRegarding SAINTE-LEOCADIE (66) 19.09.1981: The witness, stopped at the side of the road and then at home, observed a bright PAN described as several white and red lights side by side, alternating above the mountain range. The PAN appears stationary, then moves away, and the witness loses sight of it. Only one testimony was collected. This testimony contains several errors committed both by the witness and by the gendarmes who investigated the case, particularly regarding the location of observation and the position of the PAN relative to the landscape, but these could be corrected in the second analysis. The visual aspect and movement are consistent with a helicopter located above Spanish territory and emerging from navigation records established during the investigation. The consistency of the case is limited (especially regarding the angular size of the PAN), but it nevertheless supports the hypothesis. GEIPAN classifies the case as B: probable observation of a helicopter.",
-          "translation_text_sha256": "407ade3c04f8f618f5a72128eccf946647af24855d1f148ba4b6d460d4c2364c"
+          "status": "needs-review",
+          "text": "Description: The GEIPAN continues to publish its entire archive on its public website www.geipan.fr. Among its publications are old cases classified at the time (A, B, C, or D) that are now being reexamined with the sole purpose of being more relevant in their conclusions. Thanks to new technical means (software) and the investigative experience gained over many years, this reexamination sometimes leads to new observations or a change in classification. A previously classified case D and published under the name BOURG-MADAME (66) 1981 is part of a recent set of cases that have been reexamined. This case involved observations by three witnesses in three different communes in the department of Pyrénées-Orientales (66) during the months of September and October 1981. These three observations of PAN of different natures had been mistakenly considered part of the same phenomenon during the initial analysis. The failure to detect this led to a perception of extreme strangeness (initial classification D). The new analysis (see the investigation report) highlights that these are indeed three observations of PAN of different natures.\n\n- SAINTE-LEOCADIE (66) 19.09.1981 - CORNEILLA-DE-CONFLENT (66) 27.09.1981 - VERNET-LES-BAINS (66) 03.10.1981\n\nRegarding SAINTE-LEOCADIE (66) 19.09.1981: The witness, stopped at the side of the road and then at home, observed a bright PAN described as several white and red lights side by side above the mountain range. The PAN appears stationary then moves away and the witness loses sight of it. Only one testimony was collected. This testimony contains several errors committed both by the witness and by the gendarmes who investigated the case, particularly regarding the location of observation and the position of the PAN relative to the landscape, but these could be corrected in the second analysis. The visual aspect and movement are consistent with a helicopter located above Spanish territory and emerging from navigation records established during the investigation. The consistency of the case is limited (particularly regarding the angular size of the PAN), but it nevertheless supports the hypothesis. The GEIPAN classifies the case as B: probable observation of a helicopter.",
+          "translation_text_sha256": "18046e10d1482e705a8145ba7c903683b074934167cbfbbadb0810f33372150a"
         }
       ],
       "source_page_id": "page-251839e645c099dd75e90826"
@@ -242,13 +234,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-23T23:37:48Z",
+    "generated_at": "2026-09-25T18:48:08Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

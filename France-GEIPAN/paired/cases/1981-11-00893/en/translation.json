@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-2d9acf855b3466c8ff6f7c46",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ba1b05cda2049f259aa9b0fc",
           "segment_index": 8,
           "source_segment_id": "seg-ba1b05cda2049f259aa9b0fc",
           "source_text_sha256": "3e2bb10e1c140292f06da2d96aba073abb8c1a3b1409be7ddae6e8627357843c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Compte rendu GEPAN-R.pdf PV n° 1902 (1981308250).pdf",
           "translation_text_sha256": "59bed94c440288e9864800bbc71a5601578d00ff06a96b4e60347860782916b1"
         },
@@ -218,13 +209,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T14:16:03Z",
+    "generated_at": "2026-09-25T19:00:40Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
