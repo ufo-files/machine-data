@@ -1,0 +1,239 @@
+{"created_utc": "2026-09-25T05:04:07Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 50081, "source_ctime_ns": 1790255877741737553, "source_file": "Archives-for-the-Unexplained/documents/2021-09-02---NASA-Astrobiology---Universal-Life-Detection-Astrobiology-Assembly-Theory_FMKPz1tuv10---transcript-automated-.pdf", "source_mtime_ns": 1790255877732988370, "source_rel": "Archives-for-the-Unexplained/documents/2021-09-02---NASA-Astrobiology---Universal-Life-Detection-Astrobiology-Assembly-Theory_FMKPz1tuv10---transcript-automated-.pdf", "source_sha256": "b8413ac83882b01968b66ecc0c8c3d377428b19255bf4d0df03d46e27aef7818"}
+
+1
+00:00:08,640 --> 00:00:12,400
+STUART: The main problem, I think, is that we don't\h
+really know exactly what we're looking for.
+
+2
+00:00:13,440 --> 00:00:19,200
+The only known source of life is on Earth. It could\h
+be that we have other life in the universe that's\h\h
+
+3
+00:00:19,200 --> 00:00:24,480
+quite similar, but it could be completely different\h
+in a different environment. So, we wanted to come up\h\h
+
+4
+00:00:24,480 --> 00:00:28,028
+with a way of looking for life that was kind\h
+of agnostic,
+
+5
+00:00:28,028 --> 00:00:31,915
+where we didn't have to make any\hassumptions about life at all.
+
+6
+00:00:31,915 --> 00:00:35,680
+COLE: In order to\h
+make any progress here, you have to think about,
+
+7
+00:00:36,480 --> 00:00:42,400
+you know, what is it about life that seems\h
+unique relative to non-living systems?
+
+8
+00:00:42,400 --> 00:00:46,640
+HEATHER: When\hyou see something that is interesting,\h
+that looks like energy went into it\h,\h
+
+9
+00:00:47,280 --> 00:00:52,960
+that you can't explain through abiotic means,\h
+the best way, the most generalized way we could\h\h
+
+10
+00:00:52,960 --> 00:00:58,960
+think of life, is being that extra push of energy\h
+that is needed in that environment to make that\hexpression.
+
+11
+00:00:58,960 --> 00:01:04,720
+A footprint is that little bit of\h
+energy in a dusty landscape that tells you\h\h
+
+12
+00:01:04,720 --> 00:01:10,640
+something was alive there, but fossils are also a\h
+physical expression of energy that accumulated a\h\h
+
+13
+00:01:10,640 --> 00:01:16,480
+bunch of organic material. And we can do the same\h
+thing in chemistry by looking at the complexity\h\h
+
+14
+00:01:16,480 --> 00:01:22,320
+of molecules and saying: is it likely that you\h
+would have all of that energy that it took to\h\h
+
+15
+00:01:22,320 --> 00:01:22,820
+assemble a molecule in that way happening\h
+without the presence of life?
+
+16
+00:01:22,820 --> 00:01:31,774
+STUART: What we landed on was basically a complexity measure. The further you go\hdown chemical space,
+
+17
+00:01:31,774 --> 00:01:36,674
+the larger molecules you make, the more decisions you have to make to get to that\hmolecule,
+
+18
+00:01:36,674 --> 00:01:39,615
+and the more possible other things you could have made.
+What we wanted to do was,
+
+19
+00:01:39,615 --> 00:01:46,056
+we wanted\hto take molecules and say: how many steps would it take to make this molecule, even if you ignore
+
+20
+00:01:46,056 --> 00:01:46,556
+all the rules of chemistry, in competition with all the other things that could have been made, and\hthen use tha
+
+21
+00:01:46,556 --> 00:01:53,556
+how likely it is to have been made in a kind of just random process without\hbiological direction behind it.
+
+22
+00:01:53,556 --> 00:02:03,718
+HEATHER: You know, so this particular idea of molecular assembly was really\hborn in math,
+
+23
+00:02:03,718 --> 00:02:13,360
+even though it's a chemical method. It was born out of the idea of thinking about\hbuilding molecules in an algo
+
+24
+00:02:13,360 --> 00:02:20,320
+and then, recognizing that molecules that are\hderived from abiotic systems have far less steps
+
+25
+00:02:20,320 --> 00:02:26,320
+necessary to make them, than the molecules that we\hassociate with biology, which take many more steps.\h\h
+
+26
+00:02:30,240 --> 00:02:35,040
+COLE: So, once we sort of had that, Stu spent a bunch\h
+of time writing code so that we could calculate\h\h
+
+27
+00:02:35,040 --> 00:02:39,120
+those quantities for any molecule we cared about.
+The next step was to think about a way to measure\hit.
+
+28
+00:02:39,120 --> 00:02:44,800
+The original idea of using mass spectrometry\h
+goes back to this thought experiment and knowing\h\h
+
+29
+00:02:44,800 --> 00:02:49,360
+that NASA had this long legacy of sending mass\h
+spectrometers to space, and so, the first thing\h\h
+
+30
+00:02:49,360 --> 00:02:53,920
+that we did was, we went and we got a bunch\h
+of molecules that had different complexities,
+
+31
+00:02:53,920 --> 00:02:59,120
+different molecular assembly values, and we put\h
+these in the mass spectrometer and we looked to\h\h
+
+32
+00:02:59,120 --> 00:02:59,620
+see how they broke apart, and we just counted the\h
+number of unique pieces they broke into.
+33
+00:02:59,620 --> 00:03:11,200
+But, once you get that right, you can sort of see that the\h
+higher the assembly number is, the more pieces\h\h
+
+34
+00:03:11,200 --> 00:03:15,840
+the molecule tends to break into, which was\h
+really exciting. Sort of the first time any of these\h\h
+
+35
+00:03:15,840 --> 00:03:21,200
+chemical complexity measures has been something\h
+that's detectable in an experiment in the lab.
+
+36
+00:03:24,880 --> 00:03:28,160
+LEE: Now we have that framework, first\h
+of all, we should apply it on Earth.\h\h
+
+37
+00:03:28,800 --> 00:03:29,300
+Secondly, we should go around our solar system and\h
+look for complex molecules everywhere.
+
+38
+00:03:29,300 --> 00:03:39,360
+HEATHER: The MOMA instrument that will be aboard the ExoMars\h
+rover has this capability of fragmentation,
+
+39
+00:03:39,360 --> 00:03:45,600
+and then investigating the sizes and identity of\h
+all of those fragments; and there will be a mass\h\h
+
+40
+00:03:45,600 --> 00:03:51,200
+spectrometer that flies with Dragonfly to Titan\h
+that will also be able to do that same process.
+
+41
+00:03:51,200 --> 00:03:55,760
+COLE: I'm also really excited to go to Venus.
+Well, I'm not going to go to Venus I don't want to die.
+
+42
+00:03:55,760 --> 00:04:00,480
+But I'm excited that NASA is sending missions\h
+there because I don't expect we'll find life there,
+43
+00:04:00,480 --> 00:04:06,000
+but, I think we will learn a lot about the\h
+scope of possible abiotic chemistry, so I think\h\h
+
+44
+00:04:06,000 --> 00:04:10,960
+it'll be really good to visit the closest analogue\h
+to Earth that we have, and I definitely think we\h\h
+
+45
+00:04:10,960 --> 00:04:11,460
+should be using this technique to learn\h
+about the surface of that environment.
+
+46
+00:04:11,460 --> 00:04:21,600
+LEE: But, I think there's an even more important thing for\h
+astrobiology; not just defining what life is,
+
+47
+00:04:22,240 --> 00:04:28,880
+but also looking in, observationally, looking at\h
+exoplanets. So, suddenly you can start to look\h\h
+
+48
+00:04:28,880 --> 00:04:36,960
+for signatures over the entire universe using\h
+spectroscopy remotely. But, of course, first things\hfirst,
+
+49
+00:04:36,960 --> 00:04:44,080
+let's get some decent mass spectrometers\h
+to Mars, Venus, Titan, Enceladus, and find what we\h\h
+
+50
+00:04:44,080 --> 00:04:48,800
+can, what we can map, and that's really exciting. And I\h
+think NASA is super excited and has been great\h\h
