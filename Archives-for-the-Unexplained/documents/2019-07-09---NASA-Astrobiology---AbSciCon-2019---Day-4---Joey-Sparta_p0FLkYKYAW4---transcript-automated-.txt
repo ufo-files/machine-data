@@ -1,0 +1,1150 @@
+{"created_utc": "2026-09-25T15:35:52Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 75817, "source_ctime_ns": 1790293266007264873, "source_file": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-4---Joey-Sparta_p0FLkYKYAW4---transcript-automated-.pdf", "source_mtime_ns": 1790293265670442421, "source_rel": "Archives-for-the-Unexplained/documents/2019-07-09---NASA-Astrobiology---AbSciCon-2019---Day-4---Joey-Sparta_p0FLkYKYAW4---transcript-automated-.pdf", "source_sha256": "189d90ee8569a561e17a989fd8ebd0d5073b04d86e7463e03ae6514065c4903a"}
+
+1
+00:00:00,790 --> 00:00:07,320
+[Music]
+
+2
+00:00:12,410 --> 00:00:09,130
+[Applause]
+
+3
+00:00:15,260 --> 00:00:12,420
+all right thank you so my name is Joey
+
+4
+00:00:16,700 --> 00:00:15,270
+Sparta I'm from honeybee robotics I'm
+
+5
+00:00:19,400 --> 00:00:16,710
+gonna be talking about sampling the
+
+6
+00:00:22,280 --> 00:00:19,410
+ocean world so we had a few talks
+
+7
+00:00:24,859 --> 00:00:22,290
+already about drilling down through icy
+
+8
+00:00:27,560 --> 00:00:24,869
+crusts and getting deep into the surface
+
+9
+00:00:29,900 --> 00:00:27,570
+I'm gonna be focusing on sort of
+
+10
+00:00:35,720 --> 00:00:29,910
+sampling the top layer of these icy
+
+11
+00:00:37,040 --> 00:00:35,730
+moons so I'll talk about the ocean
+
+12
+00:00:40,310 --> 00:00:37,050
+worlds in general and what it might take
+
+13
+00:00:42,049 --> 00:00:40,320
+to sample at the top layer and sort of
+
+14
+00:00:43,430 --> 00:00:42,059
+what the scientific priority is and
+
+15
+00:00:45,439 --> 00:00:43,440
+maybe some engineering challenges that
+
+16
+00:00:48,549 --> 00:00:45,449
+sort of drive the sampling system design
+
+17
+00:00:51,410 --> 00:00:48,559
+itself then I'm going to go into the
+
+18
+00:00:54,110 --> 00:00:51,420
+what I'm calling the ISS this is the
+
+19
+00:00:56,090 --> 00:00:54,120
+actual sampling system that we've put
+
+20
+00:01:00,259 --> 00:00:56,100
+together for the dragonfly new frontiers
+
+21
+00:01:04,549 --> 00:01:00,269
+mission so my colleague ty Costa and
+
+22
+00:01:07,219 --> 00:01:04,559
+myself were basically started on this
+
+23
+00:01:10,399 --> 00:01:07,229
+project last January and we have been
+
+24
+00:01:12,410 --> 00:01:10,409
+developing just about every day working
+
+25
+00:01:14,209 --> 00:01:12,420
+on this sampling system so pretty
+26
+00:01:17,380 --> 00:01:14,219
+fitting that we're here today and we
+
+27
+00:01:21,560 --> 00:01:17,390
+have an announcement coming today that
+
+28
+00:01:22,910 --> 00:01:21,570
+we're very much anxious and waiting then
+
+29
+00:01:24,859 --> 00:01:22,920
+I'm just gonna touch on how you can use
+
+30
+00:01:26,719 --> 00:01:24,869
+this for any other ocean world so this
+
+31
+00:01:28,520 --> 00:01:26,729
+obviously for the dragonfly mission is
+
+32
+00:01:31,179 --> 00:01:28,530
+for Titan which has an atmosphere and
+
+33
+00:01:35,810 --> 00:01:31,189
+then I'll touch on how you can use this
+
+34
+00:01:38,270 --> 00:01:35,820
+for airless ocean worlds so ocean worlds
+
+35
+00:01:40,639 --> 00:01:38,280
+in general way out in the solar system
+
+36
+00:01:42,469 --> 00:01:40,649
+around gas giants you have radiation you
+
+37
+00:01:45,440 --> 00:01:42,479
+have extremely cold temperatures you
+
+38
+00:01:48,260 --> 00:01:45,450
+have low gravity and these make for some
+
+39
+00:01:52,010 --> 00:01:48,270
+serious challenges for sampling in
+
+40
+00:01:53,510 --> 00:01:52,020
+general the search for life takes us
+
+41
+00:01:55,459 --> 00:01:53,520
+below the surface so that's why we're
+
+42
+00:01:57,859 --> 00:01:55,469
+drilling down as you're all everyone in
+
+43
+00:02:01,520 --> 00:01:57,869
+this room is probably aware but when you
+
+44
+00:02:03,139 --> 00:02:01,530
+start drilling down and then once you
+
+45
+00:02:05,260 --> 00:02:03,149
+want to actually take that sample and
+
+46
+00:02:07,760 --> 00:02:05,270
+analyze it with an instrument you've got
+
+47
+00:02:09,859 --> 00:02:07,770
+your instruments are probably in your in
+
+48
+00:02:11,480 --> 00:02:09,869
+your spacecraft in the warm area so
+
+49
+00:02:14,480 --> 00:02:11,490
+you've got to get this material from the
+
+50
+00:02:18,170 --> 00:02:14,490
+subsurface into the spacecraft and in a
+51
+00:02:19,970 --> 00:02:18,180
+low gravity environment you may end up
+
+52
+00:02:21,949 --> 00:02:19,980
+dealing with some really sticky nasty
+
+53
+00:02:24,349 --> 00:02:21,959
+material especially on
+
+54
+00:02:27,949 --> 00:02:24,359
+where you have organics and potential
+
+55
+00:02:30,500 --> 00:02:27,959
+wet sticky like sand particles and other
+
+56
+00:02:32,569 --> 00:02:30,510
+things so essentially we started on this
+
+57
+00:02:34,970 --> 00:02:32,579
+project and working with Ralph Lorenz
+
+58
+00:02:39,080 --> 00:02:34,980
+and he handed us a whole bunch of nasty
+
+59
+00:02:42,020 --> 00:02:39,090
+sticky simulants like sand and oil and
+
+60
+00:02:44,000 --> 00:02:42,030
+wheat flour and just really nasty stuff
+
+61
+00:02:46,849 --> 00:02:44,010
+and he said try to figure out how to how
+
+62
+00:02:50,300 --> 00:02:46,859
+to transport this stuff with using
+
+63
+00:02:52,459 --> 00:02:50,310
+pneumatics using gas and so when we
+
+64
+00:02:55,369 --> 00:02:52,469
+designed this system we we thought of
+
+65
+00:02:57,860 --> 00:02:55,379
+four sort of steps or strategies and how
+
+66
+00:02:59,869 --> 00:02:57,870
+we might sample first obviously
+
+67
+00:03:02,629 --> 00:02:59,879
+excavating the surface so we use a drill
+
+68
+00:03:04,369 --> 00:03:02,639
+to get into the subsurface and then we
+
+69
+00:03:06,679 --> 00:03:04,379
+transfer that material into the
+
+70
+00:03:08,990 --> 00:03:06,689
+spacecraft and while we do the transfer
+
+71
+00:03:11,899 --> 00:03:09,000
+we focus on minimizing crosstalk or
+
+72
+00:03:14,119 --> 00:03:11,909
+cross-contamination as well as heat
+
+73
+00:03:15,979 --> 00:03:14,129
+transfer so heat transfer if we're
+
+74
+00:03:18,110 --> 00:03:15,989
+putting heat into the sample especially
+
+75
+00:03:21,709 --> 00:03:18,120
+on these icy moons we're risking losing
+76
+00:03:24,289 --> 00:03:21,719
+volatiles are there important signals in
+
+77
+00:03:25,789 --> 00:03:24,299
+our aspects of the sample and then
+
+78
+00:03:28,039 --> 00:03:25,799
+crosstalk we want to make sure that
+
+79
+00:03:29,899 --> 00:03:28,049
+we're having a clean system that you
+
+80
+00:03:33,110 --> 00:03:29,909
+know as we go from sample site to sample
+
+81
+00:03:36,080 --> 00:03:33,120
+site we're not mixing our signal and so
+
+82
+00:03:39,619 --> 00:03:36,090
+for this integrated sampling system we
+
+83
+00:03:41,719 --> 00:03:39,629
+were delivering to two modes of one mass
+
+84
+00:03:43,640 --> 00:03:41,729
+spectrometer we have a laser desorption
+
+85
+00:03:47,479 --> 00:03:43,650
+and a gas chromatograph so do you see
+
+86
+00:03:49,309 --> 00:03:47,489
+this and in LB ms and it's pretty small
+
+87
+00:03:52,309 --> 00:03:49,319
+volumes less than a milliliter and
+
+88
+00:03:54,409 --> 00:03:52,319
+pretty fine particles and so like I said
+
+89
+00:03:56,030 --> 00:03:54,419
+excavating we use a rotary percussive
+
+90
+00:03:58,369 --> 00:03:56,040
+drill drilling is something that
+
+91
+00:04:00,800 --> 00:03:58,379
+honeybee has a lot of has done a lot of
+
+92
+00:04:02,629 --> 00:04:00,810
+work with in the past I mean sort of the
+
+93
+00:04:04,610 --> 00:04:02,639
+new technology part of this was the
+
+94
+00:04:06,740 --> 00:04:04,620
+pneumatic transport so using gas to
+
+95
+00:04:10,610 --> 00:04:06,750
+actually carry sample from the ground to
+
+96
+00:04:12,830 --> 00:04:10,620
+the spacecraft and form a heat transfer
+
+97
+00:04:15,289 --> 00:04:12,840
+standpoint pneumatics are great we can
+
+98
+00:04:19,789 --> 00:04:15,299
+use the cold ambient gas that's already
+
+99
+00:04:21,589 --> 00:04:19,799
+on Titan and so basically this the heat
+
+100
+00:04:24,260 --> 00:04:21,599
+transfer is mitigated by the fact that
+101
+00:04:25,820 --> 00:04:24,270
+were operating in the environment and we
+
+102
+00:04:27,439 --> 00:04:25,830
+have designed our mechanisms to actually
+
+103
+00:04:29,029 --> 00:04:27,449
+operate out the ambient temperature and
+
+104
+00:04:31,570 --> 00:04:29,039
+so there really isn't much temperature
+
+105
+00:04:34,100 --> 00:04:31,580
+gradient throughout the entire system
+
+106
+00:04:34,810 --> 00:04:34,110
+additionally it's extremely quick we use
+
+107
+00:04:38,290 --> 00:04:34,820
+a very high
+
+108
+00:04:39,970 --> 00:04:38,300
+air speed so like from the time we pull
+
+109
+00:04:42,790 --> 00:04:39,980
+the material out of the ground it's in a
+
+110
+00:04:45,190 --> 00:04:42,800
+sample cup in less than a tenth of a
+
+111
+00:04:47,620 --> 00:04:45,200
+second so it's extremely fast and it is
+
+112
+00:04:49,540 --> 00:04:47,630
+extremely robust and the fact that the
+
+113
+00:04:51,940 --> 00:04:49,550
+air speed that we generate is so fast
+
+114
+00:04:55,240 --> 00:04:51,950
+means that it's self-cleaning and so we
+
+115
+00:04:57,480 --> 00:04:55,250
+don't end up with clogs or sticky like
+
+116
+00:05:00,160 --> 00:04:57,490
+materials sticking to surfaces or other
+
+117
+00:05:01,540 --> 00:05:00,170
+like robotic arms or scoops or other
+
+118
+00:05:04,480 --> 00:05:01,550
+things like that it's just a very clean
+
+119
+00:05:06,340 --> 00:05:04,490
+system and it's an analogous to like the
+
+120
+00:05:08,290 --> 00:05:06,350
+medical industry the pharmaceutical
+
+121
+00:05:10,000 --> 00:05:08,300
+industry where they transport medicines
+
+122
+00:05:11,530 --> 00:05:10,010
+and powders and things like that they
+
+123
+00:05:13,570 --> 00:05:11,540
+don't want cross talk they don't want
+
+124
+00:05:16,630 --> 00:05:13,580
+you know they want very fine metered
+
+125
+00:05:19,480 --> 00:05:16,640
+control of fine material and that's
+126
+00:05:24,250 --> 00:05:19,490
+exactly what we're after on this mission
+
+127
+00:05:25,510 --> 00:05:24,260
+and sampling in general so here's a
+
+128
+00:05:27,670 --> 00:05:25,520
+little diagram that shows what I'm
+
+129
+00:05:30,460 --> 00:05:27,680
+talking about we've got a drill on the
+
+130
+00:05:32,530 --> 00:05:30,470
+leg of the lander and this is a rotary
+
+131
+00:05:35,770 --> 00:05:32,540
+percussive drill and then we put a
+
+132
+00:05:39,160 --> 00:05:35,780
+pneumatic transport system which can be
+
+133
+00:05:40,840 --> 00:05:39,170
+adapted to icing ones that don't have an
+
+134
+00:05:44,140 --> 00:05:40,850
+atmosphere which is the later part of
+
+135
+00:05:46,330 --> 00:05:44,150
+this talk so for the Dragonfly mission
+
+136
+00:05:49,000 --> 00:05:46,340
+for tighten like I said it has a nice
+
+137
+00:05:51,760 --> 00:05:49,010
+thick atmosphere so we can basically do
+
+138
+00:05:53,410 --> 00:05:51,770
+what we do here on earth those of you
+
+139
+00:05:55,180 --> 00:05:53,420
+who have worked in a wood shop when
+
+140
+00:05:57,430 --> 00:05:55,190
+you're cutting wood and you're done
+
+141
+00:05:59,950 --> 00:05:57,440
+cutting you might take a shop vacuum and
+
+142
+00:06:01,510 --> 00:05:59,960
+just suction up all the cuttings that's
+
+143
+00:06:04,210 --> 00:06:01,520
+exactly what we're doing on dragonfly
+
+144
+00:06:06,760 --> 00:06:04,220
+we're drilling into the ground and then
+
+145
+00:06:08,830 --> 00:06:06,770
+we're using a blower which has a
+
+146
+00:06:11,560 --> 00:06:08,840
+impeller that we spent at a high speed
+
+147
+00:06:13,810 --> 00:06:11,570
+and generate a low pressure basically
+
+148
+00:06:16,630 --> 00:06:13,820
+suctions the atmosphere in through a
+
+149
+00:06:18,700 --> 00:06:16,640
+nozzle that's called a pickup foot right
+
+150
+00:06:20,590 --> 00:06:18,710
+here by the drill bit and it basically
+151
+00:06:24,970 --> 00:06:20,600
+lifts the particles up and carries them
+
+152
+00:06:26,950 --> 00:06:24,980
+down de tubing in our case we've
+
+153
+00:06:29,500 --> 00:06:26,960
+actually made this even cleaner by
+
+154
+00:06:32,020 --> 00:06:29,510
+diluting the flow so for every one
+
+155
+00:06:34,780 --> 00:06:32,030
+milliliter of sample that we carry we're
+
+156
+00:06:37,270 --> 00:06:34,790
+carrying ten thousand milliliters of gas
+
+157
+00:06:38,710 --> 00:06:37,280
+with it so it's extremely diluted it's
+
+158
+00:06:41,610 --> 00:06:38,720
+extremely clean
+
+159
+00:06:44,080 --> 00:06:41,620
+we pretty much never had a clog in
+
+160
+00:06:45,920 --> 00:06:44,090
+hundreds of tests that we did I'm since
+
+161
+00:06:48,920 --> 00:06:45,930
+extremely robust
+
+162
+00:06:52,730 --> 00:06:48,930
+I also mentioned diverter valves we came
+
+163
+00:06:55,610 --> 00:06:52,740
+up with this component that we added to
+
+164
+00:06:57,529 --> 00:06:55,620
+the system which allows us to basically
+
+165
+00:06:59,990 --> 00:06:57,539
+have multiple drills and have multiple
+
+166
+00:07:02,600 --> 00:07:00,000
+blowers for redundancy as well as like
+
+167
+00:07:04,700 --> 00:07:02,610
+drill site diversity so if there's if
+
+168
+00:07:06,020 --> 00:07:04,710
+you land in a spot and you find
+
+169
+00:07:07,580 --> 00:07:06,030
+something interesting on your left side
+
+170
+00:07:10,730 --> 00:07:07,590
+you can also sample on the right side
+
+171
+00:07:13,969 --> 00:07:10,740
+and see and compare you could also have
+
+172
+00:07:16,550 --> 00:07:13,979
+like redundant drills like you could
+
+173
+00:07:18,650 --> 00:07:16,560
+have multiple drills in case one fails
+
+174
+00:07:20,719 --> 00:07:18,660
+and you could even have multiple
+
+175
+00:07:22,610 --> 00:07:20,729
+scientific instruments or interfaces so
+176
+00:07:24,260 --> 00:07:22,620
+if you you know want to have them well
+
+177
+00:07:25,640 --> 00:07:24,270
+if you sample something it looks
+
+178
+00:07:28,219 --> 00:07:25,650
+interesting maybe you want to hit it
+
+179
+00:07:32,480 --> 00:07:28,229
+with ldms and then the next time you
+
+180
+00:07:35,210 --> 00:07:32,490
+might do a GCMs and i'll just mention
+
+181
+00:07:41,029 --> 00:07:35,220
+that this valve we tested successfully
+
+182
+00:07:43,870 --> 00:07:41,039
+in in cryogenic environment so here's
+
+183
+00:07:48,260 --> 00:07:43,880
+the CONOPS deploy the drill from the leg
+
+184
+00:07:51,170 --> 00:07:48,270
+start drilling generate some sample turn
+
+185
+00:07:53,360 --> 00:07:51,180
+on the blower will generate some gas
+
+186
+00:07:55,939 --> 00:07:53,370
+flow it'll pick up the sample carry it
+
+187
+00:07:57,890 --> 00:07:55,949
+down the stream drawn the tubing here
+
+188
+00:07:59,570 --> 00:07:57,900
+and then we have a sample cup that ty
+
+189
+00:08:01,969 --> 00:07:59,580
+actually gave a talk on Monday about
+
+190
+00:08:05,570 --> 00:08:01,979
+which has been designed to basically
+
+191
+00:08:07,640 --> 00:08:05,580
+extract the particles from the gas well
+
+192
+00:08:09,379 --> 00:08:07,650
+and then we just dumped the rest of the
+
+193
+00:08:11,779 --> 00:08:09,389
+we dumped the rest of the sample
+
+194
+00:08:15,910 --> 00:08:11,789
+overboard so here's a video from our
+
+195
+00:08:15,920 --> 00:08:19,330
+[Music]
+
+196
+00:08:24,620 --> 00:08:21,920
+so we're spinning up the blower here and
+
+197
+00:08:26,149 --> 00:08:24,630
+generating our gas flow and then we're
+
+198
+00:08:28,040 --> 00:08:26,159
+going to start drilling so we're
+
+199
+00:08:29,810 --> 00:08:28,050
+rotating and we're also hammering into
+
+200
+00:08:32,269 --> 00:08:29,820
+the ground to basically break the
+201
+00:08:33,620 --> 00:08:32,279
+material into very fine dust and then
+
+202
+00:08:35,420 --> 00:08:33,630
+this is our pickup foot which is
+
+203
+00:08:37,839 --> 00:08:35,430
+basically suctioning material every time
+
+204
+00:08:40,219 --> 00:08:37,849
+that drill that spins all the way up
+
+205
+00:08:45,260 --> 00:08:40,229
+through the system up here where it's
+
+206
+00:08:47,540 --> 00:08:45,270
+basically captured by this cup and this
+
+207
+00:08:49,130 --> 00:08:47,550
+cup fills reliably reliably we fill it
+
+208
+00:08:51,230 --> 00:08:49,140
+up pretty much every time with every
+
+209
+00:08:53,060 --> 00:08:51,240
+simulant that we've tested so I
+
+210
+00:08:56,590 --> 00:08:53,070
+mentioned earlier the sand oil the wheat
+
+211
+00:08:58,950 --> 00:08:56,600
+flour all that basically the stressing
+
+212
+00:09:02,280 --> 00:08:58,960
+materials that you could try to
+
+213
+00:09:06,630 --> 00:09:02,290
+defeat the system with it's never it's
+
+214
+00:09:11,000 --> 00:09:06,640
+been successful each time we tested it
+
+215
+00:09:13,590 --> 00:09:11,010
+had 94 Kelvin and nitrogen gas so
+
+216
+00:09:15,210 --> 00:09:13,600
+basically as close as we could get to
+
+217
+00:09:18,920 --> 00:09:15,220
+the Titan environment without building a
+
+218
+00:09:21,570 --> 00:09:18,930
+entire Titan chamber with pressure and
+
+219
+00:09:24,840 --> 00:09:21,580
+we were successful we tested it with
+
+220
+00:09:28,829 --> 00:09:24,850
+water ice ammonia water ice wax and sand
+
+221
+00:09:32,940 --> 00:09:28,839
+so various actual Titan ice analogs and
+
+222
+00:09:34,980 --> 00:09:32,950
+we filled our sample cup every time then
+
+223
+00:09:36,870 --> 00:09:34,990
+the last part here is talking about how
+
+224
+00:09:40,160 --> 00:09:36,880
+could you use this for Europa Enceladus
+
+225
+00:09:43,070 --> 00:09:40,170
+any really small body with it with uh
+226
+00:09:45,210 --> 00:09:43,080
+with just vacuum with no atmosphere so
+
+227
+00:09:47,610 --> 00:09:45,220
+we've been working on this too at
+
+228
+00:09:50,040 --> 00:09:47,620
+honeybee I'm so you basically need to
+
+229
+00:09:53,850 --> 00:09:50,050
+supply your own gas so you carry a gas
+
+230
+00:09:56,220 --> 00:09:53,860
+tank on board and then you essentially
+
+231
+00:09:59,639 --> 00:09:56,230
+replace the pick up nozzle with a
+
+232
+00:10:01,050 --> 00:09:59,649
+manifold here and that allows you to
+
+233
+00:10:04,470 --> 00:10:01,060
+seal against the surface and actually
+
+234
+00:10:05,820 --> 00:10:04,480
+pick material right off of the ground so
+
+235
+00:10:07,500 --> 00:10:05,830
+here's a close-up of what that looks
+
+236
+00:10:09,960 --> 00:10:07,510
+like you have a drill that's gonna come
+
+237
+00:10:11,940 --> 00:10:09,970
+down pull material out of the go out of
+
+238
+00:10:17,340 --> 00:10:11,950
+the hole and then you're gonna inject
+
+239
+00:10:21,240 --> 00:10:17,350
+gas which blows the sample downstream so
+
+240
+00:10:26,010 --> 00:10:21,250
+CONOPS deploy your drill come down here
+
+241
+00:10:29,160 --> 00:10:26,020
+into the manifold generate sample inject
+
+242
+00:10:32,190 --> 00:10:29,170
+gas and you're gonna blow your gas into
+
+243
+00:10:34,280 --> 00:10:32,200
+the pneumatic tubing just like we do on
+
+244
+00:10:38,130 --> 00:10:34,290
+the dragonfly
+
+245
+00:10:39,660 --> 00:10:38,140
+so we brought this into the vacuum we
+
+246
+00:10:41,900 --> 00:10:39,670
+have it pretty tall vacuum chamber and
+
+247
+00:10:44,569 --> 00:10:41,910
+honeybee so we were able to fit some
+
+248
+00:10:47,940 --> 00:10:44,579
+full-scale hardware and basically
+
+249
+00:10:51,500 --> 00:10:47,950
+recreate different planetary surfaces
+
+250
+00:10:55,230 --> 00:10:51,510
+and different like textures and and
+251
+00:10:59,910 --> 00:10:55,240
+simulants and so we were successful
+
+252
+00:11:03,720 --> 00:10:59,920
+every time with this - we tested sandy
+
+253
+00:11:06,449 --> 00:11:03,730
+surfaces lunar simulants perhaps a
+
+254
+00:11:09,720 --> 00:11:06,459
+powder surface if you're on a comet but
+
+255
+00:11:10,700 --> 00:11:09,730
+not Caesar a rocky surface such as an
+
+256
+00:11:14,510 --> 00:11:10,710
+asteroid
+
+257
+00:11:15,650 --> 00:11:14,520
+and various other things so I think it's
+
+258
+00:11:16,880 --> 00:11:15,660
+really cool I mean I think this is
+
+259
+00:11:19,700 --> 00:11:16,890
+something that you could probably use
+
+260
+00:11:22,130 --> 00:11:19,710
+with success on most ocean worlds I mean
+
+261
+00:11:25,730 --> 00:11:22,140
+right now it seems very promising the
+
+262
+00:11:28,580 --> 00:11:25,740
+pneumatics are the pneumatic transfer
+
+263
+00:11:30,590 --> 00:11:28,590
+aspect of this to me is really like the
+
+264
+00:11:32,570 --> 00:11:30,600
+critical technology that enables it and
+
+265
+00:11:34,910 --> 00:11:32,580
+I think it's a really clean robust thing
+
+266
+00:11:38,600 --> 00:11:34,920
+that works well for that for the
+
+267
+00:11:40,130 --> 00:11:38,610
+application so that's it we also did had
+
+268
+00:11:42,290 --> 00:11:40,140
+a cold tech grant so I wanted to thank
+
+269
+00:11:46,880 --> 00:11:42,300
+NASA for that as well as the dragonfly
+
+270
+00:11:54,260 --> 00:11:46,890
+team and I appreciate your attention so
+
+271
+00:12:01,240 --> 00:11:54,270
+if there's any questions I think we have
+
+272
+00:12:06,590 --> 00:12:03,950
+Steve ruff ASU I'm curious about the
+
+273
+00:12:09,230 --> 00:12:06,600
+blower on the dragonfly implementation
+
+274
+00:12:13,150 --> 00:12:09,240
+if what's the RPMs on that that's about
+
+275
+00:12:16,820 --> 00:12:13,160
+15,000 15,000 15,000 5-0 yeah it's fast
+276
+00:12:19,610 --> 00:12:16,830
+real fast is that can you control that
+
+277
+00:12:22,310 --> 00:12:19,620
+is there any benefit to be able to slow
+
+278
+00:12:24,380 --> 00:12:22,320
+down or maybe increase it even yeah so
+
+279
+00:12:25,940 --> 00:12:24,390
+we already able to control it and there
+
+280
+00:12:29,840 --> 00:12:25,950
+is a benefit to slowing it down for
+
+281
+00:12:32,690 --> 00:12:29,850
+example you can run it at a lower speed
+
+282
+00:12:34,580 --> 00:12:32,700
+to basically have a lower gas flow rate
+
+283
+00:12:36,740 --> 00:12:34,590
+before you sample which allows you to
+
+284
+00:12:38,780 --> 00:12:36,750
+sort of draw in the atmospheric air and
+
+285
+00:12:40,610 --> 00:12:38,790
+sort of pre cool everything throughout
+
+286
+00:12:45,140 --> 00:12:40,620
+the system um so that's something we've
+
+287
+00:12:46,580 --> 00:12:45,150
+tested and it works well but for the
+
+288
+00:12:48,410 --> 00:12:46,590
+testing that we've done we've just been
+
+289
+00:12:50,450 --> 00:12:48,420
+running this thing to the maximum that
+
+290
+00:12:52,550 --> 00:12:50,460
+we can because we found in our testing
