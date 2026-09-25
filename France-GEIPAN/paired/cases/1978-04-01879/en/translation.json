@@ -151,56 +151,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-e05a5e67e7898b5325366a41",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "20:35",
-                "20:44",
-                "20:51",
-                "20:51"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "20",
-                "20",
-                "20",
-                "20",
-                "35",
-                "44",
-                "51",
-                "51"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d0cb9e2e3b48e66f84a36f89",
           "segment_index": 10,
           "source_segment_id": "seg-d0cb9e2e3b48e66f84a36f89",
           "source_text_sha256": "c46422ee663ea9f1aa41ea40bac00fd43c82a29496b57adaca9f0b35a597b926",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On Sunday, April 23, 1978, between 20:35 and 20:51 UTC, following a telephone call, an on-duty officer at Air Base 105 in Evreux (27) observed a red glowing point at an altitude between 10° and 15°: its position was estimated in the 300 section of the Evreux base. The watch personnel also observed the phenomenon, whose light intensity was decreasing. The officer requested the help of the radar, which at 20:44 UTC detected an echo in the 300 section of the station at a distance of 18 nautical miles and a movement towards the 330 at a speed estimated at 30 to 40 knots. At 20:51 UTC, visual observations and radar monitoring ended. The officer drafted his report the next day, April 24, 1978. The radar observation report indicates April 24 as the date of observation, but this appears to be a typographical error, allowing us to validate the simultaneity of the visual observation and the radar trace, which we unfortunately do not have a record of, and which had a very low intensity (1/5) but a long duration (7 minutes). Only one testimony was collected. The GEPAN investigation rejects the hypotheses of a helicopter or balloon. It is surprising that Venus, very visible that evening in a nearby position (azimuth 296° to 299° and elevation 4° to 1.5°), was not mentioned by the officer. However, as the position of the PAN is significantly different (azimuth 300° to 330° and elevation 10° to 15°), the mistake with Venus seems extremely unlikely. The low radar intensity measurement, not confirmed by the other radar at Cinq-Mars-la-Pile, should be treated with caution. A false echo (for example, secondary reflection) cannot be ruled out. The GEIPAN classifies this case as D1: the phenomenon is moderately strange, distant, but the testimony is of good consistency.",
-          "translation_text_sha256": "f8bc995e95213e8ebeef4854ca71df55f8cb2534ddcfc805cd22f23f6b61332c"
+          "status": "machine-unreviewed",
+          "text": "Description: On Sunday, April 23, 1978, between 20:35 and 20:51 UTC, following a telephone call, an on-duty officer at Air Base 105 in Evreux (27) observed a red glowing point at an altitude between 10° and 15°: its estimated position was in the 300 section of the Evreux base. The watch personnel also observed the phenomenon, whose light intensity was decreasing. The officer requested the aid of the radar, which at 20:44 UTC detected an echo in the 300 section of the station at a distance of 18 nautical miles and a movement towards the 330 at an estimated speed of 30 to 40 knots. At 20:51 UTC, visual observations and radar tracking ended. The officer drafted his report the following day, April 24, 1978. The radar observation report incorrectly lists April 24 as the date of observation, seemingly due to a typing error, which allows us to validate the simultaneity of the visual observation and the radar trace, which we unfortunately do not have a record of, and which had a very low intensity (1/5) but a long duration (7 minutes). Only one testimony was collected. The GEPAN investigation rules out the helicopter and balloon hypotheses. It is surprising that Venus, very visible that evening in a nearby position (azimuth 296° to 299° and elevation 4° to 1.5°), was not mentioned by the officer. However, since the position of the PAN is significantly different (azimuth 300° to 330° and elevation 10° to 15°), the mistake with Venus seems extremely unlikely. The low radar intensity measurement, not confirmed by the other radar at Cinq-Mars-La-Pile, should be treated with caution. A false echo (for example, secondary reflection) cannot be ruled out. The GEIPAN classifies this case as D1: the phenomenon is moderately strange, distant, but the testimony is of good consistency.",
+          "translation_text_sha256": "7a95309528b1987b2c13c9ae7b318a478bbfb147021dc355a802a25a6d6b4065"
         }
       ],
       "source_page_id": "page-e05a5e67e7898b5325366a41"
@@ -211,13 +174,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-12T04:08:26Z",
+    "generated_at": "2026-09-25T18:04:55Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

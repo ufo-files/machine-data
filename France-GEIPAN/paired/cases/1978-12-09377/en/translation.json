@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-7a6301ca6aaed802c0d6f784",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSCN1639.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-0a07fd4322587aa33f45df71",
           "segment_index": 10,
           "source_segment_id": "seg-0a07fd4322587aa33f45df71",
           "source_text_sha256": "1ae6907bd4397f8f1c4444fd856ef1cf31b3389bde85d52509d3859f9b9ab258",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Space-Track rentrees decembre 1978.pdf Temoin carte.pdf Temoin reconstitution DSCN1639.JPG Questionnaire terre-R.pdf",
           "translation_text_sha256": "c7089b975def33bde9492e27ed5f12d222e8b2e565ea7676e16e88a475eb64ea"
         },
@@ -246,7 +237,6 @@
             {
               "check": "protected-tokens",
               "missing_from_translation": [
-                "GEIPAN",
                 "PAN"
               ],
               "severity": "error",
@@ -260,8 +250,8 @@
           "source_text_sha256": "3a8274d3ddca2053fb73739bcad4cad7d30e17f1f3032b99b02ae76ccadf20d4",
           "start_ms": null,
           "status": "failed-protected-token-check",
-          "text": "Description: Recent (2015) testimony of an old (arbitrary date) observation. In December 1978 (the witness cannot recall the exact date) around 6:40 PM, a bus driver observed a silent north-south passage of a luminous phenomenon in the eastern sky. The UFO is described as a green glow, resembling a large drop of water accompanied by three smaller drops following behind. Passengers also witnessed the phenomenon. The entire sight disappeared at a breathtaking speed. Only one testimony was collected. This testimony exhibits all characteristics of a space debris re-entry observation: duration, appearance, behavior. The UFO_PROTECTED_000__ investigated other similar incidents in December 1978. On December 2, 1978, starting at 5:15 PM, a peculiar luminous phenomenon was observed from various points across the French territory. An incident involving a military rocket launched from the Biscarrosse test center was the cause of these observations. The rocket, which went \"out of control\" at launch, was intercepted and exploded in flight at an altitude of 10,000 meters, explaining the visual perception of this event across a part of the hexagon. Excluding the time difference (5:15 PM for 6:40 PM in our case), the observation direction discrepancy does not align: the witness was looking east, and the phenomenon was observed as moving from north to south; to witness the Biscarrosse incident, the witness should have been looking west. Therefore, this was not the phenomenon the witness could have observed. The witness mentions an article from the daily newspaper \"La Provence\" that discusses the observation of a space debris or satellite re-entry. It is possible that this was the phenomenon witnessed by our witness, but the UFO_PROTECTED_000__ was unable to find this article online. A search with the newspaper could resolve this doubt. The Spacetrack (US Space Command) website indicates numerous space debris re-entries in December 1978; the absence of a date in this testimony does not allow for potential correlations between the observation and any of these re-entries. Despite the resemblance to a space debris re-entry observation, the UFO_PROTECTED_000__ cannot confirm this hypothesis due to a lack of cross-references (the \"La Provence\" article might potentially provide the necessary information). Pending additional information, the UFO_PROTECTED_000__ classifies this case as \"C\" due to the lack of precise date details.",
-          "translation_text_sha256": "d576891f569988535f2a23678472cf28bc7d2bfe6ae9027bdf36b7659573b456"
+          "text": "Description: Recent (2015) testimony of an old (arbitrary date) observation. In December 1978 (the witness cannot recall the exact date) around 6:40 PM, a bus driver observed a silent north-south passage of a luminous phenomenon in the eastern sky. The UFO is described as a green glow, resembling a large drop of water accompanied by three smaller drops following it. Passengers also witnessed the phenomenon. The entire sight disappeared at a breathtaking speed. Only one testimony was collected. This testimony exhibits all characteristics of a space debris re-entry observation: duration, appearance, behavior. The GEIPAN investigated other similar incidents in December 1978. On December 2, 1978, starting at 5:15 PM, a peculiar luminous phenomenon was observed from various points across the French territory. An incident involving a military rocket launched from the Biscarrosse test center was the cause of these observations. The rocket, which went \"out of control\" at launch, was intercepted and exploded in flight at an altitude of 10,000 meters, explaining the visual perception of this event across a part of the hexagon. Excluding the time difference (5:15 PM for 6:40 PM in our case), the observation direction discrepancy does not align: the witness was looking east, and the phenomenon was observed as moving from north to south; to witness the Biscarrosse incident, the witness should have been looking west. Therefore, this was not the phenomenon the witness could have observed. The witness mentions an article from the daily newspaper \"La Provence\" that discusses the observation of a space debris or satellite re-entry. It is possible that this was the phenomenon witnessed by our witness, but the GEIPAN was unable to find this article online. A search with the newspaper could resolve this doubt. The Spacetrack (US Space Command) website indicates numerous space debris re-entries in December 1978; the absence of a date in this testimony does not allow for potential correlations between the observation and any of these re-entries. Despite the resemblance to a space debris re-entry observation, the GEIPAN cannot confirm this hypothesis due to a lack of cross-references (the \"La Provence\" article might potentially provide the necessary information). Awaiting additional information, the GEIPAN classifies this case as \"C\" due to the lack of precise date details.",
+          "translation_text_sha256": "16ce8a0b32e8493e5d36749ded029e68a306edb38825467446088126eacc10c9"
         }
       ],
       "source_page_id": "page-7a6301ca6aaed802c0d6f784"
@@ -272,13 +262,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-23T15:28:07Z",
+    "generated_at": "2026-09-25T18:12:18Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
     "review_status": "partial",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
