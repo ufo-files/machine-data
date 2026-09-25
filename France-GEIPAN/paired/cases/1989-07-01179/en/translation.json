@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-232a85d841f19d3343c0e49c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "SEPRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-a4bc9869146fb900bd7562c8",
           "segment_index": 10,
           "source_segment_id": "seg-a4bc9869146fb900bd7562c8",
           "source_text_sha256": "2ed1824d85fce6c11d968b97e4d152d37425edfcb46528a1c63cb1da5b2280da",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents: PV n° 885 (1989309788).pdf Compte rendu SEPRA.pdf Compte rendu enquete.pdf Reconstruction.kmz",
           "translation_text_sha256": "6a0474532748d8742bb4edf4dac6a440afd6a94ef68259e9c72e7fcded942974"
         },
@@ -213,22 +204,14 @@
           "page_id": "page-232a85d841f19d3343c0e49c",
           "qa_findings": [
             {
-              "added_in_translation": [],
+              "added_in_translation": [
+                "04:00"
+              ],
               "check": "times",
               "missing_from_translation": [
                 "16:00"
               ],
               "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "0",
-                "4"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
               "status": "mismatch"
             }
           ],
@@ -251,13 +234,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-24T10:00:44Z",
+    "generated_at": "2026-09-25T20:21:13Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
