@@ -167,7 +167,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-dea717560dd834ba2e81a15a",
           "qa_findings": [
@@ -179,25 +179,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-7abe04fec5d84cc5c0eeaecf",
           "segment_index": 11,
           "source_segment_id": "seg-7abe04fec5d84cc5c0eeaecf",
           "source_text_sha256": "7dc5c51edc3a01435b67f01544b65e2f5c7c331be1b8733764e230cc7d164814",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On July 02, 1993, around 10:45 PM, two witnesses observed white glowing balls forming two V-shapes. These shapes remained stationary for a few seconds before disappearing at very high speed. These observations are confirmed by the witnesses' spouses. No noise was heard, the weather was clear, and the observation lasted about ten seconds. No further information could be gathered about this phenomenon. A case previously classified as D was re-examined: similar observations were investigated and classified as A in August 2009, like the formation flight of the French Patrol: http://www.cnes-geipan.fr/geipan/actualites/13082009-Des-PAN-en-formation-dans-le-Vaucluse-en-Juillet-2008.html This case is classified as A, like the observation of the French Patrol's flyby.",
-          "translation_text_sha256": "b0286bb674ac77dee0ea6cb914b6206d62a7e76903ebb49003d0a753438847b8"
+          "status": "needs-review",
+          "text": "Description: On July 02, 1993, around 10:45 PM, two witnesses observed white glowing orbs forming two V-shapes. These shapes remained stationary for a few seconds before disappearing at very high speed. These observations are confirmed by the spouses of the witnesses. No noise was perceived, the weather was clear, and the observation lasted about ten seconds. No further information could be gathered about this phenomenon. This previously classified D case was re-examined: similar observations were investigated and classified A in August 2009, as the formation flight observation of the French Air Force Patrol: http://www.cnes-geipan.fr/geipan/actualites/13082009-Des-PAN-en-formation-dans-le-Vaucluse-en-Juillet-2008.html This case is classified A as the observation of the French Air Force Patrol's flyover.",
+          "translation_text_sha256": "96a7432f918e809de6889cca05bb6e4bcc437682d22c5fb7c8cf710f8bfdeb9c"
         }
       ],
       "source_page_id": "page-dea717560dd834ba2e81a15a"
@@ -208,13 +200,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-29T12:07:39Z",
+    "generated_at": "2026-09-25T20:33:26Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
