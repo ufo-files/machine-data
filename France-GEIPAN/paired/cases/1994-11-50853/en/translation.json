@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-ded1bf1a8be56f61ad374683",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-e80f48a5b4816a1f9d3e462a",
           "segment_index": 8,
           "source_segment_id": "seg-e80f48a5b4816a1f9d3e462a",
           "source_text_sha256": "11fde7f5e2d7acf6a3c70511666f2e5a6ac0c25aa48557e698727290e7d8bf7f",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Courriers-R.pdf Reconstitution trajectoire PAN.pdf Questionnaire terre-R.pdf",
           "translation_text_sha256": "8f355abcdc2dcb715cea2c931a238a4ccf8d4455c8d5d7a470c0f0eceb4499f7"
         },
@@ -199,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-19T08:31:44Z",
+    "generated_at": "2026-09-25T21:48:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
