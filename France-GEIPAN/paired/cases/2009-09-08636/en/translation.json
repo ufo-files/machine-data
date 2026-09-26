@@ -119,27 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-b381dbdf21b18736f8900921",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "IMGP0692.JPG",
-                "IMGP0693.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-fd2d747a2b2093b5190095a2",
           "segment_index": 8,
           "source_segment_id": "seg-fd2d747a2b2093b5190095a2",
           "source_text_sha256": "5695d5d18a0910507356a0332d02edd5445697c8790682dba658ffe0f49670cf",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Compte rendu enquete.pdf Courrier-R.pdf Photo temoin IMGP0692.JPG Photo temoin IMGP0693.JPG",
           "translation_text_sha256": "3a2f25380c37c839b16948ea77b707497ff972f185e86d57b901588a92d9370d"
         },
@@ -200,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-05T16:02:32Z",
+    "generated_at": "2026-09-26T05:21:13Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

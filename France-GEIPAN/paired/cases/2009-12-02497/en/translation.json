@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-93252169d21094b331a8cc94",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "TOULOUSE (31) 13.12.2009"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-399220379f9debd3bb98a9bc",
           "segment_index": 10,
           "source_segment_id": "seg-399220379f9debd3bb98a9bc",
           "source_text_sha256": "e2316c7c6d0241909fecf859a36b156be29ca632c2ffc27878fcda851ec1dd9e",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  TOULOUSE (31) 13.12.2009 T1 Questionnaire terre-R.pdf TOULOUSE (31) 13.12.2009 T2 Questionnaire terre-R.pdf",
           "translation_text_sha256": "091e95c3eb5652480f8ae152b182aff01349436099b4ed5c330b8e9630299579"
         },
@@ -203,8 +194,8 @@
           "source_text_sha256": "ad9807f449e2fd3cfc9906bccb5a183721fc71efe2748932343849f4883dbb98",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Description: On December 13, 2009, around 11 PM, two individuals observed from their second-floor kitchen for an extended period, the dance of several blue-hued light rings in an overcast sky. The witnesses clearly observed the beams of a multiple-beam \"Sky Tracer\" projector, whose elegant and unusual choreography deceived their vigilance. This case is classified B as a probable observation of a multi-beam projector.",
-          "translation_text_sha256": "ed2dcb9c1e54ee8aaeaf1bab031572ffb7bae8aa2f4f65fc009e687febc2e2cb"
+          "text": "Description: On December 13, 2009, around 11 PM, two individuals observed from their second-floor kitchen for an extended period the dance of several blue-hued lights in an overcast sky. The witnesses clearly observed the beams of a multiple-beam \"Sky Tracer\" projector, whose elegant and unusual choreography deceived their vigilance. This case is classified B as a probable observation of a multi-beam projector.",
+          "translation_text_sha256": "11db49ebbd395fed89029dd688f046213ab8ea5da100730a904716d4de5d226f"
         }
       ],
       "source_page_id": "page-93252169d21094b331a8cc94"
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T11:51:35Z",
+    "generated_at": "2026-09-26T05:32:19Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

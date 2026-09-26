@@ -135,28 +135,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-03bb55c07eafae183bbc7403",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-2a6ab267793acf1437654ddd",
           "segment_index": 9,
           "source_segment_id": "seg-2a6ab267793acf1437654ddd",
           "source_text_sha256": "42ab4c5313ad0e8671867da2912e81b45fd1bf69bcc888ab9cf8a57c8cc4f52c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents:  Compte rendu GEIPAN.pdf  Case Number 130 (2009310210).pdf Temoin plan.pdf Temoin photos.pdf Questionnaire terre-R.pdf",
-          "translation_text_sha256": "8931797bfd3c4bb1350c3b0a121770d722088ea0d52b29f8c74857a68ceb8334"
+          "status": "machine-unreviewed",
+          "text": "Documents:  Compte rendu GEIPAN.pdf PV n° 130 (2009310210).pdf Temoin plan.pdf Temoin photos.pdf Questionnaire terre-R.pdf",
+          "translation_text_sha256": "64c4568c5a39185fe66a102bad937f4bd65940f45bdfbf7415115cad2823b2d2"
         },
         {
           "end_ms": null,
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-07T15:00:33Z",
+    "generated_at": "2026-09-26T05:37:46Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
