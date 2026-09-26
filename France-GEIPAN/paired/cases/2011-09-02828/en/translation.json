@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-4f4bc97f5017dd18504f687a",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "MONTAUBAN (82) 09.09.2011"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-5d855038c90effbd52f628de",
           "segment_index": 10,
           "source_segment_id": "seg-5d855038c90effbd52f628de",
           "source_text_sha256": "36af1f6231b38c2e8df69dc01f3f87ab30cf2507c530e3e260c9667e53c514ab",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  MONTAUBAN (82) 09.09.2011 T1 Dessin temoin1.pdf Case Number: 1959 (2011310553).pdf MONTAUBAN (82) 09.09.2011 T2 Questionnaire terre-R.pdf",
           "translation_text_sha256": "bd687b6fc6feec67e707e65c8eb11693a08e0b89adfdcc1d675b8a272a6f9743"
         },
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T14:29:43Z",
+    "generated_at": "2026-09-26T07:32:51Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
