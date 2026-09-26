@@ -43,7 +43,7 @@ NUMBER = re.compile(
     r"(?<![\w])\d+(?:[.,]\d+)*(?:(?=[º°](?:\W|$))|(?=(?:st|nd|rd|th|h|am|pm)\b)|(?![\w]))",
     re.I,
 )
-DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/-]\d{1,2}[/-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
+DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
 DATE_NAMED_PT = re.compile(
     r"\b(\d{1,2})\s+de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+((?:19|20)\d{2})\b",
     re.I,
@@ -112,23 +112,45 @@ def protected_tokens(text: str, official_identifiers: list[str] | None = None) -
 
 def mask_protected(text: str, official_identifiers: list[str] | None = None) -> tuple[str, dict[str, str]]:
     replacements: dict[str, str] = {}
-    masked = text
-    for index, token in enumerate(protected_tokens(text, official_identifiers)):
-        placeholder = f"__UFO_PROTECTED_{index:03d}__"
-        if token in masked:
-            masked = masked.replace(token, placeholder)
+    tokens = protected_tokens(text, official_identifiers)
+    if not tokens:
+        return text, replacements
+    placeholders: dict[str, str] = {}
+    def replace(match: re.Match[str]) -> str:
+        token = match.group(0)
+        if token not in placeholders:
+            placeholder = f"__UFO_PROTECTED_{len(placeholders):03d}__"
+            placeholders[token] = placeholder
             replacements[placeholder] = token
+        return placeholders[token]
+    # One pass avoids inventing a missing placeholder for an abbreviation
+    # already covered by a longer filename or identifier.
+    masked = re.sub("|".join(re.escape(token) for token in tokens), replace, text)
     return masked, replacements
 
 
 def restore_protected(text: str, replacements: dict[str, str]) -> tuple[str, list[str]]:
-    restored = text
-    missing: list[str] = []
-    for placeholder, token in replacements.items():
-        if placeholder not in restored:
-            missing.append(token)
+    # Models sometimes change underscores to spaces/dashes or omit leading underscores.
+    # Match only a complete, numbered marker present in this request's mapping.
+    marker = re.compile(r"(?<![\w])_*UFO[ _-]*PROTECTED[ _-]*(\d{1,3})_*(?![\w])", re.I)
+    seen: set[str] = set()
+    def replace(match: re.Match[str]) -> str:
+        key = f"__UFO_PROTECTED_{int(match.group(1)):03d}__"
+        if key not in replacements:
+            return match.group(0)
+        seen.add(key)
+        return replacements[key]
+    restored = marker.sub(replace, text)
+    missing = []
+    for key, token in replacements.items():
+        if key in seen:
             continue
-        restored = restored.replace(placeholder, token)
+        # A model may preserve the original literal instead of its marker.
+        # Word boundaries prevent PAN being mistaken for the suffix of GEIPAN.
+        left = r"(?<!\w)" if token and token[0].isalnum() else ""
+        right = r"(?!\w)" if token and token[-1].isalnum() else ""
+        if not re.search(left + re.escape(token) + right, restored):
+            missing.append(token)
     return restored, missing
 
 
@@ -168,7 +190,7 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         if "-" in raw and raw[:4].isdigit():
             year, month, day = raw.split("-")
         else:
-            first, second, year = re.split(r"[/-]", raw)
+            first, second, year = re.split(r"[/.\-]", raw)
             if int(first) > 12:
                 day, month = first, second
             elif int(second) > 12:
@@ -214,10 +236,20 @@ def _numbers(text: str) -> Counter[str]:
     return Counter(_number_value(match.group(0)) for match in NUMBER.finditer(text))
 
 
+def _remove_exact_numeric_dates(source: str, target: str) -> tuple[str, str]:
+    for match in DATE_NUMERIC.finditer(source):
+        raw = match.group(0)
+        count = min(source.count(raw), target.count(raw))
+        source = source.replace(raw, "", count)
+        target = target.replace(raw, "", count)
+    return source, target
+
+
 def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     findings: list[dict[str, object]] = []
+    date_source, date_target = _remove_exact_numeric_dates(source, target)
     for name, source_values, target_values, severity in (
-        ("dates", _dates(source, language="pt"), _dates(target, language="en"), "error"),
+        ("dates", _dates(date_source, language="pt"), _dates(date_target, language="en"), "error"),
         ("measurements", _measurements(source), _measurements(target), "error"),
         ("coordinates", _coordinates(source), _coordinates(target), "error"),
         ("redactions", _counter(REDACTION, source), _counter(REDACTION, target), "error"),
@@ -257,6 +289,8 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     for marker, target_pattern in PT_NEGATIONS.items():
         count = len(re.findall(rf"\b{re.escape(marker)}\b", source_folded))
         translated_count = len(target_pattern.findall(target))
+        if marker == "não":
+            translated_count += len(re.findall(r"\b\w+n['’]t\b", target, re.I))
         if count and translated_count < count:
             findings.append({
                 "check": "negation",

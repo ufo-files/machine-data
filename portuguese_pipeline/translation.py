@@ -7,13 +7,14 @@ import hashlib
 import importlib.metadata
 import shlex
 import subprocess
+import re
 from dataclasses import dataclass
 from typing import Protocol
 
-from .qa import mask_protected, restore_protected
+from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v1"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v2"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
 SYSTEM_PROMPT = """You translate archival Brazilian Portuguese into faithful English.
@@ -135,6 +136,7 @@ def translate_text(
     text: str,
     *,
     official_identifiers: list[str] | None = None,
+    _allow_chunk_retry: bool = True,
 ) -> TranslationResult:
     if not text.strip():
         return TranslationResult(text="", status="not-required")
@@ -143,6 +145,23 @@ def translate_text(
     try:
         raw = backend.translate_raw(prompt)
         restored, missing = restore_protected(raw, replacements)
+        # Long paragraphs can cause the model to drop placeholders or summarize
+        # clauses. Retry in sentence-sized context, retaining all QA checks.
+        if _allow_chunk_retry and len(text) > 400 and (
+            missing or compare_translation(text, restored)
+        ):
+            sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ÿ(\"])", text)
+            if len(sentences) == 1:
+                sentences = [line for line in text.splitlines() if line.strip()]
+            if len(sentences) > 1:
+                parts = [translate_text(backend, sentence,
+                         official_identifiers=official_identifiers,
+                         _allow_chunk_retry=False) for sentence in sentences]
+                if all(part.status in {"machine-unreviewed", "not-required"} for part in parts):
+                    combined = " ".join(part.text for part in parts)
+                    if not any(finding.get("severity") == "error"
+                               for finding in compare_translation(text, combined)):
+                        return TranslationResult(text=combined, status="machine-unreviewed")
         if missing:
             return TranslationResult(
                 text=restored,
