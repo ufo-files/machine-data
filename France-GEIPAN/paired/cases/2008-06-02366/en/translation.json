@@ -199,48 +199,33 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-27b47e6a92ce18cbcc6e7108",
           "qa_findings": [
             {
-              "added_in_translation": [],
+              "added_in_translation": [
+                "12:00",
+                "12:20"
+              ],
               "check": "times",
               "missing_from_translation": [
+                "00:00",
                 "00:20"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "12",
-                "20"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
               ],
               "severity": "error",
               "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-4347edc0f4df861c24fa93a2",
           "segment_index": 13,
           "source_segment_id": "seg-4347edc0f4df861c24fa93a2",
           "source_text_sha256": "de983a32051812d949294994ac86dc6bf123cf7a22bf5d25be0a9db557635340",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 26, 2017, between 12:20 and 12:25 AM, a witness observed, from their bedroom window, two red lights above the Fort de Bregille in Besançon that initially appeared stationary before slowly moving with their intensity suddenly decreasing. No unusual noises were heard. Only one testimony was collected. The witness observed for about a minute on a Friday evening two red lights slowly moving and then turning off. Photos provided by the witness confirm the observation's orientation to the East and the apparent movement of the UFOs North/South. These elements are characteristic of observations of Thai lanterns:\n\n- Compatible color: red\n- Compatible trajectory: slow downward movement, consistent with wind\n- Weather: no precipitation, according to the weather report from METEOCIEL in Besançon for the morning of August 27 between 12 AM and 1 AM, the wind is very light and variable in direction, thus consistent with a North/South movement\n- Description: the brightness decreased significantly (lantern extinction)\n- Likelihood: Friday evening at the beginning of the weekend and in the summer is a very common time for releasing lanterns.\n\nThe residual strangeness of the observation is low, and the consistency of the testimony allow for the case to be classified. The GEIPAN classifies the case as B: probable lantern release.",
-          "translation_text_sha256": "b9876e2a1edd30f1a74b76aecfe439016b5231ebb8f82dac78b455937b82a5d3"
+          "status": "needs-review",
+          "text": "Description: On August 26, 2017, between 12:20 and 12:25 AM, a witness observed, from their bedroom window, two red lights above the Fort de Bregille in Besançon that intrigued them. At first stationary, the lights then moved slowly with a sudden decrease in intensity. No particular noise was heard. Only one testimony was collected. The witness observed for about a minute on a Friday evening two red lights moving slowly and then turning off. Photos provided by the witness confirm the observation's orientation to the East and the apparent movement of the PAN North/South. These elements are characteristic of observations of Thai lanterns:\n- Compatible color: red,\n- Compatible trajectory: slow downward movement, consistent with wind,\n- Weather: no precipitation, according to the attached weather report from METEOCIEL in Besançon for the morning of August 27 between 12:00 and 1:00 AM, the wind is very light and variable in direction, thus consistent with a North-South movement,\n- Description: the brightness decreased significantly (lantern extinction),\n- Likelihood: Friday evening at the beginning of the weekend and in the summer is a very favorable time for releasing lanterns. The residual strangeness of the observation is low, and the consistency of the testimony allow for the case to be classified. The GEIPAN classifies the case as B: probable lantern release.",
+          "translation_text_sha256": "6ef925fc7035f4d2a96353a4033d3cb62fe513f12aeda4815fa6486e33fe2ebc"
         }
       ],
       "source_page_id": "page-27b47e6a92ce18cbcc6e7108"
@@ -251,13 +236,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T06:25:01Z",
+    "generated_at": "2026-09-26T03:43:39Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
