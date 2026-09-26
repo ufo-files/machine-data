@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-26a90677e02e287a30f44b35",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "TOURLAVILLE (50) 06.05.2012"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-4d22f6b1e4f2439ff2a27152",
           "segment_index": 10,
           "source_segment_id": "seg-4d22f6b1e4f2439ff2a27152",
           "source_text_sha256": "b6ee1001d558acb4eff6440305ef334fb3f5f13a8c057c5b278c1e762b1e1c5a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  TOURLAVILLE (50) 06.05.2012 T1 Questionnaire terre-R.pdf TOURLAVILLE (50) 06.05.2012 T2 Temoin2 courriers-R.pdf",
           "translation_text_sha256": "4cddc42416b13750ea1f7db46a6a40da71cc2d9432a3adfe17f4eb1b6a023018"
         },
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T15:50:57Z",
+    "generated_at": "2026-09-26T08:24:39Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

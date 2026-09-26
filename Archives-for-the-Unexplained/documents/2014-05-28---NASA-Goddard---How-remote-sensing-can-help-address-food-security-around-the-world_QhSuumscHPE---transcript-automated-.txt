@@ -1,0 +1,370 @@
+{"created_utc": "2026-09-26T08:36:23Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 87902, "source_ctime_ns": 1790206863976390126, "source_file": "Archives-for-the-Unexplained/documents/2014-05-28---NASA-Goddard---How-remote-sensing-can-help-address-food-security-around-the-world_QhSuumscHPE---transcript-automated-.pdf", "source_mtime_ns": 1790206863970914743, "source_rel": "Archives-for-the-Unexplained/documents/2014-05-28---NASA-Goddard---How-remote-sensing-can-help-address-food-security-around-the-world_QhSuumscHPE---transcript-automated-.pdf", "source_sha256": "9aadc7c7b7c53c476d783e6acb0e3ead822839ab1244484f4c128c2d74f3cf2f"}
+
+1
+00:00:00,010 --> 00:00:10,010
+Music
+
+2
+00:00:10,030 --> 00:00:20,020
+So today I'm going to talk about food security from space. When I started working at NASA Goddard fifteen yea
+
+3
+00:00:20,040 --> 00:00:30,060
+I saw that there were terabytes of information coming from earth science satellites all over the world and what w
+
+4
+00:00:30,080 --> 00:00:40,070
+is to understand how this can be used for food and food security. So one of the data sets that I am particularly i
+
+5
+00:00:40,090 --> 00:00:50,100
+which shows the response of vegetation to changing weather conditions. And you can see in Africa the respons
+
+6
+00:00:50,120 --> 00:01:00,140
+when the change of season happens. And this data can be extraordinarily useful for understanding food and fo
+
+7
+00:01:00,160 --> 00:01:10,160
+for an active and healthy life. And I've been studying food security for as long as I've been at Goddard and for
+
+8
+00:01:10,180 --> 00:01:20,200
+since I was in the peace corps in the early 1990s. This is a family that I lived with in the peace corps. They are
+
+9
+00:01:20,220 --> 00:01:30,230
+farm and eat the food they grow and are very sensitive to variations in the weather. So these folks
+
+10
+00:01:30,250 --> 00:01:40,250
+may have problems eating when they do not grow enough food for their families.
+
+11
+00:01:40,270 --> 00:01:50,260
+So the ingredients of food security are availability. This is the food that is available in the region where a comm
+
+12
+00:01:50,280 --> 00:02:00,270
+in the region, and utilization, which is the health of an individual....so there ability to use the food that they eat to
+
+13
+00:02:00,290 --> 00:02:10,300
+So the research that I have been doing is to try and connect availability as seen by satellites and the impact of
+
+14
+00:02:10,320 --> 00:02:20,310
+cold periods on the satellite data and ultimately on food production. So this is basically availability and the cost
+
+15
+00:02:20,330 --> 00:02:30,330
+And so it's a big jump. And so I've been working a long time to create a model which is basically a computer pro
+
+16
+00:02:30,350 --> 00:02:40,350
+and information, quantitatively, to come up with relationships we can then use to make better decisions. So one
+
+17
+00:02:40,370 --> 00:02:50,350
+when I was developing this model is Niger. Niger is in the middle of the continent, it is a west african country, it
+
+18
+00:02:50,370 --> 00:03:00,360
+around $ 400 a year. And 80 % of people that live in Niger are farmers or work in the agricultural center, movin
+
+19
+00:03:00,380 --> 00:03:10,410
+So in his country we have this guy, he's a farmer, standing in his millet field...looks sort of like corn. And agricul
+
+20
+00:03:10,430 --> 00:03:20,420
+done by hand. There are no tractors and not a lot of fancy technology. And this is what the field normally looks
+
+21
+00:03:20,440 --> 00:03:30,430
+2009 there was a drought, when the rains failed to come on time, and the field looked like that, very dry and em
+
+22
+00:03:30,450 --> 00:03:40,440
+So if you look at the data from satellites, this is the vegetation image from that same place. and you can see tha
+
+23
+00:03:40,460 --> 00:03:50,460
+It was the farmer's neighbors field, the fields in the states next door, in the countries next door, and so there's
+
+24
+00:03:50,480 --> 00:04:00,490
+not just this one community but all the communities across the continent and so going back to my model what I
+
+25
+00:04:00,510 --> 00:04:10,500
+to take the satellite data and estimate food production and then connect that food production to inter annual cha
+26
+00:04:10,520 --> 00:04:20,520
+to do this we need to understand how markets work. So markets are driven by supply and demand and so whe
+
+27
+00:04:20,540 --> 00:04:30,560
+the people who grow that food are also eating the food they grow, the demand will go up at the same time supp
+
+28
+00:04:30,580 --> 00:04:40,590
+if a farmer doesn't produce very much food, the demand doesn't change because the farmer is still eating food
+
+29
+00:04:40,610 --> 00:04:50,630
+So it's very important to know the variations in production. So in my model what i did was choose to ignore mos
+
+30
+00:04:50,650 --> 00:05:00,650
+important in market functioning. There are several reasons for this but for my model i just have two input variab
+
+31
+00:05:00,670 --> 00:05:10,660
+that is a proxy for local food production and the international price of that same commodity. so i just have two p
+
+32
+00:05:10,680 --> 00:05:20,670
+local food prices. There are a lot of other things that effect prices in markets obviously. There's storage, there's
+
+33
+00:05:20,690 --> 00:05:30,700
+have locally specific and readily available, comprehensive information on any of these parameters, particularly
+
+34
+00:05:30,720 --> 00:05:40,710
+We just don't know where food is traded, we dont know whether or not people are releasing food that's stored o
+
+35
+00:05:40,730 --> 00:05:50,740
+going to neglect those variables and try to make my model work with just those two input variables. One of the
+
+36
+00:05:50,760 --> 00:06:00,770
+an international border. Most food is grown and eaten locally. Most people in the world do not participate in this
+
+37
+00:06:00,790 --> 00:06:10,810
+transport thing that we do in the United States. They grow food and they eat it and therefor local production is a
+
+38
+00:06:10,830 --> 00:06:20,820
+on food security. Another thing that's really important is that family income really varies across the world. In Nig
+
+39
+00:06:20,840 --> 00:06:30,850
+that farmer spends about 60 % of his income on food, in the U.S. it's 6.6 %, in Europe,it's about 10-15 %, in Ind
+
+40
+00:06:30,870 --> 00:06:40,880
+Pakistan, it's 45-50 %. Niger is one of the poorest places in the world so think about trying to eat on $ 400 a yea
+
+41
+00:06:40,900 --> 00:06:50,890
+about my monthly household budget, or 2 weeks, so one of the reasons we spend so little on food is because n
+
+42
+00:06:50,910 --> 00:07:00,930
+regions, we also tend to eat a lot of inexpensive, commercially, industrially-produced food, which is not really go
+
+43
+00:07:00,950 --> 00:07:10,940
+produced compared to hand cultivation and all the stuff that's happening in places like Niger. Another thing to n
+
+44
+00:07:10,960 --> 00:07:20,970
+the entire region, you're going to need to buy food to meet the needs of the country. So Niger, if they produce m
+
+45
+00:07:20,990 --> 00:07:30,990
+import food from the international market and that's okay when the international prices are normal but in 200, 2
+
+46
+00:07:31,010 --> 00:07:41,020
+% of normal which is a real problem if you are in Niger and you're trying to come up with enough foreign curren
+
+47
+00:07:41,040 --> 00:07:51,040
+because of the weather shock. So the variations in the international prices are really important. Another thing y
+
+48
+00:07:51,060 --> 00:08:01,060
+is to have roads that work...ones that dont look like this. We need to have bridges that connect one road to ano
+
+49
+00:08:01,080 --> 00:08:11,080
+that work and trucks that are not buses. And we need to have trucks that are not buses and we need to have p
+
+50
+00:08:11,100 --> 00:08:21,100
+This port is the port of Lagos, Nigeria, and it has a lot of inefficiencies. It has corruption, it is very slow, they hav
+51
+00:08:21,120 --> 00:08:31,130
+from the big containers into sacs which takes weeks so it's very hard to move goods around in places like Nige
+
+52
+00:08:31,150 --> 00:08:41,160
+So the infrastructure that connects this farm to a market determines the income of the farmer and it determines
+
+53
+00:08:41,180 --> 00:08:51,170
+can cause problems especially when they change really rapidly over a short period of time and so this is what t
+
+54
+00:08:51,190 --> 00:09:01,180
+in 2008. This is it. It's just places that it's going to be a problem. But there's no quantitative analysis here, there'
+
+55
+00:09:01,200 --> 00:09:11,200
+maybe it's really not a problem. So my work is trying to put numbers on this map, trying to be more quantitative
+
+56
+00:09:11,220 --> 00:09:21,220
+better understand food security problems. So going back to my model, here we have the various elements, so w
+
+57
+00:09:21,240 --> 00:09:31,240
+look at whether shocks to get at food production, and then we have our two parameters, the international and la
+
+58
+00:09:31,260 --> 00:09:41,270
+so now im going to show you what the results of the model were for one particular model run. Oene of the big
+
+59
+00:09:41,290 --> 00:09:51,270
+messages from this map is that there are a lot of drivers. So in this map, the gray places are countries where i h
+
+60
+00:09:51,290 --> 00:10:01,290
+information. In this map it's maize, corn prices, and in the red dots, they are places where the local weather sho
+
+61
+00:10:01,310 --> 00:10:11,320
+and the international price are both important for understanding and figuring out what the next month's price in
+
+62
+00:10:11,340 --> 00:10:21,330
+are not important. And we can see that for example if you're in mozambique for example, you may or may not b
+
+63
+00:10:21,350 --> 00:10:31,360
+This makes a lot of sense. Think about NY and detroit. They are both in the UNited States but they are extraord
+
+64
+00:10:31,380 --> 00:10:41,380
+thy have totally different wage labor, they do different things, they have completely different road networks, and
+
+65
+00:10:41,400 --> 00:10:51,390
+some places are well connected to the local agricultural system and some places are not. so how can we use t
+
+66
+00:10:51,410 --> 00:11:01,420
+One of the ways I'm interested in using this is to try to group markets into different drivers.
+
+67
+00:11:01,440 --> 00:11:11,440
+so in this typology we have places where domestic weather shocks influence food prices and places where the
+
+68
+00:11:11,460 --> 00:11:21,460
+And then here we have global prices have no effect and global prices influence the local price. So that map I ju
+
+69
+00:11:21,480 --> 00:11:31,480
+where both of these things are important. These are places which are food surplus area in an exporting country
+
+70
+00:11:31,500 --> 00:11:41,500
+have urban, well connected. If you think of a place like Dakaar Senegal, which is on the Atlantic Ocean, it has a
+
+71
+00:11:41,520 --> 00:11:51,540
+it still is a very agricultural country so when it has a big drought, the broader economy is effected so those place
+
+72
+00:11:51,560 --> 00:12:01,560
+these large international changes in prices and also by local weather shocks. In this next grouping we can see
+
+73
+00:12:01,580 --> 00:12:11,600
+dominate. So if you're using the remote sensing information and you see a big drought, it makes no difference r
+
+74
+00:12:11,620 --> 00:12:21,610
+this is like panama city, panama. It's on the canal, huge amounts of international trade, most of the people who
+
+75
+00:12:21,630 --> 00:12:31,630
+a tiny little country, really big city, so in that place when you have a huge change like we saw in 2008 of the inte
+76
+00:12:31,650 --> 00:12:41,670
+you need to pay attention to those places that are mostly dominated by international prices. The poor people in
+
+77
+00:12:41,690 --> 00:12:51,690
+even if they aren't actually eating the food that came from the international market, it's just everyone goes, "Ahh
+
+78
+00:12:51,710 --> 00:13:01,720
+This next one is our friend in Niger...the middle of the continent of Africa, so far form the international markets t
+
+79
+00:13:01,740 --> 00:13:11,730
+local weather shocks dominate the local prices. They are isolated, landlocked, high poverty, food surplus areas
+
+80
+00:13:11,750 --> 00:13:21,760
+will they not have enough food that they produced but it's darn hard, remember those roads, to move goods fro
+
+81
+00:13:21,780 --> 00:13:31,780
+middle of Niger because there are just so many impediments. In this last quadrant is places that my two param
+
+82
+00:13:31,800 --> 00:13:41,800
+The model will work better without those 2 parameters and those are places where all the other things that effe
+
+83
+00:13:41,820 --> 00:13:51,830
+Think of it ...the policies, the economies, the politics, the storage, train, fifty things that are not in my model and
+
+84
+00:13:51,850 --> 00:14:01,870
+places we need better data, we need better diagnoses, information. There's all sorts of things we need that we
+
+85
+00:14:01,890 --> 00:14:11,880
+looking and also it will moderate the impact of other parameters. Right now
+
+86
+00:14:11,900 --> 00:14:21,890
+satellite data is used to look at whats going on in Niger and local food price data is used to look at what's going
+
+87
+00:14:21,910 --> 00:14:31,910
+of those two so we're hoping to work with organizations like the famine early warning systems network to better
+
+88
+00:14:31,930 --> 00:14:41,930
+and their interactions to improve response during times of need, like our 2009 drought. When all those people a
+
+89
+00:14:41,950 --> 00:14:51,960
+aid when it's not needed but bring effective aid where it is. So before I end I want to say a word about climate c
+
+90
+00:14:51,980 --> 00:15:01,990
+Climate change is likely to impact the amount of weather shocks that we see. We are likely to see more drough
+
+91
+00:15:02,010 --> 00:15:12,010
+more wierd weather and that weather will have direct impact on people
+
+92
+00:15:12,030 --> 00:15:22,040
+s ability to feed themselves and their children. The poeple who are most guilty of making emissions that are cau
+
+93
+00:15:22,060 --> 00:15:32,060
+to those changes. The most vulnerable, the red countries on the bottom, are the ones
