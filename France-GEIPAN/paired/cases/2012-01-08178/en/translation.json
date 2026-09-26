@@ -199,47 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-f7423041f130abcad0f43687",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "07:02"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "2",
-                "7"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ae0c1f1be6ab30d319fa5a91",
           "segment_index": 13,
           "source_segment_id": "seg-ae0c1f1be6ab30d319fa5a91",
           "source_text_sha256": "03835492bf2d0aee520d14a82827e9aeae2fec6910813dd0c2a59d46fd54a52d",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On Monday, January 9, 2012, at 7:02 a.m., a driver was surprised and intrigued by the movements in the cloudy sky of two concentric, glowing circles, themselves composed of discontinuous, rounded elements. This phenomenon was observed for nearly a kilometer. After two minutes of observation, as the driver approached a highway, he could no longer see the phenomenon. No other witnesses were reported. The nearly perfect similarity between the phenomenon described by the witness and the effect produced by certain types of animation projectors strongly suggests this type of origin for the observation (see investigation notes). The day of the week is unusual for this type of animation, and there is no known nightclub nearby, but it could have been a test with rented equipment. However, the phenomenon strangely resembles the effect produced by this type of projector: see the video \"Wedding Searchlight Hire Nottingham.\" The GEIPAN classifies this case as \"B\": probable observation of a light animation produced by a rotating beam skytracer.",
-          "translation_text_sha256": "befec3ae695ca341d6c00c986df90e69802caf0570142a69745bc599a41ee4fb"
+          "status": "machine-unreviewed",
+          "text": "Description: On Monday, January 9, 2012, at 7:02 a.m., a driver was surprised and intrigued by the movements in the cloudy sky of two concentric, glowing circles themselves composed of discontinuous, rounded elements. This set is seen for nearly a kilometer. After two minutes of observation, as the motorist approaches a highway, he can no longer see this phenomenon. No other testimony was collected. The near-perfect similarity of the phenomenon described by the witness with the effect produced by certain types of animation projectors clearly points to this type of origin for the observation (see investigation notes). The day of the week is surprising for this type of activity, and there is no apparent nightclub nearby, but it could have been a test with rented equipment. On the other hand, the phenomenon strangely resembles the effect produced by this type of projector: see the video Wedding Searchlight Hire Nottingham. The GEIPAN classifies this case as 'B': probable observation of a light display produced by a rotating beam skytracer.",
+          "translation_text_sha256": "0c441cd7e9cd075a832d1e517a840f8b810943a913d1cdfbde42f37bdf319bde"
         }
       ],
       "source_page_id": "page-f7423041f130abcad0f43687"
@@ -250,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T15:45:59Z",
+    "generated_at": "2026-09-26T07:50:59Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

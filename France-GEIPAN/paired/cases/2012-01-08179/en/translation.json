@@ -199,47 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-a662803a8b27dbb53c6b1198",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "08:25"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "25",
-                "8"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-a389f69612484633ccf13d01",
           "segment_index": 13,
           "source_segment_id": "seg-a389f69612484633ccf13d01",
           "source_text_sha256": "63bcd1c6802d5f14a0ce929e7fba849c7fc5bca328b3282dc358b23dc5511a36",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On January 20, 2012, at approximately 8:25 a.m., a witness and his daughter observed in the clear sky above the Blaux pass a spatial phenomenon that intrigued them. The witness took pictures of white smoke whose left end turned black and disappeared behind the mountain on the side of the Cairo valley (04). The witness thought it might be something falling to the ground that had crashed, but did not see any aircraft or hear any unusual noises. He reported the incident to the gendarmerie. The gendarmerie investigation found no traces on the ground, no other testimonies from residents of the valley, and no signs of burning or fire in the area. The hypothesis of a military aircraft passing over could not be confirmed. The gendarmes noted that at that time of day and in that time slot, the sunrise is low and blinding, which could explain, among other things, the change in color of the smoke. This observation was the subject of several press or internet articles. Based on the investigation, three hypotheses were considered: aircraft crash, smoke coming from the ground, or a persistent condensation trail from an aircraft (see the investigation report). The GEIPAN classified this case as \"B\": very probable observation of a persistent aircraft condensation trail that was distorted by wind shear since its creation. The gray part is indeed an area that has not yet been illuminated (sunrise).",
-          "translation_text_sha256": "e28e405e4afc91460f5886f007c16339289ead5c170bced1683fae96981c7826"
+          "status": "machine-unreviewed",
+          "text": "Description: On January 20, 2012, around 8:25 a.m., a witness and his daughter observed, in the clear sky above the Blaux pass, an aerospacial phenomenon that intrigued them. The witness takes photos of white smoke whose left end turns black and disappears behind the mountain on the side of the Cairo valley (04). The witness thinks of something falling to the ground that would have crashed, but did not see any device or hear any particular noise. She testifies at the gendarmerie. The gendarmerie investigation found no trace on the ground, no other testimony from residents of the valley was collected, and no signs of burning or fire in the area. The hypothesis of a military aircraft passage cannot be confirmed. The gendarmes specify that at this time and in this time slot, the sunrise is flat and blinding, which could explain, among other things, the change in color of the smoke. This observation has been the subject of several press or internet articles. In light of the investigation elements, three hypotheses were considered: aircraft crash, smoke coming from the ground, and aircraft condensation trail (see the investigation report). The GEIPAN classifies this case as \"B\": very probable observation of a persistent condensation trail from an airplane that was distorted by the wind shear to which it was subjected since its creation. The gray part is indeed a part that has not yet been illuminated (sunrise).",
+          "translation_text_sha256": "4fa3dd73dd9c787377328b554f40d2465bbc8efc370a3a941a51a795e62e95e9"
         }
       ],
       "source_page_id": "page-a662803a8b27dbb53c6b1198"
@@ -250,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T15:51:31Z",
+    "generated_at": "2026-09-26T07:56:47Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

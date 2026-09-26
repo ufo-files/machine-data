@@ -167,26 +167,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-ca0ce07f34ffec5adb7499ec",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "TOULOUSE (31) 19.03.2012"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-534cae5d0319da81b5030a21",
           "segment_index": 11,
           "source_segment_id": "seg-534cae5d0319da81b5030a21",
           "source_text_sha256": "a63d690e30b4d31808f27a43adf5b73db521ea609e826fcc814136c3f53c2682",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  TOULOUSE (31) 19.03.2012 T2 Questionnaire terre-R.pdf TOULOUSE (31) 19.03.2012 T3 Questionnaire terre-R.pdf TOULOUSE (31) 19.03.2012 T1 Questionnaire terre-R.pdf",
           "translation_text_sha256": "65a5236f7a2f9a1b9d69b7de79ae74a51b41ba5ec4680d7692b2d54d7b71d11e"
         },
@@ -211,38 +202,16 @@
           "error": null,
           "field": "description",
           "page_id": "page-ca0ce07f34ffec5adb7499ec",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "23:45"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "23",
-                "45"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "19"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-43fb4d801f2f4381101b9348",
           "segment_index": 13,
           "source_segment_id": "seg-43fb4d801f2f4381101b9348",
           "source_text_sha256": "b5310e764359f54ee625e1fb1d1572180d3ad75d01831aefa360b998af0bb53d",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Description: On March 19th at 23:45, three friends, leaving a restaurant, observed on the Place du Capitole in Toulouse the successive movements of two luminous phenomena: first, a bright point crossing the sky in a straight line in less than 10 seconds, then another point that described some zig-zags before disappearing. This case is of very good consistency with 3 reliable witnesses who wrote very precise reports, but of course not independent (see the investigation report). The strangeness of the case is relatively low due to the relatively great distance from the phenomenon. The linear movement of the first phenomenon is not strange, the chaotic movement of the second is more so. The GEIPAN considered multiple hypotheses, some could not be totally excluded, but none could be confirmed. The hypothesis of birds is the leading one, although it is not sufficiently solidified. It could not be validated by an ornithologist expert. Waiting for elements to consolidate one of these hypotheses over the other, the GEIPAN classifies this case as C due to a lack of corroboration.",
-          "translation_text_sha256": "d8d4763c0ca0f9d0c59515da74a0c5b26b4b73634dd6ae42795e134b709bfbcd"
+          "status": "machine-unreviewed",
+          "text": "Description: On March 19 at 23:45, three friends, leaving a restaurant, observed from the Place du Capitole in Toulouse the successive movements of two luminous phenomena: first, a bright point crossing the sky in a straight line in less than 10 seconds, then another point that described some zig-zags before disappearing. This case proves to be of very good consistency with 3 quality witnesses, who have drafted very precise reports but obviously not independent ones (see the investigation report). The strangeness of the case is fairly low given the relatively great distance from the phenomenon. The linear movement of the first phenomenon is not strange, the chaotic movement of the second one is more so. The GEIPAN considered multiple hypotheses, some could not be totally excluded, but none could be confirmed. The bird hypothesis comes top, though it remains insufficiently confirmed. It could not be validated by an ornithologist expert. Pending elements to consolidate one or the other of these hypotheses, the GEIPAN classifies this case as C due to a lack of corroboration.",
+          "translation_text_sha256": "ddfcd8d54e126ff4ef5d184a7457d3a49088f6243f5cb3645acc12316cc5bc86"
         }
       ],
       "source_page_id": "page-ca0ce07f34ffec5adb7499ec"
@@ -253,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T16:07:59Z",
+    "generated_at": "2026-09-26T08:02:29Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
