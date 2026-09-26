@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-c2dacaf3c4dfa6cc39fa4c51",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-b7affbfb75279cc0b8b9246f",
           "segment_index": 9,
           "source_segment_id": "seg-b7affbfb75279cc0b8b9246f",
           "source_text_sha256": "3580db66e99b020311c4190409e98ffe3cf08c89c4f7425312789e8b4cfc497b",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  CR GEIPAN.pdf Questionnaire terre-R.pdf",
           "translation_text_sha256": "1e52943c9e39d420dde3748781aff29b0f8fd627d997f3399ae78170946328eb"
         },
@@ -201,6 +192,7 @@
               "check": "numbers",
               "missing_from_translation": [
                 "1",
+                "10",
                 "3"
               ],
               "severity": "warning",
@@ -214,8 +206,8 @@
           "source_text_sha256": "7e0d8a7179c1bf4952cb564163565c52e1f1dccfc03c2b9df194a01312e2d051",
           "start_ms": null,
           "status": "needs-review",
-          "text": "Description: This case concerns an observation on 13.03.2009 reported to GEIPAN via a questionnaire on 06.01.2010, approximately 10 months later. On March 13, 2009, around 7 PM, a witness observed the movement of three white-orange glowing points that moved together to form an equilateral triangle. One of the glowing points flickered. No unusual noises were heard during the observation. The entire phenomenon disappeared quickly into the clouds. No other testimonies about this event were collected, and unfortunately, no radar trace search could be conducted due to the late reporting. The description of the phenomenon (three glowing points moving together, one flickering) and the trajectory described by the witness (points 1 and 2 at the end of the runway at Lognes-Emerainville Airport) which corresponds to the visual approach path of this airport, strongly suggest the probable observation of an aircraft approaching the airport.",
-          "translation_text_sha256": "e225cebf9cd6d5cddf489468770bae5c812d7c611e083def9ac0cc984b43462b"
+          "text": "Description: This case corresponds to an observation on 13.03.2009 reported to GEIPAN in the form of a questionnaire on 06.01.2010, ten months later. On March 13, 2009, around 7 PM, a witness observed the movement of three white-orange glowing points that moved together to form an equilateral triangle. One of the bright points is blinking. During the observation, no particular noise is heard. The entire object disappears quickly into the clouds. No other witness statements were collected regarding this phenomenon, and unfortunately, no radar trace search could be initiated due to the late testimony. The description of the phenomenon (three lights moving together, one \"flashing\"), the trajectory described by the witness (points 1 and 2 at the end of the runway at Lognes-Emerainville airport) which corresponds to the visual landing corridor of this airport, strongly suggest the probable observation of an aircraft approaching the airport.",
+          "translation_text_sha256": "6510610e5b36bcc42b25c7b95982d8656f8ed6cf861f9cccb68e1e69f0125058"
         }
       ],
       "source_page_id": "page-c2dacaf3c4dfa6cc39fa4c51"
@@ -226,13 +218,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T23:56:46Z",
+    "generated_at": "2026-09-26T04:30:50Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

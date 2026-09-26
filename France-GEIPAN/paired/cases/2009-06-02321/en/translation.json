@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-ac8978699075f50bd6361c3c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "HURBACHE-01-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-cc5c0ab18be7ff7c31960deb",
           "segment_index": 9,
           "source_segment_id": "seg-cc5c0ab18be7ff7c31960deb",
           "source_text_sha256": "7d3ad7392d3f05808369c95d9abc5d1bb8ded9e24e69eb1a8b0ebd147c3f46b1",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Carte axe de prise de vue.JPG Photo temoin-02-R.pdf Photo temoin2009-06-01-HURBACHE-01-R.pdf Photo temoinDSC_5512-R.pdf Questionnaire terre-R.pdf",
           "translation_text_sha256": "20ed25f35dacea41fb49f719b9862bc5b51b3fc0f16e008aa4b7d6ed0954b4ed"
         },
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-17T09:34:13Z",
+    "generated_at": "2026-09-26T04:47:57Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
