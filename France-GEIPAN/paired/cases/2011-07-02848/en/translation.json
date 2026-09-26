@@ -193,26 +193,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-0d085e4e5c174a42ffc55cfe",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSC03604.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d6e761f1d8a83a6e79f804cc",
           "segment_index": 12,
           "source_segment_id": "seg-d6e761f1d8a83a6e79f804cc",
           "source_text_sha256": "0882d570e2f13ae09ab916a52bd1fec71cce1b95536ecdd29bc609e40b53bf2d",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On July 23, 2011, around 11:30 PM, two individuals observed a group of orange glowing points moving across the sky. They gradually faded towards the horizon. The witnesses' account, the video ( les photos (en particulier la DSC03604.JPG), the wind direction (north-west), all align with the observation of Thai lanterns, likely released in the forest of Compiègne. The day and time (a Saturday evening) are also typical for the release of lanterns following a festival. Due to the photo showing the lantern, this case is classified as \"A\".",
           "translation_text_sha256": "9af7adaba569c743a0d6286aff5cacacf788d7ba488fa5495bf2496ba2e303ae"
         }
@@ -225,13 +216,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-06T18:22:30Z",
+    "generated_at": "2026-09-26T07:08:21Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

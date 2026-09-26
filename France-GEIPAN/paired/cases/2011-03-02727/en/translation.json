@@ -135,27 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-d0e184b70be7aee1c6b46fc8",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSCF3147.JPG",
-                "DSCF3148.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-f12ea63d0c68c10ed50b9e1d",
           "segment_index": 9,
           "source_segment_id": "seg-f12ea63d0c68c10ed50b9e1d",
           "source_text_sha256": "dd16ebb46fa0c8f42704cd4622d22867c6e56d083b204a9a491e6e214f5d50b0",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Lieu d'obervation.JPG Photo1 temoin DSCF3148.JPG Photo2 temoin DSCF3147.JPG Questionnaire terre-R.pdf",
           "translation_text_sha256": "8f8924976611f1ca71407b82a4aaea9adcd610ab4566eb292f67d1a30ce4c667"
         },
@@ -216,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-12T10:58:04Z",
+    "generated_at": "2026-09-26T06:57:19Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
