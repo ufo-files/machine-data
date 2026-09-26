@@ -119,7 +119,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-cce3f558ed3b6b097dcab8cb",
           "qa_findings": [
@@ -131,23 +131,15 @@
               "missing_from_translation": [],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-4a65fb1312d5e522a35e8e8e",
           "segment_index": 8,
           "source_segment_id": "seg-4a65fb1312d5e522a35e8e8e",
           "source_text_sha256": "a1d26fc14e9f99c3af078289a77148eead92df8f786d5a8424c819679431f9e4",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Documents:  Reconstitution position PAN photorad93887.jpg Meteo.pdf Carte.jpg Witness 4 photos.7z PV n° 1075 (2010311314).pdf",
           "translation_text_sha256": "539a72e331ce475db7372b34413b4da0794d36fd2468f6583af5294ea05de5ef"
         },
@@ -188,26 +180,16 @@
           "error": null,
           "field": "description",
           "page_id": "page-cce3f558ed3b6b097dcab8cb",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "3"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-07686ac345325f6974cd3d8d",
           "segment_index": 11,
           "source_segment_id": "seg-07686ac345325f6974cd3d8d",
           "source_text_sha256": "b5d60685b50e7127e2852c2e6403a48602fc3f39cfca3a55aae44cd06be604c2",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Description: On March 31, 2010, at 6:20 PM, an individual observed from their balcony a dark, indefinable shape moving in the sky. The witness had time to take photographs and called their spouse. Only one testimony was collected. This case of observing a distant object (estimated at 2 to 3 km away), with chaotic movement (see reconstruction based on photos), presents an average degree of strangeness. Due to the photographs, the consistency of this case is good. The photographed object could correspond to many possibilities of bodies moving through the air between the witness and the nuclear power plant: most likely a large bird, as the witness's wife initially perceived (see statement), a tethered balloon, a kite, a radio-controlled model... A tethered balloon could exhibit such behavior due to the wind, which was strong that day (around 25 km/h), however, the object disappearing into the clouds does not correspond, unless the clouds obscured it. One could also think of a helicopter, given the heavy traffic in the area (see statement), but the photographed shape does not match well. The dynamic behavior of the object does not present any strange characteristics: it could correspond to a bird or a kite as the witnesses initially thought, or a tethered balloon or a helicopter. Verifying these multiple hypotheses is no longer possible. This case, credible but not particularly strange, is classified \"C\" due to the lack of additional information and cross-references.",
-          "translation_text_sha256": "23d699753b6d005a5d0089a6c518c58e41b7b30cafc24be1453880625c8da709"
+          "status": "machine-unreviewed",
+          "text": "Description: On March 31, 2010, at 6:20 PM, an individual observed from their balcony a dark object with an indefinable shape moving in the sky. The witness has time to take photographs and calls his wife. Only one testimony will be collected. This case of observation of a distant object (estimated at 2 to 3km), with chaotic movement (see reconstruction based on photos), presents an average degree of strangeness. Due to the photographs, the consistency of this case is good. The photographed object can correspond to many possibilities of bodies in flight between the witness and the nuclear power plant: most likely a large bird, as the witness's wife initially perceived (see PV), captive balloon, kite, radio-controlled model... A captive balloon could exhibit such behavior due to the wind, which was strong that day (around 25 km/h). However, the object disappearing into the clouds does not correspond, unless the clouds masked it. One could also think of a helicopter, due to the heavy traffic in this area (see PV), but the shape photographed does not match well. The dynamic behavior of the object does not exhibit any strange characteristics; it could correspond to a bird or kite, as initially thought by witnesses, or a tethered balloon or helicopter. The verification of these multiple hypotheses is no longer possible. This case, consistent but not very strange, is classified \"C\" for lack of additional information and cross-checking.",
+          "translation_text_sha256": "ab183c3eb46d47dd62d7f8d6758446f8dec222b7d2d1a6c81016d6db6aacf30b"
         }
       ],
       "source_page_id": "page-cce3f558ed3b6b097dcab8cb"
@@ -218,13 +200,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T11:45:26Z",
+    "generated_at": "2026-09-26T05:49:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

@@ -135,51 +135,33 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-6fb80eb599d53f33600edf9c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-1974b06622abb7a54aa4751f",
           "segment_index": 9,
           "source_segment_id": "seg-1974b06622abb7a54aa4751f",
           "source_text_sha256": "eeff4e7e6b63dc4616e66aa5c8db36bd02427796062221c78e1756ea215b4936",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Passage ISS satellite.pdf Satellites CalSky 29avril2010.pdf Compte rendu GEIPAN.pdf Courriers-R.pdf",
           "translation_text_sha256": "ce29bd3a09fd762ad9d021a81839fd888166ab111bd4dd71b94f5f0330a7c579"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-6fb80eb599d53f33600edf9c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "OUESSANT (29) 29.04.2010"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-6c8863b8e67b73c13d73810f",
           "segment_index": 10,
           "source_segment_id": "seg-6c8863b8e67b73c13d73810f",
           "source_text_sha256": "b242df60dbb76393e2a1a31d614edd05555b74e99efa9e1f9bb88667b96baf9c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  OUESSANT (29) 29.04.2010 T1 Questionnaire terre-R.pdf OUESSANT (29) 29.04.2010 T2 Fiche telephonique-R.pdf Temoin 6photos.rar Questionnaire terre-R.pdf OUESSANT (29) 29.04.2010 T3 Fiche telephonique-R.pdf Questionnaire terre-R.pdf Questionnaire terre-R.pdf",
           "translation_text_sha256": "5fec8e2f4ca3b9bbb6aef4b3e89c7631984516ac28735ac3062f87ea042cf4f7"
         },
@@ -204,34 +186,14 @@
           "error": null,
           "field": "description",
           "page_id": "page-6fb80eb599d53f33600edf9c",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "23:00"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "0",
-                "23"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-b3b1ff5eb6833aff057a1790",
           "segment_index": 12,
           "source_segment_id": "seg-b3b1ff5eb6833aff057a1790",
           "source_text_sha256": "81cef9ed4f77144ca9d1942b9e7ef4e062f9b8c194231cb7bf706780712a49a6",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "Description: On April 29, 2010 at 23:00, three individuals, during their professional maritime surveillance activities, observed the movement of a luminous phenomenon in the sky. The observation was made facing the sea from the gallery of a tower overlooking the ocean. Photographs were taken, including through an observation telescope. The majority of the characteristics described for the phenomenon correspond to those known of planetary motion (trajectory, speed, duration) and a strong luminosity from a single point close to artificial lighting such as the planet Venus. The strangeness of the observed phenomenon is low. The confirmation by three witnesses of the duration of the phenomenon, its description, trajectory, and its presence in a very precise area of the sky, gives the case a very strong consistency. The verification of the presence of the planet Venus in the observation area for the entire duration of the observation is a certain and well-checked hypothesis.",
           "translation_text_sha256": "bdc3fec497115d4529ae2d64c5f0434c883bb2d49f3faf13e7b4a9f9f6983bac"
         }
@@ -244,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T12:07:04Z",
+    "generated_at": "2026-09-26T06:07:32Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
