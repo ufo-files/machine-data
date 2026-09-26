@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-ce21e989146240a5e298d1e0",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "IMGP0422.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-787129c599ab98f9fd308015",
           "segment_index": 9,
           "source_segment_id": "seg-787129c599ab98f9fd308015",
           "source_text_sha256": "63a61bcdb507a2db0c7cf02fb5cc40104d108027a4ad7a2a5118cbad3ab0d66f",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Meteo.pdf Carte situation stade.pdf Carte trajectoire.pdf Zoom photo IMGP0422.JPG Courriers-R.pdf 15photos temoin.rar Photo temoin IMGP0422.JPG Questionnaire terre-R.pdf Explication temoin photos.pdf PV n° 1236 (2010310357).pdf",
           "translation_text_sha256": "69e0a5e02524ea1bda5eb5b753e4ee9137cd5d793fd158a5d63b9724e59fbb7c"
         },
@@ -235,13 +226,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T14:07:24Z",
+    "generated_at": "2026-09-26T06:29:13Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

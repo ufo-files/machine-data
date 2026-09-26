@@ -151,52 +151,33 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-f89da642a2689a62440ca47c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "T2-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-955199bd7f521f5a85d78d9b",
           "segment_index": 10,
           "source_segment_id": "seg-955199bd7f521f5a85d78d9b",
           "source_text_sha256": "c1e2422a3b37dc3f31c3125d51bc491366108a8ae5b7ad2569a85dc97685f73c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents:  5extraits video.zip Compte rendu enquete.pdf Reconstitution of streetlight and witness positions.kmz Case number: 1749 (2010310304).pdf T1fiche telephonique-R.pdf T2video V061010_20.17.3gp Fiche telephonique T2-R.pdf T2fiche telephonique-R.pdf",
-          "translation_text_sha256": "de5ddfe2d1b0abc917ff7a777ef353dff5b3d9a4ce6877e797418f7dd23f7c7a"
+          "status": "machine-unreviewed",
+          "text": "Documents:  5extraits video.zip Compte rendu enquete.pdf Reconstitution of streetlight and witness positions.kmz PV n° 1749 (2010310304).pdf T1fiche telephonique-R.pdf T2video V061010_20.17.3gp Fiche telephonique T2-R.pdf T2fiche telephonique-R.pdf",
+          "translation_text_sha256": "dd4aa7f67a7e609361cfdc7e0806ded6e62cd41c6c5c5ce2494ac25d9e067a5a"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-f89da642a2689a62440ca47c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GOLFECH (82) 06.10.2010",
-                "T1-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-9ad2a5deac1e7b173a030507",
           "segment_index": 11,
           "source_segment_id": "seg-9ad2a5deac1e7b173a030507",
           "source_text_sha256": "8d4f3ac4e6929e7eba8c982ee87c47b7a14df65834ee92877e95eef9cbdb97fe",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  GOLFECH (82) 06.10.2010 T1 Fiche telephonique T1-R.pdf GOLFECH (82) 06.10.2010 T2 Questionnaire terre-R.pdf",
           "translation_text_sha256": "52dcac6fa139b2f1ca5b3bc0f805b421f52fa087d4c8421dd6bbd2aea7f46863"
         },
@@ -267,13 +248,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T15:02:16Z",
+    "generated_at": "2026-09-26T06:40:03Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

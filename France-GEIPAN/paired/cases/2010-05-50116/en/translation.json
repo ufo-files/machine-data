@@ -199,28 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-ccc45e2f08a2027f10b4035e",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-85c74dec9809eeb054d7452c",
           "segment_index": 13,
           "source_segment_id": "seg-85c74dec9809eeb054d7452c",
           "source_text_sha256": "9bc104607b997ac7f269d57b59b89781e06c1c252ec3b9cedd2457fcbeaf91bb",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: Three witnesses presented themselves at the gendarmerie to report their observations made on May 26, 2010, between 9:45 PM and 11:00 PM from the village square. Intrigued by an orange light heading towards the smoke of the Golfech power plant, they observed for a very long time, both with the naked eye and binoculars, the movements in the sky of a first phenomenon, then a second, which eventually disappeared in the distance. In the investigation report (see attached document), we demonstrated that the witnesses likely observed, in two distinct phases, several aircraft. This conclusion is based on the following elements:\n\n- The shape of PAN 1, observed during the second phase of observation, is successively described as \"cigar-shaped,\" \"triangular,\" and \"X-shaped,\" consistent with the successive gross shapes an airplane might take when observed at night, with perspective changing as it moves.\n\n- The colors observed are entirely consistent with those used in aeronautics, both for PAN 1 and PAN 2. The orange glow of the landing light or searchlight of PAN 2 could be caused by its low elevation and the possible presence of fine particles in the atmosphere.\n\n- The witnesses heard a peculiar noise coming from PAN 1, which could resemble that of an airplane, possibly distorted by the surrounding terrain.\n\n- The witnesses often compare PAN 1 to an airplane in their descriptions.\n\n- The movements of PAN 2 are cyclic and resemble those of a helicopter conducting searches over a specific area (gendarmerie). Those of PAN 1 are made through turns, which is consistent with what an airplane at low altitude might do; it could be a military airplane of the Hercules C-130 type conducting exercises not far away, although the data is scarce and imprecise to confirm this.\n\n- Although the observation of PAN 2 is in the direction of Agen airport, there is no necessary link between this fact and the presence of PAN: it could be a gendarmerie helicopter conducting searches while evolving over a well-defined area. However, the observation duration is very long (1 hour).\n\nThe GEIPAN classifies the case as \"B\": multiple probable aeronautical confusions.",
-          "translation_text_sha256": "ed460c9f200c434217506e9fdb84d0358a7d744d3898822ad704ca30119459cd"
+          "status": "machine-unreviewed",
+          "text": "Description: Three witnesses presented themselves at the gendarmerie to report their observations made on May 26, 2010, between 9:45 PM and 11:00 PM from the village square. Intrigued by an orange light heading towards the smoke of the Golfech power plant, they observed for a very long time, both with the naked eye and binoculars, the movements in the sky of a first phenomenon, then a second, which eventually disappeared in the distance. In the investigation report (see attached document), we demonstrated that the witnesses likely observed, in two distinct phases, several aircraft. This conclusion is based on the following elements:\n\n- The shape of PAN 1, observed during the second phase of observation, is successively described as \"cigar-shaped,\" \"triangular,\" and \"X-shaped,\" consistent with the successive gross shapes an airplane might take when observed at night, with perspective changing as it moves.\n\n- The colors observed are entirely consistent with those used in aeronautics, both for PAN 1 and PAN 2. The orange glow of the landing light or searchlight of PAN 2 could be caused by its low elevation and the possible presence of fine particles in the atmosphere.\n\n- The witnesses heard a peculiar noise coming from PAN 1, which could resemble that of an airplane, possibly distorted by the surrounding terrain.\n\n- The witnesses often compare PAN 1 to an airplane in their descriptions.\n\n- The movements of PAN 2 are cyclic and resemble those of a helicopter conducting searches over a specific area (gendarmerie). Those of PAN 1 are made through turns, which is consistent with what an airplane at low altitude might do; it could be a military airplane of the Hercules C-130 type conducting exercises not far away, although the data is scarce and imprecise to confirm this.\n\n- Although the observation of PAN 2 is in the direction of Agen airport, there is no necessary link between this fact and the presence of PAN: it could be a gendarmerie helicopter conducting searches while evolving over a well-defined area. However, the observation duration is very long (1 hour).\n\nGEIPAN classifies the case as \"B\": multiple probable aeronautical confusions.",
+          "translation_text_sha256": "52d5478a3a0d0f47b8de9f3e02c75caa0178dfd37199572fcf761314685031bf"
         }
       ],
       "source_page_id": "page-ccc45e2f08a2027f10b4035e"
@@ -231,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T12:28:35Z",
+    "generated_at": "2026-09-26T06:23:39Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

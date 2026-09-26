@@ -1,0 +1,1538 @@
+{"created_utc": "2026-09-26T06:29:09Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 86738, "source_ctime_ns": 1790272625040393055, "source_file": "Archives-for-the-Unexplained/documents/2019-07-11---NASA-Astrobiology---AbSciCon-2019---Room-2-Day-5---James-Yurkovich_3uKvJMxmvJU---transcript-automated-.pdf", "source_mtime_ns": 1790272625016087059, "source_rel": "Archives-for-the-Unexplained/documents/2019-07-11---NASA-Astrobiology---AbSciCon-2019---Room-2-Day-5---James-Yurkovich_3uKvJMxmvJU---transcript-automated-.pdf", "source_sha256": "94cdc0c5e17ac270f67ec9cb3c6b356c40cb9039d31af3830a272aa2782e5ec5"}
+
+1
+00:00:00,790 --> 00:00:07,320
+[Music]
+
+2
+00:00:11,110 --> 00:00:09,120
+[Applause]
+
+3
+00:00:12,910 --> 00:00:11,120
+alright thanks Jared and thanks for the
+
+4
+00:00:16,410 --> 00:00:12,920
+organizers for letting me present my
+
+5
+00:00:19,840 --> 00:00:16,420
+work here so I'm gonna be talking about
+
+6
+00:00:21,430 --> 00:00:19,850
+the biophysical constraints and modeling
+
+7
+00:00:23,830 --> 00:00:21,440
+these quantitatively and how we can
+
+8
+00:00:25,779 --> 00:00:23,840
+actually use this to start to understand
+
+9
+00:00:26,439 --> 00:00:25,789
+how does it shape the bacterial
+
+10
+00:00:29,380 --> 00:00:26,449
+metabolomic
+
+11
+00:00:31,029 --> 00:00:29,390
+so Chris and his talk talked a lot about
+
+12
+00:00:32,800 --> 00:00:31,039
+these governing constraints where we're
+
+13
+00:00:34,570 --> 00:00:32,810
+interested in trying to model these
+
+14
+00:00:36,160 --> 00:00:34,580
+specifically mathematically and see how
+
+15
+00:00:39,910 --> 00:00:36,170
+some of them work together maybe to
+
+16
+00:00:42,700 --> 00:00:39,920
+start to constrain the space and like
+
+17
+00:00:45,880 --> 00:00:42,710
+start off this kind of this talk
+
+18
+00:00:47,710 --> 00:00:45,890
+thinking about this kind of image by
+
+19
+00:00:50,050 --> 00:00:47,720
+David Goodsell Scripps Research
+
+20
+00:00:51,430 --> 00:00:50,060
+Institute where if we look at the cell
+
+21
+00:00:53,830 --> 00:00:51,440
+it's a crowded place there's a lot of
+
+22
+00:00:56,290 --> 00:00:53,840
+different things that constrain the
+
+23
+00:00:58,030 --> 00:00:56,300
+metabolomic cellular function a lot of
+
+24
+00:01:00,250 --> 00:00:58,040
+them are physical constraints there's a
+
+25
+00:01:01,780 --> 00:01:00,260
+lot of stuff packed in here all the new
+26
+00:01:04,450 --> 00:01:01,790
+klarik material and proteins and
+
+27
+00:01:06,940 --> 00:01:04,460
+macromolecules and lipids and what we're
+
+28
+00:01:10,420 --> 00:01:06,950
+interested in looking at specifically is
+
+29
+00:01:11,800 --> 00:01:10,430
+the metabolomic eul's involved in energy
+
+30
+00:01:14,410 --> 00:01:11,810
+metabolism which are too small to even
+
+31
+00:01:16,410 --> 00:01:14,420
+see on an image like this and so we can
+
+32
+00:01:19,390 --> 00:01:16,420
+start to think about what sorts of
+
+33
+00:01:23,710 --> 00:01:19,400
+biophysical laws and principles start to
+
+34
+00:01:26,080 --> 00:01:23,720
+govern and point to different phenotypic
+
+35
+00:01:27,100 --> 00:01:26,090
+States now there's a variety of
+
+36
+00:01:30,550 --> 00:01:27,110
+different constraints that have been
+
+37
+00:01:33,580 --> 00:01:30,560
+used in the past to model metabolism a
+
+38
+00:01:35,320 --> 00:01:33,590
+lot of this work is in the field of flux
+
+39
+00:01:38,550 --> 00:01:35,330
+balance analysis and using constraint
+
+40
+00:01:40,480 --> 00:01:38,560
+based modeling to model and compute the
+
+41
+00:01:41,590 --> 00:01:40,490
+genotype-phenotype relationship and when
+
+42
+00:01:44,110 --> 00:01:41,600
+we talk about that in terms of
+
+43
+00:01:47,140 --> 00:01:44,120
+metabolism a lot of what these models do
+
+44
+00:01:48,670 --> 00:01:47,150
+is they compute different feasible flux
+
+45
+00:01:52,560 --> 00:01:48,680
+states of the network so they compute
+
+46
+00:01:54,510 --> 00:01:52,570
+pathway usage based on different
+
+47
+00:01:57,039 --> 00:01:54,520
+different constraints that are
+
+48
+00:01:59,680 --> 00:01:57,049
+mathematically expressed based on
+
+49
+00:02:02,770 --> 00:01:59,690
+measured omics data and so some of these
+
+50
+00:02:04,350 --> 00:02:02,780
+types of constraints come from gene
+51
+00:02:07,180 --> 00:02:04,360
+expression and protein expression
+
+52
+00:02:08,380 --> 00:02:07,190
+metabolomics data and if we have
+
+53
+00:02:10,539 --> 00:02:08,390
+information available on different
+
+54
+00:02:12,070 --> 00:02:10,549
+kinetic parameters we can model these
+
+55
+00:02:13,539 --> 00:02:12,080
+mathematically and we can integrate this
+
+56
+00:02:17,619 --> 00:02:13,549
+in with the structure of the metabolic
+
+57
+00:02:20,500 --> 00:02:17,629
+Network and then we can compute a
+
+58
+00:02:22,300 --> 00:02:20,510
+solution space where each point in this
+
+59
+00:02:24,280 --> 00:02:22,310
+space would represent a
+
+60
+00:02:26,290 --> 00:02:24,290
+double flux state of the network so each
+
+61
+00:02:29,589 --> 00:02:26,300
+point represents different pathway usage
+
+62
+00:02:32,199 --> 00:02:29,599
+and as we add these constraints we start
+
+63
+00:02:35,080 --> 00:02:32,209
+to zero in on a by physically and
+
+64
+00:02:38,050 --> 00:02:35,090
+physiologically relevant set of fluxes
+
+65
+00:02:40,180 --> 00:02:38,060
+and eventually we can optimize and
+
+66
+00:02:41,800 --> 00:02:40,190
+compute maybe a maximal growth rate and
+
+67
+00:02:43,120 --> 00:02:41,810
+then look and see well for this given
+
+68
+00:02:45,610 --> 00:02:43,130
+growth rate and the data that we have
+
+69
+00:02:49,930 --> 00:02:45,620
+this is what we would predict the flux
+
+70
+00:02:51,490 --> 00:02:49,940
+State to be but in these models most of
+
+71
+00:02:53,589 --> 00:02:51,500
+what is missing are a lot of these
+
+72
+00:02:55,600 --> 00:02:53,599
+biophysical constraints so when we model
+
+73
+00:02:58,030 --> 00:02:55,610
+in this kind of framework we're really
+
+74
+00:02:59,590 --> 00:02:58,040
+assuming away things like pH and maybe
+
+75
+00:03:01,740 --> 00:02:59,600
+some kind of spatial constraints and all
+76
+00:03:03,640 --> 00:03:01,750
+of these sorts of energetics and
+
+77
+00:03:06,880 --> 00:03:03,650
+electroneutrality and all these sorts of
+
+78
+00:03:09,729 --> 00:03:06,890
+things that do obviously play a role and
+
+79
+00:03:11,860 --> 00:03:09,739
+so the goal here is to translate some of
+
+80
+00:03:14,860 --> 00:03:11,870
+these governing biophysical constraints
+
+81
+00:03:16,240 --> 00:03:14,870
+into quantitative values so some kind of
+
+82
+00:03:18,280 --> 00:03:16,250
+mathematical form that can help us
+
+83
+00:03:20,320 --> 00:03:18,290
+integrate in with the network structure
+
+84
+00:03:22,539 --> 00:03:20,330
+and actually compute functional states
+
+85
+00:03:24,370 --> 00:03:22,549
+and ideally we're able to do this and
+
+86
+00:03:26,440 --> 00:03:24,380
+then look at different environments
+
+87
+00:03:28,270 --> 00:03:26,450
+either existing ones that we can model
+
+88
+00:03:32,440 --> 00:03:28,280
+and measure or maybe theoretical
+
+89
+00:03:33,490 --> 00:03:32,450
+environments and so most of what I'm
+
+90
+00:03:35,380 --> 00:03:33,500
+going to talk about today is a
+
+91
+00:03:37,809 --> 00:03:35,390
+theoretical framework that we've put
+
+92
+00:03:39,520 --> 00:03:37,819
+together that allows us to model we've
+
+93
+00:03:40,870 --> 00:03:39,530
+put together ten different classes of
+
+94
+00:03:42,640 --> 00:03:40,880
+constraints eight of these are really
+
+95
+00:03:44,880 --> 00:03:42,650
+biophysical constraints then we have a
+
+96
+00:03:47,830 --> 00:03:44,890
+couple constraints that we use to
+
+97
+00:03:49,840 --> 00:03:47,840
+address technological issues with
+
+98
+00:03:51,640 --> 00:03:49,850
+integrating data like this into a
+
+99
+00:03:52,930 --> 00:03:51,650
+framework like this so I'm not going to
+
+100
+00:03:54,699 --> 00:03:52,940
+spend a ton of time this is very dense
+101
+00:03:57,009 --> 00:03:54,709
+image but a couple things that I want to
+
+102
+00:03:59,259 --> 00:03:57,019
+point out is we've formulated all of
+
+103
+00:04:01,090 --> 00:03:59,269
+these constrains with only a single free
+
+104
+00:04:02,920 --> 00:04:01,100
+variable and that's X the metabolite
+
+105
+00:04:05,770 --> 00:04:02,930
+concentration all of the other
+
+106
+00:04:07,660 --> 00:04:05,780
+parameters are either measured values
+
+107
+00:04:10,180 --> 00:04:07,670
+things like the turgor pressure for a
+
+108
+00:04:13,210 --> 00:04:10,190
+given system membrane potential ionic
+
+109
+00:04:14,590 --> 00:04:13,220
+strength of the solution or they are in
+
+110
+00:04:17,050 --> 00:04:14,600
+the case of like thermodynamics for
+
+111
+00:04:18,969 --> 00:04:17,060
+example these are Gibbs free energies of
+
+112
+00:04:20,770 --> 00:04:18,979
+formation for individual compounds and
+
+113
+00:04:25,659 --> 00:04:20,780
+these are quantities that can be
+
+114
+00:04:26,890 --> 00:04:25,669
+computed or some measured and so when we
+
+115
+00:04:29,440 --> 00:04:26,900
+started to try to put together this
+
+116
+00:04:31,120 --> 00:04:29,450
+framework that was one of the the first
+
+117
+00:04:34,089 --> 00:04:31,130
+issues is where do we get that kind of
+
+118
+00:04:35,950 --> 00:04:34,099
+data and so some some work by some of my
+
+119
+00:04:38,680 --> 00:04:35,960
+colleagues in my dissertation lab
+
+120
+00:04:40,210 --> 00:04:38,690
+spent some time and we used an updated
+
+121
+00:04:42,580 --> 00:04:40,220
+group contribution method to estimate
+
+122
+00:04:44,080 --> 00:04:42,590
+some of these necessary parameters some
+
+123
+00:04:46,900 --> 00:04:44,090
+of these thermodynamic quantities that
+
+124
+00:04:49,450 --> 00:04:46,910
+allow us to parameterize everything I
+
+125
+00:04:52,810 --> 00:04:49,460
+just showed you on the last slide and of
+126
+00:04:54,520 --> 00:04:52,820
+course using constraints to look at
+
+127
+00:04:57,100 --> 00:04:54,530
+these sorts of things is not novel
+
+128
+00:04:58,629 --> 00:04:57,110
+really the novelty here we hope is to
+
+129
+00:05:00,040 --> 00:04:58,639
+try to integrate all of these
+
+130
+00:05:01,659 --> 00:05:00,050
+constraints together into a single
+
+131
+00:05:03,730 --> 00:05:01,669
+unified framework to start to look at
+
+132
+00:05:05,860 --> 00:05:03,740
+some of these things but certainly just
+
+133
+00:05:08,230 --> 00:05:05,870
+looking at thermodynamics and some of
+
+134
+00:05:11,020 --> 00:05:08,240
+these thermal properties has been done
+
+135
+00:05:13,689 --> 00:05:11,030
+previously and extensively and some
+
+136
+00:05:16,270 --> 00:05:13,699
+recent work from our lab used these
+
+137
+00:05:18,820 --> 00:05:16,280
+computed parameters to look at the
+
+138
+00:05:20,409 --> 00:05:18,830
+evolution the evolutionary trajectory of
+
+139
+00:05:21,879 --> 00:05:20,419
+different pathways based on
+
+140
+00:05:24,700 --> 00:05:21,889
+thermodynamic feasibility and some of
+
+141
+00:05:27,969 --> 00:05:24,710
+the more interesting outcomes from that
+
+142
+00:05:30,219 --> 00:05:27,979
+study was that for two different
+
+143
+00:05:32,290 --> 00:05:30,229
+organisms living in different niches for
+
+144
+00:05:34,210 --> 00:05:32,300
+them to produce the same biomass
+
+145
+00:05:36,040 --> 00:05:34,220
+precursor they might have substantially
+
+146
+00:05:37,990 --> 00:05:36,050
+different pathway usage and it's based
+
+147
+00:05:39,310 --> 00:05:38,000
+on environmental conditions and if we
+
+148
+00:05:42,279 --> 00:05:39,320
+can start to model that we can start to
+
+149
+00:05:43,750 --> 00:05:42,289
+understand maybe why one organism might
+
+150
+00:05:47,020 --> 00:05:43,760
+use one route and one might use another
+151
+00:05:49,659 --> 00:05:47,030
+and ultimately it came down one of the
+
+152
+00:05:50,860 --> 00:05:49,669
+observations is that these different
+
+153
+00:05:54,000 --> 00:05:50,870
+pathways might depend on different
+
+154
+00:05:57,279 --> 00:05:54,010
+cofactors and those are different
+
+155
+00:05:59,500 --> 00:05:57,289
+important parameters that can affect
+
+156
+00:06:03,279 --> 00:05:59,510
+based on the environmental conditions
+
+157
+00:06:05,290 --> 00:06:03,289
+what sort of pathways the other thing i
+
+158
+00:06:07,149 --> 00:06:05,300
+want to comment about this framework
+
+159
+00:06:08,890 --> 00:06:07,159
+we've put together is that some of the
+
+160
+00:06:11,230 --> 00:06:08,900
+models we were using to look at
+
+161
+00:06:12,370 --> 00:06:11,240
+individual constraints are fairly high
+
+162
+00:06:14,649 --> 00:06:12,380
+level and if you do have a more
+
+163
+00:06:16,750 --> 00:06:14,659
+sophisticated model this framework is
+
+164
+00:06:18,040 --> 00:06:16,760
+modular so for example some separate
+
+165
+00:06:19,270 --> 00:06:18,050
+work we're doing is to look at the
+
+166
+00:06:21,430 --> 00:06:19,280
+membrane potential and we want to
+
+167
+00:06:23,560 --> 00:06:21,440
+integrate membrane potential as a
+
+168
+00:06:25,480 --> 00:06:23,570
+constraint when we're interested in
+
+169
+00:06:29,320 --> 00:06:25,490
+computing these phenotypic States for
+
+170
+00:06:33,899 --> 00:06:29,330
+these cells and so we've built a model
+
+171
+00:06:36,279 --> 00:06:33,909
+of the spatial model of the membrane and
+
+172
+00:06:40,260 --> 00:06:36,289
+for the human red blood cell there's a
+
+173
+00:06:42,879 --> 00:06:40,270
+lot of data available for the
+
+174
+00:06:45,459 --> 00:06:42,889
+phospholipid composition of the lipid
+
+175
+00:06:47,050 --> 00:06:45,469
+bilayer and so for this for this
+176
+00:06:48,610 --> 00:06:47,060
+framework the free variable here that
+
+177
+00:06:49,839 --> 00:06:48,620
+we're looking at is the individual
+
+178
+00:06:51,579 --> 00:06:49,849
+concentrations of all of the
+
+179
+00:06:54,760 --> 00:06:51,589
+lipids in the network and so you can
+
+180
+00:06:56,469 --> 00:06:54,770
+actually determine from available
+
+181
+00:06:58,809 --> 00:06:56,479
+measured data we were able to compute
+
+182
+00:07:01,029 --> 00:06:58,819
+how much sphingomyelin or
+
+183
+00:07:03,309 --> 00:07:01,039
+phosphatidylserine is on one side of the
+
+184
+00:07:04,570 --> 00:07:03,319
+lipid or the other of the bilayer or the
+
+185
+00:07:05,889 --> 00:07:04,580
+other and then we can compute the
+
+186
+00:07:07,959 --> 00:07:05,899
+potential and then we can integrate this
+
+187
+00:07:11,379 --> 00:07:07,969
+in with this larger genome scale
+
+188
+00:07:13,480 --> 00:07:11,389
+framework and see well given a specific
+
+189
+00:07:15,699 --> 00:07:13,490
+set of phospholipids given this membrane
+
+190
+00:07:17,379 --> 00:07:15,709
+composition how does that constrain
+
+191
+00:07:19,299 --> 00:07:17,389
+metabolism or we could ask the other
+
+192
+00:07:21,100 --> 00:07:19,309
+question which is what would we want
+
+193
+00:07:24,579 --> 00:07:21,110
+metabolism to look like in order to
+
+194
+00:07:26,949 --> 00:07:24,589
+generate a specific phospholipid
+
+195
+00:07:29,199 --> 00:07:26,959
+composition for example and so again
+
+196
+00:07:30,579 --> 00:07:29,209
+this is also a work in progress but just
+
+197
+00:07:32,169 --> 00:07:30,589
+to say that if you have a more
+
+198
+00:07:33,699 --> 00:07:32,179
+sophisticated model and better
+
+199
+00:07:34,959 --> 00:07:33,709
+measurements for some of these different
+
+200
+00:07:36,429 --> 00:07:34,969
+constraints and you think about them in
+201
+00:07:39,699 --> 00:07:36,439
+different ways this sort of framework
+
+202
+00:07:40,659 --> 00:07:39,709
+could encapsulate that sort of thing one
+
+203
+00:07:42,070 --> 00:07:40,669
+of the other constraints that I
+
+204
+00:07:44,379 --> 00:07:42,080
+mentioned that is a very important one
+
+205
+00:07:46,029 --> 00:07:44,389
+when we're talking about modeling and
+
+206
+00:07:47,949 --> 00:07:46,039
+computing these phenotypic States is
+
+207
+00:07:51,429 --> 00:07:47,959
+accounting for the effect of pH on small
+
+208
+00:07:53,169 --> 00:07:51,439
+molecules and so when we talk about in
+
+209
+00:07:55,659 --> 00:07:53,179
+kind of broad terms these metabolic
+
+210
+00:08:00,670 --> 00:07:55,669
+networks we really just think of
+
+211
+00:08:02,259 --> 00:08:00,680
+metabolites as ATP but in reality ATP
+
+212
+00:08:03,969 --> 00:08:02,269
+exists as one of many different
+
+213
+00:08:05,439 --> 00:08:03,979
+protonation states that is possible
+
+214
+00:08:08,439 --> 00:08:05,449
+based on a lot of different things in
+
+215
+00:08:10,719 --> 00:08:08,449
+the network and as the pH of the system
+
+216
+00:08:13,029 --> 00:08:10,729
+changes there's a different dominant
+
+217
+00:08:14,829 --> 00:08:13,039
+species of ATP might be bound to
+
+218
+00:08:18,969 --> 00:08:14,839
+magnesium or a different charged state
+
+219
+00:08:21,489 --> 00:08:18,979
+and so this is again one of the
+
+220
+00:08:23,230 --> 00:08:21,499
+constraints that we're using - based on
+
+221
+00:08:25,839 --> 00:08:23,240
+the pH of the system we can modulate
+
+222
+00:08:30,790 --> 00:08:25,849
+which of the metabolite species are most
+
+223
+00:08:32,769 --> 00:08:30,800
+dominant so we're currently in the
+
+224
+00:08:34,089 --> 00:08:32,779
+process of applying this framework to
+
+225
+00:08:35,649 --> 00:08:34,099
+look at different case studies one of
+226
+00:08:37,029 --> 00:08:35,659
+the first case studies that I'm going to
+
+227
+00:08:41,319 --> 00:08:37,039
+talk about here in my limited time today
+
+228
+00:08:45,249 --> 00:08:41,329
+is modeling ecoli an exponential growth
+
+229
+00:08:46,660 --> 00:08:45,259
+at pH of 7.5 and so we're currently in
+
+230
+00:08:48,249 --> 00:08:46,670
+the process of scaling up to genome
+
+231
+00:08:49,360 --> 00:08:48,259
+scale and right now we've been tuning
+
+232
+00:08:51,610 --> 00:08:49,370
+these parameters and looking at these
+
+233
+00:08:53,470 --> 00:08:51,620
+constraints on a smaller version of the
+
+234
+00:08:56,259 --> 00:08:53,480
+network that contains glycolysis and the
+
+235
+00:08:59,650 --> 00:08:56,269
+TCA cycle so total about 45 metabolites
+
+236
+00:09:01,780 --> 00:08:59,660
+and what I'm showing here this is the
+
+237
+00:09:02,980 --> 00:09:01,790
+same data on the top it's an absolute
+
+238
+00:09:04,040 --> 00:09:02,990
+scale and on the bottom it's on the log
+
+239
+00:09:05,720 --> 00:09:04,050
+scale
+
+240
+00:09:08,660 --> 00:09:05,730
+so what I'm showing here is we've
+
+241
+00:09:11,420 --> 00:09:08,670
+computed the these bars represents the
+
+242
+00:09:12,860 --> 00:09:11,430
+minimum and the maximum feasible
+
+243
+00:09:16,610 --> 00:09:12,870
+concentration according to these
+
+244
+00:09:19,790 --> 00:09:16,620
+constraints that we've laid out and then
+
+245
+00:09:21,740 --> 00:09:19,800
+the yellow points here are data that has
+
+246
+00:09:25,579 --> 00:09:21,750
+been measured in the literature from
+
+247
+00:09:28,009 --> 00:09:25,589
+Joshua Bennett Rabinowitz his lab and we
+
+248
+00:09:30,139 --> 00:09:28,019
+can map that on and start to see how
+
+249
+00:09:31,519 --> 00:09:30,149
+well does this do these mathematical
+
+250
+00:09:33,430 --> 00:09:31,529
+constraints work out how well do they
+251
+00:09:35,660 --> 00:09:33,440
+play together
+
+252
+00:09:37,819 --> 00:09:35,670
+we're still fine-tuning some things but
+
+253
+00:09:39,379 --> 00:09:37,829
+certainly one thing that we've been able
+
+254
+00:09:40,430 --> 00:09:39,389
+to notice so far is that the upper
+
+255
+00:09:43,400 --> 00:09:40,440
+bounds on a lot of these different
+
+256
+00:09:44,960 --> 00:09:43,410
+metabolite concentrations has been
+
+257
+00:09:46,970 --> 00:09:44,970
+modulated by the different constraints
+
+258
+00:09:48,829 --> 00:09:46,980
+and we've performed some sensitivity
+
+259
+00:09:52,160 --> 00:09:48,839
+analysis to start to see how did those
+
+260
+00:09:53,269 --> 00:09:52,170
+start to to change and certainly one of
+
+261
+00:09:55,400 --> 00:09:53,279
+the the next things that we're going to
+
+262
+00:09:56,840 --> 00:09:55,410
+try to figure out is why in this current
+
+263
+00:09:58,970 --> 00:09:56,850
+framework do some of these lower bounds
+
+264
+00:10:01,069 --> 00:09:58,980
+all just kind of map all the way to zero
+
+265
+00:10:02,600 --> 00:10:01,079
+there's got to be some lower bound on
+
+266
+00:10:04,970 --> 00:10:02,610
+those so that's that's part of where the
+
+267
+00:10:08,090 --> 00:10:04,980
+the current status of this work is and
+
+268
+00:10:09,829 --> 00:10:08,100
+once we've defined this very complex
+
+269
+00:10:11,389 --> 00:10:09,839
+optimization problem that we use to
+
+270
+00:10:12,769 --> 00:10:11,399
+compute this space really we're
+
+271
+00:10:15,410 --> 00:10:12,779
+interested in characterizing in this
+
+272
+00:10:16,610 --> 00:10:15,420
+space is the first step and so there's
+
+273
+00:10:18,379 --> 00:10:16,620
+some interesting questions that we can
+
+274
+00:10:20,900 --> 00:10:18,389
+start to look at once we've built these
+
+275
+00:10:22,790 --> 00:10:20,910
+constraints and really the goal here is
+276
+00:10:25,100 --> 00:10:22,800
+to try to identify how do these
+
+277
+00:10:26,480 --> 00:10:25,110
+different constraints interact with each
+
+278
+00:10:28,040 --> 00:10:26,490
+other are there some constraints that
+
+279
+00:10:29,900 --> 00:10:28,050
+are more dominant than others and under
+
+280
+00:10:32,540 --> 00:10:29,910
+certain conditions and so for example we
+
+281
+00:10:34,370 --> 00:10:32,550
+can look at things like the buffer
+
+282
+00:10:36,710 --> 00:10:34,380
+capacity as a function of total
+
+283
+00:10:39,920 --> 00:10:36,720
+metabolite concentration and see so if
+
+284
+00:10:42,079 --> 00:10:39,930
+this if the color bar here represents
+
+285
+00:10:43,879 --> 00:10:42,089
+the specific concentration of that
+
+286
+00:10:46,220 --> 00:10:43,889
+individual metabolite we can see how its
+
+287
+00:10:48,500 --> 00:10:46,230
+buffer capacity might change in the
+
+288
+00:10:51,980 --> 00:10:48,510
+context of all of the constraints for
+
+289
+00:10:53,569 --> 00:10:51,990
+the whole network and see how the but
+
+290
+00:10:56,929 --> 00:10:53,579
+that might affect a property like the
+
+291
+00:10:59,120 --> 00:10:56,939
+buffer capacity and like I mentioned the
+
+292
+00:11:00,650 --> 00:10:59,130
+more interesting part of once we're able
+
+293
+00:11:02,030 --> 00:11:00,660
+to characterize this network is to see
+
+294
+00:11:04,040 --> 00:11:02,040
+how did these different
+
+295
+00:11:06,620 --> 00:11:04,050
+bounds once we've computed them how do
+
+296
+00:11:08,689 --> 00:11:06,630
+they change as we modulate some maybe of
+
+297
+00:11:10,819 --> 00:11:08,699
+the global measured parameters like the
+
+298
+00:11:12,980 --> 00:11:10,829
+turgor pressure if we were to change the
+
+299
+00:11:15,230 --> 00:11:12,990
+turgor pressure does that maybe modulate
+
+300
+00:11:17,240 --> 00:11:15,240
+one of the upper bounds if we change the
+301
+00:11:19,369 --> 00:11:17,250
+pH certainly the ratios
+
+302
+00:11:22,280 --> 00:11:19,379
+different protonation states of the same
+
+303
+00:11:24,439 --> 00:11:22,290
+metabolite would change and ultimately
+
+304
+00:11:25,879 --> 00:11:24,449
+then we can begin to answer the question
+
+305
+00:11:28,490 --> 00:11:25,889
+how to constraints work together to
+
+306
+00:11:31,280 --> 00:11:28,500
+constrain them at a below so looking
+
+307
+00:11:33,410 --> 00:11:31,290
+ahead a lot of our interest in this kind
+
+308
+00:11:35,090 --> 00:11:33,420
+of framework as engineers is what can we
+
+309
+00:11:37,220 --> 00:11:35,100
+engineer them at abalone so if we can
+
+310
+00:11:39,710 --> 00:11:37,230
+characterize this space can we start to
+
+311
+00:11:41,179 --> 00:11:39,720
+maybe predict how do maybe gene
+
+312
+00:11:44,210 --> 00:11:41,189
+knockouts or a change in media
+
+313
+00:11:47,360 --> 00:11:44,220
+composition begin to alter this this
+
+314
+00:11:50,119 --> 00:11:47,370
+feasible state and and perhaps for an
+
+315
+00:11:52,730 --> 00:11:50,129
+audience here what can these by physical
+
+316
+00:11:54,769 --> 00:11:52,740
+constraints teach us about different
+
+317
+00:11:57,590 --> 00:11:54,779
+states of metabolism and why do certain
+
+318
+00:11:59,360 --> 00:11:57,600
+metabolites like tree hollows for
+
+319
+00:12:01,340 --> 00:11:59,370
+example act as awesome regulators in
+
+320
+00:12:02,720 --> 00:12:01,350
+different systems is this framework
+
+321
+00:12:06,139 --> 00:12:02,730
+something that we can begin to start to
+
+322
+00:12:07,639 --> 00:12:06,149
+ask and answer questions like these so
+
+323
+00:12:09,829 --> 00:12:07,649
+just to summarize we've described a
+
+324
+00:12:11,960 --> 00:12:09,839
+framework that allows for the
+
+325
+00:12:13,670 --> 00:12:11,970
+translation of governing biophysical
+326
+00:12:15,949 --> 00:12:13,680
+constrains into a mathematical framework
+
+327
+00:12:18,530 --> 00:12:15,959
+that we're then going to use to compute
+
+328
+00:12:20,210 --> 00:12:18,540
+functional metabolic states and what
+
+329
+00:12:22,850 --> 00:12:20,220
+we're attempting to do next is to
+
+330
+00:12:24,740 --> 00:12:22,860
+compute this to characterize this space
+
+331
+00:12:26,179 --> 00:12:24,750
+through computation through computation
+
+332
+00:12:28,369 --> 00:12:26,189
+and look at the feasibility of different
+
+333
+00:12:30,710 --> 00:12:28,379
+metabolic configurations and theoretical
+
+334
+00:12:32,179 --> 00:12:30,720
+or hypothesized environments and even
+
+335
+00:12:32,960 --> 00:12:32,189
+have the capacity once we characterize
+
+336
+00:12:34,910 --> 00:12:32,970
+this space
+
+337
+00:12:37,549 --> 00:12:34,920
+- perhaps generate in silico
+
+338
+00:12:39,290 --> 00:12:37,559
+metabolomics datasets that would at
+
+339
+00:12:42,379 --> 00:12:39,300
+least obey all of the biophysical laws
+
+340
+00:12:44,689 --> 00:12:42,389
+that we've laid out here so I'd like to
+
+341
+00:12:45,920 --> 00:12:44,699
+finish by thanking my colleagues in this
+
+342
+00:12:49,400 --> 00:12:45,930
+endeavor so this is work that I had
+
+343
+00:12:52,309 --> 00:12:49,410
+started in my PhD and since I've left
+
+344
+00:12:54,079 --> 00:12:52,319
+has been taken over by a mirror and
+
+345
+00:12:56,389 --> 00:12:54,089
+obviously we'd also like to thank my
+
+346
+00:12:56,990 --> 00:12:56,399
+doctoral adviser professor Paulson at UC
+
+347
+00:12:58,759 --> 00:12:57,000
+San Diego
+
+348
+00:13:01,009 --> 00:12:58,769
+and Dan's elinsky has also been
+
+349
+00:13:02,269 --> 00:13:01,019
+instrumental in guiding this work of
+
+350
+00:13:04,939 --> 00:13:02,279
+course like would would like to thank
+351
+00:13:06,530 --> 00:13:04,949
+the Novo Nordisk Foundation Center for
+
+352
+00:13:08,809 --> 00:13:06,540
+by sustainability and my fellowship here
+
+353
+00:13:10,970 --> 00:13:08,819
+at the Institute for systems biology in
+
+354
+00:13:16,639 --> 00:13:10,980
+Seattle for funding and with that I will
+
+355
+00:13:23,340 --> 00:13:19,500
+it one quick question while we get set
+
+356
+00:13:28,380 --> 00:13:23,350
+up for the next speaker there's a mic up
+
+357
+00:13:31,850 --> 00:13:28,390
+at the front or so I I kind of wonder if
+
+358
+00:13:33,060 --> 00:13:31,860
+you're generating hypotheses predictions
+
+359
+00:13:36,360 --> 00:13:33,070
+explanations
+
+360
+00:13:38,460 --> 00:13:36,370
+I mean you I mean you you sort of it's
+
+361
+00:13:40,980 --> 00:13:38,470
+really cool and amazing I just wonder if
+
+362
+00:13:42,449 --> 00:13:40,990
+if you believe the answers or you
+
+363
+00:13:45,090 --> 00:13:42,459
+convince the answers I don't need to
+
+364
+00:13:47,400 --> 00:13:45,100
+take any more measurements or do work or
+
+365
+00:13:49,050 --> 00:13:47,410
+you know or or maybe we should take new
+
+366
+00:13:50,759 --> 00:13:49,060
+measurements to validate the model you
+
+367
+00:13:52,079 --> 00:13:50,769
+have so I think that last point is
+
+368
+00:13:53,579 --> 00:13:52,089
+actually really what we're trying to get
+
+369
+00:13:55,440 --> 00:13:53,589
+at is so certainly measuring
+
+370
+00:13:58,019 --> 00:13:55,450
+metabolomics data and mapping onto this
+
+371
+00:13:59,759 --> 00:13:58,029
+space can tell us something so many of
+
+372
+00:14:01,620 --> 00:13:59,769
+those points about 80% were within the
+
+373
+00:14:03,660 --> 00:14:01,630
+ranges we computed some of them were
+
+374
+00:14:05,759 --> 00:14:03,670
+outside those ranges and so obviously we
+
+375
+00:14:07,829 --> 00:14:05,769
+need to tune the network but likely we
+376
+00:14:09,600 --> 00:14:07,839
+will potentially need more data in order
+
+377
+00:14:11,130 --> 00:14:09,610
+to better fine-tune these constraints
+
+378
+00:14:12,840 --> 00:14:11,140
+another interesting thing to think about
+
+379
+00:14:15,449 --> 00:14:12,850
+is are there other constraints that
+
+380
+00:14:17,490 --> 00:14:15,459
+we're not considering that cause our
+
+381
+00:14:20,550 --> 00:14:17,500
+predictions to be off and so ultimately
+
+382
+00:14:21,990 --> 00:14:20,560
+we would like to use this for hypothesis
+
+383
+00:14:23,340 --> 00:14:22,000
+generation but that's I think a little
+
+384
+00:14:25,259 --> 00:14:23,350
+ways down the road first we really need
+
+385
+00:14:25,710 --> 00:14:25,269
+to validate this and exactly to your
+
+386
+00:14:26,939 --> 00:14:25,720
+point
+
+387
+00:14:30,960 --> 00:14:26,949
+can we trust what we're actually
+
+388
+00:14:33,550 --> 00:14:30,970
+computing here all right thank you thank
