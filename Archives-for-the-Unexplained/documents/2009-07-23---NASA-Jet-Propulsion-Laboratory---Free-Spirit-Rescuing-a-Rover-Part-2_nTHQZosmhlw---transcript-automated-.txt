@@ -1,0 +1,2896 @@
+{"created_utc": "2026-09-26T21:32:02Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 100465, "source_ctime_ns": 1790350670191208001, "source_file": "Archives-for-the-Unexplained/documents/2009-07-23---NASA-Jet-Propulsion-Laboratory---Free-Spirit-Rescuing-a-Rover-Part-2_nTHQZosmhlw---transcript-automated-.pdf", "source_mtime_ns": 1790350670187569217, "source_rel": "Archives-for-the-Unexplained/documents/2009-07-23---NASA-Jet-Propulsion-Laboratory---Free-Spirit-Rescuing-a-Rover-Part-2_nTHQZosmhlw---transcript-automated-.pdf", "source_sha256": "07cef862615ffda7ec886b49e7399769ebe94034064ee97fe583beb9f38b600d"}
+
+1
+00:00:05,950 --> 00:00:02,570
+Martian winter so I'm Ashley Stroupe and
+
+2
+00:00:09,010 --> 00:00:05,960
+this was your free spirit update
+
+3
+00:00:12,010 --> 00:00:09,020
+all right with us now is Ashley Stroupe
+
+4
+00:00:14,680 --> 00:00:12,020
+she's one of our Rover drivers and lots
+
+5
+00:00:16,450 --> 00:00:14,690
+of people have no idea how these Rovers
+
+6
+00:00:19,300 --> 00:00:16,460
+are operated on Mars Spirit and
+
+7
+00:00:21,970 --> 00:00:19,310
+Opportunity you're not driving them with
+
+8
+00:00:25,300 --> 00:00:21,980
+a joystick and you know okay they're
+
+9
+00:00:28,120 --> 00:00:25,310
+that rock you know you actually have to
+
+10
+00:00:31,839 --> 00:00:28,130
+program it so before we go any further
+
+11
+00:00:35,200 --> 00:00:31,849
+let's just explain to folks exactly what
+
+12
+00:00:37,900 --> 00:00:35,210
+a rover driver does sure well it is like
+
+13
+00:00:41,080 --> 00:00:37,910
+driving a car with a computer program so
+
+14
+00:00:43,630 --> 00:00:41,090
+every day we have to sit down and look
+
+15
+00:00:45,279 --> 00:00:43,640
+at the images of the world around us and
+
+16
+00:00:48,189 --> 00:00:45,289
+figure out where the rover is going to
+
+17
+00:00:50,020 --> 00:00:48,199
+go and then we have to build a program
+
+18
+00:00:52,840 --> 00:00:50,030
+essentially that will guide the rover
+
+19
+00:00:55,479 --> 00:00:52,850
+along that desired path let's go to the
+
+20
+00:00:59,110 --> 00:00:55,489
+video and you can show folks consider
+
+21
+00:01:03,340 --> 00:00:59,120
+some examples let's go to the videotape
+
+22
+00:01:05,620 --> 00:01:03,350
+and this is the rover driving so you are
+
+23
+00:01:08,020 --> 00:01:05,630
+in a room essential right we sit in the
+
+24
+00:01:09,760 --> 00:01:08,030
+room at a computer terminal where we can
+
+25
+00:01:13,510 --> 00:01:09,770
+pull up all of the images here you can
+26
+00:01:16,060 --> 00:01:13,520
+see two of my colleagues evaluating some
+
+27
+00:01:18,760 --> 00:01:16,070
+terrain from opportunity and they're
+
+28
+00:01:20,499 --> 00:01:18,770
+looking at the potential hazards they're
+
+29
+00:01:22,450 --> 00:01:20,509
+looking for any rocks and hills any
+
+30
+00:01:27,039 --> 00:01:22,460
+loose soil that they would want to avoid
+
+31
+00:01:31,330 --> 00:01:27,049
+driving into we can also look at these
+
+32
+00:01:32,800 --> 00:01:31,340
+images in 3d and so we can see Mars the
+
+33
+00:01:34,420 --> 00:01:32,810
+way the rover would see it or the way we
+
+34
+00:01:36,279 --> 00:01:34,430
+would see it if we were there so we can
+
+35
+00:01:39,490 --> 00:01:36,289
+get a better of assessment there you can
+
+36
+00:01:41,529 --> 00:01:39,500
+actually see the 3d glasses that we use
+
+37
+00:01:43,810 --> 00:01:41,539
+to be able to look at the terrain and
+
+38
+00:01:46,209 --> 00:01:43,820
+predict what rocks are dangerous and
+
+39
+00:01:47,560 --> 00:01:46,219
+what rocks are safe to go over and we
+
+40
+00:01:49,569 --> 00:01:47,570
+also have tools where we can measure
+
+41
+00:01:51,459 --> 00:01:49,579
+things in the image using the stereo
+
+42
+00:01:53,260 --> 00:01:51,469
+models that the rover has built for us
+
+43
+00:01:55,090 --> 00:01:53,270
+so we can see if there are any rocks
+
+44
+00:01:57,670 --> 00:01:55,100
+that are dangerous for the rover to
+
+45
+00:01:59,920 --> 00:01:57,680
+drive over now once we've assembled the
+
+46
+00:02:01,569 --> 00:01:59,930
+the plan of what we wanted to do we sit
+
+47
+00:02:03,849 --> 00:02:01,579
+down and we write the program and build
+
+48
+00:02:05,770 --> 00:02:03,859
+the sequence of commands and then we
+
+49
+00:02:08,800 --> 00:02:05,780
+simulate those commands we play them
+
+50
+00:02:11,710 --> 00:02:08,810
+back in a full model of the rover and
+51
+00:02:14,020 --> 00:02:11,720
+the terrain so we can see how the rover
+
+52
+00:02:15,610 --> 00:02:14,030
+is going to interact with the terrain we
+
+53
+00:02:17,320 --> 00:02:15,620
+do that both for driving or as you can
+
+54
+00:02:19,670 --> 00:02:17,330
+see in the video this is an example of
+
+55
+00:02:22,880 --> 00:02:19,680
+testing out the robotic
+
+56
+00:02:25,039 --> 00:02:22,890
+the ID D and a sequence of commands
+
+57
+00:02:28,550 --> 00:02:25,049
+replacing an instrument how involved is
+
+58
+00:02:30,949 --> 00:02:28,560
+that do you meet you know once a day and
+
+59
+00:02:32,899 --> 00:02:30,959
+figure out the marching orders for the
+
+60
+00:02:35,899 --> 00:02:32,909
+Rovers every day or right so pretty much
+
+61
+00:02:38,240 --> 00:02:35,909
+once a day we sit down with all the
+
+62
+00:02:40,069 --> 00:02:38,250
+engineers and all the scientists and we
+
+63
+00:02:41,390 --> 00:02:40,079
+come up with the general plan of what
+
+64
+00:02:42,830 --> 00:02:41,400
+the robots going to do for that day
+
+65
+00:02:44,809 --> 00:02:42,840
+where it's going to draw over what
+
+66
+00:02:46,910 --> 00:02:44,819
+targets it's going to look at with its
+
+67
+00:02:48,979 --> 00:02:46,920
+science instruments and then each sub
+
+68
+00:02:50,660 --> 00:02:48,989
+team goes off and builds their part of
+
+69
+00:02:53,149 --> 00:02:50,670
+the program and then we come back
+
+70
+00:02:55,309 --> 00:02:53,159
+together and we walk through every line
+
+71
+00:02:57,740 --> 00:02:55,319
+of the program that's going to go up to
+
+72
+00:03:00,470 --> 00:02:57,750
+the rover twice before we then send it
+
+73
+00:03:02,629 --> 00:03:00,480
+to the rover on Mars so we then send the
+
+74
+00:03:05,000 --> 00:03:02,639
+plan up the rover then execute the plan
+
+75
+00:03:06,770 --> 00:03:05,010
+and at the end of the day she calls back
+76
+00:03:08,539 --> 00:03:06,780
+home and lets us know how everything
+
+77
+00:03:10,220 --> 00:03:08,549
+went so we have to often wait a long
+
+78
+00:03:12,349 --> 00:03:10,230
+time before we know how things went on
+
+79
+00:03:14,809 --> 00:03:12,359
+Mars and and what's involved in the
+
+80
+00:03:17,690 --> 00:03:14,819
+planning you know isn't it mostly
+
+81
+00:03:19,250 --> 00:03:17,700
+scientists saying boy that walk over
+
+82
+00:03:21,259 --> 00:03:19,260
+there to the right really looks
+
+83
+00:03:24,319 --> 00:03:21,269
+interesting could you get us over there
+
+84
+00:03:26,240 --> 00:03:24,329
+right that's we are a science mission as
+
+85
+00:03:28,400 --> 00:03:26,250
+exciting as the engineering is we really
+
+86
+00:03:30,229 --> 00:03:28,410
+are a science mission so it all begins
+
+87
+00:03:32,000 --> 00:03:30,239
+with what the scientists sit down and
+
+88
+00:03:33,439 --> 00:03:32,010
+they say this is what we want to do here
+
+89
+00:03:34,789 --> 00:03:33,449
+are the interesting things around here
+
+90
+00:03:37,640 --> 00:03:34,799
+and we want to go look at these things
+
+91
+00:03:39,430 --> 00:03:37,650
+and then we try to evaluate all of those
+
+92
+00:03:41,659 --> 00:03:39,440
+different places they want to go and
+
+93
+00:03:43,039 --> 00:03:41,669
+hopefully we can accommodate all of them
+
+94
+00:03:44,750 --> 00:03:43,049
+but sometimes something might be too
+
+95
+00:03:46,490 --> 00:03:44,760
+dangerous or too difficult to reach and
+
+96
+00:03:48,439 --> 00:03:46,500
+we have to tell them but we can't quite
+
+97
+00:03:50,839 --> 00:03:48,449
+do that how about this and so there's a
+
+98
+00:03:52,789 --> 00:03:50,849
+little bit of negotiation going on but
+
+99
+00:03:55,280 --> 00:03:52,799
+we do start with the science first and
+
+100
+00:03:56,809 --> 00:03:55,290
+we really try to to get the scientists
+101
+00:03:59,089 --> 00:03:56,819
+what they need because ultimately that's
+
+102
+00:04:02,330 --> 00:03:59,099
+what we're trying to do well the purpose
+
+103
+00:04:05,270 --> 00:04:02,340
+of our talk today is figuring out ways
+
+104
+00:04:09,640 --> 00:04:05,280
+to free spirit right and here we have a
+
+105
+00:04:13,099 --> 00:04:09,650
+suggestion here from someone on Ustream
+
+106
+00:04:16,219 --> 00:04:13,109
+why don't you use a harness to make the
+
+107
+00:04:19,750 --> 00:04:16,229
+test rover weigh the same on Mars do you
+
+108
+00:04:22,520 --> 00:04:19,760
+really need to do that though well
+
+109
+00:04:24,140 --> 00:04:22,530
+sometimes we do have to do testing and
+
+110
+00:04:26,270 --> 00:04:24,150
+in fact you know when we're first
+
+111
+00:04:28,610 --> 00:04:26,280
+building a robot we often do that kind
+
+112
+00:04:31,040 --> 00:04:28,620
+of testing - exactly exactly simulate
+
+113
+00:04:32,990 --> 00:04:31,050
+what Mars gravity would have but our our
+
+114
+00:04:33,480 --> 00:04:33,000
+test Rover is actually lighter weight
+
+115
+00:04:35,460 --> 00:04:33,490
+than
+
+116
+00:04:37,439 --> 00:04:35,470
+one on Mars so it's not quite down to
+
+117
+00:04:40,469 --> 00:04:37,449
+Mars gravity but it's part of the way
+
+118
+00:04:42,120 --> 00:04:40,479
+there and actually that is a close
+
+119
+00:04:44,129 --> 00:04:42,130
+enough model for the kinds of things
+
+120
+00:04:46,200 --> 00:04:44,139
+we're trying to do actually the rover
+
+121
+00:04:48,270 --> 00:04:46,210
+being a little bit heavier actually
+
+122
+00:04:50,010 --> 00:04:48,280
+makes driving in this stuff a little bit
+
+123
+00:04:52,680 --> 00:04:50,020
+harder so we're sort of modeling the
+
+124
+00:04:54,420 --> 00:04:52,690
+worst case if you like by letting the
+
+125
+00:04:56,670 --> 00:04:54,430
+rover be a little bit too heavy for Mars
+126
+00:04:58,589 --> 00:04:56,680
+I think a lot of people are learning
+
+127
+00:05:01,499 --> 00:04:58,599
+about that for the first time that we
+
+128
+00:05:03,360 --> 00:05:01,509
+have two different Rovers there's a test
+
+129
+00:05:04,890 --> 00:05:03,370
+rover that's the same weight as the
+
+130
+00:05:07,170 --> 00:05:04,900
+rover on Mars
+
+131
+00:05:08,790 --> 00:05:07,180
+almost almost like it's missing some of
+
+132
+00:05:11,100 --> 00:05:08,800
+the batteries and the solar panels and
+
+133
+00:05:12,689 --> 00:05:11,110
+some of the other heavy components but
+
+134
+00:05:15,719 --> 00:05:12,699
+it's very close to the weight of the
+
+135
+00:05:17,640 --> 00:05:15,729
+rover on Mars and I'm not sure very many
+
+136
+00:05:20,159 --> 00:05:17,650
+people realize that there's a difference
+
+137
+00:05:22,589 --> 00:05:20,169
+and having to factor in gravity that's
+
+138
+00:05:25,350 --> 00:05:22,599
+right of course the gravity of Mars is a
+
+139
+00:05:26,999 --> 00:05:25,360
+little under 40% that aversive things
+
+140
+00:05:27,540 --> 00:05:27,009
+weigh about a third there that they do
+
+141
+00:05:30,059 --> 00:05:27,550
+on earth
+
+142
+00:05:31,950 --> 00:05:30,069
+and of course how you interact with the
+
+143
+00:05:34,620 --> 00:05:31,960
+ground is very dependent on your weight
+
+144
+00:05:35,909 --> 00:05:34,630
+so sometimes you really do need to take
+
+145
+00:05:38,610 --> 00:05:35,919
+that into account when you're modeling
+
+146
+00:05:40,649 --> 00:05:38,620
+things all right we're going to some of
+
+147
+00:05:44,189 --> 00:05:40,659
+the email questions now this one's from
+
+148
+00:05:46,770 --> 00:05:44,199
+mark park mark Parker could the denser
+
+149
+00:05:49,770 --> 00:05:46,780
+material be placed under one wheel at a
+
+150
+00:05:52,999 --> 00:05:49,780
+time on the soft side to raise that side
+151
+00:05:56,279 --> 00:05:53,009
+enough to clear the object underneath
+
+152
+00:05:57,659 --> 00:05:56,289
+you know that's a good suggestion a lot
+
+153
+00:05:59,129 --> 00:05:57,669
+of people have been thinking about that
+
+154
+00:06:01,680 --> 00:05:59,139
+kind of thing but unfortunately we don't
+
+155
+00:06:04,830 --> 00:06:01,690
+have any way to transport material under
+
+156
+00:06:06,570 --> 00:06:04,840
+the wheels the arm could only reach the
+
+157
+00:06:08,219 --> 00:06:06,580
+front wheels anyway but it also isn't
+
+158
+00:06:11,159 --> 00:06:08,229
+really strong enough to move large
+
+159
+00:06:12,689 --> 00:06:11,169
+amounts of material particularly we also
+
+160
+00:06:14,100 --> 00:06:12,699
+be at risk of damaging some of the
+
+161
+00:06:15,809 --> 00:06:14,110
+science instruments if we actually tried
+
+162
+00:06:17,939 --> 00:06:15,819
+to interact with the ground in that way
+
+163
+00:06:20,459 --> 00:06:17,949
+so fortunately we don't have a good way
+
+164
+00:06:22,200 --> 00:06:20,469
+to actually change the soil or add rocks
+
+165
+00:06:25,200 --> 00:06:22,210
+or add more soil with traction
+
+166
+00:06:27,839 --> 00:06:25,210
+underneath the left side okay this one's
+
+167
+00:06:30,029 --> 00:06:27,849
+from Rogers Silber does the rover
+
+168
+00:06:33,510 --> 00:06:30,039
+instrument arm have enough strength to
+
+169
+00:06:36,870 --> 00:06:33,520
+provide a useful force vector to free
+
+170
+00:06:39,240 --> 00:06:36,880
+the rover unfortunately not the arm can
+
+171
+00:06:41,730 --> 00:06:39,250
+only exert about 15 to 20 pounds of
+
+172
+00:06:44,430 --> 00:06:41,740
+force it really can't do anything
+
+173
+00:06:46,320 --> 00:06:44,440
+approximating lifting the rover or move
+
+174
+00:06:46,920 --> 00:06:46,330
+any large rocks or anything like that
+
+175
+00:06:48,659 --> 00:06:46,930
+if
+176
+00:06:51,270 --> 00:06:48,669
+really only designed to just sort of
+
+177
+00:06:53,010 --> 00:06:51,280
+gently contact the ground it was never
+
+178
+00:06:56,219 --> 00:06:53,020
+designed to actually really exert much
+
+179
+00:06:58,860 --> 00:06:56,229
+force how much force could the arm exert
+
+180
+00:07:01,740 --> 00:06:58,870
+if used in such an emergency sort of
+
+181
+00:07:04,140 --> 00:07:01,750
+push assist scenario right probably only
+
+182
+00:07:06,029 --> 00:07:04,150
+about 20 pounds of force so in a real
+
+183
+00:07:07,620 --> 00:07:06,039
+emergency we might give it a try that
+
+184
+00:07:09,930 --> 00:07:07,630
+might be the little bit of a difference
+
+185
+00:07:12,629 --> 00:07:09,940
+that we need but because that is such a
+
+186
+00:07:14,640 --> 00:07:12,639
+risk to possibly damaging the arm that's
+
+187
+00:07:16,560 --> 00:07:14,650
+a long way off before we try that but
+
+188
+00:07:18,300 --> 00:07:16,570
+you know as a last-ditch effort we might
+
+189
+00:07:19,920 --> 00:07:18,310
+give something like that a try but it
+
+190
+00:07:23,159 --> 00:07:19,930
+won't be much of a help just a little
+
+191
+00:07:25,560 --> 00:07:23,169
+okay this is an email question from Lee
+
+192
+00:07:27,960 --> 00:07:25,570
+Wilkerson the current position of the
+
+193
+00:07:30,779 --> 00:07:27,970
+spirit rover shows the right wheels on
+
+194
+00:07:33,240 --> 00:07:30,789
+what appears to be a firm surface with
+
+195
+00:07:36,000 --> 00:07:33,250
+the left wheels mired in the soft soil
+
+196
+00:07:38,820 --> 00:07:36,010
+layer however the rover in the test
+
+197
+00:07:41,850 --> 00:07:38,830
+sandbox has all wheels embedded in the
+
+198
+00:07:44,550 --> 00:07:41,860
+soft soil why was this scenario chosen
+
+199
+00:07:45,120 --> 00:07:44,560
+for the simulation that's a really good
+
+200
+00:07:47,400 --> 00:07:45,130
+question
+201
+00:07:49,740 --> 00:07:47,410
+so the particular simulant that we
+
+202
+00:07:52,830 --> 00:07:49,750
+picked has some interesting material
+
+203
+00:07:55,020 --> 00:07:52,840
+properties if you pack it down tightly
+
+204
+00:07:57,480 --> 00:07:55,030
+it actually stays kind of firm and
+
+205
+00:07:59,730 --> 00:07:57,490
+strong but if you fluff it up then it
+
+206
+00:08:01,529 --> 00:07:59,740
+becomes loose and fluffy like what we
+
+207
+00:08:02,790 --> 00:08:01,539
+see under the left side and we had
+
+208
+00:08:05,399 --> 00:08:02,800
+really hopes that we'd be able to use
+
+209
+00:08:08,189 --> 00:08:05,409
+one material compact it differently and
+
+210
+00:08:10,350 --> 00:08:08,199
+have that work for both of the different
+
+211
+00:08:12,839 --> 00:08:10,360
+types of soils we see on Mars right now
+
+212
+00:08:15,029 --> 00:08:12,849
+in fact today we're having a big meeting
+
+213
+00:08:16,409 --> 00:08:15,039
+with the engineers and the scientist to
+
+214
+00:08:19,260 --> 00:08:16,419
+look at the tests that we've already
+
+215
+00:08:21,540 --> 00:08:19,270
+done and see if that assumption holds up
+
+216
+00:08:24,180 --> 00:08:21,550
+we are seeing some differences and as a
+
+217
+00:08:26,310 --> 00:08:24,190
+result of that we may likely change that
+
+218
+00:08:27,810 --> 00:08:26,320
+soil that's under the right wheels so
+
+219
+00:08:29,850 --> 00:08:27,820
+excellent question and we may be
+
+220
+00:08:31,550 --> 00:08:29,860
+changing that for our next set of tests
+
+221
+00:08:34,440 --> 00:08:31,560
+well here's another question regarding
+
+222
+00:08:37,500 --> 00:08:34,450
+opportunity can opportunity help and
+
+223
+00:08:39,920 --> 00:08:37,510
+what is opportunity doing and we have
+
+224
+00:08:42,120 --> 00:08:39,930
+some little Jascha great questions
+
+225
+00:08:44,210 --> 00:08:42,130
+opportunity is unfortunately on the
+226
+00:08:46,980 --> 00:08:44,220
+complete opposite side of the planet and
+
+227
+00:08:50,850 --> 00:08:46,990
+given that they you know have driven at
+
+228
+00:08:53,190 --> 00:08:50,860
+most about ten miles in five and a half
+
+229
+00:08:53,790 --> 00:08:53,200
+years they probably will never meet each
+
+230
+00:08:56,720 --> 00:08:53,800
+other
+
+231
+00:08:59,790 --> 00:08:56,730
+so unfortunately opportunity can't help
+
+232
+00:09:01,340 --> 00:08:59,800
+but opportunity where we've now
+
+233
+00:09:07,380 --> 00:09:01,350
+got a video up that showing basically
+
+234
+00:09:09,329 --> 00:09:07,390
+opportunity's entire ten-mile + Trek she
+
+235
+00:09:11,490 --> 00:09:09,339
+started at a little tiny crater called
+
+236
+00:09:15,420 --> 00:09:11,500
+Eagle and then visited a larger crater
+
+237
+00:09:18,000 --> 00:09:15,430
+called an endurance and then drove
+
+238
+00:09:20,190 --> 00:09:18,010
+several miles across some sandy plains
+
+239
+00:09:22,259 --> 00:09:20,200
+to hit Erebus which are just about to
+
+240
+00:09:23,940 --> 00:09:22,269
+see the video catch up there and then
+
+241
+00:09:26,160 --> 00:09:23,950
+headed off to a really large crater
+
+242
+00:09:29,639 --> 00:09:26,170
+called Victoria which we spent about a
+
+243
+00:09:31,430 --> 00:09:29,649
+year exploring Victoria and now we're
+
+244
+00:09:35,009 --> 00:09:31,440
+actually heading towards the south
+
+245
+00:09:37,980 --> 00:09:35,019
+towards a about a huge crater that's
+
+246
+00:09:40,530 --> 00:09:37,990
+miles across called endeavour and that
+
+247
+00:09:42,210 --> 00:09:40,540
+is opportunity's next goal we're really
+
+248
+00:09:44,069 --> 00:09:42,220
+hoping this is a very old crater it's
+
+249
+00:09:46,470 --> 00:09:44,079
+very deep but it's very eroded so the
+
+250
+00:09:48,389 --> 00:09:46,480
+sides are gentle slopes so we're hoping
+251
+00:09:50,130 --> 00:09:48,399
+we can drive deeply into that crater and
+
+252
+00:09:51,780 --> 00:09:50,140
+see some really old layers that are
+
+253
+00:09:54,889 --> 00:09:51,790
+exposed nowhere else that the rover's
+
+254
+00:09:59,340 --> 00:09:54,899
+have bends did anyone ever imagine that
+
+255
+00:10:02,060 --> 00:09:59,350
+opportunity would be going that far no I
+
+256
+00:10:05,130 --> 00:10:02,070
+don't think anybody imagined that
+
+257
+00:10:06,900 --> 00:10:05,140
+certainly we all sort of hoped and even
+
+258
+00:10:10,319 --> 00:10:06,910
+maybe a little expected that we'd go far
+
+259
+00:10:13,740 --> 00:10:10,329
+beyond our 300 meter design guideline
+
+260
+00:10:15,660 --> 00:10:13,750
+but in terms of 10 plus miles no I don't
+
+261
+00:10:19,319 --> 00:10:15,670
+think that was in anybody's wildest
+
+262
+00:10:21,690 --> 00:10:19,329
+dreams but we long since gave up trying
+
+263
+00:10:23,220 --> 00:10:21,700
+to bet on when it would end because if
+
+264
+00:10:25,319 --> 00:10:23,230
+you bet against the Rovers you're just
+
+265
+00:10:27,030 --> 00:10:25,329
+going to lose they just keep going but I
+
+266
+00:10:29,250 --> 00:10:27,040
+guess we have to keep in mind that the
+
+267
+00:10:31,290 --> 00:10:29,260
+Rovers are getting older so Rovers are
+
+268
+00:10:34,560 --> 00:10:31,300
+getting older they each have some faulty
+
+269
+00:10:36,690 --> 00:10:34,570
+joints now spirit has a broken right
+
+270
+00:10:38,850 --> 00:10:36,700
+front drive wheel but opportunity also
+
+271
+00:10:40,170 --> 00:10:38,860
+has a steering wheel that a steering
+
+272
+00:10:42,600 --> 00:10:40,180
+motor on the right front wheel that's
+
+273
+00:10:45,600 --> 00:10:42,610
+broken and one of the shoulder joints is
+
+274
+00:10:47,610 --> 00:10:45,610
+also broken now gratefully these these
+
+275
+00:10:50,160 --> 00:10:47,620
+have not done anything other than
+276
+00:10:51,960 --> 00:10:50,170
+slightly slowed them down they certainly
+
+277
+00:10:54,810 --> 00:10:51,970
+are still able to do much of their
+
+278
+00:10:57,269 --> 00:10:54,820
+normal capabilities but they are aging
+
+279
+00:10:59,850 --> 00:10:57,279
+we're sort of creating a new field robot
+
+280
+00:11:02,009 --> 00:10:59,860
+gerontology because robots on earth when
+
+281
+00:11:03,240 --> 00:11:02,019
+this happens you dispense them we this
+
+282
+00:11:05,460 --> 00:11:03,250
+is the first time we've ever been an
+
+283
+00:11:07,880 --> 00:11:05,470
+experience where we've had to continue
+
+284
+00:11:10,889 --> 00:11:07,890
+operations with continually changing
+
+285
+00:11:13,350 --> 00:11:10,899
+performance and degradation over over
+
+286
+00:11:16,380 --> 00:11:13,360
+this many years well you know the sub J
+
+287
+00:11:19,319 --> 00:11:16,390
+opportunity keeps coming up and and
+
+288
+00:11:21,750 --> 00:11:19,329
+they're asking can opportunity help
+
+289
+00:11:24,210 --> 00:11:21,760
+well opportunity has helped well
+
+290
+00:11:25,980 --> 00:11:24,220
+actually yes opportunity did help we
+
+291
+00:11:28,110 --> 00:11:25,990
+wanted to do something a little bit
+
+292
+00:11:30,600 --> 00:11:28,120
+risky with spirit to help diagnose her
+
+293
+00:11:31,889 --> 00:11:30,610
+situation we wanted to take out the
+
+294
+00:11:34,740 --> 00:11:31,899
+robotic arm and take a picture
+
+295
+00:11:36,509 --> 00:11:34,750
+underneath the rover's belly so we could
+
+296
+00:11:38,759 --> 00:11:36,519
+see the middle wheels which we normally
+
+297
+00:11:40,769 --> 00:11:38,769
+can't see see how buried they were see
+
+298
+00:11:43,110 --> 00:11:40,779
+if there were rocks hung up on the rover
+
+299
+00:11:45,660 --> 00:11:43,120
+and because we were in some very
+
+300
+00:11:48,750 --> 00:11:45,670
+complicated geometry we didn't want to
+301
+00:11:50,190 --> 00:11:48,760
+pull spirits arm out if we didn't think
+
+302
+00:11:51,540 --> 00:11:50,200
+that this would actually be helpful
+
+303
+00:11:54,000 --> 00:11:51,550
+there was a risk of hitting it against
+
+304
+00:11:56,910 --> 00:11:54,010
+Iraq so opportunity actually did that
+
+305
+00:11:58,949 --> 00:11:56,920
+first we had opportunity deploy her arm
+
+306
+00:12:01,560 --> 00:11:58,959
+and take a picture underneath herself
+
+307
+00:12:03,960 --> 00:12:01,570
+and we got fabulous results we could
+
+308
+00:12:04,980 --> 00:12:03,970
+really see a lot of detail so after we
+
+309
+00:12:06,690 --> 00:12:04,990
+knew that it was going to be a
+
+310
+00:12:08,460 --> 00:12:06,700
+worthwhile pursuit we then figured out
+
+311
+00:12:10,650 --> 00:12:08,470
+how to get the arm safely out and did
+
+312
+00:12:12,449 --> 00:12:10,660
+take a picture which has told us a lot
+
+313
+00:12:15,300 --> 00:12:12,459
+we in fact do have a rock that may well
+
+314
+00:12:17,759 --> 00:12:15,310
+be touching the bottom of Spirit we can
+
+315
+00:12:19,590 --> 00:12:17,769
+see how buried the middle wheels are
+
+316
+00:12:21,240 --> 00:12:19,600
+which we couldn't see any other way and
+
+317
+00:12:24,540 --> 00:12:21,250
+so that has really helped our our
+
+318
+00:12:26,460 --> 00:12:24,550
+diagnostic problems well opportunity be
+
+319
+00:12:28,680 --> 00:12:26,470
+called upon again in the future do you
+
+320
+00:12:30,540 --> 00:12:28,690
+think if there's another risky thing
+
+321
+00:12:32,670 --> 00:12:30,550
+that we have to do we may test it on
+
+322
+00:12:34,800 --> 00:12:32,680
+opportunity first because opportunity is
+
+323
+00:12:37,050 --> 00:12:34,810
+in a much more benign terrain it's much
+
+324
+00:12:39,720 --> 00:12:37,060
+safer for her to try out new and
+
+325
+00:12:41,639 --> 00:12:39,730
+different things so and so certainly
+326
+00:12:43,319 --> 00:12:41,649
+that could happen all right
+
+327
+00:12:46,110 --> 00:12:43,329
+so here's another question another
+
+328
+00:12:49,920 --> 00:12:46,120
+suggestion from our viewers what about
+
+329
+00:12:52,980 --> 00:12:49,930
+using very slow wheels continuously
+
+330
+00:12:55,590 --> 00:12:52,990
+would that help get out of this soil
+
+331
+00:12:58,590 --> 00:12:55,600
+that is an excellent question that is
+
+332
+00:13:01,230 --> 00:12:58,600
+one of the things we are considering if
+
+333
+00:13:02,579 --> 00:13:01,240
+you if you slow down the wheels you you
+
+334
+00:13:04,710 --> 00:13:02,589
+might be able to get slightly better
+
+335
+00:13:06,810 --> 00:13:04,720
+traction if you're spinning fast you're
+
+336
+00:13:08,790 --> 00:13:06,820
+more likely to slip and so that is
+
+337
+00:13:10,530 --> 00:13:08,800
+certainly one of the things that in the
+
+338
+00:13:13,319 --> 00:13:10,540
+next round of testing we are considering
+
+339
+00:13:15,000 --> 00:13:13,329
+looking at we don't know yet how well
+
+340
+00:13:16,500 --> 00:13:15,010
+that will work but that is that is an
+
+341
+00:13:19,439 --> 00:13:16,510
+excellent suggestion and we are thinking
+
+342
+00:13:21,780 --> 00:13:19,449
+about giving that a try so how has the
+
+343
+00:13:23,430 --> 00:13:21,790
+testing you've been going you know are
+
+344
+00:13:26,069 --> 00:13:23,440
+you seeing certain things working
+
+345
+00:13:27,090 --> 00:13:26,079
+certain things not working at all right
+
+346
+00:13:30,030 --> 00:13:27,100
+so we've we've done
+
+347
+00:13:31,650 --> 00:13:30,040
+a bunch of testing I we've done forward
+
+348
+00:13:33,840 --> 00:13:31,660
+driving backward driving we've done even
+
+349
+00:13:35,610 --> 00:13:33,850
+some sort of side words crab driving as
+
+350
+00:13:38,460 --> 00:13:35,620
+we saw in the video a little while ago
+351
+00:13:40,080 --> 00:13:38,470
+and we are seeing that the good news is
+
+352
+00:13:42,270 --> 00:13:40,090
+even though we think this is sort of a
+
+353
+00:13:44,190 --> 00:13:42,280
+worst-case model with really slippery
+
+354
+00:13:46,500 --> 00:13:44,200
+soil and the wheels buried a little bit
+
+355
+00:13:49,020 --> 00:13:46,510
+more than they are on Mars we are seeing
+
+356
+00:13:50,880 --> 00:13:49,030
+that the rover rover is able to move at
+
+357
+00:13:53,640 --> 00:13:50,890
+least a little bit even under these very
+
+358
+00:13:55,350 --> 00:13:53,650
+adverse conditions and so that has told
+
+359
+00:13:57,720 --> 00:13:55,360
+us that we actually do have a good
+
+360
+00:14:01,200 --> 00:13:57,730
+chance of spirit being able to get out
+
+361
+00:14:06,360 --> 00:14:01,210
+once we start this on Mars at the moment
+
+362
+00:14:08,040 --> 00:14:06,370
+it looks like that we don't have quite
+
+363
+00:14:09,690 --> 00:14:08,050
+enough data to really distinguish which
+
+364
+00:14:11,640 --> 00:14:09,700
+individual things are going to be the
+
+365
+00:14:13,530 --> 00:14:11,650
+best but all of the things we've tried
+
+366
+00:14:16,320 --> 00:14:13,540
+have have moved them over a little bit
+
+367
+00:14:18,240 --> 00:14:16,330
+we're very optimistic about this idea of
+
+368
+00:14:22,140 --> 00:14:18,250
+possibly being able to crab and go
+
+369
+00:14:23,670 --> 00:14:22,150
+slightly uphill we do have unfortunately
+
+370
+00:14:25,350 --> 00:14:23,680
+we'd like to rely on gravity in these
+
+371
+00:14:27,390 --> 00:14:25,360
+situations but downhill from us is an
+
+372
+00:14:29,370 --> 00:14:27,400
+even worse sandpit than the one we're in
+
+373
+00:14:32,400 --> 00:14:29,380
+so we could get uphill and away from
+
+374
+00:14:34,590 --> 00:14:32,410
+these possible hazards that would be a
+
+375
+00:14:35,880 --> 00:14:34,600
+really good thing so that's one of the
+376
+00:14:37,580 --> 00:14:35,890
+things that we're definitely going to be
+
+377
+00:14:41,070 --> 00:14:37,590
+looking at as well and once again
+
+378
+00:14:43,170 --> 00:14:41,080
+explain crabbing it's padding so only
+
+379
+00:14:45,390 --> 00:14:43,180
+the front and rear wheels on the rover
+
+380
+00:14:47,910 --> 00:14:45,400
+steer but what we can do is we can steer
+
+381
+00:14:49,650 --> 00:14:47,920
+those wheels at an angle and then drive
+
+382
+00:14:51,330 --> 00:14:49,660
+them forward and they're all driving in
+
+383
+00:14:54,510 --> 00:14:51,340
+the same direction which kind of pulls
+
+384
+00:14:57,060 --> 00:14:54,520
+the rover to the side a little bit and
+
+385
+00:14:59,430 --> 00:14:57,070
+we have used that before to try to
+
+386
+00:15:00,900 --> 00:14:59,440
+approach science our science targets
+
+387
+00:15:03,600 --> 00:15:00,910
+when they were off to the side of us a
+
+388
+00:15:07,560 --> 00:15:03,610
+little in it has worked very well and in
+
+389
+00:15:09,600 --> 00:15:07,570
+fact we we were using that to try to get
+
+390
+00:15:11,910 --> 00:15:09,610
+us out of the sandpit originally before
+
+391
+00:15:13,290 --> 00:15:11,920
+we realized we had these other potential
+
+392
+00:15:15,230 --> 00:15:13,300
+hazards and needed to stop and
+
+393
+00:15:17,280 --> 00:15:15,240
+reevaluate and that was actually working
+
+394
+00:15:20,730 --> 00:15:17,290
+somewhat we were moving several
+
+395
+00:15:23,070 --> 00:15:20,740
+centimeters each day it is there any
+
+396
+00:15:24,720 --> 00:15:23,080
+similarity between what's happening to
+
+397
+00:15:26,790 --> 00:15:24,730
+spirit right now and what happened to
+
+398
+00:15:27,840 --> 00:15:26,800
+opportunity way back when when it was
+
+399
+00:15:30,570 --> 00:15:27,850
+going through the dunes
+
+400
+00:15:32,550 --> 00:15:30,580
+sure purgatory ripple is what you're
+401
+00:15:35,040 --> 00:15:32,560
+talking about opportunity got fairly
+
+402
+00:15:37,140 --> 00:15:35,050
+deeply embedded in a in a sand ripple
+
+403
+00:15:39,570 --> 00:15:37,150
+and yes there are some similarities the
+
+404
+00:15:40,900 --> 00:15:39,580
+soil there was a little bit fluffy we
+
+405
+00:15:43,000 --> 00:15:40,910
+did get the wheels barians
+
+406
+00:15:44,440 --> 00:15:43,010
+we had very little traction we would try
+
+407
+00:15:47,050 --> 00:15:44,450
+to drive a long distance and we'd only
+
+408
+00:15:48,790 --> 00:15:47,060
+move a few millimeters so in some ways
+
+409
+00:15:52,440 --> 00:15:48,800
+the soil that we're in is is kind of
+
+410
+00:15:54,760 --> 00:15:52,450
+similar the difference is is that
+
+411
+00:15:56,140 --> 00:15:54,770
+opportunity was going uphill over a
+
+412
+00:15:58,030 --> 00:15:56,150
+ripple and could then kind of use
+
+413
+00:15:59,920 --> 00:15:58,040
+gravity to back straight down the hill
+
+414
+00:16:03,400 --> 00:15:59,930
+through our tracks we unfortunately
+
+415
+00:16:04,990 --> 00:16:03,410
+spirits at a roll so we follow out our
+
+416
+00:16:07,330 --> 00:16:05,000
+tracks we don't get that extra little
+
+417
+00:16:09,640 --> 00:16:07,340
+advantage of gravity helping to pull us
+
+418
+00:16:11,380 --> 00:16:09,650
+down the hill so we have a slightly more
+
+419
+00:16:14,440 --> 00:16:11,390
+complicated geometry but a similar
+
+420
+00:16:18,520 --> 00:16:14,450
+problem is spirit more dug in though
+
+421
+00:16:20,560 --> 00:16:18,530
+also well actually opportunity was
+
+422
+00:16:23,010 --> 00:16:20,570
+pretty much as deeply dug in at
+
+423
+00:16:25,870 --> 00:16:23,020
+purgatory part of the problem was
+
+424
+00:16:29,110 --> 00:16:25,880
+opportunity drove about 40 or 50 meters
+
+425
+00:16:30,370 --> 00:16:29,120
+before we were before she realized that
+426
+00:16:31,750 --> 00:16:30,380
+she was slipping because she wasn't
+
+427
+00:16:33,190 --> 00:16:31,760
+looking where she was going at that
+
+428
+00:16:35,140 --> 00:16:33,200
+point that's very common to do when
+
+429
+00:16:36,760 --> 00:16:35,150
+there are no obstacles around we just
+
+430
+00:16:39,190 --> 00:16:36,770
+let the rover drive and what we think is
+
+431
+00:16:41,020 --> 00:16:39,200
+a safe area so it continued to spin the
+
+432
+00:16:42,970 --> 00:16:41,030
+wheels after she stopped making progress
+
+433
+00:16:46,780 --> 00:16:42,980
+for a long time and it actually dug in
+
+434
+00:16:49,660 --> 00:16:46,790
+quite significantly so so the rear
+
+435
+00:16:51,640 --> 00:16:49,670
+wheels and the in the middle wheels were
+
+436
+00:16:53,380 --> 00:16:51,650
+about as dug in is what we've seen on
+
+437
+00:16:56,290 --> 00:16:53,390
+spirit but the front wheels were not as
+
+438
+00:16:57,970 --> 00:16:56,300
+bad um something that lots of folks
+
+439
+00:17:01,120 --> 00:16:57,980
+aren't familiar with is the fact that
+
+440
+00:17:03,180 --> 00:17:01,130
+the rover's do kind of operate on its
+
+441
+00:17:06,550 --> 00:17:03,190
+own with their own brains and
+
+442
+00:17:09,520 --> 00:17:06,560
+autonomously were they operating at
+
+443
+00:17:12,820 --> 00:17:09,530
+autonomously automatism autonomously
+
+444
+00:17:14,800 --> 00:17:12,830
+tirelessly um with spirit doing that and
+
+445
+00:17:16,330 --> 00:17:14,810
+in fact some spirit was we had given her
+
+446
+00:17:18,100 --> 00:17:16,340
+a path to follow and she was
+
+447
+00:17:20,770 --> 00:17:18,110
+autonomously trying to follow that path
+
+448
+00:17:23,110 --> 00:17:20,780
+and in fact slipped off that path to
+
+449
+00:17:26,410 --> 00:17:23,120
+some extent and stopped the drive as a
+
+450
+00:17:28,750 --> 00:17:26,420
+result of failing uh one of the own
+451
+00:17:30,370 --> 00:17:28,760
+safety checks that she had in there she
+
+452
+00:17:33,400 --> 00:17:30,380
+realized she was off course and stopped
+
+453
+00:17:35,200 --> 00:17:33,410
+so yes she was driving autonomously when
+
+454
+00:17:37,690 --> 00:17:35,210
+this happened they had their own
+
+455
+00:17:39,370 --> 00:17:37,700
+intended it from getting even further
+
+456
+00:17:42,880 --> 00:17:39,380
+embedded and perhaps into a much worse
+
+457
+00:17:45,460 --> 00:17:42,890
+situation okay back to the questions can
+
+458
+00:17:49,720 --> 00:17:45,470
+the science team conduct tests while you
+
+459
+00:17:52,270 --> 00:17:49,730
+all attempt to help spirit escape yes we
+
+460
+00:17:54,310 --> 00:17:52,280
+have been doing a very extensive science
+
+461
+00:17:56,379 --> 00:17:54,320
+campaign while we have been sitting
+
+462
+00:17:57,999 --> 00:17:56,389
+in this location we have tons of power
+
+463
+00:17:59,919 --> 00:17:58,009
+thanks to the wind cleaning everything
+
+464
+00:18:01,690 --> 00:17:59,929
+off so we've been doing all kinds of
+
+465
+00:18:03,940 --> 00:18:01,700
+science experiments we have at least
+
+466
+00:18:06,490 --> 00:18:03,950
+four different soil types that we can
+
+467
+00:18:08,499 --> 00:18:06,500
+reach with robotic arm and we have done
+
+468
+00:18:09,310 --> 00:18:08,509
+detailed analyses of all four of these
+
+469
+00:18:11,769 --> 00:18:09,320
+soil types
+
+470
+00:18:15,090 --> 00:18:11,779
+we're continuing some further
+
+471
+00:18:17,560 --> 00:18:15,100
+investigations today in fact we have
+
+472
+00:18:19,269 --> 00:18:17,570
+brushed away the surface soil in one
+
+473
+00:18:21,789 --> 00:18:19,279
+location and we've actually gone down
+
+474
+00:18:23,649 --> 00:18:21,799
+and seen that the soil changes like
+
+475
+00:18:25,149 --> 00:18:23,659
+about a centimeter down so we're
+476
+00:18:27,460 --> 00:18:25,159
+actually investigating to see what that
+
+477
+00:18:29,289 --> 00:18:27,470
+slightly deeper soil is and we've
+
+478
+00:18:30,759 --> 00:18:29,299
+learned that this soil is a little bit
+
+479
+00:18:33,610 --> 00:18:30,769
+different than what we have seen
+
+480
+00:18:35,919 --> 00:18:33,620
+elsewhere on Mars it has a lot of sulfur
+
+481
+00:18:37,210 --> 00:18:35,929
+in it a little bit of silica and I'm
+
+482
+00:18:39,789 --> 00:18:37,220
+sure scientists could tell you better
+
+483
+00:18:41,619 --> 00:18:39,799
+what makes that unique but it it's it's
+
+484
+00:18:43,810 --> 00:18:41,629
+a very interesting discovery that we
+
+485
+00:18:46,180 --> 00:18:43,820
+have not seen anywhere else on Mars and
+
+486
+00:18:48,009 --> 00:18:46,190
+any signature that would lend you to
+
+487
+00:18:49,960 --> 00:18:48,019
+believe that water may be involved in it
+
+488
+00:18:53,230 --> 00:18:49,970
+absolutely whenever we find many of
+
+489
+00:18:57,039 --> 00:18:53,240
+these mineral compounds many of them are
+
+490
+00:18:58,659 --> 00:18:57,049
+the result of of water transporting
+
+491
+00:19:01,180 --> 00:18:58,669
+these minerals to these locations and
+
+492
+00:19:03,639 --> 00:19:01,190
+then evaporating away and we've seen
+
+493
+00:19:06,310 --> 00:19:03,649
+that at many locations all around home
+
+494
+00:19:08,440 --> 00:19:06,320
+plate and in fact this is an interesting
+
+495
+00:19:10,269 --> 00:19:08,450
+thing is that we wouldn't have have
+
+496
+00:19:11,560 --> 00:19:10,279
+found nearly as much of the stuff and
+
+497
+00:19:13,240 --> 00:19:11,570
+known it was nearly this widely
+
+498
+00:19:15,460 --> 00:19:13,250
+distributed without the broken right
+
+499
+00:19:17,919 --> 00:19:15,470
+front wheel because it's mostly buried
+
+500
+00:19:19,450 --> 00:19:17,929
+under the surface and only by digging a
+501
+00:19:22,450 --> 00:19:19,460
+hole which the right front wheel does
+
+502
+00:19:25,360 --> 00:19:22,460
+for us naturally most of the time we've
+
+503
+00:19:26,919 --> 00:19:25,370
+been finding this these mineral deposits
+
+504
+00:19:28,600 --> 00:19:26,929
+and salts in our tracks almost
+
+505
+00:19:30,220 --> 00:19:28,610
+everywhere we go that's interesting
+
+506
+00:19:32,289 --> 00:19:30,230
+because here's another question what
+
+507
+00:19:35,499 --> 00:19:32,299
+have you learned from this this set of
+
+508
+00:19:37,690 --> 00:19:35,509
+difficulties in the design of new Rovers
+
+509
+00:19:41,080 --> 00:19:37,700
+what have you learned that will help you
+
+510
+00:19:43,480 --> 00:19:41,090
+design the next rover right that's an
+
+511
+00:19:46,119 --> 00:19:43,490
+excellent question and I know one thing
+
+512
+00:19:48,100 --> 00:19:46,129
+that I would like to see on a future
+
+513
+00:19:49,930 --> 00:19:48,110
+Rover would be able to steer those
+
+514
+00:19:51,249 --> 00:19:49,940
+middle wheels if we could steer those
+
+515
+00:19:53,230 --> 00:19:51,259
+middle wheels and have all the wheels
+
+516
+00:19:55,480 --> 00:19:53,240
+help pull us sideways out of this stuff
+
+517
+00:19:58,419 --> 00:19:55,490
+that would be a nice thing that we could
+
+518
+00:20:01,960 --> 00:19:58,429
+do that would certainly be a big help
+
+519
+00:20:03,639 --> 00:20:01,970
+right about now other than that I can't
+
+520
+00:20:05,379 --> 00:20:03,649
+possibly imagine what we could do to
+
+521
+00:20:06,190 --> 00:20:05,389
+improve these Rovers they've lasted five
+
+522
+00:20:07,570 --> 00:20:06,200
+and a half years
+
+523
+00:20:09,550 --> 00:20:07,580
+they were designed for three months
+
+524
+00:20:10,870 --> 00:20:09,560
+they've been able to climb slopes much
+
+525
+00:20:12,730 --> 00:20:10,880
+steeper than they were supposed to be
+526
+00:20:15,100 --> 00:20:12,740
+able to climb they've been able to cross
+
+527
+00:20:16,780 --> 00:20:15,110
+sand dunes which they were never and to
+
+528
+00:20:19,270 --> 00:20:16,790
+to climb over
+
+529
+00:20:22,390 --> 00:20:19,280
+they've with it was stood massive
+
+530
+00:20:24,610 --> 00:20:22,400
+sandstorms and been cleaned off the
+
+531
+00:20:27,280 --> 00:20:24,620
+people who design and built this Rover
+
+532
+00:20:29,620 --> 00:20:27,290
+who many of whom are friends of mine and
+
+533
+00:20:31,540 --> 00:20:29,630
+colleagues of mine they did an amazing
+
+534
+00:20:32,590 --> 00:20:31,550
+job I can't really imagine what else we
+
+535
+00:20:34,000 --> 00:20:32,600
+could do to improve them they're
+
+536
+00:20:36,940 --> 00:20:34,010
+fabulous machines would they ever
+
+537
+00:20:40,480 --> 00:20:36,950
+consider putting say like a hoe that
+
+538
+00:20:42,430 --> 00:20:40,490
+would drag behind and dig soil up just
+
+539
+00:20:44,680 --> 00:20:42,440
+like this broken wheel would well in
+
+540
+00:20:46,570 --> 00:20:44,690
+fact the next Rover the Mars Science
+
+541
+00:20:48,850 --> 00:20:46,580
+Laboratory is actually specifically
+
+542
+00:20:50,380 --> 00:20:48,860
+designed to be able to core down even
+
+543
+00:20:52,180 --> 00:20:50,390
+deeper than we can dig with spirits
+
+544
+00:20:54,730 --> 00:20:52,190
+wheels and look at what's what's
+
+545
+00:20:56,380 --> 00:20:54,740
+underneath the soil so yes in fact we
+
+546
+00:20:57,450 --> 00:20:56,390
+have learned how important it is to be
+
+547
+00:21:00,130 --> 00:20:57,460
+able to get down below the surface
+
+548
+00:21:02,440 --> 00:21:00,140
+Phoenix our recent lander mission was
+
+549
+00:21:05,920 --> 00:21:02,450
+designed to be able to dig down as is
+
+550
+00:21:08,890 --> 00:21:05,930
+the Mars Science Laboratory ok here's a
+551
+00:21:11,290 --> 00:21:08,900
+question why worry about damaging the
+
+552
+00:21:14,830 --> 00:21:11,300
+science instruments on the arm if the
+
+553
+00:21:16,360 --> 00:21:14,840
+rover would otherwise be stuck well you
+
+554
+00:21:16,840 --> 00:21:16,370
+know that's that's a that's a good
+
+555
+00:21:18,340 --> 00:21:16,850
+question
+
+556
+00:21:20,710 --> 00:21:18,350
+I mean the real answer is we are a
+
+557
+00:21:22,870 --> 00:21:20,720
+science mission and if we can't continue
+
+558
+00:21:25,510 --> 00:21:22,880
+to fulfill our science objectives by
+
+559
+00:21:29,530 --> 00:21:25,520
+taking measurements and analyzing rocks
+
+560
+00:21:31,030 --> 00:21:29,540
+and soil then then you really have to
+
+561
+00:21:32,830 --> 00:21:31,040
+ask yourself is it worth driving
+
+562
+00:21:35,620 --> 00:21:32,840
+somewhere new when you you can't do much
+
+563
+00:21:37,150 --> 00:21:35,630
+other than take pictures so I don't know
+
+564
+00:21:39,760 --> 00:21:37,160
+and that that's certainly a question
+
+565
+00:21:41,680 --> 00:21:39,770
+well above my paygrade it comes to that
+
+566
+00:21:45,220 --> 00:21:41,690
+I'm sure somebody else will be making
+
+567
+00:21:46,780 --> 00:21:45,230
+that call but I certainly hope it
+
+568
+00:21:48,610 --> 00:21:46,790
+doesn't come to that all right well we
+
+569
+00:21:50,320 --> 00:21:48,620
+only have about five minutes left so
+
+570
+00:21:51,600 --> 00:21:50,330
+I'll try to go through a few more
+
+571
+00:21:54,610 --> 00:21:51,610
+questions a little bit more quickly
+
+572
+00:21:57,850 --> 00:21:54,620
+wasn't there some indication of the soil
+
+573
+00:22:00,160 --> 00:21:57,860
+changed through wheel resistance and why
+
+574
+00:22:03,910 --> 00:22:00,170
+wasn't spirit stopped as it entered this
+
+575
+00:22:06,100 --> 00:22:03,920
+soil actually there was no significant
+576
+00:22:07,930 --> 00:22:06,110
+difference in we looked very carefully
+
+577
+00:22:09,760 --> 00:22:07,940
+at the currents on the wheels and all of
+
+578
+00:22:13,060 --> 00:22:09,770
+this after we drove into the spot and
+
+579
+00:22:15,450 --> 00:22:13,070
+there was no obvious change in the
+
+580
+00:22:18,370 --> 00:22:15,460
+telemetry that we could monitor
+
+581
+00:22:20,400 --> 00:22:18,380
+unfortunately because the resistance of
+
+582
+00:22:22,750 --> 00:22:20,410
+the soil went down
+
+583
+00:22:23,830 --> 00:22:22,760
+but there were big piles of it around
+
+584
+00:22:24,940 --> 00:22:23,840
+there we're not getting a lot of
+
+585
+00:22:27,100 --> 00:22:24,950
+traction but the wheels are still
+
+586
+00:22:29,110 --> 00:22:27,110
+experiencing some resistance so that
+
+587
+00:22:31,750 --> 00:22:29,120
+unfortunately we couldn't really measure
+
+588
+00:22:33,070 --> 00:22:31,760
+that autonomously on board but it did
+
+589
+00:22:34,810 --> 00:22:33,080
+notice that it was slipping and
+
+590
+00:22:37,180 --> 00:22:34,820
+off-course and it stopped for that
+
+591
+00:22:40,180 --> 00:22:37,190
+reason can all the wheels be turned
+
+592
+00:22:42,370 --> 00:22:40,190
+independently well you sort of right so
+
+593
+00:22:44,260 --> 00:22:42,380
+the four steerable wheels can absolutely
+
+594
+00:22:47,200 --> 00:22:44,270
+be turned completely independently and
+
+595
+00:22:49,570 --> 00:22:47,210
+also can be driven independently but one
+
+596
+00:22:51,640 --> 00:22:49,580
+of the four that could be moved
+
+597
+00:22:53,650 --> 00:22:51,650
+independently is stuck is it right well
+
+598
+00:22:56,380 --> 00:22:53,660
+we can steer it just can't drive yeah
+
+599
+00:22:58,450 --> 00:22:56,390
+okay all right and the rest of the
+
+600
+00:23:01,030 --> 00:22:58,460
+question so doesn't that give you a huge
+601
+00:23:03,490 --> 00:23:01,040
+range of motions to try to get out other
+
+602
+00:23:04,780 --> 00:23:03,500
+than forward and backward well we have
+
+603
+00:23:06,310 --> 00:23:04,790
+done a lot more than forward and
+
+604
+00:23:07,570 --> 00:23:06,320
+backward we have steered the wheels to
+
+605
+00:23:09,550 --> 00:23:07,580
+the right at a couple of different
+
+606
+00:23:11,170 --> 00:23:09,560
+angles and tried to climb up hill we've
+
+607
+00:23:14,230 --> 00:23:11,180
+steered the wheels to the left and tried
+
+608
+00:23:16,090 --> 00:23:14,240
+to climb downhill we and we've done the
+
+609
+00:23:18,070 --> 00:23:16,100
+reverse going backwards doing that same
+
+610
+00:23:20,440 --> 00:23:18,080
+thing both trying to climb uphill and
+
+611
+00:23:22,210 --> 00:23:20,450
+downhill and we've even steered the
+
+612
+00:23:23,890 --> 00:23:22,220
+wheels in a circle around the right
+
+613
+00:23:25,780 --> 00:23:23,900
+front wheel which kind of can act as an
+
+614
+00:23:28,150 --> 00:23:25,790
+anchor in an attempt to try to pivot
+
+615
+00:23:30,160 --> 00:23:28,160
+around that wheel and see if we can move
+
+616
+00:23:32,880 --> 00:23:30,170
+the rover that way and all of these
+
+617
+00:23:35,290 --> 00:23:32,890
+things have shown some amount of motion
+
+618
+00:23:38,200 --> 00:23:35,300
+so there is potentials that any of these
+
+619
+00:23:40,450 --> 00:23:38,210
+things might be able to help us and in
+
+620
+00:23:42,010 --> 00:23:40,460
+fact we we are going to be discussing
+
+621
+00:23:43,360 --> 00:23:42,020
+that today and tomorrow we're going to
+
+622
+00:23:45,040 --> 00:23:43,370
+look at all of our data and figure out
+
+623
+00:23:47,980 --> 00:23:45,050
+exactly what the next things we want to
+
+624
+00:23:50,830 --> 00:23:47,990
+test are alright how about turning the
+
+625
+00:23:53,050 --> 00:23:50,840
+wheel somewhere around 90 degrees from
+626
+00:23:56,800 --> 00:23:53,060
+the front back axis of the rover and
+
+627
+00:23:58,570 --> 00:23:56,810
+trying to go out sideways right well the
+
+628
+00:24:01,270 --> 00:23:58,580
+wheels can only steer to about 60
+
+629
+00:24:03,640 --> 00:24:01,280
+degrees so we can't quite get to 90 but
+
+630
+00:24:05,200 --> 00:24:03,650
+we have done that testing and that
+
+631
+00:24:07,870 --> 00:24:05,210
+testing actually looks very promising
+
+632
+00:24:09,460 --> 00:24:07,880
+and right now at least that's on my
+
+633
+00:24:11,590 --> 00:24:09,470
+personal short list of things that I
+
+634
+00:24:13,780 --> 00:24:11,600
+would like to be trying on Mars because
+
+635
+00:24:15,610 --> 00:24:13,790
+yeah that can help us not only climb
+
+636
+00:24:17,830 --> 00:24:15,620
+uphill away from the sand pit it might
+
+637
+00:24:19,480 --> 00:24:17,840
+help pull the left wheels out of the
+
+638
+00:24:23,200 --> 00:24:19,490
+fluffy stuff and onto the firmer stuff
+
+639
+00:24:25,480 --> 00:24:23,210
+that we see on the right side so yes
+
+640
+00:24:26,980 --> 00:24:25,490
+that that is a very good idea and that
+
+641
+00:24:28,900 --> 00:24:26,990
+is certainly on my short list of things
+
+642
+00:24:31,150 --> 00:24:28,910
+to do here's a little bit more of a
+
+643
+00:24:33,400 --> 00:24:31,160
+personal question and we get this all
+
+644
+00:24:38,430 --> 00:24:33,410
+the time how does one get a
+
+645
+00:24:41,460 --> 00:24:38,440
+as a rover driver well me personally I
+
+646
+00:24:43,720 --> 00:24:41,470
+came to JPL right before we landed and
+
+647
+00:24:44,890 --> 00:24:43,730
+never had any hopes of being able to
+
+648
+00:24:46,900 --> 00:24:44,900
+work on this mission it was supposed to
+
+649
+00:24:49,360 --> 00:24:46,910
+be long over before anybody would let me
+
+650
+00:24:51,220 --> 00:24:49,370
+anywhere close to flight equipment but
+651
+00:24:52,870 --> 00:24:51,230
+they lasted so long and we're doing so
+
+652
+00:24:57,340 --> 00:24:52,880
+well they had to start hiring new people
+
+653
+00:25:00,220 --> 00:24:57,350
+and I'm a PhD in robotics robots are
+
+654
+00:25:01,750 --> 00:25:00,230
+what I do and I have to say there's a
+
+655
+00:25:03,970 --> 00:25:01,760
+little bit of luck involved my boss at
+
+656
+00:25:07,210 --> 00:25:03,980
+the time was doing the rover driver job
+
+657
+00:25:09,270 --> 00:25:07,220
+and so he recommended me as one of the
+
+658
+00:25:13,480 --> 00:25:09,280
+new people to come in and start training
+
+659
+00:25:15,730 --> 00:25:13,490
+and where does one major in robotics
+
+660
+00:25:17,950 --> 00:25:15,740
+well there are two places in the country
+
+661
+00:25:19,330 --> 00:25:17,960
+right now that offer PhDs in robotics
+
+662
+00:25:21,460 --> 00:25:19,340
+one is Carnegie Mellon which is where I
+
+663
+00:25:23,890 --> 00:25:21,470
+went and the other is Georgia Tech but a
+
+664
+00:25:25,390 --> 00:25:23,900
+lot of places either in the mechanical
+
+665
+00:25:26,980 --> 00:25:25,400
+or electrical or computer science
+
+666
+00:25:28,540 --> 00:25:26,990
+department have a lot of Robotics
+
+667
+00:25:30,400 --> 00:25:28,550
+researchers so there are lots of places
+
+668
+00:25:32,050 --> 00:25:30,410
+you can go and study robotics here's
+
+669
+00:25:34,240 --> 00:25:32,060
+another one this is cute has NASA
+
+670
+00:25:37,410 --> 00:25:34,250
+considered contracting some dune buggy
+
+671
+00:25:40,030 --> 00:25:37,420
+drivers and racers for their suggestions
+
+672
+00:25:42,160 --> 00:25:40,040
+well we have certainly solicited you
+
+673
+00:25:43,990 --> 00:25:42,170
+know suggestions from anybody out there
+
+674
+00:25:45,460 --> 00:25:44,000
+who wants to listen unfortunately what
+
+675
+00:25:48,340 --> 00:25:45,470
+the dune buggy drivers have that we
+676
+00:25:50,770 --> 00:25:48,350
+don't is acceleration these Rovers go at
+
+677
+00:25:53,320 --> 00:25:50,780
+something like one twentieth of a mile
+
+678
+00:25:55,270 --> 00:25:53,330
+an hour and you just can't build up any
+
+679
+00:25:56,470 --> 00:25:55,280
+momentum like you would like to do when
+
+680
+00:25:58,690 --> 00:25:56,480
+you're when you're in one of these stuck
+
+681
+00:26:02,350 --> 00:25:58,700
+situations you can't get it and muscle
+
+682
+00:26:05,490 --> 00:26:02,360
+got it gonna get is is is a very very
+
+683
+00:26:08,530 --> 00:26:05,500
+slow can spirit survived the winter
+
+684
+00:26:10,990 --> 00:26:08,540
+right now we've gotten the solar panels
+
+685
+00:26:13,480 --> 00:26:11,000
+nearly completely clean and right now it
+
+686
+00:26:14,770 --> 00:26:13,490
+looks like if if nothing's significantly
+
+687
+00:26:17,080 --> 00:26:14,780
+changes if we don't have another major
+
+688
+00:26:18,970 --> 00:26:17,090
+dust storm that spirit will be able to
+
+689
+00:26:21,910 --> 00:26:18,980
+survive the winter and probably won't
+
+690
+00:26:23,710 --> 00:26:21,920
+even have to park great in the simulator
+
+691
+00:26:26,080 --> 00:26:23,720
+have you tried to back out
+
+692
+00:26:28,540 --> 00:26:26,090
+we have tried going both backwards and
+
+693
+00:26:30,670 --> 00:26:28,550
+forwards the difficulty was going
+
+694
+00:26:32,590 --> 00:26:30,680
+backwards on Mars is actually not too
+
+695
+00:26:34,810 --> 00:26:32,600
+far behind the rover which is almost
+
+696
+00:26:36,610 --> 00:26:34,820
+level the the slope significantly
+
+697
+00:26:38,200 --> 00:26:36,620
+increases so we'd actually before we go
+
+698
+00:26:40,630 --> 00:26:38,210
+too far we'd actually be climbing uphill
+
+699
+00:26:42,520 --> 00:26:40,640
+so we might try to back up a little bit
+
+700
+00:26:44,710 --> 00:26:42,530
+to get away from whatever hazards might
+701
+00:26:46,360 --> 00:26:44,720
+be around the wheels and then go forward
+
+702
+00:26:47,350 --> 00:26:46,370
+again but yes we have been trying
+
+703
+00:26:49,750 --> 00:26:47,360
+forward backward
+
+704
+00:26:51,700 --> 00:26:49,760
+uphill downhill everything we can we can
+
+705
+00:26:53,260 --> 00:26:51,710
+reasonably get the vehicle to do all
+
+706
+00:26:55,990 --> 00:26:53,270
+right well we've reached the top of the
+
+707
+00:26:57,940 --> 00:26:56,000
+hour but one more question what's the
+
+708
+00:27:01,540 --> 00:26:57,950
+timeframe for trying all these great
+
+709
+00:27:03,790 --> 00:27:01,550
+ideas on spirit well we we want to try
+
+710
+00:27:05,470 --> 00:27:03,800
+these combinations of maneuvers first to
+
+711
+00:27:07,030 --> 00:27:05,480
+see if there's any set of motions that
+
+712
+00:27:08,860 --> 00:27:07,040
+seem to really be able to pull the rover
+
+713
+00:27:12,220 --> 00:27:08,870
+out of this and we may be doing that in
+
+714
+00:27:14,380 --> 00:27:12,230
+a slightly different soil simulant but
+
+715
+00:27:17,470 --> 00:27:14,390
+we're hoping possibly as early as the
+
+716
+00:27:18,970 --> 00:27:17,480
+end of the week of August 3rd so towards
+
+717
+00:27:21,040 --> 00:27:18,980
+the beginning to the middle of August is
+
+718
+00:27:24,310 --> 00:27:21,050
+when we really think we'll be starting
+
+719
+00:27:26,230 --> 00:27:24,320
+to work on Mars again so we may be
+
+720
+00:27:28,630 --> 00:27:26,240
+trying this out in just a few weeks just
+
+721
+00:27:28,930 --> 00:27:28,640
+a few weeks and it's you know not soon
+
+722
+00:27:31,450 --> 00:27:28,940
+enough
+
+723
+00:27:32,890 --> 00:27:31,460
+we need spirit what is ready to go well
+
+724
+00:27:34,900 --> 00:27:32,900
+good luck to you and thank you for
+
+725
+00:27:37,180 --> 00:27:34,910
+joining us and thanks for joining us
+726
+00:27:38,440 --> 00:27:37,190
+in the cosmic lounge here at the Jet
+
+727
+00:27:41,440 --> 00:27:38,450
+Propulsion Laboratory in Pasadena
+
+728
+00:27:46,930 --> 00:27:41,450
+California if you do wish to get updates
+
+729
+00:27:49,780 --> 00:27:46,940
+just go to our website wwlp.com sign up
+
+730
+00:27:52,360 --> 00:27:49,790
+to some of our feeds and also Twitter
+
+731
+00:27:54,220 --> 00:27:52,370
+Facebook Ustream they're all there

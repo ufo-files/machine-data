@@ -160,26 +160,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-acede4d9244a104e8fb9a06e",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "WAVRIN (59) 02.08.2013"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-3de8006f7052f9e08ddc2cfa",
           "segment_index": 10,
           "source_segment_id": "seg-3de8006f7052f9e08ddc2cfa",
           "source_text_sha256": "8248e0ecaef4594db7de0c12b5685c01714714bef414514ac1ae7cb9363203c3",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  WAVRIN (59) 02.08.2013 T1 Questionnaire terre-R.pdf WAVRIN (59) 02.08.2013 T2 Questionnaire terre-R.pdf",
           "translation_text_sha256": "19d983fa2544c18fc0aa6c9317859cd89b55d43aa4394a0f91973011ae8bcb2e"
         },
@@ -204,34 +195,14 @@
           "error": null,
           "field": "description",
           "page_id": "page-acede4d9244a104e8fb9a06e",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "23:08"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "23",
-                "8"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-c76bc94b1232c67e72bbb9c7",
           "segment_index": 12,
           "source_segment_id": "seg-c76bc94b1232c67e72bbb9c7",
           "source_text_sha256": "13ae4c01886a3dc5e6ca983239c8693b698bb5f921f6dfdf88e80a683e1e8312",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "Description: On August 2, 2013 at 23:08, a witness and his wife, driving a car (see map), observed in the clear sky four red-orange glowing points that eventually faded out one after the other. The Meteociel report indicates a light west wind. Observing glowing points in the sky for several minutes on a Saturday night clearly evokes Thai lanterns. Given the location, the objects were slowly moving away from the witnesses towards the East. The GEIPAN classifies this case as \"B\": probable observation of Thai lanterns.",
           "translation_text_sha256": "c7b95333120ea841cc7525fd6ddf0ce40fa3fd8cf1c207fc5b50d711f1758aac"
         }
@@ -244,13 +215,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-17T12:55:02Z",
+    "generated_at": "2026-09-26T21:35:38Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
