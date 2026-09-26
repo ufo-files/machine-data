@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-40d49a517ecc0fd50ed611d1",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-3bdbd31a239fda580d019d64",
           "segment_index": 8,
           "source_segment_id": "seg-3bdbd31a239fda580d019d64",
           "source_text_sha256": "b52a662d027742cbd3daf215c104ab98cc1dafbbf307d467c0814c7013075e7d",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Temoignage direct-R.pdf Enquete GEIPAN-R.pdf Witness 4photos.rar",
           "translation_text_sha256": "8bf95ea85c4c42d14e84d3181747f220d8bff2b97a433d062a49fc94fcf9b6cc"
         },
@@ -187,8 +178,8 @@
           "source_text_sha256": "97526d85c1855d0b365385af19bce44b8cea454a853618fe12e22a5119de1c12",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Description: On April 20, 2008, a passenger in a car took pictures of clouds through the windshield. While reviewing the photos, she noticed a spot that intrigued her and that she hadn't seen at the time of the taking. It remains difficult to analyze photos showing unexplained spots without visual observation to confirm them. A defect on the windshield or an insect could also explain the spot: we lack more precise information for this case.",
-          "translation_text_sha256": "9ab8fe9fac259597d12e78877dbd242ba9c30a18cbc7d88b127b4831a3e22c78"
+          "text": "Description: On April 20, 2008, a passenger in a car took pictures of clouds through the windshield. While reviewing the photos, she noticed a spot that intrigued her and that she hadn't seen at the time of the shooting. It remains difficult to analyze photos showing unexplained spots without visual observation to confirm them. A defect on the windshield or an insect could also explain the spot: we lack more precise information for this case.",
+          "translation_text_sha256": "2629996f2f5992d6095fcc4f6eaa2eb9d323f08abe93a2dc4fa47b20c068738d"
         }
       ],
       "source_page_id": "page-40d49a517ecc0fd50ed611d1"
@@ -199,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-28T04:52:37Z",
+    "generated_at": "2026-09-26T02:59:55Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

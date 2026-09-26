@@ -151,60 +151,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-bf1c9505be083bd4de434a7c",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "1.2008",
-                "163",
-                "2008309987",
-                "2008309999",
-                "2008310000",
-                "2008310007",
-                "2008310018",
-                "202",
-                "25",
-                "26.01.2008",
-                "26.01.2008",
-                "26.01.2008",
-                "26.01.2008",
-                "28.01.2008",
-                "30.01.2008",
-                "31.01.2008",
-                "4022008",
-                "590",
-                "96"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "translator-commentary",
-              "severity": "error",
-              "status": "unexpected-derived-commentary"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AFP25.01.2008"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-c3aafda042d81c2919e20d6b",
           "segment_index": 10,
           "source_segment_id": "seg-c3aafda042d81c2919e20d6b",
           "source_text_sha256": "6db26579ee803d6682c241d8540402021c1dd9650b0b2c78ceb473a906422094",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents: PV n°96 (2008310007).pdf PV n°590 (2008310018).pdf PV n°163 (2008310000).pdf PV n°202 (2008309987).pdf PV n°25 (2008309999).pdf Compte rendu.pdf Synthese.zip Tableau temoignages-R.pdf Tableau2 temoin-R.xls AFP25.01.2008.pdf AFP2 26.01.2008.pdf Forez2.pdf FRANCE3 26.01.2008.pdf Futura Sciences 31.01.2008.pdf LCI 04022008.fr.pdf LCI.fr.pdf Le FIGARO 28.01.2008.fr.pdf Le Figaro 30.01.2008.pdf NEWS OF TOMORROW 26.01.2008 .pdf YAHOO France 26.01.2008.pdf\n\n(Translation: Documents: PV n° 96 (2008310007).pdf, PV n° 590 (2008310018).pdf, PV n° 163 (2008310000).pdf, PV n° 202 (2008309987).pdf, PV n° 25 (2008309999).pdf Compte rendu.pdf Synthese.zip Tableau temoignages-R.pdf Tableau2 temoin-R.xls AFP25.01.2008.pdf AFP2 26.01.2008.pdf Forez2.pdf FRANCE3 26.01.2008.pdf Futura Sciences 31.01.2008.pdf LCI 04022008.fr.pdf LCI.fr.pdf Le FIGARO 28.01.2008.fr.pdf Le Figaro 30.01.2008.pdf NEWS OF TOMORROW 26.01.2008 .pdf YAHOO France 26.01.2008.pdf)",
-          "translation_text_sha256": "e1e92f6804b76e91e17e1fabf8668f68c5cb87b992af446f1296664b53365c1d"
+          "status": "machine-unreviewed",
+          "text": "Documents: PV n° 96 (2008310007).pdf PV n° 590 (2008310018).pdf PV n° 163 (2008310000).pdf PV n° 202 (2008309987).pdf PV n° 25 (2008309999).pdf Compte rendu.pdf Synthese.zip Tableau temoignages-R.pdf Tableau2 temoin-R.xls AFP25.01.2008.pdf AFP2 26.01.2008.pdf Forez2.pdf FRANCE3 26.01.2008.pdf Futura Sciences 31.01.2008.pdf LCI 04022008.fr.pdf LCI.fr.pdf Le FIGARO 28.01.2008.fr.pdf Le Figaro 30.01.2008.pdf NEWS OF TOMORROW 26.01.2008 .pdf YAHOO France 26.01.2008.pdf",
+          "translation_text_sha256": "674e8ea544b4af8556ba45198ed4969f9d074d3e8329a1a16fe9017641593093"
         },
         {
           "end_ms": null,
@@ -311,13 +270,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T05:12:47Z",
+    "generated_at": "2026-09-26T02:48:55Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-b74f0236338f204f561ff813",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSCF0019.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-8f7afbf6769d406cbc3cc338",
           "segment_index": 8,
           "source_segment_id": "seg-8f7afbf6769d406cbc3cc338",
           "source_text_sha256": "23da4fd3ca361a17811aba643ec66c8226daa8a0364cd50d7e01421fa0062e61",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  IPN carte ciel 1.jpg IPN carte ciel 2.jpg IPN synthese-R.pdf IPN rapport meteo.jpg Photo temoin DSCF0019.JPG Temoignage direct-R.pdf",
           "translation_text_sha256": "4c520bcf51696c12cafb853ffdb63e7c0472831fe1aebde493ccc93e78382a00"
         },
@@ -209,13 +200,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-08T09:06:08Z",
+    "generated_at": "2026-09-26T03:12:27Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
