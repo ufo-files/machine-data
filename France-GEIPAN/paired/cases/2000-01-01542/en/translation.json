@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-cd2b3df76de1395389b4eff7",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "SEPRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-de5c198e5633b1d10cdb6d94",
           "segment_index": 10,
           "source_segment_id": "seg-de5c198e5633b1d10cdb6d94",
           "source_text_sha256": "d1b4669b49b346354e35167d89a4476abade7f32cf05195185f8d69b8bbee44b",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Compte rendu enquete.pdf Compte rendu SEPRA.pdf Carte lieux observations.pdf PV n° 25 (2000307870).pdf",
           "translation_text_sha256": "4fdbb8d859b6065bf070cf0ebd9ddd77a59e83a41e41a281fa4d14a79cf13ad5"
         },
@@ -208,7 +199,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-cd2b3df76de1395389b4eff7",
           "qa_findings": [
@@ -216,67 +207,43 @@
               "added_in_translation": [],
               "check": "dates",
               "missing_from_translation": [
-                "1999-12-31",
-                "2000-01-10"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "19:30",
-                "20:00",
-                "21:00",
-                "21:05"
+                "1999-12-31"
               ],
               "severity": "error",
               "status": "mismatch"
             },
             {
               "added_in_translation": [
-                "0",
-                "0",
-                "1",
-                "19",
-                "2",
-                "20",
-                "21",
-                "21",
-                "30",
-                "5",
-                "51",
-                "51",
-                "51"
+                "07:30",
+                "09:00"
               ],
-              "check": "numbers",
+              "check": "times",
               "missing_from_translation": [
-                "10",
-                "2000",
-                "31.12.1999"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
+                "19:30",
+                "21:00"
               ],
               "severity": "error",
               "status": "mismatch"
+            },
+            {
+              "added_in_translation": [],
+              "check": "numbers",
+              "missing_from_translation": [
+                "2000"
+              ],
+              "severity": "warning",
+              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-4ea207c7d65d4eab27759268",
           "segment_index": 13,
           "source_segment_id": "seg-4ea207c7d65d4eab27759268",
           "source_text_sha256": "f980aae924270acb4d91c95d512c548111ae2e4cf911345b3628f0fdaaf9c3b6",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "**Case Summary: Re-examination of Two Old UFO Observations (51)**\n\nThe GEIPAN (UAP Group) is reviewing old cases to enhance the accuracy of conclusions, leveraging new technical tools (software) and investigative experience gained over the years. This review focuses on two observation cases previously classified as D and named BROYES (51) 10.01.2000 and SOMMESOUS (51) on 31.12.1999.\n\n**Observation 1: Broyes (51), 10 January 2000**\n\nAt around 21:00-21:05, a driver on D39 near the water tower in Broyes (51) was suddenly blinded by a very bright light penetrating the car through the sunroof. The engine and radio stopped abruptly, but the ignition remained on. After a minute, the phenomenon dissipated, the radio restarted, and the driver, terrified, was able to drive home.\n\nFollowing a call from the Operational Center of the Gendarmerie, officers visited the witness, who was severely shocked, then the observation site. The sky was clear and starry, with significant and visible air traffic (flaring lights). The temperature was winter-like but without freezing. No power line disruptions were observed along the road. Public lighting was absent at the location. No military flights were reported that night.\n\nOn-site investigation by SEPRA and a car reconstruction revealed the observation lasted between 15-30 seconds, not a minute as initially reported by the witness. The Gendarmerie also found another witness who observed a similar phenomenon but several days earlier.\n\n**Observation 2: Sommesous (51), 31 December 1999**\n\nBetween 19:30 and 20:00, a driver on N4 near Sommesous (51) was blinded by a white flash-like light. No sound was heard. All dashboard lights illuminated, and the car's engine abruptly stopped, putting it in neutral. The engine restarted quickly on its own. A mechanic's check on the battery terminals found nothing unusual.\n\nThese two cases, occurring within a few kilometers and days of each other, show remarkable similarities:\n\n- A non-localized light (or flash) observed by a car driver.\n- Engine stop and dashboard disturbances.\n\nThe BROYES (51) 10.01.2000 case is stranger as the light is blinding and enters the vehicle. No physical explanation can be considered given the unusual description. Only the hypothesis of induced or heightened strangeness by the witness can be made, but we have no evidence to weigh this.\n\n- The witness had watched the TV series *The X-Files* shortly before the event, during the broadcast of season 4, which includes a scene where a UFO flies over a vehicle and illuminates it with a dazzling white light. The witness may have experienced genuine strangeness and been unconsciously influenced by science fiction during the memory or narration of the event.\n- The young witness, living with his parents, may have been traumatized by an unrelated event and, for reasons related to occasional drug use (admitted by him) or otherwise, couldn't justify his state to his parents upon returning home without inventing an experience directly inspired by *The X-Files*.\n\nFor the SOMMESOUS (51) case, physical hypotheses (meteor, flash photograph, or firework spark a few hours before the turn of the millennium) lack supporting evidence. The consistency of these observation cases is POOR.\n\n**Case of BROYES (51) 10.01.2000:**\n\n- Information: An on-site investigation was conducted by the Gendarmerie and SEPRA (then GEIPAN) shortly after the event, but we only have a brief report of this investigation. No audio, video, or written records of interviews and reconstructions exist in the file.\n- Reliability: The influence of science fiction cannot be ruled out given the similarity of the narrative to a scene from *The X-Files*. The impact of occasional drug use is also a consideration.\n\n**Case of SOMMESOUS (51) on 31.12.1999:**\n\n- Information: The Gendarmerie conducted no further investigation beyond taking the witness's statement as SEPRA made no requests or inquiries, and the Gendarmerie didn't perceive enough interest from SEPRA to investigate independently.\n- Reliability: The statement was not spontaneous. The witness, having previously heard the narrative of the BROYES (51) case, may have been naturally impressed and drew parallels with their experience, enhancing the strangeness and influencing (unconsciously) aspects of their statement.\n\nA thorough on-site investigation would have:\n\n- Explored and potentially validated one of the physical hypotheses for this case.\n- Alternatively, confirmed a broad enough range of similarities between the two cases to consider them from the same phenomenon, leading to:\n    - Posing hypotheses to explain the phenomenon.\n    - At a minimum, increasing the consistency of the observation with two witnesses.\n\nThe strangeness of both cases, though unequal, is significant. The consistency is too low to support an unexplained character for either case or both combined. Thus, GEIPAN classifies both cases as C: Lack of Reliable Information.",
-          "translation_text_sha256": "3373973f8716280634294fcaf8d0dc81e242074ec6754c23837440e6704aa22a"
+          "status": "needs-review",
+          "text": "**Description:** The GEIPAN is reviewing old cases to improve the accuracy of conclusions. Thanks to new technical tools (software) and investigative experience gained over the years, this review sometimes results in a change in classification. This review focuses on two observation cases previously classified as D and named BROYES (51) 10.01.2000 and SOMMESOUS (51) on 31.12.1999.\n\nOn January 10, 2000, between 9:00 and 9:05 PM, a driver on D39 near the water tower in Broyes (51) was suddenly totally blinded by a very bright light that entered the car through the sunroof. The engine and car stereo abruptly stopped, but the ignition remained on. According to the witness, after a minute, the phenomenon dissipated, the stereo restarted, and he was able to restart his car, terrified. Following a phone call from the Operational Center of the Gendarmerie, officers immediately visited the witness's home, who was severely shocked, then the observation site. They noted that the sky was clear and starry (shooting stars) and that air traffic was heavy and visible (flaring lights). The temperature was winter-like but without freezing. No power line disruptions were observed along the road. Additionally, at this location, public lighting is non-existent. No flights were reported that night, according to military sources.\n\nOn-site investigation by SEPRA and a car reconstruction revealed that the observation lasted between 15 and 30 seconds, not a minute as initially reported by the witness. The gendarmerie found another witness who observed a similar phenomenon but several days earlier.\n\nOn 31 December 1999, between 7:30 and 8:00 PM, a driver on N4 near Sommesous (51) was blinded by a white flash-like light. No noise was heard. All dashboard lights illuminated, and the car's engine abruptly stopped, putting it in neutral. The engine started again quickly on its own. A mechanic's check at the witness's initiative on the car battery terminals found nothing unusual.\n\nWe have two observation cases with high spatial (a few kilometers) and temporal (10 days) proximity, appearing to be highly similar (see the single investigation report for both cases):\n\n- A non-localized light (or flash) perceived by a car driver;\n- Engine stop, dashboard disturbances.\n\nThe BROYES (51) 10.01.2000 case is stranger as the light is blinding and enters the vehicle. No physical hypothesis can be considered given the strange description. We can only speculate about induced or heightened strangeness by the witness himself, but we have no elements to weigh this:\n\n- The witness had watched the TV series *The X-Files* shortly before the event, during the broadcast of season 4 on M6, which includes a scene where a PAN flies over a vehicle and illuminates it with a dazzling white light. The witness may have experienced genuine strangeness that night and been unconsciously influenced by science fiction during the memorization or recounting of the events;\n- The young witness, living with his parents, may have been traumatized by an event unrelated to the PAN and, for reasons related to his occasional drug use (admitted by him) or otherwise, been unable to justify his state to his parents upon returning home other than by inventing an experience directly inspired by *The X-Files*.\n\nFor the SOMMESOUS (51) case on 31.12.1999, physical hypotheses (meteor, flash photograph, or firework spark a few hours before the turn of the millennium) lack supporting elements. The consistency of these observation cases is POOR.\n\n**For BROYES (51) 10.01.2000:**\n\n- In terms of information: While an on-site investigation was conducted by the Gendarmerie and SEPRA (the GEIPAN at the time) shortly after the event, we only have a brief report of this investigation. No audio, video, or written records of various interviews and reconstructions during this investigation are included in the file;\n- In terms of reliability: One may question the influence of science fiction given the similarity of the account to a scene from *The X-Files* (as mentioned above). One may also question the influence of occasional drug use (as mentioned above).\n\n**For SOMMESOUS (51) on 31.12.1999:**\n\n- In terms of information: The Gendarmerie conducted no further investigation beyond taking the witness's statement because SEPRA made no requests or inquiries, and the Gendarmerie did not perceive enough interest from SEPRA to investigate on their own;\n- In terms of reliability: The statement was not spontaneous. The witness, who had previously heard the account of the BROYES (51) case, may have been naturally impressed by the narrative and made a connection with their experience, enhancing the strangeness and influencing (unconsciously) certain aspects of their statement. Only a thorough on-site investigation could have:\n\n- Explored and possibly validated one of the physical hypotheses (as mentioned above) specific to this case;\n- Alternatively, confirmed a sufficiently extensive range of similarity between the two cases to consider them as stemming from the same phenomenon and, from there, cross-referencing information:\n\n- Potentially proposing hypotheses to explain the phenomenon;\n- At a minimum, increasing the consistency of this observation to two reliable testimonies.\n\nThe strangeness of both cases, though unequal, is significant. The consistency is too low to support an unexplained character for either case or both combined. Consequently, the GEIPAN classifies both cases as C: Lack of reliable information.",
+          "translation_text_sha256": "5fdec443e3d0db549dd41976f27c7dea7f1aac1df90029107e2e7fc730025378"
         }
       ],
       "source_page_id": "page-cd2b3df76de1395389b4eff7"
@@ -287,13 +254,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T00:02:42Z",
+    "generated_at": "2026-09-26T01:02:10Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
