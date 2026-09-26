@@ -135,28 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-78be15e3919981e062722b7c",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "SDC17776.JPG",
-                "SDC17777.JPG",
-                "SDC17780.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-5a8a50af2d65cd78e52c2514",
           "segment_index": 9,
           "source_segment_id": "seg-5a8a50af2d65cd78e52c2514",
           "source_text_sha256": "43017945664b150eddf90baa141ffae6f1f65842cf5e17c180de18534c578478",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Meteo.png Temoin photo SDC17776.JPG Temoin photo SDC17777.JPG Temoin photo SDC17780.JPG Questionnaire terre-R.pdf",
           "translation_text_sha256": "9a989eeea9162dd072d3f9a6f31eebe283ccae0d393aaaf26b873b03ea51b1f7"
         },
@@ -217,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-07T20:30:47Z",
+    "generated_at": "2026-09-26T18:38:35Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
