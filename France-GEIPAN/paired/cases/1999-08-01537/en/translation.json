@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-ff35417a36b321f7208a491e",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-99-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-961f20d6b16c9a5909b94b0c",
           "segment_index": 8,
           "source_segment_id": "seg-961f20d6b16c9a5909b94b0c",
           "source_text_sha256": "d9dbf78fe2f473db2688c0b4b680e0ca1a8f9ef78c3359b98651ba31c6c1f7b3",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  1999208311-AERO-99-R.pdf",
           "translation_text_sha256": "358f5e1b01c5e2cfbffa327f6b85cf83c46d8503a861d8b81685886517d76055"
         },
@@ -220,13 +211,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-25T19:19:07Z",
+    "generated_at": "2026-09-26T00:42:16Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
