@@ -119,26 +119,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-a409dcf6a7d1e37a77225d55",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-02-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-5050a44baae19c31958bd281",
           "segment_index": 8,
           "source_segment_id": "seg-5050a44baae19c31958bd281",
           "source_text_sha256": "d172fddc218eaefb650e682d3ceba9de62bcc6b3a0ec973a88f15bd6c1f8d650",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  2002209778-AERO-02-R.pdf",
           "translation_text_sha256": "dd06006e4939a73dd6bde14fae176d270f86c4a2f77cc281ba6a420acfcc9527"
         },
@@ -207,8 +198,8 @@
           "source_text_sha256": "d3dbd863cb37bf814581d26df2ec0b053132709b06b5982a166bfeb78f66bda8",
           "start_ms": null,
           "status": "needs-review",
-          "text": "Description: The crew of an A320 flight from Lisbon to Orly observed on October 16, 2002, at approximately 7:30 PM UTC, the very brief passage of two very bright lights above their aircraft at a great distance, estimated at over 35 km. The trajectory was fast and descending. The observation is likely that of an atmospheric reentry, indeed identified as such by the crew.",
-          "translation_text_sha256": "9e1a73ee621a45bd902cf44d6ca2c57fec37704509672d08a8ae968fe13a8d9a"
+          "text": "Description: The crew of an A320 flight from Lisbon to Orly observed on October 16, 2002, at approximately 7:30 PM UTC, the very brief passage of two very bright lights above their aircraft at a great distance, estimated at over 35 kilometers. The trajectory was fast and descending. The observation is likely that of an atmospheric reentry, indeed identified as such by the crew.",
+          "translation_text_sha256": "eb1ddf0f66b29e4b8665f71fb629aee0eb6a9e13998ad9728602098b79378237"
         }
       ],
       "source_page_id": "page-a409dcf6a7d1e37a77225d55"
@@ -219,13 +210,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-26T12:32:37Z",
+    "generated_at": "2026-09-26T02:03:33Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
