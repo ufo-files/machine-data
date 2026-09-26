@@ -199,28 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-67d1b7b729c6e93a6e6fe343",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-61b09361cb00c0ad3b9c4c31",
           "segment_index": 13,
           "source_segment_id": "seg-61b09361cb00c0ad3b9c4c31",
           "source_text_sha256": "a0d2d0096bf5a35bb920fbef2c34e6642b8c4fcd08ba113585816bcfac8c6798",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 29, 2008, at 10:45 PM, a witness looked out their closed window and was intrigued by the presence of a white light similar to a star but much brighter in the northwest. The observation lasted approximately 6 seconds during which the witness saw the UFO move, stop, and then disappear. No other testimonies were collected. This testimony presents little strangeness. The various descriptions, in fact, refer to a star. The slight strangeness could come from this description (\"fixed then light acceleration then again fixed\") but it is not consistent with another (\"The phenomenon moved slowly towards the north then stopped and disappeared\"). Additionally, the observation duration is short (6 seconds). We also note that this testimony is given nearly 18 months after the observation. In total, GEIPAN considers that they do not have enough reliable information to conclude on a category where nothing rules out a star (the proximity of a moving cloud can give the impression of a movement before the gradual extinction interpreted as a rapid escape in distance) or a Thai lantern. GEIPAN classifies this case as C: lack of information.",
-          "translation_text_sha256": "f77083dd5664bef0dbb18254459098c3a14288aae759623200dbf01aee4244fd"
+          "status": "machine-unreviewed",
+          "text": "Description: On August 29, 2008, at 10:45 PM, a witness looked out their closed window and was intrigued by the presence of a white light similar to a star but much brighter in the northwest. The observation lasted approximately 6 seconds during which the witness saw the PAN move, stop, and then disappear. No other testimonies were collected. This testimony presents little strangeness. In fact, the various descriptions refer to a star. The slight strangeness might come from this description (\"fixed then slight acceleration then again fixed\") but it is inconsistent with another (\"The phenomenon moved slowly towards the north then stopped and disappeared\"). Additionally, the observation duration is short (6 seconds). We also note that this testimony is given nearly 18 months after the observation. In total, GEIPAN considers that they do not have enough reliable information to conclude on a category where nothing rules out a star (proximity to a moving cloud can give the impression of movement before the gradual extinction interpreted as a quick escape in distance) or a Thai lantern. GEIPAN classifies this case as C: Lack of Information.",
+          "translation_text_sha256": "b514ae0bfe389dac7190165b0a0ccea4cbcafccbc8216f9428d551c040679a63"
         }
       ],
       "source_page_id": "page-67d1b7b729c6e93a6e6fe343"
@@ -231,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-18T16:54:35Z",
+    "generated_at": "2026-09-26T03:54:38Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
