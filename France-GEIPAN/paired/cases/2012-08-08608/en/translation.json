@@ -183,28 +183,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-bb76d73cf1a02eb0e186be09",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-7966c32ec85c539f834c4c2f",
           "segment_index": 12,
           "source_segment_id": "seg-7966c32ec85c539f834c4c2f",
           "source_text_sha256": "6773a0bd9a7a44324486af0fac6d282c5363a807bfded7fddbafaf5675a7c199",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 17, 2012, at 11:35 PM, an individual, while observing the sky with binoculars, saw a bright point of light moving erratically in a zigzag pattern and flickering irregularly. The testimony was collected in November 2013. An astronautical verification indicates two satellites that followed a trajectory close to the observed path: Cosmos 2322 and 2360; however, they are of low luminosity. The flickering does indeed evoke an airplane, but the zigzag trajectory seems inconsistent with this hypothesis. This area is frequently overflown by commercial airplanes on a north-south axis: the likelihood of an airplane on this trajectory is very high. The zigzag movement is certainly surprising, but this illusion is not uncommon: for airplanes, if collision lights are synchronized in opposition, the witness interprets the alternative lighting of two distant lights as a zigzag. Furthermore, the auto-kinetic illusion (see: Perception of the movement of a bright point in the sky) could contribute to this effect. The GEIPAN classifies this case as \"B\": probable observation of an airplane with a perceptual illusion (flickering lights and auto-kinetic illusion).",
-          "translation_text_sha256": "a9e5e3bd6bac19ca2fa4ee1fc3a1e749e5ae7a2b14fc8f4b72c63a965a9fe10d"
+          "status": "machine-unreviewed",
+          "text": "Description: On August 17, 2012, at 11:35 PM, a person, while observing the sky with binoculars, saw a bright point of light moving in a zigzag pattern and blinking irregularly. The testimony was collected in November 2013. An astronautical verification indicates two satellites having followed a close trajectory: Cosmos 2322 and 2360; however, they are of low luminosity. The strobe lights do indeed suggest an airplane, but the zigzag trajectory seems inconsistent with that hypothesis. This area is frequently overflown by commercial airplanes on a North/South axis: the probability of having an airplane on this trajectory is very high. The zigzagging path is certainly surprising, but this illusion is not rare: for planes, if the collision lights are synchronized in opposition, the witness interprets the alternating lighting of two distant lights as a zigzag. In addition, this effect can also be attributed to the autokinetic illusion (see: Perception of motion of a bright point in the sky). The GEIPAN classifies this case as \"B\": probable observation of an aircraft, with a perceptual illusion (flashing lights and autokinesis).",
+          "translation_text_sha256": "360b0d4a51a9501626297d8dcd74d6bd678ad0bfad776f487bce92e4fa581157"
         }
       ],
       "source_page_id": "page-bb76d73cf1a02eb0e186be09"
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-16T14:35:51Z",
+    "generated_at": "2026-09-26T11:05:52Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
