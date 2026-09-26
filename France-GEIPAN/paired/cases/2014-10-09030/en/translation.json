@@ -199,31 +199,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-760241a9235d388e8343fc60",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-14a07bc4e50836308d002414",
           "segment_index": 13,
           "source_segment_id": "seg-14a07bc4e50836308d002414",
           "source_text_sha256": "d9e19c87f34e1d4407b5411f2535b48853a59376358b0b9b010ff9a0d6f1cd55",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On October 19, 2014, at 10:50 PM, a witness observed for 8 to 10 seconds the silent passage across the sky of 7 to 9 orange lights. The entire formation moved on a north-south trajectory. The phenomenon was then obscured by the urban landscape. No other testimonies were collected. The observation of orange balls crossing the sky in a few minutes, on a weekend night, strongly suggests Thai lanterns, likely released nearby after a private party. The movement was observed from southwest to northeast, which is consistent with the south wind recorded at Roissy (20 km away). See the Météociel weather report for the observation date. The GEIPAN classifies this case as \"B\": probable observation of Thai lanterns.",
           "translation_text_sha256": "05eb7ccfc4dc974dec32982164a0c8dccc59ce2a10f135f5bd2e6e32b39617d0"
         }
       ],
       "source_page_id": "page-760241a9235d388e8343fc60"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:49Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "00e0f74cf686d6457fd672544d15f68356e61084746e3effb4077dc5598f38ac",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -236,7 +235,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-00d258a9e47ea5c7345c3560",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-2019-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-7070dbac0f0658bf2bbc4a0c",
           "segment_index": 10,
           "source_segment_id": "seg-7070dbac0f0658bf2bbc4a0c",
           "source_text_sha256": "8e331e7a3ab5848952a85f612596d687633aefe120dbc70960b97efb6da029da",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  2019150549-AERO-2019-R.pdf",
           "translation_text_sha256": "9f0cc0f23d061649efd4d66db5ec8b8263a901d0d619abb4fc34e7a5ea0e9a9d"
         },
@@ -180,15 +171,6 @@
           "field": "testimonies",
           "page_id": "page-00d258a9e47ea5c7345c3560",
           "qa_findings": [
-            {
-              "added_in_translation": [
-                "2019-08-16"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
             {
               "added_in_translation": [
                 "16",
@@ -234,39 +216,27 @@
           "error": null,
           "field": "description",
           "page_id": "page-00d258a9e47ea5c7345c3560",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "20:37"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "20",
-                "37"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-43d0c469227c254220f59486",
           "segment_index": 13,
           "source_segment_id": "seg-43d0c469227c254220f59486",
           "source_text_sha256": "6dba3a3a5cc94fbb5f76358da209b01ca369c5c43ef9923feeecd5848ee7c531",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "Description: An air traffic controller reports an observation made by a commercial airline pilot en route from Rome to Casablanca. On August 16 at 20:37 UTC, the pilot, overflying Sardinia, observed a yellow glow with debris passing through the atmosphere. At the same time, the air traffic controller at Bastia Tower observed a bright white light. This was a meteor seen by numerous witnesses (104) and cataloged by the International Meteor Organization (IMO). The GEIPAN classifies this case as A: observation of a meteor.",
           "translation_text_sha256": "c35af8f8c5c48d2284da3be3b9f6b40ddbf1a71003270b37f1c6bec8c5d735f8"
         }
       ],
       "source_page_id": "page-00d258a9e47ea5c7345c3560"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:49Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "f86226ce4ea5922df4f9f306e5a2c46c106fe2c0ca60db00d8dd857298812386",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -279,7 +249,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

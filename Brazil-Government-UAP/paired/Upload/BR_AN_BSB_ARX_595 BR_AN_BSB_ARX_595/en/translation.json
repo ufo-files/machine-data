@@ -7,37 +7,18 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-f685623afc7467eb5710c23c",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "1",
-                "2"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "02/01"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ca7aef73f9b9f1abc75b0e8a",
           "segment_index": 1,
           "source_segment_id": "seg-ca7aef73f9b9f1abc75b0e8a",
           "source_text_sha256": "0b517ce272bc37ce0c3afe214896dfb5e638a40b791f634fd9e9ab7ce42d58b0",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "CM3 = 0 1             1 0 • UFO_PROTECTED_000__   00:3",
-          "translation_text_sha256": "9fa7dbe9c20dce88a3fb559927d1a0ead331ee7d4d016503b54185d6547e4f03"
+          "status": "machine-unreviewed",
+          "text": "CM3 = 0 1             1 0 • 02/01   00:3",
+          "translation_text_sha256": "ed8a02c2b2ba89ef31aa280820bbdbd18090eed43db2febbf0f1c3af0350dee7"
         },
         {
           "end_ms": null,
@@ -464,6 +445,14 @@
       "source_page_id": "page-4e6bf7e59998d7fe11354917"
     }
   ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:33Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "d91501feb0af83bba1cc9c84a0975e51f907e899b0b26b67dd02be8164d3bd7c",
+      "segments_recovered": 1
+    }
+  ],
   "schema": "ufo-files-portuguese-translation/v1",
   "segments": [],
   "source_language": "pt-BR",
@@ -474,7 +463,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
     "workflow_version": "pt-en-translation-prompt/v1"
   }

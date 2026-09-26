@@ -167,7 +167,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-e5998072794329dc825fb7e1",
           "qa_findings": [
@@ -179,28 +179,28 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-235a1ceadef75bd509f2f7fe",
           "segment_index": 11,
           "source_segment_id": "seg-235a1ceadef75bd509f2f7fe",
           "source_text_sha256": "f41eb8a79428a355523b0f9651eb9cfa2546a0f2c3868e72c1d842da9f757a24",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: On February 5, 2009, around 7:00 PM, two people in a car observed above a four-lane highway three blue, white, and red lights forming a floating triangle at 30 or 40 meters high, moving slowly. The GEIPAN received only one testimony by email. The observation was made through a car windshield while in motion. The weather conditions (\"it was raining heavily\") do not allow for the hypothesis of \"reflections\" to be ruled out. No response was received from the witness to additional information requests (including for a police report). Therefore, any investigation is impossible: lack of information.",
           "translation_text_sha256": "07d1edf3947498b044db539fbea8b5852f0c60153e85d7f9493448c0a0f744fa"
         }
       ],
       "source_page_id": "page-e5998072794329dc825fb7e1"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:44Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "d1fd636c3107965f06f8c5c36d14985c03e161776277175e9ef0be1a23dfbdb3",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -213,7 +213,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }

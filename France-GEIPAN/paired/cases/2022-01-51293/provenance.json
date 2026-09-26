@@ -12,8 +12,16 @@
   "generated_at": "2026-09-09T14:49:14Z",
   "page_count": 1,
   "pipeline_version": "ufo-files-french-pipeline/1.0.2",
-  "qa_status": "needs-review",
+  "qa_status": "pass",
   "remaining_manual_review_count": 12,
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:55Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "717223f1510b7240a5023019239e0f6e16b8d6335dbf3ee8ed3649e4157d34bb",
+      "segments_recovered": 1
+    }
+  ],
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
@@ -23,16 +31,16 @@
   "segment_count": 12,
   "source_bytes": 19619,
   "source_sha256": "c4d97243b5d559a1e171017cf0322e8e257a79d098d6ac116297e7bc4e684eee",
-  "status": "partial",
+  "status": "complete",
   "translation": {
     "generated_at": "2026-09-09T14:49:14Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   },
-  "translation_text_sha256": "651ac5bafc576aaa0011f2d9a83b2089e4bfcf5c04017ceb29dac56dd5679ac3"
+  "translation_text_sha256": "3f2ada1f52671a667d8ac527b4177991b3144d125c6136659afb2b68059b6315"
 }

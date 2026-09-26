@@ -167,31 +167,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-bbc85d0aa8f9493d78f65912",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-93bba0e78e04c61ce6105d51",
           "segment_index": 11,
           "source_segment_id": "seg-93bba0e78e04c61ce6105d51",
           "source_text_sha256": "23ef6f654fcfedc318c08e1f70c836a575ac967eedb7061d3781347a1400c659",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On March 9, 2014, at 7:50 PM, a witness observed from their home for a few seconds a faintly glowing phenomenon followed by a long, white streak in the sky. This observation of a glowing ball followed by a streak, crossing the sky in a straight line in 2 or 3 seconds, has all the characteristics of a meteor (see the term: meteor). The BOAM (see BOAM Network) network of automatic cameras did not record this phenomenon, perhaps not bright enough. However, there are two meteor recordings in the same evening, at 9:03 PM and 11:28 PM, from cameras located in eastern France. The GEIPAN received a direct testimony of an observation made in Saint-André-de-Cubzac (33), near Bordeaux, on the same day between 7:30 PM and 7:45 PM, which could correspond to this phenomenon: the directions of the phenomenon's movement are compatible, but the reported observation times do not coincide exactly. Without confirmations, this case is currently classified as \"B\": probable observation of a meteor. Overall, there have been numerous meteor observations in February and March.",
           "translation_text_sha256": "d1b88e4024958ed1caa89f499b2e35682045f09895d8ed85dd7f1b778ca667b1"
         }
       ],
       "source_page_id": "page-bbc85d0aa8f9493d78f65912"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:36Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "046e3bc703db229d47c8a7180f5c2e8fb326fbc6c07daf92c6c2a1816965de32",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -204,7 +203,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }
