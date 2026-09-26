@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-5120772535570dd3bba1b097",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSC07672.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ca019f38bb22970d99ce3a6d",
           "segment_index": 9,
           "source_segment_id": "seg-ca019f38bb22970d99ce3a6d",
           "source_text_sha256": "ad63d905fa44a00206a838f68ab8b29b8195f1961615ad41fcf97820e25e9913",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Meteo.pdf Reconstitution.jpg Photo temoin DSC07672.JPG Questionnaire terre-R.pdf Courrier Temoin2-R.pdf Courrier Temoin3-R.pdf",
           "translation_text_sha256": "2a9f2b96a309325a72d7c3be081b06dcf7154849e6343d16e42ab88908c00b3e"
         },
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T09:08:18Z",
+    "generated_at": "2026-09-26T05:04:40Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

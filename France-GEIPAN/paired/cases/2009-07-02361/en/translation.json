@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-6a3c4fe9c6173e238f0ffea8",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "RIXHEIM (68) 26.07.2009"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-74d25edeacd726f396540800",
           "segment_index": 10,
           "source_segment_id": "seg-74d25edeacd726f396540800",
           "source_text_sha256": "836f5fe7abfce7b8e46bd224be0e99ed3ea28a03b77e79c325dde3d710726274",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  RIXHEIM (68) 26.07.2009 Trace radar-R.pdf Compte rendu.pdf Carte celeste.pdf Donnees satellitaires.pdf Localisation geographique regionale.pdf Case Number: 1368 (2009310421).pdf",
           "translation_text_sha256": "96c3c98a67abe79c639a608d6f98876ee5fc52a6fa4e36229e995aede94f79f9"
         },
@@ -195,26 +186,16 @@
           "error": null,
           "field": "description",
           "page_id": "page-6a3c4fe9c6173e238f0ffea8",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "00:00"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-f36f075915deda341b65aa7d",
           "segment_index": 12,
           "source_segment_id": "seg-f36f075915deda341b65aa7d",
           "source_text_sha256": "5336855d13be9e49aee5902fd7cb24bad22650d0969a857639084fc37ef0f145",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Description: On July 26, 2009, at approximately 10:20 PM, a witness observing the starry sky from their terrace spots a bright white light moving in a linear S-N trajectory at an elevation of 25° to 35°. The witness initially follows the light for 7 to 8 seconds, mistaking it for a satellite. After briefly looking away for one to two seconds, the witness is surprised to no longer see the light on its trajectory. However, they spot a bright light making a turn towards the west for 2 to 3 seconds (in the direction of the Habsheim airport). The light then takes off on a high-speed linear trajectory passing directly overhead. No unusual noises are heard during the 10 to 12-second observation, which ends at 11:48 PM. The witness remains puzzled by the overall trajectory of the light, including a change in direction and the significant acceleration of the phenomenon without any sounds. While nothing confirms that it was a single light source, several hypotheses are ruled out (as detailed in the investigation report): aircraft passage (no radar traces in the Rixsheim area during the 11:30 PM to midnight time slot), celestial bodies (Jupiter was too low on the horizon), and satellite passage (the COSMOS 1151-Rocket passed overhead, but at a 57° elevation). Despite not being particularly strange, the phenomenon remains unexplained. The D1 classification is justified by the uniqueness of the testimony and the impossibility of estimating the distance to the phenomenon.",
-          "translation_text_sha256": "c954140400c4b01cd1f670da89a2d9e630a119de08b1b979c99b260eb55820a7"
+          "status": "machine-unreviewed",
+          "text": "Description: On July 26, 2009, around 10:20 PM, a witness on their terrace observed the starry sky. It follows for 7 to 8 seconds the linear S-N movement of a white light point at an elevation of 25° to 35°, which it associates with the movement of a satellite. After briefly (one to two seconds) looking away from the bright point, the witness is surprised to no longer see it on its trajectory. However, he does find a glowing point initiating a turn to the west lasting 2 to 3 seconds (towards the Habsheim airport). This bright point then takes a linear trajectory at high speed passing vertically over the witness. No particular noise was heard during the observation from 10 to 12 seconds and which ended at 23:48. The witness remains intrigued by the overall trajectory of the bright point including a change in direction and the significant acceleration of the phenomenon without any noise being heard. While nothing allows us to affirm that it is the trajectory of a single light point, several hypotheses are ruled out (see the investigation report): passages of planes (no radar trace in the Rixsheim area during the 23:30-00:00 time slot), presence of celestial bodies (Jupiter too low on the horizon), and passage of a satellite (the COSMOS 1151-Rocket passage, but at 57° elevation). The phenomenon, though not strange, remains unexplained. The D1 classification is justified by the uniqueness of the testimony and the impossibility of estimating the distance to the phenomenon.",
+          "translation_text_sha256": "02d1f8ef84c56d9ed14ff28a094f3e774ab6e8d25ff01ec06e7fd6e0a6a7e61b"
         }
       ],
       "source_page_id": "page-6a3c4fe9c6173e238f0ffea8"
@@ -225,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T08:51:54Z",
+    "generated_at": "2026-09-26T04:53:25Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

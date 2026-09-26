@@ -199,49 +199,29 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-e0645c75811bad73e8b72f3c",
           "qa_findings": [
             {
               "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "23:00"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "0",
-                "23"
-              ],
               "check": "numbers",
               "missing_from_translation": [
                 "3"
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-8ec43c207d4fd6d298700b4b",
           "segment_index": 13,
           "source_segment_id": "seg-8ec43c207d4fd6d298700b4b",
           "source_text_sha256": "e6a6b67f3a4c4dd98fb596ef9e1fad4172caa1313cf681145e230828e6544ea2",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: This is a 2009 observation reported three years later. The witness states, \"A great majority of people I told about these facts laughed at me. Nevertheless, after careful consideration, I today believe that your official body should take into account my observations and photos.\" During a festive terrace evening at 23:00, a reddish-orange glowing point was observed, followed by a dozen other points, moving across the starry sky. The entire group stopped for 30 seconds, then each point disappeared one by one. No sounds were heard. Fifteen people witnessed the phenomenon. Only the witness provided a testimony and photographs. The observation shares many characteristics with Thai lanterns, particularly the colors, formation movement, and sequential extinction of lights. The provided photos also support this hypothesis. The movement and stop are weather-compatible, indicating a wind with slight gusts (Infoclimat). The sudden extinction of the flame is often interpreted as a departure at a dizzying speed. This testimony vividly illustrates the emotion that such an interpretation can evoke, with the witness stating, \"It's simply an OVNI, because current technology on Earth does not allow for such acceleration speed into space.\" In 2008, Thai lanterns were already on sale. It was a summer weekend evening conducive to festive events. The GEIPAN classifies the case as B: probable observation of Thai lanterns.",
-          "translation_text_sha256": "c10acda7e6d85541395d8fb6e951da2b181a3a207fa79b46338ccd7b7d7532c3"
+          "status": "needs-review",
+          "text": "Description: This is a 2009 observation reported three years later. The witness specifies, \"A great majority of people to whom I reported these facts laughed at me. Nevertheless, after careful reflection, I today believe that your official body must take into account my observations and photos.\" During a festive terrace evening at 23:00, a reddish-orange glowing point followed by a dozen other points were observed moving across the starry sky. The entire group stopped for 30 seconds, then each point disappeared one by one. No noise is heard. Fifteen people observed the phenomenon. Only the witness provides a statement accompanied by photographs. The observation has many characteristics of Thai lanterns, particularly the colors, the formation flight, and the one-by-one extinction of the lights. The photos provided also conform to this hypothesis. The movement and then the stop are compatible with the weather indicating a wind with small gusts according to Infoclimat. The sudden extinction of the flame is often interpreted as a vertiginous departure. This testimony well illustrates the emotion that this interpretation can evoke, the witness specifies \"It is simply OVNI, because current technology on Earth does not allow for such acceleration speed into space.\" In 2008, Thai lanterns were already on sale. It is a summer weekend evening conducive to festive events. The GEIPAN classifies the case as B: probable observation of Thai lanterns.",
+          "translation_text_sha256": "e1b3ceb389a3f66a22ffa9d20662e3d37e13d9b289a0a14cf84a5c627e662eb1"
         }
       ],
       "source_page_id": "page-e0645c75811bad73e8b72f3c"
@@ -252,13 +232,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T09:24:17Z",
+    "generated_at": "2026-09-26T05:15:26Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

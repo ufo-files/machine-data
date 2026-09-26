@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-aadc204d089206164baa3cd6",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "OVNI"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-a4d74d95f97f9f6907c415d6",
           "segment_index": 9,
           "source_segment_id": "seg-a4d74d95f97f9f6907c415d6",
           "source_text_sha256": "1db234d462aa6b5f774cab244d5f86ad4275356ad0b44c5e1fe7cecff18c6651",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Meteo.pdf Photo retouchee.JPEG Temoin photo agrandie OVNI.jpg Temoin photo422.jpg PV n° 1907 (2009310486).pdf",
           "translation_text_sha256": "d952918880ac2eb995cbdf44856d9971042e7cd6bf7ae789622dd03ba8df8a6a"
         },
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T08:57:33Z",
+    "generated_at": "2026-09-26T04:59:15Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
