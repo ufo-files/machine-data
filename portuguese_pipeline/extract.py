@@ -8,6 +8,7 @@ import re
 import shlex
 import shutil
 import subprocess
+import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -41,6 +42,7 @@ class Extraction:
 
 def command(name: str) -> str:
     search_paths = [
+        str(Path(sys.executable).parent),
         *os.environ.get("PATH", "").split(os.pathsep),
         "/opt/homebrew/bin",
         str(Path.home() / ".local" / "bin"),

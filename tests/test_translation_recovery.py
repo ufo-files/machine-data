@@ -1,9 +1,21 @@
 import unittest
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+from portuguese_pipeline.extract import command
 from portuguese_pipeline.qa import compare_translation
 from portuguese_pipeline.translation import translate_text
 
 
 class TranslationRecoveryTests(unittest.TestCase):
+    def test_extraction_finds_tools_in_worker_virtualenv(self):
+        with tempfile.TemporaryDirectory() as directory:
+            tool = Path(directory) / "ocrmypdf"
+            tool.write_text("#!/bin/sh\nexit 0\n")
+            tool.chmod(0o700)
+            with patch("portuguese_pipeline.extract.sys.executable", str(Path(directory) / "python")):
+                self.assertEqual(command("ocrmypdf"), str(tool))
+
     def test_long_translation_retries_without_losing_protected_text(self):
         text = ('A FAB permanece visível. ' * 50).strip()
         class Backend:
