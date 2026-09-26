@@ -167,28 +167,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-eb309ca5533b631baeaf3992",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "CNES"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-646f0ea22818104cd4177e7c",
           "segment_index": 11,
           "source_segment_id": "seg-646f0ea22818104cd4177e7c",
           "source_text_sha256": "b0fd804117dec13f1701d7e99e728e53d0dada20f7b31c5ccbf89d8fd9bdea13",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: A witness reports in 2011 an old observation. He does not remember the exact year and month (between 1979 and 1980, between mid-July and mid-August in late afternoon). The case date is given arbitrarily. Observing the landscape with an astronomical telescope, the witness is intrigued by a stationary object, triangular in shape, light rust orange in color. The object is quickly hidden by fog and a cloud. The observation lasted less than 30 seconds. The triangular shape of the object and its minimal movement suggest a tetrahedral balloon. Some weather balloons are orange brown in color, but the witness describes it as rust colored. However, the object's surface details described by the witness do not match this hypothesis well. Since the precise date is not known, it is not possible to verify wind conditions or French Meteorological Service balloon launches. Without precise information, this case is classified as \"C\".",
-          "translation_text_sha256": "4cdd607665e9a5fa3c76699a9674df3e1d6caa589264a6e93d5d2fc93623c6d3"
+          "status": "machine-unreviewed",
+          "text": "Description: A witness reports in 2011 an old observation. He does not remember the exact year and month (between 1979 and 1980, between mid-July and mid-August in the late afternoon). The case date is given arbitrarily. Observing the landscape with an astronomical telescope, the witness is intrigued by a stationary object, shaped like a triangle, with a light rust orange color. The object is quickly hidden by fog and a cloud. The observation lasted less than 30 seconds. The triangular shape of the object and its minimal movement suggest a tetrahedral balloon. Some weather balloons are orange-brown, the witness describes it as rust-colored. But the surface details of the object described by the witness do not match this hypothesis well. Since the exact date is not known, it is not possible to conduct wind or balloon launches checks by Météo-France or the CNES. Due to lack of precise information, this case is classified \"C\"",
+          "translation_text_sha256": "9643ae2201c1aacda2a73f033a266cd47053deac70584263e0c82e8b3ae7b992"
         }
       ],
       "source_page_id": "page-eb309ca5533b631baeaf3992"
@@ -199,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T05:28:08Z",
+    "generated_at": "2026-09-26T23:35:30Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

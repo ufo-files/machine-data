@@ -173,15 +173,6 @@
           "qa_findings": [
             {
               "added_in_translation": [
-                "1979-12-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
                 "1",
                 "12",
                 "1979"
@@ -222,19 +213,10 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-077d7bf1d60caf89aa85fc1f",
           "qa_findings": [
-            {
-              "added_in_translation": [
-                "1979-12-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
             {
               "added_in_translation": [
                 "19:35"
@@ -253,23 +235,15 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-b9c9befeb428350167f348de",
           "segment_index": 13,
           "source_segment_id": "seg-b9c9befeb428350167f348de",
           "source_text_sha256": "d38172c16498389985080023ce675024013ad918cad85a81cd7d254640d46753",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: On December 1st, 1979, around 7:35 PM, a butcher was returning from his day at the Braux (04) market when he noticed a large, very bright ball suddenly appear on his left along a winding section of D110. The color of the ball shifted from white to red, then orange to yellow. It emitted a high-pitched, bip-like sound. Terrified, the witness accelerated, but the phenomenon followed him for approximately 2 kilometers while he drove at around 70-80 km/h. After about 2 kilometers, the phenomenon abruptly disappeared. No other witnesses were found by the gendarmerie. This case was initially classified as a \"non-explained observation, case D.\" It is one of the well-publicized French cases of the time (search for OVNI ANNOT).\n\nThis conclusion is based on a new investigation made possible by modern digital tools and a recreation on-site using a Saros cycle date, meaning when the Moon, Sun, and Earth return to the exact positions of the observation day (see investigation report). As the witness reported seeing a full moon at the beginning of his journey, it's paradoxically absent from his subsequent description, even though it would have been very bright at several points along his route directly in the direction of the presumed PAN.\n\nElements observed during the initial analysis (distance with digital tools) were extensively confirmed by a \"on-site\" recreation under optimal similarity conditions (Saros cycle and similar weather): the witness was the victim of a perceptual illusion caused by the sudden observation of the Moon. Specifically, it was found that each location where the observation of the Moon was possible corresponds precisely to one of the places described by the witness to the gendarmes as the phenomenon he believed he encountered.\n\nThe presumed trajectory of the PAN as imagined by the frightened witness perfectly aligns with the apparent trajectory of the Moon in relation to the road's curves. The sudden appearance and disappearance of the phenomenon are also consistent with the Moon's visibility for a driver on this road that day. The element of surprise is heightened by a very prevalent media context: the case of the OVNI in Cergy-Pontoise (95) was in full swing, and the young man allegedly abducted by the OVNI had not yet reappeared.\n\nThese elements likely instilled a strong sense of fear in the witness, who, placed under difficult observation conditions and in an unassuring context (he was alone and far from any habitation), was unable to calmly analyze the situation he was suddenly confronted with. His descriptions of the phenomenon are classic and fully comparable to those commonly gathered in similar cases of confusion with the Moon (very frequent confusion).\n\nThe only peculiar aspects that could somewhat contradict this well-known scenario are, on the one hand, the noise allegedly heard during the observation and, on the other, the physiological aftermath experienced in the following days (intestinal obstruction). However, no elements can be advanced to support the objective reality of the first. Regarding the second, it appears to be likely a consequence of the stress caused by the observation on a pre-existing physiological terrain (two prior similar crises).\n\nTherefore, the GEIPAN classifies this case as A: Observation of the Moon.",
           "translation_text_sha256": "3f04a6dd2ee81ced2ffeb2f7502f42f4e9a54fd050c6f1fcf9550f32d201f340"
         }
@@ -282,13 +256,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T23:38:24Z",
+    "generated_at": "2026-09-26T23:36:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }
