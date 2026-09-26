@@ -2,15 +2,6 @@
   "document_id": "doc-9f49c21cb6165f3c60b787be",
   "findings": [
     {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "AERO-2000-R"
-      ],
-      "segment_id": "seg-68e8a1404cd2170e6f78552c",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [
         "2000-10-08"
       ],
@@ -31,6 +22,27 @@
         "08.10.2000"
       ],
       "segment_id": "seg-c374e348a4cbbb280e055c87",
+      "severity": "warning",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [
+        "17:04"
+      ],
+      "check": "times",
+      "missing_from_translation": [],
+      "segment_id": "seg-905204f6de64a90ec408c364",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "17",
+        "4"
+      ],
+      "segment_id": "seg-905204f6de64a90ec408c364",
       "severity": "warning",
       "status": "mismatch"
     }

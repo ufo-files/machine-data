@@ -130,8 +130,8 @@
           "source_text_sha256": "2a02fcb350da47e2fb76f365d6a74c81626fc7b3186454ae0e4e04e6a2e99544",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Documents: PV n°1961 (2002309260).pdf, PV n°1711 (2002309263).pdf, PV n°901 (2002309264).pdf, PV n°529 (2002309265).pdf, PV n°363 (2002309267).pdf",
-          "translation_text_sha256": "10df851587afa66431b72eaa69b1aa94ef24c50752e9bf57465ebd5f827036db"
+          "text": "Documents: PV n° 1961 (2002309260).pdf PV n° 1711 (2002309263).pdf PV n° 901 (2002309264).pdf PV n° 529 (2002309265).pdf PV n° 363 (2002309267).pdf",
+          "translation_text_sha256": "1d3015e53cd9b5e1bd8fbb1780093fd808cad8ede6b940d1b1f0d26122894e29"
         },
         {
           "end_ms": null,
@@ -167,7 +167,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-f07210464adad07179dc1fbf",
           "qa_findings": [
@@ -192,23 +192,15 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-a5b572d96f0bdb2091e07422",
           "segment_index": 11,
           "source_segment_id": "seg-a5b572d96f0bdb2091e07422",
           "source_text_sha256": "3037987c403f1a98f869ccbba918eb1a0f800f662ed4d0ae73f0626d98e47c0a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: On the night of July 5, 2002, between 10:00 PM and 10:30 PM, numerous witnesses observed several white lights aligned and moving together. The phenomenon was observed across several departments, covering Vaucluse and Bouches-du-Rhône. According to testimonies, there were 6 or 8 lights, arranged in a line, a circle, or two triangles, but all agreed that the movement was uniform for all lights. In some cases, the observation lasted for a few minutes, while in others it lasted up to an hour. Observations in 2008 with similar formation flight characteristics were investigated and classified as A, like the flight of the French Patrol: http://www.cnes-geipan.fr/geipan/actualites/13082009-Des-PAN-en-formation-dans-le-Vaucluse-en-Juillet-2008.html Consequently, this case was re-examined and identified as observations of the French Patrol.",
           "translation_text_sha256": "8bae20b44ec22264b41d694b4f1e5278e01a339286573601a8ffa9c467395896"
         }
@@ -221,13 +213,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T01:27:10Z",
+    "generated_at": "2026-09-26T01:45:11Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

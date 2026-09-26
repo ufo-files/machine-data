@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-82e20c289f5f7fce41e97bb6",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-2000-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-68e8a1404cd2170e6f78552c",
           "segment_index": 10,
           "source_segment_id": "seg-68e8a1404cd2170e6f78552c",
           "source_text_sha256": "3000e10fab48af1ad7cb7ede75fee20d6aa65ed601f02f6826255bd085f58e49",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Compte rendu enquete.pdf 2000208313-AERO-2000-R.pdf",
           "translation_text_sha256": "770f15acb7c91d7ab3d83aef807f843b6336cdb69e9055535f1c34e5a293d813"
         },
@@ -234,14 +225,34 @@
           "error": null,
           "field": "description",
           "page_id": "page-82e20c289f5f7fce41e97bb6",
-          "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "qa_findings": [
+            {
+              "added_in_translation": [
+                "17:04"
+              ],
+              "check": "times",
+              "missing_from_translation": [],
+              "severity": "error",
+              "status": "mismatch"
+            },
+            {
+              "added_in_translation": [],
+              "check": "numbers",
+              "missing_from_translation": [
+                "17",
+                "4"
+              ],
+              "severity": "warning",
+              "status": "mismatch"
+            }
+          ],
+          "review_status": "needs-review",
           "segment_id": "seg-905204f6de64a90ec408c364",
           "segment_index": 13,
           "source_segment_id": "seg-905204f6de64a90ec408c364",
           "source_text_sha256": "f9204709a525ebecf92901b5e9803198f92884bbe5a75d883085e5ff9bae052b",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "needs-review",
           "text": "Description: The GEIPAN continues to publish its entire archive on its public website www.geipan.fr. Among its publications are old cases classified at the time (A, B, C, or D) and now being re-examined with the sole purpose of being more relevant in its conclusions. Thanks to new technical means (software) and the investigative experience gained over the past many years, this re-examination sometimes leads to new observations or a change in classification. This observation case previously classified as D and formerly named [AERO ARF] BELLEGARDE (45) 08.10.2000 is part of a recent set of cases re-examined. On October 8, 2000 at 17:04 UTC, the pilot and copilot of a flight to Grenoble, during the climb phase, observed the very quick passage of a round and dark object above the cockpit. The crew feared a collision of the object with the tail, but nothing happened. The pilot filed an Air Safety Report (ASR), and the copilot will be interviewed by phone and provide additional information. Three hypotheses are considered: a possible misidentification with a weather balloon, a drone, or a bird (see the investigation report). The description of PAN can evoke these three types of misidentifications, but after analysis, the hypothesis of a bird is the most likely of the three. Although the observation duration (1/10th of a second) is very short, we have enough elements at our disposal to confirm this hypothesis, in particular: - observation date, during migration period;\n- location, in a migratory corridor area;\n- among the copilot's hypotheses;\n- absence of radar detection.\nThe dark color of PAN and the feeling of proximity experienced by the pilots (and therefore the modest size) are further points that confirm the hypothesis. The altitude of 4000 meters, although not initially consistent with the altitudes that can be reached by the two possible migratory bird species considered for the hypothesis, has already been observed outside French territory for the Sandhill Crane. It could also be an isolated individual of another migratory species yet to be determined. The consistency is average (2 witnesses, but the extremely brief observation did not allow the witnesses to describe the PAN correctly), but sufficient to support the hypothesis despite the uncertainties still attached to it. Consequently, GEIPAN classifies the case as B: probable observation of a bird.",
           "translation_text_sha256": "533a582a8f0a6e582386b9bb44f15400b2c080573aff53d769aab049af8dd76c"
         }
@@ -254,13 +265,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T00:41:37Z",
+    "generated_at": "2026-09-26T01:26:45Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
