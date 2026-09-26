@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-e916e37887b9a50d65b9c474",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "AERO-2013-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-fc4904c684d36bce054b024f",
           "segment_index": 9,
           "source_segment_id": "seg-fc4904c684d36bce054b024f",
           "source_text_sha256": "f599daa224d3537a5dfec9583504b0ccfdf9e63a74ecd3da360558dd59a7f9f4",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Compte rendu enquete.pdf Article de presse Le Dauphine.PDF 2013210824-AERO-2013-R.pdf",
           "translation_text_sha256": "f2c50e42179541d7c3603a37f1e186919eed32eaa51a18a3759986f491de7898"
         },
@@ -195,40 +186,14 @@
           "error": null,
           "field": "description",
           "page_id": "page-e916e37887b9a50d65b9c474",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "22:46",
-                "22:50",
-                "23:50"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "22",
-                "22",
-                "23",
-                "46",
-                "50",
-                "50"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d2196d3a8cd288d21fdf47db",
           "segment_index": 12,
           "source_segment_id": "seg-d2196d3a8cd288d21fdf47db",
           "source_text_sha256": "0d93e16b82e54d6131b0b9db7d53cfa2e3add85a6fa3590e4639526412f44a4a",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "Description: On January 7, 2013, at approximately 22:50 UTC (23:50 local time), the pilot of an Airbus A340 reported seeing what he believes to be debris from a space reentry. The observation took place around 22:46', at approximately 049°10’54’’/000°18’53’’, corresponding to the area over Deauville. This testimony should be compared to a simultaneous observation in Ardèche at the Col de L'Escrinet (07) on the same date. Other similar reports appeared in the press in January 2013. Based on witness accounts, the observed phenomenon is very likely the atmospheric reentry of a satellite debris, possibly from the Iridium 33 satellite. This case is classified as \"B\": probable atmospheric reentry observation.",
           "translation_text_sha256": "0e400c1b3944ab1e06f13da718a2610a50075d30538d4aa02548d4f61418caa6"
         }
@@ -241,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-09T01:56:43Z",
+    "generated_at": "2026-09-26T15:02:59Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
