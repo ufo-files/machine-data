@@ -199,29 +199,29 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-178e1ef3b0f32a9c045d845b",
           "qa_findings": [
             {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
+              "added_in_translation": [
+                "20"
               ],
-              "severity": "error",
+              "check": "numbers",
+              "missing_from_translation": [],
+              "severity": "warning",
               "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-3c90fbf9a23e39419e306418",
           "segment_index": 13,
           "source_segment_id": "seg-3c90fbf9a23e39419e306418",
           "source_text_sha256": "7f749fdaedff8a29d0b1fe06ec80d789cb4b6260908dc7eb467de43e73d7ef59",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 20, 2005, between 9:20 PM and 9:45 PM, a witness, on vacation with four others, observed and filmed for 20 minutes several very bright, round, white and yellow flashing lights moving in a southerly direction. The attached video shows the successive appearance of several white lights: at one point, several may coexist. No sound was heard during the observation of the slow movement of these UFOs. The witness stopped observing to eat, while the UFOs were still present. Only one testimony and one video were collected. All the lights appeared almost face-on to the witness and gave the impression of being stationary for a long time, then turned left from the witness' perspective. They then disappeared behind trees, only to reappear at a lower altitude and under a different angle, showing flashing lights. The witness did not realize that the lights viewed face-on as they gradually disappeared behind the trees (landing lights) were the same ones that reappeared on his left. The lights' trajectory corresponds to the (VOR A) approach procedure used by aircraft to land at Nice Airport (see the attached reconstruction document, with the witness's position in Valbonne, his observation direction, and the approach paths of planes landing in Nice). It is not possible to access the 2005 aircraft traffic to verify that several planes (2 or 3) could be seen approaching at the same time. However, we confirm from current traffic at the same time and period (summer) that this is indeed the case. The fact that the witnesses were not residents (they were on vacation) may explain the misperception. The GEIPAN classifies the case as B, a probable misperception with aircraft.",
-          "translation_text_sha256": "ff9696d3c6da474e567b545ce10e27c95a25e4002d8c4f4ad876efa7b50f2693"
+          "status": "needs-review",
+          "text": "Description: On August 20, 2005, between 9:20 PM and 9:45 PM, a witness, on vacation, accompanied by four other people, observed and filmed for 20 minutes in the southern direction the movement of several very bright, round lights of white and yellow colors that were flashing. The attached video shows over 20 minutes the successive appearance of several white lights: at one point several can coexist. No noise was heard during the observation of the slow movement of these PAN. The witness stops observing to eat, while the PAN are still present. One single witness statement and a video were collected. All lights appear almost face-on to the witness and give the impression of being stationary for a fairly long period of time, then begin a turn to the left of the witness. Then, they disappear behind the trees to reappear at a lower altitude and from a different angle that allows for the observation of flashing lights. The witness does not realize that the lights seen face-on that gradually disappear behind the trees (landing light) are the same ones that reappear on his left. The path of the lights corresponds to the approach procedure (VOR A) used by aircraft to land at Nice Airport (see the reconstruction document attached, with the witness's position in Valbonne, their observation direction, and the approach paths of the planes in approach phase to Nice). It is not possible to access the 2005 aircraft traffic data to verify that multiple aircraft (2 or 3) can be seen approaching at the same time. On the other hand, we check against current traffic at the same time and period (summer) to confirm that this is indeed the case. The fact that the witnesses are not residents (vacationers) can explain the misidentification. The GEIPAN classifies the case as B, likely misidentification with aircraft.",
+          "translation_text_sha256": "6033d5572e27c437c8c07c69ca7602dfa9e6c950d4573b7dac6f1c5da100bbb0"
         }
       ],
       "source_page_id": "page-178e1ef3b0f32a9c045d845b"
@@ -232,13 +232,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T02:55:30Z",
+    "generated_at": "2026-09-26T02:20:55Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

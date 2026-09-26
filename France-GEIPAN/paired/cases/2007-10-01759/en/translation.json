@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-0e7a5b69b3a02458ca7a3050",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "T1-R"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-6830c81da25fd9215b66d890",
           "segment_index": 9,
           "source_segment_id": "seg-6830c81da25fd9215b66d890",
           "source_text_sha256": "b664db6c973962bd8e52699428088e17d979490594428f8a7d5cc6118bb71547",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Article LE PROGRES.jpg Compte rendu enquete.pdf 5 photos T1.7z Courriers T1-R.pdf Ballons bresiliens.pdf PV n° 1399 (2007310920).pdf",
           "translation_text_sha256": "8c06c3c72181a7bef4f1d105cedbd7306fe8e5cc4af29df084224d36e2d166a3"
         },
@@ -248,26 +239,16 @@
           "error": null,
           "field": "description",
           "page_id": "page-0e7a5b69b3a02458ca7a3050",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "4"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-6d244111573cfcde2ee74bdf",
           "segment_index": 12,
           "source_segment_id": "seg-6d244111573cfcde2ee74bdf",
           "source_text_sha256": "5a4a7855c87a643716c7c2d90f3301ff55a91588248ed3e925397af2f625d4cc",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Description: On October 2, 2007, around 1:00 PM, a witness in their garden noticed a peculiar phenomenon in the sky: a large, multi-colored diamond-shaped object flying silently at a low altitude. Intrigued, the witness decided to follow the phenomenon by car for 5-6 kilometers between Neuville-les-Dames and Vonnas. They took photographs during \"the pursuit\" and encountered four other witnesses at a plant nursery parking lot in Vonnas who were also perplexed. The witness then continued on their way towards Mézeriat but lost sight of the phenomenon. Following an appeal for witnesses in the daily newspaper Le Progrès, many people came forward. The reconstruction of the trajectory consistent with the observations indicates a direction of movement from south-southwest to north-northeast, very close to the direction of the south wind recorded in Lyon. The average speed of the object during the observation (20 km/h) is slightly lower than the wind speed (22 km/h). These two observations clearly point the investigation towards the hypothesis of a lighter-than-air airship, and thus carried by the wind (see investigation report). The aspect described by the witnesses resembles a cluster of small, festive balloons made of mylar, inflated with helium. It may have escaped its owner, or on the contrary, it may have been assembled to carry a small payload. This cluster of balloons could have traveled a long distance before the observation, making it very difficult to estimate its origin. This observation case, with multiple witnesses and photographs, turns out to be very consistent, but ultimately not strange since the object's movement is consistent with the direction and speed of the wind. Following the investigation, the GEIPAN classified this case as \"B\": probable observation of helium-filled festive balloons.",
-          "translation_text_sha256": "27de33b785aa4a992be7dad2e59a777c7f98ba3cf1c98ed9a40ee59391ec21dd"
+          "status": "machine-unreviewed",
+          "text": "Description: On October 2, 2007, around 1:00 PM, a witness in their garden noticed in the sky a particular phenomenon: a large, diamond-shaped object of several colors flying silently at low altitude. Intrigued, this witness decides to follow the phenomenon in a car for 5 to 6 km between Neuville-les-Dames and Vonnas. He takes photographs during \"the pursuit\" and meets 4 other witnesses in the parking lot of a horticultural business in Vonnas, also intrigued. The witness then continues on the road towards Mézeriat, but loses sight of the phenomenon. Following an appeal for witnesses in the daily newspaper Le Progrès, many people will come forward. The trajectory reconstruction consistent with the observations indicates a movement direction from south-south-west to north-north-east, very close to that of the south wind reported in Lyon. The average speed of the object during the observation (20 km/h) is a little lower than the wind speed (22 km/h). These two observations clearly direct the investigation towards the hypothesis of a lighter-than-air airship, and thus carried by the wind (see investigation report). The aspect described by the witnesses resembles a cluster of small, festive mylar balloons, inflated with helium. She may have escaped from her owner, or on the contrary, was assembled to carry a small payload. This cluster of balloons may have traveled a great distance before the observation, making it very difficult to estimate its origin. This observation case, with multiple witnesses and photos, turns out to be very consistent, but ultimately not strange, as the object's movement is compatible with the direction and speed of the wind. Following the investigation, the GEIPAN classifies this case as 'B': probable observation of festive balloons filled with helium.",
+          "translation_text_sha256": "6e83c1d06ca10799bd223af10390fd2bc096f56e6620f3e966974cf43a1ac274"
         }
       ],
       "source_page_id": "page-0e7a5b69b3a02458ca7a3050"
@@ -278,13 +259,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T04:40:05Z",
+    "generated_at": "2026-09-26T02:43:07Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }

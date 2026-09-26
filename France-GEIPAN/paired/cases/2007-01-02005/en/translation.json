@@ -199,28 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-9c6bd379f7629a03a309307a",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-e8feed55f16716fe6f5ec207",
           "segment_index": 13,
           "source_segment_id": "seg-e8feed55f16716fe6f5ec207",
           "source_text_sha256": "694a7fb7867b28f48531d6352ec15734eba64a4290e34c4820d4c8a4422f7871",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On January 21, 2007, during an afternoon walk, a witness took several photographs. Upon developing the photos, the witness noticed black dots repeating in the center of the sun. The witness did not see anything unusual during the photography. Following a TV broadcast in 2008, the witness sent us a questionnaire and the photos. This observation case is a typical example of an oddity resulting from reading a photo or video, rather than being perceived by the witness in real-time. The GEIPAN no longer handles these testimonies because experience shows that with sometimes significant effort, explanations can be found for these artifacts resulting from the device's operation, with various types and increasing frequency due to the now widespread use of smartphones. However, some cases, like this one, are still handled and published for informational purposes. This case illustrates a sun-blackening phenomenon. This occurs when a camera (or photograph) is focused on a scene containing a very concentrated light source, such as the sun's disk. (Note: It is not recommended to do this with any digital camera or photograph for prolonged periods, as the image of the sun's disk on the sensor can cause irreversible damage to the sensor and optics). Under these conditions, one might expect the resulting image to be uniformly saturated and therefore white in the image of the sun's disk or any other bright object in the scene. However, some sensors (typically and generally CMOS technology) actually expose these ultra-bright areas as BLACK, rather than saturated, as particularly shown in photos 78 and 82 from the witness. The Expert Report from IPACO provides a more precise description of the technological phenomenon. Consequently, the GEIPAN classifies this case as A: photographic artifact.",
-          "translation_text_sha256": "8b29fbabff43bb7043e9a5afc65c622b3d4bf1ef50d96cacf6291a1f42621984"
+          "status": "machine-unreviewed",
+          "text": "Description: On January 21, 2007, a witness, during an afternoon walk, took several photographs. During development, the witness notices black dots that repeat in the center of the sun. The witness saw nothing unusual during the observation. Following a TV show in 2008, the witness sent us the questionnaire and photos. This observation case is the classic example of an oddity resulting from the interpretation of a photo or video, rather than something directly witnessed by the witness in real-time with their eyes. The GEIPAN no longer handles these testimonies because the experience shows that with sometimes significant effort, it is possible to find an explanation through artifacts resulting from the operation of the device, these artifacts being of various types and becoming more frequent due to the now massive use of smartphones. Some cases, such as this one, are nevertheless processed and published for informational purposes. This case illustrates a black sun phenomenon. This occurs when a camera (or photograph) is aimed at a scene containing a very concentrated light source, such as the sun's disk. (Note: It is not recommended to do this with any digital camera or camera for prolonged periods, as the image of the sun's disk on the sensor can cause irreparable damage to the sensor and optics.) Under these conditions, one would expect the resulting image to be uniformly saturated and therefore white in the image of the sun's disk or any other bright object in the scene. However, some sensors (primarily and generally CMOS technology) actually expose these ultra-bright areas as BLACK, rather than saturated, as shown particularly by photos 78 and 82 of the witness. The link Expert Report IPACO provides a more precise description of the technological phenomenon. As a result, the GEIPAN classifies the case as A: photographic artifact.",
+          "translation_text_sha256": "448b33bbb37b28da8bc255b9e381ae32f4f2cdfcc027f6c8352ec0ff9beab00a"
         }
       ],
       "source_page_id": "page-9c6bd379f7629a03a309307a"
@@ -231,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-25T03:27:51Z",
+    "generated_at": "2026-09-26T02:26:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }
 }
