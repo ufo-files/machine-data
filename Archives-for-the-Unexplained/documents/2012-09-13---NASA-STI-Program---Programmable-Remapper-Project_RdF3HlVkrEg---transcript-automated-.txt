@@ -1,0 +1,2298 @@
+{"created_utc": "2026-09-26T17:17:17Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 97290, "source_ctime_ns": 1790264100513532566, "source_file": "Archives-for-the-Unexplained/documents/2012-09-13---NASA-STI-Program---Programmable-Remapper-Project_RdF3HlVkrEg---transcript-automated-.pdf", "source_mtime_ns": 1790264100503428093, "source_rel": "Archives-for-the-Unexplained/documents/2012-09-13---NASA-STI-Program---Programmable-Remapper-Project_RdF3HlVkrEg---transcript-automated-.pdf", "source_sha256": "8bee64e4d7674494e9581e1349ab6cd9ab867a707b8b865dd86023f3e28806c5"}
+
+1
+00:00:20,870 --> 00:00:18,550
+hi i'm richard juday i'm the
+
+2
+00:00:22,390 --> 00:00:20,880
+robotic vision manager in the tracking
+
+3
+00:00:24,950 --> 00:00:22,400
+and communications division here at the
+
+4
+00:00:27,670 --> 00:00:24,960
+johnson space center uh today we're in
+
+5
+00:00:31,189 --> 00:00:27,680
+the hybrid vision laboratory where we do
+
+6
+00:00:33,110 --> 00:00:31,199
+a combination of vision techniques we
+
+7
+00:00:34,709 --> 00:00:33,120
+use laser lights we use spatialite
+
+8
+00:00:37,030 --> 00:00:34,719
+modulators
+
+9
+00:00:38,950 --> 00:00:37,040
+and we use a thing that we'll talk about
+
+10
+00:00:42,869 --> 00:00:38,960
+some more today which is
+
+11
+00:00:44,470 --> 00:00:42,879
+a image remapping technique that allows
+
+12
+00:00:46,549 --> 00:00:44,480
+machine vision
+
+13
+00:00:48,950 --> 00:00:46,559
+to have some of the aspects that have
+
+14
+00:00:52,069 --> 00:00:48,960
+proven advantageous in the development
+
+15
+00:00:55,350 --> 00:00:52,079
+of robot of human vision and other
+
+16
+00:00:57,110 --> 00:00:55,360
+biological human systems
+
+17
+00:00:59,670 --> 00:00:57,120
+the main function of the programmable
+
+18
+00:01:00,709 --> 00:00:59,680
+remapper within the machine vision
+
+19
+00:01:03,349 --> 00:01:00,719
+environment
+
+20
+00:01:05,910 --> 00:01:03,359
+is to provide things like rotation and
+
+21
+00:01:07,590 --> 00:01:05,920
+variance and scale in variants and you
+
+22
+00:01:08,469 --> 00:01:07,600
+have some of those features built into
+
+23
+00:01:10,310 --> 00:01:08,479
+your
+
+24
+00:01:11,910 --> 00:01:10,320
+vision system that you're watching the
+
+25
+00:01:13,510 --> 00:01:11,920
+show with
+26
+00:01:16,390 --> 00:01:13,520
+you know what my face looks like as i
+
+27
+00:01:18,950 --> 00:01:16,400
+stand here as i look as i stand closer
+
+28
+00:01:21,910 --> 00:01:18,960
+or closer or closer
+
+29
+00:01:23,910 --> 00:01:21,920
+you don't have to remember a different
+
+30
+00:01:26,550 --> 00:01:23,920
+shape of face
+
+31
+00:01:27,830 --> 00:01:26,560
+because you have a a character to your
+
+32
+00:01:28,710 --> 00:01:27,840
+vision system
+
+33
+00:01:30,630 --> 00:01:28,720
+that
+
+34
+00:01:32,630 --> 00:01:30,640
+doesn't mind the changes of scale
+
+35
+00:01:34,710 --> 00:01:32,640
+machines have more trouble with that and
+
+36
+00:01:37,830 --> 00:01:34,720
+we built the programmable remapper in
+
+37
+00:01:41,030 --> 00:01:37,840
+order to assist with that kind of a
+
+38
+00:01:43,109 --> 00:01:41,040
+problem in machine vision now some of
+
+39
+00:01:45,830 --> 00:01:43,119
+the robotic vision
+
+40
+00:01:48,710 --> 00:01:45,840
+applications that the agency has
+
+41
+00:01:51,510 --> 00:01:48,720
+uh would include working with
+
+42
+00:01:56,550 --> 00:01:51,520
+a spacecraft in orbit we have machines
+
+43
+00:02:01,670 --> 00:01:59,429
+change in viewing angle and
+
+44
+00:02:05,109 --> 00:02:01,680
+and distance that
+
+45
+00:02:07,590 --> 00:02:05,119
+will be required in space operations
+
+46
+00:02:10,150 --> 00:02:07,600
+beyond this kind of an application
+
+47
+00:02:13,670 --> 00:02:10,160
+we also intend to build vision systems
+
+48
+00:02:16,309 --> 00:02:13,680
+that will land robotically on mars
+
+49
+00:02:18,229 --> 00:02:16,319
+i am very turned on to the idea that i
+
+50
+00:02:20,229 --> 00:02:18,239
+might be able to tell my grandkids that
+51
+00:02:22,550 --> 00:02:20,239
+i worked on a vision system that enabled
+
+52
+00:02:25,430 --> 00:02:22,560
+a robot to land on the surface of mars
+
+53
+00:02:27,670 --> 00:02:25,440
+technology utilization's interest in
+
+54
+00:02:29,910 --> 00:02:27,680
+this in this particular technology is
+
+55
+00:02:31,830 --> 00:02:29,920
+for its application to
+
+56
+00:02:33,670 --> 00:02:31,840
+some human low vision problems that's
+
+57
+00:02:35,910 --> 00:02:33,680
+one of the things that the agency is
+
+58
+00:02:37,910 --> 00:02:35,920
+supposed to do is develop technology
+
+59
+00:02:39,830 --> 00:02:37,920
+that can be spun off into
+
+60
+00:02:42,390 --> 00:02:39,840
+public application
+
+61
+00:02:44,710 --> 00:02:42,400
+some of the things that can help make a
+
+62
+00:02:47,750 --> 00:02:44,720
+machine see better
+
+63
+00:02:49,430 --> 00:02:47,760
+we think have a solid chance
+
+64
+00:02:51,990 --> 00:02:49,440
+of helping the
+
+65
+00:02:53,670 --> 00:02:52,000
+person who has certain forms
+
+66
+00:02:55,910 --> 00:02:53,680
+of diminished vision
+
+67
+00:02:58,949 --> 00:02:55,920
+make the best use of the remaining
+
+68
+00:03:01,110 --> 00:02:58,959
+function that he has it's not a cure
+
+69
+00:03:02,309 --> 00:03:01,120
+it's not available next week but we
+
+70
+00:03:04,309 --> 00:03:02,319
+think that
+
+71
+00:03:05,589 --> 00:03:04,319
+within something on the order of five
+
+72
+00:03:08,070 --> 00:03:05,599
+years
+
+73
+00:03:09,750 --> 00:03:08,080
+this kind of technology the results of
+
+74
+00:03:12,550 --> 00:03:09,760
+our research here
+
+75
+00:03:14,550 --> 00:03:12,560
+uh can have a benefit to the
+76
+00:03:16,229 --> 00:03:14,560
+low vision community within the within
+
+77
+00:03:19,030 --> 00:03:16,239
+the the country
+
+78
+00:03:21,670 --> 00:03:19,040
+uh i have formed an association here
+
+79
+00:03:23,990 --> 00:03:21,680
+with uh dr david lotion
+
+80
+00:03:26,470 --> 00:03:24,000
+from the university of houston's college
+
+81
+00:03:29,030 --> 00:03:26,480
+of optometry
+
+82
+00:03:30,710 --> 00:03:29,040
+dave came and sought out what technology
+
+83
+00:03:32,949 --> 00:03:30,720
+there might be at the
+
+84
+00:03:36,149 --> 00:03:32,959
+johnson space center that
+
+85
+00:03:38,229 --> 00:03:36,159
+would assist him in his activities
+
+86
+00:03:40,309 --> 00:03:38,239
+and this is the association that
+
+87
+00:03:42,229 --> 00:03:40,319
+resulted
+
+88
+00:03:43,750 --> 00:03:42,239
+hello i'm david lotion associate
+
+89
+00:03:45,110 --> 00:03:43,760
+professor and assistant dean at the
+
+90
+00:03:46,470 --> 00:03:45,120
+university of houston college of
+
+91
+00:03:48,470 --> 00:03:46,480
+optometry
+
+92
+00:03:50,789 --> 00:03:48,480
+dr richard today and i have developed a
+
+93
+00:03:53,429 --> 00:03:50,799
+collaboration trying to bring some of
+
+94
+00:03:56,309 --> 00:03:53,439
+this nasa technology developed using the
+
+95
+00:03:57,990 --> 00:03:56,319
+remap programmable remapper to a low
+
+96
+00:03:59,750 --> 00:03:58,000
+vision application
+
+97
+00:04:01,429 --> 00:03:59,760
+there are many problems that individuals
+
+98
+00:04:04,070 --> 00:04:01,439
+have with low vision
+
+99
+00:04:05,830 --> 00:04:04,080
+these problems usually are associated
+
+100
+00:04:07,429 --> 00:04:05,840
+with visual field defects that is
+101
+00:04:08,869 --> 00:04:07,439
+regions of the world that they cannot
+
+102
+00:04:09,990 --> 00:04:08,879
+see
+
+103
+00:04:12,550 --> 00:04:10,000
+these can be
+
+104
+00:04:15,910 --> 00:04:12,560
+mainly isolated to the central vision as
+
+105
+00:04:18,469 --> 00:04:15,920
+in the case of age-related maculopathy
+
+106
+00:04:21,030 --> 00:04:18,479
+or in peripheral vision as in the case
+
+107
+00:04:23,030 --> 00:04:21,040
+of retinitis pigmentosa these
+
+108
+00:04:25,430 --> 00:04:23,040
+individuals have problems with specific
+
+109
+00:04:27,350 --> 00:04:25,440
+tasks including reading
+
+110
+00:04:30,950 --> 00:04:27,360
+facial recognition
+
+111
+00:04:34,310 --> 00:04:30,960
+object recognition mobility and driving
+
+112
+00:04:35,909 --> 00:04:34,320
+let me give you some examples of these
+
+113
+00:04:38,790 --> 00:04:35,919
+this is the back of the eye or the
+
+114
+00:04:41,110 --> 00:04:38,800
+retina this individual has age-related
+
+115
+00:04:43,189 --> 00:04:41,120
+maculopathy as you notice the central
+
+116
+00:04:45,030 --> 00:04:43,199
+portion of the retina is affected by the
+
+117
+00:04:48,550 --> 00:04:45,040
+disease process
+
+118
+00:04:50,150 --> 00:04:48,560
+individuals with this disease
+
+119
+00:04:52,390 --> 00:04:50,160
+have difficulty
+
+120
+00:04:54,950 --> 00:04:52,400
+reading print because wherever they look
+
+121
+00:04:57,990 --> 00:04:54,960
+they will see a region that is missing
+
+122
+00:05:04,950 --> 00:05:00,150
+these individuals
+
+123
+00:05:06,629 --> 00:05:04,960
+problem with facial recognition here you
+
+124
+00:05:08,830 --> 00:05:06,639
+can see the full face a face we all
+
+125
+00:05:11,990 --> 00:05:08,840
+recognize but these
+126
+00:05:15,110 --> 00:05:12,000
+individuals may see something like this
+
+127
+00:05:19,590 --> 00:05:15,120
+all the detail of the face is missing
+
+128
+00:05:24,230 --> 00:05:21,830
+as as here shown with retinitis
+
+129
+00:05:25,990 --> 00:05:24,240
+pigmentosa again this is the retina or
+
+130
+00:05:29,350 --> 00:05:26,000
+the back of the eye
+
+131
+00:05:31,430 --> 00:05:29,360
+individuals with this disease
+
+132
+00:05:33,749 --> 00:05:31,440
+will not see a full
+
+133
+00:05:36,550 --> 00:05:33,759
+view of the world but rather a very
+
+134
+00:05:40,629 --> 00:05:36,560
+small portion
+
+135
+00:05:42,070 --> 00:05:40,639
+or isolated part of the world
+
+136
+00:05:43,909 --> 00:05:42,080
+what we're trying to do with the
+
+137
+00:05:46,150 --> 00:05:43,919
+programmable remapper
+
+138
+00:05:48,870 --> 00:05:46,160
+is take information that would normally
+
+139
+00:05:50,830 --> 00:05:48,880
+fall within these defects and bring it
+
+140
+00:05:55,029 --> 00:05:50,840
+into
+
+141
+00:05:59,749 --> 00:05:57,110
+let me give you some examples of image
+
+142
+00:06:01,510 --> 00:05:59,759
+image warping
+
+143
+00:06:04,230 --> 00:06:01,520
+some of these remappings we can show you
+
+144
+00:06:06,469 --> 00:06:04,240
+applications with a grid here you see a
+
+145
+00:06:08,870 --> 00:06:06,479
+reduced field of a grid
+
+146
+00:06:11,670 --> 00:06:08,880
+normally someone with a peripheral field
+
+147
+00:06:13,909 --> 00:06:11,680
+defect would be given a a device that
+
+148
+00:06:15,830 --> 00:06:13,919
+minifies the entire field this would
+
+149
+00:06:17,590 --> 00:06:15,840
+allow more information to go into the
+
+150
+00:06:19,749 --> 00:06:17,600
+central field where they have their
+151
+00:06:21,909 --> 00:06:19,759
+healthy retina
+
+152
+00:06:23,189 --> 00:06:21,919
+with remapping we can take the
+
+153
+00:06:23,990 --> 00:06:23,199
+information
+
+154
+00:06:25,670 --> 00:06:24,000
+and
+
+155
+00:06:27,350 --> 00:06:25,680
+actually
+
+156
+00:06:29,990 --> 00:06:27,360
+show more information in the central
+
+157
+00:06:32,390 --> 00:06:30,000
+field or a larger portion larger in the
+
+158
+00:06:34,390 --> 00:06:32,400
+central field and gradually go off into
+
+159
+00:06:36,710 --> 00:06:34,400
+the periphery and here we can get the
+
+160
+00:06:39,270 --> 00:06:36,720
+central field exactly the same size as
+
+161
+00:06:40,950 --> 00:06:39,280
+our reduced field but we had more
+
+162
+00:06:43,830 --> 00:06:40,960
+information in the periphery of the
+
+163
+00:06:45,670 --> 00:06:43,840
+field one of the problems with
+
+164
+00:06:48,550 --> 00:06:45,680
+overall minification
+
+165
+00:06:50,070 --> 00:06:48,560
+is that people lose localization within
+
+166
+00:06:52,230 --> 00:06:50,080
+the field and they have a hard time
+
+167
+00:06:54,070 --> 00:06:52,240
+doing any kind of mobility that is
+
+168
+00:06:56,950 --> 00:06:54,080
+walking
+
+169
+00:06:59,909 --> 00:06:56,960
+in the case of central field defect
+
+170
+00:07:02,629 --> 00:06:59,919
+the information with remapping is pulled
+
+171
+00:07:04,870 --> 00:07:02,639
+outside of the central defect you can
+
+172
+00:07:07,189 --> 00:07:04,880
+see here a line coming down will
+
+173
+00:07:09,350 --> 00:07:07,199
+actually be remapped around
+
+174
+00:07:11,189 --> 00:07:09,360
+the field effect
+
+175
+00:07:13,670 --> 00:07:11,199
+notice that we don't have this
+176
+00:07:17,510 --> 00:07:13,680
+distortion throughout the field but just
+
+177
+00:07:19,670 --> 00:07:17,520
+around the defect we don't have to
+
+178
+00:07:21,270 --> 00:07:19,680
+remap the entire field instead we can
+
+179
+00:07:23,029 --> 00:07:21,280
+only do part of it
+
+180
+00:07:24,629 --> 00:07:23,039
+here is a partial remapping where we're
+
+181
+00:07:26,870 --> 00:07:24,639
+not taking all the information that
+
+182
+00:07:29,270 --> 00:07:26,880
+would fall behind the defect but just
+
+183
+00:07:31,510 --> 00:07:29,280
+part of that information
+
+184
+00:07:34,309 --> 00:07:31,520
+now this can be applied to
+
+185
+00:07:37,189 --> 00:07:34,319
+application of reading
+
+186
+00:07:39,189 --> 00:07:37,199
+as you can see here information is lost
+
+187
+00:07:41,510 --> 00:07:39,199
+behind the defect and it'll be difficult
+
+188
+00:07:43,830 --> 00:07:41,520
+to read across the line
+
+189
+00:07:45,589 --> 00:07:43,840
+by remapping we can take information
+
+190
+00:07:48,230 --> 00:07:45,599
+that would normally fall with behind
+
+191
+00:07:50,390 --> 00:07:48,240
+this defect and remap it outside there
+
+192
+00:07:51,749 --> 00:07:50,400
+is slight distortion but the letters are
+
+193
+00:07:54,629 --> 00:07:51,759
+still legible
+
+194
+00:07:57,270 --> 00:07:54,639
+for example to eat you we cannot see
+
+195
+00:07:59,510 --> 00:07:57,280
+this here but to eat you up the word up
+
+196
+00:08:02,070 --> 00:07:59,520
+is pulled out of the defect
+
+197
+00:08:05,990 --> 00:08:02,080
+this would make it easier we believe for
+
+198
+00:08:09,749 --> 00:08:07,990
+we can also apply this to facial
+
+199
+00:08:11,909 --> 00:08:09,759
+recognition
+
+200
+00:08:14,230 --> 00:08:11,919
+individuals with the central defects
+201
+00:08:16,230 --> 00:08:14,240
+would see we can pull the information
+
+202
+00:08:18,150 --> 00:08:16,240
+out of the defect you can see here what
+
+203
+00:08:19,990 --> 00:08:18,160
+happens when we do a complete remapping
+
+204
+00:08:22,230 --> 00:08:20,000
+we get a lot of distortion
+
+205
+00:08:24,790 --> 00:08:22,240
+however with a partial remapping we can
+
+206
+00:08:31,909 --> 00:08:24,800
+get features outside of defect that may
+
+207
+00:08:35,350 --> 00:08:33,350
+well let's talk about what we might be
+
+208
+00:08:37,269 --> 00:08:35,360
+able to do with some
+
+209
+00:08:38,870 --> 00:08:37,279
+field remapping with the machine that we
+
+210
+00:08:40,790 --> 00:08:38,880
+have here dave
+
+211
+00:08:42,070 --> 00:08:40,800
+suppose that a normal person's field of
+
+212
+00:08:44,310 --> 00:08:42,080
+view
+
+213
+00:08:46,310 --> 00:08:44,320
+were
+
+214
+00:08:48,470 --> 00:08:46,320
+about that size uh
+
+215
+00:08:49,829 --> 00:08:48,480
+then uh what might a person with uh with
+
+216
+00:08:51,509 --> 00:08:49,839
+the pigmentosa
+
+217
+00:08:53,430 --> 00:08:51,519
+retinitis pigmentosa that you were
+
+218
+00:08:55,350 --> 00:08:53,440
+mentioning what might they see well
+
+219
+00:08:57,829 --> 00:08:55,360
+richard obviously has a lot of forms of
+
+220
+00:08:59,190 --> 00:08:57,839
+disease but they would be left with a
+
+221
+00:09:01,269 --> 00:08:59,200
+central region
+
+222
+00:09:03,269 --> 00:09:01,279
+of of good vision and this disease
+
+223
+00:09:05,110 --> 00:09:03,279
+progresses any information that would
+
+224
+00:09:07,030 --> 00:09:05,120
+fall out in the periphery here would
+
+225
+00:09:08,389 --> 00:09:07,040
+actually be lost
+226
+00:09:09,590 --> 00:09:08,399
+they just wouldn't be able to see that
+
+227
+00:09:11,590 --> 00:09:09,600
+they wouldn't be able to see that they'd
+
+228
+00:09:13,110 --> 00:09:11,600
+have a very restricted field of view uh
+
+229
+00:09:14,550 --> 00:09:13,120
+that looks pretty severe that might be
+
+230
+00:09:16,310 --> 00:09:14,560
+like looking through a
+
+231
+00:09:17,350 --> 00:09:16,320
+paper towel tube
+
+232
+00:09:20,949 --> 00:09:17,360
+uh
+
+233
+00:09:23,269 --> 00:09:20,959
+just use a telescope turn it around
+
+234
+00:09:24,790 --> 00:09:23,279
+backwards and shrink the whole the whole
+
+235
+00:09:26,630 --> 00:09:24,800
+field of view into that
+
+236
+00:09:28,630 --> 00:09:26,640
+that's what's done right now for the
+
+237
+00:09:30,710 --> 00:09:28,640
+optical aid that we give individuals the
+
+238
+00:09:33,110 --> 00:09:30,720
+one problem with that is that first of
+
+239
+00:09:34,710 --> 00:09:33,120
+all they lose a lot of the resolution
+
+240
+00:09:37,590 --> 00:09:34,720
+but making things so small they can't
+
+241
+00:09:39,670 --> 00:09:37,600
+pick out objects in the field secondly
+
+242
+00:09:41,030 --> 00:09:39,680
+there's problem with localization when
+
+243
+00:09:42,630 --> 00:09:41,040
+you reduce everything and you put your
+
+244
+00:09:44,470 --> 00:09:42,640
+hand into the field it's hard to tell
+
+245
+00:09:46,790 --> 00:09:44,480
+where your hand is relative relative to
+
+246
+00:09:48,949 --> 00:09:46,800
+objects uh and i think if i were walking
+
+247
+00:09:50,550 --> 00:09:48,959
+down the hall looking through a paper
+
+248
+00:09:51,990 --> 00:09:50,560
+towel too i might bump into things too
+
+249
+00:09:54,949 --> 00:09:52,000
+that's true you have a lot of difficulty
+
+250
+00:09:56,949 --> 00:09:54,959
+with mobility all right so uh what what
+251
+00:09:58,710 --> 00:09:56,959
+i think i hear you saying is that in the
+
+252
+00:10:02,310 --> 00:09:58,720
+center you'd like to
+
+253
+00:10:04,470 --> 00:10:02,320
+maintain a fairly high resolution of the
+
+254
+00:10:05,590 --> 00:10:04,480
+object that we're looking at but bring
+
+255
+00:10:07,910 --> 00:10:05,600
+some of these
+
+256
+00:10:09,509 --> 00:10:07,920
+picture elements that uh that used to be
+
+257
+00:10:11,590 --> 00:10:09,519
+outside the
+
+258
+00:10:14,550 --> 00:10:11,600
+uh the field of view because of the
+
+259
+00:10:16,150 --> 00:10:14,560
+defect and then let them jam up a little
+
+260
+00:10:18,389 --> 00:10:16,160
+more closely together
+
+261
+00:10:19,829 --> 00:10:18,399
+so that we we have uh picture elements
+
+262
+00:10:22,069 --> 00:10:19,839
+spaced widely here but but close
+
+263
+00:10:23,910 --> 00:10:22,079
+together and the periphery of the
+
+264
+00:10:25,110 --> 00:10:23,920
+remaining part would would that work i
+
+265
+00:10:26,870 --> 00:10:25,120
+think it would work
+
+266
+00:10:28,389 --> 00:10:26,880
+obviously when you jam up your your
+
+267
+00:10:30,630 --> 00:10:28,399
+elements here you're going to get some
+
+268
+00:10:32,389 --> 00:10:30,640
+distortion but again it won't make that
+
+269
+00:10:33,670 --> 00:10:32,399
+much difference about the distortion in
+
+270
+00:10:35,030 --> 00:10:33,680
+that you could tell there's an object
+
+271
+00:10:36,710 --> 00:10:35,040
+out there whether you can actually tell
+
+272
+00:10:39,350 --> 00:10:36,720
+what the object is is not as important
+
+273
+00:10:41,910 --> 00:10:39,360
+as being able to navigate around it okay
+
+274
+00:10:44,150 --> 00:10:41,920
+so the motion cues that you normally
+
+275
+00:10:46,470 --> 00:10:44,160
+have if say as you walk down the hall
+276
+00:10:48,310 --> 00:10:46,480
+and things move by you in your
+
+277
+00:10:50,069 --> 00:10:48,320
+perspective uh you can see that they're
+
+278
+00:10:52,710 --> 00:10:50,079
+moving without being able necessarily to
+
+279
+00:10:54,150 --> 00:10:52,720
+read the sign or tell what it is
+
+280
+00:10:55,829 --> 00:10:54,160
+so we might be able to retain some of
+
+281
+00:10:57,190 --> 00:10:55,839
+that i think so yes all right well let's
+
+282
+00:11:01,030 --> 00:10:57,200
+go give it a try i think i know how to
+
+283
+00:11:05,190 --> 00:11:03,670
+what we have here is the programmable
+
+284
+00:11:08,230 --> 00:11:05,200
+remapper itself
+
+285
+00:11:11,190 --> 00:11:08,240
+in the box underneath the monitor it was
+
+286
+00:11:13,030 --> 00:11:11,200
+manufactured at texas instruments to
+
+287
+00:11:14,470 --> 00:11:13,040
+specifications laid out here at the
+
+288
+00:11:16,069 --> 00:11:14,480
+johnson space center
+
+289
+00:11:19,829 --> 00:11:16,079
+some of the design is there some of it
+
+290
+00:11:22,470 --> 00:11:19,839
+is ours it functions by taking a video
+
+291
+00:11:25,350 --> 00:11:22,480
+image as from this camera
+
+292
+00:11:27,030 --> 00:11:25,360
+and that that video signal is fed into
+
+293
+00:11:28,470 --> 00:11:27,040
+the remapper
+
+294
+00:11:31,590 --> 00:11:28,480
+their
+
+295
+00:11:33,350 --> 00:11:31,600
+coefficients that have been calculated
+
+296
+00:11:36,069 --> 00:11:33,360
+offline and are
+
+297
+00:11:38,389 --> 00:11:36,079
+entered into the remapper by
+
+298
+00:11:40,630 --> 00:11:38,399
+floppy disks
+
+299
+00:11:42,710 --> 00:11:40,640
+those coefficients are used to push
+
+300
+00:11:46,389 --> 00:11:42,720
+picture elements around
+301
+00:11:49,190 --> 00:11:46,399
+and to create a display in which a
+
+302
+00:11:51,990 --> 00:11:49,200
+warping has occurred
+
+303
+00:11:54,389 --> 00:11:52,000
+now after that image has been warped
+
+304
+00:11:57,110 --> 00:11:54,399
+in this case it is brought back and
+
+305
+00:11:59,509 --> 00:11:57,120
+displayed here to a person who
+
+306
+00:12:01,750 --> 00:11:59,519
+is wearing this uh
+
+307
+00:12:04,069 --> 00:12:01,760
+helmet that
+
+308
+00:12:07,670 --> 00:12:04,079
+was manufactured at the
+
+309
+00:12:08,550 --> 00:12:07,680
+at the university of houston
+
+310
+00:12:10,629 --> 00:12:08,560
+the
+
+311
+00:12:14,069 --> 00:12:10,639
+displays here show
+
+312
+00:12:15,990 --> 00:12:14,079
+what the remapped image is and uh they
+
+313
+00:12:19,110 --> 00:12:16,000
+are shown to the left and to the right
+
+314
+00:12:20,150 --> 00:12:19,120
+eyes the same image is uh i will see
+
+315
+00:12:23,269 --> 00:12:20,160
+here
+
+316
+00:12:25,350 --> 00:12:23,279
+as dave will see on the monitor
+
+317
+00:12:28,230 --> 00:12:25,360
+and
+
+318
+00:12:30,069 --> 00:12:28,240
+so we'll now try on the lightweight
+
+319
+00:12:32,710 --> 00:12:30,079
+summer version of the
+
+320
+00:12:34,790 --> 00:12:32,720
+darth vader helmet should point out also
+
+321
+00:12:36,710 --> 00:12:34,800
+that this version that we have built
+
+322
+00:12:38,389 --> 00:12:36,720
+here is mainly for testing this is not
+
+323
+00:12:41,269 --> 00:12:38,399
+going to be the low vision device that
+
+324
+00:12:42,629 --> 00:12:41,279
+ultimately this will be used with
+
+325
+00:12:45,910 --> 00:12:42,639
+the
+326
+00:12:47,269 --> 00:12:45,920
+monitor or we have to set up a system
+
+327
+00:12:49,110 --> 00:12:47,279
+like this so that we could do the
+
+328
+00:12:51,110 --> 00:12:49,120
+testing to see how useful and how
+
+329
+00:12:53,910 --> 00:12:51,120
+feasible this type of remapping will be
+
+330
+00:12:55,990 --> 00:12:53,920
+for patients with low vision
+
+331
+00:12:57,269 --> 00:12:56,000
+all right so what transform do you have
+
+332
+00:12:58,870 --> 00:12:57,279
+put in here dave what are we looking for
+
+333
+00:13:00,550 --> 00:12:58,880
+this is a full field we really haven't
+
+334
+00:13:02,870 --> 00:13:00,560
+done any transform at all actually we're
+
+335
+00:13:04,470 --> 00:13:02,880
+just taking the input and
+
+336
+00:13:05,750 --> 00:13:04,480
+displaying it as an output we're not
+
+337
+00:13:08,310 --> 00:13:05,760
+changing the transport we're not
+
+338
+00:13:10,790 --> 00:13:08,320
+changing the image at all
+
+339
+00:13:13,670 --> 00:13:10,800
+okay so here we are looking at some
+
+340
+00:13:15,590 --> 00:13:13,680
+letters on a chart
+
+341
+00:13:17,509 --> 00:13:15,600
+this is actually not remapped at all
+
+342
+00:13:19,670 --> 00:13:17,519
+richard there what we're taking is the
+
+343
+00:13:22,550 --> 00:13:19,680
+direct input into the into the remapper
+
+344
+00:13:23,910 --> 00:13:22,560
+and it's coming out as as it goes in
+
+345
+00:13:26,629 --> 00:13:23,920
+uh this would be
+
+346
+00:13:29,750 --> 00:13:26,639
+simulation simulating a full field okay
+
+347
+00:13:31,269 --> 00:13:29,760
+so i should regard this as my normal
+
+348
+00:13:32,790 --> 00:13:31,279
+field of view as i look around the
+
+349
+00:13:34,150 --> 00:13:32,800
+laboratory that's right and quite fine
+
+350
+00:13:36,949 --> 00:13:34,160
+to see what we got somebody over there
+351
+00:13:41,910 --> 00:13:39,829
+i think this might work dave
+
+352
+00:13:43,110 --> 00:13:41,920
+uh all right so this is what i might see
+
+353
+00:13:44,949 --> 00:13:43,120
+with the
+
+354
+00:13:48,310 --> 00:13:44,959
+reduced field of view from
+
+355
+00:13:50,150 --> 00:13:48,320
+the retinitis pigmentosa yes and you can
+
+356
+00:13:52,389 --> 00:13:50,160
+try to look around the room and see how
+
+357
+00:13:54,230 --> 00:13:52,399
+difficult it is to find objects within
+
+358
+00:13:56,389 --> 00:13:54,240
+the room
+
+359
+00:13:58,870 --> 00:13:56,399
+i can't see as much of that computer
+
+360
+00:13:58,880 --> 00:14:02,150
+nor
+
+361
+00:14:02,160 --> 00:14:05,750
+can i see near so much
+
+362
+00:14:20,710 --> 00:14:06,949
+of
+
+363
+00:14:24,710 --> 00:14:23,030
+all right and what is it that
+
+364
+00:14:26,949 --> 00:14:24,720
+you might be able to do for us here with
+
+365
+00:14:28,550 --> 00:14:26,959
+uh remapping
+
+366
+00:14:30,389 --> 00:14:28,560
+this is the remapped image as i said
+
+367
+00:14:32,949 --> 00:14:30,399
+this has quite a bit of remapping on it
+
+368
+00:14:34,949 --> 00:14:32,959
+we have a very sharp fall off
+
+369
+00:14:36,949 --> 00:14:34,959
+just to give you one example
+
+370
+00:14:38,790 --> 00:14:36,959
+all right so if i want to read the words
+
+371
+00:14:40,550 --> 00:14:38,800
+i can put them in the center
+
+372
+00:14:43,030 --> 00:14:40,560
+but i don't lose them as they go off to
+
+373
+00:14:44,150 --> 00:14:43,040
+the edge as quickly as i did the other
+
+374
+00:14:45,750 --> 00:14:44,160
+time it's
+
+375
+00:14:48,550 --> 00:14:45,760
+sort of like looking at a at a beach
+376
+00:14:54,790 --> 00:14:52,150
+and uh if i go looking around the lab
+
+377
+00:14:57,030 --> 00:14:54,800
+i can now see the
+
+378
+00:15:06,389 --> 00:14:57,040
+computer that does not have someone
+
+379
+00:15:14,310 --> 00:15:10,069
+and let's go look at a chuck over here
+
+380
+00:15:15,670 --> 00:15:14,320
+well i can i can see chuck and i can see
+
+381
+00:15:20,230 --> 00:15:15,680
+the computer
+
+382
+00:15:22,550 --> 00:15:20,240
+if i want to
+
+383
+00:15:23,910 --> 00:15:22,560
+by putting it here at the center
+
+384
+00:15:26,550 --> 00:15:23,920
+or i can
+
+385
+00:15:28,069 --> 00:15:26,560
+resolve chuck here as well
+
+386
+00:15:30,470 --> 00:15:28,079
+and right here i have the computer and
+
+387
+00:15:32,069 --> 00:15:30,480
+chuck in the same field and
+
+388
+00:15:34,230 --> 00:15:32,079
+i think that find that a little easier
+
+389
+00:15:41,590 --> 00:15:34,240
+to
+
+390
+00:15:43,189 --> 00:15:41,600
+well this is all very well for
+
+391
+00:15:46,470 --> 00:15:43,199
+for me to be looking at
+
+392
+00:15:47,910 --> 00:15:46,480
+i have reasonably good vision but
+
+393
+00:15:49,910 --> 00:15:47,920
+how are we going to find out if this is
+
+394
+00:15:51,910 --> 00:15:49,920
+any good for people who have a real
+
+395
+00:15:53,509 --> 00:15:51,920
+problem well that's our next approach
+
+396
+00:15:55,590 --> 00:15:53,519
+richard is we're going to
+
+397
+00:15:57,430 --> 00:15:55,600
+try to have patients try looking at
+
+398
+00:15:59,110 --> 00:15:57,440
+through this device we're going to
+
+399
+00:16:00,470 --> 00:15:59,120
+solicit patients from both the
+
+400
+00:16:03,269 --> 00:16:00,480
+university of houston college of
+401
+00:16:04,629 --> 00:16:03,279
+optometry and the lighthouse of houston
+
+402
+00:16:05,509 --> 00:16:04,639
+these patients will have several
+
+403
+00:16:07,590 --> 00:16:05,519
+different
+
+404
+00:16:09,670 --> 00:16:07,600
+low vision problems and we're going to
+
+405
+00:16:11,189 --> 00:16:09,680
+try to see how
+
+406
+00:16:14,629 --> 00:16:11,199
+much better they can see the world with
+
+407
+00:16:18,150 --> 00:16:15,990
+well it's uh
+
+408
+00:16:20,870 --> 00:16:18,160
+i'm looking forward to that as a look
+
+409
+00:16:23,590 --> 00:16:20,880
+around here this actually seems rather
+
+410
+00:16:25,749 --> 00:16:23,600
+easy to get used to
+
+411
+00:16:27,590 --> 00:16:25,759
+it'll be nice to get some
+
+412
+00:16:29,189 --> 00:16:27,600
+practical experience with it as we
+
+413
+00:16:32,790 --> 00:16:29,199
+stated before also
+
+414
+00:16:36,470 --> 00:16:32,800
+this device will not be the final device
+
+415
+00:16:39,030 --> 00:16:36,480
+this has to be reduced in size and
+
+416
+00:16:41,350 --> 00:16:39,040
+obviously cosmesis in order for low fish
+
+417
+00:16:43,350 --> 00:16:41,360
+low vision patients to want to wear
+
+418
+00:16:44,470 --> 00:16:43,360
+something like it
+
+419
+00:16:45,990 --> 00:16:44,480
+some of the
+
+420
+00:16:47,749 --> 00:16:46,000
+technology that we
+
+421
+00:16:49,829 --> 00:16:47,759
+are developing with the remapper has
+
+422
+00:16:51,670 --> 00:16:49,839
+also been explored further for us by
+
+423
+00:16:53,990 --> 00:16:51,680
+transitions research corporation they
+
+424
+00:16:57,910 --> 00:16:54,000
+have built some robotic equipment that
+
+425
+00:17:03,350 --> 00:17:01,430
+our objective here is to have a machine
+426
+00:17:05,350 --> 00:17:03,360
+have some of the same kind of advantages
+
+427
+00:17:07,189 --> 00:17:05,360
+in pattern recognition
+
+428
+00:17:09,350 --> 00:17:07,199
+that your own
+
+429
+00:17:11,750 --> 00:17:09,360
+eye brain combination does in pattern
+
+430
+00:17:13,990 --> 00:17:11,760
+recognition now you're accustomed to
+
+431
+00:17:16,230 --> 00:17:14,000
+looking at an object that would appear
+
+432
+00:17:18,870 --> 00:17:16,240
+like so if you were looking at the front
+
+433
+00:17:21,189 --> 00:17:18,880
+of a space shuttle
+
+434
+00:17:23,909 --> 00:17:21,199
+but actually what goes on in the back of
+
+435
+00:17:26,230 --> 00:17:23,919
+your head is that this
+
+436
+00:17:28,230 --> 00:17:26,240
+uh this representation
+
+437
+00:17:29,750 --> 00:17:28,240
+as you see think of it out in front of
+
+438
+00:17:33,029 --> 00:17:29,760
+your of your head
+
+439
+00:17:35,350 --> 00:17:33,039
+really looks more like this where the
+
+440
+00:17:37,750 --> 00:17:35,360
+there's more area uh
+
+441
+00:17:41,590 --> 00:17:37,760
+this corresponds to small radius near
+
+442
+00:17:43,510 --> 00:17:41,600
+near the center these these uh fins are
+
+443
+00:17:45,669 --> 00:17:43,520
+these locations the this is what's
+
+444
+00:17:47,110 --> 00:17:45,679
+called a log polar domain where the
+
+445
+00:17:48,549 --> 00:17:47,120
+logarithm of the radius is in this
+
+446
+00:17:50,310 --> 00:17:48,559
+direction and the
+
+447
+00:17:51,430 --> 00:17:50,320
+azimuthal angle
+
+448
+00:17:53,029 --> 00:17:51,440
+is in
+
+449
+00:17:56,950 --> 00:17:53,039
+the vertical direction
+
+450
+00:18:02,950 --> 00:18:00,230
+there is more area in the brain uh given
+451
+00:18:04,789 --> 00:18:02,960
+to the the center of the object now the
+
+452
+00:18:06,870 --> 00:18:04,799
+advantage for pattern recognition is
+
+453
+00:18:09,830 --> 00:18:06,880
+that uh as one
+
+454
+00:18:13,590 --> 00:18:09,840
+were to take uh this object and were to
+
+455
+00:18:17,190 --> 00:18:13,600
+rotate it or to change change size on it
+
+456
+00:18:19,590 --> 00:18:17,200
+that uh as appears uh here in
+
+457
+00:18:23,190 --> 00:18:19,600
+this lower diagram
+
+458
+00:18:26,470 --> 00:18:23,200
+that its representation here uh in the
+
+459
+00:18:29,510 --> 00:18:26,480
+log polar domain is merely a translation
+
+460
+00:18:30,870 --> 00:18:29,520
+of what one sees in the
+
+461
+00:18:33,510 --> 00:18:30,880
+uh
+
+462
+00:18:35,750 --> 00:18:33,520
+in the upper picture so you have you
+
+463
+00:18:37,430 --> 00:18:35,760
+don't have to remember and learn a
+
+464
+00:18:40,789 --> 00:18:37,440
+really different representation of the
+
+465
+00:18:43,750 --> 00:18:40,799
+object just that it has slid over and
+
+466
+00:18:44,870 --> 00:18:43,760
+slid up compared with the
+
+467
+00:18:48,070 --> 00:18:44,880
+method in which you learned it
+
+468
+00:18:53,830 --> 00:18:50,230
+now in another simplistic
+
+469
+00:18:55,510 --> 00:18:53,840
+application of this technology
+
+470
+00:18:58,710 --> 00:18:55,520
+a centering
+
+471
+00:19:01,669 --> 00:18:58,720
+algorithm is very easy to implement if
+
+472
+00:19:02,870 --> 00:19:01,679
+in some of our space applications
+
+473
+00:19:04,630 --> 00:19:02,880
+you need to
+
+474
+00:19:06,470 --> 00:19:04,640
+track an object
+
+475
+00:19:09,430 --> 00:19:06,480
+keep a camera system pointed right
+476
+00:19:11,029 --> 00:19:09,440
+toward the toward that object then
+
+477
+00:19:14,310 --> 00:19:11,039
+in this as a
+
+478
+00:19:16,710 --> 00:19:14,320
+cartesian representation of that object
+
+479
+00:19:19,830 --> 00:19:16,720
+you can see that in order to center this
+
+480
+00:19:23,510 --> 00:19:19,840
+object you'd push on it here and let it
+
+481
+00:19:26,070 --> 00:19:23,520
+uh protrude further on on on this side
+
+482
+00:19:28,390 --> 00:19:26,080
+of these circles well these uh these red
+
+483
+00:19:30,070 --> 00:19:28,400
+and blue circles uh if you were to take
+
+484
+00:19:30,950 --> 00:19:30,080
+them over here into the
+
+485
+00:19:33,510 --> 00:19:30,960
+log
+
+486
+00:19:35,270 --> 00:19:33,520
+polar uh representation
+
+487
+00:19:37,430 --> 00:19:35,280
+uh become
+
+488
+00:19:38,950 --> 00:19:37,440
+this vertical straight line that's red
+
+489
+00:19:39,909 --> 00:19:38,960
+and this vertical straight line which is
+
+490
+00:19:41,669 --> 00:19:39,919
+blue
+
+491
+00:19:43,909 --> 00:19:41,679
+and you see that in order to center the
+
+492
+00:19:45,750 --> 00:19:43,919
+object the expression of that action
+
+493
+00:19:48,870 --> 00:19:45,760
+over here becomes find the place where
+
+494
+00:19:51,029 --> 00:19:48,880
+the object sticks out the farthest and
+
+495
+00:19:54,710 --> 00:19:51,039
+in in a purely
+
+496
+00:19:56,710 --> 00:19:54,720
+left-right sense and push to the
+
+497
+00:19:58,789 --> 00:19:56,720
+left on that
+
+498
+00:20:00,870 --> 00:19:58,799
+that protrusion which will have this
+
+499
+00:20:03,909 --> 00:20:00,880
+matching protrusion come out when your
+
+500
+00:20:06,149 --> 00:20:03,919
+two highest protrusions are
+501
+00:20:08,470 --> 00:20:06,159
+the right distance on this chart which
+
+502
+00:20:09,590 --> 00:20:08,480
+is about like so separated from each
+
+503
+00:20:11,190 --> 00:20:09,600
+other
+
+504
+00:20:12,549 --> 00:20:11,200
+then that object is
+
+505
+00:20:14,630 --> 00:20:12,559
+is centered
+
+506
+00:20:17,110 --> 00:20:14,640
+and that's the algorithm that is
+
+507
+00:21:04,549 --> 00:20:17,120
+implemented in the version of the
+
+508
+00:21:07,590 --> 00:21:06,310
+okay what should be happening now is
+
+509
+00:21:10,549 --> 00:21:07,600
+that the
+
+510
+00:21:11,669 --> 00:21:10,559
+robot is looking for
+
+511
+00:21:15,029 --> 00:21:11,679
+the
+
+512
+00:21:17,590 --> 00:21:15,039
+uh
+
+513
+00:21:19,590 --> 00:21:17,600
+docking target bears just the right kind
+
+514
+00:21:22,230 --> 00:21:19,600
+of resemblance to
+
+515
+00:21:24,710 --> 00:21:22,240
+what it has been told to look for
+
+516
+00:21:26,710 --> 00:21:24,720
+uh when it finds that place
+
+517
+00:21:29,510 --> 00:21:26,720
+uh
+
+518
+00:21:30,870 --> 00:21:29,520
+it will align itself to be on the axis
+
+519
+00:21:35,590 --> 00:21:30,880
+of the
+
+520
+00:21:38,070 --> 00:21:35,600
+all all done visually now as a
+
+521
+00:21:40,630 --> 00:21:38,080
+machine vision process
+
+522
+00:21:42,870 --> 00:21:40,640
+and we'll then uh dock with
+
+523
+00:21:46,710 --> 00:21:42,880
+the uh
+
+524
+00:21:50,950 --> 00:21:48,470
+okay it's looking for the places where
+
+525
+00:21:52,870 --> 00:21:50,960
+the bulges that result from
+526
+00:21:53,909 --> 00:21:52,880
+the fact that the
+
+527
+00:21:56,830 --> 00:21:53,919
+uh
+
+528
+00:22:00,149 --> 00:21:56,840
+box is not a sphere but is instead a
+
+529
+00:22:02,310 --> 00:22:00,159
+cylinder where those
+
+530
+00:22:05,029 --> 00:22:02,320
+bulges appear at the right orientation
+
+531
+00:22:12,630 --> 00:22:05,039
+in its field of view
+
+532
+00:22:12,640 --> 00:22:27,750
+okay
+
+533
+00:22:32,149 --> 00:22:29,909
+what we have here is
+
+534
+00:22:34,789 --> 00:22:32,159
+the video the same as you would expect
+
+535
+00:22:36,549 --> 00:22:34,799
+to see it with uh with your eyes
+
+536
+00:22:37,909 --> 00:22:36,559
+of the video camera looking at the
+
+537
+00:22:40,390 --> 00:22:37,919
+docking target
+
+538
+00:22:43,590 --> 00:22:40,400
+in the top you have the
+
+539
+00:22:46,710 --> 00:22:43,600
+representation of that object as the
+
+540
+00:22:49,590 --> 00:22:46,720
+robot sees it and this looks very much
+
+541
+00:22:51,590 --> 00:22:49,600
+like what the part of the what what this
+
+542
+00:22:53,990 --> 00:22:51,600
+image would look like in
+
+543
+00:22:55,909 --> 00:22:54,000
+in the back of your head in the in the
+
+544
+00:22:58,390 --> 00:22:55,919
+brain now we'll give the thing a bit of
+
+545
+00:23:00,789 --> 00:22:58,400
+a offset just to make the problem harder
+
+546
+00:23:03,350 --> 00:23:00,799
+and we will set we will tell the
+
+547
+00:23:06,789 --> 00:23:03,360
+object tell the tracking system
+
+548
+00:23:08,470 --> 00:23:06,799
+now just to to go dock with the uh
+
+549
+00:23:10,149 --> 00:23:08,480
+with this target
+
+550
+00:23:11,430 --> 00:23:10,159
+okay well here we'll we'll start the
+551
+00:23:12,950 --> 00:23:11,440
+demonstration
+
+552
+00:23:25,270 --> 00:23:12,960
+the
+
+553
+00:23:27,270 --> 00:23:25,280
+just to make this a little more
+
+554
+00:23:29,430 --> 00:23:27,280
+easy for us to see
+
+555
+00:23:30,470 --> 00:23:29,440
+now what what we are seeing is this is
+
+556
+00:23:32,070 --> 00:23:30,480
+the
+
+557
+00:23:33,750 --> 00:23:32,080
+uh what we call a cartesian
+
+558
+00:23:35,190 --> 00:23:33,760
+representation of this object it's the
+
+559
+00:23:37,669 --> 00:23:35,200
+television image
+
+560
+00:23:39,590 --> 00:23:37,679
+in much the same
+
+561
+00:23:41,909 --> 00:23:39,600
+form as you're accustomed to looking at
+
+562
+00:23:44,870 --> 00:23:41,919
+it yourself but what's happening in the
+
+563
+00:23:46,549 --> 00:23:44,880
+back of your head is more nearly like
+
+564
+00:23:47,990 --> 00:23:46,559
+what we see in the
+
+565
+00:23:50,789 --> 00:23:48,000
+upper region
+
+566
+00:23:52,470 --> 00:23:50,799
+where this is the uh
+
+567
+00:23:55,990 --> 00:23:52,480
+the log polar
+
+568
+00:23:56,950 --> 00:23:56,000
+uh version of this uh uh of this lower
+
+569
+00:23:59,350 --> 00:23:56,960
+image
+
+570
+00:24:01,430 --> 00:23:59,360
+now what the robot is doing is it's
+
+571
+00:24:03,350 --> 00:24:01,440
+because this is a cylinder uh it has
+
+572
+00:24:05,110 --> 00:24:03,360
+bumps on it compared with uh what it
+
+573
+00:24:06,230 --> 00:24:05,120
+would look like if it were
+
+574
+00:24:23,350 --> 00:24:06,240
+a
+
+575
+00:24:24,390 --> 00:24:23,360
+it's jumping it's lowering until the uh
+576
+00:24:26,630 --> 00:24:24,400
+the bumps
+
+577
+00:24:28,950 --> 00:24:26,640
+have mostly disappeared
+
+578
+00:24:32,149 --> 00:24:28,960
+and now it's coming in uh on a straight
+
+579
+00:24:33,909 --> 00:24:32,159
+on approach to the to the docking cart
+
+580
+00:24:36,070 --> 00:24:33,919
+and so you're looking at
