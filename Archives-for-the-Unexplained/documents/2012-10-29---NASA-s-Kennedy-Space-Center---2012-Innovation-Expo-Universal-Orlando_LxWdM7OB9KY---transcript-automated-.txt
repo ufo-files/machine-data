@@ -1,0 +1,710 @@
+{"created_utc": "2026-09-26T16:12:23Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 94754, "source_ctime_ns": 1790204196118413703, "source_file": "Archives-for-the-Unexplained/documents/2012-10-29---NASA-s-Kennedy-Space-Center---2012-Innovation-Expo-Universal-Orlando_LxWdM7OB9KY---transcript-automated-.pdf", "source_mtime_ns": 1790204196112401109, "source_rel": "Archives-for-the-Unexplained/documents/2012-10-29---NASA-s-Kennedy-Space-Center---2012-Innovation-Expo-Universal-Orlando_LxWdM7OB9KY---transcript-automated-.pdf", "source_sha256": "7efd03cbfca4c606b458e3743a55f4bf4401c7828818a55b5914607fbdf28fa7"}
+
+1
+00:00:01,430 --> 00:00:07,340
+\h    Announcer: Please welcome Bob Hartline, chief sustaining engineer for Universal Orlando.
+
+2
+00:00:07,340 --> 00:00:09,690
+\h    Bob Hartline: Hi, good afternoon, everybody. Thanks for inviting me.
+
+3
+00:00:09,690 --> 00:00:16,780
+\h    It's my pleasure to be here. My name is Bob Hartline, I'm the chief sustaining controls engineer,
+
+4
+00:00:16,780 --> 00:00:21,660
+\h    I'm a technical guy. I talk about control systems and how we make things move,
+
+5
+00:00:21,660 --> 00:00:28,700
+\h    and lights flash and sound come out of things, and that's what I think in the parks.
+
+6
+00:00:28,700 --> 00:00:35,020
+\h    What I'm going to talk about today, how this works, oh, they left it, fancy.
+
+7
+00:00:35,020 --> 00:00:42,280
+\h    Innovation through partnerships, in other words, how to succeed in innovation partnering with outside
+
+8
+00:00:42,280 --> 00:00:45,450
+\h    vendors or commercial off the shelf products.
+
+9
+00:00:45,450 --> 00:00:52,690
+\h    I have learned being here today that, you know, if we were talking about spacecraft, apparently commer
+
+10
+00:00:52,690 --> 00:00:58,650
+\h    off the shelf spacecraft are available so I guess I'm done.
+
+11
+00:00:58,650 --> 00:01:05,170
+\h    Let's buy one! Anyway, we're going to talk about a few things, the first part is why is this a good idea,
+
+12
+00:01:05,170 --> 00:01:12,920
+\h    and I know that C.O.T.S., commercial off the shelf has been the topic for many years and
+
+13
+00:01:12,920 --> 00:01:18,800
+\h     everybody has the general reasons why they do that and pretty well still hold today.
+
+14
+00:01:18,800 --> 00:01:26,270
+\h    You have reduced development cost because you don't have to recreate the wheel.
+
+15
+00:01:26,270 --> 00:01:30,470
+\h    The diversity and third party certification as well, we're talking about there is a lot of different
+
+16
+00:01:30,470 --> 00:01:36,990
+\h    products out there, and now technology has advanced in very recent years to where now we can buy sy
+
+17
+00:01:36,990 --> 00:01:42,200
+\h    where somebody else is doing a lot of legwork for us, more than normal, to the point that we're getting a
+
+18
+00:01:42,200 --> 00:01:47,970
+\h    third party like a TUV or somebody line that to tell us that this component is safety rated.
+
+19
+00:01:47,970 --> 00:01:53,960
+\h    So when you're building safety rated systems and we all were in that business, we can take a lot of that
+
+20
+00:01:53,960 --> 00:01:57,850
+\h    workload off of ourselves, because somebody else is now doing that.
+
+21
+00:01:57,850 --> 00:02:06,180
+\h    That's important to me, because in my business, we run theme parks, we do attractions.
+
+22
+00:02:06,180 --> 00:02:13,850
+\h    It's a little different, our systems, most of our systems are life safety rated, a little difference between
+
+23
+00:02:13,850 --> 00:02:19,230
+\h    us and maybe you guys is you have trained people on your machine, and you've got training people ope
+
+24
+00:02:19,230 --> 00:02:24,290
+\h    in the console, and you put them on the machine and they go somewhere.
+
+25
+00:02:24,290 --> 00:02:32,260
+\h    We get Ma and Pa smith from Kansas that have saved up for bringing their family for that once in a
+26
+00:02:32,260 --> 00:02:37,620
+\h    generation trip to a theme park for the experience and they get on the ride and at best, I hope they really
+
+27
+00:02:37,620 --> 00:02:42,080
+\h    read the sign that said keep their hands, arms and legs in the vehicle at all times and that they remembe
+
+28
+00:02:42,080 --> 00:02:45,150
+\h    that when they get on because they don't know anything else.
+
+29
+00:02:45,150 --> 00:02:52,350
+\h    They don't know what to expect, so we have to put them on this machine and you know, we can't rely on
+
+30
+00:02:52,350 --> 00:02:57,690
+\h    to help us operate the machine, so one of our things we had to deal with is what can they do for us or to
+
+31
+00:02:57,690 --> 00:03:00,880
+\h    mess up our machine, what can our machine do to mess up them and we
+
+32
+00:03:00,880 --> 00:03:05,320
+\h    have to do functional safety testing for everything.
+
+33
+00:03:05,320 --> 00:03:08,200
+\h    We have trained operators at your launch control system.
+
+34
+00:03:08,200 --> 00:03:12,040
+\h    I have high school kids. And they're trained.
+
+35
+00:03:12,040 --> 00:03:14,580
+\h    They know what to do and they know what's going on,
+
+36
+00:03:14,580 --> 00:03:19,060
+\h    but it just puts more of a reliance on the system to do the work.
+
+37
+00:03:19,060 --> 00:03:28,210
+\h    So the way we operate our systems basically is, I'll pop these up here and run down them a little faster.
+
+38
+00:03:28,210 --> 00:03:34,020
+\h     The way we do our systems is we have to buy off the shelf equipment just like we used to say nobody b
+
+39
+00:03:34,020 --> 00:03:40,450
+\h    rocket but I guess apparently again, people are, but when we do theme parks, the mechanism that we p
+
+40
+00:03:40,450 --> 00:03:45,610
+\h    on to move you as a machine that generally exists somewhere else in the world, somewhere else in indu
+
+41
+00:03:45,610 --> 00:03:50,630
+\h    and what we do is we take two or three or four different pieces of that machine or two or three or four or
+
+42
+00:03:50,630 --> 00:03:56,460
+\h    five pieces of that different machine, stick them together and we make a new machine, and then we stic
+
+43
+00:03:56,460 --> 00:04:02,280
+\h    on the end of it, and then we send you around and we do this where we have to do it sometimes we do i
+
+44
+00:04:02,280 --> 00:04:06,330
+\h    often as every 15 seconds, we cycle equipment so we've got equipment
+
+45
+00:04:06,330 --> 00:04:10,600
+\h    that will cycle in some cases a million times a year.
+
+46
+00:04:10,600 --> 00:04:18,510
+\h    But when we go to do that, we buy this stuff from other people because we don't have the, really the fun
+
+47
+00:04:18,510 --> 00:04:22,520
+\h    and stuff to invent this stuff from scratch nor do we normally have a time frame.
+
+48
+00:04:22,520 --> 00:04:28,680
+\h    Usually we're in a rush, somebody comes with an idea to build an attraction based on intellectual proper
+
+49
+00:04:28,680 --> 00:04:35,420
+\h    right we take off and run and get it done and that's definitely about a three-year turnaround from concep
+
+50
+00:04:35,420 --> 00:04:41,930
+\h    to the day we get it open, but we have to go buy these parts from manufacturers.
+51
+00:04:41,930 --> 00:04:50,440
+\h    When we do that, we go long and hard and deep into the guts of their company to find out how they wor
+
+52
+00:04:50,440 --> 00:04:57,060
+\h    what they do, and what we learn with things like this is manufacturers have better availability to parts, so
+
+53
+00:04:57,060 --> 00:05:01,840
+\h    when you have, you don't think about that normally but when you have something like a tsunami hit japa
+
+54
+00:05:01,840 --> 00:05:08,450
+\h    the only manufacturing facility, now you're down to one that makes a thin film capacitor or something like
+
+55
+00:05:08,450 --> 00:05:13,740
+\h    that, well the guy that's buying, you know, 4 million of them a year is going to beat the pants off of you
+
+56
+00:05:13,740 --> 00:05:16,770
+\h    when he goes over and places his order compared to you wanting a couple
+
+57
+00:05:16,770 --> 00:05:20,940
+\h    dozen for something or whatever the component may be, so they have that.
+
+58
+00:05:20,940 --> 00:05:25,450
+\h    Inventory and training and maintenance, when you go off the shelf with industrial products that are out
+
+59
+00:05:25,450 --> 00:05:31,260
+\h    there today, inventory for standard products is held by distributors as well as you can do assignment, yo
+
+60
+00:05:31,260 --> 00:05:37,290
+\h    have factory stock so you're not custom building a bunch of these things and putting them on your shelf
+
+61
+00:05:37,290 --> 00:05:43,820
+\h    dealing with that cost, and as far as the training goes, and maintenance cost, same way you have factor
+
+62
+00:05:43,820 --> 00:05:49,560
+\h    training available on the items and that we've learned over the time is as things have gotten better and
+
+63
+00:05:49,560 --> 00:05:54,040
+\h     technology is improved, things are now we can take more things off the
+
+64
+00:05:54,040 --> 00:05:57,640
+\h    shelf and do more things with them because things have more connectivity.
+
+65
+00:05:57,640 --> 00:06:05,170
+\h    I can take this box and talk to that box and talk to this sensor, exchange an awful lot of data, and I can
+
+66
+00:06:05,170 --> 00:06:10,670
+\h    get all the information I ever wanted to know, and more, and I didn't have to invent a thing, so from the
+
+67
+00:06:10,670 --> 00:06:16,560
+\h    process of the one box that takes off and does the operation over here, all the way over to the display
+
+68
+00:06:16,560 --> 00:06:18,830
+\h    screen over here that gives me, that's all off the shelf now.
+
+69
+00:06:18,830 --> 00:06:25,620
+\h    People are doing this in other industries, not just we do, but pharmaceutical industries,
+
+70
+00:06:25,620 --> 00:06:28,730
+\h    petrochemical, all that stuff they need all that same information.
+
+71
+00:06:28,730 --> 00:06:32,330
+\h    Manufacturing is now wanting to trace all the raw products,
+
+72
+00:06:32,330 --> 00:06:37,530
+\h    I want you to produce in an hour what their yields are, they want all that same information.
+
+73
+00:06:37,530 --> 00:06:42,200
+\h    The information is there now, it's free and available and you can get to it and use it.
+
+74
+00:06:42,200 --> 00:06:46,590
+\h    We have smart devices now which plug and play.
+
+75
+00:06:46,590 --> 00:06:52,710
+\h    We just run one cable to something and we get up online, it tells us what it is and we can control it.
+76
+00:06:52,710 --> 00:06:59,300
+\h    Another thing for security, that's become a big issue, if anybody knows the word stucksnet from a couple
+
+77
+00:06:59,300 --> 00:07:07,230
+\h    years ago for industrial control systems and automation systems, it was malware that has got into the
+
+78
+00:07:07,230 --> 00:07:12,650
+\h    control system, designed for one control system, we won't talk about what it was for but it was actually a
+
+79
+00:07:12,650 --> 00:07:18,560
+\h    cool thing, you missed it, which is all good but it brought to the attention of the hacker community, which
+
+80
+00:07:18,560 --> 00:07:22,710
+\h    after now for the last couple years is spending a lot of time researching that.
+
+81
+00:07:22,710 --> 00:07:29,530
+\h    We have learned that the hacker community is pretty diverse, but that's been brought to the attention tha
+
+82
+00:07:29,530 --> 00:07:37,110
+\h    these machines that control things, that make things happen, make things move, do not normally have a
+
+83
+00:07:37,110 --> 00:07:40,430
+\h    of protection on them or really don't have a methodology protection because
+
+84
+00:07:40,430 --> 00:07:45,960
+\h    they were designed to turn things off and on and control machinery.
+
+85
+00:07:45,960 --> 00:07:52,160
+\h    So hackers have now decided that this is a fun thing to do, it's a fun thing to take over a water treatment
+
+86
+00:07:52,160 --> 00:07:57,360
+\h    it's a fun thing to take over the power grid, it's a fun thing to take over control of a roller coaster,
+
+87
+00:07:57,360 --> 00:08:03,300
+\h    it's a fun thing now to go down the street and change the readings on your power meter, because you ha
+
+88
+00:08:03,300 --> 00:08:09,480
+\h     wireless power meter on your house and get an electric bill for $15,000 because somebody thought that
+
+89
+00:08:09,480 --> 00:08:14,550
+\h    These guys are hacking and doing everything, so we've learned that with the commercial off the shelf
+
+90
+00:08:14,550 --> 00:08:18,950
+\h    equipment because of the common protocols we can use that technology to protect
+
+91
+00:08:18,950 --> 00:08:25,190
+\h    itself a lot simpler than you could do if you have some proprietary protocols.
+
+92
+00:08:25,190 --> 00:08:30,980
+\h    We've actually done a system throughout the system that we're starting up now that I can say I had a pa
+
+93
+00:08:30,980 --> 00:08:37,480
+\h    that we actually have a patent going forth with my name on it that detects changes into security systems
+
+94
+00:08:37,480 --> 00:08:41,160
+\h    into the security of any kind of automated control system.
+
+95
+00:08:41,160 --> 00:08:47,490
+\h    So we're getting there, and making great head ways, things changed dramatically in the last three to five
+
+96
+00:08:47,490 --> 00:08:53,370
+\h    years as far as the technology and what you can do with what you can buy off the shelf.
+
+97
+00:08:53,370 --> 00:08:57,160
+\h    Another thing is technology life cycle, you know, I'm sure you guys fight the
+
+98
+00:08:57,160 --> 00:09:00,270
+\h    same battles with obsolescence that we do.
+
+99
+00:09:00,270 --> 00:09:06,380
+\h    Over the years we used to say things were good for 10 to 15, maybe 20 years on the outside.
+
+100
+00:09:06,380 --> 00:09:14,060
+\h    Life cycle now in technology from manufacturers is basically three to six years and in the next ten years
+101
+00:09:14,060 --> 00:09:19,730
+\h    they expect it to three years is about all you'll get out of something, all to expect they'll support it.
+
+102
+00:09:19,730 --> 00:09:26,830
+\h    Microsoft obviously and windows operating systems, you know, they always, the new answer is just go b
+
+103
+00:09:26,830 --> 00:09:33,000
+\h    new one, but sometimes if you got windows 2000 machine and want to put windows 8
+
+104
+00:09:33,000 --> 00:09:35,850
+\h    on it you have to buy the computer to go with it.
+
+105
+00:09:35,850 --> 00:09:38,870
+\h    They don't care about that. They'll tell you to buy a new one.
+
+106
+00:09:38,870 --> 00:09:46,300
+\h    Technology life cycles are changing quickly and again with newer technologies, manufacturers are starti
+
+107
+00:09:46,300 --> 00:09:51,980
+\h    move forward with backwards and forwards compatibility so you don't have to do this complete hardware
+
+108
+00:09:51,980 --> 00:09:59,410
+\h    replacement so you can stay in one platform and migrate without starting all over again.
+
+109
+00:09:59,410 --> 00:10:08,380
+\h    Again, we'll just go with what I just said, same thing. I'm not going to repeat myself. So where to start.
+
+110
+00:10:08,380 --> 00:10:13,790
+\h    You have to determine your functionality requirements, obviously what you're going to build, whether it's
+
+111
+00:10:13,790 --> 00:10:19,000
+\h    safety and reliability or always number one in my industry and I'm sure the same thing for you, we have
+
+112
+00:10:19,000 --> 00:10:23,230
+\h    we run Central Florida theme parks last year according to the
+
+113
+00:10:23,230 --> 00:10:25,270
+\h     internet because we don't release official numbers.
+
+114
+00:10:25,270 --> 00:10:34,480
+\h    It says we moved about 60 million people through Orlando theme parks last year, and that's an awful lot
+
+115
+00:10:34,480 --> 00:10:40,940
+\h    people coming to ride rides and attractions and take that once in a lifetime experience and they all want
+
+116
+00:10:40,940 --> 00:10:47,390
+\h    the different experience where they're over at Disney or seeing us or at SeaWorld.
+
+117
+00:10:47,390 --> 00:10:53,670
+\h    So the safety requirements that you're going to set forth operational requirements, maintainability,
+
+118
+00:10:53,670 --> 00:10:56,500
+\h    you have to know what your baseline is for that.
+
+119
+00:10:56,500 --> 00:11:01,170
+\h    The requirements for functional safety and certification are not going to change whether you do it yourse
+
+120
+00:11:01,170 --> 00:11:06,280
+\h    or whether you're going to go off the shelf or partially off the shelf and to go examine similar
+
+121
+00:11:06,280 --> 00:11:11,710
+\h    applications and like industries, whatever your process may be, there's a very good opportunity, some p
+
+122
+00:11:11,710 --> 00:11:14,780
+\h    of it is done in a similar fashion somewhere else,
+
+123
+00:11:14,780 --> 00:11:18,390
+\h    whether it be petrochemical or pharmaceutical or even the theme park industries.
+
+124
+00:11:18,390 --> 00:11:23,890
+\h    Jeff from Disney and I were commenting and touring some of the back areas here that
+
+125
+00:11:23,890 --> 00:11:27,570
+\h    the back areas here look an awful lot like our back areas.
+126
+00:11:27,570 --> 00:11:34,190
+\h    Lot of similar equipment, a lot of types of things, we do in some cases we do a controlled explosions,
+
+127
+00:11:34,190 --> 00:11:43,120
+\h    by dumping natural lRP gas inside of buildings, do it every 30 seconds, we dump liquid nitrogen, we dum
+
+128
+00:11:43,120 --> 00:11:50,370
+\h    we dump large volumes of water and monitor oxygen content in the buildings to make sure people still c
+
+129
+00:11:50,370 --> 00:11:54,440
+\h    the other side, we have to do biodynamic testing and monitoring all the time.
+
+130
+00:11:54,440 --> 00:11:58,070
+\h    Our systems are much more powerful than you expect.
+
+131
+00:11:58,070 --> 00:12:04,550
+\h    I mean, we typically run them, we don't run them at full blast so they have the capability of, you know,
+
+132
+00:12:04,550 --> 00:12:09,860
+\h    moving some body organs around if we shake you around too much so we have to make sure we do tha
+
+133
+00:12:09,860 --> 00:12:16,800
+\h    right every time so a lot of similarities, but we do this all with off the shelf products.
+
+134
+00:12:16,800 --> 00:12:19,560
+\h    So there's a fair amount of similarities.
+
+135
+00:12:19,560 --> 00:12:26,220
+\h    I will say this, and this I cannot stress enough, success in getting this done is purely in the details.
+
+136
+00:12:26,220 --> 00:12:33,800
+\h    It's all about dotting the Is and crossing the Ts, and taking the time to do it right.
+
+137
+00:12:33,800 --> 00:12:38,690
+\h    When you start dealing with outside manufacturers, will you find out they are all not created equal.
+
+138
+00:12:38,690 --> 00:12:46,220
+\h     I'll say that when we deal with technology, and vendors that sell us technology, I classify them as, in two
+
+139
+00:12:46,220 --> 00:12:50,920
+\h    different categories, there are manufacturers that make a technical product,
+
+140
+00:12:50,920 --> 00:12:53,620
+\h    and they are out to strive to make the best technical product.
+
+141
+00:12:53,620 --> 00:12:59,330
+\h    There are manufacturers that are out there to strictly go for price point and volume.
+
+142
+00:12:59,330 --> 00:13:01,500
+\h    How many of these can I make? Okay.
+
+143
+00:13:01,500 --> 00:13:06,110
+\h    And that being said, not all parts are created equal, not all sales engineers
+
+144
+00:13:06,110 --> 00:13:09,520
+\h    and support people and designers are the same as well.
+
+145
+00:13:09,520 --> 00:13:16,980
+\h    When we deal with sales engineers I find in my 30 years of doing this that I deal with the same small gro
+
+146
+00:13:16,980 --> 00:13:23,160
+\h    It doesn't change a whole lot, so anybody outside that group that really just wants to sell me something s
+
+147
+00:13:23,160 --> 00:13:30,560
+\h    they can say they sold something to me or NASA, it's a mark on their card or report to the main office,
+
+148
+00:13:30,560 --> 00:13:32,620
+\h    I call those guys peddlers.
+
+149
+00:13:32,620 --> 00:13:37,970
+\h    So either a sales engineer and you have as much interest in making this project successful as I do,
+
+150
+00:13:37,970 --> 00:13:39,890
+\h    or we don't deal with you.
+151
+00:13:39,890 --> 00:13:42,840
+\h    You're not going to do this on price point.
+
+152
+00:13:42,840 --> 00:13:46,510
+\h    It's not going to be the cheapest part, again people market stuff to see how
+
+153
+00:13:46,510 --> 00:13:49,020
+\h    many they can sell for how cheap they can sell.
+
+154
+00:13:49,020 --> 00:13:54,590
+\h    When you compare components like an electrical component, you look at the specifications and the deta
+
+155
+00:13:54,590 --> 00:14:01,620
+\h    one guy's got 30 volt isolation, the next guy is $10 more but got 600 volt isolation.
+
+156
+00:14:01,620 --> 00:14:05,660
+\h    So all to the details of getting it right.
+
+157
+00:14:05,660 --> 00:14:09,470
+\h    Rarely will you ever be successful with one manufacturer across the entire product line,
+
+158
+00:14:09,470 --> 00:14:11,270
+\h    despite what they tell you.
+
+159
+00:14:11,270 --> 00:14:14,800
+\h    You will get a manufacturer and they'll tell you they sell you everything from
+
+160
+00:14:14,800 --> 00:14:17,220
+\h    one end to the other and it's the best made ever.
+
+161
+00:14:17,220 --> 00:14:19,240
+\h    They all do some things better than others.
+
+162
+00:14:19,240 --> 00:14:24,810
+\h    Some guys are better at one product, another guy is better at another product and you will figure out how
+
+163
+00:14:24,810 --> 00:14:27,830
+\h     match them up, despite the fact they tell you they won't work together.
+
+164
+00:14:27,830 --> 00:14:32,600
+\h    Lot of things we come up and do, we come up and do it at the manufacturer; you're going to do what wit
+
+165
+00:14:32,600 --> 00:14:35,050
+\h    It's never been done before or they tell you, you can't do that?
+
+166
+00:14:35,050 --> 00:14:38,970
+\h    We say why can't we do that? They say it has never been done.
+
+167
+00:14:38,970 --> 00:14:48,270
+\h    When you deal with these guys and we set up a mutual nondisclosure agreements so we can share our
+
+168
+00:14:48,270 --> 00:14:52,180
+\h    they can share their deep secrets, we want to know what's coming out next year.
+
+169
+00:14:52,180 --> 00:15:00,090
+\h    We can influence a product, if you made this one little change which in the product development stage m
+
+170
+00:15:00,090 --> 00:15:06,300
+\h    absolutely nothing to them, you make this one little change we could do this, and when we do this,
+
+171
+00:15:06,300 --> 00:15:08,420
+\h    now it's great, and I'm one up on the guy down the street.
+
+172
+00:15:08,420 --> 00:15:12,300
+\h    We have friendly competition with the guys down the street but we always one up each other.
+
+173
+00:15:12,300 --> 00:15:17,630
+\h    I have my secret projects, he's got his secret projects, so anyway, do that, audit processes and
+
+174
+00:15:17,630 --> 00:15:22,280
+\h    certifications of manufacturers to make sure that they're doing what they're telling you they're going to
+
+175
+00:15:22,280 --> 00:15:26,060
+\h    do, because not everybody is straight up on that either.
+176
+00:15:26,060 --> 00:15:31,440
+\h    I always tell you, it's listen to the words they use when they tell you, because it's the words they don't
+
+177
+00:15:31,440 --> 00:15:35,560
+\h    say is what they're not telling you the rest of the story, when they leave something out of a sentence.
+
+178
+00:15:35,560 --> 00:15:42,020
+\h    When they ask a question and you don't get a direct answer it's always a true tale sign of what they're up
+
+179
+00:15:42,020 --> 00:15:48,460
+\h    I'm not a trusting guy for inventors. I beat them all to death.
