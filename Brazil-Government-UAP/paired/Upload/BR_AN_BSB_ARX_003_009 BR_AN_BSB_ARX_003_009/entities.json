@@ -2,8 +2,26 @@
   "entities": [
     {
       "aliases": [
+        "Operação Prato"
+      ],
+      "category": "program",
+      "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
+      "entity_id": "ent-1aff953665388a21566f2494",
+      "evidence_languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mention_count": 1,
+      "name": "Operação Prato",
+      "source_segment_ids": [
+        "seg-24dee91ffcafc377635a3fe7"
+      ]
+    },
+    {
+      "aliases": [
         "Brazilian Air Force",
-        "FAB"
+        "FAB",
+        "Força Aérea Brasileira"
       ],
       "category": "military_organization",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -12,12 +30,11 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 3,
+      "mention_count": 2,
       "name": "Força Aérea Brasileira",
       "source_segment_ids": [
         "seg-24dee91ffcafc377635a3fe7",
-        "seg-a39b8ebd8c3cdf00ccbefd60",
-        "seg-ac002d0ae7697265cec992e8"
+        "seg-a39b8ebd8c3cdf00ccbefd60"
       ]
     },
     {
@@ -41,16 +58,15 @@
     },
     {
       "aliases": [
-        "OVNI",
         "OVNi",
-        "Ovnis",
+        "OVNI",
         "OVNIs",
-        "Ufo",
+        "Ovnis",
         "UFO",
         "UFOs",
-        "Unidentified flying object",
         "unidentified flying object",
         "Unidentified Flying Object",
+        "Unidentified flying object",
         "unidentified flying objects",
         "Unidentified Flying Objects"
       ],
@@ -61,7 +77,7 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 49,
+      "mention_count": 48,
       "name": "UFO",
       "source_segment_ids": [
         "seg-0254a225684317010429f2f5",
@@ -97,7 +113,6 @@
         "seg-a39b8ebd8c3cdf00ccbefd60",
         "seg-aab3cfe59f363b3f47820109",
         "seg-ab69e75236f341c6a8b74b77",
-        "seg-ac002d0ae7697265cec992e8",
         "seg-add84eefcf99be71d58f247e",
         "seg-ae5b083d308a57aa79f00faf",
         "seg-b49caf8c9ab1a9ebbd269d26",
@@ -118,12 +133,25 @@
   ],
   "occurrences": [
     {
-      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
+      "entity_id": "ent-1aff953665388a21566f2494",
       "languages": [
-        "en"
+        "en",
+        "pt-BR"
       ],
       "mentions": [
-        "Brazilian Air Force"
+        "Operação Prato"
+      ],
+      "source_segment_id": "seg-24dee91ffcafc377635a3fe7"
+    },
+    {
+      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Brazilian Air Force",
+        "Força Aérea Brasileira"
       ],
       "source_segment_id": "seg-24dee91ffcafc377635a3fe7"
     },
@@ -137,16 +165,6 @@
         "FAB"
       ],
       "source_segment_id": "seg-a39b8ebd8c3cdf00ccbefd60"
-    },
-    {
-      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "Brazilian Air Force"
-      ],
-      "source_segment_id": "seg-ac002d0ae7697265cec992e8"
     },
     {
       "entity_id": "ent-a8298876bd52e8d5d51448c3",
@@ -225,7 +243,6 @@
       ],
       "mentions": [
         "Ovnis",
-        "Ufo",
         "UFO",
         "UFOs",
         "Unidentified Flying Objects"
@@ -544,16 +561,6 @@
         "UFOs"
       ],
       "source_segment_id": "seg-ab69e75236f341c6a8b74b77"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-ac002d0ae7697265cec992e8"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
