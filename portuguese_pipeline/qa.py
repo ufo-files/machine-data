@@ -45,7 +45,7 @@ NUMBER = re.compile(
 )
 DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
 DATE_NAMED_PT = re.compile(
-    r"\b(\d{1,2})\s+de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+((?:19|20)\d{2})\b",
+    r"\b(\d{1,2})[º°]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de\s+((?:19|20)\d{2})\b",
     re.I,
 )
 DATE_NAMED_EN = re.compile(
@@ -196,6 +196,16 @@ def _date_spacing(text: str) -> str:
 
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    pt_range = re.compile(r"\b(\d{1,2})\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
+    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})\s+(?:and|to|through)\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b", re.I)
+    def add_range(match: re.Match[str], portuguese: bool) -> str:
+        first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
+        month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
+        for day in (first, last):
+            values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
+        return ""
+    text = pt_range.sub(lambda match: add_range(match, True), text)
+    text = en_range.sub(lambda match: add_range(match, False), text)
     for match in DATE_NUMERIC.finditer(text):
         raw = match.group(0)
         if "-" in raw and raw[:4].isdigit():

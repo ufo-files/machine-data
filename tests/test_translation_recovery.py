@@ -29,6 +29,22 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertTrue([f for f in compare_translation("Texto", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
         self.assertFalse([f for f in compare_translation("__UFO_PROTECTED_012__", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
 
+    def test_formal_certificate_date_preserves_day_month_and_year(self):
+        source = "Aos 16 dias do mês de julho do ano de 1997"
+        self.assertFalse([f for f in compare_translation(source, "On July 16, 1997") if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation(source, "On July 15, 1997") if f['check'] == 'dates'])
+
+    def test_ordinal_and_notification_dates_preserve_values(self):
+        for source, target in [("1º de junho de 2017", "June 1, 2017"), ("dia 09 do mês de julho do ano de 1997", "July 9, 1997")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+            self.assertTrue([f for f in compare_translation(source, target.replace('2017', '2018').replace('1997', '1998')) if f['check'] == 'dates'])
+
+    def test_shared_month_date_range_checks_both_ends(self):
+        source = "no período de 02 a 31 de julho de 1997"
+        target = "from July 2 to 31, 1997"
+        self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation(source, target.replace('2 to', '3 to')) if f['check'] == 'dates'])
+
     def test_ocr_spaced_dates_keep_exact_values(self):
         examples = [("São Paulo, 13 de A b r i l de 2.004", "São Paulo, April 13, 2004"), ("2 0 / 0 8 / 1 9 6 9 e 0 6 / 0 1 / 7 7", "20/08/1969 and 06/01/77")]
         for source, target in examples:
