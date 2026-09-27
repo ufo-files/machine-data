@@ -195,6 +195,9 @@ def _date_spacing(text: str) -> str:
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12](?:[ \t]+\d){3})\b",
                   lambda match: match.group(1) + re.sub(r"[ \t]", "", match.group(2)), text, flags=re.I)
+    spaced_abbreviations = "|".join(r"[ \t]*".join(name[:3]) for name in PT_MONTHS)
+    text = re.sub(r"\b(\d{1,2})\s+(" + spaced_abbreviations + r")\s+([12](?:[ \t]*\d){3})\b",
+                  lambda match: match.group(1) + " " + re.sub(r"[ \t]", "", match.group(2)) + " " + re.sub(r"[ \t]", "", match.group(3)), text, flags=re.I)
     spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
     return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
 

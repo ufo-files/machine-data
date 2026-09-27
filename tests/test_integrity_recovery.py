@@ -66,3 +66,8 @@ class IntegrityRecoveryTests(unittest.TestCase):
         date='30 de j u n h o de 2 0 0 4'
         self.assertFalse(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2004')))
         self.assertTrue(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2005')))
+
+    def test_letter_spaced_abbreviated_date(self):
+        source='DE 30 J U N 2 0 0 4'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'June 30, 2004')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'July 30, 2004')))
