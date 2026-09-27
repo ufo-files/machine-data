@@ -35,15 +35,6 @@
     },
     {
       "reasons": [
-        "table-or-form",
-        "translation-failure-or-qa"
-      ],
-      "review_status": "needs-review",
-      "segment_id": "seg-123b3057d114df13084e279e",
-      "weight": 13
-    },
-    {
-      "reasons": [
         "military-or-official-abbreviation",
         "translation-failure-or-qa"
       ],
@@ -58,15 +49,6 @@
       ],
       "review_status": "needs-review",
       "segment_id": "seg-3ec84f25b4e4887bc5fca4bc",
-      "weight": 13
-    },
-    {
-      "reasons": [
-        "table-or-form",
-        "translation-failure-or-qa"
-      ],
-      "review_status": "failed-protected-token-check",
-      "segment_id": "seg-4443c8cb29cdef1f3d62fef4",
       "weight": 13
     },
     {
@@ -146,7 +128,7 @@
         "table-or-form",
         "translation-failure-or-qa"
       ],
-      "review_status": "failed-protected-token-check",
+      "review_status": "needs-review",
       "segment_id": "seg-a278eb9da8fd349eec931c1d",
       "weight": 13
     },
@@ -157,15 +139,6 @@
       ],
       "review_status": "needs-review",
       "segment_id": "seg-b284cd4992d7d34edb055582",
-      "weight": 13
-    },
-    {
-      "reasons": [
-        "table-or-form",
-        "translation-failure-or-qa"
-      ],
-      "review_status": "needs-review",
-      "segment_id": "seg-c7f28359e309d0767794f929",
       "weight": 13
     },
     {
@@ -223,9 +196,34 @@
       "reasons": [
         "translation-failure-or-qa"
       ],
-      "review_status": "failed-protected-token-check",
-      "segment_id": "seg-757613d413786d57e1391084",
+      "review_status": "needs-review",
+      "segment_id": "seg-77888caf3cb450a0b88f1c1f",
       "weight": 10
+    },
+    {
+      "reasons": [
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
+      "segment_id": "seg-acc866dc80b27023d7541332",
+      "weight": 10
+    },
+    {
+      "reasons": [
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
+      "segment_id": "seg-b45d13b6237d56764605bb06",
+      "weight": 10
+    },
+    {
+      "reasons": [
+        "military-or-official-abbreviation",
+        "table-or-form"
+      ],
+      "review_status": "machine-unreviewed",
+      "segment_id": "seg-d7adab8ef1ff4ec821c9220c",
+      "weight": 6
     }
   ],
   "selection_method": "deterministic weighted sample: failures, handwriting/stamps, low OCR confidence, forms, abbreviations, important cases"
