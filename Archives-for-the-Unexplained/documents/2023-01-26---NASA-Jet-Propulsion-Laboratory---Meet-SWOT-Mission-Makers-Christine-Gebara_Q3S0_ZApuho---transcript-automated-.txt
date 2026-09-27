@@ -1,0 +1,1993 @@
+{"created_utc": "2026-09-27T15:19:27Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 135372, "source_ctime_ns": 1790328451211794392, "source_file": "Archives-for-the-Unexplained/documents/2023-01-26---NASA-Jet-Propulsion-Laboratory---Meet-SWOT-Mission-Makers-Christine-Gebara_Q3S0_ZApuho---transcript-automated-.pdf", "source_mtime_ns": 1790328451203162486, "source_rel": "Archives-for-the-Unexplained/documents/2023-01-26---NASA-Jet-Propulsion-Laboratory---Meet-SWOT-Mission-Makers-Christine-Gebara_Q3S0_ZApuho---transcript-automated-.pdf", "source_sha256": "21caa81d5e4c11a0bec10fb7e317a8fda73fcf9163957fc7d2085d38eb4ab2cf"}
+
+1
+00:00:07,490 --> 00:00:05,329
+hey everyone I'm Marina jurika and I am
+
+2
+00:00:09,830 --> 00:00:07,500
+joining you live from NASA's jet
+
+3
+00:00:11,810 --> 00:00:09,840
+propulsion laboratory here in Southern
+
+4
+00:00:14,930 --> 00:00:11,820
+California we're going to talk to you a
+
+5
+00:00:17,090 --> 00:00:14,940
+little bit today about the SWAT Mission
+
+6
+00:00:19,670 --> 00:00:17,100
+which launched from Vandenberg space
+
+7
+00:00:22,130 --> 00:00:19,680
+Force Base last month now the swap
+
+8
+00:00:25,429 --> 00:00:22,140
+mission is a joint Mission between NASA
+
+9
+00:00:27,710 --> 00:00:25,439
+and the French space agency kness and it
+
+10
+00:00:30,769 --> 00:00:27,720
+is going to track water on the Earth's
+
+11
+00:00:33,590 --> 00:00:30,779
+surface at over 90 percent which is
+
+12
+00:00:36,889 --> 00:00:33,600
+pretty amazing now joining me in just a
+
+13
+00:00:39,410 --> 00:00:36,899
+few moments is Christine Jabara who is a
+
+14
+00:00:41,150 --> 00:00:39,420
+test and integration engineer here at
+
+15
+00:00:43,069 --> 00:00:41,160
+JPL and she's going to tell us a little
+
+16
+00:00:44,810 --> 00:00:43,079
+bit about basically what SWAT has been
+
+17
+00:00:46,970 --> 00:00:44,820
+doing since launch she's going to give
+
+18
+00:00:49,729 --> 00:00:46,980
+us an update and we're going to be just
+
+19
+00:00:51,229 --> 00:00:49,739
+eagerly awaiting all of this SWAT
+
+20
+00:00:53,569 --> 00:00:51,239
+science data that's going to be coming
+
+21
+00:00:54,830 --> 00:00:53,579
+down here in the next few months we're
+
+22
+00:00:56,750 --> 00:00:54,840
+also going to be answering some
+
+23
+00:00:59,930 --> 00:00:56,760
+questions from you that have come in
+
+24
+00:01:02,450 --> 00:00:59,940
+over the last couple of weeks and we're
+
+25
+00:01:04,910 --> 00:01:02,460
+going to be discussing lot with
+26
+00:01:06,649 --> 00:01:04,920
+Christine here in just a few seconds so
+
+27
+00:01:10,130 --> 00:01:06,659
+just bear with me because I'm going to
+
+28
+00:01:13,490 --> 00:01:10,140
+invite her in here to our chat from our
+
+29
+00:01:19,730 --> 00:01:13,500
+sister station which is at Nasa Earth
+
+30
+00:01:25,070 --> 00:01:23,510
+to come alive and be able to tell us all
+
+31
+00:01:27,950 --> 00:01:25,080
+these really interesting things about
+
+32
+00:01:29,570 --> 00:01:27,960
+what it's doing orbiting the Earth right
+
+33
+00:01:31,249 --> 00:01:29,580
+now so we've just invited her in and
+
+34
+00:01:33,890 --> 00:01:31,259
+there she is
+
+35
+00:01:36,469 --> 00:01:33,900
+hi Christine how are you good how are
+
+36
+00:01:39,530 --> 00:01:36,479
+you I'm doing great well I've got a
+
+37
+00:01:41,270 --> 00:01:39,540
+one-third scale model of SWAT behind me
+
+38
+00:01:43,130 --> 00:01:41,280
+here so you're going to be able to talk
+
+39
+00:01:45,289 --> 00:01:43,140
+a little bit about that but you're in a
+
+40
+00:01:46,789 --> 00:01:45,299
+really interesting cool location on Labs
+
+41
+00:01:49,249 --> 00:01:46,799
+so tell us where you're joining us from
+
+42
+00:01:51,230 --> 00:01:49,259
+yeah I am at the top of the hill here at
+
+43
+00:01:53,149 --> 00:01:51,240
+NASA JPL in the advanced Deployable
+
+44
+00:01:55,310 --> 00:01:53,159
+structures lab this is actually where
+
+45
+00:01:57,469 --> 00:01:55,320
+the Deployable antennas on SWAT were
+
+46
+00:01:59,210 --> 00:01:57,479
+first prototyped and tested but we test
+
+47
+00:02:01,789 --> 00:01:59,220
+all sort of Deployable space structures
+
+48
+00:02:04,910 --> 00:02:01,799
+up here so right here is a little paper
+
+49
+00:02:05,990 --> 00:02:04,920
+concept kind of origami of a technology
+
+50
+00:02:07,789 --> 00:02:06,000
+we're developing in here called
+51
+00:02:09,589 --> 00:02:07,799
+starshade and what we do for all our
+
+52
+00:02:11,690 --> 00:02:09,599
+projects here is we start with small
+
+53
+00:02:18,770 --> 00:02:11,700
+prototypes and we make them bigger like
+
+54
+00:02:24,290 --> 00:02:21,229
+so it's like it's like a flower waking
+
+55
+00:02:25,910 --> 00:02:24,300
+up absolutely so I just closed it but in
+
+56
+00:02:27,530 --> 00:02:25,920
+reality it's meant to deploy in space
+
+57
+00:02:29,930 --> 00:02:27,540
+and then over here on the right is an
+
+58
+00:02:32,089 --> 00:02:29,940
+even higher Fidelity more mature
+
+59
+00:02:34,670 --> 00:02:32,099
+technology uh prototype that we have
+
+60
+00:02:35,630 --> 00:02:34,680
+here and so uh yeah that's what we do in
+
+61
+00:02:37,850 --> 00:02:35,640
+this building
+
+62
+00:02:40,369 --> 00:02:37,860
+and and when you say it's on the top of
+
+63
+00:02:41,869 --> 00:02:40,379
+lab it really is a it's a really you
+
+64
+00:02:43,490 --> 00:02:41,879
+know hundreds of acres here and you have
+
+65
+00:02:45,410 --> 00:02:43,500
+to hook it all the way to the top of the
+
+66
+00:02:48,170 --> 00:02:45,420
+hill to get where you are so you're in
+
+67
+00:02:49,910 --> 00:02:48,180
+super shape absolutely we call it the
+
+68
+00:02:51,890 --> 00:02:49,920
+Alps the advanced large Precision
+
+69
+00:02:53,809 --> 00:02:51,900
+structures lab and it's a it's a it's a
+
+70
+00:02:56,150 --> 00:02:53,819
+pot but absolutely
+
+71
+00:02:57,710 --> 00:02:56,160
+climbing up the Alps for sure and that's
+
+72
+00:02:59,930 --> 00:02:57,720
+also where the Karen instrument was born
+
+73
+00:03:02,930 --> 00:02:59,940
+right absolutely so the Karen instrument
+
+74
+00:03:05,809 --> 00:03:02,940
+is a radar interferometer that that uses
+
+75
+00:03:07,670 --> 00:03:05,819
+two Deployable antennas and the antennas
+76
+00:03:09,410 --> 00:03:07,680
+kind of are one on each side of the
+
+77
+00:03:11,390 --> 00:03:09,420
+satellite and deploy out you can see one
+
+78
+00:03:15,350 --> 00:03:11,400
+kind of behind your head poking towards
+
+79
+00:03:17,089 --> 00:03:15,360
+you yeah yeah and this building has a
+
+80
+00:03:18,949 --> 00:03:17,099
+grid of structure on the ceiling and we
+
+81
+00:03:21,830 --> 00:03:18,959
+can hang things off of it to simulate
+
+82
+00:03:24,290 --> 00:03:21,840
+the microgravity of space or of orbiting
+
+83
+00:03:26,270 --> 00:03:24,300
+Earth and we'll test the deployments
+
+84
+00:03:28,130 --> 00:03:26,280
+using that grid so we actually built a
+
+85
+00:03:29,990 --> 00:03:28,140
+prototype of the booms in this building
+
+86
+00:03:31,970 --> 00:03:30,000
+and made sure that we could deploy it
+
+87
+00:03:33,830 --> 00:03:31,980
+before before we actually built the real
+
+88
+00:03:36,710 --> 00:03:33,840
+thing to send a space
+
+89
+00:03:38,930 --> 00:03:36,720
+now SWAT stands for surface water and
+
+90
+00:03:41,750 --> 00:03:38,940
+ocean topography so tell us a little bit
+
+91
+00:03:44,390 --> 00:03:41,760
+Christine about what it is and what your
+
+92
+00:03:46,670 --> 00:03:44,400
+role was in this mission absolutely so
+
+93
+00:03:48,649 --> 00:03:46,680
+SWAT is an Earth orbiting satellite and
+
+94
+00:03:50,390 --> 00:03:48,659
+it'll do the first Global survey of our
+
+95
+00:03:52,850 --> 00:03:50,400
+surface water and so what that means
+
+96
+00:03:55,070 --> 00:03:52,860
+it'll tell us to a level of precision
+
+97
+00:03:57,890 --> 00:03:55,080
+and accuracy that we haven't had before
+
+98
+00:03:59,930 --> 00:03:57,900
+where the water is moving how much water
+
+99
+00:04:01,910 --> 00:03:59,940
+is where and how that water may be
+
+100
+00:04:04,789 --> 00:04:01,920
+ebbing and flowing in our Lakes River
+101
+00:04:06,410 --> 00:04:04,799
+seas and oceans and what I did on the
+
+102
+00:04:09,289 --> 00:04:06,420
+project I've I've been working on a
+
+103
+00:04:11,690 --> 00:04:09,299
+great team of American and French
+
+104
+00:04:13,610 --> 00:04:11,700
+Engineers along with many other partners
+
+105
+00:04:16,129 --> 00:04:13,620
+to help integrate and test the satellite
+
+106
+00:04:17,629 --> 00:04:16,139
+what that means is I helped assemble the
+
+107
+00:04:20,090 --> 00:04:17,639
+mechanisms when they were tiny piece
+
+108
+00:04:22,850 --> 00:04:20,100
+parts and starting with like a Lego kit
+
+109
+00:04:24,530 --> 00:04:22,860
+all the way up to a giant satellite we
+
+110
+00:04:25,909 --> 00:04:24,540
+would assemble something then test it
+
+111
+00:04:28,790 --> 00:04:25,919
+then it would get bigger go to the next
+
+112
+00:04:30,469 --> 00:04:28,800
+level and assemble it and test it until
+
+113
+00:04:31,490 --> 00:04:30,479
+we have the entire satellite and what we
+
+114
+00:04:32,990 --> 00:04:31,500
+would do is we would put it through
+
+115
+00:04:35,270 --> 00:04:33,000
+Environmental Testing which means
+
+116
+00:04:37,189 --> 00:04:35,280
+putting it in a thermal vacuum chamber
+
+117
+00:04:39,110 --> 00:04:37,199
+to simulate space or putting it on a
+
+118
+00:04:40,550 --> 00:04:39,120
+vibration table to shake it to simulate
+
+119
+00:04:42,770 --> 00:04:40,560
+the rocket and make sure nothing would
+
+120
+00:04:45,050 --> 00:04:42,780
+break so when we send it to space we
+
+121
+00:04:47,390 --> 00:04:45,060
+were confident it would work
+
+122
+00:04:48,710 --> 00:04:47,400
+and that's what it is doing right now
+
+123
+00:04:51,290 --> 00:04:48,720
+yeah absolutely
+
+124
+00:04:53,210 --> 00:04:51,300
+so tell me a little bit about where SWAT
+
+125
+00:04:55,010 --> 00:04:53,220
+is right now and and what are the next
+126
+00:04:56,810 --> 00:04:55,020
+steps that have to be taken absolutely
+
+127
+00:04:59,030 --> 00:04:56,820
+so we launched SWAT a little over a
+
+128
+00:05:00,650 --> 00:04:59,040
+month ago and since then we've deployed
+
+129
+00:05:03,050 --> 00:05:00,660
+the solar panels we've deployed the
+
+130
+00:05:04,430 --> 00:05:03,060
+antennas and or some of the antennas
+
+131
+00:05:06,950 --> 00:05:04,440
+there's lots of antennas on Swap that
+
+132
+00:05:08,749 --> 00:05:06,960
+don't deploy and they uh the team in
+
+133
+00:05:10,430 --> 00:05:08,759
+Mission operations in Toulouse France
+
+134
+00:05:12,050 --> 00:05:10,440
+has actually been slowly turning on the
+
+135
+00:05:13,189 --> 00:05:12,060
+satellite making sure all the
+
+136
+00:05:15,290 --> 00:05:13,199
+temperatures are reading right making
+
+137
+00:05:17,270 --> 00:05:15,300
+sure all the instruments are behaving
+
+138
+00:05:19,129 --> 00:05:17,280
+the way we expect them to and kind of
+
+139
+00:05:20,689 --> 00:05:19,139
+learning how the satellite operates in
+
+140
+00:05:23,689 --> 00:05:20,699
+space because it's in a new environment
+
+141
+00:05:25,490 --> 00:05:23,699
+and it's been really exciting to get the
+
+142
+00:05:26,930 --> 00:05:25,500
+updates and say oh this instrument's on
+
+143
+00:05:29,090 --> 00:05:26,940
+this instrument's on here's the first
+
+144
+00:05:31,010 --> 00:05:29,100
+little bit of data and seeing something
+
+145
+00:05:33,409 --> 00:05:31,020
+that we've worked on the ground for
+
+146
+00:05:34,670 --> 00:05:33,419
+years doing its job and outside of a
+
+147
+00:05:36,590 --> 00:05:34,680
+cleaner
+
+148
+00:05:38,629 --> 00:05:36,600
+and for folks who are just joining us
+
+149
+00:05:40,310 --> 00:05:38,639
+we're with Christine Jabara and we're
+
+150
+00:05:42,110 --> 00:05:40,320
+talking about the swap Mission which is
+151
+00:05:44,270 --> 00:05:42,120
+a satellite that we just launched over a
+
+152
+00:05:46,129 --> 00:05:44,280
+month ago and Folks at home they don't
+
+153
+00:05:47,990 --> 00:05:46,139
+realize this is a pretty lengthy process
+
+154
+00:05:49,610 --> 00:05:48,000
+to turn this thing on and get it working
+
+155
+00:05:52,070 --> 00:05:49,620
+and then make sure that it's working
+
+156
+00:05:54,350 --> 00:05:52,080
+properly and correctly yeah absolutely
+
+157
+00:05:56,270 --> 00:05:54,360
+so SWAT actually is kind of in the
+
+158
+00:05:58,010 --> 00:05:56,280
+commissioning phase and will be in a
+
+159
+00:05:59,570 --> 00:05:58,020
+calibration orbit for almost six months
+
+160
+00:06:01,189 --> 00:05:59,580
+where it's kind of going over the same
+
+161
+00:06:03,230 --> 00:06:01,199
+part of Earth over and over again and
+
+162
+00:06:05,150 --> 00:06:03,240
+calibrating itself to known Targets on
+
+163
+00:06:07,790 --> 00:06:05,160
+the ground and so that when it finally
+
+164
+00:06:10,070 --> 00:06:07,800
+starts doing data for all over the world
+
+165
+00:06:11,810 --> 00:06:10,080
+we really know that that data is good
+
+166
+00:06:14,510 --> 00:06:11,820
+data and true science
+
+167
+00:06:16,850 --> 00:06:14,520
+and as you mentioned we have a video
+
+168
+00:06:18,830 --> 00:06:16,860
+camera at launch which was pretty cool
+
+169
+00:06:20,450 --> 00:06:18,840
+and as it was getting deployed and you
+
+170
+00:06:21,890 --> 00:06:20,460
+can see a bit of the solar panels right
+
+171
+00:06:23,390 --> 00:06:21,900
+here behind me as you pointed out
+
+172
+00:06:24,710 --> 00:06:23,400
+Christine and a bit of the Karen
+
+173
+00:06:27,469 --> 00:06:24,720
+instrument which is the main science
+
+174
+00:06:28,850 --> 00:06:27,479
+instrument on board tell me a little bit
+
+175
+00:06:30,650 --> 00:06:28,860
+about and if you didn't get to see the
+176
+00:06:31,969 --> 00:06:30,660
+video head back to our social media
+
+177
+00:06:33,050 --> 00:06:31,979
+accounts and watch it because it was it
+
+178
+00:06:34,610 --> 00:06:33,060
+was really cool it's the first time
+
+179
+00:06:36,890 --> 00:06:34,620
+we've had the video on an Earth
+
+180
+00:06:39,469 --> 00:06:36,900
+satellite which was awesome but tell me
+
+181
+00:06:41,809 --> 00:06:39,479
+a little bit about how these instruments
+
+182
+00:06:43,430 --> 00:06:41,819
+deploy and tell me a little bit about
+
+183
+00:06:44,990 --> 00:06:43,440
+the instruments themselves on the
+
+184
+00:06:47,090 --> 00:06:45,000
+spacecraft and why they are Next
+
+185
+00:06:48,469 --> 00:06:47,100
+Generation so I'm going to talk about
+
+186
+00:06:50,029 --> 00:06:48,479
+the deployments and I'll talk about the
+
+187
+00:06:52,490 --> 00:06:50,039
+instruments a little bit our French
+
+188
+00:06:54,469 --> 00:06:52,500
+partners and atkiness actually built the
+
+189
+00:06:55,850 --> 00:06:54,479
+solar panels that deployed out and those
+
+190
+00:06:58,610 --> 00:06:55,860
+provide the power and those are actually
+
+191
+00:07:00,469 --> 00:06:58,620
+huge they're about the width of a tennis
+
+192
+00:07:01,909 --> 00:07:00,479
+court and so they deploy out and when
+
+193
+00:07:03,650 --> 00:07:01,919
+you see that you know the satellite's
+
+194
+00:07:05,809 --> 00:07:03,660
+gonna get power it's gonna stay warm and
+
+195
+00:07:08,510 --> 00:07:05,819
+it's always like a you're like okay game
+
+196
+00:07:11,749 --> 00:07:08,520
+on a little bit and the karat antennas
+
+197
+00:07:14,090 --> 00:07:11,759
+deploy and those allow us to do the good
+
+198
+00:07:15,890 --> 00:07:14,100
+science the new novel science that the
+
+199
+00:07:18,469 --> 00:07:15,900
+Karen instrument will do and actually
+
+200
+00:07:20,150 --> 00:07:18,479
+those antennas are so big that we can't
+201
+00:07:21,770 --> 00:07:20,160
+fully test them on the ground we test
+
+202
+00:07:25,070 --> 00:07:21,780
+them kind of in segments on the ground
+
+203
+00:07:27,529 --> 00:07:25,080
+and so seeing the cameras uh on orbit
+
+204
+00:07:30,110 --> 00:07:27,539
+and seeing them deploy was amazing
+
+205
+00:07:32,570 --> 00:07:30,120
+because that antenna hadn't fully been
+
+206
+00:07:34,070 --> 00:07:32,580
+tested on the ground as one giant
+
+207
+00:07:36,290 --> 00:07:34,080
+assembly it had been tested very
+
+208
+00:07:38,330 --> 00:07:36,300
+deliberately very carefully very
+
+209
+00:07:40,249 --> 00:07:38,340
+intentionally on the ground we were sure
+
+210
+00:07:43,070 --> 00:07:40,259
+it's going to work but seeing it kind of
+
+211
+00:07:45,890 --> 00:07:43,080
+in space altogether was really wonderful
+
+212
+00:07:47,930 --> 00:07:45,900
+and and on that same topic how
+
+213
+00:07:50,990 --> 00:07:47,940
+fulfilling has it been to see something
+
+214
+00:07:52,730 --> 00:07:51,000
+like literally spread its wings for you
+
+215
+00:07:54,950 --> 00:07:52,740
+after all those years of work that you
+
+216
+00:07:56,990 --> 00:07:54,960
+put into it oh yeah so personally I'm
+
+217
+00:07:58,129 --> 00:07:57,000
+very used to seeing the satellite in a
+
+218
+00:08:00,290 --> 00:07:58,139
+clean room in a very controlled
+
+219
+00:08:02,749 --> 00:08:00,300
+environment we're all wearing hair nets
+
+220
+00:08:04,430 --> 00:08:02,759
+and gowns and gloves and we're cleaning
+
+221
+00:08:07,490 --> 00:08:04,440
+it and making sure that everything we
+
+222
+00:08:10,189 --> 00:08:07,500
+add is very documented and perfect or as
+
+223
+00:08:12,469 --> 00:08:10,199
+perfect as can be and uh seeing it in
+
+224
+00:08:14,210 --> 00:08:12,479
+space it's very gratifying but part of
+
+225
+00:08:15,650 --> 00:08:14,220
+me is also like who who let this happen
+226
+00:08:17,570 --> 00:08:15,660
+why is it outside of a clean room
+
+227
+00:08:19,309 --> 00:08:17,580
+because to me I'm so used to seeing it
+
+228
+00:08:21,110 --> 00:08:19,319
+in a clean room but it's so exciting to
+
+229
+00:08:23,749 --> 00:08:21,120
+see it doing what it was meant to do
+
+230
+00:08:25,850 --> 00:08:23,759
+right it's gonna be doing science
+
+231
+00:08:27,230 --> 00:08:25,860
+that'll help us understand our home so
+
+232
+00:08:29,629 --> 00:08:27,240
+that'll be great
+
+233
+00:08:31,490 --> 00:08:29,639
+home is where the heart is for sure and
+
+234
+00:08:33,769 --> 00:08:31,500
+Christine you've had some many exciting
+
+235
+00:08:35,389 --> 00:08:33,779
+adventures and also the SWAT team had a
+
+236
+00:08:37,550 --> 00:08:35,399
+lot of hurdles because covet happened
+
+237
+00:08:40,250 --> 00:08:37,560
+right in the middle uh really your
+
+238
+00:08:41,570 --> 00:08:40,260
+processing yeah so SWAT has gone through
+
+239
+00:08:43,310 --> 00:08:41,580
+lots of phases of integration and
+
+240
+00:08:46,070 --> 00:08:43,320
+testing and kind of in the middle of all
+
+241
+00:08:48,290 --> 00:08:46,080
+of it uh the pandemic hit and our
+
+242
+00:08:50,509 --> 00:08:48,300
+partners half of the satellite was built
+
+243
+00:08:52,009 --> 00:08:50,519
+in France and so it added some new
+
+244
+00:08:54,170 --> 00:08:52,019
+challenges of how do you build a
+
+245
+00:08:55,970 --> 00:08:54,180
+satellite with our partners who can't
+
+246
+00:08:57,710 --> 00:08:55,980
+travel to us and we can't necessarily
+
+247
+00:09:00,110 --> 00:08:57,720
+travel to them and we figured it out
+
+248
+00:09:02,810 --> 00:09:00,120
+over time but at first it took a lot of
+
+249
+00:09:04,550 --> 00:09:02,820
+flexibility we learned how to video
+
+250
+00:09:06,410 --> 00:09:04,560
+conference in the clean room so our
+251
+00:09:08,329 --> 00:09:06,420
+French Partners would watch us assemble
+
+252
+00:09:11,449 --> 00:09:08,339
+various parts of the satellite that they
+
+253
+00:09:13,130 --> 00:09:11,459
+had uh they had some authority over and
+
+254
+00:09:15,290 --> 00:09:13,140
+it was really exciting but it was
+
+255
+00:09:17,210 --> 00:09:15,300
+sometimes difficult to be like oh this
+
+256
+00:09:18,350 --> 00:09:17,220
+team in France is the one or the experts
+
+257
+00:09:20,990 --> 00:09:18,360
+on this thing but we need to be doing
+
+258
+00:09:22,970 --> 00:09:21,000
+this here in LA or in Pasadena and hat
+
+259
+00:09:25,070 --> 00:09:22,980
+and they just caused some flexibility
+
+260
+00:09:27,490 --> 00:09:25,080
+but it was definitely an adventure
+
+261
+00:09:29,690 --> 00:09:27,500
+yes an adventure worth taking for sure
+
+262
+00:09:31,370 --> 00:09:29,700
+and now we're just starting to see the
+
+263
+00:09:33,290 --> 00:09:31,380
+results and we got some really great
+
+264
+00:09:35,389 --> 00:09:33,300
+questions over the last couple of weeks
+
+265
+00:09:36,769 --> 00:09:35,399
+from our viewers and you would just be
+
+266
+00:09:38,269 --> 00:09:36,779
+the perfect person to answer some of
+
+267
+00:09:40,310 --> 00:09:38,279
+these are you up for it yeah let's do it
+
+268
+00:09:42,490 --> 00:09:40,320
+all right okay great first question
+
+269
+00:09:45,650 --> 00:09:42,500
+comes from Muhammad on Twitter
+
+270
+00:09:48,410 --> 00:09:45,660
+congratulations on a successful in-orbit
+
+271
+00:09:51,350 --> 00:09:48,420
+deployment of SWAT how long does it take
+
+272
+00:09:53,930 --> 00:09:51,360
+to fully deploy the solar arrays is this
+
+273
+00:09:56,630 --> 00:09:53,940
+spring back effect normal in solar array
+
+274
+00:09:58,190 --> 00:09:56,640
+deployment but I have to say I'm not an
+
+275
+00:09:59,570 --> 00:09:58,200
+expert on these solar panels because
+276
+00:10:01,550 --> 00:09:59,580
+they were built by our French Partners
+
+277
+00:10:03,050 --> 00:10:01,560
+but the solar panels opponent does have
+
+278
+00:10:05,329 --> 00:10:03,060
+about two phases there's like an initial
+
+279
+00:10:07,250 --> 00:10:05,339
+kickoff so the solar panels are kind of
+
+280
+00:10:09,710 --> 00:10:07,260
+kick off and then there's like a
+
+281
+00:10:11,329 --> 00:10:09,720
+spooling like a wire that gets spooled
+
+282
+00:10:13,490 --> 00:10:11,339
+in and that deploys the solar panels
+
+283
+00:10:15,829 --> 00:10:13,500
+fully it takes like 20 to 30 minutes
+
+284
+00:10:18,410 --> 00:10:15,839
+about in that order of magnitude to
+
+285
+00:10:19,910 --> 00:10:18,420
+deploy but that uh is relatively quick
+
+286
+00:10:21,769 --> 00:10:19,920
+when you want to be very careful in
+
+287
+00:10:23,269 --> 00:10:21,779
+space and make sure these work but our
+
+288
+00:10:24,710 --> 00:10:23,279
+partners have done this many times so
+
+289
+00:10:26,930 --> 00:10:24,720
+it's exciting to see that they
+
+290
+00:10:28,490 --> 00:10:26,940
+successfully deploy and it takes a
+
+291
+00:10:30,590 --> 00:10:28,500
+little while doesn't it Christine it's
+
+292
+00:10:32,389 --> 00:10:30,600
+not you know just automatic in 60
+
+293
+00:10:33,650 --> 00:10:32,399
+seconds they're deployed I mean it just
+
+294
+00:10:36,230 --> 00:10:33,660
+actually takes some time and even
+
+295
+00:10:38,090 --> 00:10:36,240
+sometime over the course of days yeah so
+
+296
+00:10:40,070 --> 00:10:38,100
+we don't always have communication with
+
+297
+00:10:42,050 --> 00:10:40,080
+the satellite and so you carefully plan
+
+298
+00:10:43,850 --> 00:10:42,060
+activities so that you know that you're
+
+299
+00:10:45,350 --> 00:10:43,860
+going to do really big activities like
+
+300
+00:10:47,090 --> 00:10:45,360
+that one like deploying a solar panel
+301
+00:10:49,130 --> 00:10:47,100
+you do a lot you can do preparation for
+
+302
+00:10:52,150 --> 00:10:49,140
+weeks just to do it for like 30 minutes
+
+303
+00:10:54,470 --> 00:10:52,160
+to deploy and the other part of it is
+
+304
+00:10:55,910 --> 00:10:54,480
+you don't want to break anything or you
+
+305
+00:10:58,009 --> 00:10:55,920
+don't want anything to snack with
+
+306
+00:11:00,590 --> 00:10:58,019
+Deployable snagging is always a concern
+
+307
+00:11:02,150 --> 00:11:00,600
+and so we design a way the chance of
+
+308
+00:11:03,290 --> 00:11:02,160
+snagging but the faster you should
+
+309
+00:11:05,750 --> 00:11:03,300
+deploy something the more likely
+
+310
+00:11:07,730 --> 00:11:05,760
+something is to crack or snag or
+
+311
+00:11:09,590 --> 00:11:07,740
+something so you want to kind of do it
+
+312
+00:11:11,389 --> 00:11:09,600
+in a controlled way as much as possible
+
+313
+00:11:13,190 --> 00:11:11,399
+but that initial kickoff is important
+
+314
+00:11:16,250 --> 00:11:13,200
+because you kind of want to get away
+
+315
+00:11:18,350 --> 00:11:16,260
+from the body as quick as possible
+
+316
+00:11:21,949 --> 00:11:18,360
+awesome okay so next question comes from
+
+317
+00:11:23,690 --> 00:11:21,959
+Travis Ramirez on YouTube asking if you
+
+318
+00:11:26,750 --> 00:11:23,700
+could have included one more instrument
+
+319
+00:11:29,269 --> 00:11:26,760
+or experiment to do with SWAT what would
+
+320
+00:11:30,949 --> 00:11:29,279
+it be okay so I'm an engineer I like
+
+321
+00:11:32,329 --> 00:11:30,959
+engineering and Building Things I'm not
+
+322
+00:11:33,829 --> 00:11:32,339
+a scientist so I don't have a good
+
+323
+00:11:35,750 --> 00:11:33,839
+understanding of what sort of climate
+
+324
+00:11:38,150 --> 00:11:35,760
+science might be the most valuable but
+
+325
+00:11:39,530 --> 00:11:38,160
+SWAT creates a lot of data and that data
+326
+00:11:41,810 --> 00:11:39,540
+is hard to get to the ground because we
+
+327
+00:11:43,670 --> 00:11:41,820
+only have can only talk to swat during
+
+328
+00:11:45,710 --> 00:11:43,680
+some time we can't we don't have live
+
+329
+00:11:47,150 --> 00:11:45,720
+streaming from SWOT all the time and so
+
+330
+00:11:49,250 --> 00:11:47,160
+what I would do is actually add another
+
+331
+00:11:51,530 --> 00:11:49,260
+technology called Optical communication
+
+332
+00:11:53,210 --> 00:11:51,540
+SWOT which is essentially using lasers
+
+333
+00:11:55,850 --> 00:11:53,220
+to communicate data back to the ground
+
+334
+00:11:58,009 --> 00:11:55,860
+and that helps us get a higher bandwidth
+
+335
+00:11:59,870 --> 00:11:58,019
+of data to the ground so I think it'd be
+
+336
+00:12:01,190 --> 00:11:59,880
+really cool to communicate have SWAT
+
+337
+00:12:02,930 --> 00:12:01,200
+communicate with lasers back to the
+
+338
+00:12:05,210 --> 00:12:02,940
+ground space lasers are always kind of
+
+339
+00:12:06,769 --> 00:12:05,220
+fun to think about but that's what I
+
+340
+00:12:08,509 --> 00:12:06,779
+would add but I'm not a science expert
+
+341
+00:12:09,949 --> 00:12:08,519
+I'm just an engineer who wants as much
+
+342
+00:12:12,530 --> 00:12:09,959
+data as possible
+
+343
+00:12:15,050 --> 00:12:12,540
+I think lasers in any capacity sounds
+
+344
+00:12:16,610 --> 00:12:15,060
+really cool absolutely and it's a
+
+345
+00:12:18,290 --> 00:12:16,620
+technology that JPL is going to launch
+
+346
+00:12:20,269 --> 00:12:18,300
+on the psyche Mission soon so that's
+
+347
+00:12:23,090 --> 00:12:20,279
+it's coming it just didn't make it on
+
+348
+00:12:25,430 --> 00:12:23,100
+the Spot Great next question comes from
+
+349
+00:12:27,110 --> 00:12:25,440
+Rachel on Instagram what made you want
+
+350
+00:12:29,389 --> 00:12:27,120
+to become an engineer and do you have
+351
+00:12:32,150 --> 00:12:29,399
+any advice for anyone out there who is
+
+352
+00:12:35,569 --> 00:12:32,160
+interested in this field yeah so I was
+
+353
+00:12:37,069 --> 00:12:35,579
+super super lucky to be uh a student in
+
+354
+00:12:38,630 --> 00:12:37,079
+the Girl Scout sailing program in
+
+355
+00:12:40,850 --> 00:12:38,640
+Houston Texas as well as a first
+
+356
+00:12:43,430 --> 00:12:40,860
+robotics student and those two programs
+
+357
+00:12:45,889 --> 00:12:43,440
+well sailing taught me aerodynamics and
+
+358
+00:12:48,170 --> 00:12:45,899
+like mechanics of a sailboat and the
+
+359
+00:12:50,269 --> 00:12:48,180
+robotics taught me engineering and a
+
+360
+00:12:52,129 --> 00:12:50,279
+little bit of that and so I got exposed
+
+361
+00:12:54,110 --> 00:12:52,139
+to a lot of stem Concepts without even
+
+362
+00:12:55,850 --> 00:12:54,120
+knowing I was being exposed to it I just
+
+363
+00:12:58,970 --> 00:12:55,860
+thought I was sailing and I didn't know
+
+364
+00:13:00,769 --> 00:12:58,980
+I was learning stem and uh through those
+
+365
+00:13:02,870 --> 00:13:00,779
+programs I slowly learned that I wanted
+
+366
+00:13:04,370 --> 00:13:02,880
+to be an engineer now the advice I would
+
+367
+00:13:06,769 --> 00:13:04,380
+give to someone is to follow your
+
+368
+00:13:08,269 --> 00:13:06,779
+curiosity I was really privileged to
+
+369
+00:13:09,829 --> 00:13:08,279
+have access to those programs but if
+
+370
+00:13:12,530 --> 00:13:09,839
+you're curious about something follow
+
+371
+00:13:14,870 --> 00:13:12,540
+that Curiosity and don't let a lack of
+
+372
+00:13:17,269 --> 00:13:14,880
+skills away stop you there's plenty of
+
+373
+00:13:18,769 --> 00:13:17,279
+resources online on YouTube on all sorts
+
+374
+00:13:21,050 --> 00:13:18,779
+of places where you can learn something
+
+375
+00:13:22,970 --> 00:13:21,060
+and don't be intimidated that you might
+376
+00:13:24,769 --> 00:13:22,980
+not know how to use a tool someone is
+
+377
+00:13:27,050 --> 00:13:24,779
+always willing to teach you or you can
+
+378
+00:13:28,430 --> 00:13:27,060
+maybe find a resource in your library to
+
+379
+00:13:30,889 --> 00:13:28,440
+follow your curiosity and learn the
+
+380
+00:13:34,190 --> 00:13:30,899
+tools you need to follow your curiosity
+
+381
+00:13:36,290 --> 00:13:34,200
+and so brilliant Christine I was a girl
+
+382
+00:13:37,610 --> 00:13:36,300
+guide in Canada as well and so I
+
+383
+00:13:39,889 --> 00:13:37,620
+absolutely loved even just going on
+
+384
+00:13:41,990 --> 00:13:39,899
+nature walks and and just just getting
+
+385
+00:13:43,850 --> 00:13:42,000
+out there and figuring out what it is
+
+386
+00:13:45,829 --> 00:13:43,860
+that you're passionate about and what
+
+387
+00:13:48,590 --> 00:13:45,839
+you love yeah all right we've got some
+
+388
+00:13:51,710 --> 00:13:48,600
+more questions coming in so how far from
+
+389
+00:13:54,470 --> 00:13:51,720
+Earth is SWAT and that's from akawi
+
+390
+00:13:56,810 --> 00:13:54,480
+Returns on Instagram yeah so swats as
+
+391
+00:13:59,090 --> 00:13:56,820
+you said is about 550 miles above Earth
+
+392
+00:14:00,829 --> 00:13:59,100
+it's kind of in a low earth orbit which
+
+393
+00:14:03,050 --> 00:14:00,839
+allows us to collect that really good
+
+394
+00:14:05,410 --> 00:14:03,060
+science data without being too far away
+
+395
+00:14:08,150 --> 00:14:05,420
+and is always going to stay at 550 miles
+
+396
+00:14:10,009 --> 00:14:08,160
+uh it'll be about there for the rest of
+
+397
+00:14:12,050 --> 00:14:10,019
+its life but it will switch from like a
+
+398
+00:14:13,610 --> 00:14:12,060
+holding orbit for calibration to a
+
+399
+00:14:16,910 --> 00:14:13,620
+slightly different orbit that lets it
+
+400
+00:14:18,410 --> 00:14:16,920
+see all of our surface water okay and
+401
+00:14:21,170 --> 00:14:18,420
+then we've got another question coming
+
+402
+00:14:24,050 --> 00:14:21,180
+in from Jeremy on Instagram it's hard to
+
+403
+00:14:26,389 --> 00:14:24,060
+tell from photos how big SWAT is can you
+
+404
+00:14:27,710 --> 00:14:26,399
+help us better understand how big this
+
+405
+00:14:29,990 --> 00:14:27,720
+thing is and it's hard too because this
+
+406
+00:14:31,310 --> 00:14:30,000
+is the one-third model behind me you
+
+407
+00:14:33,410 --> 00:14:31,320
+can't even hardly see it because
+
+408
+00:14:34,610 --> 00:14:33,420
+basically it's it's just the center part
+
+409
+00:14:37,670 --> 00:14:34,620
+of it and it's not everything that's
+
+410
+00:14:40,610 --> 00:14:37,680
+included yeah so a lot of people will
+
+411
+00:14:42,530 --> 00:14:40,620
+compare it to an SUV before it deploys
+
+412
+00:14:45,290 --> 00:14:42,540
+so it's about the size of like a really
+
+413
+00:14:46,730 --> 00:14:45,300
+large SUV before it deploys I when I
+
+414
+00:14:49,490 --> 00:14:46,740
+think about it I think of it more of as
+
+415
+00:14:51,530 --> 00:14:49,500
+like a small school bus
+
+416
+00:14:52,850 --> 00:14:51,540
+um so that's about how it is when it's
+
+417
+00:14:54,829 --> 00:14:52,860
+on the top of the rocket and then when
+
+418
+00:14:56,810 --> 00:14:54,839
+it goes to space the solar panels and
+
+419
+00:14:58,670 --> 00:14:56,820
+the antennas the Karen antennas deploy
+
+420
+00:15:01,009 --> 00:14:58,680
+and it ends up being about the size of a
+
+421
+00:15:03,170 --> 00:15:01,019
+half tennis score so it becomes quite
+
+422
+00:15:04,970 --> 00:15:03,180
+large like it has a large footprint once
+
+423
+00:15:06,530 --> 00:15:04,980
+it's in space but that doesn't fit in
+
+424
+00:15:08,569 --> 00:15:06,540
+the rocket so it has to kind of go up
+
+425
+00:15:10,550 --> 00:15:08,579
+all package together
+426
+00:15:12,230 --> 00:15:10,560
+and then everything slowly surely as
+
+427
+00:15:14,629 --> 00:15:12,240
+it's been doing over the last 40 days
+
+428
+00:15:17,030 --> 00:15:14,639
+starts to unfold yeah absolutely piece
+
+429
+00:15:20,449 --> 00:15:17,040
+by piece all right so now I know that
+
+430
+00:15:22,490 --> 00:15:20,459
+you are a big advocate of women in stem
+
+431
+00:15:24,769 --> 00:15:22,500
+and I heard you talk a lot about your
+
+432
+00:15:26,269 --> 00:15:24,779
+you're in France uh we got to spend a
+
+433
+00:15:28,610 --> 00:15:26,279
+lot of time on Instagram together and I
+
+434
+00:15:30,530 --> 00:15:28,620
+love seeing all of your posts so tell me
+
+435
+00:15:32,509 --> 00:15:30,540
+a little bit about how that experience
+
+436
+00:15:35,210 --> 00:15:32,519
+was spending the year in France working
+
+437
+00:15:37,250 --> 00:15:35,220
+on SWAT with that team and it was a team
+
+438
+00:15:39,050 --> 00:15:37,260
+the mechanical team was made up of women
+
+439
+00:15:41,509 --> 00:15:39,060
+which you also said was just fascinating
+
+440
+00:15:42,769 --> 00:15:41,519
+yeah absolutely so me along with some of
+
+441
+00:15:45,290 --> 00:15:42,779
+my colleagues we actually moved to
+
+442
+00:15:46,790 --> 00:15:45,300
+France for a year to help integrate the
+
+443
+00:15:48,889 --> 00:15:46,800
+American half of the satellite with the
+
+444
+00:15:50,389 --> 00:15:48,899
+French half of the satellite and that
+
+445
+00:15:51,889 --> 00:15:50,399
+was an incredible experience we had
+
+446
+00:15:53,389 --> 00:15:51,899
+worked with our French Partners remotely
+
+447
+00:15:56,150 --> 00:15:53,399
+over the pandemic and meeting them in
+
+448
+00:15:57,470 --> 00:15:56,160
+person was really exciting and uh
+
+449
+00:15:59,210 --> 00:15:57,480
+personally it was really exciting
+
+450
+00:16:01,189 --> 00:15:59,220
+because I got to explore France and I
+451
+00:16:02,810 --> 00:16:01,199
+got to work in a new facility and see
+
+452
+00:16:04,970 --> 00:16:02,820
+how they built satellites and kind of
+
+453
+00:16:07,730 --> 00:16:04,980
+mesh jpl's
+
+454
+00:16:10,189 --> 00:16:07,740
+processes with our partners processes at
+
+455
+00:16:12,170 --> 00:16:10,199
+kness so that was exciting and then the
+
+456
+00:16:13,970 --> 00:16:12,180
+JPL mechanical team is mostly women and
+
+457
+00:16:15,530 --> 00:16:13,980
+we actually got to go to France and meet
+
+458
+00:16:17,689 --> 00:16:15,540
+many of our counterparts who were also
+
+459
+00:16:20,810 --> 00:16:17,699
+women and stem is a male-dominated field
+
+460
+00:16:23,269 --> 00:16:20,820
+but it was exciting to see like that
+
+461
+00:16:25,790 --> 00:16:23,279
+some of the kness project was managed by
+
+462
+00:16:27,470 --> 00:16:25,800
+an awesome woman and I love rock
+
+463
+00:16:30,050 --> 00:16:27,480
+climbing and I actually talked to her
+
+464
+00:16:31,670 --> 00:16:30,060
+and she's a manager high up in her
+
+465
+00:16:33,170 --> 00:16:31,680
+career and she had grown up rock
+
+466
+00:16:35,569 --> 00:16:33,180
+climbing in France and we got to bond
+
+467
+00:16:37,550 --> 00:16:35,579
+over that and just learning and seeing
+
+468
+00:16:39,410 --> 00:16:37,560
+all of our colleagues on the French side
+
+469
+00:16:41,329 --> 00:16:39,420
+and the American side kind of merge
+
+470
+00:16:43,970 --> 00:16:41,339
+cultures and work together in various
+
+471
+00:16:45,650 --> 00:16:43,980
+ways was really exciting and science has
+
+472
+00:16:47,509 --> 00:16:45,660
+no boundaries and that's what's so
+
+473
+00:16:49,730 --> 00:16:47,519
+amazing about projects like these
+
+474
+00:16:52,610 --> 00:16:49,740
+absolutely especially earth science we
+
+475
+00:16:54,829 --> 00:16:52,620
+all care about uh making sure that Earth
+476
+00:16:57,110 --> 00:16:54,839
+we know as much as we can about the
+
+477
+00:16:59,569 --> 00:16:57,120
+climate and so our partners are as
+
+478
+00:17:01,730 --> 00:16:59,579
+invested in that as we are well thank
+
+479
+00:17:03,710 --> 00:17:01,740
+you so much for joining us here today
+
+480
+00:17:05,090 --> 00:17:03,720
+Christine it's been such a pleasure
+
+481
+00:17:06,710 --> 00:17:05,100
+working with you and I know that you
+
+482
+00:17:08,150 --> 00:17:06,720
+can't wait for that data to come down
+
+483
+00:17:10,130 --> 00:17:08,160
+every little piece that comes down is
+
+484
+00:17:11,569 --> 00:17:10,140
+just as exciting yeah we've gotten the
+
+485
+00:17:13,370 --> 00:17:11,579
+first little bits of data but I can't
+
+486
+00:17:15,110 --> 00:17:13,380
+wait for this the satellite to be
+
+487
+00:17:16,370 --> 00:17:15,120
+calibrated and we'll get real data and
+
+488
+00:17:18,110 --> 00:17:16,380
+it's been an honor and a pleasure to
+
+489
+00:17:21,049 --> 00:17:18,120
+work on SWAT with the entire team here
+
+490
+00:17:23,210 --> 00:17:21,059
+at JPL and across the ocean
+
+491
+00:17:25,250 --> 00:17:23,220
+well thank you so much Christy and
+
+492
+00:17:26,990 --> 00:17:25,260
+thanks to all of you guys for being here
+
+493
+00:17:29,510 --> 00:17:27,000
+with us today if you want to learn more
+
+494
+00:17:32,330 --> 00:17:29,520
+about the swap Mission you can follow us
+
+495
+00:17:34,730 --> 00:17:32,340
+here at NASA JPL and also at our sister
+
+496
+00:17:37,070 --> 00:17:34,740
+station at Nasa Earth that Christine has
+
+497
+00:17:38,630 --> 00:17:37,080
+been on today and it's a really great
+
+498
+00:17:41,270 --> 00:17:38,640
+Mission so I hope you have the chance to
+
+499
+00:17:43,370 --> 00:17:41,280
+go back and and forward with us as we
+
+500
+00:17:45,890 --> 00:17:43,380
+look forward to that first science data
+501
+00:17:48,890 --> 00:17:45,900
+coming down here in just a few months
+
+502
+00:17:51,409 --> 00:17:48,900
+and remember at Nasa earth science your
+
+503
+00:17:53,330 --> 00:17:51,419
+home is our mission thank you so much
