@@ -14,6 +14,73 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 92,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T16:45:24Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v3"
+    },
+    "retranslated_segments": [
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b6e4c9c63a5fd05938b3ebb45f8ba11c66beb13cf028bed1b7f13456d85a531f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2ca73edf039354d146651bf0b3ff166d61b6c824ed528052116c3f00714480ad",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "eb38ec5f50b101eb67812aa8ff65c534ab3b2c58351d4ac7d2c4b0544b9f5c57",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "752256718c70da089f73db8deed987fbcfed21eb4bfc77fbb925dbe5b73373be",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "72dfcfb0c470ac255cde83fb8fe38de8a128188e03ea5ba5b2a93adbea1062fa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "764a292c26797e89d3c329b584e3fcc1beee5550d947b5930a74c907cdb2c03a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "eaa2bb1d4e12e37abee5d15a343bc2fb1a9acfe63c3baec5a399f64464a1d90c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "670b9ef213415ee2e876c1b30a0329ec408f9823f5a19f824f5a248b63a81557",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1e616a28661bdfa8ea9813da510be67acd1d8955390ce1081024e790d43d2994",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e125dd18fd2cb33c6316a7fe282a1fc51bff657668dfec5fc9a805582fe3faa6",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T18:33:49Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
@@ -25,14 +92,14 @@
   "source_sha256": "a1c8fff0401ac1adf5c4bea7aff93b059d6b26a3236f35c1848845771f034119",
   "status": "partial",
   "translation": {
-    "generated_at": "2026-09-27T16:45:24Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+    "generated_at": "2026-09-27T18:33:49Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
     "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v3"
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "cfd7903271a94e67e2376e116fe89bd325c8bd6fe028a777febadddbdedb143d"
+  "translation_text_sha256": "7de49efc46dcf5ae80cce4d292a1f63aef1302c8256b866a0303e5f5c7a19a69"
 }

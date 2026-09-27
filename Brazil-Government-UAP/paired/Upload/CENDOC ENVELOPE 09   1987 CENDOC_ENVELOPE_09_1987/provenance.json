@@ -18,54 +18,18 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-09-27T05:02:20Z",
-      "method": "local-mlx-lm",
-      "model": "mlx-community/aya-expanse-8b-4bit",
-      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "generated_at": "2026-09-27T18:16:27Z",
+      "method": "mixed-verified-recovery",
+      "model": "mixed; see segment translation_provenance",
+      "model_revision": "source-bound-recovery-2026-09-27",
+      "prompt_sha256": "",
       "review_status": "needs-review",
-      "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v3"
+      "runtime_version": "mixed",
+      "workflow_version": "source-bound-translation-recovery/v1"
     },
-    "retranslated_segments": [
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "1243529b2fc365ee375175f212ba7eb8432aebe4fc322fb5a4a7ec8e9a0db66c",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "32bde46f79d2d00c42d2306190a34641074cd2e42bc2c2cf52a6480056764f7f",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "3a94f1d1ee3863d4791c1736c7696492f7ec69037e9d4e540a8016597264b687",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "36af03f662581c4072529450d78fd24c284ebb78e02c0739c6f64ef18926eadc",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "63a088827c83b1c5eed5168803968c4dce26c2f9f291e3ee77fe45c73317d778",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "bcff161c9433596b8719423420a2ba849227ddfd8f80db3636b4bad15c5718bf",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "552787cfcdb7d8942a0da22f05150befe828ef1cec0e1fbba61d8bfd20688d5d",
-        "status": "machine-unreviewed"
-      }
-    ]
+    "retranslated_segments": []
   },
-  "retranslated_at": "2026-09-27T05:28:42Z",
+  "retranslated_at": "2026-09-27T18:18:20Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -75,16 +39,16 @@
   "segment_count": 89,
   "source_bytes": 1614533,
   "source_sha256": "670271d7243334c50081c034be5f4c8c9918cefd16ae3257a691a89cbbcc1c27",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T05:28:42Z",
-    "method": "mixed-verified-recovery",
-    "model": "mixed; see segment translation_provenance",
-    "model_revision": "source-bound-recovery-2026-09-27",
-    "prompt_sha256": "",
+    "generated_at": "2026-09-27T18:18:20Z",
+    "method": "local-mlx-lm",
+    "model": "mlx-community/aya-expanse-8b-4bit",
+    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+    "prompt_sha256": "b7f9c25c4fa7dea30d57478795d497d15449100792788277e886d680e5446463",
     "review_status": "needs-review",
-    "runtime_version": "mixed",
-    "workflow_version": "source-bound-translation-recovery/v1"
+    "runtime_version": "0.30.7",
+    "workflow_version": "pt-en-translation-prompt/v4"
   },
-  "translation_text_sha256": "51637b02f263d0908da1b6a1ac7b28e8803f1b542a21739680d177ea1bfdc192"
+  "translation_text_sha256": "f6446606ac456865db279a4799c8b961950d794c7fb13169fa5ff69234ebbac3"
 }

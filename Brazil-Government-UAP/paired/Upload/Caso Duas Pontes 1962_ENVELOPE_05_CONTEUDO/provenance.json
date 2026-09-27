@@ -20,39 +20,26 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-09-27T05:03:40Z",
-      "method": "local-mlx-lm",
-      "model": "mlx-community/aya-expanse-8b-4bit",
-      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "generated_at": "2026-09-27T18:15:46Z",
+      "method": "mixed-verified-recovery",
+      "model": "mixed; see segment translation_provenance",
+      "model_revision": "source-bound-recovery-2026-09-27",
+      "prompt_sha256": "",
       "review_status": "needs-review",
-      "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v3"
+      "runtime_version": "mixed",
+      "workflow_version": "source-bound-translation-recovery/v1"
     },
     "retranslated_segments": [
       {
-        "method": "local-mlx-lm",
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
         "source_sha256": "eb02b54ef154a23d58f1ad84014a3605078c84815ae3e9f9b7baede00d778aaa",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "002f244c17828ddd60233e00fdd34674e3884c72dc0c1459c232228c5a4a2722",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "5bb1f2dd24fd994e2fd3402788de40bded42d9ef57e835d14eca3d3bdc609ec4",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "85afe8cad73ab09422b2facadd5e0b265ad3ed1fc13f7c71e586e6ac6fb5317f",
-        "status": "machine-unreviewed"
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
       }
     ]
   },
-  "retranslated_at": "2026-09-27T05:29:21Z",
+  "retranslated_at": "2026-09-27T18:18:19Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -62,9 +49,9 @@
   "segment_count": 149,
   "source_bytes": 3354967,
   "source_sha256": "b67de88bbcb514af470784c86c38003f33c009f84ea14bf8ba5f870e39d4600a",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T05:29:21Z",
+    "generated_at": "2026-09-27T18:18:19Z",
     "method": "mixed-verified-recovery",
     "model": "mixed; see segment translation_provenance",
     "model_revision": "source-bound-recovery-2026-09-27",
@@ -73,5 +60,5 @@
     "runtime_version": "mixed",
     "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "e4a28d2c7a07cea17af7444968307428e40812efc9999d53f511a8351302dc93"
+  "translation_text_sha256": "6feb32fdfe91b6b769dd1868331b66c98288d5dc6db1f2c97078e27031971814"
 }
