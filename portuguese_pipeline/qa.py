@@ -58,7 +58,7 @@ NAME = re.compile(
 )
 PT_NEGATIONS = {
     "não": re.compile(
-        r"\b(?:not|no|never|without|neither|nor|unidentified|unknown|unconfirmed|unverified|"
+        r"\b(?:not|no|never|cannot|without|neither|nor|unidentified|unknown|unconfirmed|unverified|"
         r"undetected|unauthorized|unavailable|impossible|invisible)\b",
         re.I,
     ),
@@ -353,7 +353,7 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
             # Require the negation and "any" in the same bounded clause; a
             # positive "any" or an unrelated negative sentence is insufficient.
             translated_count += len(re.findall(
-                r"\b(?:not|never|without|\w+n['’]t)\b[^.!?;\n]{0,160}\bany\b",
+                r"\b(?:not|never|cannot|without|\w+n['’]t)\b[^.!?;\n]{0,160}\bany\b",
                 target, re.I,
             ))
         if marker == "não":

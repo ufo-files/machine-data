@@ -76,3 +76,10 @@ class IntegrityRecoveryTests(unittest.TestCase):
         for source in ['10 de Mai 96', '10 de Mai. de 1996', '10 Mai 1996']:
             self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'May 10, 1996')))
             self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'May 11, 1996')))
+
+    def test_cannot_preserves_negation_and_negative_concord(self):
+        pairs = [('Não pode observar.', 'Cannot observe.'),
+                 ('Não pode observar nenhum objeto.', 'Cannot observe any object.')]
+        for source, target in pairs:
+            self.assertFalse(any(f['check']=='negation' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check']=='negation' for f in compare_translation(source, target.replace('Cannot', 'Can'))))
