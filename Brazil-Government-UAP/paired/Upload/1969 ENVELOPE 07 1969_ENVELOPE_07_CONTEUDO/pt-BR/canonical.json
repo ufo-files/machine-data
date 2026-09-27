@@ -10,6 +10,24 @@
     "engine": "ocrmypdf+tesseract-por+eng",
     "generated_at": "2026-08-19T19:39:51Z",
     "mode": "ocr",
+    "source_image_corrections": {
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "segments": [
+        {
+          "corrected_source_text": "Ibiúna, em 23 de maio de 1969.",
+          "human_reviewed": false,
+          "method": "codex-assisted-image-transcription",
+          "original_ocr_text": "Ibiúna, em 23 de majo de 1969,",
+          "original_text_sha256": "633757e35e6122899a87f62c6d996b971f551bfab6ad4703dadb321afff0c75e",
+          "page": 24,
+          "segment_id": "seg-c443989be3f7792d4f761347",
+          "source_page_render_sha256": "8b0fc13d0590d8710afc0fbc8fc28ada42e8d07422bb7d41f3402aeefee63639",
+          "source_rel": "Upload/1969 ENVELOPE 07 1969_ENVELOPE_07_CONTEUDO.pdf",
+          "translation": "Ibiúna, on 23 May 1969."
+        }
+      ]
+    },
     "tools": {
       "ocrmypdf": "17.10.0",
       "pdftotext": "pdftotext version 26.08.0",
@@ -1908,12 +1926,24 @@
             "method": "stopword-heuristic/v1"
           },
           "ocr_confidence": null,
+          "ocr_correction": {
+            "corrected_source_text": "Ibiúna, em 23 de maio de 1969.",
+            "human_reviewed": false,
+            "method": "codex-assisted-image-transcription",
+            "original_ocr_text": "Ibiúna, em 23 de majo de 1969,",
+            "original_text_sha256": "633757e35e6122899a87f62c6d996b971f551bfab6ad4703dadb321afff0c75e",
+            "page": 24,
+            "segment_id": "seg-c443989be3f7792d4f761347",
+            "source_page_render_sha256": "8b0fc13d0590d8710afc0fbc8fc28ada42e8d07422bb7d41f3402aeefee63639",
+            "source_rel": "Upload/1969 ENVELOPE 07 1969_ENVELOPE_07_CONTEUDO.pdf",
+            "translation": "Ibiúna, on 23 May 1969."
+          },
           "page_id": "page-d8fa6e8b1041779debb17f41",
           "segment_id": "seg-c443989be3f7792d4f761347",
           "segment_index": 2,
           "start_ms": null,
-          "text": "Ibiúna, em 23 de majo de 1969,",
-          "text_sha256": "633757e35e6122899a87f62c6d996b971f551bfab6ad4703dadb321afff0c75e"
+          "text": "Ibiúna, em 23 de maio de 1969.",
+          "text_sha256": "8446b24654edfc1c9d9730de9729d2d81e866eec9babf61f2145011e65fe1659"
         },
         {
           "end_ms": null,

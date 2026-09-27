@@ -2,7 +2,8 @@
   "entities": [
     {
       "aliases": [
-        "Varginha"
+        "Varginha",
+        "VARGINHA"
       ],
       "category": "location",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -14,14 +15,15 @@
       "mention_count": 3,
       "name": "Varginha",
       "source_segment_ids": [
-        "seg-4db5bcf26026899c1b5556da",
         "seg-4face544917efd6ba2e64fa4",
-        "seg-983d36f82cc2ccd883df8d31"
+        "seg-983d36f82cc2ccd883df8d31",
+        "seg-e9b0b4f0833a926b947c7fbb"
       ]
     },
     {
       "aliases": [
-        "Brasil"
+        "Brasil",
+        "Brazil"
       ],
       "category": "country",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -30,22 +32,22 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "name": "Brazil",
       "source_segment_ids": [
-        "seg-4face544917efd6ba2e64fa4"
+        "seg-4face544917efd6ba2e64fa4",
+        "seg-e9b0b4f0833a926b947c7fbb"
       ]
     },
     {
       "aliases": [
-        "objeto voador não identificado",
         "OVNI",
         "Ovnis",
         "OVNIs",
         "UFO",
-        "UNIDENTIFIED FLYING OBJECT",
         "unidentified flying object",
         "Unidentified Flying Object",
+        "UNIDENTIFIED FLYING OBJECT",
         "unidentified flying objects"
       ],
       "category": "subject",
@@ -55,44 +57,28 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 20,
+      "mention_count": 15,
       "name": "UFO",
       "source_segment_ids": [
         "seg-00f6c05d9eab4ebba34ccd8f",
         "seg-0798b3632a02e3675cb37c8c",
         "seg-087675ebdecfd09c9c9483cc",
         "seg-0936ac8c27e4d9d168a2122c",
-        "seg-1ac9699d446eeb69ad144476",
         "seg-2d8009a8fc4c49928abe5435",
         "seg-374879e2c905c445d72768cd",
         "seg-4face544917efd6ba2e64fa4",
         "seg-5ca3f4685256a19c2e5495cf",
-        "seg-5ea7b5c7277fdb63bd5e946e",
         "seg-769342363c404006758dca9d",
         "seg-81bf9187a2481441af60e476",
         "seg-94769f53776b5e2eb3c83e01",
-        "seg-9917822a920ebeac464f1d89",
-        "seg-9fe5433400a394cc0efb1857",
-        "seg-a9606f93f592da3c95b30bc0",
         "seg-bb58c3b25041ec92cf1dc6fb",
         "seg-c02badece594109f37b871c9",
         "seg-c359309695c76e768f77e728",
-        "seg-d077f0198d6c316f7ec89bee"
+        "seg-e9b0b4f0833a926b947c7fbb"
       ]
     }
   ],
   "occurrences": [
-    {
-      "entity_id": "ent-4dac4fdf3a7c3a9ef3b2d726",
-      "languages": [
-        "en",
-        "pt-BR"
-      ],
-      "mentions": [
-        "Varginha"
-      ],
-      "source_segment_id": "seg-4db5bcf26026899c1b5556da"
-    },
     {
       "entity_id": "ent-4dac4fdf3a7c3a9ef3b2d726",
       "languages": [
@@ -116,6 +102,18 @@
       "source_segment_id": "seg-983d36f82cc2ccd883df8d31"
     },
     {
+      "entity_id": "ent-4dac4fdf3a7c3a9ef3b2d726",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Varginha",
+        "VARGINHA"
+      ],
+      "source_segment_id": "seg-e9b0b4f0833a926b947c7fbb"
+    },
+    {
       "entity_id": "ent-a8298876bd52e8d5d51448c3",
       "languages": [
         "en",
@@ -125,6 +123,18 @@
         "Brasil"
       ],
       "source_segment_id": "seg-4face544917efd6ba2e64fa4"
+    },
+    {
+      "entity_id": "ent-a8298876bd52e8d5d51448c3",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Brasil",
+        "Brazil"
+      ],
+      "source_segment_id": "seg-e9b0b4f0833a926b947c7fbb"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -168,18 +178,6 @@
         "unidentified flying object"
       ],
       "source_segment_id": "seg-0936ac8c27e4d9d168a2122c"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "OVNI",
-        "UFO",
-        "unidentified flying object"
-      ],
-      "source_segment_id": "seg-1ac9699d446eeb69ad144476"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -236,16 +234,6 @@
       "mentions": [
         "UFO"
       ],
-      "source_segment_id": "seg-5ea7b5c7277fdb63bd5e946e"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
       "source_segment_id": "seg-769342363c404006758dca9d"
     },
     {
@@ -268,39 +256,6 @@
         "Unidentified Flying Object"
       ],
       "source_segment_id": "seg-94769f53776b5e2eb3c83e01"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "unidentified flying object"
-      ],
-      "source_segment_id": "seg-9917822a920ebeac464f1d89"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "objeto voador não identificado",
-        "OVNI",
-        "UFO",
-        "unidentified flying object"
-      ],
-      "source_segment_id": "seg-9fe5433400a394cc0efb1857"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-a9606f93f592da3c95b30bc0"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -337,13 +292,14 @@
     {
       "entity_id": "ent-f513cab0f766319c28769063",
       "languages": [
-        "en"
+        "en",
+        "pt-BR"
       ],
       "mentions": [
-        "OVNI",
-        "UFO"
+        "UFO",
+        "Unidentified Flying Object"
       ],
-      "source_segment_id": "seg-d077f0198d6c316f7ec89bee"
+      "source_segment_id": "seg-e9b0b4f0833a926b947c7fbb"
     }
   ],
   "schema": "ufo-files-cross-language-entities/v1"

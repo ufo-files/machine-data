@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "096300859e3d881e19f18d49241d786ad8ca43f0fb1ef5bb86982095444123c5",
+  "canonical_text_sha256": "242574b1a52bca19a1c143e193ce1dc7704eec7026884f37bc40669ca3babcf1",
   "document_id": "doc-cd72615acf64779ba1c32b28",
   "extraction": {
     "engine": "ocrmypdf+tesseract-por+eng",
@@ -361,7 +361,7 @@
       }
     ]
   },
-  "retranslated_at": "2026-09-27T21:37:03Z",
+  "retranslated_at": "2026-09-27T23:00:51Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -370,17 +370,31 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 299,
   "source_bytes": 52526524,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "Ibiúna, em 23 de maio de 1969.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Ibiúna, em 23 de majo de 1969,",
+      "original_text_sha256": "633757e35e6122899a87f62c6d996b971f551bfab6ad4703dadb321afff0c75e",
+      "page": 24,
+      "segment_id": "seg-c443989be3f7792d4f761347",
+      "source_page_render_sha256": "8b0fc13d0590d8710afc0fbc8fc28ada42e8d07422bb7d41f3402aeefee63639",
+      "source_rel": "Upload/1969 ENVELOPE 07 1969_ENVELOPE_07_CONTEUDO.pdf",
+      "translation": "Ibiúna, on 23 May 1969."
+    }
+  ],
   "source_sha256": "3fe6cd9916f047013a57671609c3b74eda892ef8fdd8c917567d836d391821a8",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T21:37:03Z",
-    "method": "mixed-verified-recovery",
-    "model": "mixed; see segment translation_provenance",
-    "model_revision": "source-bound-recovery-2026-09-27",
+    "generated_at": "2026-09-27T23:00:51Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
     "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "mixed",
-    "workflow_version": "source-bound-translation-recovery/v1"
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "67f77b7bd60ed3ee25225d9c51db421e80c5b39c865b2c622d262b666929d4b1"
+  "translation_text_sha256": "53c24ff8d0100de5fabe08edc1d74902441eec16e689ee8369a47e150fa4a985"
 }
