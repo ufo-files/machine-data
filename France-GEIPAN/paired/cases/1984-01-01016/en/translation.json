@@ -173,15 +173,6 @@
           "qa_findings": [
             {
               "added_in_translation": [
-                "1984-01-05"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
                 "1",
                 "1984",
                 "5"
@@ -222,44 +213,33 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-0a3a420afd58bedfb9ec61c5",
           "qa_findings": [
             {
-              "added_in_translation": [],
+              "added_in_translation": [
+                "1",
+                "1984",
+                "5"
+              ],
               "check": "numbers",
               "missing_from_translation": [
-                "1",
-                "1",
-                "1",
-                "1",
-                "2",
-                "2",
-                "2"
+                "05.01.1984"
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-6a9af5af6334dc923544a0e6",
           "segment_index": 13,
           "source_segment_id": "seg-6a9af5af6334dc923544a0e6",
           "source_text_sha256": "dd8ed5adc3ffcaabc36ff105b19e285e7de928ce65e4b60a87721c6e0f44871c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: The GEIPAN (French UFO investigation group) continues to publish its entire archive on its public website www.geipan.fr. Among its publications are older cases classified at the time (A, B, C, or D) that are now being reassessed with the sole purpose of being more relevant in their conclusions. Thanks to new technical means (software) and the investigative experience gained over many years, this reassessment sometimes leads to new observations or a change in classification. This observation case previously classified as D and named GRAND GALLARGUES (30) 1984 is part of a recent set of cases that have been reassessed. On January 5, 1984, around 02:30, two witnesses are traveling in a VSL vehicle on the A9 highway towards Montpellier (34). The witnesses notice a UFO (Unidentified Flying Object) that follows them along the highway over a distance of about twenty kilometers. A second UFO is observed only by the second witness, who is very frightened. No unusual noises are heard during the observations. There are two distinct UFO phenomena, UFO_PROTECTED_001_1 and UFO_PROTECTED_001_2 (see the investigation report). The physical characteristics and behavior of UFO_PROTECTED_001_1 observed by both witnesses do not correspond to any known phenomenon. However, upon closer examination of the testimonies, it becomes apparent that practically all the elements of the testimonies, in addition to the drawings, differ in their description and behavior of UFO_PROTECTED_001_1, and their quantitative and qualitative weakness does not allow for further verifications and cross-checks that could either explain, confirm, or deny the strange and inexplicable nature of the phenomenon. This lack of consistency prevents maintaining the case in its initial classification D. Consequently, GEIPAN classifies UFO_PROTECTED_001_1 as C: lack of reliable information. Regarding UFO_PROTECTED_001_2, observed only by T2 (see the case [A9] of NIMES (30) to MONTPELLIER (34) on 05.01.1984 T2), it is an astronomical confusion with the star Aldébaran, observed under temporarily favorable geographical conditions. Part of the strangeness experienced by T2 results from the illusion of the following sphere, created by the witness's own movement: the distant UFO (here, the star) gives the impression of following the witness's movement as it moves relative to the road, while it is actually the road that is moving relative to the star's fixed direction. Consequently, GEIPAN classifies UFO_PROTECTED_001_2 as A: observation of Aldébaran.",
-          "translation_text_sha256": "227a43efd3405955ff722186994c0170b0c92c7671ac08fc139ad37a11bf4333"
+          "status": "needs-review",
+          "text": "Description: The GEIPAN continues to publish its entire archives on its public website www.geipan.fr. In its publications, it includes older cases classified at the time (A, B, C, or D) that are now being re-examined, with the sole purpose of being more relevant in the conclusions. Thanks to new technical means (software) and the investigative experience gained over all these past years, this re-examination sometimes leads to new observations or even a change in classification. This previously classified D case, named GRAND GALLARGUES (30) 1984, is part of a set of cases recently reviewed. On January 5, 1984, around 02:30, two witnesses are traveling in a VSL vehicle on the A9 highway towards Montpellier (34). The witnesses notice a PAN following them along the highway for a distance of about twenty kilometers. A second PAN is observed solely by the second, very frightened witness. No particular noise was heard during the observations. Two phenomena, PAN 1 and PAN 2, should be distinguished (see the investigation report). The physical characteristics and behavior of PAN 1 observed by the two witnesses do not correspond to any known phenomenon. However, upon further studying the testimonies, it becomes apparent that practically all the elements of the testimonies, in addition to the drawings, diverge in their description of the appearance and behavior of PAN 1, and their quantitative and qualitative weakness does not allow for further verifications and cross-references that could either explain, confirm, or refute the strange and inexplicable nature of the phenomenon. This inconsistency prevents the case from maintaining its initial classification D. As a result, GEIPAN classifies PAN 1 in C: lack of reliable information. Regarding UFO PAN 2 only observed by T2 (see case [A9] of NIMES (30) towards MONTPELLIER (34) 01/05/1984 T2), it is an astronomical confusion, with the star Aldébaran, observed in a geographically favorable configuration at that time. A portion of the strangeness experienced by T2 results from the illusion of the trailing sphere, created by the witness's own movement: the PAN (here, the star) appears to follow the witness's movement as it moves relative to the road, while it is actually the road that is moving relative to the star's fixed direction. As a result, the GEIPAN categorizes the PAN 2 in A: observation of Aldbaran.",
+          "translation_text_sha256": "fcf74db5ba6ed250f43055bb831173d271574b54e2383939a86b84cc2496247b"
         }
       ],
       "source_page_id": "page-0a3a420afd58bedfb9ec61c5"
@@ -270,13 +250,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T00:55:21Z",
+    "generated_at": "2026-09-27T00:05:39Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }
