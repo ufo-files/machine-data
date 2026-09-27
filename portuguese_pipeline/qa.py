@@ -195,9 +195,9 @@ def _date_spacing(text: str) -> str:
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12](?:[ \t]+\d){3})\b",
                   lambda match: match.group(1) + re.sub(r"[ \t]", "", match.group(2)), text, flags=re.I)
-    spaced_abbreviations = "|".join(r"[ \t]*".join(name[:3]) for name in PT_MONTHS)
-    text = re.sub(r"\b(\d{1,2})\s+(" + spaced_abbreviations + r")\s+([12](?:[ \t]*\d){3})\b",
-                  lambda match: match.group(1) + " " + re.sub(r"[ \t]", "", match.group(2)) + " " + re.sub(r"[ \t]", "", match.group(3)), text, flags=re.I)
+    spaced_abbreviations = "|".join(r"[ \t]*".join(name[:3]) for name in (*PT_MONTHS, *EN_MONTHS))
+    text = re.sub(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]+(" + spaced_abbreviations + r")\.?[ \t]+((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])",
+                  lambda match: re.sub(r"[ \t]", "", match.group(1)) + " " + re.sub(r"[ \t]", "", match.group(2)) + " " + re.sub(r"[ \t]", "", match.group(3)), text, flags=re.I)
     spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
     return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
 
@@ -222,20 +222,6 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
         text, flags=re.I,
     )
-    abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
-    abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
-    abbreviations.update(EN_MONTHS)
-    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
-    def add_abbreviation(match: re.Match[str]) -> str:
-        day, month, year = match.groups()
-        # A volume number beside a month-only publication date is not its day.
-        if re.search(r"\bvol(?:ume)?\.?\s*$", match.string[:match.start()], re.I):
-            return match.group(0)
-        if len(year) == 2:
-            year = ("20" if int(year) < 50 else "19") + year
-        values[f"{int(year):04d}-{abbreviations[month.casefold()]:02d}-{int(day):02d}"] += 1
-        return ""
-    text = abbreviation.sub(add_abbreviation, text)
     pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
     en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b", re.I)
     def add_range(match: re.Match[str], portuguese: bool) -> str:
@@ -248,6 +234,22 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         return ""
     text = pt_range.sub(lambda match: add_range(match, True), text)
     text = en_range.sub(lambda match: add_range(match, False), text)
+    abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
+    abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
+    abbreviations.update(PT_MONTHS)
+    abbreviations["marco"] = 3
+    abbreviations.update(EN_MONTHS)
+    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    def add_abbreviation(match: re.Match[str]) -> str:
+        day, month, year = match.groups()
+        # A volume number beside a month-only publication date is not its day.
+        if re.search(r"\bvol(?:ume)?\.?\s*$", match.string[:match.start()], re.I):
+            return match.group(0)
+        if len(year) == 2:
+            year = ("20" if int(year) < 50 else "19") + year
+        values[f"{int(year):04d}-{abbreviations[month.casefold()]:02d}-{int(day):02d}"] += 1
+        return ""
+    text = abbreviation.sub(add_abbreviation, text)
     for match in DATE_NUMERIC.finditer(text):
         raw = match.group(0)
         if "-" in raw and raw[:4].isdigit():

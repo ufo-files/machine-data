@@ -222,6 +222,13 @@ class TranslationRecoveryTests(unittest.TestCase):
             self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'measurements'])
         self.assertTrue([f for f in compare_translation("12, 000 ft", "13,000 ft") if f['check'] == 'measurements'])
 
+    def test_ocr_spaced_abbreviated_date_with_short_year(self):
+        for source, target in [("0 5 J u l 83", "July 5, 1983"), ("04 OUT 8 1", "04 Oct 81"),
+                               ("13 ABRIL 83", "13 April 83"), ("27 DEZEMBRO 83", "27 December 83"),
+                               ("23 de Marco de 1998", "March 23, 1998")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation("0 5 J u l 83", "July 6, 1983") if f['check'] == 'dates'])
+
 
 if __name__ == '__main__':
     unittest.main()
