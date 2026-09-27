@@ -1,0 +1,1846 @@
+{"created_utc": "2026-09-27T09:22:25Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 113771, "source_ctime_ns": 1790264407266493743, "source_file": "Archives-for-the-Unexplained/documents/2017-10-20---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-64---Adam-Moreno_zXpdjmaWWag---transcript-automated-.pdf", "source_mtime_ns": 1790264407029106878, "source_rel": "Archives-for-the-Unexplained/documents/2017-10-20---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-64---Adam-Moreno_zXpdjmaWWag---transcript-automated-.pdf", "source_sha256": "05b01ca923b5f820627a04c62ebaa0a507db3704f2521bc9a80627956c2852f0"}
+
+1
+00:00:00,429 --> 00:00:04,750
+Host (Matthew Buffington): You’re listening
+to the NASA in Silicon Valley podcast, Episode
+
+2
+00:00:04,750 --> 00:00:05,750
+64.
+
+3
+00:00:05,750 --> 00:00:08,520
+Today for the intro I have Frank joining me
+again.
+
+4
+00:00:08,520 --> 00:00:10,620
+Frank, tell us a little bit about our guest
+today.
+
+5
+00:00:10,620 --> 00:00:11,660
+Frank Tavares: Hey, Matt.
+
+6
+00:00:11,660 --> 00:00:12,660
+Sure!
+
+7
+00:00:12,660 --> 00:00:14,010
+Today our guest is Adam Moreno.
+
+8
+00:00:14,010 --> 00:00:17,350
+He was actually a fan of the podcast before
+coming to NASA.
+
+9
+00:00:17,350 --> 00:00:22,191
+So that’s kinda a cool thing to see that
+cycle of the podcast bringing people in, and
+
+10
+00:00:22,191 --> 00:00:24,400
+now putting that all back out there.
+
+11
+00:00:24,400 --> 00:00:28,100
+Host: It was interesting after we recorded
+the session that he was like, "Oh yeah, I’ve
+12
+00:00:28,100 --> 00:00:30,789
+listened to all the episodes before, so this
+is kinda surreal."
+
+13
+00:00:30,789 --> 00:00:32,810
+So it’s nice coming full circle.
+
+14
+00:00:32,810 --> 00:00:33,980
+Frank Tavares: Totally, totally.
+
+15
+00:00:33,980 --> 00:00:39,790
+So yeah, Adam is a computer scientist by trade
+who sits at the crux between supercomputing
+
+16
+00:00:39,790 --> 00:00:41,590
+and Earth Sciences.
+
+17
+00:00:41,590 --> 00:00:47,760
+Which is I think a really cool combination
+of skillsets because NASA does so much research
+
+18
+00:00:47,760 --> 00:00:52,260
+on Earth sciences and gathers a huge amount
+of global data.
+
+19
+00:00:52,260 --> 00:00:57,010
+So what Adam does is he works with a program
+called NEX, the NASA Earth Exchange, that
+
+20
+00:00:57,010 --> 00:01:01,790
+works to bring those datasets and make them
+public, so any researcher anywhere in the
+
+21
+00:01:01,790 --> 00:01:05,640
+world can make use of all that data that NASA
+collects.
+
+22
+00:01:05,640 --> 00:01:10,890
+So especially in this day and age, having
+access to all of that information about the
+
+23
+00:01:10,890 --> 00:01:14,630
+Earth’s climate systems and weather and
+all this different stuff can be really, really
+
+24
+00:01:14,630 --> 00:01:15,630
+important.
+
+25
+00:01:15,630 --> 00:01:16,630
+Host: Excellent!
+
+26
+00:01:16,630 --> 00:01:19,560
+So we don’t want to spoil it too much, but
+a little bit of housekeeping before we jump
+
+27
+00:01:19,560 --> 00:01:20,560
+on in.
+
+28
+00:01:20,560 --> 00:01:25,420
+Folks who are listening, who want to participate,
+we’re using the hashtag #NASASiliconValley
+
+29
+00:01:25,420 --> 00:01:27,810
+on any social media platform you can think
+of.
+
+30
+00:01:27,810 --> 00:01:33,409
+Also, we have a phone number, that’s (650)
+604-1400.
+
+31
+00:01:33,409 --> 00:01:37,619
+Give us a call, leave us a message, we’ll
+see how we can integrate that into the episodes.
+
+32
+00:01:37,619 --> 00:01:44,060
+Also, obviously if you’ve already found
+us, we would love reviews, comments, thoughts,
+
+33
+00:01:44,060 --> 00:01:45,780
+suggestions, all that stuff.
+
+34
+00:01:45,780 --> 00:01:48,660
+You can find us on all of the major podcast
+platforms.
+
+35
+00:01:48,660 --> 00:01:53,640
+Or you can grab our RSS feed and plug into
+your favorite podcasting app.
+
+36
+00:01:53,640 --> 00:01:55,010
+But for today’s episode…
+
+37
+00:01:55,010 --> 00:01:57,840
+Frank Tavares: Let’s hear from Adam Moreno.
+
+38
+00:01:57,840 --> 00:02:09,900
+[Music]
+
+39
+00:02:09,900 --> 00:02:11,400
+Host: Tell us a little bit about yourself.
+
+40
+00:02:11,409 --> 00:02:15,569
+You haven't been here that long, but what
+brought you to NASA?
+
+41
+00:02:15,569 --> 00:02:17,299
+How did you end up in Silicon Valley?
+
+42
+00:02:17,299 --> 00:02:24,799
+Adam Moreno: Yeah, so I'm from a small, rural
+town in northeastern Oregon.
+
+43
+00:02:24,799 --> 00:02:29,760
+Then I went and got my bachelor's in computer
+engineering from Oregon State.
+
+44
+00:02:29,760 --> 00:02:36,590
+I went into the Peace Corps for a couple years,
+then went to graduate school for my master's
+
+45
+00:02:36,590 --> 00:02:39,290
+at University of Montana.
+
+46
+00:02:39,290 --> 00:02:46,091
+There, I was fortunate enough to have an advisor
+who, super smart, super nice guy, and has
+
+47
+00:02:46,091 --> 00:02:53,760
+been working with NASA for years now, decades
+now, on some of their Earth-observing satellite
+
+48
+00:02:53,760 --> 00:02:55,409
+missions.
+
+49
+00:02:55,409 --> 00:03:01,889
+While I was there, he, I guess, got an invitation
+from NASA Ames to send some of his students
+
+50
+00:03:01,889 --> 00:03:10,309
+to come here and learn how to use the supercomputer
+that we have here to be able to do cool Earth
+
+51
+00:03:10,309 --> 00:03:11,309
+science.
+
+52
+00:03:11,309 --> 00:03:16,730
+Host: So even thinking back, I'm imagining
+spending time in Montana, it's called Big
+
+53
+00:03:16,730 --> 00:03:18,849
+Sky for a reason.
+
+54
+00:03:18,849 --> 00:03:24,120
+But even imagining like Peace Corps, I mean
+I know from traveling overseas, if you go
+
+55
+00:03:24,120 --> 00:03:28,290
+to some countries that are developing countries,
+not as much light pollution.
+
+56
+00:03:28,290 --> 00:03:30,819
+I'm thinking Montana, not as much light pollution.
+
+57
+00:03:30,819 --> 00:03:34,969
+So you'd just be like sitting back and looking
+at the stars, like just blow your mind.
+
+58
+00:03:34,969 --> 00:03:36,430
+Adam Moreno: Yeah, that's right.
+
+59
+00:03:36,430 --> 00:03:40,620
+But you know actually I think it's interesting
+because if you ask most people what they think
+
+60
+00:03:40,620 --> 00:03:45,290
+about NASA, or what comes to mind when they
+think about NASA, the first thing that comes
+
+61
+00:03:45,290 --> 00:03:47,010
+to mind, of course, is space.
+
+62
+00:03:47,010 --> 00:03:51,089
+You know, astronauts, space shuttles, and
+of course we do all that cool stuff.
+
+63
+00:03:51,089 --> 00:03:53,819
+But we also do a lot of cool Earth science
+as well.
+
+64
+00:03:53,819 --> 00:03:54,819
+Host: Absolutely.
+
+65
+00:03:54,819 --> 00:04:00,290
+Adam Moreno: And so actually, in the Peace
+Corps, this is where I kind of changed gears.
+66
+00:04:00,290 --> 00:04:04,979
+Because I had a degree in computer engineering,
+but then I went into the Peace Corp, and I
+
+67
+00:04:04,979 --> 00:04:05,979
+went –
+
+68
+00:04:05,979 --> 00:04:09,299
+Host: That seems kind of rare, going from
+computer engineering to go to the Peace Corps.
+
+69
+00:04:09,299 --> 00:04:10,299
+Where did you go?
+
+70
+00:04:10,299 --> 00:04:11,299
+What did you do?
+
+71
+00:04:11,299 --> 00:04:12,299
+Adam Moreno: Well, so I went to Paraguay.
+
+72
+00:04:12,299 --> 00:04:18,060
+I was sent out into the jungle in Paraguay
+to a little community of like 300 people.
+
+73
+00:04:18,060 --> 00:04:20,049
+I built my house there.
+
+74
+00:04:20,049 --> 00:04:23,150
+I worked with the schools, farmers, students,
+all that sort of stuff.
+
+75
+00:04:23,150 --> 00:04:27,030
+But what I think actually kind of changed
+my path from maybe a traditional engineering
+
+76
+00:04:27,030 --> 00:04:33,490
+path to doing Earth science sort of stuff
+is just, you know, the majority of people
+77
+00:04:33,490 --> 00:04:39,179
+who live out in the countryside in South America
+are subsistence farmers, right?
+
+78
+00:04:39,179 --> 00:04:42,340
+They live off of what they grow.
+
+79
+00:04:42,340 --> 00:04:45,400
+If they don't grow anything, their family
+doesn't eat.
+
+80
+00:04:45,400 --> 00:04:47,919
+So things like droughts and heatwaves –
+
+81
+00:04:47,919 --> 00:04:48,919
+Host: High stakes.
+
+82
+00:04:48,919 --> 00:04:51,419
+Adam Moreno: Yeah, they're a matter of life
+and death, really.
+
+83
+00:04:51,419 --> 00:04:57,980
+So when I came back I realized I want to work
+on something that can help the majority of
+
+84
+00:04:57,980 --> 00:05:02,860
+the world that are so tied to the environment
+that it's a matter of life and death.
+
+85
+00:05:02,860 --> 00:05:10,210
+So I came back and I decided that I wanted
+to study climate-related issues, ecology-related
+
+86
+00:05:10,210 --> 00:05:11,360
+issues.
+
+87
+00:05:11,360 --> 00:05:17,550
+So at University of Montana I studied forest
+ecology and ecological modeling.
+88
+00:05:17,550 --> 00:05:23,120
+And ecological modeling just means taking
+an ecological system, like a forest, turning
+
+89
+00:05:23,120 --> 00:05:28,919
+it into mathematical equations, and then turning
+those equations into a computer model that
+
+90
+00:05:28,919 --> 00:05:29,919
+you can then use to –
+
+91
+00:05:29,919 --> 00:05:35,969
+Host: Yeah, and this is one of the cool things
+that NASA does, is the data collection, then
+
+92
+00:05:35,969 --> 00:05:38,900
+using the scientific community to turn data
+into knowledge.
+
+93
+00:05:38,900 --> 00:05:44,560
+But gathering that data, it's not just from
+satellite-based telescopes.
+
+94
+00:05:44,560 --> 00:05:48,599
+There's a lot of data collection on the ground.
+
+95
+00:05:48,599 --> 00:05:54,250
+People always tend to think of the larger
+climate, the big picture, mother Earth perspective,
+
+96
+00:05:54,250 --> 00:05:56,560
+but a lot of that data is used for agriculture.
+
+97
+00:05:56,560 --> 00:05:57,689
+Adam Moreno: Yeah, that's right.
+
+98
+00:05:57,689 --> 00:06:02,719
+Host: Even here in the United States, it's
+crucial information for, you know, even disaster
+
+99
+00:06:02,719 --> 00:06:03,719
+response.
+
+100
+00:06:03,719 --> 00:06:07,810
+You've got to know how the Earth is reacting.
+
+101
+00:06:07,810 --> 00:06:12,040
+That data that NASA collects pays dividends
+for all kinds of groups down the road.
+
+102
+00:06:12,040 --> 00:06:13,239
+Adam Moreno: Yeah, that's right.
+
+103
+00:06:13,239 --> 00:06:14,639
+And that's NASA's job, right?
+
+104
+00:06:14,639 --> 00:06:20,340
+To understand this huge, massive, complex
+system that we're living on, and in, and that
+
+105
+00:06:20,340 --> 00:06:21,340
+we depend on.
+
+106
+00:06:21,340 --> 00:06:25,789
+I mean it hasn't been that long that humans
+have been able to actually study the whole
+
+107
+00:06:25,789 --> 00:06:27,699
+entire globe.
+
+108
+00:06:27,699 --> 00:06:34,259
+It wasn't until the '70s that NASA and USGS
+sent up the first satellites dedicated to
+
+109
+00:06:34,259 --> 00:06:37,590
+monitoring the environment, actually.
+110
+00:06:37,590 --> 00:06:41,969
+And also you need big computers to be able
+to understand what's going on, and that also
+
+111
+00:06:41,969 --> 00:06:43,349
+hasn't been that long.
+
+112
+00:06:43,349 --> 00:06:49,560
+So actually this is all relatively new science,
+being able to study continents, entire continents,
+
+113
+00:06:49,560 --> 00:06:53,550
+or the entire global system altogether.
+
+114
+00:06:53,550 --> 00:06:56,930
+But yeah, so that's what I do here.
+
+115
+00:06:56,930 --> 00:07:00,490
+But that was my master's.
+
+116
+00:07:00,490 --> 00:07:06,779
+I did my master's in Montana, then for my
+Ph.D. I went to Vienna, Austria, and I did
+
+117
+00:07:06,779 --> 00:07:09,449
+my Ph.D. over there.
+
+118
+00:07:09,449 --> 00:07:19,189
+My last year of my Ph.D., I came to AGU, the
+American Geophysical Union, here in San Francisco.
+
+119
+00:07:19,189 --> 00:07:21,029
+I knew I wanted to come NASA.
+
+120
+00:07:21,029 --> 00:07:23,180
+I'd been here before, I had some exposure.
+
+121
+00:07:23,180 --> 00:07:26,400
+I was like, "Okay, this is where I want to
+be."
+
+122
+00:07:26,400 --> 00:07:34,029
+So I met with Rama Nemani, who is now my mentor
+here at Ames, and I just asked him.
+
+123
+00:07:34,029 --> 00:07:39,060
+I was like, "I want to come be in your group,
+how can I make this happen?"
+
+124
+00:07:39,060 --> 00:07:45,189
+He pointed me towards this fellowship opportunity
+that all NASA bases have.
+
+125
+00:07:45,189 --> 00:07:49,620
+So I applied for it, and I got it, and now
+I'm here.
+
+126
+00:07:49,620 --> 00:07:53,879
+Host: And you said, it hasn't even been quite
+a year yet.
+
+127
+00:07:53,879 --> 00:07:54,879
+Adam Moreno: No, not even a year.
+
+128
+00:07:54,879 --> 00:07:55,879
+Host: Oh wow.
+
+129
+00:07:55,879 --> 00:07:58,969
+And we were talking right before we came on
+doing this that you had actually listened
+
+130
+00:07:58,969 --> 00:08:01,199
+to the podcast before even joining up.
+
+131
+00:08:01,199 --> 00:08:02,220
+Adam Moreno: Yeah, that's right.
+
+132
+00:08:02,220 --> 00:08:05,370
+Host: "Well, I'm going to be working there,
+better find out what people are doing."
+
+133
+00:08:05,370 --> 00:08:06,469
+Adam Moreno: Yeah, that's right.
+
+134
+00:08:06,469 --> 00:08:10,309
+So, my last year of my Ph.D., I knew I was
+coming.
+
+135
+00:08:10,309 --> 00:08:14,689
+I wasn't really nervous, I was just kind of
+concentrating on my dissertation and defending,
+
+136
+00:08:14,689 --> 00:08:18,150
+but then I stumbled across this podcast here.
+
+137
+00:08:18,150 --> 00:08:21,879
+That's when I got nervous, actually.
+
+138
+00:08:21,879 --> 00:08:26,210
+Hearing about all the cool stuff all the smart
+people here are doing, and I was like, "Oh
+
+139
+00:08:26,210 --> 00:08:27,710
+okay, coming to the big leagues now."
+
+140
+00:08:27,710 --> 00:08:29,039
+Host: Oh, fun.
+
+141
+00:08:29,039 --> 00:08:31,930
+So you're working right now, is it called
+Earth Exchange?
+
+142
+00:08:31,930 --> 00:08:33,089
+Am I saying that right?
+
+143
+00:08:33,089 --> 00:08:35,360
+Adam Moreno: The NASA Earth Exchange, yeah.
+
+144
+00:08:35,360 --> 00:08:43,149
+I work in a group called the NASA Earth Exchange,
+or NEX, and it's made up of Earth scientists
+
+145
+00:08:43,149 --> 00:08:45,230
+and software engineers.
+
+146
+00:08:45,230 --> 00:08:52,610
+So actually it's kind of a hybrid group of
+the Earth sciences division and the advanced
+
+147
+00:08:52,610 --> 00:08:55,930
+supercomputing division.
+
+148
+00:08:55,930 --> 00:09:06,060
+What's NEX's goal is, is just facilitating
+Earth scientists to be able to use all of
+
+149
+00:09:06,060 --> 00:09:13,250
+NASA's facilities, like the supercomputer,
+and getting access to all of the data that
+
+150
+00:09:13,250 --> 00:09:14,630
+exists in the world actually.
+
+151
+00:09:14,630 --> 00:09:23,610
+So we try to bring in massive datasets, bring
+it in to one place, then allow the NASA scientists,
+
+152
+00:09:23,610 --> 00:09:27,920
+especially throughout all of the bases at
+NASA to come and be able to use the facilities
+
+153
+00:09:27,920 --> 00:09:28,920
+here.
+
+154
+00:09:28,920 --> 00:09:34,910
+And I think the longer-term goal is to make
+it even more accessible to the general public
+
+155
+00:09:34,910 --> 00:09:36,300
+at large.
+
+156
+00:09:36,300 --> 00:09:41,390
+You know, NASA has 10 to 12 bases, however
+you want to count it.
+
+157
+00:09:41,390 --> 00:09:43,500
+Host: Different centers and locations.
+
+158
+00:09:43,500 --> 00:09:45,709
+Adam Moreno: Right, different centers.
+
+159
+00:09:45,709 --> 00:09:51,400
+You know, there's a lot of people doing all
+kinds of science there, but maybe they don't
+
+160
+00:09:51,400 --> 00:09:55,160
+all have direct access to the supercomputer
+like we do here at Ames.
+
+161
+00:09:55,160 --> 00:09:59,980
+So NEX's idea was just to help facilitate
+that.
+
+162
+00:09:59,980 --> 00:10:03,490
+Host: Help facilitate that because it's not
+only the researchers here, it's also NASA,
+
+163
+00:10:03,490 --> 00:10:09,199
+as funded by the taxpayers, goes through great
+effort to get that information also available
+
+164
+00:10:09,199 --> 00:10:11,449
+to the scientific community.
+
+165
+00:10:11,449 --> 00:10:16,020
+Because we don't have to do it on our own,
+we can reach out to the larger group.
+
+166
+00:10:16,020 --> 00:10:20,310
+You almost kind of crowdfund, or you know,
+crowdsource, I guess.
+
+167
+00:10:20,310 --> 00:10:25,130
+Have everybody working and looking at these
+datasets and you just see things as they pop
+
+168
+00:10:25,130 --> 00:10:26,130
+up.
+
+169
+00:10:26,130 --> 00:10:27,130
+Adam Moreno: That's right.
+
+170
+00:10:27,130 --> 00:10:33,180
+One of the great things that NASA Earth science
+does is they give out their data to the entire
+
+171
+00:10:33,180 --> 00:10:36,800
+world for free, actually.
+
+172
+00:10:36,800 --> 00:10:41,250
+This actually spurs science and innovation
+all over the world.
+
+173
+00:10:41,250 --> 00:10:47,370
+Because as scientists here in the United States,
+maybe we don't focus on small countries like
+
+174
+00:10:47,370 --> 00:10:52,779
+Paraguay or something, but if I'm an ecologist
+in Paraguay, you know, Paraguay can't afford
+
+175
+00:10:52,779 --> 00:10:58,959
+to have a space program, but they can get
+access to NASA's data to help them understand
+176
+00:10:58,959 --> 00:11:03,190
+their ecosystem over there.
+
+177
+00:11:03,190 --> 00:11:07,360
+That's one of the great things NASA does,
+is give away all of the data that we have
+
+178
+00:11:07,360 --> 00:11:10,450
+processed, ready to use, for free to the entire
+world.
+
+179
+00:11:10,450 --> 00:11:15,801
+Host: Yeah, not too long ago, we had one of
+the exoplanet specialists in here, and they
+
+180
+00:11:15,801 --> 00:11:19,800
+were talking about – of course, traditionally
+when you think of NASA, you think of rocket
+
+181
+00:11:19,800 --> 00:11:23,660
+launches, but you also think of looking out
+into the universe, the solar system and beyond
+
+182
+00:11:23,660 --> 00:11:30,019
+– but they were telling this story of how
+looking at a faraway star and how a planet
+
+183
+00:11:30,019 --> 00:11:34,500
+will transit in front of it, and then you
+can confirm, "Yes, okay.
+
+184
+00:11:34,500 --> 00:11:37,080
+There is an exoplanet around that star."
+
+185
+00:11:37,080 --> 00:11:41,639
+You can see how that planet pulls on the gravity
+to get another idea of like, you can start
+
+186
+00:11:41,639 --> 00:11:45,630
+deducing the density of that planet.
+
+187
+00:11:45,630 --> 00:11:51,540
+But then she was also saying how if you capture
+that light right as it gets through the ring
+
+188
+00:11:51,540 --> 00:11:58,920
+around that star, you have light that passes
+through that planet's atmosphere, we can look
+
+189
+00:11:58,920 --> 00:12:04,630
+at that atmosphere, you put it out on the
+spectrum and you can start figuring out, "Oh,
+
+190
+00:12:04,630 --> 00:12:06,550
+this is mainly made of oxygen, nitrogen.
+
+191
+00:12:06,550 --> 00:12:10,920
+This is more carbon," or whatever the molecules
+or the properties.
+
+192
+00:12:10,920 --> 00:12:15,339
+So you can really start to understand exoplanets
+and understand what they're making up.
+
+193
+00:12:15,339 --> 00:12:22,529
+And I immediately think of an analog of a
+planet to compare it to, is the one we're
+
+194
+00:12:22,529 --> 00:12:23,970
+sitting on.
+
+195
+00:12:23,970 --> 00:12:29,660
+So as much as we can understand what this
+Earth is doing, and what it's made of, then
+
+196
+00:12:29,660 --> 00:12:33,190
+that helps us be able to compare it to those
+exoplanets so we can confirm, are they really
+197
+00:12:33,190 --> 00:12:35,660
+Earth-like planets out there?
+
+198
+00:12:35,660 --> 00:12:37,259
+And we know that because of what we know about
+Earth.
+
+199
+00:12:37,259 --> 00:12:39,500
+Adam Moreno: Yeah, no, that's right.
+
+200
+00:12:39,500 --> 00:12:41,930
+That's another reason why NASA does Earth
+science.
+
+201
+00:12:41,930 --> 00:12:46,110
+Because we need to understand what's happening
+on Earth to be able to understand the other
+
+202
+00:12:46,110 --> 00:12:47,110
+planets.
+
+203
+00:12:47,110 --> 00:12:51,580
+And actually one of the great things about
+being an early-career scientist here at NASA,
+
+204
+00:12:51,580 --> 00:12:55,230
+is we have this early-career network here.
+
+205
+00:12:55,230 --> 00:13:01,639
+Part of that is we take tours of different
+places around Silicon Valley, we also have
+
+206
+00:13:01,639 --> 00:13:04,400
+these happy hours and stuff.
+
+207
+00:13:04,400 --> 00:13:09,269
+So during the happy hours I've been able to
+talk with other scientists who are not Earth
+208
+00:13:09,269 --> 00:13:11,330
+scientists, you know, they're studying planets
+or whatever.
+
+209
+00:13:11,330 --> 00:13:13,310
+Host: This is the newcomers to NASA.
+
+210
+00:13:13,310 --> 00:13:16,000
+Adam Moreno: Yeah, and they're doing the cutting-edge
+stuff.
+
+211
+00:13:16,000 --> 00:13:18,820
+There is a lot of overlap.
+
+212
+00:13:18,820 --> 00:13:24,850
+There are a lot of people who are doing spectroscopy
+on other planets, and the same methods that
+
+213
+00:13:24,850 --> 00:13:31,100
+they use are derived maybe from the methods
+that were developed first to study the Earth,
+
+214
+00:13:31,100 --> 00:13:32,100
+actually.
+
+215
+00:13:32,100 --> 00:13:35,400
+Host: And I think some of your work, talking
+about the supercomputers and software, it's
+
+216
+00:13:35,400 --> 00:13:39,709
+also one of those natural ways to kind of
+pull things together.
+
+217
+00:13:39,709 --> 00:13:42,459
+It seems like, whereas stuff may have been
+silo-ed.
+
+218
+00:13:42,459 --> 00:13:48,380
+Like okay, you have Earth science over here,
+you have biosciences in one area, astrophysicists,
+
+219
+00:13:48,380 --> 00:13:54,389
+or even aeronautics, but it seems like a commonality
+between a lot of these is becoming computing.
+
+220
+00:13:54,389 --> 00:13:59,740
+Because everybody who is doing research, the
+supercomputer can help make better sense of
+
+221
+00:13:59,740 --> 00:14:00,740
+the data.
+
+222
+00:14:00,740 --> 00:14:02,850
+Adam Moreno: Yeah, that's right.
+
+223
+00:14:02,850 --> 00:14:09,350
+Getting data from one of the satellites about
+Earth, that's super cool, and you can learn
+
+224
+00:14:09,350 --> 00:14:11,879
+a lot just by looking at that data.
+
+225
+00:14:11,879 --> 00:14:17,449
+But in Earth science, often what we do is
+we take data from all sorts of different sources.
+
+226
+00:14:17,449 --> 00:14:19,140
+Maybe several different satellites.
+
+227
+00:14:19,140 --> 00:14:20,140
+Host: Okay.
+
+228
+00:14:20,140 --> 00:14:21,140
+They have different instruments on them.
+
+229
+00:14:21,140 --> 00:14:22,140
+They're looking at different things.
+230
+00:14:22,140 --> 00:14:23,600
+Adam Moreno: Right, they're looking at different
+things.
+
+231
+00:14:23,600 --> 00:14:27,940
+Maybe one is looking at the oceans, one is
+looking at the forests, atmospheres, cryosphere,
+
+232
+00:14:27,940 --> 00:14:29,529
+so on and so forth.
+
+233
+00:14:29,529 --> 00:14:33,220
+But then we also couple that with data on
+the ground.
+
+234
+00:14:33,220 --> 00:14:39,019
+So in my case, I study forests, so I'll take
+forest inventory data where people are on
+
+235
+00:14:39,019 --> 00:14:46,279
+the ground measuring forests, along with weather
+station data, and soil data, and then we try
+
+236
+00:14:46,279 --> 00:14:50,920
+to put that all together to make something
+even greater than the sum of its parts.
+
+237
+00:14:50,920 --> 00:14:55,959
+Through maybe a big computer model that we
+need to supercomputer to be able to crunch
+
+238
+00:14:55,959 --> 00:15:00,569
+all of those numbers to get a good picture
+of what's happening on a continent, or on
+
+239
+00:15:00,569 --> 00:15:02,149
+a global scale, things like that.
+
+240
+00:15:02,149 --> 00:15:04,370
+Host: So talk a little bit about the forests.
+
+241
+00:15:04,370 --> 00:15:09,060
+Especially having lived in Paraguay for a
+while, in a heavily forested area.
+
+242
+00:15:09,060 --> 00:15:15,970
+What happens there can affect the entire planet
+in a lot of times, or the areas around it.
+
+243
+00:15:15,970 --> 00:15:21,560
+So talk a little bit about how the forest
+in general play into the global –
+
+244
+00:15:21,560 --> 00:15:22,660
+Adam Moreno: Right, yeah.
+
+245
+00:15:22,660 --> 00:15:24,850
+Why is a forest ecologist at NASA?
+
+246
+00:15:24,850 --> 00:15:27,899
+Host: That's a good question.
+
+247
+00:15:27,899 --> 00:15:29,740
+Adam Moreno: Yeah.
+
+248
+00:15:29,740 --> 00:15:34,620
+There are several cycles that make up the
+global system.
+
+249
+00:15:34,620 --> 00:15:40,949
+There's the water cycle, the carbon cycle,
+energy cycle, nitrogen cycle, all these different
+
+250
+00:15:40,949 --> 00:15:42,110
+cycles.
+
+251
+00:15:42,110 --> 00:15:45,779
+Things that are moving around the Earth and
+make up really the system that we call the
+
+252
+00:15:45,779 --> 00:15:48,560
+Earth.
+
+253
+00:15:48,560 --> 00:15:54,860
+So if we're talking about something like the
+carbon cycle, global forests make up the largest
+
+254
+00:15:54,860 --> 00:15:59,620
+terrestrial component of the carbon cycle.
+
+255
+00:15:59,620 --> 00:16:07,579
+Half of the carbon that goes into the atmosphere
+gets sucked down by forests, so large-scale
+
+256
+00:16:07,579 --> 00:16:12,620
+changes to the forests can change the carbon
+cycle, that could then change the climate
+
+257
+00:16:12,620 --> 00:16:17,130
+cycle and have repercussions all over the
+world.
+
+258
+00:16:17,130 --> 00:16:19,760
+Same with the water cycle and all of that
+sort of stuff.
+
+259
+00:16:19,760 --> 00:16:23,220
+Host: Everything kind of interacts, and ebbs
+and flows.
+
+260
+00:16:23,220 --> 00:16:24,829
+Adam Moreno: Everything interacts, yeah.
+
+261
+00:16:24,829 --> 00:16:27,519
+Host: Like the food chain, to a certain extent.
+
+262
+00:16:27,519 --> 00:16:31,190
+You tweak one thing and then other stuff happens,
+even if you don't understand it right away.
+
+263
+00:16:31,190 --> 00:16:32,190
+Adam Moreno: That right.
+
+264
+00:16:32,190 --> 00:16:34,420
+Host: Things are all interconnected and interwoven,
+very complex.
+
+265
+00:16:34,420 --> 00:16:35,860
+Adam Moreno: Yep.
+
+266
+00:16:35,860 --> 00:16:42,360
+Right, so I kind of say, well, a computer
+is a very complex system.
+
+267
+00:16:42,360 --> 00:16:47,339
+It takes a lot of engineering and science
+and math to understand or build this sort
+
+268
+00:16:47,339 --> 00:16:49,120
+of system.
+
+269
+00:16:49,120 --> 00:16:56,500
+But the actual biggest and most complex system
+on Earth, is the Earth itself.
+
+270
+00:16:56,500 --> 00:16:59,490
+And we didn't engineer it, so that makes it
+even harder.
+
+271
+00:16:59,490 --> 00:17:03,740
+So actually, we're just trying to figure out
+how this system works.
+
+272
+00:17:03,740 --> 00:17:06,010
+There's still a lot of work to be done.
+273
+00:17:06,010 --> 00:17:12,250
+My little component of figuring out this system
+is figuring out how atmospheres and forests
+
+274
+00:17:12,250 --> 00:17:13,810
+interact with one another.
+
+275
+00:17:13,810 --> 00:17:14,810
+Host: Okay.
+
+276
+00:17:14,810 --> 00:17:18,800
+So you talk about studying forests, doing
+that research, and then playing that into
+
+277
+00:17:18,800 --> 00:17:22,000
+being a computer scientist.
+
+278
+00:17:22,000 --> 00:17:26,560
+This is an option for all computer scientists,
+"Oh, you could also go study forests."
+
+279
+00:17:26,560 --> 00:17:28,600
+Adam Moreno: That's absolutely true.
+
+280
+00:17:28,600 --> 00:17:35,100
+And we need more people with technical abilities
+to come and be able to make sense of this
+
+281
+00:17:35,100 --> 00:17:37,980
+huge amount of complex data that we have.
+
+282
+00:17:37,980 --> 00:17:40,120
+Host: How do you do that?
+
+283
+00:17:40,120 --> 00:17:41,120
+What do you?
+
+284
+00:17:41,120 --> 00:17:42,120
+What is your day-to-day?
+
+285
+00:17:42,120 --> 00:17:48,780
+Are you running this data through new software,
+through databases, putting it, visualizing
+
+286
+00:17:48,780 --> 00:17:53,270
+it in different ways where you come up with
+newer ideas instead of it just being numbers
+
+287
+00:17:53,270 --> 00:17:54,270
+on a spreadsheet?
+
+288
+00:17:54,270 --> 00:17:55,270
+Talk about that.
+
+289
+00:17:55,270 --> 00:18:01,600
+Adam Moreno: Yeah, so my day-to-day is getting
+data from all different sources, satellites
+
+290
+00:18:01,600 --> 00:18:06,780
+or the ground, and then transforming that
+data into something I can use.
+
+291
+00:18:06,780 --> 00:18:12,630
+Maybe it's a map of a particular area, like
+the United States that I want to study.
+
+292
+00:18:12,630 --> 00:18:17,070
+And getting all of those datasets to match
+up, right?
+
+293
+00:18:17,070 --> 00:18:21,890
+They need to be able to be comparable and
+usable no matter if they came from satellites
+
+294
+00:18:21,890 --> 00:18:24,390
+of from the ground, or what have you.
+
+295
+00:18:24,390 --> 00:18:31,360
+Then I write a lot of code that crunches those
+numbers in the supercomputer.
+
+296
+00:18:31,360 --> 00:18:40,220
+Maybe I'll have a forest model that will get
+productivity estimates of the forest, given
+
+297
+00:18:40,220 --> 00:18:45,840
+its reflectance from the satellite, given
+its climate, given the type of forest there
+
+298
+00:18:45,840 --> 00:18:50,440
+is on the ground, and we want to know, "Well,
+how productive is vegetation all over the
+
+299
+00:18:50,440 --> 00:18:52,830
+globe?" for example.
+
+300
+00:18:52,830 --> 00:18:58,470
+That sort of stuff goes through the computer.
+
+301
+00:18:58,470 --> 00:19:03,340
+My ultimate goal right now, while I'm here
+at NASA, that kind of got me here, is I'm
+
+302
+00:19:03,340 --> 00:19:13,650
+hoping to develop an early warning system
+where we can monitor all of the forests throughout
+
+303
+00:19:13,650 --> 00:19:19,410
+the United States, and pinpoint forests that
+are extremely vulnerable to a large-scale
+
+304
+00:19:19,410 --> 00:19:24,830
+mortality event, whether it's from fire, or
+beetles, or even just mortality without any
+
+305
+00:19:24,830 --> 00:19:29,340
+sort of agent of death like fire or beetles.
+306
+00:19:29,340 --> 00:19:36,360
+And also understanding why those forests are
+vulnerable, and then giving some recommendation
+
+307
+00:19:36,360 --> 00:19:42,020
+of what can be done to maybe prevent this
+large-scale mortality event.
+
+308
+00:19:42,020 --> 00:19:48,460
+So, to do that, what I'm doing is, I'm taking
+all of this data that I'm getting from the
+
+309
+00:19:48,460 --> 00:19:56,070
+satellite, from the ground, and I'm writing
+code that will hopefully pull out equations,
+
+310
+00:19:56,070 --> 00:20:01,580
+essentially, of the physics on how climate
+limits forests.
+
+311
+00:20:01,580 --> 00:20:04,020
+Host: Oh, interesting, okay.
+
+312
+00:20:04,020 --> 00:20:05,540
+What are the rules?
+
+313
+00:20:05,540 --> 00:20:07,650
+Adam Moreno: Yeah, what are the rules, exactly.
+
+314
+00:20:07,650 --> 00:20:08,650
+What are the rules?
+
+315
+00:20:08,650 --> 00:20:13,840
+Because it's obvious, climate dictates what
+sort of forest can be where, right?
+
+316
+00:20:13,840 --> 00:20:20,420
+So, we have a different sort of forest here
+in California, in Silicon Valley, than we
+
+317
+00:20:20,420 --> 00:20:25,570
+have up in the Pacific Northwest, in Washington
+or Oregon, and that's because the climate
+
+318
+00:20:25,570 --> 00:20:27,120
+is different.
+
+319
+00:20:27,120 --> 00:20:30,070
+The climate dictates all sorts of things within
+the forest.
+
+320
+00:20:30,070 --> 00:20:35,330
+It dictates how tall the forest can get, how
+big the trees can get, how many trees can
+
+321
+00:20:35,330 --> 00:20:37,850
+be in a forest, and things like that.
+
+322
+00:20:37,850 --> 00:20:44,150
+But, as of yet, we don't really understand
+how it limits all of those, or what this curve
+
+323
+00:20:44,150 --> 00:20:48,920
+looks like, depending on your temperature
+and precipitation, what sort of trees could
+
+324
+00:20:48,920 --> 00:20:50,010
+exist in an area.
+
+325
+00:20:50,010 --> 00:20:56,540
+So I'm trying pull out these biophysical limitations
+that climate places on forests that I can
+
+326
+00:20:56,540 --> 00:21:02,500
+then use to develop some sort of system that
+can recognize when a forest is out of balance
+
+327
+00:21:02,500 --> 00:21:04,100
+with its climate system.
+
+328
+00:21:04,100 --> 00:21:08,010
+Host: You said it a handful of times, but
+talk a little bit about writing the code.
+
+329
+00:21:08,010 --> 00:21:11,490
+Because it's not like – I'll probably date
+myself – it's not like you're opening up
+
+330
+00:21:11,490 --> 00:21:12,490
+Delphi.
+
+331
+00:21:12,490 --> 00:21:20,290
+It's not like you're just powering up your
+PC and just writing this stuff, because a
+
+332
+00:21:20,290 --> 00:21:25,600
+supercomputer, I'm imagining it does not run
+on a Microsoft or an iOS system.
+
+333
+00:21:25,600 --> 00:21:27,470
+Adam Moreno: No, that's right.
+
+334
+00:21:27,470 --> 00:21:30,530
+Host: What all goes into that?
+
+335
+00:21:30,530 --> 00:21:36,280
+Adam Moreno: Yeah, so the supercomputer we
+have here at Ames is called Pleiades, and
+
+336
+00:21:36,280 --> 00:21:40,710
+it has its own building that takes up this
+whole entire – it's like a city block essentially.
+
+337
+00:21:40,710 --> 00:21:44,200
+It even has its own cooling tower, it's so
+big.
+338
+00:21:44,200 --> 00:21:46,200
+Why do we have supercomputers?
+
+339
+00:21:46,200 --> 00:21:50,810
+Well, number one, all of the data that we
+need to understand the global system could
+
+340
+00:21:50,810 --> 00:21:54,890
+not fit on a smaller computer, on a desktop
+computer.
+
+341
+00:21:54,890 --> 00:22:01,240
+But then also the computations that it takes,
+if we were to try to do it on a desktop computer,
+
+342
+00:22:01,240 --> 00:22:03,080
+it would take three years or something like
+that.
+
+343
+00:22:03,080 --> 00:22:04,080
+Host: For it to render –
+
+344
+00:22:04,080 --> 00:22:08,910
+Adam Moreno: Yeah, or just to run all of the
+calculations on all of the data.
+
+345
+00:22:08,910 --> 00:22:12,450
+So essentially it's impossible on a normal
+computer.
+
+346
+00:22:12,450 --> 00:22:17,110
+But then if you write it correctly and you
+utilize the architecture of the supercomputer,
+
+347
+00:22:17,110 --> 00:22:20,840
+then maybe it will take a day, or something
+like that.
+
+348
+00:22:20,840 --> 00:22:25,510
+So, essentially a supercomputer makes impossible
+calculations possible.
+
+349
+00:22:25,510 --> 00:22:26,720
+Host: Oh wow.
+
+350
+00:22:26,720 --> 00:22:32,250
+Adam Moreno: Yeah, so it's not just normal
+programming when you're programming on a supercomputer.
+
+351
+00:22:32,250 --> 00:22:34,310
+Host: Yeah, HTML, you're screwing around.
+
+352
+00:22:34,310 --> 00:22:35,680
+Adam Moreno: Yeah, right.
+
+353
+00:22:35,680 --> 00:22:41,340
+So often, I think, scientists who have not
+worked with supercomputers, they will think,
+
+354
+00:22:41,340 --> 00:22:47,670
+"Oh, okay, I have this little model, and it
+works well on studying, let's say, forests,
+
+355
+00:22:47,670 --> 00:22:51,210
+and it works well on like a watershed, or
+just one particular forest.
+
+356
+00:22:51,210 --> 00:22:56,550
+Well, shoot, if I just have access to the
+supercomputer, I'll just run it on the supercomputer
+
+357
+00:22:56,550 --> 00:22:57,550
+and boom."
+
+358
+00:22:57,550 --> 00:22:58,550
+Host: Do your supercomputing magic.
+
+359
+00:22:58,550 --> 00:23:01,920
+Adam Moreno: Yeah, and then boom, I have a
+whole global simulation.
+
+360
+00:23:01,920 --> 00:23:04,510
+But that is not how it works.
+
+361
+00:23:04,510 --> 00:23:11,120
+I guess I kind of liken it to if you're chopping
+wood and you're stacking wood, okay?
+
+362
+00:23:11,120 --> 00:23:12,120
+Host: Okay.
+
+363
+00:23:12,120 --> 00:23:15,260
+Adam Moreno: If you have a little bit of wood
+you can do it yourself and it's fine.
+
+364
+00:23:15,260 --> 00:23:16,640
+You chop wood, you stack wood.
+
+365
+00:23:16,640 --> 00:23:23,020
+But now let's say I give you a huge, huge
+warehouse full of wood and I tell you I want
+
+366
+00:23:23,020 --> 00:23:25,600
+one big stack of wood.
+
+367
+00:23:25,600 --> 00:23:29,280
+And I say, but I'll also give you as many
+people as you want.
+
+368
+00:23:29,280 --> 00:23:33,070
+I'll give you a million people if you want
+a million people.
+
+369
+00:23:33,070 --> 00:23:37,380
+Well, okay, if you just say, everyone cut
+and stack wood –
+
+370
+00:23:37,380 --> 00:23:39,070
+Host: Everyone start, like brute force.
+
+371
+00:23:39,070 --> 00:23:40,070
+Let's start chopping wood.
+
+372
+00:23:40,070 --> 00:23:41,110
+Adam Moreno: Right, you don't know where the
+wood's going.
+
+373
+00:23:41,110 --> 00:23:42,400
+Everyone cuts wood in different ways, whatever.
+
+374
+00:23:42,400 --> 00:23:43,400
+It doesn't work.
+
+375
+00:23:43,400 --> 00:23:47,160
+Now all of a sudden you need to organize the
+workers.
+
+376
+00:23:47,160 --> 00:23:51,581
+You need to put some of the workers chopping
+wood, some of the workers moving wood, some
+
+377
+00:23:51,581 --> 00:23:55,940
+of the workers stacking wood, and you need
+somebody organizing the stack of wood.
+
+378
+00:23:55,940 --> 00:23:56,940
+Things like that.
+
+379
+00:23:56,940 --> 00:23:57,940
+Host: Let alone lunch breaks and payroll.
+
+380
+00:23:57,940 --> 00:24:00,610
+Adam Moreno: Yeah, those sorts of things.
+
+381
+00:24:00,610 --> 00:24:05,670
+Anyways, the point is that the end goal is
+the same, cut wood, stack wood.
+
+382
+00:24:05,670 --> 00:24:12,290
+But since the scale is so different, and you
+have so many workers, the whole process chain
+
+383
+00:24:12,290 --> 00:24:13,460
+is completely different.
+
+384
+00:24:13,460 --> 00:24:15,670
+And it's the same with supercomputing.
+
+385
+00:24:15,670 --> 00:24:21,341
+You have a small process and the end result
+is the same but just on a bigger scale, but
+
+386
+00:24:21,341 --> 00:24:25,460
+getting from A to B is a completely different
+story.
+
+387
+00:24:25,460 --> 00:24:26,940
+Host: Excellent.
+
+388
+00:24:26,940 --> 00:24:30,610
+So you're working as the fellow.
+
+389
+00:24:30,610 --> 00:24:31,610
+You finished your Ph.D., right?
+
+390
+00:24:31,610 --> 00:24:33,170
+Adam Moreno: Yeah, I finished my Ph.D.
+
+391
+00:24:33,170 --> 00:24:34,190
+Host: So now this is the postdoc.
+
+392
+00:24:34,190 --> 00:24:36,790
+Adam Moreno: This is the postdoc, right.
+
+393
+00:24:36,790 --> 00:24:38,820
+Host: What do you see in the future?
+
+394
+00:24:38,820 --> 00:24:41,160
+What are you hoping to work on down the road?
+
+395
+00:24:41,160 --> 00:24:43,134
+Adam Moreno: Well, this early warning system
+is a big dream that I have that will take
+
+396
+00:24:43,134 --> 00:24:44,134
+many years to complete.
+
+397
+00:24:44,134 --> 00:24:48,960
+I hope to either stay on here at NASA, or
+go on and become a professor or something.
+
+398
+00:24:48,960 --> 00:24:53,270
+I like teaching as well, I like mentoring,
+so I don't know, we'll see.
+
+399
+00:24:53,270 --> 00:24:58,910
+I think that's part of the postdoc experience,
+is really understanding where you want to
+
+400
+00:24:58,910 --> 00:25:01,130
+go with your next steps of your career.
+
+401
+00:25:01,130 --> 00:25:06,360
+Host: So, for folks who are listening who
+have questions for Adam, we are on Twitter
+
+402
+00:25:06,360 --> 00:25:09,460
+@NASAAmes, and we're using the hashtag #NASASiliconValley.
+
+403
+00:25:09,460 --> 00:25:13,920
+So, questions come in, we'll loop them on
+over to you and see if you can get some answers
+
+404
+00:25:13,920 --> 00:25:14,920
+back and forth.
+
+405
+00:25:14,920 --> 00:25:15,920
+Adam Moreno: Yeah, that would be great.
