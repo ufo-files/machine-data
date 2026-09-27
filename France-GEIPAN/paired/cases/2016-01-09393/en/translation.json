@@ -148,15 +148,15 @@
           "field": "documents",
           "page_id": "page-b9dcbe394277d00b9555df3c",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-d0beea926c3335f5718bdccd",
           "segment_index": 9,
           "source_segment_id": "seg-d0beea926c3335f5718bdccd",
           "source_text_sha256": "60dde96209d9edcd19aef273cd0467bde94efd52d6ae6af25eb813395180774b",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Questionnaire terre-R.pdf",
-          "translation_text_sha256": "6fbdf65df38a2ab3a08e0b65aa4b1f4924d9e7e3aff60d753406bfbdb9368a54"
+          "status": "not-required",
+          "text": "Documents: Questionnaire terre-R.pdf",
+          "translation_text_sha256": "60dde96209d9edcd19aef273cd0467bde94efd52d6ae6af25eb813395180774b"
         },
         {
           "end_ms": null,
@@ -164,13 +164,13 @@
           "field": "testimonies",
           "page_id": "page-b9dcbe394277d00b9555df3c",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-ed991695fbe651d2e7950f5f",
           "segment_index": 10,
           "source_segment_id": "seg-ed991695fbe651d2e7950f5f",
           "source_text_sha256": "58c639f4f1215d2a239994e759ef4e656fd8a3b80d3040f10cae3ddf04ea5e36",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: [D923] de BAILLEUL (59) vers NIEPPE (59) 01.01.2016",
           "translation_text_sha256": "efd331241478bf49d7a54c9198b10c4c3ad50952ccb8124ad63d1eba1ac38a30"
         },
@@ -192,58 +192,29 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-b9dcbe394277d00b9555df3c",
           "qa_findings": [
             {
               "added_in_translation": [
-                "2016-01-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "00:15"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "1",
-                "12",
-                "15"
+                "1"
               ],
               "check": "numbers",
               "missing_from_translation": [],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-888f3702d6370d0d9fdfabbc",
           "segment_index": 12,
           "source_segment_id": "seg-888f3702d6370d0d9fdfabbc",
           "source_text_sha256": "42b865552056c5a16ea28398ea9c71b57f106d04d1883c1ceb70b7b876b7abda",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On January 1, 2016 at 12:15 a.m., a motorist and their passenger observed a slow, north-to-south (S-N) passage at low altitude of a diamond-shaped object with a yellow-orange color, moving silently, soon followed by two others. Fireworks were also taking place at the same time. No other witnesses were collected. The observation of orange balls or discs in the sky, on a weekend or holiday night like New Year's Eve (the witness also mentions fireworks) strongly suggests Thai lanterns, likely released nearby after a private party. The wind (Armentieres station, 3 km away) at that time was light but with a strong south-to-north component compatible with the passage of UFOs transversally to the road taken. The witness then reports a turn of the UFOs to follow along the road; the impression of following along the road does not rule out the continuation of a trajectory with a strong transverse component to the road, especially since the witness also reports that the UFO was moving slowly (in the direction of the road) and all of this was observed while driving. Finally, wind measurements indicate a great instability of directions. Consequently, the GEIPAN classifies the case as B: probable observation of Thai lanterns.",
-          "translation_text_sha256": "03b5293f298ed4d48dc6c921f5b93af737d9a6967880be870a04f7c6fd0fc790"
+          "status": "needs-review",
+          "text": "Description: On January 1, 2016 at 12:15 AM, a driver and his passenger observed the slow, north-to-south passage at low altitude of a diamond-shaped object that was yellow-orange in color, making no noise, soon followed by two others. Fireworks were going off at the same time. No other testimony was collected. The observation of orange balls or discs in the sky, on a weekend or holiday night like New Year's Eve (the witness also mentions fireworks) strongly suggests Thai lanterns, likely released nearby after a private party. The wind (Armentieres station at 3 km) at that time is light but with a strong south-to-north component compatible with the passage of PAN across the road. The witness then reports that the PAN turned to follow the road; the impression of following the road does not rule out the continuation of a trajectory with a strong transverse component to the road, especially since the witness also reports that the PAN was moving slowly (in the direction of the road) and all of this was observed while driving. Finally, the wind measurements indicate a great instability of directions. As a result, the GEIPAN classifies the case as B: probable observation of Thai lanterns.",
+          "translation_text_sha256": "aa3cdbc89064138a58c1ac26e0d4097d0ac2017f78edbab6660f9d0f603b5a03"
         }
       ],
       "source_page_id": "page-b9dcbe394277d00b9555df3c"
@@ -254,13 +225,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-19T01:49:26Z",
+    "generated_at": "2026-09-27T02:19:59Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

@@ -155,59 +155,31 @@
           "field": "documents",
           "page_id": "page-ff56f1d6ae49b381e84bb916",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-3cbfdf2f3fe2cc4d6d62af2f",
           "segment_index": 10,
           "source_segment_id": "seg-3cbfdf2f3fe2cc4d6d62af2f",
           "source_text_sha256": "480010e1ce22529b39e8346a3744d25eb26581c914c8f1d9cf0265a4a58447ef",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Reconstitution.pdf  Case Number 1229 (1997307926).pdf",
-          "translation_text_sha256": "459144ddec52cd41e87fabc971bf716d8ea86e50245c905112e0e704382cc220"
+          "status": "not-required",
+          "text": "Documents: Reconstitution.pdf PV n°1229 (1997307926).pdf",
+          "translation_text_sha256": "480010e1ce22529b39e8346a3744d25eb26581c914c8f1d9cf0265a4a58447ef"
         },
         {
           "end_ms": null,
           "error": null,
           "field": "testimonies",
           "page_id": "page-ff56f1d6ae49b381e84bb916",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "1997-08-15",
-                "1997-08-15"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "15",
-                "15",
-                "1997",
-                "1997",
-                "8",
-                "8"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "15.08.1997",
-                "15.08.1997"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "not-required",
           "segment_id": "seg-1ab6a5d15d160859510a99ee",
           "segment_index": 11,
           "source_segment_id": "seg-1ab6a5d15d160859510a99ee",
           "source_text_sha256": "a296c7fa85f57ca58a68f094b143c90e326d8608e20ab68023a313b1636e9f8b",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Testimonies: SAINT-ANDRE (974) 8/15/1997 T1 BRAS-PANON (974) 8/15/1997 T2",
-          "translation_text_sha256": "f643efb27480c2d2bad6078b8a0cd6be37327bdbeff02009738514cb0ddfc56d"
+          "status": "not-required",
+          "text": "Testimonies: SAINT-ANDRE (974) 15.08.1997 T1 BRAS-PANON (974) 15.08.1997 T2",
+          "translation_text_sha256": "74d6a8c2ec8bf529b83fde9f1c82a51385dd6278abab54ac548dc7437c53be50"
         },
         {
           "end_ms": null,
@@ -321,13 +293,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-24T19:47:23Z",
+    "generated_at": "2026-09-27T02:20:44Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
     "review_status": "partial",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

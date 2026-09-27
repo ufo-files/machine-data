@@ -42,14 +42,24 @@
           "error": null,
           "field": "region",
           "page_id": "page-5db697f74aeb707ff0f815ba",
-          "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "qa_findings": [
+            {
+              "added_in_translation": [],
+              "check": "times",
+              "missing_from_translation": [
+                "12:00"
+              ],
+              "severity": "error",
+              "status": "mismatch"
+            }
+          ],
+          "review_status": "needs-review",
           "segment_id": "seg-7197f66de566b9756f2fdee5",
           "segment_index": 3,
           "source_segment_id": "seg-7197f66de566b9756f2fdee5",
           "source_text_sha256": "79dbc5c726174a7eacc3772b95a789e7c826af4c8da6e958c5c0321b70ca7243",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "needs-review",
           "text": "Region: Midi-Pyrénées",
           "translation_text_sha256": "163f1a93625f8b3d0442a9358ea5fd93f009981b84ebbf64cb05982851a789f1"
         },
@@ -123,15 +133,15 @@
           "field": "documents",
           "page_id": "page-5db697f74aeb707ff0f815ba",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-e5c82b04836a49e64b968d5c",
           "segment_index": 8,
           "source_segment_id": "seg-e5c82b04836a49e64b968d5c",
           "source_text_sha256": "a227858dd5b96f44804b5150a31689d846ab5d27a1abb6f9bfaf3262af9d3a7b",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Compte rendu enquete.pdf Questionnaire technique-R.pdf",
-          "translation_text_sha256": "3f4468038cda7864c2d7224df4f3f9a836b1400e5b7034ed4349d0cd1e9741d8"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete.pdf Questionnaire technique-R.pdf",
+          "translation_text_sha256": "a227858dd5b96f44804b5150a31689d846ab5d27a1abb6f9bfaf3262af9d3a7b"
         },
         {
           "end_ms": null,
@@ -139,13 +149,13 @@
           "field": "testimonies",
           "page_id": "page-5db697f74aeb707ff0f815ba",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-7ef3110850991077673604a4",
           "segment_index": 9,
           "source_segment_id": "seg-7ef3110850991077673604a4",
           "source_text_sha256": "7119e7d18f55c2e9aee4351406df9fb9fc794bae4818a8ab24f76f7b975e941b",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: AVIGNONET-LAURAGAIS (31) 12.10.2021",
           "translation_text_sha256": "20ae08ddd0ae67e92d922b495e8febe15b46d10e6e8d48af8e8f5299fdf220d4"
         },
@@ -167,7 +177,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-5db697f74aeb707ff0f815ba",
           "qa_findings": [
@@ -181,26 +191,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-68a4d5644ea2267f507b2427",
           "segment_index": 11,
           "source_segment_id": "seg-68a4d5644ea2267f507b2427",
           "source_text_sha256": "252f30948df2f5c1d3f22dd64903a1b24ecc32ff97565aa541802a59cdba9905",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On October 12, 2021, in the morning, a resident of AVIGNONET-LAURAGAIS (31), from his terrace, observed a fast-moving and silent object at an estimated altitude between 100 and 150 meters, traveling from East to West. The witness also reported seeing a shooting star at the end of the object's trajectory... According to Geipan's criteria, this case has low consistency, meaning there is only one witness, no photo or video of the UFO_PROTECTED_001__, and the observation lasted for a very short time (1.5 seconds). The investigation concluded that the UFO_PROTECTED_001__ could not correspond to a wind-carried object, a meteor, or an airplane (see the investigation report). Based on the available testimony elements and the lack of corroboration from other witnesses, the UFO_PROTECTED_000__ classifies this case as C.",
-          "translation_text_sha256": "37c69c02a684183b4cd47b767d6070447d8282445fdea351d8ae797541ca88f9"
+          "status": "needs-review",
+          "text": "Description: On October 12, 2021, in the morning, a resident of AVIGNONET-LAURAGAIS (31), from his terrace, observed a fast-moving and silent object at an estimated altitude between 100 and 150 meters, traveling from East to West. The witness also reported seeing a shooting star at the end of the object's trajectory... According to Geipan's criteria, this case has low consistency, meaning there is only one witness, no photo or video of the GEIPAN, and the observation lasted for a very short time (1.5 seconds). The investigation concluded that the GEIPAN could not correspond to a wind-carried object, a meteor, or an airplane (see the investigation report). Based on the available testimony elements and the lack of corroboration from other witnesses, the PAN classifies this case as C.",
+          "translation_text_sha256": "3ac9ac5dace574f87d37c289c67597396c0e9da1434e8767215d2a2722b5424a"
         }
       ],
       "source_page_id": "page-5db697f74aeb707ff0f815ba"
@@ -211,13 +212,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-29T14:02:52Z",
+    "generated_at": "2026-09-27T02:12:41Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

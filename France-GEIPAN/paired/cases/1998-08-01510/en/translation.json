@@ -155,15 +155,15 @@
           "field": "documents",
           "page_id": "page-d3c4ce68838915608875d6a5",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-969e7cafa560e3045429564d",
           "segment_index": 10,
           "source_segment_id": "seg-969e7cafa560e3045429564d",
           "source_text_sha256": "832342221eab8d6ccd2b4cfd9f74c6134023ba2ac27595f3c54a641e8c47a633",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Compte rendu enquete.pdf PV AERO (1998208303).pdf",
-          "translation_text_sha256": "4f2b28a70460c7c5e7e0cecbf26228894c2429b4687e5c67ae25146dfce6db56"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete.pdf PV AERO (1998208303).pdf",
+          "translation_text_sha256": "832342221eab8d6ccd2b4cfd9f74c6134023ba2ac27595f3c54a641e8c47a633"
         },
         {
           "end_ms": null,
@@ -171,13 +171,13 @@
           "field": "testimonies",
           "page_id": "page-d3c4ce68838915608875d6a5",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-d1f28f750b9c02ee1ca791be",
           "segment_index": 11,
           "source_segment_id": "seg-d1f28f750b9c02ee1ca791be",
           "source_text_sha256": "0eebd0f4d1b440811b4ac75425e5476347c6b43d8c3b8037d04dce1f3f6cbe97",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: [AERO PRB] MENDE (48) 12.09.1998 T1",
           "translation_text_sha256": "6658a75df390449ae5b8cf1908f4315b15f0107d91b8f4ff6a5fe2dd8a8f7051"
         },
@@ -204,11 +204,12 @@
           "page_id": "page-d3c4ce68838915608875d6a5",
           "qa_findings": [
             {
-              "added_in_translation": [
+              "added_in_translation": [],
+              "check": "dates",
+              "missing_from_translation": [
+                "1998-09-12",
                 "1998-09-12"
               ],
-              "check": "dates",
-              "missing_from_translation": [],
               "severity": "error",
               "status": "mismatch"
             },
@@ -216,6 +217,7 @@
               "added_in_translation": [],
               "check": "times",
               "missing_from_translation": [
+                "03:00",
                 "21:46",
                 "21:46",
                 "21:54",
@@ -228,7 +230,8 @@
             {
               "added_in_translation": [
                 "12",
-                "1998"
+                "1998",
+                "3"
               ],
               "check": "numbers",
               "missing_from_translation": [
@@ -260,9 +263,9 @@
             {
               "check": "protected-tokens",
               "missing_from_translation": [
-                "[AERO PRB] MENDE (48) 12.09.1998 T1",
                 "GEIPAN",
-                "PAN"
+                "PAN",
+                "[AERO PRB] MENDE (48) 12.09.1998 T1"
               ],
               "severity": "error",
               "status": "mismatch"
@@ -275,8 +278,8 @@
           "source_text_sha256": "2a09dde9fcaf4e06f53aa2f97dba51be30c7d13638f04ed5476a9749fc5db283",
           "start_ms": null,
           "status": "failed-protected-token-check",
-          "text": "**Description:** Le __UFO_PROTÉGÉ_001__ continue de publier l'ensemble de ses archives sur son site public www.geipan.fr. Parmi ces cas, il y a des affaires anciennes classées à l'époque (A, B, C ou D) qui font l'objet d'un réexamen dans le but d'affiner les conclusions. Grâce à de nouvelles techniques (logiciels) et à l'expérience acquise au fil des années, ce réexamen peut mener à de nouvelles observations ou à un changement de classification.\n\nUn cas d'observation précédemment classé D et nommé [AERO PRB] de TOULOUSE (31) vers DIJON (21) le 12 septembre 1998 fait partie de ces réexamens récents. À 21h46, l'équipage d'un avion situé près de MENDE (48) a été intrigué par la présence de deux points lumineux dans le ciel. En contact radio avec la tour de contrôle de l'aéroport de Marseille, ils ont signalé le mouvement de deux points lumineux clignotants, pensant initialement avoir affaire à deux avions militaires superposés.\n\nL'équipage a ensuite rapporté à 21h54 que \"le phénomène s'observe depuis vraiment 10 minutes et qu'il zigzague un peu dans tous les sens, monte et descend\". Absorbés par les procédures de déclaration et de descente, ils n'ont plus mentionné les __UFO_PROTÉGÉ_002__ par la suite. Seules les transcriptions des communications radio ont été enregistrées, ainsi que des documents de trajectographie réalisés par le CRNA sud-Est.\n\nL'échange avec la tour de contrôle peut être divisé en deux phases avant et après l'indication de \"revirement\" des __UFO_PROTÉGÉ_002__. Il est établi que les pilotes du vol PRB8081 ont d'abord observé les feux anti-collisions de deux avions long-courrier, les croisant au-dessus d'eux, sans pouvoir les identifier comme tels. La tour de contrôle n'a pu retracer leur trajectoire qu'après coup.\n\nIl est également établi que le ou les __UFO_PROTÉGÉ_002__ observés en deuxième phase ne peuvent plus être ces avions, car leurs feux sont trop éloignés pour être vus. Il y a donc eu deux observations distinctes. Le __UFO_PROTÉGÉ_001__ conclut que la première observation concerne des avions.\n\n**Classement du cas __UFO_PROTÉGÉ_000__ :** Observation d'avions. À l'indication de \"revirement\" des __UFO_PROTÉGÉ_002__ (21h54), l'azimut des feux d'avion est de 70°, alors que les pilotes parlent d'une observation dans leurs 3 heures, soit un écart de 20°. Un autre objet, la planète Saturne, à 100° d'azimut et environ 20° d'élévation, est probablement en jeu. Saturne est visuellement brillante, comme les feux anti-collisions, et de teinte blanche similaire.\n\nLes pilotes ont probablement perdu de vue les feux et cru les retrouver avec Saturne, car ils n'ont plus mentionné de clignotement, ce qui est cohérent avec l'hypothèse. Cependant, cette hypothèse soulève plusieurs objections et nécessite un approfondissement :\n\n- Elle suppose que les pilotes n'avaient pas repéré Saturne auparavant. Il est possible qu'en fixant les feux à 70° d'azimut, ils n'aient pas remarqué Saturne à 30° d'écart azimutal, et qu'après avoir perdu de vue les feux, ils n'aient pas reconnu Saturne, convaincus qu'il s'agissait des feux d'avion.\n\n- Les pilotes ont mentionné des mouvements particuliers du __UFO_PROTÉGÉ_002__ dès 21h46 (alors que les feux des avions long-courrier ne sont plus visibles) : \"le phénomène... zigzague un peu dans tous les sens, monte, descend\". L'amplitude de ces mouvements n'est pas connue, mais elle pourrait être compatible avec le phénomène physiologique de micro-mobilité oculaire (\"micro-nystagmus\" ou autocinétique), qui se produit lors de la fixation d'objets, surtout la nuit.\n\n- Les pilotes ont décrit deux points lumineux, bien qu'ils parlent d'un seul point en alternance. Ils pourraient ne pas être certains de ce fait ou mélanger la perception réelle (un seul point) et l'interprétation (deux points étranges).\n\n- Les pilotes ont continué à observer jusqu'à 22h04 sans mentionner à nouveau les __UFO_PROTÉGÉ_002__. Cela ne signifie pas qu'ils ne sont plus visibles, car ils sont occupés par la procédure de déclaration d'incident et l'atterrissage.\n\nLa cohérence du cas est faible :\n\n- En termes d'information : Il ne s'agit pas de deux témoignages de pilotes, mais d'une transcription d'un échange en temps réel, ne permettant pas de distinguer la perception de chaque pilote. Il manque également de recherches d'information auprès des témoins à froid sur les aspects les plus étranges de l'observation.\n\n- En termes de fiabilité : Les pilotes sont déjà dans une situation tendue depuis 10 minutes, ayant croisé des objets non identifiés par la tour de contrôle. Le fait qu'une collision en vol mortelle ait eu lieu un mois et demi plus tôt, impliquant un avion de la même compagnie, augmente cette tension. Leur état de stress pourrait les avoir amenés à poursuivre l'hypothèse des premiers objets et à ne pas reconnaître Saturne.\n\nLe __UFO_PROTÉGÉ_001__ conclut que la deuxième observation est inutilisable en raison du manque d'informations fiables. Le cas [AERO PRB] MENDE (48) du 12 septembre 1998 à 22h00 est classé en C.",
-          "translation_text_sha256": "faa328be7368e45165bdea6afcfdffa45fab3edfaaa2afc2eaa1bec8f867699a"
+          "text": "**Description:** Le __UFO_PROTÉGÉ_000__ continue de publier l'ensemble de ses archives sur son site public www.geipan.fr. Parmi ces cas, certains anciens, classés à l'époque (A, B, C ou D), font l'objet d'un réexamen pour affiner les conclusions. Grâce à des outils techniques (logiciels) et à l'expérience acquise au fil des années, ce réexamen peut mener à de nouvelles observations ou à un changement de classification.\n\nUn cas d'observation précédemment classé D, nommé [AERO PRB] de TOULOUSE (31) vers DIJON (21) le 12 septembre 1998, fait partie de ces réexamens. À 21h46, l'équipage d'un avion situé près de MENDE (48) remarque deux points lumineux dans le ciel, clignotants. Ils croient initialement voir deux avions militaires superposés. L'équipage signale ensuite que les points lumineux \"s'approchent de nous\" et \"s'observent depuis environ 10 minutes, zigzaguant dans toutes les directions, montant et descendant\". Absorbés par les procédures de contrôle aérien, ils n'mentionnent plus les __UFO_PROTÉGÉ_001__ par la suite.\n\nL'enregistrement de la communication avec le contrôle aérien peut être divisé en deux phases : avant et après l'indication de \"revirement\" des __UFO_PROTÉGÉ_001__. Il est établi que les pilotes ont initialement observé les feux anti-collisions de deux avions long-courrier, les croisant au-dessus d'eux, sans pouvoir les identifier. Le contrôle aérien n'a pu retracer leur trajectoire qu'après coup. Il est également noté que les __UFO_PROTÉGÉ_001__ observés en deuxième phase ne peuvent plus être ces avions, car leurs feux sont trop éloignés. Il y a donc eu deux observations distinctes.\n\nLe __UFO_PROTÉGÉ_000__ conclut que la première observation concerne des avions. Le cas __UFO_PROTÉGÉ_002__ est classé A (observation d'avions). À 21h54, lorsque les pilotes signalent le \"revirement\" des __UFO_PROTÉGÉ_001__, l'azimut des feux d'avion est de 70°, alors que les pilotes parlaient d'une observation dans leurs 3 heures, soit un écart de 20°. Un autre objet, la planète Saturne (azimut de 100° et élévation d'un peu plus de 20°), est probablement en jeu. Saturne est visuellement brillante, comme les feux anti-collisions, et de teinte blanche similaire. Les pilotes ont probablement perdu de vue les feux et cru les retrouver avec Saturne. Ils n'évoquent plus de clignotement, ce qui soutient cette hypothèse.\n\nCependant, cette hypothèse soulève plusieurs objections et nécessite un approfondissement :\n- Elle suppose que les pilotes n'avaient pas repéré Saturne auparavant. Il est possible qu'en scrutant les feux à 70° d'azimut, ils n'aient pas remarqué Saturne à 30° d'écart azimutal, et qu'après la disparition des feux, ils n'aient pas reconnu Saturne, convaincus qu'il s'agissait des feux d'avion.\n- Les pilotes décrivent des mouvements particuliers des __UFO_PROTÉGÉ_001__ dès 21h46 (alors que les feux sont invisibles) : \"le phénomène... zigzague dans toutes les directions, monte et descend\". L'amplitude de ces mouvements n'est pas connue, mais pourrait correspondre au phénomène physiologique de micro-mobilité oculaire (ou autocinétique), moins connu du grand public, qui se produit lors de la fixation d'objets, surtout la nuit.\n- Les pilotes mentionnent deux points lumineux, bien qu'alternativement, alors qu'ils pourraient ne pas être certains ou confondre la perception réelle (un point) avec l'interprétation de deux points étranges.\n- Les pilotes continuent d'observer jusqu'à 22h04 sans mentionner les __UFO_PROTÉGÉ_001__ par la suite, ce qui ne signifie pas nécessairement qu'ils ne sont plus visibles, mais plutôt qu'ils sont occupés par la procédure d'incident et l'atterrissage.\n\nLa cohérence du cas est faible :\n- En termes d'information, il ne s'agit pas de deux témoignages de pilotes, mais d'une transcription d'une communication en temps réel, rendant difficile la distinction entre les perceptions de chaque pilote.\n- Il n'y a pas de recherche d'information auprès des témoins à froid après l'observation, notamment sur les aspects les plus étranges : retour des __UFO_PROTÉGÉ_001__, nombre, changement d'apparence.\n\nEn termes de fiabilité, les pilotes sont déjà dans une situation tendue depuis 10 minutes, ayant croisé des objets non identifiés par le contrôle. Le fait qu'une collision en vol mortelle ait eu lieu un mois et demi plus tôt, impliquant un avion de la même compagnie, augmente cette tension. Leur état de stress pourrait les amener à poursuivre l'hypothèse des premiers objets et à ne pas reconnaître Saturne.\n\nPour la deuxième observation, bien qu'une hypothèse puisse être formulée, le niveau d'incertitude est trop élevé par rapport à la faible cohérence des éléments disponibles (niveau d'information et de fiabilité). Le __UFO_PROTÉGÉ_000__ conclut que la deuxième observation est exploitable par manque d'informations fiables. Le cas [AERO PRB] MENDE (48) du 12 septembre 1998, T2 est classé C.",
+          "translation_text_sha256": "28c28ad0b736a716d0b016327b77abfc114e081173ae52fd272a01431d574939"
         }
       ],
       "source_page_id": "page-d3c4ce68838915608875d6a5"
@@ -287,13 +290,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-24T22:35:12Z",
+    "generated_at": "2026-09-27T02:09:02Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
     "review_status": "partial",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

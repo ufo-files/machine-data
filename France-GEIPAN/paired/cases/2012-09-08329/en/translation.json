@@ -139,54 +139,31 @@
           "field": "documents",
           "page_id": "page-204ee27a4640e0876a545f09",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-6a39fe1c201bd1a07f8ba5d0",
           "segment_index": 9,
           "source_segment_id": "seg-6a39fe1c201bd1a07f8ba5d0",
           "source_text_sha256": "d91d6e0f9e40882f2bd1e812ab80c74386087b074f24cc28616376f0e00ed003",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Compte rendu enquete.pdf",
-          "translation_text_sha256": "80900c8110e27e34f3904cab90126592c2aa1f5d1304d17ab274c218eb842626"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete.pdf",
+          "translation_text_sha256": "d91d6e0f9e40882f2bd1e812ab80c74386087b074f24cc28616376f0e00ed003"
         },
         {
           "end_ms": null,
           "error": null,
           "field": "testimonies",
           "page_id": "page-204ee27a4640e0876a545f09",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "2012-09-20"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "20",
-                "2012",
-                "9"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "20.09.2012"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "not-required",
           "segment_id": "seg-d8812b238b16a192216dd2e1",
           "segment_index": 10,
           "source_segment_id": "seg-d8812b238b16a192216dd2e1",
           "source_text_sha256": "98b61a827fcd8b8a4cfb4afd65b752e778113a0dfe8cb223b1810b9830f4cc25",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Testimonies:  LAON (02) 21.09.2012 Temoignage direct-R.pdf AUCAMVILLE (82) 09/20/2012 Case Number 4538 (2012310746).pdf MURET (31) 21.09.2012 Temoignage direct-R.pdf TOULOUSE (31) 20.09.2012 Questionnaire bolide-R.pdf [AERO BAW]  SAINT-JUST-EN-CHAUSSEE (60) 21.09.2012 PV AERO (2012210682).pdf [AERO BSC]  CHATILLON-SUR-MARNE (51) 21.09.2012 PV AERO (2012210682).pdf [AERO TRA]  SAINTE-MARIE-DE-VATIMESNIL (27) 21.09.2012 PV AERO (2012210682).pdf [AERO FMY]  BRAY-SUR-SEINE (77) 21.09.2012 PV AERO (2012210682).pdf",
-          "translation_text_sha256": "663625218ea62a35207301904d5a01fb6ed9923a3426a051228ac7754c8f7fb1"
+          "status": "not-required",
+          "text": "Testimonies: LAON (02) 21.09.2012 Temoignage direct-R.pdf AUCAMVILLE (82) 20.09.2012 PV n°4538 (2012310746).pdf MURET (31) 21.09.2012 Temoignage direct-R.pdf TOULOUSE (31) 20.09.2012 Questionnaire bolide-R.pdf [AERO BAW] SAINT-JUST-EN-CHAUSSEE (60) 21.09.2012 PV AERO (2012210682).pdf [AERO BSC] CHATILLON-SUR-MARNE (51) 21.09.2012 PV AERO (2012210682).pdf [AERO TRA] SAINTE-MARIE-DE-VATIMESNIL (27) 21.09.2012 PV AERO (2012210682).pdf [AERO FMY] BRAY-SUR-SEINE (77) 21.09.2012 PV AERO (2012210682).pdf",
+          "translation_text_sha256": "f7d174f5f09a972c420cff9c9773925412dc39bf12a12f8999a9762f831e78a0"
         },
         {
           "end_ms": null,
@@ -206,7 +183,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-204ee27a4640e0876a545f09",
           "qa_findings": [
@@ -218,23 +195,15 @@
               ],
               "severity": "error",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-6765d305d0eab58e4b58104e",
           "segment_index": 12,
           "source_segment_id": "seg-6765d305d0eab58e4b58104e",
           "source_text_sha256": "beb3630b4e532d4c91d212317a3eff16c3865505e51649294135946185193e73",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: Multiple pilot reports in flight and a ground witness describe the slow passage of a luminous phenomenon in the sky around midnight on the night of September 21 to 22, 2012. One observation report, submitted by CRNA EST de Reims, documents the 4 pilot accounts: all indicate direct observations of a luminous phenomenon under clear skies, no onboard radar echo, and no instrument malfunction. One pilot specifies seeing a blue light. The ground witness describes a fluorescent green ball with a trail moving on a descending trajectory. This phenomenon, observed in northern France by 4 pilots in flight and a witness in Laon, was also widely observed from England, moving from east to west, and slower than typical meteors. Jeremy Vaubaillon, a meteor specialist at the Institute of Celestial Mechanics and Ephemeris Calculation, was consulted on this case: \"We have strong reasons to believe that this object is very interesting. It could be a small asteroid temporarily captured by Earth.\" Given the northern viewing angle of the pilots and that this type of phenomenon occurs at altitudes between 100 and 60 km, it is the same phenomenon observed by the 4 pilots, the Laon witness, and witnesses in England. The GEIPAN classifies this case as 'A': meteor observation: atmospheric reentry of a meteoroid.",
           "translation_text_sha256": "5099d1b4c8af913e47f0aac992726718de5e64ba55c3fbdb14cb5a99b58b264a"
         }
@@ -247,13 +216,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T16:43:00Z",
+    "generated_at": "2026-09-27T02:21:24Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

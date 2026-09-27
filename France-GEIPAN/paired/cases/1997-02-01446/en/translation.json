@@ -155,15 +155,15 @@
           "field": "documents",
           "page_id": "page-b06a9cd9af34f3cd3cb3874d",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-d639e2b90946dce475b587ad",
           "segment_index": 10,
           "source_segment_id": "seg-d639e2b90946dce475b587ad",
           "source_text_sha256": "d9a3df54ab53b0f9cb12478b41e89b6fb76e179c520accaf4bf1acfde3e919f3",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Compte rendu enquete.pdf PV n° 19 (1997307917).pdf",
-          "translation_text_sha256": "ee28c1b3ba23a3a07f063ccd9d651c27b2302fa60d6e4bea3ff38e790954d81e"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete.pdf PV n°19 (1997307917).pdf",
+          "translation_text_sha256": "d9a3df54ab53b0f9cb12478b41e89b6fb76e179c520accaf4bf1acfde3e919f3"
         },
         {
           "end_ms": null,
@@ -171,13 +171,13 @@
           "field": "testimonies",
           "page_id": "page-b06a9cd9af34f3cd3cb3874d",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-28ecb9fdc1de6bca4a342454",
           "segment_index": 11,
           "source_segment_id": "seg-28ecb9fdc1de6bca4a342454",
           "source_text_sha256": "f103109c7512fc91c0bbe93551f5cb47dc44027a54555c3a721c4e09c68250d6",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: MONTPELLIER (34) 17.03.1997",
           "translation_text_sha256": "68aa5d99ebf81eb6f269472f2880a043c57c3cd993a47b980f5ffab2161f4a39"
         },
@@ -199,7 +199,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-b06a9cd9af34f3cd3cb3874d",
           "qa_findings": [
@@ -237,24 +237,15 @@
               "source_marker": "pas",
               "status": "mismatch",
               "translation_equivalent_count": 0
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-81d01fc48028827381b923ed",
           "segment_index": 13,
           "source_segment_id": "seg-81d01fc48028827381b923ed",
           "source_text_sha256": "bf56f301a31353b19c54fb9bf4143286525c82ae2bb85dae5053a5ae604b991e",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "**Description:** Le GEIPAN continue de publier l'ensemble de ses archives sur son site public www.geipan.fr. Ses publications comprennent des cas anciens classés à l'époque (A, B, C ou D) et qui font l'objet d'un réexamen dans le but d'affiner leurs conclusions. Grâce à de nouvelles techniques (logiciels) et à l'expérience acquise au fil des années, ce réexamen peut mener à de nouvelles observations ou à un changement de classification.\n\nUn cas d'observation précédemment classé D, nommé MONTPELLIER (34) 1997, fait partie d'un ensemble de cas récemment réexaminés. Cette observation s'avère être une combinaison de quatre événements distincts, car ils se sont produits à des heures différentes et plusieurs hypothèses explicatives peuvent être envisagées. La perception d'étrangeté par le GEIPAN à l'époque provenait de la non-détection de la multiplicité des observations en tant que phénomènes distincts.\n\nL'enquête a été initiée par la Gendarmerie suite à la publication dans la presse régionale du 18 mars 1997 signalant un Phénomène Aérospatial Non identifié (PAN) vu le matin du 17 mars à Montpellier par plusieurs pilotes d'avions de ligne. Cette observation matinale a depuis été expliquée comme une probable rentrée atmosphérique de météoroïde (cas : RENTREE ATMOSPHERIQUE — NATIONAL (FR) 17.03.1997).\n\nLa recherche de témoins supplémentaires par la Gendarmerie a recueilli les témoignages actuels pour plusieurs observations du soir. Il est possible que le contexte de la publication dans la presse et l'enquête active de la Gendarmerie aient accru le sentiment d'étrangeté chez les témoins du soir, qui n'auraient peut-être pas témoigné spontanément en dehors de ce contexte.\n\n**Analyses des témoignages:**\n\n- **MAUGUIO (34) 17.03.1997 T1:** Cette observation rappelle fortement une méprise avec un satellite.\n\n- **MONTPELLIER (34) 17.03.1997:** Cette observation semble être une méprise astronomique, très probablement avec Sirius.\n\n- **CABESTANY (66) 17.03.1997:** Il s'agit probablement d'une méprise avec un ballon Mylar, les lumières de l'éclairage public réfléchies par le ballon expliquant l'observation.\n\n- **MAUGUIO (34) 17.03.1997 T2:** Cette observation pourrait être une méprise avec un avion de type MD-80, un avion particulier avec un système d'éclairage distinctif, venant de décoller de l'aéroport de Montpellier.\n\n**Conclusion du GEIPAN:**\n\n- MAUGUIO (34) 17.03.1997 T1: Classé B (observation probable d'un satellite).\n- MAUGUIO (34) 17.03.1997 T2: Classé B (observation probable d'un avion au décollage).\n- CABESTANY (66) 17.03.1997: Classé B (observation probable avec un ballon Mylar).\n- MONTPELLIER (34) 17.03.1997: Classé A (observation très probable d'une étoile, Sirius).",
           "translation_text_sha256": "3f7989953bb5f8908b2128fd2ae4e4439d5a96427875aca0211ffe4f1f395119"
         }
@@ -267,13 +258,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T04:10:37Z",
+    "generated_at": "2026-09-27T02:11:52Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }
