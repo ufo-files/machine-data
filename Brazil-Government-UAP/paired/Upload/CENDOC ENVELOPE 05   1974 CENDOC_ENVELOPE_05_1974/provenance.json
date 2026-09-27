@@ -20,69 +20,24 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-08-16T16:43:26Z",
-      "method": "local-mlx-lm",
-      "model": "mlx-community/aya-expanse-8b-4bit",
-      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-      "review_status": "partial",
-      "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v1"
+      "generated_at": "2026-09-27T19:06:03Z",
+      "method": "mixed-verified-recovery",
+      "model": "mixed; see segment translation_provenance",
+      "model_revision": "source-bound-recovery-2026-09-27",
+      "prompt_sha256": "",
+      "review_status": "needs-review",
+      "runtime_version": "mixed",
+      "workflow_version": "source-bound-translation-recovery/v1"
     },
     "retranslated_segments": [
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "60c983eab52d017676c7b40de2fb81851f7af40f4a443348f3f91f55363ce323",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "597d07cdc4d45682c64ae23ec297fa4bb421482e6803507ae3361c115ee879fa",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "8f5a730255e814d62d4b323fdffedb2c8927620aa6a557b29d781000da1f0c9e",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "2a6576648f0796d6deb067bbd658f7035f9a2c14751f31b605bc8a74248b1c73",
-        "status": "machine-unreviewed"
-      },
       {
         "method": "local-mlx-lm",
         "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "not-required"
       },
       {
-        "method": "local-mlx-lm",
-        "source_sha256": "b78fb7fd22052797751390aaa9c94f57f1ac7bafe0650813bf92b34cabae39e7",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "ad95a6722ff1a341ab245627da77692e9d5a5a09291e822a5ff7e1b5db02e557",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "2f4fca18ffa2319d7befbd22704ea90ad3a9d48eca04e8ea550369a5683e5df4",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "54884db0fc8db4846fdb65736494b78e768f05193bfb8ffc4e6c84fe32349854",
-        "status": "machine-unreviewed"
-      },
-      {
         "method": "reused-verified-segment-checkpoint",
         "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "aefc6b16f5bcaa416952b987197c7cf1cbd2a2104cf3d0f733c76216fd008818",
         "status": "machine-unreviewed"
       },
       {
@@ -97,117 +52,17 @@
       },
       {
         "method": "local-mlx-lm",
-        "source_sha256": "a965ca0aa0541521572a7e7b56726b98290e4a2295077847b56f51f42456cf38",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "2ca5a234a1f36198b48694f55094af5ee7f216dadffb657da6182e935d8f2888",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
         "source_sha256": "fa98d1aa1c99d26040136fa80af7e74b7a6c2541c5f9a781e12b1dd3ef0f8b8a",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "354ab8f84cb10ba3e04515a8bceb6dd74ae792d3b560643582208af3b313b1bd",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "76ad27abb6db325d16c1cf72df2c431f5c2bf07cfc68e9d60e832ab82c24aacf",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "876102b75aee1f3a8166d42a405b3d2c6827d0aff32fba481c63241e302f0151",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "688ed356488079eb8ed9a586fd2ceaef5906af0a186feaf1d200e95bb6c0236c",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "2f64aba6e01d3141baa85d5ca838393b77bac68e51541ade32feb3ffae882437",
         "status": "machine-unreviewed"
       },
       {
         "method": "local-mlx-lm",
         "source_sha256": "c931f1b57c43c07c12b1e88ae06c1ae78054527a7a82267f2f8d1b9662a5e8d4",
         "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "095c5983a451ffb8ff0999cb908e491c1c68b246909ee4aa1a0754cc3810c836",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "cc02a3d9b226a657f6c038b8358afbd7a3ba817d263096f8407eec3fbeb58a97",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "5ee5eeb1360c0f923b7b53b9b69c3bfd5f5dc5894f1860134303494fafbf2811",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "a0eb7550418227456e0f7ddf59bbf3ae7de7ba84873ea7197cc5be3797af4b2a",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "801b4c54bfe2a0ec6dbd97f352dbe29825eba3cbe547d11b93a1d33c56fed1bc",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "a850a80b4ae93b346d7269c302cb85a7f031fd69abaf1305e27e9ff734f100d3",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "9ccd5f5722f813d65b2f34e8b7e4e1d843a2b8b7279a549daf622d1f62290f25",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "ea4f34c36bf0771bd1b9ee9d3ace68fcca813c71d8f2861c16394edb51b26641",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "0fc6a505b8b505ab1947a3f980546a06981c54fca55d83bcbdf8bc6536a7535d",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "0c997fe3f800f67017e46344a0e4d77d055fad2ecdb83fbee439af32b6b8acf0",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "3b508bebe7c72294680d274831c0c5eb0e9cef6b434d0a806c31ffb47156c249",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "2d2d513c1e66af7e613dde91358c3b60715d4c9ea70a0c6087013e4a5a7c57f1",
-        "status": "machine-unreviewed"
-      },
-      {
-        "method": "local-mlx-lm",
-        "source_sha256": "71661ec4f5d222557fbc85b97d1cc8b6e4ea790dc8bf4887dbe7c6656fdac395",
-        "status": "machine-unreviewed"
       }
     ]
   },
-  "retranslated_at": "2026-09-27T19:06:03Z",
+  "retranslated_at": "2026-09-27T19:24:15Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -219,7 +74,7 @@
   "source_sha256": "ab67d2621b279958970d8e671098b7c68f887eacb8846c5fae20eb4c48a8003c",
   "status": "partial",
   "translation": {
-    "generated_at": "2026-09-27T19:06:03Z",
+    "generated_at": "2026-09-27T19:24:15Z",
     "method": "mixed-verified-recovery",
     "model": "mixed; see segment translation_provenance",
     "model_revision": "source-bound-recovery-2026-09-27",
@@ -228,5 +83,5 @@
     "runtime_version": "mixed",
     "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "af159d73458fc532674d1162c14184ef1d4afcd2ea95320e77e7f7ce0fa47f1d"
+  "translation_text_sha256": "c172ce6b5f789621b4e6cff7df7d73f5ca41562b89880af76c588b2f3da3e01c"
 }
