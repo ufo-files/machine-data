@@ -14,7 +14,7 @@ from typing import Protocol
 from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v2"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v3"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
 SYSTEM_PROMPT = """You translate archival Brazilian Portuguese into faithful English.
@@ -140,11 +140,27 @@ def translate_text(
 ) -> TranslationResult:
     if not text.strip():
         return TranslationResult(text="", status="not-required")
+    if not any(character.isalpha() for character in text):
+        return TranslationResult(text=text, status="not-required")
     masked, replacements = mask_protected(text, official_identifiers)
     prompt = "Translate this text from Brazilian Portuguese to English:\n\n" + masked
     try:
         raw = backend.translate_raw(prompt)
         restored, missing = restore_protected(raw, replacements)
+        original_errors = sum(f.get("severity") == "error" for f in compare_translation(text, restored))
+        if missing or original_errors:
+            # Some backends interpret the marker's UFO prefix as content. Give
+            # one literal-source retry, then enforce the same restoration/QA gates.
+            literal_prompt = (
+                "Translate the following Brazilian Portuguese text into English. Copy every URL, "
+                "filename, identifier, and official abbreviation exactly as written. "
+                "Do not summarize. Return only the translation.\n\n" + text
+            )
+            literal, literal_missing = restore_protected(backend.translate_raw(literal_prompt), replacements)
+            literal_errors = sum(f.get("severity") == "error" for f in compare_translation(text, literal))
+            if (len(literal_missing) <= len(missing) and literal_errors <= original_errors
+                    and (len(literal_missing) < len(missing) or literal_errors < original_errors)):
+                restored, missing = literal, literal_missing
         # Long paragraphs can cause the model to drop placeholders or summarize
         # clauses. Retry in sentence-sized context, retaining all QA checks.
         if _allow_chunk_retry and len(text) > 400 and (

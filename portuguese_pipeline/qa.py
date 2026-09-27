@@ -183,6 +183,17 @@ def _names(text: str) -> set[str]:
     return values
 
 
+def _date_spacing(text: str) -> str:
+    # OCR sometimes separates characters within an otherwise explicit date.
+    # Normalize only full dates and known month names, never ambiguous fragments.
+    for month in PT_MONTHS:
+        letters = r"[ \t]*".join(re.escape(letter) for letter in month)
+        text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
+    text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
+    spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
+    return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
+
+
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
     for match in DATE_NUMERIC.finditer(text):
@@ -247,7 +258,10 @@ def _remove_exact_numeric_dates(source: str, target: str) -> tuple[str, str]:
 
 def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     findings: list[dict[str, object]] = []
-    date_source, date_target = _remove_exact_numeric_dates(source, target)
+    marker = re.compile(r"(?<!\w)_*UFO[ _-]*PROTECTED[ _-]*(\d{1,3})_*(?!\w)", re.I)
+    if Counter(marker.findall(target)) - Counter(marker.findall(source)):
+        findings.append({"check": "unresolved-placeholder", "severity": "error", "status": "unexpected-derived-marker"})
+    date_source, date_target = _remove_exact_numeric_dates(_date_spacing(source), _date_spacing(target))
     for name, source_values, target_values, severity in (
         ("dates", _dates(date_source, language="pt"), _dates(date_target, language="en"), "error"),
         ("measurements", _measurements(source), _measurements(target), "error"),

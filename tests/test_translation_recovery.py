@@ -8,6 +8,16 @@ from portuguese_pipeline.translation import translate_text
 
 
 class TranslationRecoveryTests(unittest.TestCase):
+    def test_invented_placeholder_is_an_integrity_error(self):
+        self.assertTrue([f for f in compare_translation("Texto", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
+        self.assertFalse([f for f in compare_translation("__UFO_PROTECTED_012__", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
+
+    def test_ocr_spaced_dates_keep_exact_values(self):
+        examples = [("São Paulo, 13 de A b r i l de 2.004", "São Paulo, April 13, 2004"), ("2 0 / 0 8 / 1 9 6 9 e 0 6 / 0 1 / 7 7", "20/08/1969 and 06/01/77")]
+        for source, target in examples:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation(examples[0][0], "April 14, 2004") if f['check'] == 'dates'])
+
     def test_extraction_finds_tools_in_worker_virtualenv(self):
         with tempfile.TemporaryDirectory() as directory:
             tool = Path(directory) / "ocrmypdf"
@@ -15,6 +25,28 @@ class TranslationRecoveryTests(unittest.TestCase):
             tool.chmod(0o700)
             with patch("portuguese_pipeline.extract.sys.executable", str(Path(directory) / "python")):
                 self.assertEqual(command("ocrmypdf"), str(tool))
+
+    def test_literal_retry_preserves_identifiers_without_markers(self):
+        class Backend:
+            def translate_raw(self, prompt):
+                return "RIC 4.470/2009" if prompt.startswith("Translate the following") else "UFO"
+        result = translate_text(Backend(), "RIC 4.470/2009", official_identifiers=["RIC 4.470/2009"])
+        self.assertEqual(result.text, "RIC 4.470/2009")
+        self.assertEqual(result.status, "machine-unreviewed")
+
+    def test_literal_retry_repairs_changed_measurement_without_missing_tokens(self):
+        class Backend:
+            def translate_raw(self, prompt):
+                return "It was 50 m away." if prompt.startswith("Translate the following") else "It was 900 m away."
+        result = translate_text(Backend(), "Estava a 50 m.")
+        self.assertEqual(result.text, "It was 50 m away.")
+
+    def test_literal_retry_does_not_accept_new_integrity_errors(self):
+        class Backend:
+            def translate_raw(self, prompt):
+                return "RIC 4.470/2009 at 900 m" if prompt.startswith("Translate the following") else "UFO at 50 m"
+        result = translate_text(Backend(), "RIC 4.470/2009 50 m", official_identifiers=["RIC 4.470/2009"])
+        self.assertEqual(result.status, "failed-protected-token-check")
 
     def test_long_translation_retries_without_losing_protected_text(self):
         text = ('A FAB permanece visível. ' * 50).strip()
