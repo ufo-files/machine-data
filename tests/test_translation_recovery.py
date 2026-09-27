@@ -204,7 +204,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(result.status, 'failed-protected-token-check')
 
     def test_widely_spaced_date_is_not_a_volume_number(self):
-        for source, target in [("14    Dez   77", "14 Dec 77"),
+        for source, target in [("14    Dez   77", "14 Dec 77"), ("16    Dez   77", "16th day of Dec 77"),
                                ("Volume 1        December 2023", "Volume 1 December 2023")]:
             self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
         self.assertTrue([f for f in compare_translation("14    Dez   77", "15 Dec 77") if f['check'] == 'dates'])

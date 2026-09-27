@@ -225,11 +225,11 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
     abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
     abbreviations.update(EN_MONTHS)
-    abbreviation = re.compile(r"\b(\d{1,2})[ \t]+(?:de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()
         # A volume number beside a month-only publication date is not its day.
-        if re.search(r"\b(?:vol(?:ume)?\.?|volume)\s*$", match.string[:match.start()], re.I):
+        if re.search(r"\bvol(?:ume)?\.?\s*$", match.string[:match.start()], re.I):
             return match.group(0)
         if len(year) == 2:
             year = ("20" if int(year) < 50 else "19") + year
