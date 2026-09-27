@@ -196,8 +196,8 @@ def _date_spacing(text: str) -> str:
 
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
-    pt_range = re.compile(r"\b(\d{1,2})\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
-    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})\s+(?:and|to|through)\s+(\d{1,2}),?\s+((?:19|20)\d{2})\b", re.I)
+    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
+    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b", re.I)
     def add_range(match: re.Match[str], portuguese: bool) -> str:
         first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]

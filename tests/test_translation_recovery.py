@@ -45,6 +45,12 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
         self.assertTrue([f for f in compare_translation(source, target.replace('2 to', '3 to')) if f['check'] == 'dates'])
 
+    def test_date_ranges_with_weekday_and_ordinals_preserve_both_ends(self):
+        source = "20 (sábado) a 22 de janeiro de 1996"
+        target = "January 20th to 22nd, 1996"
+        self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation(source, target.replace('20th', '21st')) if f['check'] == 'dates'])
+
     def test_ocr_spaced_dates_keep_exact_values(self):
         examples = [("São Paulo, 13 de A b r i l de 2.004", "São Paulo, April 13, 2004"), ("2 0 / 0 8 / 1 9 6 9 e 0 6 / 0 1 / 7 7", "20/08/1969 and 06/01/77")]
         for source, target in examples:
