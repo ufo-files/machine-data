@@ -121,11 +121,15 @@ class MLXBackend:
             add_generation_prompt=True,
             tokenize=False,
         )
+        source_text = prompt.partition("\n\n")[2] or prompt
+        # A short damaged OCR fragment must not produce thousands of tokens.
+        # Leave room for English expansion while retaining the configured cap.
+        output_budget = min(self.max_tokens, max(128, 2 * len(self._tokenizer.encode(source_text)) + 64))
         return self._generate(
             self._model,
             self._tokenizer,
             prompt=formatted,
-            max_tokens=self.max_tokens,
+            max_tokens=output_budget,
             sampler=self._sampler,
             verbose=False,
         ).strip()

@@ -4,10 +4,27 @@ from pathlib import Path
 from unittest.mock import patch
 from portuguese_pipeline.extract import command
 from portuguese_pipeline.qa import compare_translation
-from portuguese_pipeline.translation import translate_text
+from portuguese_pipeline.translation import MLXBackend, translate_text
 
 
 class TranslationRecoveryTests(unittest.TestCase):
+    def test_generation_budget_tracks_source_size_and_respects_cap(self):
+        class Tokenizer:
+            def encode(self, text): return list(text)
+            def apply_chat_template(self, messages, **kwargs): return messages[-1]['content']
+        backend = MLXBackend.__new__(MLXBackend)
+        backend._tokenizer = Tokenizer()
+        backend._model = backend._sampler = None
+        backend.max_tokens = 2048
+        observed = []
+        def generate(*args, **kwargs):
+            observed.append(kwargs['max_tokens'])
+            return "translated"
+        backend._generate = generate
+        backend.translate_raw("Translate:\n\nÁ")
+        backend.translate_raw("Translate:\n\n" + "x" * 2000)
+        self.assertEqual(observed, [128, 2048])
+
     def test_invented_placeholder_is_an_integrity_error(self):
         self.assertTrue([f for f in compare_translation("Texto", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
         self.assertFalse([f for f in compare_translation("__UFO_PROTECTED_012__", "__UFO_PROTECTED_012__") if f['check'] == 'unresolved-placeholder'])
