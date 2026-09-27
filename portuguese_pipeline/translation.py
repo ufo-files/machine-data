@@ -175,7 +175,7 @@ def translate_text(
     try:
         raw = backend.translate_raw(prompt)
         restored, missing = restore_protected(raw, replacements)
-        original_errors = sum(f.get("severity") == "error" for f in compare_translation(text, restored))
+        original_errors = sum(f.get("severity") == "error" for f in compare_translation(text, restored)) + int(not restored.strip())
         if missing or original_errors:
             # Some backends interpret the marker's UFO prefix as content. Give
             # one literal-source retry, then enforce the same restoration/QA gates.
@@ -185,14 +185,14 @@ def translate_text(
                 "Do not summarize. Return only the translation.\n\n" + text
             )
             literal, literal_missing = restore_protected(backend.translate_raw(literal_prompt), replacements)
-            literal_errors = sum(f.get("severity") == "error" for f in compare_translation(text, literal))
+            literal_errors = sum(f.get("severity") == "error" for f in compare_translation(text, literal)) + int(not literal.strip())
             if (len(literal_missing) <= len(missing) and literal_errors <= original_errors
                     and (len(literal_missing) < len(missing) or literal_errors < original_errors)):
                 restored, missing = literal, literal_missing
         # Long paragraphs can cause the model to drop placeholders or summarize
         # clauses. Retry in sentence-sized context, retaining all QA checks.
         if _allow_chunk_retry and len(text) > 400 and (
-            missing or any(f.get("severity") == "error" for f in compare_translation(text, restored))
+            not restored.strip() or missing or any(f.get("severity") == "error" for f in compare_translation(text, restored))
         ):
             sentences = retry_chunks(text, official_identifiers)
             if len(sentences) > 1:
@@ -204,6 +204,8 @@ def translate_text(
                     if not any(finding.get("severity") == "error"
                                for finding in compare_translation(text, combined)):
                         return TranslationResult(text=combined, status="machine-unreviewed")
+        if not restored.strip():
+            return TranslationResult(text="", status="failed", error="translator returned empty output")
         if missing:
             return TranslationResult(
                 text=restored,

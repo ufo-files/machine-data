@@ -136,6 +136,24 @@ class TranslationRecoveryTests(unittest.TestCase):
             self.assertEqual(result.text, source)
             self.assertEqual(result.status, "machine-unreviewed")
 
+    def test_empty_model_output_cannot_be_successful_translation(self):
+        class EmptyBackend:
+            def translate_raw(self, prompt):
+                return "   "
+        result = translate_text(EmptyBackend(), "Bom dia.")
+        self.assertEqual(result.status, "failed")
+        self.assertIn("empty output", result.error)
+
+    def test_empty_first_attempt_can_recover_with_literal_retry(self):
+        class Backend:
+            calls = 0
+            def translate_raw(self, prompt):
+                self.calls += 1
+                return "" if self.calls == 1 else "Good morning."
+        result = translate_text(Backend(), "Bom dia.")
+        self.assertEqual(result.status, "machine-unreviewed")
+        self.assertEqual(result.text, "Good morning.")
+
     def test_retry_chunks_bound_calls_and_keep_spaced_identifiers_intact(self):
         source = ('Uma frase curta. ' * 100) + 'RIC 4.470/2009 ' + ('Outro relato. ' * 100)
         chunks = retry_chunks(source, ['RIC 4.470/2009'])
