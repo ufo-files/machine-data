@@ -51,6 +51,16 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
         self.assertTrue([f for f in compare_translation(source, target.replace('20th', '21st')) if f['check'] == 'dates'])
 
+    def test_negative_concord_accepts_not_any_in_same_clause(self):
+        source = "A testemunha não confirmou a presença de nenhum objeto."
+        for target in ["The witness did not confirm the presence of any object.",
+                       "The witness didn't confirm any object."]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'negation'])
+        for target in ["The witness confirmed the presence of an object.",
+                       "The witness did not return. Any object was confirmed.",
+                       "The witness did not return; any object was confirmed."]:
+            self.assertTrue([f for f in compare_translation(source, target) if f['check'] == 'negation'])
+
     def test_typed_ordinal_and_ocr_colon_dates_preserve_values(self):
         for source, target, changed in [
             ("1o de novembro de 1957", "November 1, 1957", "November 10, 1957"),

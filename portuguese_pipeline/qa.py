@@ -316,6 +316,14 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     for marker, target_pattern in PT_NEGATIONS.items():
         count = len(re.findall(rf"\b{re.escape(marker)}\b", source_folded))
         translated_count = len(target_pattern.findall(target))
+        if marker in {"nenhum", "nenhuma"}:
+            # Portuguese negative concord corresponds to English "not ... any".
+            # Require the negation and "any" in the same bounded clause; a
+            # positive "any" or an unrelated negative sentence is insufficient.
+            translated_count += len(re.findall(
+                r"\b(?:not|never|without|\w+n['’]t)\b[^.!?;\n]{0,160}\bany\b",
+                target, re.I,
+            ))
         if marker == "não":
             translated_count += len(re.findall(r"\b\w+n['’]t\b", target, re.I))
         if count and translated_count < count:

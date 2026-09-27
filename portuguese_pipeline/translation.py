@@ -14,18 +14,15 @@ from typing import Protocol
 from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v3"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v4"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
-SYSTEM_PROMPT = """You translate archival Brazilian Portuguese into faithful English.
-Return only the translation, without notes, markdown, or quotation marks.
-Preserve every placeholder shaped like __UFO_PROTECTED_000__ exactly.
-Preserve proper names, dates, numbers, measurements, coordinates, negation,
-uncertainty, military abbreviations, headings, stamps, classification markings,
-and redaction or illegibility markers. Never infer missing or illegible text.
-Translate OVNI contextually as UFO or unidentified flying object; it is not
-evidence of extraterrestrial origin. Do not strengthen or weaken claims.
+SYSTEM_PROMPT = """Translate the supplied Brazilian Portuguese text into English. Output only the translation.
+Translate only the supplied words. A heading, label, or unfinished sentence must remain a heading, label, or unfinished sentence. Never continue the text, invent an event, or add explanations.
+Keep names, numbers, dates, measurements, coordinates, document identifiers, abbreviations, negation and uncertainty faithful to the source. Preserve placeholders such as __UFO_PROTECTED_000__ exactly.
+When OCR has damaged a word and its reading is uncertain, copy that damaged word exactly. Do not guess its meaning or fill in missing text. Preserve punctuation and redaction markers.
 """
+
 PROMPT_SHA256 = hashlib.sha256(SYSTEM_PROMPT.encode("utf-8")).hexdigest()
 
 
