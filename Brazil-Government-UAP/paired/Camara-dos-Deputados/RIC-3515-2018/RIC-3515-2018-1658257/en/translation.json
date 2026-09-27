@@ -22,37 +22,18 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-975c76fdbd80e316a145268f",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "2018",
-                "3515"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "RIC 3.515/2018"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-24659e97c203e6cc02ae9074",
           "segment_index": 2,
           "source_segment_id": "seg-24659e97c203e6cc02ae9074",
           "source_text_sha256": "fdd02266ae673f94f7c11d86f77a268f6ea3ab270ec2bdad849bbb4d85c276bf",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "**UFO**\nAuthor:          Chico Alencar",
-          "translation_text_sha256": "ab5cdac3132d576d86dc3907c7db59ef0745e4568cfe60b67ce7d65844c8e60c"
+          "status": "machine-unreviewed",
+          "text": "RIC 3.515/2018\nAuthor:            Chico Alencar",
+          "translation_text_sha256": "8e58fc65136154646ebc6102c811df93e9d0e6a4df7b3f8566d3eeda858aadba"
         },
         {
           "end_ms": null,
@@ -185,12 +166,12 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-27T00:11:39Z",
+    "generated_at": "2026-09-27T03:50:51Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
     "workflow_version": "pt-en-translation-prompt/v2"
   }

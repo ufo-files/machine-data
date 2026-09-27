@@ -300,7 +300,7 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-f965247911df244a3b3b72db",
           "qa_findings": [
             {
@@ -311,25 +311,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PM"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-1a1dc5cc0d2092979699be44",
           "segment_index": 1,
           "source_segment_id": "seg-1a1dc5cc0d2092979699be44",
           "source_text_sha256": "de4035e249d6c5c0b0decf4c75379fb26c45ebe1c421d1c85604a1b0ec13adb7",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "DEC—87-01      g ? : l 3   UFO       Cp__UFO__2                                  0413560120                    P. 01",
-          "translation_text_sha256": "9eb56c24282ae6cb425fa5c0973f86ccf19ca8b0bd25151119ea150e78e2874a"
+          "status": "needs-review",
+          "text": "DEC—87-01      g ? : l 3   PM       CpPM2                                  0413560120                    P. 01",
+          "translation_text_sha256": "de4035e249d6c5c0b0decf4c75379fb26c45ebe1c421d1c85604a1b0ec13adb7"
         },
         {
           "end_ms": null,
@@ -496,13 +488,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T14:04:52Z",
+    "generated_at": "2026-09-27T03:51:31Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

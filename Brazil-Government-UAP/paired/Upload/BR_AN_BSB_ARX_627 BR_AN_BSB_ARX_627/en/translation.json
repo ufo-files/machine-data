@@ -135,8 +135,8 @@
           "source_text_sha256": "a7b7776d2cdfdf2018fa5a946cc98b48680a76d0e7f297b74cfeff784c14126b",
           "start_ms": null,
           "status": "needs-review",
-          "text": "V.\nMarch 31, 1997\nNo aircraft reported.",
-          "translation_text_sha256": "d1b8941832955944d8a0bae1af19cdc855a0bdf1de54a0df4b30b2e4d78afc7e"
+          "text": "V.\nMarch 31, 1997\nUnidentified flying object (UFO) report.",
+          "translation_text_sha256": "55986ed4194d90a24edb8814462a98085935a5735f40f10b4a50f95d82ebb23c"
         },
         {
           "end_ms": null,
@@ -422,27 +422,18 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-4180a9d54fe5dce445eb8e5a",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PM"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-f2a032bc9d0f7d62142f7c76",
           "segment_index": 1,
           "source_segment_id": "seg-f2a032bc9d0f7d62142f7c76",
           "source_text_sha256": "077484b3864d5c61b06735d84d1ee8db85acce03e5d3c1de169071fb6ca7c06a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "SEP-ei-02         08:47          UFO               CO2",
-          "translation_text_sha256": "7763da5167ecd2e9fc145669f08e565705fa1777fba948439160b7d808bd4a19"
+          "status": "machine-unreviewed",
+          "text": "SEP-ei-02         08:47          PM       COPM2",
+          "translation_text_sha256": "077484b3864d5c61b06735d84d1ee8db85acce03e5d3c1de169071fb6ca7c06a"
         },
         {
           "end_ms": null,
@@ -583,13 +574,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-13T06:12:28Z",
+    "generated_at": "2026-09-27T03:51:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

@@ -7,27 +7,18 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-dd42728b38e88c56c5ff8d1f",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PM"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-4d39f3ef7b46266fbca7a215",
           "segment_index": 1,
           "source_segment_id": "seg-4d39f3ef7b46266fbca7a215",
           "source_text_sha256": "643cb2d6ccc74e93f21ffee0176f5954f3e1b3285377baadd510144df9644798",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "0413560120                                     .\nrPK-1 5 - 0 1   O3 : 4 S   UFO       C OF M !",
-          "translation_text_sha256": "90a488b0783731b55e69f361552047e7ebb51729f2ed1a1192e28f2865d29ed5"
+          "status": "machine-unreviewed",
+          "text": "0413560120                                     .\nrPK-1 5 - 0 1   O3 : 4 S   PM       C OF M !",
+          "translation_text_sha256": "643cb2d6ccc74e93f21ffee0176f5954f3e1b3285377baadd510144df9644798"
         },
         {
           "end_ms": null,
@@ -469,13 +460,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T15:18:38Z",
+    "generated_at": "2026-09-27T03:54:00Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

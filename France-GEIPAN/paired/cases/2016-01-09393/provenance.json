@@ -18,27 +18,18 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-09-19T01:49:26Z",
+      "generated_at": "2026-09-27T02:19:59Z",
       "method": "local-mlx-lm",
       "model": "mlx-community/aya-expanse-8b-4bit",
       "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
       "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-      "review_status": "partial",
+      "review_status": "needs-review",
       "runtime_version": "0.30.7",
-      "workflow_version": "fr-en-geipan-translation-prompt/v1"
+      "workflow_version": "fr-en-geipan-translation-prompt/v3"
     },
-    "retranslated_segments": [
-      {
-        "source_sha256": "0a79060cd5fda770653c6ef5a845c4156cf5d2fc3211bb2c6d7933e4863ca28f",
-        "status": "machine-unreviewed"
-      },
-      {
-        "source_sha256": "42b865552056c5a16ea28398ea9c71b57f106d04d1883c1ceb70b7b876b7abda",
-        "status": "machine-unreviewed"
-      }
-    ]
+    "retranslated_segments": []
   },
-  "retranslated_at": "2026-09-27T02:19:59Z",
+  "retranslated_at": "2026-09-27T03:54:11Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
@@ -48,9 +39,9 @@
   "segment_count": 12,
   "source_bytes": 19764,
   "source_sha256": "2b4b4bc7df2f48d0f3a222cc6cb99f92c9a5f02eee20740a556bd244a06dd578",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T02:19:59Z",
+    "generated_at": "2026-09-27T03:54:11Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
@@ -59,5 +50,5 @@
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v3"
   },
-  "translation_text_sha256": "02dcda4465e694aacc589136faa65b28e05a3a987bf7d5cd4a1675cae350df0b"
+  "translation_text_sha256": "a1b8672b628484aebbf50201acc9563ce89ca2b56cbec05c196a6f65cba99882"
 }

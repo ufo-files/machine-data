@@ -32,7 +32,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-621bf0ee2c1c20b8f035422f",
           "qa_findings": [
             {
@@ -43,25 +43,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-34ea301e85117071bbb6f9c5",
           "segment_index": 2,
           "source_segment_id": "seg-34ea301e85117071bbb6f9c5",
           "source_text_sha256": "04fe4eb708ac0b48232c4d506018b15ce784d986ab632d1120e7a9279884b071",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "SPADS            UFO_PROTECTED_000__                                                   Cütif     Üt'- \"7ÍAL",
-          "translation_text_sha256": "cf2c0fc0ad6aaa11ed2a526f1fe07abb5cb0c3c26f9c8267ea202b2a8d20132d"
+          "status": "needs-review",
+          "text": "SPADS            COMDABRA                                                   Cütif     Üt'- \"7ÍAL",
+          "translation_text_sha256": "3407978a895d9448c00febb4f57342e7b1112e388cf65fe4e28b584281f5d96e"
         },
         {
           "end_ms": null,
@@ -311,27 +303,18 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-621bf0ee2c1c20b8f035422f",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-55fd4530745b0322875188f0",
           "segment_index": 15,
           "source_segment_id": "seg-55fd4530745b0322875188f0",
           "source_text_sha256": "a7f4c63f0addc23f0461e1be767d021b7508f261e3d42871fe83a86f4361fa38",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "SPACE    UFO_PROTECTED_000__",
-          "translation_text_sha256": "bf8416f4ce988e0775589318d9673b52c3443a214147f034090aa4d87db9e376"
+          "status": "machine-unreviewed",
+          "text": "SPACE    COMDABRA",
+          "translation_text_sha256": "09be86411e54d2a1293afd1d9f978cc0c00312865209e0898827b47743463615"
         },
         {
           "end_ms": null,
@@ -555,13 +538,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T21:34:27Z",
+    "generated_at": "2026-09-27T03:55:24Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }
