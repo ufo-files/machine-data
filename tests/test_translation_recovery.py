@@ -51,6 +51,18 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
         self.assertTrue([f for f in compare_translation(source, target.replace('20th', '21st')) if f['check'] == 'dates'])
 
+    def test_historical_august_spelling_preserves_date(self):
+        source = "No dia 20 de agôsto de 1948"
+        self.assertFalse([f for f in compare_translation(source, "On August 20, 1948") if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation(source, "On August 21, 1948") if f['check'] == 'dates'])
+
+    def test_measurement_range_checks_both_endpoints(self):
+        source = "a 25 a 30 metros"
+        for target in ["at 25 to 30 meters", "at 25–30 m"]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'measurements'])
+        for target in ["at 25 to 90 meters", "at 26 to 30 meters", "at 25 meters"]:
+            self.assertTrue([f for f in compare_translation(source, target) if f['check'] == 'measurements'])
+
     def test_ocr_spaced_dates_keep_exact_values(self):
         examples = [("São Paulo, 13 de A b r i l de 2.004", "São Paulo, April 13, 2004"), ("2 0 / 0 8 / 1 9 6 9 e 0 6 / 0 1 / 7 7", "20/08/1969 and 06/01/77")]
         for source, target in examples:

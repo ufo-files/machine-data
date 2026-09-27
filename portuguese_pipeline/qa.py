@@ -186,6 +186,7 @@ def _names(text: str) -> set[str]:
 def _date_spacing(text: str) -> str:
     # OCR sometimes separates characters within an otherwise explicit date.
     # Normalize only full dates and known month names, never ambiguous fragments.
+    text = re.sub(r"\bagôsto\b", "agosto", text, flags=re.I)
     for month in PT_MONTHS:
         letters = r"[ \t]*".join(re.escape(letter) for letter in month)
         text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
@@ -249,7 +250,9 @@ def _measurements(text: str) -> Counter[str]:
         unit_match = re.search(r"([A-Za-zÀ-ÿ/]+)\s*$", raw)
         if number_match and unit_match:
             unit = UNIT_ALIASES.get(unit_match.group(1).casefold(), unit_match.group(1).casefold())
-            values[f"{_number_value(number_match.group(0))} {unit}"] += 1
+            numbers = re.findall(r"\d+(?:[.,]\d+)?", raw[:unit_match.start()])
+            value = " to ".join(_number_value(number) for number in numbers)
+            values[f"{value} {unit}"] += 1
     return values
 
 
