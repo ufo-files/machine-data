@@ -186,20 +186,39 @@
           "error": null,
           "field": "summary",
           "page_id": "page-b512cbf40579f310c36fb7b0",
-          "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "qa_findings": [
+            {
+              "added_in_translation": [],
+              "check": "times",
+              "missing_from_translation": [
+                "02:00"
+              ],
+              "severity": "error",
+              "status": "mismatch"
+            },
+            {
+              "added_in_translation": [
+                "2"
+              ],
+              "check": "numbers",
+              "missing_from_translation": [],
+              "severity": "warning",
+              "status": "mismatch"
+            }
+          ],
+          "review_status": "needs-review",
           "segment_id": "seg-12b2a4eeab094680c1ef0166",
           "segment_index": 12,
           "source_segment_id": "seg-12b2a4eeab094680c1ef0166",
           "source_text_sha256": "795dc518a6f531974e995b08d4d811ad1c3ddb5ce1681c87220bad0256047fa2",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "needs-review",
           "text": "Summary: Very long observations (2 hours) by two witnesses of a very bright circular phenomenon in the sky; disappearance at sunrise: observations of the planet Venus.",
           "translation_text_sha256": "b8230771ad7be607cbf779455680795c49d556ec8f5f13003eade73f79696fdf"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-b512cbf40579f310c36fb7b0",
           "qa_findings": [
@@ -207,6 +226,7 @@
               "added_in_translation": [],
               "check": "times",
               "missing_from_translation": [
+                "02:00",
                 "04:00",
                 "04:30",
                 "06:30",
@@ -220,11 +240,7 @@
               "added_in_translation": [],
               "check": "numbers",
               "missing_from_translation": [
-                "2",
-                "2",
-                "3",
-                "35",
-                "35"
+                "3"
               ],
               "severity": "warning",
               "status": "mismatch"
@@ -268,26 +284,17 @@
               "source_marker": "pas",
               "status": "mismatch",
               "translation_equivalent_count": 0
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "T1-T2",
-                "T3-T4"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-4a3db4fc6a53621b7088dd91",
           "segment_index": 13,
           "source_segment_id": "seg-4a3db4fc6a53621b7088dd91",
           "source_text_sha256": "6ba28b0b5a590d23bd3188228cea5983696f058b72e2a292d147b44ffb0bf4c2",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "**Description :** Le cas GEIPAN continue de publier l'ensemble de ses archives sur son site public www.geipan.fr. Parmi les cas documentés, certains anciens classés A, B, C ou D à l'époque font l'objet d'un réexamen pour affiner les conclusions. Grâce à de nouvelles techniques (logiciels) et à l'expérience acquise, ce réexamen peut mener à de nouvelles observations ou à un changement de classification.\n\nLe cas en question est une observation précédente classée D (LA FOA (988) 05.03.1984), faisant partie d'un ensemble de cas récemment réexaminés. Il s'agit de l'observation d'un PAN par plusieurs résidents de la commune de LA FOA (988) à des dates différentes (2, 5 et une date inconnue en mars 1984) (voir le rapport d'enquête). Le 7 mars 1984, la gendarmerie est informée que plusieurs personnes d'un quartier de LA FOA en Nouvelle-Calédonie ont signalé des observations répétées de phénomènes lumineux dans le ciel.\n\nLe rapport d'enquête de la gendarmerie mentionne :\n- Le 5 mars 1984, entre 4h30 et 6h30, deux témoins (T1 et T2) en voiture ont observé une longue et intense lumière dans le ciel.\n- Le 2 mars 1984, vers 20h, deux autres témoins (T3 et T4) chez eux ont vu une boule de feu émettant une lumière blanche.\n- Un autre témoin (T5) a signalé, à une date inconnue en mars 1984, trois observations depuis son domicile d'une \"large bande de lumière\".\n\nUn dernier témoin (T6) a été interrogé par la gendarmerie car mentionné dans le rapport de T5. Cependant, T6 n'a fait aucune observation. Les témoins ou paires de témoins ont observé un PAN à des dates et heures différentes, avec des positions et mouvements distincts.\n\nL'enquête suggère que :\n- Les observations de T1 et T2 sont cohérentes avec la planète Vénus, avec une longue durée d'observation et une disparition du phénomène après le lever du Soleil.\n- L'observation de T3 et T4 est étrange, mais la consistance des témoignages est faible, sans indication de la taille angulaire ou de la durée.\n- L'observation de T5 est anecdotique et peu fiable, avec des informations imprécises et une explication météorologique possible.\n\nEn conséquence, les classifications sont les suivantes :\n- Cas FOA (LA) (988) 05.03.1984 : observation de T1 et T2, classée A (planète Vénus).\n- Cas FOA (LA) (988) 02.03.1984 : observation de T3 et T4, classée C (potentiellement étrange mais non exploitable).\n- Cas FOA (LA) (988) --.03.1984 : observation de T5, classée C (potentiellement peu étrange mais non exploitable).",
-          "translation_text_sha256": "d6df09b5499a3874308b5a0a92f9effaefb35d5f194c612ff4698cf7c81d2617"
+          "status": "needs-review",
+          "text": "**Description :** Le cas GEIPAN continue de publier l'ensemble de ses archives sur son site public www.geipan.fr. Parmi les cas publiés, certains anciens, classés à l'époque (A, B, C ou D), font l'objet d'un réexamen pour améliorer la pertinence des conclusions. Grâce à de nouvelles techniques (logiciels) et à l'expérience acquise, ce réexamen peut mener à de nouvelles observations ou à un changement de classification.\n\nLe cas en question est une observation précédente classée D, nommée LA FOA (988) 05.03.1984, faisant partie d'un ensemble de cas récemment réexaminés. Il concerne l'observation d'un PAN par plusieurs résidents de la commune de LA FOA (988) à des dates différentes (2 et 5 mars, et une date inconnue en mars 1984) (voir le rapport d'enquête). Le 7 mars 1984, la gendarmerie est informée que plusieurs personnes d'un quartier de LA FOA en Nouvelle-Calédonie ont signalé des observations répétées de phénomènes lumineux dans le ciel.\n\nLe rapport d'enquête de la gendarmerie mentionne :\n- Le 5 mars 1984, entre 4h30 et 6h30, deux témoins (T1 et T2) en voiture ont observé une longue et intense lueur dans le ciel.\n- Le 2 mars 1984, vers 20h, deux autres témoins (T3 et T4) chez eux ont vu une boule de feu émettant une lumière blanche.\n- Un autre témoin (T5) a signalé, à une date inconnue en mars 1984, trois observations depuis son domicile d'une \"large bande de lumière\".\n\nUn dernier témoin (T6) a été interrogé par la gendarmerie car mentionné dans le rapport de T5. Cependant, T6 n'a fait aucune observation. Les témoins ou paires de témoins ont observé un PAN à des dates et heures différentes, avec des positions et mouvements variés. Il est nécessaire d'explorer des explications pour chacune des trois observations (T1-T2, T3-T4, et T5) sans présupposer dès le départ qu'il s'agisse du même phénomène.\n\nLa gendarmerie a intervenu suite à des rumeurs d'habitants ayant vu des formes lumineuses dans le ciel à plusieurs reprises. Aucun témoin n'a fait d'observation spontanée. En raison de ces rumeurs et de comparaisons approximatives entre témoins, il est possible que l'étrangeté rapportée par les témoins lors de leurs dépositions soit plus forte que celle ressentie au moment de l'observation, et que certaines observations, prises isolément, soient passées inaperçues.\n\nLes éléments suivants expliquent le caractère anecdotique ou peu cohérent de la déposition de T5 :\n- T5 ne se souvient plus si l'observation a eu lieu la veille ou l'avant-veille (\"Il y a un ou deux jours\"), ce qui n'est jamais le cas pour des observations vraiment étranges.\n- Les informations disponibles sont imprécises (au niveau de la date et des détails) et ne permettent pas d'analyse précise.\n- T5 a une explication météorologique initiale, qui ne supprime pas l'étrangeté perçue mais en réduit l'ampleur.\n- Dans le contexte, on ne peut exclure qu'une configuration particulière de faisceaux de phares de véhicules projetés dans le ciel ait pu créer une première étrangeté limitée, amplifiée rétrospectivement.\n\nL'observation de T5 est de très faible cohérence (information et fiabilité) 35 ans après. Cette observation, a priori peu étrange, est inutilisable (classification C) en raison du manque d'informations fiables. À l'opposé, les témoignages de T1 et T2 décrivent un niveau réel d'étrangeté perçue et disposent d'un bon niveau d'information. Ces deux témoins ont probablement confondu Vénus avec un objet inconnu.\n\n**Aspects du PAN :**\n- Description conforme : boule lumineuse, couleur blanche et luminosité forte, caractéristiques récurrentes des confusions avec Vénus.\n- Longue durée d'observation (2 heures selon T1), caractéristique des erreurs astronomiques, et disparition du PAN pendant une demi-heure après le lever du Soleil, typique de Vénus.\n- La position du PAN indiquée par les témoins correspond à la direction de Vénus, qui aurait dû être visible si ce n'était pas Vénus. Les témoins décrivent un ciel étoilé et dégagé, sans mentionner la plus brillante des étoiles à proximité du PAN.\n- Les témoins notent un déplacement du PAN, ce qui semble incohérent avec Vénus :\n   - Les témoins étaient en voiture au début de l'observation, ce qui pourrait avoir créé une illusion de mouvement.\n   - La description de T2 suggère un déplacement après un arrêt du véhicule, ce qui est cohérent avec l'explication précédente.\n\n**Observation de T3 et T4 :**\n- La description d'une boule lumineuse en mouvement lent peut évoquer un aéronef ou un satellite, mais aucun enregistrement d'opérations aériennes ni de passages de satellites n'a été trouvé 35 ans après.\n- L'observation a un caractère étrange, mais la cohérence est faible.\n- Il n'y a aucune indication sur la durée ou la taille angulaire du PAN.\n- La fiabilité des témoignages de T3 et T4 est douteuse, car leurs récits sont minimalistes et ne traduisent pas l'étrangeté vécue.\n- T2 a rapporté aux gendarmes une observation de T3, qui est presque identique à celle de T2, avec les mêmes expressions et mots, suggérant une concertation préalable.\n\n**Conclusion :**\n- Cas FOA (LA) (988) 05.03.1984 : Observation de T1 et T2, classée A, comme observation de la planète Vénus.\n- Cas FOA (LA) (988) 02.03.1984 : Observation de T3 et T4, classée C, potentiellement étrange mais non exploitable en raison du manque d'informations fiables.\n- Cas FOA (LA) (988) --.03.1984 : Observation de T5, classée C, potentiellement peu étrange mais non exploitable pour les mêmes raisons.",
+          "translation_text_sha256": "c7fad8e12d6520bad431c3fd5df3e979e227035d5c57d8778498d0da0bf2ba77"
         }
       ],
       "source_page_id": "page-b512cbf40579f310c36fb7b0"
@@ -298,13 +305,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-24T05:15:26Z",
+    "generated_at": "2026-09-27T00:25:23Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }
