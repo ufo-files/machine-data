@@ -127,6 +127,15 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(result.text, text)
         self.assertEqual(result.status, 'machine-unreviewed')
 
+    def test_isolated_letters_preserve_source_without_inventing_context(self):
+        class Backend:
+            def translate_raw(self, prompt):
+                raise AssertionError("isolated letters must not invoke the model")
+        for source in ["E", "I", " r ", "Í"]:
+            result = translate_text(Backend(), source)
+            self.assertEqual(result.text, source)
+            self.assertEqual(result.status, "machine-unreviewed")
+
     def test_retry_chunks_bound_calls_and_keep_spaced_identifiers_intact(self):
         source = ('Uma frase curta. ' * 100) + 'RIC 4.470/2009 ' + ('Outro relato. ' * 100)
         chunks = retry_chunks(source, ['RIC 4.470/2009'])

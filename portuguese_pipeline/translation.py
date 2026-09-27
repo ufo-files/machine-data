@@ -166,6 +166,10 @@ def translate_text(
         return TranslationResult(text="", status="not-required")
     if not any(character.isalpha() for character in text):
         return TranslationResult(text=text, status="not-required")
+    if len(text.strip()) == 1:
+        # Isolated letters can be form labels, initials or OCR fragments.
+        # Preserve the observed character rather than guessing missing context.
+        return TranslationResult(text=text, status="machine-unreviewed")
     masked, replacements = mask_protected(text, official_identifiers)
     prompt = "Translate this text from Brazilian Portuguese to English:\n\n" + masked
     try:
