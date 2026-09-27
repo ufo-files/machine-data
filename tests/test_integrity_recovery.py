@@ -71,3 +71,8 @@ class IntegrityRecoveryTests(unittest.TestCase):
         source='DE 30 J U N 2 0 0 4'
         self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'June 30, 2004')))
         self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'July 30, 2004')))
+
+    def test_abbreviated_date_with_portuguese_prepositions(self):
+        for source in ['10 de Mai 96', '10 de Mai. de 1996', '10 Mai 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'May 10, 1996')))
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'May 11, 1996')))
