@@ -58,3 +58,11 @@ class IntegrityRecoveryTests(unittest.TestCase):
         source='20 (sábado) e 22 de janeiro de 1996'
         self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'January 20 and 22, 1996')))
         self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'January 20 to 22, 1996')))
+
+    def test_portuguese_miles_and_letter_spaced_date_year(self):
+        source='entre 10 e 12 milhas; 180 milhas'
+        self.assertFalse(any(f['check']=='measurements' for f in compare_translation(source, 'between 10 and 12 miles; 180 miles')))
+        self.assertTrue(any(f['check']=='measurements' for f in compare_translation(source, 'between 10 and 15 miles; 180 miles')))
+        date='30 de j u n h o de 2 0 0 4'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2004')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2005')))

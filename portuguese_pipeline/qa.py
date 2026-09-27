@@ -34,9 +34,9 @@ COORDINATE = re.compile(
 )
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
-    r"(?:[ \t]+(?:a|to)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
+    r"(?:[ \t]+(?:a|to|e|and)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
     r")?[ \t]*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
-    r"quil[oô]metros?|kilometers?|feet|foot|miles?|minutos?|minutes?)(?!\w)",
+    r"quil[oô]metros?|kilometers?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
 NUMBER = re.compile(
@@ -84,6 +84,7 @@ UNIT_ALIASES = {
     "pé": "ft", "pés": "ft", "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
     "milímetro": "mm", "milímetros": "mm", "millimeter": "mm", "millimeters": "mm", "mm": "mm",
+    "milha": "mi", "milhas": "mi", "mile": "mi", "miles": "mi",
     "minuto": "min", "minutos": "min", "minute": "min", "minutes": "min",
     "kg": "kg", "g": "g", "m/s": "m/s", "km/h": "km/h", "mph": "mph",
 }
@@ -192,6 +193,8 @@ def _date_spacing(text: str) -> str:
         letters = r"[ \t]*".join(re.escape(letter) for letter in month)
         text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
+    text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12](?:[ \t]+\d){3})\b",
+                  lambda match: match.group(1) + re.sub(r"[ \t]", "", match.group(2)), text, flags=re.I)
     spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
     return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
 
