@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "e0867fd110be8d938718ad59a68538888014df52002b77ac765893b036506fee",
+  "canonical_text_sha256": "82ecb3e05152ddf8570edcd24538441c44987df3f861dd9ccc731e724f67d661",
   "document_id": "doc-efe4e32e0fcf0c8a7ae7dd29",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -14,6 +14,35 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 35,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-12T21:19:06Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "9558e3d1c5cf39e2067cffd1d4443a5a96cf9c0ca3cb804a9c38f6d8eb10d6f0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "b5b8860150f52eb669a4257c0c1b159c0bd8de3da551affef284923de3d412cd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "e049e6ef651864dd5ed465eb9004dd14ed284c3343df83f10355e29f7acd9442",
+        "status": "failed-protected-token-check"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:48:40Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -22,17 +51,55 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 35,
   "source_bytes": 1220133,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "CERTIDÃO\nCERTIFICO que decorreu o prazo legal sem que no presente feito houvesse interposição de recurso, tendo TRANSITADO EM JULGADO, em 15/07/97, a decisão de fls. 351. E, para constar, lavro esta certidão. Aos 16 dias do mês de julho do ano de 1997.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "4i                          C H R T I D A O\n      CERTïFICOque decorreu o prazo legal sem que no\n      rresentefeito houvêsseinterposiçãode rscurso,teììclo\n      TR/ÀNStTADO    E M J ì . rì - G A D O .e n r f 5 t 0 7t 9 7 . a s\n                                                                          Í,     para\n      c o n s t a r , l a v r o e s t a c e r t i d ã c . +lor-. 16            Cias do\n      mês de julho 6q 2nç 4s 1 9 9 7",
+      "original_text_sha256": "9558e3d1c5cf39e2067cffd1d4443a5a96cf9c0ca3cb804a9c38f6d8eb10d6f0",
+      "page": 1,
+      "segment_id": "seg-7a71b7d3ac09a378804e75ff",
+      "source_page_render_sha256": "c52da28a6fdb9c7f05d53785eeec6aea27a62e8889e6dea24efa8abcc1746676",
+      "source_rel": "Upload/varginha IPM 09 IPM 09.PDF",
+      "translation": "CERTIFICATE\nI CERTIFY that the legal period expired without an appeal being filed in this case, and the decision on page 351 BECAME FINAL on 15/07/97. I issue this certificate for the record. On July 16, 1997."
+    },
+    {
+      "corrected_source_text": "JUNTADA\nAos 16 dias do mês de julho do ano de 1997, na Secretaria da Auditoria da 4.ª C.J.M., faço juntada aos presentes autos do - documento - que adiante se segue - .",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "JUNTAD,A\n          4s5 16     dias do mês de     julho       do ano de\n          1991--, na Secretariada Auditoria da 4.a C'J.tl4',faço\n          juntada aos presentes autos do-:-dccumento --:*-\n          que adiante se sê$ue-1-.",
+      "original_text_sha256": "632098e1c1d10a28f996b9cfa62d4bcb99b2cb36db5ed49abb6c1695fda2a8ed",
+      "page": 1,
+      "segment_id": "seg-d15443d9b160c56811c255a4",
+      "source_page_render_sha256": "c52da28a6fdb9c7f05d53785eeec6aea27a62e8889e6dea24efa8abcc1746676",
+      "source_rel": "Upload/varginha IPM 09 IPM 09.PDF",
+      "translation": "FILING\nOn July 16, 1997, at the Secretariat of the Auditoria of the 4th C.J.M., I attach to these case files the - document - that follows - ."
+    },
+    {
+      "corrected_source_text": "CERTIFICO, para os devidos fins, que pelo Ato nº 12.928, de 17.06.97, do Excelentíssimo Senhor Ministro-Presidente do Egrégio SUPERIOR TRIBUNAL MILITAR, publicado no DJ de 20.06.97, a DRA. ZILAH MARIA CALLADO FADUL PETERSEN, Juíza-Auditora da Auditoria da 11ª CJM, foi convocada para assumir o exercício pleno do cargo de Juiz-Auditor Corregedor da Justiça Militar, no período de 02 a 31 de julho de 1997, em substituição ao titular, que se encontra em gozo de férias. O referido é verdade e dou fé. Brasília/DF, 28 de julho de 1997. Eu, [assinatura] (Dra. Vera Regina Saliba Alves Branco), Diretora de Secretaria.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "CERTIFICO,pan os devídosftns,quepeloAto\n                                                         do\n                                 SenhorMinistro-Presidente\n                  doExcelentíssimo\n        de17.06.97,\nno 72,928,\nEgrëgioSAPENOR     TNBUNALMILITAR'publicadono DJ de20'06'97'a\nDR4-ZILAE MANA CALLADOFADAL PETERSEN,fuízct-Auditara\n                                     paru ossamiro acercícinpleno\nila Audiíoria da 17oClM, Íoi convocada\ndocargodeJuk-AurtitotConegedordalustiçu MiliÍar, noperíodode 02\na 3I dejathode 7997,en mbsüfrriçãoaotifrtlar' queseencontlaemgozo\ndeférias. O referído,éyerdadee doufé. BrasíIis/DF, â'B deiulho de\n1997. Ett,                                 (Dra VeraReginaSaliba\nAlvesBranco),Ditetdra dk Sesetaia",
+      "original_text_sha256": "e049e6ef651864dd5ed465eb9004dd14ed284c3343df83f10355e29f7acd9442",
+      "page": 4,
+      "segment_id": "seg-3f2a2e1b567ae0da410473ee",
+      "source_page_render_sha256": "2108756985a133aa31be538cfee7f1a3f4729435af9cc41e5c999b43a3197a14",
+      "source_rel": "Upload/varginha IPM 09 IPM 09.PDF",
+      "translation": "I CERTIFY, for the appropriate purposes, that under Act No. 12.928 of 17.06.97, issued by the Most Excellent Minister-President of the Honorable SUPERIOR TRIBUNAL MILITAR and published in the DJ of 20.06.97, DRA. ZILAH MARIA CALLADO FADUL PETERSEN, Judge-Auditor of the Auditoria of the 11th CJM, was summoned to assume the full duties of Judge-Auditor Inspector of Military Justice from July 02 to 31, 1997, replacing the incumbent, who is on vacation. The foregoing is true, and I attest to it. Brasília/DF, July 28, 1997. I, [signature] (Dra. Vera Regina Saliba Alves Branco), Director of the Secretariat."
+    }
+  ],
   "source_sha256": "67a49e6576b0755572ab9301d1eb9c41476a225a3c5c1bb33253e10935d54a9c",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-12T21:19:06Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:48:40Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "e525f7d6ce97b14e764ebe827b5c9bdd1afb30044eaf8d05604355382634a404"
+  "translation_text_sha256": "b92cbf61176c30e5418ace0abf943bae8e46d7733061854769989cb47abd44f4"
 }

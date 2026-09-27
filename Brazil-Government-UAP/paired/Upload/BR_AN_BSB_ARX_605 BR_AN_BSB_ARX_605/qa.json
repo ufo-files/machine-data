@@ -2,36 +2,6 @@
   "document_id": "doc-51fb9603514ab2c914c8990e",
   "findings": [
     {
-      "added_in_translation": [
-        "120 m"
-      ],
-      "check": "measurements",
-      "missing_from_translation": [],
-      "segment_id": "seg-5ece0a746da3baad041c82dd",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "0",
-        "0",
-        "0",
-        "120",
-        "4"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
-      "segment_id": "seg-5ece0a746da3baad041c82dd",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "translator-commentary",
-      "segment_id": "seg-5ece0a746da3baad041c82dd",
-      "severity": "error",
-      "status": "unexpected-derived-commentary"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -128,6 +98,14 @@
       "segment_id": "seg-331a0d9ec5559c3e833ab89c",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-dd42728b38e88c56c5ff8d1f",
+      "segment_id": "seg-5ece0a746da3baad041c82dd",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

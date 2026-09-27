@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "e0561f02cdcb26785d1a590f8645f539b220c19d45fc6d1e87a111d360e43b05",
+  "canonical_text_sha256": "ef62eed7facd7f3713b0c92be9baf5f058aa39d153f19406b8e67a06aa7107bb",
   "document_id": "doc-4b42c7ec453339a171523548",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -14,6 +14,39 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 46,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-12T10:43:41Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "a2fbc754b9ee1dc5a793eeb2c804c5e6cf962f680909050f28a69b6cdfdbab89",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "5f265333c9c5849d420777ad99bfafa29ffffecdc7d54adb7e761c6e9404e6cb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "72648c4c89e8e1e25446bde41a8fdc615dd77d6fd93a99c7b0cd3b973b7ef982",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "a8f94121bcda45d2c98e7090b055a480c3aa718fa11f68d2d7708316768be631",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:48:43Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -22,17 +55,55 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 46,
   "source_bytes": 478696,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "Encarregado p/ Serviço",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Encarre r         p/ Servigo",
+      "original_text_sha256": "7d898a38b7180ccc1364edd87d30c826bc1e4e9baaedd1c9713bc06015c45074",
+      "page": 5,
+      "segment_id": "seg-b76f93ecacfb8c271876296b",
+      "source_page_render_sha256": "96e0feb518ff4e5c81025b41fb5ac5de3cc822474d877b35247f4ba01fb21cec",
+      "source_rel": "Upload/varginha IPM 08 IPM 08 2.pdf",
+      "translation": "Officer in charge of the service"
+    },
+    {
+      "corrected_source_text": "Aos 07 dias do mês de julho do ano de 1997, na Secretaria da Auditoria da 4.ª C.J.M., me foram entregues estes autos pelo Dr.ª Juíza-Auditora.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "do ano de\n            Aos\n            499   7      _, na Secretaria            da Audit} ia da 4.7 C.J.M., me\n                                                 Juiza-Avdito-\n            foram entregues estes autos pelo Dr? a",
+      "original_text_sha256": "b1700ce9e1982e065fcb3760060eb4ef3e1c9ac05773c490842e7b34f29765c1",
+      "page": 5,
+      "segment_id": "seg-454f859e448d377ec0dc690c",
+      "source_page_render_sha256": "96e0feb518ff4e5c81025b41fb5ac5de3cc822474d877b35247f4ba01fb21cec",
+      "source_rel": "Upload/varginha IPM 08 IPM 08 2.pdf",
+      "translation": "On July 07, 1997, at the Secretariat of the Auditoria of the 4th C.J.M., these case files were delivered to me by the Judge-Auditor."
+    },
+    {
+      "corrected_source_text": "CERTIDÃO\nCERTIFICO que decorreu o prazo legal sem que no presente feito houvesse interposição de recurso, tendo TRANSITADO EM JULGADO, em 15/07/97, a decisão de fls. 351. E, para constar, lavro esta certidão. Aos 16 dias do mês de julho do ano de 1997.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "am                             CERTIDAO\n       CERTIFICO que decorreu o prazo legal sem que no\n     } presente feito houvesse interposigao de recurso, tendo\n     | TRANSITALO              EM      JULGADO,        em_15! 07) 97, am\n       decisao        de fls.       351                                               para\n      constar,           lavro      esta      certidao.    Acs 16                dias     do\n      més_42          julhe do ano de 1997 __.",
+      "original_text_sha256": "a8f94121bcda45d2c98e7090b055a480c3aa718fa11f68d2d7708316768be631",
+      "page": 7,
+      "segment_id": "seg-eac29515fb581815ae3e75f8",
+      "source_page_render_sha256": "21062b41b71c6381583d53bc3b6855255e47743f3949e0c4010457aee05d77d6",
+      "source_rel": "Upload/varginha IPM 08 IPM 08 2.pdf",
+      "translation": "CERTIFICATE\nI CERTIFY that the legal period expired without an appeal being filed in this case, and the decision on page 351 BECAME FINAL on 15/07/97. I issue this certificate for the record. On July 16, 1997."
+    }
+  ],
   "source_sha256": "607b4dfb4e4eff11cf26713608883e77c9703fa325f6772a6a91ff0c8eaecbc6",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-12T10:43:41Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:48:43Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "67cef21d31b24b0933d9a70e06881640ebc570e3ed916d892ee0b6f381efedaf"
+  "translation_text_sha256": "fae2ceed70dd8da4aac831ca185fe84017099e6469028784e5def8c4ee173153"
 }

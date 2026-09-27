@@ -18,27 +18,26 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-08-12T15:38:53Z",
+      "generated_at": "2026-09-27T03:55:07Z",
       "method": "local-mlx-lm",
       "model": "mlx-community/aya-expanse-8b-4bit",
       "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
       "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-      "review_status": "partial",
+      "review_status": "needs-review",
       "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v1"
+      "workflow_version": "pt-en-translation-prompt/v2"
     },
     "retranslated_segments": [
       {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
         "source_sha256": "2aef6272562b4ab5bf0c22ee88d59415a86a9622011ab96761a36487a70ba4d9",
-        "status": "machine-unreviewed"
-      },
-      {
-        "source_sha256": "091454a3629b7a544834b8012271716c26de66faa47992a9d273c5c3383cd4ef",
-        "status": "machine-unreviewed"
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
       }
     ]
   },
-  "retranslated_at": "2026-09-27T03:55:07Z",
+  "retranslated_at": "2026-09-27T04:25:08Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -48,16 +47,16 @@
   "segment_count": 15,
   "source_bytes": 873427,
   "source_sha256": "d647192c1881ca21d603791561ef6f31ad8a25956db26b1bf88c3cf4c6dd4c2d",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T03:55:07Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+    "generated_at": "2026-09-27T04:25:08Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v2"
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "7b25a80885497b11817b63483e35b26266f608a5678c5181c65351080f734080"
+  "translation_text_sha256": "e09ab9049cecb2245cd57a501472196bdf36cd567c6b175a28dc34e4ff154809"
 }

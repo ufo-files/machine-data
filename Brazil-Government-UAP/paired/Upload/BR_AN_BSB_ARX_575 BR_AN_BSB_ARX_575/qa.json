@@ -2,35 +2,6 @@
   "document_id": "doc-a4df1b88cb5aaeca07a61d12",
   "findings": [
     {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "PM"
-      ],
-      "segment_id": "seg-51bc1e7eaa0dba2b1a87fd11",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "2 g"
-      ],
-      "check": "measurements",
-      "missing_from_translation": [],
-      "segment_id": "seg-7934c1054df1cc5bf6ecc5e4",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [],
-      "check": "numbers",
-      "missing_from_translation": [
-        "1"
-      ],
-      "segment_id": "seg-7934c1054df1cc5bf6ecc5e4",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -106,30 +77,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "[redacted]"
-      ],
-      "check": "redactions",
-      "missing_from_translation": [],
-      "segment_id": "seg-fc039b420646e899e8069706",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "16",
-        "30",
-        "8"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "6"
-      ],
-      "segment_id": "seg-fc039b420646e899e8069706",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -140,6 +87,22 @@
       "segment_id": "seg-fc039b420646e899e8069706",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-58ffe6ce51a13058c8150be1",
+      "segment_id": "seg-7934c1054df1cc5bf6ecc5e4",
+      "severity": "warning",
+      "status": "needs-review"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-27186c56240b0ed7f40506d6",
+      "segment_id": "seg-fc039b420646e899e8069706",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

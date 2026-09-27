@@ -3,34 +3,6 @@
   "findings": [
     {
       "added_in_translation": [],
-      "check": "dates",
-      "missing_from_translation": [
-        "2004-03-30"
-      ],
-      "segment_id": "seg-0472f83ca449acbe5539f826",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "0",
-        "25",
-        "4"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "2",
-        "2004",
-        "3",
-        "30",
-        "5"
-      ],
-      "segment_id": "seg-0472f83ca449acbe5539f826",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
         "Brasília-DF FAX",
@@ -44,21 +16,11 @@
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
-        "Comandante do COMDABRA",
         "Maj Brig Ar Atbeneu Francisco",
         "Roberto Geraldo Hmeata Ribeiro RËWffcNffc"
       ],
       "segment_id": "seg-7dd476ea1c28ca75d0e897da",
       "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-7dd476ea1c28ca75d0e897da",
-      "severity": "error",
       "status": "mismatch"
     },
     {
@@ -104,28 +66,20 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "1977-10-07"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-fdae1d673a4bf6566ffce574",
-      "severity": "error",
-      "status": "mismatch"
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-7b5f47b82918861e4c8519e3",
+      "segment_id": "seg-0472f83ca449acbe5539f826",
+      "severity": "warning",
+      "status": "needs-review"
     },
     {
-      "added_in_translation": [
-        "10",
-        "1977",
-        "7",
-        "7",
-        "7"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-7b5f47b82918861e4c8519e3",
       "segment_id": "seg-fdae1d673a4bf6566ffce574",
       "severity": "warning",
-      "status": "mismatch"
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

@@ -22,27 +22,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "2 g"
-      ],
-      "check": "measurements",
-      "missing_from_translation": [],
-      "segment_id": "seg-6c815d274049996b472b2a6d",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "1",
-        "1"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
-      "segment_id": "seg-6c815d274049996b472b2a6d",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "numbers",
       "missing_from_translation": [
@@ -105,32 +84,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "2023-07-01"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-b5fa000b4844b5cb515ba915",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "0",
-        "1",
-        "2023",
-        "5"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "7",
-        "7"
-      ],
-      "segment_id": "seg-b5fa000b4844b5cb515ba915",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -139,6 +92,22 @@
       "segment_id": "seg-b5fa000b4844b5cb515ba915",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-54d362ef236823fe373f5689",
+      "segment_id": "seg-6c815d274049996b472b2a6d",
+      "severity": "warning",
+      "status": "needs-review"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-1897cbfb4e6b616cd27a3571",
+      "segment_id": "seg-b5fa000b4844b5cb515ba915",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

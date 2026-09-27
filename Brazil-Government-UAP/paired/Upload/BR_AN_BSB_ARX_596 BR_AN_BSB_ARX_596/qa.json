@@ -3,22 +3,6 @@
   "findings": [
     {
       "added_in_translation": [
-        "0"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
-      "segment_id": "seg-36ef73fd4a794351452907c3",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "translator-commentary",
-      "segment_id": "seg-36ef73fd4a794351452907c3",
-      "severity": "error",
-      "status": "unexpected-derived-commentary"
-    },
-    {
-      "added_in_translation": [
         "23"
       ],
       "check": "numbers",
@@ -90,6 +74,14 @@
       "segment_id": "seg-5116b36b1ed9909a9bcbef84",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-ae62723938419ecf7908986c",
+      "segment_id": "seg-36ef73fd4a794351452907c3",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,
