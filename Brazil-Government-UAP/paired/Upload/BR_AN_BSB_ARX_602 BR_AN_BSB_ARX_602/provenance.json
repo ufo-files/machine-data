@@ -18,23 +18,40 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-08-12T16:36:57Z",
+      "generated_at": "2026-09-27T03:51:20Z",
       "method": "local-mlx-lm",
       "model": "mlx-community/aya-expanse-8b-4bit",
       "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
       "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
       "review_status": "partial",
       "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v1"
+      "workflow_version": "pt-en-translation-prompt/v2"
     },
     "retranslated_segments": [
       {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
         "source_sha256": "fe98de500596aff96bf30e1ad4d36c82229752f7f9209bd13518a6fa8ec48497",
-        "status": "failed-protected-token-check"
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "fe7d80747de8d82e1fc6442c48243cc6f849b6298cb9b3ad79fe1566a5645aee",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "bef8cf74d6f97f31fe6f56cbe789cd334cb32994298aaa134d7214a38af7f096",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
       }
     ]
   },
-  "retranslated_at": "2026-09-27T03:51:20Z",
+  "retranslated_at": "2026-09-27T04:33:23Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -44,16 +61,16 @@
   "segment_count": 21,
   "source_bytes": 916677,
   "source_sha256": "76b06d4b81a504b3cf32e1ec571f5eb7633e45c9959aeb61ccea9091dda6255c",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T03:51:20Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v2"
+    "generated_at": "2026-09-27T04:33:23Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "61bd3b3fc6fee379e48e884b6fcf0a46b54aea2c72572321045493a5fbe0f7ea"
+  "translation_text_sha256": "707f2a851744c9e1a6bfc2a451b2d3fc45ac438a3743860d82adfff5bd91d08d"
 }

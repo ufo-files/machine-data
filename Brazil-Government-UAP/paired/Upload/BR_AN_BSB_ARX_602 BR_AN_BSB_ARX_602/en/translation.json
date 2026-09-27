@@ -7,37 +7,29 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-60ee9bc33b03bfe9e59963e1",
           "qa_findings": [
             {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "23",
-                "3"
-              ],
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
               "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "23/03"
-              ],
-              "severity": "error",
-              "status": "mismatch"
+              "status": "needs-review"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-915678ac8a8f342731715d23",
           "segment_index": 1,
           "source_segment_id": "seg-915678ac8a8f342731715d23",
           "source_text_sha256": "fe98de500596aff96bf30e1ad4d36c82229752f7f9209bd13518a6fa8ec48497",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "078 P01         UFO 01 19:14\n                                  CFMi",
-          "translation_text_sha256": "daa97ed17ae13616bb4fab3536f8d84e929c5fcc51c256b3d0cd8602366ab984"
+          "status": "machine-unreviewed",
+          "text": "078 P01         23/03 01 19: 14\n                                  CFMi",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "fe98de500596aff96bf30e1ad4d36c82229752f7f9209bd13518a6fa8ec48497"
         },
         {
           "end_ms": null,
@@ -52,6 +44,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "V\n                         k0ÈÍ\\\n          SPADS               COMD*,ftfi*R I O               OF    AERONAUTICS",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "0d595508c18f31c91075b4bad54ac04c6e9bd72d4a7e0ced8b9a3d6ab81d47cb"
         },
         {
@@ -77,6 +82,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "TO: COMMAND.OF AEROSPACE OPERATIONS/\n                FLIGHT AND RESEARCH DIVISION\n                SMOOTH _^/i2Í_/20jO.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "8c6567f9efaa4377d963a3f668386bb92663c6b19a38a4628e4736172e5568c1"
         },
         {
@@ -92,6 +110,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "JL\n                      _Q_y__                                                             (filled by HOW TO ABRA",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "e30d190f5c11683d374aa9cd48d88d91e7d1f39c660677a51aa1e012f035a294"
         },
         {
@@ -118,6 +149,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "FROM THE INCIDENT\n\n     Date (•): __ __ •            ,__          Time (-)'•   í_       Q_ ' 2 Duration of observation ( . ) ' __!\n                                                                                                         M   IA* A\n     Location of the incident (Neighborhood..., Beach of..., Mountain..., etc):          JjáXj&j&Jll ~ ^                   ~\n         ciq. _ _ _ _ _ £ •                                     i\n     Municipality (District, etc. if applicable): _ J _ _ _ C _ _ _             J                          ,     UF\n     Type (sighting, close encounter, etc.): ViXWS f-fSSO^' ÇM&V                                    O^^vX^dx)\n     Observation made with equipment(s)? (y/n): A/           - yes, which ones?:\n                                                              Se          • -                      r\n     Is there a record or physical evidence? (y/n):               A/-      If yes, detail (photo, video, film, tape, etc.)",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "285a7edbf9276cd0f84655a53f242daaae041438dad43a120fc347560b57e1ff"
         },
         {
@@ -133,6 +177,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Visibility (     ):    £L*MQ K •                Meteorological conditions (clear sky, sunny, rain, fog\n     clouds, etc):",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "8eb2781fa0a02d227d9ed658be8b85fa393dac28f8952b15ba8215bd80889caa"
         },
         {
@@ -169,6 +226,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "2. OBJECT(S)\n   Quantity:           _ If more than 1, what is the distance between them? ( - ) :\n   (If more than one object with different characteristics, fill in the \"4\" (OBSERVATIONS;\n   below for each sighting.)\n   For each:         _| tJlo _ (jp\\               .                Size;\n   Color:             _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n   Distance from observer < - ) : _ . _ A i k . . f t ^                             EVENT\n   Behavior (stationary, moving, zigzag, etc); Jfjj:fx'rjLwtK 4p                    __jj_£_>\n   Trajectory (north to south, etc):                   __2 c\" S k • . ,\n   Position relative to cardinal points (azimuth): .\n   Emitting sound (y/n): _ V       Intensity (weak, strong, etc):     __ -\n   Sound type (humming, whistle, etc): „\n                                         7\n   Leaving trail (y/n); / V         If yes, normal / abnormal:        A_\n   Type (condensation, smoke, etc):                  A/                                              3r;/ItO / ^ ~ f c• Sc?\n                                                                       Coloration (light, dark, etc.) J _",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "6a72474d443331d92cbfea08cd2c6c300346346e8912c4c948fd46bb774f8ba7"
         },
         {
@@ -184,22 +254,46 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "3. (ONE OR) OBSERVERS\n   Quantity: _, Name (of the one who reported the occurrence) / & the",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "09c52311f80390d6ec3c2eda56c31c2b16c3ace8a8001e6825597fed9592bec0"
         },
         {
           "end_ms": null,
           "error": null,
           "page_id": "page-60ee9bc33b03bfe9e59963e1",
-          "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "qa_findings": [
+            {
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+              "severity": "warning",
+              "status": "needs-review"
+            }
+          ],
+          "review_status": "needs-review",
           "segment_id": "seg-deb96cbe849a8b5943a15b22",
           "segment_index": 9,
           "source_segment_id": "seg-deb96cbe849a8b5943a15b22",
           "source_text_sha256": "fe7d80747de8d82e1fc6442c48243cc6f849b6298cb9b3ad79fe1566a5645aee",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Contact address (Street/Av. n°. apartment): __UFO_PROTECTED_000__ ^e.^^(^pi^^C(AUBLJ^&R^^",
-          "translation_text_sha256": "1a9fe81f9ff3b8e5fe8f938ba7a52084727d22f319023176a31d0e1630bc5b8e"
+          "text": "Contact address (Street/Ave., no., apt.): ffo/fl '                          ^é.^^(^pí^^C(ÁUBlJ^&R^^",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "3628814a1fe6c15d6a05be93096263a2dc1cac52464b8ec0ad93e7c24f954bf0"
         },
         {
           "end_ms": null,
@@ -214,6 +308,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Neighborhood:    A-JÁ         _ _ b ã •       City/State; A ü r f t Cfl ji7\n                                                                                STT^tfclioTJc^\n(•) Fill in with two digits for each space.                               (a)    Q_______QÍ_!\n( - ) Specify the unit of measurement.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "12518252309c33f62726d5cf688da529ec841ffbd8766f33ffc1702f28609aa1"
         }
       ],
@@ -246,6 +353,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "079 P01      3/23/01 1 9:11\n                     \"651763      DPMI",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "68cf694939142651f235d34d02b99d655abdffccaf6b46c524290be12870abf4"
         },
         {
@@ -261,6 +381,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Send 97                                      SECRET CODENAME                         ON QSD AVIG 2/6",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "578b14ba43b20908a9b6fd39c0d9c66ba01e1e26bd8d18e09c68b52ea0732f02"
         },
         {
@@ -286,6 +419,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Phone (Area Code):  •^         36-?<                     FAX-\n   Age:         years. Profession (main occupation):\n   Education:,\n                                            5vLl? (yes/no);\n   Does he/she have technical knowledge about UFOs? (yes/no): ^  What kind: _\n   Does he/she belong to any organization that studies or observes UFOs? (yes/no): /V\n   If yes, which one? (name):\n   (address):",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "9783141ca095936a6b77861485d1326a16814eb99faf0339266fb550ca8d1e1d"
         },
         {
@@ -301,6 +447,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "(DDD, phone number, postal code, etc):",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "77c082d1891e4afcae6b196a91523eedceec2a681dc8ffc76fcd3bc64b388b66"
         },
         {
@@ -316,6 +475,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "4. OBSERVATIONS",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "dd544797e053159f0e6064f815c8ce9b86eaedceaa150d0d345070baad888e1e"
         },
         {
@@ -331,6 +503,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "(Report\n            what you deem necessary and the implementation of field \"2\", if applicable.)\n                            \n         —i—u_        1   _         ___       _a -\n                                                      jo      c>V/Vl",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "9c01ed508b54444f275b05351d62f481254e906691ff07609c84b4d806abb37e"
         },
         {
@@ -346,6 +531,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "4.\n\n                                    5",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "65f2981bd61ebcf9246cf971f6ba4de97fab206958b41e8220f8bc27faf4e257"
         },
         {
@@ -354,18 +552,10 @@
           "page_id": "page-9eddf3f9d3908b93af9a6b36",
           "qa_findings": [
             {
-              "added_in_translation": [
-                "1947",
-                "1967",
-                "2",
-                "3",
-                "4",
-                "5"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
               "severity": "warning",
-              "status": "mismatch"
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -374,9 +564,13 @@
           "source_segment_id": "seg-12c42c781d8dd490c84deba6",
           "source_text_sha256": "bef8cf74d6f97f31fe6f56cbe789cd334cb32994298aaa134d7214a38af7f096",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "1. Em 1947, um evento __UFO_PROTECTED_000__ foi relatado no estado de Washington, EUA. Vários testemunhas afirmaram ter visto um objeto em forma de disco voando a baixa altitude.\n\n2. O incidente mais famoso de abdução por alienígenas ocorreu em 1967, na cidade de Roswell, Novo México. Um objeto __UFO_PROTECTED_000__ foi supostamente encontrado e posteriormente coberto por um silêncio oficial.\n\n3. Os entusiastas dos __UFO_PROTECTED_000__ argumentam que a presença de tecnologia avançada de origem desconhecida é a melhor explicação para muitos avistamentos.\n\n4. No entanto, céticos apontam para possíveis explicações naturais ou humanas para tais fenômenos, incluindo fenômenos meteorológicos raros, aeronaves experimentais ou até mesmo fraudes.\n\n5. A pesquisa científica sobre __UFO_PROTECTED_000__ continua a ser um campo controverso, com muitos cientistas questionando a validade de relatos e evidências.",
-          "translation_text_sha256": "13a1cb85a087be8d31146ecf22e477fcdfb32164840f02a747f94a090ebf195f"
+          "status": "machine-unreviewed",
+          "text": "1\\",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "bef8cf74d6f97f31fe6f56cbe789cd334cb32994298aaa134d7214a38af7f096"
         },
         {
           "end_ms": null,
@@ -391,6 +585,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "i\n                                                       l1   \\\\\n                                                                        \\\n                                                        •         .",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "a7b560a732a2da01dadfde1d8f1156b1cd424ea81b633fb63250bd51baf34b49"
         },
         {
@@ -416,6 +623,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "5. COMMUNICATION TO A MILITARY ORGANIZATION (MO) OF THE MAER\n       Communication Date (-):  -Qj 40. i    Time (•): j$   ZZ I Z\n       Recipient (Rank/Title, Name):  { 4v- ãCLvlw çjtyifí  MO:  GOfW _",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "22b8139e816cf5ebdd90ebcd7bf5b379b0f40ccfbb1001837fd460574437a17b"
         },
         {
@@ -431,6 +651,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "( • ) Enter two digits for each and every action.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T03:51:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "partial",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "845f06a74a7eee6d611115d91fdab545c9b673e966ced728be653888cc068e08"
         }
       ],
@@ -442,13 +675,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-27T03:51:20Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v2"
+    "generated_at": "2026-09-27T04:33:23Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "6c640d7aa06e914100084a4bb2e6f5a4dc3dce9465d221e3f147888b1f654d04",
+  "canonical_text_sha256": "9f1755665476e6735fa840e7bdd6dbb0f18aa784c97fedca9009132ad7311239",
   "document_id": "doc-cabecd552dfc1c7fc4cfed85",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -34,7 +34,7 @@
       }
     ]
   },
-  "retranslated_at": "2026-09-27T03:55:24Z",
+  "retranslated_at": "2026-09-27T04:36:25Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -43,17 +43,31 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 26,
   "source_bytes": 1273230,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "Doc. analisado em: 30/04/2010",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "*Dcc anafiwdo «m:___2 JJÍUZO                            ^° .",
+      "original_text_sha256": "d5715eadfdd19f28b4ef3fd3ab8e402f8be4efca7de23af8891a3302f2ecffd5",
+      "page": 1,
+      "segment_id": "seg-7563ebc6908e56bb6abf0792",
+      "source_page_render_sha256": "f30a249f9dd792304b7cd2d1d798eb741268fadfaf469bd8e9e03d9b52762644",
+      "source_rel": "Upload/BR_AN_BSB_ARX_636 BR_AN_BSB_ARX_636.pdf",
+      "translation": "Doc. analysed on: 30/04/2010"
+    }
+  ],
   "source_sha256": "7e61bd2d911d2484a64df5e4e23148662c37fcbde23c389b090ca03f370091ca",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T03:55:24Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+    "generated_at": "2026-09-27T04:36:25Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v2"
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "8e109d44a0a1773d7bcc86d26e6f0bcce5f43690cb8ed44264b3b30c83c3121e"
+  "translation_text_sha256": "796a1f1d336ab2fe96959b7de8dc9b77401ca1def5c76fd43b4cdd101dcc59b1"
 }

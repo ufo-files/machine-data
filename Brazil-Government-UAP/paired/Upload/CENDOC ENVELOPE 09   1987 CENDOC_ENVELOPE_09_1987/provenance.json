@@ -14,6 +14,67 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 89,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-13T04:56:16Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "1243529b2fc365ee375175f212ba7eb8432aebe4fc322fb5a4a7ec8e9a0db66c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "f377be01fbbea7083767ea4dc982f32f857cb0285fbd43ae2813e35e7ae70aec",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "32bde46f79d2d00c42d2306190a34641074cd2e42bc2c2cf52a6480056764f7f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "3a94f1d1ee3863d4791c1736c7696492f7ec69037e9d4e540a8016597264b687",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "36af03f662581c4072529450d78fd24c284ebb78e02c0739c6f64ef18926eadc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "a1245a410e17694269f033a8a3ec6339ebea1003bd0420e169adb14116e95031",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "63a088827c83b1c5eed5168803968c4dce26c2f9f291e3ee77fe45c73317d778",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "bcff161c9433596b8719423420a2ba849227ddfd8f80db3636b4bad15c5718bf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "ab7e859eecb817a3edaf789fbfd736b01a27cd33a5a2358ad57c1ff5e37c299b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "b052a2d23fbed22fade13f0a05f7d5a863cb0140e74c285c76a2f05ac92efa8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "552787cfcdb7d8942a0da22f05150befe828ef1cec0e1fbba61d8bfd20688d5d",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T05:02:20Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -25,14 +86,14 @@
   "source_sha256": "670271d7243334c50081c034be5f4c8c9918cefd16ae3257a691a89cbbcc1c27",
   "status": "partial",
   "translation": {
-    "generated_at": "2026-08-13T04:56:16Z",
+    "generated_at": "2026-09-27T05:02:20Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v3"
   },
-  "translation_text_sha256": "dfb0c159ee0c97aeac9b9803a864ed417af6090a5d3a031910c59720ddfd0495"
+  "translation_text_sha256": "51637b02f263d0908da1b6a1ac7b28e8803f1b542a21739680d177ea1bfdc192"
 }

@@ -14,6 +14,51 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 95,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T05:09:50Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "needs-review",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v3"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "9c2b7c84809aa0b0e4de7b213c762d1f161409da9261d299823317c4b988a569",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "2de37e194539480ac127408c011038ea5db613d7a28d6df30aa0a2be4d8d2e19",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8a841de2f51b6c5a3fcb90603a56dd56f8765377dcea7247ba66c1985f4537ee",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d58b411f764fc9d0975c390398ae330e2b1dacee3b62e2635e6c803e7705bfe0",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T05:14:48Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -25,14 +70,14 @@
   "source_sha256": "a75169a8d1f952d5e29705af035702456ebf5ed3fc69b058a8d103084694df24",
   "status": "complete",
   "translation": {
-    "generated_at": "2026-08-09T22:10:33Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+    "generated_at": "2026-09-27T05:14:48Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "27c3e5f248d6c0e38e983690463cc4cffe4888501e2e4be6ac036f12f62b43e0"
+  "translation_text_sha256": "814756bcfd6d272ff81a1400095f21674448337d565e2a744225a4babd854354"
 }

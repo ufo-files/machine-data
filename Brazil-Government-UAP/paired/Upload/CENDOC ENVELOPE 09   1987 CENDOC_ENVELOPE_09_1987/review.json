@@ -46,9 +46,19 @@
     {
       "reasons": [
         "military-or-official-abbreviation",
+        "table-or-form",
         "translation-failure-or-qa"
       ],
-      "review_status": "failed-protected-token-check",
+      "review_status": "needs-review",
+      "segment_id": "seg-c49311c3cf027777f0eecf05",
+      "weight": 16
+    },
+    {
+      "reasons": [
+        "military-or-official-abbreviation",
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
       "segment_id": "seg-03332cfa557d5a1091857e90",
       "weight": 13
     },
@@ -103,6 +113,15 @@
         "translation-failure-or-qa"
       ],
       "review_status": "needs-review",
+      "segment_id": "seg-228f8442273739a5d9497f94",
+      "weight": 13
+    },
+    {
+      "reasons": [
+        "table-or-form",
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
       "segment_id": "seg-274ad6899f0a00bda9d1ec91",
       "weight": 13
     },
@@ -113,6 +132,15 @@
       ],
       "review_status": "needs-review",
       "segment_id": "seg-481cf4388d6a5787aa2e72c7",
+      "weight": 13
+    },
+    {
+      "reasons": [
+        "table-or-form",
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
+      "segment_id": "seg-5851902b3d270a8439b25a3c",
       "weight": 13
     },
     {
@@ -140,6 +168,15 @@
       ],
       "review_status": "needs-review",
       "segment_id": "seg-86a1cb3d304f6110efe72751",
+      "weight": 13
+    },
+    {
+      "reasons": [
+        "table-or-form",
+        "translation-failure-or-qa"
+      ],
+      "review_status": "needs-review",
+      "segment_id": "seg-92b159af8045f84e80056f72",
       "weight": 13
     },
     {
@@ -195,40 +232,6 @@
       "review_status": "needs-review",
       "segment_id": "seg-d72518c683cc39d05e43fb78",
       "weight": 13
-    },
-    {
-      "reasons": [
-        "table-or-form",
-        "translation-failure-or-qa"
-      ],
-      "review_status": "failed-protected-token-check",
-      "segment_id": "seg-d7ce94bd8c02e7d6376f6935",
-      "weight": 13
-    },
-    {
-      "reasons": [
-        "table-or-form",
-        "translation-failure-or-qa"
-      ],
-      "review_status": "needs-review",
-      "segment_id": "seg-de13d59442a0ada6c13e69d3",
-      "weight": 13
-    },
-    {
-      "reasons": [
-        "translation-failure-or-qa"
-      ],
-      "review_status": "needs-review",
-      "segment_id": "seg-a8c06c3b38bf9c44199d9957",
-      "weight": 10
-    },
-    {
-      "reasons": [
-        "translation-failure-or-qa"
-      ],
-      "review_status": "needs-review",
-      "segment_id": "seg-cd4618d2978331bbb5e91004",
-      "weight": 10
     }
   ],
   "selection_method": "deterministic weighted sample: failures, handwriting/stamps, low OCR confidence, forms, abbreviations, important cases"
