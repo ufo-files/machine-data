@@ -215,7 +215,16 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         return ""
     text = pt_list.sub(lambda match: add_list(match, True), text)
     text = en_list.sub(lambda match: add_list(match, False), text)
+    # English dates may retain the source's two-digit year and day-first order.
+    text = re.sub(
+        r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{2})\b",
+        lambda match: match.group(1) + " " + match.group(2) + ", "
+        + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
+        text, flags=re.I,
+    )
     abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
+    abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
+    abbreviations.update(EN_MONTHS)
     abbreviation = re.compile(r"\b(\d{1,2})\s+(?:de\s+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()

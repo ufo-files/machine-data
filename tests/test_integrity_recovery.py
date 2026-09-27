@@ -83,3 +83,10 @@ class IntegrityRecoveryTests(unittest.TestCase):
         for source, target in pairs:
             self.assertFalse(any(f['check']=='negation' for f in compare_translation(source, target)))
             self.assertTrue(any(f['check']=='negation' for f in compare_translation(source, target.replace('Cannot', 'Can'))))
+
+    def test_english_day_first_dates_and_short_years(self):
+        source = '13 Mai 96'
+        for target in ['May 13, 96', '13 May 96', '13 May 1996', 'May 13, 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, target.replace('13', '14'))))
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation('13 Ago 96', '13 Aug. 1996')))
