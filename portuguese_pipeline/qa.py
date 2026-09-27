@@ -36,7 +36,7 @@ MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
     r"(?:[ \t]+(?:a|to)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
     r")?[ \t]*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
-    r"quil[oô]metros?|kilometers?|feet|foot|miles?)(?!\w)",
+    r"quil[oô]metros?|kilometers?|feet|foot|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
 NUMBER = re.compile(
@@ -84,6 +84,7 @@ UNIT_ALIASES = {
     "pé": "ft", "pés": "ft", "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
     "milímetro": "mm", "milímetros": "mm", "millimeter": "mm", "millimeters": "mm", "mm": "mm",
+    "minuto": "min", "minutos": "min", "minute": "min", "minutes": "min",
     "kg": "kg", "g": "g", "m/s": "m/s", "km/h": "km/h", "mph": "mph",
 }
 GENERIC_NAME_WORDS = {
@@ -244,6 +245,9 @@ def _number_value(value: str) -> str:
 
 def _measurements(text: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # OCR letter spacing in a duration must not become the metre abbreviation.
+    text = re.sub(r"\bm[ \t]+i[ \t]+n[ \t]+u[ \t]+t[ \t]+o(?:[ \t]+s)?\b",
+                  "minutos", text, flags=re.I)
     for match in MEASUREMENT.finditer(text):
         raw = match.group(0)
         number_match = re.match(r"\d+(?:[.,]\d+)?", raw)

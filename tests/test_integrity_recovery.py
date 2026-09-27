@@ -38,3 +38,9 @@ class IntegrityRecoveryTests(unittest.TestCase):
 
     def test_explicit_negative_contraction_is_not_lost_negation(self):
         self.assertFalse(any(x['check']=='negation' for x in compare_translation('Não era visível.', "It wasn't visible.")))
+
+    def test_letter_spaced_minutes_are_not_metres(self):
+        source = 'permaneceu a 15 m i n u t o s .'
+        self.assertFalse(any(f['check']=='measurements' for f in compare_translation(source, 'remained at 15 minutes.')))
+        for target in ['remained at 20 minutes.', 'remained at 15 meters.']:
+            self.assertTrue(any(f['check']=='measurements' for f in compare_translation(source, target)))
