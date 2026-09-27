@@ -1,0 +1,1926 @@
+{"created_utc": "2026-09-27T11:33:09Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 127137, "source_ctime_ns": 1790400836040069331, "source_file": "Archives-for-the-Unexplained/documents/2023-06-23---NASA-Astrobiology---AbGradCon-2023-Microscopy-Methods-for-Life-Detection-on-Icy-Ocean-Worlds-by-Pavel-Klier_8KTCL43gKOw---transcript-automated-.pdf", "source_mtime_ns": 1790400836032726818, "source_rel": "Archives-for-the-Unexplained/documents/2023-06-23---NASA-Astrobiology---AbGradCon-2023-Microscopy-Methods-for-Life-Detection-on-Icy-Ocean-Worlds-by-Pavel-Klier_8KTCL43gKOw---transcript-automated-.pdf", "source_sha256": "20dafe8a49a5670cf2b14428a8e0c95fccd5b53e6ed81209f47905712bb56d67"}
+
+1
+00:00:04,230 --> 00:00:11,589
+[Music]
+
+2
+00:00:14,990 --> 00:00:13,490
+hi everyone
+
+3
+00:00:16,670 --> 00:00:15,000
+um I'm just going to make a quick note
+
+4
+00:00:18,590 --> 00:00:16,680
+before we start that it's great to be an
+
+5
+00:00:19,970 --> 00:00:18,600
+astrobiology conference because the
+
+6
+00:00:22,790 --> 00:00:19,980
+background slides are going to go much
+
+7
+00:00:24,349 --> 00:00:22,800
+more smoothly I presented the sort of
+
+8
+00:00:27,830 --> 00:00:24,359
+microscopy conference a few months back
+
+9
+00:00:29,689 --> 00:00:27,840
+and it was a different experience so
+
+10
+00:00:31,250 --> 00:00:29,699
+thank you all for being here
+
+11
+00:00:32,810 --> 00:00:31,260
+um and being you
+
+12
+00:00:34,729 --> 00:00:32,820
+um so
+
+13
+00:00:36,049 --> 00:00:34,739
+um I'm going to talk uh this is going to
+
+14
+00:00:38,270 --> 00:00:36,059
+be a little bit of a pivot from some of
+
+15
+00:00:40,970 --> 00:00:38,280
+the previous talks but I'm going to talk
+
+16
+00:00:45,049 --> 00:00:40,980
+um about some of the methods that I've
+
+17
+00:00:49,010 --> 00:00:45,059
+been working on to actually detect life
+
+18
+00:00:51,650 --> 00:00:49,020
+on a mission a life detection mission to
+
+19
+00:00:53,330 --> 00:00:51,660
+Europa or Enceladus I'm also going to
+
+20
+00:00:56,689 --> 00:00:53,340
+make a note so I'm going to be talking
+
+21
+00:00:58,490 --> 00:00:56,699
+about uh a life life detection missions
+
+22
+00:01:02,150 --> 00:00:58,500
+to Europa and Enceladus as a target for
+
+23
+00:01:03,410 --> 00:01:02,160
+this but um once you have a space
+
+24
+00:01:05,090 --> 00:01:03,420
+capable microscope this could
+
+25
+00:01:06,410 --> 00:01:05,100
+potentially be applied to like all sorts
+26
+00:01:08,450 --> 00:01:06,420
+of destinations so there's lots of fun
+
+27
+00:01:11,210 --> 00:01:08,460
+possibilities here
+
+28
+00:01:13,730 --> 00:01:11,220
+the aforementioned background slides so
+
+29
+00:01:15,109 --> 00:01:13,740
+um when we're picking destinations to
+
+30
+00:01:15,890 --> 00:01:15,119
+look for life
+
+31
+00:01:18,410 --> 00:01:15,900
+um
+
+32
+00:01:20,149 --> 00:01:18,420
+there's uh we like to look for places
+
+33
+00:01:22,730 --> 00:01:20,159
+that have habitable conditions things
+
+34
+00:01:26,749 --> 00:01:22,740
+that have liquid water abundant energy
+
+35
+00:01:29,390 --> 00:01:26,759
+sources and conditions that are suitable
+
+36
+00:01:31,850 --> 00:01:29,400
+for uh Life as we know it or as we might
+
+37
+00:01:33,950 --> 00:01:31,860
+predict it may exist and
+
+38
+00:01:35,210 --> 00:01:33,960
+um I'm just gonna let Enceladus and
+
+39
+00:01:36,770 --> 00:01:35,220
+Europa sit up there because we've
+
+40
+00:01:38,990 --> 00:01:36,780
+already heard a lot of justifications as
+
+41
+00:01:40,550 --> 00:01:39,000
+to why those are promising targets to
+
+42
+00:01:42,050 --> 00:01:40,560
+find those conditions and why we might
+
+43
+00:01:45,530 --> 00:01:42,060
+have had
+
+44
+00:01:48,230 --> 00:01:45,540
+um an uh origin of life or uh living
+
+45
+00:01:50,749 --> 00:01:48,240
+organisms currently there
+
+46
+00:01:51,950 --> 00:01:50,759
+um but when we're searching for life we
+
+47
+00:01:54,170 --> 00:01:51,960
+also have to think about how we're
+
+48
+00:01:55,910 --> 00:01:54,180
+actually going to look for it and so
+
+49
+00:01:58,670 --> 00:01:55,920
+um we can kind of break down life into
+
+50
+00:02:02,630 --> 00:01:58,680
+some of the key components that make it
+51
+00:02:04,749 --> 00:02:02,640
+up things like uh catalysts that help it
+
+52
+00:02:07,550 --> 00:02:04,759
+uh metabolize
+
+53
+00:02:09,589 --> 00:02:07,560
+things like information storage polymers
+
+54
+00:02:10,609 --> 00:02:09,599
+so DNA or RNA and earth-based life and
+
+55
+00:02:12,530 --> 00:02:10,619
+that might look very different for
+
+56
+00:02:16,369 --> 00:02:12,540
+extraterrestrial life
+
+57
+00:02:18,830 --> 00:02:16,379
+um and also compartments life on on
+
+58
+00:02:21,350 --> 00:02:18,840
+Earth Life as we know it loves to put
+
+59
+00:02:23,510 --> 00:02:21,360
+things inside of membranes and then
+
+60
+00:02:25,790 --> 00:02:23,520
+sometimes they put those membranes
+
+61
+00:02:28,610 --> 00:02:25,800
+inside other membranes and have them
+
+62
+00:02:30,890 --> 00:02:28,620
+connect to other even more membranes but
+
+63
+00:02:33,830 --> 00:02:30,900
+those that packaging really helps it do
+
+64
+00:02:37,369 --> 00:02:33,840
+some interesting chemistry
+
+65
+00:02:40,190 --> 00:02:37,379
+um and so when we're then thinking about
+
+66
+00:02:43,009 --> 00:02:40,200
+this in the context of a mission
+
+67
+00:02:44,869 --> 00:02:43,019
+um we can start to think about how we
+
+68
+00:02:46,910 --> 00:02:44,879
+might actually observe that and what
+
+69
+00:02:48,589 --> 00:02:46,920
+analytical approaches we need to take to
+
+70
+00:02:51,589 --> 00:02:48,599
+try and get at that
+
+71
+00:02:52,670 --> 00:02:51,599
+um and so I put the like giant table up
+
+72
+00:02:55,369 --> 00:02:52,680
+here
+
+73
+00:02:57,110 --> 00:02:55,379
+um because uh these are all things that
+
+74
+00:02:59,390 --> 00:02:57,120
+people are working on
+
+75
+00:03:01,670 --> 00:02:59,400
+um for Life detection instrumentation
+76
+00:03:03,770 --> 00:03:01,680
+but we're going to be focusing for this
+
+77
+00:03:05,270 --> 00:03:03,780
+talk on containers
+
+78
+00:03:08,030 --> 00:03:05,280
+um and so
+
+79
+00:03:10,790 --> 00:03:08,040
+um the reason for that is
+
+80
+00:03:13,190 --> 00:03:10,800
+um that again as mentioned life loves to
+
+81
+00:03:14,690 --> 00:03:13,200
+package things into compartments and
+
+82
+00:03:18,050 --> 00:03:14,700
+those compartments can be directly
+
+83
+00:03:20,869 --> 00:03:18,060
+observable by using a microscope to look
+
+84
+00:03:23,630 --> 00:03:20,879
+for morphology and also for the
+
+85
+00:03:25,670 --> 00:03:23,640
+collocalization of certain key chemical
+
+86
+00:03:26,270 --> 00:03:25,680
+biomarkers
+
+87
+00:03:28,970 --> 00:03:26,280
+um
+
+88
+00:03:32,030 --> 00:03:28,980
+so in
+
+89
+00:03:33,710 --> 00:03:32,040
+um our team we're working on um a
+
+90
+00:03:35,750 --> 00:03:33,720
+microscopy system that we call a
+
+91
+00:03:37,009 --> 00:03:35,760
+luminescence imager for exploration or
+
+92
+00:03:39,290 --> 00:03:37,019
+life
+
+93
+00:03:42,770 --> 00:03:39,300
+um and there is uh two key hardware
+
+94
+00:03:44,930 --> 00:03:42,780
+components of this system one is the
+
+95
+00:03:46,190 --> 00:03:44,940
+fluidic subsystem and this is to deal
+
+96
+00:03:48,410 --> 00:03:46,200
+with
+
+97
+00:03:51,770 --> 00:03:48,420
+um the actual sample processing and
+
+98
+00:03:53,509 --> 00:03:51,780
+preparation for Imaging something so um
+
+99
+00:03:55,250 --> 00:03:53,519
+my background full disclosure is
+
+100
+00:03:58,130 --> 00:03:55,260
+actually not an astrobiology it's in
+101
+00:04:00,410 --> 00:03:58,140
+fluorescence microscopy and
+
+102
+00:04:02,630 --> 00:04:00,420
+um you know I spent like five or six
+
+103
+00:04:05,030 --> 00:04:02,640
+years in grad school just moving fluids
+
+104
+00:04:06,830 --> 00:04:05,040
+around in tubes and like preparing
+
+105
+00:04:09,470 --> 00:04:06,840
+things on slides before they actually
+
+106
+00:04:10,850 --> 00:04:09,480
+get to the microscope I've been told it
+
+107
+00:04:14,089 --> 00:04:10,860
+would be expensive to send me to
+
+108
+00:04:15,470 --> 00:04:14,099
+Enceladus so uh this is this is my
+
+109
+00:04:18,110 --> 00:04:15,480
+replacement
+
+110
+00:04:20,210 --> 00:04:18,120
+um and then the other end is the actual
+
+111
+00:04:21,830 --> 00:04:20,220
+microscope itself so the optic system
+
+112
+00:04:22,909 --> 00:04:21,840
+which is going to have all of the things
+
+113
+00:04:25,010 --> 00:04:22,919
+that you need to actually take your
+
+114
+00:04:27,409 --> 00:04:25,020
+pretty pictures
+
+115
+00:04:29,629 --> 00:04:27,419
+um so I'm gonna break down what goes
+
+116
+00:04:33,110 --> 00:04:29,639
+into these systems a little bit so the
+
+117
+00:04:35,030 --> 00:04:33,120
+fluidic subsystem that uh like uh silver
+
+118
+00:04:39,110 --> 00:04:35,040
+plate on top
+
+119
+00:04:42,530 --> 00:04:39,120
+um is the rotary filter stage and so the
+
+120
+00:04:44,930 --> 00:04:42,540
+um the stage can do seven individual
+
+121
+00:04:46,850 --> 00:04:44,940
+experiments um and so that accounts for
+
+122
+00:04:48,950 --> 00:04:46,860
+originally this was designed with the
+
+123
+00:04:50,810 --> 00:04:48,960
+Europa Lander Mission Concept in mind
+
+124
+00:04:53,930 --> 00:04:50,820
+where there would be three separate
+
+125
+00:04:56,749 --> 00:04:53,940
+samples each with a replicate and then a
+126
+00:04:59,090 --> 00:04:56,759
+procedural blank and then each of those
+
+127
+00:04:59,770 --> 00:04:59,100
+individually has
+
+128
+00:05:04,730 --> 00:04:59,780
+um
+
+129
+00:05:07,730 --> 00:05:04,740
+three uh filters of different sizes
+
+130
+00:05:10,010 --> 00:05:07,740
+um and so uh that basically will let you
+
+131
+00:05:13,189 --> 00:05:10,020
+sort out particles so the filters are 10
+
+132
+00:05:16,010 --> 00:05:13,199
+microns 1.2 microns and uh 0.2 microns
+
+133
+00:05:18,650 --> 00:05:16,020
+in size and that's just so you don't end
+
+134
+00:05:19,850 --> 00:05:18,660
+up with larger particles obscuring any
+
+135
+00:05:21,890 --> 00:05:19,860
+of the smaller particles that you're
+
+136
+00:05:24,950 --> 00:05:21,900
+trying to image in your sample
+
+137
+00:05:27,830 --> 00:05:24,960
+um and that way you're not missing any
+
+138
+00:05:28,790 --> 00:05:27,840
+of the like good stuff that might be
+
+139
+00:05:29,450 --> 00:05:28,800
+there
+
+140
+00:05:31,670 --> 00:05:29,460
+um
+
+141
+00:05:33,230 --> 00:05:31,680
+there you use all it's also attached to
+
+142
+00:05:34,730 --> 00:05:33,240
+the fluidix manifold which is the part
+
+143
+00:05:37,550 --> 00:05:34,740
+that actually moves all of the liquids
+
+144
+00:05:40,689 --> 00:05:37,560
+and fluids around and it also has a lot
+
+145
+00:05:44,570 --> 00:05:40,699
+of sensors for pressure pH conductivity
+
+146
+00:05:46,550 --> 00:05:44,580
+and also crucially some storage for the
+
+147
+00:05:47,930 --> 00:05:46,560
+fluorescent stains that I'm going to be
+
+148
+00:05:49,550 --> 00:05:47,940
+talking about a little bit later in the
+
+149
+00:05:50,450 --> 00:05:49,560
+talk
+
+150
+00:05:52,790 --> 00:05:50,460
+um
+151
+00:05:54,650 --> 00:05:52,800
+and then these were the filters that I
+
+152
+00:05:57,050 --> 00:05:54,660
+mentioned earlier and so uh this is
+
+153
+00:05:59,510 --> 00:05:57,060
+again for sample size sorting but
+
+154
+00:06:01,070 --> 00:05:59,520
+they're also made of a silicon nitrate
+
+155
+00:06:02,629 --> 00:06:01,080
+substrate that has a low fluorescence
+
+156
+00:06:06,350 --> 00:06:02,639
+background
+
+157
+00:06:08,870 --> 00:06:06,360
+um and this whole system has passed
+
+158
+00:06:12,290 --> 00:06:08,880
+Environmental Testing so um one thing
+
+159
+00:06:15,230 --> 00:06:12,300
+about microscopes and also uh you know
+
+160
+00:06:17,469 --> 00:06:15,240
+fluid fluidix has a fair bit of space
+
+161
+00:06:20,390 --> 00:06:17,479
+flight Heritage but in general Hardware
+
+162
+00:06:22,490 --> 00:06:20,400
+uh can break and I'm sure everyone who's
+
+163
+00:06:24,590 --> 00:06:22,500
+worked in a lab is dealt with a lot of
+
+164
+00:06:26,150 --> 00:06:24,600
+like issues before so you want to make
+
+165
+00:06:27,529 --> 00:06:26,160
+sure these things are robust and you can
+
+166
+00:06:29,870 --> 00:06:27,539
+actually get it to where you want to
+
+167
+00:06:33,890 --> 00:06:29,880
+launch it to
+
+168
+00:06:37,790 --> 00:06:33,900
+um the optic subsystem is a nice small
+
+169
+00:06:39,350 --> 00:06:37,800
+compact box and so um this is a 10
+
+170
+00:06:43,850 --> 00:06:39,360
+centimeter by 10 centimeter by 13
+
+171
+00:06:45,590 --> 00:06:43,860
+centimeter Cube I have uh an image on my
+
+172
+00:06:47,330 --> 00:06:45,600
+phone that I didn't upload to the
+
+173
+00:06:49,790 --> 00:06:47,340
+presentation because the image quality
+
+174
+00:06:53,749 --> 00:06:49,800
+is not that good but for context that's
+
+175
+00:06:56,150 --> 00:06:53,759
+about as tall as a banana which is very
+176
+00:06:59,150 --> 00:06:56,160
+small for like a benchtop fluorescence
+
+177
+00:07:01,850 --> 00:06:59,160
+microscope um there is like fancier
+
+178
+00:07:04,129 --> 00:07:01,860
+microscopes can sometimes be like the
+
+179
+00:07:05,870 --> 00:07:04,139
+size of of a person if you're trying to
+
+180
+00:07:07,670 --> 00:07:05,880
+do crazy like two Photon lifetime
+
+181
+00:07:09,890 --> 00:07:07,680
+Imaging or something but even an Epi
+
+182
+00:07:11,990 --> 00:07:09,900
+fluorescent scope would probably occupy
+
+183
+00:07:13,550 --> 00:07:12,000
+like this Podium normally and there'd be
+
+184
+00:07:15,950 --> 00:07:13,560
+a lot of like miscellaneous kind of
+
+185
+00:07:18,409 --> 00:07:15,960
+assorted parts so it's a really nice
+
+186
+00:07:20,510 --> 00:07:18,419
+little system
+
+187
+00:07:23,390 --> 00:07:20,520
+and so that contains all of the
+
+188
+00:07:24,890 --> 00:07:23,400
+excitation LEDs emission filters all the
+
+189
+00:07:27,710 --> 00:07:24,900
+Optics
+
+190
+00:07:30,409 --> 00:07:27,720
+um and so uh this table is just kind of
+
+191
+00:07:33,170 --> 00:07:30,419
+going through what the different uh bits
+
+192
+00:07:36,589 --> 00:07:33,180
+of Hardware that we have are and
+
+193
+00:07:38,870 --> 00:07:36,599
+um to kind of like give the the the high
+
+194
+00:07:42,409 --> 00:07:38,880
+level Summary of why this is relevant
+
+195
+00:07:44,210 --> 00:07:42,419
+um basically we have three LEDs that are
+
+196
+00:07:46,730 --> 00:07:44,220
+common excitation wavelengths for
+
+197
+00:07:48,170 --> 00:07:46,740
+different fluorescent stains that can
+
+198
+00:07:50,749 --> 00:07:48,180
+also excite different types of
+
+199
+00:07:52,909 --> 00:07:50,759
+autofluorescence and then
+
+200
+00:07:55,670 --> 00:07:52,919
+um one thing that's actually relatively
+201
+00:07:56,930 --> 00:07:55,680
+unique to this microscope certainly no
+
+202
+00:07:59,629 --> 00:07:56,940
+microscopes I've worked with previously
+
+203
+00:08:01,610 --> 00:07:59,639
+have had this is the 275 nanometer LED
+
+204
+00:08:03,409 --> 00:08:01,620
+so that's actually fairly far in the
+
+205
+00:08:05,450 --> 00:08:03,419
+ultraviolet range
+
+206
+00:08:08,529 --> 00:08:05,460
+um and that's really good at exciting
+
+207
+00:08:11,870 --> 00:08:08,539
+protein fluorescence so uh tryptophan
+
+208
+00:08:14,150 --> 00:08:11,880
+phenylalanine the various aromatic amino
+
+209
+00:08:16,730 --> 00:08:14,160
+acid side chains actually fluoresce
+
+210
+00:08:18,409 --> 00:08:16,740
+quite brightly in the ultraviolet and so
+
+211
+00:08:21,469 --> 00:08:18,419
+that can help image native fluorescent
+
+212
+00:08:24,050 --> 00:08:21,479
+of samples and also excite the
+
+213
+00:08:25,369 --> 00:08:24,060
+fluorescence of many different kinds of
+
+214
+00:08:26,710 --> 00:08:25,379
+minerals
+
+215
+00:08:31,309 --> 00:08:26,720
+um
+
+216
+00:08:32,570 --> 00:08:31,319
+the objective is also set up to help uh
+
+217
+00:08:35,209 --> 00:08:32,580
+well it's
+
+218
+00:08:37,250 --> 00:08:35,219
+robust a space flight but also the part
+
+219
+00:08:39,350 --> 00:08:37,260
+that I think is super fun is that it
+
+220
+00:08:41,449 --> 00:08:39,360
+most objectives actually can't collect
+
+221
+00:08:43,010 --> 00:08:41,459
+light in that ultraviolet range
+
+222
+00:08:46,310 --> 00:08:43,020
+um so it is a custom objective that's
+
+223
+00:08:48,590 --> 00:08:46,320
+built for those sorts of experiments
+
+224
+00:08:52,190 --> 00:08:48,600
+um it has a Piezo stage that lets us do
+
+225
+00:08:54,410 --> 00:08:52,200
+automated Z stacking and this is also
+226
+00:08:57,170 --> 00:08:54,420
+been subjected to environmental and
+
+227
+00:08:58,730 --> 00:08:57,180
+shock and vibrational testing and also
+
+228
+00:09:00,650 --> 00:08:58,740
+radiation testing
+
+229
+00:09:02,990 --> 00:09:00,660
+um to the specifications of the Europa
+
+230
+00:09:08,329 --> 00:09:03,000
+Lander mission
+
+231
+00:09:10,070 --> 00:09:08,339
+so um we're now on our ongoing work is
+
+232
+00:09:13,250 --> 00:09:10,080
+actually characterizing this microscope
+
+233
+00:09:16,190 --> 00:09:13,260
+by Imaging different types of samples to
+
+234
+00:09:18,949 --> 00:09:16,200
+see what the the the limits are of what
+
+235
+00:09:20,690 --> 00:09:18,959
+we can detect so um this sample is just
+
+236
+00:09:23,030 --> 00:09:20,700
+kind of showing uh some of the bright
+
+237
+00:09:24,530 --> 00:09:23,040
+some bright field images from a sample
+
+238
+00:09:27,769 --> 00:09:24,540
+that was collected from Lake undersea in
+
+239
+00:09:30,470 --> 00:09:27,779
+Antarctica and so um I'm showing here
+
+240
+00:09:33,590 --> 00:09:30,480
+the 10 Micron and 1.2 Micron filters to
+
+241
+00:09:36,470 --> 00:09:33,600
+kind of highlight that um we can image
+
+242
+00:09:38,810 --> 00:09:36,480
+the the objects at
+
+243
+00:09:42,170 --> 00:09:38,820
+um of very different sizes and you can
+
+244
+00:09:44,269 --> 00:09:42,180
+see the physical uh size of the little
+
+245
+00:09:48,230 --> 00:09:44,279
+uh holes there
+
+246
+00:09:51,650 --> 00:09:48,240
+um and so if we were to just put this
+
+247
+00:09:53,870 --> 00:09:51,660
+all onto one filter that microbial matte
+
+248
+00:09:55,490 --> 00:09:53,880
+looking thing on the the
+
+249
+00:09:57,290 --> 00:09:55,500
+your left
+
+250
+00:09:59,150 --> 00:09:57,300
+um would probably obscure some of the
+251
+00:10:01,370 --> 00:09:59,160
+smaller objects that we're seeing in the
+
+252
+00:10:01,910 --> 00:10:01,380
+other filter sizes
+
+253
+00:10:03,350 --> 00:10:01,920
+um
+
+254
+00:10:04,910 --> 00:10:03,360
+and so
+
+255
+00:10:07,250 --> 00:10:04,920
+um as I mentioned earlier we can also
+
+256
+00:10:08,509 --> 00:10:07,260
+excite native fluorescence and so we can
+
+257
+00:10:10,670 --> 00:10:08,519
+correlate this as well with the bright
+
+258
+00:10:12,290 --> 00:10:10,680
+field images so we can take an image of
+
+259
+00:10:15,350 --> 00:10:12,300
+an object say oh hey that looks
+
+260
+00:10:17,509 --> 00:10:15,360
+interesting I wonder what that is look
+
+261
+00:10:18,829 --> 00:10:17,519
+at the you know native fluorescence in
+
+262
+00:10:21,009 --> 00:10:18,839
+different ranges and get a sense of okay
+
+263
+00:10:23,269 --> 00:10:21,019
+wait we've got a bunch of like
+
+264
+00:10:25,009 --> 00:10:23,279
+Organics that are fluorescing in the UV
+
+265
+00:10:27,970 --> 00:10:25,019
+range that are all localized on this
+
+266
+00:10:31,790 --> 00:10:27,980
+object that's pretty exciting
+
+267
+00:10:33,949 --> 00:10:31,800
+and then we can also then stain the
+
+268
+00:10:35,990 --> 00:10:33,959
+sample with fluorescent stains to look
+
+269
+00:10:39,130 --> 00:10:36,000
+for more specific chemical signatures
+
+270
+00:10:41,990 --> 00:10:39,140
+and so in this case I'm showing the same
+
+271
+00:10:44,810 --> 00:10:42,000
+sample after it's been treated with a
+
+272
+00:10:47,870 --> 00:10:44,820
+stain for primary amines and another one
+
+273
+00:10:50,690 --> 00:10:47,880
+that stains lipids and so we can look
+
+274
+00:10:53,530 --> 00:10:50,700
+for both the presence of those molecules
+
+275
+00:10:56,630 --> 00:10:53,540
+but also their co-localization in space
+276
+00:10:58,190 --> 00:10:56,640
+and this is a really like unique and
+
+277
+00:11:00,590 --> 00:10:58,200
+Powerful kind of data that you can get
+
+278
+00:11:02,690 --> 00:11:00,600
+from the microscope is not just like
+
+279
+00:11:04,610 --> 00:11:02,700
+what compounds are there but seeing that
+
+280
+00:11:06,889 --> 00:11:04,620
+they're associating with each other kind
+
+281
+00:11:10,030 --> 00:11:06,899
+of gives you a good piece of evidence
+
+282
+00:11:12,050 --> 00:11:10,040
+that you might be seeing some
+
+283
+00:11:15,230 --> 00:11:12,060
+disequilibrium and some living
+
+284
+00:11:19,850 --> 00:11:18,350
+um microscopy data is also
+
+285
+00:11:24,590 --> 00:11:19,860
+large
+
+286
+00:11:26,750 --> 00:11:24,600
+types of data that we've talked about in
+
+287
+00:11:29,150 --> 00:11:26,760
+this conference so far but certainly
+
+288
+00:11:31,730 --> 00:11:29,160
+large enough that if you were trying to
+
+289
+00:11:34,370 --> 00:11:31,740
+send all of this data back from Europa
+
+290
+00:11:38,389 --> 00:11:34,380
+or Enceladus it would be more
+
+291
+00:11:40,069 --> 00:11:38,399
+complicated to handle and so one of the
+
+292
+00:11:44,810 --> 00:11:40,079
+things that we're able to do on this
+
+293
+00:11:48,829 --> 00:11:44,820
+microscope is actually take a z-stack of
+
+294
+00:11:51,230 --> 00:11:48,839
+of images and compress it down to a
+
+295
+00:11:53,990 --> 00:11:51,240
+single image that's much less in data
+
+296
+00:11:56,210 --> 00:11:54,000
+volume and so the image I'm showing
+
+297
+00:11:59,030 --> 00:11:56,220
+right now is
+
+298
+00:12:00,350 --> 00:11:59,040
+um an image set of images that were
+
+299
+00:12:02,870 --> 00:12:00,360
+automatically collected at different
+
+300
+00:12:04,250 --> 00:12:02,880
+focal planes in the sample
+301
+00:12:06,290 --> 00:12:04,260
+um and then after it's run through the
+
+302
+00:12:08,690 --> 00:12:06,300
+compression routine you end up with a
+
+303
+00:12:11,750 --> 00:12:08,700
+single in Focus image and you're now
+
+304
+00:12:13,730 --> 00:12:11,760
+suddenly gone from megabytes of data to
+
+305
+00:12:15,410 --> 00:12:13,740
+kilobytes of data
+
+306
+00:12:18,710 --> 00:12:15,420
+um and then
+
+307
+00:12:22,550 --> 00:12:18,720
+um you can even go further with that and
+
+308
+00:12:24,350 --> 00:12:22,560
+you'll notice that this sample has uh
+
+309
+00:12:26,750 --> 00:12:24,360
+bright objects against a dark background
+
+310
+00:12:28,970 --> 00:12:26,760
+we don't actually care what the like
+
+311
+00:12:30,829 --> 00:12:28,980
+Photon shot noise is on the background
+
+312
+00:12:33,230 --> 00:12:30,839
+for our purposes that might as well just
+
+313
+00:12:35,269 --> 00:12:33,240
+all be zero and so the final compression
+
+314
+00:12:37,910 --> 00:12:35,279
+step is actually taking that and setting
+
+315
+00:12:40,130 --> 00:12:37,920
+it to zero and so we're just recording
+
+316
+00:12:42,650 --> 00:12:40,140
+um the actual bright objects that are
+
+317
+00:12:44,030 --> 00:12:42,660
+detected in the image and so that all
+
+318
+00:12:45,470 --> 00:12:44,040
+reduces the data size quite
+
+319
+00:12:47,569 --> 00:12:45,480
+substantially
+
+320
+00:12:49,129 --> 00:12:47,579
+um without really getting rid of any of
+
+321
+00:12:52,190 --> 00:12:49,139
+the information that we actually want to
+
+322
+00:12:56,150 --> 00:12:54,889
+um so how would this work in in a
+
+323
+00:12:57,290 --> 00:12:56,160
+mission I just talked about a lot of
+
+324
+00:12:59,449 --> 00:12:57,300
+different parts and now I'm going to
+
+325
+00:13:01,670 --> 00:12:59,459
+bring it all back together into how this
+326
+00:13:05,509 --> 00:13:01,680
+system could be implemented
+
+327
+00:13:07,069 --> 00:13:05,519
+um so and I have the little Europa
+
+328
+00:13:10,129 --> 00:13:07,079
+Lander picture there
+
+329
+00:13:12,230 --> 00:13:10,139
+um but basically uh we pretend that the
+
+330
+00:13:14,930 --> 00:13:12,240
+microscope is somewhere in that Lander
+
+331
+00:13:17,509 --> 00:13:14,940
+um you would take your sample process it
+
+332
+00:13:19,670 --> 00:13:17,519
+pump it through the fluidic system you
+
+333
+00:13:22,310 --> 00:13:19,680
+can image it on the microscope you're
+
+334
+00:13:25,310 --> 00:13:22,320
+going to end up with megabytes of data
+
+335
+00:13:27,350 --> 00:13:25,320
+that you can then compress back down to
+
+336
+00:13:30,290 --> 00:13:27,360
+your kilobytes of data send it back to
+
+337
+00:13:32,509 --> 00:13:30,300
+your ground-based Observer that will
+
+338
+00:13:34,610 --> 00:13:32,519
+then be able to say oh okay cool we got
+
+339
+00:13:36,050 --> 00:13:34,620
+a microbial mat on Europa time to hit
+
+340
+00:13:38,210 --> 00:13:36,060
+the Press
+
+341
+00:13:42,350 --> 00:13:40,910
+and so uh yeah just briefly
+
+342
+00:13:45,050 --> 00:13:42,360
+acknowledgments there's been a lot of
+
+343
+00:13:47,329 --> 00:13:45,060
+funding that's gone into this
+
+344
+00:14:02,150 --> 00:13:47,339
+um and um I'll be happy to take any
+
+345
+00:14:06,710 --> 00:14:04,730
+great talk uh this is Chad pazoriski at
+
+346
+00:14:08,569 --> 00:14:06,720
+Georgia Tech so
+
+347
+00:14:10,610 --> 00:14:08,579
+um I'm really happy that you touched on
+
+348
+00:14:12,350 --> 00:14:10,620
+uh compression first of all uh of the
+
+349
+00:14:13,850 --> 00:14:12,360
+data because that's incredibly important
+
+350
+00:14:16,009 --> 00:14:13,860
+and
+351
+00:14:18,050 --> 00:14:16,019
+um I was also really thrilled that you
+
+352
+00:14:19,310 --> 00:14:18,060
+talked about the um sample prep and
+
+353
+00:14:20,509 --> 00:14:19,320
+fluidics because I think that's
+
+354
+00:14:23,870 --> 00:14:20,519
+something that a lot of people don't
+
+355
+00:14:26,329 --> 00:14:23,880
+consider for these NCG missions uh my
+
+356
+00:14:29,389 --> 00:14:26,339
+question has to do with
+
+357
+00:14:32,990 --> 00:14:29,399
+um comparing uh microscopy and staining
+
+358
+00:14:35,389 --> 00:14:33,000
+with uh perhaps something like Raman or
+
+359
+00:14:37,009 --> 00:14:35,399
+IR where you could get information about
+
+360
+00:14:38,870 --> 00:14:37,019
+at least functional groups of the
+
+361
+00:14:41,569 --> 00:14:38,880
+Organics present and co-locate things
+
+362
+00:14:44,030 --> 00:14:41,579
+that I imagine similar resolution
+
+363
+00:14:46,610 --> 00:14:44,040
+spatially but you wouldn't need to
+
+364
+00:14:49,189 --> 00:14:46,620
+include those processing steps so would
+
+365
+00:14:51,410 --> 00:14:49,199
+you advocate for a system that's I guess
+
+366
+00:14:52,910 --> 00:14:51,420
+maybe not redundant but but has both of
+
+367
+00:14:54,829 --> 00:14:52,920
+those features or do you think one is
+
+368
+00:14:56,210 --> 00:14:54,839
+better than the other yes this is
+
+369
+00:14:57,829 --> 00:14:56,220
+actually a super interesting discussion
+
+370
+00:14:59,990 --> 00:14:57,839
+and we can definitely also talk more
+
+371
+00:15:01,850 --> 00:15:00,000
+about it at lunch but the the high level
+
+372
+00:15:03,610 --> 00:15:01,860
+thing that I'm going to say is that um
+
+373
+00:15:07,009 --> 00:15:03,620
+you you get
+
+374
+00:15:08,389 --> 00:15:07,019
+you're going to have different pros and
+
+375
+00:15:09,910 --> 00:15:08,399
+cons and get different types of data
+376
+00:15:12,829 --> 00:15:09,920
+those techniques so if you're doing
+
+377
+00:15:15,949 --> 00:15:12,839
+let's if you want to get spatially
+
+378
+00:15:17,269 --> 00:15:15,959
+correlated Ramen data when you're
+
+379
+00:15:20,449 --> 00:15:17,279
+building a microscope and you're trying
+
+380
+00:15:21,829 --> 00:15:20,459
+to image something unless you're using a
+
+381
+00:15:25,189 --> 00:15:21,839
+super resolution technique you're
+
+382
+00:15:28,310 --> 00:15:25,199
+limited by diffraction in terms of like
+
+383
+00:15:29,870 --> 00:15:28,320
+the the resolution that you can get and
+
+384
+00:15:31,490 --> 00:15:29,880
+that is proportional to the wavelength
+
+385
+00:15:34,850 --> 00:15:31,500
+that you're using so when you start to
+
+386
+00:15:36,470 --> 00:15:34,860
+get into like the IR you know range and
+
+387
+00:15:39,590 --> 00:15:36,480
+things like that
+
+388
+00:15:41,930 --> 00:15:39,600
+um your spatial resolution starts to be
+
+389
+00:15:44,930 --> 00:15:41,940
+more limited than it is in the optical
+
+390
+00:15:47,090 --> 00:15:44,940
+range the flip side is you're right you
+
+391
+00:15:48,230 --> 00:15:47,100
+can get precise chemical information out
+
+392
+00:15:51,590 --> 00:15:48,240
+without
+
+393
+00:15:55,670 --> 00:15:51,600
+um you know adding labels and so I think
+
+394
+00:15:57,590 --> 00:15:55,680
+that definitely those are uh like
+
+395
+00:15:59,930 --> 00:15:57,600
+in in in in the perfect mission
+
+396
+00:16:04,189 --> 00:15:59,940
+architecture I think you do both
+
+397
+00:16:05,750 --> 00:16:04,199
+um but you know and um unfortunate you
+
+398
+00:16:07,250 --> 00:16:05,760
+know it's it's it's unfortunate that we
+
+399
+00:16:08,930 --> 00:16:07,260
+can't send all the instruments that we
+
+400
+00:16:11,090 --> 00:16:08,940
+want out there but like in my ideal
+401
+00:16:13,129 --> 00:16:11,100
+world I think those that would be a
+
+402
+00:16:14,090 --> 00:16:13,139
+powerful like correlative technique
+
+403
+00:16:17,090 --> 00:16:14,100
+there
+
+404
+00:16:19,250 --> 00:16:17,100
+um to kind of get a a strong sense of
+
+405
+00:16:25,069 --> 00:16:19,260
+what you're seeing in your sample
+
+406
+00:16:25,079 --> 00:16:33,610
+foreign
+
+407
+00:16:38,930 --> 00:16:37,069
+again thanks for an awesome talk this is
+
+408
+00:16:40,850 --> 00:16:38,940
+really exciting so I was wondering what
+
+409
+00:16:45,110 --> 00:16:40,860
+sample prep looks like
+
+410
+00:16:46,610 --> 00:16:45,120
+um in the Rover or whatever and um what
+
+411
+00:16:47,810 --> 00:16:46,620
+the capabilities are for that so could
+
+412
+00:16:49,249 --> 00:16:47,820
+you actually do like incubation
+
+413
+00:16:50,810 --> 00:16:49,259
+experiments and then look at it with
+
+414
+00:16:52,069 --> 00:16:50,820
+microscopy or is it coming straight from
+
+415
+00:16:53,150 --> 00:16:52,079
+the environment going straight to the
+
+416
+00:16:56,870 --> 00:16:53,160
+microscope
+
+417
+00:16:59,990 --> 00:16:56,880
+yeah so um it's the
+
+418
+00:17:02,090 --> 00:17:00,000
+the the design that we had in mind for
+
+419
+00:17:03,889 --> 00:17:02,100
+for sample prep here and when I said I
+
+420
+00:17:06,230 --> 00:17:03,899
+say we it's not
+
+421
+00:17:08,030 --> 00:17:06,240
+um us this was kind of the built around
+
+422
+00:17:10,309 --> 00:17:08,040
+the Europa Lander specifications but
+
+423
+00:17:12,169 --> 00:17:10,319
+essentially you'd have a sample cup that
+
+424
+00:17:15,409 --> 00:17:12,179
+would collect an ice sample and melt it
+
+425
+00:17:18,409 --> 00:17:15,419
+down and so that was kind of the um
+426
+00:17:20,870 --> 00:17:18,419
+the initial like thoughts behind um the
+
+427
+00:17:22,309 --> 00:17:20,880
+design here but the fluidics processing
+
+428
+00:17:23,750 --> 00:17:22,319
+system can basically handle anything
+
+429
+00:17:25,069 --> 00:17:23,760
+that's in a liquid state but the
+
+430
+00:17:28,909 --> 00:17:25,079
+assumption would be that it's a
+
+431
+00:17:30,549 --> 00:17:28,919
+relatively unprocessed field sample
+
+432
+00:17:33,230 --> 00:17:30,559
+um
+
+433
+00:17:34,730 --> 00:17:33,240
+relatively unprocessed because obviously
+
+434
+00:17:36,110 --> 00:17:34,740
+if it's like ice or something and you're
+
+435
+00:17:38,090 --> 00:17:36,120
+melting it down you are still doing
+
+436
+00:17:39,590 --> 00:17:38,100
+something to that sample
+
+437
+00:17:42,950 --> 00:17:39,600
+um
+
+438
+00:17:42,960 --> 00:17:46,610
+okay we have time for one more question
+
+439
+00:17:51,110 --> 00:17:49,850
+hi thank you for the great talk
+
+440
+00:17:53,990 --> 00:17:51,120
+um
+
+441
+00:17:57,110 --> 00:17:54,000
+my question is uh maybe I missed that
+
+442
+00:18:01,010 --> 00:17:57,120
+you mentioned how
+
+443
+00:18:04,250 --> 00:18:01,020
+are you going to differentiate uh
+
+444
+00:18:04,970 --> 00:18:04,260
+any other particles
+
+445
+00:18:08,930 --> 00:18:04,980
+um
+
+446
+00:18:13,210 --> 00:18:08,940
+from the living materials like can you
+
+447
+00:18:16,010 --> 00:18:13,220
+specifically stain genetic material or
+
+448
+00:18:17,810 --> 00:18:16,020
+anything biological
+
+449
+00:18:19,310 --> 00:18:17,820
+yeah so that's actually that's a great
+
+450
+00:18:23,090 --> 00:18:19,320
+question and
+451
+00:18:24,230 --> 00:18:23,100
+um so the the the the goal here is to
+
+452
+00:18:27,110 --> 00:18:24,240
+kind of pick up as many different
+
+453
+00:18:29,690 --> 00:18:27,120
+breadcrumbs as you as as we can to try
+
+454
+00:18:31,130 --> 00:18:29,700
+and uh differentiate and so you
+
+455
+00:18:32,630 --> 00:18:31,140
+mentioned stains for genetic material
+
+456
+00:18:34,070 --> 00:18:32,640
+one of the stains that we would be
+
+457
+00:18:36,049 --> 00:18:34,080
+launching with this is a stain for
+
+458
+00:18:40,190 --> 00:18:36,059
+nucleic acids
+
+459
+00:18:43,370 --> 00:18:40,200
+um now obviously that would be really
+
+460
+00:18:44,870 --> 00:18:43,380
+awesome if we found DNA on Europa or
+
+461
+00:18:46,549 --> 00:18:44,880
+Enceladus but
+
+462
+00:18:48,289 --> 00:18:46,559
+um there's it's kind of an open question
+
+463
+00:18:49,970 --> 00:18:48,299
+whether we would
+
+464
+00:18:52,610 --> 00:18:49,980
+um and
+
+465
+00:18:54,590 --> 00:18:52,620
+um so the idea behind looking for the
+
+466
+00:18:57,289 --> 00:18:54,600
+something like the co-localization of
+
+467
+00:19:00,950 --> 00:18:57,299
+amines and lipids is that that gives you
+
+468
+00:19:02,330 --> 00:19:00,960
+a more like agnostic idea of like hey
+
+469
+00:19:04,070 --> 00:19:02,340
+that might be living material because
+
+470
+00:19:06,470 --> 00:19:04,080
+you've got these you know chemical
+
+471
+00:19:09,409 --> 00:19:06,480
+signatures that are co-locating
+
+472
+00:19:10,610 --> 00:19:09,419
+um the other thing is um so one of our
+
+473
+00:19:12,529 --> 00:19:10,620
+um collaborators actually the person who
+
+474
+00:19:14,890 --> 00:19:12,539
+helped build the microscope
+
+475
+00:19:17,810 --> 00:19:14,900
+um is has some ongoing work
+476
+00:19:20,630 --> 00:19:17,820
+characterizing the fluorescence of uh
+
+477
+00:19:22,130 --> 00:19:20,640
+diff of a wide library of minerals to
+
+478
+00:19:23,870 --> 00:19:22,140
+get a sense of like what they would
+
+479
+00:19:26,650 --> 00:19:23,880
+potentially look like
+
+480
+00:19:29,690 --> 00:19:26,660
+um on the the microscope so we can
+
+481
+00:19:30,830 --> 00:19:29,700
+hopefully differentiate between that and
+
+482
+00:19:32,630 --> 00:19:30,840
+things that might be a little bit more
+
+483
+00:19:35,750 --> 00:19:32,640
+biological but spectroscopically and
+
+484
+00:19:37,190 --> 00:19:35,760
+then also you know morphologically
+
+485
+00:19:40,190 --> 00:19:37,200
+um
+
+486
+00:19:45,900 --> 00:19:40,200
+yeah a great question
