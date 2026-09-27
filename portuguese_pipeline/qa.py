@@ -35,7 +35,7 @@ COORDINATE = re.compile(
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
     r"(?:[ \t]+(?:a|to|e|and)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
-    r")?[ \t]*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
+    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
     r"quil[oô]metros?|kilometers?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
@@ -225,9 +225,12 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
     abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
     abbreviations.update(EN_MONTHS)
-    abbreviation = re.compile(r"\b(\d{1,2})[ \t]{1,3}(?:de[ \t]{1,3})?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    abbreviation = re.compile(r"\b(\d{1,2})[ \t]+(?:de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()
+        # A volume number beside a month-only publication date is not its day.
+        if re.search(r"\b(?:vol(?:ume)?\.?|volume)\s*$", match.string[:match.start()], re.I):
+            return match.group(0)
         if len(year) == 2:
             year = ("20" if int(year) < 50 else "19") + year
         values[f"{int(year):04d}-{abbreviations[month.casefold()]:02d}-{int(day):02d}"] += 1
@@ -285,6 +288,8 @@ def _measurements(text: str) -> Counter[str]:
     # OCR letter spacing in a duration must not become the metre abbreviation.
     text = re.sub(r"\bm[ \t]+i[ \t]+n[ \t]+u[ \t]+t[ \t]+o(?:[ \t]+s)?\b",
                   "minutos", text, flags=re.I)
+    # Keep OCR spaces after decimal/grouping commas inside the same value.
+    text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     for match in MEASUREMENT.finditer(text):
         raw = match.group(0)
         number_match = re.match(r"\d+(?:[.,]\d+)?", raw)
@@ -334,7 +339,10 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
                 "added_in_translation": sorted(added),
             })
 
-    if TRANSLATOR_COMMENTARY.search(target):
+    def commentary_markers(text: str) -> Counter[str]:
+        return Counter(re.sub(r"\s+", " ", match.group(0)).strip().casefold()
+                       for match in TRANSLATOR_COMMENTARY.finditer(text))
+    if commentary_markers(target) - commentary_markers(source):
         findings.append({
             "check": "translator-commentary",
             "severity": "error",

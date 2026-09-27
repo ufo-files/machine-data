@@ -203,6 +203,25 @@ class TranslationRecoveryTests(unittest.TestCase):
         result = translate_text(Backend(), ('A FAB permanece visível. ' * 50).strip())
         self.assertEqual(result.status, 'failed-protected-token-check')
 
+    def test_widely_spaced_date_is_not_a_volume_number(self):
+        for source, target in [("14    Dez   77", "14 Dec 77"),
+                               ("Volume 1        December 2023", "Volume 1 December 2023")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation("14    Dez   77", "15 Dec 77") if f['check'] == 'dates'])
+
+    def test_existing_note_is_source_content(self):
+        source = "NOTE: This photo was taken in 1973."
+        self.assertFalse([f for f in compare_translation(source, source) if f['check'] == 'translator-commentary'])
+        for target in ["Translator's note: This photo was taken in 1973.", source + "\nNOTE: Additional context."]:
+            self.assertTrue([f for f in compare_translation(source, target) if f['check'] == 'translator-commentary'])
+        self.assertTrue([f for f in compare_translation("A photo.", "NOTE: A photo.") if f['check'] == 'translator-commentary'])
+
+    def test_spaced_measurement_grouping_and_wrapped_unit(self):
+        for source, target in [("10-13, 000\nfeet", "10-13,000 feet"),
+                               ("12, 000 ft", "12,000 ft"), ("1, 000 feet to 2,000 feet", "1,000 feet to 2,000 feet")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'measurements'])
+        self.assertTrue([f for f in compare_translation("12, 000 ft", "13,000 ft") if f['check'] == 'measurements'])
+
 
 if __name__ == '__main__':
     unittest.main()
