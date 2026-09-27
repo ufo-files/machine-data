@@ -51,6 +51,14 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
         self.assertTrue([f for f in compare_translation(source, target.replace('20th', '21st')) if f['check'] == 'dates'])
 
+    def test_typed_ordinal_and_ocr_colon_dates_preserve_values(self):
+        for source, target, changed in [
+            ("1o de novembro de 1957", "November 1, 1957", "November 10, 1957"),
+            ("20 de janeiro de: 1996", "January 20, 1996", "January 21, 1996"),
+        ]:
+            self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+            self.assertTrue([f for f in compare_translation(source, changed) if f['check'] == 'dates'])
+
     def test_historical_august_spelling_preserves_date(self):
         source = "No dia 20 de agôsto de 1948"
         self.assertFalse([f for f in compare_translation(source, "On August 20, 1948") if f['check'] == 'dates'])

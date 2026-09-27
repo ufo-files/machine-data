@@ -45,7 +45,7 @@ NUMBER = re.compile(
 )
 DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
 DATE_NAMED_PT = re.compile(
-    r"\b(\d{1,2})[º°]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de\s+((?:19|20)\d{2})\b",
+    r"\b(\d{1,2})[º°o]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de:?\s+((?:19|20)\d{2})\b",
     re.I,
 )
 DATE_NAMED_EN = re.compile(
