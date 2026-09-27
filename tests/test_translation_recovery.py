@@ -4,7 +4,7 @@ from pathlib import Path
 from unittest.mock import patch
 from portuguese_pipeline.extract import command
 from portuguese_pipeline.qa import compare_translation
-from portuguese_pipeline.translation import MLXBackend, translate_text
+from portuguese_pipeline.translation import MLXBackend, translate_text, retry_chunks
 
 
 class TranslationRecoveryTests(unittest.TestCase):
@@ -118,14 +118,22 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(result.status, "failed-protected-token-check")
 
     def test_long_translation_retries_without_losing_protected_text(self):
-        text = ('A FAB permanece visível. ' * 50).strip()
+        text = ('A FAB permanece visível. ' * 150).strip()
         class Backend:
             def translate_raw(self, prompt):
                 source = prompt.split('\n\n', 1)[1]
-                return 'Summary.' if len(source) > 800 else source
+                return 'Summary.' if len(source) > 1500 else source
         result = translate_text(Backend(), text)
         self.assertEqual(result.text, text)
         self.assertEqual(result.status, 'machine-unreviewed')
+
+    def test_retry_chunks_bound_calls_and_keep_spaced_identifiers_intact(self):
+        source = ('Uma frase curta. ' * 100) + 'RIC 4.470/2009 ' + ('Outro relato. ' * 100)
+        chunks = retry_chunks(source, ['RIC 4.470/2009'])
+        self.assertLess(len(chunks), 5)
+        self.assertTrue(all(len(c) <= 1200 for c in chunks))
+        self.assertEqual(' '.join(chunks), source.strip())
+        self.assertEqual(sum('RIC 4.470/2009' in c for c in chunks), 1)
 
     def test_review_warning_does_not_retranslate_every_sentence(self):
         source = ('Foram 2 testemunhas. ' * 30).strip()

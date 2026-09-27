@@ -14,7 +14,7 @@ from typing import Protocol
 from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v4"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v5"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
 SYSTEM_PROMPT = """Translate the supplied Brazilian Portuguese text into English. Output only the translation.
@@ -132,6 +132,29 @@ class MLXBackend:
         ).strip()
 
 
+def retry_chunks(text: str, official_identifiers: list[str] | None = None, max_chars: int = 1200) -> list[str]:
+    """Retain sentence context without a model invocation for each OCR line."""
+    masked, replacements = mask_protected(text, official_identifiers)
+    units = re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-Ÿ("])', masked)
+    words = []
+    # Masked identifiers are single tokens, so boundaries cannot split them.
+    for unit in units:
+        if len(unit) > max_chars:
+            words.extend(unit.split())
+        else:
+            words.append(unit)
+    chunks: list[str] = []
+    current = ""
+    for unit in words:
+        if current and len(current) + len(unit) + 1 > max_chars:
+            chunks.append(current)
+            current = ""
+        current = (current + " " + unit).strip()
+    if current:
+        chunks.append(current)
+    return [restore_protected(chunk, replacements)[0] for chunk in chunks]
+
+
 def translate_text(
     backend: Backend,
     text: str,
@@ -167,9 +190,7 @@ def translate_text(
         if _allow_chunk_retry and len(text) > 400 and (
             missing or any(f.get("severity") == "error" for f in compare_translation(text, restored))
         ):
-            sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ÿ(\"])", text)
-            if len(sentences) == 1:
-                sentences = [line for line in text.splitlines() if line.strip()]
+            sentences = retry_chunks(text, official_identifiers)
             if len(sentences) > 1:
                 parts = [translate_text(backend, sentence,
                          official_identifiers=official_identifiers,
