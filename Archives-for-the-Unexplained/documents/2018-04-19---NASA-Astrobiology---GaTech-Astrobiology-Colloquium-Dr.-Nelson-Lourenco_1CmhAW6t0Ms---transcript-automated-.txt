@@ -1,0 +1,1467 @@
+{"created_utc": "2026-09-27T12:41:55Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 129356, "source_ctime_ns": 1790195061477781065, "source_file": "Archives-for-the-Unexplained/documents/2018-04-19---NASA-Astrobiology---GaTech-Astrobiology-Colloquium-Dr.-Nelson-Lourenco_1CmhAW6t0Ms---transcript-automated-.pdf", "source_mtime_ns": 1790195061470860819, "source_rel": "Archives-for-the-Unexplained/documents/2018-04-19---NASA-Astrobiology---GaTech-Astrobiology-Colloquium-Dr.-Nelson-Lourenco_1CmhAW6t0Ms---transcript-automated-.pdf", "source_sha256": "2f0e5e5edc94323eb6c56d0fb1d5999cab3cc33e2255327d9868f19f0b714ea8"}
+
+1
+00:00:00,820 --> 00:00:08,680
+[Music]
+
+2
+00:00:14,060 --> 00:00:11,509
+so we're gonna change gears I'm not a
+
+3
+00:00:16,970 --> 00:00:14,070
+biochemist I'm actually an electrical
+
+4
+00:00:18,590 --> 00:00:16,980
+engineer and I wanted to give a brief
+
+5
+00:00:21,109 --> 00:00:18,600
+overview to everyone here about some of
+
+6
+00:00:22,970 --> 00:00:21,119
+this remote sensing and other space
+
+7
+00:00:25,400 --> 00:00:22,980
+applications that were working at GTRI
+
+8
+00:00:30,980 --> 00:00:25,410
+collaboration with pubic schools at door
+
+9
+00:00:33,319 --> 00:00:30,990
+tech so this is outline so first I'll
+
+10
+00:00:36,080 --> 00:00:33,329
+provide a beep background about Georgia
+
+11
+00:00:37,880 --> 00:00:36,090
+Georgia Tech in their space history the
+
+12
+00:00:39,350 --> 00:00:37,890
+bulk of my talks and a focus on this
+
+13
+00:00:42,650 --> 00:00:39,360
+micro name is IRA which is a remote
+
+14
+00:00:45,860 --> 00:00:42,660
+sensing CubeSat for measuring the
+
+15
+00:00:47,389 --> 00:00:45,870
+temperature in the atmosphere and then
+
+16
+00:00:49,369 --> 00:00:47,399
+I'll wrap up with some other
+
+17
+00:00:53,090 --> 00:00:49,379
+applications that we've done and take
+
+18
+00:00:55,279 --> 00:00:53,100
+any questions that you may have so some
+
+19
+00:00:57,670 --> 00:00:55,289
+of the history of GTRI so back in the
+
+20
+00:01:00,500 --> 00:00:57,680
+80s we worked with the long-duration
+
+21
+00:01:02,510 --> 00:01:00,510
+exposure facility which was about a bus
+
+22
+00:01:04,310 --> 00:01:02,520
+sized satellite in space and was meant
+
+23
+00:01:06,050 --> 00:01:04,320
+to have some experiments to see the
+
+24
+00:01:08,090 --> 00:01:06,060
+effects of low Earth orbit in particular
+
+25
+00:01:10,760 --> 00:01:08,100
+radiation on those experiments similar
+26
+00:01:12,469 --> 00:01:10,770
+biological some of them electrical in
+
+27
+00:01:13,910 --> 00:01:12,479
+the 90s we worked with the International
+
+28
+00:01:16,100 --> 00:01:13,920
+Space Station and work on their airlock
+
+29
+00:01:25,219 --> 00:01:16,110
+antenna and you can see right here you
+
+30
+00:01:26,929 --> 00:01:25,229
+see a knot and sat the attendant
+
+31
+00:01:28,130 --> 00:01:26,939
+actually is built into the handle here
+
+32
+00:01:30,319 --> 00:01:28,140
+and so what they use actually
+
+33
+00:01:31,249 --> 00:01:30,329
+communicate with their fellow astronauts
+
+34
+00:01:33,740 --> 00:01:31,259
+and the space station when they're
+
+35
+00:01:35,539 --> 00:01:33,750
+coming through the airlock as I
+
+36
+00:01:37,190 --> 00:01:35,549
+mentioned the focus of my talk will be
+
+37
+00:01:40,149 --> 00:01:37,200
+on these current projects were working
+
+38
+00:01:42,140 --> 00:01:40,159
+at primarily that micro numbers CubeSat
+
+39
+00:01:43,760 --> 00:01:42,150
+before we go into the actual engineering
+
+40
+00:01:46,010 --> 00:01:43,770
+behind Micra numbers I'll give you an
+
+41
+00:01:47,450 --> 00:01:46,020
+outline of what we were talking about
+
+42
+00:01:55,250 --> 00:01:47,460
+we're looking at a remote sensing
+
+43
+00:02:01,320 --> 00:01:59,070
+okay so what we're doing is we're
+
+44
+00:02:03,420 --> 00:02:01,330
+focusing on the 60 gigahertz RF spectrum
+
+45
+00:02:06,710 --> 00:02:03,430
+and what we see here in the right hand
+
+46
+00:02:08,640 --> 00:02:06,720
+side is attenuation or absorption of
+
+47
+00:02:11,730 --> 00:02:08,650
+electromagnetic radiation against
+
+48
+00:02:14,400 --> 00:02:11,740
+frequency for oxygen and normally oxygen
+
+49
+00:02:16,380 --> 00:02:14,410
+has very fine lines in this absorption
+
+50
+00:02:18,180 --> 00:02:16,390
+spectrum but at lower altitudes we
+51
+00:02:19,770 --> 00:02:18,190
+actually see a polar broadening due to
+
+52
+00:02:21,900 --> 00:02:19,780
+high pressures in the lower atmosphere
+
+53
+00:02:23,640 --> 00:02:21,910
+but as you go higher up you actually
+
+54
+00:02:25,020 --> 00:02:23,650
+start to resolve these different
+
+55
+00:02:26,850 --> 00:02:25,030
+transition frequencies and what we can
+
+56
+00:02:29,420 --> 00:02:26,860
+do is because of that we can actually
+
+57
+00:02:31,710 --> 00:02:29,430
+focus in frequency and bandwidth of our
+
+58
+00:02:33,840 --> 00:02:31,720
+system and we can actually tune to one
+
+59
+00:02:35,880 --> 00:02:33,850
+of these transition frequencies and we
+
+60
+00:02:37,380 --> 00:02:35,890
+can probe along it and by doing that you
+
+61
+00:02:40,250 --> 00:02:37,390
+can actually focus in a certain area in
+
+62
+00:02:44,850 --> 00:02:40,260
+the atmosphere and engage is temperature
+
+63
+00:02:48,270 --> 00:02:44,860
+so by doing that we focused thisis from
+
+64
+00:02:50,280 --> 00:02:48,280
+MIT by William Lenoir and he provided
+
+65
+00:02:53,400 --> 00:02:50,290
+that if you chose certain frequencies
+
+66
+00:02:54,990 --> 00:02:53,410
+and bandwidths across that spectrum you
+
+67
+00:02:57,540 --> 00:02:55,000
+could resolve these weighting functions
+
+68
+00:02:59,130 --> 00:02:57,550
+or windows and basically if you choose
+
+69
+00:03:01,080 --> 00:02:59,140
+these are frequencies and bandwidth so
+
+70
+00:03:03,150 --> 00:03:01,090
+you're isolating your measurement to
+
+71
+00:03:04,620 --> 00:03:03,160
+this like an isothermal slab in the
+
+72
+00:03:06,930 --> 00:03:04,630
+atmosphere so you can actually focus and
+
+73
+00:03:08,880 --> 00:03:06,940
+measure the temperature of that slab of
+
+74
+00:03:09,960 --> 00:03:08,890
+the atmosphere am i changing that you
+
+75
+00:03:12,449 --> 00:03:09,970
+can actually walk across these
+76
+00:03:17,670 --> 00:03:12,459
+frequencies and we've actually optimized
+
+77
+00:03:19,170 --> 00:03:17,680
+that to account for our equipment and we
+
+78
+00:03:20,520 --> 00:03:19,180
+see we have seven window functions so if
+
+79
+00:03:21,840 --> 00:03:20,530
+I were flying over the low Earth orbit
+
+80
+00:03:23,910 --> 00:03:21,850
+we could actually scan across these
+
+81
+00:03:25,650 --> 00:03:23,920
+different frequencies and measure from
+
+82
+00:03:27,600 --> 00:03:25,660
+about 10 kilometers up to 70 kilometers
+
+83
+00:03:30,270 --> 00:03:27,610
+and get a very large depth profile of
+
+84
+00:03:33,720 --> 00:03:30,280
+the atmosphere for weather radars and
+
+85
+00:03:35,040 --> 00:03:33,730
+other applications so I don't know how
+
+86
+00:03:37,590 --> 00:03:35,050
+many electrical engineers are here so I
+
+87
+00:03:41,190 --> 00:03:37,600
+won't go too deep into this but one of
+
+88
+00:03:44,510 --> 00:03:41,200
+the big novel aspects of this system was
+
+89
+00:03:46,470 --> 00:03:44,520
+that we took a like a board level or
+
+90
+00:03:47,670 --> 00:03:46,480
+already I'm going to use commercial
+
+91
+00:03:49,050 --> 00:03:47,680
+off-the-shelf parts and we actually
+
+92
+00:03:52,860 --> 00:03:49,060
+integrate everything into a single chip
+
+93
+00:03:54,180 --> 00:03:52,870
+so we see here is a receiver that would
+
+94
+00:03:55,710 --> 00:03:54,190
+use in a Radiometer where we have an
+
+95
+00:03:58,860 --> 00:03:55,720
+antenna that's pointing down at the
+
+96
+00:04:00,479 --> 00:03:58,870
+earth we have gone ship calibration
+
+97
+00:04:01,770 --> 00:04:00,489
+which usually is a fixed load at a
+
+98
+00:04:04,410 --> 00:04:01,780
+certain temperature that we can switch
+
+99
+00:04:05,720 --> 00:04:04,420
+to and calibrate our receiver chant our
+
+100
+00:04:08,160 --> 00:04:05,730
+receiver channels and then we have
+101
+00:04:09,870 --> 00:04:08,170
+amplification and down conversion
+
+102
+00:04:12,000 --> 00:04:09,880
+and that lets us select a certain
+
+103
+00:04:13,260 --> 00:04:12,010
+frequency and then we pass it on to a
+
+104
+00:04:15,930 --> 00:04:13,270
+filter bank that can select our
+
+105
+00:04:18,060 --> 00:04:15,940
+different bandwidths to do this we
+
+106
+00:04:20,069 --> 00:04:18,070
+collaborated with my former advisor at
+
+107
+00:04:21,420 --> 00:04:20,079
+GT electrical Computer Engineering
+
+108
+00:04:23,909 --> 00:04:21,430
+school of electrical computer
+
+109
+00:04:25,020 --> 00:04:23,919
+engineering dr. John kressler who are
+
+110
+00:04:28,020 --> 00:04:25,030
+leaders in the silicon germanium
+
+111
+00:04:30,150 --> 00:04:28,030
+research effort said can design these
+
+112
+00:04:31,440 --> 00:04:30,160
+type of applications on a single chip we
+
+113
+00:04:33,150 --> 00:04:31,450
+chose silicon germanium because it
+
+114
+00:04:34,920 --> 00:04:33,160
+provides some performance compared to 35
+
+115
+00:04:36,390 --> 00:04:34,930
+it's cheaper you can integrate digital
+
+116
+00:04:38,909 --> 00:04:36,400
+you can bring everything down to a
+
+117
+00:04:40,320 --> 00:04:38,919
+single chip it has excellent one of a
+
+118
+00:04:41,909 --> 00:04:40,330
+rough noise which would if you don't
+
+119
+00:04:43,890 --> 00:04:41,919
+know what that means is that it provided
+
+120
+00:04:45,690 --> 00:04:43,900
+a good long-term stability in these
+
+121
+00:04:47,280 --> 00:04:45,700
+systems and its radiation hard
+
+122
+00:04:48,510 --> 00:04:47,290
+especially particularly for low Earth
+
+123
+00:04:52,409 --> 00:04:48,520
+orbit and even up to the Jovian
+
+124
+00:04:56,100 --> 00:04:52,419
+atmosphere so this is what it integrated
+
+125
+00:04:57,810 --> 00:04:56,110
+radiometer looks like that won't go down
+126
+00:04:59,820 --> 00:04:57,820
+too deep of biggest things I want to
+
+127
+00:05:02,580 --> 00:04:59,830
+talk about is that it's very small
+
+128
+00:05:04,440 --> 00:05:02,590
+you bring that whole that whole receiver
+
+129
+00:05:06,300 --> 00:05:04,450
+channel down to a single chip it's about
+
+130
+00:05:09,090 --> 00:05:06,310
+one millimeter by two millimeters and
+
+131
+00:05:10,950 --> 00:05:09,100
+you can see here the power draw it was
+
+132
+00:05:13,140 --> 00:05:10,960
+only about 81 milliwatts these is this
+
+133
+00:05:15,000 --> 00:05:13,150
+is a perfect system for CubeSat scoop
+
+134
+00:05:16,590 --> 00:05:15,010
+size are very limited power distribution
+
+135
+00:05:19,800 --> 00:05:16,600
+systems and they have very little
+
+136
+00:05:22,700 --> 00:05:19,810
+limited power battery banks so we really
+
+137
+00:05:25,710 --> 00:05:22,710
+need to reduce the power requirements
+
+138
+00:05:28,590 --> 00:05:25,720
+this slide here shows some of the
+
+139
+00:05:32,430 --> 00:05:28,600
+metrics all I'd want to convey is that
+
+140
+00:05:33,920 --> 00:05:32,440
+this is comparable to the state of the
+
+141
+00:05:36,120 --> 00:05:33,930
+art in terms of some of the other
+
+142
+00:05:40,890 --> 00:05:36,130
+systems coming out of MIT Lincoln lab
+
+143
+00:05:42,779 --> 00:05:40,900
+NASA or DPL and we allows us to resolve
+
+144
+00:05:44,969 --> 00:05:42,789
+those temperatures down as we need to
+
+145
+00:05:46,650 --> 00:05:44,979
+and we're actually working to reduce
+
+146
+00:05:48,779 --> 00:05:46,660
+this noise figure this this is a
+
+147
+00:05:50,610 --> 00:05:48,789
+limiting factor and how fine we can get
+
+148
+00:05:52,050 --> 00:05:50,620
+down to a temperature measurement or
+
+149
+00:05:57,029 --> 00:05:52,060
+brint trying to bring that down to our
+
+150
+00:05:59,520 --> 00:05:57,039
+new final system now if we the previous
+151
+00:06:01,409 --> 00:05:59,530
+slide showed some of that the dye
+
+152
+00:06:03,180 --> 00:06:01,419
+micrograph of that receiver what we're
+
+153
+00:06:05,670 --> 00:06:03,190
+seeing now is the full integration so
+
+154
+00:06:07,350 --> 00:06:05,680
+now we have everything we need to look
+
+155
+00:06:10,290 --> 00:06:07,360
+at 60 gigahertz measure the atmosphere
+
+156
+00:06:11,760 --> 00:06:10,300
+bring it down to our i/o frequencies
+
+157
+00:06:13,680 --> 00:06:11,770
+that we can actually digitize it and
+
+158
+00:06:15,240 --> 00:06:13,690
+bring and beam it down to earth and now
+
+159
+00:06:18,390 --> 00:06:15,250
+we're including everything we need to
+
+160
+00:06:20,760 --> 00:06:18,400
+generate the local oscillator frequency
+
+161
+00:06:24,330 --> 00:06:20,770
+what we need to ACTU downconvert
+
+162
+00:06:25,529 --> 00:06:24,340
+and everything fits in about 2.5 by
+
+163
+00:06:31,170 --> 00:06:25,539
+three millimeters squared so it's very
+
+164
+00:06:33,719 --> 00:06:31,180
+very small so in terms of the actual
+
+165
+00:06:35,249 --> 00:06:33,729
+payload we're working with professor
+
+166
+00:06:37,860 --> 00:06:35,259
+Glenn Lightsey from the aerospace
+
+167
+00:06:38,879 --> 00:06:37,870
+engineering department and I to help go
+
+168
+00:06:41,010 --> 00:06:38,889
+through this I actually brought a
+
+169
+00:06:43,129 --> 00:06:41,020
+one-to-one scale model of Micra numbers
+
+170
+00:06:45,900 --> 00:06:43,139
+so if you don't know what cube SATs are
+
+171
+00:06:49,200 --> 00:06:45,910
+they have a standard standardization so
+
+172
+00:06:51,960 --> 00:06:49,210
+a 1u is a 10 centimeter by 10 centimeter
+
+173
+00:06:54,029 --> 00:06:51,970
+by 10 centimeter volume and has a weight
+
+174
+00:06:56,820 --> 00:06:54,039
+requirement as well but about 1.3 three
+
+175
+00:06:59,370 --> 00:06:56,830
+kilograms or about 3 pounds and this is
+176
+00:07:02,700 --> 00:06:59,380
+a 3u spacecraft so it's 10 by 10 by 30
+
+177
+00:07:04,260 --> 00:07:02,710
+centimeters you can see here we could
+
+178
+00:07:07,020 --> 00:07:04,270
+break into three sections the lower
+
+179
+00:07:08,730 --> 00:07:07,030
+section hole to be on this side is our
+
+180
+00:07:10,100 --> 00:07:08,740
+payload and that's what we're actually
+
+181
+00:07:12,689 --> 00:07:10,110
+have a Radiometer and all the
+
+182
+00:07:15,240 --> 00:07:12,699
+electronics we have we need you'll
+
+183
+00:07:18,270 --> 00:07:15,250
+notice here we see a cone that's
+
+184
+00:07:19,710 --> 00:07:18,280
+actually a horn antenna which is right
+
+185
+00:07:22,050 --> 00:07:19,720
+here this is the actual size of what it
+
+186
+00:07:23,520 --> 00:07:22,060
+would look like this alone had a lot of
+
+187
+00:07:24,749 --> 00:07:23,530
+engineering behind it cuz normally to
+
+188
+00:07:26,999 --> 00:07:24,759
+get the performance we need the beam
+
+189
+00:07:29,939 --> 00:07:27,009
+wits we need to scan through resolving
+
+190
+00:07:31,909 --> 00:07:29,949
+down to about 50 kilometers swath on the
+
+191
+00:07:33,749 --> 00:07:31,919
+earth surface from low-earth orbit
+
+192
+00:07:35,580 --> 00:07:33,759
+normally the three times longer than
+
+193
+00:07:38,430 --> 00:07:35,590
+this which wouldn't fit and CubeSat so
+
+194
+00:07:40,320 --> 00:07:38,440
+we re-engineered some got to fit and
+
+195
+00:07:43,560 --> 00:07:40,330
+have the weight requirements to not push
+
+196
+00:07:45,360 --> 00:07:43,570
+over what we need if we move over we'll
+
+197
+00:07:49,320 --> 00:07:45,370
+see the other two modules which is what
+
+198
+00:07:51,749 --> 00:07:49,330
+dr. Glenn Lightsey has led first of
+
+199
+00:07:54,149 --> 00:07:51,759
+which was the attitude determination and
+
+200
+00:07:56,040 --> 00:07:54,159
+control so I'll be this upper module and
+201
+00:07:58,790 --> 00:07:56,050
+that has our Sun sensors for kind of
+
+202
+00:08:01,620 --> 00:07:58,800
+getting us our bearing and all of our
+
+203
+00:08:03,600 --> 00:08:01,630
+torque rods and reaction wheels we need
+
+204
+00:08:07,680 --> 00:08:03,610
+to detail and control the satellite as
+
+205
+00:08:09,689 --> 00:08:07,690
+its orbiting the earth we also have a
+
+206
+00:08:11,730 --> 00:08:09,699
+service module which will be the center
+
+207
+00:08:14,459 --> 00:08:11,740
+of the center region and that has our
+
+208
+00:08:16,439 --> 00:08:14,469
+electric power system our GPS unit our
+
+209
+00:08:17,520 --> 00:08:16,449
+command and data handling unit so all
+
+210
+00:08:23,129 --> 00:08:17,530
+three of these are integrated together
+
+211
+00:08:25,200 --> 00:08:23,139
+the form to build this and now this kind
+
+212
+00:08:27,809 --> 00:08:25,210
+this gives you a view of how this would
+
+213
+00:08:29,610 --> 00:08:27,819
+work so we we launch up we actually go
+
+214
+00:08:31,290 --> 00:08:29,620
+to the ISS they actually have a CubeSat
+
+215
+00:08:32,730 --> 00:08:31,300
+launcher on the ISS and they can just
+
+216
+00:08:34,380 --> 00:08:32,740
+send these out and they're low-earth
+
+217
+00:08:37,140 --> 00:08:34,390
+orbit when we come out
+
+218
+00:08:41,130 --> 00:08:37,150
+we D tumble we get in a stable orbit and
+
+219
+00:08:43,860 --> 00:08:41,140
+then once we are we power up and we're
+
+220
+00:08:46,470 --> 00:08:43,870
+in our nominal operating regime we start
+
+221
+00:08:48,180 --> 00:08:46,480
+scanning the Earth's surface we have to
+
+222
+00:08:50,220 --> 00:08:48,190
+do all our measurements in about seven
+
+223
+00:08:52,080 --> 00:08:50,230
+seconds because after seven seconds you
+
+224
+00:08:52,980 --> 00:08:52,090
+pass over fifty seven kilometers or 60
+
+225
+00:08:53,580 --> 00:08:52,990
+kilometer so we have to do all our
+226
+00:08:56,220 --> 00:08:53,590
+measurements
+
+227
+00:08:59,070 --> 00:08:56,230
+very quickly digitize it and then as we
+
+228
+00:09:00,840 --> 00:08:59,080
+move across will scan again as we
+
+229
+00:09:02,850 --> 00:09:00,850
+approach and we get in Lana's site of
+
+230
+00:09:05,040 --> 00:09:02,860
+Georgia we actually have a ground
+
+231
+00:09:06,630 --> 00:09:05,050
+station which I'll cover shortly and
+
+232
+00:09:09,570 --> 00:09:06,640
+we'll start communicating and getting
+
+233
+00:09:12,170 --> 00:09:09,580
+our telemetry corrections and also beam
+
+234
+00:09:14,160 --> 00:09:12,180
+down our data so that we can actually
+
+235
+00:09:17,850 --> 00:09:14,170
+look at it and share that with
+
+236
+00:09:20,310 --> 00:09:17,860
+scientists as needed so that covers my
+
+237
+00:09:23,280 --> 00:09:20,320
+Crenn inves i wanted to touch base on a
+
+238
+00:09:26,250 --> 00:09:23,290
+few other space related work that we've
+
+239
+00:09:27,360 --> 00:09:26,260
+done so I'm part of space systems
+
+240
+00:09:29,490 --> 00:09:27,370
+program office which is under the
+
+241
+00:09:31,260 --> 00:09:29,500
+advanced concepts lab and they have
+
+242
+00:09:34,050 --> 00:09:31,270
+experts there in electromagnetics
+
+243
+00:09:35,940 --> 00:09:34,060
+particularly with tennis and one of the
+
+244
+00:09:37,170 --> 00:09:35,950
+big things that they've done is develop
+
+245
+00:09:39,240 --> 00:09:37,180
+these fragments or radiator technology
+
+246
+00:09:41,760 --> 00:09:39,250
+and what that is they have these custom
+
+247
+00:09:44,580 --> 00:09:41,770
+in-house algorithms that can take in and
+
+248
+00:09:48,360 --> 00:09:44,590
+work with scientists or engineers and we
+
+249
+00:09:51,090 --> 00:09:48,370
+can design this this a ten element for a
+
+250
+00:09:53,310 --> 00:09:51,100
+very precise performance be it bandwidth
+251
+00:09:56,490 --> 00:09:53,320
+or frequency or maybe you want to cancel
+
+252
+00:09:57,900 --> 00:09:56,500
+some interference we can design very
+
+253
+00:09:59,310 --> 00:09:57,910
+large panels and we can integrate that
+
+254
+00:10:00,570 --> 00:09:59,320
+with all the power divider and
+
+255
+00:10:02,220 --> 00:10:00,580
+everything else behind that feeds into
+
+256
+00:10:04,530 --> 00:10:02,230
+that antenna and then that could feed in
+
+257
+00:10:06,150 --> 00:10:04,540
+right to our satellite you can put it
+
+258
+00:10:08,130 --> 00:10:06,160
+out on side it's it's easy to space
+
+259
+00:10:11,610 --> 00:10:08,140
+qualify these antennas so it's really
+
+260
+00:10:14,310 --> 00:10:11,620
+easy to bring this into space related
+
+261
+00:10:15,750 --> 00:10:14,320
+applications and for example one of the
+
+262
+00:10:17,910 --> 00:10:15,760
+projects that we're working on is called
+
+263
+00:10:19,440 --> 00:10:17,920
+Skyfall and this is not a cube set this
+
+264
+00:10:20,850 --> 00:10:19,450
+is actually a small set about a hundred
+
+265
+00:10:22,890 --> 00:10:20,860
+fifty kilograms if I remember correctly
+
+266
+00:10:26,520 --> 00:10:22,900
+and what we designed is this large
+
+267
+00:10:28,920 --> 00:10:26,530
+phased array antenna has about ten at
+
+268
+00:10:30,480 --> 00:10:28,930
+the eight panels and what you can do is
+
+269
+00:10:32,760 --> 00:10:30,490
+you can build lots of these at 10
+
+270
+00:10:34,290 --> 00:10:32,770
+aperture as I mentioned and you can scan
+
+271
+00:10:36,930 --> 00:10:34,300
+the beam because let's try on a CLE
+
+272
+00:10:38,430 --> 00:10:36,940
+point the beam it's orbiting and this
+
+273
+00:10:41,840 --> 00:10:38,440
+application had a 1 meter resolution
+
+274
+00:10:44,730 --> 00:10:41,850
+under 500 climate orbiter is very fine
+
+275
+00:10:47,010 --> 00:10:44,740
+so now that covers some of the projects
+276
+00:10:48,370 --> 00:10:47,020
+that we've done jour tech and GTRI
+
+277
+00:10:50,350 --> 00:10:48,380
+specifically is investing
+
+278
+00:10:51,580 --> 00:10:50,360
+and some facilities to work for our
+
+279
+00:10:53,410 --> 00:10:51,590
+projects but also eventually working
+
+280
+00:10:56,320 --> 00:10:53,420
+with any scientists or future projects
+
+281
+00:10:58,480 --> 00:10:56,330
+one of which was repurposing this
+
+282
+00:11:00,010 --> 00:10:58,490
+cleanroom it's actually a baker building
+
+283
+00:11:02,680 --> 00:11:00,020
+which is on Donnelly Street kind of just
+
+284
+00:11:04,450 --> 00:11:02,690
+a five-minute walk away or it's a class
+
+285
+00:11:06,760 --> 00:11:04,460
+100 clean room and we're repurposing it
+
+286
+00:11:08,020 --> 00:11:06,770
+as a space flight assembly area so we
+
+287
+00:11:10,690 --> 00:11:08,030
+could actually build payloads
+
+288
+00:11:13,390 --> 00:11:10,700
+in a clean environment qualify them and
+
+289
+00:11:14,950 --> 00:11:13,400
+send them out and one of the really cool
+
+290
+00:11:16,510 --> 00:11:14,960
+things we've installed is this ground
+
+291
+00:11:17,860 --> 00:11:16,520
+station as I mentioned before it's Micra
+
+292
+00:11:19,260 --> 00:11:17,870
+Nimbus it's orbit around the earth and
+
+293
+00:11:21,940 --> 00:11:19,270
+measuring we need to beam that data down
+
+294
+00:11:23,650 --> 00:11:21,950
+so we installed its ground station is in
+
+295
+00:11:26,380 --> 00:11:23,660
+Cobb County it's actually I think gonna
+
+296
+00:11:30,490 --> 00:11:26,390
+be near Iron Monger I think actually the
+
+297
+00:11:31,810 --> 00:11:30,500
+facility there yeah and with that we
+
+298
+00:11:34,150 --> 00:11:31,820
+have will be able to communicate through
+
+299
+00:11:35,320 --> 00:11:34,160
+satellite and you know get our data and
+
+300
+00:11:37,330 --> 00:11:35,330
+share with scientists but also we're
+301
+00:11:39,610 --> 00:11:37,340
+open we're working to with other
+
+302
+00:11:43,060 --> 00:11:39,620
+engineers and other scientists to use
+
+303
+00:11:45,100 --> 00:11:43,070
+the facility for other programs so I
+
+304
+00:11:47,470 --> 00:11:45,110
+hope that provided you with a good
+
+305
+00:11:50,200 --> 00:11:47,480
+outline of what we do again it's kind of
+
+306
+00:11:52,060 --> 00:11:50,210
+engineering side we really love building
+
+307
+00:11:53,680 --> 00:11:52,070
+these systems but we need to talk to
+
+308
+00:11:56,620 --> 00:11:53,690
+scientists like you because you're the
+
+309
+00:11:59,050 --> 00:11:56,630
+ones driving these missions so with that
+
+310
+00:12:01,910 --> 00:11:59,060
+that completes my talk and I'll take any
+
+311
+00:12:13,180 --> 00:12:06,150
+[Applause]
+
+312
+00:12:17,530 --> 00:12:13,190
+question of June or two yeah that's
+
+313
+00:12:18,550 --> 00:12:17,540
+really cool um so are you I think I got
+
+314
+00:12:19,540 --> 00:12:18,560
+that you're doing single point
+
+315
+00:12:23,440 --> 00:12:19,550
+measurements it's not scanning
+
+316
+00:12:26,410 --> 00:12:23,450
+measurements for micro Nimbus
+
+317
+00:12:28,150 --> 00:12:26,420
+it's a has an eight degree beam with
+
+318
+00:12:29,650 --> 00:12:28,160
+it's fixed but for some of the
+
+319
+00:12:31,060 --> 00:12:29,660
+applications we have a phased array but
+
+320
+00:12:32,260 --> 00:12:31,070
+you said you said you know you have to
+
+321
+00:12:35,590 --> 00:12:32,270
+do your measurement all at once and it
+
+322
+00:12:37,270 --> 00:12:35,600
+takes 50 seconds moving across it's
+
+323
+00:12:39,370 --> 00:12:37,280
+pointed at nadir right so he's just
+
+324
+00:12:42,280 --> 00:12:39,380
+doing a single point yeah and if you're
+
+325
+00:12:43,900 --> 00:12:42,290
+not scanning I wore skinny you are scan
+326
+00:12:44,890 --> 00:12:43,910
+yeah well you're taking seven seconds
+
+327
+00:12:46,450 --> 00:12:44,900
+you're taking the measurements digitize
+
+328
+00:12:47,830 --> 00:12:46,460
+it it has it passes into the next swath
+
+329
+00:12:49,600 --> 00:12:47,840
+you take another measurement you know
+
+330
+00:12:51,880 --> 00:12:49,610
+until until your memories fills and then
+
+331
+00:12:53,590 --> 00:12:51,890
+you'll dump that and then go again okay
+
+332
+00:12:55,330 --> 00:12:53,600
+and the idea is to make this cheap
+
+333
+00:12:57,040 --> 00:12:55,340
+enough that you could launch a
+
+334
+00:13:00,190 --> 00:12:57,050
+constellation of these right then call
+
+335
+00:13:02,740 --> 00:13:00,200
+it have a real-time 3d map of the earth
+
+336
+00:13:05,020 --> 00:13:02,750
+set that's the actual this is what it
+
+337
+00:13:06,970 --> 00:13:05,030
+actually look the size look like the 3d
+
+338
+00:13:08,740 --> 00:13:06,980
+printing does not do great on the
+
+339
+00:13:10,810 --> 00:13:08,750
+panel's they would have to be flat and
+
+340
+00:13:12,490 --> 00:13:10,820
+they won't be warped like this and you
+
+341
+00:13:15,250 --> 00:13:12,500
+might have noticed these whip atenas
+
+342
+00:13:21,820 --> 00:13:15,260
+those are at UHF and that's for
+
+343
+00:13:24,130 --> 00:13:21,830
+telemetry yeah I guess my question was
+
+344
+00:13:38,800 --> 00:13:24,140
+censored I was thinking the temporality
+
+345
+00:13:39,910 --> 00:13:38,810
+of the measurements but I was just
+
+346
+00:13:41,500 --> 00:13:39,920
+wondering if you had any mass
+
+347
+00:13:43,870 --> 00:13:41,510
+constraints on your design or if it
+
+348
+00:13:45,310 --> 00:13:43,880
+factored into any of the selection of
+
+349
+00:13:47,590 --> 00:13:45,320
+your components because I know for
+
+350
+00:13:53,610 --> 00:13:47,600
+designing CubeSat NASA usually has some
+351
+00:13:56,890 --> 00:13:53,620
+restrictions on mass size yeah
+
+352
+00:14:00,040 --> 00:13:56,900
+it's like wait wait okay yeah that is a
+
+353
+00:14:02,260 --> 00:14:00,050
+big thing so in terms of the actual keep
+
+354
+00:14:04,330 --> 00:14:02,270
+set itself on a department you know try
+
+355
+00:14:06,190 --> 00:14:04,340
+to go with weights possible since we're
+
+356
+00:14:07,600 --> 00:14:06,200
+low Earth orbit shielding is on a bit
+
+357
+00:14:10,060 --> 00:14:07,610
+constraint my background actually is in
+
+358
+00:14:12,070 --> 00:14:10,070
+radiation effects in electronics so we
+
+359
+00:14:15,130 --> 00:14:12,080
+can go light on that in terms of the
+
+360
+00:14:16,420 --> 00:14:15,140
+antenna by shrieking it we were able to
+
+361
+00:14:18,699 --> 00:14:16,430
+save away because it's actually heavy
+
+362
+00:14:20,230 --> 00:14:18,709
+it's actually copper solid copper
+
+363
+00:14:22,240 --> 00:14:20,240
+but that makes sense for a for example
+
+364
+00:14:25,120 --> 00:14:22,250
+I'm designing we're still finalizing
+
+365
+00:14:26,860 --> 00:14:25,130
+some of the board level components for
+
+366
+00:14:28,480 --> 00:14:26,870
+doing the digitization and we have to be
+
+367
+00:14:30,880 --> 00:14:28,490
+careful about how many layers as boards
+
+368
+00:14:33,550 --> 00:14:30,890
+are every any mass matters but as long
+
+369
+00:14:35,230 --> 00:14:33,560
+as but we always add like a 20% margin
+
+370
+00:14:37,060 --> 00:14:35,240
+of error so that worst case if you go
