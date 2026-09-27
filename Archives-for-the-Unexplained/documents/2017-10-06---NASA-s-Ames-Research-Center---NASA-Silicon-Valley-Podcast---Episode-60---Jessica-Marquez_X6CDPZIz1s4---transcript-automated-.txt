@@ -1,0 +1,1598 @@
+{"created_utc": "2026-09-27T03:25:36Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 107659, "source_ctime_ns": 1790102613440197438, "source_file": "Archives-for-the-Unexplained/documents/2017-10-06---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-60---Jessica-Marquez_X6CDPZIz1s4---transcript-automated-.pdf", "source_mtime_ns": 1790102613436535853, "source_rel": "Archives-for-the-Unexplained/documents/2017-10-06---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-60---Jessica-Marquez_X6CDPZIz1s4---transcript-automated-.pdf", "source_sha256": "f5f9cc4825101dc852b6f8b72a139ab0ff754a2b0513e6f91e34988b2b963b55"}
+
+1
+00:00:00,030 --> 00:00:05,310
+welcome to NASA in Silicon Valley
+episode 60 last week we changed
+
+2
+00:00:05,310 --> 00:00:08,700
+up the intro a little bit and I had
+somebody else come in so we could record
+
+3
+00:00:08,700 --> 00:00:13,679
+the introduction so I'd liked it so much
+we're gonna do that again so joining me
+
+4
+00:00:13,679 --> 00:00:18,480
+here in the studio we have Kimberly
+Minafra hey Matt so Kimberly is a science
+
+5
+00:00:18,480 --> 00:00:22,140
+communicator and she works a lot with
+the engineers and the technical side
+
+6
+00:00:22,140 --> 00:00:27,119
+here over at Ames and you may recognize
+her voice so a lot of the stories that
+
+7
+00:00:27,119 --> 00:00:31,380
+she writes that go up on nasa.gov she's
+come in to also record an audio version
+
+8
+00:00:31,380 --> 00:00:37,440
+of that for the podcast so but this week
+we have an episode with Jessica Marquez
+
+9
+00:00:37,440 --> 00:00:42,300
+somebody that Kimberly's worked quite a
+bit with that's right Jessica is a human
+
+10
+00:00:42,300 --> 00:00:46,260
+systems engineer and research scientist
+right here at Ames in the human systems
+11
+00:00:46,260 --> 00:00:50,579
+integration division she develops a lot
+of tools that enable astronauts on the
+
+12
+00:00:50,579 --> 00:00:54,420
+space station as well as training
+astronauts and flight controllers in the
+
+13
+00:00:54,420 --> 00:00:58,500
+field better plan out their workload so
+she's very integral to a lot of the work
+
+14
+00:00:58,500 --> 00:01:02,100
+we do for now the missions now and
+future missions pretty cool stuff
+
+15
+00:01:02,100 --> 00:01:06,000
+yeah we had a lot of fun chatting with
+her but before we jump into it just as a
+
+16
+00:01:06,000 --> 00:01:10,049
+quick reminder we'd love to get your
+feedback we've been using the hashtag
+
+17
+00:01:10,049 --> 00:01:15,119
+NASA Silicon Valley you can go ahead and
+jump on Twitter type that in so you can
+
+18
+00:01:15,119 --> 00:01:19,409
+send us whatever feedback you may have
+but we also now have a phone number so
+
+19
+00:01:19,409 --> 00:01:23,970
+for those who like to do it old-school the number is six five zero six zero
+
+20
+00:01:23,970 --> 00:01:29,430
+four one four zero zero we already got a
+couple messages coming in so if you want
+
+21
+00:01:29,430 --> 00:01:33,960
+to be a part of the podcast seriously
+just call in we're listening to all of
+
+22
+00:01:33,960 --> 00:01:36,869
+those messages and we're trying to
+figure out for future episodes we'll
+
+23
+00:01:36,869 --> 00:01:42,540
+start integrating those messages in as
+with our future guests don't forget we'd
+
+24
+00:01:42,540 --> 00:01:47,520
+love your feedback on the similar vein
+if you could like share subscribe
+
+25
+00:01:47,520 --> 00:01:51,990
+comment do whatever it is on your
+favorite podcast app or social media
+
+26
+00:01:51,990 --> 00:01:56,850
+that is really the best way for others
+to find this content because you know as
+
+27
+00:01:56,850 --> 00:02:02,009
+I say we are a NASA podcast but I also
+want to remind you that we are not the
+
+28
+00:02:02,009 --> 00:02:05,159
+only
+NASA podcast we have Houston We Have a
+
+29
+00:02:05,159 --> 00:02:10,440
+Podcast there's also this week at NASA
+that comes out every single Friday and
+
+30
+00:02:10,440 --> 00:02:15,930
+also NASA has a master podcast called
+NASA casts what they ended up doing is
+
+31
+00:02:15,930 --> 00:02:21,140
+taking every single podcast that NASA
+does and combining them into one giant
+
+32
+00:02:21,140 --> 00:02:26,610
+RSS feed so that's how you can find us
+that's how you can talk to us but for
+
+33
+00:02:26,610 --> 00:02:31,459
+this week let's hear from Jessica
+Marquez
+
+34
+00:02:41,580 --> 00:02:47,200
+how did you end up at NASA how did you
+end up in Silicon Valley I actually grew
+
+35
+00:02:47,200 --> 00:02:52,810
+up in Lima Peru okay and I moved to the
+US after I finished high school to start
+
+36
+00:02:52,810 --> 00:02:58,150
+undergrad and I had always been
+interested in space I didn't know what
+
+37
+00:02:58,150 --> 00:03:02,530
+to do in space knew I was gonna do
+something I knew I was gonna do
+
+38
+00:03:02,530 --> 00:03:05,860
+something because I really liked it and
+I didn't just didn't know what to do and
+
+39
+00:03:05,860 --> 00:03:09,880
+I have this really clear memory of
+writing at my mom always goes write a
+
+40
+00:03:09,880 --> 00:03:16,390
+letter Jessica nice and so I wrote a letter I
+remember going to the back of the
+
+41
+00:03:16,390 --> 00:03:19,930
+library books and and finding a letter
+that I someone I could write to
+
+42
+00:03:19,930 --> 00:03:24,550
+about what I could do in space and space
+science and I have this really clear
+
+43
+00:03:24,550 --> 00:03:30,670
+memory of having the letter returned
+back to me undelivered and I was so disappointed
+
+44
+00:03:30,670 --> 00:03:35,440
+and when I started undergrad I decided
+I'd like I was gonna try to do
+
+45
+00:03:35,440 --> 00:03:39,700
+engineering okay and actually when I was
+undergrad I was fortunate enough to get
+
+46
+00:03:39,700 --> 00:03:43,870
+an internship here at NASA Ames really
+so you came out to the Bay Area for
+
+47
+00:03:43,870 --> 00:03:48,519
+school no I was actually in the East
+Coast I was in Pinceton and through the
+
+48
+00:03:48,519 --> 00:03:54,130
+NASA state grants
+I got a internship with NASA
+
+49
+00:03:54,130 --> 00:04:01,269
+Astrobiology Academy oh cool when I had just
+started back in the 90s and I got to
+
+50
+00:04:01,269 --> 00:04:06,070
+stay here at whole summer I got to learn
+about what it's like to actually work in
+
+51
+00:04:06,070 --> 00:04:11,320
+in NASA what kind of things people did and our Astrobiology Academy group
+
+52
+00:04:11,320 --> 00:04:16,120
+was very diverse we had people doing
+space science so they're investigating
+
+53
+00:04:16,120 --> 00:04:20,590
+and learning about the universe we had
+people that were in engineering and
+
+54
+00:04:20,590 --> 00:04:25,570
+doing stuff with virtual reality we had
+people in biology itself like
+
+55
+00:04:25,570 --> 00:04:31,810
+geochemistry yeah and I ended up doing
+work with earth science and looking at
+
+56
+00:04:31,810 --> 00:04:36,729
+models and how we can improve the models
+and and after that whole exposure with
+
+57
+00:04:36,729 --> 00:04:40,630
+the Academy which was really great
+because we got to see not just aims we
+
+58
+00:04:40,630 --> 00:04:45,100
+got to see other centers yeah and
+understand the scope of what it means to
+
+59
+00:04:45,100 --> 00:04:50,650
+actually work in space in the space
+world that I decided to go to grad
+
+60
+00:04:50,650 --> 00:04:56,560
+school so I went to grad school and I
+decided to shift my attention a little
+
+61
+00:04:56,560 --> 00:05:02,289
+bit to the aeronautics astronautics I
+studied mechanical engineering as an
+
+62
+00:05:02,289 --> 00:05:05,890
+undergrad and then in grad school I went
+to MIT and I was very fortunate to go to
+
+63
+00:05:05,890 --> 00:05:11,200
+the man vehicle lab and in that lab
+everything we did has to do with how
+
+64
+00:05:11,200 --> 00:05:18,729
+humans interact with space and so that's
+how I truly delved and sort of grew in
+
+65
+00:05:18,729 --> 00:05:23,620
+my passion of understanding how people
+interact with space how people interact
+
+66
+00:05:23,620 --> 00:05:29,650
+with complex aerospace systems yeah so
+having been an engineer I never I
+
+67
+00:05:29,650 --> 00:05:34,870
+totally shied away from doing anything
+that was related to biology but one of
+
+68
+00:05:34,870 --> 00:05:38,860
+the first things I learned was how does
+the human body function in space because
+
+69
+00:05:38,860 --> 00:05:43,630
+that's very fundamental to how people
+might operate and work and live in space
+
+70
+00:05:43,630 --> 00:05:50,560
+and so I started doing that I got really
+interested in how people use complex
+
+71
+00:05:50,560 --> 00:05:54,479
+automation okay I started doing some
+work in virtual reality
+
+72
+00:05:54,479 --> 00:06:00,220
+and this is all almost 20 years ago
+almost well I remember it like on the on
+
+73
+00:06:00,220 --> 00:06:05,200
+the podcast we had Terry Fong on like
+this is earlier back in like January and
+
+74
+00:06:05,200 --> 00:06:10,960
+he'd talked a lot about those early days
+of doing VR and now automation stuff
+
+75
+00:06:10,960 --> 00:06:17,950
+were you working with him not Terry
+specifically but with the groups yeah my
+
+76
+00:06:17,950 --> 00:06:23,950
+lab is a was a very well funded lab they
+had NASA grants so I was very engaged
+
+77
+00:06:23,950 --> 00:06:29,320
+with with the NASA community pretty much
+right as soon as I started grad school
+
+78
+00:06:29,320 --> 00:06:34,240
+so my first exposure was my internship
+here at Ames and then in grad school I
+
+79
+00:06:34,240 --> 00:06:39,219
+started learning a lot more about this
+specific area and so my project for my
+
+80
+00:06:39,219 --> 00:06:45,370
+master's thesis was really looking at
+how we would train astronauts with using
+
+81
+00:06:45,370 --> 00:06:52,060
+virtual reality to teach them about the
+space station and so full circle I'm
+
+82
+00:06:52,060 --> 00:06:58,270
+working now back here where I get to
+actually help develop the training
+
+83
+00:06:58,270 --> 00:07:03,370
+systems help develop the other systems
+that support the space station so it's
+
+84
+00:07:03,370 --> 00:07:07,030
+really kind of cool to to sort of see
+like that
+
+85
+00:07:07,030 --> 00:07:12,280
+that little piece of research that I
+started almost 20 ago yeah that just you know
+
+86
+00:07:12,280 --> 00:07:16,600
+that thematically just prepared me to to
+the point that I've now been working
+
+87
+00:07:16,600 --> 00:07:21,250
+here in NASA Ames almost 10 years wow
+so like did you while you're finishing
+
+88
+00:07:21,250 --> 00:07:26,200
+up school did you keep coming back and
+doing internships or did you always kind
+
+89
+00:07:26,200 --> 00:07:28,630
+of have in the back of your head
+eventually I'm gonna end up back over
+
+90
+00:07:28,630 --> 00:07:33,400
+there um so I when I was in grad school
+I was fortunate enough that I had enough
+
+91
+00:07:33,400 --> 00:07:42,550
+funding to stick around school and so I
+did do I did have other NASA fellowships
+
+92
+00:07:42,550 --> 00:07:46,600
+and other NASA grants that supported my
+work but the first time I got to come
+
+93
+00:07:46,600 --> 00:07:51,790
+back here was almost very much at the
+end of my grad life yeah cuz we had an
+
+94
+00:07:51,790 --> 00:07:54,440
+opportunity to start collaborating with
+someone
+
+95
+00:07:54,440 --> 00:08:01,280
+in Code TI where Terri is now
+Code TI for folks that's a they they work on
+
+96
+00:08:01,330 --> 00:08:06,420
+all the automation robotics yeah and so
+we started I started coming I came here
+
+97
+00:08:06,430 --> 00:08:10,540
+once and and I had still maintained all
+those relationships that I had built
+
+98
+00:08:10,540 --> 00:08:15,280
+when I had been an undergrad and so I
+was fortunate enough when I was starting
+
+99
+00:08:15,280 --> 00:08:20,680
+to look for a job it actually kind of
+happens and if you've ever tried to find
+
+100
+00:08:20,680 --> 00:08:27,370
+a job applying just on a website is is
+just the first step it's really trying
+
+101
+00:08:27,370 --> 00:08:32,320
+to reach out to the right people that
+you know to have them connect you and
+
+102
+00:08:32,320 --> 00:08:36,880
+start conversations and I very quickly
+learned that and I was very grateful
+
+103
+00:08:36,880 --> 00:08:41,020
+that I had maintained those
+relationships I affectionately refer to
+
+104
+00:08:41,020 --> 00:08:45,700
+things as like informational interviews
+sometimes it's like just you know being
+
+105
+00:08:45,700 --> 00:08:49,240
+curious and talking to people about
+their jobs and if you have a connection
+
+106
+00:08:49,240 --> 00:08:53,290
+that's like use it start those
+conversations and even if it's not if
+
+107
+00:08:53,290 --> 00:08:58,600
+even if it's not gonna lead anywhere it
+makes you more aware about what people
+
+108
+00:08:58,600 --> 00:09:03,070
+are looking for who to talk to
+yeah potentially the opportunities for
+
+109
+00:09:03,070 --> 00:09:07,360
+other jobs that you might not have been
+aware of and so when I started
+
+110
+00:09:07,360 --> 00:09:11,980
+interviewing for jobs I started doing
+interviews for just human factors
+
+111
+00:09:11,980 --> 00:09:15,670
+engineering that's what I'm sort of
+classically trained in the domain of
+
+112
+00:09:15,670 --> 00:09:20,769
+human factors engineering specifically
+space but I I was
+
+113
+00:09:20,769 --> 00:09:26,529
+a sort of a wide range of stuff and I
+very quickly realized that when I was
+
+114
+00:09:26,529 --> 00:09:29,769
+doing the interviews I was just not
+passionate about anything that was not
+
+115
+00:09:29,769 --> 00:09:34,360
+about space oh yeah
+and so what ended up happening I was just
+
+116
+00:09:34,360 --> 00:09:38,019
+like yeah I know I'm I'm like shooting
+myself on the foot here every time I go
+
+117
+00:09:38,019 --> 00:09:43,480
+this yeah and so I was like okay they
+changed my strategy I'm just gonna you
+
+118
+00:09:43,480 --> 00:09:47,709
+know for a time period just gonna devote
+all my attention to getting something in
+
+119
+00:09:47,709 --> 00:09:51,429
+the space domain okay
+and so I was applying to only things
+
+120
+00:09:51,429 --> 00:09:56,709
+that were space related and then on a
+lark I I was was gonna come out here to
+
+121
+00:09:56,709 --> 00:10:03,040
+visit and I my mentor a Douglas O Hanley
+I was like hey I'm gonna be out there is
+
+122
+00:10:03,040 --> 00:10:07,449
+there anybody I should talk to yeah he
+put me into contact with someone who put
+
+123
+00:10:07,449 --> 00:10:13,660
+me into contact with someone else and
+interviewing like spontaneously that
+
+124
+00:10:13,660 --> 00:10:18,369
+afternoon when I was here who with the
+person that basically hired me oh that's
+
+125
+00:10:18,369 --> 00:10:24,910
+awesome and it was that at that time
+where we were NASA was doing 10 healthy
+
+126
+00:10:24,910 --> 00:10:31,749
+centers okay and so that timeframe is
+basically this the NASA headquarters
+
+127
+00:10:31,749 --> 00:10:35,799
+said hey let's have all the civil
+servants work and support each other
+
+128
+00:10:35,799 --> 00:10:39,189
+across the agency regardless of where
+you are ok so it's not like you're
+
+129
+00:10:39,189 --> 00:10:42,850
+competing and fighting with each other
+for funding this is like everybody
+
+130
+00:10:42,850 --> 00:10:46,689
+working together one NASA one big thing
+and so there was an opportunity to
+
+131
+00:10:46,689 --> 00:10:51,069
+really they were looking to make sure
+that all the competencies were
+
+132
+00:10:51,069 --> 00:10:54,790
+distributed
+okay well across the the NASA as a whole
+
+133
+00:10:54,790 --> 00:11:01,420
+and so that was just a golden
+opportunity and I was I explain it to
+
+134
+00:11:01,420 --> 00:11:06,429
+people like I was like I put all my
+chips in one bucket except this one chip
+
+135
+00:11:06,429 --> 00:11:10,689
+that I put out here in California okay I
+knew very few people I had like my
+
+136
+00:11:10,689 --> 00:11:16,329
+mentor out here but that was about it
+no yeah and that was the one that you
+
+137
+00:11:16,329 --> 00:11:22,239
+know beared fruit what section were you
+working in what were you working on when
+
+138
+00:11:22,239 --> 00:11:25,869
+you first came on board so the first
+project that I got to work on was really
+
+139
+00:11:25,869 --> 00:11:31,029
+interesting it was about how would we go
+about making new training systems for
+
+140
+00:11:31,029 --> 00:11:34,420
+astronauts for the new constellation
+program
+
+141
+00:11:34,420 --> 00:11:40,839
+the constellation program was focused on
+not just creating a new rocket in a new
+
+142
+00:11:40,839 --> 00:11:45,399
+spacecraft mm-hmm
+to go on the rocket but also that it was
+
+143
+00:11:45,399 --> 00:11:47,709
+gonna go to the Moon and it was gonna go
+to Mars
+
+144
+00:11:47,709 --> 00:11:52,480
+so from and for folks listed the
+constellation eventually through through
+
+145
+00:11:52,480 --> 00:11:56,860
+the joys of government bureaucracy and
+changing priorities turned into
+
+146
+00:11:56,860 --> 00:12:03,760
+basically what is now SLS more or less
+which is the Space Launch System so
+
+147
+00:12:03,760 --> 00:12:07,320
+I'm sorry
+when it first started it was this
+
+148
+00:12:07,320 --> 00:12:11,260
+integrated program where yeah we were
+gonna do all these things under one
+
+149
+00:12:11,260 --> 00:12:17,910
+program and the training part of it was
+interesting because how do I prepare
+
+150
+00:12:17,910 --> 00:12:22,029
+people to do all these things that I'm
+not quite sure when they're gonna do
+
+151
+00:12:22,029 --> 00:12:27,190
+that and I'm not quite sure how the
+system is gonna be actually created and
+
+152
+00:12:27,190 --> 00:12:32,170
+done but yet still provide those
+simulators in time and before you
+
+153
+00:12:32,170 --> 00:12:36,970
+actually launch wow everybody puts on
+the schedule when we're gonna send
+
+154
+00:12:36,970 --> 00:12:41,829
+someone up and we're gonna launch them
+on the rocket ship I'm like yeah but you
+
+155
+00:12:41,829 --> 00:12:45,279
+don't realize there's a whole other
+deadline that comes away before that
+
+156
+00:12:45,279 --> 00:12:48,910
+where it's like you train them to go on
+the rocket ship and if you haven't done
+
+157
+00:12:48,910 --> 00:12:53,620
+that guess what things are gonna get
+delayed yeah and that was another
+
+158
+00:12:53,620 --> 00:12:58,390
+surprising thing I never knew that there
+were all these other roles and mission
+
+159
+00:12:58,390 --> 00:13:04,959
+operation that played a critical path
+it all builds and grows yeah so that gave me the
+
+160
+00:13:04,959 --> 00:13:09,519
+opportunity to start traveling to NASA
+Johnson Space Center a lot so I started
+
+161
+00:13:09,519 --> 00:13:14,740
+working with them traveling there
+frequently I then started to get
+
+162
+00:13:14,740 --> 00:13:18,310
+involved with the human-computer
+interaction group and they were doing
+
+163
+00:13:18,310 --> 00:13:23,500
+two types of and they still are doing
+two types of work one of them has to do
+
+164
+00:13:23,500 --> 00:13:27,610
+with mission data systems okay and the
+other one is planning and scheduling
+
+165
+00:13:27,610 --> 00:13:32,920
+systems and I wanted to work on the
+planning and scheduling system because
+
+166
+00:13:32,920 --> 00:13:38,889
+that's what I've done for my PhD
+Oh fun yeah and and they were making the
+
+167
+00:13:38,889 --> 00:13:46,570
+actual planning and scheduling systems
+to go to Mars to operate Rovers on Mars
+
+168
+00:13:46,570 --> 00:13:52,450
+and I was like well yeah I want to do
+that that's why I did my PhD for sure as
+
+169
+00:13:52,450 --> 00:13:57,430
+a PhD student you didn't really realize
+this is what you're gonna you know you'd
+
+170
+00:13:57,430 --> 00:14:02,380
+have an opportunity to actually work on
+that thing being built so I joined that
+
+171
+00:14:02,380 --> 00:14:08,260
+team and we got a lot of projects with
+ISS I started doing planning and
+
+172
+00:14:08,260 --> 00:14:12,400
+scheduling tools for the International
+Space Station and that's where again I
+
+173
+00:14:12,400 --> 00:14:17,680
+was traveling a lot more to JSC and so
+everything that I've been doing in Ames
+
+174
+00:14:17,680 --> 00:14:25,750
+has centered around how people operate
+and manage to work and live in space not
+
+175
+00:14:25,750 --> 00:14:31,000
+from the biological sense or the
+physiological sense but centered around
+
+176
+00:14:31,000 --> 00:14:35,220
+how do you work how do you how do you
+bring all these complex pieces together
+
+177
+00:14:35,220 --> 00:14:40,270
+mm-hmm it's like a complicated puzzle I
+suppose and if everything doesn't fit
+
+178
+00:14:40,270 --> 00:14:43,780
+ever so perfectly yeah and there's so
+many other moving parts there's like the
+
+179
+00:14:43,780 --> 00:14:48,730
+training part there is maintaining the
+hardware for Mission Control they're all
+
+180
+00:14:48,730 --> 00:14:52,600
+the different disciplines and Mission
+Control that's one of my favorite things
+
+181
+00:14:52,600 --> 00:14:57,730
+to do when I go to JSC NASA Johnson
+Space Center is just sit in Mission
+
+182
+00:14:57,730 --> 00:15:00,340
+Control
+it's amazing you sit there and they let
+
+183
+00:15:00,340 --> 00:15:05,140
+you if you have permission to go inside
+that area you could just sit there and
+
+184
+00:15:05,140 --> 00:15:09,280
+observe them just look at a computer and
+you're like oh well that's what's the
+
+185
+00:15:09,280 --> 00:15:12,130
+big deal about just someone staring at
+your computer I'm like they're staring a
+
+186
+00:15:12,130 --> 00:15:18,100
+computer because they're watching a
+giant spaceship go around the earth
+
+187
+00:15:18,100 --> 00:15:25,420
+every 90 minutes that have six people
+living in them wow and when you start
+
+188
+00:15:25,420 --> 00:15:29,260
+thinking about the immensity of that
+yeah and your little piece of
+
+189
+00:15:29,260 --> 00:15:34,450
+contribution that you did for it it's
+just it just blows my mind which is this
+
+190
+00:15:34,450 --> 00:15:38,260
+is why I love just even just sitting
+there and just watching and looking at
+
+191
+00:15:38,260 --> 00:15:42,310
+some of the stuff that you're doing now
+it does it still is so centered around
+
+192
+00:15:42,310 --> 00:15:46,930
+like your day-to-day work today is it
+still around that stuff around like the
+
+193
+00:15:46,930 --> 00:15:52,120
+space station and keeping astronauts up
+there yeah so with all our experience
+
+194
+00:15:52,120 --> 00:15:55,660
+doing planning and scheduling for
+International Space Station we started
+
+195
+00:15:55,660 --> 00:16:00,570
+looking a lot more at what is the
+astronaut need so for the last
+
+196
+00:16:00,570 --> 00:16:05,769
+10-12 years we very much focus on the
+planner the planner is a person that
+
+197
+00:16:05,769 --> 00:16:09,160
+integrates all the inputs from everyone
+mm-hmm
+
+198
+00:16:09,160 --> 00:16:14,800
+in ISS you have the crew is a person
+that executes that plan yeah and when you
+
+199
+00:16:14,800 --> 00:16:18,790
+do it on Mars
+you have the rover execute things
+
+200
+00:16:18,790 --> 00:16:24,130
+exactly as the command send yeah was
+sent or as best as the commands can be
+
+201
+00:16:24,130 --> 00:16:27,940
+interpreted by the robot yeah in Space
+Station is very different you have a
+
+202
+00:16:27,940 --> 00:16:31,899
+person you have to give them
+instructions you need to give them
+
+203
+00:16:31,899 --> 00:16:37,180
+enough instructions that they know what
+to do without overwhelming them it's
+
+204
+00:16:37,180 --> 00:16:43,390
+like imagine you know you get your IKEA
+instructions you're like okay well I
+
+205
+00:16:43,390 --> 00:16:50,320
+expect you to be done in an hour and you're like what is this allen wrench what do I do this is the
+
+206
+00:16:50,320 --> 00:16:54,700
+first time I've seen this how am I
+supposed to how do I make sure that like
+
+207
+00:16:54,700 --> 00:16:59,649
+how do I get all the parts where are all
+the parts what order do I supposed to do this
+
+208
+00:16:59,649 --> 00:17:04,720
+yeah or if I get interrupted it's like I
+oh where did I leave off in these
+
+209
+00:17:04,720 --> 00:17:09,640
+instructions so even just little simple
+things like I learned a lot about then
+
+210
+00:17:09,640 --> 00:17:15,370
+how you work in space and actually do
+the things that astronauts are doing in
+
+211
+00:17:15,370 --> 00:17:21,400
+space it's like the astronauts are
+highly accomplished like extremely smart
+
+212
+00:17:21,400 --> 00:17:24,790
+individuals but at the same time you
+have all these different science
+
+213
+00:17:24,790 --> 00:17:28,510
+experiments and different things and
+you're asking a lot of these people and
+
+214
+00:17:28,510 --> 00:17:33,130
+you can't be a a specialist in
+everything and so it's like you know we
+
+215
+00:17:33,130 --> 00:17:36,130
+have the people who are building these
+you know science experiments but at the
+
+216
+00:17:36,130 --> 00:17:39,610
+end of the day you have a human being on
+the space station that has to execute it
+
+217
+00:17:39,610 --> 00:17:44,710
+and do it that's so that's crazy
+so yeah I'd imagine like the planning
+
+218
+00:17:44,710 --> 00:17:47,530
+logistics on that is just completely nuts
+yeah so the things that we had
+
+219
+00:17:47,530 --> 00:17:52,240
+emphasized before was how do we make
+sure that that all the resources are in
+
+220
+00:17:52,240 --> 00:17:57,370
+place to do this task yeah and more
+recently we've been focused a little
+
+221
+00:17:57,370 --> 00:18:01,540
+more on okay
+now that you have all the resources how
+
+222
+00:18:01,540 --> 00:18:08,380
+do we help the astronaut do their job
+like for instance a very complex example
+
+223
+00:18:08,380 --> 00:18:14,470
+is preparing for a spacewalk okay so to
+do a spacewalk you need to do all sorts
+
+224
+00:18:14,470 --> 00:18:20,230
+of things to prepare the space station
+to make sure that it's configured in a
+
+225
+00:18:20,230 --> 00:18:25,600
+way that it's most safe for the
+astronaut because they're gonna be going
+
+226
+00:18:25,600 --> 00:18:28,960
+out there in case you didn't know the
+solar arrays in the space station move
+
+227
+00:18:28,960 --> 00:18:32,289
+because they're tracking the Sun when
+you have a spacewalk I believe they're
+
+228
+00:18:32,289 --> 00:18:36,220
+fixed so you have to do all this
+preparation so once you fix the space
+
+229
+00:18:36,220 --> 00:18:39,100
+station the solar arrays in the space
+station that means you're affecting your
+
+230
+00:18:39,100 --> 00:18:43,570
+power which then means you're affecting
+all the entire payloads all the size
+
+231
+00:18:43,570 --> 00:18:48,250
+that's happening on the space station
+and your ability to use a robotic arm or
+
+232
+00:18:48,250 --> 00:18:53,049
+your ability to manage life-support
+systems and so if everything is like
+
+233
+00:18:53,049 --> 00:18:56,620
+okay we have this one thing it's like oh
+yeah we're gonna do a spacewalk it's not that
+
+234
+00:18:56,620 --> 00:19:00,669
+simple there's a whole bunch of things
+that are coming about to prepare for
+
+235
+00:19:00,669 --> 00:19:06,159
+that and then you're like okay well now
+the astronaut has to do that there's a
+
+236
+00:19:06,159 --> 00:19:10,900
+whole other set of things that they have
+to prepare to do that that specific task
+
+237
+00:19:10,900 --> 00:19:14,890
+and so the work that we've been doing
+has been focused on how do we make it
+
+238
+00:19:14,890 --> 00:19:21,760
+easier to even though we have extremely
+highly trained highly capable astronauts
+
+239
+00:19:21,760 --> 00:19:26,710
+on space station how do we make their
+lives easier kind of like if you ever
+
+240
+00:19:26,710 --> 00:19:31,450
+encountered a really poorly design app
+mm-hmm and you're like you can't you're
+
+241
+00:19:31,450 --> 00:19:36,070
+like I don't know how nothing makes
+sense it's like it's supposed to be a
+
+242
+00:19:36,070 --> 00:19:40,600
+very you know a simple way to interact
+or interface it then you're like why
+
+243
+00:19:40,600 --> 00:19:43,270
+couldn't you have just done it this way
+and it's just been easier for me to
+
+244
+00:19:43,270 --> 00:19:46,330
+understand and do my job that's right and keeping in mind that
+
+245
+00:19:46,330 --> 00:19:51,130
+there's a lot of tech companies spending
+a lot of money on people who are experts
+
+246
+00:19:51,130 --> 00:19:56,260
+in design and human psychology and
+having that consistency of where buttons
+
+247
+00:19:56,260 --> 00:20:01,120
+go and why and how to make it make what
+you want to do the path of least
+
+248
+00:20:01,120 --> 00:20:07,120
+resistance and so in space the people
+that are designing all these these tools
+
+249
+00:20:07,120 --> 00:20:11,320
+for the astronauts we have a very
+limited pool of people and so our job is
+
+250
+00:20:11,320 --> 00:20:17,080
+to make the most efficient effective set
+of systems that the astronauts can use
+
+251
+00:20:17,080 --> 00:20:22,270
+effectively and easily wow and so we've
+been developing different types of
+252
+00:20:22,270 --> 00:20:27,399
+things like can we make their timeline
+tool easier to use can we give them a
+
+253
+00:20:27,399 --> 00:20:29,929
+little flexible
+and allow them to schedule some of their
+
+254
+00:20:29,929 --> 00:20:34,190
+activities there up there they should
+know better what what they should do
+
+255
+00:20:34,190 --> 00:20:38,780
+when but maybe you can't do this
+particular thing because you didn't have
+
+256
+00:20:38,780 --> 00:20:43,429
+enough power or you're not supposed to
+do them in that order so we don't want
+
+257
+00:20:43,429 --> 00:20:46,850
+to make we want to make sure that we
+give the astronauts flexibility to do
+
+258
+00:20:46,850 --> 00:20:50,929
+what they think is best and what they
+might be most effective and efficient
+
+259
+00:20:50,929 --> 00:20:55,820
+but at the same time we don't want to
+throw away all the good work that the
+
+260
+00:20:55,820 --> 00:21:00,289
+people in the ground have done to create
+a plan that meets all these different
+
+261
+00:21:00,289 --> 00:21:05,659
+constraints that are going around so
+what I wanted to talk about was well I'd
+262
+00:21:05,659 --> 00:21:11,720
+need to do a plug for you on a recent
+relatively recent activity we did called
+
+263
+00:21:11,720 --> 00:21:18,049
+Google expeditions but also the location
+where that was done was in our over at
+
+264
+00:21:18,049 --> 00:21:25,970
+Ames we call it the Mars rover scape or
+the rover scape so for those folks who aren't aware
+
+265
+00:21:25,970 --> 00:21:29,539
+listening who are unaware there's an app
+if you jump in it's called like Google
+
+266
+00:21:29,539 --> 00:21:35,960
+expeditions and it's kind of a way that
+teachers and students can kinda in a 360
+
+267
+00:21:35,960 --> 00:21:42,230
+VR type atmosphere do tours and look at
+things and so NASA did a whole set of
+
+268
+00:21:42,230 --> 00:21:46,690
+these had several different people you
+know representing different centers and
+
+269
+00:21:46,690 --> 00:21:53,059
+Jessica she was our person for Ames it
+was set at the at the rover scape and
+
+270
+00:21:53,059 --> 00:21:57,919
+you if you pull up the app and you look
+up for Jessica's you look around you can
+
+271
+00:21:57,919 --> 00:22:02,510
+see these different points of interest
+so talk a little bit about that why in the
+272
+00:22:02,510 --> 00:22:06,919
+rover scape what was some of the stuff
+related to that so we did in the
+
+273
+00:22:06,919 --> 00:22:11,840
+rover escape because we wanted to
+capture people's imagination because
+
+274
+00:22:11,840 --> 00:22:16,490
+it's NASA but also captured people's
+imagination about what exploration might
+
+275
+00:22:16,490 --> 00:22:22,130
+be like in the future so if you think
+about how we send Rovers and potentially
+
+276
+00:22:22,130 --> 00:22:28,429
+than people to Mars we're gonna have to
+be a little more autonomous and work
+
+277
+00:22:28,429 --> 00:22:32,480
+more independently from Earth so this is
+a reoccurring theme that you see in in
+
+278
+00:22:32,480 --> 00:22:39,049
+Journey to Mars at the hashtag Journey
+to Mars as we go farther and farther
+
+279
+00:22:39,049 --> 00:22:44,710
+away
+we inevitably hit this impossible not
+
+280
+00:22:44,710 --> 00:22:48,880
+impossible but this physics constraint
+the farther we go away the longer it
+
+281
+00:22:48,880 --> 00:22:52,960
+takes for your message to go back and
+forth the light can only travel so fast
+282
+00:22:52,960 --> 00:22:57,340
+yeah
+and so this bounced how frequently and
+
+283
+00:22:57,340 --> 00:23:01,930
+how often you can actually talk back to
+earth not just because of the speed of
+
+284
+00:23:01,930 --> 00:23:06,580
+the the data the communication back and
+forth but also because you're going
+
+285
+00:23:06,580 --> 00:23:11,140
+through a very tiny pipeline you
+actually have to depend on very limited
+
+286
+00:23:11,140 --> 00:23:16,120
+amount of data that is going from
+interstellar space because it's
+
+287
+00:23:16,120 --> 00:23:23,020
+literally interstellar space yes it's not
+hyperbole back to earth and there's only
+
+288
+00:23:23,020 --> 00:23:27,600
+a certain certain number of satellites
+and basically your pipeline is very
+
+289
+00:23:27,600 --> 00:23:34,000
+small to get all that data so as we
+start imagining what missions to Mars
+
+290
+00:23:34,000 --> 00:23:39,190
+might be like with people and rovers you
+start to realize how much more
+
+291
+00:23:39,190 --> 00:23:43,680
+independent people and rovers are gonna
+have to be from Earth because we're just
+292
+00:23:43,680 --> 00:23:52,000
+limited by physics and so the idea is
+that one of our tools PlayBook it
+
+293
+00:23:52,000 --> 00:23:58,150
+is a time line tool that hopefully will
+help astronauts manage their own
+
+294
+00:23:58,150 --> 00:24:02,440
+schedule more easily and we're hoping
+that this will be an integral part about
+
+295
+00:24:02,440 --> 00:24:08,500
+how they work with rovers in future
+missions and deep space missions and
+
+296
+00:24:08,500 --> 00:24:12,670
+Mars missions and so does the PlayBook
+software is that also related to some of
+
+297
+00:24:12,670 --> 00:24:18,820
+the other Mars analog I think is what we
+like to say other practice sessions that
+
+298
+00:24:18,820 --> 00:24:23,680
+I know Ames has worked on either in
+Idaho or Hawaii so one of the coolest
+
+299
+00:24:23,680 --> 00:24:28,780
+things about my job is that we have to
+become very clever in how we learn about
+
+300
+00:24:28,780 --> 00:24:33,850
+traveling to Mars in deep space when we
+can't actually do it yeah
+
+301
+00:24:33,850 --> 00:24:40,270
+so we finds all sorts of different ways
+of simulating this environment and the
+302
+00:24:40,270 --> 00:24:45,160
+earth analogs provide a really great way
+of studying different aspects of the
+
+303
+00:24:45,160 --> 00:24:50,650
+missions and different constraints that
+we will encounter as we do these future
+
+304
+00:24:50,650 --> 00:24:55,500
+missions and so PlayBook has been our
+tool that we've been using and
+
+305
+00:24:55,500 --> 00:25:00,510
+developing slowly over time and we call
+it our next generation of planning and
+
+306
+00:25:00,510 --> 00:25:05,670
+scheduling tools for NASA and we have
+managed to test this in many different
+
+307
+00:25:05,670 --> 00:25:11,970
+types of analogs we do it at NEMA which
+is the underwater analog we've done it
+
+308
+00:25:11,970 --> 00:25:17,309
+at BASALT which is looking at science
+objectives in the context of Mars
+
+309
+00:25:17,309 --> 00:25:22,950
+exploration we have done it in HERA
+which is this JSC analog where people
+
+310
+00:25:22,950 --> 00:25:26,780
+are in a confined environment in
+isolation
+
+311
+00:25:26,780 --> 00:25:32,640
+we are now actually also in high seas
+which is this 8 month long analog wow
+312
+00:25:32,640 --> 00:25:39,840
+where they put crew in isolation for 8
+months oh wow and so we learn different
+
+313
+00:25:39,840 --> 00:25:45,059
+things with different missions about how
+self scheduling and playbook might work
+
+314
+00:25:45,059 --> 00:25:49,440
+in these environments excellent so as a
+throwback to folks listening to the
+
+315
+00:25:49,440 --> 00:25:54,030
+podcast we had an episode with Darlene
+Lim who works on BASALT on one of
+
+316
+00:25:54,030 --> 00:25:57,120
+those so for anybody who wants to get
+more information on that I will throw
+
+317
+00:25:57,120 --> 00:26:01,340
+that into the show notes so people can
+go back and listen to that episode but
+
+318
+00:26:01,340 --> 00:26:05,370
+awesome and also for anybody if you're
+looking for the Google expeditions we'll
+
+319
+00:26:05,370 --> 00:26:09,120
+throw in a link for that if you want to
+check out Jessica and you can move your
+
+320
+00:26:09,120 --> 00:26:13,410
+phone around and 360 and see all the
+little points and learn more about
+
+321
+00:26:13,410 --> 00:26:17,550
+PlayBook and stuff but for folks who
+have anybody has questions for Jessica
+322
+00:26:17,550 --> 00:26:23,309
+we are on twitter at NASA Ames we use
+the hashtag NASA Silicon Valley this has
