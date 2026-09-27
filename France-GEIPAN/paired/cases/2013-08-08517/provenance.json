@@ -12,8 +12,29 @@
   "generated_at": "2026-09-12T16:55:42Z",
   "page_count": 1,
   "pipeline_version": "ufo-files-french-pipeline/1.0.2",
-  "qa_status": "needs-review",
+  "qa_status": "pass",
   "remaining_manual_review_count": 13,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-12T16:55:42Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "b3f6a649ecf084b5a91d01ac21bba592e15b0f0bb779db74aca23a75b75c0a48",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T01:15:05Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
@@ -23,16 +44,16 @@
   "segment_count": 13,
   "source_bytes": 19685,
   "source_sha256": "b0607be2a4c310579ec7e13bfed333cc43ca30f56192febb9125610f31428c22",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-12T16:55:42Z",
+    "generated_at": "2026-09-27T01:15:05Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   },
-  "translation_text_sha256": "07ac8ed8e927aa6fe03d700ae6c6888425adf7a382292944208237b5f30fc600"
+  "translation_text_sha256": "f26813e35543ecc5b5d7d7d8ccc871f92295672b62d66a4bdf3a63296a123387"
 }

@@ -123,15 +123,15 @@
           "field": "documents",
           "page_id": "page-d6756d8d258d167c6db30dd6",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-d81e5557e2347cafe6c25e0d",
           "segment_index": 8,
           "source_segment_id": "seg-d81e5557e2347cafe6c25e0d",
           "source_text_sha256": "4aa421648c914cb5e226af1b30c02b300dc3f589ffc2ec31c26b5f8ddf064942",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Questionnaire technique-R.pdf",
-          "translation_text_sha256": "a5a680c557aa7e83cf19e05bb709f94afa75ee7b5dba2615d982bf8abd7b4dbe"
+          "status": "not-required",
+          "text": "Documents: Questionnaire technique-R.pdf",
+          "translation_text_sha256": "4aa421648c914cb5e226af1b30c02b300dc3f589ffc2ec31c26b5f8ddf064942"
         },
         {
           "end_ms": null,
@@ -139,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-d6756d8d258d167c6db30dd6",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-6cca07702af3eb221f4d26f9",
           "segment_index": 9,
           "source_segment_id": "seg-6cca07702af3eb221f4d26f9",
           "source_text_sha256": "f0720d4c3d0888956f6747a4c5d7651872e5b0800434e4c519d27c772f9051cf",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: PONT-SAINT-ESPRIT (30) 12.07.2018",
           "translation_text_sha256": "f526d87d49bcb77eaa0d34ecbfe192831969cc1a04e3c5fe784509a134c87c13"
         },
@@ -167,29 +167,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-d6756d8d258d167c6db30dd6",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-ba374f8fe964395cf9802bb7",
           "segment_index": 11,
           "source_segment_id": "seg-ba374f8fe964395cf9802bb7",
           "source_text_sha256": "694d4ed2fed200a35db8f0b30ef1d4c0395832358d9e096f8bb1d17390135bdd",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On July 12, 2018, around 11:20 PM, a witness, on their terrace, observed in the sky a black triangular shape \"composed of two distinct parts\" and \"round lights.\" The UFO quickly disappears, hidden by a house. No noise was heard during the phenomenon's straight-line passage. Only one testimony was collected. Of average strangeness and low consistency (single witness, sometimes imprecise testimony with some ambiguities), this case is found to be identifiable due to a lack of data. According to the criteria of the UFO_PROTECTED_000__, consistency is the amount of reliable and objective information gathered for a testimony. Several hypotheses can explain the description of the UFO_PROTECTED_001__ reported by the witness, however, the ambiguity regarding the duration of observation (the witness mentioning both a few seconds in free text and 1 to 2 minutes in response to question B6 of the technical questionnaire) does not allow for prioritizing a particular hypothesis. Furthermore, the angular height of the UFO_PROTECTED_001__ does not align with the testimony, and its trajectory remains unknown. The UFO_PROTECTED_000__ repeatedly questioned the witness for additional information, particularly regarding the sketch mentioned in the technical questionnaire. To date, no additional elements have been provided. The case is classified C, non-identifiable due to a lack of data.",
-          "translation_text_sha256": "6b6a3d1647c4747d587afa7c45b7f10f176d149cedb617adf6df5e12f78ae904"
+          "status": "machine-unreviewed",
+          "text": "Description: On July 12, 2018, around 11:20 PM, a witness, on their terrace, observed in the sky a black triangular shape \"composed of two distinct parts\" and \"round lights.\" The UFO quickly disappears, hidden by a house. No noise was heard during the phenomenon's straight-line passage. Only one testimony was collected. Of average strangeness and low consistency (single witness, sometimes imprecise testimony with some ambiguities), this case is found to be identifiable due to a lack of data. According to the criteria of the PAN, consistency is the amount of reliable and objective information gathered for a testimony. Several hypotheses can explain the description of the GEIPAN reported by the witness, however, the ambiguity regarding the duration of observation (the witness mentioning both a few seconds in free text and 1 to 2 minutes in response to question B6 of the technical questionnaire) does not allow for prioritizing a particular hypothesis. Furthermore, the angular height of the GEIPAN does not align with the testimony, and its trajectory remains unknown. The PAN repeatedly questioned the witness for additional information, particularly regarding the sketch mentioned in the technical questionnaire. To date, no additional elements have been provided. The case is classified C, non-identifiable due to a lack of data.",
+          "translation_text_sha256": "ee34d01d94a9384427433e287713e3d497bda6fc2f5d9847982582ea528a46bd"
         }
       ],
       "source_page_id": "page-d6756d8d258d167c6db30dd6"
@@ -200,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-11T02:02:35Z",
+    "generated_at": "2026-09-27T01:35:50Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

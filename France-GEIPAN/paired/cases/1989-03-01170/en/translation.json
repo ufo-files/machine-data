@@ -119,39 +119,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-c92a7932023bdb32b697aa55",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "118",
-                "1989307883",
-                "89"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                " 1989307883-118-89-R.pdf"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "not-required",
           "segment_id": "seg-089789dfddf63cbfe8378b87",
           "segment_index": 8,
           "source_segment_id": "seg-089789dfddf63cbfe8378b87",
           "source_text_sha256": "413108df72cfdcc11f6d13244af5627a2f4de9d99079ae7174878824b5637fbc",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents: MAYET (72) 1989 [T-M PV T S,A]",
-          "translation_text_sha256": "089a6427ba65307af52633140b88556ce8cdaea81ce384cf3fa1180482aa8281"
+          "status": "not-required",
+          "text": "Documents: MAYET (72) 1989 [T-M PV T S,A] 1989307883-118-89-R.pdf",
+          "translation_text_sha256": "413108df72cfdcc11f6d13244af5627a2f4de9d99079ae7174878824b5637fbc"
         },
         {
           "end_ms": null,
@@ -159,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-c92a7932023bdb32b697aa55",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-f249779d7e4b5654c270f8d5",
           "segment_index": 9,
           "source_segment_id": "seg-f249779d7e4b5654c270f8d5",
           "source_text_sha256": "8fcbbb34676c98aef8b01bd14aa81b14e17c6b59a663461fbfbace147ec99907",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: MAYET (72) 03.03.1989",
           "translation_text_sha256": "38072dde443b95729b78db2249acc70865ee2fecd72de4368c4f188308f3ec89"
         },
@@ -201,15 +181,6 @@
               "status": "mismatch"
             },
             {
-              "added_in_translation": [
-                "1"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
               "check": "negation",
               "severity": "error",
               "source_count": 2,
@@ -237,13 +208,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-28T18:34:05Z",
+    "generated_at": "2026-09-27T02:16:03Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

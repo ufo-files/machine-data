@@ -42,14 +42,24 @@
           "error": null,
           "field": "region",
           "page_id": "page-5aff69cd2665ac044fdbe7b4",
-          "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "qa_findings": [
+            {
+              "added_in_translation": [],
+              "check": "times",
+              "missing_from_translation": [
+                "12:00"
+              ],
+              "severity": "error",
+              "status": "mismatch"
+            }
+          ],
+          "review_status": "needs-review",
           "segment_id": "seg-742d391730a74ec1ca7c28ff",
           "segment_index": 3,
           "source_segment_id": "seg-742d391730a74ec1ca7c28ff",
           "source_text_sha256": "79dbc5c726174a7eacc3772b95a789e7c826af4c8da6e958c5c0321b70ca7243",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "needs-review",
           "text": "Region: Midi-Pyrénées",
           "translation_text_sha256": "163f1a93625f8b3d0442a9358ea5fd93f009981b84ebbf64cb05982851a789f1"
         },
@@ -155,15 +165,15 @@
           "field": "documents",
           "page_id": "page-5aff69cd2665ac044fdbe7b4",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-43b70fe245ebca876ecc7c78",
           "segment_index": 10,
           "source_segment_id": "seg-43b70fe245ebca876ecc7c78",
           "source_text_sha256": "c67007f8d3c40e35e384a632761e928d5efe5a10336036f24a9086536a68b9e9",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Compte rendu enquete .pdf Questionnaire terre-R.pdf UFO Witness Reconstruction.pptx",
-          "translation_text_sha256": "d1739d6ef29e4a404765e5013acbeb06598bd517f17f5cf8cc34710df39d0f2b"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete .pdf Questionnaire terre-R.pdf Temoin reconstitution ovni.pptx",
+          "translation_text_sha256": "c67007f8d3c40e35e384a632761e928d5efe5a10336036f24a9086536a68b9e9"
         },
         {
           "end_ms": null,
@@ -171,13 +181,13 @@
           "field": "testimonies",
           "page_id": "page-5aff69cd2665ac044fdbe7b4",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-6bb9505cb771e62f493076d0",
           "segment_index": 11,
           "source_segment_id": "seg-6bb9505cb771e62f493076d0",
           "source_text_sha256": "7d2f25825b63d766ef8d9994b74bd4ce8f9fc4def45f831d2275ef5d7111eaf1",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: COLOMIERS (31) 25.05.2013",
           "translation_text_sha256": "d5fc3402d11ee6ef0ea877c6481c574b5a7ddea75735d6b7a00dd003b5e879c2"
         },
@@ -254,7 +264,7 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T23:15:46Z",
+    "generated_at": "2026-09-27T02:00:33Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",

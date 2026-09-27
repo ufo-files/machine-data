@@ -141,15 +141,6 @@
           "qa_findings": [
             {
               "added_in_translation": [
-                "1990-08-19"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
                 "19",
                 "1990",
                 "8"
@@ -190,7 +181,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-e43d545e7abdd1c3356b08ce",
           "qa_findings": [
@@ -198,30 +189,21 @@
               "added_in_translation": [],
               "check": "numbers",
               "missing_from_translation": [
-                "5",
-                "8"
+                "5"
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-93ecb9c90d5f45898e40ebdb",
           "segment_index": 11,
           "source_segment_id": "seg-93ecb9c90d5f45898e40ebdb",
           "source_text_sha256": "6584e1a12afcb4dc8dd93afe0f59761847be9d7dfbf2ce041eb7e02e1a351253",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 19, 1990, around 10:45 PM, the witness, in a farm courtyard, observed for one minute an oval, green object above a building, then, with his wife, from their home, they saw for five minutes red-orange lights above the barn. The witness called the Gendarmerie, but the UFO had disappeared by the time they arrived. In October 1990, the gendarmes conducted various tests, including one with low-power fireworks: the witness did not recognize the UFO, but he was not in the same conditions (he knew what he was going to see). A fireworks display was launched on August 19, 1990, in CHARCHIGNE (53), which is in the direction of observation and during the same time frame, which may be the cause of the observation. The fireworks hypothesis remains the most likely. The following year, to validate this hypothesis, the gendarmes proposed to return to the farm to observe the effects of the fireworks.",
-          "translation_text_sha256": "1e2a1e3a1df657aa15fb3c2963e747e1c8656d4d0750a4b448324c256cd45dfa"
+          "status": "needs-review",
+          "text": "Description: On August 19, 1990, around 10:45 PM, the witness, in a farm courtyard, observed for one minute an oval green shape above a building. Then, with his wife, from their home, they saw red-orange lights above the barn for five minutes. The witness calls the Gendarmerie but the PAN has disappeared by the time they arrive. In October 1990, the gendarmes conducted various tests, including one with low-power fireworks rockets: the witness did not recognize the PAN but was not in the same conditions (he knew what he was going to see). A firework was launched on 19/08/1990 at CHARCHIGNE (53), which is in the direction of observation and during the same time frame, which may be the cause of the observation. The firework hypothesis remains privileged. The following year, to validate this hypothesis, the gendarmes propose to return to the farm to observe the effects of the fireworks.",
+          "translation_text_sha256": "22c059489711fab9941773a627d561ee94fc7b85f9b145801711423dd5e3a89d"
         }
       ],
       "source_page_id": "page-e43d545e7abdd1c3356b08ce"
@@ -232,13 +214,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-07T11:05:42Z",
+    "generated_at": "2026-09-27T01:30:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

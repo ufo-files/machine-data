@@ -18,23 +18,18 @@
     "human_reviewed": false,
     "id": "2026-09-27-targeted-translations",
     "previous_translation": {
-      "generated_at": "2026-09-10T23:02:24Z",
+      "generated_at": "2026-09-27T01:00:48Z",
       "method": "local-mlx-lm",
       "model": "mlx-community/aya-expanse-8b-4bit",
       "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
       "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-      "review_status": "partial",
+      "review_status": "needs-review",
       "runtime_version": "0.30.7",
-      "workflow_version": "fr-en-geipan-translation-prompt/v1"
+      "workflow_version": "fr-en-geipan-translation-prompt/v3"
     },
-    "retranslated_segments": [
-      {
-        "source_sha256": "6b800c609fba54faee1f4cfb8d0e7b7901e5fc6b32b9643ba01a7ba2018bb98c",
-        "status": "machine-unreviewed"
-      }
-    ]
+    "retranslated_segments": []
   },
-  "retranslated_at": "2026-09-27T01:00:48Z",
+  "retranslated_at": "2026-09-27T01:35:43Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
@@ -44,9 +39,9 @@
   "segment_count": 12,
   "source_bytes": 19656,
   "source_sha256": "39b6d09897071a2db020f4f887daf388dd3f145f864b6da58714776ed36ce701",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T01:00:48Z",
+    "generated_at": "2026-09-27T01:35:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
@@ -55,5 +50,5 @@
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v3"
   },
-  "translation_text_sha256": "d0464610d4212c0b1230e0043eefee2257335afc868029336cc55536b14c7d1d"
+  "translation_text_sha256": "77eca5bf5d317835e80dc246cab3af02330ee92bc3f145c96a0bfc7aa4c21daa"
 }
