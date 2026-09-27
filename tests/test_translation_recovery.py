@@ -127,6 +127,22 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(result.text, text)
         self.assertEqual(result.status, 'machine-unreviewed')
 
+    def test_review_warning_does_not_retranslate_every_sentence(self):
+        source = ('Foram 2 testemunhas. ' * 30).strip()
+        target = ('There were two witnesses. ' * 30).strip()
+        self.assertTrue(compare_translation(source, target))
+        self.assertFalse(any(f['severity']=='error' for f in compare_translation(source, target)))
+        class Backend:
+            calls = 0
+            def translate_raw(self, prompt):
+                self.calls += 1
+                return target
+        backend = Backend()
+        result = translate_text(backend, source)
+        self.assertEqual(result.text, target)
+        self.assertEqual(backend.calls, 1)
+        self.assertTrue(compare_translation(source, result.text))
+
     def test_retry_does_not_accept_missing_protected_text(self):
         class Backend:
             def translate_raw(self, prompt):

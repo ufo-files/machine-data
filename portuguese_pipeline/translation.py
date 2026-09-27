@@ -165,7 +165,7 @@ def translate_text(
         # Long paragraphs can cause the model to drop placeholders or summarize
         # clauses. Retry in sentence-sized context, retaining all QA checks.
         if _allow_chunk_retry and len(text) > 400 and (
-            missing or compare_translation(text, restored)
+            missing or any(f.get("severity") == "error" for f in compare_translation(text, restored))
         ):
             sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ÿ(\"])", text)
             if len(sentences) == 1:
