@@ -198,12 +198,34 @@ def _date_spacing(text: str) -> str:
 
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # Enumerated days and inclusive ranges must preserve every stated day.
+    pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
+    en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:19|20)\d{2})\b", re.I)
+    def add_list(match: re.Match[str], portuguese: bool) -> str:
+        days, month, year = match.groups() if portuguese else (match.group(2), match.group(1), match.group(3))
+        month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
+        for day in re.findall(r"\d{1,2}", days):
+            values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
+        return ""
+    text = pt_list.sub(lambda match: add_list(match, True), text)
+    text = en_list.sub(lambda match: add_list(match, False), text)
+    abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
+    abbreviation = re.compile(r"\b(\d{1,2})\s+(" + "|".join(abbreviations) + r")\.?\s+((?:19|20)?\d{2})\b", re.I)
+    def add_abbreviation(match: re.Match[str]) -> str:
+        day, month, year = match.groups()
+        if len(year) == 2:
+            year = ("20" if int(year) < 50 else "19") + year
+        values[f"{int(year):04d}-{abbreviations[month.casefold()]:02d}-{int(day):02d}"] += 1
+        return ""
+    text = abbreviation.sub(add_abbreviation, text)
     pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
     en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b", re.I)
     def add_range(match: re.Match[str], portuguese: bool) -> str:
         first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
-        for day in (first, last):
+        inclusive = re.search(r"\b(?:a|to|through)\b", match.group(0), re.I)
+        days = range(int(first), int(last) + 1) if inclusive and int(first) <= int(last) else (int(first), int(last))
+        for day in days:
             values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
         return ""
     text = pt_range.sub(lambda match: add_range(match, True), text)

@@ -44,3 +44,17 @@ class IntegrityRecoveryTests(unittest.TestCase):
         self.assertFalse(any(f['check']=='measurements' for f in compare_translation(source, 'remained at 15 minutes.')))
         for target in ['remained at 20 minutes.', 'remained at 15 meters.']:
             self.assertTrue(any(f['check']=='measurements' for f in compare_translation(source, target)))
+
+    def test_enumerated_dates_preserve_middle_days_and_abbreviated_dates(self):
+        source = '22, 23 e 24 de janeiro de 1996; 29 Jan 96'
+        for target in ['January 22, 23 and 24, 1996; January 29, 1996',
+                       'January 22 to 24, 1996; January 29, 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, target)))
+        for target in ['January 22 and 24, 1996; January 29, 1996',
+                       'January 22 to 24, 1996; January 28, 1996']:
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, target)))
+
+    def test_discrete_weekday_dates_do_not_imply_intermediate_days(self):
+        source='20 (sábado) e 22 de janeiro de 1996'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'January 20 and 22, 1996')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'January 20 to 22, 1996')))
