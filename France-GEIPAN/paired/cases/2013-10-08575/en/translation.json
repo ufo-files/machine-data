@@ -135,29 +135,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-c770debede4565a3c03117ea",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                " questionnaire terre-R_0.pdf",
-                " Courrier-R.pdf"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-83e1d16f6ca4624b10b9a49d",
           "segment_index": 9,
           "source_segment_id": "seg-83e1d16f6ca4624b10b9a49d",
           "source_text_sha256": "0b62ce15d361d63e09090e6996c378ee157ec418624c1c81743ce992132622f5",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents: PARAY-LE-MONIAL (71), 30.08.2013 [T-Cgei Qt T, P S, A]",
-          "translation_text_sha256": "10f46e8f2d1c8151411a21ce26c37d922edd853f48e6fa324cca4f8dd8fa22a7"
+          "status": "machine-unreviewed",
+          "text": "Documents:  Courrier-R.pdf PARAY-LE-MONIAL (71) 30.08.2013 [T-Cgei Qt T,P S,A]  questionnaire terre-R_0.pdf",
+          "translation_text_sha256": "2beef849a3eb2755ebbc3034cb0352859eef3a351a6de9b96ab9ce9060c330fd"
         },
         {
           "end_ms": null,
@@ -216,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-28T19:24:10Z",
+    "generated_at": "2026-09-27T01:01:48Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

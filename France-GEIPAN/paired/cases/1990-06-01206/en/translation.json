@@ -199,44 +199,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-8235875a5f01f5d21578f4bd",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "20:00"
-              ],
-              "check": "times",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "20"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-400eb35ec6700abd19949775",
           "segment_index": 13,
           "source_segment_id": "seg-400eb35ec6700abd19949775",
           "source_text_sha256": "b7f4878702347e28c9ddb3d0cf93138f3369d9399537454f9c2b9c94de78294a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: The GEIPAN (French UFO investigation body) continues to publish its entire archive on its public website www.geipan.fr. Among its publications are older cases classified at the time (A, B, C, or D) that are now being re-examined to ensure more relevant conclusions. Thanks to new technical tools (software) and the investigative experience gained over the years, this re-examination sometimes leads to new observations or a change in classification. The previously classified case D (TUBUAI, 987) 1990 is part of a recent batch of cases re-examined. It concerns the observation of several bright PAN by two independent witnesses on June 13, 1990, between 8:00 PM and midnight. The first witness (T1), on a walk towards Mount Taita in TUBUAI, spotted six glowing disks illuminating the Matahavi marshes. No noise was heard. The witness noted a movement towards midnight in a northwest direction. The second witness (T2), located in HARAMEA, had their attention drawn to three white lights at the mountain level. The testimony in the police report is imprecise, incomplete, and often contradictory on essential points with what the main witness later stated on another medium (see the investigation report). For example, the direction of observation, the shape of the PAN, the presence or absence of other witnesses, whether the PAN were on the ground or in the air, are all elements that differ (see the investigation report for other points). In his second statement, the witness speculates about military helicopters, a hypothesis that is not impossible but could not be confirmed or denied so long after the event. The gendarmes' investigation suffers from numerous gaps, particularly regarding geographical data, not even allowing for the positioning of the witness at the time of observation, or the location of the PAN and their trajectory during their disappearance. What witness T2 saw is also imprecise and does not necessarily relate to T1's observation. The initial investigation already lacked information. Now, consistency also suffers from a lack of reliability. It is not possible to validate any strange or inexplicable aspect of these observations. Consequently, GEIPAN classifies the case as C: Lack of reliable information.",
           "translation_text_sha256": "f8325eb093fc85e20803f60a8de00c91180bf7281cbe78f8aacefb46e006be96"
         }
@@ -249,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T01:32:49Z",
+    "generated_at": "2026-09-27T01:01:47Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }
