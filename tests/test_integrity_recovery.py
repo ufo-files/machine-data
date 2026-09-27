@@ -90,3 +90,8 @@ class IntegrityRecoveryTests(unittest.TestCase):
             self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, target)))
             self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, target.replace('13', '14'))))
         self.assertFalse(any(f['check']=='dates' for f in compare_translation('13 Ago 96', '13 Aug. 1996')))
+
+    def test_polite_pois_nao_is_affirmative_without_hiding_factual_negation(self):
+        self.assertFalse(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "Certainly, let's go ahead.")))
+        self.assertTrue(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "No, let's go ahead.")))
+        self.assertTrue(any(f['check']=='negation' for f in compare_translation('Pois não havia tempo.', 'Because there was time.')))

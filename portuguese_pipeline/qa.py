@@ -354,6 +354,16 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         })
 
     source_folded = source.casefold()
+    polite_reply = re.compile(r"\bpois\s+não(?=\s*[,!?]|\s*$)")
+    polite_count = len(polite_reply.findall(source_folded))
+    if polite_count:
+        # As a standalone reply, "pois não" is an affirmative courtesy.
+        # Do not mistake its não for a factual negation in the sentence.
+        source_folded = polite_reply.sub("", source_folded)
+        equivalent_count = len(re.findall(r"(?:^|[.!?]\s*)\s*(?:well,\s*)?(?:certainly|of course|yes|sure|go ahead|at your service)\b", target, re.I))
+        if equivalent_count < polite_count:
+            findings.append({"check": "idiomatic-affirmation", "severity": "error",
+                             "status": "mismatch", "source_marker": "pois não"})
     for marker, target_pattern in PT_NEGATIONS.items():
         count = len(re.findall(rf"\b{re.escape(marker)}\b", source_folded))
         translated_count = len(target_pattern.findall(target))
