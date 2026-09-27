@@ -1,0 +1,1704 @@
+{"created_utc": "2026-09-27T08:49:13Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 121505, "source_ctime_ns": 1790173961981421418, "source_file": "Archives-for-the-Unexplained/documents/2023-06-22---NASA-Astrobiology---AbGradCon-2023-A-Model-of-Europa-s-Ice-Shell-its-Effect-on-Ocean-Circulation-by-Sara-Miller_Iko8amatGbg---transcript-automated-.pdf", "source_mtime_ns": 1790173961974962005, "source_rel": "Archives-for-the-Unexplained/documents/2023-06-22---NASA-Astrobiology---AbGradCon-2023-A-Model-of-Europa-s-Ice-Shell-its-Effect-on-Ocean-Circulation-by-Sara-Miller_Iko8amatGbg---transcript-automated-.pdf", "source_sha256": "622b8d76d8fd51b2c26a170bcaa8ef053604d3cee6664e05328622b84218c710"}
+
+1
+00:00:04,230 --> 00:00:11,169
+[Music]
+
+2
+00:00:15,829 --> 00:00:14,030
+thank you uh so yeah I'm Sarah Miller
+
+3
+00:00:18,470 --> 00:00:15,839
+I'm working with Professor Brittany
+
+4
+00:00:20,689 --> 00:00:18,480
+Schmidt at Cornell University and I am
+
+5
+00:00:23,510 --> 00:00:20,699
+working to build a global circulation
+
+6
+00:00:25,250 --> 00:00:23,520
+model for the ocean at Europa
+
+7
+00:00:26,810 --> 00:00:25,260
+um so before we move on I wanted to kind
+
+8
+00:00:29,029 --> 00:00:26,820
+of point out the cover image I chose
+
+9
+00:00:30,589 --> 00:00:29,039
+which is primarily because I thought the
+
+10
+00:00:33,110 --> 00:00:30,599
+colors made for a pretty PowerPoint
+
+11
+00:00:35,510 --> 00:00:33,120
+theme and secondarily because it shows
+
+12
+00:00:37,610 --> 00:00:35,520
+some interesting kind of structures that
+
+13
+00:00:39,290 --> 00:00:37,620
+exist on the ice crust on Europa so as
+
+14
+00:00:41,690 --> 00:00:39,300
+you can see it's not a smooth ice
+
+15
+00:00:44,510 --> 00:00:41,700
+skating rink it's a very interesting and
+
+16
+00:00:46,790 --> 00:00:44,520
+geologically active Zone which hints
+
+17
+00:00:48,229 --> 00:00:46,800
+that probably the interior is a dynamic
+
+18
+00:00:50,569 --> 00:00:48,239
+and very interesting place to study
+
+19
+00:00:53,209 --> 00:00:50,579
+which is what I'm going to talk about
+
+20
+00:00:54,889 --> 00:00:53,219
+next before I dive into the science I do
+
+21
+00:00:56,330 --> 00:00:54,899
+want to take a moment to thank my team
+
+22
+00:00:58,610 --> 00:00:56,340
+and kind of the people who have helped
+
+23
+00:00:59,990 --> 00:00:58,620
+me bring my understanding
+
+24
+00:01:01,549 --> 00:01:00,000
+um in this field up so I have a
+
+25
+00:01:03,110 --> 00:01:01,559
+background in fluid dynamics and
+26
+00:01:04,430 --> 00:01:03,120
+aerospace engineering which I'll talk a
+
+27
+00:01:05,870 --> 00:01:04,440
+little bit about throughout this talk
+
+28
+00:01:08,090 --> 00:01:05,880
+but these people have been really
+
+29
+00:01:09,890 --> 00:01:08,100
+instrumental in kind of working with me
+
+30
+00:01:12,950 --> 00:01:09,900
+on the planetary aspect as well as my
+
+31
+00:01:14,750 --> 00:01:12,960
+funding sources through an NSF grfp and
+
+32
+00:01:17,090 --> 00:01:14,760
+a NASA finest in an Amelia Earhart
+
+33
+00:01:18,469 --> 00:01:17,100
+fellowship and some wonderful people who
+
+34
+00:01:20,990 --> 00:01:18,479
+support this work
+
+35
+00:01:22,670 --> 00:01:21,000
+okay so as I mentioned uh Europa has a
+
+36
+00:01:26,690 --> 00:01:22,680
+very interesting surface and it hints
+
+37
+00:01:28,730 --> 00:01:26,700
+that there is a dynamic ocean interior
+
+38
+00:01:30,649 --> 00:01:28,740
+and I think that the ocean circulation
+
+39
+00:01:32,450 --> 00:01:30,659
+the physical oceanography piece of this
+
+40
+00:01:34,070 --> 00:01:32,460
+puzzle is a really interesting one in
+
+41
+00:01:35,690 --> 00:01:34,080
+terms of habitability because when we
+
+42
+00:01:37,609 --> 00:01:35,700
+look at Earth's ocean
+
+43
+00:01:39,710 --> 00:01:37,619
+um the transport of heat and salt and
+
+44
+00:01:41,630 --> 00:01:39,720
+nutrients throughout the ocean column is
+
+45
+00:01:42,530 --> 00:01:41,640
+really what sustains our biosphere so I
+
+46
+00:01:44,149 --> 00:01:42,540
+think it has really interesting
+
+47
+00:01:47,149 --> 00:01:44,159
+habitability implications on other
+
+48
+00:01:48,770 --> 00:01:47,159
+planets as well and specifically I want
+
+49
+00:01:51,830 --> 00:01:48,780
+to narrow this down even further the
+
+50
+00:01:54,350 --> 00:01:51,840
+region of our ocean that separates the
+51
+00:01:56,929 --> 00:01:54,360
+glacial glacially covered parts of our
+
+52
+00:01:58,850 --> 00:01:56,939
+ocean from the liquid layer that ice
+
+53
+00:02:01,010 --> 00:01:58,860
+ocean boundary layer is really
+
+54
+00:02:03,289 --> 00:02:01,020
+instrumental in setting far-field ocean
+
+55
+00:02:04,730 --> 00:02:03,299
+properties so that tiny boundary layer
+
+56
+00:02:07,249 --> 00:02:04,740
+region between the ice and the ocean
+
+57
+00:02:09,650 --> 00:02:07,259
+actually has an outsized effect on
+
+58
+00:02:12,350 --> 00:02:09,660
+affecting Global Mass Water mass
+
+59
+00:02:14,630 --> 00:02:12,360
+transport and so I think that's very
+
+60
+00:02:17,089 --> 00:02:14,640
+much worthy of intense study in the
+
+61
+00:02:19,130 --> 00:02:17,099
+modeling realm for Europa
+
+62
+00:02:21,229 --> 00:02:19,140
+so I'm not the first person to attempt
+
+63
+00:02:22,550 --> 00:02:21,239
+to build a global circulation model for
+
+64
+00:02:24,229 --> 00:02:22,560
+Europa
+
+65
+00:02:27,410 --> 00:02:24,239
+um but the the state of the field is
+
+66
+00:02:29,150 --> 00:02:27,420
+really kind of Divergent so um models of
+
+67
+00:02:31,670 --> 00:02:29,160
+Europa generally fall into one of two
+
+68
+00:02:33,290 --> 00:02:31,680
+categories depending on kind of how you
+
+69
+00:02:35,350 --> 00:02:33,300
+set your boundary conditions and really
+
+70
+00:02:38,030 --> 00:02:35,360
+how you set up this ice ocean interface
+
+71
+00:02:39,650 --> 00:02:38,040
+mathematically so usually there's kind
+
+72
+00:02:42,770 --> 00:02:39,660
+of an outsized effect of either the
+
+73
+00:02:44,449 --> 00:02:42,780
+rotation driven or buoyancy driven so
+
+74
+00:02:47,630 --> 00:02:44,459
+kind of temperature salinity gradients
+
+75
+00:02:50,270 --> 00:02:47,640
+in the model and the results are very
+76
+00:02:51,890 --> 00:02:50,280
+different so Global circulation models
+
+77
+00:02:53,390 --> 00:02:51,900
+exist they usually fall into one of
+
+78
+00:02:55,610 --> 00:02:53,400
+these two categories and they do not
+
+79
+00:02:57,170 --> 00:02:55,620
+agree with each other now if we look at
+
+80
+00:02:59,210 --> 00:02:57,180
+terrestrial Ocean Models on the other
+
+81
+00:03:00,350 --> 00:02:59,220
+hand they look very different and that's
+
+82
+00:03:02,990 --> 00:03:00,360
+because they've had a lot more
+
+83
+00:03:06,229 --> 00:03:03,000
+scientific Manpower in years of study
+
+84
+00:03:09,170 --> 00:03:06,239
+and actual data so how nice for them so
+
+85
+00:03:10,910 --> 00:03:09,180
+their models are very sophisticated
+
+86
+00:03:12,530 --> 00:03:10,920
+compared to what we see in planetary
+
+87
+00:03:14,449 --> 00:03:12,540
+Ocean Models
+
+88
+00:03:15,770 --> 00:03:14,459
+that being said there are still kind of
+
+89
+00:03:18,410 --> 00:03:15,780
+parts of Earth's ocean that we don't
+
+90
+00:03:20,270 --> 00:03:18,420
+understand so it's very much ocean
+
+91
+00:03:22,130 --> 00:03:20,280
+modeling is an active area of research
+
+92
+00:03:23,809 --> 00:03:22,140
+and there's still some mechanisms that
+
+93
+00:03:25,729 --> 00:03:23,819
+remain poorly constrained which is
+
+94
+00:03:28,190 --> 00:03:25,739
+really humbling to think about doing
+
+95
+00:03:31,250 --> 00:03:28,200
+this on a body that we have zero data
+
+96
+00:03:33,949 --> 00:03:31,260
+for and know a lot less about
+
+97
+00:03:35,210 --> 00:03:33,959
+but I'm going to try anyway
+
+98
+00:03:36,830 --> 00:03:35,220
+um so let me introduce you to the tool
+
+99
+00:03:39,910 --> 00:03:36,840
+that I'm using so I'm using the MIT
+
+100
+00:03:43,449 --> 00:03:39,920
+General circulation model so it's a 3D
+101
+00:03:45,830 --> 00:03:43,459
+circulation model that employs the full
+
+102
+00:03:47,570 --> 00:03:45,840
+non-hydrostatic incompressible navier
+
+103
+00:03:49,250 --> 00:03:47,580
+Stokes equations
+
+104
+00:03:51,649 --> 00:03:49,260
+it also has some really interesting and
+
+105
+00:03:53,390 --> 00:03:51,659
+very useful packages for Europa so an
+
+106
+00:03:53,990 --> 00:03:53,400
+ice shelf package
+
+107
+00:03:56,030 --> 00:03:54,000
+um
+
+108
+00:03:58,250 --> 00:03:56,040
+a deep convection package which is
+
+109
+00:04:00,350 --> 00:03:58,260
+really helpful because Europa unlike
+
+110
+00:04:03,170 --> 00:04:00,360
+Earth has a really deep ocean compared
+
+111
+00:04:04,369 --> 00:04:03,180
+to its planetary radius and that is
+
+112
+00:04:07,309 --> 00:04:04,379
+important when you're talking about
+
+113
+00:04:09,050 --> 00:04:07,319
+large scale flow features so I won't
+
+114
+00:04:10,550 --> 00:04:09,060
+kind of dive into the nitty-gritty it's
+
+115
+00:04:12,229 --> 00:04:10,560
+written in Fortran
+
+116
+00:04:15,289 --> 00:04:12,239
+um so if you're a modeler you're
+
+117
+00:04:18,469 --> 00:04:15,299
+probably just cringed uh but yeah it's a
+
+118
+00:04:19,969 --> 00:04:18,479
+very powerful very useful tool
+
+119
+00:04:21,890 --> 00:04:19,979
+so there's lots of knobs that you can
+
+120
+00:04:23,570 --> 00:04:21,900
+turn within this model and I'm working
+
+121
+00:04:25,370 --> 00:04:23,580
+on turning kind of all of these through
+
+122
+00:04:27,290 --> 00:04:25,380
+sensitivity studies throughout my PhD
+
+123
+00:04:29,689 --> 00:04:27,300
+but what I want to focus on in this talk
+
+124
+00:04:32,090 --> 00:04:29,699
+is the role of topography underneath the
+
+125
+00:04:34,490 --> 00:04:32,100
+ice shelf so in this case I'm talking
+126
+00:04:36,650 --> 00:04:34,500
+about both the small scale topography so
+
+127
+00:04:38,990 --> 00:04:36,660
+surfness roughness surface roughness of
+
+128
+00:04:42,050 --> 00:04:39,000
+the ice which affects things like
+
+129
+00:04:44,990 --> 00:04:42,060
+turbulence in the boundary layer as well
+
+130
+00:04:47,270 --> 00:04:45,000
+as large scale features on the ice that
+
+131
+00:04:48,770 --> 00:04:47,280
+can form large scale flow features now
+
+132
+00:04:51,050 --> 00:04:48,780
+you might be thinking like why would a
+
+133
+00:04:52,550 --> 00:04:51,060
+turbulent boundary layer affect global
+
+134
+00:04:55,850 --> 00:04:52,560
+ocean circulation
+
+135
+00:04:58,249 --> 00:04:55,860
+and specifically habitability for this
+
+136
+00:05:00,110 --> 00:04:58,259
+interest and I want you to remember that
+
+137
+00:05:03,170 --> 00:05:00,120
+the ocean time scales operate a lot
+
+138
+00:05:04,909 --> 00:05:03,180
+faster than planetary time scales and
+
+139
+00:05:07,370 --> 00:05:04,919
+that could be an important link for a
+
+140
+00:05:09,290 --> 00:05:07,380
+habitability argument
+
+141
+00:05:11,270 --> 00:05:09,300
+so quick review of kind of boundary
+
+142
+00:05:12,770 --> 00:05:11,280
+layer of physics
+
+143
+00:05:14,150 --> 00:05:12,780
+um I took out the full equations because
+
+144
+00:05:16,390 --> 00:05:14,160
+they're pretty ugly and I just have
+
+145
+00:05:19,010 --> 00:05:16,400
+these like nice kind of simplified
+
+146
+00:05:20,830 --> 00:05:19,020
+relationships that I want to discuss
+
+147
+00:05:22,550 --> 00:05:20,840
+um so I'm using kind of a widely adopted
+
+148
+00:05:24,770 --> 00:05:22,560
+parameterization called the three
+
+149
+00:05:27,290 --> 00:05:24,780
+equation parameterization it's very
+
+150
+00:05:29,150 --> 00:05:27,300
+creatively named and essentially it's
+151
+00:05:32,330 --> 00:05:29,160
+just looking at this fluxes those are
+
+152
+00:05:35,810 --> 00:05:32,340
+those Q values between a solid ice shelf
+
+153
+00:05:38,390 --> 00:05:35,820
+which is fresh water or fresh ice a
+
+154
+00:05:40,670 --> 00:05:38,400
+mixed boundary layer region and then the
+
+155
+00:05:42,290 --> 00:05:40,680
+mixed layer the liquid ocean
+
+156
+00:05:44,210 --> 00:05:42,300
+so we're looking at kind of the three
+
+157
+00:05:45,529 --> 00:05:44,220
+unknowns in these equations are the
+
+158
+00:05:48,650 --> 00:05:45,539
+temperature and salinity of the boundary
+
+159
+00:05:50,270 --> 00:05:48,660
+layer as well as a melt rate or MDOT
+
+160
+00:05:53,270 --> 00:05:50,280
+which is negative if it's melting
+
+161
+00:05:55,310 --> 00:05:53,280
+positive if it's freezing and that's
+
+162
+00:05:58,730 --> 00:05:55,320
+kind of how we're constraining the phase
+
+163
+00:06:01,249 --> 00:05:58,740
+change that's happening at this region
+
+164
+00:06:03,830 --> 00:06:01,259
+so I'm using a model that's um
+
+165
+00:06:07,969 --> 00:06:03,840
+kind of an ongoing International effort
+
+166
+00:06:10,850 --> 00:06:07,979
+within the MIT GCM Community to uh
+
+167
+00:06:12,890 --> 00:06:10,860
+model this kind of physics
+
+168
+00:06:15,050 --> 00:06:12,900
+um for Earth's ocean and so this is a
+
+169
+00:06:16,550 --> 00:06:15,060
+simplified version of that map and so
+
+170
+00:06:18,950 --> 00:06:16,560
+it's a two equation parameterization
+
+171
+00:06:20,390 --> 00:06:18,960
+that's assuming the salinity of the
+
+172
+00:06:22,070 --> 00:06:20,400
+boundary layer and the mixed layer is
+
+173
+00:06:23,930 --> 00:06:22,080
+the same
+
+174
+00:06:25,850 --> 00:06:23,940
+um current research and kind of more
+
+175
+00:06:27,770 --> 00:06:25,860
+recent results since submitting this
+176
+00:06:29,570 --> 00:06:27,780
+abstract I've been able to like use the
+
+177
+00:06:32,090 --> 00:06:29,580
+three equation parameterization but
+
+178
+00:06:34,309 --> 00:06:32,100
+those graphs are still pretty ugly so
+
+179
+00:06:35,629 --> 00:06:34,319
+maybe next at gradcon
+
+180
+00:06:37,550 --> 00:06:35,639
+um
+
+181
+00:06:39,350 --> 00:06:37,560
+yeah and kind of one other thing that's
+
+182
+00:06:41,809 --> 00:06:39,360
+very common on Earth but not a great
+
+183
+00:06:45,010 --> 00:06:41,819
+approximation for Europa is that often
+
+184
+00:06:47,809 --> 00:06:45,020
+in Ocean Models the pressure dependence
+
+185
+00:06:49,850 --> 00:06:47,819
+of density is approximated by depth
+
+186
+00:06:52,430 --> 00:06:49,860
+dependence I mentioned that europa's
+
+187
+00:06:53,809 --> 00:06:52,440
+ocean is a lot deeper than Earth's so
+
+188
+00:06:55,070 --> 00:06:53,819
+this is something that I've removed as
+
+189
+00:06:57,950 --> 00:06:55,080
+well because I think
+
+190
+00:07:01,010 --> 00:06:57,960
+no longer holds for europa's ocean
+
+191
+00:07:03,469 --> 00:07:01,020
+so I mentioned it's probably not like a
+
+192
+00:07:04,790 --> 00:07:03,479
+flat ice skating rink under europa's eye
+
+193
+00:07:06,890 --> 00:07:04,800
+shell we don't know what it looks like
+
+194
+00:07:07,790 --> 00:07:06,900
+but it's probably not that beautiful and
+
+195
+00:07:09,409 --> 00:07:07,800
+simple
+
+196
+00:07:11,210 --> 00:07:09,419
+um it's probably not this beautiful and
+
+197
+00:07:13,129 --> 00:07:11,220
+simple either but to start with to kind
+
+198
+00:07:14,390 --> 00:07:13,139
+of demonstrate some of the flow features
+
+199
+00:07:16,370 --> 00:07:14,400
+that might develop with ice shelf
+
+200
+00:07:19,850 --> 00:07:16,380
+topography here's like a very simple
+201
+00:07:22,270 --> 00:07:19,860
+ramp that I'm introducing so it's not a
+
+202
+00:07:25,189 --> 00:07:22,280
+global model quite yet it's just a
+
+203
+00:07:26,089 --> 00:07:25,199
+rectangular domain starting at a fixed
+
+204
+00:07:27,650 --> 00:07:26,099
+initial
+
+205
+00:07:28,309 --> 00:07:27,660
+temperature
+
+206
+00:07:30,589 --> 00:07:28,319
+um
+
+207
+00:07:33,830 --> 00:07:30,599
+and we're going to introduce a heat
+
+208
+00:07:36,589 --> 00:07:33,840
+gradient and a flow through ice melting
+
+209
+00:07:38,629 --> 00:07:36,599
+and see what develops
+
+210
+00:07:40,909 --> 00:07:38,639
+so we're seeing some already just with
+
+211
+00:07:42,770 --> 00:07:40,919
+very simple geometry interesting and
+
+212
+00:07:44,749 --> 00:07:42,780
+kind of recognizable flow features so we
+
+213
+00:07:46,249 --> 00:07:44,759
+see the development of what looks kind
+
+214
+00:07:48,230 --> 00:07:46,259
+of like a western boundary current on
+
+215
+00:07:49,969 --> 00:07:48,240
+the left and an ocean gyre on the right
+
+216
+00:07:53,270 --> 00:07:49,979
+and these are happening because there is
+
+217
+00:07:54,710 --> 00:07:53,280
+melting happening at depth so if you
+
+218
+00:07:56,330 --> 00:07:54,720
+remember the phase diagram of water
+
+219
+00:07:59,089 --> 00:07:56,340
+there is a pressure dependence on the
+
+220
+00:08:00,830 --> 00:07:59,099
+melting point of ice and so we see
+
+221
+00:08:03,290 --> 00:08:00,840
+melting happening on the bottom of this
+
+222
+00:08:06,170 --> 00:08:03,300
+ramp and then as the fresh waters Rising
+
+223
+00:08:07,909 --> 00:08:06,180
+along the Melt water the ramp it's
+
+224
+00:08:11,510 --> 00:08:07,919
+circulating and that's creating a
+
+225
+00:08:14,029 --> 00:08:11,520
+circular flow feature this dryer
+226
+00:08:16,249 --> 00:08:14,039
+so we have on the left these are just
+
+227
+00:08:18,290 --> 00:08:16,259
+stream functions the barotrope extreme
+
+228
+00:08:19,969 --> 00:08:18,300
+function and then the right and
+
+229
+00:08:21,710 --> 00:08:19,979
+overturning stream function just in a
+
+230
+00:08:24,110 --> 00:08:21,720
+couple different directions
+
+231
+00:08:26,510 --> 00:08:24,120
+so maybe more importantly uh
+
+232
+00:08:28,189 --> 00:08:26,520
+the Melt rate what's happening so we're
+
+233
+00:08:30,290 --> 00:08:28,199
+seeing both regions of melting and
+
+234
+00:08:31,730 --> 00:08:30,300
+freezing The Contours got a little dense
+
+235
+00:08:33,649 --> 00:08:31,740
+for the melting so I just kind of
+
+236
+00:08:36,949 --> 00:08:33,659
+outlined that where that's happening
+
+237
+00:08:39,050 --> 00:08:36,959
+there but that's happening um kind of as
+
+238
+00:08:42,469 --> 00:08:39,060
+the warmer Ocean mixed layer water is
+
+239
+00:08:44,870 --> 00:08:42,479
+interacting with this Frozen ramp
+
+240
+00:08:47,090 --> 00:08:44,880
+and so we see that kind of
+
+241
+00:08:48,769 --> 00:08:47,100
+um already just very simple geometry
+
+242
+00:08:50,690 --> 00:08:48,779
+there's lots of Dynamics happening
+
+243
+00:08:52,430 --> 00:08:50,700
+there's freezing there's melting there's
+
+244
+00:08:53,269 --> 00:08:52,440
+flow features
+
+245
+00:08:56,509 --> 00:08:53,279
+um
+
+246
+00:08:58,310 --> 00:08:56,519
+but this is probably not very realistic
+
+247
+00:09:01,130 --> 00:08:58,320
+maybe more realistic is something like
+
+248
+00:09:04,190 --> 00:09:01,140
+this so
+
+249
+00:09:07,490 --> 00:09:04,200
+this is a almost Global
+
+250
+00:09:09,769 --> 00:09:07,500
+um topography that I stole from what
+251
+00:09:11,590 --> 00:09:09,779
+Earth's ice shelves look like I cut out
+
+252
+00:09:14,090 --> 00:09:11,600
+the poles because of convergence issues
+
+253
+00:09:15,829 --> 00:09:14,100
+and it's a pretty coarse resolution but
+
+254
+00:09:18,009 --> 00:09:15,839
+it still captures a lot of the large
+
+255
+00:09:20,329 --> 00:09:18,019
+scale flow features that we see on Earth
+
+256
+00:09:23,110 --> 00:09:20,339
+as well as some turbulence and mixing
+
+257
+00:09:25,970 --> 00:09:23,120
+events effects from small scale features
+
+258
+00:09:27,410 --> 00:09:25,980
+that are missing and so
+
+259
+00:09:29,509 --> 00:09:27,420
+I think it's really important to think
+
+260
+00:09:30,290 --> 00:09:29,519
+that like when you're modeling
+
+261
+00:09:32,810 --> 00:09:30,300
+um
+
+262
+00:09:35,509 --> 00:09:32,820
+heat transfer like your grid resolution
+
+263
+00:09:38,030 --> 00:09:35,519
+is really important so the size of your
+
+264
+00:09:39,889 --> 00:09:38,040
+grid cell in your model affects kind of
+
+265
+00:09:41,810 --> 00:09:39,899
+how quickly heat is transferred through
+
+266
+00:09:43,490 --> 00:09:41,820
+your ocean and so this is really too
+
+267
+00:09:44,210 --> 00:09:43,500
+course to understand
+
+268
+00:09:45,949 --> 00:09:44,220
+um
+
+269
+00:09:49,009 --> 00:09:45,959
+what's happening in turbulence and
+
+270
+00:09:50,509 --> 00:09:49,019
+Boundary layer effects so I'm
+
+271
+00:09:52,730 --> 00:09:50,519
+kind of
+
+272
+00:09:55,850 --> 00:09:52,740
+accommodating that in the model by
+
+273
+00:09:58,370 --> 00:09:55,860
+modifying the MIT GCM to have like
+
+274
+00:10:00,050 --> 00:09:58,380
+spatial grid remeshing so I'm slicing up
+
+275
+00:10:02,030 --> 00:10:00,060
+the grid cells
+276
+00:10:03,949 --> 00:10:02,040
+so that I can have melting and freezing
+
+277
+00:10:05,449 --> 00:10:03,959
+happening within a single model run
+
+278
+00:10:06,790 --> 00:10:05,459
+which is not kind of the standard
+
+279
+00:10:09,410 --> 00:10:06,800
+configuration
+
+280
+00:10:11,269 --> 00:10:09,420
+within the boundary layer so this has
+
+281
+00:10:12,410 --> 00:10:11,279
+been kind of very helpful in
+
+282
+00:10:13,310 --> 00:10:12,420
+understanding
+
+283
+00:10:15,470 --> 00:10:13,320
+um
+
+284
+00:10:20,150 --> 00:10:15,480
+turbulence and more quick time scale
+
+285
+00:10:23,449 --> 00:10:22,009
+now this is kind of one of several
+
+286
+00:10:25,610 --> 00:10:23,459
+things that needs to happen to have a
+
+287
+00:10:27,470 --> 00:10:25,620
+more realistic ice shells like greater
+
+288
+00:10:28,670 --> 00:10:27,480
+spatial grid density in the boundary
+
+289
+00:10:29,329 --> 00:10:28,680
+layer
+
+290
+00:10:31,670 --> 00:10:29,339
+um
+
+291
+00:10:33,829 --> 00:10:31,680
+there's also but even so you know it's
+
+292
+00:10:34,430 --> 00:10:33,839
+not going to be a simple ramp
+
+293
+00:10:36,410 --> 00:10:34,440
+um
+
+294
+00:10:38,570 --> 00:10:36,420
+there's other things to introduce like
+
+295
+00:10:40,310 --> 00:10:38,580
+salt different heat and salt transfer
+
+296
+00:10:41,750 --> 00:10:40,320
+coefficients
+
+297
+00:10:43,610 --> 00:10:41,760
+um
+
+298
+00:10:45,710 --> 00:10:43,620
+a mushy layer there's interesting work
+
+299
+00:10:47,389 --> 00:10:45,720
+that's being done by this on this by
+
+300
+00:10:48,530 --> 00:10:47,399
+Jacob buffo if you want to look at his
+301
+00:10:49,190 --> 00:10:48,540
+work
+
+302
+00:10:51,410 --> 00:10:49,200
+um
+
+303
+00:10:52,850 --> 00:10:51,420
+so in my model currently the ice is
+
+304
+00:10:55,430 --> 00:10:52,860
+assumed as a completely fresh water
+
+305
+00:10:57,949 --> 00:10:55,440
+layer that's probably not the case there
+
+306
+00:11:01,490 --> 00:10:57,959
+might be zones or brines and interesting
+
+307
+00:11:05,150 --> 00:11:01,500
+kind of pockets of heterogeneities that
+
+308
+00:11:07,009 --> 00:11:05,160
+will affect these processes but this is
+
+309
+00:11:09,710 --> 00:11:07,019
+kind of all just taking steps to like
+
+310
+00:11:12,050 --> 00:11:09,720
+introduce more realistic features into
+
+311
+00:11:14,389 --> 00:11:12,060
+an ice shell model and then look at the
+
+312
+00:11:16,370 --> 00:11:14,399
+global circulation effects of those
+
+313
+00:11:18,110 --> 00:11:16,380
+features
+
+314
+00:11:20,329 --> 00:11:18,120
+so kind of to kind of wrap up this
+
+315
+00:11:20,930 --> 00:11:20,339
+little bit that I've discussed
+
+316
+00:11:22,670 --> 00:11:20,940
+um
+
+317
+00:11:25,090 --> 00:11:22,680
+terrestrial models I think can be very
+
+318
+00:11:27,710 --> 00:11:25,100
+valuable in the planetary Community
+
+319
+00:11:28,850 --> 00:11:27,720
+within those models specifically I think
+
+320
+00:11:30,829 --> 00:11:28,860
+there still needs to be a lot of work
+
+321
+00:11:33,050 --> 00:11:30,839
+done on the ice ocean boundary layer
+
+322
+00:11:35,690 --> 00:11:33,060
+which is what I've been focusing on this
+
+323
+00:11:38,329 --> 00:11:35,700
+past year of my PhD and the potential
+
+324
+00:11:41,509 --> 00:11:38,339
+impacts for habitability of this kind of
+
+325
+00:11:43,850 --> 00:11:41,519
+great uh resolution on an ISO student
+326
+00:11:46,490 --> 00:11:43,860
+boundary layer could be very important
+
+327
+00:11:48,470 --> 00:11:46,500
+for habitability
+
+328
+00:11:56,510 --> 00:11:48,480
+all right and I'm happy to take
+
+329
+00:11:56,520 --> 00:12:00,769
+[Applause]
+
+330
+00:12:08,449 --> 00:12:05,690
+so if you are assuming uh so with the
+
+331
+00:12:11,750 --> 00:12:08,459
+mushy layer you know like a slurry for
+
+332
+00:12:15,290 --> 00:12:11,760
+instance is the Assumption of uh
+
+333
+00:12:18,170 --> 00:12:15,300
+incompressible fluid still valid and
+
+334
+00:12:20,870 --> 00:12:18,180
+does that change that makes never Stokes
+
+335
+00:12:23,930 --> 00:12:20,880
+much more complicated right so how would
+
+336
+00:12:26,090 --> 00:12:23,940
+that really affect the your modeling
+
+337
+00:12:28,910 --> 00:12:26,100
+would you have to change some things or
+
+338
+00:12:31,910 --> 00:12:28,920
+yeah no that's a really good question so
+
+339
+00:12:34,130 --> 00:12:31,920
+um realistically yes you would change uh
+
+340
+00:12:36,290 --> 00:12:34,140
+the kind of forcing equations so the
+
+341
+00:12:37,790 --> 00:12:36,300
+model as it currently runs it assumes
+
+342
+00:12:39,350 --> 00:12:37,800
+that um
+
+343
+00:12:40,910 --> 00:12:39,360
+kind of backing up a little bit the
+
+344
+00:12:42,530 --> 00:12:40,920
+equation of state of seawater is a
+
+345
+00:12:44,650 --> 00:12:42,540
+linear function of salinity so if you
+
+346
+00:12:47,090 --> 00:12:44,660
+introduce something like a brine
+
+347
+00:12:49,250 --> 00:12:47,100
+it's removing that kind of linear
+
+348
+00:12:51,170 --> 00:12:49,260
+assumption that said like the model as
+
+349
+00:12:52,790 --> 00:12:51,180
+it currently stands it does have a solid
+
+350
+00:12:55,370 --> 00:12:52,800
+ice layer so it doesn't look at brine
+351
+00:12:55,970 --> 00:12:55,380
+Pockets or mushy layers yet
+
+352
+00:12:58,490 --> 00:12:55,980
+um
+
+353
+00:13:01,370 --> 00:12:58,500
+if you wanted to do that I do think that
+
+354
+00:13:04,550 --> 00:13:01,380
+yeah you'd need to change the equation
+
+355
+00:13:06,110 --> 00:13:04,560
+of State at seawater locally yeah to
+
+356
+00:13:08,870 --> 00:13:06,120
+accommodate those and what about the
+
+357
+00:13:10,370 --> 00:13:08,880
+incompressibility assumption I think
+
+358
+00:13:11,870 --> 00:13:10,380
+that's a small enough one where if
+
+359
+00:13:14,030 --> 00:13:11,880
+you're looking at the effects on
+
+360
+00:13:15,230 --> 00:13:14,040
+overturning in flow it wouldn't have an
+
+361
+00:13:16,910 --> 00:13:15,240
+effect but it would be a very cool
+
+362
+00:13:25,850 --> 00:13:16,920
+sensitivity study so it's a good
+
+363
+00:13:31,430 --> 00:13:29,329
+sorry a really ignorant question so
+
+364
+00:13:33,110 --> 00:13:31,440
+Europa it seems like there's a
+
+365
+00:13:35,569 --> 00:13:33,120
+very kind of notice
+
+366
+00:13:38,329 --> 00:13:35,579
+notice gradient is that just due to
+
+367
+00:13:40,430 --> 00:13:38,339
+pressure kind of like what what's the
+
+368
+00:13:42,829 --> 00:13:40,440
+middle of Europa oh interesting question
+
+369
+00:13:45,650 --> 00:13:42,839
+okay I think I have
+
+370
+00:13:47,389 --> 00:13:45,660
+um a backup slide that might help so
+
+371
+00:13:50,150 --> 00:13:47,399
+yeah so the mechanisms that are kind of
+
+372
+00:13:52,129 --> 00:13:50,160
+important for Europa Heating and what's
+
+373
+00:13:54,889 --> 00:13:52,139
+sustaining the ocean are like tidal
+
+374
+00:13:57,310 --> 00:13:54,899
+heating that it bottom heating from
+
+375
+00:13:59,690 --> 00:13:57,320
+residual heat of formation internal heat
+376
+00:14:01,430 --> 00:13:59,700
+if there is this Dynamic eye shell
+
+377
+00:14:03,949 --> 00:14:01,440
+that's freezing and melting like I think
+
+378
+00:14:05,990 --> 00:14:03,959
+it is then you have heat fluxes from
+
+379
+00:14:06,590 --> 00:14:06,000
+freezing and melting
+
+380
+00:14:08,810 --> 00:14:06,600
+um
+
+381
+00:14:10,610 --> 00:14:08,820
+yeah so there's a lot going on
+
+382
+00:14:13,009 --> 00:14:10,620
+um the kind of Weights of these effects
+
+383
+00:14:14,090 --> 00:14:13,019
+is still very much unknown and so that's
+
+384
+00:14:16,730 --> 00:14:14,100
+why I'm really trying to use
+
+385
+00:14:18,590 --> 00:14:16,740
+observations from Earth so for instance
+
+386
+00:14:20,449 --> 00:14:18,600
+I'm using like turbulent turbulent
+
+387
+00:14:22,490 --> 00:14:20,459
+transfer coefficients of freezing and
+
+388
+00:14:25,129 --> 00:14:22,500
+melting from Antarctic field studies to
+
+389
+00:14:26,870 --> 00:14:25,139
+kind of influence this model but yeah
+
+390
+00:14:28,850 --> 00:14:26,880
+it's really like there's a lot going on
+
+391
+00:14:30,110 --> 00:14:28,860
+so it's really kind of the challenge is
+
+392
+00:14:31,550 --> 00:14:30,120
+trying to figure out which one is
+
+393
+00:14:32,210 --> 00:14:31,560
+driving
+
+394
+00:14:38,870 --> 00:14:32,220
+um
+
+395
+00:14:38,880 --> 00:14:47,269
+okay we have time for one more question
+
+396
+00:14:50,689 --> 00:14:49,430
+Taylor plattner at Georgia Tech great
+
+397
+00:14:52,730 --> 00:14:50,699
+talk Sarah
+
+398
+00:14:55,250 --> 00:14:52,740
+um you were talking about Brian Pockets
+
+399
+00:14:58,790 --> 00:14:55,260
+to like make it the model more realistic
+
+400
+00:15:01,910 --> 00:14:58,800
+did you have do you plan on doing that
+401
+00:15:04,189 --> 00:15:01,920
+with your model and have they done it on
+
+402
+00:15:06,710 --> 00:15:04,199
+earth like with like Earth models have
+
+403
+00:15:08,449 --> 00:15:06,720
+they even thought of like incorporating
+
+404
+00:15:10,310 --> 00:15:08,459
+bride pockets
+
+405
+00:15:12,230 --> 00:15:10,320
+yeah it's a good question so the answer
+
+406
+00:15:13,790 --> 00:15:12,240
+is like no most
+
+407
+00:15:16,490 --> 00:15:13,800
+um like
+
+408
+00:15:18,650 --> 00:15:16,500
+glacial models and Earth Global ocean
+
+409
+00:15:20,269 --> 00:15:18,660
+circulation models don't include brine
+
+410
+00:15:22,550 --> 00:15:20,279
+Pockets because on Earth those are more
+
+411
+00:15:25,430 --> 00:15:22,560
+seen in like Lake environments or kind
+
+412
+00:15:26,930 --> 00:15:25,440
+of like the like hyper saline lakes and
+
+413
+00:15:27,949 --> 00:15:26,940
+Flash bows and lakes that like Jacob
+
+414
+00:15:28,610 --> 00:15:27,959
+works on
+
+415
+00:15:30,829 --> 00:15:28,620
+um
+
+416
+00:15:32,210 --> 00:15:30,839
+they might Europe as a yeah different
+
+417
+00:15:32,990 --> 00:15:32,220
+conditions though
+
+418
+00:15:35,030 --> 00:15:33,000
+um
+
+419
+00:15:37,790 --> 00:15:35,040
+and so they could exist there so at most
+
+420
+00:15:40,310 --> 00:15:37,800
+I think I would do a like a case study
+
+421
+00:15:41,750 --> 00:15:40,320
+on what would happen if Brian Pockets
+
+422
+00:15:42,650 --> 00:15:41,760
+exist so it's something I'm working on
+
+423
+00:15:44,030 --> 00:15:42,660
+now
+
+424
+00:15:45,650 --> 00:15:44,040
+um but it's not something I'd include in
+
+425
+00:15:48,110 --> 00:15:45,660
+every run because it's just still very
+426
+00:15:49,310 --> 00:15:48,120
+much an unknown yeah I was going to say
+
+427
+00:15:51,410 --> 00:15:49,320
+that was kind of like a loaded question
+
+428
+00:15:55,430 --> 00:15:51,420
+but I was curious no it's a good
+
+429
+00:15:55,440 --> 00:16:02,420
+thank you so much for the time
+
+430
+00:16:10,750 --> 00:16:08,949
+[Music]
