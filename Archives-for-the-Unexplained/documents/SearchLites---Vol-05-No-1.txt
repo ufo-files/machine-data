@@ -1,0 +1,543 @@
+{"created_utc": "2026-09-27T13:56:17Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 139281, "source_ctime_ns": 1790299182987382830, "source_file": "Archives-for-the-Unexplained/documents/SearchLites---Vol-05-No-1.pdf", "source_mtime_ns": 1790299182926515754, "source_rel": "Archives-for-the-Unexplained/documents/SearchLites---Vol-05-No-1.pdf", "source_sha256": "1ce1ef2a2a0614be4e6dba40b1de52161cf64817772142fa3a338b7bd6502502"}
+
+Conference Calendar
+    SETI League members are apprised of the following
+conferences at which SETI-related information will be
+presented. SETI enthusiasts are invited to check the web at
+<http://www.setileague.org/general/confrnce.htm>, or email
+                                                                                 SearchLites
+<info@setileague.org>, to obtain further details.                              the Quarterly Newsletter
+* - SETI League participation confirmed                                        of The SETI League, Inc.
+* January 15 - 17, 1999: Arisia, Boston MA.
+* March 28, 1999: SETI League Annual Meeting, Little Ferry NJ.
+                                                                                  Volume 5 Number 1
+* April 2 - 4, 1999: Balticon 33, Baltimore MD.
+April 9 - 10, 1999: Southeastern VHF Conference, Atlanta GA.
+                                                                                      Winter 1999
+* April 16, 1999: Susquehanna Valley Amateur Astronomers,
+Bucknell University, Lewisburg PA.
+May 14 - 16, 1999: Dayton Hamvention, Dayton OH.
+* July 11 - 14, 1999: Society of Amateur Radio Astronomers,
+NRAO Green Bank WV.
+* July 22 - 25, 1999: Central States VHF Conference, Cedar Rapids
+IA.
+August 2 - 6, 1999: 6th Bioastronomy Conference, Kohala Coast
+HI.
+September 2 - 6, 1999: Aussiecon Three / 1999 Worldcon,
+Melbourne Australia.
+* September 23 - 26, 1999 (tentative): Microwave Update,
+Richmond VA.
+* March 26, 2000: SETI League Annual Meeting, Little Ferry NJ.
+May 12 - 14, 2000: ARRL National Convention and Dayton
+Hamvention, Dayton OH.
+July 20 - 23, 2000: Central States VHF Conference, Winnipeg,                 Introducing:
+Manitoba.
+August 7 - 19, 2000: XXIVth International Astronomical Union
+                                                                               Our Volunteer Coordinator for Finland
+General Assembly, Manchester University, UK.                                      Michael Fletcher was born in Farnham in 1962 near his
+August 31 - September 4, 2000: Chicon 2000 World Science                     hometown of Farnborough, Hampshire, England. His mother
+Fiction Convention, Chicago IL.                                              is Finnish and his father (now deceased) was from Normandy,
+September 9 - 10, 2000: European Radio Astronomy Club Second                 Surrey. The family decided to move to Finland in 1970, so, at
+International Convention, Heppenheim Germany.                                the age of nine, Michael ended up in a Finnish school with
+* February 12 - 14, 2001: OSETI III Conference, San Jose CA.                 his Duffel coat and Teddy Bear. It didn't take him long to
+* August 30 - September 3, 2001: Millennium Philcon World                    recover and acquire total oral and written control of this
+Science Fiction Convention, Philadelphia PA.                                 unusual language said to descend from Hungarian (the aliens
+                                                                             from outer space), Russian, Swedish and a few other strange
+                                                                             races from far out.
+                                                                                  Having matriculated by the age of 17 (Michael was
+                                                                             permitted to jump one class in school having started his
+                                                                             education at the age of five), he continued his studies at the
+                                                                             Helsinki Technical College (nowadays the Helsinki Institute
+                                                                             of Technology). By this time he had been a ham radio
+                                                                             operator for several years and indicated a strong tendency
+                                                                             toward experimenting with microwave equipment. After
+                                                                             graduation from college Michael joined the Anritsu
+                                                                             Corporation.
+                                                                                  Michael's enthusiasm for microwaves has led him to
+                                                                             many interesting projects including participating in
+                                                                             constructing a 10 GHz payload for the Phase III D amateur
+                                                                             satellite. Michael has also constructed various microwave
+  433 Liberty Street                                                         systems used for Finnish firsts in Earth Moon Earth
+                                                                             communications (more on his homepage).
+      PO Box 555                                                                  Michael's SETI work is very much driven by his interest
+                                                                             in microwave work and he is willing to give help on RF and
+ Little Ferry NJ 07643                                                       microwave hardware construction and alignment in his
+                                                                             extensive 100 square meter amateur laboratory.
+                                                                    Page 1
+                         SearchLites Volume 5, Number 1 -- Winter 1999
+Hardware Corner:                                  the center of C-114 in with small wire cutters. [Caution:
+ Disabling AGC in the ICOM R-8500 Receiver        Wear  safety glasses.] Use a toothbrush to clean the site, then
+                                                  inspect it with a magnifier to ensure the AGC RF path is now
+  by Rich Tyndall, NJ1A (NJ1A@erols.com)
+                                                                           open.
+Introduction and Disclaimer:
+                                                                           Hardware Reassembly:
+     The Icom model R-8500 scanning microwave receiver is
+                                                                                Reverse the above steps. Before replacing the main
+gaining popularity among SETI League members. Its chief
+                                                                           board screws, check around the sides to insure that you don't
+drawback is an Automatic Gain Control (AGC) circuit which
+                                                                           pinch any cables under the edges. (Watch those cables
+cannot be turned off. AGC effectively reduces the sensitivity
+                                                                           bundled with the +12VDC cable.)
+of your Digital Signal Processing (DSP) program by making
+                                                                                Be sure that the locking tabs on both ends of the ribbon
+weak signals stronger, and strong signals weaker. These
+                                                                           cable sockets are in the UP position before plugging the flat
+modification instructions allow you to disable AGC in the
+                                                                           cables back in. As you apply down pressure, you will feel
+Icom R-8500. They involve removing (actually, destroying)
+                                                                           some resistance and then the cable will 'Click in' and bottom
+one chip capacitor on the receiver's main board, and will most
+                                                                           out in the socket. Push down on both ends of the locking tabs
+assuredly void any receiver warranty. In addition, the
+                                                                           until they snap into locked position. After reassembly, tune
+modification will render your signal strength meter
+                                                                           the R-8500 to a strong signal, you should not see any S-meter
+("S-meter") inoperative. SETI League members performing
+                                                                           movement except in the WFM mode.
+this modification do so at their own risk.
+     Notice: Read and understand this document before at-                           Addendum: Adding an AGC Switch
+tempting the modification. (FYI: Your warranty may be ad-                        by Chris Dapples, KF7KN (ccdapple@wtp.net)
+versely affected.)                                                             Performing the foregoing modification involves cutting a
+     Warning: The main board could be damaged by static                    SFM capacitor (C114). This permanently disconnects the
+electricity. Be sure to wear a ground strap after the top cover            AGC function in AM, SSB and CW modes. However, I have
+is removed.                                                                found a way to install a switch to allow AGC disconnect as
+1. Remove any power, audio, RS-232 etc. cables plugged                     wanted.
+into the rear panel.                                                       Step 1: Prepare a small toggle switch with about 12 to 15
+2. Remove top cover per steps 1 and 2 on page 37 of man-                   inches of mini-coax (twisted pair will work too.) I used a
+ual. (Ten #2 Phillips screws.) Lift the cover off slowly being             Radio Shack micro-mini SPDT toggle switch (RS 275-625).
+careful not to break the speaker cable. Unplug it from main                Prepare and tin about 3/8 inch of the wire to connect to the
+board.                                                                     main circuit board of the 8500.
+3. Remove 13.8 DC Power connector by squeezing the re-                     Step 2: Remove the main circuit board as per the already posted
+taining clips on each side of connector while pushing in from              instructions. Place the board upside down in front of you with the
+the rear. (It may be tight.)                                               rear edge (with the RS232 connector) nearest to you. Measure
+4. Remove all the #2 Phillips screws holding down the main                 exactly 4 inches from the left card edge and 15/16th of an inch back
+board.                                                                     from the nearest card edge (with RS232 connector). You should find
+                                                                           at this point a trace that is an inverted and backwards "L" shape
+5. Remove the two #1 Phillips screws holding down the                      with C114 on the short leg and the double diode (D20) chip on the
+RS-232 connector.                                                          long leg. Just below the diode chip (nearer you) the trace splits into
+6. Remove the steel heat sink clip holding down 13.8 VDC                   two parallel traces and there are two feed-through holes at the
+power cable. Note: In order to lift the main board up to do                coordinates you measured. Clean the copper of these holes and
+the mod without removing too many cables, you will need to                 carefully solder the ends of the mini- coax to these holes.
+provide slack in some cables and unplug the ribbon cables.                 Step 3: While the main circuit board is out of the receiver
+7. Unbend the metal cable holder clips near the white rib-                 case, use a reamer or drill (3/16) to enlarge one of the long
+bon cables to provide the necessary slack. (These clips hold               slots just to the left of the 12VDC connector to receive the
+small coax, etc.) You could use a pen to make a line on the                switch. Be sure to remove any metal filings that result from
+ribbon cables, so you will know how far to push them back in               the drilling.
+during reassembly.                                                         Step 4: Replace the main circuit board to the receiver case
+8. Unplug the (4) white ribbon cables by:                                  routing the wires to the switch to the front side of the board
+     (A) Gently lifting up (2 mm) on the locking tabs on each              and then back across the top of the board. There are several
+end of the connectors until they are in the UP position.                   convenient notches in the circuit board where the ribbon
+     (B) Grasp the white ribbon cable on both sides and pull               cables connect where the wires can come from underneath
+it out of the socket.                                                      without binding. Replace the ribbon cables, but, before
+9. Grasp the large metal (filter) clip in the center of the                fastening down the screws, power up the receiver and tune a
+board and lift. (If the board does not move, you missed a                  strong signal. The switch should toggle the AGC on and off
+screw.)                                                                    as indicated by the S-meter showing a strong signal when the
+10. You must lift the board at an angle and then toward the                AGC is active and showing nothing when the AGC is
+front panel, so as to allow the long RCA sockets in the rear               deactivated. If everything is working and there are no shorts
+panel to clear their holes.                                                of your switch wires to the case under the circuit board, screw
+11. Once the rear of the main board can be lifted and flipped              everything down and replace the cover.
+over, you can locate C-114 and perform the mod by cutting                  Step 5: Pat yourself on the back for completing a good job!
+
+                                                                  Page 2
+                  SearchLites Volume 5, Number 1 -- Winter 1999
+Guest Editorial:                           Rebuttal:
+  What Should We Tell the World?                Nobody Here But Us Earthlings?
+                 by Douglas A. Vakoch, Ph.D.                                         by Dr. H. Paul Shuch, Executive Director
+     Receiving a signal of intelligent extra-terrestrial origin                      Editor's Note: On 16 July 1997, The Wall Street
+would radically and permanently change our view of                              Journal published a letter by Guillermo Gonzales, a research
+ourselves and our place in the universe. The impact of such                     astronomer at the University of Washington, titled "Nobody
+news would probably vary over the course of time. Upon first                    Here But Us Earthlings." In that article, Gonzales made a
+receipt of a message, we would need to deal with the fact that                  case for humanity's uniqueness in the universe. He ended by
+we are not alone. But after that, the impact depends a lot on                   stating "We should not be asking: "Are we alone?' We should
+how readily we could understand the message. I would                            be asking instead: "Why are we alone?' " What follows is our
+imagine that the differences between us and an                                  response.
+extraterrestrial civilization would initially prevent us from
+understanding the world as ETI does. But if, gradually, we                           "Nobody Here But Us Earthlings" (WSJ, 16 July 1997)
+are better able to understand their experience of the universe                  serves as a prime example of how two scientists can look at
+and of themselves, and if we can begin to make meaningful                       the same data, upon which they agree, and draw totally
+comparisons between their civilization and our own, then we                     disparate conclusions. Dr. Gonzales states, "It becomes
+might begin calling into question some of our assumptions                       obvious why we have not found any evidence of
+about the way our own society must be. And although this                        extraterrestrial intelligence" (emphasis added). I counter that
+may not be easy, at least at first, ultimately it may be very                   the data shows only that we have detected no such evidence.
+liberating for us to start to perceive the universe as members                  As for why, there could be as many reasons for a lack of
+of another civilization do.                                                     evidence as there are habitable planets orbiting Sun-like stars.
+     This same sort of change can be seen when different ideologies                  Any conclusion that we are alone in the Universe (Dr.
+make contact with one another on earth. Initially, the ideology of a            Gonzales' null hypothesis) is a welcome gauntlet flung at the
+different culture or group may be seen as quite alien and even as
+                                                                                feet of those of us devoting our careers to SETI. It is
+evil or dangerous. But for those who honestly try to understand an
+alternate way of life in its own terms, an expansion of world views             axiomatic in science that you can never prove the negative .
+can occur. If, on the other hand, we attempt to fit an alien world              Rather, it falls to us to investigate the alternative hypothesis,
+view into our own prior preconceptions, then we lose a tremendous               by designing and conducting experiments to seek evidence of
+opportunity for growth.                                                         other life in the cosmos. That we have yet to succeed should
+     One of the greatest challenges of truly entering into a                    surprise nobody -- it's only an eye-blink ago, by the cosmic
+dialogue with an alien world is that it can be very                             clock, that we even learned how to detect radio waves. Not
+disorienting. To call into question our habitual ways of life                   only are our electromagnetic searches for other life yet to
+may leave us wondering WHAT is true and constant. There                         scratch the surface, we haven't even felt the itch.
+are limits, however, to how much new material any individual                         As computer power is continuing to double every year,
+and any generation can assimilate. These limits to new                          our search sensitivity can do nothing but improve. A
+perspectives are seen throughout the history of science,                        disciplined search will eventually lead us to one of two
+insofar as the scientists most open to revolutionary ways of                    possible conclusions: that we are not alone in the Universe, or
+viewing the universe have tended to be younger people, for                      that we most likely are. Either possibility boggles the
+whom the traditional view is not as deeply entrenched. Thus,                    imagination.
+at a cultural level, we only gradually incorporate new
+experiences. And at a personal level, if we make contact with                             Bruno Nominations Now Due
+ETI, basic psychological mechanisms for maintaining our                              Nominations for the 1999 Giordano Bruno Memorial
+personal equilibrium would help protect us from complete                        Award, The SETI League's highest honor, are due by January
+relativization of our beliefs and values.                                       1, 1999. Named in memory of the Italian monk burned at the
+     Do SETI scientists have ethical obligations to                             stake in 1600 for postulating a multiplicity of inhabited
+communicate to the public the potential impact of a search?                     worlds, the Brunos are awarded for significant contributions
+In my opinion, we do. And in addition, one of our                               to the art and science of SETI. Neither nominator nor
+responsibilities is to communicate to the general public the                    nominee need be SETI League members, although a written
+importance of fostering the exploratory spirit. There may well                  nomination, citing the contributions of the nominee, is
+be some people who would, at least initially, prefer not to                     required.
+hear that there is intelligent life beyond earth. But as I look                      The 1999 Bruno Award winner will be announced at our
+back on our history as a species and as a civilization, it seems                fifth Annual Meeting on Sunday afternoon, 28 March 1999.
+that one central characteristic of being human is to attempt to                 Past Bruno recipients include:
+understand ourselves and our world around us. To me, this is                    1996 - Dr. D. Kent Cullers, WA6TWX
+one of the core values that motivates SETI. And I would hope                    1997 - Daniel Boyd Fox, KF9ET
+that we would not shrink back from that goal, and that we                       1998 - Ken Chattenton, G4KIR; Trevor Unsworth, G0ECP
+would not avoid a few growing pains as we attempt to                                 Please email your 1999 Bruno award nominations now to
+understand better our place in the universe.                                    bruno@setileague.org, fax them to 1 (201) 641-1771, or mail
+                                                                                them to SETI League headquarters.
+
+                                                                       Page 3
+                       SearchLites Volume 5, Number 1 -- Winter 1999
+      So You Want To "Get Into" SETI            Alone. Maybe you can even be sitting at the controls of the
+                                                                             telescope when that first message from the stars reaches our
+          Copyright © 1998 by Larry Klaes                                    blue planet, forever changing the course of human history.
+   SETI League Northeastern US Regional Coordinator
+                                                                             More Realities: Can You "Do" SETI?
+The Dream                                                                         In an ideal world, the search for life beyond Earth would
+     So you have spent your whole life hearing about, reading                be one of the highest priorities for humanity. To know if other
+about, and seeing humanity's numerous interpretations of                     beings -- especially intelligent ones -- exist with us in the
+alien life beyond Earth. You look up at a clear night sky full               Cosmos, to contact them and hopefully learn something of
+of stars and wonder if someone else is also sitting on some                  their perspectives on reality, and perhaps even more. Large
+alien world around one of those suns, pondering the same                     amounts of resources, time, and humanpower would be de-
+thoughts as you.                                                             voted to this ultimate quest for knowledge.
+     Eventually, your intellectual curiosity builds to the point                  To anyone who knows how vast the Universe is in terms
+where you must do more than just read and think about alien                  of its size and quantities of celestial bodies, it should be the
+beings: You want to see for yourself if they really are out                  goal of every intelligence such as ours to seek out others in
+there, somewhere in our vast Universe.                                       space to learn from them and find our true place in existence.
+The Realities                                                                     To quote from Carl Sagan: "In a very real sense this
+     First you discover that, despite everything you see and                 search for extraterrestrial intelligence is a search for a cosmic
+read about traveling to other star systems in science fiction, in            context for mankind, a search for who we are, where we have
+reality we are a long way off from reaching even the nearest                 come from, and what possibilities there are for our future -- in
+of suns with any kind of actual vessel. Besides, with over 400               a universe vaster both in extent and duration than our forefa-
+billion stars in our Milky Way galaxy alone, searching their                 thers ever dreamed of."
+countless worlds with star probes would take many                                 But noble intentions and plans do not always occur as
+generations of human lives to accomplish.                                    hoped for in reality. The concept of extraterrestrial life and
+     One reason for this dramatically slow process is,                       the quest for it has been on a long and obstacle-laden road
+ironically enough, due to the fastest achievable velocity in                 ever since the idea first appeared among a few brilliant
+existence: The speed of light and radio waves. The universal                 thinkers in ancient Greece over two thousand years ago. For
+speed limit is about 300,000 kilometers per second. To go any                millennia after, however, even thinking that intelligent beings
+faster than this would require more energy than exists in the                could exist beyond Earth was considered blasphemy! After
+entire Universe, and that just is not feasible.                              all, we appeared to be at the Center of the Universe, where
+     Granted, light speed is incredibly fast, but even if you                everything literally revolved around us. Existence was made
+had a starship which could achieve 99 percent of that                        just for humanity by the gods: To think that it could be shared
+velocity, it would still take you 100,000 years (measured in                 by anyone else was considered an absurd idea.
+Earth time, but not allowing for the accelerating and                             Once we began to enlighten ourselves with science, phi-
+decelerating phases of the trip) just to go from one end of the              losophy, and technology, such attitudes began to shed away in
+galaxy to the other. As for the various faster-than-light (FTL)              favor of freely thinking about such possibilities. We were no
+proposals, such as cosmic wormholes and warp drives, they                    longer the Center of Everything, but rather Earth was just one
+are still very much in the realm of theory.                                  of several planets orbiting what turns out to be an average
+     Conversely, this also means that the sheer volume of                    yellow star among hundreds of billions of other suns in an
+Milky Way star systems and the incredible amounts of space                   average spiral galaxy in a Universe with hundreds of billions
+between them make the chances that alien races would con-                    of such star islands scattered throughout the vastness.
+struct large fleets of starships, find Earth, journey many light                  Of course with this freedom of thought and expression,
+years to our planet, and then spend time here, quite slim.                   some people went too far with the idea of extraterrestrial life
+     Most often reports of alien visitors turn out to be hoaxes              and intelligence. Percival Lowell stands out as a prime exam-
+or misinterpretations of natural and human-made                              ple here. In the 1890s, Lowell considered the straight lines
+phenomenon. If anything, UFOs and abduction stories tell us                  perceived on the planet Mars to be a huge system of canals
+far more about human psychology and culture than about                       constructed by an advanced race of Martians to bring water
+anything or anyone from other worlds.                                        from the planet's polar caps to their great cities along the
+     Then you learn that some genuine scientific methods for                 equator. The only evidence Lowell had for this was his
+finding extraterrestrial life actually exist. Some astronomers               imaginative speculation.
+and engineers are using giant optical and radio telescopes to                     Lowell supported and promoted this idea with great gusto
+listen and look for signals from alien civilizations which may               and publicity. Many astronomers, however, felt Lowell was
+be trying to let the galaxy know that they exist and want to                 assuming a great deal from such scant and uncertain
+make contact with their celestial neighbors. Other scientists                evidence. When it finally became generally accepted that the
+hope to find less advanced -- but no less interesting -- life                "canals" were really just optical illusions created by the
+forms on various planets and moons in our own solar system.                  human eye and mind trying to make patterns out of the
+     You are overjoyed that not everything about the Search                  indistinct natural surface features on Mars, professional
+for Extraterrestrial Intelligence (SETI) is either just science              attitudes towards alien life turned negative.
+fiction or destined for some future era. You might actually be                    Add to this the growing popularity of science fiction with
+able to personally satisfy your desire to know if We Are Not                 its bug-eyed monster portrayals of ravenous, conquering ali-
+
+                                                                    Page 4
+                                     SearchLites Volume 5, Number 1 -- Winter 1999
+ens, and then the business of Unidentified Flying Objects                     galaxy at large. Plus all of this is good for you to know for
+(UFOs) as alien spaceships doing all sorts of strange things to               your own intellectual benefit and personal growth. Yes, this is
+the populace, and astrobiology was given a major setback                      my "it builds character" statement.
+from which it is still recovering today.                                      All Creatures Great and Small: Becoming an Exobiologist
+     We are finally at a stage where searching for extraterres-                     Of course the alien life you can search for does not neces-
+trial intelligence is no longer completely considered a crazy                 sarily have to be intelligent, at least on the technological
+or foolish idea. The human race is finally beginning to grow                  civilization level. NASA and many universities are
+up and expand its mental and physical horizons. SETI is                       developing very nice programs on searching for
+becoming accepted, especially once the scientist pioneers                     extraterrestrials of the much simpler kind. Our latest journeys
+showed that it could be done, even though no definite signal                  into the solar system with planetary probes have shown that
+of alien origin has yet been proven.                                          some of our neighboring worlds might not be as hostile as
+     Now that you are riding in the wake of those who paved                   once thought to microbes and other hardy and relatively
+the way for you to make even considering doing SETI possi-                    unsophisticated creatures.
+ble, which route do you want to take? And what do you need                          For example, NASA is quite interested in finding either
+to follow your plans?                                                         fossils of Mars life that lived there several billion years ago,
+The Professional Route                                                        or microbial life that still thrives on the Red Planet, perhaps
+     The first item I want to make clear is that at present,                  dwelling under the surface where conditions are a bit wetter,
+almost no one who is conducting professional SETI started                     warmer, and safer than above ground. Jupiter's smallest Gali-
+out doing SETI in their careers. Very few places conduct                      lean moon, Europa, appears to have a liquid ocean
+professional SETI -- The SETI Institute being among the                       underneath its incredible ice crust. Some scientists are
+most notable exceptions -- and the majority of their                          speculating that conditions in those alien seas might be just
+employees came from careers in astronomy and engineering.                     right for harboring some aquatic Europans.
+Most other SETI projects, such as BETA and SERENDIP ,                               These are just two possibilities you could end up
+are run primarily by skilled volunteers with donated funds.                   researching if you decide to become an exobiologist -- a
+     So if you want to hunt for aliens, you have to learn more                career that didn't even exist in any true form until well after
+than just how to sit at a monitor and wait for a needle to                    the advent of the Space Age. Much of the learning tools
+jump. And don't expect to get paid as much as other                           which applied to professional SETI also apply here, though
+professions in terms of financial rewards, if at all. But usually             with added emphasis on biology and chemistry.
+one does not get into this field just for the material benefits.                    You may initially think that finding an alien microbe
+     Getting a degree in astronomy is my first recommenda-                    won't be as thrilling as detecting a whole civilization of very
+tion. You have to understand the fundamentals of the                          intelligent beings: But just look at the wonder and excitement
+Universe before you can truly begin to comprehend what life                   generated by the possible microfossils found in Martian
+forms might be out there and why. If you don't even have an                   meteorite ALH84001 when their discovery was announced in
+idea of where to look for them, the search will be essentially a              1996.
+waste of time for you and everyone else. The same applies to                        It is most important to realize that finding any kind of
+my recommendation of studying physics.                                        life form that did not originate on planet Earth will be the key
+     Knowledge of computers and radio technology is highly                    evidence humanity needs to let us know that we are not alone
+recommended, as conducting SETI takes up massive amounts                      in the Universe. And finding organisms in our solar system
+of computer data crunching power. SETI sifts through                          could happen long before we come upon beings from other
+literally millions and billions of data bits per second, and                  planetary systems.
+trying to find some faint artificial signals in a Universe full of            The Amateur Route
+very noisy natural objects is a job for nothing less than                           While you probably won't make a living at doing SETI the
+advanced computers which can work fast and handle lots of                     amateur way, the wonderful thing about living in this era is that the
+information at once. Knowing how to work with such                            search technology has reached the point where any serious amateur
+machines will be a big plus.                                                  astronomer (non-Ph.D.) with a few hundred to a few thousand
+                                                                              dollars (or equivalent currency) for the right equipment can actually
+     I would also recommend learning biology and chemistry.
+                                                                              conduct a serious search for other galactic civilizations. You can
+The beings you hope to pursue may be quite different from                     actually possess the technological ability to scan the skies with
+anything you might find on Earth, but understanding the fun-                  devices that would have been the envy of most professional
+damentals of how life forms on this planet exist and function                 institutions just a decade or two ago.
+will give you a good base to work from.                                             The extra beauty of doing your own SETI project is that you can
+     Since you will be searching for intelligent beings who                   essentially be your own boss as to how things are run. SETI does not
+will have some form of advanced technological civilization                    have to belong only to the "big" boys and girls.
+(otherwise we won't be able to detect ETI from Earth with our                       Naturally, to conduct amateur SETI, it will help to have a more
+current radio and optical telescopes), I would suggest                        than casual interest in astronomy, a working knowledge of
+                                                                              telescopes -- radio and optical, depending on which type of amateur
+studying sociology to learn about how cultures develop and
+                                                                              SETI you want to pursue (more on that later) -- a working
+function with themselves and others. There certainly are a                    knowledge of computers, a good place to set up your observatory,
+wide variety of human societies to study which will give you                  plenty of free time, and some extra spending cash. Yes, if you want
+at least some ideas for what alien cultures just might be like                to do serious astronomy and/or SETI, it can't be done properly as a
+and their motivations and methods for reaching out to the                     weekend hobby.
+
+                                                                     Page 5
+                                        SearchLites Volume 5, Number 1 -- Winter 1999
+     Of course you can do this any way you want, but since we do                   duct this kind of SETI. Dr. Kingsley has provided a great deal
+not know who may be sending signals from out there by what                         of information on how to do this in his Web site.
+methods, when, or where, a near-constant vigilance is the only way                       As with microwave, while you won't need a large radio
+to be sure of catching their call when it comes. And since it is likely            dish, you will still require a dedication and seriousness to as-
+that such signals will not be very powerful, especially to amateur
+                                                                                   tronomy, a working knowledge of telescopes and computers, a
+equipment, it will also make a major difference as to how "serious"
+your equipment is as well.                                                         good place to set up your observatory, plenty of free time, and
+Amateur SETI Organizations: The Microwave Approach                                 some extra spending cash.
+     Another nice thing in this era of computers and the Inter-                    Beyond Radio and Lasers
+net is that you don't have to be alone in pursuing your                                  Of course ETI might be sending messages through the
+personal SETI dream. There are some actual amateur SETI                            Milky Way using techniques which are neither radio nor opti-
+organizations which can help you with all aspects of your                          cal, but most of these methods are far beyond current amateur
+search plans.                                                                      -- and in some cases professional -- capabilities. Thus they
+     If you want to find alien intelligences in the microwave                      will remain out of the main scope of this article.
+(radio) realm, the most common pursuit at present, check in                        Beyond the Observatory
+with The SETI League. The SETI League, Inc. was founded                                  If you decide not to become an active SETI scientist, but
+by Richard Factor in 1994, in response to the United States'                       still want to make some kind of a living in the field, you can
+Government cutting all funds for NASA's SETI program,                              always pursue other avenues that, while they may not allow
+called the High Resolution Microwave Survey (HRMS), and                            you to find ETI in person, can go a long way towards making
+the Superconducting Super Collider (SSC) in October, 1993.                         those discoveries possible. One avenue is to write about
+     Executive Director Dr. H. Paul Shuch felt that between                        extraterrestrial life for periodicals and Web sites. You do not
+the advancements in computer technology and the vast num-                          have to be a professional exobiologist to get published on the
+bers of actual and potential radio astronomers around the                          subject matter in the popular science magazines. Your
+world, a serious amateur effort could be mounted to have a                         research into alien life could go far in making breakthroughs
+constant global coverage of the sky, free from the budget-cut-                     in a field that still has so many unknowns to answer.
+ting politicians and scant time on the professionals' giant                              You can also write about astrobiology and SETI to ex-
+radio telescopes.                                                                  plain its intricacies to the general public, a valuable service in
+     The SETI League's Web site contains just about every-                         its own right. Just think, your works could inspire others to
+thing you need to know about setting up your own radio tele-                       become scientists in the SETI field and elsewhere, just as you
+scope for the search. They can also postal mail you the same                       were probably once inspired by similar circumstances.
+information if need be. There is also loads of information on                            Most important, don't ever forget in your pursuit of alien
+SETI in general.                                                                   life to enjoy what you are doing. SETI and its related fields
+The Optical Approach                                                               should always retain at least some of the wonder and excite-
+     There is another way one can look for ETI transmissions                       ment which drew you to it in the first place. Never forget to
+that briefly gained prominence in the early 1960s, only to be                      keep reading, thinking, and speculating about life out there,
+overshadowed by the microwave field until just recently: The                       whether you pursue this as a profession or just an "armchair"
+optical spectrum.                                                                  enthusiast. You will do yourself and the field a great deal of
+     While not as popular or well known to those with a                            good with this one basic point.
+casual knowledge of SETI due to microwave's dominance for                          The Choice is Yours
+                                                                                         Despite how it might seem at first glance, my goal with this
+the past three decades, optical SETI seeks to detect pulsed
+                                                                                   article is not to discourage you from "doing" SETI. Rather, I am
+and continuous wave laser beacons signals in the visible and                       presenting to you up front the realities of what is involved as the
+infrared spectrum. To truly advanced societies, laser                              field stands now. It would be worse for you to get all worked up and
+communications offer a way to transmit large amounts of                            make elaborate plans about SETI, only to be shot down in
+audiovisual information over vast distances. Seeing as we do                       midstream. If exploring the stars is your dream, learn how to do it
+not exactly know how ETI might communicate, looking for                            realistically, rather than be defeated out of lack of knowledge on the
+them in both the microwave and optical spectrums seems the                         subject.
+only logical way to cover all the bases.                                                 If you discover that you do not really want to pursue SETI
+     For the past several years, Dr. Stuart Kingsley of Ohio,                      beyond reading and thinking about it, then at least I hope I saved
+who has often referred to himself as a "frustrated astronaut,"                     you some time and energy on the matter so that you can still enjoy
+                                                                                   the subject. Remember, you do not have to make your own SETI
+has led the effort to promote optical SETI for both amateurs
+                                                                                   station to participate in this great endeavor. Thoughtful speculation
+and professionals. He has designed his own system called the                       can be just as helpful with so many unknown factors out there which
+Columbus Optical SETI Observatory. At first glance, it looks                       have yet to be found.
+like the typical kind of observatory you would find in a                                 If you are still determined to pursue either a professional career
+serious amateur astronomer's backyard. But Dr. Kingsley's                          or serious amateur goal to do SETI, then more power to you! At the
+choice of targets goes beyond planets and stars to the very                        very least, you will be well rewarded in terms of what you discover
+beings which may dwell in other star systems.                                      about yourself and the Universe as a whole.
+     Seeing as more amateurs have optical telescopes than ra-                          Who knows, maybe someday you will be the one sitting
+dio ones, it can be relatively easy to adapt your system to con-                   at the observatory controls when the signal of a lifetime
+                                                                                   comes drifting in from deep space. With a Cosmos as large
+                                                                                   as ours, the possibilities are truly astronomical.
+                                                                          Page 6
+                                         SearchLites Volume 5, Number 1 -- Winter 1999
+Ask Dr. SETI           TM
+     Send your questions to Ask Dr. SETI, PO Box 555, Little Ferry                   Dear Dr. SETI:
+NJ 07643, or email to askdrseti@setileague.org. Remember, he's                            I live in a rather densely populated suburban area in a city of
+not a real doctor (but rather, a Ph.D., the kind who actually has to                 400,000 people. Lots of radio emissions around here, to be sure.
+work for a living!). For health questions, consult a competent                       How much interference can I anticipate? and would this interference
+medical professional.                                                                be enough to drown out (or otherwise make indiscernable) the
+                                                                                     signals I'd be looking for?
+                                                                                          Chris, The Suburbs
+Dear Dr. SETI:
+     I am extremely interested in project ARGUS, however I do not
+                                                                                     The Doctor Responds:
+understand a couple of things. First, why choose a frequency
+                                                                                           Radio frequency interference (rfi) is a very real problem in and
+associated with water? After all, we are carbon-based lifeforms                      near cities, Chris, but not an insurmountable one. Of all the antenna
+dependent on water, yet we use all types of high and low frequency                   designs which have been used for SETI, the most immune to radio
+transmission. You can't take a cell phone or any microwave                           frequency interference is the properly aimed and illuminated
+transmission and directly relate that to water, so why pick the                      parabolic reflector, or "dish."
+"Water Hole"?                                                                              What many of our urban members do is aim their dish straight
+     Monty G.                                                                        up ("birdbath" mount). Since any direction in the sky is as likely as
+                                                                                     any other as a source of at least nearby signals, this keeps you very
+The Doctor Responds:                                                                 much in the running. (Out to about 300 parsecs [1000 light years] or
+     The "water hole" frequencies are not directly related to water,
+                                                                                     so, stars are pretty uniformly distributed anyway.) Under-illuminate
+Monty, that's just a poetic description. In the quietest part of the sky,
+                                                                                     your dish (see this article) to minimize sidelobes. Keep your dish
+in the microwave region where interstellar space is most
+                                                                                     low (on the ground is fine; putting it on a tower exacerbates the rfi
+transparent, are two radiation lines which can be seen from
+                                                                                     problem). Use plenty of filtering between the LNA and receiver.
+anywhere in the cosmos. One is from interstellar hydrogen, the other
+                                                                                     And hope for the best. Remember that if you can program your
+from hydroxyl. Hydrogen plus hydroxyl forms water under the
+                                                                                     signal analysis software to recognize and ignore known sources of
+proper conditions, hence the name. These radiation lines are
+                                                                                     rfi, your false alarm rate goes down and detection of a valid SETI hit
+signposts which are not geocentric, of which any civilization which
+                                                                                     is facilitated. Radio frequency interference is only fatal to SETI if it
+has radioastronomy will be aware. Since we're already looking for
+                                                                                     convinces us not to search.
+astrophysical phenomena in this region, and it's very well suited to
+interstellar propagation, why not seek civilizations there as well?
+                                                                                     Dear Dr. SETI:
+                                                                                          Is there any way I can convert a satellite TV receiver, down
+Dear Dr. SETI:
+                                                                                     converter, LNA and feedhorn for SETI use? I have quite a bit of
+     Many of us live in apartment, condos or 'controlled                             equipment just sitting here on my desk. I got all this stuff free with a
+neighborhoods' that do not allow 10 meter dishes and the like. But I                 dish so if I can convert it I'm out nothing. It just seems like I should
+am wondering if anyone is using the small 16" dishes that is made                    be able to adapt this equipment for SETI use. Any ideas?
+for PrimeStar and USSB television reception. Are they too small?                          Thanks, JS
+Can they not be modified to do any useful scans?
+     Keep up the good work.
+     SB, Winston-Salem, NC
+                                                                                     The Doctor Responds:
+                                                                                           4 GHz (the band at which your satellite TV equipment
+                                                                                     operates) is just as viable a frequency for SETI as any other, so, by
+The Doctor Responds:                                                                 all means, this is worth a try. The LNA, polarization rotor and
+      Unfortunately, the Ku-band DBS dishes don't appear particu-                    feedhorn could certainly be used as-is. The receiver itself is not
+larly practical for interstellar communications. All of our sensitivity              likely to be particularly useful (unless, as happened in the film
+calculations are based upon the gain of the larger C-band dishes. (Of                Contact, the aliens choose to send us TV signals!). The
+course, if we happen to be off by several orders of magnitude as to                  downconverter would probably require extensive modification. The
+what power levels other civilizations might be transmitting, then all                reason is, a satellite TV channel is typically 40 MHz wide, so the
+bets are off! But practically speaking, we tend to calculate capabili-               converter need not exhibit particularly good frequency stability (and,
+ties assuming radiated powers similar to those emanating from                        in fact, does not). Our FFT bins for SETI are typicaly 10 Hz wide, so
+Earth. That's the conservative approach.)                                            we expend a lot of effort on making our converters very frequency
+      I doubt that it's practical to scan the skies with the Direct                  stable. You could probably phase-lock the LO in the downconverter
+Broadcast Satellite dishes, but they've proven a boon to amateur                     to a very stable reference oscillator and use a communications
+SETI in another way. Since their proliferation, an abundance of the                  receiver at the IF output, but this becomes a major engineering effort
+old-style BUDs ("Big, Ugly Dishes") have come up for grabs, and                      (and may or may not be worth the bother).
+many of our members are acquiring them to build their own SETI                             One very successful 4 GHz SETI system based upon TVRO
+stations.                                                                            hardware is Project BAMBI. You may wish to visit their web site
+      If you happen to be an apartment dweller or similar, it may not                for technical details.
+prove feasible for you to build your own SETI station. However,                            By the way, 4 GHz is a great frequency range for continuum
+don't be discouraged; there's much else which you can contribute to                  radio astronomy (for which you can use a TVRO receiver). In fact,
+our quest. We are ever in need of hardware designers and                             the discovery of the cosmic background radiation was made in this
+programmers and writers and public speakers and fundraisers and ...                  band (by Penzias and Wilson at Bell Labs; work which won them
+the list is endless. And, of course, they also serve who merely pay                  their Nobel Prize. Only don't expect to be able to measure the
+their dues. Since The SETI League receives no Government support                     cosmic background radiation with a satellite TV dish!).
+whatever, by just becoming a member you're helping us to complete
+the research Congress wouldn't let NASA finish. We do hope you'll
+be choosing to join The SETI League.
+
+                                                                            Page 7
+                                                SearchLites Volume 5, Number 1 -- Winter 1999
+                                                                                                 Pleased to Accept Credit Cards
+SearchLites, Volume 5, Number 1, Winter 1999.                                                 The SETI League invites you to pay your membership dues
+SearchLites, ISSN 1096-5599, is the Quarterly Newsletter of                               and additional contributions via Visa or MasterCard. Please
+The SETI League, Inc., a membership-supported, nonprofit                                  fill out the form below and return it with any order. We
+[501(c)(3)], educational and scientific corporation, dedicated                            thank you for your ongoing support.
+to the electromagnetic Search for Extra-Terrestrial                                        Circle One: Visa / MasterCard Exp.            /
+Intelligence. Entire contents copyright © 1999 by The SETI                                 Card Number:
+League, Inc. Permission is hereby granted for reproduction                                 Name on Card:
+in whole or in part, provided credit is given. Address all edi-                            Address:
+torial submissions to:
+                     The SETI League, Inc.                                                 Phone:                 email:
+ 433 Liberty Street, PO Box 555, Little Ferry NJ 07643
+                                                                                           Ham call:              URL:
+        Tel: (201) 641-1770; fax: (201) 641-1771
+            memberships: 1(800) TAU-SETI                                                   Total Contribution (US Dollars):
+               email: info@setileague.org                                                  Signature:
+            Web -- http://www.setileague.org/                                              Today's date:
+
+
+The SETI League, Inc.
+ 433 Liberty Street
+    PO Box 555
+  Little Ferry NJ
+    07643 USA
+
+                                                                         To:
+
+
+                Is this your Last Issue?
+           Check mailing label for expiration date.
+        Getting close? Renew your membership now!
+                                 Printed in the USA
+
+
+                                                                                             Order Your Membership Premiums:
+          Memberships Make Great Gifts!                                                                                          (u)         (o)
+Full Member                                                                $50                T-shirts, specify M, L, or XL      $14         $17
+Supporting Member (elderly, retired, or disabled)                          $35                Mouse pads                         $ 5         $ 7
+                                                                                              Pocket protectors                  $ 3         $ 4
+Scholarship Member (full-time students only)                               $25
+                                                                                              Buttons: "We're All Ears"          $ 2         $ 3
+Household Member (same address as a Full Member)                           $15
+                                                                                                  "We Know We're Not Alone" $ 2              $ 3
+Household Life Member (same address as a Life Member)                     $300                    "Project Argus Launch "        $ 2         $ 3
+Life Member (until we make contact)                                     $1,000                SETI League Technical Manual $10               $13
+Patron (priority use of The SETI League's radio telescope)             $10,000                Project Cyclops 2nd Printing       $20         $25
+Director (Patron membership plus seat on advisory board)             $100,000                 Sing a Song of SETI (Songbook) $10             $13
+                                                                                              SETI Nerd Gift Set (one each Mouse Pad, Pocket
+Benefactor (a major radio telescope named for you)                 $1,000,000
+                                                                                                Protector, Project Cyclops and Tech Manual) at
+      Except for Household Members and Household Life Members, all                              20% Savings to Members Only: $30             $40
+   memberships include subscription to SearchLites, our quarterly newsletter.
+Payments may be by US Dollars check payable through a                                       The above recommended contributions include surface
+ US bank, or by Credit Card (see form at upper right).                                       postage to (u) United States, or (o) other addresses.
+
+
+                                                                                 Page 8
