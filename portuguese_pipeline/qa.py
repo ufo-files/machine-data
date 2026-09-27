@@ -12,7 +12,7 @@ REDACTION = re.compile(
     r"|<(?:ileg[ií]vel|illegible|redacted)>|█+",
     re.IGNORECASE,
 )
-FILENAME = re.compile(r"(?<![\w./-])[\w .()&'-]+\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
+FILENAME = re.compile(r"(?<![\w./-])[\w()&'-]+(?:[ .][\w()&'-]+)*\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
 IDENTIFIER = re.compile(r"\b(?=[A-Z0-9./-]{4,}\b)(?=[A-Z0-9./-]*\d)[A-Z][A-Z0-9]*(?:[./-][A-Z0-9]+)+\b")
 NUMERIC_IDENTIFIER = re.compile(r"(?<![\d/])\d{1,6}/(?:19|20)?\d{2}(?![\d/])")
 OFFICIAL_CODE = re.compile(
@@ -225,7 +225,7 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
     abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
     abbreviations.update(EN_MONTHS)
-    abbreviation = re.compile(r"\b(\d{1,2})\s+(?:de\s+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    abbreviation = re.compile(r"\b(\d{1,2})[ \t]{1,3}(?:de[ \t]{1,3})?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()
         if len(year) == 2:

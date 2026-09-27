@@ -8,6 +8,24 @@ from portuguese_pipeline.translation import MLXBackend, translate_text, retry_ch
 
 
 class TranslationRecoveryTests(unittest.TestCase):
+    def test_filename_protection_does_not_capture_neighboring_columns(self):
+        from portuguese_pipeline.qa import mask_protected, restore_protected
+        source = "Texto a traduzir                     Manual do Sistema.pdf"
+        masked, replacements = mask_protected(source)
+        self.assertIn("Texto a traduzir", masked)
+        self.assertEqual(list(replacements.values()), ["Manual do Sistema.pdf"])
+        translated, missing = restore_protected(masked.replace("Texto a traduzir", "Text to translate"), replacements)
+        self.assertFalse(missing)
+        self.assertIn("Manual do Sistema.pdf", translated)
+        self.assertTrue(restore_protected("Text to translate", replacements)[1])
+
+    def test_volume_number_and_month_are_not_an_invented_day(self):
+        source = "Volume 1        Dezembro 2023   Volume 2        Outubro 2024"
+        target = "Volume 1        December 2023   Volume 2        October 2024"
+        self.assertFalse([f for f in compare_translation(source, target) if f['check'] == 'dates'])
+        self.assertFalse([f for f in compare_translation("10 de Mai 96", "10 May 96") if f['check'] == 'dates'])
+        self.assertTrue([f for f in compare_translation("10 de Mai 96", "11 May 96") if f['check'] == 'dates'])
+
     def test_generation_budget_tracks_source_size_and_respects_cap(self):
         class Tokenizer:
             def encode(self, text): return list(text)
