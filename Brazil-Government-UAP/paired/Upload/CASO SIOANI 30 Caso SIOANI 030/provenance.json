@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "d58a438fa54b4a09f063991bcc052536addab6d4077ceecd8a002291de1053a4",
+  "canonical_text_sha256": "771be8db0cbd242ece679c983ff66ead9400dfe9640844554312aed73bc595fc",
   "document_id": "doc-33f8718a2554a3c852c751c4",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -264,7 +264,7 @@
       }
     ]
   },
-  "retranslated_at": "2026-09-27T20:04:54Z",
+  "retranslated_at": "2026-09-27T20:36:32Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -273,17 +273,43 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 362,
   "source_bytes": 6518169,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "Aqui, no QG da 4ª Zona, temos o Centro de Investigação, ponto de coordenação das pesquisas para encaminhamento ao Ministério.\nÊste é nosso primeiro contato. O assunto, sem ser confidencial ou secreto, está sendo cuidado com reserva.\nRespeitosamente, pedimos vossa cooperação.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "-\n                                ,qui , no QG dn 4n Zona, temos 0 Centro d Invastieaqao, pOll\n                                                                                       ,\n                     to de ccord6!lIlQ80 des pes ulaa para encllLu Ilhamento ao ,Uni sterio.\n                                ~ste ~ noseo primairo centato. 0 a~sunto , sem ser confideD\n                                          ,\n                     cial ou. secreto, eata sendo cuidado com reserva .\n                                         Reapeitosamente , ped1mos vos s a cooperaqno .",
+      "original_text_sha256": "dc173235e0697b0d0fa0d44dc437b5872d3bacbc3f25ffc172608fa6102e263a",
+      "page": 2,
+      "segment_id": "seg-a562ff2de3552f0ee3b549b0",
+      "source_page_render_sha256": "68f60775bf41c43004565ebfc9eb0305cdaf5ffc0e1216bcba61eaabf37eeeff",
+      "source_rel": "Upload/CASO SIOANI 30 Caso SIOANI 030.pdf",
+      "translation": "Here, at the QG of the 4th Zone, we have the Investigation Center, the coordination point for investigations to be forwarded to the Ministry.\nThis is our first contact. The matter is being handled discreetly, without being confidential or secret.\nWe respectfully request your cooperation."
+    },
+    {
+      "corrected_source_text": "c) dimensões (se possível comparadas com objetos próximos), com croquis:\nAparição: 15 cm de diâmetro\nno local das evoluções: 30 cm de diâmetro",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": ", .\n                                              c)    dL,w;lS08 3           (se :poss{v-el cOl/_~ :'adas                 COil    o!JJetos l)j,.'O;:l­\n                                                    :.jlOS),     (. 0 : 1 t..:,,'ol.l.).is:\n                                                                 Apar :i csao :         15 em de diametro\n                                               no loc el das                 vol ngncs : 30 em de d1runetro\n    •",
+      "original_text_sha256": "59c4adc8b4e08dc6ca252e0ffa7504ebf2132ee20dff14ff04c4522e83bb22c0",
+      "page": 14,
+      "segment_id": "seg-0cc6e76b3e2931c9db4fe44c",
+      "source_page_render_sha256": "54b25d9639fce5ba333d8c1957b5a4358d6c56c1b8b05169b8adf402139c50c5",
+      "source_rel": "Upload/CASO SIOANI 30 Caso SIOANI 030.pdf",
+      "translation": "c) dimensions (if possible compared with nearby objects), with sketches:\nAt appearance: 15 cm in diameter\nat the location of the maneuvers: 30 cm in diameter"
+    }
+  ],
   "source_sha256": "5ae1970ba81f355558bd0b3aed1040f1532417d733e91aaaab1b554231921b9e",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-27T20:04:54Z",
-    "method": "mixed-verified-recovery",
-    "model": "mixed; see segment translation_provenance",
-    "model_revision": "source-bound-recovery-2026-09-27",
+    "generated_at": "2026-09-27T20:36:32Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
     "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "mixed",
-    "workflow_version": "source-bound-translation-recovery/v1"
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "dce506e9fc45dc7f0105bbe94b8c210be6f08fd82b2ddc4c5974b1e5fd2a8cf9"
+  "translation_text_sha256": "ea30aaeb37aa8e4ecece80d9a844f31ced94578de9b44903b11a2cdc6e27842c"
 }

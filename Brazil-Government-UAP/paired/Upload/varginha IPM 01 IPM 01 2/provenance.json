@@ -14,6 +14,150 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 106,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-12T20:55:20Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0661c14af520805eb79d4ff1870d769e2130afde97f3ad433e8b3f8c5009ab88",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3a8e1f10f28aed04a163cb709417c13c605041d97d11698eb12be3763ed48ccd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ddf510304f51ea0207323783d6558e96856552c35e4c4c0cf3cdca5110c32612",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "888a3d372f1d3b1335458cf0a45c8a0ffd607fe55e1343fdff24da0745342473",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3704d41e5a7b0b5108b7c1f261ae3e1804ec2a659950389fd56c7e96d60a2f1c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "95ff0ab286e9fc36b6e0c5fd3148278f780464ad5c7c08db0546db883270fe9b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2a1bac1275d67b8b613db613626fe5ab32c8a1b406143e208b29a6e3a06420ed",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "87ec2eedda78ac0ec6d85632615090eaf39d9f0ce11bbadf990141bae2fb6415",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c70cd75ff2244a44cb121356e248470c06643f2b88a70eb5f1c775b4d7a74c61",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "human_reviewed": false,
+        "method": "reused-cross-document-translation",
+        "origin": "/Users/ufo-files-agent/Library/Application Support/ufo-files/repair-2026-09-27/translation-staging/portuguese/a5fabf06bfde4612e37fb76a/transcripts/Brazil-Government-UAP/paired/Upload/ACE 3370.83 ACE_3370.83/en/translation.json",
+        "prior_translation_provenance": {
+          "human_reviewed": false,
+          "method": "reused-cross-document-translation",
+          "origin": "/Users/ufo-files-agent/Library/Application Support/ufo-files/repair-2026-09-27/translation-staging/portuguese/da36306387c390ba88921095/transcripts/Brazil-Government-UAP/paired/Upload/CASO SIOANI 41 em Preto e Branco Caso SIOANI 041/en/translation.json",
+          "prior_translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T05:33:37Z",
+              "method": "mixed-verified-recovery",
+              "model": "mixed; see segment translation_provenance",
+              "model_revision": "source-bound-recovery-2026-09-27",
+              "prompt_sha256": "",
+              "review_status": "needs-review",
+              "runtime_version": "mixed",
+              "workflow_version": "source-bound-translation-recovery/v1"
+            }
+          },
+          "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+          "status": "machine-unreviewed"
+        },
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "da94aebac294f2f24893be90b8b73d4c4c87ea4f37d5890ac4bdb50e1941bae0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c89cca89e4b6ec9c99e80a56fe73ff941d45e9b5083bc76c3ded741d038fcf68",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f8fc9f621ef36c63b2429773536f45ee7d100d545eef380469a0501e27fe3315",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a8dfefff76779eb11174b756455c6935883d7b00b66753db1617781ab8051453",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "da3cdfcfceec606e1c500ce96224b542b93ed73c6cbe96cf06f52e2ba62930a2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0ab242d8ae44f259f4ec01a9a7e02ceb5c8c494c539fa69ad7ea33e07cc566a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7a5f161761a23fb85cb53e5c9eb7c1971fb7afce983828e4a89c4ccb78476a04",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bf76149489659a4b2494e09405a4f8cf2ac86a389faf5caf1f9c67a2377fd34d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "265e609966d9ba512a2c61a50564879fa9792f963d31e5f3f52e765d64eef246",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ae910f9f30d9d06ea7fcb471df35c4322e9645e69482ad657264e75f975b03de",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T20:12:49Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -25,14 +169,14 @@
   "source_sha256": "9570d26269747ada27abeeb7b18d260783488a9db1e8a78e1f198477e4656309",
   "status": "partial",
   "translation": {
-    "generated_at": "2026-08-12T20:55:20Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+    "generated_at": "2026-09-27T20:12:49Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
     "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "3ea2106e19d4771fae4ad8535c9a9281181b6c6bede071a10cf59769c34d4097"
+  "translation_text_sha256": "bfa6f25fb5be99dbcf0a6e1f5cd1ee72be1f017c7205f6dd2752ed292433c82b"
 }
