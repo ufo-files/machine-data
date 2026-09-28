@@ -369,6 +369,17 @@ def _measurements(text: str) -> Counter[str]:
         text = re.sub(pattern, " " + unit, text, flags=re.I)
     # Nautical miles are distinct from statute miles on both sides.
     text = re.sub(r"\bmilhas?[ \t]+n[áa]uticas?\b|\bnautical[ \t]+miles?\b", "nmi", text, flags=re.I)
+    # Preserve speed dimensions when a report spells out the unit.
+    text = re.sub(r"\bquil[oôó]metros?\s+por\s+hora\b|\bkilomet(?:er|re)s?\s+per\s+hour\b", "km/h", text, flags=re.I)
+    text = re.sub(r"\bkms\b", "km", text, flags=re.I)
+    # Explicit thousands before a known measurement unit (not arbitrary prose).
+    text = re.sub(
+        r"\b(\d+(?:[.,]\d+)?)\s+(?:mil|thousand)\s+(?=(?:km/h|km|metros?|meters?)\b)",
+        lambda match: format(Decimal(_number_value(match[1])) * 1000, "f") + " ",
+        text, flags=re.I,
+    )
+    # The model number in "F-16 a 2.400 km/h" is not a range endpoint.
+    text = re.sub(r"\b([A-Z]{1,3}-\d{1,4}[A-Z]?)[ \t]+a[ \t]+(?=\d)", r"\1; ", text)
     # Radio position reports give a radial followed by distance, not a range:
     # "na 240 a 40 milhas" means bearing 240, at 40 miles.
     text = re.sub(
