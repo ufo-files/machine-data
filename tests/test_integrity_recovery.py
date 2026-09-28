@@ -2,6 +2,22 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_nothing_preserves_portuguese_negative_concord(self):
+        for source, target in [('Sem nada a relatar.', 'Nothing to report.'),
+                               ('Na 180 não tem nada.', 'At 180 there is nothing.')]:
+            self.assertFalse(any(f['check'] == 'negation' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(source, target.replace('nothing', 'something').replace('Nothing', 'Something'))))
+        self.assertTrue(any(f['check'] == 'negation' for f in compare_translation('sem confirmação', 'nothing confirmed')))
+
+    def test_numeric_identifier_does_not_split_an_alphanumeric_fragment(self):
+        for source in ['359/25MM', '0&79/33HH', 'LUPORMACNO B?.)892/329C405/27']:
+            masked, replacements = mask_protected(source)
+            self.assertEqual(restore_protected(masked, replacements), (source, []))
+            self.assertEqual(restore_protected(source, replacements), (source, []))
+        masked, replacements = mask_protected('File 405/27')
+        self.assertEqual(restore_protected(masked, replacements), ('File 405/27', []))
+        self.assertEqual(restore_protected('File 405/28', replacements)[1], ['405/27'])
+
     def test_full_ocr_dates_preserve_values_across_missing_or_extra_spaces(self):
         examples = [('06 de Marçode 1997', 'March 6, 1997'),
                     ('MG,10de marçode 1997', 'MG, March 10, 1997'),

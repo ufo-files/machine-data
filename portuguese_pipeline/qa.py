@@ -15,7 +15,7 @@ REDACTION = re.compile(
 FILENAME = re.compile(r"(?<![\w./-])[\w()&'-]+(?:[ .][\w()&'-]+)*\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
 URL = re.compile(r"\b(?:https?://|www\.)[^\s<>\"'“”‘’]+", re.I)
 IDENTIFIER = re.compile(r"\b(?=[A-Z0-9./-]{4,}\b)(?=[A-Z0-9./-]*\d)[A-Z][A-Z0-9]*(?:[./-][A-Z0-9]+)+\b")
-NUMERIC_IDENTIFIER = re.compile(r"(?<![\d/])\d{1,6}/(?:19|20)?\d{2}(?![\d/])")
+NUMERIC_IDENTIFIER = re.compile(r"(?<![\w/])\d{1,6}/(?:19|20)?\d{2}(?![\w/])")
 OFFICIAL_CODE = re.compile(
     r"\b(?:RIC|REQ|NUP|IPM|PROCESSO|OF[IÍ]CIO|PORTARIA|ENVELOPE|COMUNICA[CÇ][AÃ]O)"
     r"[ \t]*(?:N[.º°O][ \t]*)?[A-Z0-9][A-Z0-9./-]*\d[A-Z0-9./-]*\b",
@@ -429,6 +429,14 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
             ))
         if marker == "não":
             translated_count += len(re.findall(r"\b\w+n['’]t\b", target, re.I))
+        if marker in {"não", "sem"}:
+            # Negative concord may collapse to one English negative pronoun:
+            # "não vi nada" -> "I saw nothing", "sem nada" -> "nothing".
+            # Limit this equivalent to clauses that actually contain nada.
+            concord_count = len(re.findall(
+                rf"\b{marker}\b[^.!?;\n]{{0,160}}\bnada\b", source_folded,
+            ))
+            translated_count += min(concord_count, len(re.findall(r"\bnothing\b", target, re.I)))
         if count and translated_count < count:
             findings.append({
                 "check": "negation",
