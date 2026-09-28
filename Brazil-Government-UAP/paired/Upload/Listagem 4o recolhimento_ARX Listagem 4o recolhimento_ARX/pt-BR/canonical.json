@@ -417,6 +417,25 @@
       ],
       "source_sha256": "726c557f004151a37790f725ccd1e7535b7e8775be90029e52a7f90f10283e80"
     },
+    "source_image_corrections": {
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "segments": [
+        {
+          "corrected_source_text": "objetos voadores não",
+          "human_reviewed": false,
+          "method": "codex-assisted-image-transcription",
+          "original_ocr_text": "objetos voadores não",
+          "original_text_sha256": "350507f4f8a97a02abc68319e96a9e913a9e947b5c7a4101f0e1d07414e6eda7",
+          "page": 24,
+          "segment_id": "seg-34a5ed789ce697ffaf5af186",
+          "source_page_render_sha256": "cb8a9a7cd36dbb27dffa02d83d3f8c94710b8586e9906d0621709792f0628319",
+          "source_rel": "Upload/Listagem 4o recolhimento_ARX Listagem 4o recolhimento_ARX.pdf",
+          "translation": "flying objects not",
+          "uncertain_source_values_explicit": true
+        }
+      ]
+    },
     "tools": {
       "pdftotext": "pdftotext version 26.08.0"
     }
@@ -36757,12 +36776,25 @@
             "method": "stopword-heuristic/v1"
           },
           "ocr_confidence": null,
+          "ocr_correction": {
+            "corrected_source_text": "identificado, de 7 de\nagosto de 1994.",
+            "human_reviewed": false,
+            "method": "codex-assisted-image-transcription",
+            "original_ocr_text": "identificado, de 7 de\nacosto de 1994.",
+            "original_text_sha256": "258e8eaec3e50b45679597f2b8638fc38490eb5d7352a9f34de186af65e13792",
+            "page": 23,
+            "segment_id": "seg-9079eefeba3d69a294a46375",
+            "source_page_render_sha256": "c3e338b1a005a41656069946e4938a8cdde44364f4a5fb9b2a3d0e198678761e",
+            "source_rel": "Upload/Listagem 4o recolhimento_ARX Listagem 4o recolhimento_ARX.pdf",
+            "translation": "identified, dated August 7, 1994.",
+            "uncertain_source_values_explicit": true
+          },
           "page_id": "page-b5580e1548e3faa01223d77c",
           "segment_id": "seg-9079eefeba3d69a294a46375",
           "segment_index": 93,
           "start_ms": null,
-          "text": "identificado, de 7 de\nacosto de 1994.",
-          "text_sha256": "258e8eaec3e50b45679597f2b8638fc38490eb5d7352a9f34de186af65e13792"
+          "text": "identificado, de 7 de\nagosto de 1994.",
+          "text_sha256": "091b1c6cf3f116bf30d77baebf5727346198ec518872028a35445b15b7045c79"
         },
         {
           "end_ms": null,
@@ -37743,6 +37775,19 @@
             "method": "stopword-heuristic/v1"
           },
           "ocr_confidence": null,
+          "ocr_correction": {
+            "corrected_source_text": "objetos voadores não",
+            "human_reviewed": false,
+            "method": "codex-assisted-image-transcription",
+            "original_ocr_text": "objetos voadores não",
+            "original_text_sha256": "350507f4f8a97a02abc68319e96a9e913a9e947b5c7a4101f0e1d07414e6eda7",
+            "page": 24,
+            "segment_id": "seg-34a5ed789ce697ffaf5af186",
+            "source_page_render_sha256": "cb8a9a7cd36dbb27dffa02d83d3f8c94710b8586e9906d0621709792f0628319",
+            "source_rel": "Upload/Listagem 4o recolhimento_ARX Listagem 4o recolhimento_ARX.pdf",
+            "translation": "flying objects not",
+            "uncertain_source_values_explicit": true
+          },
           "page_id": "page-0d60c241f8366cee24493a91",
           "segment_id": "seg-34a5ed789ce697ffaf5af186",
           "segment_index": 44,
