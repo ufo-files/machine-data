@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from portuguese_pipeline.extract import extract_pdf
+from portuguese_pipeline.extract import extract_pdf, reading_order_options
 
 
 @unittest.skipUnless(shutil.which('pdftotext'), 'Poppler is required for PDF integration')
@@ -11,6 +11,9 @@ class PdfReadingOrderTests(unittest.TestCase):
     def test_two_columns_are_read_sequentially_without_losing_lines(self):
         left = [f'Left narrative sentence number {i:02d}.' for i in range(12)]
         right = [f'Right independent statement {i:02d}.' for i in range(12)]
+        if reading_order_options():
+            left[3] = 'Literal URL https://example.org/gestao-de-'
+            left[4] = 'pessoas must keep its line-end hyphen.'
         stream = '\n'.join(
             f'BT /F1 10 Tf 1 0 0 1 {x} {740-i*15} Tm ({line}) Tj ET'
             for x, lines in [(40, left), (340, right)]
