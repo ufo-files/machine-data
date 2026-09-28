@@ -2,6 +2,20 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_measurement_ranges_survive_page_line_wrapping(self):
+        for source, target in [('500 to\n 600 meters', '500 to 600 meters'),
+                               ('1.20 a\n 1.40 metros', '1.20 to 1.40 meters'),
+                               ('1,800 and\n 2,000 meters', '1,800 and 2,000 meters')]:
+            self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, target)))
+            changed = target.replace('600', '900').replace('1.40', '1.50').replace('2,000', '3,000')
+            self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, changed)))
+
+    def test_ocr_feet_units_retain_value_and_unit(self):
+        for source in ['150 pes', '150 pês', '150 pés', '150 pe']:
+            self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, '150 feet')))
+            for changed in ['150 meters', '250 feet']:
+                self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, changed)))
+
     def test_nothing_preserves_portuguese_negative_concord(self):
         for source, target in [('Sem nada a relatar.', 'Nothing to report.'),
                                ('Na 180 não tem nada.', 'At 180 there is nothing.')]:
