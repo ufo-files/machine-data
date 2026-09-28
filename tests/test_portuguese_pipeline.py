@@ -163,6 +163,7 @@ class PortuguesePipelineTests(unittest.TestCase):
             ("1º de junho de 1850", "June 1, 1850", "June 2, 1850"),
             ("22/09/1881", "September 22, 1881", "September 23, 1881"),
             ("14 de abril, 1914", "April 14, 1914", "April 15, 1914"),
+            ("p.\n8, 14 de abril, 1914", "p. 8, April 14, 1914", "p. 8, April 15, 1914"),
             ("January 20. 1996", "January 20, 1996", "January 21, 1996"),
         ]
         for source, correct, changed in pairs:

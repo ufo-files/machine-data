@@ -252,6 +252,10 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
     en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:1\d|20)\d{2})\b", re.I)
     def add_list(match: re.Match[str], portuguese: bool) -> str:
+        # In bibliography entries, "p. 8, 14 de abril" is a page number
+        # followed by one date, not a list of two dates.
+        if portuguese and re.search(r"\b(?:p|pp|pág|pag|page)\.\s*$", match.string[:match.start()], re.I):
+            return match.group(0)
         days, month, year = match.groups() if portuguese else (match.group(2), match.group(1), match.group(3))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
         for day in re.findall(r"\d{1,2}", days):
