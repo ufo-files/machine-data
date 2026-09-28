@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "9e2e77dedf28af30bf08139b3a7629e8a79cdc1e03225c68744fcaf1856ac720",
+  "canonical_text_sha256": "3f8e1a1acff86ba1cbf15ca49244d8ea0550b12a097e74779aea7c0e92ebde89",
   "document_id": "doc-6c0fb631a98a183285343704",
   "extraction": {
     "engine": "ocrmypdf+tesseract-por+eng",
@@ -16,6 +16,681 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 703,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-20T12:22:48Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6e167603c0271654b3bab054f263060f0ac40c73ebc7616c37dee37f7aa8f0d0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30ef5ac16c979c8f2b41cf39c17778a7c83a7e0dec63e0c5f3345d79216e455b",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "728c8325afdd3a06a9a1845b927bb92affc375eb87c7b2e0fd04264d998ced1a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1b7d1f324a72bb9e289642329a691adb789a9c9d5d5c10afe847ff5ea51c29e1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2fa96f47336261ea004d4f0da774b9dde7a5145a3c7d40949e6c1305a71ccdaa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f6e302b09cb37460d3d462be3d5ea2f2183358dedecb11b5239551e4091bc3d9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c2f1a42210ac5680d281771ac0fe5f0f00399958e76b6019ecd5d715f6a0fd5f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "04324ff7f26b6966ef9a244824f99866bf7ef53f0fc559520c0f159591b39794",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7b52af95cb05e2738e4246bc83c8930277f603d2177fac19bf9b6d5f3fa3d68d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b715da14c77e8c625d855e4b1aa184d738b17ea792dffcc365723230c262edf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0a95a6e54af8f77982a5340c15c983992df3cc00e4768325e716b2470777ffe8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "239442ba28af56d9a6ede638cfea9633d49020df766c0975157cce9c312f332e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "abc648f4bb0c25fab249e8d2486efa84109bcef104e9dd7e2ae6a964a28581a1",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "62dc09c34bf2e63c4448ce4b0967f7e210d53228458c3f8a1bdd9d7f628fbb11",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "448b191999013eb87b43f44634eca623d58607ab7eed2ea58db4c35c2172779f",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "2f3f2ef0599326d76e98bca5f8822bda8dde98e9825fc485c3c1c4c6bea560a2",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "cb4d808b3a2b0804044a77ed68a72934fbea24b8d2a3ffe17a6901529d219c78",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "4fd77710db350fc7e9ca65655093b56134585b649e382c1dbe8fbed9300a6a46",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "19e8e5159dc1d76c588ed937af7c1a0f1292636902ab3ba65a4ffa0496194358",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7b7b2254bfac6e77677f3a7f8271875eadca4d423790ced1ac774a97d812960e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fa1498f50c685b43565c1cbe9108e75a20eeb734092ef6710abd1cf64f3330af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "9087fadb59259c8278baa0a019f37e70de953c2e6a2696f982e48f242696a4a6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "61117c28d7e9d8aac2bef3e4032d732b15a4baa6577b14a45f83c7c6c20b3e0d",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "755565b36d921cba882e002ca0cf1a85efdfd6130b6e3dc0af904a10c981f0de",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "3b31383d24cdffc2398981c9b0b8855306eb00cc194c5bda708fdd9cbed21a8c",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "22efd2561c6ce79e69d422596578a6a952d12c0be76cb6c9a3783c121c9b4e42",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0bc62894827be373ec863111c256c3694708d464d16856cd5d321e361ba2f009",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "b0094c9085be5e3b584d9a485a2d1c0dc61af703d754d58a42712d1304536426",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f4e5c6a2a7fed2752136ad7aeb55a14c62eef45bf3282c1cf08f5850b09849f4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e976c04496cb0bfac2294ad82b2cbd319f94f56758c89adb3119aa283bd93e8c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d019e267318e1d13390c3ccbc9a764607ab8a617b7facb7607b6ecda8335b1d3",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "354ad2eb15bff183a9f8a0fa140457e871fde0f219585ce5f59b495fe956627e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "aeaeb9d1c302ad92d459c398d1e485e081a0fdd9d31838aff1cf9fb2fc743be7",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "e7512bf221f18aab724d394ca098d080384c793dce3ba78fc65811c9a39e07ee",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "a68395231b7aa6711262be9cafb0f90cd44d73b86bc02ed96653f954684cfcda",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "7b2ac28b22a42e3782e625182364f23d02ce6e72c4a89b57e9012340864b0dec",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "83d0b3c75981e52fbc88488fe7b6b97216168a823af91a39cc985c958cd87611",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "6a13d84e4e896e3cb92e21eb8694a660ce97b347ab3b9d81df6af85455b5106f",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "991889f88de7f616ac8785023bbbebfb0019748e4f48febb190b90c8686b4b74",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f3e022dcd73221cf16a9a30d440f345f5824927a9dc6fca0203a4bce6c82ae46",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "31b17b98c394d7c4972474db73c4f3963ba3a6222126aec0eee0c3a03f994481",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "28f40ccb3a2d0590732c68fc98e87d18832a029814cd76af86b914202f927adf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d60d5c960470d692819fc82d199822c23e7ca9aa4756e73fe058b16930ad58af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "318c28a275e54a88317bd6effd90e9575b5c43694f9ba5cf2f4883c4b78c4373",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ffee832ba988ceedf9f7650c5f50daba1b8baf09a54396371528f3acb6096bb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "999bc65c74cc8fdf0a4bf57578c2820d824a226a04e73540d13d229d056a2729",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4c29957d8647f4d0cacd1ac99e7476f2146cb914c8a7e18a62a01af98fb9def3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "19643f52d8ba52f062a8e443ce84bf26109282f973fdf094b84df12dc181af03",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "481e47647b7cf99ad1255c6e9d1ba23b541dcf685ceebfc6630471cc38b7f407",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6c2e156d35fdb703b654d740d66a8aa96d6cded0b2f74d10e932003f0327d0b6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "abbed211d8cb125c2c98e6dc1d23abde81b40a07dba37100177418575f291d83",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a8a28e77cd5e3de13b2484975b2f1fd776108ca088f5572f0cb55979df88ed36",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4850526fada3104b9d2e8c78c275435b55adfdbb05b7f58590197efe8d3b90b9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "545590bb226a01e1fc784a1b4dc12023647a9d14a7505580f2882ce54ecd27c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1c141eff2a6a7962dba51518f70b9f0eaca77e3ec51e1704c25f6314ec308dd0",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b2ff91aac5271ac390679e51165a0edbf28f8bd7c5874a345d91f67a17f56120",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9869ff4b7f91306e17b1d02c69076004456976f14e5843c38553beaffbec8ef9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8c77ed29de5916a5b67876771d0d916179dc76e5094e398c47be86bbf649d586",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b1fd82779cb825fd4cb4cf96f4defa61b02e4b3f5ef99b6f3a8670a534aa4a3f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4b6b1bf3818d4e6c9c4358f2232f37dda97af9f651937ebc08864b2739fe29d9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f0ca24ef83ede4ab63d78e7bbb4ced142550793134c9b0b1017816bb831fe731",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "0a5e6a1c2b1bfea39b9cba04003a7747a2f0333810c5e658c1228b9c7eecdd17",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a97228c84fdbeaace8bd43e730a926ad28e4f8a4b5943a97cc46de967e77302e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ba170e5c6261755401763dbc23b373c6542500ee0924a82be848f74a2430908e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "f6250753ec039e48abeab678fbe3e9a040ba5a0fcd9748e9011abada083acab2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "ac3ed5d81b09324e72933efee6365d9277132a857d324788842a83df908fe6b2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "eab6b412beb29c05323cc8c05668e8f1bfb8913c5f53ac83197242ac0fc30570",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "90637d012873a777012dde5bc175f93f7edf2e044b3d7756ee79731bfcced056",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "76f4f5f8471f076449c26d246d103db3aca8230cf17522e41ce6939ceffcf442",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6bfebeac29d5b02a91b97808a19f650cf58d6f44acabce209e625e545063a43d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "062142583113f28b72e05240e9486e9e613b6b29de9946b0d62d5b07e21a6265",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "301cad409d835fdd442e991007e4eec34932a54e52a155d89ea755d4f5ae1400",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "88e754f131a9eb5843b1c154d3db6f1f29e188c0cd7ef3978a2802a19210c859",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "901d3ff50d345678f4a41286896493ad499ec8eb8bffa4abc2b476530d9f862e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b9fc5ad64e1b91e45c1348c5753f3504b36689f53572ed04e1eae280b8653bea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "11532dfce788446e0883c5bef801337ff1b82b5ae536744ad2356c7960ca78b3",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "24f9353d3b230a4599cf14be5d6bc9096b71a9c8cf53c33a4f3a14955708120e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "62bea3a93467b7e4c8faacf62a5a35100b0cbd1a6991d302ca56da7c3fb92d41",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "40460368993f037f0401bdbca7a134b32067ca1b7538e282ba9fc6f7a0df2e58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ab948f06da329cdf275e77733bd6feabab87c0a952afe713d0a1559d4a40c758",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "e80237076d17dd398f5aa633bc2a1eda22c785fe739e7ad18ad2a44d0e002710",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "90c9860db5bcfa52329ec77c71361d52c785fa78c2d6b03cf08482d426f5b462",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c5dad7796ae3821b0943d6a0ff006da6f2b5171a2e481be81b903fddc06054af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "35ca5228503a1173df0fb5b55c05b9504d52d30c26c6d606989464ef756e9d55",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "782912c615a727737d9313394ff05ad86830248d45cd35acf3f324ce90bbe148",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "86d28cc310defa294813518e7e470d20974edb52e81b52507e086297fbf8dffd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8e75f8fc99c5628b483ad10a169b7174e79b9a990a932cc1b39ac1a986b99bcc",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "82d572242e26e06472dd23a3d45cf03f914b2b8228ae894bfb40d24b90e1a3a4",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "1efdebe8d5127ebfc668b827d65241b3edb6cea429223234ba76c36bbd85802c",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "1944b6c0a0d67c3f53f0182b08cca13601663a92d8cdee2e718bac0dc848c69c",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "2f1b7aecaf13382228137365f77f5b4ca34eeabd4082d6b4586ef5180ebbff76",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "e58c05be6d3e18ebed378ae0ef487726e7c5f7f3421097428ace9569148d48d1",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "09c0822cf1890494e7613eb367f585848efa2d4617dcce2dd07ca44470e401f9",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "0ed9ff1028e7748f31e0a02db3757489047d546766816a4a2aeba05c147dfb1f",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "bff21905c002e5a88c731fb4df448ebae9494e254276cf2f8d7a0c33ec79cdf1",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "e4fe75410c4dc686e6fb2542335edd9aaa3498f96f5412c61c94b1f23d56ee27",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8d22c6d6d966dc9e9f30860b835be334e106e660499078674712ad9a01f4d7b1",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8e05a4e3db6f2cd7bc606c2eebf81e4880a01be9caa06999afd21a70a0047366",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "6da1ec9cc2926aefd2bfd04287f9f717597f705662ebe42af5de50c02952e293",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2b3ddfa10f6b2d159c384e220f417b36aec299d72ae43df15e30ebd673f7bc13",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0809c910cbfab07de32390f54aa1406a5a06ba475ffcc536a51d19c7154d41bd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8903c3561a9ccadf9f38632c877ef8bfe802d08f9fd5d2ea627640be8cc392bc",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-28T18:41:56Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -24,17 +699,145 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 703,
   "source_bytes": 64913164,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "porque não sabe o que é, mas aparecem muitas coisas estranhas aqui neste lugar”. No entanto, ele não acredita que sejam discos-voadores. “Isso só existe no cinema”.\nPERSEGUIÇÃO\nMarinésio Pereira da Silva, bombeiro do Posto Esso pertencente a Humberto Pessoa, contou que estava acabando de ver um filme na televisão, “lá por uma hora da manhã, quando chegou a caravan com os quatro velhinhos, apavorados, tremendo e quase sem fala, dizendo que estavam sendo perseguidos por três discos-voadores. Foi aí\n[...]\nvoadores. Quando um dos discos parou em cima do carro, o motor e o rádio imediatamente pararam de funcionar. Neste momento, os ocupantes do veículo entraram em pânico, mas surgiu um ônibus, o disco levantou e o carro voltou a funcionar. Isso foi aqui pertinho do posto, e eles chegaram apavorados, com medo de prosseguir viagem”.\nMilton diz que também viu o disco. “Era uma luz maravilhosa; parecia um arco-íris. Na hora não senti nenhum medo. Aliás, queria até que eles descessem aqui para tomar uma cerveja e poder levar um papo com eles”.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "voadores. Quando um dgs discos parou em\n          porque não sabe;o que é, mas aparecem           cima do carro, o motor e v rádio imediata:\n          muitas cóisas estranhas aqui neste Jugar'!:,    mente “pararam de funcionar. Neste mo-\n         No entanto, ele não acrédita que sejam           mento, os ocupantes do veiculo entraram\n         discos-voadores, \"Isso, só existe no cinema”.    em pânico, mas surgiu um ônibus, q disco\n                                                          levantou e o carrd voltou a funcionar: Isso\n         PERSEGUIÇÃO:           ait   cae          ;      foi aqui pertinho do posto, e eles chegaram\n              Marinésio Pereira da Siva, toinbeize        apavorados, | com medo - de prosseguir,via-\n                                                          gem\":\n         do Posto Esso pertencente a Humberto Pes-\n   * gua, contou que estava acabando de ver um -                 Milton diz que também viu o alas:\n   : filme na televisão, “lá por uma hora da ma-          “Era    uma   luz   maravilhosa;    parecia um\n     nha, quando’ chegou a caravan com os                 arco-íris. Na hora não senti nenhum medo.\n     quatro velhinhos, apavorados, tremendo e             Aliás, queria até que eles descessem aqui\n         quase sem fala, dizendo que estavam sendo        para tomar uma cerveja e poder levar um\n         perseguidos por trés discos-voadores. Foi af     papo com eles”,",
+      "original_text_sha256": "d60d5c960470d692819fc82d199822c23e7ca9aa4756e73fe058b16930ad58af",
+      "page": 23,
+      "segment_id": "seg-786a6f8802ae8035e410ee4b",
+      "source_page_render_sha256": "396bda020200d96d2729ecd4bdfdb2aabd3a5160583a8d68335766c732bfb493",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "because we do not know what it is, but many strange things appear here in this place.” However, he does not believe they are flying saucers. “That only exists in the movies.”\nPURSUIT\nMarinésio Pereira da Silva, an attendant at the Esso station belonging to Humberto Pessoa, said he was just finishing watching a film on television, “around one in the morning, when the Caravan arrived with the four elderly people, terrified, trembling and almost without speech, saying they were being pursued by three flying saucers. That was when\n[...]\nsaucers. When one of the saucers stopped above the car, the engine and radio immediately stopped working. At that moment the vehicle's occupants panicked, but a bus appeared, the saucer rose and the car started working again. It happened very near the station, and they arrived terrified, afraid to continue their journey.”\nMilton says he also saw the saucer. “It was a wonderful light; it looked like a rainbow. At the time I felt no fear at all. In fact, I even wanted them to come down here for a beer so I could have a chat with them.”",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "Usam o sistema Instamatic. É patente da Kodak. O sistema em si é bastante prático. Não há necessidade de ajustar-se o filme no interior da câmara. O filme e o mecanismo de enrolamento estão englobados em um carretel monobloco (cartridge). Feitas as contas, o custo é relativamente alto. Ocupa o mesmo volume de um carretel de 35mm, mas dá muito menos chapas. Exige câmaras especiais. Há toda uma gama de modelos para este sistema. As mais simples (câmaras) da classe das Instamatic nacionais, devem ser evitadas. Pelas mesmas razões apresentadas contra as máquinas caixote. Outras limitações: não permitem duplas exposições e o uso simultâneo de dois rolos de filme.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Usam o sistema Instamatic. É patente da Kodak.O sistema cm oi\n@ bastante pratico. Nao ha necessidade de ajustar-se o filme no in-\nterior da dânara. Ofilme e o mecanismo de enrolamento estão englo~*\nbados em um carretol monobloco(cartridge)zFeitas as contas,o custo |\ne relativamente alto. Ocupa o mesmo volume de um carretel de 35ma,\nmas da muito menos chapas. Exige câmaras especiais, Hã toda uma ga\nma de modelos para este sistema. As mais simples (camaras) da clas\nse das Instamatic nacionais,       devem ser evitadas. Pelas mesmas ra-'\nsoes apresentadas contra as máquinas caixote, Outras limitaçpesinro\npermitem duplas exposições e o uso simultâneo de dois rolos de £il-\nue.                            ,",
+      "original_text_sha256": "4850526fada3104b9d2e8c78c275435b55adfdbb05b7f58590197efe8d3b90b9",
+      "page": 31,
+      "segment_id": "seg-01c628e58c0db009e6a1d9ed",
+      "source_page_render_sha256": "ccdc338c3f294b142f0787d140b8202679c119c64a33bab128013991cb383895",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "They use the Instamatic system, patented by Kodak. The system itself is quite practical. There is no need to position the film inside the camera. The film and winding mechanism are incorporated into a single-piece cartridge. When the costs are added up, it is relatively expensive. It takes up the same space as a 35 mm film spool but provides far fewer exposures. It requires special cameras. There is a whole range of models for this system. The simplest cameras, in the domestic Instamatic class, should be avoided for the same reasons given against box cameras. Other limitations: they do not allow double exposures or the simultaneous use of two rolls of film.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "3.2.6. CONSIDERAÇÕES FINAIS SOBRE DISPOSITIVOS E MECANISMOS DE UMA CÂMARA\nUma boa câmara fotográfica deve ter, no mínimo, um telêmetro e um fotômetro. Mas pode-se considerar razoável uma câmara que tenha fotômetro mas não o telêmetro e vice-versa. A falta do telêmetro obriga-nos a cálculos de distância, a do fotômetro a cálculos de luminosidade. Uma e outra dessas deficiências podem ser sanadas pela aquisição de um fotômetro ou telêmetro avulsos. Isto vale para quem tem câmaras antigas.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "30 2. 6. CONSIDERAÇÕES INAS SOBRE DISPOSITIVOS E\n                   A           M             E        CÂMARA,\n           Uma         a camara poeca deve ter, no minimo, um telene\n tro e um fotomeiro. Mas pode-se considerar razoavel uma ESA\nra que tenha fotometro mas nao o jetêmetro e vice-“Versao,\n falta do tgiemetro obriga-nos a cázdos de distancia, a do foto\n metro a calculos de luminosidade, Uma e outra dessas deftci-\nenclas podem ser sanadas pela aqu! siçao de um fotometro ou te»\nlemetro avulsos. Isto vale para quer tem camaras antigas,",
+      "original_text_sha256": "1c141eff2a6a7962dba51518f70b9f0eaca77e3ec51e1704c25f6314ec308dd0",
+      "page": 34,
+      "segment_id": "seg-3af06eb298c1446f8bfc705e",
+      "source_page_render_sha256": "a0e1e737f10753cc94987f9ad5c944dd64bc6d933eaec99ac4c71fcab6c02cd4",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "3.2.6. FINAL CONSIDERATIONS ON CAMERA DEVICES AND MECHANISMS\nA good camera should have at least a rangefinder and a light meter. A camera with a light meter but no rangefinder, or vice versa, can nevertheless be considered adequate. The absence of a rangefinder requires distance calculations, and the absence of a light meter requires brightness calculations. Either shortcoming can be remedied by obtaining a separate light meter or rangefinder. This applies to owners of older cameras.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "4.2.3. COMBINAÇÕES DE VELOCIDADES E ABERTURAS\nEsta técnica só vale para fotos sem flash.\nDigamos que um certo fabricante recomende, para uma certa condição de luminosidade, os seguintes valores de abertura e velocidade: 1/100 e f:8.\nSuponhamos que precisemos obter uma foto a mais nítida possível. Basta fechar o diafragma e diminuir a velocidade. Para o caso citado vejamos as opções:\nV 100 (ou 125) | 60 | 30 | 15\nf: 8 | 11 | 16 | 22",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "4. 203. COMBINAÇÕES        DE VELOCIDADES E ABERTURAS\n         Este tecnica so vale para fotos sem asho\n                 Digamos que um                          certo fabricante               recomende, para                            ums      !\ncerta           condição de luminosidade,                                  os sequintes               valores             de       abere\ntura e velocidade:                            1/100 e 1:8,\n                 Suponhamos que precisemos obter uma foto a mais nfti-\nda     onssível,                Basta fechar o diafraama                               e dimj[nuira velocidade,\nSasa o caso citado velamo s as opções:\n Vv                          100(ou 125)                      60                30                15\n po                            8                              11                16                22",
+      "original_text_sha256": "b1fd82779cb825fd4cb4cf96f4defa61b02e4b3f5ef99b6f3a8670a534aa4a3f",
+      "page": 37,
+      "segment_id": "seg-93256b2f77cfbee85c492dba",
+      "source_page_render_sha256": "66345e706c7d3f24ab3c9a7bc85f43018a9db1e51a43901ee7637148c83b8d8f",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "4.2.3. COMBINATIONS OF SHUTTER SPEEDS AND APERTURES\nThis technique only applies to photographs without flash.\nSuppose a manufacturer recommends the following shutter-speed and aperture settings for a given lighting condition: 1/100 and f:8.\nSuppose we need the sharpest possible photograph. Simply close the aperture and reduce the shutter speed. For the case mentioned, the options are:\nSpeed 100 (or 125) | 60 | 30 | 15\nf: 8 | 11 | 16 | 22",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "b) Algumas máquinas têm pontos de encaixe diferentes, conforme o flash seja eletrônico ou de lâmpadas de magnésio. A não observância desse detalhe poderá resultar em fotos escuras, devido a diferenças de tempo de sincronização.\nc) Evitar fotos com flash frontal e, portanto, usar luz rebatida em duas situações:\nb.1) fundos brilhantes: pintura a óleo, vidros, espelhos, azulejos e lambris encerados. Aparece um brilho desagradável.\nb.2) pessoas muito próximas, frontalmente, olhando para a câmara. Os olhos ficarão com um brilho sinistro, tipo personagem de história de terror. O efeito é igualmente ruim em pessoa que usa óculos ou maquilagem pesada.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "b)Algumas maquinas tem pontos de encalxe diferentes, confor=\n    me o flash seja eletronico ou de Lâmpadas de magnésio. À não\n    observancla desse detalhe poderá resultar em fotos escuras,\n    devido a diferenças de tempo de sincronização.\n     c)Evitar fotos com fiash frontal e,portanto usar                    luz rebati-\n    E em duas da o dep\n    be 1)fundos brilh                   s:pintura a oleo, vidros, espelhos, azyle-\n               jos e lambris t Wicanidoe, Aparece um brilho desagradavel.\n    b.2.)pessoas multo próximas, frontalmente, olhando para a\n               camaras olhos £l carão com um brilho sinistro, tlpo per-\n               sonagem de história de terror,O efelto e Igualmente ruim\n               em pessoa que usa oculos ou maquilagem pesada,",
+      "original_text_sha256": "a97228c84fdbeaace8bd43e730a926ad28e4f8a4b5943a97cc46de967e77302e",
+      "page": 39,
+      "segment_id": "seg-84eef72f5e17312edf9154c3",
+      "source_page_render_sha256": "53f86f70a657a348b3879f9770ade680e8a462503e4a4df44980640b95a943e2",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "b) Some cameras have different connection points depending on whether the flash is electronic or uses magnesium bulbs. Not observing this detail can result in dark photographs because of differences in synchronization timing.\nc) Avoid frontal flash photographs and therefore use bounced light in two situations:\nb.1) Shiny backgrounds: oil paint, glass, mirrors, tiles and waxed paneling. An unpleasant glare appears.\nb.2) People very close to the camera, facing it and looking into it. Their eyes will have a sinister glow, like a horror-story character. The effect is equally bad on someone wearing glasses or heavy makeup.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "TABELA PARA FOTOS NOTURNAS (filmes de 80 a 100 ASA)\nAbertura padrão: 5,6.\nCena no centro de uma cidade iluminada: 10 segundos\nVista panorâmica de cidade bem iluminada (+/- 1000 m.): 20 a 30 seg\nVista panorâmica de cidade bem iluminada, distante: 1 a 2 minutos.\nIdem, cidade a mais de 3km.: 3 minutos ou mais.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "TABELA PARA FOTOS NOTURNAS( filmes de 80 a 100 ASA)\nAbertura padrão: 56           .\nCena no centro de uma cldede Tluminadas 10 segundos    i\nVista panoramica de cidade bem tluminada(+/» 1000 m, ):20 a 30seg\nVista   panoramica de         cldade bem   iluminada, distante:       1   a   2    minu\n                                                                     LOSo                  ,\ntdem,   cidade   a   mais de 3km.:3 minutos          ou   mais,",
+      "original_text_sha256": "6bfebeac29d5b02a91b97808a19f650cf58d6f44acabce209e625e545063a43d",
+      "page": 44,
+      "segment_id": "seg-17478d5f65d7fadf3fe3863c",
+      "source_page_render_sha256": "c4b0df9b76e890192ca388188ebfd114b7c05a980865c85f4bc6627d14844cdb",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "NIGHT PHOTOGRAPHY TABLE (80 to 100 ASA film)\nStandard aperture: 5.6.\nScene in the center of a lit city: 10 seconds\nPanoramic view of a well-lit city (+/- 1000 m): 20 to 30 seconds\nPanoramic view of a distant well-lit city: 1 to 2 minutes.\nSame, with the city more than 3 km away: 3 minutes or more.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "imagem — negativo — foto\nO resultado final também inclui as cores que não o preto e o branco: cada uma delas é interpretada por uma tonalidade cinza correspondente. Para cada tipo de filme existem tabelas de correspondência entre cores e suas correspondentes tonalidades cinza captadas pelo filme.\nQuanto à revelação, tanto para o negativo, como para as cópias, o processo compreende uma dupla de banhos químicos. O primeiro é o revelador, que faz aparecer a imagem registrada. O segundo é o fixador que fixa a referida imagem. Em outras palavras, o fixador impede a continuação das reações de fotólise dos sais de prata. Sem este banho, ou sendo o mesmo mal feito, a cópia — após alguns anos — começa a clarear, assumindo um tom acastanhado para, finalmente, esmaecer-se.\nOs filmes preto-e-branco compreendem dois tipos principais: ortocromáticos e pancromáticos. Os primeiros cobrem todo o espectro visível, exceto o vermelho. Isto quer dizer: um objeto vermelho é registrado como branco, num filme ortocromático.\nNos filmes pancromáticos essa limitação foi contornada: são capazes de registrar também o vermelho segundo uma tonalidade de cinza.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "ma a 6 2 |                    o sb foto\n            O resultado final também Inclul as cores que não o!\npreto e o branco: cada uma delas e Interpretada por uma tong\nlidade cinza correspondente, Fara cada tipo de filme existem\ntabelas de correspondencia entre cores e suas corresponden-\ntes tonalidades cinza captadas pelo filme.\n       »,   Quanto a revelação,           tanto para o         negativo,           como     para       !\nas    coplas,         o processo compreende uma            dupla          de   banhos           quimi=-\ncos.O       primeiro         e o   revelador, que faz aparecer                 a   Imagem         regis\ntrada, O segundo é o fixador que fiza a referida Imagem. Em o\ntras palavras,o fixador impede a continuação das reaçoes der\nfotolise        dos    sals,de prata,      Gem   este banho,              ou   sendo        o   mes-\nmo    mal    felto,     a copla     -apos alguns anos-          começa         a   clarear,\n                                                                                        as~\nsumindo          um    tom   acastanhado para,       finalmente,           esmaecer-=se.\n            Os    filmes      preto-e-branco compreendem dois                        tipos       prin-\ncipais:.         atocromaticos e pancromaticos,                  Os       primelros cobrem\ntodo o      espectro visível, exceto o vermelho, Isto quer dizer: um\nde  es      vermelho e registrado como branco,     num filme ortocrg\nmaticos\n po         Nos filmes pancromáticgs essa limitação fol contornada:\nsao  capazes de registrar tambem                 o   vermelho             segundo      uma tonae\nlidade de cinzas,",
+      "original_text_sha256": "301cad409d835fdd442e991007e4eec34932a54e52a155d89ea755d4f5ae1400",
+      "page": 46,
+      "segment_id": "seg-6f2c781bcdf523816d8fda63",
+      "source_page_render_sha256": "d531590d3a65a283eb7264a3a2a657eefbdf73b0bd9985401ca12266dda810a7",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "image — negative — photograph\nThe final result also includes colors that are not black or white: each is represented by a corresponding shade of gray. For each type of film there are tables matching colors to the corresponding gray tones recorded by the film.\nFor both negatives and prints, development involves two chemical baths. The first is the developer, which makes the recorded image appear. The second is the fixer, which fixes that image. In other words, the fixer prevents further photolysis reactions of the silver salts. Without this bath, or if it is done poorly, after a few years the print begins to lighten, taking on a brownish tone and finally fading.\nBlack-and-white films comprise two main types: orthochromatic and panchromatic. The former cover the entire visible spectrum except red. This means that a red object is recorded as white on orthochromatic film.\nIn panchromatic films this limitation has been overcome: they can also record red as a shade of gray.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "5.2.3. SISTEMAS ADITIVOS.\nVeja a figura 10. Escolhemos o sistema vermelho-verde-azul, como sistema primário. Caso os três discos fossem o resultado do foco de três lanternas com tais cores, teríamos:",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "8.2.3. SISTEMAS ADITIVOS.\n      Veja a   gura  .  scolhemos o sistema vermelho-ve\nde- azul. como sistema primario, Caso os tres discos fos-\nsem o resultado do foco de tres lanternas com tals cores, terk\nefamost",
+      "original_text_sha256": "901d3ff50d345678f4a41286896493ad499ec8eb8bffa4abc2b476530d9f862e",
+      "page": 49,
+      "segment_id": "seg-a8156213178b7ac05439f75f",
+      "source_page_render_sha256": "255b30d3fb335d495a3f99a2526ae7ec6633fbaa43f719912919cdade1c2b222",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "5.2.3. ADDITIVE SYSTEMS.\nSee Figure 10. We have chosen the red-green-blue system as the primary system. If the three discs were produced by the beams of three flashlights of those colors, we would have:",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "Nota: O filme High Speed Infrared tem várias linhas; conforme o tamanho varia o [riscado: prefixo] o sufixo alfanumérico final.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Nota: O filme High Speed Infrared vem várias lInhas;confor-\nme   o   tamanho         varia        o pretime=* o sufixo     alfenumerico        final",
+      "original_text_sha256": "a4f4002513a48c361d1f36f41092a9e993d8666b47a2bc0626b9d4697470084a",
+      "page": 63,
+      "segment_id": "seg-e6be72109c6510276cc62054",
+      "source_page_render_sha256": "8c9da1b306569f2df9e89ba4ca12f16e92b312620cd2e6a20eee7f32e8788de7",
+      "source_rel": "Upload/CENDOC ENVELOPE 09   1978 CENDOC_ENVELOPE_09_1978.pdf",
+      "translation": "Note: High Speed Infrared film has several product lines; depending on the size, the [crossed out: prefix] final alphanumeric suffix varies.",
+      "uncertain_source_values_explicit": true
+    }
+  ],
   "source_sha256": "d0baa95543755ce467e0c30e8622002fc16df45c0e3e024f40e113179f33a972",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-20T12:22:48Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-28T18:41:56Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "76e22dbda8554d8ac45b82afbdf585e5b06da5d5d964291eefeb3e5a22896ec9"
+  "translation_text_sha256": "13af1b31b6c14b69f75dd2f117c8bdd7afd478f190549a79f7d9d601276c0da2"
 }
