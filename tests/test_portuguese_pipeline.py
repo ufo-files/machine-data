@@ -69,6 +69,16 @@ def fixture_manifest(source: Path) -> dict:
 
 
 class PortuguesePipelineTests(unittest.TestCase):
+    def test_aircraft_model_and_spelled_out_speed(self):
+        source = "F-16 a 2.400 quilômetros por hora; mais de 12 mil quilômetros por hora."
+        target = "F-16 at 2,400 km/h; more than 12,000 km/h."
+        self.assertFalse([f for f in compare_translation(source, target) if f["severity"] == "error"])
+        for changed in (target.replace("2,400", "3,400"), target.replace("12,000", "12"), target.replace("km/h", "km")):
+            self.assertTrue([f for f in compare_translation(source, changed) if f["check"] == "measurements"])
+        self.assertTrue([f for f in compare_translation("F-16: de 16 a 2400 km/h", "F-16: 2400 km/h") if f["check"] == "measurements"])
+        self.assertFalse([f for f in compare_translation("30 kms de Natal", "30 km from Natal") if f["severity"] == "error"])
+        self.assertTrue([f for f in compare_translation("30 kms de Natal", "40 km from Natal") if f["check"] == "measurements"])
+
     def test_radio_flight_number_is_not_distance_range(self):
         source = "QD-460: Ciente. ACC: O 460 a 32 milhas, cruzando 175."
         target = "QD-460: Roger. ACC: 460 at 32 miles, passing through 175."
