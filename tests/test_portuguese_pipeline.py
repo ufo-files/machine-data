@@ -158,6 +158,14 @@ class PortuguesePipelineTests(unittest.TestCase):
         target = "On July 4, 2011, it was at 1600 meters."
         self.assertEqual(compare_translation(source, target), [])
 
+    def test_confirmation_question_is_distinct_from_polite_affirmation(self):
+        source = "Qualquer um entende, pois não?"
+        self.assertFalse([f for f in compare_translation(source, "Anyone understands, right?") if f["severity"] == "error"])
+        self.assertFalse([f for f in compare_translation(source, "Anyone understands, isn't that so?") if f["severity"] == "error"])
+        for target in ("Anyone understands.", "Certainly! Anyone understands."):
+            self.assertTrue([f for f in compare_translation(source, target) if f["check"] == "confirmation-question"])
+        self.assertTrue([f for f in compare_translation("Pois não!", "Right?") if f["check"] == "idiomatic-affirmation"])
+
     def test_historical_and_bibliographic_dates_preserve_actual_days(self):
         pairs = [
             ("1º de junho de 1850", "June 1, 1850", "June 2, 1850"),
