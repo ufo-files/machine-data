@@ -79,6 +79,10 @@ EN_MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
 }
+IT_MONTHS = {
+    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6,
+    "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
+}
 UNIT_ALIASES = {
     "metro": "m", "metros": "m", "meter": "m", "meters": "m", "m": "m",
     "quilômetro": "km", "quilômetros": "km", "kilometer": "km", "kilometers": "km", "km": "km",
@@ -252,6 +256,8 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     abbreviations.update(PT_MONTHS)
     abbreviations["marco"] = 3
     abbreviations.update(EN_MONTHS)
+    # Brazilian correspondence files can contain original Italian letters.
+    abbreviations.update(IT_MONTHS)
     abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()

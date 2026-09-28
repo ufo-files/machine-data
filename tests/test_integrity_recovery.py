@@ -2,6 +2,11 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_italian_correspondence_date_preserves_its_calendar_value(self):
+        source = 'Roma, 3 dicembre 1975'
+        self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, 'Rome, December 3, 1975')))
+        self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, 'Rome, December 4, 1975')))
+
     def test_unmanned_and_nothing_ever_preserve_explicit_negation(self):
         pairs = [('Aeronave não-tripulada.', 'Unmanned aircraft.', 'Manned aircraft.'),
                  ('Nada nunca acontece.', 'Nothing ever happens.', 'Things happen.')]
