@@ -69,6 +69,18 @@ def fixture_manifest(source: Path) -> dict:
 
 
 class PortuguesePipelineTests(unittest.TestCase):
+    def test_spaced_unit_abbreviations_and_nautical_distances(self):
+        for source, target in [("2.000 f t", "2,000 ft"), ("5 k m", "5 km"),
+                               ("83 m i l h a s náuticas", "83 nautical miles")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f["severity"] == "error"])
+        for source, target in [("83 milhas náuticas", "83 miles"), ("5 k m", "6 km")]:
+            self.assertTrue([f for f in compare_translation(source, target) if f["check"] == "measurements"])
+
+    def test_original_note_heading_is_not_added_translator_commentary(self):
+        self.assertFalse([f for f in compare_translation("NOTA: objeto azul", "NOTE: blue object") if f["severity"] == "error"])
+        self.assertTrue([f for f in compare_translation("objeto azul", "NOTE: blue object") if f["check"] == "translator-commentary"])
+        self.assertTrue([f for f in compare_translation("NOTA: objeto azul", "NOTE: blue object\nNOTE: invented explanation") if f["check"] == "translator-commentary"])
+
     def test_embedded_remote_worker_scripts_compile(self):
         for name, source in (
             ("discover", REMOTE_DISCOVER),
