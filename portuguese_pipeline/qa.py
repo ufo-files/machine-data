@@ -13,6 +13,7 @@ REDACTION = re.compile(
     re.IGNORECASE,
 )
 FILENAME = re.compile(r"(?<![\w./-])[\w()&'-]+(?:[ .][\w()&'-]+)*\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
+URL = re.compile(r"\b(?:https?://|www\.)[^\s<>\"'“”‘’]+", re.I)
 IDENTIFIER = re.compile(r"\b(?=[A-Z0-9./-]{4,}\b)(?=[A-Z0-9./-]*\d)[A-Z][A-Z0-9]*(?:[./-][A-Z0-9]+)+\b")
 NUMERIC_IDENTIFIER = re.compile(r"(?<![\d/])\d{1,6}/(?:19|20)?\d{2}(?![\d/])")
 OFFICIAL_CODE = re.compile(
@@ -99,6 +100,17 @@ NAME_PREFIX = re.compile(
 )
 
 
+def _urls(text: str) -> Counter[str]:
+    values = []
+    for match in URL.finditer(text):
+        value = match.group(0).rstrip(".,;")
+        for closing, opening in ((")", "("), ("]", "[")):
+            while value.endswith(closing) and value.count(closing) > value.count(opening):
+                value = value[:-1]
+        values.append(value)
+    return Counter(values)
+
+
 def protected_tokens(text: str, official_identifiers: list[str] | None = None) -> list[str]:
     tokens: set[str] = set()
     for pattern in (
@@ -106,6 +118,7 @@ def protected_tokens(text: str, official_identifiers: list[str] | None = None) -
     ):
         tokens.update(match.group(0) for match in pattern.finditer(text))
     tokens.update(match.group(1) for match in CALLSIGN.finditer(text))
+    tokens.update(_urls(text))
     for value in official_identifiers or []:
         if value and value in text:
             tokens.add(value)
@@ -324,6 +337,7 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         findings.append({"check": "unresolved-placeholder", "severity": "error", "status": "unexpected-derived-marker"})
     date_source, date_target = _remove_exact_numeric_dates(_date_spacing(source), _date_spacing(target))
     for name, source_values, target_values, severity in (
+        ("urls", _urls(source), _urls(target), "error"),
         ("dates", _dates(date_source, language="pt"), _dates(date_target, language="en"), "error"),
         ("measurements", _measurements(source), _measurements(target), "error"),
         ("coordinates", _coordinates(source), _coordinates(target), "error"),

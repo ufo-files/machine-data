@@ -2,6 +2,23 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_urls_are_preserved_as_literals_and_changes_are_rejected(self):
+        url = 'https://example.gov.br/gestao-de-pessoas/COMDABRA.pdf?id=12&lang=pt#secao'
+        source = f'Consulte ({url}).'
+        masked, replacements = mask_protected(source)
+        self.assertEqual(list(replacements.values()), [url])
+        self.assertEqual(restore_protected(masked, replacements), (source, []))
+        self.assertFalse(any(f['check'] == 'urls' for f in compare_translation(source, f'See ({url}).')))
+        for target in [url.replace('pessoas', 'people'), url.replace('id=12', 'id=13'), 'See the website.']:
+            self.assertTrue(any(f['check'] == 'urls' for f in compare_translation(source, target)))
+
+    def test_urls_keep_balanced_parentheses_and_repeated_occurrences(self):
+        url = 'https://example.org/Arquivo_(Brasil)'
+        masked, replacements = mask_protected(f'{url}; ({url}).')
+        self.assertEqual(list(replacements.values()), [url])
+        self.assertEqual(restore_protected(masked, replacements)[0], f'{url}; ({url}).')
+        self.assertTrue(any(f['check'] == 'urls' for f in compare_translation(f'{url} {url}', url)))
+
     def test_numbered_placeholder_format_damage_is_recoverable(self):
         for damaged in ['UFO_PROTECTED_001__', '__UFO_PROTECTED_01__', 'UFO-PROTECTED-001', '__UFO PROTECTED 001__']:
             with self.subTest(damaged=damaged):

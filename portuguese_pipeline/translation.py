@@ -14,7 +14,7 @@ from typing import Protocol
 from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v5"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v6"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
 SYSTEM_PROMPT = """Translate the supplied Brazilian Portuguese text into English. Output only the translation.
