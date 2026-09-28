@@ -69,6 +69,14 @@ def fixture_manifest(source: Path) -> dict:
 
 
 class PortuguesePipelineTests(unittest.TestCase):
+    def test_radio_flight_number_is_not_distance_range(self):
+        source = "QD-460: Ciente. ACC: O 460 a 32 milhas, cruzando 175."
+        target = "QD-460: Roger. ACC: 460 at 32 miles, passing through 175."
+        self.assertFalse([f for f in compare_translation(source, target) if f["severity"] == "error"])
+        self.assertTrue([f for f in compare_translation(source, target.replace("32 miles", "42 miles")) if f["check"] == "measurements"])
+        self.assertTrue([f for f in compare_translation("QD-460: de 460 a 500 milhas", "QD-460: 500 miles") if f["check"] == "measurements"])
+        self.assertTrue([f for f in compare_translation("460 a 500 milhas", "500 miles") if f["check"] == "measurements"])
+
     def test_radio_bearing_is_not_distance_range(self):
         source = "Tá na 240 a 40 m i l h a s"
         self.assertFalse([f for f in compare_translation(source, "On bearing 240 at 40 miles") if f["severity"] == "error"])
