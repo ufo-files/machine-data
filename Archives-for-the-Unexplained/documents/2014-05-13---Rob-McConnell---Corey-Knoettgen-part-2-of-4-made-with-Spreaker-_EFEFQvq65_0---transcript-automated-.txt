@@ -1,0 +1,1190 @@
+{"created_utc": "2026-09-28T20:58:10Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 62469, "source_ctime_ns": 1790621994888886917, "source_file": "Archives-for-the-Unexplained/documents/2014-05-13---Rob-McConnell---Corey-Knoettgen-part-2-of-4-made-with-Spreaker-_EFEFQvq65_0---transcript-automated-.pdf", "source_mtime_ns": 1790621994878865290, "source_rel": "Archives-for-the-Unexplained/documents/2014-05-13---Rob-McConnell---Corey-Knoettgen-part-2-of-4-made-with-Spreaker-_EFEFQvq65_0---transcript-automated-.pdf", "source_sha256": "7eac027d43c93fd3d958033b02df183385e43ff497c30d50211dfc46d3a0c1d7"}
+
+1
+00:00:04,220 --> 00:00:02,060
+this website they were safe and their
+
+2
+00:00:06,829 --> 00:00:04,230
+passwords were saved their information
+
+3
+00:00:10,669 --> 00:00:06,839
+was safe their bank accounts were saved
+
+4
+00:00:12,259 --> 00:00:10,679
+and we're starting to find out that that
+
+5
+00:00:17,140 --> 00:00:12,269
+was never the case there's been a
+
+6
+00:00:20,510 --> 00:00:17,150
+weakness in that technology all along so
+
+7
+00:00:24,679 --> 00:00:20,520
+where was this where was this heartbleed
+
+8
+00:00:27,349 --> 00:00:24,689
+created do we know who who or where it
+
+9
+00:00:29,890 --> 00:00:27,359
+came from or what the ultimate goal was
+
+10
+00:00:33,799 --> 00:00:29,900
+and and how it affects a website
+
+11
+00:00:36,380 --> 00:00:33,809
+basically it was a flaw that was built
+
+12
+00:00:40,549 --> 00:00:36,390
+into the technology right from the start
+
+13
+00:00:46,760 --> 00:00:40,559
+and where it gets its name if anybody
+
+14
+00:00:48,619 --> 00:00:46,770
+who uses open SSL verifies somebody
+
+15
+00:00:50,209 --> 00:00:48,629
+who's trying to access those sites
+
+16
+00:00:53,119 --> 00:00:50,219
+through something that's called a
+
+17
+00:00:56,119 --> 00:00:53,129
+heartbeat and the way the heartbeat
+
+18
+00:01:03,110 --> 00:00:56,129
+works is if you're sitting at home and
+
+19
+00:01:06,530 --> 00:01:03,120
+you go to https www com you talk to this
+
+20
+00:01:11,330 --> 00:01:06,540
+server that's using openssl you say hey
+
+21
+00:01:13,810 --> 00:01:11,340
+I'm mr. X and my password is six digits
+
+22
+00:01:17,120 --> 00:01:13,820
+long and that server would say oh yes
+
+23
+00:01:19,700 --> 00:01:17,130
+you will you told me that your password
+
+24
+00:01:21,710 --> 00:01:19,710
+is six digits long I believe that you're
+
+25
+00:01:25,130 --> 00:01:21,720
+mr. X I'm going to let you right on
+26
+00:01:28,819 --> 00:01:25,140
+through and the weakness is they never
+
+27
+00:01:31,789 --> 00:01:28,829
+really checked us to see if the home
+
+28
+00:01:35,030 --> 00:01:31,799
+user who is trying to access the site
+
+29
+00:01:38,359 --> 00:01:35,040
+really was who they said they were and
+
+30
+00:01:40,190 --> 00:01:38,369
+that was called the heartbeat and they
+
+31
+00:01:43,300 --> 00:01:40,200
+took a shortcut and this is where the
+
+32
+00:01:46,010 --> 00:01:43,310
+vulnerability comes in the shortcut is
+
+33
+00:01:48,920 --> 00:01:46,020
+they would say okay you you told me that
+
+34
+00:01:50,990 --> 00:01:48,930
+your password is six digits long your
+
+35
+00:01:53,120 --> 00:01:51,000
+password is six digits long so I'm going
+
+36
+00:01:55,819 --> 00:01:53,130
+to let you through but the problem with
+
+37
+00:01:58,639 --> 00:01:55,829
+that is your neighbor can say hey I'm
+
+38
+00:02:01,789 --> 00:01:58,649
+gonna pretend I mr. X and i'm going to
+
+39
+00:02:03,679 --> 00:02:01,799
+say my password six six digits long are
+
+40
+00:02:05,480 --> 00:02:03,689
+you going to let me in and that sort of
+
+41
+00:02:10,219 --> 00:02:05,490
+would say yes I am going to let you
+
+42
+00:02:12,020 --> 00:02:10,229
+right on through so people where the
+
+43
+00:02:13,840 --> 00:02:12,030
+vulnerability comes in is your neighbor
+
+44
+00:02:16,360 --> 00:02:13,850
+could pretend to be you or
+
+45
+00:02:18,310 --> 00:02:16,370
+any hacker or somebody who wanted to
+
+46
+00:02:21,310 --> 00:02:18,320
+steal your bank information they could
+
+47
+00:02:23,410 --> 00:02:21,320
+pretend to be you and your own server
+
+48
+00:02:28,810 --> 00:02:23,420
+that's supposed to be safe we believe
+
+49
+00:02:31,470 --> 00:02:28,820
+you the Jews they patched it but not
+
+50
+00:02:34,240 --> 00:02:31,480
+every server out there is patched itself
+51
+00:02:37,870 --> 00:02:34,250
+how can how can a user protect
+
+52
+00:02:41,800 --> 00:02:37,880
+themselves from these kind of openings
+
+53
+00:02:44,980 --> 00:02:41,810
+or flaws in the set up the you have to
+
+54
+00:02:47,410 --> 00:02:44,990
+put a lot of trust in your server the
+
+55
+00:02:51,070 --> 00:02:47,420
+only person that can patch this
+
+56
+00:02:53,830 --> 00:02:51,080
+vulnerability is the whoever is hosting
+
+57
+00:02:57,070 --> 00:02:53,840
+that server you the user at home
+
+58
+00:03:00,040 --> 00:02:57,080
+actually can't protect yourself other
+
+59
+00:03:03,670 --> 00:03:00,050
+than avoiding sites that haven't been
+
+60
+00:03:07,570 --> 00:03:03,680
+patched yet so we're all still pretty
+
+61
+00:03:10,000 --> 00:03:07,580
+vulnerable we have to trust that these
+
+62
+00:03:12,010 --> 00:03:10,010
+websites and the places that host these
+
+63
+00:03:13,960 --> 00:03:12,020
+websites are actually looking out for
+
+64
+00:03:16,030 --> 00:03:13,970
+our best interest and they're going to
+
+65
+00:03:19,840 --> 00:03:16,040
+put the patch in so we're not vulnerable
+
+66
+00:03:24,910 --> 00:03:19,850
+to this anymore but I'll tell you a
+
+67
+00:03:27,490 --> 00:03:24,920
+really interesting side story here as
+
+68
+00:03:30,280 --> 00:03:27,500
+far as a hacker being able to exploit
+
+69
+00:03:34,120 --> 00:03:30,290
+this weakness and the technology that
+
+70
+00:03:36,460 --> 00:03:34,130
+just came to light recently but what we
+
+71
+00:03:38,950 --> 00:03:36,470
+discovered is that the NSA has been
+
+72
+00:03:41,890 --> 00:03:38,960
+using this weakness all along and
+
+73
+00:03:43,720 --> 00:03:41,900
+they've the NSA themselves were able to
+
+74
+00:03:45,970 --> 00:03:43,730
+pretend to be other people that they
+
+75
+00:03:48,310 --> 00:03:45,980
+weren't they could pretend to be me and
+76
+00:03:50,350 --> 00:03:48,320
+you and they've been explaining this
+
+77
+00:03:56,410 --> 00:03:50,360
+weakness for years and they didn't tell
+
+78
+00:04:01,690 --> 00:03:56,420
+anybody nobody knew son of a gun so is
+
+79
+00:04:05,290 --> 00:04:01,700
+our information online safe Corey that's
+
+80
+00:04:08,050 --> 00:04:05,300
+a really good question Rob I think the
+
+81
+00:04:12,460 --> 00:04:08,060
+bigger companies with the most resources
+
+82
+00:04:15,310 --> 00:04:12,470
+like Microsoft like Bank of America they
+
+83
+00:04:18,849 --> 00:04:15,320
+have put the patch in place so we're
+
+84
+00:04:21,010 --> 00:04:18,859
+safe now as as long as we are using
+
+85
+00:04:23,980 --> 00:04:21,020
+sites that have applied the patch and
+
+86
+00:04:26,440 --> 00:04:23,990
+there's actually a logo that we're
+
+87
+00:04:27,610 --> 00:04:26,450
+starting to become familiar with just
+
+88
+00:04:30,129 --> 00:04:27,620
+over the last couple of weeks
+
+89
+00:04:31,870 --> 00:04:30,139
+you can go to a site now and one of the
+
+90
+00:04:35,230 --> 00:04:31,880
+first things they'll tell you for right
+
+91
+00:04:37,750 --> 00:04:35,240
+now is yes we're safe from heartbleed or
+
+92
+00:04:41,320 --> 00:04:37,760
+I'll tell you how how else we can be
+
+93
+00:04:44,020 --> 00:04:41,330
+safe my personal bank doesn't use that
+
+94
+00:04:46,450 --> 00:04:44,030
+openssl top technology it was part of
+
+95
+00:04:50,290 --> 00:04:46,460
+that one-third of servers that never
+
+96
+00:04:53,650 --> 00:04:50,300
+even used it so as long as that host or
+
+97
+00:04:56,980 --> 00:04:53,660
+server never used openssl then you're
+
+98
+00:04:58,629 --> 00:04:56,990
+safe but you really have to put a lot of
+
+99
+00:05:00,550 --> 00:04:58,639
+trusting these companies to tell you
+
+100
+00:05:03,159 --> 00:05:00,560
+when you're safe and when you're not
+101
+00:05:06,279 --> 00:05:03,169
+there's there's not so much you can do
+
+102
+00:05:08,200 --> 00:05:06,289
+as a user to protect yourself you know
+
+103
+00:05:11,290 --> 00:05:08,210
+when you hear the stories about the US
+
+104
+00:05:13,180 --> 00:05:11,300
+Navy's website and and the US Marines
+
+105
+00:05:15,070 --> 00:05:13,190
+getting hacked and they're looking at
+
+106
+00:05:16,870 --> 00:05:15,080
+hackers and Russia they're looking at
+
+107
+00:05:20,650 --> 00:05:16,880
+hackers in Iran they're looking at
+
+108
+00:05:22,090 --> 00:05:20,660
+hackers in in China if the United States
+
+109
+00:05:24,550 --> 00:05:22,100
+government can't protect their own
+
+110
+00:05:29,020 --> 00:05:24,560
+servers and their own websites how can
+
+111
+00:05:33,010 --> 00:05:29,030
+John Q public the biggest tool that we
+
+112
+00:05:35,469 --> 00:05:33,020
+have our disposal is education and it's
+
+113
+00:05:37,690 --> 00:05:35,479
+it's really hard because we're all busy
+
+114
+00:05:39,550 --> 00:05:37,700
+throughout the day you know we have to
+
+115
+00:05:43,210 --> 00:05:39,560
+go to work we need to spend time with
+
+116
+00:05:45,790 --> 00:05:43,220
+our families and to be safe you also
+
+117
+00:05:49,240 --> 00:05:45,800
+have to set aside time just to educate
+
+118
+00:05:51,490 --> 00:05:49,250
+yourself about the issues and I just
+
+119
+00:05:54,940 --> 00:05:51,500
+know that a lot of people don't even
+
+120
+00:05:57,730 --> 00:05:54,950
+have time to to keep up with it but if
+
+121
+00:06:02,080 --> 00:05:57,740
+you make that conscious effort to
+
+122
+00:06:05,800 --> 00:06:02,090
+educate yourself you can be safer than
+
+123
+00:06:08,980 --> 00:06:05,810
+you otherwise would be there are
+
+124
+00:06:11,200 --> 00:06:08,990
+companies out there like mcafee and the
+
+125
+00:06:14,620 --> 00:06:11,210
+list goes on and on that offer software
+126
+00:06:16,870 --> 00:06:14,630
+that supposedly protects you do these
+
+127
+00:06:20,400 --> 00:06:16,880
+software companies really have a product
+
+128
+00:06:23,439 --> 00:06:20,410
+that can that can protect you or is this
+
+129
+00:06:26,260 --> 00:06:23,449
+based on the technology when you buy it
+
+130
+00:06:29,040 --> 00:06:26,270
+and by the time six seven months rolls
+
+131
+00:06:31,779 --> 00:06:29,050
+down I might even be sooner than that
+
+132
+00:06:35,680 --> 00:06:31,789
+the ability to beat their technology is
+
+133
+00:06:39,190 --> 00:06:35,690
+already accomplished well i'll i will
+
+134
+00:06:41,060 --> 00:06:39,200
+start with this some protection is
+
+135
+00:06:46,340 --> 00:06:41,070
+better than no /
+
+136
+00:06:49,600 --> 00:06:46,350
+action mcafee is not perfect norton or
+
+137
+00:06:52,130 --> 00:06:49,610
+semantic they are not perfect but
+
+138
+00:06:54,680 --> 00:06:52,140
+definitely using those services is
+
+139
+00:06:57,370 --> 00:06:54,690
+better than not using any service at all
+
+140
+00:07:00,740 --> 00:06:57,380
+so in that sense they're good products
+
+141
+00:07:04,360 --> 00:07:00,750
+but I'll tell you that hackers they
+
+142
+00:07:09,470 --> 00:07:04,370
+actually do spend time trying to break
+
+143
+00:07:12,890 --> 00:07:09,480
+those antivirus tools and sometimes new
+
+144
+00:07:16,550 --> 00:07:12,900
+threats come along that the existing
+
+145
+00:07:19,400 --> 00:07:16,560
+antivirus tools aren't prepared for so
+
+146
+00:07:22,910 --> 00:07:19,410
+when that happens your best backup move
+
+147
+00:07:24,470 --> 00:07:22,920
+is to use more than one tool and I have
+
+148
+00:07:27,280 --> 00:07:24,480
+to be careful when I say that because
+
+149
+00:07:29,480 --> 00:07:27,290
+you don't want to use more than one
+
+150
+00:07:32,000 --> 00:07:29,490
+antivirus at the same time because they
+151
+00:07:34,820 --> 00:07:32,010
+can conflict with each other but there
+
+152
+00:07:38,540 --> 00:07:34,830
+are multiple security products that work
+
+153
+00:07:40,400 --> 00:07:38,550
+in tandem with each other and you can
+
+154
+00:07:42,710 --> 00:07:40,410
+use several security products
+
+155
+00:07:44,390 --> 00:07:42,720
+simultaneously all right Corey stand by
+
+156
+00:07:47,030 --> 00:07:44,400
+a good friend great talking to your
+
+157
+00:07:49,760 --> 00:07:47,040
+quarry explanation Corey k is our guest
+
+158
+00:07:51,320 --> 00:07:49,770
+wo wo wait a minute is giving a website
+
+159
+00:07:54,770 --> 00:07:51,330
+there why don't we decide send them to
+
+160
+00:07:58,520 --> 00:07:54,780
+send your emails to Corey k at arielle
+
+161
+00:08:00,230 --> 00:07:58,530
+hyphen ma are calm Corey and I will be
+
+162
+00:08:01,910 --> 00:08:00,240
+back on the other side of the news as we
+
+163
+00:08:03,920 --> 00:08:01,920
+continue here in the exone from our
+
+164
+00:08:06,470 --> 00:08:03,930
+broadcast Center in Hamilton Ontario
+
+165
+00:08:11,830 --> 00:08:06,480
+Canada my name is rob mcconnell don't go
+
+166
+00:08:25,610 --> 00:08:17,830
+you
+
+167
+00:08:27,589 --> 00:08:25,620
+champion a psychic medium for more than
+
+168
+00:08:30,080 --> 00:08:27,599
+20 years with thousands of readings
+
+169
+00:08:32,690 --> 00:08:30,090
+under his belt David champion will make
+
+170
+00:08:35,240 --> 00:08:32,700
+you feel comfortable he has proven to be
+
+171
+00:08:38,029 --> 00:08:35,250
+honest and accurate he's a straight
+
+172
+00:08:40,550 --> 00:08:38,039
+shooter there's no guesswork what he
+
+173
+00:08:42,860 --> 00:08:40,560
+sees is what you get while he is a
+
+174
+00:08:46,010 --> 00:08:42,870
+medium most of the calls focus on
+
+175
+00:08:49,820 --> 00:08:46,020
+relationships not only love but work
+176
+00:08:51,590 --> 00:08:49,830
+school neighbors and more need help with
+
+177
+00:08:53,420 --> 00:08:51,600
+finding a job and preparing for the
+
+178
+00:08:56,180 --> 00:08:53,430
+interview are you dealing with people
+
+179
+00:08:58,940 --> 00:08:56,190
+who are obstacles in your path for more
+
+180
+00:09:00,860 --> 00:08:58,950
+information go to David champion com a
+
+181
+00:09:04,340 --> 00:09:00,870
+dollar fifty per minute paid by credit
+
+182
+00:09:06,889 --> 00:09:04,350
+card with a minimum of 30 minutes for
+
+183
+00:09:25,600 --> 00:09:06,899
+your reading with David champion call 1
+
+184
+00:09:29,840 --> 00:09:28,220
+now you can dial in to listen to the X
+
+185
+00:09:33,139 --> 00:09:29,850
+own radio show from anywhere in the
+
+186
+00:09:39,769 --> 00:09:33,149
+world with rob mcconnell 24 7 365 by
+
+187
+00:09:42,590 --> 00:09:39,779
+dialing 213 40 100 80 that's 21 3 40 100
+
+188
+00:09:44,840 --> 00:09:42,600
+80 if you have a mobile phone or
+
+189
+00:09:46,490 --> 00:09:44,850
+landline the x own radio show with rob
+
+190
+00:09:54,380 --> 00:09:46,500
+mcconnell is now at your beck and call
+
+191
+00:10:09,650 --> 00:09:54,390
+at 213 40 100 80 that's 21 34 0 1 0 0 8
+
+192
+00:10:14,999 --> 00:10:12,389
+hi this is Elizabeth Joyce with
+
+193
+00:10:17,249 --> 00:10:15,009
+stargazing for the exone for the week of
+
+194
+00:10:19,199 --> 00:10:17,259
+April twenty-eighth the Sun will look
+
+195
+00:10:20,879 --> 00:10:19,209
+like a ring of fire above some remote
+
+196
+00:10:23,939 --> 00:10:20,889
+parts of the southern hemisphere on
+
+197
+00:10:25,290 --> 00:10:23,949
+Tuesday during a solar eclipse but most
+
+198
+00:10:27,809 --> 00:10:25,300
+people around the world won't get a
+
+199
+00:10:30,030 --> 00:10:27,819
+chance to see it whereas lunar eclipses
+
+200
+00:10:32,069 --> 00:10:30,040
+occur when there's a full moon the solar
+201
+00:10:34,829 --> 00:10:32,079
+eclipse only happens during a new moon
+
+202
+00:10:36,749 --> 00:10:34,839
+half the world saw the blood moon lunar
+
+203
+00:10:39,179 --> 00:10:36,759
+eclipse during a full moon of April
+
+204
+00:10:41,460 --> 00:10:39,189
+fifteenth Tuesday's eclipse will occur
+
+205
+00:10:43,590 --> 00:10:41,470
+when the moon is closer to its farthest
+
+206
+00:10:45,900 --> 00:10:43,600
+distance from the earth making it too
+
+207
+00:10:47,850 --> 00:10:45,910
+small to cover the Sun completely the
+
+208
+00:10:50,429 --> 00:10:47,860
+resulting effect looks like a ring of
+
+209
+00:10:52,769 --> 00:10:50,439
+fire hold an annulus and not appears as
+
+210
+00:10:55,049 --> 00:10:52,779
+a silhouette around the moon remember
+
+211
+00:10:57,600 --> 00:10:55,059
+when there's a new move there's no moon
+
+212
+00:10:59,879 --> 00:10:57,610
+at all the worldly application of a
+
+213
+00:11:02,220 --> 00:10:59,889
+Taurus solar eclipse is to help you get
+
+214
+00:11:04,619 --> 00:11:02,230
+in touch with your core values it blocks
+
+215
+00:11:06,569 --> 00:11:04,629
+out personal ego desires to go right to
+
+216
+00:11:08,790 --> 00:11:06,579
+what your inner spirit wants a manifest
+
+217
+00:11:11,189 --> 00:11:08,800
+the opportunity is to bring higher
+
+218
+00:11:13,860 --> 00:11:11,199
+values and greater Beauty into your life
+
+219
+00:11:15,869 --> 00:11:13,870
+now the new moon and solar eclipse on
+
+220
+00:11:18,780 --> 00:11:15,879
+Tuesday may send the world into a mile
+
+221
+00:11:21,090 --> 00:11:18,790
+dizzy watch North Korea and the Ukraine
+
+222
+00:11:23,340 --> 00:11:21,100
+four major upsets with government but
+
+223
+00:11:25,619 --> 00:11:23,350
+you will get another opportunity to
+
+224
+00:11:28,019 --> 00:11:25,629
+consolidate whatever advantages you have
+
+225
+00:11:29,519 --> 00:11:28,029
+gained over the past few months a taurus
+226
+00:11:31,410 --> 00:11:29,529
+new moon is excellent for pretty
+
+227
+00:11:34,110 --> 00:11:31,420
+practical effort into your needs and
+
+228
+00:11:35,819 --> 00:11:34,120
+desires health and wellness options get
+
+229
+00:11:37,799 --> 00:11:35,829
+a boost early in the week perhaps
+
+230
+00:11:40,530 --> 00:11:37,809
+prompting you to consider a new diet or
+
+231
+00:11:42,809 --> 00:11:40,540
+exercise routine there's also positive
+
+232
+00:11:45,090 --> 00:11:42,819
+news on the work front as changes can
+
+233
+00:11:46,860 --> 00:11:45,100
+mean a boost in earnings or promotion if
+
+234
+00:11:49,290 --> 00:11:46,870
+you've been applying for a new job you
+
+235
+00:11:51,809 --> 00:11:49,300
+may get some good news later these
+
+236
+00:11:54,600 --> 00:11:51,819
+slides into Aries which brings romance
+
+237
+00:11:57,600 --> 00:11:54,610
+and pleasure look your love life is
+
+238
+00:11:59,730 --> 00:11:57,610
+looking much livelier enjoy a few social
+
+239
+00:12:01,470 --> 00:11:59,740
+outings it might help take your mind off
+
+240
+00:12:03,120 --> 00:12:01,480
+the more stressful matters
+
+241
+00:12:05,420 --> 00:12:03,130
+perhaps you want to make some changes in
+
+242
+00:12:07,710 --> 00:12:05,430
+your home new furniture paint whatever
+
+243
+00:12:09,990 --> 00:12:07,720
+whatever comes your way you'll probably
+
+244
+00:12:12,360 --> 00:12:10,000
+put a lot of energy into it so focused
+
+245
+00:12:14,250 --> 00:12:12,370
+and accomplish what you want because
+
+246
+00:12:17,939 --> 00:12:14,260
+there's lots of planets and unmovable
+
+247
+00:12:20,490 --> 00:12:17,949
+signs taurus and scorpio as May opens on
+
+248
+00:12:23,100 --> 00:12:20,500
+thursday be careful of stubborn my way
+
+249
+00:12:24,900 --> 00:12:23,110
+or the highway thinking warrior Mars is
+
+250
+00:12:27,120 --> 00:12:24,910
+still recognized until May nineteenth
+251
+00:12:29,069 --> 00:12:27,130
+consider what is dead in your life it
+
+252
+00:12:31,530 --> 00:12:29,079
+needs to be released know that your
+
+253
+00:12:33,569 --> 00:12:31,540
+highest path is shown if you go into
+
+254
+00:12:35,939 --> 00:12:33,579
+your inner self to seek directions
+
+255
+00:12:38,129 --> 00:12:35,949
+continue with hard work early in the
+
+256
+00:12:40,710 --> 00:12:38,139
+week and then make time for a variety of
+
+257
+00:12:43,410 --> 00:12:40,720
+fun as the month of April ends under a
+
+258
+00:12:45,780 --> 00:12:43,420
+Gemini move Gemini wants to keep things
+
+259
+00:12:47,910 --> 00:12:45,790
+on the move talk to a lot of people and
+
+260
+00:12:51,030 --> 00:12:47,920
+does not get bogged down in any one
+
+261
+00:12:53,699 --> 00:12:51,040
+thing enjoy mayday and a Kentucky Derby
+
+262
+00:12:56,480 --> 00:12:53,709
+on Sunday time to plan for some summer
+
+263
+00:13:01,070 --> 00:12:59,090
+for more information on Elizabeth Joyce
+
+264
+00:13:02,650 --> 00:13:01,080
+or if you'd like to get ahold of
+
+265
+00:13:08,930 --> 00:13:02,660
+Elizabeth for a private one-on-one
+
+266
+00:13:12,400 --> 00:13:08,940
+consultation her website is wwe.com sww
+
+267
+00:13:16,449 --> 00:13:12,410
+any visions calm and Elizabeth does
+
+268
+00:13:20,870 --> 00:13:16,459
+consultations around the world via Skype
+
+269
+00:13:22,519 --> 00:13:20,880
+there you go Cory what's your impression
+
+270
+00:13:24,590 --> 00:13:22,529
+of psychics you know you and I have
+
+271
+00:13:27,230 --> 00:13:24,600
+worked the exone for I don't know how
+
+272
+00:13:29,780 --> 00:13:27,240
+many years and you would always line the
+
+273
+00:13:32,660 --> 00:13:29,790
+guests up for me and all I do is you
+
+274
+00:13:36,110 --> 00:13:32,670
+know I do the interview and did you ever
+
+275
+00:13:38,660 --> 00:13:36,120
+did you ever talk to them and did any of
+276
+00:13:41,930 --> 00:13:38,670
+them give you one-on-one readings and
+
+277
+00:13:45,320 --> 00:13:41,940
+did any of the readings ever come to
+
+278
+00:13:48,889 --> 00:13:45,330
+fruition well here's what I'll safe I
+
+279
+00:13:55,310 --> 00:13:48,899
+think that they've all been nice kind
+
+280
+00:13:57,800 --> 00:13:55,320
+hearted I definitely enjoy them but at
+
+281
+00:14:00,680 --> 00:13:57,810
+the same time as far as specific
+
+282
+00:14:02,990 --> 00:14:00,690
+predictions I don't remember a time
+
+283
+00:14:07,069 --> 00:14:03,000
+where they ever told me anything that
+
+284
+00:14:08,510 --> 00:14:07,079
+wasn't that was dead-on or they were
+
+285
+00:14:13,819 --> 00:14:08,520
+telling things that could apply to
+
+286
+00:14:15,980 --> 00:14:13,829
+anyone really I'm not a total skeptic at
+
+287
+00:14:17,900 --> 00:14:15,990
+all in I hate to make blanket statements
+
+288
+00:14:21,230 --> 00:14:17,910
+like that but I'll just give you one
+
+289
+00:14:23,990 --> 00:14:21,240
+example all right sitting in a psychic
+
+290
+00:14:27,800 --> 00:14:24,000
+cafe one time I thought it would just
+
+291
+00:14:31,730 --> 00:14:27,810
+give it a whirl and she told me that I
+
+292
+00:14:34,220 --> 00:14:31,740
+need to take up music again not outside
+
+293
+00:14:36,620 --> 00:14:34,230
+of fifth and sixth grade band when I
+
+294
+00:14:40,790 --> 00:14:36,630
+played a clarinet which was pretty
+
+295
+00:14:43,250 --> 00:14:40,800
+short-lived I have never been a musical
+
+296
+00:14:47,930 --> 00:14:43,260
+person my whole life so sometimes they
+
+297
+00:14:50,630 --> 00:14:47,940
+can be way off yeah I think you and I
+
+298
+00:14:52,400 --> 00:14:50,640
+both know that for a fact you know if
+
+299
+00:14:55,130 --> 00:14:52,410
+they are so gifted how come they never
+
+300
+00:14:57,829 --> 00:14:55,140
+get the lottery numbers they don't find
