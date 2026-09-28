@@ -44,13 +44,13 @@ NUMBER = re.compile(
     r"(?<![\w])\d+(?:[.,]\d+)*(?:(?=[º°](?:\W|$))|(?=(?:st|nd|rd|th|h|am|pm)\b)|(?![\w]))",
     re.I,
 )
-DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
+DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:1\d|20)\d{2}-\d{2}-\d{2})(?!\d)")
 DATE_NAMED_PT = re.compile(
-    r"\b(\d{1,2})[º°o]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de:?\s+((?:19|20)\d{2})\b",
+    r"\b(\d{1,2})[º°o]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de:?\s+((?:1\d|20)\d{2})\b",
     re.I,
 )
 DATE_NAMED_EN = re.compile(
-    r"\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b",
+    r"\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?[,.]?\s+((?:1\d|20)\d{2})\b",
     re.I,
 )
 NAME = re.compile(
@@ -78,6 +78,10 @@ PT_MONTHS = {
 EN_MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+}
+FR_MONTHS = {
+    "janvier": 1, "février": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6,
+    "juillet": 7, "août": 8, "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12,
 }
 IT_MONTHS = {
     "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6,
@@ -231,9 +235,22 @@ def _date_spacing(text: str) -> str:
 
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # Embedded French book synopses retain their original-language dates.
+    french_date = re.compile(
+        r"\b(\d{1,2}(?:\s*(?:,|et)\s*\d{1,2})*)\s+(" + "|".join(FR_MONTHS)
+        + r")\s+((?:1\d|20)\d{2})\b", re.I)
+    def add_french(match: re.Match[str]) -> str:
+        days, month, year = match.groups()
+        for day in re.findall(r"\d{1,2}", days):
+            values[f"{int(year):04d}-{FR_MONTHS[month.casefold()]:02d}-{int(day):02d}"] += 1
+        return ""
+    text = french_date.sub(add_french, text)
+    # Bibliographic Portuguese dates may separate the year with a comma.
+    text = re.sub(r"(\b\d{1,2}[º°o]?\s+de\s+(?:" + "|".join(PT_MONTHS)
+                  + r")),\s*((?:1\d|20)\d{2})\b", r"\1 de \2", text, flags=re.I)
     # Enumerated days and inclusive ranges must preserve every stated day.
-    pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
-    en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:19|20)\d{2})\b", re.I)
+    pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
+    en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:1\d|20)\d{2})\b", re.I)
     def add_list(match: re.Match[str], portuguese: bool) -> str:
         days, month, year = match.groups() if portuguese else (match.group(2), match.group(1), match.group(3))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
@@ -249,8 +266,8 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
         text, flags=re.I,
     )
-    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
-    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b", re.I)
+    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
+    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:1\d|20)\d{2})\b", re.I)
     def add_range(match: re.Match[str], portuguese: bool) -> str:
         first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
@@ -268,7 +285,7 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     abbreviations.update(EN_MONTHS)
     # Brazilian correspondence files can contain original Italian letters.
     abbreviations.update(IT_MONTHS)
-    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:1\d|20)?\d{2})\b", re.I)
     def add_abbreviation(match: re.Match[str]) -> str:
         day, month, year = match.groups()
         # A volume number beside a month-only publication date is not its day.

@@ -158,6 +158,30 @@ class PortuguesePipelineTests(unittest.TestCase):
         target = "On July 4, 2011, it was at 1600 meters."
         self.assertEqual(compare_translation(source, target), [])
 
+    def test_historical_and_bibliographic_dates_preserve_actual_days(self):
+        pairs = [
+            ("1º de junho de 1850", "June 1, 1850", "June 2, 1850"),
+            ("22/09/1881", "September 22, 1881", "September 23, 1881"),
+            ("14 de abril, 1914", "April 14, 1914", "April 15, 1914"),
+            ("January 20. 1996", "January 20, 1996", "January 21, 1996"),
+        ]
+        for source, correct, changed in pairs:
+            with self.subTest(source=source):
+                self.assertFalse([f for f in compare_translation(source, correct) if f["check"] == "dates"])
+                self.assertTrue([f for f in compare_translation(source, changed) if f["check"] == "dates"])
+
+    def test_embedded_french_dates_preserve_each_day(self):
+        pairs = [
+            ("25 avril 1977", "April 25, 1977", "April 26, 1977"),
+            ("du 4 décembre 1949 au 14 avril 1950", "from December 4, 1949 to April 14, 1950",
+             "from December 4, 1949 to April 15, 1950"),
+            ("19 et 20 mai 1986", "May 19 and 20, 1986", "May 20, 1986"),
+        ]
+        for source, correct, changed in pairs:
+            with self.subTest(source=source):
+                self.assertFalse([f for f in compare_translation(source, correct) if f["check"] == "dates"])
+                self.assertTrue([f for f in compare_translation(source, changed) if f["check"] == "dates"])
+
     def test_quality_checks_distinguish_ordinals_coordinates_and_semantic_negation(self):
         source = "Art. 14º. Objetos voadores não identificados em 20° 30' O."
         target = "Article 14. Unidentified flying objects at 20° 30' W."
