@@ -2,6 +2,19 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_full_ocr_dates_preserve_values_across_missing_or_extra_spaces(self):
+        examples = [('06 de Marçode 1997', 'March 6, 1997'),
+                    ('MG,10de marçode 1997', 'MG, March 10, 1997'),
+                    ('Brasília, 21 de junho de 1 978', 'Brasília, June 21, 1978'),
+                    ('São Paulo 17 d e o u t u b r o d e 19 89', 'São Paulo, October 17, 1989'),
+                    ('No dia 19 de j a\nn e i r o de 1968', 'On January 19, 1968'),
+                    ('Rio, 2 3 de fevereiro de 1980', 'Rio, February 23, 1980')]
+        for source, target in examples:
+            with self.subTest(source=source):
+                self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, target)))
+                changed = target.replace('1997', '1998').replace('1978', '1979').replace('1989', '1990').replace('1968', '1969').replace('1980', '1981')
+                self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, changed)))
+
     def test_date_followed_by_time_does_not_invent_a_year(self):
         for source, target in [('29 de abril, 22h', 'April 29, 10:00 PM'),
                                ('8 de maio, 11h', 'May 8, 11 a.m.')]:
