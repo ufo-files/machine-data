@@ -64,7 +64,7 @@ PT_NEGATIONS = {
         re.I,
     ),
     "nunca": re.compile(r"\b(?:never|nothing\s+ever|not\s+ever)\b", re.I),
-    "sem": re.compile(r"\b(?:without|lacking|absent|free of)\b", re.I),
+    "sem": re.compile(r"\b(?:without|lacking|absent|free of|no|not|unconfirmed|unidentified)\b", re.I),
     "nenhum": re.compile(r"\b(?:no|none|neither)\b", re.I),
     "nenhuma": re.compile(r"\b(?:no|none|neither)\b", re.I),
 }
@@ -206,6 +206,8 @@ def _date_spacing(text: str) -> str:
     # OCR sometimes separates characters within an otherwise explicit date.
     # Normalize only full dates and known month names, never ambiguous fragments.
     text = re.sub(r"\bagôsto\b", "agosto", text, flags=re.I)
+    text = re.sub(r"(\b\d{1,2}\s+de\s+)margo(?=\s+de\s+(?:19|20)\d{2}\b)",
+                  r"\1março", text, flags=re.I)
     for month in PT_MONTHS:
         letters = r"[ \t]*".join(re.escape(letter) for letter in month)
         text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
@@ -234,7 +236,7 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     text = en_list.sub(lambda match: add_list(match, False), text)
     # English dates may retain the source's two-digit year and day-first order.
     text = re.sub(
-        r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{2})\b",
+        r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{2})\b(?!:|\s*(?:a\.?m\.?|p\.?m\.?)\b)",
         lambda match: match.group(1) + " " + match.group(2) + ", "
         + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
         text, flags=re.I,
@@ -311,6 +313,8 @@ def _measurements(text: str) -> Counter[str]:
                   "minutos", text, flags=re.I)
     # Keep OCR spaces after decimal/grouping commas inside the same value.
     text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
+    # Attributive English measures retain the same value: a 45-minute interview.
+    text = re.sub(r"(?<=\d)[-–](?=(?:minute|meter|kilometer|foot|mile)s?\b)", " ", text, flags=re.I)
     for match in MEASUREMENT.finditer(text):
         raw = match.group(0)
         number_match = re.match(r"\d+(?:[.,]\d+)?", raw)

@@ -2,6 +2,28 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_date_followed_by_time_does_not_invent_a_year(self):
+        for source, target in [('29 de abril, 22h', 'April 29, 10:00 PM'),
+                               ('8 de maio, 11h', 'May 8, 11 a.m.')]:
+            self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, target)))
+        self.assertTrue(any(f['check'] == 'dates' for f in compare_translation('29 de abril de 2010', 'April 29, 10:00 PM')))
+
+    def test_attributive_measurement_retains_value(self):
+        self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation('entrevista de 45 minutos', 'a 45-minute interview')))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('entrevista de 45 minutos', 'a 15-minute interview')))
+
+    def test_margo_ocr_month_requires_full_portuguese_date_context(self):
+        self.assertFalse(any(f['check'] == 'dates' for f in compare_translation('10 de Margo de 1997', 'March 10, 1997')))
+        self.assertTrue(any(f['check'] == 'dates' for f in compare_translation('10 de Margo de 1997', 'March 11, 1997')))
+
+    def test_sem_can_translate_to_explicit_negative_or_negative_adjective(self):
+        for source, target, changed in [('sem confirmação', 'unconfirmed', 'confirmed'),
+                                        ('sem identificação', 'unidentified', 'identified'),
+                                        ('sem saber', 'did not know', 'did know'),
+                                        ('sem nenhum pelo', 'with no hair', 'with hair')]:
+            self.assertFalse(any(f['check'] == 'negation' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(source, changed)))
+
     def test_italian_correspondence_date_preserves_its_calendar_value(self):
         source = 'Roma, 3 dicembre 1975'
         self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, 'Rome, December 3, 1975')))
