@@ -69,6 +69,13 @@ def fixture_manifest(source: Path) -> dict:
 
 
 class PortuguesePipelineTests(unittest.TestCase):
+    def test_radio_bearing_is_not_distance_range(self):
+        source = "Tá na 240 a 40 m i l h a s"
+        self.assertFalse([f for f in compare_translation(source, "On bearing 240 at 40 miles") if f["severity"] == "error"])
+        self.assertTrue([f for f in compare_translation(source, "On bearing 240 at 50 miles") if f["check"] == "measurements"])
+        self.assertTrue([f for f in compare_translation("de 240 a 400 milhas", "400 miles") if f["check"] == "measurements"])
+        self.assertFalse([f for f in compare_translation("de 240 a 400 milhas", "240 to 400 miles") if f["severity"] == "error"])
+
     def test_original_spanish_dates_in_portuguese_collections(self):
         for source, target in [("11 de j u l i o de 1989", "July 11, 1989"),
                                ("12 de junio de 1989", "June 12, 1989"),
