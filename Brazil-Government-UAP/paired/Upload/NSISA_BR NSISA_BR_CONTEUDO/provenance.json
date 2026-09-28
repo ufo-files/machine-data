@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "5bf79c2572f8efb23904a2476ee5af3bb6e4346d0d82c56d1b3c0567592afeb5",
+  "canonical_text_sha256": "90ecd2569378ebe7e4a50ce9b58c6d5c46b61861c8d6694a96f53b3597effdb2",
   "document_id": "doc-097614903b950a2eb5f30921",
   "extraction": {
     "engine": "ocrmypdf+tesseract-por+eng",
@@ -15,7 +15,4730 @@
   "page_count": 75,
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
-  "remaining_manual_review_count": 456,
+  "reading_order_recovery": {
+    "human_reviewed": false,
+    "method": "poppler-reading-order",
+    "pages": [
+      {
+        "added": {},
+        "new_sha256": "c12888cca268cbcdcc3fe3c322027e7f16167ae1da16f98f8e60b559e8b0dbd7",
+        "old_sha256": "84c32edd3365ed98b2e74676e7adb408c5bc5f7b4236b183362cb301504f2501",
+        "page": 3,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "5b2fe8b7b3b691abd03454eaeea832dc20d72fcd94e5770d7d362664cd14f4d7",
+        "old_sha256": "379f72c6b68b7150c2db6cdc91566dc1c5d2528e7ba17a219b78d5b3df171589",
+        "page": 8,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "d2deb95a7a42e3552e6f362c8e617982af236493efb598459b3a8efc25c8e178",
+        "old_sha256": "07f04e5226a38a7165caa1c199e66294ac0f805aa98d8d04b0f7e3ffc960ff4a",
+        "page": 9,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "67a6c2da2a69bb9e1c2647b59a35dcd91efeb27698ecaf58fcf04b8610045100",
+        "old_sha256": "c1bb70915321742ab72f3a06d497e3b4058465da0613bbb3769c9120adb8bd90",
+        "page": 13,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "f7bc6382620119c65af920399605579074544d49ac67baa4140b9e0c6ba2c1f2",
+        "old_sha256": "2f559ac767ec58d3e871e0b567e999a0c6854dc8bcda2a0aec72f22031921ea8",
+        "page": 17,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "05ba40b989a5e6c87e446397a26a00e7f7b9fbab04a43bc9f65d164a771071cb",
+        "old_sha256": "a8f1d204ed2d9f9b4851fc77a0c9804df7ffd96cfbcf6bf8a56ecb8b08dba0a5",
+        "page": 34,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "b175781fc7683f899cfbd3c1dde8093b7b6d4d1c8256e7481cad9c33d1e406bf",
+        "old_sha256": "3c7591c2aa51cd61b3638bac5207c919b79e1d4d17c01fd0734c6d0bddd9b9e6",
+        "page": 36,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "5df9548297fd2efdbf9400b55b31cd6993663b8e56242e31c6fa62bbc5fe7892",
+        "old_sha256": "a60fd1835374b91c66e2e24f07ca2ebefc2bc5df62f3c13d434f8b8250a34b5c",
+        "page": 39,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "6123557f7b66b5aedfd4c6127eb0a9f5dfb8c2d03f54a37518fe1897281050dc",
+        "old_sha256": "ab44e825c7db5a18de6bdb6731d36a541585074ab10611161e80cf265873ffcb",
+        "page": 42,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "7e7a2f81d7251fbf6096c46315fb27a83a234dedfb741fa32bf16cbda08f2c3f",
+        "old_sha256": "4308fbf348a2d93e9f837d3b65fc27c06f3ad5419029ab912ed2b17dc30b6364",
+        "page": 49,
+        "preserved": true,
+        "removed": {}
+      },
+      {
+        "added": {},
+        "new_sha256": "432cffc1d5904e9a5cec441cff6b072ca4244f739b9b138e13d65aee12e4f34c",
+        "old_sha256": "0b90e6a2bb7fe236552e7ebd2baf0bb14e5ee27ee26830a4fb8c50f3a1e7d5c0",
+        "page": 59,
+        "preserved": true,
+        "removed": {}
+      }
+    ],
+    "source_sha256": "5948096c57963f87c0b4ef4c166e2d4a073553134eb395e14fb7f141971ce24e"
+  },
+  "remaining_manual_review_count": 1189,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-18T17:34:15Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ffcafed110f307b07c1f47d95a143a3c07cd0672e0f87664b187d50f63b2f91d",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0d529185ed69701c1e40b7eec5228dc9d03035825ace2a8e59a97e704a2e3533",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "b16bef5d39c1660dae6b1b4a3a38390bb7a76a5fd172f8620a10b3f0e90244fe",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d3e5db5a24342f2808475119ce96674b53d999f91bd6b9d1bcc92f6220090950",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ff2c1f607c242c13c6cbea31ea46b34267443bd27aa09d43d7f7b72af7e5c9cc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1ada6bda8426ad11097adbb09ba822a5e697215ecb724d6c602b6ab7e24de78a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f1a1f3a9f210189d685ffe26b0b98d2142371ba11da37b9e22973fc93729ae03",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "962551b288013d199aa51f12797f159c65fc4305fcb14ad2099b5a882bd8c33a",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "60b6f57931def4a202118fd7caaa6310f501695e5e2083be09eb6e26835b2d75",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d285360244f068802bf7ea50b12d90756cd23e06a92cef8471b47776a851853b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e1f31e26e0444b45129fa83e440b5aa162c70b47d1811fafaf20d0ec4ae0ef83",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "33c3b0258d7adfcea40d1a587215745535d06e486d737c8bcdc427f96c6c46e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "327c7aa7cdd476e9284555c1a73186a3450953cd6274a1e2804070ba658b4c21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "635ce993d57d013e4df2b95ad4722ba2ea113d4def37af33b9af8d9c20b789d8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8f7103c37194462f3c73642ef52424ed62d6647da5ff4f3d7e20acce8d1a1f88",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ad3ff6c52862dd47e40fa3729e8e4d8271987b5008449896b06ad794c4e1803",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "378fb8e532543a9fb66690e3ee3694028288eb6bed9f364e67982f92e12651ee",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bf1832158dc21a1542bed1f024ee10fb6f62df94c98b5f3582d8e76f03ace3ce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dca682fa03e603ed598ed528d62aadaa7d48b3a16def8125cf6989de5d08cdcf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5cf961f874f60c4b758b05bba35c96e1529ec58379c7b152aeee784d9b03726c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e56c24551ed75c22fbc31fe7f6102097ae70d9adbc2fc12596b5c84e3faf285a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "179077dedbe1fec9da9bd2bae2da28cac1bcc6792b6c8165b9c0422c7e3d9c36",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fa1452136496a16178e50981ccf1b58ea660bdb7546f954916f7f04bfb3b4b48",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d025c5d94a7928beb0887e1eb21edea065c8e9a27483d8ce69e237a966edbd11",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e7a98bcadb0681a8126ec1ef427fa5a484f6dcb1797f7557f442dcf6f8b1bf6c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cfae34131bf45f782cd0fd952f4bb6abf6012cae929bde26cbc0abb82dcd10f1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e5c054a7432f99c73bccb54ebe4ae8fb312acfb32fbf0449e027e5727a3b0914",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "faa55c7c2d0bb5c13a249c396561c2987a25a197cb94d1232edfb998cf480a84",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "addc3cf2a0e703f1015a638d7b1c80f993cb5b52073a959c5343dbc8bd236211",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "70b71af79a9401a5bdb8cfd580c7f3e8b054d7bb5f97eaa9b0910deb5f4ae214",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "12b0bb078471d4cdd4d8f72cd7e1769d8251da20d34a387b91af78a5783ee50a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f3d759922657689e3f71b4be37ea281aff40ae77ada6d48bd7c1afc4dd199e2c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5aea6d6c2b1e36caa3c546e54cb858a4049c04a3b6a24600bb952e1394ca7485",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "897a77ddb2f64d612348a036ab84ed98575d8f4460bd3a465d61f84522bcb892",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cc6c0de94cb9692c68993bb63a38ae41b37254aa7c4fbedd8a58075f731edfad",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f1676ca1ad6fd229508d1892167a60bb9110f81421c83825b643fd36add81a4f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4700a0dfb4af68df2a83ed62e266c2bc726e5e6b186052504d6d386e9a07e54a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d85c52adbc2a7499934bbec60d32025b96503b90de4ea18084c330c8a7815ade",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ac58a4b897f45f99e313205a36a799036680d4f13bf3df358f5465b16746beb8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "56857f794855f5c122d91680ef4759a295ce4ad59ea0618796ac36f099504a78",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "951926409e841abae8d94b5addd47a53991198458e8101a7424415199a38a601",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "504dc1571692bf54a76a25da4bfee09423440753f141d92da131cd163a64f13b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b7a1d8b2f9b793ae6cd5995f3ef0bf63ebf975e3408c50183e5ad01674c31db",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fa7874c3d559b5f726beff24ced64a5ac933bccfc39245ffea584b991eda6f9c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6f0a91c7f472432ece6b129a3b3b95f0689352e9638ddb33aa81eb8a5aed7372",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "10b09817f478ad4dab9c00518a92185ccdec43682c65891bea2fdce0ac153ca4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "991173e31da38dbb170a9d4eac573eeb732cdb7fa3702fe15ee17ba5f1390e6f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7e0ac6532798e12f11e02165cae1ac9a7279199695620c966310ca647c8d76f4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2b43f74020f807a23143f4abae72ccd0e557b6e275739a9c1228d3cdc909a68a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "57418d54475d02cc1b15b1d3c2d0c671ac2b0c193c24732c024ad006c20ae41f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "27392f674a966e4a35866ae0e42711c9ec3f424deb62881c56879a3dcdb04ba3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "addebdc84bc034903d89ecc3fc5667169adcef72cba48a281142fe121228cf8f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "92ce018e7706cc3eca1ab79ef35e36f2c5faab9ec3ede5e50d584f8119d83cd5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a5e12db7faaa9934db30b1447f1b66ba4cec7554d737928e724d0ada568f5adc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bf00fd9a94d81786554d5187abc4e46b16ef5959db1429bcb2d7448e254e75b4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2740453967fe8e5ea5ac61192b4594758fb69b9f7987ebb020031aa416b44045",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0fa64164082a8ae78fd777473708e4e9a326f4fd859c9b7b3b29241de13c48bb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "159aa9ee7395662487ff2b69cfbbe5f3fbfb7cb54e347c34474d2aad2cf69b8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "883891a741d8d595ae4600e27ba750687671a54ba0726dd968952fd298367bc7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0b883aa10f7af56fcb4f60d1a21539603a66898be31552cba4e623a5e3f73505",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7d009f12819719f4ef10f22efdc6324b79182dbb260cee4e2f547fc3a6210572",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "37f501fd3c598e3f6756a022c679017ddfdb48c84c964076dd93b971c0f3a298",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b9721fb4f02a0774b3ed6ad202f18af425836fd6cd96cb7e7840e1c04446842d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4d6fbb7647ddc9addb33e649523ff39170181af6da69a5d5ca71ffcdf3f3ef34",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0b173a23ba3554ba0edbd17814baca88983522a054e7f2c2f4f64d5bffc064c4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4b09505028fecf175b5c446e999af17ef8f3e70d8df667f953fbeda8f9607827",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c04e4d59924c476dca523b5af8a8bda0e0cad9efb407e08afd46b67becca2d19",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "98723004e3c6fb97d8b02a29e24615ed48f87ca4681f5f9e6c96468db2c95168",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c6f8fe237f9778cd0770b4da80c33cf955dc374c0266daf9489cf05ca9613148",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "767874ca260d2cf13002b78c0adaac365d6c04fb143da4ef2df8e10d9eaf3630",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "237b14cbb480263300d6135909326304084f1c14068085e6a5077874ff300a21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "24d745effd7d9ef01e411b203b722f83df3ea0b4a28f653227e74e35136f22a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "be6d6ccc9ed5fc968941718c2403dca49e83a55c324e4e97dcf7451f7eaddf6e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2fc58cc73f99eb914ddc55eec35e332c52c235bddd28045557c05e28d4d09db5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9a1c9ea5a59258255e6c6d2187d0c280f375d8b907576af203aaaafa9c3b4eeb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3a500356dd7cd52edcf882d248fc14e4c2a58611314fd34aabbb2bb7575ac943",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9eca4bd836d7692cdb1ad3e787bae9cc401baa473a2ca4050e8c40aac138a381",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "538c70cfeea95858c972d39bf916052150bc05a64260fa26881f81fd14d592cb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "457697cb1f96a7ae95740371b0eb11d964b260b148bb2e8f10cd00bb7d80b900",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d18249169b205c97a8d5dc11618484050cedf21521ad1203436c4e33c073a722",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bcfc53e4bd36f94f7c2f07a4727dd64ed71d41a2ebe034d9fec27fb656c8ebd4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "690291e0b753706d66c0684d552c573897b40c160a1c16e5393beab1e7d6c780",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b4a9f66745764be6dcb742b3d8ea9e11906035bae2997f15c33214f2394b9f9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b6f282c4ef4475ce3ca393006c8013c383c21b9dfd7149df7f5a3cc56526b455",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c03b2e2c9489493d434213d9f492695e84c9b668ae7e2bb54a3b1e30ff827796",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "abd07195e6490e40a6ef056257f29d2387772593feb4dab73fca18a2e93edeb3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "865afc1e067b1dc9c8821603fd5a742504c3710686babaac0eb1d03b8e057b89",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e059b0f0d0a212ebf0c15be516e01aaccb33cd435656080e5d30429147f0abc4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "008d9e06c443a0741f4abd4d62a77ba7e9378046c0d6e927beb2b8626746ba06",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d10b36aa74a59bcf4a88185837f658afaf3646eff2bb16c3928d0e9335e945d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "604adbeb44114131de21d7c3c54beb103aefe44022e2e5a7d9ab298a9f5af09d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ded36bc789f704f448161386b485f7ffe2d3f8d27e47c57115a4aaa290387c00",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "035ce1edde5a2bdb23f9e86cc03a86efeca422988837b77d9a971996fc3e11af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4f75df83ab42dd60458d54eb0cd223051af4626660803171d63c3a4998fff96b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6bd2c5b6cf687ee25bcf4243b67186fa171caebe63458902b55a3d2d6277e422",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "756967c4dab43e1106b84aeb5b89f762ed4a7f9f5fa76b43bc6c643da8f2c198",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fee640034e02c1d653c00d71905cf70af4f78851f3ed6d0468f717a6fe86cd49",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bd458b10025860f6ed978eaa5bdc7860b6f4c426a2db9e1dde849a9fb6b4c51a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ad08bf08d9bd425ff798d928aacb49aa662279752db22015e64bd13359cdd9d3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2440cc31c1fe9cbf897423a29083d4e2266bd1040aa50e3015a8e7dd3cd685c5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b5ed02a2317bb85c8ebbeb915ebe49e9bca222ad87d9a6c25cbab6e4b828229c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5484192715fc50f25d971f83ebd96a130e672c20a664d984701167cc4fa10428",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0725a861382729406c9d2edff1d8c0b2d4c0c82bfd88e850aae464bfbc9ecd83",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6427485bfe92313e24373798d495ccc3ce990e00958ae191e598ceab293042f6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f173c160c7258ddc1be891c562b0e471ef79258c4daea3d44007207d1dcb454e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "420c3f55dc80e1035c29e7c61a9e89b2d59adfbffd29ecfbfb98b9da47092f01",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c6b57ccfa5b80801177d98d1ce528596432308187f6ca63fbfce38209eec303d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d4df36904cbea80bd2d6af6959c9efc953b72978198da4789ecfe484c18ce573",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "58f337deb9927364a972cc5a5eff47869fbead363a6a6c01545fb86189da9283",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fff9659da96e4a998c31ee94f4dcea6ed82fdf0647133bcc20071b7e7a865686",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3cedc18e5f2a11087b4f4925d8a43a96e206bc679392aeb0e0704136546f7819",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "315d1b8089f434a0e2426e1d5e9c65660412eed483ec7b155b5adf4e55a5e09a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e2eca64bd73ce8672efc022c65d7a599f8bbfc1e216a6fe9d08f82e20061d618",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6e2ef2c882769530315deed14aad334cea43d6d2c1907c71dd347047c6470e80",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "62504c7f6417ab7df19c2e4aad41ca3ddbfe99e9b9782d7481b37f3eaa35c194",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3d9fc4bde7ceef058d65b00186e79c1f14b42687b491644c303065135b644e18",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "df65e7b4f08bb34916e4b78511be02824d5f2adab9140a7fa7ccb18234752be4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "26d228663f13a88592a12d16cf9587caab0388b262d6d9f126ed62f9333aca94",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "896dc4182497e7ee2113f842b3f95885c6d8110764902c2bce089b22c9d07f83",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "58694659b6431044bbeb09091ef3a87121cb8250a57bedde7173a2287f4fc282",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2605e32da5a5f5861e26638523f6cb1b8c45560dc2890d4fbd8a82e80030172b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f0fb4f83e81fdcd9ffdfec566b4bb5b67bbce2dc8e42f570c35e61a71291115e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "3d9fc4bde7ceef058d65b00186e79c1f14b42687b491644c303065135b644e18",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ded823ef14b58380060451e47d9290b3dc8872b9ccbc0efdd644882df79a8d5e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "eefeb3bfa1609bc2099cbedf43872ffd958f92d899643944cd67d732d9af7818",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8fb7e0e0d4d565badbb2acbbc5c8eface37d8d8c30f7cba4c3e374aa2f50fbeb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "200d4e4346602447f246d9386c42c59b6cfbf0b67ed6086bb8dab967882a9b3a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "01ea12e0f26246d519b048fa7b20c57685de7b94365194a50f27bf64f5608af7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a5f8e71dc2cd212f910abe814b0562be931f434d05469b8e9b4172fae9d06775",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "37b34777de2848437d83703068d8a7a1bc454e3d93dceccf34bfd2acfc3a5994",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "356f17476a9a1495af4960326844920b6afd3f247ffb83d9ec7f4d991df4ca4b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9f8f7fa3a50f98a2d87bd82545773f25fa8a1878db8c62a6b13139d12cd24aef",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ba4d54adde241947a7a8f8170e52aafae6eaca36e29ff7f43ae54a89add92850",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "38a67cf6556f270ad8717c469abecb3d26413daaaa52627ceb401f6ff9dbf816",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2f56010e148e997ab13859783b05e6da7f9fb5b612668ac1e0db770cb52edf4f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b3813027ed2150ec3449f0716cf53c5d4a632486136365bd23e19c372884553f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6ea4f7d40eabb1424701b40c261ebd82171a471a50df9e5b220495849ee175ca",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "306ae6fe5fe82da08174a9502fec8bb2e08e4c261b13a8986367db02f4f223bf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "efd77b3ff04bdc835f5835d42d7687b7ab4edc5d0ef146f86860f6be210c6d98",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bee60fc9a6ca17f24e34f67e22a9c7cf78fe4d254ec66d2637d9a3ccecc57cb9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ff13ec0a5812e6f989bac4d4b5c0eda728b2eaad98dde71d7cc02cf8a9acc703",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "086f5e799d87ad68fa60c4d5e6a58dd4f225e97dc3f8bd883db0b6562d9d65b9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "72b83dc2d19e98700be4568d8e135b67e87be6893c7cfb2f47efb4dcf944a97d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6f24c33e6686d29d9e6237255dc3dd1f7206ef4dd80dc045855cfbeae56521d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "faec19c1278b308a886fae4a2f00dd411c38fda363a1d5a2f95fb3b720257336",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "12d3fca86a3342607c705d2757dcc18e07d9c3fd01d324913889a88b930dc79a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "558c6daccb8d68c45fdcdf5808602adb3e742d6be8844f67a3ce9a87f1aa8789",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0e942d2910bb3c95e3218f19857cc6053084e7880f051106155ec702e4061a81",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "afd3768bee9a388a8782c6605041e330f7dae0b5befebedb494bc9666f6086f5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "62b7d3da09379c123dea56e8bc60225a58866c990d86df3549d3c7337cb13567",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d718056712a1b3fbacab20ec0d81ae0746f198d32375d17066c059e6a2bd404b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e36a1cf1353ed2d014d0c7cb08ef3f7d353a9b92d449c658a367bb461810a287",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "527fdadd25ca68bf8613d00e9bfd8572f672288372397a67c4dda3a4247be670",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "44bc96197edfd1eaa54227d7a1ea1615e88768cdfe7f08b6068894711df03784",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cb1fe28d499f257862dd2dd177c2f7505f18ae1f4f85531d14222d14ebd0a7c7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7126d2d85a7def41d6b03033f912bc22a711141c00e24311df5b9a4689d407b4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "367082f61c0910b6d797ec5fcc5f1cb50adbd4e445c2b27d1cfc30bb9443a116",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ecff7afb8935fb828afea2b8ece05ebea9d8482b6d29d5a139927e6922944b6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "79adb2a2fce5c6ba215fe5f27f532d4e7edbac4b6a5e09e1ef3a08084a904621",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "864782341f42d5bc446654ee03777bfd1c70c4ab918673e11dc86ebbdd67a060",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1e2b2e4a05f05563f2fbc1b4a30351b8871e46a79fda9d97147778a2a7bd2628",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fc3c0699047f9d4d3f81aab9a90beeb12c2d288a373e8210c4c38433e34ecacc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e021d7d489652027fa2b50a7cde059f78a807360e0f0e594db1dd4850b826632",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a7a0cd71ec2e838244979f9c2ba9c485d945a49536ae5a235422a82488fbcce0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "8254c329a92850f6d539dd376f4816ee2764517da5e0235514af433164480d7a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7c12a0de89457b9b71fda0dd8a50049846f813bce79dd954320da15f348b2cd9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8524b8b0e9f2bbfa17a77ac806f78f2d41b6b19d0b06ea2d982b5041dcb73297",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "08f271887ce94707da822d5263bae19d5519cb3614e0daedc4c7ce5dab7473f1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bb1c202965ca241975a90c4d4db43001bad7ee64ba9b4411be5d2010ac8db164",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "867b4bf4357a7c0e415ffd537f61ea8785dd47113104000b534a130c98a42ce8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ecaebea19be4e935a74a4c092efdce315be682c478a98109b2c2183b3433494",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "534dee075deb2cd752c927eba459c00c34dcece75026e72ae9dff0ed4aaf4f65",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "24f3a47d80226bc48bee207fb3009fadef57a0f58a625a1d93ffdd50daf9e514",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "401bf0cd9dc51e4baaac781294078d546f234b2cb34423de47a62dbf2995ec75",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7dc11b25546b0d739f55256bfa2ac65c5c13c4ce1bccc983e82893e85f09486a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8302336ad67eeb26bb5da7cf1452d1a1ebe955736460e607cafa323282b2d9ed",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9b29626361d79e6c16b167e3164f16d404569ce0d22780461b49d8f9117e7cf9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cfd5141251c13248f3c955342c705890eaf05dfdca04544836c859cc7fd270f4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "77b802c479de08a63fd9417c5ac657511ad3e80f3701f255b19d22a39dd4cd80",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "56af4bde70a47ae7d0f1ebb30e45ed336165d5c9ec00ba9a92311e33a4256d74",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8d58ea68506c71c6d83350ec59c150f182067875db98d6645df280cc3ca35323",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b1bdf04d02ee08840c40062dc0a26f5bf6c8c66b5f6423d99d06a1fcd5fde2cb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "27c5c1d24302b66f93e4295015a4583c449b1dca47ad12de8ba172882d8c546b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "586fd0a9da43737f2f3f50c221e4b3d8c1fcfa5ebfb99f1473061a2e64bcc2ee",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a5c052babab015d2474b8196a7c72cb0a6e385cffcc54e7e458a5f72fa7cbfc3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d2539b1e79b6ee35fe1b346af09cd6b1eed1605998ef4e945d3c271df7b84cd4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ebcfdb064e00b4cadb432894ddfe1d85f93408d348e301f253b3c96d6d667b5f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8087e1a627bbc51819b07a5a2cf6c4fc158ed744465a0037fe82920aa7c77776",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "34a63b9d15c7d99802e10b14fb96ec85250045729d560423cd2fa063d8b147d0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0f829cfdb97c0ad9141792e0dd50cb20896e5079f6650c2d20907ca2aa586d42",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c60cf1ba257616519c1c6ff1162399e4f38a124d12c793876de3a99e649f1c28",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "18c4442b5157f8bfc54eeb0d5f8cbcd1d877de1f980dc056f5bfb332c5cc142e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "ba5ec51d07a4ac0e951608704431d59a02b21a4e951acc10505a8dc407c501ee",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "64471bcf46d8f2c7ab2812a0ef57095038da6bc74f8e246adcd0efdce30907ef",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fdb3bf4e9613b19ba87ebf8163f136c9b068c3f922521fd567df9542d26ee323",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ff2d994223d12e3fc58f2c2867f392bf3b8850d7113e01db6ff708174ea18a21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "acd12bc3f6b58d03a6fb59460a0521e5a039349b716555e7a10c0be084215680",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "96d0277cf7c3ea20674c1ebc1b439952aaee793c68f41b6be90ed62c050c9b21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f5de075d9dc4429ee171f054ab2b1cfd8d73f61ff7731a42072d90d75b0d1405",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1b13f259bd34fbdc734072f43b1a0a157ccdcb85196da14a9da8c540e280e3fe",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "840a8dcfeae95966a870b0b5257997ce94cbc19dd979409d1671d2e93a9e0de6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "efe8ae98a2ec5d539bf72fd4e59fcfc9b3cfa434ec53215a04e2655334d39cf6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2f1f24fd45b45bb3886572224d0515051f207bd1b89349c1b2b66a20e10a099e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "84820ccf0ef547377f99c993a82b63010e5ab94906ad482a403a2c72355d5436",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "da34ecd1e7d18b420a9f9683907b1e2daa8d701fc3f9842bf483cc8a410f532d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a250de7b7ae0632b76112f2b2b795eb443831321d863285314af13112534edb0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d73b9b19b6d17cd5b254cf615c58dc88dc3d32893468e983bdc096c0c85dde75",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "070ce5e9c7c4cb95c660120bce2e8876d8231fa55c4b95ea2d4e5ad70d6ce95a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "933e8674555f4ec56a08142caf5615ff03af10de75c5d7d670737822de1d8cba",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5438b373df370986217b451661f4ce8c13129b41e3fd1627a11ab10060afa368",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "72deddcca1bf81b7cea2d26c7b24fa1790b92e99fa9c8357a0866be9cd48bb01",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ade3b380831b3a071f8c9e9334fe36566acf4f96b763c05c6c5f41d07c745cb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a1ab589dbfbd1f62580cc538a04f484dd367a1903dcf450efcbb653ebe47196e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d5a79707c0bb522e0de814a42fc80baa78e3bec1267720418c8c4c019d53a1fa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "31ae2d11b3c8e1a6ed6c3b08b6f246006bcd0f72ed25c2c637d796afe2aa0c37",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "29126c14d4776ad9ea95c9a4dbe881db57265dcce3c5aa4190bf4f8ee467622a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "de8f29b934e3e55ca5774c6b9a48b18df9be075a207d7a6b790f70bb632f71b6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "f0e87b8fa200703a81764b574b9887870a0c545edb66e313b4267fe478ab28a3",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d35edd46ba506de8c782e9d8177d05d192e97427b4f67452c354731d48003294",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "30926423a34740f69d5acf49eb8a3fba3dec4cf1dfcb4ebde830885636e5bd82",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7fbaae91253f3e6adf2b7c9d9d1f36ebb2db63ae84f380ee96259456239c7a21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cd03f1a836ece99b9d0e27b2e55e4d0f2f5967310f4cc817c521586720750217",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-whitespace-equivalent-translation",
+        "prior_source_sha256": "b47d8c66608b8526229ebe935377065d95daff4b8f1fe9dda81044a642e9fc31",
+        "source_sha256": "5f836351339774b42d6966224eb21460b47b12c8af94dfdf32d08f1d8a9c37ce",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "935f68319d4f227e02bfd54a0ddf85b8a242e42a4277aa5ef5eaab691710924e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "799679eb02f4ec37a1a5e5eaf23ff808d39960dbeb4c6e57ca47578425ee2275",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4e8fffcc8c93503fd7e0d546a0409372b4dd4ef01aac1a9f8ce740dcb13406a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "f8a47615cda71779b1c00726260fd9b7e04fc9aedc528f4347265079be0c51de",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3e31b554eedd89146304c8d39aa486d741dcdc88bebabdb1ab88eb9423eb8471",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c20a78b524c589995f98d1b1a2b53f8ce26355d089503a4b24bba8e1304317a5",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c5cef2cbdfedd359ed74cd9905c67e8bdc94160bce363505ed7cb5b52c4053fb",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "69de013a8c3c7377b85a9778dee3f7ed0fc8b5b85e61a08047a12e2dcf2601ec",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "f5aea2e99b3c35e6629bde931a2564d454f774b5cb74f75dab2e252454418fc3",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8cdc1cdd5d2dcd80b1081e172899bedce9a7869dbafced8e2542474018fd18f5",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "a3da6da529854656f97a45b26d2b859f1304d4a9bcafe536f1fb8cab0c949d94",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "40da866ed3a618e2835ba259d4205dd8c319bf6a2d4c08ca48a49320af98f46c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8aff9f319bfac9f868c5a97bf20dae525791fdfec8436bde7d5d205c99829060",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-failed-segment-checkpoint",
+        "source_sha256": "40da866ed3a618e2835ba259d4205dd8c319bf6a2d4c08ca48a49320af98f46c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "8aff9f319bfac9f868c5a97bf20dae525791fdfec8436bde7d5d205c99829060",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "13aa6c8d48cb1e11975759283044f8b7577d7e369d739c03f587d7fe98bab81c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "51600ec053c6ecd2eaa6d0915d73980b038c2de2db948d35dabbd8f5324c48bb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "60d21085dc3db1595598fab6675381c5dd2cb16e807b02541cdb4fdd30ccfcaa",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e3c5af22e3c2a0968da960bde8cc4705de68e0792b0337d46a5ca21624d7e4a6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "be4a9ec32e3b291bf0b23f3bce0ed6e0c26f7bc75c52ca76123726c6622f52b4",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "824711e188a5cd628298880961950df4959dfd1a5836bfa92eb11c5416a4e653",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "b2a4a96537a5170cc48db968c30a9aeae76f3e0c2cb7383ba1bb18d642c7f832",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "cb070f579957f02e810ff7aad20fc9e44ee4d0e7c66843c2617eab939c483118",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6824051e76c2e1793f8bf7c53b57b0f0dbab15c4c05f66ad9e8d145c85c76085",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "371d98d6441e752ec9c2c83fd991e37d6df83cddcd2d23ee8d5d07177749b3ff",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "37879a09fd527b85ab2c1902e2035e1445e021a40acda53e5a9f91bb099f1841",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "130608b3ac8400711f5765731b66d880ae5198bcd8c30972eaca1aa74e269920",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "886ac40849cfad8a9a29a8a3b98e34aa19b5a463b30e16088b249d6e2fe56d7b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3693dc30f570c074a0a7f70bf900885769d1835fd90590e6b6a5382f99cd1b60",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "05901302d793097fdf6abfdb5bbb026ad897ada353a416cc6538a317f955a9e9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b601f8dd06e51d059ad99d49a7edfcd1fdb7fe5537303e39f6f1dbc15f45375",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e6241633ddcfcbdb435b1b2ed28cf569f26c42eba0f17ec1a744331a1a5a5723",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "955ca905855ff6eb91f839934014465f8246d25efa67d72b781a9a0492b90134",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ac794f2f165801a1355ef23b23c3d36c7e72d14c4bf407bc152ea52a5d51d852",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a21ff189b3e5c297840d72551475378baa7e3d7f73df1e1e0799e0a59502616f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5f6ba2398a97bbf9ad10f2816f734e42e0885cf5402f5e58ed28f2c8807bfce0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "718f82526feffccf70262794a0a83a590d89737854bbfcbe3da4ba7eb3ffd343",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "face6237097f7f6d7120a199f3ad737ad28bea275e05d4014d950b1e97688b24",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a8dbbc439ea295cd2246d186c5f02804f658269b5495e3e81ffd225160548d6a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "426a7e1294dd08d8c53c01baea8b5b3c0f9897dfc2b807b9edd10edca57ea954",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "95f88d15679c1af5b06611b13ed10e87a2eef7224737509ca83be91289506f34",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "745039ee53b9f78a4b6a5beba752ad249fd0517bb80ce262dbb5bf71ad86c5eb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d9dba1c468e6ab8faa43c2696d57ce27deda964c72e0ce94a965711570e62fb4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3412b351fdbfd3cafffd41af360428e9f123ffb8a38fca31e7c9c402335d05ff",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c9ea6cb2239520aa7ad2672d7c0865fbca9b255b57a51c14ef7c46f3a881c76b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "aeb6183e322c8d69710ab1c33424a9e99e80bf3d7e22dd91bd63af209e68a6b6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ccaf15401c19515ae7d08e00362bf704e153bed9afc8c1668c5119ac64d251c4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "353666fc2b5c72cefee76124ac55781109074899ee3561693c823b6323f664e9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f767ca61fb7b4885d5bed4aa034a4aca315ca640ed93c74816543c3e84513b83",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "76b3485f498bbb397c18475b9b7708e1c6470a33266c20acd974383e3bfedada",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "60d0ce8d88663c8b2c822e21a72e6138509e4c01cb7afaef117d0b6104d33bf4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a097f3dc933533c86a50580b8a289d9f290ba19fc16c9a5c09d2ca13d3a7909b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ab20be9099fd4e8f70a1636cb8494ccbef9417f13fc4de8b93e9222c2e1f33e1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c35714e3aa037ec10a6af8ec503d62ded3350c95b23ca3e1744f341cb834888c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "54b74d2315f24da3856f3794ae1565889ab58da73a24cf25ca60ea061f38a1cc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "638a4f12f3f9f2941e660c0cf7dbae94dc6bfededda8e4fbb49610a595058be3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d631066babbdb20d3571e20ff3d9ad1441b335c9ff3c1ca1a91fa43aa896e1d3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0cbf94b8457dbb580c497398ce3744f5ccb0593e6ab183d11f3b78536afc3336",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0ec37809b94caf0ab5de3d6fef433506105bf9e4bff501329c2b4609bd6ef8ac",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0c0daa379d189bad9d75c03f9d851e66df083cb6bc4702007cbddc029982b5b3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4e020d6e73c133ed3dbdb1288e503dead16ad7ae979a1b6d4ad28fb5b52b4d40",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e7aa4407c7844b77a3891a2c9d1d9a80a1fa696946f563568ad7a7aede1caf9e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "726450f02eb464fd0f18518c7e9ae3ede39a304eea2c218c291413ef19fcdb72",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5dbb23b68c8b2c7a8109a4a29f1f4a5bb7a30768390dbc4883453f6527ae1426",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "93d4e529338a746d2b2950e45e7b012ee06a39d412ead4368a2883d84c6ee986",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1288b94835f0857d9e67e79c76ad4772e864a19b02169343fbabbd86d8114d53",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bdaf00bf057b8e6f90a680352ed62758aa85c29f90b4d2127b5e901620b711c0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "07a74350b1577706ead0ec584a9763106453740b2181ee07ef8a5d9c49298798",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4e80060284a6f8fcfe672a352e3606f876537fc685ace8bc5e9e35f7d9328ed6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "809f26e70f0aa04dbba7a88f9353f419ed8ab193c78097638470bb453baadd76",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7f9539da4a90bc9acff24c023e9c515a3e172f04820f3d3432caa15e7f486ca0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0b1395b6a770e87821f962f99a0e28dfdfcc0291966adab46dd64af41513a17d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7e5d9f0ebb07308f3ba9a70d89b914b9e808681cfd539f32265963fc5eccd6d0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "edef52f85b25ac82e5d51987252d3c2db9aa77e2ce07df0b1f6628e215916011",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e6b610be2d4ad53455b9493f9d5c4ebb0176ab9b71347d5ca074877872fbe81d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "66c2ab7078c206c4dab16c935519cfe1a3bca9bc503ccea8d9d37671216b05aa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c76f58188f1413faf2fd1e41b4d59a4b01f095d2a62b1c3060f791725cd92535",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "3d9fc4bde7ceef058d65b00186e79c1f14b42687b491644c303065135b644e18",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "507c435b5ed9fbbdf6a6d7391e988b154efa6567d54c55a63be77620931793f5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0299615c16a48622330912f743b41683ca69ccde8eaaf28a1b335aa3e3b6781a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "553287fd76e51a8b11f06fa220d08fe4e2ba461a65fc4cf581d1baf473cefae6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0acaa4b2ea48d94d67c5c2b10fe835b2b0554811c6d4fe79b612a6b55f3aeb22",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "22bf0cb4fdbd0600a0ed7cdefe593bc4ee8a8e3003d4be86ee3dd37eb06b262a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f92f5155d6ec297d87b7d836e88b5bb625b1ae7953579e6b5282b47fe0600f10",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4336a068f476650fecd2f08421b40abc22b91216a4b2311e9921825771ab65eb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d6f4b10915c4c2ba7709ca5b517b3dda56e098956393570d8df26b51fac24cc0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30c08cb32448fa70b321c07cd05bd330c3a4247c10f6dd33d99936bdcff56704",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f4c39e712e0eae7922ba87a31b8162d36b649297d6547ac3804c67f4b917f9c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4c9c3a1e3176183336c1314272d4d06b08858dfd188be6c3c1231ce538d449bc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e80705e903299ea529c406e68e4866a66071a8c8c65db7bc6634926d8e47645c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a2f8b7e6188618be1a039058dd0e59a9e6d6399e4465b72071a29a36070a230f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "93a8a233366918b251d28446cfdda2ee62926324abdccfa415daadb7da18b6f1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8bf8800bf0462f42464aae0f4b391790d1df7908fc050681c20ded722d4fa2d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4a95a8ba820db74ebcfde8295c657a8462cff02169d75914bce586176f132c8d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d0065acdc63f4633c529c4ab26142ac3c3c0bb74949b967e47a9d09d5bbb6b57",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3870cd83bc528a1e938689ae06fb3ad82339a1ad4fccba91ab457d4762235ffb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1d3d661268c621d9f4f6931d463f7ff87a240b5f030fa66f286d702f3c691d3f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3c2c34714cc8f2579dd048f3a94a256b02b5ae0ac39c3ed939b0df36ef568969",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ee33ef655411625b19e474ccb3c30e16a91674a4fcf136140b0bbf652920258",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "16490de123b1caceac83d4c2703805b09fc3313d6354397a4cd0b2f7c3daac5b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b842391b1d10c40005302b6d78d6c171e938abba68446aaef47077a89b04fe6a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1da126fd60d3ffa137427f509c23b52bdfecb415f34a5f8f66a6b74bde89443d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "325104602e00d69b66b24486885b829357dbcb4f1e72cfb7c356fd51caff7993",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f5cb7884dd1063d76cf11530ab0ae03a026ff7896a174fae634097f7ab5ffac1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dd60fea2de4c49a71ccc82860e4a1a873d992c96507517e12c04464772f947e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "69fea4e5f4a2a1f34fcf9256790e93509cb9a4fd8c73c481f146099082f293d3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b4bdc848109722a383d0a972c6eb859f2abd29565b8c4cc7199e7c9eb708f1b7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b60bc91040dce8bc0860fd1fbfe20ef0018b035815c859a42bf53c99f7e699cf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "238ed04b646aa85f2e7f826264cc5b847fe6b45d75f0d99be167e0c13b162202",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c636d6e1229539451a37f22d46867464eb7041bc0b307e98ee061833b97f2108",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bb7c8d101f28858cc100bc46f023179e5cd621eba66af92f95d88e919ce7cfd9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "16a6f21fe961bc984b25c87e191a0ed9350cf346c481557d6e8dcb20dce08e1e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0cb135d07f01a3101b5ea0dded5b2e0ad50af0ad69bbe7e8fd993165e314bb59",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ed0050f354c4d7bedac1a8b14a18caecf663b2b26ea85ba8b777372ac40142d4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6033738e5a568d0f5e589d64dca10a967b61720bc26c4734b6c10e8eae6881b1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d26f4c169967a8ecd6792b041e64d1fd3b5682a368bc8b8cc3e42562303d49d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b3fbfb97a5f69e151ba8d9211403b3879caae2fb3f07e0754510098800d16f9b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "945ade98e247bbdc8fe9a115a4c42d7e8c23aef9842d28428c08fea00cbf6021",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6b486aeecb39d6d6e73a13cb5a8ab7ba9943b8ceb9c819260119e87966990d43",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "74012f6e85e697ecc926f5c6e7ffa59d6876a00d63a29d873150012cca1885c2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9548a53a0c2558f1a5c654e8d4e1f72e7aa88d0b802c81c27f06f5bf33287b9e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8115bb67653212b94964b7e22ea38d067cee3f96572224d7d6cfefb67fbaffe2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2010992d6ea323e39585ac882d3be4c5457520e651cdd5770eea40edadcf02d0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7192865c36d5536c8c0d871fb84f7161a9a1d5a5140ffb97383b3934c824a410",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "343adcc2e3c8a23ef2c31d240cca0e0516dd92cfc319b22aa964534b0d34baa3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "46af200780a78319e87c24ab8f272ed73f4f3c887991a75296385c993286a629",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0276e35b201340e96b1f0bd2455aa16e1df4c9300b1ab3634fa91221e37c7dfa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "10030b381977353f289d097ec9d87db4485862dac95af7116a44db5c2f46a21d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4956a86993794078d659af1cf50c3694f458e6cd1af4badb2568e4ea2a4dd2fb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "389d4d471cff5f7643e03a67e2de59e2eaaccad56617ab25533e0d49e9cceeea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c13c4ee4ef15c1e3f54c173c219615ffcee4bdb470be68101d7164d5ed5dfebb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30baf44f0f4176c43fd1ebbe5eb377a957b7bb61214aa2b8de7b905446b84ea3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fa80ea99db229e4a01fdf349caf5213841b92fcaa97b78712534c8b13c6252e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e4a59a297c6fb4eab90e2bdaf3209dd69c972178d3c2baec79395432306df50e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "740226a9065f4b21942d3d1de19b9ffe986481f438bdb541f2fe06186c7757e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d0640ed42f3ec8d09e30ce3e3ab33b6f4c58cab4384f10a9a9ac91f624a4beb3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0a0a15374f8260bd6129f3d8a759ed7888d3148b45fb0a273e4608bf6cc4adff",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "595244ac2efce00c77637eba1c3fbc2f605ff18d52c201ea1f92bcae43478d63",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1b71b1b47b45a7005f57831e45f49737a76d6153c7b9e512645e06a66579ee8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "80f078f75aeb3b658c86e1ddbd5d7be92f335b465dd858b37829293ccd656b26",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "efa8208cc3439e9467ebc53e560a3c03e77a7d711e194c0511909bd07de081c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "9e74a47bbdce6ce1c4048eb3f571d69685efbd50fc2fdbf8cfc239d76e1ade25",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "97ef807f498061b6b22a397a45fc7777809d6fafe74782437c2a8c92111daf58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ade3a5278ec0545363e49eb2b50525ed3973cc8e216607eca848482339e91a33",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "61b1fbf4be52da4d63d92daf85670136aa7fb230300f52cdcbdce09f313a1bfb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ddcf0bd9e6d170a53a393c41fc54d70648ba4f56c3e94d56afc6981072d6e046",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "edbbe7cdae8c07329013d0548f20b25d3db449595c96e16e14ac457780ae06d9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e26be1c424068d7f82ae23d8de9aab0629bfea095d49a0284cffd697b2023c3c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "66c30271c1a427cd1d3fabbcaf25ef5010cd99cddf3c9cdfbda0f0833961df28",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "84a47f61dd341ce731390149a904abcd58a6044263071abf44a475cf91563029",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fd69d89fb12d2dafe719d2f77d344fd3149b6f71a7de5b12ba4941faac255c70",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "98b418c898b6a2213b234b6d8bad9ef98375ee95a10d18d035a2be0b4b5b9368",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ad5a7f0a449501983e3dc657451ff7227b73e2e3b3832ac5430396b2faff7d79",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fabe3dc5a6036a224dfeedb2c9fb444adf949671d44af34941faef21f44749e0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f36cc86dee575cf59d4759b1e8479444f702be79a3e28a8b7d58852566a669c9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c878f817e2036d4aebb781117bd7924a532b84651a600750deadcf5363c4bf08",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "43145999212121a578f1e7d5df003b932a59def57b9887d991e5a43543ef25f5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "b3fc9de526e253e7ac1b8d94ed2374c627ca7abfbca3d91bd1214a5a2df53ffe",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "10149992924bdf926353b5330fc4d7c10893b4eb36fa984bb68c69509a38ec51",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d74a4a978f9be0a3836645174b4df73a1b212ed7364bf9148d3c62c80473c0be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "487b7e9b105d6c63918ed8942feb24bbf7b0102c09fbfc651c6547a62d919308",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "73ce5bdda7793514caa9c8aec0d0299e6bb101ba25f18859d967aec70e3af7c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f47c8f02eda6e835ed245ef0a750b14088183e9ff2cffd016aaff2e4165f0ab2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "246440ac001ba0a65983dd5292f86e7b0b71290f6cd75f9e4b0918412a2a75c8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0718d887c89732c2fbadbaaa6a72061b672299beefbf8dd3a1f73631ba1a6d3f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "89d7cec787e6342dd82bca71fcfec2ae68c3af76a1fa7bef225a90f71b2c36ba",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a1827929362e6fbb6d7d9aeab2a5cea7a616d67d6823a6d06e24790cd04488b2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "39cce2d41094563234b97c685cb79748566f8e0e8382cc4482bebb26f66d93f8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0b61257c99371e58cb9f41517701b2d670f834a730494b52f390c258c99f38a6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3fa9ca5eb0bff1d576ee342559cdb6bba645797882ff2349124e71d4fc269bf4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bf107ff37661b025fce8b7b48d4ac80e354ba99bdc7e940f41258a4e7af8ecbe",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9c712af4b4b7e40031adc5580fc10c03b2e5fc11d7be61981abc1789ef066963",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9ad4eb477b125a5b1cbfa30a1265f75749e11ea69cd270116fab618792b978e8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0e7b08e9430b97b9ef1b38de4992146c9916f059cd5084b147db9168fb643a0e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b58409a980c057f2b659bb8e3dda3de6002f14e7ee751a2297452bdbca3c7745",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "986ce46046bf289231b0e05be4a4c9da6edf7fe01ffb3d81c7220ea18a8f759e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8a3c71c217e11d7fdcc1288af20fb6b368d9875cf087f16a84b068966c05cd44",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "51988b49017a442304c46a99a44db9e164801956299fd9680a00e68f732ab9b8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bca339289e7b0e0cd2936ed011f366e35a42ed32b67b702d207cb7293bbfde3c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a7d234bc75818d350da71dceb456a11ad61b5a402d2a5f96558b41a293375642",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7730dc207d07433e343ff8d056a2c0d79c2273657d83dc9fc62c68549caa2a98",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "208a6b010f9927b4864e720475e35edbdb3f770ed0cc2be3e2db2438b3bd4c63",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "70bbc05e946e7aba8343ee6b7424ef709632a856d48bafb5ff8e0a46030af4ce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f765439a2c0cf46575ba534ce4587881f5a4e348d1cc655548959485a682b13a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8c70919d8962ae30a62634d41d5dbe24c3bd334a1e39ed5ddef4fff75e5dbd83",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7447f17f78e874d741a47a715c5274f8df82c2ba5fab2907f68a2128ad9ac501",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "658fe274d1d8182c7205969d79a4fedc49695cef7501b0e9474e1c94ec256834",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d0f84829e4417dd45bad537e34ea9e6b73608b1edac8155793c5a7e1bd146c71",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "29a03a2e713a6fd0d895b940d447beb8d3335e14ee9702b168b31c6ab25034e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d1e890614644ee68b8f79408c91067443697aef0a6990924f0c40dfc3456ef8d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "677081e61be69c3194b07324a544230c60560c92b22ad311c9b804d96d762a43",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "420b6cb88fe356864bc963cfabf8518d7a3168b535ad92a2ad58f6069cc31823",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a44e3e8f3d09e22641ef8ad8cd3684e7b07434db1429c4653b9fd0d2ba045264",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7a3daa905170dfd7ebbca20a136ab271bee94b07f67ea343ee3a013ed498a9b1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ea9a6c1dd09c25e59975f6b41ec54aec10846095f1962098a0d8f03c3f141c13",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "07fa56fd7090217d657d28550eb400bded8408874a9ac7b59ca993313f18a53e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "045a9af026042eb9728d790696700ad623166ac9c307d11b53c305d6576c5e30",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "673ff139c47f8b573b36ee70c06904e353316cd51d5fce04f1619a6b4447c831",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1332ededfe4c35377f3f063179c34f605fc0ba02e64181ec91af918207e01c5d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c71fb284c33887c3cf8da4c57b64d7f89e99928a8c3b9cb43089776972d917f6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "50f918597fb29b75eafd4aee5b4d5f2b4d8cb89b585d8ab0fa7ff0a6b5f78f14",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a9f389c64ba39618e19c8e9af764beac450933cbbc1c06dda3eddd2cff01194e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "34dd229c802bc108d170fdf7ee2ac8cf39846e65efd574aa281c6894b4522d76",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6d2bf07bd74a5a093f3dc5b550c0961fe595b88722fa9278e5aae29d66aa3641",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "13dff8ace351e8759e1bc5b0fda4f30da54d18af2aea74c3001c8103332fba92",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bbdd0eab0eace6b233f53b61f6fbdf8453de46895b0a04cad32a46f8650f94c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9f1bd57ca82c64dfa1a10af78cfc58787129d85782a5e52968c9946c4523a5d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "806d4745c1ffc2896b350a840ba63c0ffa6c19e9cacd1c7c34cec4490eabd2da",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "292a191e836a0765e86646eaa5f2d2fa066d36a579ac1e54428760546432d007",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8d488caaeaf73c8f3cf77fd54df411ff1dc6b54ff46eda4d0e8b97b9fb4b19c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6692980f3b345f3c1d6ed1a25a353e376363fd46a6312c008e66af8aea6c2801",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7cad9d9b43c1dea460439894a1a810f3b6c4b73197a64890e9d473fb2399c437",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e47c41478c6139821d9d1047a9a0ac40c97dc7f71fac57f4ef2a1f55460c98f5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5aed324f37bdb631aec610449142c542087139f79c178d9efeb8ea533c42a7ee",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3762fd429ef5cb36a795ef12e32877c2d15319c5bcd591e52c034aa0e03a2f7b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "704f94a7d4905052f4fd099b5287e2ec8a0ed2a0615885191b4e968757bae949",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5c906a52d7537ccd5f778d7e8a6c72f096cceca4c4ab9de7e22eebd174e502ff",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c665bff80f6e1d4e3a96e21257958f17be86788f670b3f7c9e8f68c2a987a004",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "df2d8ff6148117f5510c0fd554495d2acf3e6458c797a1e5fd747a9b0ea259d1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "60fa2a133c583ae1eb13d5c94f033ee2067ddac41b4eb0911fe2d9ef35350454",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "740aae8f586b2c4f818517b4e88014e6fa7f82ccc7474430b5aa22b4a1e714b0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f96f2da0f53ff5f370ca8c95f92934b059750da3bc6ce4c7c6be6ba81fb54808",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3d6db4f60b0bcaf2a5e51d7aeb23ee694fb34db4dc800e458d9f5251126494d4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "352cecaf68b703a7a68e9d23e8b60132ec04c25944e0a0db282a5d414019eff2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8958947e07f00ee25d2aeaaee36ae2066e7987132a7eb277d62f48aef5e19a5d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f24930c5f49588bc7ea8e3a26c1af01c50f18c5dd3fa4df0afbf566a80f7fce8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4b6b1bf3818d4e6c9c4358f2232f37dda97af9f651937ebc08864b2739fe29d9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "83ef8b564c63a20814ea8c9574432380f045d36706e43f71a3aaceb30c3f768e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c52e10bf4a0c0b9b284458aba4344f6087027bb8fcc7d5f67c762fed8ba39281",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "92cad0f0bf83d3591213cb2248ccf814e58283185a1e7cf8ecc3abc192ee7f25",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b3df92b9e0635749fed2a942c46fe3de0274930c3fa64756d752e3606de55b42",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "18cac2f7e184a1dbbe82ec7956cfcbe15d315d494ac90248e143d33a0b54e612",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "96c4637671c3e95c84baefff56957b6e8b45f09edccfb5c9ee67aee689f6aa41",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4a99557e4033c3539de2eb65472017cad5f9557f7a0625a09f1c3f6e2ba69c4c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2062f80093066633876b542212c496501a5e79523cc4ea9b28667dff065afd8f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "ba29466502cd10866097bea469d1f99cd94cf150a3b719986b8d8ae6908dea3c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f1a01cefc4188c1934c037228ae0e27b6a61d60eec6a7879f5fea9c3379179de",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c824583495285ee6f86aabc8c4bfba5f9086ee5cb25fe641f72de9bddd8ade05",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c0bc1e08f9743b2d50d5f1607503bf4e849af0e729fca896515bea955d70a33e",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1ccc883d3a4b399006176382b9ce5aabff458d4146d11e994cc62d76764137a9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a1149745b299102f96639673a5d1f5873d2b63e1f99b907c4511a3c5ad854413",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0b88c9d59ad1251d141fc67d2a30779b7d2d4cdf98ae05c19e85141dde6554d6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "07e83e3f7f1d21d72c7bc7bfe4ad52a3e9b6b6a156611e5e9cfe9fcd9fce277d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7978f506baa16285f4f3f6cee4f425c0bd5e06883e37ede4a8d8e62c03d660ef",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f1b960f732e4a8ba5d265ddc4aac945dbf0554455829798240137ffe2ec10a8f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5015269ddc868ae4fd49b3461bb0b7d791075bf060fb72cf65106ba2c715f218",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2daad7aee0ad6ecec700a65b945d70d4b3cc8bc9e8b759c892289ceec6360deb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "af2f9af1864c5e4439468a3ba8bc773e04a914d511c42105b0d6c8af7cf2b73f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "695366168bb13d034bdcf160def975e36190b6e7b0f8ed240c88de8cd52e4a09",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ca7a956b846b1f75abcc4224a27055cddc675caefa1f81ff70b978cadc9b5de1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9dac180e5079ccd1a961573edf8fe52aa454621fa305db9359248763a0e0d41d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8dc294b657c2358dea1ff496d9133b7d0c70d9e627eeb9dc152e68423379544f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b8f0ff20d8b7a9411e45a90776fec3507022fe0c7a36c35dcf7987630e7d9cae",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d678546e9c580ff396271638ae6694d1b0b1d7a8a1ab48d050c4f46fdb736ba0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "57e32b40a7e2490fa9a14ecdc4da8a894f9a5937ab56450bb54e3b1edc2e6287",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2ee78adccf8d4e3e3f6f14842521b8c3ef49139941cf75bd46a7b91d63905f73",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e2c0247afe10ff125ae0d295792248a793da8270a47e703e5aee5a3ca45ba8d4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fce2159a6bf4606816d7d020a5248b1a8eb52a5b83ffb510f5566b0a4ec599e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "aab5270ec2122485ed1558fa1dca05a3ea459b8057bcb110d91b863d8dc27b5e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "411e04aeb6af901fb0262c16e6db937c9cb9a42ded87ef34e8750856b0d07f12",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e726d07219f7eccabf9c890d95286f75f6ab16b488014e6dae1f2e473a530505",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f64c4cacd81d30b704259334f342faf5d5c2fea951d2b79c11a55a490ed93443",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "18eb16a5926a8df7d6551e82a014862f98cb9e6d22ac8cbfdd5a114098e7a8ba",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "771681810194c245635bd1e2a4b23553021a72360d6adcc1eecb273ac7b82081",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fdd38344490dc10754def56637f46c5f9798696355ad0ce3cd457d172e0254eb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fd92922e8a6dceea42062338a1301be6f438ad6a1c56f0ed44f00117d4f236a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6f7889daaf61fd9e85e2aa9b1cbf6209e105cd07008cc7f343ce4dcedba5afc5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "90c923f95d92248c0259fab98a0ace14919ad8fa259157e03cccccba7acfc640",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4af74eb7554eaf06ecd95a9ea00f8828676282fb094392c2f229e3768391d698",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "aae7cc1838b85f4db891bdf1b1d56a0e90d6aa9aded1278e0cd0355a987f4659",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "44a44ea038dd8849b16c0f4f7444781aa2dd2623652938684e62c442dc6b3345",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ade6db6efe3bcc2e81fd22de6bb79b61c44770c9d8b6f3d4933e1e19739dba74",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9a964aeb1791dcef5a749f59318f9970f53e1053f47607e8f926ea956782ba7f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "806f91db6a6a4c17e2c2a28ffdee67caae7c611394c08737628431cdd513e6a5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d847acf7bab1b6f761779f3995c693e25eb899dceea61ef9043532d1ae9923a6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "65711b00763029320e12a9860b055605d9655207d12d8d3f25e2027891eb1adf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "99795e8d70438c554dd82ce5c676c8cce480c2ebd9400040dd48e4cd3971e036",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "53fc5332a16558ad04b4323c0996775fca26eab98ddf87e66272bf3f7127438d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "eea01addf8596c6dcb6eee066875ab0e668ee44b9128ff05b2019ea3ba11d3f3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8209bef0c3b8719814e8dbe82574e5e610e9da78369f33315886bbb5fdd0261f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "db4a074e5e3819657e41d33b9553ac9864408e1c136d4a1a6400780b6b97f97a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "49031c7cc15abc3c66cd89812e5ad5ef46cbda94876b66bae69847c437f69f77",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "99fe1aa14796e09082f3c511fb05b0a63b69658cb1952211c482fdee47ca0b64",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4423732fdb95293b10c21c656c115800916fabce587d1d7e6eb724878b072dc6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "40ff9215da7efd3baaeec71545142099fbbe7b4f2acd1b8a8828287da118daa1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3c92d03a657f7c7efe941e528966ca3eb3c94c6a3ec44bf37e2d512f8f6c40ee",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "916929c7b24340de0c26cecd1d7b4593e8dc62352cbfbfdba75928da6f2493b4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ff13251c514f15d479a6d3053ba5d2d75c1dfa7a73d0cbb55aedc77c55e80c3c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "12aba0db040a7f3841bd77db524da90cdaeab6cfaa209d5f989de391d8f03711",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5272e1f4ea60a93e5b2c9aeb7408dd3d535aef31ff03ae498392f7296d85f114",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "812d5e90a2032aba2159ea8ee06a23c449880a3145307b1d3435ae6389bef642",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "97f7d5d792c06566caec966795c32888e980107c92b9938030b83151a68434de",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b3c244149d4fa909f0d19dbec451aece2499c4a7bbfa7678d5ef86492e0b9f08",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a25d035c7e039aaaa10607ed7317e87f0b8e35f4e1f4e822953d7e57c2a219e5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "378cc158ca49986d40c68c1f56acdf8ddeff338a257fd54e0cf6219a8d8b6a0d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "31eca701e1c996b937e08edc3bf0fff3b8d9d5371a68bbe0c454581cdb210daa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b0376b6dc1eae68f2fb131f7a921fe451f18c68de317c286940379f2c3fce73e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4e9a5bddf95dc6020fc65217887928f9ffc3b08b7795250898483d3e9f6a68b4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f18931e79477d5cee4d9ba494f1e285218069813abbbf9ed454b90df7980b7e6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e1b3f9209d17dac29c0d212015cc2407cc4875ee6715c0e9ed73b40b1dc39bd1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a7e3cb3aa2a4b6341d011b2b79c95d92f5cf405d079eeea9089fb0173b895ef4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "078c60198beb17405fa8c483f72499bc2f6b1e09528040c510bca4efb28a9618",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "553d757b4d800337b4d0c653428c15eda7abb1e3740ca414f219c29b5c31ae6a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "24f7d3ad7821b8329bf0ae2472f0d71e09d5c10431a11a258f568a15da068cd8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e2c283f424018b779cccc410516619a19543e907fbdfc6b3e8bb83c42cc67613",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4544954ab414cf5d191fcfbcd861b4699cf0ab14629e7e7e244047a4879bf523",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fb6aac9cb0d93906a52bfb03cfb9e8426feb12cb2d9e35a1922440c1c5a0b693",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "17ec0e66723e0acd95f76c6154f2b165e798e9eb448ae040e6ce5baf234ce0ca",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "40b5e429abde7088bc2af1a11331b0625eacb2293636cf548347514eb7084b90",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d300ea4649282ef77985b44b63668eb0852e135b4cd9fe36f13c423adfe0837f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bab1c5f1786b4787e6a1f2b681585c72c723df11fc0e16f8d752719c3eae7f08",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2be3f4e63654d1ae71b27f45638e4a6f90d54b11f9a7d5ae2d6badb66e1e5e81",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ce6ad475e8722b9a4f36bb69cdc9455d7823447ddaa9a9b895a3b41df8562aab",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5db4cbb57d8c47cba36e19de06d2b51a70bddbdc8e3bfbaa5eb7c3506ae3d080",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "edd26da3320e9bfac36e87e2dd6442645cabf6decb043ebeb8f68307c4f03a11",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cdd953ad250b926f815f3de6d22eb8caef4008ce5c2c0ea856cdeb3445cfce47",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8fb943e9ff16ae5093cf63cfea37936bca7391bac92c6074580429b80ab5258e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "943ad2bc816744649301788141a9fb1ccfe2c1f18b93bd77a40b5cc601d94f13",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8610c1091753a9724af2b7a0c612b59d8993ff07f322aaf388f106a627f37a1c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ffba01c334a42794cac234a8140e159f7547a7de6e42c5dcbb88a825253bd1de",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "76daee1631fea659d4916e762790fa20df30a372595cefa140030834c67b08ea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3e46aed850183180e1777d724c59e617fe50f6b11253e3b23e57d2cc9f1c814f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ea3dc747f15400ac1d8bbc6cd25b34751a9d72675101bab29082d4ab0c16d4f8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6054c107e0fd84e9d64b582cfe66a2b26064b1c6b144cd68cf780a70ccd1343e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "18ce15cc9d3bab28791ce25fcc1cc8fff7550ee4ef4a08b1d41303986a304417",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "43bedf2a1d0b6ca79775b57b68b381f68b47913bd5f2c64184f834ade7f1898d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d75b52417d4e2c46667393ef4fdacdfc020ce921116a90386552fbf7b4bd2fb2",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d67e7b2813821a005a3d13064270fc20565790f5e661595cdb7f0f05e780756c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bf9a44bf2f6fcaa2759d5c12e3729a8efa51b10e6b78ca2a5210aa3422f471e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d5c9a81c026d30cd961c1c620fc82ee8003a7038060c1ab490cddfa7abb34061",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4b36fe1a60420806f4d33f24cf9906f9bbb45c78f869269c696e001dce7f4a0e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "846c937d2279a140e60d5bfc919b5d6e9bb3d91bc10128aa327729589daf2530",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cc103f203171eccf35d73713bc1fea633bec5e30a57adb003442fc1646956986",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "839bb8b37af92f179eea980f4986c3aad29608abe7bd5a25e85519558135dc58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c2e3130021cb3ce09c7da7e7933a40f3f225b5b45b8eb35ec70f0632ce9eb3af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "94759cb4bf53336eb0180c57b0dc3a02ef1c50c3a0eb4c631e1077e17b2dd598",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "32d77ce235d121a3ea1b3ecfc19999475fde0ba1b46f9d47b954f04addcf28d6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "98c44e849e93ac133b9e12865e093bf04c05eadc394dce48930418d3c198db8c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "703f76d801ddad42485c943d0512421b1f790f25e674e8aaae17063ed9f64766",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5a21d87c1c0a5d7189256e3580df96fe23e879c0b761a00f1632479e34cc10ae",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "cf81465654dbb0875a1db0d2579d0b9cbabe60b708ca77bed39952b9e3722fd6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ad262ab950d654d9c26040b20ce158df7cb99002004b20b517d948d609cf6ce4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6cdcb02da1926f80c6a68ffd22051c788585a8f431c7c3df7e1e10422de16e28",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "468b9faebd6c017c2e52b73c406eabe8eb363272a13ff47fa4c47b7e21bef909",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9b0797bef66520b72640ce28305905b5c3ed463d6a7d458c1b4eb33dbe496367",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "36ed20860bfcea5fae497d08835f3752cbc6e045e8a9a6f8afe08495c7181555",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1d43d7c8e4d2a1e3fa9fb297e71d166b719171858035cf263686a9c38402cf0c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6814ef46f686990cf4e946f966167b0507e1d642c44e51f61bffb0bba2d4672b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8539aaa498df538860968224464933f87193c96851266ab42613a26539763f44",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30efdfb52ff67f80dab7cb89dcfe0eec8412966cfe58324993674b4616d6bd11",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5773caa9b9dbca38b5eb7e92e7bdaf5186414e2b08588579ff57abeec077dd0e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "56866b7c18c4ef955acc023a641e4288295b774151d1f4aa8f3d4216346c25c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dcbd3003e36235b16b91eb98ce0cce3e49a61c3c9b62cd3dcc45891192dc88d3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "93b0c55d3dd24c22bb4828e956c48f5a9da0083e70219e24ed458c3deced8870",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4c93a322606727dd658f857a1159221dbcfb21e99cd17d0bc2cd470a26a70bd0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30bb1ab4d48a3615fe8e0040230086192b2527a02a8459ff9b812b354b548c73",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4f024fcdf5bf7d93a5b22a6830ffd160d0851a8d10880ef5048a0d3b196434c4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5207790c22a48824447688b4ff1f2c529d3b79c6848b64c2689cedd7ea615c67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "37cfb34f0315e4787ed0a770886f163b7ab2bad968c0d2167463741bd1ba3f95",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ecd0fdae6c14bbdae185b943bcaa46f175711bba37caf179e84e4a05f63d922",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c0bc1e08f9743b2d50d5f1607503bf4e849af0e729fca896515bea955d70a33e",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "aa58b21b01d6b8a99c1a5856962dbac36c758a79dc0a77c2e013ce2c39ecdc8a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6c7cb3d189c0bd36db9dce17c0335672b533a28c7441d65855dc6c3fdd336ffc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "ea3dc747f15400ac1d8bbc6cd25b34751a9d72675101bab29082d4ab0c16d4f8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a6bd114ecfd04bfd9d5e06cb22e2b3c586b06bc3528c22157fb83820e4635e75",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "abd2f3b570ee18f6c9515573900f62f1e8fdda6122c5734677871c1c2141728c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2cec33908c36f461891af7c59b78b2c18da490299c0c0ab6f741ffc89c55af45",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fb85985430ccab2aef3afa5dcf5c31f567ad01e637ef112d56a2de6128196764",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "16d0314bcce543998ef1f18643388b754ec09cf015f9be4199168d434f94c344",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ca5167ec8349feaa217e34d24dda5ea257db7b3235fa8ef4e90ccc4edd3e38c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8a44ad4692772491a5a4ed6156fa606323d9d27f4c56a4421ad99370895eaaef",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "36c21d5eae30824a53d624b61a747f381d91e9f53d3d1d2be60dda5884268514",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1d6e6012604b2961cbb8c5c8f21d514fe18f09153bd3edc05077bcef1124e43a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "73eeeb41019e1b274769976a1debb10dcfb7e2be24ff24a93851a9ce80870adb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "09bc56fab64f666536bf140e437c9e232a70a66f7b420225a6ae6013bcb8fba8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cff3ffa2492c76fef0fb507f89f0bfb31cc719d4768b741d6ef8c48f60daafc0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d4da8054aba71ebf8e5d671bac057c4ad175f97dc94b0e688b89a2572b56c0ce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a9f888e875c2ce7d88c757a302e1ae72497f7934b81307c9f11d6460945a48b7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a3b5c2dd50b0aa79648c7bc0477b37f9cd0fc34c801aefc01c1b5f454aa462ae",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d8caeb94a8c092edd5a9128f06ce2eda613851f7246576a5d8007151e921a9a2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "491a2753c3feba2fc8c3d630911dc5be693c63fa85c963024ff04a95f7ec4efa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "53e3b8324dd03d231febd1ce5df0e37c78cc4fbd5bd38987a90e825940eeebc8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4ee4c52930d5bf0640e0b0b77eb005986873cfb4314eff5204f8e34538d41960",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "184a1b40e050e86d5e2a1754dcbd8ac744bd43308f2794d4ec2321a42fd28bbb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "772b6c638dcf8eeb0fc84153af3aa9a1b7eec13b065cbae8ee66de7780cde842",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cbb7688c16e1bc99fa16bde1fbfce6b87ba85a9fa4a586a776eebb093c4dba73",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1a58bb76e50a19020652b882dd3b0f84c15cdcb9ecc717ee1cf7eb94497aef3a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e54d87c61373fbf3478e4d4a421089272791df424b773f2d742fdb00b984cd99",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "43b9231919848b668531aa92cf9dafad6dbbe0b12ae97dde9b13068c289d9033",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e7d4b47ccedeaf8aedcc3337e1c26b9342ea447d839c1ae08dd1b1e2ef00f23d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b7a65176c6d1a966a3c0e92e64a5bbeba63a1a66bcc15d676f5d74d41e5c7f43",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5f56359ef193c076484ddd8280c90f5eceba82513ef2b117f4907a1655781681",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f9c7af7ebcbf098b9f5f37361d1b168bb2e5b98d930ceef0f055377a8c94db61",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "853169f8ed2bf6a005a05c713598e6ca782266972d8fdb35735cd2af445501ae",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2a926625d5a445a376da7d6857e7e989b9b725a923c576edf7d1b2d140a421e3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c7f4067ce1acba29be01acc1878273dab8184d12a90a9a0e03d8382209a30d7f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "00731ac0e6645cd022739722c1a920d19dba26d8e4af10cd386c6f8975f6fb15",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "954bf12535c420103dbe4761b62464259f27c8e15ef59cdf21efe4a31187dd4f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "f4ee8563c22b8d66dcec7f22a5c711d0b3e09be7801e0faa19bbafc2a89ad5fa",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ee4b7bc258f89c1623a71af52177959370be9e868c2bcc015bbd76722175474",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "74eb46e0bf4915d3c78bec6bb892d7a238983067bc4859aa389837d462c97d54",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6ed4078281b16efc07bce0d58abe196aea0349e0466024d3a42f8a19cbd0ac94",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7bb4c4016353b42cbc3beaf51d326b6c208a2b184dee58dfb89f57bb12f30ed1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e06ca7d9f48adb1c5ba61ad29563ad20ae8ad02ec51b3e0eeef41092b4b98930",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2798d2fcf5ac2e6f9f2e0fe8d73e6104532c550a7d4ec1e539f1f9657e71ef0d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "7e3b6d38b9379ec78ef82139dbf70dcbc028dc4d34252b3895589e25233dc081",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "9750ce39a6d216e255f21f294cb0485e9b2c3f92515286d09c0cacaf5471e172",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ecde68f317b730b8d6ef074d39b810f71b51d726324ae603ea4b32b905400820",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e0109d70c28d178e933f1c21aa589a90a89fd179c62b74e5a1236a32a8f5c354",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c9a94ba85f3a0614915c788d105347745ccef3bb60f8c9d34625f938ce93255d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "45d9483ccd58914efb6b7e5e924b5270a8675a04e8b9227633898c00fdbe40d0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ec3851c105d4a66c4c2b978c1f443b7b273f23ff5f773da994b0608317ffc0a0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ccac16c5090bd0f67966f2ff3245d0151b7d4f443c6646a6225af64fef9b888",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "4b490f98f800e96d31ad7fe6d62000cd2911f2fb972681d4c6d0b0aaea6c22bd",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "146ea962a3f9a50aa02765eb9635871b2285b3c1fdfb6b0526feb085aabd33a4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3186381a60d94860be19e6192dd7dfaa203d4d524548194dcccab6d47ed83620",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a318c24216defe206feeb73ef5be00033fa9c4a74d0b967f6532a26ca5906d3b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5a60c39b259b72cfbe5e422b25312a0d5867c689453ea75970e940c8ff1cbbc5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "62571160f3c6acf5cee417e9d339de9087a1ba80728c39a441031561654c713d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fd87c84364508181e6be21e1adcab06f965e96464e73f2a3b03283071017a04c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3cd33e4824df2ca4ec4ef5a4ed8adf7820908d0b2f0afce14805285266e28240",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f418cc8e9335e8c5438bd0ffc8a998a1857af41022a128af06a724349a96cb7e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a3791eb5ab50dbdaa2967e40cd6eb0a8e286c0ca55abf1647f59b79c3a2c0822",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "25c132674a8f4649cd4e9d3f8dfd9cf9bad02cd2ec8b9a938408dd9980d54680",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2a1913605f2f0d5fd1a9869131a1fab072d830484add2d77de5b3a7b6594b6f4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cfb6964915bc54bef3e3be2fca4d1162d93f4d625d6703824020ac567fcfd391",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2273f32aae67135d30d35d7e7410b89331433226b8d37d780dbe04756ee73972",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f26fd79d3f66f1d90815210ef9b56543308c25127365c55d9c6711afe02b9d13",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3ea6bc47a6277afef178e3a230f945fca1153690cafc7f61be2738f5abb5165f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ac54917c44685b0ef0b284e761497d8542981bde094280a08c9be8dd6258128a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e60be3a838dce83fde72c85938aed27d9f1dbe9fafb87eb717917dbfea3fde20",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1075432f2939b1cc3efd3b31586ce30215820cd22f75cb4363d412df85d2c1b0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6b7ab8e75bd5eb565f98060eb3672da03601e558ffd98e4f2ac1b315bdc112b1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a76a583a1097a22ac0ebc1c17f0e9ca715c34b4d7dfa1118e09d56594e1ab032",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "39675e0203cca604331a6c0daf9b8e09639bc80a24aee75f6e341dcb47d07d13",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "af20f9f4ecfc8a8bf744bda28f0fe2c3a4b75d8c6a1cdd7ed90c318be49b4b93",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5e185798282d52fcfd1df0bcf8dc831c726d5d4f6293a922d5a0bf0f7056e8a2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6340ec5fe0d34c101d77f45c17cb621467c40fac6db31c9e4a98b75c65c51578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2124e76162fce378127bab40bb3a12956786d87590ce16e5083f9eace9a13511",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f2935de8feb9b1fadfe600c086462742686e79200ea4465c10e83fbddc7eb886",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d98b55ecaa86092e85ee9a7458f627b7cb1205b573e5bc32f364fd3d4c9f5a7c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "c4694f2e93d5c4e7d51f9c5deb75e6cc8be5e1114178c6a45b6fc2c566a0aa8c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "19a527d4b4e49843060901418dc2f57ce0853d56583e261564d06e2a37cf9dcd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fd0da8c5a6d99a0f0c57a7eceb1788ce53675bf9154d12f176bb458a28c14b22",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "89aa0538f35b19fa0deb3e396a30157df2b081ee725d4a4b4d23a632f14dab9c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3eab3378586989c4d845c437b8f7ac190f347d9edd6b2fcbe334f034b78fefa4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a54a43e8cd90892d75af95e4d868567fc1604b9e32ac242f2053fa9108bf8a6d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fba2fb16e1ccd0d683be781e1dab4d3f762bf904861292aca0b05c45dee9f9c5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ee59fc3f331bee1050a69c003959198dd595e889478f9bc6241de22bd1d42583",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8c03c51f708b089703d1642c2505c1de1ce4df49dc4760eee8e523d3692b07fd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8deae0adb87d9a94e4243c5135799c8a657bf88a87ed32ac65339dec988a4be0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "65990774605bf1ced0b2a70e0144d552b190a7e7d24c68775061d39e203624e5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1b06e2003f8420d6fa42badd8f77ec0f706b976b7a48b13c567dc5a559681683",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "88e58fe55937310205821e64dc573c2021adf75755476137857a933f7d8b2754",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "reused-whitespace-equivalent-translation",
+        "prior_source_sha256": "ebf4b6c0aa5b3a7483c313e6e1183fe744a7629ebc9ad2d11d2d89c706683880",
+        "source_sha256": "14d07aa77c2364b95eeef1b501a80134e2f26a350ceb3d5022698701901fde7e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "64afcbe01aa8a8a4c6622b7ebe06d28d9a0e4caf2a2cd47edab3a99eaf811a33",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c2ab077bebf1b80038842028f60616f9ba1940d2186bd627208772c77b743fe6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d821f09c0393ac05db0e69bca5ef549233bb3da2a501c01e07d02e307c24b4f1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d2b8a71d8ea6e9c1f8fdeee6294de951ac731ee00b09734945cf595569ae14b4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "26b375751797810412dfcc8d726552232e6ab85cfba5781667b31ce88df8c62a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b522f755522f56c4d7220b6dd1b87b9e7995c7b71a6bdf26a2ee296b53c815cf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1f074c8f54efcc7d7bbaa035317e22435bfd8fd59516791a000175de0aab42bb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9edd521b2c9a521383adb5e017d4cc094aef5ea1475862c25236a6f658efef29",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "236af551afa9fbf9db68db0c9c640abc4868a10eedc63cbb62de9add6745a94f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f70931905c824b3097428c0de0915ee382b0a8623bdd5b76c54738265f2f8026",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "91a92f99ebcd0e463635b255e853bbc1997358ba0766990ce0b04cb97d30a73f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "334f4f2143af5496a142dff9e89e14e5ce1a38891559470a97c86eb90cfddc81",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "551d69f11e87017c2c304f3fa5b9be4322b1d7831c1d0275ea19c75e2bd12963",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a94f4247885314f384d7a570318d0c6036b33d3e7fc01fef7856f9b008bbb414",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c386bcb504834ee19212e32c975088e82333ab4ccaf0e9a347a895baa2f5f3bc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "61bac34f83fafa4b55f2bdd4f47e26a56537c8f8c068211b6f3eac0b1897f627",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "57db2cd22e4b810a0e44df9ff53a40bf0f7569e0538560c19421c577b79b7924",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b8ff5c602a8111aca06101ae3f123e329232ca8a426ddb11f20272ffc9274895",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "169964a855fc1ded31427696b265f538d53de2a093cb57689e50efc8066f8150",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b64d58de66d597473b5d5fe9dc9e8eae85e69756516ffd02f3ff9c3517dfb43f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e6daf759eaf5ece56bb70e0f82e8ddabee4f9e353af3d84d0bc08d8404e7e217",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d46247ce8c0a97c8f3efd6ade491f97c94e2669dd102ada5f7ee34b727b12e2b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3f4c73478cb0f8f908ded105d960416445c953627a0ec1766702edef45d14a71",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c70ee84b7ee6883b4f75e55ac12269c1de145d3838ed013cb1380ea37b59799c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "08a43c0bde92fb72d35f2b5b22e341bf88063129c9a12df65d9147102c48f1d5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3e02fcdd9c8d8b77463c0fa0dc4116ca4dbf1dd4cce48a0ad41c0b749be4855f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0fb62ac152f269cd3edbd8df0515c5405bd3b63338f15e7b6f3b5f53b38f1ffc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "23d9b0e9c5ab8f21b08c2eb1928a768eefa7f3f03c7003331e4d9bd232300637",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c1299854f2b209632ab22aeb848c24c2b02da4b37ecf93a830ee9c7f6f809924",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "eff90eb3a411a9f089bcf257e2cab791a3905e297447da19c2b98cbcc05d23fb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "af13a21c962da4dbbed216a2575588ad542acebe5124d53b591b131d3e5b1819",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8710e721f6dd077573a85b1012d92bbba96b1153289bff5bd0f7cebdfc48a8e4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "84a47f61dd341ce731390149a904abcd58a6044263071abf44a475cf91563029",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cc89baf2d5ca2de76cbfa5411ee5211b67ff52ce9a119eb168b1864fc9123d39",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8620c526b1ebbae97e14bc83a83f9b08a1a98a397dbc061f00d0a2ab7d360656",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "35d419a6e1678d829bad286c0eb1c07a5aa73043fade65a2708a5f06394520c9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3276a32e33b15981ee6322efb05ae474b36117eaa995892773ff927a93699078",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "18f0e9bf17a2a3bc67d67ed3a273cd6ad692b3bd161b0c05332953dfc4e1b365",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2c0e01946f97f749b21fff2bfa91031154bbc90ed66e410c3e7c4159d7a700be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "812ec5076c650a4dc37fbca0e9b7605fa840baf2e808771d8675770836fee072",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0a7cb27e52927eacabbb7ecc738b0fea50b3967945257c43a67eb753cb465bd0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7405637c2dca4e4da38032d5ef5337ff7990cc7216e3bd129db6095ba15e0576",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d429e5e0c11c67fc9153121daac9b56f546e18202e15fb3a4a64969031ec1fc2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5cccaba60d00f123f20471af755de6477d1078f499667561bd2d7634e80350b1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9683b8b6a95a417e2454d54960d1fbe309919db2acff70f63479c6fe019c6ff4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e9ad6c739cc8f42f95cca6703dea780ab0985675a2dc2a464fa7d4fb3a755e03",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "76daee1631fea659d4916e762790fa20df30a372595cefa140030834c67b08ea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dec3f2899394b2fa49976149d86bf5eea4a188dbaed0080c3e6f0bbd7ea4d5e0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3746b214a16f219553a97d06070ef5671d62e50acdd9699dc24b5bda3f65ae0b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f506bb043dfbf505ca1c9539baa53937ff1b2687cf1affadad31c2954522365e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "033c70370e7839a479dd7708f51aa2b632d602c5dc65ca277fef3684f689f483",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "aa6e3cce62af98096aaa516246c0c0a7547e694221b08287f6140e6ac1fe19e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "958e28ded128c486661f927d63f79ffbf4a82597f1f704e8e1e8faa0588ce066",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "acb4c932b4f4dce01665691d809d78d19ee2ed281cf64908b79c6b95ea292fe9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "faec19c1278b308a886fae4a2f00dd411c38fda363a1d5a2f95fb3b720257336",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ad96076575a41db0b69847bd71420212cbfb5eea224ecee574b89498359d2e79",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "88bc6305155369bf54071da1b003876986b62d6638b7cfa2c9f6f3cfc459ca69",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "71b4f3a3748cd6843c01e293e701fce769f52381821e21daf2ff4fe9ea57a6f3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "61778f86c3ffd1b3c0cf3f9b1e729b66d4dd291ddf3560440a4ad2659b27bfc5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cd24b912adec2b564b4a77ae6e5c1de456cfba0f6a42eb35ce1e95ce13d5a10c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "289c90decf40c8ec15f72f6080f2a4e7cd11d4128530dd5d290fc06ebadba620",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b44c1615d9158ce204d112697530803b5ffa241bc93c1586c3e6dd1ca689d3f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "959a45d44e6fcf58361ed004681556fe50129f2109e817dec098c00c9e5d2578",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a97add9c0dc5a3615f4e40f90f9bc537951f8ad0d55d11fdc30fef3c31986d76",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "550b301282043bde968fa9a307b11240631a6180453a3d5ba44b6204bc389dd2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fc4d6c9e874c1f120aa1e3d2dac53dd7804d2d66abbd82ba41599c1a71925048",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "84a47f61dd341ce731390149a904abcd58a6044263071abf44a475cf91563029",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b21911bca4ea5432903b2c7b2310bfa34e16ff9d3c3839916cc47cad50066698",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f6186525d62430175ef80091adc30136761173b9d2afc8c9f6c16f8b285ea2a1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0c3388f516b4059b350eaf9d160af77c317023e3b529e8de3eb14f7d27c74bbd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cc3ca1d0f849ed55ef3d2697cbd67d182e13448865344693a75ae4671aa2db20",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a62d50a78091480398ce8d893ee7fe2a089d60f410a277dd403a690b65c29f44",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "89e48b15d7bd670626e51b010b54e1de8d338d96902836f8e322c671e3e4fa21",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e811eb7830249bae4b61145ae6e5f0933d7f890570d6ead6e78f89f04fd6aeb5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ab17a4ecf6ee8a5c15f9ab0fa96464971e34ee0f8d8ca93fc034e0dd1962dbaa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4cef6d412a74cc06cabc9a38b84cdcda9b3d7f63b226c45dc7d24b81a4a8d86c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4349a83bcc9b5480d22e83d826d515387c496ab5a12a14caeb659517b1310ba5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1a6d1de77dea5256a28bbf104d60f376c5499e66f31a05c0202f0b724e04bd89",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6494187cf8ccaffc87c5fa8392b7e4bd82e5026f34e4662ff66187ee88d670bc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6f48a5f3984972141368bc22f65e15f7eeeb56a23148af88137645c1b879b6a5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "97f897aaabe380389535f23a6550787da03084726a3264aa19ca61dbfc751681",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8de959891ca6e4889b0d40700a6d29a056fdc0084f31e6a4120ab2becc13c58b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "634fcd7003648ccf6f69a9c7f65e775a95fd6d6da376c023c49960170cac55a6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dbd06e8f9894cab38327430b4b3b0624b02d60b1cc2eb7fc866b6d0037fb7154",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c56672e34a6ecd5c6ac15483797713a04b72c93fd61d281c2b7d7de1d4b29401",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "32bdc4b68e15a9d4f0ed19a6bdcc27154f6101b836e01826005df9d363fe0d67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8d20bd6a78773f6425a964255f58e96528c4fc5f76a06218bdeda3808491bf8b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2e2a87407a88dd6a9d7cf90744367cb4e22dd9c1dd032b10b6f1e6ea3519867e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3a822bfc5ead9916c2f2d7b4b04b1c11141f13c67a7273984b4115375d5cc258",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5e8ee008f16e596bd473bce5c06142bbfe488d2ff6e0dd64858a6cd6d8b3f7b2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b6b1ecf2b1b3b58ba2e7cdd8d60e52ee94eb51c603b4c6cec8f6f610849925d8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5797c351fdeb3c1f25d9f9fb25ad44ecbdfe42050c446b1785416a293967cac2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2799d97909e8f54db4520f89221cbdf3ecc57ce52146c8accef885dccffd1f9d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ad9a67fefa847de87753df6794a0ae466431e76ad1fb4db58fbbe836d1dde0e7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fe7f7ccc3fc17be1d0804567821a101836b66dd8eb03ed7604872285e013f771",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2317e5f4b244a65af6a59afaf6b60d361d3db643238044a5e1348d5ac1ebc950",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1ce6c92d6582a1c00dde268ea434a1bb4aa78c766ab043c2b6d39eb2e775c470",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a335d375e431572c1b209373133ad07d7d178699af7d27a3afe04ddf5b0afdba",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6aa1c630ad067e0fde323f141be3fd4e096c7d6633b4abfe7c926de6e6c1c07f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "28b6146bc0583165758dd2675314b81a37c1880736d3e5ce155b9317f95ab23c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2e0fe5c3bd183cd2f244508b719b9b7568aa3b5578a308f1ad7df31b0c5c0f4c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d49c500dc5ab59ea1a1f08ae0dfcf0969eb114cf900a1b82be14d7a45b9d73e3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "341c1d75e60a6fb589f8e44bb721d6409d418d3e0f3350c15216716c0cb4d7be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "4d6e9cc6c147c8aba1f5e8b230e5bcd56751d164935efb9b1f16f927a85e90f1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "85660af205c9f132ff00033da3b3a16bd5a1ec78ff6ed65b6aea64e7cd4f5a11",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2c9e378375ea5c03756100ecfa55f2fb053220c404e0fbcccd009bb8bfdd24d1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "35877f607b861b7035d8b7df1b767f9aad3446c3ccf46dd0fc9f3d03818dc649",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2aea85af9c2f84f89369c897604b270f2a71b4428c11cda748f6238413f7ce42",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fcdbe5e8c53d0f571b74af0481597f109fa038a6290f4f30c56e6c8b149f528e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5ed9ab84932835d82739e7a48c91b1ac43e43314badd6103a3becd313ae0a583",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1387b7e23dd63a2f3fe7eab482472ecce9af3b120704bf652dbc9479888d9e66",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b0dd85ad24f75531a17881af63aa86f0e1b284516b04c80f3c4598c32468541",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7ad9b595c4faa18ca0fbb9dffc0ffa5c7de7b9730c535808dfb5285c2a940c7f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "54b1b03073dd116182a93a57f6546a398807ba14e7d604907be73b8532f0e714",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6611bff477ebfac385e8aa60da55c3755598d2fcf1105a5356963ebfca1430d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "86ed33013aff6952ecff85dd699f016d4e76cf6a49a8084c5bcc5f894a3eea95",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ae0a456b0a5b5a05196cf4e6392e597b5a4e99545c6a5254f5ddca6ae6d016a1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "71b4f3a3748cd6843c01e293e701fce769f52381821e21daf2ff4fe9ea57a6f3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c57b7501cd843672550c711a346dd93e9bdc2c97a640874d54b4c9cf4b12ee81",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5d8d0ed06ba655a283edfce38d9b4215f4ce51d320c35b0ce4665dd770365f50",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a1161f6445c68707092f5c86b611b6ed8660aedeb846638c4b37fb1c88b33817",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "010bd52487347602bb3228265c8b8b9e3dfbb895b80ddbef553ae0bb876c108b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a2a78ada26ac2cbf1e86e768f348ef4c4d23697d6d44d652b81dba6c03cfed5a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "reused-verified-segment-checkpoint",
+        "source_sha256": "4ee4c52930d5bf0640e0b0b77eb005986873cfb4314eff5204f8e34538d41960",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5f7732e82351d7d48466fa7f02a97324a188c6a9c873f7b5359aa19dcfa48004",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "93babfec2f0c9778de88e6d0a303448a194353c425497bab45f7ba0a0dbe842d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "639db955cd4a994266e8c924807dd3f54c9a45e05dfa1208170db9d2ab22e0c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2c5f5608468044857434f91288ff1372197a53c2f4505519cba714bbc2ab072f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "1d6f9770502c8c16906d3e64725bb42084f5318c5634f537207b8002f35faf4d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c3d2c04c6fdac9339910832f2f3fbe56c17dbc692d8e26b9bd99aa0b44db4b76",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2432d8605f7550b5ea34b306dba85c5fa49e763adcb078cc8705efc3733a9187",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "88f042037ced18180999a9c1d7ce9b2519eab8d293eab005b1e2126020aaf9ce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9ace05b9348aff2b109ffd545e21e7693613650dbd0e0e2116e76c783dd9e40f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "10bb89e1d2c5d7f15a36677b6f8a3ed8d99718e87ddcf662334a3a024d7f7b36",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "adca58e4c4c83cd586e7500c9e3b80001d4cc147414ef49d9f3b54318fb629b0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e8d53c2221386e75fc1644f4a25bdf9de539530af32c8a6d1f48ffe23bbeb6ed",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "482232ff1ad8aca3b13e243033c6c684b7961da5df9d8076dd2c9fbf7ce70c07",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8ef4195a96e0d5d5f222376808118e030dd00ebb54056c288fd13083081f3223",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d63cbe1d13f088878fdbb9675c04edaf47bc66252ff2c979168e53aa2395ccb1",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "641f642c02e475b5a592d3606ccb4581e3cac720f9e27faec70d6a7ef211e301",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d361ebdfb9b799eb8d850c2f41a5ae85e4449679fbfa741dab3f1d7d41af00d6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "cdf3ed5bbcc21329dcc24e79fb97ce146f0ae4bae0c2e9283545ab818dd7a21e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "34eed2694186eb9ac5930ae3584f9f08a4573958e9f963e94c92ba7f697ec2a2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "427b53a7f8472350d2b4667d8f40cfb4dbf5094c176357a0ac672580049c14d6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "e8bc9b9a8b927bc2dfe40165f78251c8fd1a48fbe0965b7674ded600ace9d1a6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "532b7dc45f17f74fc75580342fb9ff5980572bc64ac27036ba3f4d895972df6b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30e62a6039c636c34d4ebd5d1c42055feee49384cb1909fc342d24d1f3533b54",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "b81187ee1c42ae7b5ac073f32f00eb0a0e35f54a96eaff7ee520ebde3712960b",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "25abf6153fa241b44069ccc859776629045cd9b8d652bcde35fe32a64df0bab0",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "265fda17a34611b1533d8a281ff680dc5791b0ce0a11c25b35e11c8e75685509",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "1248f1cb0f115809c5d603df4ed125489ebc728c6e09537c9c6a7c457e0fbb5c",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c0bc1e08f9743b2d50d5f1607503bf4e849af0e729fca896515bea955d70a33e",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "17d4c23362d0c092ddedf05e37b08507540c5d29d161d185bac6f0a077666fba",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-28T09:20:08Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -27,14 +4750,14 @@
   "source_sha256": "5948096c57963f87c0b4ef4c166e2d4a073553134eb395e14fb7f141971ce24e",
   "status": "partial",
   "translation": {
-    "generated_at": "2026-08-18T17:34:15Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-28T09:20:08Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "34604e17ee5c627d3703e85c62477ad76dfe8c32782513847413d041df33cda5"
+  "translation_text_sha256": "ad718b39fe37fdda7abe7224c7d18d8ceff13781cecbbc2de02fa260a380c55a"
 }
