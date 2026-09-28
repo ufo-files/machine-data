@@ -2,6 +2,35 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_italian_correspondence_date_preserves_its_calendar_value(self):
+        source = 'Roma, 3 dicembre 1975'
+        self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, 'Rome, December 3, 1975')))
+        self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, 'Rome, December 4, 1975')))
+
+    def test_unmanned_and_nothing_ever_preserve_explicit_negation(self):
+        pairs = [('Aeronave não-tripulada.', 'Unmanned aircraft.', 'Manned aircraft.'),
+                 ('Nada nunca acontece.', 'Nothing ever happens.', 'Things happen.')]
+        for source, correct, changed in pairs:
+            self.assertFalse(any(f['check'] == 'negation' for f in compare_translation(source, correct)))
+            self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(source, changed)))
+
+    def test_urls_are_preserved_as_literals_and_changes_are_rejected(self):
+        url = 'https://example.gov.br/gestao-de-pessoas/COMDABRA.pdf?id=12&lang=pt#secao'
+        source = f'Consulte ({url}).'
+        masked, replacements = mask_protected(source)
+        self.assertEqual(list(replacements.values()), [url])
+        self.assertEqual(restore_protected(masked, replacements), (source, []))
+        self.assertFalse(any(f['check'] == 'urls' for f in compare_translation(source, f'See ({url}).')))
+        for target in [url.replace('pessoas', 'people'), url.replace('id=12', 'id=13'), 'See the website.']:
+            self.assertTrue(any(f['check'] == 'urls' for f in compare_translation(source, target)))
+
+    def test_urls_keep_balanced_parentheses_and_repeated_occurrences(self):
+        url = 'https://example.org/Arquivo_(Brasil)'
+        masked, replacements = mask_protected(f'{url}; ({url}).')
+        self.assertEqual(list(replacements.values()), [url])
+        self.assertEqual(restore_protected(masked, replacements)[0], f'{url}; ({url}).')
+        self.assertTrue(any(f['check'] == 'urls' for f in compare_translation(f'{url} {url}', url)))
+
     def test_numbered_placeholder_format_damage_is_recoverable(self):
         for damaged in ['UFO_PROTECTED_001__', '__UFO_PROTECTED_01__', 'UFO-PROTECTED-001', '__UFO PROTECTED 001__']:
             with self.subTest(damaged=damaged):
@@ -38,3 +67,69 @@ class IntegrityRecoveryTests(unittest.TestCase):
 
     def test_explicit_negative_contraction_is_not_lost_negation(self):
         self.assertFalse(any(x['check']=='negation' for x in compare_translation('Não era visível.', "It wasn't visible.")))
+
+    def test_letter_spaced_minutes_are_not_metres(self):
+        source = 'permaneceu a 15 m i n u t o s .'
+        self.assertFalse(any(f['check']=='measurements' for f in compare_translation(source, 'remained at 15 minutes.')))
+        for target in ['remained at 20 minutes.', 'remained at 15 meters.']:
+            self.assertTrue(any(f['check']=='measurements' for f in compare_translation(source, target)))
+
+    def test_enumerated_dates_preserve_middle_days_and_abbreviated_dates(self):
+        source = '22, 23 e 24 de janeiro de 1996; 29 Jan 96'
+        for target in ['January 22, 23 and 24, 1996; January 29, 1996',
+                       'January 22 to 24, 1996; January 29, 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, target)))
+        for target in ['January 22 and 24, 1996; January 29, 1996',
+                       'January 22 to 24, 1996; January 28, 1996']:
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, target)))
+
+    def test_discrete_weekday_dates_do_not_imply_intermediate_days(self):
+        source='20 (sábado) e 22 de janeiro de 1996'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'January 20 and 22, 1996')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'January 20 to 22, 1996')))
+
+    def test_portuguese_miles_and_letter_spaced_date_year(self):
+        source='entre 10 e 12 milhas; 180 milhas'
+        self.assertFalse(any(f['check']=='measurements' for f in compare_translation(source, 'between 10 and 12 miles; 180 miles')))
+        self.assertTrue(any(f['check']=='measurements' for f in compare_translation(source, 'between 10 and 15 miles; 180 miles')))
+        date='30 de j u n h o de 2 0 0 4'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2004')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(date, 'June 30, 2005')))
+
+    def test_letter_spaced_abbreviated_date(self):
+        source='DE 30 J U N 2 0 0 4'
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'June 30, 2004')))
+        self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'July 30, 2004')))
+
+    def test_abbreviated_date_with_portuguese_prepositions(self):
+        for source in ['10 de Mai 96', '10 de Mai. de 1996', '10 Mai 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, 'May 10, 1996')))
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, 'May 11, 1996')))
+
+    def test_cannot_preserves_negation_and_negative_concord(self):
+        pairs = [('Não pode observar.', 'Cannot observe.'),
+                 ('Não pode observar nenhum objeto.', 'Cannot observe any object.')]
+        for source, target in pairs:
+            self.assertFalse(any(f['check']=='negation' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check']=='negation' for f in compare_translation(source, target.replace('Cannot', 'Can'))))
+
+    def test_english_day_first_dates_and_short_years(self):
+        source = '13 Mai 96'
+        for target in ['May 13, 96', '13 May 96', '13 May 1996', 'May 13, 1996']:
+            self.assertFalse(any(f['check']=='dates' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check']=='dates' for f in compare_translation(source, target.replace('13', '14'))))
+        self.assertFalse(any(f['check']=='dates' for f in compare_translation('13 Ago 96', '13 Aug. 1996')))
+
+    def test_polite_pois_nao_is_affirmative_without_hiding_factual_negation(self):
+        self.assertFalse(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "Certainly, let's go ahead.")))
+        self.assertTrue(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "No, let's go ahead.")))
+        self.assertTrue(any(f['check']=='negation' for f in compare_translation('Pois não havia tempo.', 'Because there was time.')))
+
+    def test_exception_phrase_preserves_exception_and_independent_negation(self):
+        source = 'Não houve explicação, a não ser para o tremor.'
+        self.assertFalse(any(f['severity'] == 'error' for f in compare_translation(
+            source, 'There was no explanation, except for the tremor.')))
+        self.assertTrue(any(f['check'] == 'idiomatic-exception' for f in compare_translation(
+            source, 'There was no explanation for the tremor.')))
+        self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(
+            source, 'There was an explanation, except for the tremor.')))

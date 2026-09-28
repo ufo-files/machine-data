@@ -91,12 +91,22 @@ def split_pdf_text(text: str) -> tuple[ExtractedUnit, ...]:
     return tuple(ExtractedUnit(index=index, text=page.strip()) for index, page in enumerate(pages, 1))
 
 
+def reading_order_options() -> list[str]:
+    help_result = run_checked([command("pdftotext"), "-h"], timeout=60)
+    # Recent Poppler can retain literal line-end hyphens in reading order,
+    # including hyphens belonging to URLs and identifiers.
+    return ["-remove-hyphens", "none"] if "-remove-hyphens" in help_result.stdout + help_result.stderr else []
+
+
 def extract_pdf(path: Path, *, work_dir: Path, workers: int, dpi: int, embedded_word_floor: int) -> Extraction:
-    embedded = run_checked([command("pdftotext"), "-layout", str(path), "-"], timeout=300).stdout
+    # Translation needs reading order. Physical layout interleaves independent
+    # newspaper columns into single sentences before segmentation.
+    options = reading_order_options()
+    embedded = run_checked([command("pdftotext"), *options, str(path), "-"], timeout=300).stdout
     if alpha_words(embedded) >= embedded_word_floor:
         return Extraction(
             "document", "embedded-text", "poppler-pdftotext", split_pdf_text(embedded),
-            {"pdftotext": tool_version("pdftotext", "-v")},
+            {"pdftotext": tool_version("pdftotext", "-v"), "text_order": "reading"},
         )
 
     searchable = work_dir / f"{path.stem}.searchable.pdf"
@@ -114,12 +124,13 @@ def extract_pdf(path: Path, *, work_dir: Path, workers: int, dpi: int, embedded_
         ],
         timeout=7200,
     )
-    text = run_checked([command("pdftotext"), "-layout", str(searchable), "-"], timeout=300).stdout
+    text = run_checked([command("pdftotext"), *options, str(searchable), "-"], timeout=300).stdout
     return Extraction(
         "document", "ocr", "ocrmypdf+tesseract-por+eng", split_pdf_text(text),
         {
             "ocrmypdf": tool_version("ocrmypdf"),
             "pdftotext": tool_version("pdftotext", "-v"),
+            "text_order": "reading",
             "tesseract": tool_version("tesseract"),
         },
     )

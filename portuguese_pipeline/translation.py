@@ -14,18 +14,15 @@ from typing import Protocol
 from .qa import compare_translation, mask_protected, restore_protected
 
 
-WORKFLOW_VERSION = "pt-en-translation-prompt/v2"
+WORKFLOW_VERSION = "pt-en-translation-prompt/v6"
 DEFAULT_MLX_MODEL = "mlx-community/aya-expanse-8b-4bit"
 
-SYSTEM_PROMPT = """You translate archival Brazilian Portuguese into faithful English.
-Return only the translation, without notes, markdown, or quotation marks.
-Preserve every placeholder shaped like __UFO_PROTECTED_000__ exactly.
-Preserve proper names, dates, numbers, measurements, coordinates, negation,
-uncertainty, military abbreviations, headings, stamps, classification markings,
-and redaction or illegibility markers. Never infer missing or illegible text.
-Translate OVNI contextually as UFO or unidentified flying object; it is not
-evidence of extraterrestrial origin. Do not strengthen or weaken claims.
+SYSTEM_PROMPT = """Translate the supplied Brazilian Portuguese text into English. Output only the translation.
+Translate only the supplied words. A heading, label, or unfinished sentence must remain a heading, label, or unfinished sentence. Never continue the text, invent an event, or add explanations.
+Keep names, numbers, dates, measurements, coordinates, document identifiers, abbreviations, negation and uncertainty faithful to the source. Preserve placeholders such as __UFO_PROTECTED_000__ exactly.
+When OCR has damaged a word and its reading is uncertain, copy that damaged word exactly. Do not guess its meaning or fill in missing text. Preserve punctuation and redaction markers.
 """
+
 PROMPT_SHA256 = hashlib.sha256(SYSTEM_PROMPT.encode("utf-8")).hexdigest()
 
 
@@ -121,14 +118,41 @@ class MLXBackend:
             add_generation_prompt=True,
             tokenize=False,
         )
+        source_text = prompt.partition("\n\n")[2] or prompt
+        # A short damaged OCR fragment must not produce thousands of tokens.
+        # Leave room for English expansion while retaining the configured cap.
+        output_budget = min(self.max_tokens, max(128, 2 * len(self._tokenizer.encode(source_text)) + 64))
         return self._generate(
             self._model,
             self._tokenizer,
             prompt=formatted,
-            max_tokens=self.max_tokens,
+            max_tokens=output_budget,
             sampler=self._sampler,
             verbose=False,
         ).strip()
+
+
+def retry_chunks(text: str, official_identifiers: list[str] | None = None, max_chars: int = 1200) -> list[str]:
+    """Retain sentence context without a model invocation for each OCR line."""
+    masked, replacements = mask_protected(text, official_identifiers)
+    units = re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-Ÿ("])', masked)
+    words = []
+    # Masked identifiers are single tokens, so boundaries cannot split them.
+    for unit in units:
+        if len(unit) > max_chars:
+            words.extend(unit.split())
+        else:
+            words.append(unit)
+    chunks: list[str] = []
+    current = ""
+    for unit in words:
+        if current and len(current) + len(unit) + 1 > max_chars:
+            chunks.append(current)
+            current = ""
+        current = (current + " " + unit).strip()
+    if current:
+        chunks.append(current)
+    return [restore_protected(chunk, replacements)[0] for chunk in chunks]
 
 
 def translate_text(
@@ -140,19 +164,41 @@ def translate_text(
 ) -> TranslationResult:
     if not text.strip():
         return TranslationResult(text="", status="not-required")
+    if not any(character.isalpha() for character in text):
+        return TranslationResult(text=text, status="not-required")
+    if re.fullmatch(r"(?:https?://|www\.)[^\s]+(?:\n[^\s]+)*", text.strip(), re.I):
+        # A URL-only PDF cell can wrap across lines. Its path is literal data;
+        # retain every character, including ambiguous line-end hyphens.
+        return TranslationResult(text=text, status="not-required")
+    if len(text.strip()) == 1:
+        # Isolated letters can be form labels, initials or OCR fragments.
+        # Preserve the observed character rather than guessing missing context.
+        return TranslationResult(text=text, status="machine-unreviewed")
     masked, replacements = mask_protected(text, official_identifiers)
     prompt = "Translate this text from Brazilian Portuguese to English:\n\n" + masked
     try:
         raw = backend.translate_raw(prompt)
         restored, missing = restore_protected(raw, replacements)
+        original_errors = sum(f.get("severity") == "error" for f in compare_translation(text, restored)) + int(not restored.strip())
+        if missing or original_errors:
+            # Some backends interpret the marker's UFO prefix as content. Give
+            # one literal-source retry, then enforce the same restoration/QA gates.
+            literal_prompt = (
+                "Translate the following Brazilian Portuguese text into English. Copy every URL, "
+                "filename, identifier, and official abbreviation exactly as written. "
+                "Do not summarize. Return only the translation.\n\n" + text
+            )
+            literal, literal_missing = restore_protected(backend.translate_raw(literal_prompt), replacements)
+            literal_errors = sum(f.get("severity") == "error" for f in compare_translation(text, literal)) + int(not literal.strip())
+            if (len(literal_missing) <= len(missing) and literal_errors <= original_errors
+                    and (len(literal_missing) < len(missing) or literal_errors < original_errors)):
+                restored, missing = literal, literal_missing
         # Long paragraphs can cause the model to drop placeholders or summarize
         # clauses. Retry in sentence-sized context, retaining all QA checks.
         if _allow_chunk_retry and len(text) > 400 and (
-            missing or compare_translation(text, restored)
+            not restored.strip() or missing or any(f.get("severity") == "error" for f in compare_translation(text, restored))
         ):
-            sentences = re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ÿ(\"])", text)
-            if len(sentences) == 1:
-                sentences = [line for line in text.splitlines() if line.strip()]
+            sentences = retry_chunks(text, official_identifiers)
             if len(sentences) > 1:
                 parts = [translate_text(backend, sentence,
                          official_identifiers=official_identifiers,
@@ -162,6 +208,8 @@ def translate_text(
                     if not any(finding.get("severity") == "error"
                                for finding in compare_translation(text, combined)):
                         return TranslationResult(text=combined, status="machine-unreviewed")
+        if not restored.strip():
+            return TranslationResult(text="", status="failed", error="translator returned empty output")
         if missing:
             return TranslationResult(
                 text=restored,

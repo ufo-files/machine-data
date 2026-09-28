@@ -12,7 +12,8 @@ REDACTION = re.compile(
     r"|<(?:ileg[ií]vel|illegible|redacted)>|█+",
     re.IGNORECASE,
 )
-FILENAME = re.compile(r"(?<![\w./-])[\w .()&'-]+\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
+FILENAME = re.compile(r"(?<![\w./-])[\w()&'-]+(?:[ .][\w()&'-]+)*\.(?:pdf|jpe?g|png|tiff?|mp4|mov|mkv|mp3|wav)(?!\w)", re.I)
+URL = re.compile(r"\b(?:https?://|www\.)[^\s<>\"'“”‘’]+", re.I)
 IDENTIFIER = re.compile(r"\b(?=[A-Z0-9./-]{4,}\b)(?=[A-Z0-9./-]*\d)[A-Z][A-Z0-9]*(?:[./-][A-Z0-9]+)+\b")
 NUMERIC_IDENTIFIER = re.compile(r"(?<![\d/])\d{1,6}/(?:19|20)?\d{2}(?![\d/])")
 OFFICIAL_CODE = re.compile(
@@ -34,9 +35,9 @@ COORDINATE = re.compile(
 )
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
-    r"(?:[ \t]+(?:a|to)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
-    r")?[ \t]*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
-    r"quil[oô]metros?|kilometers?|feet|foot|miles?)(?!\w)",
+    r"(?:[ \t]+(?:a|to|e|and)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
+    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
+    r"quil[oô]metros?|kilometers?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
 NUMBER = re.compile(
@@ -45,7 +46,7 @@ NUMBER = re.compile(
 )
 DATE_NUMERIC = re.compile(r"(?<!\d)(?:\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{2}|\d{4})|(?:19|20)\d{2}-\d{2}-\d{2})(?!\d)")
 DATE_NAMED_PT = re.compile(
-    r"\b(\d{1,2})\s+de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+((?:19|20)\d{2})\b",
+    r"\b(\d{1,2})[º°o]?\s+(?:(?:dias?\s+)?do\s+m[eê]s\s+)?de\s+(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:do\s+ano\s+)?de:?\s+((?:19|20)\d{2})\b",
     re.I,
 )
 DATE_NAMED_EN = re.compile(
@@ -58,11 +59,11 @@ NAME = re.compile(
 )
 PT_NEGATIONS = {
     "não": re.compile(
-        r"\b(?:not|no|never|without|neither|nor|unidentified|unknown|unconfirmed|unverified|"
-        r"undetected|unauthorized|unavailable|impossible|invisible)\b",
+        r"\b(?:not|no|never|cannot|without|neither|nor|unidentified|unknown|unconfirmed|unverified|"
+        r"undetected|unauthorized|unavailable|impossible|invisible|unmanned|non[- ]monetary)\b",
         re.I,
     ),
-    "nunca": re.compile(r"\bnever\b", re.I),
+    "nunca": re.compile(r"\b(?:never|nothing\s+ever|not\s+ever)\b", re.I),
     "sem": re.compile(r"\b(?:without|lacking|absent|free of)\b", re.I),
     "nenhum": re.compile(r"\b(?:no|none|neither)\b", re.I),
     "nenhuma": re.compile(r"\b(?:no|none|neither)\b", re.I),
@@ -78,12 +79,18 @@ EN_MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
 }
+IT_MONTHS = {
+    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5, "giugno": 6,
+    "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
+}
 UNIT_ALIASES = {
     "metro": "m", "metros": "m", "meter": "m", "meters": "m", "m": "m",
     "quilômetro": "km", "quilômetros": "km", "kilometer": "km", "kilometers": "km", "km": "km",
     "pé": "ft", "pés": "ft", "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
     "milímetro": "mm", "milímetros": "mm", "millimeter": "mm", "millimeters": "mm", "mm": "mm",
+    "milha": "mi", "milhas": "mi", "mile": "mi", "miles": "mi",
+    "minuto": "min", "minutos": "min", "minute": "min", "minutes": "min",
     "kg": "kg", "g": "g", "m/s": "m/s", "km/h": "km/h", "mph": "mph",
 }
 GENERIC_NAME_WORDS = {
@@ -97,6 +104,17 @@ NAME_PREFIX = re.compile(
 )
 
 
+def _urls(text: str) -> Counter[str]:
+    values = []
+    for match in URL.finditer(text):
+        value = match.group(0).rstrip(".,;")
+        for closing, opening in ((")", "("), ("]", "[")):
+            while value.endswith(closing) and value.count(closing) > value.count(opening):
+                value = value[:-1]
+        values.append(value)
+    return Counter(values)
+
+
 def protected_tokens(text: str, official_identifiers: list[str] | None = None) -> list[str]:
     tokens: set[str] = set()
     for pattern in (
@@ -104,6 +122,7 @@ def protected_tokens(text: str, official_identifiers: list[str] | None = None) -
     ):
         tokens.update(match.group(0) for match in pattern.finditer(text))
     tokens.update(match.group(1) for match in CALLSIGN.finditer(text))
+    tokens.update(_urls(text))
     for value in official_identifiers or []:
         if value and value in text:
             tokens.add(value)
@@ -183,8 +202,73 @@ def _names(text: str) -> set[str]:
     return values
 
 
+def _date_spacing(text: str) -> str:
+    # OCR sometimes separates characters within an otherwise explicit date.
+    # Normalize only full dates and known month names, never ambiguous fragments.
+    text = re.sub(r"\bagôsto\b", "agosto", text, flags=re.I)
+    for month in PT_MONTHS:
+        letters = r"[ \t]*".join(re.escape(letter) for letter in month)
+        text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
+    text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
+    text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12](?:[ \t]+\d){3})\b",
+                  lambda match: match.group(1) + re.sub(r"[ \t]", "", match.group(2)), text, flags=re.I)
+    spaced_abbreviations = "|".join(r"[ \t]*".join(name[:3]) for name in (*PT_MONTHS, *EN_MONTHS))
+    text = re.sub(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]+(" + spaced_abbreviations + r")\.?[ \t]+((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])",
+                  lambda match: re.sub(r"[ \t]", "", match.group(1)) + " " + re.sub(r"[ \t]", "", match.group(2)) + " " + re.sub(r"[ \t]", "", match.group(3)), text, flags=re.I)
+    spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
+    return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
+
+
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # Enumerated days and inclusive ranges must preserve every stated day.
+    pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
+    en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:19|20)\d{2})\b", re.I)
+    def add_list(match: re.Match[str], portuguese: bool) -> str:
+        days, month, year = match.groups() if portuguese else (match.group(2), match.group(1), match.group(3))
+        month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
+        for day in re.findall(r"\d{1,2}", days):
+            values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
+        return ""
+    text = pt_list.sub(lambda match: add_list(match, True), text)
+    text = en_list.sub(lambda match: add_list(match, False), text)
+    # English dates may retain the source's two-digit year and day-first order.
+    text = re.sub(
+        r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{2})\b",
+        lambda match: match.group(1) + " " + match.group(2) + ", "
+        + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
+        text, flags=re.I,
+    )
+    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:19|20)\d{2})\b", re.I)
+    en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:19|20)\d{2})\b", re.I)
+    def add_range(match: re.Match[str], portuguese: bool) -> str:
+        first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
+        month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
+        inclusive = re.search(r"\b(?:a|to|through)\b", match.group(0), re.I)
+        days = range(int(first), int(last) + 1) if inclusive and int(first) <= int(last) else (int(first), int(last))
+        for day in days:
+            values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
+        return ""
+    text = pt_range.sub(lambda match: add_range(match, True), text)
+    text = en_range.sub(lambda match: add_range(match, False), text)
+    abbreviations = {name[:3]: number for name, number in PT_MONTHS.items()}
+    abbreviations.update({name[:3]: number for name, number in EN_MONTHS.items()})
+    abbreviations.update(PT_MONTHS)
+    abbreviations["marco"] = 3
+    abbreviations.update(EN_MONTHS)
+    # Brazilian correspondence files can contain original Italian letters.
+    abbreviations.update(IT_MONTHS)
+    abbreviation = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?[ \t]+(?:day[ \t]+of[ \t]+|de[ \t]+)?(" + "|".join(abbreviations) + r")\.?\s+(?:de\s+)?((?:19|20)?\d{2})\b", re.I)
+    def add_abbreviation(match: re.Match[str]) -> str:
+        day, month, year = match.groups()
+        # A volume number beside a month-only publication date is not its day.
+        if re.search(r"\bvol(?:ume)?\.?\s*$", match.string[:match.start()], re.I):
+            return match.group(0)
+        if len(year) == 2:
+            year = ("20" if int(year) < 50 else "19") + year
+        values[f"{int(year):04d}-{abbreviations[month.casefold()]:02d}-{int(day):02d}"] += 1
+        return ""
+    text = abbreviation.sub(add_abbreviation, text)
     for match in DATE_NUMERIC.finditer(text):
         raw = match.group(0)
         if "-" in raw and raw[:4].isdigit():
@@ -222,13 +306,20 @@ def _number_value(value: str) -> str:
 
 def _measurements(text: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # OCR letter spacing in a duration must not become the metre abbreviation.
+    text = re.sub(r"\bm[ \t]+i[ \t]+n[ \t]+u[ \t]+t[ \t]+o(?:[ \t]+s)?\b",
+                  "minutos", text, flags=re.I)
+    # Keep OCR spaces after decimal/grouping commas inside the same value.
+    text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     for match in MEASUREMENT.finditer(text):
         raw = match.group(0)
         number_match = re.match(r"\d+(?:[.,]\d+)?", raw)
         unit_match = re.search(r"([A-Za-zÀ-ÿ/]+)\s*$", raw)
         if number_match and unit_match:
             unit = UNIT_ALIASES.get(unit_match.group(1).casefold(), unit_match.group(1).casefold())
-            values[f"{_number_value(number_match.group(0))} {unit}"] += 1
+            numbers = re.findall(r"\d+(?:[.,]\d+)?", raw[:unit_match.start()])
+            value = " to ".join(_number_value(number) for number in numbers)
+            values[f"{value} {unit}"] += 1
     return values
 
 
@@ -247,8 +338,12 @@ def _remove_exact_numeric_dates(source: str, target: str) -> tuple[str, str]:
 
 def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     findings: list[dict[str, object]] = []
-    date_source, date_target = _remove_exact_numeric_dates(source, target)
+    marker = re.compile(r"(?<!\w)_*UFO[ _-]*PROTECTED[ _-]*(\d{1,3})_*(?!\w)", re.I)
+    if Counter(marker.findall(target)) - Counter(marker.findall(source)):
+        findings.append({"check": "unresolved-placeholder", "severity": "error", "status": "unexpected-derived-marker"})
+    date_source, date_target = _remove_exact_numeric_dates(_date_spacing(source), _date_spacing(target))
     for name, source_values, target_values, severity in (
+        ("urls", _urls(source), _urls(target), "error"),
         ("dates", _dates(date_source, language="pt"), _dates(date_target, language="en"), "error"),
         ("measurements", _measurements(source), _measurements(target), "error"),
         ("coordinates", _coordinates(source), _coordinates(target), "error"),
@@ -266,7 +361,10 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
                 "added_in_translation": sorted(added),
             })
 
-    if TRANSLATOR_COMMENTARY.search(target):
+    def commentary_markers(text: str) -> Counter[str]:
+        return Counter(re.sub(r"\s+", " ", match.group(0)).strip().casefold()
+                       for match in TRANSLATOR_COMMENTARY.finditer(text))
+    if commentary_markers(target) - commentary_markers(source):
         findings.append({
             "check": "translator-commentary",
             "severity": "error",
@@ -286,9 +384,38 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         })
 
     source_folded = source.casefold()
+    exception_phrase = re.compile(r"\ba\s+não\s+ser\b")
+    exception_count = len(exception_phrase.findall(source_folded))
+    if exception_count:
+        # This phrase introduces an exception rather than another denial.
+        # Still require an explicit equivalent so omitted exceptions fail QA.
+        equivalents = len(re.findall(r"\b(?:except|unless|other than|apart from|save for|if not)\b", target, re.I))
+        if equivalents >= exception_count:
+            source_folded = exception_phrase.sub("", source_folded)
+        else:
+            findings.append({"check": "idiomatic-exception", "severity": "error",
+                             "status": "mismatch", "source_marker": "a não ser"})
+    polite_reply = re.compile(r"\bpois\s+não(?=\s*[,!?]|\s*$)")
+    polite_count = len(polite_reply.findall(source_folded))
+    if polite_count:
+        # As a standalone reply, "pois não" is an affirmative courtesy.
+        # Do not mistake its não for a factual negation in the sentence.
+        source_folded = polite_reply.sub("", source_folded)
+        equivalent_count = len(re.findall(r"(?:^|[.!?]\s*)\s*(?:well,\s*)?(?:certainly|of course|yes|sure|go ahead|at your service)\b", target, re.I))
+        if equivalent_count < polite_count:
+            findings.append({"check": "idiomatic-affirmation", "severity": "error",
+                             "status": "mismatch", "source_marker": "pois não"})
     for marker, target_pattern in PT_NEGATIONS.items():
         count = len(re.findall(rf"\b{re.escape(marker)}\b", source_folded))
         translated_count = len(target_pattern.findall(target))
+        if marker in {"nenhum", "nenhuma"}:
+            # Portuguese negative concord corresponds to English "not ... any".
+            # Require the negation and "any" in the same bounded clause; a
+            # positive "any" or an unrelated negative sentence is insufficient.
+            translated_count += len(re.findall(
+                r"\b(?:not|never|cannot|without|\w+n['’]t)\b[^.!?;\n]{0,160}\bany\b",
+                target, re.I,
+            ))
         if marker == "não":
             translated_count += len(re.findall(r"\b\w+n['’]t\b", target, re.I))
         if count and translated_count < count:
