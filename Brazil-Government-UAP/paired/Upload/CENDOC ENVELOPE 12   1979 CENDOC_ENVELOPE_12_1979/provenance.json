@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "61af0c92e9903fa5d5455dacd91190f4da14f816634a76886d9817f178df2f58",
+  "canonical_text_sha256": "4f9d814354744c617f44d79cad0f0f15594bd2503b2f4bb05e4d11472f098f9d",
   "document_id": "doc-f081d786e5525ceb9ee62d11",
   "extraction": {
     "engine": "ocrmypdf+tesseract-por+eng",
@@ -16,6 +16,619 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 672,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-18T14:00:46Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4019c3e0c950a7e85ce6ee8403fdd7cf08dade1a44ff9b2519a0914ecdc34446",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4ed38a60d6298ca63ac01a432ddb72ce458f1e6adc5f83d846da90f0003f6daa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "8a83762d87e153258a5b0220abca4c39ecb81c8c4b5e42554d3cfdeea7803a5b",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "reused-cross-document-translation",
+        "origin": "/Users/ufo-files-agent/Library/Application Support/ufo-files/repair-2026-09-27/translation-staging/portuguese/1e48f3716eb25482f5e17881/transcripts/Brazil-Government-UAP/paired/Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979/en/translation.json",
+        "prior_translation_provenance": {
+          "method": "reused-existing-translation",
+          "prior_translation": {
+            "generated_at": "2026-08-18T14:00:46Z",
+            "method": "local-mlx-lm",
+            "model": "mlx-community/aya-expanse-8b-4bit",
+            "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+            "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+            "review_status": "partial",
+            "runtime_version": "0.30.7",
+            "workflow_version": "pt-en-translation-prompt/v1"
+          }
+        },
+        "source_sha256": "af2761a5085f49a1e368c8b706aaecce640a0a35abcc394bd837bbdedcab89a0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d10b36aa74a59bcf4a88185837f658afaf3646eff2bb16c3928d0e9335e945d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3d8e60c6a239a10edbcac9b7b8ee54cea6aaa8f567657e878de98a0bbd1ecd0e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b5f9300832cd9823f5067da62130d7c341ac29e76cc7d92062ca778b4c205ff0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "71e5799036417895747cd84beed81032072fcf8137412f1ec035f99a16dac9eb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9bee5c252e1479e747c2896f9833ffee377b0db3ca63cbbf857db7e9244ec5a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d14ad8c42be7942c13fbfde0f390b0d3739363d8c337a5f5aa25b9faa513df86",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "91abb0415b2fb59cc3f05eef526be870eca79751ce569fb10aef0f3156e9058e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "62fe30db2ca78c6fb47ea65022fd9bf8684b4935c6a4f9924927010cf87bac7f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "584aa27b3abb4f6e0f599f11f3e37217a399caf24d528d3e3b03f621d7e94f23",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6268f1b91edb9f421210054bb8398b922a2c355933689bbca17fd37186c51e81",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3da51f6bd78b7cb67f619a4c7a66775ac320d3ef56c6c0bddf654955ab235a9e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "167b7cad7e3d0f0c6d4051ba53d4af8b87ec66cfdf1d32abfde56b5a5b16e1b3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "682aaf97fbab96fb0841ac1ed69be028a54e4a1338e58c98f56af804e7609a54",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "08e4a699300d333203845c499c8c6ebd4a8bc713d40887d8d2de59fb31ef924c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8686168f9dd99b36cd344f1e481fbd07322f45f13734fce089ea8bf283baa527",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d62639ad95057443645822c81493b7a176ff9ac16caab46a8dee3fcdf27b2b82",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c4c1a7c18bb72b5850668b0ebe8b672e457ed10b1744264659d55d57ce02d03e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d5f233eb420707ff4437835674ff58a17f856d577cc6ab22a84a6489f8023dd7",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a94852d08e6a244e944f540fd151032635a793b1819847e598fda6a69f820e02",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b719ecc8090fc9ed87f71c8c574e7caefaf9e9eede9ce97b513206f5294c628a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9e17ca654e181747fcde65faf7ab055f59f8723aa8c526511063da30f4d80842",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "de28440fe65e5fdb6952c8b3f4e1ec92e258456f8e48e5f27e4dcb64c1f3f636",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dbb9c86b4e6313376fdcd74b9533854d119b178918d57e8357a160707c087864",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3ccfe462f714245203a1ce119cac033b6516ece3fc653ccc61a4f26e5f8b249c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "825a6780815b2d22a48bdd8ad388519ade4e3e710dc0125e874e20431172d0b6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "69f548ba05211da496ec1012a43975942563f51c5b82a3edba51f10a704bd5a8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "063e5cf5e72a75f99ba2389f800f371fc209b34d99c4c2b313f674056b8ce95c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "67ed39ed5c0ab4c3047cd71c99877d44112ce40c93d8b1e0c6dd20908d8b5378",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "41f3bde3a31630b8b699b1714164559b4189ce497cbf9816d7f23c7301b35771",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5a8c70fc632718c2c4e20fbd466bddeb61a1059c9e4c42798fe23b50c2b3f8e4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a4b71245035651bb97c0b9e3a224dca022d8ab0136683951710d280ff6ce799f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "df4c337641a1ee1e12ad4c2693dd2036e5dc8f844b30b8527b91fa04de04691d",
+        "status": "failed-protected-token-check"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c97987f6792a9b3ced1f473ce4290ca39fb54f54cdb07b624d0e8bf5bcd79c4d",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "60b37e7900c1c1677ee0440e48ff9dfdfa83e7e7117b85cc009841ef97e8830b",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5b5bbbb7b8871b3c38bd379a052be928a308f0f96a7d65d14789643086f76d31",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "9e0cc9817299424f6a87ef479120751b0201aebb8f23e97f0d33d2a93fa229f5",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "19fdf926696c55bd9902e650f755e237e3982694ed7522608765d0d090b0ae80",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fa8149768bf13831f03a87ca885095b67453e3b306ad4647629f04f9d2b4c840",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "fd9c6bdc020ba76047dd020ab799ce4b9058e3541d807e6adc87d7d39f3a7af9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "f8f011d7015cdb175b215823129d1b796c86004e5edd45fde7847759a59303c7",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "cc7e4412564ba8a761bd32ab4cc6086bac3c2c9e580367e0b0eb32a4316f9154",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "6b009cc13d92705ee1b8108b84bc735bfc6c25b8916fcbe7fe9bf23206807718",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f815557771be93b4af6736b2d85c7ba33389527653add6e24862e420baa85cc4",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6eb7efd98dad31d032bf91d8050093b7521c351e99c765e4c7c5181208d8285c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9953bc1d34c6ace1750ca143bbf743f1e6968721b93f0c0d5c47df3578095574",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c40d4d890965ac567e740ac1c725d268aeba39378120071054790e72e8aede46",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "33835b8c5d38db0c0a289fe75d541cd93d27647e149439e718affe23276c4e7a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9e78935f27e4c9a28fbb7d4f25abf4569770d62759909d1a76e523760089e495",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2670bddd0f4508dd1b5be3a3329334eba597ec450f5d806b73036e77577eea4b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "07e83e3f7f1d21d72c7bc7bfe4ad52a3e9b6b6a156611e5e9cfe9fcd9fce277d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "87049e3b443fb009c83c3ebf2252d0231345b85d18e62d60cf37f879f5c87ca7",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "c0626a8fad8584905b791367cf77f4c2781320220c3f35706e5ac618cd5e47a5",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "4d3ee9b787a2cb63573b6646d1542c5ca6885a69d5537e93516a304c3404d2e7",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a2344596a1b32f61a7a8cc1ac4539bcd218ed6aa66a37dd7b68e94570a3fb175",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "951745659646ff5d3f308f736e31c603426a9c453a7bded577a668eb166afa8b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "928a356f096357d0855d17aabe37ccc2a04cddd3c9763fdcd03946e7d0d6d783",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "11a17d2c36d3f9053b4f7ceba409c67b32525fbea4be01459169b8bf5336e7bd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "3eae0dcf197950bbb0abad47f9ef0ab2a9cfaa85e54b79dec5048776a87efede",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "3819adc6fbe04b99b0a27a169acabbbf98463ad2f412a71847a7bbc8adb04d90",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "81124fb416d6df5f1c918474bf9b3663f203324fa8132b7b9b7cb37af3cadc93",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a755f65d4e5201d92b6f264d1508ea0bec9913dd7b20a96ebde25de3cda84a84",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "b723bfbcb0eb3d25bdbf4927afcf9098ce2e96feb3391225515aa0032ad2cff4",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "1ea4ca1dc75cf28921e51eee21f73c7a49a1f8fe75a6bba55fde691ccdc5b43b",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e92ca97780ce05007e50dde5f81172583b5ae7340dbfbc2f26e158bb22b31c17",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "c67132d5811335d6b43d56b7d33c727bb3f8fe8216f23e0fbe41d143e9189c0c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f72b33b29d90c48a1c9c303d844bd7b18a0d704bc6daa316b636f0a13a736e5a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "227b7594db07bddc74016efac1d75f77156149eecec8bf08f278cc99044b325a",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "75b48f6e62b70e53ae55f522289c37a1e46481cfffe7dd72c6edd88b04112bba",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9506568d070dae04f2890124815ae5284ef1f39a6710f96f58107a45c2528d49",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "4ed18591da6cbd9489eed7f83c75745f42a563cfd6eb8e354ec046f13afb9fe8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "856a6cc83cfd9597138edf2b88aa95da3c3cfd2aef904efcea5b776706a60167",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a12148d9efa72d7f7deb45f0dbff518eafe1d914ec2a8b3fbd3dec69607fda8b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "72dfcfb0c470ac255cde83fb8fe38de8a128188e03ea5ba5b2a93adbea1062fa",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "0e158b0e5f66dd78109455ec2ea8beede9ee18c04f9ca8dcf4ef84f6774e2983",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "bd8ce6fa09a69cf44aac366cfabf13d99c34865fa004c0353d894bb8e99e4f57",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "4bd9f526eb7b5c555d7f54939f5adc344ef9b1ad93235648fd6d2634b31cce58",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "41d858b13122c7583edaae1dcf04b095bf4cdf8962221a95e5fb3de44c525117",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "d4a45338d7b77c7d274eea346d10303fdb9bcc6f9efd52bfdd6b27ce5d58328d",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9dc6b1ec20edca19405378dcbe5a04ab018bb3e8b4d2209e3e63cc86d7465a7e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7e053e042ffeb5b451a265e50a22b1426dee7c98f8820739ec02a93277a7e79a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ab0b40b4e8493a130e1e15e038dd8f0262a6ba3ebeb3c2f011ace9dcb5213a25",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "609dfb7e85a96aa219cb51293586f7c323c5c450dae3e53e1468bdd2f306e43d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "d39f80064fd337637a83eaa05b737fa9efe7db9bf2ecb07b1f35c5c7f973179a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ab0b40b4e8493a130e1e15e038dd8f0262a6ba3ebeb3c2f011ace9dcb5213a25",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "301fb1e8a1950356ffbd71ebcbf40606453574b9fd8120df5cd8a18b9dabead8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "0bb7130a5fa81f40518c7e930dfd817084087d050111dba66a38047c94fa5581",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3ba1c5ebbc87263115260855e0f5a948937f059b4e0a153af9d9278f4a5b34be",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "89454b8c6511c09c31a2e756d753b0f8af4256b3041b5bb82ffb05cf13848788",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "0d26111b9ef5e6c6521f664e4babd0188e37c7a86586742821aa20ffe08e76f8",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "394785b6e19421b0bc831d6c5716667b48dec7e41c6838e09869295aac035906",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-28T18:26:09Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -24,17 +637,117 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 672,
   "source_bytes": 48125177,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "aparecem de novo no Seridó potiguar\nNATAL — Os objetos voadores não identificados, assunto bastante discutido em todo o mundo, parece que resolveram transferir a sua zona de ação para o Rio Grande do Norte. Depois das aparições anunciadas no início deste mês, na rodovia BR - 206, nas proximidades da cidade de Macaíba, 30 kms de Natal, novos “discos\n[...]\nmentado por muitos funcionários da Telecomunicações do Rio Grande do Norte (Telern), sr. Ademar Eduardo, foi um dos que mais falou sobre a descoberta, declarando haver conversado com Hiroito Galvão e que este havia confirmado a versão corrente na cidade. Disse ainda Ademar Eduardo que no mesmo dia e horário em",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "aparecem |\n                   de. novo| no Seridó potiguar\n     ent           NATAL —\" Os objetos vation nao mentado por muitos funcionarios da Tele-\n                    identificados, assunto bastante discutido                 comunicações   do        Rio Grande do Norte\n     ac\n                   “em todd o mundo, parece que resolveram (Telern), sr. Ademar Eduardo, foi um dos                              4\n                    transferir a sua zona de ação para o Rio que mais falou sobre a descoberta, de-                              +\n     in             Grante do Norte. Depois das aparições                     clarando Haver conversado com Hiroito              4\n                 anunciadas no inicio deste més, na rodovia                   Galvão e que este havia confirmado a ver.          *\n               “ BR - 206. nas proximidades da cidade de                      são corrente na cidade. Disse ainda Ademar\n                 Macaiba, 30 kms de Natal, novos “discos                      Eduardo que no mesmo dia e horário em              :\n     meo",
+      "original_text_sha256": "d14ad8c42be7942c13fbfde0f390b0d3739363d8c337a5f5aa25b9faa513df86",
+      "page": 5,
+      "segment_id": "seg-f6cd7b7030896675fad5f35e",
+      "source_page_render_sha256": "766aa5049a0887479f74b72735973bb99530a4728a566ac53706968b3ae9ab7d",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "appear again in the Seridó region of Rio Grande do Norte\nNATAL — The unidentified flying objects, a much-discussed topic throughout the world, seem to have decided to move their area of activity to Rio Grande do Norte. After the sightings announced early this month on highway BR - 206 near Macaíba, 30 kms from Natal, new “flying\n[...]\ndiscussed by many employees of Telecomunicações do Rio Grande do Norte (Telern), Mr. Ademar Eduardo was among those who spoke most about the discovery, saying he had spoken with Hiroito Galvão, who confirmed the account circulating in town. Ademar Eduardo also said that on the same day and at the same time that",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "voadores” foram observados, desta feita na cidade de Acari, localizada a 200 kms. da Capital potiguar.\nDuas pessoas de reconhecida idonei-\n[...]\nque os dois irmãos denunciaram o aparecimento do “disco-voador”, outro morador local, sr. Fernando Etelvino, declarou haver avistado um objeto estranho sobre-",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Eee\n                 voadores: foram'observados, desta feita na                   que os dois irmãos denunciaram o apareci-\n                 cidade 'd> Acari, localizada a 200 kms. da                   mento do “disco-voador”, outro morador\n                 Capital potiguar.                                            local, sr. Fernando Etelvino, declarou ha-\n                     Duas pessoas de reconhecida idonei-                      ver avistado um objeto estranho sobre-           —",
+      "original_text_sha256": "91abb0415b2fb59cc3f05eef526be870eca79751ce569fb10aef0f3156e9058e",
+      "page": 5,
+      "segment_id": "seg-543b5fcdf7d3a9432341ceed",
+      "source_page_render_sha256": "766aa5049a0887479f74b72735973bb99530a4728a566ac53706968b3ae9ab7d",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "saucers” were observed, this time in Acari, 200 kms from the capital of Rio Grande do Norte.\nTwo people of recognized integri-\n[...]\nthe two brothers reported the appearance of the “flying saucer,” another local resident, Mr. Fernando Etelvino, said he had seen a strange object flying over-",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "durante 100 quilômetros, dois casais idosos, que se dirigiam de Fortaleza para Aracaju,\n[...]\nver de perto como era. Aí ele voltou para a estrada e fazia menção de cair mas logo se",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "ver de perto como era. Aí ele voltou para a\n        durante 100 quilémetros, dois casgi idosos,        estrada e fazia ménção de cair mas logo be ©\n    | que se dirigiam ce Fortaleza para Aracaju, ,\n                                                                                                                           CV",
+      "original_text_sha256": "167b7cad7e3d0f0c6d4051ba53d4af8b87ec66cfdf1d32abfde56b5a5b16e1b3",
+      "page": 6,
+      "segment_id": "seg-cd63ddc59df995d4235b0e37",
+      "source_page_render_sha256": "992a2d3163e365d9020d0d8b53159e1ee650f7df1d026f94bb1ded34fc03ce52",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "for 100 km, two elderly couples traveling from Fortaleza to Aracaju,\n[...]\nsee up close what it was like. Then it returned to the road and seemed about to fall, but soon it",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "muitas coisas estranhas aqui neste lugar”. No entanto, ele não acredita que sejam discos-voadores. “Isso só existe no cinema”.\n[...]\nmente pararam de funcionar. Neste momento, os ocupantes do veículo entraram em pânico, mas surgiu um ônibus, o disco",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "muitas cóisas estranhas aqui neste jugar’?Mi\n                                                  - mente pararam de funcionar. Neste mo- '-\n        “No entanto, ele . não acredita que sejam          mento, ós ocupantes do veículo entsaram\n        discos-voadores.. “Isso, só existe no cinema”,    “em pânico, mas surgiu um ônibus, o'disco",
+      "original_text_sha256": "682aaf97fbab96fb0841ac1ed69be028a54e4a1338e58c98f56af804e7609a54",
+      "page": 6,
+      "segment_id": "seg-7c0e2d70f4da9e6f976daf5c",
+      "source_page_render_sha256": "992a2d3163e365d9020d0d8b53159e1ee650f7df1d026f94bb1ded34fc03ce52",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "many strange things here in this place.” However, he does not believe they are flying saucers. “That only exists in the movies.”\n[...]\nly stopped working. At that moment the vehicle's occupants panicked, but a bus appeared, the saucer",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "Marinésio Pereira da Silva, bombeiro do Posto Esso pertencente a Humberto Pessoa, contou que estava acabando de ver um filme na televisão, “lá por uma hora da manhã, quando chegou a caravan com os quatro velhinhos, apavorados, tremendo e quase sem fala, dizendo que estavam sendo perseguidos por três discos-voadores. Foi aí\n[...]\napavorados, com medo de prosseguir viagem”.\nMilton diz que também viu o disco. “Era uma luz maravilhosa; parecia um arco-íris. Na hora não senti nenhum medo. Aliás, queria até que eles descessem aqui para tomar uma cerveja e poder levar um papo com eles”.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": ": Merinésio Pereira da Siva, ‘Setobaies           apavorados, com medo de pr\n                                                           gem\":                                    ae\n                                                                                                         ir via- .\n                                                                                                           Êo\n        do Posto Esso pertencente a Humberto Pes-\n        Boa, contou que estava acabando de ver um .-                 Milton diz que também: viu. o dísco.\n        filme na televisão, “lá por uma hora da ma-*       “Era        uma        luz   maravilhosa; parecia um\n    : nha, quando’ chegou a caravan com os                 arco-íris. Na hora não senti nenhum medo,\n      quatro velhinhos, apavorados, tremendo e             Alias, queria até que eles descessem aqui\n    | quase sem fala, dizendo que estavam sendo            para tornar uma cerveja e poder levar um\n    “ perseguidos por três discos-voadores. Foi aí         papo com eles”.",
+      "original_text_sha256": "08e4a699300d333203845c499c8c6ebd4a8bc713d40887d8d2de59fb31ef924c",
+      "page": 6,
+      "segment_id": "seg-343c16b226031799103706cf",
+      "source_page_render_sha256": "992a2d3163e365d9020d0d8b53159e1ee650f7df1d026f94bb1ded34fc03ce52",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "Marinésio Pereira da Silva, an attendant at the Esso station belonging to Humberto Pessoa, said he was just finishing watching a film on television, “around one in the morning, when the Caravan arrived with the four elderly people, terrified, trembling and almost without speech, saying they were being pursued by three flying saucers. That was when\n[...]\nterrified, afraid to continue the journey.”\nMilton says he also saw the saucer. “It was a wonderful light; it looked like a rainbow. At the time I felt no fear at all. In fact, I even wanted them to come down here for a beer so I could have a chat with them.”",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "GRANDE RIQUEZA\n[...]\ncom algo estranho: mais de dois mil metros quadrados de buraco, sendo que até um dia antes nada, absolutamente nada, existia no local.\nO fato foi levado até Washington Barbosa, que esteve no local e observou que alguma coisa totalmente estranha havia ocorrido, sem no entanto chegar a qualquer conclusão.\nOS AMIGOS FORAM VER\nWashington Barbosa nada pôde fazer a não ser comentar o fato com os amigos, sendo que a maioria deles levava o caso em brincadeira. Alguns poucos\n[...]\ngua conseguiria derrubar tantas árvores e muitas delas ficaram soterradas a vários metros de profundidade, enquanto outras quebradas ao meio.\nApesar de muita brincadeira com relação ao fato, inclusive não faltou quem dissesse que um pedaço do Skailab caíra no local, ou mesmo quem afirmasse que uma nave espacial houvesse pousado ali. A verdade é que um fenômeno estranho aconteceu.\nA REPORTAGEM\nMunidos de máquinas fotográficas, os repórteres do Correio do Planalto estiveram no local, sendo\n[...]\naproximadamente 300 caminhões de terra foram atirados a uma distância de duzentos metros.\nImensas árvores soterradas na areia, que chega a ter a profundidade de vinte metros, enquanto outras árvores foram atiradas a diversas distâncias e outras mais apresentam-se quebradas ao meio, numa resistência que somente uma máquina do tipo trator de esteira seria capaz de possuir.\nRealmente, tudo indica que houve no local uma erosão muito forte, causada pelo afloramento de um imenso lençol de água. A camada de terra, na superfície, foi levada pela força\n[...]\ncimento de qualquer enchente.\nCONCLUSÃO\nA conclusão da reportagem foi a de que o fato merece estudo científico, já que ainda não houve uma explicação convincente para o fenômeno. Seria bom que um geólogo fosse até ao local, já que a elucidação do fato poderia contribuir para a ciência.\nAté mesmo a Base Aérea de Anápolis já demonstrou interesse em conhecer melhor as causas do fenômeno e para isso um helicóptero possante está sendo esperado para facilitar a pesquisa na região.\n[...]\nA fortuna em si não é boa nem má, é neutra, absolutamente neutra. O homem pela situação que lhe dá é que a transforma em veículo do bem ou do mal, de salvação ou de condenação, alterando-lhe a finalidade.\nA riqueza bem aplicada enobrecendo quem a possui, provê do remédio, de alimento, de vestuário, o lar humilde onde, tantas vezes a vergonha digna se oculta humilhada e retraída.\nRiqueza abençoada é aquela que obtida do trabalho digno, expande-\n[...]\nO que decerto pretendeu foi advertir-nos quanto\n[...]\ntesouros morais que o homem venha a adquirir, é a que se traduz na posse singela e humilde, dos sentimentos elevados.\nPor esse tipo de riqueza singela e eterna, podemos e devemos lutar, denodada e valentemente COM TODA FORÇA DO NOSSO CORAÇÃO. COM TODA ENERGIA DE NOSSA ALMA.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "GRANDE oia\ncom algo estranho: mais de                gua conseguiria derrubar                           prox;    adamente 300 ca-           cento de       qualquer   en-\ndois mil metros quadrados                 tantas árvores e muitas de-                        minhoss de terra foram a-          chente,\nde buraco, sendo que até                  las ficaram soterradas a va-                       tirados a ume distância. de\num dia antes nada, absolu-                rios metros de profundida-                         duzentos metros.                          - GONCLUSÃO\ntamente        nada,       existia   no   de,  enquanto outras que-                             Imensas árvores soterra-\nlocal.                                    bradas ao meio.                                    das na areia, que chega a               A conclusão da reporta-\n   O fato foi levado até                     Apesar de muita brinca-                         ter a profundidade de vin-         gem foi a de que o fato\nWashington Barbosa, que                   deira com relação ao fato,                         te metros, enquanto       mutras   merece estudo científico,\nesteve no local e observou                inclusive não faltou quem                          árvores foram atiradas a di-       já que ainda não houve u-        A fortuna em si não é\nque alguma coisa total-                   dissesse que um pedaço do                          versas distâncias e outras         ma explicação convincente        boa nem má, é neutra,\nmente estranha havia ocor-                Skailab caira no local, ou                         mais     apresentam-se     que;    para o fenômeno. Seria           absolutamente neutra.\nrido, sem no entanto che-\ngar a qualquer conclusão.\n                                          mesmo\n                                          que uma\n                                                 quem | afirmasse\n                                                    nave  espacial\n                                                                                             bradas ao meio, numa re-\n                                                                                             sistência que somente uma.\n                                                                                                                                bom que um geólogo fosse\n                                                                                                                                até ao local, já que a elu?\n                                                                                                                                                                 O homem pela situação          O que decerto puoi\n                                                                                                                                                                 que lhe dá é que a             foi advertir-nos quan\n                                          houvesse      pousado                 ali.    A    máquina do tipo trator de          cidação do fato poderia,\n                                                                                                                                                                 transforma em veículo\n      OS AMIGOS FORAM                     verdade é que um fenôme-\n                                                                                                                                     Até mesmo a Base Ad\n                                                                                             esteira séria capaz de pos-        contribuir para a ciência.\n                                                                                                                                                                 do bem ou do mal, de\n                 VER                      no estranho aconteceu.                             suir.            ;\n                                                                                                                                                                 salvação ou de\n                                                                                                Realmente, tudo indica          rea de Anápolis já demons-\n      Washington Barbosa na-                     A REPORTAGEM                                que houve no local uma e-          trou interesse em conhecer       condenação, alterando-lhe\nda pôde fazer a não ser co-                                                                  rosão muito forte, causada         melhor as causas do fend-        a finalidade.\nmentar o fato com os ami-                       Munidos          de     máquinas             pelo afloramento de um i-          meno e para isso um heli-        A riqueza bem aplicada         tesouros morais qua o\ngos, sendo que a maioria                  fotográficas,          os repórteres               menso        lençol de água. A     cóptero possante está sen-       enobrecendo quem a             homem venha a adquirit\ndeles      levava      o    caso     em   do Correio do Planalto es                          camada de terra, na super-         do esperado para facilitar *     possui, provê do remédio,      2 a que se traduz na\nbrincadeira. Alguns poucos                tiveram       no       local,         sendo        fície, foi levada pela força       pesquisa na região.              de alimento, de vestuário,     posse singela e humilde,\n                                                                                                                                                                 o lar humilde onde,            dos sentimentos\n                                                                                                                                                                 tantas vezesa vergonha         elevadas.\n                                                                                                                                                                 digna se oculta                Por esse tipo de riqueza\n                                                                                                                                                                 humilhada e retraída.          singela e eterna, podemc\n                                                                                                                                                                 Riqueza abençoada é |          e devemos lutar,\n                                                                                                                                                                 aquela que obtida do           denodada e valentement\n                                                                                                                                                                 trabalho digno, e:             COM TODA FORÇA Di\n                                                                                                                                                                                                NOSSO CORAÇÃO.\n                                                                                                                                                                                                COM TODA ENERGIA\n                                                                                                                                                                                              __ DE NOSSAALMA.",
+      "original_text_sha256": "c4c1a7c18bb72b5850668b0ebe8b672e457ed10b1744264659d55d57ce02d03e",
+      "page": 8,
+      "segment_id": "seg-25256fa0eaa1e07aaeb40099",
+      "source_page_render_sha256": "6bfd5de0deb18069dcb8c9dcdbe30a2073d2ffb398ad96bab1b5ce7cd0e29dc2",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "GREAT WEALTH\n[...]\nsomething strange: a hole covering more than two thousand square meters, although until the previous day nothing, absolutely nothing, had existed there.\nThe incident was reported to Washington Barbosa, who visited the site and observed that something completely strange had happened, without, however, reaching any conclusion.\nFRIENDS WENT TO SEE\nWashington Barbosa could do nothing except discuss the incident with friends, most of whom treated it as a joke. A few\n[...]\nter could knock down so many trees, many of which were buried several meters deep, while others were broken in half.\nDespite much joking about the incident, there was no shortage of people saying that a piece of Skailab had fallen there, or even claiming that a spacecraft had landed there. The truth is that a strange phenomenon occurred.\nTHE REPORT\nEquipped with cameras, reporters from Correio do Planalto visited the site, with\n[...]\napproximately 300 truckloads of earth thrown a distance of two hundred meters.\nHuge trees were buried in sand reaching a depth of twenty meters, while other trees were thrown various distances and still others were broken in half, requiring strength that only a machine such as a crawler tractor could possess.\nIndeed, everything suggests very severe erosion occurred there, caused by an immense body of groundwater rising to the surface. The surface layer of earth was carried away by the force\n[...]\nledge of any flooding.\nCONCLUSION\nThe report concluded that the incident deserves scientific study, since there has not yet been a convincing explanation for the phenomenon. It would be good for a geologist to visit the site, since clarifying the incident could contribute to science.\nEven the Anápolis Air Base has expressed interest in better understanding the causes of the phenomenon, and a powerful helicopter is expected to facilitate research in the region.\n[...]\nFortune itself is neither good nor bad; it is neutral, absolutely neutral. Through the use he makes of it, man turns it into a vehicle for good or evil, salvation or condemnation, changing its purpose.\nWealth put to good use ennobles its owner and supplies medicine, food and clothing to the humble home where dignified shame so often hides, humiliated and withdrawn.\nBlessed wealth is that obtained through honorable work, which expan-\n[...]\nWhat he surely intended was to warn us about\n[...]\nmoral treasures that a person may acquire, expressed in the simple and humble possession of elevated feelings.\nFor this kind of simple and eternal wealth, we can and must fight boldly and bravely WITH ALL THE STRENGTH OF OUR HEART. WITH ALL THE ENERGY OF OUR SOUL.",
+      "uncertain_source_values_explicit": true
+    },
+    {
+      "corrected_source_text": "Abandonamos o local e nos dirigimos a um baile de carnaval, no Ceres Clube, desta cidade, onde relatei o que vira ao Prefeito Dr. VÁLTER PEREIRA MELO; ao Juiz GLAYCON WANTUTIL DE PAULA; ao Contabilista JAINER MARÃO; ao Advogado OLAVO FRANCISCO RODRIGUES; ao Médico CELSO BARROS e a dezenas de outras pessoas, inclusive ao Ten Ex RAIMUNDO CHAVES, que assiste nesta cidade e adjacências. Ao me retirar do clube — em que não pude ingerir qualquer bebida, alcoólica ou não —, observei o céu até ao trevo da BR-153, voltando à rua da residência que servira de palco para tudo aquilo, e para casa. Nada mais vi. Meu choque emocional se agravou ontem, quando recapitulei o fenômeno a sangue frio, tendo decidido comunicar o que houve a Vossa Excelência, que melhor dirá sobre como encaminhar um eventual interesse de pesquisa, para a qual me ofereço inclusive sob teste psicológico e de detecção.",
+      "correction_note": "Restored wording and numeric values against source scan, retaining fragment boundaries. Explicit ILLEGIBLE markers preserve unreadable source text. Original PDF preserved; historical statements are translated as source assertions.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "fe         ADandonamos o local e nos dirigimos a um baile de\ncarnaval, no Ceres Clube, desta cidade, onde relatei o que vi-\nra ao Prefeito Dr. VÁLTER PEREIRA MELO; ao Juiz GLAYCON WANTU-\nTIL DE PAULA; ao Contabilista JAINER MARÃO;            ao Advogado OLAVO\nFRANCISCO RODRIGUES; ao Medico CELSO BARROS e a dezenas de ou-\ntras pessoas, inclusive ao Ten Ex RAIMUNDO CHAVES, que assiste\nnesta cidade e adjacências. Ao me retirar do clube — em que\nnão pude ingerir qualquer bebida, alcoólica ou não —, obser-\nvei o céu até ao trevo da BR-153, voltando a rua da residência\nque servira de palco para tudo aquilo, e para casa. Nada mais\nvi. Meu choque emocional se agravou ontem, quando recapitulei\no fenômeno a sangue frio, tendo decidido comunicar o que hou-\nve a Vossa Excelência, que melhor dirá sobre como encaminhar\num eventual interesse de pesquisa, para a qual me ofereço in-\nclusive sob teste psicológico              detecção.\n                                 TA   te     a.                A",
+      "original_text_sha256": "7e053e042ffeb5b451a265e50a22b1426dee7c98f8820739ec02a93277a7e79a",
+      "page": 55,
+      "segment_id": "seg-121dd21a743cba96f497dc65",
+      "source_page_render_sha256": "83b70409431a0bbbaff778612a7384f31e8dabbf4a923d5cc856507b5db24a2d",
+      "source_rel": "Upload/CENDOC ENVELOPE 12   1979 CENDOC_ENVELOPE_12_1979.pdf",
+      "translation": "We left the place and went to a Carnival dance at the Ceres Clube in this city, where I told Mayor Dr. VÁLTER PEREIRA MELO; Judge GLAYCON WANTUTIL DE PAULA; accountant JAINER MARÃO; attorney OLAVO FRANCISCO RODRIGUES; physician CELSO BARROS and dozens of other people what I had seen, including Army Lieutenant RAIMUNDO CHAVES, who serves in this city and the surrounding area. On leaving the club—where I could not consume any drink, alcoholic or not—I watched the sky as far as the BR-153 junction, returning to the street of the house that had been the setting for all this, and then home. I saw nothing else. My emotional shock worsened yesterday when I calmly went over the phenomenon again, and I decided to report what happened to Your Excellency, who can best advise how to direct any research interest. I offer myself for such research, including psychological and detection testing.",
+      "uncertain_source_values_explicit": true
+    }
+  ],
   "source_sha256": "3f8f45997ee8c07106060743a75fcf0ba93344958e1646a20a2a974753810ed3",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-18T14:00:46Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-28T18:26:09Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "422226de4661e11297fe8474d7aa16fdde5d5dabbfb837941872c0693bef3d3f"
+  "translation_text_sha256": "19023e7090f9a8725ad65905b88b6980b260bdf93e5a16ca656c636a9a5e26c2"
 }
