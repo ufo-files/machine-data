@@ -369,6 +369,13 @@ def _measurements(text: str) -> Counter[str]:
         text = re.sub(pattern, " " + unit, text, flags=re.I)
     # Nautical miles are distinct from statute miles on both sides.
     text = re.sub(r"\bmilhas?[ \t]+n[áa]uticas?\b|\bnautical[ \t]+miles?\b", "nmi", text, flags=re.I)
+    # Radio position reports give a radial followed by distance, not a range:
+    # "na 240 a 40 milhas" means bearing 240, at 40 miles.
+    text = re.sub(
+        r"\b(na|radial|rumo)[ \t]+([0-2]\d{2}|3[0-5]\d)[ \t]+a[ \t]+"
+        r"(?=\d+(?:[.,]\d+)?[ \t]+(?:milhas?|nmi|km)\b)",
+        r"\1 \2; ", text, flags=re.I,
+    )
     # Keep OCR spaces after decimal/grouping commas inside the same value.
     text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     # Attributive English measures retain the same value: a 45-minute interview.
