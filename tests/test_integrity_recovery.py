@@ -2,6 +2,20 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_reference_suffix_is_not_an_enumerated_calendar_day(self):
+        for suffix in ('91', '17'):
+            source = f'NEFP.GEU/003/{suffix},\n26 de abril de 1991'
+            target = f'NEFP.GEU/003/{suffix},\nApril 26, 1991'
+            self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, target.replace('April 26', 'April 25'))))
+        self.assertTrue(any(f['check'] == 'dates' for f in compare_translation('17, 26 de abril de 1991', 'April 26, 1991')))
+
+    def test_para_date_range_preserves_all_days(self):
+        source = 'CODA de 17 para 19 de julho de 1991.'
+        self.assertFalse(any(f['check'] == 'dates' for f in compare_translation(source, 'CODA from July 17 to 19, 1991.')))
+        for target in ('July 18 to 19, 1991', 'July 17 and 19, 1991', 'July 17 to 20, 1991'):
+            self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, target)))
+
     def test_spaced_words_do_not_invent_gram_measurements(self):
         examples = [
             ('4 g r a n d e s plotes', '4 large plots'),
