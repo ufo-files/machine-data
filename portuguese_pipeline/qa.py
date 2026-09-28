@@ -208,6 +208,13 @@ def _date_spacing(text: str) -> str:
     text = re.sub(r"\bagôsto\b", "agosto", text, flags=re.I)
     text = re.sub(r"(\b\d{1,2}\s+de\s+)margo(?=\s+de\s+(?:19|20)\d{2}\b)",
                   r"\1março", text, flags=re.I)
+    spaced_months = "|".join(r"\s*".join(re.escape(letter) for letter in month) for month in PT_MONTHS)
+    full_date = re.compile(
+        r"(?<![\w/])([0-3]?\s*\d)\s*d\s*e\s*(" + spaced_months
+        + r")\s*d\s*e\s*((?:1\s*\.?\s*9|2\s*\.?\s*0)\s*\d\s*\d)(?!\d)", re.I)
+    text = full_date.sub(lambda match: re.sub(r"\s", "", match.group(1)) + " de "
+                        + re.sub(r"\s", "", match.group(2)) + " de "
+                        + re.sub(r"[\s.]", "", match.group(3)), text)
     for month in PT_MONTHS:
         letters = r"[ \t]*".join(re.escape(letter) for letter in month)
         text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
