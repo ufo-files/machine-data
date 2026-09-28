@@ -60,10 +60,10 @@ NAME = re.compile(
 PT_NEGATIONS = {
     "não": re.compile(
         r"\b(?:not|no|never|cannot|without|neither|nor|unidentified|unknown|unconfirmed|unverified|"
-        r"undetected|unauthorized|unavailable|impossible|invisible)\b",
+        r"undetected|unauthorized|unavailable|impossible|invisible|unmanned)\b",
         re.I,
     ),
-    "nunca": re.compile(r"\bnever\b", re.I),
+    "nunca": re.compile(r"\b(?:never|nothing\s+ever|not\s+ever)\b", re.I),
     "sem": re.compile(r"\b(?:without|lacking|absent|free of)\b", re.I),
     "nenhum": re.compile(r"\b(?:no|none|neither)\b", re.I),
     "nenhuma": re.compile(r"\b(?:no|none|neither)\b", re.I),

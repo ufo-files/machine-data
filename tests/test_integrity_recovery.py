@@ -2,6 +2,13 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_unmanned_and_nothing_ever_preserve_explicit_negation(self):
+        pairs = [('Aeronave não-tripulada.', 'Unmanned aircraft.', 'Manned aircraft.'),
+                 ('Nada nunca acontece.', 'Nothing ever happens.', 'Things happen.')]
+        for source, correct, changed in pairs:
+            self.assertFalse(any(f['check'] == 'negation' for f in compare_translation(source, correct)))
+            self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(source, changed)))
+
     def test_urls_are_preserved_as_literals_and_changes_are_rejected(self):
         url = 'https://example.gov.br/gestao-de-pessoas/COMDABRA.pdf?id=12&lang=pt#secao'
         source = f'Consulte ({url}).'
