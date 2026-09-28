@@ -75,6 +75,10 @@ PT_MONTHS = {
     "janeiro": 1, "fevereiro": 2, "março": 3, "abril": 4, "maio": 5, "junho": 6,
     "julho": 7, "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12,
 }
+ES_MONTHS = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
+}
 EN_MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
@@ -220,7 +224,7 @@ def _date_spacing(text: str) -> str:
     text = full_date.sub(lambda match: re.sub(r"\s", "", match.group(1)) + " de "
                         + re.sub(r"\s", "", match.group(2)) + " de "
                         + re.sub(r"[\s.]", "", match.group(3)), text)
-    for month in PT_MONTHS:
+    for month in (*PT_MONTHS, *ES_MONTHS):
         letters = r"[ \t]*".join(re.escape(letter) for letter in month)
         text = re.sub(r"(?<!\w)" + letters + r"(?!\w)", month, text, flags=re.I)
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12])\.(\d{3})\b", r"\1\2\3", text, flags=re.I)
@@ -235,6 +239,14 @@ def _date_spacing(text: str) -> str:
 
 def _dates(text: str, *, language: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # Portuguese collections also contain original Spanish correspondence.
+    spanish_date = re.compile(r"\b(\d{1,2})\s+de\s+(" + "|".join(month for month in ES_MONTHS if month not in PT_MONTHS)
+                              + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
+    def add_spanish(match: re.Match[str]) -> str:
+        day, month, year = match.groups()
+        values[f"{int(year):04d}-{ES_MONTHS[month.casefold()]:02d}-{int(day):02d}"] += 1
+        return ""
+    text = spanish_date.sub(add_spanish, text)
     # Embedded French book synopses retain their original-language dates.
     french_date = re.compile(
         r"\b(\d{1,2}(?:\s*(?:,|et)\s*\d{1,2})*)\s+(" + "|".join(FR_MONTHS)
