@@ -249,7 +249,7 @@ def _dates(text: str, *, language: str) -> Counter[str]:
     text = re.sub(r"(\b\d{1,2}[º°o]?\s+de\s+(?:" + "|".join(PT_MONTHS)
                   + r")),\s*((?:1\d|20)\d{2})\b", r"\1 de \2", text, flags=re.I)
     # Enumerated days and inclusive ranges must preserve every stated day.
-    pt_list = re.compile(r"\b(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
+    pt_list = re.compile(r"(?<![\w/])(\d{1,2}(?:\s*(?:,|e)\s*\d{1,2})+)\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
     en_list = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2}(?:st|nd|rd|th)?(?:\s*(?:,\s*(?:and\s+)?|and\s+)\d{1,2}(?:st|nd|rd|th)?)+),?\s+((?:1\d|20)\d{2})\b", re.I)
     def add_list(match: re.Match[str], portuguese: bool) -> str:
         # In bibliography entries, "p. 8, 14 de abril" is a page number
@@ -270,12 +270,12 @@ def _dates(text: str, *, language: str) -> Counter[str]:
         + ("20" if int(match.group(3)) < 50 else "19") + match.group(3),
         text, flags=re.I,
     )
-    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
+    pt_range = re.compile(r"\b(\d{1,2})(?:\s*\((?:(?:segunda|terça|quarta|quinta|sexta)(?:-feira)?|s[áa]bado|domingo)\))?\s+(?:a|e|para)\s+(\d{1,2})\s+de\s+(" + "|".join(PT_MONTHS) + r")\s+de\s+((?:1\d|20)\d{2})\b", re.I)
     en_range = re.compile(r"\b(" + "|".join(EN_MONTHS) + r")\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|through)\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+((?:1\d|20)\d{2})\b", re.I)
     def add_range(match: re.Match[str], portuguese: bool) -> str:
         first, last, month, year = match.groups() if portuguese else (match.group(2), match.group(3), match.group(1), match.group(4))
         month_number = (PT_MONTHS if portuguese else EN_MONTHS)[month.casefold()]
-        inclusive = re.search(r"\b(?:a|to|through)\b", match.group(0), re.I)
+        inclusive = re.search(r"\b(?:a|para|to|through)\b", match.group(0), re.I)
         days = range(int(first), int(last) + 1) if inclusive and int(first) <= int(last) else (int(first), int(last))
         for day in days:
             values[f"{int(year):04d}-{month_number:02d}-{int(day):02d}"] += 1
