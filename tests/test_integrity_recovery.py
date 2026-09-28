@@ -7,6 +7,7 @@ class IntegrityRecoveryTests(unittest.TestCase):
             ('4 g r a n d e s plotes', '4 large plots'),
             ('210 g r a u s', '210 degrees'),
             ('1\nG o s t a r i a de novos contatos', '1\nI would like new contacts'),
+            ('2 0 0 4\nM O D E L O DE FICHA', '2004\nFORM TEMPLATE'),
         ]
         for source, target in examples:
             with self.subTest(source=source):
@@ -14,6 +15,7 @@ class IntegrityRecoveryTests(unittest.TestCase):
                 self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, target + '; 4 g')))
         for target in ('4 plots', '5 g'):
             self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('4 g', target)))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('4 m', '5 meters')))
 
     def test_spaced_miles_still_protect_distance(self):
         source = '35 m i l h a s'

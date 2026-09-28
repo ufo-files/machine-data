@@ -340,7 +340,7 @@ def _measurements(text: str) -> Counter[str]:
     # Recognize complete, letter-spaced words before their first letter can
     # become a false g/m unit. Do not join arbitrary isolated letters.
     for word in ("grandes", "grande", "graus", "grau", "gostaria",
-                 "minutos", "minuto", "milhas", "milha"):
+                 "minutos", "minuto", "milhas", "milha", "modelo"):
         pattern = r"\b" + r"[ \t]+".join(word) + r"\b"
         text = re.sub(pattern, word, text, flags=re.I)
     # Keep OCR spaces after decimal/grouping commas inside the same value.
