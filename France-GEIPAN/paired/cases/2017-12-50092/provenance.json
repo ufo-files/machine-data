@@ -1,0 +1,62 @@
+{
+  "canonical_text_sha256": "5082e21e8eb87b856adc0488fc3ab572830c2ed34a9cb4142f8c1be0b8ea6040",
+  "document_id": "doc-279ea541269b0af76289cbb5",
+  "extraction": {
+    "engine": "python-html-parser",
+    "generated_at": "2026-09-27T12:22:15Z",
+    "mode": "archived-structured-html",
+    "tools": {
+      "reader": "python.html.parser"
+    }
+  },
+  "generated_at": "2026-09-27T12:22:15Z",
+  "page_count": 1,
+  "pipeline_version": "ufo-files-french-pipeline/1.0.2",
+  "qa_status": "pass",
+  "remaining_manual_review_count": 13,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T12:22:15Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "fr-en-geipan-translation-prompt/v4"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "a500c30144e6f02f6c69a43f1cd9d05b1f0882158e61f998fec291c09823a6c2",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T18:03:42Z",
+  "runtime": {
+    "machine": "arm64",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15"
+  },
+  "schema": "ufo-files-french-provenance/v1",
+  "segment_count": 13,
+  "source_bytes": 22652,
+  "source_sha256": "42289cadb34ece36d51a2b35f3c3334754c7e3acc46d22c6927d4d31e66ddccd",
+  "status": "complete",
+  "translation": {
+    "generated_at": "2026-09-27T18:03:42Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "machine-unreviewed",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
+  },
+  "translation_text_sha256": "d003fe1a44992584fd7e7ac5a82642414df4d69382433ccce0de2b2d878b8c6c"
+}

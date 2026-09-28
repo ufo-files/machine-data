@@ -128,29 +128,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-d757a3a3158c4e9d466f563a",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "DSC7031.JPG",
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "not-required",
           "segment_id": "seg-1d878271e07dab45e444397e",
           "segment_index": 8,
           "source_segment_id": "seg-1d878271e07dab45e444397e",
           "source_text_sha256": "c25f4183c7a0a2849cb41a409b7a85310baf8e6bd7e6d016ed08dc5a889e8a44",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents:  Meteo.png Photo GEIPAN DSC7031.JPG Questionnaire terre-R.pdf",
-          "translation_text_sha256": "5256b58ce8d61383f9fdcc170abb78a3081a091153736a06b8d9253fef70624e"
+          "status": "not-required",
+          "text": "Documents: Meteo.png Photo GEIPAN DSC7031.JPG Questionnaire terre-R.pdf",
+          "translation_text_sha256": "c25f4183c7a0a2849cb41a409b7a85310baf8e6bd7e6d016ed08dc5a889e8a44"
         },
         {
           "end_ms": null,
@@ -158,13 +148,13 @@
           "field": "testimonies",
           "page_id": "page-d757a3a3158c4e9d466f563a",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-21542effe7227f1a12f7696e",
           "segment_index": 9,
           "source_segment_id": "seg-21542effe7227f1a12f7696e",
           "source_text_sha256": "4cf3fb68e7c2e5671009fc3ff8b76910fc252265f6df588ab7b63320809abc12",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: WASQUEHAL (59) 19.01.2014",
           "translation_text_sha256": "b7bdcfdfab69d11cc0448376fa125cea87d306653733f22c968e3c75fad00839"
         },
@@ -209,13 +199,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-14T11:58:26Z",
+    "generated_at": "2026-09-27T03:48:36Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

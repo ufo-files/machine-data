@@ -22,18 +22,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "2007-01-10"
-      ],
-      "check": "dates",
-      "missing_from_translation": [
-        "2007-10-01"
-      ],
-      "segment_id": "seg-d997f70b58d438d274a5eee1",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -67,22 +55,10 @@
     },
     {
       "added_in_translation": [
-        "10 km"
-      ],
-      "check": "measurements",
-      "missing_from_translation": [],
-      "segment_id": "seg-0c25fa15e879015ffe8340dc",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "40"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
         "6"
       ],
+      "check": "numbers",
+      "missing_from_translation": [],
       "segment_id": "seg-479cc4b466d4dab3de0dc303",
       "severity": "warning",
       "status": "mismatch"
@@ -102,15 +78,6 @@
       ],
       "segment_id": "seg-479cc4b466d4dab3de0dc303",
       "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "AL/6"
-      ],
-      "segment_id": "seg-479cc4b466d4dab3de0dc303",
-      "severity": "error",
       "status": "mismatch"
     },
     {
@@ -165,6 +132,14 @@
       "segment_id": "seg-dda3663fa9419e584b0da1cc",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-6cb9bbdd99c72a29490f58e1",
+      "segment_id": "seg-0c25fa15e879015ffe8340dc",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

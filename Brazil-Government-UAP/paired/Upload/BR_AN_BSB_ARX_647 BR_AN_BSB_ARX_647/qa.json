@@ -12,15 +12,6 @@
       "status": "mismatch"
     },
     {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-720ac81d139de9d0b1c45c76",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "numbers",
       "missing_from_translation": [
@@ -28,21 +19,6 @@
         "7"
       ],
       "segment_id": "seg-47a8f89f68b8d8afeb8bace9",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "2004"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "0",
-        "0",
-        "2",
-        "4"
-      ],
-      "segment_id": "seg-ecdfb3f31734f58795b1ea0c",
       "severity": "warning",
       "status": "mismatch"
     },
@@ -115,16 +91,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "2004-04-13"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-e93feb648d2a9cf1772aaebb",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -136,24 +102,9 @@
     },
     {
       "added_in_translation": [
-        "1969-08-20",
-        "1977-06-01"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-766d5648ba4f151484d65e58",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "101",
         "1969",
         "20",
-        "205",
-        "77",
-        "79099",
-        "89"
+        "77"
       ],
       "check": "numbers",
       "missing_from_translation": [
@@ -161,24 +112,11 @@
         "0",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
-        "1",
-        "1",
         "1",
         "2",
-        "2",
-        "5",
         "6",
         "7",
         "7",
-        "7",
-        "8",
-        "9",
-        "9",
-        "9",
-        "9",
         "9",
         "9"
       ],
@@ -272,6 +210,30 @@
       "segment_id": "seg-be82a3a58259592482805f43",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-d2c8a61d58046273a2c7a676",
+      "segment_id": "seg-ecdfb3f31734f58795b1ea0c",
+      "severity": "warning",
+      "status": "needs-review"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-d2c8a61d58046273a2c7a676",
+      "segment_id": "seg-59eb606a749afda0d30409a1",
+      "severity": "warning",
+      "status": "needs-review"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-c73d8e4c0d54b25d929a3585",
+      "segment_id": "seg-766d5648ba4f151484d65e58",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

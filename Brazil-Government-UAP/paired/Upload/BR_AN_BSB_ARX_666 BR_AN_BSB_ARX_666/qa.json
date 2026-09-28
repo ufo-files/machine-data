@@ -45,16 +45,6 @@
       "status": "mismatch"
     },
     {
-      "added_in_translation": [
-        "1"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
-      "segment_id": "seg-a51666aa70ae4013b0e5d2ca",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -65,55 +55,6 @@
         "NIL Emitindo"
       ],
       "segment_id": "seg-a51666aa70ae4013b0e5d2ca",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "negation",
-      "segment_id": "seg-a51666aa70ae4013b0e5d2ca",
-      "severity": "error",
-      "source_count": 2,
-      "source_marker": "não",
-      "status": "mismatch",
-      "translation_equivalent_count": 1
-    },
-    {
-      "check": "negation",
-      "segment_id": "seg-a51666aa70ae4013b0e5d2ca",
-      "severity": "error",
-      "source_count": 1,
-      "source_marker": "sem",
-      "status": "mismatch",
-      "translation_equivalent_count": 0
-    },
-    {
-      "added_in_translation": [
-        "0"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [],
-      "segment_id": "seg-b2039ed61445e3cbcd0a452d",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-b2039ed61445e3cbcd0a452d",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "5"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "0"
-      ],
-      "segment_id": "seg-2246ce4475069380481d3b8a",
       "severity": "warning",
       "status": "mismatch"
     },
@@ -183,6 +124,14 @@
       "segment_id": "seg-51a7868fe15e4ff2dcb691bf",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-8fd54e138279a3c317526ace",
+      "segment_id": "seg-2246ce4475069380481d3b8a",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

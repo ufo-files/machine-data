@@ -3,17 +3,33 @@
   "document_id": "doc-9394185757ecc519ccec33e1",
   "extraction": {
     "engine": "python-html-parser",
-    "generated_at": "2026-09-25T23:51:32Z",
+    "generated_at": "2026-09-27T00:56:15Z",
     "mode": "archived-structured-html",
     "tools": {
       "reader": "python.html.parser"
     }
   },
-  "generated_at": "2026-09-25T23:51:32Z",
+  "generated_at": "2026-09-27T00:56:15Z",
   "page_count": 1,
   "pipeline_version": "ufo-files-french-pipeline/1.0.2",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 13,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T01:15:40Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "fr-en-geipan-translation-prompt/v3"
+    },
+    "retranslated_segments": []
+  },
+  "retranslated_at": "2026-09-27T01:35:44Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
@@ -23,16 +39,16 @@
   "segment_count": 13,
   "source_bytes": 49300,
   "source_sha256": "c190ba6aa970b0733ec2c7a36a19214e79abc25a76660a22930efc841f2dd455",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-25T23:51:32Z",
+    "generated_at": "2026-09-27T01:35:44Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   },
-  "translation_text_sha256": "734671149ab3864b2f621d18c5a09151ede05e4c518ecf3c115c253c9b4c0a7f"
+  "translation_text_sha256": "c5c0dba45841fad90c4a10053ebabfa187b01c7961e3f959ba444ddd4bd4d08f"
 }

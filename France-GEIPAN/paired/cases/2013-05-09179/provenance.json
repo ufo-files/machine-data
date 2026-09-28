@@ -3,17 +3,40 @@
   "document_id": "doc-70127126dc4badd54fd7a10e",
   "extraction": {
     "engine": "python-html-parser",
-    "generated_at": "2026-09-26T18:27:16Z",
+    "generated_at": "2026-09-26T23:15:46Z",
     "mode": "archived-structured-html",
     "tools": {
       "reader": "python.html.parser"
     }
   },
-  "generated_at": "2026-09-26T18:27:16Z",
+  "generated_at": "2026-09-26T23:15:46Z",
   "page_count": 1,
   "pipeline_version": "ufo-files-french-pipeline/1.0.2",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 13,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T02:00:33Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "fr-en-geipan-translation-prompt/v3"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "ed4013ee4b3fd11bbff118a467e03046e336ad11adc29756b3842071afd9eabb",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:01:48Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
@@ -23,16 +46,16 @@
   "segment_count": 13,
   "source_bytes": 21724,
   "source_sha256": "765a4c6521eaab4b74b8a1f607d620d23630dcb73a297b548d2257034d7bc85b",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-26T18:27:16Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "generated_at": "2026-09-27T04:01:48Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "5ee0c88c02b2de6736d292415b631a5741207caf62ab81789fabc2e8185be0dc"
+  "translation_text_sha256": "e16b9a60f005844c7bb43683468acdc2e53f1ad399fbede0c9c510a9bac2c685"
 }

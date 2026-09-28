@@ -155,15 +155,15 @@
           "field": "documents",
           "page_id": "page-e7e1808caa9aa88a73522e79",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-c50445a8d57f1e03f4d757ee",
           "segment_index": 10,
           "source_segment_id": "seg-c50445a8d57f1e03f4d757ee",
           "source_text_sha256": "60dde96209d9edcd19aef273cd0467bde94efd52d6ae6af25eb813395180774b",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Questionnaire terre-R.pdf",
-          "translation_text_sha256": "6fbdf65df38a2ab3a08e0b65aa4b1f4924d9e7e3aff60d753406bfbdb9368a54"
+          "status": "not-required",
+          "text": "Documents: Questionnaire terre-R.pdf",
+          "translation_text_sha256": "60dde96209d9edcd19aef273cd0467bde94efd52d6ae6af25eb813395180774b"
         },
         {
           "end_ms": null,
@@ -171,13 +171,13 @@
           "field": "testimonies",
           "page_id": "page-e7e1808caa9aa88a73522e79",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-47ed45e6f9a12a3cf01e8871",
           "segment_index": 11,
           "source_segment_id": "seg-47ed45e6f9a12a3cf01e8871",
           "source_text_sha256": "9c69881cfb785870ea9340ebd5f99a1e4cb88ad8fc48a0875ea8897bc0b35218",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: CLAMART (92) 06.06.2015",
           "translation_text_sha256": "4c453a0dc5f70c0eb5f27324a5341ef6a56861d2d25fed8970ab72ed4199832d"
         },
@@ -199,35 +199,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-e7e1808caa9aa88a73522e79",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "17:30"
-              ],
-              "check": "times",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d366747db045335a9fa34c50",
           "segment_index": 13,
           "source_segment_id": "seg-d366747db045335a9fa34c50",
           "source_text_sha256": "d9c3f108b2d26d1c461264032193a29d220c55b8ff20a1f0a0fb6b366041d61c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On June 6, 2015, at 5:30 PM, a witness observed three small, silver-colored flying objects moving from the northwest to the southeast, then suddenly going vertical before disappearing. Local weather reports indicate a light west wind at 4:00 PM shifting to northwest at 5:00 PM, then north at 6:00 PM. The movement of the objects is consistent with the wind, suggesting simple, small party balloons made silver by the sun. The vertical departure and disappearance are likely due to the balloon bursting at a certain altitude. The GEIPAN classifies this case as \"B\": probable observation of a balloon.",
           "translation_text_sha256": "cf525e024e9dcd39e3934fd21f33672211a03540eeedc33bf9050e691c10d04d"
         }
@@ -240,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-04T14:49:09Z",
+    "generated_at": "2026-09-27T01:35:45Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

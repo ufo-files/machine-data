@@ -22,27 +22,18 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-61b389cdb812e52a1ca01299",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-b59a8e96143b40f4a706b7ab",
           "segment_index": 2,
           "source_segment_id": "seg-b59a8e96143b40f4a706b7ab",
           "source_text_sha256": "031c116a73ff7e29e5a08cacdbb9366510761de250eceb9c87087a7622e59e72",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "- SPADS                UFO                                                     ^ Í < ^",
-          "translation_text_sha256": "f725164bdd48546851a395de2199018afde0bfca42185ba6710f6ec6d7cb0c52"
+          "status": "machine-unreviewed",
+          "text": "- SPADS                COMDABRA",
+          "translation_text_sha256": "7220b9ec37a11451caf9c9401a2127076dd828f3c669b8297cde7b589bf0ad4c"
         },
         {
           "end_ms": null,
@@ -725,13 +716,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T13:44:49Z",
+    "generated_at": "2026-09-27T03:49:27Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

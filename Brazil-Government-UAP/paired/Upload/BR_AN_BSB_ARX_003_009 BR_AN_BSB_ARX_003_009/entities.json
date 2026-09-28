@@ -2,8 +2,26 @@
   "entities": [
     {
       "aliases": [
+        "Operação Prato"
+      ],
+      "category": "program",
+      "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
+      "entity_id": "ent-1aff953665388a21566f2494",
+      "evidence_languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mention_count": 1,
+      "name": "Operação Prato",
+      "source_segment_ids": [
+        "seg-24dee91ffcafc377635a3fe7"
+      ]
+    },
+    {
+      "aliases": [
         "Brazilian Air Force",
-        "FAB"
+        "FAB",
+        "Força Aérea Brasileira"
       ],
       "category": "military_organization",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -15,8 +33,8 @@
       "mention_count": 2,
       "name": "Força Aérea Brasileira",
       "source_segment_ids": [
-        "seg-a39b8ebd8c3cdf00ccbefd60",
-        "seg-ac002d0ae7697265cec992e8"
+        "seg-24dee91ffcafc377635a3fe7",
+        "seg-a39b8ebd8c3cdf00ccbefd60"
       ]
     },
     {
@@ -44,14 +62,13 @@
         "OVNI",
         "OVNIs",
         "Ovnis",
-        "Ufo",
         "UFO",
         "UFOs",
-        "Unidentified flying object",
-        "Unidentified Flying Object",
-        "UNIDENTIFIED FLYING OBJECT",
         "unidentified flying object",
-        "unidentified flying objects"
+        "Unidentified Flying Object",
+        "Unidentified flying object",
+        "unidentified flying objects",
+        "Unidentified Flying Objects"
       ],
       "category": "subject",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -60,7 +77,7 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 54,
+      "mention_count": 48,
       "name": "UFO",
       "source_segment_ids": [
         "seg-0254a225684317010429f2f5",
@@ -72,12 +89,10 @@
         "seg-274f5f20121dee3d29d966be",
         "seg-29f674c1fe79a94c302e0418",
         "seg-2be79d7afc92d970e8f90564",
-        "seg-2ecc2ca2c30ec30eb1570e99",
         "seg-337c03b431268f4769af1ecc",
         "seg-34f9bdec273a3f63ff24cf99",
         "seg-3f57bccc09f541788e4c64c6",
         "seg-421996bfc12debd6528322ce",
-        "seg-45243ea6dfc9a2287895207a",
         "seg-4794f0bb183d4d38823d4ef0",
         "seg-4cc77317e7f9be745593634c",
         "seg-51fc7b004dade48322f76016",
@@ -93,34 +108,53 @@
         "seg-77c275e7703a1de1d803c178",
         "seg-8dacc5ec97433592f422d47d",
         "seg-9272248d31404ebc53e28ee5",
-        "seg-98341bdf8d460cfcb5a01f1f",
         "seg-9d6b342ad8f2c55dfc74a97b",
         "seg-a172dd595e796d9b8b1bd215",
         "seg-a39b8ebd8c3cdf00ccbefd60",
         "seg-aab3cfe59f363b3f47820109",
         "seg-ab69e75236f341c6a8b74b77",
-        "seg-ac002d0ae7697265cec992e8",
         "seg-add84eefcf99be71d58f247e",
         "seg-ae5b083d308a57aa79f00faf",
         "seg-b49caf8c9ab1a9ebbd269d26",
         "seg-b9fd0c92fd05992e7db712c3",
         "seg-c8eb18ba582021feec89f4e5",
-        "seg-ce88bb231f300939d0ea1cdc",
         "seg-d27120cbe49531a0fb3f8b87",
-        "seg-d37ad7d3b5a20161a26deff4",
         "seg-d5621cafe2ea7b8195ab0c73",
         "seg-d81d63776f55e083f28c5089",
         "seg-d84a99859f4efcfdbf6d368a",
         "seg-dbc82e28737a21bfe50ecc96",
+        "seg-dc6d3201c0ee99c6fcf22ba9",
         "seg-e17470ddbd6dddec260d897d",
         "seg-e2443fd9b963cc10df53ca3b",
-        "seg-f1a7f4fa7de4e27e7c37e2e1",
         "seg-f768838a057f4cfa3d80801b",
         "seg-fe2ff9a6715cbecef667476c"
       ]
     }
   ],
   "occurrences": [
+    {
+      "entity_id": "ent-1aff953665388a21566f2494",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Operação Prato"
+      ],
+      "source_segment_id": "seg-24dee91ffcafc377635a3fe7"
+    },
+    {
+      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Brazilian Air Force",
+        "Força Aérea Brasileira"
+      ],
+      "source_segment_id": "seg-24dee91ffcafc377635a3fe7"
+    },
     {
       "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
       "languages": [
@@ -131,16 +165,6 @@
         "FAB"
       ],
       "source_segment_id": "seg-a39b8ebd8c3cdf00ccbefd60"
-    },
-    {
-      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "Brazilian Air Force"
-      ],
-      "source_segment_id": "seg-ac002d0ae7697265cec992e8"
     },
     {
       "entity_id": "ent-a8298876bd52e8d5d51448c3",
@@ -207,8 +231,7 @@
         "pt-BR"
       ],
       "mentions": [
-        "OVNi",
-        "UFO"
+        "OVNi"
       ],
       "source_segment_id": "seg-21a71bfdd312ad746fbe9df2"
     },
@@ -221,8 +244,8 @@
       "mentions": [
         "Ovnis",
         "UFO",
-        "Ufo",
-        "UFOs"
+        "UFOs",
+        "Unidentified Flying Objects"
       ],
       "source_segment_id": "seg-24dee91ffcafc377635a3fe7"
     },
@@ -273,18 +296,6 @@
     {
       "entity_id": "ent-f513cab0f766319c28769063",
       "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO",
-        "UFOs",
-        "Unidentified flying object"
-      ],
-      "source_segment_id": "seg-2ecc2ca2c30ec30eb1570e99"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
         "en",
         "pt-BR"
       ],
@@ -327,16 +338,6 @@
         "UFOs"
       ],
       "source_segment_id": "seg-421996bfc12debd6528322ce"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-45243ea6dfc9a2287895207a"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -504,16 +505,6 @@
     {
       "entity_id": "ent-f513cab0f766319c28769063",
       "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UNIDENTIFIED FLYING OBJECT"
-      ],
-      "source_segment_id": "seg-98341bdf8d460cfcb5a01f1f"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
         "en",
         "pt-BR"
       ],
@@ -566,19 +557,10 @@
       ],
       "mentions": [
         "OVNI",
+        "UFO",
         "UFOs"
       ],
       "source_segment_id": "seg-ab69e75236f341c6a8b74b77"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-ac002d0ae7697265cec992e8"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -645,30 +627,9 @@
         "en"
       ],
       "mentions": [
-        "UFO",
-        "Unidentified flying object"
-      ],
-      "source_segment_id": "seg-ce88bb231f300939d0ea1cdc"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
         "UFO"
       ],
       "source_segment_id": "seg-d27120cbe49531a0fb3f8b87"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "OVNI"
-      ],
-      "source_segment_id": "seg-d37ad7d3b5a20161a26deff4"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -719,6 +680,16 @@
         "en"
       ],
       "mentions": [
+        "UFO"
+      ],
+      "source_segment_id": "seg-dc6d3201c0ee99c6fcf22ba9"
+    },
+    {
+      "entity_id": "ent-f513cab0f766319c28769063",
+      "languages": [
+        "en"
+      ],
+      "mentions": [
         "OVNIs"
       ],
       "source_segment_id": "seg-e17470ddbd6dddec260d897d"
@@ -739,19 +710,7 @@
         "en"
       ],
       "mentions": [
-        "UFO",
-        "unidentified flying object"
-      ],
-      "source_segment_id": "seg-f1a7f4fa7de4e27e7c37e2e1"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "OVNI",
-        "Unidentified Flying Object"
+        "UFOs"
       ],
       "source_segment_id": "seg-f768838a057f4cfa3d80801b"
     },

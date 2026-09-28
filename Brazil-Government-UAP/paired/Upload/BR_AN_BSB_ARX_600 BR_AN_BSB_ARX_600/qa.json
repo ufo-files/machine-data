@@ -2,41 +2,6 @@
   "document_id": "doc-9927dfd89553d5387e28478a",
   "findings": [
     {
-      "added_in_translation": [
-        "1956-04-13"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-af377bc26a63ec60126544f6",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "1",
-        "13",
-        "20",
-        "4",
-        "56"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "413560120"
-      ],
-      "segment_id": "seg-af377bc26a63ec60126544f6",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-8f820ac10029ccf26e8e64bb",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -96,6 +61,22 @@
       "segment_id": "seg-49262f1cd406387332c863b3",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-9f57b0a3df9d99ed717f07df",
+      "segment_id": "seg-af377bc26a63ec60126544f6",
+      "severity": "warning",
+      "status": "needs-review"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-9f57b0a3df9d99ed717f07df",
+      "segment_id": "seg-29346bf4234f4ea3799a6131",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

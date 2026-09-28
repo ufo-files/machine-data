@@ -1,0 +1,1423 @@
+{"created_utc": "2026-09-27T21:47:04Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 142317, "source_ctime_ns": 1790311498368042464, "source_file": "Archives-for-the-Unexplained/documents/2021-10-27---NASA-Astrobiology---Plum-Alex-Spatial-Structure-in-Autocatalytic-Chemical-Ecosystems-at-the-Origin-of-Life_t1s_c4n5k-Q---transcript-automated-.pdf", "source_mtime_ns": 1790311498363087231, "source_rel": "Archives-for-the-Unexplained/documents/2021-10-27---NASA-Astrobiology---Plum-Alex-Spatial-Structure-in-Autocatalytic-Chemical-Ecosystems-at-the-Origin-of-Life_t1s_c4n5k-Q---transcript-automated-.pdf", "source_sha256": "e236765264feb473f85394376390ce6ef168d6fdb6b5ad504765265f57c737a0"}
+
+1
+00:00:05,990 --> 00:00:05,430
+we know a lot about the biological tree
+
+2
+00:00:07,510 --> 00:00:06,000
+of life
+
+3
+00:00:09,350 --> 00:00:07,520
+and can trace life's evolutionary
+
+4
+00:00:11,910 --> 00:00:09,360
+history all the way back to a last
+
+5
+00:00:13,350 --> 00:00:11,920
+universal common ancestor
+
+6
+00:00:14,870 --> 00:00:13,360
+but for all that we understand about the
+
+7
+00:00:16,630 --> 00:00:14,880
+tree of life there's still a great deal
+
+8
+00:00:18,550 --> 00:00:16,640
+that we don't understand about its root
+
+9
+00:00:20,390 --> 00:00:18,560
+system
+
+10
+00:00:22,550 --> 00:00:20,400
+research on the origin of life can focus
+
+11
+00:00:24,790 --> 00:00:22,560
+on any of a number of stages in life's
+
+12
+00:00:26,790 --> 00:00:24,800
+emergence
+
+13
+00:00:28,070 --> 00:00:26,800
+some origins of life research takes a
+
+14
+00:00:30,150 --> 00:00:28,080
+top-down approach
+
+15
+00:00:32,310 --> 00:00:30,160
+looking at the proximate ancestors to
+
+16
+00:00:34,229 --> 00:00:32,320
+the last universal common ancestor
+
+17
+00:00:35,750 --> 00:00:34,239
+with all of the historical contingencies
+
+18
+00:00:38,630 --> 00:00:35,760
+they may have picked up along the way in
+
+19
+00:00:42,310 --> 00:00:40,389
+alternatively one can take more of a
+
+20
+00:00:44,549 --> 00:00:42,320
+bottom-up approach investigating the
+
+21
+00:00:46,229 --> 00:00:44,559
+earliest stages of life's emergence
+
+22
+00:00:47,590 --> 00:00:46,239
+when it only has the first intimations
+
+23
+00:00:50,069 --> 00:00:47,600
+of lifelike behavior
+
+24
+00:00:53,830 --> 00:00:50,079
+and when few significant historical
+
+25
+00:00:57,830 --> 00:00:55,590
+auto catalytic cycles may have been an
+26
+00:00:59,990 --> 00:00:57,840
+important part of life's chemical roots
+
+27
+00:01:00,790 --> 00:01:00,000
+providing a means by which chemicals can
+
+28
+00:01:03,430 --> 00:01:00,800
+collectively
+
+29
+00:01:05,189 --> 00:01:03,440
+self-propagate the chemicals involved in
+
+30
+00:01:07,510 --> 00:01:05,199
+auto-catalytic cycles
+
+31
+00:01:10,230 --> 00:01:07,520
+can be split into three categories food
+
+32
+00:01:11,830 --> 00:01:10,240
+species which only show up as reactants
+
+33
+00:01:13,750 --> 00:01:11,840
+waste species that only show up as
+
+34
+00:01:15,990 --> 00:01:13,760
+products and member species which show
+
+35
+00:01:17,749 --> 00:01:16,000
+up as both products and reactants
+
+36
+00:01:20,390 --> 00:01:17,759
+and whose abundance grow with each turn
+
+37
+00:01:21,990 --> 00:01:20,400
+of the cycle
+
+38
+00:01:23,910 --> 00:01:22,000
+here we have a simple toy model for an
+
+39
+00:01:25,429 --> 00:01:23,920
+auto catalytic cycle consisting of two
+
+40
+00:01:26,710 --> 00:01:25,439
+reversible reactions
+
+41
+00:01:28,469 --> 00:01:26,720
+the first of which produces an
+
+42
+00:01:30,069 --> 00:01:28,479
+intermediary member species and the
+
+43
+00:01:31,830 --> 00:01:30,079
+second of which produces two of the
+
+44
+00:01:33,830 --> 00:01:31,840
+original member species
+
+45
+00:01:36,469 --> 00:01:33,840
+this provides a stoichiometric asymmetry
+
+46
+00:01:38,390 --> 00:01:36,479
+that allows the cycle to grow and spread
+
+47
+00:01:40,149 --> 00:01:38,400
+we simulate auto catalytic cycles in
+
+48
+00:01:41,670 --> 00:01:40,159
+flow reactor environments where food
+
+49
+00:01:43,030 --> 00:01:41,680
+flows in from a source to drive the
+
+50
+00:01:44,710 --> 00:01:43,040
+system out of equilibrium
+51
+00:01:46,870 --> 00:01:44,720
+and where all chemicals flow out of the
+
+52
+00:01:48,630 --> 00:01:46,880
+reactor such that if a cycle doesn't
+
+53
+00:01:49,350 --> 00:01:48,640
+propagate itself fast enough it will go
+
+54
+00:01:51,350 --> 00:01:49,360
+extinct
+
+55
+00:01:52,789 --> 00:01:51,360
+these simulations can be performed using
+
+56
+00:01:54,870 --> 00:01:52,799
+mass action kinetics in which case
+
+57
+00:01:56,709 --> 00:01:54,880
+chemical concentrations are continuous
+
+58
+00:01:58,389 --> 00:01:56,719
+and the simulations are deterministic
+
+59
+00:02:00,389 --> 00:01:58,399
+we're using the gillespie algorithm in
+
+60
+00:02:02,550 --> 00:02:00,399
+which case chemical counts are discrete
+
+61
+00:02:04,149 --> 00:02:02,560
+and the simulations are stochastic we
+
+62
+00:02:04,870 --> 00:02:04,159
+use the gillespie algorithm in this
+
+63
+00:02:06,469 --> 00:02:04,880
+presentation
+
+64
+00:02:08,229 --> 00:02:06,479
+an example is on the right you can see
+
+65
+00:02:11,110 --> 00:02:08,239
+the logistic growth of member species
+
+66
+00:02:12,949 --> 00:02:11,120
+and waste species as food is depleted
+
+67
+00:02:14,309 --> 00:02:12,959
+in 2020 we published a paper
+
+68
+00:02:15,750 --> 00:02:14,319
+investigating the different types of
+
+69
+00:02:17,670 --> 00:02:15,760
+ecological interactions that auto
+
+70
+00:02:19,589 --> 00:02:17,680
+catalytic cycles might exhibit
+
+71
+00:02:22,710 --> 00:02:19,599
+extending the analogy of auto catalytic
+
+72
+00:02:24,710 --> 00:02:22,720
+cycles as species in an ecosystem
+
+73
+00:02:26,390 --> 00:02:24,720
+we showed that auto catalytic cycles can
+
+74
+00:02:27,910 --> 00:02:26,400
+compete for food sources
+
+75
+00:02:29,990 --> 00:02:27,920
+exhibit facultative and obligate
+76
+00:02:32,630 --> 00:02:30,000
+mutualisms with the waste of one
+
+77
+00:02:34,550 --> 00:02:32,640
+serving as the food for another that the
+
+78
+00:02:36,150 --> 00:02:34,560
+one cycle can prey on the member species
+
+79
+00:02:38,070 --> 00:02:36,160
+of another cycle and that cycles can
+
+80
+00:02:40,710 --> 00:02:38,080
+mutually inhibit one another
+
+81
+00:02:42,630 --> 00:02:40,720
+the idea is that different ecological
+
+82
+00:02:44,390 --> 00:02:42,640
+interactions can be composed to form
+
+83
+00:02:45,509 --> 00:02:44,400
+stable ecosystems of increasing
+
+84
+00:02:47,110 --> 00:02:45,519
+complexity
+
+85
+00:02:49,750 --> 00:02:47,120
+to provide the scaffolding for later
+
+86
+00:02:51,830 --> 00:02:49,760
+stages in the emergence of
+
+87
+00:02:53,830 --> 00:02:51,840
+this previous work limited its analysis
+
+88
+00:02:54,790 --> 00:02:53,840
+to auto catalytic cycles in well-mixed
+
+89
+00:02:56,390 --> 00:02:54,800
+environments
+
+90
+00:02:58,470 --> 00:02:56,400
+but the ecological possibilities for
+
+91
+00:03:00,470 --> 00:02:58,480
+chemical ecosystems might be expanded if
+
+92
+00:03:02,390 --> 00:03:00,480
+we consider different types of spatially
+
+93
+00:03:04,550 --> 00:03:02,400
+structured environments instead
+
+94
+00:03:06,390 --> 00:03:04,560
+for example reaction diffusion systems
+
+95
+00:03:08,630 --> 00:03:06,400
+where cycles can spread
+
+96
+00:03:10,149 --> 00:03:08,640
+to occupy new locations and thereby gain
+
+97
+00:03:11,990 --> 00:03:10,159
+access to new food
+
+98
+00:03:14,470 --> 00:03:12,000
+these will be the primary focus of this
+
+99
+00:03:15,910 --> 00:03:14,480
+presentation
+
+100
+00:03:17,110 --> 00:03:15,920
+there are several reasons the spatial
+101
+00:03:19,350 --> 00:03:17,120
+structure might be important to the
+
+102
+00:03:20,869 --> 00:03:19,360
+dynamics of chemical ecosystems
+
+103
+00:03:22,550 --> 00:03:20,879
+first it might help to sustain more
+
+104
+00:03:24,229 --> 00:03:22,560
+complex chemical ecosystems by
+
+105
+00:03:25,910 --> 00:03:24,239
+permitting the coexistence of cycles
+
+106
+00:03:26,949 --> 00:03:25,920
+that couldn't coexist in a well-mixed
+
+107
+00:03:30,630 --> 00:03:26,959
+environment
+
+108
+00:03:32,070 --> 00:03:30,640
+might select for spatial properties of
+
+109
+00:03:34,630 --> 00:03:32,080
+auto catalytic cycles
+
+110
+00:03:36,630 --> 00:03:34,640
+such as the permeability or diffusivity
+
+111
+00:03:39,030 --> 00:03:36,640
+of their constituent chemicals
+
+112
+00:03:40,390 --> 00:03:39,040
+and third spatial structure might create
+
+113
+00:03:42,309 --> 00:03:40,400
+new levels of selection
+
+114
+00:03:43,430 --> 00:03:42,319
+either favoring traits that couldn't be
+
+115
+00:03:45,910 --> 00:03:43,440
+favored in the well-mixed
+
+116
+00:03:47,589 --> 00:03:45,920
+environment analogous to group structure
+
+117
+00:03:48,949 --> 00:03:47,599
+favoring different traits and biological
+
+118
+00:03:51,030 --> 00:03:48,959
+populations
+
+119
+00:03:52,630 --> 00:03:51,040
+or creating new units of selection
+
+120
+00:03:54,149 --> 00:03:52,640
+altogether
+
+121
+00:03:56,149 --> 00:03:54,159
+first i'm going to present a simple
+
+122
+00:03:57,589 --> 00:03:56,159
+example where a spatially structured
+
+123
+00:03:59,589 --> 00:03:57,599
+environment permits a more complex
+
+124
+00:04:01,030 --> 00:03:59,599
+chemical ecosystem to be maintained
+
+125
+00:04:03,110 --> 00:04:01,040
+then could otherwise be maintained in
+126
+00:04:05,190 --> 00:04:03,120
+the well-mixed case this is going to be
+
+127
+00:04:07,429 --> 00:04:05,200
+similar in spirit to the bz reaction
+
+128
+00:04:09,509 --> 00:04:07,439
+which has auto catalytic mechanisms
+
+129
+00:04:11,110 --> 00:04:09,519
+and which while oscillating between two
+
+130
+00:04:13,429 --> 00:04:11,120
+states in the wellmix case
+
+131
+00:04:15,990 --> 00:04:13,439
+exhibits stable and dynamic patterns and
+
+132
+00:04:17,909 --> 00:04:16,000
+as a reaction diffusion system
+
+133
+00:04:19,749 --> 00:04:17,919
+this example is going to consist of two
+
+134
+00:04:20,310 --> 00:04:19,759
+mutually inhibiting auto catalytic
+
+135
+00:04:22,629 --> 00:04:20,320
+cycles
+
+136
+00:04:23,830 --> 00:04:22,639
+a and b which are colored red and blue
+
+137
+00:04:25,270 --> 00:04:23,840
+respectively
+
+138
+00:04:26,629 --> 00:04:25,280
+each cycle is supplied with an
+
+139
+00:04:29,189 --> 00:04:26,639
+independent food source so that they're
+
+140
+00:04:30,870 --> 00:04:29,199
+not directly competing for food
+
+141
+00:04:32,950 --> 00:04:30,880
+each consists of two reversible
+
+142
+00:04:34,390 --> 00:04:32,960
+reactions identical to the toy model i
+
+143
+00:04:36,629 --> 00:04:34,400
+initially showed
+
+144
+00:04:37,990 --> 00:04:36,639
+additionally we include two reversible
+
+145
+00:04:40,230 --> 00:04:38,000
+inhibition reactions
+
+146
+00:04:42,469 --> 00:04:40,240
+which react the waste of one cycle with
+
+147
+00:04:43,510 --> 00:04:42,479
+the food of the other cycle to produce
+
+148
+00:04:46,150 --> 00:04:43,520
+another species
+
+149
+00:04:47,270 --> 00:04:46,160
+x or y that neither cycle can directly
+
+150
+00:04:49,270 --> 00:04:47,280
+use
+151
+00:04:51,510 --> 00:04:49,280
+the effect of this is that if one cycle
+
+152
+00:04:54,070 --> 00:04:51,520
+increases its abundance more quickly
+
+153
+00:04:55,430 --> 00:04:54,080
+the waste that it produces can inhibit
+
+154
+00:04:57,670 --> 00:04:55,440
+the growth of the other cycle
+
+155
+00:04:59,990 --> 00:04:57,680
+ultimately driving it extinct and once
+
+156
+00:05:00,710 --> 00:05:00,000
+again all chemicals will be constantly
+
+157
+00:05:03,189 --> 00:05:00,720
+diluted
+
+158
+00:05:06,469 --> 00:05:03,199
+creating a selective pressure for cycles
+
+159
+00:05:08,390 --> 00:05:06,479
+that can propagate more quickly
+
+160
+00:05:09,670 --> 00:05:08,400
+instead of simulating this chemical
+
+161
+00:05:11,830 --> 00:05:09,680
+reaction network
+
+162
+00:05:13,909 --> 00:05:11,840
+in a singular flow reactor will simulate
+
+163
+00:05:16,150 --> 00:05:13,919
+it in a reaction diffusion system
+
+164
+00:05:18,230 --> 00:05:16,160
+where each pixel has inflow from a
+
+165
+00:05:20,870 --> 00:05:18,240
+source and outflow into a sink
+
+166
+00:05:24,870 --> 00:05:20,880
+but also exchanges its chemical contents
+
+167
+00:05:27,110 --> 00:05:24,880
+with neighboring pixels via diffusion
+
+168
+00:05:29,270 --> 00:05:27,120
+more specifically we'll use a 5x5
+
+169
+00:05:31,029 --> 00:05:29,280
+reaction diffusion system with periodic
+
+170
+00:05:33,510 --> 00:05:31,039
+boundaries
+
+171
+00:05:34,390 --> 00:05:33,520
+now if we were to seed every pixel in
+
+172
+00:05:37,590 --> 00:05:34,400
+this system
+
+173
+00:05:38,550 --> 00:05:37,600
+uniformly with equal amounts of cycles a
+
+174
+00:05:41,350 --> 00:05:38,560
+and b
+
+175
+00:05:43,189 --> 00:05:41,360
+but with no diffusion it would be
+176
+00:05:46,310 --> 00:05:43,199
+possible to have an outcome like this
+
+177
+00:05:49,510 --> 00:05:46,320
+in which cycles a and b dominate
+
+178
+00:05:51,270 --> 00:05:49,520
+in adjacent pixels and stably coexist
+
+179
+00:05:53,749 --> 00:05:51,280
+because there is no interaction between
+
+180
+00:05:54,310 --> 00:05:53,759
+those pixels if we were to add diffusion
+
+181
+00:05:57,909 --> 00:05:54,320
+in
+
+182
+00:05:59,990 --> 00:05:57,919
+this sort of outcome would be unstable
+
+183
+00:06:01,510 --> 00:06:00,000
+for example with any slight imbalance
+
+184
+00:06:03,270 --> 00:06:01,520
+like blue coming to dominate in the
+
+185
+00:06:05,830 --> 00:06:03,280
+center
+
+186
+00:06:07,749 --> 00:06:05,840
+accumulated member species by cycle b in
+
+187
+00:06:09,909 --> 00:06:07,759
+the center could diffuse outwards
+
+188
+00:06:13,510 --> 00:06:09,919
+and strengthen the invasion of pixels
+
+189
+00:06:17,430 --> 00:06:15,430
+and with high enough diffusion rates we
+
+190
+00:06:19,590 --> 00:06:17,440
+would expect the whole system to reach
+
+191
+00:06:21,990 --> 00:06:19,600
+one global outcome
+
+192
+00:06:23,510 --> 00:06:22,000
+here we have stochastic simulations of
+
+193
+00:06:25,670 --> 00:06:23,520
+the reaction diffusion system
+
+194
+00:06:26,550 --> 00:06:25,680
+under three different conditions where
+
+195
+00:06:29,189 --> 00:06:26,560
+we're varying
+
+196
+00:06:31,029 --> 00:06:29,199
+the rate constant for the diffusion of
+
+197
+00:06:32,790 --> 00:06:31,039
+all chemicals in the system
+
+198
+00:06:35,909 --> 00:06:32,800
+we have a slow diffusion case a moderate
+
+199
+00:06:37,909 --> 00:06:35,919
+diffusion case and a fast diffusion case
+
+200
+00:06:39,749 --> 00:06:37,919
+here we have time series plots for the
+201
+00:06:40,790 --> 00:06:39,759
+total number of member species belonging
+
+202
+00:06:42,710 --> 00:06:40,800
+to each cycle
+
+203
+00:06:45,430 --> 00:06:42,720
+and each pixel of the reaction diffusion
+
+204
+00:06:47,430 --> 00:06:45,440
+system for each of the three cases
+
+205
+00:06:48,870 --> 00:06:47,440
+on the left in the slow diffusion case
+
+206
+00:06:51,670 --> 00:06:48,880
+we can see that each pixel
+
+207
+00:06:53,670 --> 00:06:51,680
+quickly has one cycle dominate and that
+
+208
+00:06:55,110 --> 00:06:53,680
+a low amount of material is exchanged
+
+209
+00:06:57,430 --> 00:06:55,120
+between reactors
+
+210
+00:06:59,670 --> 00:06:57,440
+such that each cycle struggles to invade
+
+211
+00:07:02,070 --> 00:06:59,680
+adjacent pixels
+
+212
+00:07:03,830 --> 00:07:02,080
+on the right we see the opposite extreme
+
+213
+00:07:05,990 --> 00:07:03,840
+a large amount of chemicals are
+
+214
+00:07:07,909 --> 00:07:06,000
+exchanged between adjacent pixels
+
+215
+00:07:10,070 --> 00:07:07,919
+so that the plots tend to resemble one
+
+216
+00:07:10,550 --> 00:07:10,080
+another and a global outcome is quickly
+
+217
+00:07:13,510 --> 00:07:10,560
+reached
+
+218
+00:07:15,830 --> 00:07:13,520
+approximating a well-mixed reactor in
+
+219
+00:07:17,830 --> 00:07:15,840
+the moderate diffusion regime each pixel
+
+220
+00:07:18,469 --> 00:07:17,840
+alternates between being dominated by
+
+221
+00:07:21,670 --> 00:07:18,479
+cycle a
+
+222
+00:07:23,990 --> 00:07:21,680
+and cycle b neither cycle wins globally
+
+223
+00:07:25,589 --> 00:07:24,000
+and each shifts around its advantage
+
+224
+00:07:27,430 --> 00:07:25,599
+forming patterns reminiscent
+
+225
+00:07:30,309 --> 00:07:27,440
+of the spatial patterns of the bc
+226
+00:07:35,189 --> 00:07:30,319
+reaction in a petri dish
+
+227
+00:07:39,670 --> 00:07:37,510
+next i'll continue using the example of
+
+228
+00:07:40,790 --> 00:07:39,680
+mutually inhibiting cycles in a reaction
+
+229
+00:07:42,550 --> 00:07:40,800
+diffusion system
+
+230
+00:07:44,309 --> 00:07:42,560
+to show a case where the spatial
+
+231
+00:07:46,550 --> 00:07:44,319
+properties of auto catalytic cycles can
+
+232
+00:07:48,390 --> 00:07:46,560
+be selected for
+
+233
+00:07:50,950 --> 00:07:48,400
+we'll take the same two mutually
+
+234
+00:07:52,950 --> 00:07:50,960
+inhibiting cycles that we had before
+
+235
+00:07:55,029 --> 00:07:52,960
+but instead of making them identical to
+
+236
+00:07:57,510 --> 00:07:55,039
+one another in their rate constants
+
+237
+00:07:58,950 --> 00:07:57,520
+and the diffusion constants associated
+
+238
+00:08:01,270 --> 00:07:58,960
+with their chemicals
+
+239
+00:08:02,150 --> 00:08:01,280
+we're going to make them differ in two
+
+240
+00:08:04,550 --> 00:08:02,160
+ways
+
+241
+00:08:06,070 --> 00:08:04,560
+the red cycle is going to be fiercer in
+
+242
+00:08:08,390 --> 00:08:06,080
+the sense that it's going to have
+
+243
+00:08:10,469 --> 00:08:08,400
+reactions with higher rate constants
+
+244
+00:08:11,990 --> 00:08:10,479
+but the blue cycle is going to be faster
+
+245
+00:08:16,550 --> 00:08:12,000
+meaning that its member species are
+
+246
+00:08:20,710 --> 00:08:18,629
+we are going to do this in a 3x3
+
+247
+00:08:21,670 --> 00:08:20,720
+reaction diffusion system with periodic
+
+248
+00:08:24,150 --> 00:08:21,680
+boundaries
+
+249
+00:08:25,110 --> 00:08:24,160
+where both cycles are only seated in the
+
+250
+00:08:29,110 --> 00:08:25,120
+center pixel
+251
+00:08:34,790 --> 00:08:32,230
+the expectation is that cycle a in red
+
+252
+00:08:36,230 --> 00:08:34,800
+being fiercer will tend to dominate in
+
+253
+00:08:39,110 --> 00:08:36,240
+the central pixel
+
+254
+00:08:39,990 --> 00:08:39,120
+whereas cycle b in blue being faster
+
+255
+00:08:42,230 --> 00:08:40,000
+will tend to spread
+
+256
+00:08:45,750 --> 00:08:42,240
+more quickly to adjacent pixels and
+
+257
+00:08:48,710 --> 00:08:45,760
+thereby access new food more quickly
+
+258
+00:08:49,750 --> 00:08:48,720
+as cycle b continues to expand it might
+
+259
+00:08:51,110 --> 00:08:49,760
+be able to build up
+
+260
+00:08:53,190 --> 00:08:51,120
+enough of an advantage in the
+
+261
+00:08:54,150 --> 00:08:53,200
+surrounding pixels to re-invade the
+
+262
+00:08:57,829 --> 00:08:54,160
+central pixel
+
+263
+00:09:00,070 --> 00:08:57,839
+and overcome cycle a here we have an
+
+264
+00:09:02,070 --> 00:09:00,080
+animation of the unfolding of time
+
+265
+00:09:04,070 --> 00:09:02,080
+series of the total number of member
+
+266
+00:09:07,190 --> 00:09:04,080
+species for each cycle in each pixel of
+
+267
+00:09:10,470 --> 00:09:09,590
+in the central pixel cycle a being
+
+268
+00:09:11,990 --> 00:09:10,480
+fiercer
+
+269
+00:09:14,710 --> 00:09:12,000
+drives cycle b to the brink of
+
+270
+00:09:17,030 --> 00:09:14,720
+extinction but cycle b being faster
+
+271
+00:09:18,630 --> 00:09:17,040
+is able to diffuse into adjacent sites
+
+272
+00:09:20,150 --> 00:09:18,640
+and build up an advantage in those
+
+273
+00:09:22,230 --> 00:09:20,160
+pixels more quickly
+
+274
+00:09:23,750 --> 00:09:22,240
+so that it can suppress the growth of
+
+275
+00:09:26,230 --> 00:09:23,760
+cycle a
+276
+00:09:27,829 --> 00:09:26,240
+eventually cycle b is able to re-invade
+
+277
+00:09:29,590 --> 00:09:27,839
+the central pixel
+
+278
+00:09:33,030 --> 00:09:29,600
+to such an extent that it begins to
+
+279
+00:09:34,870 --> 00:09:33,040
+drive cycle a towards extinction
+
+280
+00:09:36,870 --> 00:09:34,880
+the outcome of this type of simulation
+
+281
+00:09:39,030 --> 00:09:36,880
+largely depends on the relative fastness
+
+282
+00:09:40,870 --> 00:09:39,040
+and fierceness of cycles a and b
+
+283
+00:09:43,110 --> 00:09:40,880
+here we have a heat map in which we
+
+284
+00:09:45,829 --> 00:09:43,120
+sweep over those parameters
+
+285
+00:09:48,470 --> 00:09:45,839
+on the left we sweep over the diffusion
+
+286
+00:09:50,470 --> 00:09:48,480
+constants for the chemicals of cycle b
+
+287
+00:09:52,230 --> 00:09:50,480
+where as we go down cycle b gets
+
+288
+00:09:54,630 --> 00:09:52,240
+increasingly fast
+
+289
+00:09:55,750 --> 00:09:54,640
+on the bottom we sweep over the reaction
+
+290
+00:09:58,550 --> 00:09:55,760
+rate constants
+
+291
+00:09:59,750 --> 00:09:58,560
+for cycle b's reactions whereas we move
+
+292
+00:10:03,829 --> 00:09:59,760
+from right to left
+
+293
+00:10:05,670 --> 00:10:03,839
+cycle b gets increasingly less fierce
+
+294
+00:10:06,870 --> 00:10:05,680
+the colors in the heat map encode the
+
+295
+00:10:09,430 --> 00:10:06,880
+final frequency
+
+296
+00:10:10,230 --> 00:10:09,440
+of member species for cycles a and b
+
+297
+00:10:13,430 --> 00:10:10,240
+aggregated
+
+298
+00:10:15,509 --> 00:10:13,440
+over the reaction diffusion system we
+
+299
+00:10:17,750 --> 00:10:15,519
+find parameter combinations where
+
+300
+00:10:20,310 --> 00:10:17,760
+fastness overcomes fierceness and where
+301
+00:10:22,069 --> 00:10:20,320
+fierceness overcomes fastness
+
+302
+00:10:24,069 --> 00:10:22,079
+meaning that either could be selected
+
+303
+00:10:26,150 --> 00:10:24,079
+for
+
+304
+00:10:28,310 --> 00:10:26,160
+additionally while it is always better
+
+305
+00:10:29,750 --> 00:10:28,320
+to be fiercer it is not always better to
+
+306
+00:10:32,230 --> 00:10:29,760
+be faster
+
+307
+00:10:33,190 --> 00:10:32,240
+in the bottom left we see a region where
+
+308
+00:10:35,750 --> 00:10:33,200
+cycle b
+
+309
+00:10:37,590 --> 00:10:35,760
+being faster gives it a disadvantage to
+
+310
+00:10:40,310 --> 00:10:37,600
+cycle a
+
+311
+00:10:41,910 --> 00:10:40,320
+likely because its members diffuse so
+
+312
+00:10:43,829 --> 00:10:41,920
+quickly that they can't stably
+
+313
+00:10:45,750 --> 00:10:43,839
+accumulate
+
+314
+00:10:47,190 --> 00:10:45,760
+in addition to simple reaction diffusion
+
+315
+00:10:48,870 --> 00:10:47,200
+systems there are various other
+
+316
+00:10:50,550 --> 00:10:48,880
+spatially structured environments that
+
+317
+00:10:52,310 --> 00:10:50,560
+may be relevant to the origin of life
+
+318
+00:10:53,910 --> 00:10:52,320
+and to the dynamics of auto catalytic
+
+319
+00:10:56,069 --> 00:10:53,920
+chemical ecosystems
+
+320
+00:10:58,230 --> 00:10:56,079
+for example mineral surfaces where
+
+321
+00:10:59,030 --> 00:10:58,240
+chemicals can adsorb and desorb from a
+
+322
+00:11:03,430 --> 00:10:59,040
+surface
+
+323
+00:11:05,269 --> 00:11:03,440
+and also provide a new basis for
+
+324
+00:11:07,269 --> 00:11:05,279
+competition between auto catalytic
+
+325
+00:11:08,710 --> 00:11:07,279
+cycles as they compete for adsorption
+326
+00:11:10,710 --> 00:11:08,720
+sites
+
+327
+00:11:12,310 --> 00:11:10,720
+compartments are another important class
+
+328
+00:11:12,949 --> 00:11:12,320
+of spatial structures that might affect
+
+329
+00:11:15,030 --> 00:11:12,959
+the dynamic
+
+330
+00:11:16,870 --> 00:11:15,040
+chemical ecosystems they might be
+
+331
+00:11:19,829 --> 00:11:16,880
+semi-permeable or closed
+
+332
+00:11:21,430 --> 00:11:19,839
+they might grow and or divide some
+
+333
+00:11:22,150 --> 00:11:21,440
+examples of these in the origins of life
+
+334
+00:11:25,430 --> 00:11:22,160
+literature
+
+335
+00:11:26,470 --> 00:11:25,440
+are vesicles and coagulate some forms of
+
+336
+00:11:28,630 --> 00:11:26,480
+spatial structure
+
+337
+00:11:30,710 --> 00:11:28,640
+especially compartments provide the
+
+338
+00:11:32,550 --> 00:11:30,720
+possibility of new levels of selection
+
+339
+00:11:34,310 --> 00:11:32,560
+especially when the dynamics of the
+
+340
+00:11:36,230 --> 00:11:34,320
+spatial structure become coupled to the
+
+341
+00:11:38,630 --> 00:11:36,240
+chemistry itself
+
+342
+00:11:40,389 --> 00:11:38,640
+i'd like to gratefully acknowledge my pi
+
+343
+00:11:41,670 --> 00:11:40,399
+david baum who i've been working with
+
+344
+00:11:43,190 --> 00:11:41,680
+through the hildale undergraduate
+
+345
+00:11:44,870 --> 00:11:43,200
+faculty research fellowship at the
+
+346
+00:11:46,630 --> 00:11:44,880
+wisconsin institute for discovery
+
+347
+00:11:48,069 --> 00:11:46,640
+and chris kemp is my mentor at the santa
+
+348
+00:11:50,230 --> 00:11:48,079
+fe institute for the undergraduate
+
+349
+00:11:51,590 --> 00:11:50,240
+complexity research program
+
+350
+00:11:53,030 --> 00:11:51,600
+also the graduate students and
+351
+00:11:54,550 --> 00:11:53,040
+post-doctoral students that i've been
+
+352
+00:11:55,750 --> 00:11:54,560
+working with at the wisconsin institute
+
+353
+00:11:57,430 --> 00:11:55,760
+for discovery
+
+354
+00:11:59,509 --> 00:11:57,440
+and the other undergraduates in the bomb
+
+355
+00:12:01,030 --> 00:11:59,519
+lab as well
+
+356
+00:12:02,790 --> 00:12:01,040
+for additional reading you can check out
+
+357
+00:12:04,470 --> 00:12:02,800
+our paper from last year in ecological
+
+358
+00:12:07,430 --> 00:12:04,480
+framework for the analysis of prebiotic
+
+359
+00:12:08,790 --> 00:12:07,440
+chemical reaction networks

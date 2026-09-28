@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "d2791034c20315476148b3aef2377e83fc1337cf0bcbfeb7e212755456207be0",
+  "canonical_text_sha256": "a41bd1b5914da4556d2ca777284f58101fd74a12e221c71676ce6726657c5e8f",
   "document_id": "doc-fc21a9b3769be0b43169d485",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -14,6 +14,35 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 41,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-12T10:33:39Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "b7da959831e9583472f3b3c94c364d83ff93a60936f13bd869d40b3a06061289",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "329b437099362814d1332257aa549083daa0768f0b3bb8a049106810a640c3da",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "035e155d351a1c9f7d1a7fb3067f33fd144a70062822e9d244e89f70b8442031",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:48:42Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -22,17 +51,55 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 41,
   "source_bytes": 341428,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "INTIMAÇÃO\nCERTIFICO que às - horas do dia 09 do mês de julho do ano de 1997, intimei o [ilegível] da decisão de fls. 351, do que ficou bem ciente. E, para constar, lavro esta certidão.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "INTIMAGAO\n      CERTIFICO.          queas__-               _horasdodia_C©9              domés\n     ide       Julho daano de i99_7__,                intimet o\n                          es                        da       decisao          de\n      fls.     351         doque fic ou                      bem cienio. E, para\n      constar,        lavro     esta       certiddo.",
+      "original_text_sha256": "9b5b858e3de1926c1cfe709f4cc20229090785c2408cdfe56ce89a47a38c59bf",
+      "page": 1,
+      "segment_id": "seg-ba2070175f9f4dbe8e46d76c",
+      "source_page_render_sha256": "359302ae11cf8d5427d8b2c3290f1cd4db1c3e3f5cbb263807003591b1a50f28",
+      "source_rel": "Upload/varginha IPM 09 IPM 09 2.pdf",
+      "translation": "NOTICE\nI CERTIFY that at - hours on July 09, 1997, I notified [ilegível] of the decision on page 351, of which the recipient was duly informed. I issue this certificate for the record."
+    },
+    {
+      "corrected_source_text": "CERTIDÃO\nCERTIFICO que decorreu o prazo legal sem que no presente feito houvesse interposição de recurso, tendo TRANSITADO EM JULGADO, em 15/07/97, a decisão de fls. 351. E, para constar, lavro esta certidão. Aos 16 dias do mês de julho do ano de 1997.\n[assinaturas]\nEncarregado do Serviço\nDiretora de Secretaria",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "CERTIDAO\n      CERTIFICO           que     decorreu        o prazo       legal sem         que    no\n      presente feito houvesse interposi¢do de recurso, tendo\n     |}TRANSITARO               EM     JULGADO,              em_15/\n                                                                 07) 97, ap\n      decisao        de    fls.      351                                     =,     para\n      constar,            lavro      esta        certidao.     Aes_16             dias   do\n      més_de         Julho do znode 1997.\n                                                    Ceolkivd\n                                            ce                  lServigo\n                                                         \\\n                                              Diretora de       Secretaria",
+      "original_text_sha256": "b7da959831e9583472f3b3c94c364d83ff93a60936f13bd869d40b3a06061289",
+      "page": 1,
+      "segment_id": "seg-5b7cb283504cad73236a9697",
+      "source_page_render_sha256": "359302ae11cf8d5427d8b2c3290f1cd4db1c3e3f5cbb263807003591b1a50f28",
+      "source_rel": "Upload/varginha IPM 09 IPM 09 2.pdf",
+      "translation": "CERTIFICATE\nI CERTIFY that the legal period expired without an appeal being filed in this case, and the decision on page 351 BECAME FINAL on 15/07/97. I issue this certificate for the record. On July 16, 1997.\n[signatures]\nOfficer in charge of the service\nDirector of the Secretariat"
+    },
+    {
+      "corrected_source_text": "CERTIFICO, para os devidos fins, que pelo Ato nº 12.928, de 17.06.97, do Excelentíssimo Senhor Ministro-Presidente do Egrégio SUPERIOR TRIBUNAL MILITAR, publicado no DJ de 20.06.97, a DRA. ZILAH MARIA CALLADO FADUL PETERSEN, Juíza-Auditora da Auditoria da 11ª CJM, foi convocada para assumir o exercício pleno do cargo de Juiz-Auditor Corregedor da Justiça Militar, no período de 02 a 31 de julho de 1997, em substituição ao titular, que se encontra em gozo de férias. O referido é verdade e dou fé. Brasília/DF, 28 de julho de 1997. Eu, [assinatura] (Dra. Vera Regina Saliba",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "CERTIFICO, para os devidos fins, que pelo Ato\nn° 12.928, de 17.06.97, do Excelentissimo Senhor Ministro-Presidente do\nEgrégio SUPERIOR TRIBUNAL MILITAR, publicado no DJ de 20.06.97, a\nDRA. ZILAH MARIA CALLADO FADUL PETERSEN, Juiza-Auditora\nda Auditoria da 11° CJM, foi convocada para assumir 0 exerctcio pleno\ndo cargo de Juiz-Auditor Corregedor da Justiga Militar, no periodo de 02\na 31 de jutho de 1997, em substituicao ao titular, que se encontra em gozo\n                                                                         de\nde férias. O referido éverdade e dou fé. Brasilia/DF, 28 de julho\n1997, Eu,                   ‘       a           (Dra. Vera Regina Saliba",
+      "original_text_sha256": "329b437099362814d1332257aa549083daa0768f0b3bb8a049106810a640c3da",
+      "page": 4,
+      "segment_id": "seg-9d08d5e865a1c7bf4433ef96",
+      "source_page_render_sha256": "d22b833b913deed199d45a932898d8563f25280193fde6e40bd06b1e00377abd",
+      "source_rel": "Upload/varginha IPM 09 IPM 09 2.pdf",
+      "translation": "I CERTIFY, for the appropriate purposes, that under Act No. 12.928 of 17.06.97, issued by the Most Excellent Minister-President of the Honorable SUPERIOR TRIBUNAL MILITAR and published in the DJ of 20.06.97, DRA. ZILAH MARIA CALLADO FADUL PETERSEN, Judge-Auditor of the Auditoria of the 11th CJM, was summoned to assume the full duties of Judge-Auditor Inspector of Military Justice from July 02 to 31, 1997, replacing the incumbent, who is on vacation. The foregoing is true, and I attest to it. Brasília/DF, July 28, 1997. I, [signature] (Dra. Vera Regina Saliba"
+    }
+  ],
   "source_sha256": "c733b3dfa077f088f1927bbf48b4c27b4d1d2fbcf2aa0d1c17fe37cb17d77ad8",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-12T10:33:39Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:48:42Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "625644599495a645120f9814783028c048542978090217f352f417b31f16deb4"
+  "translation_text_sha256": "161566e7cb9c027b9fc0c8387b689bf1043fe4bc9b333d4bbdd645268555fe40"
 }

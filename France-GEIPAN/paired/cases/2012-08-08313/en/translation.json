@@ -135,51 +135,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-8d8864ce9004e62f34036a72",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "2012-08-19"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "19",
-                "2012",
-                "8"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "19.08.2012"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                " questionnaire terre-R_0.pdf",
-                " Compte rendu enquete.pdf"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "not-required",
           "segment_id": "seg-206992f3835d0fd91e4d5849",
           "segment_index": 9,
           "source_segment_id": "seg-206992f3835d0fd91e4d5849",
           "source_text_sha256": "a17b6723179ebaa1ef4fae140fd7d835f10434ad14fba2b2eb8604aaf2396b54",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Documents: CHATENAY-MALABRY (92) 2012-08-19 [T-Cgei Qt T,D S,A]",
-          "translation_text_sha256": "398182933b1278414600187bd43c6465ebe44e1773cb30b5fa9f092e0b1983b6"
+          "status": "not-required",
+          "text": "Documents: Compte rendu enquete.pdf CHATENAY-MALABRY (92) 19.08.2012 [T-Cgei Qt T,D S,A] questionnaire terre-R_0.pdf",
+          "translation_text_sha256": "a17b6723179ebaa1ef4fae140fd7d835f10434ad14fba2b2eb8604aaf2396b54"
         },
         {
           "end_ms": null,
@@ -187,13 +155,13 @@
           "field": "testimonies",
           "page_id": "page-8d8864ce9004e62f34036a72",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-00b315a69f150fba2aba5485",
           "segment_index": 10,
           "source_segment_id": "seg-00b315a69f150fba2aba5485",
           "source_text_sha256": "6daebf334116eea441b8ad624ad8e29838a35ad2910421e55adb1342709fb4d6",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: TOULON (83) 23.08.2012",
           "translation_text_sha256": "7bc5d6a7d8289fe606f98ffc1077944ec39fbcd8bcece14c8b1bea58375c6278"
         },
@@ -248,13 +216,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-29T19:08:26Z",
+    "generated_at": "2026-09-27T01:35:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

@@ -14,6 +14,37 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 20,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T03:55:31Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "needs-review",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v2"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "3220be7c4be4d9dffb99934e9c6bb9d833152434aa789f91110b1ce46a66dfa6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      },
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "3476ed135937641dbc7f39312ccf7f5fb66a6d65a6f8d9f6274544ff7cfa44b8",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": true
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:25:13Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -23,16 +54,16 @@
   "segment_count": 20,
   "source_bytes": 805173,
   "source_sha256": "9d60b06f5bd6233891468620b34e041e90e374249d3ddf5705ad7ab1d0ad2d4d",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-12T12:14:37Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:25:13Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "27be00c8527ea1372468bb379529878af698d0644113335b2f50e49845be1a91"
+  "translation_text_sha256": "885b2b2bff5fb94c5f459c533470ae259da7c5bd91bca7e294696f485436179f"
 }

@@ -14,6 +14,27 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 16,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-12T13:49:53Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "db2f67586a40005c4841fc57fb86b787413c10e9bb8a3aa5969d74bee8cb65ab",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T03:50:43Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -23,16 +44,16 @@
   "segment_count": 16,
   "source_bytes": 843012,
   "source_sha256": "858ff29d72119a4564f6ac0e4b469b32fc2c85b1e3333c7a75131ace0a321a53",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-12T13:49:53Z",
+    "generated_at": "2026-09-27T03:50:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   },
-  "translation_text_sha256": "b3ede884087d45f3fa295283213e7432c90e0a62b3d0a7cea0cd5d8dbd82b452"
+  "translation_text_sha256": "c5557da0d0e57491c3ec64ad827d6321ba867f064842e784b836cdcbf2f3e026"
 }

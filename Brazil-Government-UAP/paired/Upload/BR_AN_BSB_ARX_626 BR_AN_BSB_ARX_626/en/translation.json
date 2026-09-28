@@ -245,60 +245,33 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-5f13886ea3bf9c4a5fe0e5c7",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PM"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-9a52fdd43292eede2ecee90c",
           "segment_index": 1,
           "source_segment_id": "seg-9a52fdd43292eede2ecee90c",
           "source_text_sha256": "a46fb82d3175353c45c267a707046d509d90fc6623467b37e353cc3461cef542",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "09:53       UFO         CO2                                                 94 1 3 5 0 8 120                 P.01",
-          "translation_text_sha256": "0c52f59cf3dd2fa555c86c6851e95eca140c08be8376ea9c78a3ea85e3ae3f2d"
+          "status": "machine-unreviewed",
+          "text": "09:53 PM COPM2 94 1 3 5 0 8 120 P.01",
+          "translation_text_sha256": "ae4012de1b18b21a72580b75e08f6dec285d9464804f19936351a1ba7776131e"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-5f13886ea3bf9c4a5fe0e5c7",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "6"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "N0SDAVIG2/6"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-7ea17555e6d0a27c455ef039",
           "segment_index": 2,
           "source_segment_id": "seg-7ea17555e6d0a27c455ef039",
           "source_text_sha256": "9d54cb94a291117e411e503f734bfc0be903ea8940d59f3b1f82f8ab471dd4bb",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "31 Mar 97                                       CONFIDENTIAL                •                           UFO_PROTECTED_000__",
-          "translation_text_sha256": "e854b5a828e3eaf43efd757f383f9bcb515090e3b5e0033a06d35531476ae1bb"
+          "status": "machine-unreviewed",
+          "text": "31 Mar 97                                       CONFIDENTIAL                •                           N0SDAVIG2/6",
+          "translation_text_sha256": "629ded327b6cf5c1579272638c2b4c1282fa535f6f379eb70617ece9c2761e93"
         },
         {
           "end_ms": null,
@@ -395,13 +368,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T21:24:20Z",
+    "generated_at": "2026-09-27T03:54:20Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

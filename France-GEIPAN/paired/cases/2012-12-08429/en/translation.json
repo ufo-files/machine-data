@@ -183,28 +183,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-c9124babb76f769578fbd2c1",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "http://www.boam.fr)"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-7aee23984bf18820b26dc0ab",
           "segment_index": 12,
           "source_segment_id": "seg-7aee23984bf18820b26dc0ab",
           "source_text_sha256": "7f6b887af664babb0e27498069ef27b90f16277f32119850ae78cc79e1736510",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On December 12, 2012, at 20:10, a witness observed the silent passage of a luminous phenomenon in the sky for 10 seconds. The account of the observation clearly suggests the appearance of a large meteor: a powerful, blue (in this case) light phenomenon lasting a few seconds, caused by the atmospheric entry of a meteoroid (asteroid) or satellite debris. The date of the event is very close to the peak of the Geminid meteor shower. The BOAM (protected UFO) reports recording numerous events of this type at that time, but not at that hour. The case is classified as \"B\" (observation of a meteor) by GEIPAN, likely stemming from the Geminid shower.",
-          "translation_text_sha256": "a01f19f4a6872cb679b7b26c1f4e4914e77836ccda988f50161bd6bda0635363"
+          "status": "machine-unreviewed",
+          "text": "Description: On December 12, 2012, at 20:10, a witness observed the silent passage of a luminous phenomenon in the sky for 10 seconds. The observation report clearly describes the aspect of a large meteor: a powerful, blue (in this case) light phenomenon lasting a few seconds, caused by the atmospheric entry of a meteoroid (asteroid) or satellite debris. The date of the event is very close to the peak of the Geminid meteor shower. The BOAM (http://www.boam.fr)) reports the recording of many events of this type during that period, but not at that time. The GEIPAN classifies this case as \"B\": observation of a bolide, likely from the Geminid swarm.",
+          "translation_text_sha256": "aae3f7d9d94f4ff1a031f2f98f5be44227fae3baefd05cb950df374a74c31188"
         }
       ],
       "source_page_id": "page-c9124babb76f769578fbd2c1"
@@ -215,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T19:59:58Z",
+    "generated_at": "2026-09-27T01:34:54Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

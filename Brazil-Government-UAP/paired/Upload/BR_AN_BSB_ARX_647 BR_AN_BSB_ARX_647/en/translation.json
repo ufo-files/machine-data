@@ -7,7 +7,7 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-d2c8a61d58046273a2c7a676",
           "qa_findings": [
             {
@@ -18,25 +18,30 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-720ac81d139de9d0b1c45c76",
           "segment_index": 1,
           "source_segment_id": "seg-720ac81d139de9d0b1c45c76",
           "source_text_sha256": "694ef6e6b14a67f5ef967d72d21ceea0322bafff89f61f2ff3a4c7b75acaf8c9",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "; QNFlDENCial\n      ASPADS              UFO",
-          "translation_text_sha256": "60fe8f96f90bbc7826af57f940f24522bad815505edf687c04c462e831a3a8f3"
+          "status": "needs-review",
+          "text": "; QNFlDENCtAL\n      ASPADS              COMDABRA",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
+          "translation_text_sha256": "0a464635514f947f9e470e0b7e22939c6327d8fae23e3a85e0f46d0f932965d0"
         },
         {
           "end_ms": null,
@@ -62,6 +67,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Donor analyzed tm: $JQ ! pi, 20kD,\nProposal;       /    120 Jo.\n                                           MINISTRY OF DEFENSE\n                                         COMMAND OF AERONAUTICS\n\n      ./Ok                      ^~\n                               DEPARTMENT OF RESEARCH AND DEVELOPMENT",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "327bf961fd547945b64d506d662d75f4c94594368154b7791d52826ac133b898"
         },
         {
@@ -70,18 +88,10 @@
           "page_id": "page-d2c8a61d58046273a2c7a676",
           "qa_findings": [
             {
-              "added_in_translation": [
-                "2004"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "0",
-                "0",
-                "2",
-                "4"
-              ],
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
               "severity": "warning",
-              "status": "mismatch"
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -90,9 +100,13 @@
           "source_segment_id": "seg-ecdfb3f31734f58795b1ea0c",
           "source_text_sha256": "61552d634bef13180c6424a8fc99dcb3b2311d2737d4348d91be10874b998ce6",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Office n.  __UFO_PROTECTED_000__\n                   2. J / D I N T / C - ^ O '4\"                    Brasília,         August 2004.",
-          "translation_text_sha256": "75c68eb4c23a53372489d2a52fe88b6139bb0fa398ad7bc109dcd53469375553"
+          "status": "machine-unreviewed",
+          "text": "Of. n   a\n                   2 . J / D I N T / C - ^ O '4\"                    Brasília,         of August of 2 0 0 4 .",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "14860f0df1a0cc14e75735e18037346bf39b4b414eac0e4fc55e28d7eb8fcb62"
         },
         {
           "end_ms": null,
@@ -117,6 +131,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "From the General Director\n   To the Most Honorable Commander of the Brazilian Aerospace Defense - COMDABRA",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "9d13825c73dba071c26d9148c19f993ffe1c2e77fd52a3e7d688d36e1bd99250"
         },
         {
@@ -143,6 +170,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Subject:             Request for Access to    works    on    \"Unidentified Flying Objects\" - UFO.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "c669179813667e055e274d66d9fc228bcbfb76026949d4efc3b71319f5d1abee"
         },
         {
@@ -170,6 +210,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Attachment:\n\nA - Copy of the Ufo-Genesis Group letter, dated April 13, 2004;\n\nB - Collection of Ufo-Genesis Group articles (92 pages); and\n\nC - Copy of Ofício N° C-4/CH/510-SECINT, dated August 25, 2004.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "abc360bfa82123424eee33b535f90f5e1f9f8417c82b30e6e603f386bbdc2a38"
         },
         {
@@ -200,6 +253,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "1. I am sending to you a copy of the Letter from the Ufo-Genesis Group, dated April 13, 2004, where Mr. CLOVES ROQUE XAVIER requests \"to share,\" that is, to obtain from the Air Force Command information regarding research and monitoring of incidents involving \"Unidentified Flying Objects\" (UFO).\n\n2. On this subject, I inform you that on the website \"http://www.ufogenesis.com.br\" there are documents from the Air Force Command classified with the confidentiality level.\n\n3. Furthermore, I would like to inform you that this Department forwarded, on April 26, 2004, letters to EMAER and SECINT, requesting existing data within the scope of COMAER.\n\n4. With these considerations, and in light of the information contained in the letter No. C-4/CH/510-SECINT - annex \"C\", I consult you on the possibility of forwarding to this Department known elements regarding the developments of the attached files and/or other works; if they exist, and are related to this COMDABRA, they could be made available.\n\n5. If you consider it relevant and timely to comply with the aforementioned request, it is necessary to provide detailed information, which should remain restricted within the scope of DEPED and may be handled by the São Paulo Core.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "5c22faa655cd7950aaedd41d1229c001e5094b619ca795e75ea1e0b2b2cb3b87"
         },
         {
@@ -215,6 +281,12 @@
               ],
               "severity": "warning",
               "status": "mismatch"
+            },
+            {
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+              "severity": "warning",
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -224,8 +296,12 @@
           "source_text_sha256": "0fe7972f056d1e71541a1baefce2960187f5cb2e329a48b3d63b17267b89505e",
           "start_ms": null,
           "status": "needs-review",
-          "text": "To: __UFO_PROTECTED_000__\n\nFrom: __UFO_PROTECTED_000__\n\nCC: __UFO_PROTECTED_000__\n\nSubject: __UFO_PROTECTED_000__\n\nProtocol Number: __UFO_PROTECTED_000__\n\nDirector of __UFO_PROTECTED_000__\n\nCopies to: __UFO_PROTECTED_000__",
-          "translation_text_sha256": "8c6ce25110da8ddf5f1b25a8fa3cbf1d6821383e35dd056f60792ab2a300483b"
+          "text": "ú\n                                                               Ten Brig AX SERGIO                  AMBINI\n                                                                            Director-\n        Copies: t i\n        DINT r                                                                  COMMAND REGISTRY\n        PROT.....\n                                                                                    AERONAUTICS\n I      Ttòil;,i      m",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "2104719da09d6fd23926302942c6150581b49e2a69e0f5adc69c2e280820f037"
         },
         {
           "end_ms": null,
@@ -240,6 +316,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "PROTOCOL            -                        CONFIDENTIAL",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "b1ed22eb60cab16244044775215b8fedf91179960e3cfc6f92806b75a6053316"
         }
       ],
@@ -272,31 +361,38 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "CoopscEH               COOK SERVICE CAPACITY EMPLOYMENT AND INCOME LTD._",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "0e25cc639bd329500bb998dd1cfb1853aa2b0b9602b1fac95fef7865a27304b5"
         },
         {
           "end_ms": null,
           "error": null,
           "page_id": "page-c73d8e4c0d54b25d929a3585",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "2004-04-13"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-e93feb648d2a9cf1772aaebb",
           "segment_index": 2,
           "source_segment_id": "seg-e93feb648d2a9cf1772aaebb",
           "source_text_sha256": "3b0db1688f8645c7074ea57807da603adf28c2d6f1214cd54e59fa6f211e6e71",
           "start_ms": null,
-          "status": "needs-review",
+          "status": "machine-unreviewed",
           "text": "São Paulo, April 13, 2004",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
           "translation_text_sha256": "6e3f0a159ce2f258da4e7d7d740e0005abef1617702f63d5a65b5bcc46aa5181"
         },
         {
@@ -322,6 +418,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "To EXJRO.    Sir.    Commander\n         DEPT OF THINGS AND VOLUNTARY ACTIONS - 0Z7SS\n         Re: Public Relations Department",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "5a087c30de0b8e390a47bb3f692fff10b200920bb2d5be1aa01e1acdd80bdf31"
         },
         {
@@ -337,6 +446,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Ref.:     Request for Access to Research on UFOs",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "c5db5aef85d056a7510583cbf17054644a3967265fe2cb4511777bf22b7a7467"
         },
         {
@@ -352,6 +474,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Based on the specific context of UFOs (unidentified flying objects) and the reference to the \"Aeronautic Ministry,\" here is the translation:\n\nWith a focus on the related topics promoted by the \"Aeronautic Ministry\" for the research and monitoring of Unidentified Flying Objects (UFOs), we present our request for participation in sharing the results obtained in these challenging studies.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "f00771087a69286f3446ea70fa30917c096881bafca734fe98102cfa457d40ea"
         },
         {
@@ -361,23 +496,9 @@
           "qa_findings": [
             {
               "added_in_translation": [
-                "1969-08-20",
-                "1977-06-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "101",
                 "1969",
                 "20",
-                "205",
-                "77",
-                "79099",
-                "89"
+                "77"
               ],
               "check": "numbers",
               "missing_from_translation": [
@@ -385,24 +506,11 @@
                 "0",
                 "0",
                 "0",
-                "0",
-                "0",
-                "0",
-                "1",
-                "1",
                 "1",
                 "2",
-                "2",
-                "5",
                 "6",
                 "7",
                 "7",
-                "7",
-                "8",
-                "9",
-                "9",
-                "9",
-                "9",
                 "9",
                 "9"
               ],
@@ -417,6 +525,12 @@
               ],
               "severity": "warning",
               "status": "mismatch"
+            },
+            {
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+              "severity": "warning",
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -426,8 +540,12 @@
           "source_text_sha256": "cab0c0cf82518c001d8570558360a042fc763349afa35e52bd4563205b59b1c8",
           "start_ms": null,
           "status": "needs-review",
-          "text": "3XOANX - A system for the investigation of unidentified aerial objects (UAPs), established since March 1969 (4 Corner);\n\nUPA 09 - Aerospace norms and procedures, dated 20/08/1969, which provides guidelines for actions to be taken upon encountering these objects;\n\nRMA 205-1 - Regulation for the safeguarding of sensitive materials, Decree 79.099 of 06/01/77, detailing procedures for handling UAP-related actions;\n\n0101 - Specific Directive 04/89 - as referenced in the previous item - issued by the Directorate of Electronics and Air Defense.\n\nOperation Prato - Recognition action in the state of Pará in 1977 regarding the population's reports of UFO sightings.",
-          "translation_text_sha256": "bb394b92ccac212309a98fa48b68c70a8966a5bea04d6679791c147ef767139f"
+          "text": "3XOANX - System for the Investigation of Unidentified Aerial Objects, established since March 1969 (4 Cornar);\nU P A 09 - Aeronautical Standards and Procedures, dated 20/08/1969, providing guidance on actions to take in the event of sightings of such objects;\nRMA 2 0 5 - 1 - Regulation for Safeguarding Confidential Matters, Dec. 7 9 . 0 9 9 of 06/01/77, with qualifications concerning procedures in actions involving O V N I's;\n01 01 - Specific Directive 0 4 / 8 9 - same as the preceding item - issued by the Directorate of Electronics and Flight Protection.\nOperation Prato - Reconnaissance action in the state of Pará in 1977 concerning the attack on the population of Colares Island by O V N I's.",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "0bb1ecf0cd0153f896d343f2c57349b53ac8c5f9c50197f974eb07294a92f651"
         },
         {
           "end_ms": null,
@@ -442,6 +560,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "We have just received the request to provide direct contact with the facts and study them in a formal and official manner, referring to the name in question, for the purpose of divulgation and clarification of the interests involved. This is clearly proven and officially confirmed by the visits to our website: http://www.ufogenesis.com.br",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "6c6b79563dcff8980cf09f02d9cada5b1bce57f32988eaf5a18def94f05be9d6"
         },
         {
@@ -457,6 +588,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "In the hope of your comprehension, we anticipate our gratitude and find ourselves with estimates of appreciation and consideration.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "47b5e21cfe21456fcd23a4d4488ff55f780fa8839ecc768949e2cdb6d8353fe0"
         },
         {
@@ -472,6 +616,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Clear Rock Xaviere\n  São Paulo Grande Of-Genesis\n         http://www.uogene.sis.com.br",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "80cb0b944b49a131835a1c1f7a753640b9422e431db7826b49e51e6a105e18d1"
         },
         {
@@ -487,6 +644,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Roque\n         http://www.ufog (UFO)",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "6edf997c94448a8b0c6303d954d6dc0b34bc98363cd569f9fe7b53a9f2a3c3e9"
         },
         {
@@ -524,6 +694,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "PROTOCOL • DGPED\n\nWJ2£JJÍ£LT}POI\n\nINTRODUCTION\n\n• /-I\n• - W5\n\nJosé Veraneio Dias, 408\n          RUBRICA\n                                                                       PROTOCOL OF THE AERONAUTIC COMMAND\n                                                                           (Air Force)\n                                                                                                             Pauto-5? CEP: 05150-030\n                                                                       06-01/ j p g          I Çtj           Fone/Fax: (11) 3906-7355\n  Rua Cel. José Venâncio Dias, 408 - São Paulo - SP - Cep 05160-030                                           -    Phone: (11) 3906-7355\n  http/Avww.trabaihosp.org. br                                                                                    coopscer1@uol.com.br",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "edf7ce39efa2c17a0737c68fab3da8241043175c16bb39c001f82014a7a85bb8"
         }
       ],
@@ -546,6 +729,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "AUX.is^j           for.B/a",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "d4c2de4168752e53b66d32cf589afc11a470c973def1e6e5433e2712fa4587ba"
         },
         {
@@ -561,6 +757,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "CONFIDENTIAL",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "41f0c9c802bd8c3b29e5e62b4cc4e606bfc943d8109c8005c67f6e438314d09c"
         },
         {
@@ -576,6 +785,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "MINISTRY OF DEFENSE\nAIR FORCE INTELLIGENCE DIRECTORATE",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "08e88eac5619472db4929343b56f8ede72783930853833ff9e3e6a63299aeb2e"
         },
         {
@@ -604,6 +826,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Official Document No. C - 4 / C H / 50\nBrasília, August 25, 2004.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "09b351611d7c8a4618b02af6008762ee730d3e1d4c950e94a0b507c5e57707c4"
         },
         {
@@ -619,6 +854,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "From: Chief",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "856b24fecd8663db07d25e65016f39c02b7cc8e2cb0afb836d9bbaa9d35ca401"
         },
         {
@@ -634,6 +882,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "To: Most Honorable General Director of the Research and Development Department",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "aa03169a6ad02cb0c4f80e6e0fba45067add362b57a1fe60b8afdcd8c08ff0ff"
         },
         {
@@ -649,6 +910,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Subject: Request for Documents",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "ce03d89aed9ebca2ba3d8e5de5cf8178d4cb4444e5769fdbe952b7547a14be81"
         },
         {
@@ -664,6 +938,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Ref: Office No. 0067DINT/C-109, dated 26 APR 2004, from DEPED",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "7b375c78d06c8e444b3950fc94030ec5cc67e6175ea06ce875e505c37b782f65"
         },
         {
@@ -698,6 +985,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "In response to the repeated requests from the referenced office, I inform you that,\nafter a review, we have verified that all the documentation pertaining to the matter was sent on\n 27 MAR 2000 to the BRAZILIAN AEROSPACE DEFENSE COMMAND (COMDABRA).",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "2328ffb9be41a89cb124b5f673b7f2bf3fc7fadcda75aac42d5352be0288f7a6"
         },
         {
@@ -724,6 +1024,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Air Brigade R A U L JOSÉ F E R R E I R A DIAS\n                                                                       Head of SECINT",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "53c34c115a2a2bd2e498b8cefc2ea3ee93ca377e9f08d82947d04bc06b98fce9"
         },
         {
@@ -749,6 +1062,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Copies:\n  Chief      01\n  Archive...OJ.\n  Total       02\n  Arq Oficio 004_04Conf.DEPED",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "9567fa465fbd9488201919e54bc713959d28e18c53bab2faf880bc91afb7538d"
         },
         {
@@ -764,6 +1090,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "PROTOCOL - CEPD\n                                                                     PROTOCOL COMAER",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "b10fbfc47138055e3b2325ca26fa19fc372d21a674df42f94e9a5157b54278bd"
         },
         {
@@ -779,6 +1118,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "i **CONFIDENTIAL**: MA9\n                                                                     **TU-PI**        313       **UFO**J",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:25:20Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v3"
+            }
+          },
           "translation_text_sha256": "e4cbb877077d942f3c8912b29a6e30d83a65de4497abb9d80ea8746eebf57303"
         }
       ],
@@ -790,13 +1142,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-13T06:07:35Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:33:24Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   }
 }

@@ -12,32 +12,6 @@
           "qa_findings": [
             {
               "added_in_translation": [],
-              "check": "dates",
-              "missing_from_translation": [
-                "2004-03-30"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "0",
-                "25",
-                "4"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "2",
-                "2004",
-                "3",
-                "30",
-                "5"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [],
               "check": "names",
               "missing_from_translation": [
                 "Brasília-DF FAX",
@@ -45,6 +19,12 @@
               ],
               "severity": "warning",
               "status": "mismatch"
+            },
+            {
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+              "severity": "warning",
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -54,43 +34,51 @@
           "source_text_sha256": "efc4750182ae39a14c5f91c0676c8404a53fef8379e7bfe699e0e6d1d31f4ed1",
           "start_ms": null,
           "status": "needs-review",
-          "text": "COMMAND OF THE AERONAUTICS\nDoc        Ø7i\n                                                             COMAMGEN DO AR\n                                                           SHISQ! 05 - Special Area 12\n                                                                    CEP: 71.615-600\n                                                                        Brasilia-DF\n                                                             FAX NO. 25 0 / 2 0 04                    F2580EBO2004        N 2 COLS INHS HE! I       Q3",
-          "translation_text_sha256": "0bd768b4c2ff198135ef4beb75bc7900427949acd93e1f399d824a5c2636f913"
+          "text": "AERONAUTICS COMMAND               Doc         Ò§7i\n                                                             COMAMüO-GERAL DO A R\n                                                           S H I S Q! 05 - Special Area 12\n                                                                    C E P : 71.615-600\n                                                                        Brasília-DF\n                                                             FAX N° 2 5 B 0 / A 2\n                .UMQAH                                30/03/2004                   F2580EBO2004        N 2 C O L H A S INH S H E ! I       Q3",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "e4f73c04a913c7647cbef84088d7168204d3d911637f21111c87d940b2e1373f"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-7b5f47b82918861e4c8519e3",
           "qa_findings": [
             {
               "added_in_translation": [],
               "check": "names",
               "missing_from_translation": [
-                "Comandante do COMDABRA",
                 "Maj Brig Ar Atbeneu Francisco",
                 "Roberto Geraldo Hmeata Ribeiro RËWffcNffc"
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-7dd476ea1c28ca75d0e897da",
           "segment_index": 2,
           "source_segment_id": "seg-7dd476ea1c28ca75d0e897da",
           "source_text_sha256": "fa7cbb7d98094a5ad69400e73cfd773da35f83f660b256b78f2e34f634e03d6e",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "!       J\n          ;iûg) • . m i ~ T                H n r -\n                                                       J 'flP^ i_3_.4 8056 j j J ^ ^ S ^ T E ^ i N C ^ ^ í A L \"\n               fcx,     Mai Briu Á«. Roberto Geraldo Hmeata Ribeiro\nRËWffcNffc                  •*     •\n               í         £*rado-Maior    do C O M G A R\n\" A R A :\n               t.xtao Sr Maj   Brig  Ar Atbeneu Francisco Terra de Azambuja        7T*v (061)365-1435 \"\n               Comandante do UFO_PROTECTED_000__\nFTJÂNTO:        AmorizAyaa pesquisa documarita!                           j\n                  ; . '-.x N° 14_0/D J R      ÇÏÏCOmASn.      d » 25 d» agosto do .2004",
-          "translation_text_sha256": "7710de4a1faf281b96d22a3c8614e4feee4bc33d26a5a627b30deea8d470e02c"
+          "status": "needs-review",
+          "text": "!       J\n          ;iûg) • . m i ~ T                H n r -\n                                                       J 'flP^ i_3_.4 8056 j j J ^ ^ S ^ T E ^ i N C ^ ^ í A L \"\n               fcx,     Mai Briu Á«. Roberto Geraldo Hmeata Ribeiro\nRËWffcNffc                  •*     •\n               í         £*rado-Maior    do C O M G A R\n\" A R A :\n               t.xtao Sr Maj   Brig  Ar Atbeneu Francisco Terra de Azambuja        7T*v (061)365-1435 \"\n               Comandante do COMDABRA\nFTJÂNTO:        AmorizAyaa pesquisa documarita!                           j\n                  ; . '-.x N° 14_0/D J R      ÇÏÏCOmASn.      d » 25 d» agosto do .2004",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
+          "translation_text_sha256": "afda241585e3bc7b93d19131ec62c79cfb3d47b25a58cc55c6728660bad70d25"
         },
         {
           "end_ms": null,
@@ -116,6 +104,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Having, :VAÜ qtíü e s s e Comando is the body responsible for the investigation and ^ . \"Scope of COMAER, regarding Unidentified Flying Objects (UFOs) or __UFO_PROTECTED_000__",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "116c0b3334628e86f1ad09347e9ad8acc1f2c863254505a80446d0690ffe135a"
         },
         {
@@ -141,6 +142,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "I am in receipt of a letter from the General Commander of the Air Force to inform you that:\n            ;\n             ^ . ! - ) - ' it is a constant observation in the attached document.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "4830f36a4045bba930cf0c65ccb39e4c15662157a4154e39c277f7898d418d88"
         },
         {
@@ -167,6 +181,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "\"AM\n                                                           Maj Brig Ar R O B E R T O G E R A L D O PIMENTA R5Bfc\"K-í:C.\n                                                                  From the General Staff of COMGAR\"",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "ab702b4b85258d0b514811726f0fd6a9cc87593579a09fb8d974de21b3b5d38f"
         },
         {
@@ -192,6 +219,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "CAer COMDABRA\n\nENTRY",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "e3a15394196b8acaf9be47cf0e958e48ee8a8cf5d0a3b5af8194871645b9f023"
         },
         {
@@ -200,26 +240,10 @@
           "page_id": "page-7b5f47b82918861e4c8519e3",
           "qa_findings": [
             {
-              "added_in_translation": [
-                "1977-10-07"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "10",
-                "1977",
-                "7",
-                "7",
-                "7"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
               "severity": "warning",
-              "status": "mismatch"
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -228,9 +252,13 @@
           "source_segment_id": "seg-fdae1d673a4bf6566ffce574",
           "source_text_sha256": "9535c70a664c092cccd17e5d06a3f0df842e8ec26f2faa629d5ec2f225695d42",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "PROT: /^          FE: 'SU\n                                                                                             DATE: 10/07/1977 TIME: 7:07",
-          "translation_text_sha256": "c8d9658c2391e799f301c273f812057e4cc5a8791701a46dab8506cb67e2bdd4"
+          "status": "machine-unreviewed",
+          "text": "PROT:/^          FE:'SU\n                                                                                             DATE:oJ/o^/fj7 TIME:/?: 7c7",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "8107a2e259b1e4f9236be73414cbacf16d54e66a5220ef3ec594380fefc2ab1e"
         },
         {
           "end_ms": null,
@@ -245,6 +273,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "c\n        :5S0_COML- \\ ;kA &£j>C&\n\n(No translation is provided as the text appears to be a mix of random characters and does not form a coherent sentence in either Portuguese or English.)",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:28Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "fdb598a01d154dcfed4064eedca47d58bb8f4912d650889d78b8ea79a0060971"
         }
       ],
@@ -256,13 +297,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T10:48:42Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:25:15Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   }
 }

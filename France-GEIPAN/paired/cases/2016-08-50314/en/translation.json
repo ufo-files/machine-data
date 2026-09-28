@@ -199,48 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-a748238dc2cfa142174a0cd8",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "21:15"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "15",
-                "9"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-16e8b2bf8607e535b7373ac8",
           "segment_index": 13,
           "source_segment_id": "seg-16e8b2bf8607e535b7373ac8",
           "source_text_sha256": "1ffd62d673e76c40cf1ce9111d77a104962fbf0e2206b0e77559ac94d95a6d97",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 23, 2016, between 9:15 and 9:30 PM, a witness and his son on the outdoor terrace of their home were intrigued by the silent movement in the sky of a glowing orange sphere. The witness distinguished flames on the object and its surface. This \"ball of fire,\" as the child described it, moved from East to West without changing direction until the witness lost sight of it. No noise or trail was noticed. The observation lasted 30 seconds. Only one testimony was collected. The entire incident is perfectly consistent with a lantern release observation (see the investigation report): - the movement is consistent with the direction of the wind; - the appearance, color, and brightness of the UFO are consistent; - it was a summer night conducive to a festive event. Consequently, the GEIPAN classifies the case as A: very probable observation of a Thai lantern.",
-          "translation_text_sha256": "cec06a8848267dbe4fa3a7344c7313a7870c6293c3d4b87a1554b61e7943a7e5"
+          "status": "machine-unreviewed",
+          "text": "Description: On August 23, 2016, between 9:15 PM and 9:30 PM, a witness and his son on the outdoor terrace of their home were intrigued by the silent movement in the sky of an orange, incandescent sphere. The witness distinguishes flames on the object and its surface. This \"fireball\" described thus by the child moves from East to West without changing direction until the witness loses sight of it. No noise or trail was noticed. The observation lasts 30 seconds. Only one testimony is collected. The entire thing is perfectly consistent with a lantern release observation (see the investigation report):\n\n- The movement is consistent with the direction of the wind;\n- The appearance, color, and brightness of the PAN are consistent;\n- It was a summer night conducive to a festive event. As a result, the GEIPAN classifies the case as A: very probable observation of a Thai lantern.",
+          "translation_text_sha256": "a7ae2284487cdbffa59036c53945901774ba76053e4f167392100d5204ab1ec3"
         }
       ],
       "source_page_id": "page-a748238dc2cfa142174a0cd8"
@@ -251,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-09T08:47:59Z",
+    "generated_at": "2026-09-27T01:05:06Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

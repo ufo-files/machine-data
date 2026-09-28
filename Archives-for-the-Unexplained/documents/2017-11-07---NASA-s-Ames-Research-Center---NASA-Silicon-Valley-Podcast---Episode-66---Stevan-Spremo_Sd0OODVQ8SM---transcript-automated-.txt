@@ -1,0 +1,2104 @@
+{"created_utc": "2026-09-27T11:42:32Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 122786, "source_ctime_ns": 1790169625496561427, "source_file": "Archives-for-the-Unexplained/documents/2017-11-07---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-66---Stevan-Spremo_Sd0OODVQ8SM---transcript-automated-.pdf", "source_mtime_ns": 1790169625486311873, "source_rel": "Archives-for-the-Unexplained/documents/2017-11-07---NASA-s-Ames-Research-Center---NASA-Silicon-Valley-Podcast---Episode-66---Stevan-Spremo_Sd0OODVQ8SM---transcript-automated-.pdf", "source_sha256": "4c72dcf8c2819b4425b0195d649a4669d26e0ec73c2decd92d105a30d197894d"}
+
+1
+00:00:00,399 --> 00:00:06,029
+Host (Matthew Buffington): Welcome to the
+NISV podcast, this is episode 66. And sitting
+
+2
+00:00:06,029 --> 00:00:09,480
+with me again I have Abby. Abby, tell us about
+our guest today.
+
+3
+00:00:09,480 --> 00:00:14,139
+Abby Tabor: Hey, Matt. Today we’re talking
+with Stevan Spremo. He works in the Chief
+
+4
+00:00:14,139 --> 00:00:18,320
+Engineers office here at Ames, and basically
+his job is to guide other engineers through
+
+5
+00:00:18,320 --> 00:00:22,929
+the development of hardware that’s going
+to go into space, and carry life sciences
+
+6
+00:00:22,929 --> 00:00:27,939
+missions, for example. So Stevan started as
+an electrical engineering student at San Jose
+
+7
+00:00:27,939 --> 00:00:31,609
+State [University], but he knew he wanted
+to work with medical technologies or life
+
+8
+00:00:31,609 --> 00:00:36,860
+sciences, which is cool. And so he found the
+perfect role for that here. And he’s worked
+
+9
+00:00:36,860 --> 00:00:41,290
+on cancer research that’s flown on the space
+shuttle, and studying how plants grow in space,
+
+10
+00:00:41,290 --> 00:00:46,780
+and then coming right up in November, he has
+a new mission launching, it’s a small sat
+11
+00:00:46,780 --> 00:00:51,260
+called EcAMSat, which he’ll explain. But
+this one’s very cool, it’s about studying
+
+12
+00:00:51,260 --> 00:00:58,430
+how bacteria are resistant to our antibiotics,
+and whether that’s worse in space, and how
+
+13
+00:00:58,430 --> 00:01:03,960
+it all works to make things better for astronaut
+health, and also for public health here on
+
+14
+00:01:03,960 --> 00:01:04,960
+Earth.
+
+15
+00:01:04,960 --> 00:01:07,530
+Host: It’s always the thing I get a kick
+out of. Everybody thinks of NASA, they think
+
+16
+00:01:07,530 --> 00:01:12,470
+of rockets, they think of telescopes looking
+out. But there’s a huge biology aspect.
+
+17
+00:01:12,470 --> 00:01:16,640
+And not just the astrobiology of looking out
+into the stars and trying to find life…
+
+18
+00:01:16,640 --> 00:01:17,640
+Abby Tabor: No, but here.
+
+19
+00:01:17,640 --> 00:01:21,440
+Host: …but understanding biology. And it’s
+like this really neat overlap. Before we go
+
+20
+00:01:21,440 --> 00:01:28,250
+too far into it, just a reminder, if you want
+to give comments, participate, give any kind
+
+21
+00:01:28,250 --> 00:01:34,830
+of feedback, we have a phone number, it’s
+650-604-1400. But if you want to do it the
+
+22
+00:01:34,830 --> 00:01:41,270
+new hip way, we’re using the hashtag #NASASiliconValley,
+we’re on all the social media platforms
+
+23
+00:01:41,300 --> 00:01:46,480
+that you can think of. So without any further
+delay, here is Stevan Spremo.
+
+24
+00:01:49,380 --> 00:01:58,740
+[Music]
+
+25
+00:01:58,740 --> 00:02:03,020
+Host: Welcome, Stevan. [Laughs] So we always
+start this off the same way. Tell us a little
+
+26
+00:02:03,020 --> 00:02:06,890
+bit about yourself. How did you get to NASA?
+How did you get to Silicon Valley?
+
+27
+00:02:06,890 --> 00:02:15,769
+Stevan Spremo: Thanks for having me. I got
+to NASA – the story is when I was very young
+
+28
+00:02:15,769 --> 00:02:22,329
+in third grade, my brother and I were writing
+to NASA to try to get like public outreach-type
+
+29
+00:02:22,329 --> 00:02:27,139
+photos of the space shuttle or the planets
+and things like that. And we actually got
+
+30
+00:02:27,139 --> 00:02:33,209
+responses, which was really cool. So that
+gained my interest when I was really young.
+
+31
+00:02:33,209 --> 00:02:38,060
+And then through high school I had more interest
+as I learned chemistry and physics and went
+
+32
+00:02:38,060 --> 00:02:43,999
+through all my classes. And I just really
+had this desire to come work for NASA. I really
+
+33
+00:02:43,999 --> 00:02:50,389
+wanted to be an astronaut and went through
+college, and I got an internship in 1998 –
+
+34
+00:02:50,389 --> 00:02:51,489
+Host: Awesome. Yeah.
+
+35
+00:02:51,489 --> 00:02:53,220
+Stevan Spremo: – at NASA Ames here.
+
+36
+00:02:53,220 --> 00:02:56,749
+Host: Oh really. So were you already local
+so you already knew about Ames, or did you
+
+37
+00:02:56,749 --> 00:02:57,749
+come from somewhere else?
+
+38
+00:02:57,749 --> 00:03:01,879
+Stevan Spremo: Yeah, I'm local from the Bay
+Area here in the Silicon Valley. And I went
+
+39
+00:03:01,879 --> 00:03:08,230
+to San Jose State and was an electrical engineering
+student. And in 1998 I joined a group called
+
+40
+00:03:08,230 --> 00:03:15,400
+Sensors 2000. I was doing life sciences, biological
+sensors. So I was an electrical engineer,
+
+41
+00:03:15,400 --> 00:03:20,780
+and I had this focus that I wanted to combine
+electrical engineering with medical technology
+
+42
+00:03:20,780 --> 00:03:26,769
+or life sciences experiments. And I thought
+there was a real future to that. And it was
+
+43
+00:03:26,769 --> 00:03:32,959
+my future. And I started working on space
+experiments that included biological sensors,
+
+44
+00:03:32,959 --> 00:03:33,959
+so –
+
+45
+00:03:33,959 --> 00:03:37,209
+Host: Okay. So it was like – so as a kid
+you were like, this is NASA. This is what
+
+46
+00:03:37,209 --> 00:03:40,639
+I want to do. And then that kind of helped
+shape like what you studied.
+
+47
+00:03:40,639 --> 00:03:46,269
+Stevan Spremo: Yeah. I mean, I had this very
+specific focus of what I thought I needed
+
+48
+00:03:46,269 --> 00:03:50,939
+to study. So like in college I had the electrical
+engineering courses, but I took classes like
+
+49
+00:03:50,939 --> 00:03:56,670
+zoology and extra chemistry that biologists
+would take. So I really kind of started learning
+
+50
+00:03:56,670 --> 00:04:03,159
+the language of scientists as well. And basically
+my career has been listening to requirements
+
+51
+00:04:03,159 --> 00:04:08,489
+of scientists on what they need to study in
+space, and then I help design it.
+
+52
+00:04:08,489 --> 00:04:13,769
+Host: One of the things that Ames – bioscience
+studies, it's like the experiments, the science
+
+53
+00:04:13,769 --> 00:04:17,330
+experiments that actually go up into the International
+Space Station or went on the shuttle. So did
+
+54
+00:04:17,330 --> 00:04:21,299
+you already know that that was a thing that
+Ames was already doing, or is it just happened
+
+55
+00:04:21,299 --> 00:04:24,360
+to be that what you were interested in matched
+with what was already here?
+
+56
+00:04:24,360 --> 00:04:34,009
+Stevan Spremo: I had some knowledge that Ames
+was involved in life sciences. We had a friend
+
+57
+00:04:34,009 --> 00:04:38,270
+of the family that had been working on experiments
+at NASA. And so I did have some knowledge.
+
+58
+00:04:38,270 --> 00:04:41,710
+Host: You had the inside track. You knew what
+people were already doing, a little bit.
+
+59
+00:04:41,710 --> 00:04:43,180
+Stevan Spremo: A little bit, yeah.
+
+60
+00:04:43,180 --> 00:04:47,520
+Host: And then when you did internship, did
+you just like go online? Did you know somebody?
+
+61
+00:04:47,520 --> 00:04:49,180
+How did that work out for you?
+
+62
+00:04:49,180 --> 00:04:55,889
+Stevan Spremo: When I joined here, I did have
+someone who introduced me to the whole internship
+63
+00:04:55,889 --> 00:05:02,210
+program. But it wasn't like a direct in. So
+I interviewed with I think it was – I don't
+
+64
+00:05:02,210 --> 00:05:05,020
+have a count – but maybe like 15 managers.
+
+65
+00:05:05,020 --> 00:05:06,540
+Host: Really. That's –
+
+66
+00:05:06,540 --> 00:05:11,860
+Stevan Spremo: And so what happened is I kind
+of had this very specific goal or dream of
+
+67
+00:05:11,860 --> 00:05:15,620
+what I wanted to do. And they said, "Well,
+you really need to meet with this one specific
+
+68
+00:05:15,620 --> 00:05:19,909
+manager." And he was out on medical leave
+for a number of months. So what they kind
+
+69
+00:05:19,909 --> 00:05:24,229
+of did was interview me and see if there were
+a number of different positions onsite that
+
+70
+00:05:24,229 --> 00:05:30,530
+I would fit with. But then they kept saying,
+"You belong in the Sensors 2000 group." And
+
+71
+00:05:30,530 --> 00:05:36,490
+fortunately, they decided to take me on as
+an intern. And then they converted me to a
+
+72
+00:05:36,490 --> 00:05:40,300
+full-time civil servant later. And then I
+got my position.
+
+73
+00:05:40,300 --> 00:05:46,270
+So I was a co-op student, which is a civil
+servant student, while I was going to school
+
+74
+00:05:46,270 --> 00:05:47,670
+at San Jose State in electrical engineering.
+
+75
+00:05:47,670 --> 00:05:51,889
+Host: Yeah. Nowadays they've replaced it with
+what's called the Pathways program. But before
+
+76
+00:05:51,889 --> 00:05:55,930
+it was like they had different variations
+of co-op where people would be able to go
+
+77
+00:05:55,930 --> 00:06:00,500
+to school and also work at the same time,
+or some mix of that, and then basically get
+
+78
+00:06:00,500 --> 00:06:01,770
+into the civil service afterwards.
+
+79
+00:06:01,770 --> 00:06:05,950
+Stevan Spremo: Yeah. That's – I started
+out as a civil servant from day one as a student.
+
+80
+00:06:05,950 --> 00:06:08,050
+So all that time counted towards my –
+
+81
+00:06:08,050 --> 00:06:09,050
+Host: Oh that's awesome.
+
+82
+00:06:09,050 --> 00:06:11,729
+Stevan Spremo: – retirement and all those
+things. So we were getting those benefits
+
+83
+00:06:11,729 --> 00:06:12,729
+first – civil service.
+
+84
+00:06:12,729 --> 00:06:18,020
+Host: So when you come on while you're working
+in this group, what is some of the stuff that
+
+85
+00:06:18,020 --> 00:06:19,449
+you're working on initially?
+
+86
+00:06:19,449 --> 00:06:25,439
+Stevan Spremo: So I worked on these electrochemical
+sensors. When I came to NASA, I was actually
+
+87
+00:06:25,439 --> 00:06:30,880
+starting to run a wet chemistry lab, which
+was a little unusual being an electrical engineering
+
+88
+00:06:30,880 --> 00:06:31,880
+student.
+
+89
+00:06:31,880 --> 00:06:32,880
+Host: I was going say, yeah.
+
+90
+00:06:32,880 --> 00:06:37,620
+Stevan Spremo: And so what I was building
+was electrochemical sensors to measure metabolic
+
+91
+00:06:37,620 --> 00:06:44,810
+changes for cancer cells that are growing.
+So we look at pH changes in cancer cells.
+
+92
+00:06:44,810 --> 00:06:50,659
+And the whole system that we were working
+on was an automated system that would sustain
+
+93
+00:06:50,659 --> 00:06:53,969
+life for C6 neuroblastoma cells, brain cancer
+cells.
+
+94
+00:06:53,969 --> 00:06:56,550
+Host: Okay [laughs]. I was like thank you
+for clarifying [laughs].
+95
+00:06:56,550 --> 00:07:01,889
+Stevan Spremo: And so we were – the idea
+is to fly this up on the space shuttle on
+
+96
+00:07:01,889 --> 00:07:10,189
+STS-93, which was a Columbia mission. In 1999
+it launched. And we worked with the Army,
+
+97
+00:07:10,189 --> 00:07:15,400
+Walter Reed Army Institute of Research. And
+the sensors were direct inline measurements
+
+98
+00:07:15,400 --> 00:07:20,449
+with the cells. And so, as in microgravity
+environment changed, we were looking to see
+
+99
+00:07:20,449 --> 00:07:25,900
+if cancer grew differently in space. And so
+the sensors I developed, I built like 150
+
+100
+00:07:25,900 --> 00:07:29,280
+sensors, and I think 16 of them flew to space
+–
+
+101
+00:07:29,280 --> 00:07:30,280
+Host: Oh wow.
+
+102
+00:07:30,280 --> 00:07:34,770
+Stevan Spremo: – and made these detections.
+So we had spares and extras in selecting the
+
+103
+00:07:34,770 --> 00:07:39,050
+best of the group. But they were from scratch.
+We literally built them a hundred percent
+
+104
+00:07:39,050 --> 00:07:44,570
+in the lab and then interfaced them with an
+electrical system that read it out, stored
+105
+00:07:44,570 --> 00:07:47,490
+it, and then we retrieved the data when it
+came back from space.
+
+106
+00:07:47,490 --> 00:07:52,310
+Host: Crazy. Because like oftentimes when
+you think of like, cancer research, NASA isn't
+
+107
+00:07:52,310 --> 00:07:56,520
+the first thing that pops into your brain.
+So – but in the end, it's like understanding
+
+108
+00:07:56,520 --> 00:08:03,159
+how things grow with little to no gravity
+helps you to better understand how those things
+
+109
+00:08:03,159 --> 00:08:08,460
+operate. And as you can understand them, you
+can better fight them or cure them or move
+
+110
+00:08:08,460 --> 00:08:09,460
+them along.
+
+111
+00:08:09,460 --> 00:08:13,360
+Stevan Spremo: Right. Yeah. It was kind of
+an amazing opportunity to merge technologies
+
+112
+00:08:13,360 --> 00:08:16,599
+and then benefit this cancer research, so
+–
+
+113
+00:08:16,599 --> 00:08:20,659
+Host: And so even thinking about those sensors,
+I'm trying to think. So what does that exactly
+
+114
+00:08:20,659 --> 00:08:26,069
+look like? Is it like a petri dish or some
+thing with the actual cells in it, and then
+
+115
+00:08:26,069 --> 00:08:30,159
+you have your sensors that like kind of read
+it? What kind of changes are you looking at?
+
+116
+00:08:30,159 --> 00:08:36,710
+Stevan Spremo: So there were fluidic loops,
+so it was called Biona-C. And there'd be hollow
+
+117
+00:08:36,710 --> 00:08:41,770
+fiber bioreactors that would grow the cells.
+And then there were media that was fed to
+
+118
+00:08:41,770 --> 00:08:47,880
+the cells so it sustained life. And that would
+circulate through with a pump. And then from
+
+119
+00:08:47,880 --> 00:08:54,190
+time to time we would take measurements or
+draws of fluid off from the sample where the
+
+120
+00:08:54,190 --> 00:09:02,770
+bioreactor was, measure the H+ ion content
+or pH, and then read that out to a circuit
+
+121
+00:09:02,770 --> 00:09:04,640
+card, and then store the data.
+
+122
+00:09:04,640 --> 00:09:08,950
+And then we'd see trends to see how things
+were growing in space versus on the ground.
+
+123
+00:09:08,950 --> 00:09:13,481
+So we had the identical system on the ground
+as we did in space, looking for a difference
+
+124
+00:09:13,481 --> 00:09:18,710
+in any kind of metabolic activity. Do the
+cells do something different in space or not?
+
+125
+00:09:18,710 --> 00:09:25,270
+And so that was the experiment. And it was
+kind of a technology demonstration. The Army
+
+126
+00:09:25,270 --> 00:09:28,190
+was also interested for their own aspects
+of research, too.
+
+127
+00:09:28,190 --> 00:09:33,390
+Host: So moving along from your work, then
+what did that eventually move into, what other
+
+128
+00:09:33,390 --> 00:09:35,750
+things did you work on until you landed where
+you are now?
+
+129
+00:09:35,750 --> 00:09:40,530
+Stevan Spremo: Right. So the next experiment
+I worked on was a space station experiment.
+
+130
+00:09:40,530 --> 00:09:43,040
+It was called European Modular Cultivation
+System.
+
+131
+00:09:43,040 --> 00:09:47,950
+Host: Okay, and [laughs]. You can – yes,
+tell me about that [laughs].
+
+132
+00:09:47,950 --> 00:09:53,470
+Stevan Spremo: So that EMCS was a – it's
+a centrifuge system that's up on space station
+
+133
+00:09:53,470 --> 00:10:00,010
+right now. And we designed some cartridges
+that basically plug into that system. And
+
+134
+00:10:00,010 --> 00:10:03,331
+we were growing plants – plant seedlings
+– in space, so
+
+135
+00:10:03,331 --> 00:10:04,331
+Host: Okay.
+
+136
+00:10:04,331 --> 00:10:09,410
+Stevan Spremo: – we were studying Arabidopsis
+thaliana seedlings, in which we were doing
+
+137
+00:10:09,410 --> 00:10:10,980
+a phototropic response.
+
+138
+00:10:10,980 --> 00:10:11,980
+Host: Okay.
+
+139
+00:10:11,980 --> 00:10:16,870
+Stevan Spremo: And so basically, we would
+induce light and shine light on these while
+
+140
+00:10:16,870 --> 00:10:21,920
+we were rotating it one-third gravity levels,
+which is the equivalent of Mars – would
+
+141
+00:10:21,920 --> 00:10:28,750
+be the equivalent of Mars, one-sixth g which
+is equivalent of the Moon. And then microgravity
+
+142
+00:10:28,750 --> 00:10:34,360
+levels, basically looking at how plants grow
+in space. There're basically photoreceptors
+
+143
+00:10:34,360 --> 00:10:40,750
+on plants that activate different responses.
+And because in microgravity the plants grow
+
+144
+00:10:40,750 --> 00:10:43,160
+more in a tangled ball or confused state.
+
+145
+00:10:43,160 --> 00:10:44,160
+Host: Yeah.
+
+146
+00:10:44,160 --> 00:10:49,670
+Stevan Spremo: They don't grow as well. So
+we were studying how do we, engineering-wise,
+
+147
+00:10:49,670 --> 00:10:56,360
+alter that by having light affect these photoreceptors.
+And actually we can change how the roots actually
+
+148
+00:10:56,360 --> 00:10:57,360
+grow –
+
+149
+00:10:57,360 --> 00:10:58,360
+Host: Okay.
+
+150
+00:10:58,360 --> 00:11:03,810
+Stevan Spremo: – and how the green, leafy
+portion or cotyledon portion would also grow.
+
+151
+00:11:03,810 --> 00:11:08,090
+And with the altered state, we look at the
+RNA analysis for the genetic aspects, of what
+
+152
+00:11:08,090 --> 00:11:15,060
+was going on, to study how to go to the Moon
+and Mars eventually. So that was another experiment
+
+153
+00:11:15,060 --> 00:11:20,770
+I worked on. I specifically worked on the
+optics to make sure that the light was basically
+
+154
+00:11:20,770 --> 00:11:22,760
+equally being distributed across –
+
+155
+00:11:22,760 --> 00:11:23,760
+Host: Yeah.
+
+156
+00:11:23,760 --> 00:11:28,690
+Stevan Spremo: – all the plants, and a number
+of other circuit-based designs that were supporting
+
+157
+00:11:28,690 --> 00:11:33,270
+that. And then also making sure it's biocompatible,
+because when you lock everything in a chamber
+
+158
+00:11:33,270 --> 00:11:37,710
+there're other gasses or volatiles that come
+off from the circuit boards or other things.
+
+159
+00:11:37,710 --> 00:11:38,710
+Host: All variations.
+
+160
+00:11:38,710 --> 00:11:41,210
+Stevan Spremo: And it can cause the biology
+to die.
+
+161
+00:11:41,210 --> 00:11:42,210
+Host: To – oh.
+
+162
+00:11:42,210 --> 00:11:47,120
+Stevan Spremo: And so we had to do other things
+to actually make sure that the air inside
+
+163
+00:11:47,120 --> 00:11:53,020
+the chamber was basically clean enough that
+it wouldn't extend the life of these systems.
+
+164
+00:11:53,020 --> 00:11:57,130
+Host: And I guess that makes sense because
+if you think of plants, which have evolved
+
+165
+00:11:57,130 --> 00:12:03,790
+over millions of years with gravity pulling
+down on them, and then just seeing how once
+
+166
+00:12:03,790 --> 00:12:08,880
+you remove that gravity, you change it to
+the Earth or Moon, different levels, I mean,
+
+167
+00:12:08,880 --> 00:12:13,040
+it helps us to understand if we're planning
+on eventually going to Mars and doing things
+
+168
+00:12:13,040 --> 00:12:16,610
+that – to understand how those plants react.
+But that's smart of thinking, like you've
+
+169
+00:12:16,610 --> 00:12:23,100
+seen plants move to get closer to the sunlight.
+They kind of grow in those ways. So using
+
+170
+00:12:23,100 --> 00:12:26,440
+that to manipulate it to change the way it
+grows is pretty neat.
+
+171
+00:12:26,440 --> 00:12:30,800
+Stevan Spremo: Yeah. So there're two responses
+that we were studying: There's gravitropic
+
+172
+00:12:30,800 --> 00:12:31,800
+–
+
+173
+00:12:31,800 --> 00:12:32,800
+Host: Yeah.
+
+174
+00:12:32,800 --> 00:12:35,670
+Stevan Spremo: – and phototropic. So the
+light, I guess, from what the botanists are
+
+175
+00:12:35,670 --> 00:12:40,170
+telling me, there's a photoreceptor. And we
+were studying putting blue light and red light
+
+176
+00:12:40,170 --> 00:12:44,490
+on the roots. And actually you can make them
+go away or toward those lights.
+
+177
+00:12:44,490 --> 00:12:45,880
+Host: Really. You can help control them.
+
+178
+00:12:45,880 --> 00:12:49,880
+Stevan Spremo: Yeah. So that – in addition
+to the white light that's –
+
+179
+00:12:49,880 --> 00:12:50,880
+Host: Yeah.
+
+180
+00:12:50,880 --> 00:12:54,330
+Stevan Spremo: – kind of making the green,
+leafy portion, assimilating the sun. And also
+
+181
+00:12:54,330 --> 00:12:57,970
+the roots actually do very specific things
+with light as well.
+
+182
+00:12:57,970 --> 00:13:02,190
+Host: No, I get a kick out of it because typically
+when people think of NASA, you think of rockets
+
+183
+00:13:02,190 --> 00:13:05,760
+and astronauts. But at the same time, it's
+like, yay, you're in space, or you're on the
+
+184
+00:13:05,760 --> 00:13:09,310
+Moon, or you're on Mars. At the end of the
+day, what are you going to do there?
+
+185
+00:13:09,310 --> 00:13:10,310
+Stevan Spremo: Yeah.
+
+186
+00:13:10,310 --> 00:13:13,800
+Host: So this is what these science experiments
+– there're questions, there're hypotheses
+
+187
+00:13:13,800 --> 00:13:18,290
+to figure out, okay, what can we learn by
+being in these places that we can't learn
+
+188
+00:13:18,290 --> 00:13:23,960
+from Earth, and kind of working out those
+theories. So what are you working on now?
+
+189
+00:13:23,960 --> 00:13:25,820
+What's kind of like your day job?
+
+190
+00:13:25,820 --> 00:13:28,910
+Stevan Spremo: So I'm in the Chief Engineer's
+office here –
+
+191
+00:13:28,910 --> 00:13:29,910
+Host: Okay.
+
+192
+00:13:29,910 --> 00:13:35,830
+Stevan Spremo: – at NASA Ames, which there's
+a number of things I do in that role. I've
+
+193
+00:13:35,830 --> 00:13:41,460
+been at NASA 18 years now, and I get called
+in if there's maybe a problem on –
+
+194
+00:13:41,460 --> 00:13:42,460
+Host: Mm-hmm.
+
+195
+00:13:42,460 --> 00:13:46,490
+Stevan Spremo: – hardware development that
+can't be figured out, or there was a mishap,
+
+196
+00:13:46,490 --> 00:13:50,720
+something went wrong. I'm trying to figure
+out lessons learned, like why did we have
+
+197
+00:13:50,720 --> 00:13:56,440
+something go wrong in the first place and
+identifying root cause. So also there's a
+
+198
+00:13:56,440 --> 00:14:02,450
+number of standards and procedures, like it's
+almost like a prescription. Before you start
+
+199
+00:14:02,450 --> 00:14:08,110
+a project, like how do you formulate it to,
+I don't know, it's not to guarantee success,
+
+200
+00:14:08,110 --> 00:14:10,150
+but to increase chances of success.
+
+201
+00:14:10,150 --> 00:14:11,150
+Host: Yeah.
+
+202
+00:14:11,150 --> 00:14:15,880
+Stevan Spremo: So that's kind of my role is
+to work with engineers and guide them and
+
+203
+00:14:15,880 --> 00:14:19,770
+put some, I guess, milestones or gates to
+do checks.
+
+204
+00:14:19,770 --> 00:14:21,040
+Host: A checklist, of sorts.
+
+205
+00:14:21,040 --> 00:14:25,050
+Stevan Spremo: Yeah, it's like the equivalent
+of a checklist to make sure that you've completed
+
+206
+00:14:25,050 --> 00:14:29,200
+a number of tasks that would help in the reliability
+of a system.
+
+207
+00:14:29,200 --> 00:14:33,510
+Host: Well, you figure if something's going
+to go wrong, you'd rather it go wrong here
+
+208
+00:14:33,510 --> 00:14:38,780
+at Ames where you're like – you're working
+on experiments. Like [you'd] rather that it
+
+209
+00:14:38,780 --> 00:14:43,350
+go wrong here while we're practicing as opposed
+to while it's in space. So it's kind of, learn
+210
+00:14:43,350 --> 00:14:44,570
+some of those lessons.
+
+211
+00:14:44,570 --> 00:14:51,510
+Stevan Spremo: Right. Absolutely. So we take
+things to the test chambers here - the vacuum
+
+212
+00:14:51,510 --> 00:14:57,300
+chamber or the vibration shake table. And
+we simulate all the things that might go on
+
+213
+00:14:57,300 --> 00:15:04,330
+in space to try to basically mitigate – or
+make sure that doesn't happen in space, so
+
+214
+00:15:04,330 --> 00:15:10,790
+an astronaut is not experiencing a piece of
+gear that is failing for any reason. So yes,
+
+215
+00:15:10,790 --> 00:15:11,790
+that's kind of what –
+
+216
+00:15:11,790 --> 00:15:14,370
+Host: [Laughs] Tested in advance. "That's
+kind of what I do."
+
+217
+00:15:14,370 --> 00:15:15,370
+Stevan Spremo: Yeah.
+
+218
+00:15:15,370 --> 00:15:20,180
+Host: Because I always think about it of not
+only being in space or surviving like the
+
+219
+00:15:20,180 --> 00:15:25,400
+vacuum or harsh conditions, but it's like
+you've also got to survive a rocket launch
+
+220
+00:15:25,400 --> 00:15:30,900
+so that with the very intense moments where
+you don't want your science experiment to
+
+221
+00:15:30,900 --> 00:15:33,420
+fall apart [laughs] on its way up.
+
+222
+00:15:33,420 --> 00:15:38,530
+Stevan Spremo: Right. There're basically 10
+to 15 minutes that it's a pretty harsh environment
+
+223
+00:15:38,530 --> 00:15:43,660
+going up and through different stages of the
+mission of firing a rocket engine. There're
+
+224
+00:15:43,660 --> 00:15:45,850
+vibrations and there're other environmental
+effects.
+
+225
+00:15:45,850 --> 00:15:46,850
+Host: Acoustics.
+
+226
+00:15:46,850 --> 00:15:52,320
+Stevan Spremo: Acoustics, and absolutely.
+And just the change to vacuum as well once
+
+227
+00:15:52,320 --> 00:15:57,270
+you get in the vacuum of space and the thermal
+extremes, and so after you're past that launch
+
+228
+00:15:57,270 --> 00:16:02,460
+phase. But yeah, there're a number of environments
+we test for, yes. So –
+
+229
+00:16:02,460 --> 00:16:08,070
+Host: So okay. So now I've heard of one of
+the things that you're working on called EcAMSat.
+
+230
+00:16:08,070 --> 00:16:10,170
+So that sounds like a fancy acronym.
+231
+00:16:10,170 --> 00:16:11,280
+Stevan Spremo: Yeah.
+
+232
+00:16:11,280 --> 00:16:12,980
+Host: Tell us a little bit about what that
+is.
+
+233
+00:16:12,980 --> 00:16:17,690
+Stevan Spremo: So it's – EcAMSat stands
+for E-coli Antimicrobial Satellite.
+
+234
+00:16:17,690 --> 00:16:18,690
+Host: Okay.
+
+235
+00:16:18,690 --> 00:16:26,080
+Stevan Spremo: And so what we're studying
+on this -- it's a CubeSat. So it's a 6U spacecraft.
+
+236
+00:16:26,080 --> 00:16:31,650
+6U is like a standard – it's basically roughly
+a shoebox size –
+
+237
+00:16:31,650 --> 00:16:32,650
+Host: Yeah.
+
+238
+00:16:32,650 --> 00:16:33,650
+Stevan Spremo: – like a large shoebox.
+
+239
+00:16:33,650 --> 00:16:34,840
+Host: Or a loaf of bread or something. It
+kind of –
+
+240
+00:16:34,840 --> 00:16:38,590
+Stevan Spremo: Yeah, this particular one is
+kind of like two loaves of bread –
+
+241
+00:16:38,590 --> 00:16:39,590
+Host: Okay.
+242
+00:16:39,590 --> 00:16:44,790
+Stevan Spremo: – in size as a good comparison.
+And we're studying antibiotic resistance in
+
+243
+00:16:44,790 --> 00:16:45,930
+space, which is –
+
+244
+00:16:45,930 --> 00:16:46,930
+Host: Okay.
+
+245
+00:16:46,930 --> 00:16:51,180
+Stevan Spremo: – a really big problem on
+the ground, as well as may impact future travel
+
+246
+00:16:51,180 --> 00:16:55,740
+for astronauts in the future. And what we
+are finding out through a number of other
+
+247
+00:16:55,740 --> 00:17:01,000
+experiments that have gone up – and this
+will help validate what we're learning – is
+
+248
+00:17:01,000 --> 00:17:08,089
+that E. coli or yeast or a number of bacteria
+are more virulent in space. They actually
+
+249
+00:17:08,089 --> 00:17:09,650
+grow at a rapid pace.
+
+250
+00:17:09,650 --> 00:17:11,110
+Host: Oh really. They're like stronger in
+space.
+
+251
+00:17:11,110 --> 00:17:12,110
+Stevan Spremo: They're stronger.
+
+252
+00:17:12,110 --> 00:17:13,110
+Host: Oh wow.
+253
+00:17:13,110 --> 00:17:16,030
+Stevan Spremo: And the effects are – this
+was an unexpected –
+
+254
+00:17:16,030 --> 00:17:17,030
+Host: Yeah.
+
+255
+00:17:17,030 --> 00:17:21,270
+Stevan Spremo: – outcome. And so there's
+a parallel between the ground and what we
+
+256
+00:17:21,270 --> 00:17:24,820
+live – are experiencing on the Earth, antibiotic
+resistance, and trying to figure out what
+
+257
+00:17:24,820 --> 00:17:26,290
+mechanism's causing that in space.
+
+258
+00:17:26,290 --> 00:17:27,290
+Host: Okay.
+
+259
+00:17:27,290 --> 00:17:33,600
+Stevan Spremo: So EcAMSat is going into a
+microgravity environment, taking a 48-well
+
+260
+00:17:33,600 --> 00:17:37,340
+plate microfluidics array. Basically each
+one of those –
+
+261
+00:17:37,340 --> 00:17:38,340
+Host: Okay, yeah.
+
+262
+00:17:38,340 --> 00:17:43,560
+Stevan Spremo: So it's a fluidics card that
+has milliliters in scale –
+
+263
+00:17:43,560 --> 00:17:44,560
+Host: Okay.
+264
+00:17:44,560 --> 00:17:47,780
+Stevan Spremo: – of fluid going through
+it. So imagine – the best way I've been
+
+265
+00:17:47,780 --> 00:17:52,000
+able to explain the volume of each one of
+these little cells is like an eraser head.
+
+266
+00:17:52,000 --> 00:18:00,380
+So imagine 48 eraser head, like a pencil eraser,
+worth of volume on a card. And we flow through
+
+267
+00:18:00,380 --> 00:18:04,620
+different antibiotic strains. So we grow up
+the cells. So we put it in hibernation before
+
+268
+00:18:04,620 --> 00:18:05,620
+launch.
+
+269
+00:18:05,620 --> 00:18:06,620
+Host: Okay.
+
+270
+00:18:06,620 --> 00:18:09,510
+Stevan Spremo: And it sits on the pad. It's
+in hibernation. We get up to space –
+
+271
+00:18:09,510 --> 00:18:11,310
+Host: It launches. It goes to the space station.
+
+272
+00:18:11,310 --> 00:18:15,540
+Stevan Spremo: And then when it gets up to
+space, it has a deployer, a dispenser.
+
+273
+00:18:15,540 --> 00:18:16,540
+Host: Okay.
+
+274
+00:18:16,540 --> 00:18:21,370
+Stevan Spremo: And then a door opens. There's
+a container it rides up in. And after the
+275
+00:18:21,370 --> 00:18:28,060
+primary satellite is gone and we can do no
+harm to it, the doors open and we eject this
+
+276
+00:18:28,060 --> 00:18:29,620
+out with a spring pusher foot.
+
+277
+00:18:29,620 --> 00:18:30,620
+Host: Okay.
+
+278
+00:18:30,620 --> 00:18:32,870
+Stevan Spremo: And then it kind of has a tumbling
+effect.
+
+279
+00:18:32,870 --> 00:18:33,870
+Host: Yeah.
+
+280
+00:18:33,870 --> 00:18:38,970
+Stevan Spremo: And it has – it's got a passive
+system to align with a magnetic field and
+
+281
+00:18:38,970 --> 00:18:41,410
+knoll out this and stabilize.
+
+282
+00:18:41,410 --> 00:18:43,030
+Host: Figure out where it is
+
+283
+00:18:43,030 --> 00:18:48,320
+Stevan Spremo: And that takes about four days.
+After we're stable and the microgravity environment
+
+284
+00:18:48,320 --> 00:18:56,650
+is the best that it can be, the experiment
+starts. And for 150 hours we go through a
+
+285
+00:18:56,650 --> 00:19:05,150
+number of events. And we feed the cells. They
+grow up to what we say stationary phase. And
+286
+00:19:05,150 --> 00:19:07,080
+they've eaten all the sugars that we feed
+them –
+
+287
+00:19:07,080 --> 00:19:08,080
+Host: Okay.
+
+288
+00:19:08,080 --> 00:19:12,140
+Stevan Spremo: – is basically what happens.
+And then we have an optical detector that
+
+289
+00:19:12,140 --> 00:19:19,860
+shines light through – red, green, blue.
+And the absorbance pattern is noticed on a
+
+290
+00:19:19,860 --> 00:19:21,130
+photodetector below it.
+
+291
+00:19:21,130 --> 00:19:22,130
+Host: Okay.
+
+292
+00:19:22,130 --> 00:19:25,620
+Stevan Spremo: So we shine through the card
+and are able to look at how things are growing
+
+293
+00:19:25,620 --> 00:19:26,620
+and see trends.
+
+294
+00:19:26,620 --> 00:19:27,620
+Host: Okay. So that's how you know.
+
+295
+00:19:27,620 --> 00:19:31,040
+Stevan Spremo: And between the different color
+metric measurements, we can tell trends. And
+
+296
+00:19:31,040 --> 00:19:33,160
+there're things that happen in red, maybe
+not in blue.
+297
+00:19:33,160 --> 00:19:34,160
+Host: Okay.
+
+298
+00:19:34,160 --> 00:19:39,610
+Stevan Spremo: And so we calibrate that way.
+The other thing we do then is we administer
+
+299
+00:19:39,610 --> 00:19:40,951
+antibiotic and stress the cells out.
+
+300
+00:19:40,951 --> 00:19:41,951
+Host: Okay.
+
+301
+00:19:41,951 --> 00:19:45,030
+Stevan Spremo: So different concentrations,
+there's a response, okay? So you're building
+
+302
+00:19:45,030 --> 00:19:51,460
+the antibiotic resistance response. And in
+microgravity, there's a wild type and a mutant
+
+303
+00:19:51,460 --> 00:19:56,100
+we're studying. And the principal investigator
+is looking at this – the scientist looking
+
+304
+00:19:56,100 --> 00:20:02,020
+at this, Dr. A. C. Matin at Stanford [University],
+his hypothesis is that the two – the wild
+
+305
+00:20:02,020 --> 00:20:05,850
+type and the mutant strains will stress at
+a different response rate.
+
+306
+00:20:05,850 --> 00:20:06,850
+Host: Okay.
+
+307
+00:20:06,850 --> 00:20:12,490
+Stevan Spremo: And then we can look at that
+and try to get the genetic marker to kind
+
+308
+00:20:12,490 --> 00:20:17,540
+of explain what's going on, why things are
+becoming more resistant.
+
+309
+00:20:17,540 --> 00:20:18,540
+Host: Okay.
+
+310
+00:20:18,540 --> 00:20:22,330
+Stevan Spremo: And then we basically look
+at the trend after that, administering something
+
+311
+00:20:22,330 --> 00:20:23,330
+called alamarBlue.
+
+312
+00:20:23,330 --> 00:20:24,330
+Host: Okay.
+
+313
+00:20:24,330 --> 00:20:30,290
+Stevan Spremo: And alamarBlue is like a dye
+that it kind of changes color as the cells
+
+314
+00:20:30,290 --> 00:20:36,010
+metabolize. So we can look at trends and curves
+of how the cells continue to live on and the
+
+315
+00:20:36,010 --> 00:20:42,920
+way they intersect. And the graphs or the
+curve fit of the trends will tell us if, in
+
+316
+00:20:42,920 --> 00:20:47,770
+comparison with the same exact experiment
+on the ground, if the space environment is
+
+317
+00:20:47,770 --> 00:20:49,870
+responsible for doing something different
+–
+
+318
+00:20:49,870 --> 00:20:50,870
+Host: Okay.
+
+319
+00:20:50,870 --> 00:20:54,780
+Stevan Spremo: – like microgravity or radiation
+versus a 1 g environment on the ground.
+
+320
+00:20:54,780 --> 00:20:59,180
+Host: Yeah. It's crazy because you think,
+obviously, as we look at like human exploration
+
+321
+00:20:59,180 --> 00:21:05,000
+or having people in the Space Station, it
+behooves us to understand how [laughs] bacteria
+
+322
+00:21:05,000 --> 00:21:13,610
+or E. coli, how things grow differently in
+microgravity. And having all of this, just
+
+323
+00:21:13,610 --> 00:21:19,760
+seeing all the differences and understanding
+that better can then prevent or just – it's
+
+324
+00:21:19,760 --> 00:21:23,150
+not like only could it have benefits for us
+here on the Earth, but also help for that
+
+325
+00:21:23,150 --> 00:21:24,380
+further exploration as well.
+
+326
+00:21:24,380 --> 00:21:28,470
+Stevan Spremo: Yeah, the idea here is this
+is decade – what we call decadal science.
+
+327
+00:21:28,470 --> 00:21:29,470
+Host: Okay.
+
+328
+00:21:29,470 --> 00:21:33,160
+Stevan Spremo: So it's a decadal survey of
+what we need to do further space exploration.
+329
+00:21:33,160 --> 00:21:34,160
+Host: Oh, okay.
+
+330
+00:21:34,160 --> 00:21:39,320
+Stevan Spremo: So this supports astronaut
+health for long-duration exploration missions.
+
+331
+00:21:39,320 --> 00:21:42,770
+So we have to understand this as kind of a
+keyway to the future.
+
+332
+00:21:42,770 --> 00:21:43,770
+Host: Yes.
+
+333
+00:21:43,770 --> 00:21:47,890
+Stevan Spremo: How would we administer antibiotics
+to an astronaut is really what the question
+
+334
+00:21:47,890 --> 00:21:52,730
+is here. But there's a secondary purpose on
+the ground is, are we going to discover something
+
+335
+00:21:52,730 --> 00:21:58,610
+in space that could help antibiotic resistance
+issues on the ground. And that's becoming
+
+336
+00:21:58,610 --> 00:22:03,140
+a really large problem for terrestrial or
+Earth aspects of antibiotics.
+
+337
+00:22:03,140 --> 00:22:06,430
+Host: I like whenever they're talking about
+the International Space Station, they always
+
+338
+00:22:06,430 --> 00:22:12,340
+say, "Working off of the Earth, for the Earth,"
+because this all has benefits not only for
+
+339
+00:22:12,340 --> 00:22:16,260
+going on the way to Mars – and this is – you're
+talking about checklists before. This is one
+
+340
+00:22:16,260 --> 00:22:20,800
+of those things you need to understand before
+doing that journey to Mars. But then the side
+
+341
+00:22:20,800 --> 00:22:25,500
+effects can be finding out how to solve other
+problems here on Earth as well.
+
+342
+00:22:25,500 --> 00:22:30,350
+Stevan Spremo: Yeah, absolutely. In this case,
+we might need to have the astronauts having
+
+343
+00:22:30,350 --> 00:22:37,850
+a dosing of like four, five, 10 times whatever
+the amount is. But also if we find a pathway
+
+344
+00:22:37,850 --> 00:22:44,760
+of how antibiotic resistance, what the mechanism
+is, that's something that might be a game-changer.
+
+345
+00:22:44,760 --> 00:22:48,600
+One thing I didn't mention is after the experiment's
+done –
+
+346
+00:22:48,600 --> 00:22:49,600
+Host: Yeah.
+
+347
+00:22:49,600 --> 00:22:52,400
+Stevan Spremo: – we store all this data,
+and then we telemeter that back down to Earth.
+
+348
+00:22:52,400 --> 00:22:56,990
+Host: I was going to say. So the SmallSat
+hitches a ride on a rocket where somebody
+
+349
+00:22:56,990 --> 00:23:01,450
+else has paid more money to go [laughs]. Once
+that goes off, it's safe, you launch yours
+
+350
+00:23:01,450 --> 00:23:06,520
+– start that science experiment. And yeah,
+is it just they – sends that data back to
+
+351
+00:23:06,520 --> 00:23:07,520
+you guys here.
+
+352
+00:23:07,520 --> 00:23:12,690
+Stevan Spremo: Yeah. So we have a great program
+that basically we work with Santa Clara University,
+
+353
+00:23:12,690 --> 00:23:17,710
+and they have a ground station. And we have
+two antennas on our system. And what happens
+
+354
+00:23:17,710 --> 00:23:24,230
+is the electronics store the data as we're
+going through the experiment – all this
+
+355
+00:23:24,230 --> 00:23:25,440
+light measurement and –
+
+356
+00:23:25,440 --> 00:23:29,020
+Host: And you're controlling all that from
+the ground. It's up there? Or is it automated
+
+357
+00:23:29,020 --> 00:23:30,020
+now?
+
+358
+00:23:30,020 --> 00:23:31,020
+Stevan Spremo: It's actually automated.
+
+359
+00:23:31,020 --> 00:23:32,020
+Host: Oh wow.
+
+360
+00:23:32,020 --> 00:23:35,030
+Stevan Spremo: It will run on its own. And
+then we call it and ask for requests for the
+
+361
+00:23:35,030 --> 00:23:36,030
+data through –
+
+362
+00:23:36,030 --> 00:23:37,030
+Host: [Laughs] Okay.
+
+363
+00:23:37,030 --> 00:23:38,300
+Stevan Spremo: – Santa Clara University.
+And it's a great outreach thing because the
+
+364
+00:23:38,300 --> 00:23:40,790
+students there are operating the satellite
+for us.
+
+365
+00:23:40,790 --> 00:23:41,790
+Host: Oh, that's awesome.
+
+366
+00:23:41,790 --> 00:23:46,220
+Stevan Spremo: And they retrieve the data
+and deliver it to NASA. So it's rough – it's
+
+367
+00:23:46,220 --> 00:23:48,340
+not a lot of data. It's like a megabyte of
+data –
+
+368
+00:23:48,340 --> 00:23:49,340
+Host: Okay.
+
+369
+00:23:49,340 --> 00:23:52,500
+Stevan Spremo: – for the whole mission.
+It takes about two months through the orbits
+
+370
+00:23:52,500 --> 00:23:57,400
+and everything that we do to get that small
+amount of data. We don't have – this comparatively
+
+371
+00:23:57,400 --> 00:24:00,100
+to the LADEE mission I worked on –
+
+372
+00:24:00,100 --> 00:24:01,100
+Host: Yeah.
+
+373
+00:24:01,100 --> 00:24:02,230
+Stevan Spremo: – we had major breakthrough
+on laser communications.
+
+374
+00:24:02,230 --> 00:24:03,750
+Host: And that went to the Moon.
+
+375
+00:24:03,750 --> 00:24:08,960
+Stevan Spremo: That went to the Moon. And
+that had 622 megabit-per-second download rate
+
+376
+00:24:08,960 --> 00:24:09,480
+Host: Oh wow.
+
+377
+00:24:09,480 --> 00:24:11,230
+Stevan Spremo: – from the Moon per second.
+
+378
+00:24:11,230 --> 00:24:12,230
+Host: [Laughs]
+
+379
+00:24:12,230 --> 00:24:14,470
+Stevan Spremo: So it was like a DVD a second
+versus this.
+
+380
+00:24:14,470 --> 00:24:15,700
+Host: It's smaller, but –
+
+381
+00:24:15,700 --> 00:24:20,250
+Stevan Spremo: It's smaller, but you don't
+need that much horsepower to this because
+
+382
+00:24:20,250 --> 00:24:21,430
+the data file's not very big.
+383
+00:24:21,430 --> 00:24:22,430
+Host: Okay.
+
+384
+00:24:22,430 --> 00:24:27,660
+Stevan Spremo: So it's scalable. And what
+a CubeSat does is pretty interesting because
+
+385
+00:24:27,660 --> 00:24:31,110
+it only operates off three to 10 watts of
+power.
+
+386
+00:24:31,110 --> 00:24:32,110
+Host: Yeah.
+
+387
+00:24:32,110 --> 00:24:35,250
+Stevan Spremo: If you think about your old
+incandescent lightbulb that you grew up with
+
+388
+00:24:35,250 --> 00:24:39,160
+in probably your house or – this is a fraction
+of that –
+
+389
+00:24:39,160 --> 00:24:40,160
+Host: Yeah.
+
+390
+00:24:40,160 --> 00:24:42,340
+Stevan Spremo: – what it's consuming, and
+doing all these tasks and reporting home and
+
+391
+00:24:42,340 --> 00:24:47,640
+delivering a whole experiment that's been
+automated. And I always find that aspect really
+
+392
+00:24:47,640 --> 00:24:48,640
+amazing.
+
+393
+00:24:48,640 --> 00:24:55,330
+Host: Like being more compact, being easier,
+being like a small sat, using that CubeSat
+
+394
+00:24:55,330 --> 00:25:02,570
+kind of like modules, it makes it cheaper.
+It's easier to do. If something goes wrong,
+
+395
+00:25:02,570 --> 00:25:05,690
+it's like I'm sure replacing it isn't the
+end of the world.
+
+396
+00:25:05,690 --> 00:25:10,559
+Stevan Spremo: The other thing that I didn't
+mention earlier is the temperature requirements.
+
+397
+00:25:10,559 --> 00:25:11,720
+We maintain –
+
+398
+00:25:11,720 --> 00:25:12,720
+Host: Oh yeah.
+
+399
+00:25:12,720 --> 00:25:15,880
+Stevan Spremo: – this – we have to simulate
+the body's temperature. And so –
+
+400
+00:25:15,880 --> 00:25:17,080
+Host: And you're doing that in space [laughs].
+
+401
+00:25:17,080 --> 00:25:21,110
+Stevan Spremo: Doing it in space. So 37 degrees
+Centigrade is normal human body temperature.
+
+402
+00:25:21,110 --> 00:25:22,110
+Host: Okay.
+
+403
+00:25:22,110 --> 00:25:25,880
+Stevan Spremo: So we're simulating that. If
+we go above that, we'll simulate a fever and
+
+404
+00:25:25,880 --> 00:25:28,059
+ruin the experiment and kill off the E. coli.
+
+405
+00:25:28,059 --> 00:25:32,660
+Host: And how do you get that temperature
+while on the satellite that's in space where
+
+406
+00:25:32,660 --> 00:25:34,780
+it's pretty cold, as I understand?
+
+407
+00:25:34,780 --> 00:25:39,800
+Stevan Spremo: Right. So we designed this
+so orbit after orbit, it's capable of maintaining
+
+408
+00:25:39,800 --> 00:25:42,770
+37 degrees plus or minus a half degree Centigrade.
+
+409
+00:25:42,770 --> 00:25:43,770
+Host: That's crazy.
+
+410
+00:25:43,770 --> 00:25:49,900
+Stevan Spremo: So we have looked at models,
+and we model this to – basically dynamically
+
+411
+00:25:49,900 --> 00:25:57,730
+every orbit – maintain its temperature.
+We do models that are upwards of 650,000 calculations
+
+412
+00:25:57,730 --> 00:26:05,610
+to look at all the situations that thermally
+it's still stable. And so that's really an
+
+413
+00:26:05,610 --> 00:26:07,730
+engineering feat that this system –
+
+414
+00:26:07,730 --> 00:26:08,730
+Host: Oh, crazy.
+
+415
+00:26:08,730 --> 00:26:12,230
+Stevan Spremo: – is maintaining. And as
+a CubeSat, being low-cost, and we're still
+
+416
+00:26:12,230 --> 00:26:17,290
+achieving this requirement is kind of amazing.
+It's taking a lab up to space and –
+
+417
+00:26:17,290 --> 00:26:19,480
+Host: Uh-huh. Like a mini-lab. Automated,
+too.
+
+418
+00:26:19,480 --> 00:26:26,910
+Stevan Spremo: Right. It's automated. I think
+another thing I didn't mention is that we
+
+419
+00:26:26,910 --> 00:26:29,820
+take a little canister that's got one atmosphere.
+It's got lab air in it.
+
+420
+00:26:29,820 --> 00:26:30,820
+Host: Okay.
+
+421
+00:26:30,820 --> 00:26:35,920
+Stevan Spremo: So that's something the cells
+also need to have to simulate the environment,
+
+422
+00:26:35,920 --> 00:26:36,920
+so –
+
+423
+00:26:36,920 --> 00:26:40,500
+Host: And after the experiment's run its course,
+you've got all your data. Then it just burns
+
+424
+00:26:40,500 --> 00:26:43,260
+up in the atmosphere? Or how does that work?
+
+425
+00:26:43,260 --> 00:26:50,490
+Stevan Spremo: Yeah. Since it's a low-Earth
+orbit system, we maintain orbits generally
+
+426
+00:26:50,490 --> 00:26:56,540
+that are less than 25 years in life. And then
+just natural decay of atmospheric drag around
+
+427
+00:26:56,540 --> 00:27:02,610
+the Earth, it will eventually pull down into
+the Earth's atmosphere and literally vaporize.
+
+428
+00:27:02,610 --> 00:27:03,610
+Host: Vaporize.
+
+429
+00:27:03,610 --> 00:27:04,610
+Stevan Spremo: Yeah.
+
+430
+00:27:04,610 --> 00:27:08,820
+Host: So I can imagine somebody thinking,
+"You're sending E. coli into space! What if
+
+431
+00:27:08,820 --> 00:27:13,140
+this crashes on my house?" It's like, "No,
+it's never to get even close to that. It'll
+
+432
+00:27:13,140 --> 00:27:17,620
+get burned up and vaporized long before you
+even know it."
+
+433
+00:27:17,620 --> 00:27:20,610
+Stevan Spremo: Yeah, so we get that reaction
+a lot.
+
+434
+00:27:20,610 --> 00:27:21,610
+Host: [Laughs]
+
+435
+00:27:21,610 --> 00:27:25,890
+Stevan Spremo: "What are you doing sending
+E. coli up to space? Is this a dangerous thing?"
+
+436
+00:27:25,890 --> 00:27:26,890
+And –
+437
+00:27:26,890 --> 00:27:31,740
+Host: You probably have more in your bathroom
+[laughs] or on the doorknobs than you do in
+
+438
+00:27:31,740 --> 00:27:32,740
+this –
+
+439
+00:27:32,740 --> 00:27:38,460
+Stevan Spremo: The particular strain we were
+sending up, it's a common strain that actually
+
+440
+00:27:38,460 --> 00:27:39,679
+people are treated for regularly.
+
+441
+00:27:39,679 --> 00:27:41,080
+Host: Okay, okay.
+
+442
+00:27:41,080 --> 00:27:47,620
+Stevan Spremo: So antibiotics and everything
+are regularly given to patients on Earth for
+
+443
+00:27:47,620 --> 00:27:49,160
+this particular strain we're studying.
+
+444
+00:27:49,160 --> 00:27:53,150
+Host: This is pretty – it's a normal one.
+People can calm down. Anyway, it's going to
+
+445
+00:27:53,150 --> 00:27:54,380
+burn up in the atmosphere.
+
+446
+00:27:54,380 --> 00:27:57,440
+Stevan Spremo: Yeah, it's going to – it's
+never going to reach back down to the Earth,
+
+447
+00:27:57,440 --> 00:27:58,440
+yeah.
+
+448
+00:27:58,440 --> 00:28:05,350
+Host: Anybody who's got questions for Stevan,
+we are using Twitter, so we're @NASAAmes,
+
+449
+00:28:05,350 --> 00:28:10,490
+and we are using the hashtag #NASASiliconValley.
+So if anybody has questions, we'll just push
+
+450
+00:28:10,490 --> 00:28:13,380
+them on over to you [laughs] and he'll respond.
+
+451
+00:28:13,380 --> 00:28:15,220
+Stevan Spremo: I'll be glad to respond to
+anybody's questions.

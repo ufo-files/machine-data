@@ -199,28 +199,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-50ebf29715099e71eb1beff9",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-7e0ba5da7020f31173584d8f",
           "segment_index": 13,
           "source_segment_id": "seg-7e0ba5da7020f31173584d8f",
           "source_text_sha256": "b3f6a649ecf084b5a91d01ac21bba592e15b0f0bb779db74aca23a75b75c0a48",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On August 29, 2013, at 7:45 PM, a driver was surprised to witness two luminous phenomena not far from the setting sun. He took the time to stop and photograph the phenomenon. This testimony is of very good consistency: precise and with 5 usable photos (see the investigation report). Based on the investigation elements, namely: - appearance, color of the UFOs. - the sun low on the horizon and UFOs at the same height. - presence of clouds conducive to the formation of parhelia, we can conclude that the UFO observed by the witnesses is very likely a parhelion phenomenon. The observation is ultimately not very strange as the objects are easily explicable and their presence demonstrable. This case is to be classified as \"A\" as a certain observation of a parhelion.",
-          "translation_text_sha256": "7e8dca3bccde3d5b6f9db2adb6c658441545d8b7c6a2874340730e1e20d2397f"
+          "status": "machine-unreviewed",
+          "text": "Description: On August 29, 2013, at 7:45 PM, a driver was surprised to observe two luminous phenomena not far from the setting sun. He takes the time to stop and photograph the phenomenon. This GEIPAN report statement translates to:\n\nThis testimony is of very good consistency: precise and with 5 exploitable photos (see the investigation report). Based on the investigation elements, namely: - the appearance and color of the PAN. - the sun being low on the horizon and the PAN at the same height. - the presence of clouds conducive to the formation of halos, we can conclude that the PAN observed by the witnesses is very likely a halo phenomenon. The observation is ultimately not very strange as the objects are easily explainable and their presence demonstrable. This case should be classified as \"A\" for a certain observation of a parhelion.",
+          "translation_text_sha256": "b75fb765ad9d61d9dd52eb8cc40410215c54736d7513655e0aab24ff109d28cd"
         }
       ],
       "source_page_id": "page-50ebf29715099e71eb1beff9"
@@ -231,13 +222,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-12T16:55:42Z",
+    "generated_at": "2026-09-27T01:15:05Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

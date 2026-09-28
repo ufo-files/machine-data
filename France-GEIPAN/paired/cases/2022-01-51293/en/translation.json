@@ -151,26 +151,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "testimonies",
           "page_id": "page-faaa5337b93ac5976133f5cb",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "SAINTE-HELENE (33) 11.01.2022"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-6f8960ef2849e70c0d131676",
           "segment_index": 10,
           "source_segment_id": "seg-6f8960ef2849e70c0d131676",
           "source_text_sha256": "6e2b54d7a2912c8ee5d10fa933ae50243f4dd4ce939757d477fbf08cfadd4a0b",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Testimonies:  SAINTE-HELENE (33) 11.01.2022 compte rendu enquete.pdf technical questionnaire - R",
           "translation_text_sha256": "51426e6ac219f828041b4fec729a58325e11341b35f66634788e820b7f8f135e"
         },
@@ -210,6 +201,14 @@
       "source_page_id": "page-faaa5337b93ac5976133f5cb"
     }
   ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:55Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "717223f1510b7240a5023019239e0f6e16b8d6335dbf3ee8ed3649e4157d34bb",
+      "segments_recovered": 1
+    }
+  ],
   "schema": "ufo-files-french-translation/v1",
   "segments": [],
   "source_language": "fr-FR",
@@ -220,7 +219,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

@@ -183,7 +183,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-7b49e74ee5505df5c07db43c",
           "qa_findings": [
@@ -195,28 +195,28 @@
               "missing_from_translation": [],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-b9e17ec35446d542a4aec1b2",
           "segment_index": 12,
           "source_segment_id": "seg-b9e17ec35446d542a4aec1b2",
           "source_text_sha256": "7ac2f167702cf41c6c9b5a6e10b7874a0f301175410b154d67ae4e66fcca83ce",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: On September 17, 2012, at 2:20 PM, a witness noticed in the sky a black ball that seemed stationary. The witness observed this black object in the sky, appearing immobile, at a low altitude on the horizon. The witness turned around it a quarter turn, which proves the low distance and altitude of the object. The north wind of 10 to 20 km/h (see record) seems weak for a kite to fly. The spherical shape rather suggests a balloon. The overcast cloud cover seems unsuitable for a thermal balloon (heated by the sun). It is probably a festive balloon inflated with helium, held by a string (of course invisible at more than 100 meters) or flying in the weak wind of that day. The GEIPAN classifies this case as \"B\": probable observation of a balloon.",
           "translation_text_sha256": "e17c51f7029ced74ddb3c19b89baa84d0277beec5f88a5a93532cbb3635d07b5"
         }
       ],
       "source_page_id": "page-7b49e74ee5505df5c07db43c"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:43Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "e3141fc05512d466046137aab7ec268274e63ddd55a08e0cb589dba855683158",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -229,7 +229,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }

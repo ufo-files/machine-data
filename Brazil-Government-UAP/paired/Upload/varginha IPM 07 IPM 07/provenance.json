@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "aa9bf48d674ff3f8d4033ce51671e2cd4d8848c480d9d907ee5fba610ae9b5aa",
+  "canonical_text_sha256": "0760f23770df7d0c098501a4a04410b81cb3c8e287dd8dc294bd2414a232d900",
   "document_id": "doc-9f208e9110559a98a5523d4e",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -14,6 +14,372 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 459,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-18T01:46:54Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "447ef46676c881e263642d15b4b54cf9b28bc4f11a3a6082146e72eee10de6fc",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dc0bbe0c30d86311f1a0f7ced6eee4917126af4c3ff9c3494fe36d724748c604",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "bad443151cf97e73165e8855fc7ac5972bc926a020eaad8a55cac36c98df104a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "508c5547847949fe57baa862a4e814deb2f7cd3a3b07e6c55906290c4c0fb73f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "ae3d800fa0ab02073314116f489532c5cc13bf8cde8d92adff9aba63567f4b50",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "66f6e2221333c82892a302f309ae69041a2fef58623409a6c4ba123dc3d8a0ce",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "aa2f86f8e3c3e2237b6c42bcb824f41402eed1c9b9a16bb80576c2002c4c01e3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e4f9111e2ce0a11ddd5c89935d8a943cc4dfe971487399fca0835cff0d6b450b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a1094c7dd7d85875382b25f58aff4f0328e6ca015f814b624426a1c84b4372c3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "2c7f082fa769c7e17c37dc42eb6b29ecd7c96c8c46f9b02cf0f991b6a6b497cb",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b3153b4ca9c5f41e0a8279022903ce8a8bcd9462cf96abb49894661ff8e4b954",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6dbe5259c9162e1e4ff22252cd3d9bc885efc99af01065b73c68dda9e2e188d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "00d159cf3d4ec098f2436857937092ba0102c314e8df8810480cf4ef9d3c6f77",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5e3813280dcd6f06a6ebfa302a8a3ceef92e0046842122eca83de5d638b11759",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "b657903df4116e88311b1992a7eae5362b08cfa2c045b6bf256a4c9c3ea0b7e0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "607474ca475a9724d7360aba71a56d5df77e61350e3f724cfa1f46e857e2d85f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0bda8c4edbbd65c2a25baf3a0eace97c3dfc7f5af4b388326d5a1fc1d6b3a6b1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a76051a11112e7093e1e5b688dcc1b9d843e70d00eda076fd8688f53557d422f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9f51566bd6705f7ea6ad54bb9deb449f795582d6529a0e22207b8981233ec58",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a3500df325cb8eca16e443b333641fa7015bab1ab87cdd7bd9259666391654b6",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0d39078690de9650bafd9fd648bf1127dbb0aca30146ffbef82c7ea2e35a1802",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "30931d44b245fe02ea2e6bdcdc18d02226b41be7d0a19b0d65f66a550c50d7ca",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9ae644a5cbab57ab2d073fa1fb007c79dce3123d5c80a8b558089eaccc715114",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "7fc959bae6762303c82e9e0e7efd5159ba3049aae443f742064341ec3a9a4a55",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "24c9dc364f5b584ac6e8afd2708d175c496b56a020b49f57f66c51026b02fa9f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a54c2194b2a655e324ce159e847c193cc0a2e5adb6c7095334161959d6ac6541",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "a9253dc8529dd214e5f22397888e78d3390daa47593e26f68c18f97fd7a3876b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "dfee63f976e9955a0b20f85f3ebe9dfd7426e411922d98efad0e53a3e99bf001",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d226e14ff2fa02b10ab2d636f5b49ba4dce65e944f176a9e5ee761ad04f3e91d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "0323e45fe25bbc6c68c291f6031930a98bab5f8cd221b01b90b32ec0b275ccc5",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3fdb02f0e1a91419134cbb6b5ecbe6efc9b631a96bfe2da592c71d7e01a19300",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "80b8b8fe7baed8f6961ed405c0ec4c97aaeb55a8dc2aa36456e486d35019feab",
+        "status": "machine-unreviewed"
+      },
+      {
+        "human_reviewed": false,
+        "method": "source-fragment-preserved",
+        "source_sha256": "18f5384d58bcb1bba0bcd9e6a6781d1a6ac2cc280c330ecbab6cb7931b721552",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e8524a6468f9fe15a877e0113149da83f5adf8c7d7d062514733609cde8674c0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2c3fed45f6e9b47020bb101b8a491004367f239a25736b03004258e01b59b820",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "5e673fce230ea3374874c515db9de85b5d8986ed42306a64cb8b12f32cec89e2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c97ad3468c3a29c78ed679947a48120faa1a0c02a78a7994928c170ecffee4f2",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "3b3f625dd5b31fd04aa804dadb4c75b952282223304c59cc6c967ec91dd67850",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e3fc711860cd2136d363b65c25c9f43c6ba3b01bf58c24f145b23da3e67638de",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c40ec2775f0818432ee6fd240b3785e5fca93ccf51500b842b341c08b002f714",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "6e844cc0dbb3ad28e96841e341e1b3fa9af1a2fffe48c7e620dff8eda706b265",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "f4c34dc46f98a3bb6a9f4cc5f44bf0448d25ba2c6006336d2531bd9541e3c84d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c883ebeff8da4bb142e11757c7da4fbea646b2050549649c17fbdd1dde7ac6f0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9bfd3da4cac99c5e5e9fc5e089e473e39e548af0e092f8ff15398a5648d6c683",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "c5181b0514990ca447877d12e66638c5244f2a5d6eff6e0e8e46061a46d949c1",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "099ce6185f6b3d57e11709089c9a8ae97db11770e203551c19c41c304e75908e",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "d936faebd2d5dfd4835056f0371f0f45b3f5a26557656e7e8c8f0c596ebcbf50",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e7b8809fba742aed1dbefaf6bcbb26ceac29c72443a61a991e58e7b43dc73c0b",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2e77e313ddc6774279fb1eb2ee90e5c5ab0474569246511edf81ea2acddf4db8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "64b90051e43c04cf3de3ed104ce46898126125aed2b7fd27658310036dc4fbf0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "22d9ebc931627ff9a86c2a9245aa881f4220029d9613a88245329ff33b5a1ce0",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "303e39be12b97c8a6d640297458d5db7d89d5f5776b599a9572a6dbced7dbde3",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "a58370f1bcf249098e7f812c6e3915900b1afe4edef24a72aae1034b71fa0e32",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "581a74d0b377a49357592ef7a5c61e9990ae6e196a01f1a9fc5c9444b1379aff",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "e91d404f2d6475f93a3bffcd1a8f188b7af43af43e50e911609bf7405ab6675f",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "657cfbc7d9003a71f63e084752427de67f54c7ebb200b9d64ec0c6edc6e11247",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "8bbd97bddf9ed754a45df3c6daac85c0405500c491b706a5d475a372a3a2cc2a",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "9c31b69da656b9c9301dc58db7dff058c3094847342e6a3d0bda0c046fcc6371",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "2070b2984e158c58a1b838b55d653bf9b0565a7c3acbfac5d7796e8224b6e1f8",
+        "status": "machine-unreviewed"
+      },
+      {
+        "method": "local-mlx-lm",
+        "source_sha256": "654da73edf5c371ce33a087f6cb0a42707c99f97761d6bb32013e6482126657e",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T23:21:13Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -22,17 +388,55 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 459,
   "source_bytes": 40626177,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "Aos dez dias do mês de março do ano de mil novecentos e noventa e sete, nesta cidade de Três Corações, Estado de Minas Gerais, na Escola de Sargentos das Armas, inicia às Fls 204 este 2º volume do Inquérito Policial Militar em que é indiciada a Publicação intitulada “INCIDENTE EM VARGINHA”, de Autoria de Vitório Pacaccini e Maxs Portes, nos termos da Portaria nº 009-Aj G.2, de 29 de janeiro de 1997, do Exmo Sr Comandante da Escola de Sargentos das Armas, juntando as peças que se seguem; do que para constar, lavrei o presente termo.\nEu, VINÍCIUS PROBA DOS SANTOS, 3º Sargento, servindo de Escrivão que o escrevi e subscrevo.",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "Aos dezdiasdo mêsde marçodo anode mir\n                                               novecentos e novenrae sete,\n nestacidadede TrêsCorações,Estadode                                        .\n                                      MinasGerais,na Escolade Sargentos\n dasArmas,ìniciaàs Fls JOll este20volume\n                                          do InquéritopolicialMiÍitarem gue\n é indiciada pubricação          'TN.TDENTE\n                        intiturada         EM vARcrNHA,,,    de Autoriade\n MtórioPacaccinie Maxsportês,nostermosda portària\n                                                   no009_AjG.2,de 29 de\nlaneirode í997, do ExmoSr Comandante   da Escolade Sargentosdas Armas,\njuntandoas peçâsguese seguem;do quepara\n                                         constar,ravreio presentetermo.\n          \\\\.   . \\\n     eu, \\ìW              , vNíctus pRoBADos sANTos,gosargento,\nservindode Escriváoqueo escrevie subscrevo.",
+      "original_text_sha256": "dc0bbe0c30d86311f1a0f7ced6eee4917126af4c3ff9c3494fe36d724748c604",
+      "page": 2,
+      "segment_id": "seg-53dfcde4417c777a3910b410",
+      "source_page_render_sha256": "072a8cf1f27627133a6e1ccbef32b68d681a38200134fbea88a10e9369d63076",
+      "source_rel": "Upload/varginha IPM 07 IPM 07.PDF",
+      "translation": "On the tenth day of March, nineteen ninety-seven, in the city of Três Corações, State of Minas Gerais, at the Escola de Sargentos das Armas, this 2nd volume of the Military Police Inquiry begins at page 204. The publication under investigation is entitled “INCIDENTE EM VARGINHA”, authored by Vitório Pacaccini and Maxs Portes, pursuant to Portaria nº 009-Aj G.2, dated January 29, 1997, issued by the Commandant of the Escola de Sargentos das Armas. The following documents are attached, and I have drawn up this record in witness thereof.\nI, VINÍCIUS PROBA DOS SANTOS, 3rd Sergeant, serving as clerk, wrote and sign this record."
+    },
+    {
+      "corrected_source_text": "Aos dez dias do mês de março do ano de mil novecentos e noventa e sete, nesta cidade de Três Corações, Estado de Minas Gerais, na Escola de Sargentos das Armas, onde se achava o Sr Encarregado deste Inquérito, compareceu a testemunha abaixo nomeada que foi inquirida sobre a Port Nr 009 AjG.2, de 29 de Janeiro de 1997, de Fl Nr 006, a qual lhe foi lida, declarando o seguinte: OLÍMPIO VANDERLEI SANTOS, 47 anos, natural do Rio de Janeiro-RJ, filho de Wanderley Oliveira Santos e de Dª Doracy Costa Santos, casado, militar da ativa, tenente-coronel da arma de infantaria, residente à Avenida Getulio Vargas, 421, Centro, nesta cidade, Chefe da 13ª Circunscrição do Serviço Militar, depois do compromisso de dizer a verdade, declarou: perguntado se já havia tomado conhecimento da publicação intitulada INCIDENTE EM VARGINHA, da autoria do ufólogo Vitório Pacaccini e do Sr Maxs Portes, respondeu que já o tinha visto numa banca de jornais na cidade de Varginha, mas que não teve a curiosidade de lê-lo; perguntado se sabia que seu nome estava sendo citado no livro mencionado, respondeu que não; perguntado se conhece pessoalmente, ou de ouvir falar, os autores da publicação, respondeu que não os conhece e que somente tomou conhecimento da existência destes senhores no dia em que recebeu o telefonema de uma repórter do MGTV, informando estar ocorrendo uma reunião de ufólogos na cidade de Varginha, e que nesta reunião seu nome estaria sendo citado por um destes ufólogos como responsável pela suposta captura de um ser extraterrestre; pelo Sr Encarregado do IPM foi comentado que a testemunha foi apontada pelos autores, por várias vezes no livro, como sendo o chefe e o principal responsável pela equipe que capturou a criatura e, em seguida, perguntado se eram verídicas tais afirmações, ao que respondeu que não, sendo tais informações totalmente inverídicas, inclusive demonstrando total irresponsabilidade e falta de caráter dos responsáveis por este procedimento; perguntado se conhece a forma pela qual teria chegado aos autores do livro essa falsa informação de sua participação na captura do ser extraterrestre, respondeu que não, mas que supõe, que devido a ter comandado o Batalhão de Comando e Serviços da Escola por três anos, provavelmente no cumprimento de suas funções no comando, foi obrigado a tomar decisões que podem ter desagradado a alguns militares e que acredita que, infelizmente, esta estória foi criada por algum profissional da EsSA no intuito de vingar-se de alguma coisa que a testemunha tenha feito no interesse do serviço e que possa tê-lo prejudicado; acrescentou que a estória foi muito bem engendrada pelos autores, pois sabe que também foram envolvidos o Major RAMIRES, comandante da Companhia de Manutenção e Transportes, e o Tenente TIBÉRIO, comandante do Pelotão de Polícia do Exército; perguntado se sabe por quê teriam também estes militares sido envolvidos nesta trama, que é o tema do livro indiciado,",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "e noventae sete,nesta\n                      Aos dez diasdo mêsde marçodo ano de mil novecentos\n                 cidadede Três Cora@es,Esiadode MinasGerais,na Escolade Sargêntosdas Armas,\n                 onde se achavao Sr Encanegadodeste Inquérito,compareceuâ testemunhaabaixo\n                 nomeadaque Íoi inquiridasobrea PortNr 009AjG.2,de 29 de Janeirode 1997,de Fl Nr\n           QQ[, a quallhefoi lida,declarando seguinie:oLÍMPlo VANDERLEI       SANTOS,47 anos,\n     ì\n           naturaldo Rio de Janeiro-RJ,Íilho de WanderleyOlivehaSantose de Dq DoracyCosta\n (-\\     {\n           Santos,casado,militar da ativa, tenente-coronel  da arma de Infantaria,residenteà\n           AvenidaGetulioVargas,421,Ceniro,nestacidade,Chefeda 13sGircunscrição       do Serviço\n? t \\ { Militar,depoisdo compromissode dizer a verdade,declarou:oerountadose já havia\n           tomadoconhecimento   da publicação           INCIDENTEMVARGINHA,\n                                              intiutulada                           da autoriado\n           ufólogoVitórioPacaccinie do Sr MaxsPortes,resDondeu    quejá o tinhavistonumabanca\n       \\   de jomaisna cidadede Varginha,masque nãotêve a curiosidade     de lê-lo;oerquntado se\n           sabÍa que seu nome êstava sendo citado no livro mencionado,      respondeuque nâo;\n           perountado se conhecepessoalmente,       ou de ouvir falar, os autoresda publicação,\n             s\n           Ê   resoondeuque não os conheceê que somentetomouconhêcimento  da êxistênciadesles\n         \\{È\n               senhoresno dia em que recebeuo teleíonemade uma Íepórtêrdo MGTV' informando\n         ,s\n         :.8                 umareuniãode ufólogosna cidadede Varginha,e que nestareuniãoseu\n            d estarocorrendo\n            N\n          /\\\". nomeestariasendocitadoporumdestesufólogos comoresponsável  pelasupostacaptura\n    u ) de umserextratenestre;                             quea testemunha\n                           pelosr Encarregado IPMfoicomentado           foi\n         -ío                                                                                 d-\n                                                                              chefe-93-gi19iP*al\n                 apontadapetosautoreq,por ' :\n                                         várias     ' . -no\n                                                 u\"J\".\n                                              - - .         riut,laõãúì\n                                                          - . ' - - -\n            Ê\n                                                              ê, em seguida,oerountadosê eram\n                 reõbonsávelpela equipeque capturou?-.c.lla!ure\n                                        ao quê ICSpeldeU\n                 verídicastais afirmações,               que não, sendotais infqrmaÉestotalmente\n                                                                         e falta de caráter dos\n                 inverídicas,inclusivedemonstrândototal irresponsabilidade\n                 responsáveispor este procedimento;perguntadose conhecea forma pela qual teria\n                 chegadoaos autoresdo livroessafalsainformaçãode sua participaçãona capturado ser\n                 extrâterestre,respondeuque não, mas que supõe,que devido a ter comandadoo\n                 Batalhâode comandoe serviçosda Escolaportrêsanos,provavelmente    no cumprimênto\n                 de suasfunçõesno comando,foi obrigadoa tomardecisõesquepodemter desagradado    a\n                 alguns militarese que acreditaque, infelizmente,esta estóriafoi criada.por algum\n                            da ESSAno intuitode vingar-sede algumacoisaquea testemunhatenhafeito\n                 profissional\n                 no interessedo serviçoe que possatêìo prejudicado;        que a estóriaÍoi muito\n                                                                 acrescentou\n             '{,\n             ' 1 bem engendradapelos autores,\n                                              pois sabe que tambémforam envolvidoso Major\n               1 RAMIRES,comandanieda Companhiade Manutenção     e Transportes,e o Tenente\n                 TIBÉRIO,comandante do Pelotãode Políciado Exército;perountadose sabe por quê\n         /                                             nestatrama,queé o temado livroindiciado,\n                 teriamtambémestesmilitaresidoenvolvidos",
+      "original_text_sha256": "b3153b4ca9c5f41e0a8279022903ce8a8bcd9462cf96abb49894661ff8e4b954",
+      "page": 13,
+      "segment_id": "seg-13dc0ac30b19bfa7e763e819",
+      "source_page_render_sha256": "d5a2643b2c9c7cfa02df56ac73d7bdfa909dc6d3b1e38d7508a4ec27f1d9dcb7",
+      "source_rel": "Upload/varginha IPM 07 IPM 07.PDF",
+      "translation": "On the tenth day of March, nineteen ninety-seven, in Três Corações, State of Minas Gerais, at the Escola de Sargentos das Armas, where the officer in charge of this inquiry was present, the witness named below appeared and was questioned concerning Port Nr 009 AjG.2, dated January 29, 1997, on page 006, which was read to him. He stated: OLÍMPIO VANDERLEI SANTOS, aged 47, born in Rio de Janeiro-RJ, son of Wanderley Oliveira Santos and Mrs Doracy Costa Santos, married, an active-duty infantry lieutenant colonel, residing at Avenida Getulio Vargas, 421, Centro, in this city, head of the 13th Military Service District. After undertaking to tell the truth, he declared: asked whether he was aware of the publication INCIDENTE EM VARGINHA, by ufologist Vitório Pacaccini and Mr Maxs Portes, he replied that he had seen it at a newsstand in Varginha, but had not been curious to read it; asked whether he knew his name was mentioned in that book, he replied no; asked whether he knew the authors personally or by reputation, he replied that he did not know them and only learned of their existence when an MGTV reporter telephoned him, saying that ufologists were meeting in Varginha and that one of them was naming him as responsible for the alleged capture of an extraterrestrial being. The officer in charge of the IPM remarked that the authors repeatedly identified the witness in the book as the leader and principal person responsible for the team that captured the creature. Asked whether these statements were true, he replied no: the information was entirely false and demonstrated total irresponsibility and lack of character on the part of those responsible. Asked whether he knew how this false information about his participation in the capture reached the authors, he replied no, but supposed that, having commanded the school's Command and Services Battalion for three years, he had probably been required in his duties to make decisions that displeased some military personnel. He believed that, unfortunately, an EsSA professional had invented the story to avenge something the witness had done in the interests of the service that might have harmed that person. He added that the authors had constructed the story very cleverly, since he knew they had also implicated Major RAMIRES, commander of the Maintenance and Transport Company, and Lieutenant TIBÉRIO, commander of the Army Police Platoon; asked whether he knew why these military personnel had also been involved in this plot, which is the subject of the book under investigation,"
+    },
+    {
+      "corrected_source_text": "Aos onze dias do mês de março do ano de mil novecentos e noventa e sete, nesta cidade de Três Corações, Estado de Minas Gerais, na Escola de Sargentos das Armas, onde se achava o Sr Encarregado deste Inquérito, compareceu a testemunha abaixo nomeada que foi inquirida sobre a Port Nr009 AjG.2, de 29 de Janeiro de 1997, de Fl Nr 006, a qual lhe foi lida, declarando o seguinte: MAURÍCIO ANTÔNIO SANTOS, 44 anos, natural de Bom Despacho-MG, filho do Sr Antônio Pinto dos Santos e Dª Conceição Cândida Pinto, Casado, Tenente Coronel da Polícia Militar do Estado de Minas Gerais, residente à Rua Fleming Nr 370, bairro Novo Horizonte, cidade de Varginha-MG, Comandante do 24º Batalhão de Polícia Militar, depois do compromisso de dizer a verdade, declarou: perguntado se conhece o conteúdo do livro indiciado no presente IPM, respondeu que o conhece por alto, de ouvir falar e que está vendo o volume pela primeira vez nesta oportunidade diante do encarregado do IPM; perguntado de que forma tomou conhecimento do assunto tratado no livro em tela, respondeu que no dia 12 de janeiro do corrente ano assumiu o comando do 24º Batalhão de Polícia Militar sediado em Varginha e que provavelmente no dia 19 de janeiro, naquela localidade houve uma forte chuva com muitos ventos, com queda de muros e árvores, telhados de casas, que ocasionaram muitas ocorrências junto ao Corpo de Bombeiros em policiamento ostensivo e que contaram com o apoio do Batalhão; disse que no dia seguinte foi procurado pelo Sr Ubirajara, que se identificou como ufólogo, acompanhado por outro Sr do qual não recorda o nome; esclareceu que naquela oportunidade os visitantes lhe perguntaram se tinha havido alguma ocorrência envolvendo seres extra-terrestres, diante do que lhes respondeu que dentre as ocorrências registradas no Batalhão nenhuma delas dizia respeito a extra-terrestres; acrescentou que o citado ufólogo lhe perguntou se poderia ter havido alguma ocorrência desse gênero registrada pelo Corpo de Bombeiros, ao que respondeu negativamente, pois que nesse caso a testemunha teria conhecimento; também disse saber que o Capitão Alvarenga, do Corpo de Bombeiros foi procurado por uma equipe de reportagem e que por sua característica pessoal e modo de falar deu a impressão de estar fazendo brincadeira com o assunto, imagem esta que foi explorada pela imprensa e que desagradou o comando da Polícia Militar, tendo sido inclusive questionado para fins disciplinares; disse também que o Capitão Alvarenga passou a evitar, depois desse episódio, dar qualquer entrevista, fato que transpareceu como uma tentativa de ocultar fatos; acrescentou que quanto à transferência do Major Maciel para Poços de Caldas, tal intenção se verificou muito antes dessa data pois que era uma pretensão daquele Major comandar a Companhia Independente de Poços de Caldas; sobre o fato que envolveu o",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "j              Aos onzediasdo mêsde marçodo anode mil novêcêntos   ê noventae setê,nesta\n                  cidadede Três Corações,Estadode MinasGerais,na Escolade Sârgentosdas Armas,\n        r'        onde se achavao Sr Encaregadodeste Inquérito,compareceua testemunhaabaixo\n     r,. -l       nomeadaque foi inquiridasobrea PortNr009AjG.2,de 29 de Janeirode 1997,de Fl Nr\n       .'J)\n                , 00b, a gualhefoi lida,declarando       MAURÍcloANTÔttosnnros, 44anos,\n                                                o seguinte:\n                .' naturalde Bom Despacho-MG,\n                                           Ílho do Sr AntônioPinto dos Santose Da Conceição\n            '\n            CândidaPinto,Casado,Ïenente Coronêlda PolíciaMilitardo Estadode MinasGerais,\n4b                                 Nr 370, beifrc*.1lgYlHorizonte,cidade de Varginha-MG,\n            residenteà Rua Fleming_\n                                                               do compromisso  de dizer a\n      ì....Qgln3lgq$\".-{9-!43-pahhaq de .P!lçi? Militâr,idepois\n        _ì èrOaOe,declarou:oersuntadose conheceo conteúdodo livroindiciadono presentelPM,\n     -;     resoondeuqueo conheceporalto,de ouvirfalare queesiávendoo volumepelaprimeira\n      -.{   vez nestaoportunidâdêdiantedo encanegado  do IPM;perguntadode que formaiomou\n            conhecimentodo assuntotraiadono livroem tela,resDondeuque no dia 12 de janeirodo\n       I\n       -.y. correnteanoassumiuo comandodo 24oBatalhãode PolíciaMilitarsediadoemVarginhae\n     'Qlqr\"                                                                             com\n                provavetmenteno dia 19 de janeiro,naquelalocalidadehouveumafqft{!@\n            munos@om          quedade murose árvores,telhadosde câsas,que ocasionaram\n            muitas oconênciasjunto ao corpo de Bombeirosêm policiâmentostensivoe que\n              contaramcom o apoio do Batalhão;disse que ng-9lllgqry         foi plgqg!4lg pelo sr\n,/.{Bl\n                       Ouese identificoucomo-u-@acompanhadoporoutroSr do qualnão recorda\n             l,Ubirajara\n              o ìome; esclareceuque naquelaoportunidade    os visitanteslhe perguntaram  se tinha\n              havidoalguma                                        ès,'diantedo quelhesrêspondeu\n              que dentreas oconênciasregistradas no Batalhãonenhumadelasdiâa respeitoa extra-\n           .- terrestres;acrescentouque o citadoufólogolhe perguntouse poderiaier havidoalguma\n                                                                  Bombeiros,ao que respondeu\n       fi oconênciadesse gênero registradapelo Corpo de\n        i 2 neoativamente,   pois que nessecaso a testemunhateria conhecimento;     tambémdìsse\n         r ,                                                                de\n                                                                 porumaequipe\n         l/lsaAe,                                      foiprocurado\n                  queo e\"ap_itãq--A!_va'u''ga.àa-]?9.p_o-_!.9.pgmbeiòs\n           /,                                                                                     êstar\n                                                                                               de eStar\n       I - ; .-------^-\n               reponagem           ^,,^ ^^.^^+^riõ+i^-\n                          e queporsua   característica ^aocnat\n                                                       pessoalae rnndn\n                                                                 modode              impressão\n                                                                          falardeuaa imoressâo\n                                                                       de fâlâr.lêlr           dg\n             a\n                íazendobrincadeira\n            .,,..:                com o assunto,imagemestaque foi exploradapela imprensae que\n                                                                                              para fins\n           ., desaoradouo comandoda PolíciaMilitar,tendo sido inclusivequestionado\n         /      '   -\n                            disse tambémque o ceg-itëg4]y919!Lgà\n               disciplinares;                                           m:9\"99*?--e--vi(atdepoisdesse\n               episódio,dar qçrlqu-er.entr-eyllta,fato que trAngPeleggu\"colno uma têntativadePgllar\n                      âcrescentouque quantoa transferência    do MajorMacielparaPoçosde Caldas'tal\n               Q!o*s;-\n                                                                                                  Major\n               intenSo se verificoumuitoantesdessadatapoisque era uma pretenÉodaquele\n                    comandaraCompanhia|ndependentedePoçosdeCa|das;sobreofatoqueenvo|Veu",
+      "original_text_sha256": "00d159cf3d4ec098f2436857937092ba0102c314e8df8810480cf4ef9d3c6f77",
+      "page": 16,
+      "segment_id": "seg-26fd866c7a40d118121bab9f",
+      "source_page_render_sha256": "65274ec4c72b8258a2e7d928907a910a4e2346ff196a230ed774a6ba7fe89668",
+      "source_rel": "Upload/varginha IPM 07 IPM 07.PDF",
+      "translation": "On the eleventh day of March, nineteen ninety-seven, in Três Corações, State of Minas Gerais, at the Escola de Sargentos das Armas, where the officer in charge of this inquiry was present, the witness named below appeared and was questioned concerning Port Nr009 AjG.2, dated January 29, 1997, on page 006, which was read to him. He stated: MAURÍCIO ANTÔNIO SANTOS, aged 44, born in Bom Despacho-MG, son of Mr Antônio Pinto dos Santos and Mrs Conceição Cândida Pinto, married, Lieutenant Colonel of the Military Police of the State of Minas Gerais, residing at Rua Fleming Nr 370, Novo Horizonte neighborhood, Varginha-MG, commander of the 24th Military Police Battalion. After undertaking to tell the truth, he declared: asked whether he knew the contents of the book under investigation in this IPM, he replied that he knew it superficially, from hearsay, and was seeing the volume for the first time on this occasion before the officer in charge of the IPM. Asked how he learned about the subject of the book, he replied that on January 12 of the current year he took command of the 24th Military Police Battalion in Varginha, and that probably on January 19 there was heavy rain and strong wind there, bringing down walls, trees, and house roofs. These caused numerous incidents requiring the Fire Department and patrol policing, with support from the battalion. He said that the following day Mr Ubirajara, who identified himself as a ufologist, approached him accompanied by another man whose name he did not remember. He clarified that the visitors asked whether there had been any incidents involving extraterrestrial beings, and he replied that none of the incidents recorded by the battalion concerned extraterrestrials. He added that the ufologist asked whether the Fire Department might have recorded such an incident; he replied no, since he would have known about it. He also said he knew that Captain Alvarenga of the Fire Department had been approached by a reporting team and, because of his personal manner and way of speaking, gave the impression of joking about the subject. The press exploited this portrayal, which displeased the Military Police command, and he was even questioned for disciplinary purposes. He also said that after this episode Captain Alvarenga began avoiding any interviews, which appeared to be an attempt to conceal facts. He added that the intention to transfer Major Maciel to Poços de Caldas existed long before that date, since the Major wanted to command the Independent Company of Poços de Caldas; concerning the incident involving the"
+    }
+  ],
   "source_sha256": "289e7ffb8d7b7b59c6291f4cdf943b1c11d6f5eb00a49d46dbf666eb6121dc34",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-18T01:46:54Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T23:21:13Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "b99cf9677161d8c2f9dcc7f6a36bff380ccce0b4f689d040c0a5095f4f235493"
+  "translation_text_sha256": "e10440a4f5875f0caa3fb64e4b3bee00b489502734af56c1ec97b35cabd2cf9c"
 }

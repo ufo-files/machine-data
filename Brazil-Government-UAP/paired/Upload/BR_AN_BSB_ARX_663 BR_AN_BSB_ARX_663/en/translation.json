@@ -11,28 +11,6 @@
           "page_id": "page-6c3cef26d8eeb2460b4c3cc8",
           "qa_findings": [
             {
-              "added_in_translation": [
-                "2020-01-02"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "2",
-                "2020"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [
-                "0",
-                "0"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
               "added_in_translation": [],
               "check": "names",
               "missing_from_translation": [
@@ -40,6 +18,12 @@
               ],
               "severity": "warning",
               "status": "mismatch"
+            },
+            {
+              "check": "source-ocr-uncertainty",
+              "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+              "severity": "warning",
+              "status": "needs-review"
             }
           ],
           "review_status": "needs-review",
@@ -49,8 +33,12 @@
           "source_text_sha256": "2f4090ddbe4bc646b964cbd79d7f0ed523706cd6c5dc7dcf051ef14f37810c96",
           "start_ms": null,
           "status": "needs-review",
-          "text": "7 <J\n•   S P A D 3    COMDABRA\n                                                            CONFIDENCIAL\nDoe. analyzed on: JANUARY 02, 2020\nProduct:       OCTOBER 120 •         AERONAUTICS COMMAND",
-          "translation_text_sha256": "9fda84cb6d7e545e8a22216429727f72b79bc250989a083fcc4080c6b087cf1b"
+          "text": "7 <J\n•   S P A D 3    COMDABRA\n                                                            CONFIDENTIAL\nDoe. analysed on: IJOI 0^ Í20 & .\nProooita:       i 0^ 120 •         AERONAUTICS COMMAND",
+          "translation_provenance": {
+            "human_reviewed": false,
+            "method": "codex-assisted-translation"
+          },
+          "translation_text_sha256": "9470b41eb324b4c4762973b4e2795650f6b4f5a8dcfd279c6c66684b2957915a"
         },
         {
           "end_ms": null,
@@ -65,6 +53,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "\"BRAZILIAN AIR AND SPACE DEFENSE AGENCY\"",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "66d652ace9d3718e092be9838273531fda462501c55628768f10a209fbc4dd11"
         },
         {
@@ -80,6 +81,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "HOTEL TRAFFIC INCIDENT\n                                                                                                      (Filled by COMDABRA >",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "019f94bdabef047372f581ec33c40a9715decb5f02bb632f3cdb84e18668c644"
         },
         {
@@ -121,11 +135,24 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "1. INCIDENT DETAILS\n                Date: 12/23/07 Time: 19:22 Duration: (approximately) 10 seconds\n                Location of incident: (Neighborhood, district, etc.): Parque Dez - Manaus, AM\n                Municipality (district, etc. if applicable): Manaus\n                State: AM\n                Type (sighting, immediate contact, etc.): Sighting\n                Observation made with equipment? (Y/N): N\n                If yes, specify (s): NIL\n                Are there any records or physical evidence? (Y/N): N\n                If yes, detail (photo, video, film, etc.): NIL\n                Visibility: NIL\n                Meteorological conditions (clear sky, rain, fog, storm, pollution, etc.): Partly cloudy without rain.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "0d769bb3bac29de63415a6ce800b5fb737e996558e9d4a4ac4bc9c87adde4c84"
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-6c3cef26d8eeb2460b4c3cc8",
           "qa_findings": [
             {
@@ -141,25 +168,30 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-a10c0fecc8311bda26cc6f62",
           "segment_index": 5,
           "source_segment_id": "seg-a10c0fecc8311bda26cc6f62",
           "source_text_sha256": "aa5b4abc1239b8cafc5adecd1c538bcb657cc545851c196130be3ee6557ba5e7",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "OF (OBJECTS)\n                Quantity: One (01)             If more than one, what is the distance between them? _NIL_\n                (If there is more than one object with different characteristics, for each observation fill in the items\n                below in the \"4 - OBSERVATIONS\" field)\n                Shape:       UNDEFINED        •          Size:         NIL\n                Color:       WHITE     Speed: _SLOW. PRACTICALLY DID NOT MOVE\n                Distance from observer: NIL               Altitude:         NIL\n                Behavior (stationary, moving, zigzag, etc): Small lateral displacement\n                Trajectory (north to south, etc):       NIL\n                Position relative to cardinal points (azimuth): NIL\n                Emitting sound (Y/N): N  Intensity (weak, strong, etc): _NIL\n                Sound type (humming, whistle, etc): N I L\n                Leaving a trail (Y/N): N    Type (condensation, smoke, etc):          NIL\n                Coloring (light, dark, etc): Bright and luminous\n                Parallel phenomena? (thuds, power outage, sudden air movement, electronic equipment interference, etc):       NIL",
-          "translation_text_sha256": "6c69503196ca408e687193036c4d6521db5ca945d29db58be95a2049d6d31902"
+          "status": "needs-review",
+          "text": "OF (THE) OBJECT(S)\n                Quantity: One (01)            If more than one, what is the distance between them? _NIL_\n                (If there is more than one object with different characteristics, for each sighting, fill out the items\n                below in the \"4 - OBSERVATIONS\" field)\n                Shape:       UNDEFINED        ' •          Size:         NIL\n                Color:      WHITE     Speed:    SLOW. PRACTICALLY NOT MOVING\n                Distance from observer: NIL\n                Altitude: NIL\n                Behavior (stationary, moving, zigzag, etc): Small lateral displacement\n                Trajectory: (north to south, etc): NIL\n                Position relative to cardinal points (azimuth): NIL\n                Emitting sound (Y/N): NIL\n                Intensity (weak, strong, etc): NIL\n                Type of sound (humming, whistle, etc): NIL\n                Leaving trail (Y/N): NIL\n                Type (condensation, smoke, etc): NIL\n                Coloration (light, dark, etc): Bright and luminous\n                Parallel phenomena? (Noises, power outage, sudden air movement, interference with electronic equipment, etc):       NIL\n                                                                                              SPAUS           COMDABRA",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
+          "translation_text_sha256": "2723b000069b78de88ba362040b0154acb8107db8e39b49be071015c385375e1"
         },
         {
           "end_ms": null,
@@ -184,6 +216,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "Annual proposal in: ol~/ 05 3) j p\n                                                                                   Donor status: < ^ / 0<> 20 / o .\n                                                                                         3)    IW^VVVliloc^a",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "d988437b20938c6ffce29c9e44d99196eef5589cd898376ba539e0ad8065d8f5"
         }
       ],
@@ -223,6 +268,19 @@
           "start_ms": null,
           "status": "needs-review",
           "text": "3. D (OF) (THE) OBSERVER(S)\n     Quantity: One (01)         Name (of the one who reported the occurrence): Alexandre Pereira Bueno\n     Contact address (Street, Av, No., Apartment): Refused to provide\n     Neighborhood: Parque Dez       City/State: Manaus               /_AM__   ZIP Code:                  -\n     Phone (Area Code): 092-99765991                    FAX: (      )     \"     NIL\n     Age:   NIL years. Profession (main occupation): Tour Guide\n     Education: NIL\n     Has technical knowledge of aviation: NIL\n     Has technical knowledge of meteorology? NIL\n     Has knowledge about UFOs? YES          Self-taught\n     Does he/she belong to any organization dedicated to studying or observing UFOs? (Y/N) No\n     If yes, what is the name (of the organization): NIL\n     (Address): NIL\n     (Area Code), Phone, ZIP Code, etc.: NIL",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "10544d6828d8b96115b9bb2b8e987d4319a9ef87970d3c7933927a802e5b1393"
         },
         {
@@ -238,6 +296,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "4.   OBSERVATIONS\n     (Report what you deem necessary and the completion of field \"2\", if applicable)",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "586ccc4e52a9e7af7aca669a198e0d15932d6ce6356ba55a829f7f736f82ff70"
         },
         {
@@ -262,14 +333,6 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "negation",
-              "severity": "error",
-              "source_count": 4,
-              "source_marker": "não",
-              "status": "mismatch",
-              "translation_equivalent_count": 3
             }
           ],
           "review_status": "needs-review",
@@ -279,8 +342,21 @@
           "source_text_sha256": "2ecba09308f11b53cd48847786c819ca553d8a1d6918ae072b131c36616bbb56",
           "start_ms": null,
           "status": "needs-review",
-          "text": "It was reported that two bright flashes appeared, the second being more intense.\nThey occurred below the clouds with a small and slow lateral movement.\nIt was also stated that the object had no defined shape and seemed to lack solid consistency, appearing rather gelatinous.\nHe added that he had received information, without specifying the source, of a similar incident in Piauí and Portugal.\nHe further claimed that this was not the first time he had witnessed these flashes and that he had previously reported the event.",
-          "translation_text_sha256": "38cdb83e64518858a8a052365f5ccce0eb955c584e684197534b4116bc2aeaa9"
+          "text": "It was reported that two bright flashes appeared, the second one being more intense. They occurred below the clouds with a small and slow lateral movement. He also reported that the object had no defined shape and appeared to have no firm consistency, resembling rather gelatinous. He added that he had information, without naming the source, of a similar incident in Piauí and in Portugal. He also stated that it was not the first time he had seen these flashes and that he had already reported the incident on another occasion.",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
+          "translation_text_sha256": "b977d61f687c158c8bd139574767bb878ee09152899f9dab96916988a4670ebc"
         },
         {
           "end_ms": null,
@@ -295,6 +371,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "5 COMMUNICATION TO A MILITARY ORGANIZATION (M) OF THE AERONAUTICAL ER (AER)",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "cf69f41f77789c58bbb8aa2e8f3eec6da742806ef3ac4fc6af5e8d1d652a6277"
         },
         {
@@ -310,6 +399,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "Communication date: 12/24/07         Time: 1320Z\n     Recipient (Post/Rank/Name):            3S BCT FERRAZ                     OM: CINDACTA I V\n                                                  CTAM - COpM4",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "a94f3496ea9af5423ecc631d162cd0f4d98fc2dd2b389f6aacac2649c2400a3a"
         },
         {
@@ -325,6 +427,19 @@
           "start_ms": null,
           "status": "machine-unreviewed",
           "text": "CONFIDENTIAL",
+          "translation_provenance": {
+            "method": "reused-existing-translation",
+            "prior_translation": {
+              "generated_at": "2026-09-27T04:00:49Z",
+              "method": "local-mlx-lm",
+              "model": "mlx-community/aya-expanse-8b-4bit",
+              "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+              "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+              "review_status": "needs-review",
+              "runtime_version": "0.30.7",
+              "workflow_version": "pt-en-translation-prompt/v2"
+            }
+          },
           "translation_text_sha256": "41f0c9c802bd8c3b29e5e62b4cc4e606bfc943d8109c8005c67f6e438314d09c"
         }
       ],
@@ -336,13 +451,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T18:02:45Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T04:24:58Z",
+    "method": "mixed-existing-and-agent-assisted",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   }
 }

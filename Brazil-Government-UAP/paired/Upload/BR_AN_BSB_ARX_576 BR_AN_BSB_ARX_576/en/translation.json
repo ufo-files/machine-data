@@ -180,27 +180,37 @@
       "segments": [
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-9a49ddd3d013c6c9a1868a8c",
           "qa_findings": [
             {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PM"
+              "added_in_translation": [
+                "21",
+                "35",
+                "60"
               ],
-              "severity": "error",
+              "check": "numbers",
+              "missing_from_translation": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "5",
+                "6"
+              ],
+              "severity": "warning",
               "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-43b60f7a55015a3f18d67330",
           "segment_index": 1,
           "source_segment_id": "seg-43b60f7a55015a3f18d67330",
           "source_text_sha256": "db2f67586a40005c4841fc57fb86b787413c10e9bb8a3aa5969d74bee8cb65ab",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "\"F       l ?\n                                                                                      04 i 3 5 6 0 120                                •\n      ^        _       i i :2 1   UFO   UFO2\"",
-          "translation_text_sha256": "ab16101bea831807397d1604705886d3602d94bf3dd1663bf19cb2838bbe45a1"
+          "status": "needs-review",
+          "text": "F       l ?\n                                                                                      04/i/35/60/120                                •\n      ^        _       i i :21   PM   CÜPM2",
+          "translation_text_sha256": "44773d4dcbc7b6e6c8f695c6dde43eaed92c9720ce35020cb97317e2555bcb25"
         },
         {
           "end_ms": null,
@@ -316,13 +326,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T13:49:53Z",
+    "generated_at": "2026-09-27T03:50:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

@@ -135,26 +135,17 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "documents",
           "page_id": "page-bc3e550e5338f3054c50a087",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "P8220007.JPG"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-0c793e59cc418da34498e8d3",
           "segment_index": 9,
           "source_segment_id": "seg-0c793e59cc418da34498e8d3",
           "source_text_sha256": "07f1b23ddad8c99c1655e750a9c25a1f67196b227b76592fce58462739d708c6",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Documents:  Video_passage_bolide_M20140817_211144__.avi Temoin reconstitution P8220007.JPG Questionnaire terre-R.pdf",
           "translation_text_sha256": "e30bfaec00df3335a3fe630f0fa8a0d148ee45bad592604fca2f61721c52b82e"
         },
@@ -210,6 +201,14 @@
       "source_page_id": "page-bc3e550e5338f3054c50a087"
     }
   ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:40Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "11c1f8e88573e4beeb25991a12851e1a43e348f8384a4c0687062c175ff9c7a6",
+      "segments_recovered": 1
+    }
+  ],
   "schema": "ufo-files-french-translation/v1",
   "segments": [],
   "source_language": "fr-FR",
@@ -220,7 +219,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

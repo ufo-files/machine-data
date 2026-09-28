@@ -177,37 +177,18 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-cc1a47d0fe977ddbde11a642",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "numbers",
-              "missing_from_translation": [
-                "1",
-                "2"
-              ],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "A3-1/2"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-3b28e4f916d8c4a50a290827",
           "segment_index": 11,
           "source_segment_id": "seg-3b28e4f916d8c4a50a290827",
           "source_text_sha256": "8aac8bc71af6a95bbb2ed8fbdaf9dad1a87ef6c9a5a0d7b0a3d65ed424692a7e",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "**UFO**\n\nCONFIDENCIAL | **AL** __HE^Í__",
-          "translation_text_sha256": "13f6b3f22289dd048dff44f628d43368fdec454131d71afc3d55f8908314786c"
+          "status": "machine-unreviewed",
+          "text": "A3-1/2\n                                                                         CONFIDENCIAL |          AL   __hé^í\n                                                                                       \\",
+          "translation_text_sha256": "8885f3b7916b0625b32f988b31f0db77743111c1ee8725f7c8919379df055eb8"
         }
       ],
       "source_page_id": "page-cc1a47d0fe977ddbde11a642"
@@ -390,13 +371,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T14:21:24Z",
+    "generated_at": "2026-09-27T03:50:59Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

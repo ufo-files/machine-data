@@ -14,6 +14,43 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 267,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-08-13T11:34:25Z",
+      "method": "local-mlx-lm",
+      "model": "mlx-community/aya-expanse-8b-4bit",
+      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
+      "review_status": "partial",
+      "runtime_version": "0.30.7",
+      "workflow_version": "pt-en-translation-prompt/v1"
+    },
+    "retranslated_segments": [
+      {
+        "source_sha256": "40abb5391b1751b04ec258e2a5e7cb2efe32b770a494f3007d528504501f74af",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "bd9a1929c349697e04540b13b6498b368602b0978beb1468aaa01f974cbbadfe",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "261f37990417d79219606cbe038e3a12c0c9b0772df9eaa563f11d5ccb25ee6c",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "cb98a8a9ce709d840b333921ca2c36dc04470d9c994730ee07f3413d78ce706d",
+        "status": "machine-unreviewed"
+      },
+      {
+        "source_sha256": "c858c3e4aedeb199ae8c7682d8e438f7683204b7acf3e0b0d650ae1c484786bf",
+        "status": "machine-unreviewed"
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T04:19:38Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
@@ -23,16 +60,16 @@
   "segment_count": 267,
   "source_bytes": 2836773,
   "source_sha256": "0680124f3651f498111f28f30ef355ec278535c2763cf796213af0da89d41a5b",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-13T11:34:25Z",
+    "generated_at": "2026-09-27T04:19:38Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v3"
   },
-  "translation_text_sha256": "8c2cd2b359fc82efa7c3d9e3984a1e4f23073c55cab38d6d0bffab63570501dc"
+  "translation_text_sha256": "f5bfef5e97a8c57fa5cd0222dfd5b1cc5b0efde92b6255f65a121e3d80930101"
 }

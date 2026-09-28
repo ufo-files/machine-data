@@ -183,40 +183,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-3f527e1b141773729cc588e1",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "2011-10-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-9b861defccf7f501b479b37d",
           "segment_index": 12,
           "source_segment_id": "seg-9b861defccf7f501b479b37d",
           "source_text_sha256": "7021e5eaf65df1c9450137c2c8b9f7f1aec3eac659ae0c648872c17ce31ba1a3",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On October 1st, 2011, around 5 PM, four individuals in a garden in Carrières-Sous-Poissy (78) were startled by the sight of an oval object falling rapidly from the sky. Resembling a \"gel capsule,\" the object was horizontal, oscillating and spinning. It was gray in color, appearing metallic. Afraid of being crushed, the witnesses left the garden and fled in a car. They alerted passersby who saw nothing, as the sky was obscured by trees. The witnesses stopped near a stadium a few hundred meters away, looked behind them, but could no longer see anything. Another person, met by the main witness, reported seeing the craft depart in the direction of Triel-Sur Seine (78) heading northwest. Intrigued, the witnesses returned home. Given that the object moved with the wind (as noted in the investigation report), the hypothesis of a lighter-than-air balloon is favored. The tubular shape is known to a few amateurs. The moving, swirling, and wind-driven motion is consistent with this hypothesis. The gray plastic film used for these balloons gives a metallic appearance once inflated and exposed to the sun. The size and distance of the object could not be precisely estimated by the witnesses, who had never seen such an object before. This \"modest\" size (around 3m) also explains why so few witnesses noticed it. The GEIPAN classifies this case as \"B\": probable observation of a tubular thermal balloon.",
           "translation_text_sha256": "1563dafc73b5767729700d926a4da612eb72c28dffd3f1124bfaa7f916cf148d"
         }
       ],
       "source_page_id": "page-3f527e1b141773729cc588e1"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:38Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "b21419f28fe00a6ce36c3e614d6d5f32b0022d78a57edb446d895cb17c26d1e0",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -229,7 +219,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }

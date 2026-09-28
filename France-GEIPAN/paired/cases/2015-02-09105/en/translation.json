@@ -139,15 +139,15 @@
           "field": "documents",
           "page_id": "page-7e94995f6666932a7c370adc",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-aaa37d8b1f3c7502f7f102fe",
           "segment_index": 9,
           "source_segment_id": "seg-aaa37d8b1f3c7502f7f102fe",
           "source_text_sha256": "8330b432df85d5518a0a6fe3ee02fb256b3ba335578bb437d10912a1bb153c56",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Temoin image0039.jpg Questionnaire terre-R.pdf",
-          "translation_text_sha256": "107884ef09b4d2137022d20ff523a7d403ec5e6bc079eb7165924c12b5be3ac7"
+          "status": "not-required",
+          "text": "Documents: Temoin image0039.jpg Questionnaire terre-R.pdf",
+          "translation_text_sha256": "8330b432df85d5518a0a6fe3ee02fb256b3ba335578bb437d10912a1bb153c56"
         },
         {
           "end_ms": null,
@@ -155,13 +155,13 @@
           "field": "testimonies",
           "page_id": "page-7e94995f6666932a7c370adc",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-f4b974359060336e2686a3a8",
           "segment_index": 10,
           "source_segment_id": "seg-f4b974359060336e2686a3a8",
           "source_text_sha256": "e0568e5ad4f303a4c741da987dbdba9adf96c878b25506638853691470e3fb47",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: AUBERVILLIERS (93) 08.02.2015",
           "translation_text_sha256": "784c569fad99058975f1eaa7dd890bf0a9e11f12d5ec9a25b424740979091bee"
         },
@@ -183,14 +183,12 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-7e94995f6666932a7c370adc",
           "qa_findings": [
             {
               "added_in_translation": [
-                "12",
-                "20",
                 "30"
               ],
               "check": "numbers",
@@ -199,23 +197,15 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-ba382f53489ad4b3f64d3b4c",
           "segment_index": 12,
           "source_segment_id": "seg-ba382f53489ad4b3f64d3b4c",
           "source_text_sha256": "6b800c609fba54faee1f4cfb8d0e7b7901e5fc6b32b9643ba01a7ba2018bb98c",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "needs-review",
           "text": "Description: On February 8, 2015, between midnight and 12:20 a.m., a witness briefly spotted through their window a flickering red light moving silently from right to left across their field of view. The object suddenly changed direction and disappeared very quickly. The observation of a red light less than 30 meters away, moving at a constant altitude, in less than a minute on a weekend night, strongly suggests a Thai lantern carried by the wind, possibly released nearby after a private party. The witness described the object's movement as \"from southwest to southeast.\" Upon verification with the witness, however, it appears they were looking towards west-southwest (see photo), and the movement from right to left was actually from north-northwest (N-NO) to south-southeast (S-SE), which is consistent with a north wind recorded at Roissy. The GEIPAN classifies this case as \"B,\" a probable observation of a Thai lantern or possibly a glowing balloon. The weather report for the day of the observation: Meteociel at Roissy.",
           "translation_text_sha256": "0cad14d435f52e1ec26ccf561c93a44216023a8c5058073ebe3a407ef5e1e933"
         }
@@ -228,13 +218,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-10T23:02:24Z",
+    "generated_at": "2026-09-27T01:35:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

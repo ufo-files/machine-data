@@ -137,7 +137,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-13f37c58d7e5a3e15810a889",
           "qa_findings": [
             {
@@ -152,25 +152,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "COMDABRA"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-a5d6aa1f1c21685e709e5b85",
           "segment_index": 7,
           "source_segment_id": "seg-a5d6aa1f1c21685e709e5b85",
           "source_text_sha256": "f17033aa22e51cf953c75a3515e34e487fda1bd07e373083c8b6a2e9fd257bbb",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "FROM (ONE/S) OBSERVER(S)\n\n     Quantity: 01 Name (of the one who reported the occurrence): Humberto Hoffay França Campos\n     Contact address: Rua Togo da Silva Pereira, 710 Apto 104\n     Neighborhood: Centro Sul City/State: Cuiabá/MT Postal Code: 78020-500\n     Phone (Area Code): (065) 3222342 Age: 42 years old. Profession (main occupation): Public Servant\n     Academic Education: Law School\n     Does he have technical knowledge of aviation? No\n     Does he have technical knowledge of meteorology? No\n     Does he have knowledge about UFO phenomena? No\n     Does he belong to any organization dedicated to studying UFOs? No",
-          "translation_text_sha256": "f4d4a425d36d87cfb7c258c91f1cf2d22babf8a6a2038f062b7af2409b5614f5"
+          "status": "needs-review",
+          "text": "OBSERVER(S)\nQuantity: 01 Name (of the one who reported the occurrence): Humberto Hoffay França Campos\nContact address: Rua Togo da Silva Pereira, 710 Apto 104\nNeighborhood: Centro Sul\nCity/State: Cuiabá/MT\nZIP code: 78020-500\nPhone (area code): (065) 3222342\nAge: 42 years old. Profession (main occupation): Public Servant\nAcademic degree: Law\nDoes he have technical knowledge of aviation? No\nDoes he have technical knowledge of meteorology? No\nDoes he have knowledge about UFO phenomena? No\nDoes he belong to any organization dedicated to studying UFO? M3^SPADS COMDABRA",
+          "translation_text_sha256": "b5d6dd581525d364015d8b27562c4fcea9ce8f10252a4fb37c06b5529e7310eb"
         },
         {
           "end_ms": null,
@@ -289,13 +281,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-12T16:26:50Z",
+    "generated_at": "2026-09-27T03:49:37Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v2"
   }
 }

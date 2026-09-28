@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "30fdaa29ef103b82dc1c5c42bacce2e869704ad746703ff50607a6eeb8e486fd",
+  "canonical_text_sha256": "effe8d486734938cc0949e022c44d645837a2aa5ef18a2facf5df16eb5d646e2",
   "document_id": "doc-52a453beb2c269902200a4d6",
   "extraction": {
     "engine": "ocrmypdf+tesseract-por+eng",
@@ -16,6 +16,30 @@
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
   "remaining_manual_review_count": 144,
+  "repair": {
+    "human_reviewed": false,
+    "id": "2026-09-27-targeted-translations",
+    "previous_translation": {
+      "generated_at": "2026-09-27T19:33:17Z",
+      "method": "mixed-source-image-recovery",
+      "model": "mixed; see segment provenance",
+      "model_revision": "source-image-recovery-2026-09-27",
+      "prompt_sha256": "",
+      "review_status": "needs-review",
+      "runtime_version": "codex-assisted",
+      "workflow_version": "source-image-recovery/v1"
+    },
+    "retranslated_segments": [
+      {
+        "human_reviewed": false,
+        "method": "codex-assisted-translation",
+        "source_sha256": "41b3aa42d4189e2b654638352c7f64a443548c536bae03aa96aad015e6fd91e6",
+        "status": "machine-unreviewed",
+        "uncertain_ocr_values_preserved": false
+      }
+    ]
+  },
+  "retranslated_at": "2026-09-27T19:35:48Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -24,17 +48,55 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 144,
   "source_bytes": 23745577,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "sendo que uma delas piscava bastante; não notou o formato e se o aparelho emitia algum som; como estava com o caminhão em movimento não pode observar muito bem o objeto; depois, outro dia, pela manhã, foi informado que outras pessoas que trabalham na pedreira, também tinha visto o mesmo objeto; foi a primeira vez que notou o objeto naquelas imediações. Nada mais disse. Lido e achado conforme, vai assinado. Eu, Antonio Bocal[ILEGÍVEL], Escrivão",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "| Gendo quo uma so Cida bastantas não . Rae,(o) rormetelat\noO aparelho emitia algum pom; cono estava com o cominhão em mo |             rem",
+      "original_text_sha256": "306ad9c67ee9a569a039783b57d91e006ef1e0974119a729aaf7a707c158c6d3",
+      "page": 10,
+      "segment_id": "seg-781fdad22d671b083751405d",
+      "source_page_render_sha256": "76083a2009b3b3539d7dba2439bdcd04d8ed83fc140738d21383237911f2651d",
+      "source_rel": "Upload/CENDOC ENVELOPE 05   1974 CENDOC_ENVELOPE_05_1974.pdf",
+      "translation": "one of them was flashing a great deal; he did not notice the shape or whether the device emitted any sound; as the truck was moving, he could not observe the object very well. Later, on another morning, he was told that other people working at the quarry had also seen the same object. This was the first time he had noticed the object in that vicinity. He said nothing further. Having been read and found correct, this statement is signed. I, Antonio Bocal[ILEGÍVEL], Clerk"
+    },
+    {
+      "corrected_source_text": "",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "“ vimento não pode observar muito vem o objetos. Gopolo,ou | emb po\n “pela nanhã, foi informado que) quiras pessoas que tcatolho. no\n* paereiza, também “tinha visto 4 \\mopmo objotos fei a. primoir. ar a\n - quo notou o objetos naquelas : mediaçõess Nada’ main Gisae.i do!\n“9. achado conforme, vai ari, Eu, Antonio Bocal fo, Escrivão\n                                                                        e",
+      "original_text_sha256": "c231f738d83f361b7c490592fdf451f206bfe7ca454293dd4f37e798f820e3fc",
+      "page": 10,
+      "segment_id": "seg-05018e6fc3fb3d28648bf4e6",
+      "source_page_render_sha256": "76083a2009b3b3539d7dba2439bdcd04d8ed83fc140738d21383237911f2651d",
+      "source_rel": "Upload/CENDOC ENVELOPE 05   1974 CENDOC_ENVELOPE_05_1974.pdf",
+      "translation": ""
+    },
+    {
+      "corrected_source_text": "ferência o telhado de uma casa vizinha. Duração estimada de 3 a 5 minutos.\nDurante suas evoluções o objeto dava impressão de perda de equilíbrio.\nParecia estar muito baixo e, quando parecia cair, ficou abaixo da linha",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "ferenoia o telhado do uma casa vizinha.        Duração estimada de 3 a 5 minutco.\n                    Durante suas evoluçõen o objoto dava improssao do porda de equilisrios,\n               Parooia entar muito baixo e,   quando parecia oair, ficou ebaixo da linh",
+      "original_text_sha256": "c931f1b57c43c07c12b1e88ae06c1ae78054527a7a82267f2f8d1b9662a5e8d4",
+      "page": 16,
+      "segment_id": "seg-caa3f78187ebe8aec06d53f2",
+      "source_page_render_sha256": "d2bb804bc6d6b8f55430b2f49703b4c4640a2ad2bb20583cae7c9737da3b0858",
+      "source_rel": "Upload/CENDOC ENVELOPE 05   1974 CENDOC_ENVELOPE_05_1974.pdf",
+      "translation": "ference the roof of a neighboring house. Estimated duration of 3 to 5 minutes.\nDuring its maneuvers, the object gave the impression of losing balance.\nIt appeared to be very low and, when it seemed to fall, it went below the line"
+    }
+  ],
   "source_sha256": "ab67d2621b279958970d8e671098b7c68f887eacb8846c5fae20eb4c48a8003c",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-08-16T16:43:26Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
-    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "generated_at": "2026-09-27T19:35:48Z",
+    "method": "mixed-verified-recovery",
+    "model": "mixed; see segment translation_provenance",
+    "model_revision": "source-bound-recovery-2026-09-27",
+    "prompt_sha256": "",
+    "review_status": "needs-review",
+    "runtime_version": "mixed",
+    "workflow_version": "source-bound-translation-recovery/v1"
   },
-  "translation_text_sha256": "accb83e457a439fa7d8c932903dfaeb1d3917592730d29c3c3edd39a996ce912"
+  "translation_text_sha256": "576ad57eb7492806086d417d1233eb18bd1d3f1b00635c51e9e48fff1b026240"
 }

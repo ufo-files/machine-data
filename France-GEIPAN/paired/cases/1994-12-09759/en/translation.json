@@ -155,15 +155,15 @@
           "field": "documents",
           "page_id": "page-c3e3dee7a56b413b79cf7e37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-3208c2887bd80a72543b40e7",
           "segment_index": 10,
           "source_segment_id": "seg-3208c2887bd80a72543b40e7",
           "source_text_sha256": "9ec4eae5dc9f3d360960cae11ed24d156edb5f66aa1db0d9ecbe948ee4f1a371",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Notes d'enquete.pdf PV n° 11 (1994312056).pdf",
-          "translation_text_sha256": "b16909d340a2c8accf9fe3fb26e338bec67ff196900c3afd8aef0980ad48cfc8"
+          "status": "not-required",
+          "text": "Documents: Notes d'enquete.pdf PV n°11 (1994312056).pdf",
+          "translation_text_sha256": "9ec4eae5dc9f3d360960cae11ed24d156edb5f66aa1db0d9ecbe948ee4f1a371"
         },
         {
           "end_ms": null,
@@ -171,13 +171,13 @@
           "field": "testimonies",
           "page_id": "page-c3e3dee7a56b413b79cf7e37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-103ccd161bc54e57c73c3431",
           "segment_index": 11,
           "source_segment_id": "seg-103ccd161bc54e57c73c3431",
           "source_text_sha256": "5b38e3254989380bcb66c2381d76e5b9496626ddcdfb1764f038a244d6cbd60f",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: PLERIN (22) 31.12.1994 Ti2 PLERIN (22) 31.12.1994 T1",
           "translation_text_sha256": "807bde7ad6150d822716a9dd272bc24a27eb8a12e1dd18e3af02673e82191db7"
         },
@@ -209,7 +209,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-c3e3dee7a56b413b79cf7e37",
           "qa_findings": [
@@ -218,17 +218,6 @@
               "check": "dates",
               "missing_from_translation": [
                 "1994-12-31"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "07:00"
-              ],
-              "check": "times",
-              "missing_from_translation": [
-                "19:00"
               ],
               "severity": "error",
               "status": "mismatch"
@@ -247,26 +236,17 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN",
-                "PAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-161c01fcd2158fd5856d4317",
           "segment_index": 13,
           "source_segment_id": "seg-161c01fcd2158fd5856d4317",
           "source_text_sha256": "2ec318edb088ababfb0e00cc2c79a6c6ce06a19d985f10815bf6ae63655ed923",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "**Description:** The GEIPAN (French UFO investigation body) continues to publish its entire archive on its public website www.geipan.fr. Among its publications are older cases classified at the time (A, B, C, or D) that are now being reassessed to draw more relevant conclusions. Thanks to new technical tools (software) and investigative experience gained over the years, this reassessment sometimes leads to new observations or a change in classification. The observation case previously classified as D and named PLERIN (22) on 29.12.1994 is part of a recent batch of cases reassessed. This case consisted of multiple observations made between December 28 and 31, 1994, in the evening or early morning in Côtes-d'Armor: Four witnesses (T1, T2, T3, T4) reported their observations to the gendarmerie, all documented in the same police report. The attached investigation note details all observations and phenomena reported. The observations are inconsistent, with imprecise descriptions. Reassessment distinguishes three distinct phenomena:\n\n- **UFO_PROTECTED_001** 1 observed by T1 and T2 on December 29, 1994, between 7:00 and 7:30 PM.\n- **UFO_PROTECTED_001** 2, 3, and 4 seen by T3 on December 29, 30, and 31, and by T4 on December 31, between 6:00 and 6:45 AM.\n- **UFO_PROTECTED_001** 5 observed by T3 and T4 on December 31, and **UFO_PROTECTED_001** 6 by T4 on December 28.\n\n**UFO_PROTECTED_001** 1 exhibits all characteristics of an thunderstorm observation. The lights forming **UFO_PROTECTED_001** are indeed compared to lightning: \"It looked like explosions but miles apart from each other and always one at a time,\" \"There were lightning-like flashes in the sky,\" \"These flashes were flat and very long. I can't tell you the size of these flashes,\" \"It looked like flashes but much bigger,\" \"A new flash appeared,\" \"When I told you I saw flashes, there was only one that seemed to move.\" The hypothesis of a misidentification with a thunderstorm is strengthened by the fact that **UFO_PROTECTED_001** is observed towards the sea. This direction is indeed confirmed by the witnesses: \"I drove for a little while towards the sea,\" \"I saw another bright blue light, immense, in the direction of BINIC, maybe above the sea.\" The presence of a thunderstorm at sea, visible from the coast, is confirmed by a gendarmerie investigation in the early evening of December 29, 1994, consistent with the observation time. Therefore, GEIPAN concludes for **UFO_PROTECTED_001** 1: B, probable observation of a thunderstorm.\n\n**UFO_PROTECTED_001** #2, 3, and 4 have very similar characteristics. They are bright white lights observed at the same times over three consecutive days, for extended periods (over 40 minutes for **UFO_PROTECTED_001** #3 and 4), without movement, and in the same direction from one day to the next. These data are entirely characteristic of an astronomical misidentification. A reconstruction shows the presence of Venus (very bright magnitude -4.24), in a southeastern direction (~130°) and at a height of about ten degrees in the sky. The hypothesis of a misidentification with Venus is strengthened by the fact that **UFO_PROTECTED_001** is observed at a low angular height, through a window (the kitchen window of T3 and T4) oriented southeast. Therefore, GEIPAN concludes for **UFO_PROTECTED_001** #2, 3, and 4: B, probable observation of Venus.\n\nThe descriptions of **UFO_PROTECTED_001** #5 and 6 are too imprecise (short duration, limited information) and inconsistent (inconsistent testimonies) to be used: one could imagine confusions with any lights, such as car headlights, urban lights, or in a context emotionally charged by previous observations. Therefore, GEIPAN concludes for **UFO_PROTECTED_001** #5 and 6: C, lack of reliable information.",
-          "translation_text_sha256": "934b9c7ec84a8be31bdad7ac72f243049e7cf79975dc22cb9aebf2a46db2b2e4"
+          "status": "needs-review",
+          "text": "**Description:** The GEIPAN (French UFO investigation body) continues to publish its entire archive on its public website www.geipan.fr. Among its publications are older cases classified at the time (A, B, C, or D) that are now being reassessed to draw more relevant conclusions. Thanks to new technical tools (software) and investigative experience gained over the years, this reassessment sometimes leads to new observations or a change in classification. The observation case previously classified as D and named PLERIN (22) on 29.12.1994 is part of a recent batch of cases reassessed. This case consisted of multiple observations made between December 28 and 31, 1994, in the evening or early morning in Côtes-d'Armor: Four witnesses (T1, T2, T3, T4) reported their observations to the gendarmerie, all documented in the same police report. The attached investigation note details all observations and phenomena reported. The observations are inconsistent, with imprecise descriptions. Reassessment distinguishes three distinct phenomena:\n\n- **PAN** 1 observed by T1 and T2 on December 29, 1994, between 7:00 and 7:30 PM.\n- **PAN** 2, 3, and 4 seen by T3 on December 29, 30, and 31, and by T4 on December 31, between 6:00 and 6:45 AM.\n- **PAN** 5 observed by T3 and T4 on December 31, and **PAN** 6 by T4 on December 28.\n\n**PAN** 1 exhibits all characteristics of an thunderstorm observation. The lights forming **PAN** are indeed compared to lightning: \"It looked like explosions but miles apart from each other and always one at a time,\" \"There were lightning-like flashes in the sky,\" \"These flashes were flat and very long. I can't tell you the size of these flashes,\" \"It looked like flashes but much bigger,\" \"A new flash appeared,\" \"When I told you I saw flashes, there was only one that seemed to move.\" The hypothesis of a misidentification with a thunderstorm is strengthened by the fact that **PAN** is observed towards the sea. This direction is indeed confirmed by the witnesses: \"I drove for a little while towards the sea,\" \"I saw another bright blue light, immense, in the direction of BINIC, maybe above the sea.\" The presence of a thunderstorm at sea, visible from the coast, is confirmed by a gendarmerie investigation in the early evening of December 29, 1994, consistent with the observation time. Therefore, GEIPAN concludes for **PAN** 1: B, probable observation of a thunderstorm.\n\n**PAN** #2, 3, and 4 have very similar characteristics. They are bright white lights observed at the same times over three consecutive days, for extended periods (over 40 minutes for **PAN** #3 and 4), without movement, and in the same direction from one day to the next. These data are entirely characteristic of an astronomical misidentification. A reconstruction shows the presence of Venus (very bright magnitude -4.24), in a southeastern direction (~130°) and at a height of about ten degrees in the sky. The hypothesis of a misidentification with Venus is strengthened by the fact that **PAN** is observed at a low angular height, through a window (the kitchen window of T3 and T4) oriented southeast. Therefore, GEIPAN concludes for **PAN** #2, 3, and 4: B, probable observation of Venus.\n\nThe descriptions of **PAN** #5 and 6 are too imprecise (short duration, limited information) and inconsistent (inconsistent testimonies) to be used: one could imagine confusions with any lights, such as car headlights, urban lights, or in a context emotionally charged by previous observations. Therefore, GEIPAN concludes for **PAN** #5 and 6: C, lack of reliable information.",
+          "translation_text_sha256": "e767eaa4171418c3f4d878b28db5e25ed3e768b04250cf8251a79940e73f79f5"
         }
       ],
       "source_page_id": "page-c3e3dee7a56b413b79cf7e37"
@@ -277,13 +257,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-26T03:24:37Z",
+    "generated_at": "2026-09-27T01:53:46Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v2"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

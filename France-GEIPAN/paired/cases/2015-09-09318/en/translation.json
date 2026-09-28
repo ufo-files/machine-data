@@ -167,31 +167,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-7d9c8bfdf9d29db3e8d56094",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-772134b462abe3e8c8615ab5",
           "segment_index": 11,
           "source_segment_id": "seg-772134b462abe3e8c8615ab5",
           "source_text_sha256": "6e50c75cff56efc668837f0ed03ee96addc16c5e3c046b9b7b169acab3b312b3",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On September 26, 2015, at 11:59 PM, a witness observed approximately twenty lights in the sky, resembling streetlamps but mobile. Only one testimony was collected. The observation of orange balls crossing the sky in a few minutes, on a weekend night, strongly suggests Thai lanterns, likely released nearby after a private party. The movement was observed from northeast to southeast, which is perfectly consistent with the northeast wind reported in Creil (see the Météociel record). The witnesses initially thought they were Thai lanterns, but did not understand how one of them could move faster. Note that this supposed lantern is the last one, and therefore released after the others, which have not yet reached the same altitude. It is possible that the wind at altitude has a slightly different speed than the wind near the ground; one must also consider the effect of perspective: at equal speed, an object close by appears faster than its more distant counterpart (see diagram). The GEIPAN classifies this case as \"B,\" a probable observation of Thai lanterns.",
           "translation_text_sha256": "112a89ffbbc6a4ab3798ebbf043d010df470a71b630d6bd4ba30445fd95ccad3"
         }
       ],
       "source_page_id": "page-7d9c8bfdf9d29db3e8d56094"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:51Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "f5bf07318ddf96987b5a86be2c747678149dc433cfa8b050ae5c4c75ad2d70ec",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -204,7 +203,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

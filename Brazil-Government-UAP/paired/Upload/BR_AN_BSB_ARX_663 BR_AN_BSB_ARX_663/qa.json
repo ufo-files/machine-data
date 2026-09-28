@@ -2,30 +2,6 @@
   "document_id": "doc-bf7ee5138d47a4a55cae50e0",
   "findings": [
     {
-      "added_in_translation": [
-        "2020-01-02"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-32197b5251a306e5595b3ba6",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "2",
-        "2020"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "0",
-        "0"
-      ],
-      "segment_id": "seg-32197b5251a306e5595b3ba6",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -78,15 +54,6 @@
       "status": "mismatch"
     },
     {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-a10c0fecc8311bda26cc6f62",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -134,13 +101,12 @@
       "status": "mismatch"
     },
     {
-      "check": "negation",
-      "segment_id": "seg-a7278e374b45ef1749d4c63e",
-      "severity": "error",
-      "source_count": 4,
-      "source_marker": "não",
-      "status": "mismatch",
-      "translation_equivalent_count": 3
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-6c3cef26d8eeb2460b4c3cc8",
+      "segment_id": "seg-32197b5251a306e5595b3ba6",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

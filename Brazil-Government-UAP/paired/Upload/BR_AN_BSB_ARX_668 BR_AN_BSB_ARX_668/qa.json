@@ -2,38 +2,6 @@
   "document_id": "doc-866fed29c736e286c2773e4a",
   "findings": [
     {
-      "check": "protected-tokens",
-      "missing_from_translation": [
-        "COMDABRA"
-      ],
-      "segment_id": "seg-c48ca99e74cdd870174812af",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "2009-04-18"
-      ],
-      "check": "dates",
-      "missing_from_translation": [],
-      "segment_id": "seg-210458b59e5f78749be74eb8",
-      "severity": "error",
-      "status": "mismatch"
-    },
-    {
-      "added_in_translation": [
-        "1345",
-        "2009"
-      ],
-      "check": "numbers",
-      "missing_from_translation": [
-        "20091"
-      ],
-      "segment_id": "seg-210458b59e5f78749be74eb8",
-      "severity": "warning",
-      "status": "mismatch"
-    },
-    {
       "added_in_translation": [],
       "check": "names",
       "missing_from_translation": [
@@ -136,6 +104,14 @@
       "segment_id": "seg-32813dd1b3412625dd70c2a7",
       "severity": "warning",
       "status": "mismatch"
+    },
+    {
+      "check": "source-ocr-uncertainty",
+      "detail": "Uncertain OCR values preserved verbatim; no dates, measurements or names inferred",
+      "page_id": "page-eda40ab8597c413257f1f01a",
+      "segment_id": "seg-210458b59e5f78749be74eb8",
+      "severity": "warning",
+      "status": "needs-review"
     }
   ],
   "page_count_match": true,

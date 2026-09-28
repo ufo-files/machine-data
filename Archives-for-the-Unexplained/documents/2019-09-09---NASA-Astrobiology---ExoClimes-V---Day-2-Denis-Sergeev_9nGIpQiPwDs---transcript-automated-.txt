@@ -1,0 +1,1427 @@
+{"created_utc": "2026-09-27T09:46:38Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 121786, "source_ctime_ns": 1790257535456118066, "source_file": "Archives-for-the-Unexplained/documents/2019-09-09---NASA-Astrobiology---ExoClimes-V---Day-2-Denis-Sergeev_9nGIpQiPwDs---transcript-automated-.pdf", "source_mtime_ns": 1790257534951675327, "source_rel": "Archives-for-the-Unexplained/documents/2019-09-09---NASA-Astrobiology---ExoClimes-V---Day-2-Denis-Sergeev_9nGIpQiPwDs---transcript-automated-.pdf", "source_sha256": "c244eb6dc17284d7df60939e7767c9b565055682cfb0d98823f2fd177b435858"}
+
+1
+00:00:09,699 --> 00:00:06,660
+[Music]
+
+2
+00:00:11,650 --> 00:00:09,709
+laura1 thank you for giving me the
+
+3
+00:00:15,160 --> 00:00:11,660
+opportunity to present at this great
+
+4
+00:00:19,359 --> 00:00:15,170
+conference so I work on the simulations
+
+5
+00:00:21,910 --> 00:00:19,369
+of moist convection on rocky travelogue
+
+6
+00:00:25,179 --> 00:00:21,920
+planets and this is work I've been doing
+
+7
+00:00:28,359 --> 00:00:25,189
+with Google on roads and next man at the
+
+8
+00:00:31,359 --> 00:00:28,369
+University and also in vertol at the UK
+
+9
+00:00:34,900 --> 00:00:31,369
+Met Office so today I'm gonna remind you
+
+10
+00:00:37,540 --> 00:00:34,910
+what the circulation looks like on a
+
+11
+00:00:42,069 --> 00:00:37,550
+title locked rocky exoplanets I'm going
+
+12
+00:00:44,260 --> 00:00:42,079
+to show you some what how important the
+
+13
+00:00:48,369 --> 00:00:44,270
+dayside convection is for the global
+
+14
+00:00:50,310 --> 00:00:48,379
+climate of these planets I'll talk
+
+15
+00:00:52,990 --> 00:00:50,320
+briefly about some challenges in
+
+16
+00:00:55,389 --> 00:00:53,000
+modeling convection in terrestrial
+
+17
+00:00:58,420 --> 00:00:55,399
+atmospheres and also show you some
+
+18
+00:01:00,810 --> 00:00:58,430
+exciting results of convection resolving
+
+19
+00:01:04,180 --> 00:01:00,820
+experience
+
+20
+00:01:07,440 --> 00:01:04,190
+so what planets
+
+21
+00:01:12,550 --> 00:01:07,450
+I've been looking so far these are
+
+22
+00:01:17,380 --> 00:01:12,560
+well-known terrestrial exoplanets namely
+
+23
+00:01:21,520 --> 00:01:17,390
+Trappist 1e and chakras 1f but also
+
+24
+00:01:27,120 --> 00:01:21,530
+Proxima Centauri and as you can see from
+
+25
+00:01:28,949 --> 00:01:27,130
+this table in terms of their orbital and
+26
+00:01:31,960 --> 00:01:28,959
+[Music]
+
+27
+00:01:36,850 --> 00:01:31,970
+size characteristics they're fairly
+
+28
+00:01:40,479 --> 00:01:36,860
+close to each other but they do vary in
+
+29
+00:01:42,639 --> 00:01:40,489
+terms of their rotation period and of
+
+30
+00:01:48,130 --> 00:01:42,649
+course sharvani receives more radiation
+
+31
+00:01:53,589 --> 00:01:48,140
+than epsilon F while Proxima B is quite
+
+32
+00:01:56,770 --> 00:01:53,599
+close in this regard and so for this
+
+33
+00:01:58,540 --> 00:01:56,780
+simulations I just assume for now and
+
+34
+00:02:02,080 --> 00:01:58,550
+that's like atmosphere which is nitrogen
+
+35
+00:02:05,290 --> 00:02:02,090
+dominated with water as main condensable
+
+36
+00:02:09,010 --> 00:02:05,300
+species and I ran this as an a-cup liner
+
+37
+00:02:13,690 --> 00:02:09,020
+simulation with a slab ocean at the
+
+38
+00:02:18,250 --> 00:02:13,700
+bottom so imagine this rocky exoplanets
+
+39
+00:02:21,830 --> 00:02:18,260
+orbiting an M dwarf we can imagine the
+
+40
+00:02:25,280 --> 00:02:21,840
+represent the circulation on such a
+
+41
+00:02:27,140 --> 00:02:25,290
+planet using a static so this is a
+
+42
+00:02:33,140 --> 00:02:27,150
+vertical cross section along the equator
+
+43
+00:02:38,059 --> 00:02:33,150
+on this planet and you have the solar
+
+44
+00:02:40,759 --> 00:02:38,069
+radiation coming from its host star to
+
+45
+00:02:44,360 --> 00:02:40,769
+the day side of the planet and then the
+
+46
+00:02:46,190 --> 00:02:44,370
+cloud loses heat in a form of long wave
+
+47
+00:02:49,400 --> 00:02:46,200
+radiation from both from day side and
+
+48
+00:02:51,050 --> 00:02:49,410
+night side and the strong heating at the
+
+49
+00:02:54,259 --> 00:02:51,060
+day side and the heating of the surface
+
+50
+00:02:59,470 --> 00:02:54,269
+of the planet makes the atmosphere
+51
+00:03:01,940 --> 00:02:59,480
+conductive the unstable and this gives
+
+52
+00:03:04,520 --> 00:03:01,950
+this leads to the rising connection
+
+53
+00:03:08,390 --> 00:03:04,530
+motions the day side and the formation
+
+54
+00:03:12,979 --> 00:03:08,400
+of thick layer of clouds and this heat
+
+55
+00:03:16,640 --> 00:03:12,989
+and moisture on sport eventually merges
+
+56
+00:03:21,259 --> 00:03:16,650
+with the upper atmosphere equatorial jet
+
+57
+00:03:23,180 --> 00:03:21,269
+and it's being transported to the night
+
+58
+00:03:26,210 --> 00:03:23,190
+side of the planet and the in the
+
+59
+00:03:28,520 --> 00:03:26,220
+absence of the dynamical auction this
+
+60
+00:03:32,030 --> 00:03:28,530
+heat this Atma started heat transport is
+
+61
+00:03:36,470 --> 00:03:32,040
+was the only source of energy for the
+
+62
+00:03:40,910 --> 00:03:36,480
+night side and this is indeed what we
+
+63
+00:03:43,729 --> 00:03:40,920
+see from a GCM output so this is a UK
+
+64
+00:03:48,740 --> 00:03:43,739
+Met Office unified model output for
+
+65
+00:03:52,300 --> 00:03:48,750
+Travis Ronnie you have the strong you
+
+66
+00:03:55,339 --> 00:03:52,310
+have very one atmosphere at the surface
+
+67
+00:03:56,809 --> 00:03:55,349
+on this in the on the day side of the
+
+68
+00:03:59,089 --> 00:03:56,819
+planet
+
+69
+00:04:02,780 --> 00:03:59,099
+that's zoom in where all the interesting
+
+70
+00:04:05,979 --> 00:04:02,790
+stuff is happening then if you plot the
+
+71
+00:04:11,240 --> 00:04:05,989
+wind vectors over its you you see the
+
+72
+00:04:15,670 --> 00:04:11,250
+raising oceans and then the eastward jet
+
+73
+00:04:20,199 --> 00:04:15,680
+and when we if you overlay that with the
+
+74
+00:04:22,820 --> 00:04:20,209
+specific humidity contours you see how
+
+75
+00:04:24,680 --> 00:04:22,830
+its concentrated on the day side where
+76
+00:04:27,380 --> 00:04:24,690
+they all the vibration is happening and
+
+77
+00:04:31,190 --> 00:04:27,390
+then if you rescale it to a photogenic
+
+78
+00:04:31,890 --> 00:04:31,200
+scale you see that it eventually being
+
+79
+00:04:36,800 --> 00:04:31,900
+transported to
+
+80
+00:04:40,640 --> 00:04:36,810
+the night side as well as well as clouds
+
+81
+00:04:43,499 --> 00:04:40,650
+so for a situation like that you can
+
+82
+00:04:45,390 --> 00:04:43,509
+both size that convection should
+
+83
+00:04:49,499 --> 00:04:45,400
+regulate the climate on the title locked
+
+84
+00:04:54,210 --> 00:04:49,509
+planet and how can you attest this so we
+
+85
+00:04:59,779 --> 00:04:54,220
+can run again this 3d GCM with different
+
+86
+00:05:03,420 --> 00:04:59,789
+options for convection and so we can use
+
+87
+00:05:05,159 --> 00:05:03,430
+sophisticated mass flux convection
+
+88
+00:05:08,879 --> 00:05:05,169
+scheme which is used for weather in
+
+89
+00:05:10,050 --> 00:05:08,889
+climate prediction on earth and I'm
+
+90
+00:05:12,060 --> 00:05:10,060
+going to show I'm gonna call this
+
+91
+00:05:16,710 --> 00:05:12,070
+experiments control and then we can use
+
+92
+00:05:19,520 --> 00:05:16,720
+a simple moist adjustment scheme which
+
+93
+00:05:22,890 --> 00:05:19,530
+I'm gonna call LCS for Lambert and Lewis
+
+94
+00:05:24,420 --> 00:05:22,900
+connection scheme and then I can also
+
+95
+00:05:26,939 --> 00:05:24,430
+switch off the convection scheme
+
+96
+00:05:32,460 --> 00:05:26,949
+completely and then the let the model
+
+97
+00:05:34,370 --> 00:05:32,470
+handle the convection itself without any
+
+98
+00:05:36,480 --> 00:05:34,380
+help from the planet ization
+
+99
+00:05:40,050 --> 00:05:36,490
+so in the next few slides I'm going to
+
+100
+00:05:43,320 --> 00:05:40,060
+show you the view global maps of surface
+101
+00:05:46,290 --> 00:05:43,330
+temperature for control simulation and
+
+102
+00:05:52,100 --> 00:05:46,300
+also since TV runs both the Trappist 1e
+
+103
+00:05:58,290 --> 00:05:52,110
+and Proxima B so starting with Trappist
+
+104
+00:06:01,350 --> 00:05:58,300
+this is the global map of C search
+
+105
+00:06:03,810 --> 00:06:01,360
+temperature just surface temperature and
+
+106
+00:06:07,260 --> 00:06:03,820
+you see that's the of course the dayside
+
+107
+00:06:10,560 --> 00:06:07,270
+is much much warmer than the night side
+
+108
+00:06:13,110 --> 00:06:10,570
+and the difference is quite large and
+
+109
+00:06:16,409 --> 00:06:13,120
+have this called traps on the night side
+
+110
+00:06:20,310 --> 00:06:16,419
+where the Crosby dryers occur in the
+
+111
+00:06:22,770 --> 00:06:20,320
+wind field for approximately in this
+
+112
+00:06:25,830 --> 00:06:22,780
+conditions the situation is fairly
+
+113
+00:06:28,890 --> 00:06:25,840
+similar and then when we run this
+
+114
+00:06:31,879 --> 00:06:28,900
+simulation with a simple adjustment
+
+115
+00:06:35,159 --> 00:06:31,889
+scheme instead of the mass flux scheme
+
+116
+00:06:37,890 --> 00:06:35,169
+you see that it has quite a significant
+
+117
+00:06:41,750 --> 00:06:37,900
+impact on the surface temperature of the
+
+118
+00:06:45,510 --> 00:06:41,760
+planet so the night side especially
+
+119
+00:06:50,939 --> 00:06:45,520
+warmed significantly by up to 40 degrees
+
+120
+00:06:53,999 --> 00:06:50,949
+or the chocolate one case however then
+
+121
+00:06:57,839 --> 00:06:54,009
+we can also run a similar sort of
+
+122
+00:07:00,960 --> 00:06:57,849
+simulation but now switching off the
+
+123
+00:07:04,170 --> 00:07:00,970
+convention scheme completely and this is
+
+124
+00:07:07,080 --> 00:07:04,180
+the simulation result for epsilon team
+
+125
+00:07:09,689 --> 00:07:07,090
+and it's a fairly similar picture you
+126
+00:07:11,999 --> 00:07:09,699
+have the slight cooling of the dayside
+
+127
+00:07:15,390 --> 00:07:12,009
+and warming on the night side however
+
+128
+00:07:18,960 --> 00:07:15,400
+for approximate be the situation is
+
+129
+00:07:22,320 --> 00:07:18,970
+almost reversed and you have the night
+
+130
+00:07:24,689 --> 00:07:22,330
+side cooling quite significantly so for
+
+131
+00:07:28,710 --> 00:07:24,699
+for this too quite similar cases you
+
+132
+00:07:31,110 --> 00:07:28,720
+have opposite effects by just swapping a
+
+133
+00:07:35,100 --> 00:07:31,120
+convection scheme to a simple one or
+
+134
+00:07:38,370 --> 00:07:35,110
+switching off completely and this is so
+
+135
+00:07:40,020 --> 00:07:38,380
+this is interesting and I'm still trying
+
+136
+00:07:43,980 --> 00:07:40,030
+to wrap my head around while it happens
+
+137
+00:07:49,020 --> 00:07:43,990
+but looking at the large-scale
+
+138
+00:07:54,209 --> 00:07:49,030
+circulation so you see that so this is a
+
+139
+00:07:57,060 --> 00:07:54,219
+horizontal wind speed shown by vectors
+
+140
+00:08:06,990 --> 00:07:57,070
+and the magnitude of the wind is shown
+
+141
+00:08:07,900 --> 00:08:07,000
+by colors and this is what so this is
+
+142
+00:08:28,450 --> 00:08:07,910
+the
+
+143
+00:08:31,030 --> 00:08:28,460
+approximately simulation doesn't change
+
+144
+00:08:35,370 --> 00:08:31,040
+much and the magnitude of the wind stays
+
+145
+00:08:37,659 --> 00:08:35,380
+fairly similar but for Travis Lonnie the
+
+146
+00:08:40,290 --> 00:08:37,669
+large-scale circulation changes quite
+
+147
+00:08:43,990 --> 00:08:40,300
+dramatically and you don't have this
+
+148
+00:08:45,780 --> 00:08:44,000
+branches around the subsoil point and
+
+149
+00:08:51,580 --> 00:08:45,790
+instead you have a very strong
+
+150
+00:08:54,910 --> 00:08:51,590
+equatorial jet and the you can expect
+151
+00:08:57,160 --> 00:08:54,920
+that because the wind increased wind
+
+152
+00:09:01,300 --> 00:08:57,170
+speed increased at the Eastern
+
+153
+00:09:05,380 --> 00:09:01,310
+Terminator and decreased at the Western
+
+154
+00:09:10,240 --> 00:09:05,390
+Terminator the net moisture export from
+
+155
+00:09:14,410 --> 00:09:10,250
+the dayside is larger so that this is is
+
+156
+00:09:17,940 --> 00:09:14,420
+likely the the biggest G visitor to the
+
+157
+00:09:20,800 --> 00:09:17,950
+change in the Nightside conditions while
+
+158
+00:09:23,050 --> 00:09:20,810
+radiation and turbulence fluxes from the
+
+159
+00:09:27,880 --> 00:09:23,060
+night side up probably cancel each other
+
+160
+00:09:30,600 --> 00:09:27,890
+out and play a minor role so yeah so the
+
+161
+00:09:33,610 --> 00:09:30,610
+sort of take-home message one is that
+
+162
+00:09:35,470 --> 00:09:33,620
+convection in GCMs regulates the climate
+
+163
+00:09:38,280 --> 00:09:35,480
+not only on the day site where all the
+
+164
+00:09:40,950 --> 00:09:38,290
+connection is happening but perhaps
+
+165
+00:09:46,930 --> 00:09:40,960
+contrary counter-intuitively
+
+166
+00:09:48,820 --> 00:09:46,940
+on the night side and also the second a
+
+167
+00:09:50,320 --> 00:09:48,830
+take-home message is that using a simple
+
+168
+00:09:53,680 --> 00:09:50,330
+connection scheme can have different
+
+169
+00:09:57,490 --> 00:09:53,690
+effects for different planets
+
+170
+00:10:00,390 --> 00:09:57,500
+so why modeling convection has such a
+
+171
+00:10:04,140 --> 00:10:00,400
+big impact well because as we heard from
+
+172
+00:10:06,070 --> 00:10:04,150
+Allison this morning
+
+173
+00:10:08,920 --> 00:10:06,080
+modeling convection is quite challenging
+
+174
+00:10:11,230 --> 00:10:08,930
+it has a lot of feedbacks and also
+
+175
+00:10:14,020 --> 00:10:11,240
+involves a wide spectrum of spatial and
+176
+00:10:16,329 --> 00:10:14,030
+temporal scales and so it is
+
+177
+00:10:19,450 --> 00:10:16,339
+computationally expensive to run global
+
+178
+00:10:21,290 --> 00:10:19,460
+circulation models at convection
+
+179
+00:10:23,300 --> 00:10:21,300
+resolving simulation
+
+180
+00:10:25,490 --> 00:10:23,310
+lucien especially when they are coupled
+
+181
+00:10:29,690 --> 00:10:25,500
+to radiation and chemistry and other
+
+182
+00:10:31,340 --> 00:10:29,700
+stuff so what we do we run this GCM
+
+183
+00:10:33,620 --> 00:10:31,350
+that's very coarse resolution instead
+
+184
+00:10:38,000 --> 00:10:33,630
+and so the all the convective processes
+
+185
+00:10:40,160 --> 00:10:38,010
+fall into sub grade scale size and we we
+
+186
+00:10:44,060 --> 00:10:40,170
+have to use para positions to account
+
+187
+00:10:46,250 --> 00:10:44,070
+for the net effect of them but
+
+188
+00:10:48,889 --> 00:10:46,260
+unfortunately we don't have any in situ
+
+189
+00:10:50,180 --> 00:10:48,899
+measurements on exoplanets at least not
+
+190
+00:10:54,380 --> 00:10:50,190
+yet
+
+191
+00:10:56,569 --> 00:10:54,390
+and so we have to our next best option
+
+192
+00:10:59,090 --> 00:10:56,579
+to test this parent is Asians is to run
+
+193
+00:11:01,280 --> 00:10:59,100
+a convection resolving model the very
+
+194
+00:11:04,310 --> 00:11:01,290
+high resolution which does not need a
+
+195
+00:11:05,660 --> 00:11:04,320
+parameterization to handle convection so
+
+196
+00:11:10,970 --> 00:11:05,670
+this is what we can do with the unified
+
+197
+00:11:14,329 --> 00:11:10,980
+model and we use a global model just as
+
+198
+00:11:19,190 --> 00:11:14,339
+I showed before as a as a parent model
+
+199
+00:11:22,400 --> 00:11:19,200
+to to supply boundary conditions but
+
+200
+00:11:26,720 --> 00:11:22,410
+then we put a nested grid inside of the
+201
+00:11:29,240 --> 00:11:26,730
+of that model and run this model at much
+
+202
+00:11:30,680 --> 00:11:29,250
+higher resolution so I'm using a sort of
+
+203
+00:11:34,610 --> 00:11:30,690
+convection permitting resolution of
+
+204
+00:11:39,560 --> 00:11:34,620
+about 4 kilometers and in this case of
+
+205
+00:11:41,060 --> 00:11:39,570
+course we have convection explicit so
+
+206
+00:11:47,240 --> 00:11:41,070
+the convection organization is switched
+
+207
+00:11:50,569 --> 00:11:47,250
+off so and when we look at the the
+
+208
+00:11:53,840 --> 00:11:50,579
+outputs of of the simulations so this is
+
+209
+00:11:55,670 --> 00:11:53,850
+so far just the global model again at
+
+210
+00:11:59,180 --> 00:11:55,680
+the course resolution with convective
+
+211
+00:12:02,139 --> 00:11:59,190
+compensation and this is just a chunk
+
+212
+00:12:05,900 --> 00:12:02,149
+cut out of the of the global model
+
+213
+00:12:08,930 --> 00:12:05,910
+around this nested region and you see
+
+214
+00:12:12,980 --> 00:12:08,940
+that in terms of updrafts the the the
+
+215
+00:12:18,860 --> 00:12:12,990
+rising motions the upward velocity field
+
+216
+00:12:21,410 --> 00:12:18,870
+is quite washed out and and weak but
+
+217
+00:12:24,590 --> 00:12:21,420
+when we run this model at high
+
+218
+00:12:26,480 --> 00:12:24,600
+resolution you can start to see all the
+
+219
+00:12:30,260 --> 00:12:26,490
+convection cells in individual
+
+220
+00:12:31,790 --> 00:12:30,270
+convective cells being resolved and also
+
+221
+00:12:34,639 --> 00:12:31,800
+some mesoscale circulations
+
+222
+00:12:36,710 --> 00:12:34,649
+emerging on this planet
+
+223
+00:12:40,160 --> 00:12:36,720
+and also the magnitude of updrafts and
+
+224
+00:12:43,129 --> 00:12:40,170
+downdrafts is much greater than in the
+
+225
+00:12:45,859 --> 00:12:43,139
+global model and this is what it looks
+226
+00:12:50,299 --> 00:12:45,869
+like in terms of cloud fields so this is
+
+227
+00:12:54,559 --> 00:12:50,309
+the reflected shortwave radiation and
+
+228
+00:12:56,869 --> 00:12:54,569
+you see again that the convection
+
+229
+00:13:01,280 --> 00:12:56,879
+resolving simulation gives you much more
+
+230
+00:13:05,780 --> 00:13:01,290
+detail and much more in homogeneity in
+
+231
+00:13:08,299 --> 00:13:05,790
+terms of cloud field and this is what
+
+232
+00:13:11,780 --> 00:13:08,309
+the participation looks like so relation
+
+233
+00:13:16,009 --> 00:13:11,790
+falling from this convective clouds okay
+
+234
+00:13:17,769 --> 00:13:16,019
+but does it make a difference for for
+
+235
+00:13:20,179 --> 00:13:17,779
+the mean state of the region and
+
+236
+00:13:22,730 --> 00:13:20,189
+actually I should say that the global
+
+237
+00:13:25,460 --> 00:13:22,740
+model with this mass flux parent
+
+238
+00:13:28,129 --> 00:13:25,470
+connective translation is doing a pretty
+
+239
+00:13:31,910 --> 00:13:28,139
+good job at least for earth-like
+
+240
+00:13:34,900 --> 00:13:31,920
+atmosphere in in accounting for all the
+
+241
+00:13:38,840 --> 00:13:34,910
+great convection and so in terms of
+
+242
+00:13:41,389 --> 00:13:38,850
+temperature or specific humidity overall
+
+243
+00:13:43,759 --> 00:13:41,399
+the curves are quite similar to each
+
+244
+00:13:45,919 --> 00:13:43,769
+other from so the liquors from the
+
+245
+00:13:48,619 --> 00:13:45,929
+global model and the regional model and
+
+246
+00:13:51,650 --> 00:13:48,629
+the Wiccans difference is actually in
+
+247
+00:13:55,400 --> 00:13:51,660
+the structure of the clouds on the day
+
+248
+00:13:58,460 --> 00:13:55,410
+side and you can you can see this in
+
+249
+00:14:00,710 --> 00:13:58,470
+terms of cloud condensate so this is
+
+250
+00:14:03,519 --> 00:14:00,720
+average vertical profiles of cloud water
+251
+00:14:05,989 --> 00:14:03,529
+on the left and called ice on the right
+
+252
+00:14:09,699 --> 00:14:05,999
+so this is from the global model and
+
+253
+00:14:12,530 --> 00:14:09,709
+this is the the orange curve is from the
+
+254
+00:14:14,119 --> 00:14:12,540
+nested run simulation and you can see
+
+255
+00:14:17,269 --> 00:14:14,129
+that the global model overestimates the
+
+256
+00:14:20,929 --> 00:14:17,279
+cold water and underestimates cloud ice
+
+257
+00:14:25,039 --> 00:14:20,939
+this can have an impact on the radiative
+
+258
+00:14:27,590 --> 00:14:25,049
+forcing of clouds and also it can impact
+
+259
+00:14:32,600 --> 00:14:27,600
+the formation of rain and/or snow
+
+260
+00:14:34,539 --> 00:14:32,610
+precipitation but so the another
+
+261
+00:14:37,189 --> 00:14:34,549
+take-home messages are compared to a
+
+262
+00:14:39,079 --> 00:14:37,199
+convection resolving model cm may
+
+263
+00:14:41,090 --> 00:14:39,089
+incorrectly represent cloud structure
+
+264
+00:14:43,480 --> 00:14:41,100
+and they are radiative effects on the
+
+265
+00:14:47,199 --> 00:14:43,490
+day side
+
+266
+00:14:50,380 --> 00:14:47,209
+but I should say that one caveat of our
+
+267
+00:14:53,050 --> 00:14:50,390
+study is that we use this model you know
+
+268
+00:14:55,570 --> 00:14:53,060
+one-way nesting set up so even though
+
+269
+00:14:57,759 --> 00:14:55,580
+the the regional model has the boundary
+
+270
+00:14:59,860 --> 00:14:57,769
+conditions from the parent model it
+
+271
+00:15:02,050 --> 00:14:59,870
+doesn't there's no feedback to the
+
+272
+00:15:05,440 --> 00:15:02,060
+global model from these hires of
+
+273
+00:15:10,509 --> 00:15:05,450
+simulations so one way to account for
+
+274
+00:15:13,120 --> 00:15:10,519
+this impact is what I'm suggesting to do
+
+275
+00:15:15,340 --> 00:15:13,130
+is basically what I'm doing now is to
+276
+00:15:17,350 --> 00:15:15,350
+run a series of global experiments with
+
+277
+00:15:21,699 --> 00:15:17,360
+different convection schemes then
+
+278
+00:15:27,460 --> 00:15:21,709
+calculates the flux of moisture upward
+
+279
+00:15:31,690 --> 00:15:27,470
+flux on the dayside as a metric for
+
+280
+00:15:33,310 --> 00:15:31,700
+convection and then somehow find a
+
+281
+00:15:34,810 --> 00:15:33,320
+correlation with some Nightside
+
+282
+00:15:37,870 --> 00:15:34,820
+parameters such as the minimum
+
+283
+00:15:41,590 --> 00:15:37,880
+temperature or the amount of moisture on
+
+284
+00:15:43,509 --> 00:15:41,600
+the night side and if we find a good
+
+285
+00:15:47,470 --> 00:15:43,519
+correlation between these parameters
+
+286
+00:15:50,410 --> 00:15:47,480
+then we can run a nested simulation find
+
+287
+00:15:55,240 --> 00:15:50,420
+the same integrated vertical flux of
+
+288
+00:15:57,579 --> 00:15:55,250
+moisture and then infer from that what
+
+289
+00:15:59,460 --> 00:15:57,589
+difference would it make for the night
+
+290
+00:16:01,990 --> 00:15:59,470
+sight if we run the simulation as a
+
+291
+00:16:07,120 --> 00:16:02,000
+convection resolving model for the for
+
+292
+00:16:09,069 --> 00:16:07,130
+the whole planet and with this is my
+
+293
+00:16:11,110 --> 00:16:09,079
+final take-home message so these
+
+294
+00:16:13,860 --> 00:16:11,120
+simulations at high resolution relations
+
+295
+00:16:16,569 --> 00:16:13,870
+might be used to assess the convection
+
+296
+00:16:19,750 --> 00:16:16,579
+schemes and they impact on the Erika
+
+297
+00:16:23,160 --> 00:16:19,760
+planet's climate and this is the summary
+
+298
+00:16:39,169 --> 00:16:23,170
+of the messages and this I'll leave you
+
+299
+00:16:44,509 --> 00:16:41,599
+hey Daniel from MIT and this is very
+
+300
+00:16:45,829 --> 00:16:44,519
+exciting do you have a way for
+301
+00:16:48,439 --> 00:16:45,839
+understanding the different schemes
+
+302
+00:16:50,269 --> 00:16:48,449
+maybe in terms of a convective
+
+303
+00:16:52,639 --> 00:16:50,279
+detainment or n treatment have you
+
+304
+00:16:57,819 --> 00:16:52,649
+thought about that yes I am thinking
+
+305
+00:17:00,619 --> 00:16:57,829
+about that and one of my next step is to
+
+306
+00:17:03,019 --> 00:17:00,629
+run a series of sensitivity experience
+
+307
+00:17:04,699 --> 00:17:03,029
+for the mass flux scheme and just change
+
+308
+00:17:07,460 --> 00:17:04,709
+entrainment and D training parameters
+
+309
+00:17:09,620 --> 00:17:07,470
+because for earth-like simulations for
+
+310
+00:17:11,829 --> 00:17:09,630
+simulations of Earth convection it has
+
+311
+00:17:15,590 --> 00:17:11,839
+been shown that this this is indeed
+
+312
+00:17:19,069 --> 00:17:15,600
+probably the most important parameter in
+
+313
+00:17:20,980 --> 00:17:19,079
+in the convection formulations but we
+
+314
+00:17:23,299 --> 00:17:20,990
+also have a sort of first it's
+
+315
+00:17:29,110 --> 00:17:23,309
+statistical framework in the making by
+
+316
+00:17:32,779 --> 00:17:31,250
+differences between diffe completely
+
+317
+00:17:35,690 --> 00:17:32,789
+different convection schemes so we can
+
+318
+00:17:43,549 --> 00:17:35,700
+probably apply that to yeah thank you
+
+319
+00:17:45,350 --> 00:17:43,559
+a nice talk tag to my sake Chicago so
+
+320
+00:17:46,490 --> 00:17:45,360
+how do you choose the scale for your
+
+321
+00:17:48,169 --> 00:17:46,500
+nested box
+
+322
+00:17:49,850 --> 00:17:48,179
+have you tried like different box sizes
+
+323
+00:17:51,200 --> 00:17:49,860
+does that affect the connection on the
+
+324
+00:17:55,310 --> 00:17:51,210
+day side yeah that's that's a good
+
+325
+00:17:56,990 --> 00:17:55,320
+question and I've been I spend like many
+326
+00:17:59,120 --> 00:17:57,000
+months of simulations of trying to shift
+
+327
+00:18:04,789 --> 00:17:59,130
+that box around and see what difference
+
+328
+00:18:08,090 --> 00:18:04,799
+it makes and basically well first of all
+
+329
+00:18:11,810 --> 00:18:08,100
+you have to probably choose the position
+
+330
+00:18:17,419 --> 00:18:11,820
+correctly because on some planets the
+
+331
+00:18:19,730 --> 00:18:17,429
+the most the hot spot is shifted a bit
+
+332
+00:18:22,190 --> 00:18:19,740
+to the air to East and this happens on
+
+333
+00:18:26,690 --> 00:18:22,200
+terrestrial plants as well so you can
+
+334
+00:18:30,080 --> 00:18:26,700
+you should account for that and also of
+
+335
+00:18:35,000 --> 00:18:30,090
+course this smaller box is in the
+
+336
+00:18:38,480 --> 00:18:35,010
+simulation the more this regional model
+
+337
+00:18:39,710 --> 00:18:38,490
+is sort of dominated by the boundary
+
+338
+00:18:42,260 --> 00:18:39,720
+flow from the
+
+339
+00:18:45,440 --> 00:18:42,270
+parent model so you have to to make this
+
+340
+00:18:50,870 --> 00:18:45,450
+box sufficiently large so far it's
+
+341
+00:19:02,350 --> 00:18:50,880
+around 60 degrees in the side of the box
+
+342
+00:19:08,500 --> 00:19:05,450
+Manitoba Ontario Geneva did you make
+
+343
+00:19:11,529 --> 00:19:08,510
+some experiments for rotate or
+
+344
+00:19:14,480 --> 00:19:11,539
+synchronous ballot and you see any
+
+345
+00:19:18,049 --> 00:19:14,490
+indication of self aggregation in these
+
+346
+00:19:21,700 --> 00:19:18,059
+simulations yes one thing that we're
+
+347
+00:19:24,649 --> 00:19:21,710
+thinking about too but I would say that
+
+348
+00:19:27,159 --> 00:19:24,659
+it's probably not exactly self
+
+349
+00:19:31,850 --> 00:19:27,169
+aggregation because there are so many
+
+350
+00:19:34,850 --> 00:19:31,860
+external disturbances that can affect us
+351
+00:19:36,680 --> 00:19:34,860
+so the the convection probably organizes
+
+352
+00:19:38,419 --> 00:19:36,690
+but it's probably not exactly self
+
+353
+00:19:41,390 --> 00:19:38,429
+aggregation because you have quite a
+
+354
+00:19:43,640 --> 00:19:41,400
+large wind shear in this region and it's
+
+355
+00:19:45,409 --> 00:19:43,650
+but the wind she'll come is because the
+
+356
+00:19:47,750 --> 00:19:45,419
+do planet you are working it off quite
+
+357
+00:19:51,500 --> 00:19:47,760
+fast rotate alright but yeah what if the
+
+358
+00:19:53,600 --> 00:19:51,510
+planet were merged over with it oh I
+
+359
+00:19:56,299 --> 00:19:53,610
+haven't looked at super slow rotating
+
+360
+00:19:56,630 --> 00:19:56,309
+planets but yeah that's that's a good

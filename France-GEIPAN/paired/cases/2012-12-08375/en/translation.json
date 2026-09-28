@@ -183,46 +183,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-66e14938ab42a83543ef1eac",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "07:00"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "7"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "http://www.boam.fr)"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-d3b4b420db2297a9cbc75ec2",
           "segment_index": 12,
           "source_segment_id": "seg-d3b4b420db2297a9cbc75ec2",
           "source_text_sha256": "19719f84edcda422ca01d3d4baff803e9e8a24714ba1990c6e83a8dc3330c95e",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: Around 7 a.m. on December 12, 2012, a witness was intrigued by a deep noise then observed a luminous phenomenon followed by the rapid passage of a ball-shaped object of blue or yellow color. No trail was seen. The account of the observation clearly suggests the aspect of a large meteor: a powerful, brief (a few seconds) luminous phenomenon accompanied by a noise. The date of the event is very close to the peak of the Geminid meteor shower. The BOAM (a French UFO reporting network) reports the recording of numerous similar events at that time (the cameras are installed in northern France and probably did not capture this meteor, which was located south of Toulouse). The GEIPAN classifies this case as \"B\": observation of a meteor, likely stemming from the Geminid shower.",
-          "translation_text_sha256": "064b786cdab6fd8dfb913debb5ea509025ff2fa78bae7aaa48e3312525b9cfb0"
+          "status": "machine-unreviewed",
+          "text": "Description: Around 7 AM on December 12, 2012, a witness was intrigued by a deep noise then observed a luminous phenomenon followed by the quick passage of a ball of blue or yellow color. No trail was observed. The observation report clearly describes an aspect of a large meteor: a powerful light phenomenon lasting a few seconds, accompanied by a noise. The date of the event is very close to the peak of the Geminid meteor shower. The BOAM (http://www.boam.fr)) reports the recording of numerous events of this type at that time (cameras are installed in northern France and probably did not capture that meteor, located south of Toulouse). The GEIPAN classifies this case as \"B\": observation of a bolide, likely from the Geminid swarm.",
+          "translation_text_sha256": "2a6f7f3bfbac834fcc573121888be10d2bc8f60bd1e61a00d8eb8291490b68e3"
         }
       ],
       "source_page_id": "page-66e14938ab42a83543ef1eac"
@@ -233,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-29T01:15:06Z",
+    "generated_at": "2026-09-27T01:35:21Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v3"
   }
 }

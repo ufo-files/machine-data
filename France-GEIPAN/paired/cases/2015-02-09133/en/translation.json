@@ -199,31 +199,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-cf476baba05f54f5061e52ab",
-          "qa_findings": [
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-97873614c48f14f7a1d765e2",
           "segment_index": 13,
           "source_segment_id": "seg-97873614c48f14f7a1d765e2",
           "source_text_sha256": "7486fd472a5b1c9d0ed1cb5233a2a94dfa0c1f8047e35f1cdd26e3cef3cbb42a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On Tuesday, February 10, 2015, at 9:05 PM, a witness observed for 5 to 7 minutes five orange balls seemingly approaching silently, with a brighter halo surrounding them. These balls disappeared one after the other. The observation of orange balls in the sky in just a few minutes strongly suggests Thai lanterns, likely released nearby after a private party. The slight movement was observed coming from the northeast, with a perceived closing in, which is consistent with a northeast wind of 15 to 20 km/h recorded in Limoges (see the Meteociel report for the observation date). However, it should be noted that lantern releases typically occur on weekends; it's also worth mentioning that this day was during school vacation and conducive to carnival celebrations. The GEIPAN classifies this case as \"B\": probable observation of Thai lanterns.",
           "translation_text_sha256": "3bea19035422d85a7bfccf88837b9577a3af632e790a9741cc6bec89aad41317"
         }
       ],
       "source_page_id": "page-cf476baba05f54f5061e52ab"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:18Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "b2913140fd6cf60ee5f0da094c5b3d8e00a00102ded8a0a2a21108dd5df71fa8",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -236,7 +235,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v1"
   }

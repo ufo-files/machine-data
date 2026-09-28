@@ -183,42 +183,30 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-8f5a642decc87150d30c8f3c",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "11:45"
-              ],
-              "check": "times",
-              "missing_from_translation": [
-                "23:45"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "GEIPAN"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-9b8921d141698a7edfc77b91",
           "segment_index": 12,
           "source_segment_id": "seg-9b8921d141698a7edfc77b91",
           "source_text_sha256": "816f8885ab67ef65d1521e148727507ce2401ffa0750fc4d69593f729737db2f",
           "start_ms": null,
-          "status": "failed-protected-token-check",
+          "status": "machine-unreviewed",
           "text": "Description: On January 7, 2013, at 4:13 a.m., a driver observed for 3 seconds a flash in the sky followed by a ball from which several fragments detached. No other testimony was collected. The witness's description corresponds exactly to the appearance of a meteor (atmospheric entry of a meteorite). January 7 corresponds to the end of the Quadrantid meteor shower. At the time of the observation, the sky was very overcast across all of France, except in the southeast; the sky was slightly less cloudy in Germany, in the direction where the witness was observing. The very early hour likely explains the uniqueness of the testimony. This phenomenon had more opportunity to be observed in Germany than in France. There is no record in the BOAM database, probably due to cloud cover. On the same day, at 11:45 p.m., a large meteor was observed over central France (see the case SAINT-ETIENNE-DE-BOULOGNE (07) 07.01.2013). The GEIPAN classifies this case as \"B\": probable observation of a meteor (atmospheric entry of a meteorite).",
           "translation_text_sha256": "d4ec69e9e038143114879597676cc7c47b21134445014229b668a0da43076d47"
         }
       ],
       "source_page_id": "page-8f5a642decc87150d30c8f3c"
+    }
+  ],
+  "repairs": [
+    {
+      "at": "2026-09-26T23:09:21Z",
+      "method": "verified-placeholder-and-format-recovery/v1",
+      "previous_translation_json_sha256": "dbb781114e3519661f4c82bc240fea5d53113077889897c5fba01b6ea3fb3e84",
+      "segments_recovered": 1
     }
   ],
   "schema": "ufo-files-french-translation/v1",
@@ -231,7 +219,7 @@
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
     "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
     "workflow_version": "fr-en-geipan-translation-prompt/v2"
   }

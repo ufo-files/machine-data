@@ -47,7 +47,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-95042bd7566a79e7c5a74b64",
           "qa_findings": [
             {
@@ -56,31 +56,21 @@
               ],
               "check": "numbers",
               "missing_from_translation": [
-                "2",
                 "87"
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "A-2/C",
-                "DF"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-d7ce94bd8c02e7d6376f6935",
           "segment_index": 3,
           "source_segment_id": "seg-d7ce94bd8c02e7d6376f6935",
           "source_text_sha256": "f531990c5a9d5b01180d4d8ec1299df5dea74060c9d300cab457f21f63ed6d08",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "N5 011/UFO_PROTECTED_000__-       1U                          Brasília-UFO_PROTECTED_001__,             August 77",
-          "translation_text_sha256": "5c52b7d2abe9729c88d57c65428244101fd78eedd6817c3e06306b226a2ef261"
+          "status": "needs-review",
+          "text": "N5 011/A-2/C-       1U                          Brasília-DF,             August 77",
+          "translation_text_sha256": "21bd08162d2ef86e94cf2ee159e52bda66b8e5d0917f5e5c3488a50e1c16e0de"
         },
         {
           "end_ms": null,
@@ -585,8 +575,8 @@
           "source_text_sha256": "1243529b2fc365ee375175f212ba7eb8432aebe4fc322fb5a4a7ec8e9a0db66c",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "d - Speed:                  \"Faster than a __UFO_PROTECTED_000__\" .",
-          "translation_text_sha256": "5fe609c0a3b1bd65372315f43823159af0ba588453bc0a393bc52f76bd2c614f"
+          "text": "d - Speed:                  \"Faster than a b a l a\" .",
+          "translation_text_sha256": "105ceb71a31ab1567ea2f7de179edcda877c6e2087431e34801dff2a027a1ace"
         },
         {
           "end_ms": null,
@@ -630,8 +620,8 @@
           "source_text_sha256": "f377be01fbbea7083767ea4dc982f32f857cb0285fbd43ae2813e35e7ae70aec",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "05 - Flying close to __UFO_PROTECTED_000__?\n      Yes.",
-          "translation_text_sha256": "25aefd96c0ec23ec45f490afb5423f45dd8f679ca97431907c3f77e9f528864c"
+          "text": "05 - Flying near another UFO?\n      Yes.",
+          "translation_text_sha256": "a6bd0078bf12ff348d149a9b149f4086e88cb06196ff990c9ea2e6e5c934ffff"
         }
       ],
       "source_page_id": "page-4501264ffd77f61bf122a70a"
@@ -697,8 +687,8 @@
           "source_text_sha256": "32bde46f79d2d00c42d2306190a34641074cd2e42bc2c2cf52a6480056764f7f",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "10 - Observation at __UFO_PROTECTED_000__ or with some 5tic __UFO_PROTECTED_000__?\n       Naked eye.",
-          "translation_text_sha256": "09d735e1371ebecf4c2293041238c10e6c569faf494e0f69157941bb637d1fa9"
+          "text": "10 - Observation at noon with the naked eye or with some 5tic position?\nNaked eye.",
+          "translation_text_sha256": "c007e1dbd644059615dbb81f9c435d2d004666020e12aec6a7eb66c10fbf2ffe"
         },
         {
           "end_ms": null,
@@ -816,25 +806,16 @@
           "end_ms": null,
           "error": null,
           "page_id": "page-ceba6b7d2da8354f91b4f916",
-          "qa_findings": [
-            {
-              "check": "negation",
-              "severity": "error",
-              "source_count": 3,
-              "source_marker": "não",
-              "status": "mismatch",
-              "translation_equivalent_count": 2
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-86a1cb3d304f6110efe72751",
           "segment_index": 11,
           "source_segment_id": "seg-86a1cb3d304f6110efe72751",
           "source_text_sha256": "3a94f1d1ee3863d4791c1736c7696492f7ec69037e9d4e540a8016597264b687",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "- Main occupation:     Merchant.            (Bar/Restaurant owner in the country \".) .\n   - Does he/she have any technical knowledge about unidentified flying objects? (If affirmative, specify):\n    No.",
-          "translation_text_sha256": "e1288dce2f5a9c6864253a9cb312210fe6eda5317a6b881d102cf32d2a044c23"
+          "status": "machine-unreviewed",
+          "text": "- main occupation:     Merchant.            (Bar/Restaurant owner in the \" ) .\n       - does it have or not technical knowledge about unidentified flying objects? (if affirmative, which ones):\n           No.",
+          "translation_text_sha256": "9dc9446314b61a9a5c05452c01778161541cfee96b7b9ea600cfc4a3af33e54b"
         },
         {
           "end_ms": null,
@@ -1115,8 +1096,8 @@
           "source_text_sha256": "36af03f662581c4072529450d78fd24c284ebb78e02c0739c6f64ef18926eadc",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "a - Distance of the __UFO_PROTECTED_000__ (UFO) from the observer:\n   They changed position, however 2 (two) of them were seen at the ends of the tracks 09 and 27, respectively.",
-          "translation_text_sha256": "22f463f781623c88125ecc7b59835add93f08705a40f921fb3d471ff0b062957"
+          "text": "a - Distance of the o b j e t (UFO) from the observer:\n               They changed position, however 2 (two) of them were seen at the ends of the tracks 09 and 27, respectively.",
+          "translation_text_sha256": "b65e0c29940cc8030ac53e913fc42a72642bc4fb3149513402e2f754e4b3c12c"
         },
         {
           "end_ms": null,
@@ -1317,8 +1298,8 @@
           "source_text_sha256": "a1245a410e17694269f033a8a3ec6339ebea1003bd0420e169adb14116e95031",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "09 - Existence of physical __UFO_PROTECTED_000__ (photography, film, samples)?\n            No",
-          "translation_text_sha256": "029d6319d2d33da5130f9f537be2855e6ac0440077582b4c4b16277e1c5873af"
+          "text": "9 - Existence of physical __PROVAS__ (photography, film, samples)? No",
+          "translation_text_sha256": "c2d8becfa405d0f5bbb8b980f825fbecc41f4a1168805b71451b60f5e11758f2"
         },
         {
           "end_ms": null,
@@ -1332,23 +1313,14 @@
           "source_text_sha256": "63a088827c83b1c5eed5168803968c4dce26c2f9f291e3ee77fe45c73317d778",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "10 - Observation at __UFO_PROTECTED_000__ or with some optical position?\n             Both (binoculars, radar)",
-          "translation_text_sha256": "ea92e4e3cb2e32a364943ed1643fec2ed28ce8c7d27de5a5750bb57f8a6dda96"
+          "text": "10 - Observation at what time of day or with some optical position?\n            Both (binoculars, radar)",
+          "translation_text_sha256": "f2b6c28330def975b83bcf424ffd4b73ec29d66c42e8428dfb877beb35431953"
         },
         {
           "end_ms": null,
           "error": null,
           "page_id": "page-90c6d2cb8bf39f64fced0eeb",
           "qa_findings": [
-            {
-              "added_in_translation": [
-                "9000 ft"
-              ],
-              "check": "measurements",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
             {
               "added_in_translation": [],
               "check": "names",
@@ -1366,8 +1338,8 @@
           "source_text_sha256": "bcff161c9433596b8719423420a2ba849227ddfd8f80db3636b4bad15c5718bf",
           "start_ms": null,
           "status": "needs-review",
-          "text": "11 - Present weather conditions (meteorological):\n             Visibility       10 Km\n             Ceiling = 9,000 ft",
-          "translation_text_sha256": "fc281a7f0e887c18e9a3db88fe87b37a1da24c5a74c6d6bc76346485c5156501"
+          "text": "11 - Present weather conditions (meteorological):\n             Vis.       10 Km\n             Teto = 9.000 f t",
+          "translation_text_sha256": "b5fa5f6561688017e6a55d3baf6427728eef6672f9ca759194ea6bec7529839e"
         },
         {
           "end_ms": null,
@@ -1382,14 +1354,6 @@
               ],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "negation",
-              "severity": "error",
-              "source_count": 3,
-              "source_marker": "não",
-              "status": "mismatch",
-              "translation_equivalent_count": 2
             }
           ],
           "review_status": "needs-review",
@@ -1399,8 +1363,8 @@
           "source_text_sha256": "ab7e859eecb817a3edaf789fbfd736b01a27cd33a5a2358ad57c1ff5e37c299b",
           "start_ms": null,
           "status": "needs-review",
-          "text": "12 - What are the personal details of the observer?\n             - Name: 3S Sérgio Angra Machado\n             - Address: Cassino SO/SGT at the São Paulo Air Base\n             - Age: 24 years\n             - Education: University student (Physics)\n             - Main occupation: Air Traffic Controller (BCT)\n             - Has he had any previous technical knowledge about flying objects that are not identified? (If yes, specify):\nW                No\n\n13 - Additional data (relate in detail)",
-          "translation_text_sha256": "0674b2ce3eb7be6fbec92bfe1dfe91cfdf516f14a1f2989c7e86366d8e5bc3bc"
+          "text": "12 - What are the personal data of the observer?\n             - name: 3S Sérgio Angra Machado\n             - address: Cassino SO/SGT of the São Paulo Air Base\n             - age: 24 years\n             - level of education: University (Physics)\n             - main occupation: Air Traffic Controller (BCT)\n             - has he made no technical reports about unidentified flying objects? (If affirmative, which):\nW                No\n    13 - Additional data (relate in verse)",
+          "translation_text_sha256": "ace244a97b90bbf37a476035149a5e9df7d88c844d4c3538773420c8bcf2a80f"
         },
         {
           "end_ms": null,
@@ -1615,7 +1579,7 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "page_id": "page-694c393d047f9ed63240308c",
           "qa_findings": [
             {
@@ -1626,25 +1590,17 @@
               "missing_from_translation": [],
               "severity": "warning",
               "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "FAB"
-              ],
-              "severity": "error",
-              "status": "mismatch"
             }
           ],
-          "review_status": "failed-protected-token-check",
+          "review_status": "needs-review",
           "segment_id": "seg-03332cfa557d5a1091857e90",
           "segment_index": 8,
           "source_segment_id": "seg-03332cfa557d5a1091857e90",
           "source_text_sha256": "b052a2d23fbed22fade13f0a05f7d5a863cb0140e74c285c76a2f05ac92efa8a",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "b - 12/02 - UFO 4566 Golden Area",
-          "translation_text_sha256": "fd864833925c602fe0c8ef196fa3874fdcd65611f9f9c16a4accbcd5b624a789"
+          "status": "needs-review",
+          "text": "b - 12/02 - FAB 4566 Golden Area",
+          "translation_text_sha256": "afcfc1bff68ceff571e57d2b8875d10d0aa9d0b575b405932c8c45d4e3a9f323"
         },
         {
           "end_ms": null,
@@ -1690,26 +1646,16 @@
           "end_ms": null,
           "error": null,
           "page_id": "page-694c393d047f9ed63240308c",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "measurements",
-              "missing_from_translation": [
-                "15 m"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-a8c06c3b38bf9c44199d9957",
           "segment_index": 11,
           "source_segment_id": "seg-a8c06c3b38bf9c44199d9957",
           "source_text_sha256": "552787cfcdb7d8942a0da22f05150befe828ef1cec0e1fbba61d8bfd20688d5d",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "3 - As of DEC 19, starting from the alert by SBAN, it remained for 15 minutes.",
-          "translation_text_sha256": "7065b145594f0f3657f23018ed53086cbc3235c69cfbe23800992688a2d9bd57"
+          "status": "machine-unreviewed",
+          "text": "3 - A p a r t i r from the 19 DEC alert of SBAN, during the period remained for 15 minutes.",
+          "translation_text_sha256": "df2ee9da51661579d2652439bc93b5c6ad9b68fbd7579dfd4ffe1c18c6b6f166"
         }
       ],
       "source_page_id": "page-694c393d047f9ed63240308c"
@@ -1756,13 +1702,13 @@
   "source_language": "pt-BR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-13T04:56:16Z",
+    "generated_at": "2026-09-27T18:18:20Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-    "review_status": "partial",
+    "prompt_sha256": "b7f9c25c4fa7dea30d57478795d497d15449100792788277e886d680e5446463",
+    "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "pt-en-translation-prompt/v1"
+    "workflow_version": "pt-en-translation-prompt/v4"
   }
 }
