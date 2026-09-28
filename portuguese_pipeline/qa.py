@@ -35,9 +35,9 @@ COORDINATE = re.compile(
 )
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
-    r"(?:\s+(?:a|to|e|and)\s+|\s*[-–]\s*)\d+(?:[.,]\d+)?"
-    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eéê]s?|metros?|meters?|"
-    r"quil[oô]metros?|kilometers?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
+    r"(?:[ \t]+(?:a|to|e|and)\s+|[ \t]*[-–]\s*)\d+(?:[.,]\d+)?"
+    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eéê]s?|metros?|meters?|metres?|"
+    r"quil[oôó]metros?|kilometers?|kilometres?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
 NUMBER = re.compile(
@@ -88,8 +88,8 @@ IT_MONTHS = {
     "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
 }
 UNIT_ALIASES = {
-    "metro": "m", "metros": "m", "meter": "m", "meters": "m", "m": "m",
-    "quilômetro": "km", "quilômetros": "km", "kilometer": "km", "kilometers": "km", "km": "km",
+    "metro": "m", "metros": "m", "meter": "m", "meters": "m", "metre": "m", "metres": "m", "m": "m",
+    "quilômetro": "km", "quilômetros": "km", "kilometer": "km", "kilometers": "km", "kilometre": "km", "kilometres": "km", "quilómetros": "km", "quilómetro": "km", "km": "km",
     "pé": "ft", "pés": "ft", "pe": "ft", "pes": "ft", "pê": "ft", "pês": "ft",
     "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
@@ -227,7 +227,7 @@ def _date_spacing(text: str) -> str:
     text = re.sub(r"(\b\d{1,2}\s+de\s+(?:" + "|".join(PT_MONTHS) + r")\s+de\s+)([12](?:[ \t]+\d){3})\b",
                   lambda match: match.group(1) + re.sub(r"[ \t]", "", match.group(2)), text, flags=re.I)
     spaced_abbreviations = "|".join(r"[ \t]*".join(name[:3]) for name in (*PT_MONTHS, *EN_MONTHS))
-    text = re.sub(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]+(" + spaced_abbreviations + r")\.?[ \t]+((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])",
+    text = re.sub(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]+(" + spaced_abbreviations + r")\.?\s+((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])",
                   lambda match: re.sub(r"[ \t]", "", match.group(1)) + " " + re.sub(r"[ \t]", "", match.group(2)) + " " + re.sub(r"[ \t]", "", match.group(3)), text, flags=re.I)
     spaced_date = re.compile(r"(?<![\w/])([0-3]?[ \t]*\d)[ \t]*/[ \t]*([01]?[ \t]*\d)[ \t]*/[ \t]*((?:[12][ \t]*[09][ \t]*)?\d[ \t]*\d)(?![\w/])")
     return spaced_date.sub(lambda match: "/".join(re.sub(r"[ \t]", "", part) for part in match.groups()), text)
@@ -337,6 +337,14 @@ def _number_value(value: str) -> str:
 
 def _measurements(text: str) -> Counter[str]:
     values: Counter[str] = Counter()
+    # Explicit dates cannot contribute false metres from a spaced month name.
+    text = _date_spacing(text)
+    # Rejoin only a complete known unit split by a printed line-end hyphen.
+    for word in ("metro", "metros", "quilômetro", "quilômetros", "quilómetro", "quilómetros",
+                 "milha", "milhas", "minuto", "minutos"):
+        for split in range(1, len(word)):
+            pattern = r"\b" + re.escape(word[:split]) + r"-[ \t]*\n[ \t]*" + re.escape(word[split:]) + r"\b"
+            text = re.sub(pattern, word, text, flags=re.I)
     # Recognize complete, letter-spaced words before their first letter can
     # become a false g/m unit. Do not join arbitrary isolated letters.
     for word in ("grandes", "grande", "graus", "grau", "gostaria",

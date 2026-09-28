@@ -2,6 +2,28 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_measurement_units_survive_printed_line_breaks(self):
+        for source, target in [('26 me-\ntros', '26 meters'), ('30 quiló-\nmetros', '30 kilometres'), ('35 mi-\nlhas', '35 miles')]:
+            self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, target.replace('26', '27').replace('30', '31').replace('35', '36'))))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('26 me-\ntros', '26 miles')))
+
+    def test_british_distance_units_preserve_measurements(self):
+        for source, target in [('700 metros', '700 metres'), ('20 quilómetros', '20 kilometers')]:
+            self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, target)))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('700 metros', '700 kilometres')))
+
+    def test_separate_page_number_does_not_start_measurement_range(self):
+        source = '18\n a 55mm de distância focal'
+        self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, '18\n at a focal length of 55mm')))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('18 a\n55mm', '55mm')))
+
+    def test_letter_spaced_months_are_not_distances(self):
+        for source, target in [('28 M a i 84', '28 May 84'), ('25 J u l\n78', '25 Jul 78')]:
+            self.assertFalse(any(f['severity'] == 'error' for f in compare_translation(source, target)))
+            self.assertTrue(any(f['check'] == 'dates' for f in compare_translation(source, target.replace('84', '85').replace('78', '79'))))
+        self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('28 m', '28 May 84')))
+
     def test_reference_suffix_is_not_an_enumerated_calendar_day(self):
         for suffix in ('91', '17'):
             source = f'NEFP.GEU/003/{suffix},\n26 de abril de 1991'
