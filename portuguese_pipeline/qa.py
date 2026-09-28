@@ -35,8 +35,8 @@ COORDINATE = re.compile(
 )
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
-    r"(?:[ \t]+(?:a|to|e|and)[ \t]+|[ \t]*[-–][ \t]*)\d+(?:[.,]\d+)?"
-    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eé]s?|metros?|meters?|"
+    r"(?:\s+(?:a|to|e|and)\s+|\s*[-–]\s*)\d+(?:[.,]\d+)?"
+    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eéê]s?|metros?|meters?|"
     r"quil[oô]metros?|kilometers?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
@@ -86,7 +86,8 @@ IT_MONTHS = {
 UNIT_ALIASES = {
     "metro": "m", "metros": "m", "meter": "m", "meters": "m", "m": "m",
     "quilômetro": "km", "quilômetros": "km", "kilometer": "km", "kilometers": "km", "km": "km",
-    "pé": "ft", "pés": "ft", "foot": "ft", "feet": "ft", "ft": "ft",
+    "pé": "ft", "pés": "ft", "pe": "ft", "pes": "ft", "pê": "ft", "pês": "ft",
+    "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
     "milímetro": "mm", "milímetros": "mm", "millimeter": "mm", "millimeters": "mm", "mm": "mm",
     "milha": "mi", "milhas": "mi", "mile": "mi", "miles": "mi",
