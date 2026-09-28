@@ -1,5 +1,5 @@
 {
-  "canonical_text_sha256": "cb6166f846fd691f9d20699e04f78bfee1a16426ab35b5398472220ec653e379",
+  "canonical_text_sha256": "e19ffeef989c288c089e2fae4130f61a96abbc4c291aa5b526c54c09dbe131c7",
   "document_id": "doc-2b9efcc4e17a6a624358b041",
   "extraction": {
     "engine": "poppler-pdftotext",
@@ -31279,7 +31279,7 @@
       }
     ]
   },
-  "retranslated_at": "2026-09-28T10:18:05Z",
+  "retranslated_at": "2026-09-28T15:52:10Z",
   "runtime": {
     "machine": "arm64",
     "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
@@ -31288,17 +31288,32 @@
   "schema": "ufo-files-portuguese-provenance/v1",
   "segment_count": 397,
   "source_bytes": 40751655,
+  "source_image_corrections": [
+    {
+      "corrected_source_text": "objetos voadores não",
+      "human_reviewed": false,
+      "method": "codex-assisted-image-transcription",
+      "original_ocr_text": "objetos voadores não",
+      "original_text_sha256": "350507f4f8a97a02abc68319e96a9e913a9e947b5c7a4101f0e1d07414e6eda7",
+      "page": 24,
+      "segment_id": "seg-34a5ed789ce697ffaf5af186",
+      "source_page_render_sha256": "cb8a9a7cd36dbb27dffa02d83d3f8c94710b8586e9906d0621709792f0628319",
+      "source_rel": "Upload/Listagem 4o recolhimento_ARX Listagem 4o recolhimento_ARX.pdf",
+      "translation": "flying objects not",
+      "uncertain_source_values_explicit": true
+    }
+  ],
   "source_sha256": "726c557f004151a37790f725ccd1e7535b7e8775be90029e52a7f90f10283e80",
-  "status": "partial",
+  "status": "complete",
   "translation": {
-    "generated_at": "2026-09-28T10:18:05Z",
-    "method": "mixed-verified-recovery",
-    "model": "mixed; see segment translation_provenance",
-    "model_revision": "source-bound-recovery-2026-09-27",
+    "generated_at": "2026-09-28T15:52:10Z",
+    "method": "mixed-source-image-recovery",
+    "model": "mixed; see segment provenance",
+    "model_revision": "source-image-recovery-2026-09-27",
     "prompt_sha256": "",
     "review_status": "needs-review",
-    "runtime_version": "mixed",
-    "workflow_version": "source-bound-translation-recovery/v1"
+    "runtime_version": "codex-assisted",
+    "workflow_version": "source-image-recovery/v1"
   },
-  "translation_text_sha256": "5d428f549328e863ea02573a98beee8322d16910ff3e6e4000b1eff29e0d5901"
+  "translation_text_sha256": "f3cee4d63a7e3df22acc145bb95c7e72ac0ef70c139e6b978a2860dfe3cc53b8"
 }
