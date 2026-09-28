@@ -1,0 +1,1300 @@
+{"created_utc": "2026-09-28T05:07:43Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 158510, "source_ctime_ns": 1790174276339508824, "source_file": "Archives-for-the-Unexplained/documents/2021-10-27---NASA-Astrobiology---Collins-Maxwell-Modelling-Titan-Using-ROCKE-3D-GCM_WbYEGUjbi8M---transcript-automated-.pdf", "source_mtime_ns": 1790174276324563012, "source_rel": "Archives-for-the-Unexplained/documents/2021-10-27---NASA-Astrobiology---Collins-Maxwell-Modelling-Titan-Using-ROCKE-3D-GCM_WbYEGUjbi8M---transcript-automated-.pdf", "source_sha256": "0d53fdac93120debb50a0bc1d2f90424ca0f0fdcf8fd756a32b23ef7a7c9fc21"}
+
+1
+00:00:04,230 --> 00:00:02,629
+hi my name is max collins from the
+
+2
+00:00:06,389 --> 00:00:04,240
+university of hong kong and today i'll
+
+3
+00:00:08,390 --> 00:00:06,399
+be presenting on the rocky 3d model and
+
+4
+00:00:10,070 --> 00:00:08,400
+application to saturn's main titan
+
+5
+00:00:12,150 --> 00:00:10,080
+developed by the gutter institute for
+
+6
+00:00:13,509 --> 00:00:12,160
+space studies this is in the very early
+
+7
+00:00:14,950 --> 00:00:13,519
+stages so i'll be covering some of the
+
+8
+00:00:16,390 --> 00:00:14,960
+background for the research as well as
+
+9
+00:00:17,830 --> 00:00:16,400
+what i'm currently working on
+
+10
+00:00:20,070 --> 00:00:17,840
+i'd like to give a special thanks to
+
+11
+00:00:23,029 --> 00:00:20,080
+michael wayne for owlnova giss we're
+
+12
+00:00:24,870 --> 00:00:23,039
+putting up with mindsets and emailing
+
+13
+00:00:26,230 --> 00:00:24,880
+so before we dive in i'll give a quick
+
+14
+00:00:27,589 --> 00:00:26,240
+overview of titan
+
+15
+00:00:28,950 --> 00:00:27,599
+titan is one of the most earth-like
+
+16
+00:00:30,390 --> 00:00:28,960
+bodies in our solar system with
+
+17
+00:00:32,150 --> 00:00:30,400
+substantial nitrogen atmosphere
+
+18
+00:00:32,389 --> 00:00:32,160
+containing about five percent methane
+
+19
+00:00:35,350 --> 00:00:32,399
+and
+
+20
+00:00:37,110 --> 00:00:35,360
+surface pressure around 1.45 atmospheres
+
+21
+00:00:37,830 --> 00:00:37,120
+it's often characterized by this orange
+
+22
+00:00:39,990 --> 00:00:37,840
+shades
+
+23
+00:00:41,910 --> 00:00:40,000
+seen here produced through stratospheric
+
+24
+00:00:43,590 --> 00:00:41,920
+organic photochemistry
+
+25
+00:00:45,590 --> 00:00:43,600
+it has an active weather system
+26
+00:00:47,110 --> 00:00:45,600
+comparable to earth's hydrological cycle
+
+27
+00:00:49,830 --> 00:00:47,120
+with methane and ethane
+
+28
+00:00:51,670 --> 00:00:49,840
+as the main condensable constituents and
+
+29
+00:00:54,709 --> 00:00:51,680
+stable surface liquid with a temperature
+
+30
+00:00:57,510 --> 00:00:54,719
+at the triple point of methane
+
+31
+00:00:59,189 --> 00:00:57,520
+so titan's circulation is dominated by a
+
+32
+00:01:00,389 --> 00:00:59,199
+strong seasonal cycle driven by
+
+33
+00:01:02,229 --> 00:01:00,399
+differential heating
+
+34
+00:01:03,590 --> 00:01:02,239
+creating a virtually global heavy cell
+
+35
+00:01:06,630 --> 00:01:03,600
+circulation
+
+36
+00:01:07,990 --> 00:01:06,640
+heat meridianally
+
+37
+00:01:09,670 --> 00:01:08,000
+homogenizing the temperature of the
+
+38
+00:01:11,270 --> 00:01:09,680
+choker spirit meaning it's more
+
+39
+00:01:14,149 --> 00:01:11,280
+sensitive to solar radiative
+
+40
+00:01:15,910 --> 00:01:14,159
+imbalances than localized effects this
+
+41
+00:01:19,350 --> 00:01:15,920
+seasonal variation is caused by sun's
+
+42
+00:01:21,109 --> 00:01:19,360
+ability with a period of 29.5 years
+
+43
+00:01:22,710 --> 00:01:21,119
+during northern summer the high solar
+
+44
+00:01:24,149 --> 00:01:22,720
+insulation produces atmospheric
+
+45
+00:01:25,990 --> 00:01:24,159
+upwelling causing methane cloud
+
+46
+00:01:28,070 --> 00:01:26,000
+formation and precipitation through the
+
+47
+00:01:29,990 --> 00:01:28,080
+rapid cooling of air parcels
+
+48
+00:01:31,510 --> 00:01:30,000
+so lower the latitudes consistently
+
+49
+00:01:32,390 --> 00:01:31,520
+receive more insulation than higher
+
+50
+00:01:34,870 --> 00:01:32,400
+latitudes
+51
+00:01:36,870 --> 00:01:34,880
+with the net heating near the equator in
+
+52
+00:01:38,550 --> 00:01:36,880
+response to this radiative imbalance the
+
+53
+00:01:40,149 --> 00:01:38,560
+atmospheric circulation acts to
+
+54
+00:01:41,670 --> 00:01:40,159
+transport heat towards the
+
+55
+00:01:43,510 --> 00:01:41,680
+colder polar regions to reach
+
+56
+00:01:50,230 --> 00:01:43,520
+equilibrium which results in low
+
+57
+00:01:54,149 --> 00:01:52,069
+titan's atmospheric circulation acts to
+
+58
+00:01:55,830 --> 00:01:54,159
+redistribute methane triangle
+
+59
+00:01:57,590 --> 00:01:55,840
+latitudes and delivering moisture to the
+
+60
+00:01:59,510 --> 00:01:57,600
+poles a fundamental
+
+61
+00:02:01,030 --> 00:01:59,520
+diver of this methane cycle is the
+
+62
+00:02:02,950 --> 00:02:01,040
+humidity of the troposphere
+
+63
+00:02:05,190 --> 00:02:02,960
+and so the huen's gas chromatograph max
+
+64
+00:02:06,950 --> 00:02:05,200
+spectrometer demonstrated the relative
+
+65
+00:02:08,469 --> 00:02:06,960
+humidity to be 100
+
+66
+00:02:10,790 --> 00:02:08,479
+from 40 kilometers down to eight
+
+67
+00:02:11,190 --> 00:02:10,800
+kilometers with a constant mixing ratio
+
+68
+00:02:13,190 --> 00:02:11,200
+below
+
+69
+00:02:14,790 --> 00:02:13,200
+indicating a well mixed and subsaturated
+
+70
+00:02:16,229 --> 00:02:14,800
+lower troposphere
+
+71
+00:02:18,070 --> 00:02:16,239
+the depletion of methane through
+
+72
+00:02:19,350 --> 00:02:18,080
+photolysis and subsequent hydrogen
+
+73
+00:02:20,949 --> 00:02:19,360
+escape would severely limit the
+
+74
+00:02:22,470 --> 00:02:20,959
+long-term methane cycle
+
+75
+00:02:24,949 --> 00:02:22,480
+and so it must be recharged through some
+76
+00:02:26,550 --> 00:02:24,959
+mechanism and methane would then cycle
+
+77
+00:02:28,070 --> 00:02:26,560
+from pool to pole residing at high
+
+78
+00:02:29,990 --> 00:02:28,080
+latitudes and lakes
+
+79
+00:02:31,830 --> 00:02:30,000
+when equatorial humidity is high enough
+
+80
+00:02:32,470 --> 00:02:31,840
+convective storms at low latitudes are
+
+81
+00:02:34,830 --> 00:02:32,480
+possible
+
+82
+00:02:36,790 --> 00:02:34,840
+playing a role in carving fluvial
+
+83
+00:02:38,710 --> 00:02:36,800
+features
+
+84
+00:02:40,550 --> 00:02:38,720
+so today we'll be focusing mainly on the
+
+85
+00:02:41,670 --> 00:02:40,560
+surface hydrocarbon reservoirs found in
+
+86
+00:02:43,350 --> 00:02:41,680
+titan's polar regions
+
+87
+00:02:44,790 --> 00:02:43,360
+including several large seas and many
+
+88
+00:02:46,550 --> 00:02:44,800
+smaller lake features occurring at
+
+89
+00:02:49,350 --> 00:02:46,560
+northern high latitudes
+
+90
+00:02:50,949 --> 00:02:49,360
+radar measurements from the jmra the
+
+91
+00:02:52,630 --> 00:02:50,959
+second largest sea suggests a liquid
+
+92
+00:02:54,150 --> 00:02:52,640
+composition of nearly pure methane
+
+93
+00:02:55,030 --> 00:02:54,160
+implying these lakes interact with the
+
+94
+00:02:56,150 --> 00:02:55,040
+atmosphere
+
+95
+00:02:58,630 --> 00:02:56,160
+and are linked to the weather and
+
+96
+00:03:00,229 --> 00:02:58,640
+climate systems titan's south pole
+
+97
+00:03:00,630 --> 00:03:00,239
+contains fewer lakes but still shows
+
+98
+00:03:03,830 --> 00:03:00,640
+many
+
+99
+00:03:05,990 --> 00:03:03,840
+like features such as ontario
+
+100
+00:03:07,430 --> 00:03:06,000
+so both polar regions also appear to
+101
+00:03:09,270 --> 00:03:07,440
+feature empty and partially filled
+
+102
+00:03:10,630 --> 00:03:09,280
+basins suggesting geologically recent
+
+103
+00:03:13,910 --> 00:03:10,640
+surface exposures
+
+104
+00:03:15,350 --> 00:03:13,920
+of liquid or saturated soils original
+
+105
+00:03:16,949 --> 00:03:15,360
+service features suggested that liquid
+
+106
+00:03:18,070 --> 00:03:16,959
+flow including channels and floodplains
+
+107
+00:03:19,670 --> 00:03:18,080
+have also been identified
+
+108
+00:03:21,910 --> 00:03:19,680
+at many different latitudes including
+
+109
+00:03:23,110 --> 00:03:21,920
+the equatorial labyrinth regions
+
+110
+00:03:24,710 --> 00:03:23,120
+it's possible that at least some of
+
+111
+00:03:28,550 --> 00:03:24,720
+these could be the remnants of a wetter
+
+112
+00:03:32,710 --> 00:03:30,229
+so all of these lakes are restricted to
+
+113
+00:03:34,550 --> 00:03:32,720
+latitudes polar 55 degrees
+
+114
+00:03:35,910 --> 00:03:34,560
+and cover 1.5 percent of titan's
+
+115
+00:03:37,589 --> 00:03:35,920
+observed surface
+
+116
+00:03:39,270 --> 00:03:37,599
+dark lake regions cover 10 percent of
+
+117
+00:03:41,990 --> 00:03:39,280
+the area in the northern polar region
+
+118
+00:03:43,990 --> 00:03:42,000
+but only 0.4 percent in the southern
+
+119
+00:03:46,229 --> 00:03:44,000
+the seasonal psycho cycle of polar
+
+120
+00:03:48,070 --> 00:03:46,239
+precipitation is a sequence of winter
+
+121
+00:03:49,509 --> 00:03:48,080
+time mid-level tropospheric drying
+
+122
+00:03:51,350 --> 00:03:49,519
+from descending dry air in the highway
+
+123
+00:03:53,670 --> 00:03:51,360
+circulation followed by
+
+124
+00:03:55,429 --> 00:03:53,680
+warming and moistening of low-level air
+
+125
+00:03:56,789 --> 00:03:55,439
+as the spring pole becomes illuminated
+126
+00:03:58,550 --> 00:03:56,799
+and moistening of the mid-level
+
+127
+00:04:00,630 --> 00:03:58,560
+troposphere by deep convection over the
+
+128
+00:04:02,550 --> 00:04:00,640
+summer pole both cassini
+
+129
+00:04:04,550 --> 00:04:02,560
+and ground-based observations detected
+
+130
+00:04:05,910 --> 00:04:04,560
+tropospheric cloud activity at southern
+
+131
+00:04:08,229 --> 00:04:05,920
+mid-latitudes
+
+132
+00:04:09,670 --> 00:04:08,239
+as well as cloudiness over the pole this
+
+133
+00:04:10,149 --> 00:04:09,680
+suggests the threats of high moisture
+
+134
+00:04:12,830 --> 00:04:10,159
+content
+
+135
+00:04:15,190 --> 00:04:12,840
+precipitation and sustained surface
+
+136
+00:04:16,710 --> 00:04:15,200
+liquids
+
+137
+00:04:18,789 --> 00:04:16,720
+this is a global mosaic of titan's
+
+138
+00:04:20,150 --> 00:04:18,799
+surface brightness from cassini imaging
+
+139
+00:04:22,550 --> 00:04:20,160
+science subsystem or
+
+140
+00:04:24,230 --> 00:04:22,560
+iss which shows the distribution of
+
+141
+00:04:25,990 --> 00:04:24,240
+titan's landforms
+
+142
+00:04:27,670 --> 00:04:26,000
+as you can see persistent with custom
+
+143
+00:04:27,990 --> 00:04:27,680
+features include filled lakes near the
+
+144
+00:04:30,390 --> 00:04:28,000
+polar
+
+145
+00:04:31,430 --> 00:04:30,400
+regions and dark areas some partially
+
+146
+00:04:33,590 --> 00:04:31,440
+filled regions
+
+147
+00:04:35,030 --> 00:04:33,600
+remain radar dark relative to their
+
+148
+00:04:35,830 --> 00:04:35,040
+surroundings but shown an increase in
+
+149
+00:04:37,350 --> 00:04:35,840
+backscatter
+
+150
+00:04:39,590 --> 00:04:37,360
+that can't be explained by incidence
+151
+00:04:40,469 --> 00:04:39,600
+angle variations using common scattering
+
+152
+00:04:42,150 --> 00:04:40,479
+models
+
+153
+00:04:43,749 --> 00:04:42,160
+so this is still a topic of debate and
+
+154
+00:04:44,710 --> 00:04:43,759
+could be the definition of organic
+
+155
+00:04:48,070 --> 00:04:44,720
+debris
+
+156
+00:04:48,710 --> 00:04:48,080
+or complex porous nitriles periods in
+
+157
+00:04:52,870 --> 00:04:48,720
+the wind
+
+158
+00:04:56,950 --> 00:04:54,710
+so these are the major c's which contain
+
+159
+00:04:58,790 --> 00:04:56,960
+80 of the observed liquid-filled surface
+
+160
+00:04:59,510 --> 00:04:58,800
+area and fill northern polar basins
+
+161
+00:05:02,469 --> 00:04:59,520
+roughly
+
+162
+00:05:04,310 --> 00:05:02,479
+between 50 and 100 degrees east northern
+
+163
+00:05:06,150 --> 00:05:04,320
+regional variation can be explained by
+
+164
+00:05:07,909 --> 00:05:06,160
+changes in observational geometry and
+
+165
+00:05:09,430 --> 00:05:07,919
+complex in contrast to southern
+
+166
+00:05:11,670 --> 00:05:09,440
+ephemeral features
+
+167
+00:05:13,430 --> 00:05:11,680
+while much smaller lakes also ex exist
+
+168
+00:05:15,189 --> 00:05:13,440
+elsewhere it tightens north pole these
+
+169
+00:05:16,710 --> 00:05:15,199
+primary large features dominate and
+
+170
+00:05:20,469 --> 00:05:16,720
+coincide with some of titan's
+
+171
+00:05:22,950 --> 00:05:20,479
+large-scale topographic depression
+
+172
+00:05:25,430 --> 00:05:22,960
+um this is a tsar mosaic of titan south
+
+173
+00:05:26,950 --> 00:05:25,440
+polar region from 90 to 55 degrees south
+
+174
+00:05:29,990 --> 00:05:26,960
+for september 2005
+
+175
+00:05:31,350 --> 00:05:30,000
+through january 2010 the three areas
+176
+00:05:33,189 --> 00:05:31,360
+which include ephemeral features are
+
+177
+00:05:35,029 --> 00:05:33,199
+outlined in red
+
+178
+00:05:36,629 --> 00:05:35,039
+titan's south polar region was in summer
+
+179
+00:05:39,029 --> 00:05:36,639
+during assignment expected to be in a
+
+180
+00:05:41,350 --> 00:05:39,039
+state of volatile evaporation
+
+181
+00:05:43,110 --> 00:05:41,360
+these ephemeral lakes are found
+
+182
+00:05:44,710 --> 00:05:43,120
+virtually only in the southern region
+
+183
+00:05:46,150 --> 00:05:44,720
+and may be due to surface changes
+
+184
+00:05:48,950 --> 00:05:46,160
+including liquid evaporation
+
+185
+00:05:50,790 --> 00:05:48,960
+infiltration freezing wave activity and
+
+186
+00:05:52,550 --> 00:05:50,800
+cryovolcanism
+
+187
+00:05:54,150 --> 00:05:52,560
+ephemeral feature loss rates are also
+
+188
+00:05:55,110 --> 00:05:54,160
+consistent with predominantly methane
+
+189
+00:05:56,710 --> 00:05:55,120
+composition
+
+190
+00:05:58,950 --> 00:05:56,720
+uh three classes of lakes have been
+
+191
+00:06:00,950 --> 00:05:58,960
+identified empty lakes
+
+192
+00:06:02,150 --> 00:06:00,960
+uh partially filled lakes and dark or
+
+193
+00:06:03,990 --> 00:06:02,160
+liquid filled lakes based on the
+
+194
+00:06:06,230 --> 00:06:04,000
+microwave reflectivity of site
+
+195
+00:06:07,990 --> 00:06:06,240
+titan's surface using the normalized
+
+196
+00:06:10,230 --> 00:06:08,000
+backscatter cross-section which is a
+
+197
+00:06:12,230 --> 00:06:10,240
+non-dimensional quantity that describes
+
+198
+00:06:16,950 --> 00:06:12,240
+received radar power as compared to an
+
+199
+00:06:20,870 --> 00:06:18,629
+this figure shows an equidistant
+
+200
+00:06:22,150 --> 00:06:20,880
+cylindrical projection of ontario lackis
+201
+00:06:24,710 --> 00:06:22,160
+which is the largest lake in the
+
+202
+00:06:27,510 --> 00:06:24,720
+southern region the lake border from the
+
+203
+00:06:30,790 --> 00:06:27,520
+2005 iss image is shown in cyan
+
+204
+00:06:32,950 --> 00:06:30,800
+while the 2009 sar border is blue figure
+
+205
+00:06:36,309 --> 00:06:32,960
+a and is an iss image attained
+
+206
+00:06:38,230 --> 00:06:36,319
+in june 2005 and the iss shoreline is
+
+207
+00:06:39,670 --> 00:06:38,240
+defined by following a constant contour
+
+208
+00:06:41,350 --> 00:06:39,680
+of relative brightness
+
+209
+00:06:44,070 --> 00:06:41,360
+reference to a local offshore pixel
+
+210
+00:06:45,430 --> 00:06:44,080
+intensity figure b is a star image
+
+211
+00:06:48,230 --> 00:06:45,440
+obtained in june
+
+212
+00:06:50,070 --> 00:06:48,240
+and july 2009 the altimetry shows a
+
+213
+00:06:50,790 --> 00:06:50,080
+smooth and specular surface with 20
+
+214
+00:06:53,350 --> 00:06:50,800
+kilometers
+
+215
+00:06:56,070 --> 00:06:53,360
+recession of the southern shoreline
+
+216
+00:06:58,070 --> 00:06:56,080
+between the iss and radar images
+
+217
+00:06:59,189 --> 00:06:58,080
+a near shore the symmetry map was
+
+218
+00:07:01,749 --> 00:06:59,199
+derived in haze at
+
+219
+00:07:03,350 --> 00:07:01,759
+all suggesting an average depth change
+
+220
+00:07:04,550 --> 00:07:03,360
+of four meters consistent with an
+
+221
+00:07:05,990 --> 00:07:04,560
+average loss rate
+
+222
+00:07:07,670 --> 00:07:06,000
+of one meter during the four years
+
+223
+00:07:09,749 --> 00:07:07,680
+between observations
+
+224
+00:07:11,270 --> 00:07:09,759
+the tide is not a dominant contributor
+
+225
+00:07:13,189 --> 00:07:11,280
+to the observed change in depth as there
+226
+00:07:15,270 --> 00:07:13,199
+are no variations in the magnitude with
+
+227
+00:07:16,469 --> 00:07:15,280
+the north-south distance from the center
+
+228
+00:07:18,230 --> 00:07:16,479
+of mass
+
+229
+00:07:19,909 --> 00:07:18,240
+and if the main process of depth changes
+
+230
+00:07:21,510 --> 00:07:19,919
+that operation the lake would have to
+
+231
+00:07:23,430 --> 00:07:21,520
+contain a high methane fraction as
+
+232
+00:07:27,189 --> 00:07:23,440
+ethane would impede methane evaporation
+
+233
+00:07:31,270 --> 00:07:29,350
+so shoreline surface changes indicate
+
+234
+00:07:32,629 --> 00:07:31,280
+local hydraulic conductivity combined
+
+235
+00:07:34,390 --> 00:07:32,639
+with weather patterns and low-level
+
+236
+00:07:36,390 --> 00:07:34,400
+humidity measurements and plyomethane
+
+237
+00:07:37,830 --> 00:07:36,400
+reservoirs in excess of observed surface
+
+238
+00:07:39,350 --> 00:07:37,840
+liquids
+
+239
+00:07:40,790 --> 00:07:39,360
+titan's hydroclimate appears to be
+
+240
+00:07:41,830 --> 00:07:40,800
+especially driven by large-scale
+
+241
+00:07:43,749 --> 00:07:41,840
+topography
+
+242
+00:07:45,189 --> 00:07:43,759
+seen through active drainage erosional
+
+243
+00:07:47,510 --> 00:07:45,199
+modification
+
+244
+00:07:49,670 --> 00:07:47,520
+saturated sediments and seemingly stable
+
+245
+00:07:51,350 --> 00:07:49,680
+polar lacustrine features
+
+246
+00:07:52,790 --> 00:07:51,360
+this evidence suggests that the presence
+
+247
+00:07:55,350 --> 00:07:52,800
+of subsurface methane
+
+248
+00:07:56,950 --> 00:07:55,360
+in contact with global climate system
+
+249
+00:07:58,070 --> 00:07:56,960
+this may be through a continuous
+
+250
+00:08:00,150 --> 00:07:58,080
+connected methane table
+251
+00:08:02,070 --> 00:08:00,160
+intersecting with the surface expressed
+
+252
+00:08:04,150 --> 00:08:02,080
+through polar lakes and seas
+
+253
+00:08:06,070 --> 00:08:04,160
+the atmosphere deposits methane into the
+
+254
+00:08:08,150 --> 00:08:06,080
+low latitudes to be infiltrated while
+
+255
+00:08:10,309 --> 00:08:08,160
+surface and subsurface transport routes
+
+256
+00:08:12,710 --> 00:08:10,319
+methane into high latitude basins which
+
+257
+00:08:14,629 --> 00:08:12,720
+then feed the atmospheric moisture
+
+258
+00:08:16,070 --> 00:08:14,639
+this subsurface transport occurs through
+
+259
+00:08:17,990 --> 00:08:16,080
+lateral flow
+
+260
+00:08:19,510 --> 00:08:18,000
+of fluid and aquifers dominantly through
+
+261
+00:08:21,270 --> 00:08:19,520
+fractures and depending on
+
+262
+00:08:23,510 --> 00:08:21,280
+active aquifer thickness hydraulic
+
+263
+00:08:27,830 --> 00:08:23,520
+conductivity porosity
+
+264
+00:08:29,270 --> 00:08:27,840
+and the hydraulic gradient
+
+265
+00:08:31,270 --> 00:08:29,280
+this is the distribution of surface
+
+266
+00:08:33,509 --> 00:08:31,280
+liquid methane averaged over the final
+
+267
+00:08:34,790 --> 00:08:33,519
+20 titan years of each stimulation by
+
+268
+00:08:36,469 --> 00:08:34,800
+faulk at all
+
+269
+00:08:38,310 --> 00:08:36,479
+the hydraulic conductivity k of the
+
+270
+00:08:39,350 --> 00:08:38,320
+surface is shown for each case
+
+271
+00:08:42,070 --> 00:08:39,360
+and corresponds to different
+
+272
+00:08:43,589 --> 00:08:42,080
+permeabilities subsurface transport is
+
+273
+00:08:45,509 --> 00:08:43,599
+dependent on hydraulic conductivity
+
+274
+00:08:47,030 --> 00:08:45,519
+which describes the ability of liquid
+
+275
+00:08:49,190 --> 00:08:47,040
+through pore space and depends on the
+276
+00:08:51,350 --> 00:08:49,200
+permeability of the porous medium
+
+277
+00:08:53,030 --> 00:08:51,360
+liquid density gravity and dynamic
+
+278
+00:08:54,389 --> 00:08:53,040
+because of viscosity
+
+279
+00:08:56,310 --> 00:08:54,399
+soil types are currently poorly
+
+280
+00:09:00,310 --> 00:08:56,320
+constrained and flow is modeled using
+
+281
+00:09:03,590 --> 00:09:01,990
+so result suggests the subsurface
+
+282
+00:09:05,190 --> 00:09:03,600
+methane reservoir more massive than the
+
+283
+00:09:06,870 --> 00:09:05,200
+observed seeds interacting
+
+284
+00:09:09,030 --> 00:09:06,880
+with the atmosphere and participating in
+
+285
+00:09:11,030 --> 00:09:09,040
+the methane cycle
+
+286
+00:09:12,550 --> 00:09:11,040
+model results implies unobserved methane
+
+287
+00:09:13,509 --> 00:09:12,560
+reservoir participates in titan's
+
+288
+00:09:15,430 --> 00:09:13,519
+methane cycle
+
+289
+00:09:18,389 --> 00:09:15,440
+best model with a hydraulic conductivity
+
+290
+00:09:19,910 --> 00:09:18,399
+of five times ten to the negative fifth
+
+291
+00:09:21,990 --> 00:09:19,920
+although this still does not explain the
+
+292
+00:09:24,070 --> 00:09:22,000
+distribution of small lakes which may be
+
+293
+00:09:25,509 --> 00:09:24,080
+due to the influence of topography or
+
+294
+00:09:27,829 --> 00:09:25,519
+regional surface variation on the
+
+295
+00:09:29,910 --> 00:09:27,839
+atmosphere
+
+296
+00:09:31,750 --> 00:09:29,920
+the model i'm currently using is the
+
+297
+00:09:32,150 --> 00:09:31,760
+resolving orbital and climate keys of
+
+298
+00:09:33,990 --> 00:09:32,160
+earth
+
+299
+00:09:35,990 --> 00:09:34,000
+and extraterrestrial environments with
+
+300
+00:09:39,550 --> 00:09:36,000
+dynamics a three-dimensional
+301
+00:09:41,910 --> 00:09:39,560
+gcm developed at the giss for modeling
+
+302
+00:09:43,590 --> 00:09:41,920
+extraterrestrial uh planets
+
+303
+00:09:45,350 --> 00:09:43,600
+and it's an ongoing effort to handle a
+
+304
+00:09:46,230 --> 00:09:45,360
+broad range of atmospheric conditions as
+
+305
+00:09:48,829 --> 00:09:46,240
+well as diverse
+
+306
+00:09:52,790 --> 00:09:48,839
+oceans land distributions and
+
+307
+00:09:56,230 --> 00:09:54,470
+so this is just a basic overview of the
+
+308
+00:09:58,230 --> 00:09:56,240
+land hydrology
+
+309
+00:09:59,750 --> 00:09:58,240
+in rocky 3d and i'm currently working to
+
+310
+00:10:01,509 --> 00:09:59,760
+adapt this to titan landscape
+
+311
+00:10:03,829 --> 00:10:01,519
+and climate through parameterization of
+
+312
+00:10:05,590 --> 00:10:03,839
+constants such as emissivity albedo
+
+313
+00:10:07,190 --> 00:10:05,600
+thermodynamics and soil properties to
+
+314
+00:10:08,949 --> 00:10:07,200
+accurately represent subsurface
+
+315
+00:10:12,710 --> 00:10:08,959
+transport throughout conifers
+
+316
+00:10:14,230 --> 00:10:12,720
+or what we confer about future work
+
+317
+00:10:15,590 --> 00:10:14,240
+may include modeling the influence of
+
+318
+00:10:17,350 --> 00:10:15,600
+changing orbital forcing on the
+
+319
+00:10:19,190 --> 00:10:17,360
+asymmetry type surface
+
+320
+00:10:20,470 --> 00:10:19,200
+and subsurface flow including
+
+321
+00:10:22,470 --> 00:10:20,480
+topographic influence
+
+322
+00:10:24,150 --> 00:10:22,480
+spatially dependent soil parameters and
+
+323
+00:10:26,230 --> 00:10:24,160
+surface evolution
+
+324
+00:10:28,630 --> 00:10:26,240
+and models such as these can help
+
+325
+00:10:30,470 --> 00:10:28,640
+constrain key properties and processes
+326
+00:10:31,590 --> 00:10:30,480
+uh useful in preparation for future
+
+327
+00:10:33,110 --> 00:10:31,600
+institute
+
+328
+00:10:34,870 --> 00:10:33,120
+exploration of titans such as with
