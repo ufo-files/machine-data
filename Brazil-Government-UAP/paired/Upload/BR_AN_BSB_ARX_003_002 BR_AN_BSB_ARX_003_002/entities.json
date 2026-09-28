@@ -31,7 +31,7 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 18,
+      "mention_count": 19,
       "name": "Força Aérea Brasileira",
       "source_segment_ids": [
         "seg-093ac9b4593755aea7a99531",
@@ -41,6 +41,7 @@
         "seg-41994fcb4b08ec5bf13fe90c",
         "seg-437be8a66bd0812970f867e9",
         "seg-511805f9702a2b54e53d187f",
+        "seg-5d00bf0a08dd965b23b78d04",
         "seg-5d4a34b449eb654d067a05f8",
         "seg-7eab409bc6bcde704e29bf94",
         "seg-936e84a6fe1778bd3e35b571",
@@ -57,8 +58,8 @@
     {
       "aliases": [
         "colares",
-        "COLARES",
-        "Colares"
+        "Colares",
+        "COLARES"
       ],
       "category": "location",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -67,13 +68,16 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 7,
+      "mention_count": 10,
       "name": "Colares",
       "source_segment_ids": [
         "seg-0ad51bda9cf4e7759dce8d3e",
         "seg-27c97c205b7894e833e7b20c",
+        "seg-3a90f1d0173fc9fe58d3574c",
         "seg-3d2b7cd87a87e3f13d4dc072",
+        "seg-46faec0e0675688ea16efada",
         "seg-4e25f0f134e2acdf896bc9dc",
+        "seg-5ee9720a47eceda6bcba9c02",
         "seg-6990bf1ec7a5c60b8e62af00",
         "seg-6b90e7facb37cf1bce9986c1",
         "seg-8d000770035f58203d7e4746"
@@ -108,7 +112,7 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 27,
+      "mention_count": 26,
       "name": "Brazil",
       "source_segment_ids": [
         "seg-03ecada919e6f0d40d3dacae",
@@ -132,7 +136,6 @@
         "seg-cea433e1d2392f056466926b",
         "seg-e129443d80aa1de701381bdd",
         "seg-e1ab6d0900ccd87fb179cc2c",
-        "seg-e37c8ec2b349bd8fb365047d",
         "seg-e890f589fcf0bc179402e7b0",
         "seg-ea830e4edb7c81c1059419eb",
         "seg-ef7af8ac00394b802fd1ace8",
@@ -142,18 +145,19 @@
     },
     {
       "aliases": [
+        "Objetos Voadores Não Identificados",
         "OVNI",
-        "OVNis",
         "OVNIs",
+        "OVNis",
         "ufo",
         "UFO",
         "UFOs",
         "Unidentified flying object",
         "unidentified flying object",
         "Unidentified Flying Object",
+        "UNIDENTIFIED FLYING OBJECTS",
         "unidentified flying objects",
-        "Unidentified Flying Objects",
-        "UNIDENTIFIED FLYING OBJECTS"
+        "Unidentified Flying Objects"
       ],
       "category": "subject",
       "counting_policy": "one occurrence per canonical source segment; translation is supplemental",
@@ -162,7 +166,7 @@
         "en",
         "pt-BR"
       ],
-      "mention_count": 152,
+      "mention_count": 151,
       "name": "UFO",
       "source_segment_ids": [
         "seg-00b6d25ca51895f99cf6cb56",
@@ -210,7 +214,6 @@
         "seg-4bc0602b211d4fe01e42f451",
         "seg-4c345ce27306861152208835",
         "seg-4f8c4dc34d36d836f8c7caf3",
-        "seg-4f9c18543f82e991c680daec",
         "seg-5046b84982b56dfe02b39de5",
         "seg-5063cde5da8eb48ec2d01655",
         "seg-56f6073b3ce65f06b03b682e",
@@ -228,6 +231,7 @@
         "seg-65d6882413940e27b53adeb5",
         "seg-66970334529d982e6a77acaa",
         "seg-67ed10039539f114513a2460",
+        "seg-6990bf1ec7a5c60b8e62af00",
         "seg-6ba837995762929b371f30b9",
         "seg-6c32b8e36e590a5b2c4e193f",
         "seg-6db204dc8de70143c9e6b7de",
@@ -303,7 +307,6 @@
         "seg-e0e8ace276d0b1d289862fe9",
         "seg-e1ab6d0900ccd87fb179cc2c",
         "seg-e30265abaa59fe88d7e836c1",
-        "seg-e37c8ec2b349bd8fb365047d",
         "seg-e75a8b2514523c6ba913a093",
         "seg-e77ba1039b730bab2d43e88b",
         "seg-e88d11a6b6596b4e4f3043ff",
@@ -428,6 +431,17 @@
         "Brazilian Air Force"
       ],
       "source_segment_id": "seg-511805f9702a2b54e53d187f"
+    },
+    {
+      "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "FAB"
+      ],
+      "source_segment_id": "seg-5d00bf0a08dd965b23b78d04"
     },
     {
       "entity_id": "ent-3eec10e96cb4aa4dc4cebeab",
@@ -564,10 +578,21 @@
         "pt-BR"
       ],
       "mentions": [
-        "COLARES",
-        "Colares"
+        "Colares",
+        "COLARES"
       ],
       "source_segment_id": "seg-27c97c205b7894e833e7b20c"
+    },
+    {
+      "entity_id": "ent-6074fd224d72482ce8385f4e",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Colares"
+      ],
+      "source_segment_id": "seg-3a90f1d0173fc9fe58d3574c"
     },
     {
       "entity_id": "ent-6074fd224d72482ce8385f4e",
@@ -582,6 +607,17 @@
     {
       "entity_id": "ent-6074fd224d72482ce8385f4e",
       "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Colares"
+      ],
+      "source_segment_id": "seg-46faec0e0675688ea16efada"
+    },
+    {
+      "entity_id": "ent-6074fd224d72482ce8385f4e",
+      "languages": [
         "en"
       ],
       "mentions": [
@@ -592,7 +628,19 @@
     {
       "entity_id": "ent-6074fd224d72482ce8385f4e",
       "languages": [
-        "en"
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "Colares"
+      ],
+      "source_segment_id": "seg-5ee9720a47eceda6bcba9c02"
+    },
+    {
+      "entity_id": "ent-6074fd224d72482ce8385f4e",
+      "languages": [
+        "en",
+        "pt-BR"
       ],
       "mentions": [
         "Colares"
@@ -613,7 +661,8 @@
     {
       "entity_id": "ent-6074fd224d72482ce8385f4e",
       "languages": [
-        "en"
+        "en",
+        "pt-BR"
       ],
       "mentions": [
         "Colares"
@@ -866,16 +915,6 @@
         "Brazil"
       ],
       "source_segment_id": "seg-e1ab6d0900ccd87fb179cc2c"
-    },
-    {
-      "entity_id": "ent-a8298876bd52e8d5d51448c3",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
-        "Brazil"
-      ],
-      "source_segment_id": "seg-e37c8ec2b349bd8fb365047d"
     },
     {
       "entity_id": "ent-a8298876bd52e8d5d51448c3",
@@ -1149,7 +1188,7 @@
       ],
       "mentions": [
         "OVNI",
-        "UFO"
+        "UFOs"
       ],
       "source_segment_id": "seg-202d06548c2ce1c60577627b"
     },
@@ -1436,16 +1475,6 @@
     {
       "entity_id": "ent-f513cab0f766319c28769063",
       "languages": [
-        "en"
-      ],
-      "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-4f9c18543f82e991c680daec"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
         "en",
         "pt-BR"
       ],
@@ -1503,9 +1532,9 @@
         "pt-BR"
       ],
       "mentions": [
+        "Objetos Voadores Não Identificados",
         "OVNI",
         "OVNIs",
-        "UFO",
         "UFOs",
         "Unidentified Flying Objects"
       ],
@@ -1632,6 +1661,18 @@
         "UFO"
       ],
       "source_segment_id": "seg-67ed10039539f114513a2460"
+    },
+    {
+      "entity_id": "ent-f513cab0f766319c28769063",
+      "languages": [
+        "en",
+        "pt-BR"
+      ],
+      "mentions": [
+        "OVNI",
+        "UFO"
+      ],
+      "source_segment_id": "seg-6990bf1ec7a5c60b8e62af00"
     },
     {
       "entity_id": "ent-f513cab0f766319c28769063",
@@ -2470,16 +2511,6 @@
         "en"
       ],
       "mentions": [
-        "UFO"
-      ],
-      "source_segment_id": "seg-e37c8ec2b349bd8fb365047d"
-    },
-    {
-      "entity_id": "ent-f513cab0f766319c28769063",
-      "languages": [
-        "en"
-      ],
-      "mentions": [
         "UFOs"
       ],
       "source_segment_id": "seg-e75a8b2514523c6ba913a093"
@@ -2534,10 +2565,12 @@
     {
       "entity_id": "ent-f513cab0f766319c28769063",
       "languages": [
-        "en"
+        "en",
+        "pt-BR"
       ],
       "mentions": [
-        "UFO"
+        "UFO",
+        "UFOs"
       ],
       "source_segment_id": "seg-ed0436d7eb41ba425c6e6406"
     },
