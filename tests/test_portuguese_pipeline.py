@@ -200,6 +200,16 @@ class PortuguesePipelineTests(unittest.TestCase):
             self.assertTrue([f for f in compare_translation(source, target) if f["check"] == "confirmation-question"])
         self.assertTrue([f for f in compare_translation("Pois não!", "Right?") if f["check"] == "idiomatic-affirmation"])
 
+    def test_more_than_ever_preserves_comparison_and_separate_negation(self):
+        for phrase in ("mais do que nunca", "mais que nunca"):
+            source = f"Agora {phrase}, precisamos observar. Nunca vi isso."
+            correct = "Now more than ever, we need to observe. I never saw this."
+            self.assertFalse([f for f in compare_translation(source, correct) if f["severity"] == "error"])
+            missing_negation = "Now more than ever, we need to observe. I saw this."
+            self.assertTrue([f for f in compare_translation(source, missing_negation) if f["check"] == "negation"])
+            missing_comparison = "Now we need to observe. I never saw this."
+            self.assertTrue([f for f in compare_translation(source, missing_comparison) if f["check"] == "idiomatic-comparison"])
+
     def test_historical_and_bibliographic_dates_preserve_actual_days(self):
         pairs = [
             ("1º de junho de 1850", "June 1, 1850", "June 2, 1850"),
