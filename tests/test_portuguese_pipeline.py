@@ -69,6 +69,13 @@ def fixture_manifest(source: Path) -> dict:
 
 
 class PortuguesePipelineTests(unittest.TestCase):
+    def test_original_spanish_dates_in_portuguese_collections(self):
+        for source, target in [("11 de j u l i o de 1989", "July 11, 1989"),
+                               ("12 de junio de 1989", "June 12, 1989"),
+                               ("11 de julho de 1989", "July 11, 1989")]:
+            self.assertFalse([f for f in compare_translation(source, target) if f["severity"] == "error"])
+        self.assertTrue([f for f in compare_translation("11 de julio de 1989", "June 11, 1989") if f["check"] == "dates"])
+
     def test_spaced_unit_abbreviations_and_nautical_distances(self):
         for source, target in [("2.000 f t", "2,000 ft"), ("5 k m", "5 km"),
                                ("83 m i l h a s náuticas", "83 nautical miles")]:
