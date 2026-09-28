@@ -166,6 +166,10 @@ def translate_text(
         return TranslationResult(text="", status="not-required")
     if not any(character.isalpha() for character in text):
         return TranslationResult(text=text, status="not-required")
+    if re.fullmatch(r"(?:https?://|www\.)[^\s]+(?:\n[^\s]+)*", text.strip(), re.I):
+        # A URL-only PDF cell can wrap across lines. Its path is literal data;
+        # retain every character, including ambiguous line-end hyphens.
+        return TranslationResult(text=text, status="not-required")
     if len(text.strip()) == 1:
         # Isolated letters can be form labels, initials or OCR fragments.
         # Preserve the observed character rather than guessing missing context.

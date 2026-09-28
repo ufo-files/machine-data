@@ -8,6 +8,21 @@ from portuguese_pipeline.translation import MLXBackend, translate_text, retry_ch
 
 
 class TranslationRecoveryTests(unittest.TestCase):
+    def test_wrapped_url_only_cell_is_preserved_without_model_translation(self):
+        class Backend:
+            def translate_raw(self, prompt):
+                raise AssertionError('URL-only cells must not invoke the model')
+        for source in ['https://example.gov.br/acesso-a-\n-informacao/arquivo.pdf/view',
+                       'www.example.org/gestao/\npessoas.pdf']:
+            result = translate_text(Backend(), source)
+            self.assertEqual(result.text, source)
+            self.assertEqual(result.status, 'not-required')
+
+    def test_non_monetary_preserves_negation(self):
+        source = 'Benefícios não pecuniários.'
+        self.assertFalse(any(f['check'] == 'negation' for f in compare_translation(source, 'Non-monetary benefits.')))
+        self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(source, 'Monetary benefits.')))
+
     def test_filename_protection_does_not_capture_neighboring_columns(self):
         from portuguese_pipeline.qa import mask_protected, restore_protected
         source = "Texto a traduzir                     Manual do Sistema.pdf"
