@@ -496,6 +496,16 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         if equivalent_count < polite_count:
             findings.append({"check": "idiomatic-affirmation", "severity": "error",
                              "status": "mismatch", "source_marker": "pois não"})
+    comparative_never = re.compile(r"\bmais\s+(?:do\s+)?que\s+nunca\b")
+    comparative_count = len(comparative_never.findall(source_folded))
+    if comparative_count:
+        # "Mais do que nunca" is an affirmative comparison: "more than ever".
+        # Require its equivalent before excluding nunca from factual negations.
+        equivalent_count = len(re.findall(r"\bmore\s+than\s+ever\b", target, re.I))
+        if equivalent_count < comparative_count:
+            findings.append({"check": "idiomatic-comparison", "severity": "error",
+                             "status": "mismatch", "source_marker": "mais do que nunca"})
+        source_folded = comparative_never.sub("", source_folded)
     for marker, target_pattern in PT_NEGATIONS.items():
         count = len(re.findall(rf"\b{re.escape(marker)}\b", source_folded))
         translated_count = len(target_pattern.findall(target))
