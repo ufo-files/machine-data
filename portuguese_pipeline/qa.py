@@ -364,6 +364,17 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         })
 
     source_folded = source.casefold()
+    exception_phrase = re.compile(r"\ba\s+não\s+ser\b")
+    exception_count = len(exception_phrase.findall(source_folded))
+    if exception_count:
+        # This phrase introduces an exception rather than another denial.
+        # Still require an explicit equivalent so omitted exceptions fail QA.
+        equivalents = len(re.findall(r"\b(?:except|unless|other than|apart from|save for|if not)\b", target, re.I))
+        if equivalents >= exception_count:
+            source_folded = exception_phrase.sub("", source_folded)
+        else:
+            findings.append({"check": "idiomatic-exception", "severity": "error",
+                             "status": "mismatch", "source_marker": "a não ser"})
     polite_reply = re.compile(r"\bpois\s+não(?=\s*[,!?]|\s*$)")
     polite_count = len(polite_reply.findall(source_folded))
     if polite_count:

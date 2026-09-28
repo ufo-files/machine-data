@@ -95,3 +95,12 @@ class IntegrityRecoveryTests(unittest.TestCase):
         self.assertFalse(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "Certainly, let's go ahead.")))
         self.assertTrue(any(f['severity']=='error' for f in compare_translation('Pois não, vamos lá.', "No, let's go ahead.")))
         self.assertTrue(any(f['check']=='negation' for f in compare_translation('Pois não havia tempo.', 'Because there was time.')))
+
+    def test_exception_phrase_preserves_exception_and_independent_negation(self):
+        source = 'Não houve explicação, a não ser para o tremor.'
+        self.assertFalse(any(f['severity'] == 'error' for f in compare_translation(
+            source, 'There was no explanation, except for the tremor.')))
+        self.assertTrue(any(f['check'] == 'idiomatic-exception' for f in compare_translation(
+            source, 'There was no explanation for the tremor.')))
+        self.assertTrue(any(f['check'] == 'negation' for f in compare_translation(
+            source, 'There was an explanation, except for the tremor.')))
