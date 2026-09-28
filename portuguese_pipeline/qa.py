@@ -376,6 +376,15 @@ def _measurements(text: str) -> Counter[str]:
         r"(?=\d+(?:[.,]\d+)?[ \t]+(?:milhas?|nmi|km)\b)",
         r"\1 \2; ", text, flags=re.I,
     )
+    # A flight number already identified by a radio callsign is not the
+    # beginning of a distance range: "QD-460 ... O 460 a 32 milhas".
+    flight_numbers = set(re.findall(r"\b[A-Z]{2}-([0-9]{2,4})\b", text))
+    for flight_number in flight_numbers:
+        text = re.sub(
+            r"\b(O[ \t]+" + re.escape(flight_number) + r")[ \t]+a[ \t]+"
+            r"(?=\d+(?:[.,]\d+)?[ \t]+(?:milhas?|nmi|km)\b)",
+            r"\1; ", text,
+        )
     # Keep OCR spaces after decimal/grouping commas inside the same value.
     text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     # Attributive English measures retain the same value: a 45-minute interview.
