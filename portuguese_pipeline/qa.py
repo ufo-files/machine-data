@@ -428,6 +428,16 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
         else:
             findings.append({"check": "idiomatic-exception", "severity": "error",
                              "status": "mismatch", "source_marker": "a não ser"})
+    confirmation_question = re.compile(r",\s*pois\s+não\s*\?")
+    confirmation_count = len(confirmation_question.findall(source_folded))
+    if confirmation_count:
+        # A comma-attached question asks for confirmation; it is not the
+        # standalone affirmative courtesy "Pois não!".
+        equivalents = len(re.findall(r",\s*(?:right|is(?:n['’]t| not)\s+(?:it|that)(?:\s+so)?|don['’]t\s+you\s+(?:think|agree))\s*\?", target, re.I))
+        if equivalents < confirmation_count:
+            findings.append({"check": "confirmation-question", "severity": "error",
+                             "status": "mismatch", "source_marker": "pois não?"})
+        source_folded = confirmation_question.sub("", source_folded)
     polite_reply = re.compile(r"\bpois\s+não(?=\s*[,!?]|\s*$)")
     polite_count = len(polite_reply.findall(source_folded))
     if polite_count:
