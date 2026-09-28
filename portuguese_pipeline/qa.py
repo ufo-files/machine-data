@@ -337,9 +337,12 @@ def _number_value(value: str) -> str:
 
 def _measurements(text: str) -> Counter[str]:
     values: Counter[str] = Counter()
-    # OCR letter spacing in a duration must not become the metre abbreviation.
-    text = re.sub(r"\bm[ \t]+i[ \t]+n[ \t]+u[ \t]+t[ \t]+o(?:[ \t]+s)?\b",
-                  "minutos", text, flags=re.I)
+    # Recognize complete, letter-spaced words before their first letter can
+    # become a false g/m unit. Do not join arbitrary isolated letters.
+    for word in ("grandes", "grande", "graus", "grau", "gostaria",
+                 "minutos", "minuto", "milhas", "milha"):
+        pattern = r"\b" + r"[ \t]+".join(word) + r"\b"
+        text = re.sub(pattern, word, text, flags=re.I)
     # Keep OCR spaces after decimal/grouping commas inside the same value.
     text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     # Attributive English measures retain the same value: a 45-minute interview.

@@ -2,6 +2,25 @@ import unittest
 from portuguese_pipeline.qa import mask_protected, restore_protected, compare_translation
 
 class IntegrityRecoveryTests(unittest.TestCase):
+    def test_spaced_words_do_not_invent_gram_measurements(self):
+        examples = [
+            ('4 g r a n d e s plotes', '4 large plots'),
+            ('210 g r a u s', '210 degrees'),
+            ('1\nG o s t a r i a de novos contatos', '1\nI would like new contacts'),
+        ]
+        for source, target in examples:
+            with self.subTest(source=source):
+                self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, target)))
+                self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, target + '; 4 g')))
+        for target in ('4 plots', '5 g'):
+            self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation('4 g', target)))
+
+    def test_spaced_miles_still_protect_distance(self):
+        source = '35 m i l h a s'
+        self.assertFalse(any(f['check'] == 'measurements' for f in compare_translation(source, '35 miles')))
+        for target in ('35 meters', '30 miles'):
+            self.assertTrue(any(f['check'] == 'measurements' for f in compare_translation(source, target)))
+
     def test_measurement_ranges_survive_page_line_wrapping(self):
         for source, target in [('500 to\n 600 meters', '500 to 600 meters'),
                                ('1.20 a\n 1.40 metros', '1.20 to 1.40 meters'),
