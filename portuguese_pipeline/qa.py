@@ -36,7 +36,7 @@ COORDINATE = re.compile(
 MEASUREMENT = re.compile(
     r"(?<!\w)\d+(?:[.,]\d+)?(?:"
     r"(?:[ \t]+(?:a|to|e|and)\s+|[ \t]*[-–]\s*)\d+(?:[.,]\d+)?"
-    r")?\s*(?:km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eéê]s?|metros?|meters?|metres?|"
+    r")?\s*(?:nmi|km/h|m/s|mph|km|cm|mm|kg|ft|m|g|p[eéê]s?|metros?|meters?|metres?|"
     r"quil[oôó]metros?|kilometers?|kilometres?|feet|foot|milhas?|miles?|minutos?|minutes?)(?!\w)",
     re.I,
 )
@@ -94,7 +94,7 @@ UNIT_ALIASES = {
     "foot": "ft", "feet": "ft", "ft": "ft",
     "centímetro": "cm", "centímetros": "cm", "centimeter": "cm", "centimeters": "cm", "cm": "cm",
     "milímetro": "mm", "milímetros": "mm", "millimeter": "mm", "millimeters": "mm", "mm": "mm",
-    "milha": "mi", "milhas": "mi", "mile": "mi", "miles": "mi",
+    "nmi": "nmi", "milha": "mi", "milhas": "mi", "mile": "mi", "miles": "mi",
     "minuto": "min", "minutos": "min", "minute": "min", "minutes": "min",
     "kg": "kg", "g": "g", "m/s": "m/s", "km/h": "km/h", "mph": "mph",
 }
@@ -351,6 +351,12 @@ def _measurements(text: str) -> Counter[str]:
                  "minutos", "minuto", "milhas", "milha", "modelo"):
         pattern = r"\b" + r"[ \t]+".join(word) + r"\b"
         text = re.sub(pattern, word, text, flags=re.I)
+    # Spaced multi-letter abbreviations immediately after a numeric value.
+    for unit in ("km", "cm", "mm", "ft", "kg"):
+        pattern = r"(?<=\d)[ \t]+" + r"[ \t]+".join(unit) + r"(?!\w)"
+        text = re.sub(pattern, " " + unit, text, flags=re.I)
+    # Nautical miles are distinct from statute miles on both sides.
+    text = re.sub(r"\bmilhas?[ \t]+n[áa]uticas?\b|\bnautical[ \t]+miles?\b", "nmi", text, flags=re.I)
     # Keep OCR spaces after decimal/grouping commas inside the same value.
     text = re.sub(r"(?<=\d),[ \t]+(?=\d)", ",", text)
     # Attributive English measures retain the same value: a 45-minute interview.
@@ -408,7 +414,10 @@ def compare_translation(source: str, target: str) -> list[dict[str, object]]:
     def commentary_markers(text: str) -> Counter[str]:
         return Counter(re.sub(r"\s+", " ", match.group(0)).strip().casefold()
                        for match in TRANSLATOR_COMMENTARY.finditer(text))
-    if commentary_markers(target) - commentary_markers(source):
+    source_commentary = commentary_markers(source)
+    # A translated note heading is part of the document when present in source.
+    source_commentary["note:"] += len(re.findall(r"(?im)^[ \t]*nota[ \t]*:", source))
+    if commentary_markers(target) - source_commentary:
         findings.append({
             "check": "translator-commentary",
             "severity": "error",
