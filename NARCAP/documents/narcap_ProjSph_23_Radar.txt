@@ -1,0 +1,1019 @@
+{"created_utc": "2026-10-02T18:35:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 267853, "source_file": "NARCAP/documents/narcap_ProjSph_23_Radar.pdf", "source_sha256": "03e4fba46cb3fe91dde917277eb5d1f62416a24e58bb288354bfccd78bae650b", "source_url": "https://www.narcap.org/s/narcap_ProjSph_23_Radar.pdf"}
+
+narcap Project Sphere 2.3                         Page 1                                       M. L. Shough
+
+
+                                                2.3
+                                 Radar Detection of Spherical Targets
+
+
+                                       Martin L. Shough
+                            NARCAP Research Associate (United Kingdom)
+
+                                         December 15, 2009
+                                             Copyright
+
+
+1. Principles of RADAR
+   Electric currents are induced in a conductive object when it is illuminated with radio
+energy from a transmitting antenna. These currents cause the object itself to act like a
+secondary antenna and re-radiate energy. Some of this energy is directed back towards the
+transmitter and is said to be reflected. A receiving antenna can then collect it, and the
+measured time delay of this "echo" can be used to calculate distance based on the fact that
+radio waves travel at the speed of light. When the transmitting antenna is shaped to radiate
+the energy into a narrow beam it becomes possible to discriminate both target range and
+target direction. This is the basic principle of RADAR (RAdio Detection And Ranging).
+
+   In practice the same antenna is generally used for transmitting and receiving and is
+switched rapidly between these modes, so that the energy is emitted in a short pulse after
+which the radar listens for echoes from targets and this duty cycle is repeated typically
+hundreds of times per second while the antenna rotates to continuously scan a large
+volume of the atmosphere. Roughly speaking, the angular width and angular height of the
+emitted beam, and the pulse length, together define a resolution cell which is a minimum
+volume having dimensions of azimuth, altitude and range within which the radar will not
+discriminate between two adjacent targets.
+
+   Types of targets divide broadly into area targets, volume targets and point targets, the
+echo from each having a different range dependency. Area targets are extended two-
+dimensional surfaces such as large areas of surface terrain; the strength of returned echo
+varies like the cube of the distance. Volume targets are three-dimensional regions of echo,
+large in relation to the resolution cell dimensions, and with some radar transparency, such
+as rain clouds; and their strength of echo varies like the square of the range. Point targets
+are the type of targets of interest to most radar operators, discrete objects with echoing
+areas that are not large relative to the resolution cell dimensions, such as aircraft, birds
+etc., and the strength of echo from these targets varies like the 4th power of range, which
+appears in the denominator of the simplest form of the primary radar equation1 for average
+received power Pr as
+
+
+1. Secondary radar (SSR), widely used in Air Traffic Control alongside primary radar, does not detect echo
+       but employs the method of triggering radar transponders whose replies encode aircraft identification
+       and barometric height readings. SSR detection probability therefore varies only like the inverse
+       square of range instead of the inverse 4th power.
+narcap Project Sphere 2.3                    Page 2                                    M. L. Shough
+
+
+         ---    Pt G2 λ2 σ
+         Pr = __________                                                           1
+               (4 π )3 R4
+
+where Pt = transmitted power, G = antenna gain, λ = wavelength, R = range to the target,
+and σ is a parameter called the Radar Cross-Section of the target.
+
+
+2. General Definition of Radar Cross-Section
+   Technically Radar Cross-Section (RCS, or σ) is the ratio of radiated power density
+intercepted by a target to the power per unit solid angle backscattered to the receiving
+antenna by the target, so it is a measure of the efficiency with which a target echoes radar
+energy back to the radar receiver. This efficiency depends on shape, size, material
+composition and other factors that vary widely between different types of target. Therefore
+in order to compare dissimilar targets it is useful to express their efficiency in terms of the
+projected cross-sectional area of a perfectly conducting sphere which would return the
+same power to the same receiver in the same conditions. This equivalent area is the RCS
+and is expressed in square metres.
+
+   In general RCS is determined by projected area and by the directivity (both of which
+are dependent on the bulk geometry of the object) and the reflectivity (dependent on the
+material composition and/or small-scale surface geometry of the object). As a matter of
+general practice, and for most of the purposes of this study, UAP detections can be
+considered to involve point targets in the equivalent optical region of the RCS diagram in
+Fig.1, where RCS is a constant independent of the wavelength and where probability of
+detection varies simply like the 4th power of the range. But as discussed below there are
+special circumstances in which range and/or target diameter is not large with respect to
+wavelength and where the RCS of a spherical target varies according to wavelength.
+
+
+3. General RCS of a Sphere
+    The RCS of a sphere is in most cases especially simple (Goodrich et al., 1961). If the
+diameter is large compared to the operating wavelength then the RCS of a smooth
+reflective sphere is just its projected geometrical area, or σ = πr2, and this is constant with
+regard to wavelength and with regard to any linear polarisation. Thanks to spherical
+symmetry everything also stays constant regardless of aspect. For these reasons spheres
+are often used as radar calibration targets.
+
+   Another simplification allowed by spherical targets is that tracking errors will be
+negligible. Because an echoing target acts as an antenna re-radiating intercepted power, its
+radar output has its own near- and far-field properties and a radiation pattern related to its
+size and shape. For large and complex targets the phase differences between wavefronts
+coming from different parts of the target can add or subtract in complicated ways to shift
+the phase centroid away from the geometric centre of the target - even outside the physical
+target volume. This is called a 'glint' error, which can be significant for tactical tracking
+radars in particular. But in the case of a smooth sphere there is no glint or tracking error, as
+the phase centroid always coincides with the geometric centre.
+
+ As already mentioned, in the far-field or 'optical' region of the RCS diagram in Fig.1,
+where λ<< range and λ<< radius, RCS is constant. However when the circumference of the
+narcap Project Sphere 2.3                      Page 3                              M. L. Shough
+
+
+sphere falls below about 10λ, then the response is in the Mie resonance region of the
+diagram and RCS can fluctuate increasingly widely as the circumference approaches the
+wavelength. Finally, where 2πr/λ falls below 1.0 we enter the Rayleigh region, which
+describes the case for spheres that are small in relation to the wavelength and here the
+RCS is strongly and linearly wavelength-dependent (like the 4th power). This is the part of
+the diagram usually appropriate to weather radar detection of raindrops and hail.
+
+
+                            Figure 1. The Radar Cross-Section Diagram
+
+
+4. RCS of a Sphere in the Mie Region
+    As described in Section 3, in the Mie or resonance region the far-field RCS equation
+breaks down. This is mainly due to interference caused by "creeping waves". Whilst most
+of the radar energy returned from a sphere is due to specular reflection at the point nearest
+to the antenna, there is an added contribution when the radar wavelength is near the target
+circumference (Fig 2). Some radar energy follows the surface of the sphere and "creeps"
+all the way around its shadowed side to be backscattered towards the receiving antenna.
+But because of phase differences these two components of the radar return do not always
+add constructively. Instead interference produces a series of peaks and troughs, so that
+where λ = 2r the RCS oscillates, up to a peak of 4 times the far-field value rising from an
+adjacent minimum of 0.26 times the far-field value. In other words a change of less than a
+factor 2 in either the target radius or the radar wavelength can change RCS by a factor of
+about 15.
+narcap Project Sphere 2.3                    Page 4                                M. L. Shough
+
+
+                 Figure 2. Specular and Creeping Waves on a Spherical Reflector
+
+
+5. Polarisation
+    Polarisation of a simple radio wave is defined by the orientation of the plane of the
+electric vector, which is rotated 90° relative to the plane of the magnetic vector. Electrons
+in a resonating target undergo an induced oscillation in this plane when the energy is
+absorbed by them, acquiring an electric dipole moment that varies at the frequency of the
+incident wave, and the oscillating charge in turn acts as a secondary transmitting antenna
+to return an "echo". By (in effect) rotating the entire radar antenna the designer can choose
+the plane of radar polarisation to suit different applications. Most radar applications use
+horizontally polarised waves. For some applications the output is elliptically polarised to
+varying degrees (as described below), or occasionally cross-polarised. Polarisation losses
+caused by these different modes are of considerable importance for determining RCS.
+Some of these losses are unwanted, others are created by design.
+
+   Unwanted polarisation loss occurs because most surveillance radar is horizontal plane-
+polarised in order to optimise detection of horizontally extended edges and cylinders. This
+direction suits the typical orientation of most targets - aircraft, ships, coastlines etc -
+needing to be detected in the air or at sea. Horizontal linear polarisation is also often used
+in weather radars (such as the WSR-88D widely-used in the US NEXRAD network) to
+maximise echo from raindrops, the reason being that they are flattened by aerodynamic
+compression forces during their fall. But some target components are narrow vertical
+cylinders and edges - such as masts, funnels and rigging on ships, or tail fins on aircraft -
+and these shapes incur polarisation loss because they reflect only the parallel (vertical)
+component and so give poor echoes for horizontally polarised radars (Wiley, 1952; Briggs,
+1998).Similarly, horizontally plane-polarised radar might be relatively inefficient at
+tracking missile launches, for example, if the typical target orientation is perpendicular to
+the plane of polarisation, so the output of a dedicated launch tracking radar might be
+chosen to be vertical plane-polarised.
+
+   In these cases the objective is to minimise polarisation loss in order to optimise the
+detection of certain targets. But in other cases the design goal is to maximise polarisation
+loss in order to suppress echoes from certain targets, especially for rejection of weather
+narcap Project Sphere 2.3                            Page 5                                 M. L. Shough
+
+
+clutter in ATC and defence surveillance radars by the use of non-linear polarisation.
+
+    Weather clutter is very largely caused by echo from near-spherical water droplets or
+hailstones, so for this reason circular or elliptical polarisation is used. This is created by
+splitting the output electric vector into two equal vectors, rotating one through 90° and
+introducing a 1/4 wave phase delay with respect to the other, with the effect that the
+resultant electric vector rotates as it progresses down the axis of propagation. This rotation
+can be either anticlockwise or clockwise with respect to the direction of propagation,
+described as left-handed or right-handed respectively.
+
+   The clutter suppression effect of this technique depends on the facts that the direction
+of polarisation of the radar wave is inverted through reflection and that an antenna
+emitting signals of one handedness will only receive signals of the same handedness,
+rejecting signals of oppositely-handed polarisation. Reflections of right-circularly
+polarised signals from smooth spheres are returned efficiently to the receiver as left-
+circularly polarised echoes, so the radar is blind to them; whereas echoes from
+complicated targets such as aircraft or ground structures undergo random numbers of
+multiple reflections before bouncing back to the receiver and thus arrive having enough of
+the original handedness to give a usable signal. This technique can reduce the RCS of a
+near-spherical raindrop by 15-30dB (up to 1/1000) whilst reducing typical aircraft RCS by
+only 5-7dB (Mao, 1988) or "complicated targets such as ships and aircraft" (Briggs, 1998)
+by as little as 3dB (1/2), improving the differential visibility of targets in weather by a
+factor of several hundred.2
+
+    If raindrops were perfect spheres then simple circular polarisation would be a still more
+effective clutter suppressor than it is, but they generally are not perfect spheres.
+Fortunately the phase and amplitude relationships of the component wave vectors can be
+tailored to produce elliptical polarisations. Elliptical polarisation theoretically can improve
+the rejection of weather clutter, but different types of raindrop have different ellipticities
+and matching the output to spheroids with variable axial ratios in the region 0.94 - 0.99
+(Skolnik, Intro p.505) is a delicate task. Moreover the degree of ellipticity of the radar
+polarisation changes as the beam penetrates into the rain because of random phase shifts
+due to scattering, and the shapes of raindrops themselves may vary from place to place
+within the same weather system, so that reacting to rain clutter effectively needs adaptive
+polarisation and complex algorithms.
+
+  The use of polarisation designed to suppress weather has implications for the effective
+RCS of spherical targets in general.
+
+
+6. General Practical Effects with Typical Radar Wavelengths and Polarisations
+    Some wavelengths and other characteristics of various civil and military radars
+commonly used for air traffic control (ATC), defence surveillance and targeting are listed
+in Table 1. As explained in Section 3 the RCS of a sphere is sensitive to the ratio of
+wavelength to radius. Where λ<<range and λ<<radius we are in the optical or equivalent far-
+field region of the RCS diagram, where σ = π r2 and returned signal strength will vary
+smoothly as the 4th power of the range. The boundary of this region occurs where the
+circumference of the sphere is more than about 10 times the wavelength, or, to put it
+
+2. A technique called linear cross-polarisation can also be used but is not so effective.
+narcap Project Sphere 2.3                            Page 6                                             M. L. Shough
+
+
+differently, where the diameter of the sphere is about 3.2 times the wavelength.
+
+   From Table 1 (adapted from Cole, 1985) we can see that for a range of civil/military
+ATC and surveillance radars this optical case will apply for spheres larger than about 0.5m
+in diameter (32 - 74cm). Below this size (down to the Rayleigh limit) the Mie resonance
+case will apply and RCS will fluctuate nonlinearly. For some long range ATC and defence
+radars the boundary will lie at about 1.6m.
+
+
+  Typical
+                            Operational role                                Characteristics
+ wavelength
+                     Airfield Surface Movement   very high resolution for detecting aircraft, ground vehicles and
+                          Indicator (ASMI)                          personnel on the airfield
+     8mm
+                            Infantry manpack      portable high-resolution tactical radar for battlefield use
+
+
+                             Mobile security                  for area security and military tactical vehicles
+
+                     Precision Approach (PAR)                 guides a/c onto glide path and to touchdown
+
+                       Airfield Control (ACR)                          guides a/c onto PAR or ILS
+
+      3cm               Gunlaying & tracking          often mobile, tactical target acquisition and following
+
+                       Airborne Intercept (AI)      nose-mounted target-following for air weapons guidance
+
+                              Weather radar                         detection of volume precipitation
+
+                              Marine radar                       seaborne navigation and anti-collision
+
+
+      6cm                     Weather radar                         detection of volume precipitation
+
+
+                                                                    detection of volume precipitation
+                              Weather radar
+                                                 surveillance of ATC terminal areas, guidance of a/c to runways
+                               ATC TMA
+                                                                surveillance of air routes out to ~200nmi
+                             ATC long range
+     10cm
+                                                      transportable, tactical air support and recovery to base,
+                             Defence Tactical
+                                                                            anti-jamming
+                             Defence Search
+                                                 detection of hostiles and direction of interception, anti-jamming,
+                                                                     usually with height-finder
+
+
+                             ATC long range                     surveillance of air routes out to ~200nmi
+
+                             Defence Tactical         transportable, tactical air support and recovery to base
+     23cm
+                             Defence Search      detection of hostiles and direction of interception, anti-jamming,
+                                                                     usually with height-finder
+narcap Project Sphere 2.3                          Page 7                                        M. L. Shough
+
+
+     50cm                   Long-range ATC                  surveillance of air routes out to ~200nmi
+
+
+               Table 1. Wavelengths and Other Characteristics of a Range of Civil
+                                     and Military Radars
+
+    Close to these critical values where the largest Mie resonance fluctuation is to be found
+it might sometimes occur that multiple radars of different types with operating
+wavelengths differing by a factor of about 2 (as is the general case in Table 1) might
+encounter a differential in effective RCS of about an order of magnitude (see Section 3,
+Fig.1). In practice this means that if the probability of detection of a ~1m sphere is about
+90% by a long range L-band en route ATC radar then the probability of detection of the
+same target by an S-band terminal area radar might be only around 10%, or vice versa.3
+
+   A further factor determining RCS is polarisation, as discussed in Section 5. ATC radars
+in particular require weather clutter suppression. Circular polarisation will cause a
+designed polarisation loss for spheres of all radii, but for a given r/λ the loss will be
+smaller the larger r becomes, as increasing radius of curvature of the surface at the
+specular point approximates a plane reflector (in the limit of a sphere of infinite radius). If
+non-circular elliptical polarisation is in use, an echo from a perfectly spherical UAP would
+be rejected at the receiver with somewhat lower efficiency than elliptical raindrops (in
+terms of dB-down per unit RCS) and might have some added super-clutter visibility on
+this account. Of course one can only speculate about the true sphericity or otherwise of
+hypothetical radar-reflective UAPs .
+
+   Another type of clutter suppression necessary for most applications is MTI, or Moving
+Target Indication, which in its simplest form compares pulse-to-pulse phase shifts in the
+echoed signal to measure small changes in target range (on the scale of a fraction of a
+wavelength, i.e. typically millimeters) and uses a filter to reject targets with phase shifts
+above a certain value. In this way permanent clutter due to ground reflections can be
+eliminated from the display. A side effect is that stationary airborne targets, or moving
+targets in certain radius turns that happen to preserve constant echo phase, might also be
+rejected. These problems of MTI "blindness" are not generally very important, but might
+occasionally be, especially when considering older radar systems involved in historical
+incidents.
+
+   Contrarily, certain targets of complex shape which are stationary in the sense of having
+no bulk displacement might rotate, either bodily or in part, and present a varying aspect to
+the radar, such that phase shifts defeat the MTI filter. Thus a stationary target, such as a
+hovering helicopter, may still appear on the display with MTI switched on.4 In a similar
+
+3. Assuming equivalent conditions, i.e. that the target lies at the same fraction of maximum effective range
+       from both radars, and neglecting factors other than wavelength.
+4. Sophisticated modern MTI (often known as MTD for Moving Target Detection) uses a bank of Doppler
+       filters to examine the Doppler content of returned signals and in this way is able to discriminate and
+       control more types of clutter echo. For example, a reflector such as a wind-blown forest on the side
+       of a hill may have zero bulk displacement yet contain a spectrum of non-zero radial speeds which
+       can defeat simple MTI cancellation. MTI will thus not rid the radar screen of this permanent clutter.
+       But Doppler MTD can analyse these spectra and the filters can be "tuned" to recognise and
+       eliminate them whilst preserving wanted "stationary" targets with different Doppler signatures, such
+       as hovering helicopters.
+narcap Project Sphere 2.3                          Page 8                                       M. L. Shough
+
+
+way, an aircraft on a constant radius course which might otherwise be filtered from the
+screen due to to MTI "phase blindness" may bank or yaw and return phase-shifted echoes.
+Clearly, in the case of helicopters and fixed wing aircraft such an MTI "flaw" tends to be
+quite useful for ATC purposes. But evidently a truly spherical target whose aspect
+variation is zero will not benefit from it, and therefore we can say that spherical targets
+may in general tend to have a slightly reduced probability of detection in certain marginal
+situations (but see Section 8).
+
+
+7. Material Composition
+    Material composition has a dramatic effect on RCS of all targets. The radar echo
+depends on induced charge motions in the target and RCS is calculated as a ratio of the
+efficiency of a perfectly conducting sphere. But not all types of objects in the air are
+perfectly conducting, or even conducting at all.
+
+i) solids
+    Solid spheres made of nonconductive materials will generally have an RCS of
+approximately zero. Such types of object would include neoprene or polyethylene balloons
+(neglecting payload equipment which may return an echo). However, balloons with
+metallised fabrics are sometimes used for radar callibration and similar purposes, and
+would return an efficient echo subject to all the considerations previously outlined. If an
+ordinary weather balloon should be wet, or iced in severe cold, then it too may acquire a
+small RCS.
+
+   Conversely, conductive metal spheres which are inherently efficient reflectors might be
+coated with radar-absorbent paints (a well-established technology dating back to the
+1950s), or with high-tech metamaterials,5 and might as a result have a negligible RCS.
+
+ii) aggregates
+    On the other hand a target that is not even a solid can be a highly efficient radar
+reflector, provided it permits the induction of radiating currents. For example a dispensed
+cloud of very fine wires each a few cm in length can be as effective as a solid sheet of
+steel in hiding an aircraft from enemy radar, and similar types of "chaff" and "window"
+have been used to decoy and confuse radars since WWII. A cloud of such reflectors might
+initially behave for radar purposes somewhat like a compact blob or ribbon, drifting down
+under gravity and slowly dispersing. But most aggregate wind-dependent targets of this
+type would be unlikely to behave like airborne spheres for any length of time.
+
+   Clouds of suspended water droplets, or ice in the form of hail pellets or crystals, are of
+course routinely detected by radar. Individual droplets and hail pellets may behave as
+spherical resonators generally in the Rayleigh scattering region of the RCS diagram. These
+types of natural precipitation do not normally aggregate in spheroidal forms.
+
+   Considering clouds of individual echoing elements on a smaller scale, conductive
+metallic particles or dusts could form temporarily suspended windborne clouds. Insofar as
+such reflectors are detectable (an excited resonance depends on the ratio of particle size to
+wavelength) they would in general tend to behave like natural precipitation, being in the
+
+
+5. Microwave metamaterials are relatively new technology, at least in the white world, and practical
+       applications may be some time away (see Section 8.iii) (Gao, 2005; Varga, 2004)
+narcap Project Sphere 2.3                           Page 9                                         M. L. Shough
+
+
+Rayleigh scattering region for all purposes with an RCS linearly proportional to the 4th
+power of the radius (see Section 3, Fig.1 ). Again there seems to be no reason for such
+particles to form stable spherical aggregations.
+
+  There is however the possibility that dielectric dusts may be involved in the shaping of
+some little-understood types of natural atmospheric plasma related to "ball lightning", so
+certain types of targets could perhaps be composites, of dusts held together by - and
+themselves modifying - the charge distribution inside compact plasmoids, to which we
+now turn.
+
+iii) plasmas
+    On a still smaller scale than dusts and droplets, a gas of electrically neutral atoms has
+effectively zero RCS, but a gas of ions containing separated free charges can be an
+efficient target in the Mie and optical regions.6 Such a state is called a plasma, which is
+still electrically neutral overall but can support induced currents.7 Plasma RCS is sensitive
+to the wavelength of the radar and the ion density. Generally, long wavelength radar and a
+high density of free electrons are conditions for significant RCS.
+
+    Free plasmas in nature - such as lightning channels in the lower atmosphere or auroral
+streamers and meteor trails in the upper atmosphere - are regularly detected by radars,
+incidentally or by design. In the case of lightning strokes and meteors the fast charge
+recombination rates mean that they appear only as extremely short-lived point targets
+usually detected only on a single scan of a surveillance radar. Aurorae are more persistent
+but present as large, fluctuating, diffuse area targets many degrees of arc in extent. These
+types of plasma are not generally of interest for the purposes of this study.
+
+   The head echoes of large, slow, fireball meteors might behave to certain radars as
+spheroidal plasmas but will only rarely be detected on several successive scans and thus
+from the radar user's point of view are likely to be disregarded or electronically suppressed
+as sporadic noise. More interesting for our purposes are the tropospheric phenomena
+generally known as "ball lightning" (BL) which according to reports may survive for
+periods that are long relative to typical radar update rates.
+
+   BLs appear to be free-floating plasmas held in spheroidal configuration8 by
+containment forces that are not well understood. Because the physics is obscure, the
+occurrence sporadic and the controversial models not predictive, there have (to the
+author's knowledge) been no studies of BL on radar. But we can make some general
+remarks.
+
+   A natural plasmoid is expected to have a radially varying ion density (generally
+proportional to a central field strength varying like 1/r), as in Fig.3, with an effective radio
+surface being defined by a transition from what are called overdense to underdense states.
+This surface can be treated as a perfectly conducting metal shell. (Kleinman et al., 1970)
+
+6. This difference is exploited militarily in a stealthed radio antenna called a plasma antenna. This is a
+        radar-transparent tube of gas which, when energised, is heated and ionised, behaving like a
+        conductive metal and radiating radio waves, but which when cold and unused recombines to a
+        neutral gas which cannot be detected by enemy radars.
+7
+   See paper 2.2 for a corollary discussion. (Ed.)
+8. A spheroid represents a minimum-energy surface and for this reason a spheroid (or sometimes an
+        ellipsoid) is usually the only stable solution in viable electromagnetic BL theories.
+narcap Project Sphere 2.3                            Page 10                            M. L. Shough
+
+
+    A spherical plasmoid is the simplest case. For a given spherical plasmoid the radius at
+which this critical surface occurs will depend on the wavelength of the illuminating radar.
+It occurs where a parameter called the plasma frequency, proportional to the charge
+density, exceeds the electromagnetic frequency of the incident radiation. This means that
+there is a point at which the RCS of a plasma effectively shrinks to zero area and becomes
+invisible to radar as the frequency increases. Or, in other words, wherever there is a natural
+spectrum of ion densities in any plasma target, it will have a larger RCS at long
+wavelengths, behaving electromagnetically as a perfectly conductive reflecting thin shell
+in some longwave limit. Conversely, the same plasma region will be increasingly radar
+absorbent at short wavelengths, approaching a perfectly absorbent thin shell in some
+shortwave limit.
+
+
+           Figure 3. Cross-section through a radially varying electron density around
+                  an ionising source. At the critical surface reflection is specular,
+                              i.e. the plasma behaves as a radio mirror
+
+
+   So plasmas can be 'tuned' to be either efficient reflectors or efficient absorbers, which
+gives them a role in possible radar stealth designs and by the same token makes it difficult
+to predict how plasmoids of unknown structure and cause (natural or not) will behave in a
+given radar environment.9
+
+   The possibilities are complicated further by the fact the radar surface of critical
+reflecting density would not be expected to represent an abrupt transition to a charge
+density of zero, so if the depth of the outer plasma is significant relative to the radar
+wavelength then the RCS will be the sum of three processes, absorption, reflection and
+again absorption.
+
+   In addition to this, where the radar frequency exceeds the plasma frequency in the outer
+layer, the layer can act as a diverging lens. The effect of this lensing is to reduce the
+apparent RCS of a reflective surface within the layer (Marini,1968). In other cases where
+an outer plasma layer around a reflective target is itself to some extent reflective (as in the
+case of a re-entering artificial satellite) the resultant echo signal amplitude will be an
+unpredictable sum of the phases of the two different reflections, either increasing or
+
+
+9
+    See section 3 in paper 2.4 regarding radar-emission) for related discussion. (Ed)
+narcap Project Sphere 2.3                          Page 11                                        M. L. Shough
+
+
+decreasing the RCS.10
+
+   A persistent plasma is by definition in an equilibrium state between an input energy of
+ion dissociation and an output energy due to ion recombination, and this output is in the
+form of photons so that a plasma is expected to be generally a continuous optical emitter
+during its lifetime. It is worth noting that the radar surface - the critical density surface of
+total reflection - generally need not coincide with the emissive optical surface. Therefore
+depending on radar wavelength the size of the plasma "seen" by radar may be different
+from the size of the same plasma seen by the eye or by optical instruments.
+
+   Charge polarisation may also be a factor. A secret Defence Intelligence Staff study for
+UK Ministry of Defence in 2000, codenamed CONDIGN, suggests that dusty plasmas
+containing charged aerosols may self-organise into a structure that can enhance radar
+scattering and increase RCS. The strong tendency of the plasmoid to maintain neutral
+overall charge will cause ions to congregate in oppositely charged clouds which cloak the
+aerosols, resulting in plasmoids with temporarily-stable multiple cores bound together by
+electric forces. These cores may then resonate independently under radar illumination, so
+that the effective RCS of the plasma at changing aspects may be complicated by
+fluctuations occurring due to cancelling and reinforcing phase effects.
+
+   It is presumably possible that such hypothetical plasmas may fragment into multiple
+independent targets separated by neutral insulating air. In this case the radar signature may
+be considered that of an aggregate of smaller spherical resonators, the average overall
+RCS varying unpredictably in relation to the radar wavelength and the dimensions of the
+radar resolution cell.
+
+
+8. Conclusions
+   In the optical or far-field region of Fig.1, where 2πr/λ ≥ ~10, the relative performance
+of different radars at different bearings from a target will remain (uniquely) constant for a
+sphere (i.e, RCS is independent of aspect), but near 2πr/λ ≥ ~1 in the Mie region one
+would expect to find order-of-magnitude differences in target Pd for nearby dissimilar
+radars due to the resonance effects discussed in Section 3. This means that in a typical
+ATC radar environment (Section 6) where practical probability of detection Pd of a
+spherical target in the order of 1m across by radar A at a given range might be (say) 90%,11
+the same primary targer might be detected with Pd < 10% at the same range by radar B of
+equal power but different wavelength.
+
+
+10. This effect was first noticed with radar measurements of the re-entering Soviet Sputniks in the early
+        years of the space age. A U.S. study (IEEE, 1963) found that where the echo amplitudes were
+        similar the summation of the two phasors in the simple spherical case could either enhance the RCS
+        significantly or nullify it completely, rendering the sphere invisible to radar.
+11. According to Cole (1985) most users are looking for Pd = 80% - 90% as a desirable efficiency in normal
+        operation. The reason why Pd does not approach 100% may not immediately be obvious from the
+        relatively straightforward radar equation given in Section 1, but is easier to appreciate in terms of
+        the full radar equation given by Cole where the right hand side contains 17 different electromag-
+        netic, propagational and engineering factors, of which the RCS (whose complexity even for the
+        simplest possible target geometry we have begun to appreciate) is but one. To put this in dramatic
+        terms, Pd = 100% is impossible in principle for any real target whatsoever unless its range from the
+        antenna is exactly zero.
+narcap Project Sphere 2.3                          Page 12                                       M. L. Shough
+
+
+   It is highly likely that natural spherical UAP12 of this order of size do exist (see Fig.4).
+There is some indication that artificial13 spherical aeroforms of this order of size may also
+exist, or may be in development. Either could potentially impact air safety. Therefore
+NARCAP should recommend a study of the ability of the traffic control system to respond
+effectively to possible radar hazards when there is a detection conflict between sensors.
+
+   We will now make some further comments on each of these two categories of spheroidal
+radar target.
+
+i.) Natural plasma spheroids
+    Another factor possibly prejudicing effective ATC response to natural spheroidal radar
+hazards of the BL class is their reported short duration. Although this factor is not directly
+related to the sphericity of the plasmoids, it may have a bearing on the practical impact of
+other factors that are so related.
+
+    The modal duration of BL according to one study (Rayle, 1966) is only 5-7 seconds
+(25% of cases; see Fig.5) which is comparable to or shorter than typical ATC radar update
+rates (in the range 5-12 seconds for ASR-9 and ARSR-3 radars), meaning that probability
+of tracking needs to be considered independently of the probability of simple detection
+above noise level. This difference is often expressed in terms of "thresholds of detection".
+
+   A typical tracking filter14 on a surveillance radar usually operates with a threshold of at
+least 3 associable plots to avoid overloading the display with spurious track projections
+interpolated from nearby unrelated targets, clutter and noise (Cole 1985; Skolnik 1981;
+1990). One or two data points on a BL may well survive first and second thresholds of
+
+12. This would be at the large end of the range of diameters reported for natural lightning balls, given as
+       generally 0.2 - 1.0m (9" - 39") by Stenhoff (1999) but numbers of such estimates do exist. Rayle
+       (1966) found that fully 25% of NASA observers questioned reported diameters in excess of 25"
+       (0.64m) and 10% around 35" or more (~1.0m). On most plausible electrical theories BL plasma
+       size would be expected to be proportional to the stored energy. There is therefore no definite upper
+       limit. Wessel-Berg (2004) calculates that stored BL energy corresponding to a diameter in the order
+       of 10m might rarely be within the range of typical lightning discharge energies, but such estimates
+       are highly theory-dependent.
+13. According to Avionics Magazine, Oct 01 2003: "The AINS program [U.S. Office of Naval Research
+       Autonomous Intelligent Networks and Systems project, November 2002] sponsored exercises in
+       August using experimental vehicles such as Silver Fox, a fixed-wing UAV built by Advanced
+       Ceramics Research (ACR), in Tucson, Ariz. . . . [The] UAV has demonstrated the dropping of
+       spherical sensors attached to its wings. These electronically guided, sometimes winged, "eggs" --
+       with glide slopes ranging from 2-to-1 to 15-to-1 -- have provided video data."
+       http://www.avtoday.com/av/categories/commercial/1126.html
+            Dr. Jacques Vallée stated in 1993: ". . .there are small spheres about one meter, you know, 3 or
+       4 feet in diameter, that can hover, they can move in any direction, almost silently or in some cases
+       silently. They are used as ranging devices. . . . Those things have been, you know, technically
+       achievable certainly for the last ten years. These can be used for reconnaissance, they could carry a
+       camera. They're essentially platforms, remotely piloted platforms, that can, that are highly
+       maneuverable." http://www.21stcenturyradio.com/ForbiddenScience.htm
+
+14. Known as a "track-while-scan" or Automated Detection & Tracking (ADT) system. Note that a local
+       ATC area covered by multiple radars may use an integrated ADIT (Automated Detection and
+       Integrated Tracking) system to compile detections from all radars into a single track file. With a
+       spherical target in the Mie resonance region a counterintuitive situation might possibly arise where
+       the addition of a second radar reduces the overall effective signal-to-noise ratio by contributing
+       negative detections and preventing the ADIT filter from assigning a track even on the screen of
+       another radar that has only positive detections.
+narcap Project Sphere 2.3                                                   Page 13                                        M. L. Shough
+
+
+detection, i.e. the receiver would register a signal above noise level, and the plot-extractor
+software would present interpulse run-lengths and sample profiles15 to the display as true
+detections rather than noise; but the plots would not then be exploitable by the tracking
+filter, because typically 3 associable surveillance plots will require a minimum interval of
+about 10 seconds. This is a duration equalled or exceeded in only 40% of BL observations
+according to Rayle (1966), and in this 40% of cases even if the ADT does assign a primary
+track it will be almost as quickly terminated unless further plots are made on succeeding
+scans (Skolnik, 1981). Only in about 7% of cases does BL survive long enough to give
+four successive radar plots.
+
+
+                                                      Reported Diameters of Lightning Balls
+                                                     25
+
+
+                            number of observations
+                                                     20
+
+
+                                                     15
+
+
+                                                     10
+
+
+                                                      5
+
+
+                                                      0
+                                                          0-1   1.3   3-5   5-7       7-10   10-15   15-25   25-35   >35
+                                                                        diameter (inches)
+
+
+                  Figure 4. Estimated diameters of lightning balls in 98 observations
+                       reported by personnel of NASA Lewis Research Centre
+                                     (data from Rayle 1966)
+
+
+   Another factor not directly related to the sphericity of targets but of importance with
+regard to natural BL plasmoids is the range of speeds. In 71 observations by NASA
+employees tabulated by Rayle (1966) 83% of estimated maximum groundspeeds lie in the
+range 0 - 60mph. Many such reflectors would be at high risk of being filtered out by
+Moving Target Indicator settings on ATC radars.
+
+    Although spheroidal plasmas have often been observed near and even within aircraft in
+flight, historically the observations are more numerous near the ground than at high
+altitude. This may merely reflect witness opportunity (there are obviously more potential
+observers on or near the ground), but could also be physically significant.16 If so then it
+
+15. The 'run length' indexes the number of positive and negative pulse responses during the beam's dwell
+        time on target, and techniques such as the "sliding window" are used to prepare an envelope profile
+        (i.e., signal rise and decay slopes) from the amplitudes of the successive pulse echoes. The
+        envelope is then compared with a library of envelopes typical of aircraft echoes to decide if a "real
+        target" is present.
+16. According to several theories it is the conventional cloud-to-ground circuit that maintains the ball,
+        suggesting that BL will form below the charged cloud base, i.e. in the middle to lower troposphere.
+        In Wessel-Berg's "free-space spherical transmission" model (Wessel-Berg, 2003; 2004) spheres are
+        favoured solutions at low level, whilst other geometries would predominate at altitude - a pattern
+        which Wessel-Berg claims matches observation.
+narcap Project Sphere 2.3                                                         Page 14                                 M. L. Shough
+
+
+would be more likely for aircraft to encounter BL during terminal manouvering than en
+route, i.e. when the BL is at low altitude and at relatively short range from relatively large
+numbers of radars. From a research point of view this would mean that the distribution of
+occurrence of spheroidal plasmas may conveniently be positively correlated with the
+completeness and redundancy of radar cover; but, inconveniently, it would be inversely
+correlated with the amount of attention that will be spared for them by aircrews and Air
+Traffic Controllers, as long as they are regarded as a low-priority, low-risk issue.
+
+                                                             Duration of Ball Lighting observations
+                                                        25
+
+
+                              num ber of observations
+                                                        20
+
+
+                                                        15
+
+
+                                                        10
+
+
+                                                         5
+
+
+                                                         0
+                                                               0-1   1-5    5-7     7-10    10-15   15-25   25-35   >35
+
+                                                                     duration of observation (seconds)
+
+
+                   Figure 5. Estimated durations of lightning balls in 96 observations
+                       reported by personnel of NASA Lewis Research Centre
+                                       (data from Rayle 1966)
+
+   These factors give added point to the air safety considerations: Terminal radar control
+(TRACON) areas are the most congested airspaces, extending up to perhaps 13,000ft for a
+few tens of miles around major airports and covered usually by multiple S-band radar
+heads of the ASR-9 class with outputs centralised at a remote TRACON facility. Here is
+where the highest level of aircrew and controller workload coincides with the highest level
+of risk to commercial planes due to their proximity to the ground, to birds, to uncontrolled
+primary traffic and to one another.
+
+   It is therefore of concern, given these psychological and environmental factors, that we
+have identified several physical and engineering factors that may tend to prejudice the
+radar Pd of plasma spheroids. These include:
+
+         unpredictable variability of RCS due to plasma absorption and phase interference
+          effects;
+         fugitive and possibly conflicting radar responses in the Mie resonance region;
+         spherical/elliptical polarisation losses; and
+         MTI suppression.17
+
+
+17. On the other hand it may conceivably be the case (depending on the unknown physics of BL) that
+        relatively rapid oscillations on a scale of cms, such as internal turbulence, spinning, radial scale
+        fluctations, or oscillatory bulk displacements, might occur which defeat MTI filters by returning
+        phase-shifted echoes even if a plasmoid is on average stationary.
+narcap Project Sphere 2.3                            Page 15                                          M. L. Shough
+
+
+   To these factors we can add that because plasma RCS will in general be positively
+correlated with radar wavelength (Section 7.iii), and because en route ATC radars tend to
+operate with longer wavelengths than shorter-range TMA radars (Table 1),
+
+         the Pd of BL by air traffic surveillance radars will tend to be higher in the upper
+          troposphere (tens of thousands of feet) where its frequency of occurrence is lowest,
+          and lower in just those low-level TMA airspace volumes (thousands of feet and
+          below) where it seems most likely to be encountered.
+
+   Moreover, we note that insofar as lightning is regarded as a "weather" phenomenon,
+BL-type plasmoids may be an under-emphasised air traffic risk if reliance on integrated
+weather radar products - such as the FAA Integrated Terminal Weather System (ITWS)
+operational since 1998 - encourages complacency on the part of Controllers. BL plasma
+spheroids appear to be strongly correlated with thunderstorm conditions, but do not always
+occur near or during active electrical storms, and whilst ordinary lightning strokes can be
+monitored by passive RF lightning mappers and other means, and their associated storm
+cell precipitation detected and predictively mapped by weather radars, BL falls through
+both the lightning-detector and radar nets. Weather radars such as WSR-88D are short
+wavelength (Table 1), optimised for precipitation, and unsuitable for detection of echo
+from plasmas, in addition to which they employ slow volume scan algorithms whose
+update rates (up to 10 minutes) are useless for obtaining timely data on phenomena whose
+mean lifetime is measurable in seconds.
+
+ii.) artificial spheroids
+    Hypothetical artificial aerial spheroids may behave like simple metal reflectors, in
+which case the considerations of Sections 1 to 7.ii apply. By definition (Section 1.ii) the
+RCS of a simple spherical conductor must be proportional to its projected area. An
+exception would be spheroids constructed using traditional Radar Absorbent Materials
+(RAM) or microwave metamaterials, as mentioned in Section 7.i.
+
+    Metamaterials are like a honeycomb or matrix of small radio waveguides whose
+geometry is carefully calculated to control the behaviour of radio waves incident on the
+material, potentially in more efficient and controllable ways than traditional RAM
+coatings An object whose gross geometry, on a scale >>λ, is that of a simple sphere might
+be stealthed by a cloak of metamaterials that give it a more complex surface geometry on
+scales <λ. Such materials can, in principle, be designed to duct energy around an object, so
+that, at the particular design wavelength, it has an RCS that is small or zero and so is
+effectively invisible to the radar even though it may be constructed of an intrinsically
+radar-reflective conductive material. (Schurig et al., 2006; see also Alù et al., 2004; Cui et
+al., 2008)
+
+   Given that unidentified spheroidal aeroforms do exist, it is also possible to imagine that
+the technologies of lift, propulsion or concealment involve the generation of a plasma
+sheath around the vehicle.18 The principle has been considered for control of laminar flow
+around airframes - both for increasing aerodynamic efficiency and for suppressing sonic
+booms. - and also has applications in radar stealth. (Chow et al., 2002) Experimental
+
+18. Clearly a sphere has zero average aerodynamic lift (apart from a possible small Magnus Effect lift if in
+        rapid rotation) and, if it is not neutrally buoyant, relatively exotic flight principles might be implied.
+        It is not our purpose here to speculate about such principles. [Also see Paper 2.1.1 for further
+        relevant information; Ed.]
+narcap Project Sphere 2.3                          Page 16                                       M. L. Shough
+
+
+systems are known to have been tested in various countries including Russia, the US and
+France. In 2002 a Russian plasma stealth system was reported as being installed in a
+combat production aircraft, offering a factor 100 reduction in RCS. (Fiszer &
+Gruszczynski, 2002)
+
+   Whilst an overdense plasma surface will act as a radar mirror (Section 7.iii), effectively
+increasing the target's projected area and therefore its RCS, an underdense sheath is in
+principle an efficient absorber and instead of reflecting incident microwave energy back to
+the transmitter will transduce it into heat (and possibly light).19 Also as mentioned in
+Section 7.iii divergent lensing would be expected within an underdense spherical plasma,
+so that the effective residual RCS due to radar energy reaching a vehicle within such an
+absorbent sheath might be somewhat further reduced.
+
+    It is possible that phasor addition of reflections from a solid metallic core and from a
+partially radar-transparent surrounding plasma sheath might eliminate the resultant RCS
+entirely (IEEE, 1963). But generally such phase effects will be fortuitous, dependent on
+unpredictable physical and electromagnetic variables. Useful control of such an effect
+seems less likely than the use of a plasma sheath as a microwave absorber, although to be
+fully effective in practice both presuppose impressive systems agility, from sensor to
+reactive hardware.
+
+   Another theoretical possibility for a smart sphere capable of rapid analysis of incident
+radar wavelength is exploitation of the variable RCS occurring in the Mie resonance
+region. This would require reactive variable-geometry, specifically change of physical
+radius. The simplest case would be inflation-deflation of a spherical skin (such as a
+metallised fabric) by control of gas pressure, which one might imagine being a technique
+open to the new class of part-buoyant Hybrid Air Vehicles (HAV) being developed by the
+US and UK for long-endurance surveillance.20 Far-fetched, perhaps, but small changes of
+sphere radius near λ = 2r could allow a factor-15 control over RCS. This corresponds to
+a power ratio of only ~12dB, which is small compared to ~30dB or more achieved by
+proven stealthing techniques (about 1.5%) and claimed for plasma stealth (1%) but might
+not be negligible in some marginal cases.
+
+   Whether any small, smart, spherical devices exploiting Mie resonance mechanically
+have ever been conceived, designed, or flown is a matter for speculation, but it seems
+unlikely. Electromagnetic inflation-deflation of the effective radar-echoing area of a
+plasma sheath by varying the plasma frequency (Section 7.iii) is perhaps a slightly less
+impractical way to implement this principle, if it were ever thought worthwhile.
+
+   In summary, certain limitations on efficient radar detection of both natural plasma
+spheroids and hypothetical spherical devices have been identified. In terms of NARCAP's
+
+19. There may be a trade-off to be considered between reduced RCS and an increased target signature for
+        thermal-optical tracking systems.
+20. E.g., Lockheed Martin's LEMV (Long Endurance Multi-Intelligence Vehicle) and the Skycat developed
+        by HAV Ltd at Cardington in the UK. These helium designs are typically 60-80% buoyant. But they
+        are generally much too large for Mie resonance effects to be relevant and are not spherical.
+        Spherical airships have been marketed in recent years by, among others, Cyber Aerospace
+        Corporation and Techsphere Systems International in the US, but again these are very large, bigger
+        than 10*2πr/λ except for long meter waves and thus well into the linear optical region for practical
+        radar purposes. Presumably classified meter-sized HAV programs for specialised applications may
+        exist as well as these white-world private-venture vehicles.
+narcap Project Sphere 2.3                           Page 17                                        M. L. Shough
+
+
+mission, we raise the concern that such phenomena could, in certain circumstances, pose a
+potential risk to air safety that may be underestimated in current ATC system design and
+operation.
+
+
+9. Recommendations
+   The general definition of the risk Ro of an event is the product
+
+              Ro = Po * Io                                                                        2
+
+where Po = probability of occurrence and Io = impact of occurrence. For example, impact
+of an asteroid strike (measured on some appropriate scale of damage) would be very high,
+but probability might be very low, leading to only moderate risk. Similarly, the probability
+of occurrence within a given radar environment of meter-scale spheroidal flying devices
+may be deemed small (both a priori and because of normal effective airspace zoning) but
+the potential impact of their occurrence, in circumstances where radar Pd may be degraded
+(Section 8), has to be assumed to be relatively large. Conversely, the probability of
+occurrence of natural spheroidal plasmas may be intrinsically quite large21 yet the impact
+may be relatively small (no known directly attributable fatalities, and pilot reports of BL
+manifesting harmlessly near and even inside aircraft, suggest that it can be unexpectedly
+benign22). It is possible that the risk product Ro might be similar in both cases.
+
+   No attempt has been made here to quantify this risk, but intuitively it might be thought
+negligible. After all, code traffic, primary traffic and various types of radar noise and
+clutter - including natural hazards such as birds - generally co-exist peaceably on-screen,
+and rare transient phenomena of the type considered here ought not to contribute very
+significantly against this background. But the range of properties and effects of BL
+plasmoids remains very uncertain, whilst related atmospheric electrical phenomena
+continue to be discovered (e.g., sprites, jets etc); and we note that the availability of small
+UAV-type devices has spread in recent years beyond the traditional aerospace users
+(government agencies and prime military contractors) and into the hands of small
+opportunistic entrepreneurs, individual "inventors" and hobbyists,23 a trend which tends to
+imply an increasing chance of conflict with controlled air traffic.
+
+
+21. Some estimates suggest it may be commonplace, simply not easily visible in daylight beyond a few tens
+         of meters and thus under-sampled by observers, (Altschuler, 1970) but the true rate is unclear. A
+         rate of 3*10-9 km-2 min-1 has been inferred from automated lightning camera photographs, and a
+         figure of 3 percent of the frequency of ordinary cloud-to-ground lightning strokes has been derived
+         from observer reports (Barry, 1980). A NASA map of global lightning frequency (see
+         http://thunder.nsstc.nasa.gov/data/ ) suggests that these estimates are in order-of-magnitude
+         agreement for a rate of lightning strikes appropriate to low storm incidence areas (such as the U.K.,
+         Scandinavia, N. Canada and some ocean areas).
+22. Of course BL could be involved in unsolved fatal air accidents and we would not necessarily know
+         about it. Damage reportedly has occurred.
+23. C.f., the semi-rigid rotating Girostats and other powered "micro-airships" - from 2ft balloons to 36ft
+         dirigibles - flown by amateur rocket builder Frank Sharman in the UK (from about 1989 ), see:
+         http://www.unrealaircraft.com/wings/girostat.php ; or the powered spherical balloons and blimps of
+         Mikhail Kuzmek in Belgium during the same era, which have been claimed (admittedly on
+         unconvincing evidence) as contributors to the Belgian wave of UFO sightings 1989-93, see e.g.
+         http://adelmon.free.fr/vaguebelge/Kuzmek1.html
+narcap Project Sphere 2.3                    Page 18                                 M. L. Shough
+
+
+   Therefore NARCAP should recommend that FAA radar data-collection procedures be
+audited to ensure that the Administration is in a position to effectively prevent - or to react
+in a timely and effective fashion to any failure to prevent - future conflicts between UAPs
+and code traffic in controlled airspace.
+
+   In an ideal world, given some of the sensor limitations and potential risks mentioned in
+Section 8, one would like to recommend that long-wavelength, rapid-update acquisition
+and target-following radars, tailored for short-lifetime UAP detection and bypassing the
+limitations imposed by ADT and MTI signal processing filters in traffic control, be
+deployed to monitor busy low-altitude airspace volumes. Such a dedicated raw radar
+product could be made optionally available to Controllers in real time alongside
+precipitation and wind-gust display overlays via the integrated ITWS (thus
+complementing, not compromising, the functionality of the ATC signal processing).
+
+    But such a step, however desirable (from the point of view of research as well as of air
+safety), would rightly be considered costly and impractical by industry and regulators,
+even if the risk product (see above) were considered not negligible. Any improvement in
+real-time detection of natural BL plasmoids needs to be acted upon to reduce practical
+risk, but communication and reaction times are probably longer than the typical plasmoid
+lifetime, and air safety gains would probably be negligible.
+
+   Indirect safety benefits might accrue from non-real-time study of transient UAP
+detections by existing ATC radar systems. However, mere routine analysis of past radar
+data logs would not necessarily provide data useful for research. Past experience indicates
+(e.g. Haines, et.al., 2007) that combing FAA datasets for plots of low- Pd UAPs that may
+be characterised by small RCS and short lifetime is likely to be inconclusive. This is
+because primary echo data are typically reduced to digitised plot-extracted form at the
+radar head (see Section 8.i), permitting rapid dissemination to Control rooms by narrow-
+bandwidth telecoms channels but permanently dumping non-track-associated target plots
+and raw pulseform data that could be useful for scientific analysis.
+
+   Therefore NARCAP should recommend a study by radar engineers for presentation to
+FAA on the cost and practicality of automatically saving raw analogue data at the radar
+head, prior to digital plot-extraction and MTI filtering, for detailed non-real-time analysis.
+This would place no pressure either on the restricted transmission bandwidth between
+radar head and controller display or on the controller's real-time vigilance, but would make
+the primary echo pulseforms of transient UAP phenomena available for scientific research
+and could provide vital data for ATSB investigations in the event of air accidents related to
+UAPs.
+
+   In summary, in the context of the limited remit of this paper, we draw attention
+tentatively to the following particular recommendations:
+
+         FAA should investigate the cost of routinely preserving pre-filtered pulseform data
+          on uncorrelated primary echoes for later technical analysis.
+         FAA should undertake a study of the ability of the traffic control system to respond
+          effectively to possible meter-scale UAP radar hazards when there is a conflict
+          between nearby sensors operating at different wavelengths (see Section 8.i, Note
+          12)
+         FAA should ensure that Air Traffic Control managers familiarise radar room staff
+narcap Project Sphere 2.3                    Page 19                                M. L. Shough
+
+
+          with the possible radar characteristics of short-duration, sub-meter-scale plasma
+          spheroids - e.g., slow-moving, variable-RCS primary echoes on short tracks
+         in furtherance of which, ATC and carriers should maintain up-to-date reviews of:
+          a) literature in relevant areas of meteorology, plasmadynamics and plasma stealth
+          technology
+          b) information on government and private-venture UAV development programs;
+          and
+          c) reliable sources of research in the field of anomalistics
+
+
+10. References
+Alù, A. and Nader, E.,'Peculiar Radar Cross-Section Properties of Double-Negative and
+         Single-Negative Metamaterials', Departmental Papers (ESE) 2004. Available at:
+         http://works.bepress.com/andrea_alu/2
+ Altschuler, M.D., 'Atmospheric Electricity & Plasma Interpretations of UFOs'. in: Gilmor
+         (ed.), Scientific Study of Unidentified Flying Objects, Colorado U./Vision Press,
+         1970, p.723.
+ Barry, James D., 'Ball Lightning & Bead Lightning'. Plenum Press, New York, 1980.
+ Briggs, John N., 'Target detection by Marine Radar',' IEE Radar, Sonar & Navigation
+         Series 16, 1998, p. 256.
+ Chow, A., K.X. He, J.D. Mo, X. Tang, 'Weakly ionized gas characterization and
+         applications in shear flow control by microwave', 33rd Plasmodynamics and Lasers
+         Conference, Maui, Hawaii, May 2002.
+Cole, Henry W., 'Understanding Radar', Collins, London, 1985.
+CONDIGN Report, 'Charged Dust Aerosols - Dusty Plasmas & Atmospheric Plasmas as
+         Reflectors and Absorbers', Vol. 2, p. 61, Working paper No 19, MoD, U.K., 2000.
+CONDIGN Report, 'Detection of UAPs by Radar', Vol. 2, p. 46, Working Paper No 5,
+         MoD, U.K., 2000.
+Cui, W., Jia Chen, Wei Ma, Lede Qiu, 'Peculiar radar cross section properties of
+          metamaterials with zero index of refraction', International Conference on
+          Microwave and Millimeter Wave Technology, Nat. Key Lab. of Space Microwave
+          Technology, Xi'an Institute of Space Radio Technology, 2008.
+ Fiszer, M., & J. Gruszczynski, 'Russia Working on Stealth Plasma', Journal of Electronic
+          Defense, June 2002.
+Gao, Q., Yin, Y., Yan, D.B., Yuan,. N.C., 'Application of metamaterials to ultra-thin radar-
+         absorbing material design', Electronics Letters, Vol. 41, No. 17, pp. 936-937, 2005.
+Goodrich, R. F., Harrison, B.A., Kleinman, Ralph E., Senior, Thomas B. A., 'Studies in
+          Radar Cross-Sections -- XLVII. Diffraction and scattering by regular bodies - I: the
+          sphere', 146 pp, University of Michigan. Radiation Laboratory, College of
+          Engineering Technical Report, Dec.1961. http://hdl.handle.net/2027.42/21227
+ Haines, Richard F. (Senior Ed.), et. al., 'Report of an Unidentified Aerial Phenomenon and
+         its Safety Implications at O'Hare International Airport on November 7, 2006.'
+         March 9, 2007. http://www.narcap.org/reports/010/TR10, pdf
+IEEE (Institute of Electrical and Electronics Engineers) 'Radar cross sections of dielectric
+          or plasma coated conducting spheres and circular cylinders', IEEE Transactions on
+          Antennas and Propagation, pp. 558-569, September 1963.
+ Kleinman, R. E. Senior, T. B.A., Uslenghi, P. L.E., 'Low Frequency Scattering by Plasma
+         Coated Objects', 166pp, University of Michigan Radiation Laboratory, College of
+         Engineering Technical Report, January, 1970.
+narcap Project Sphere 2.3                Page 20                               M. L. Shough
+
+
+Mao, Y.H., 'MTI, MTD and adaptive clutter cancellation', in: 'Advanced Radar
+       Techniques & Systems', Gaspare Galati (Ed), IEE Radar, Sonar, Navigation and
+       Avionics Series 4, Peter Peregrinus Ltd. (on behalf of IEE 1988), p.285.
+Marini, John W., 'On The Decrease of the RCS of the Apollo Command Module Due to
+       Reentry Plasma Effects',, NASA Technical Note TN D-4784, Goddard Space Flight
+       Center, Greenbelt, Md, September 1968.
+        http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19680025668_1968025668.pdf
+Rayle, Warren D., 'Survey on Ball Lightning Characteristics', NASA Technical Note TN-
+       D-3188, NASA Lewis Research Center, January 1966.
+Schurig, D., J. Mock, B. Justice, S. Cummer, J. Pendry, A. Starr, D. Smith, 'Metamaterial
+       Electromagnetic Cloak at Microwave Frequencies', Science, Vol. 314. No. 5801,
+       977-980, 2006. http://www.sciencemag.org/cgi/content/abstract/1133628
+Skolnik, M.I. (Ed.), 'Radar Handbook' (2nd Edition), McGraw-Hill, 1990.
+Skolnik, M.I., 'Introduction to Radar Systems', (2nd Ed.), McGraw-Hill International,
+       1981.
+Stenhoff, M, 'Ball Lightning—An Unsolved Problem in Atmospheric Physics', Plenum
+       Press, 1999.
+Wessel-Berg, T., 'A proposed theory of the phenomenon of ball lightning', Elsevier,
+       Physica D, 182, 223–253, 2003.
+Wessel-Berg, T., 'Ball Lightning and Atmospheric Light Phenomena: A Common Origin?'
+       Journal of Scientific Exploration, Vol. 18, No. 3, pp. 439–481, 2004.
+Wiley, F. J., 'The Use of Radar at Sea', Institute of Navigation/Hollis & Carter, London,
+       1952.
+Varga, L., 'Radar Signature Control Using Metamaterials', Defence R&D Canada,
+       Technical Memorandum DRDC Ottawa TM 2004-265, November 2004.
+       http://pubs.drdc.gc.ca/PDFS/unc33/p523164.pdf
