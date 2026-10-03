@@ -1,0 +1,46 @@
+{"created_utc": "2026-10-03T17:28:42Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 18345, "source_ctime_ns": 1790859517523343597, "source_file": "Archives-for-the-Unexplained/documents/20041113-Re_nohup-seti-on-RH-Linux-141637.pdf", "source_mtime_ns": 1790859517233778334, "source_rel": "Archives-for-the-Unexplained/documents/20041113-Re_nohup-seti-on-RH-Linux-141637.pdf", "source_sha256": "34bd0fdd2284764321d64a02f81b23940b977b953233a031d574ba37ce781d9b"}
+
+Re: nohup seti on RH Linux
+
+
+  Subject: Re: nohup seti on RH Linux
+  From: Martin 53N 1W
+  Date: 13/11/2004, 00:26
+  Newsgroups: alt.sci.seti
+
+  UC wrote:
+  [...]
+
+
+          I don't have KDE installed on the computer. Running just command line. Was thinking I could run it like:
+          nohup setiathome /dev/nul & > 1 Something like that if it's possible.
+
+
+  You could try:
+
+  cd "whatever you dir is for setiathome"
+  nohup ./setiathome >setiathome.log 2>&1 &
+
+  This sends all text messages to "setiathome.log" and the final "&" runs the job as a background task.
+
+  You can look at the text output file with "more" or "less" or "tail" or others. With linux you get lots of choice.
+
+  I monitor the output with "tail -f setiathome.log".
+
+  Use "man tail" for further details.
+
+
+  The first time you run it, you'll need the attach option. There's also utilities to monitor the state file and progress.
+
+  Good luck,
+  Martin
+
+
+  --
+  ----------   OS? What's that?!
+  - Martin -   To most people, "Operating System" is unknown & strange.
+  - 53N 1W -   Mandrake 10.0.1 GNU Linux - An OS for Supercomputers & PCs
+  ----------   http://www.mandrakelinux.com/en-gb/concept.php3
+
+
+20041113-Re_nohup seti on RH Linux-141637.html[12/03/2022 16:27:22]

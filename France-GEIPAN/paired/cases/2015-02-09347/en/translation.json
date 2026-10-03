@@ -183,39 +183,19 @@
         },
         {
           "end_ms": null,
-          "error": "translator omitted protected tokens",
+          "error": null,
           "field": "description",
           "page_id": "page-3a8b0f33d338d1a8a4344297",
-          "qa_findings": [
-            {
-              "added_in_translation": [
-                "01:00",
-                "01:55"
-              ],
-              "check": "times",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "check": "protected-tokens",
-              "missing_from_translation": [
-                "PAN",
-                "OVNI"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "failed-protected-token-check",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-9939ab546a89578a62652402",
           "segment_index": 12,
           "source_segment_id": "seg-9939ab546a89578a62652402",
           "source_text_sha256": "67d8b9e0bff3fd78b13d096db22845083f92c5e180df3cc9525dbd009e84ac50",
           "start_ms": null,
-          "status": "failed-protected-token-check",
-          "text": "Description: On February 2, 2015, at 1 a.m., a witness in their courtyard observed a red-orange ball in the sky for 3 minutes, initially thinking it was an airplane. At 1:40 a.m., the witness observed a large, black object flying very low and without lights over neighboring buildings, describing its front as having a rounded triangular shape with rectangular windows. As the object approached slowly, the witness noticed a large red-orange ball beneath it, resembling a position light. The object, moving very slowly, hovered then emitted a thick fog and disappeared from the witness's view as it flew backward. No sounds were heard. Around 1:55 a.m., the witness observed a bright white star for 1-2 minutes that suddenly accelerated and disappeared from view. The witness believed it to be the previously seen object. Only one testimony with a photograph of the observation location was collected. Since this observation, the witness has seen unidentified flying objects (UFOs) in the sky of Perpignan both day and night. These observations present unusual characteristics, especially as the witness reports the phenomenon repeating. Consequently, the GEIPAN requested a local investigator to interview the witness. On September 30 in the evening, despite very cloudy conditions during the visit, the witness told the investigator they saw light phenomena passing through the sky, which the investigator did not witness. In 25 minutes, the witness reported seeing 31 UFOs in the form of white dots passing, hiding, and stopping. The witness stated that other people to whom they tried to show the phenomena also did not see them. The witness reports that synthetic crystals were implanted in their eyes shortly after the February observation (they were wearing glasses at the time but almost blind.) It was after the operation that they started seeing \"armadas,\" \"myriads\" of UFOs every night over Perpignan. This observation case is clearly the result of ophthalmic issues, both before and after the operation, for the February observation and the recurring observations afterward. The witness seems excessively focused on UFOs to the point of excluding that their observations are the result of a vision problem. GEIPAN classifies this case as B: the witness's vision was very likely impaired.",
-          "translation_text_sha256": "f24e03fb22b3de30922eb0d0ccd8169a51b51a14b4f20205452275c3dfc17329"
+          "status": "machine-unreviewed",
+          "text": "Description: On February 2, 2015, at 1 a.m., a witness in the courtyard of their residence observed a red-orange ball in the sky for 3 minutes: the witness thought it was a plane. At 1:40 AM, the witness observed above the roofs of neighboring buildings a very large black craft flying very low with all lights out: the witness described the front of the craft as having a rounded triangular shape with rectangular portholes. As the craft slowly approached the witness, the latter observed, under the craft's base, a large red-orange ball resembling a position light. The craft, moving very slowly, then comes to a stop, emits a thick fog, and disappears from the witness's sight as it moves away backward. No noise is heard. At approximately 1:55 a.m., the witness observes for 1 or 2 minutes a large, very bright white star that suddenly departs at a very high speed and disappears from view. The witness thinks it is the craft seen previously. Only one testimony was collected with a photograph of the observation site. Since this observation, the witness has observed PAN in the sky of Perpignan both day and night. These sky observations present unusual peculiarities, especially given that the witness sees the phenomenon repeat. As a result, the GEIPAN requested a local investigator to come and investigate the witness. On September 30 in the evening, despite the very overcast weather during the observation, the witness told the investigator that he saw light phenomena passing through the sky, which the investigator did not see at all. In 25 minutes, the witness commented on the passage of 31 UFOs in the form of white dots that pass, hide, stop. The witness said that the other people to whom he had tried to show the phenomena also did not see them. The witness reports that he was fitted with synthetic crystals shortly after his February observation (he was wearing glasses at the time but was nearly blind.) It was following his operation that he began seeing \"armadas,\" \"myriads\" of UFOs every night above Perpignan. This observation case is obviously the consequence of ophthalmic problems, even after his operation, both for the February observation, before the operation, and for the recurrent observations after the operation. The witness seems excessively focused on the OVNI to the point of excluding that his observations are the result of a vision problem. The GEIPAN classifies this case as B: The witness's vision was very likely disturbed.",
+          "translation_text_sha256": "fa78f43a6215371519154af66c9f141c3475cf2ec5e006dbbd7bac5066e5646f"
         }
       ],
       "source_page_id": "page-3a8b0f33d338d1a8a4344297"
@@ -226,13 +206,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-10-01T09:33:32Z",
-    "method": "local-mlx-lm",
-    "model": "mlx-community/aya-expanse-8b-4bit",
+    "generated_at": "2026-10-03T16:57:23Z",
+    "method": "deterministic-qa-repair-of-retained-translation",
+    "model": "mlx-community/aya-expanse-8b-4bit + QA repair",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "partial",
-    "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v4"
+    "prompt_sha256": "6e05a472dd3a9630569cd08a1cdb536271348d81c7b54228eca5c68644d7eee2",
+    "review_status": "machine-unreviewed",
+    "runtime_version": "health-recovery-2026-10-03",
+    "workflow_version": "fr-en-geipan-translation-prompt/v5"
   }
 }
