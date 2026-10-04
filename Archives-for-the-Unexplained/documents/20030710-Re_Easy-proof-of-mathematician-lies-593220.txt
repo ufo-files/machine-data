@@ -1,0 +1,132 @@
+{"created_utc": "2026-10-04T22:14:09Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 29491, "source_ctime_ns": 1790859869885763046, "source_file": "Archives-for-the-Unexplained/documents/20030710-Re_Easy-proof-of-mathematician-lies-593220.pdf", "source_mtime_ns": 1790859869826595846, "source_rel": "Archives-for-the-Unexplained/documents/20030710-Re_Easy-proof-of-mathematician-lies-593220.pdf", "source_sha256": "1823374c8f5aa69a63dd1bcdfba8dff501abe54527a7d9f352b672275e69fc86"}
+
+Re: Easy proof of mathematician lies
+
+
+  Subject: Re: Easy proof of mathematician lies
+  From: kramsay@aol.com (Keith Ramsay)
+  Date: 10/07/2003, 03:31
+  Newsgroups: sci.skeptic,sci.math,alt.math.undergrad
+
+  jstevh@msn.com (James Harris) wrote in message
+  news:<3c65f87.0307060713.72113e6f@posting.google.com>...
+  | kramsay@aol.com (Keith Ramsay) wrote in message
+  news:<17a4a089.0307052140.6ae2bd9@posting.google.com>...
+  [...]
+  | > When you refer to "the" factorization of P(m) into linear terms
+  | > (a1x+uf)(a2x+uf)(a3x+uf), that's consistent with x being a variable.
+  | > If x is a constant, there's no uniqueness in such a factorization (and
+  | > not much that you can prove about the values of a1, a2, and a3). In
+  | > the next step you infer that the coefficient of x^3 on the right hand
+  | > side (a1a2a3) is the same as the coefficient of x^3 on the left hand
+  | > side. This also is consistent with x being a variable. If two
+  | > polynomials are equal for all values of x, then their corresponding
+  | > coefficients have to be equal. But if x is a constant, that step is
+  | > invalid.
+  |
+  | That's false. Consider again x^2 + 4x + 4 = (x+2)(x+2), as that is
+  | true whether or not you consider x variable or not.
+  |
+  | The *factorization* is what's important, and it exists without regard
+  | to whether or not you call P(x) = x^2 + 4x + 4 a polynomial, or just
+  | have x^2 + 4x + 4 with x=2.
+  I'm taking a second shot at explaining this. (Perhaps I should point
+  out that probably the most attractive feature of entering into
+  discussions like this is the chance to try out explanations and see
+  which of them make sense to you.)
+  It has to do with the difference between a constant and a variable. In
+  your example, whether we take x to be a constant or a variable is
+  irrelevant, because in either case there's just one quantifier
+  involved, and it's a universal quantifier: the claim is that this
+  equation holds for *all* values of x. But this is misleading, because
+  in other cases the statement given in a proof has more than one
+  quantifier in it, and they come in a different order depending on
+  whether x is a constant or a variable. I'll explain both situations.
+  Suppose we have a proof where x is introduced as a complex number, a
+  constant. We would have something like this:
+       Suppose that x is a complex number.
+       .
+       .
+       .
+       Clearly, x^2+4x+4 = (x+2)(x+2).
+  If we don't introduce any additional assumptions about x, the
+  statement at that step is that this equation holds for an arbitrary
+  complex number x, in other words that for every complex number x, we
+  have x^2+4x+4 = (x+2)(x+2). The "every" is the universal quantifier.
+  It would be bad style to say at this point that there is _some_ x
+  satisfying the equation, because we've already assumed that we had
+  some given value of it, and we shouldn't go switching to talking about
+  this (possibly different) value of x.
+  If we introduce x as a variable, we would have something like this:
+       Let x be a complex-valued variable.
+       .
+       .
+       .
+       We know that x^2+4x+4 = (x+2)(x+2) holds for every x.
+  That's just another way of making the same statement about the
+  equation. In this case, we could substitute "holds for some x" or
+  "holds for at least three x's" and so on, because we haven't assumed a
+  specific value of x is given yet.
+  If more than one quantifier is involved (quantifying over more than
+  one variable), things get more subtle. We might want to say, for
+  example that there exist complex numbers a and b having the property
+
+
+20030710-Re_Easy proof of mathematician lies-593220.html[27/03/2022 17:42:05]
+Re: Easy proof of mathematician lies
+
+  that for every complex number x, x^2+4x+4 = (x+a)(x+b) holds. That has
+  the universal quantifier "for every" on x, but before it there's also
+  an existential quantifier "there exist" on a and b. The only advantage
+  of having declared x to be a complex-valued variable previously is
+  that we get to present this fact without having to say again that x is
+  complex:
+         Let x be a complex-valued variable.
+         .
+         .
+         .
+         We know that there exist complex numbers a and b such that
+         x^2+4x+4 = (x+a)(x+b) holds for every x.
+  We could even say that there are unique complex numbers a and b such
+  that x^2+4x+4 = (x+a)(x+b) holds for every x, since only a=b=2 will
+  do.
+  If, however, x is declared to be a specific complex number, a
+  constant, then we can't make this same statement at this step in the
+  proof. When x is a constant, it doesn't make sense to talk about a
+  property holding for every x later on, because that would imply that x
+  is being allowed to vary again. If we had this in the proof:
+       Let x be a given complex number.
+       .
+       .
+       .
+       We know that there exist complex numbers a and b such that
+       x^2+4x+4=(x+a)(x+b).
+  we would be making a much weaker statement. This step would represent
+  the statement that for every complex number x, there exist complex
+  numbers a and b such that x^2+4x+4=(x+a)(x+b). The difference between
+  the two statements is the order of the quantifiers. In this one, the
+  universal quantifier on x comes before the existential quantifier on a
+  and b.
+  The statement with the quantifier on a and b coming first says that
+  there's a way I could win a simple game, where I have to give you a
+  and b, and then you're allowed to pick any x you like, and I win if
+  x^2+4x+4=(x+a)(x+b) is true. I don't have any real choice in how to
+  pick a and b if I want to win.
+  The statement with the quantifier on x coming first means that you can
+  win a game where I start by picking x, and then you're allowed to pick
+  a and b, and you win if x^2+4x+4=(x+a)(x+b) is true. In effect, the a
+  and b are allowed to depend upon the x.
+  Now applying this to your paper, if x is taken to be a constant, it
+  means that the factorization P(m)=(a1*x+uf)(a2*x+uf)(a3*x+uf) only
+  means that for the given x, the values a1, a2, and a3 can be any of
+  infinitely many solutions to that equation for the given x. If you
+  mean to say that a1, a2, and a3 are values that make the equation hold
+  for all x, then it restricts a1, a2, and a3 much more tightly; for
+  given values of m, u, and f, there are just the six different ways of
+  permuting the three factors. It seems to be what would make the most
+  sense in relation to what you're trying to do, but that would mean
+  that x is not a constant at that point.
+  Keith Ramsay
+
+
+20030710-Re_Easy proof of mathematician lies-593220.html[27/03/2022 17:42:05]
