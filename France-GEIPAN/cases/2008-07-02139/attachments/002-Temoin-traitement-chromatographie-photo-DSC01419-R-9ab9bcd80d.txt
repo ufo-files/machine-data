@@ -1,0 +1,72 @@
+{"created_utc": "2026-10-04T00:10:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 1342994, "source_ctime_ns": 1788413651576963771, "source_file": "France-GEIPAN/cases/2008-07-02139/attachments/002-Temoin-traitement-chromatographie-photo-DSC01419-R-9ab9bcd80d.pdf", "source_mtime_ns": 1787633009210000000, "source_rel": "France-GEIPAN/cases/2008-07-02139/attachments/002-Temoin-traitement-chromatographie-photo-DSC01419-R-9ab9bcd80d.pdf", "source_sha256": "72f2030cf926703e5e58932066456616c27fc8c5138bb3454ce106e99a793574"}
+
+Page 1 sur 1
+
+
+  De:
+  Envoyé: mardi 16 mars 2010 06:55
+  À:       Geipan
+  Objet:   complément d'informations PAN du 20-07-2008
+
+Bonjour
+
+Mon épouse m'a informé de la bonne nouvelle concernant le PV de gendarmerie qui vous a enfin
+été transmis depuis le 3 mars 2010.
+
+Entre temps j'avais préparé un travail sur une copie de la photo de l'objet pour faire ressortir
+cet élément par traitement des couches en chromatographie.
+J'ai utilisé le logiciel pixia pour obtenir ces résultats (ça ne vaux pas vos outils de traitement
+photo biensûr, mais je ne peux pas me permettre mieux).
+Je vous transmet aussi les réglages que j'ai effectué pour obtenir le rendu de 2 des images
+traitées assez lourdement.
+
+Je ne sais pas ce que les spécialistes en photo pourrons penser, mais je trouve très surprenant
+que cet objet laisse une impression grise, car quelle que soi la couche de couleur ou le mode de
+procédé utilisé, cet objet conserve un gris constant.
+
+Bref j'espère vous faire parvenir de nouveaux éléments, qui je l'espère aideront à l'enquête.
+A l'aide du logiciel pixia
+
+Téléchargement de la version 4.3a
+http://pixia.free.fr/downpix/Pixia_4.3a_FR_Setup.exe
+
+Pour ouvrir la fenêtre des filtres:
+cliquez sur affichage
+puis sélectionnez filtres
+
+1- Augmentation du contraste entre couleurs et niveaux de gris
+=> choisir Effet artistique -> bruler -> niveau 1 à 3 donne de bons résultats
+
+2- Mise en évidence de l'élément par négativité des couleurs
+=> Choisir Couleur -> Négatif -> Réglage: cocher R, V, B
+
+3- Découpage des bords par stéréo 3D
+=> Choisir Effets artistiques -> Stéréo 3D -> Réglage à 3
+
+4- Préparation pour suppression du rouge
+=> choisir teinte unique -> TSL -> Réglage de la teinte à 0 (soit du rouge carmin)
+
+5- Remise en évidence par négativité sans le rouge
+=> choisir Négatif -> Réglage: cocher V, B
+A l'aide du logiciel pixia
+
+Téléchargement de la version 4.3a
+http://pixia.free.fr/downpix/Pixia_4.3a_FR_Setup.exe
+
+Pour ouvrir la fenêtre des filtres:
+cliquez sur affichage
+puis sélectionnez filtres
+
+Dans la fenêtre des filtres sélectionner:
+=> Couleurs -> Tonalités
+
+Faire le réglage suivant:
+- sélection d'un point existant par clic gauche
+- création d'un nouveau point par clic gauche n'importe ou sur la courbe
+- clic droit pour ouverture du turbo menu
+
+Canal        :   RVB        ! R     ! V      ! B
+Type de ligne :     Plyligne !       !        !
+          !           !        !       !
+Entrée       : 0 ;15;160;255 ! 0 ;255 ! 0 ;255 ! 0 ;255
+Sortie      : 255;0 ;255;64 ! 255;0    ! 255;0   ! 255;0
