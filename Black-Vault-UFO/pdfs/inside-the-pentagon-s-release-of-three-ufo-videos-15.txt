@@ -1,0 +1,619 @@
+{"created_utc": "2026-10-04T03:34:22Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 733466, "source_ctime_ns": 1790470408142993751, "source_file": "Black-Vault-UFO/pdfs/inside-the-pentagon-s-release-of-three-ufo-videos-15.pdf", "source_mtime_ns": 1790470308529522310, "source_rel": "Black-Vault-UFO/pdfs/inside-the-pentagon-s-release-of-three-ufo-videos-15.pdf", "source_sha256": "2336a83f6018e7e3eb7fe137b974ed85caed63942930555c80e89622d47cd527"}
+
+WEAPON SYSTEMS EFFECTIVENESS AND MINIMUM COST FOR BALLISTIC MISSILE DEFENSE
+                                    ALTERNATIVES
+
+                                               Ira Kohlberg and William Greer
+                                                Institute for Defense Analyses
+                                                  1801 N. Beauregard Street
+                                                    Alexandria, VA 22311
+
+
+                 1. Statement of Problem                          regarding the choice of different systems against the
+                                                                  threat(s).
+          The use of SCUD missiles by the Iraqis in the
+1991 Gulf War signaled the emergence of a new threat                       It is useful to consider the nature of the threat.
+against which current U.S. defenses are limited. One              A summary of the threat is shown in Table I. Each of
+message from the Gulf War is that defending ports,                these missile types may have various types of warheads.
+strategic off-load air fields, marshaling areas, and              In the simplest case, these warheads would be unitary
+population centers against Theater Ballistic Missiles             high explosives (HE), while in more sophisticated cases
+(TBM) will be of mounting concern in future conflicts.            some could use submunitions, and weapons of mass
+The Ballistic Missile Defense Organization (BMDO), in             destruction (WMD): nuclear, chemical, or biological
+conjunction with the military services, is currently              weapons. The importance of destroying a missile will be
+evaluating various Theater Ballistic Missile Defense              a function of its warhead type. Thus, the formalism to be
+(TBMD) systems to defend critical friendly assets (called         described in this paper permits assigning values to TBMs
+targets in this paper) against current and projected short        according to the likelihood of the use of WMDs.
+range, medium range, and long range TBMs. The cost for
+defending these assets depends on the number and type of
+                                                                                  Table I. Illustrative TBM Threat
+threat TBMs that emerge, and the mix of defensive
+missiles arrayed against them.                                          Type            Apogee (km)            Range (km)
+                                                                  short - range        below 35         less than 150 km
+          There are several problems associated with
+designing the most cost-effective mix of TBMD systems.            medium - range       between 35 and   between 150 and 500 km
+First, the time needed to deploy all systems relative to the                           125
+                                                                  long - range         above 125        over 500 km
+warning time available is uncertain. Second, even if
+enemy TBM inventories are known (and there is some
+uncertainty here, especially in projected forces), the
+targeting strategy may be unknown. We don't know, for                       To counter the threat array shown in Table I the
+example, precisely what mix of short, medium, and long            Army and Navy each have proposed a set of lower tier
+range TBMs will be used against a particular target. How          and upper tier defensive systems. The Army's lower tier
+then, in the face of such uncertainties, can we plan to           system is called PAC-3 and its upper tier system is called
+acquire reasonable defenses in the most cost-effective            Theater High Altitude Area Defense (THAAD); the
+way?                                                              Navy's lower and upper tier systems are called Navy Area
+                                                                  Defense (NAD) and Navy Theater-Wide (NTW) Defense,
+          In this paper we develop the first steps of an          respectively. Table II shows the types of threat missiles
+approach to determine the TBMD architecture that                  the different systems are optimized to interdict.
+minimizes cost or maximizes effectiveness.            This
+approach is based on a statistical theory of enemy attack                  The TBMD systems are designed for different
+and TBMD strategies, and employs the general formalism            purposes. The PAC-3 and NAD systems defend the
+used earlier by one of us ( Kohlberg 1980) [ 1] for a very        region within a few tens of kilometers around a single
+different problem in nuclear C3 survivability. Addressing         target against short- and medium-range missiles, while
+the issue of TBMD cost-effectiveness is particularly              the THAAD or NTW could protect multiple assets over a
+relevant since near-term decisions must be made                   much larger region from medium- or long-range TBMs.
+
+
+     19961213 078
+                                                                function of the total number, Nj, of missiles ofthat type
+   Table II. Engagement Capabilities of Defensive               produced;
+           Systems Compared with Threat
+                                                                         q = q(Nt).                                 (l.i)
+     TBMD System                       Threat Range
+       PAC-3                           short, medium            Cj increases as Nj increases, but we expect the cost per
+                                                                missile,
+          NAD                           short, medium
+
+        THAAD                           medium, long                     aj = dCj/dNj       ,                       (1.2)
+
+          NTW                           medium, long            to decrease along a production learning curve as Nj
+                                                                increases.
+
+          There are an enormous number of possible
+scenarios that could be proposed when we take into                         2. Theoretical Approach for TBMD
+account: the mixture of TBMs against a selected set of
+targets, warning time for TBMD deployment, time for the                  Starting with scenario-generated results of the
+TBMs to reach the intended targets, detection points and        outcome of engagement analysis, we show: (1) how to
+times for incoming TBMs, firing rates of missiles               minimize the system cost to achieve a desired outcome, or
+(offensive and defense), battle management concepts of          (2) how to maximize the effectiveness of a complex of
+operations, probability of kill for each pair of                missile systems if the overall cost is fixed. The treatment
+TBM/TBMD, etc. Each possible scenario will lead to a            in this paper is general and follows the theoretical
+different outcome in effectiveness.                             methodology [1] used in other optimization analyses. It is
+                                                                beyond our purpose to recommend at this time the most
+          Cost is usually measured as the life cycle cost:      desirable mixture of TBMD systems for specific
+the remaining research and development (R&D) and other          situations without additional computations based on the
+start-up costs, the costs for procuring all the missiles in     theoretical approach developed here.
+the inventory, and costs associated with 20 years of
+operations and maintenance.        Table III shows the                   The approach places no a prori restrictions on
+approximate inventory objectives of the four systems just       the outcome of individual engagements, and can
+mentioned and the approximate 20-year life cycle cost           automatically decide whether a specific defensive system
+and average cost per missile.                                   should be completely deleted from the inventory (that is,
+                                                                it can answer the question as to whether any one or more
+ Table III. Illustrative Inventory and Life Cycle Cost          of the four systems identified in Table II should not be
+                                                                built).
+                              20-year Life       Per Missile
+ TBMD         Objective        Cycle Cost           Cost                 As indicated in Section 1, there are a large
+ System       Inventory        (Constant           ($M)         number of variables in this problem which can all be
+                               FY 96 $B)                        incorporated into the mathematical framework. However,
+PAC-3            1200              6                    2       for the purpose of explaining the approach we shall limit
+                                                                the explicit notation to the threat, targets, and defensive
+NAD              1500              6                    2       systems. The following variables are now identified:
+
+THAAD            1300              15                   6
+                                                                 JJ)         number of defensive missiles of type
+NTW              600               7                    6                    "i "    allocated   to    defend   target
+                                                                             j (where i = 1 to 4; for example, PAC-3
+         To formulate the minimum cost algorithm in                          corresponds to /' =1),
+Section 2, we need the analytical relationship between
+the life cycle cost for each system and the number of           ™0)
+                                                                m            number of threat missiles of type "k"
+missiles produced. If "i" denotes a member of the set of         k
+4 defensive systems (i = 1, 2, 3,4 ), the cost, Cj, will be a                impinging on target j (k = 1 to 3; for
+                                                                             example, k = 1 corresponds to short range
+                missiles),                                              determine analytically, and invariably involves real-time
+                                                                        simulation modeling.       The explicit dependence of
+L = total number of targets (e.g., defended assets),                     p ( J ) Lfi ( J') s ~ ( j') \ on the index uj „ indicates
+
+                                                                        that the results may depend on the detailed nature of the
+Nj = X rij           =      total     number        of   type       i   target         site      itself.               Otherwise
+     7=1
+                            defensive      missiles       required       P^J'\m ^j',n^j'\ would be independent
+                            for defense of L targets.                   of j, and Mj would be given by the equation
+            Using these definitions it is possible to construct
+                                                                           U) _ M
+                                                                         M TS   M (U)
+                                                                                      (l- P                       (fn,n   )),(2.5)
+a scenario for target j consisting of AWj            , m^ , m^
+
+threat missiles and «j , n^ , «3 , «4 defensive
+                                                                        where P\m,n) is now the site-independent kill
+missiles. For brevity, we now introduce the set notation
+                                                                        probability for the sets m,h.
+
+m U) = im IJ) , m 2( J) , m 3( J) \                        , (2.1)       p (J ) ^ ( j ) } ^ ( j ) J has the properties
+  U)                J)
+n           = [n[        ,n(2J) ,n\J) ,n\J)}                .(2.2)
+                                                                                  P0)((j), nU)) = l       ,               (a)
+            The total number of TBMs fired at the y'th                            P0)(m0),(|))= 0             ,           (b)    (2.6)
+target is
+
+               01
+                                                                        where <|) is the null set. Beyond Eq. (2.6) it may not be
+            M       = z my\                                     (2.3)   especially meaningful to render bounding statements
+                      k=\                                               since they will depend quite strongly on the firing
+                                                                        doctrine employed in the scenario. For example, in one
+          Once the details of the engagement are defined                case, we may find that a maximum of only two anti-
+(this will include the specifics of the incoming trajectory,            missiles can be fired against a single threat missile, while
+probabilities of identification/discrimination, probabilities           in cases involving targeting by independent batteries
+of kill for each offensive/defensive pair, firing rates, etc.)          more than two defensive missiles can be used against a
+we can compute the number of offensive missiles getting                 single incoming threat. Essentially, we must rely on the
+through. For simplicity in this paper we make no                        information supplied by scenario calculation to provide
+distinction in effectiveness between short, intermediate,
+                                                                        the function P (j) Im (J) n          z(j)
+or long range TBMs. Accordingly we define                                                                             )
+
+                                                                                For the purposes of this discussion it is not
+             P U ) (m         ( j }
+                                      , n ( J } )
+                                                                        necessary to become involved in the detailed description
+as the scenario kill probability for M^ missiles fired at               of p^J ' I jn ^J'^n             j,but simply to recognize
+the jth target in a composite of m^', n^' sets of                       that such a function can be computed for arbitrary
+offensive and defensive missiles. The number of missiles
+                                                                        m\J)^JfJ)       jjjg practical aspects of the problem enter
+that get through at the j th target is
+                                                                        when one realizes that not all mathematical possibilities
+                                                                        can be realized in the solution due to inherent constraints
+M (Tj) = M U) (l - P U) (m U), n U) )).                         (2.4)   on both the availability of large numbers of TBMD
+                                                                        missiles distributed over a large number of targets, and
+            It is readily appreciated that the determination of         the intrinsic probability of TBMD/TBM kill.
+     J)
+P^          (m^J),fi^J)\ma realistic scenario -                                  For example, if the intrinsic probability of kill,/»,
+that is, one that involves numerous incoming missiles                   were the same for all TBMD/TBM engagements, and if
+                                                                        no more than two attempts could be made against an
+and where intercepts may occur at different altitudes
+                                                                        individual threat missile, the effective kill probability
+using different defensive systems, is extremely difficult to            would be
+           Pk = P + (l-p)p=p(2-p)                     (2.7)             cr=zq(ivz.)=c0 ,                         (2.11)
+
+        Using Eq. (2.7) and assuming statistical
+independence of targeting, the probability of knocking         where CQ is a constant, and
+
+out all m^' threat missiles would be
+                                                                        Nt = Z n),(/)                            (2.12)
+                                   (/)                                            i=\
+           pdj)=(p(2-p)r                             (2.8)
+                                                                        Given the constraint of Eq. (2.11) we seek to
+Equation (2.8) shows that no amount of TBMD missiles           optimize an objective function of the engagement. Let's
+                                                               suppose, for example, that each threat missile that gets
+allocated to protect target j could destroy all M^
+                                                               through is equally important, and that the objective then
+incoming missiles with a probability exceeding P^Aß ■
+                                                               becomes the minimization of Mj, the sum of all
+                                                               incoming missiles that get through ( on the other hand, a
+       For the example just given, the maximum                 different weighting scheme could be introduced here to
+number of TBMD missiles that could be used in the              preferentially deny penetration by WMDs or by any other
+scenario is IM^ , while the average number that would          type TBM). Mj is given by
+be used is
+                                                               MT
+           N(J) = jJJ)                               (2.9)
+                         "k                                            7=1              7=1
+
+                                                                                                                 (2.13)
+where nk is the average number of defense missiles fired
+at a TBM; it is                                                       Using the method of Lagrange multipliers [3],
+                                                               we minimize the functional
+           nk=\ + (\-p)=(2-p)             .         (2.10)
+                                                                        F = Mj - A,Cj                            (2.14)
+          By recognizing the inherent limitations of certain
+situations one can avoid seeking optimum solutions with        where X is a new variable, the Lagrange multiplier, to be
+unrealistic constraints. Eventually, the user of the           determined by the conditions of the problem. Taking the
+optimization algorithm to be described would come to the       variation 8F gives
+realization of what is feasible, but simple calculations of                  L                4
+
+the type just rendered limit the search space required at        OF = -]T MU)dPU) -X£ 5C, (N,) ,                 (2.15)
+the outset.                                                                  >1               i=l
+
+
+          Suppose that we have conducted analyses for a        where
+sufficient number of scenarios so that we have obtained a
+suitable        analytical       representation        of
+P *■ J ' (m ( J ■* , n ( J ^ J . (We assume in some
+of the formalism to follow that the elements of the set
+                                                                        dP
+                                                                             Hw^                                 (2.16)
+
+
+fty' are continuous, even though they actually are                              JJ) ,2,7)
+                                                               **fo) = g^ = g| 8„0<
+discrete integers. However, this is a detail that can be
+rectified in a numerical calculation.) The remaining tasks
+are to concurrently establish what we want to maximize
+                                                                        Substituting Eqs. (2.16) and (2.17) into Eq.
+or minimize within the constraints on the problem.
+                                                               (2.15), and setting 5F = 0 for the minimum gives
+           Initially, we fix the total cost Cj-   We thus
+require:                                                                                                    hn\h = 0>
+                                                               * = Z I                                 iJ
+                                                                                                                 (2.18)
+                                                                                Using Eq. (2.24) in Eq. (3.20) gives the unique
+         Following    standard Lagrange        multiplier
+                                                                     set of values, nf , that corresponds to the fixed cost, CQ
+methods, the solution of Eq. (2.18) is achieved when the
+conditions
+                                                                                An = fiU)(^* (C0 )).(2.25)
+             M0)^i+                X   ^L    =   0         (2.19)
+                 j)
+                  dn\                  8Ni                                    When the mathematical calculations are carried
+                                                                     out correctly we will be guaranteed to have the minimum
+are satisfied for all i , j.                                         number of penetrating missiles achieved at the designated
+                                                                     cost. This is given by
+         If there are four possible TBDM systems (see
+Table II) and, say, 20 targets, Eq. (2.19) provides the
+                                                                     M 7*,min        2 MU)(l-Pü)(mü), ^))
+solution of 80 of the unknowns, the tlj          , in terms of the
+81st unknown, X . That is, the solution of Eq. (2.19) is                                                                  (2.26)
+of the general form
+                                                                                            A
+                                                                            A                 (/)
+                                                                     where n is the set of ny .
+           JU) = #\x),
+           ny                                              (2.20)
+                                                                              The analysis presented between Eqs. (2.14) to
+                                                                     (2.26) is a straightforward application of Lagrange
+where fj      is an analytic function of X .                         multiplier theory. The solution represents the most
+                                                                     unrestricted case since it only involves a single constraint,
+                                                                     namely that given by the fixed cost, although we
+           Substituting Eq. (2.20) into Eq. (2.12) gives             introduce restrictions in the next paragraph. When
+                                                                     applied to the TBMD domain it also allows for an
+
+N, = Z if> = I tf\x) = Ft(X) ,                                       arrangement of fir         without explicit consideration of
+           7=1            ;=i                                        whether the defensive missiles will have any difficulty in
+                                                           (2.21)    being available to defend the targets. All targets have
+                                                                     implicitly been considered to be equally important since
+where Fj(X) is another known function of A, determined               no a priori consideration has been given to selected
+from the summation in Eq. (2.21). Inserting Eq. (2.21)               threats.
+intoEq. (2.11) gives
+                                                                               Constrained solutions are the more relevant ones
+                                                                     in TBMD. Realistic applications place restrictions or
+           Q(ty)=q(/?(Ä,)) ,                               (2.22)    limitations on the availability of defensive missiles,
+                                                                     because of logistics, deployment constraints, limitations
+and ultimately                                                       on the location of defensive batteries in the theater, and
+                                                                     other factors. For example, one may envision a constraint
+           CT= ZCi(Fi(X))=CT(X) .                          (2.23)    that limits the maximum number of missiles of a certain
+                  /■=1
+                                                                     type that may be allocated to any site. This would lead to
+         Since the cost, Cj, is assumed fixed, Eq. (2.23)
+                                                                     the mathematical restrictions,
+can be inverted to provide
+
+                                                                                n(J) < N(J)                               (2.27)
+           C0 = CT(X) ,                              (a)                         i    ~   j,max
+            *    *
+           X =X(C0) ,                                (b)   (2.24)             Another possibility of the same type would be
+                                                                     the constraint
+         *                     A
+where X is the value of X that satisfies the equalities in
+Eq. (2.24).
+                                                                                 *-• ni   -Jvmax                          (2.28)
+                                                                                i=\
+a constraint that restricts the total number of defensive               The function to be minimized is now
+systems available to defend a particular target. Other
+availability constraints can be invoked.                                G=CT- QMT ,                                (2.32)
+
+           In addition to the constraints of Eqs. (2.27) and   where Q is the new Lagrange multiplier.        Taking the
+(2.28) one may attach relative importance to selected          variational of Eq. (2.32) gives
+targets, such as population centers, or critical military
+facilities. Those would be expressed in the form
+                                                                                                       U)\
+                                                                                   8C             aP
+                                                                                       +OM»                  8n U) _
+         A/O")
+         ivi   <
+               _ A/O)
+                 JV-/ .
+                     max                            (2.29)             i?    M w                   dn\j)
+                                                                                                                   (2.33)
+          Since the Lagrange multiplier solution for the
+unrestricted case is the optimum unconstrained defense,                 The foregoing equation is identical to Eq. (2.18)
+additional constraints are guaranteed to lead to a larger      with the replacement of X by (l/Q). Hence the
+number of missiles that get through, when summed over          solution for this problem is of the form
+all targets. Solution of any of these constrained inequality
+
+
+                                                                        v-fiiä ■
+problems requires an optimization routine [e.g. 2].
+                                                                                                                   (2.34)
+         There is one additional consideration that should
+be addressed; all the results for the n 0) and the related     where the parameter Q, is determined from the equation
+quantities that depend on n^' were computed for a
+specified threat laydown. That is, the solution of n:0)         I MU)^-PU)(mU\nJ\l/Q)J\=M0. (2.35)
+determined from Eq. (2.19) contains the elements of
+m     . If the threat specific specification should change,
+                                                                        Once Q, is determined, the particular values of
+the method of solution would be the same but the nS**
+would be different, although also derived from a
+                                                                JJ)
+                                                               rtj"'   are determined from Eq. (2.34), and the
+minimum cost principle. Thus, the final results for any        corresponding minimum cost is computed from Eqs.
+analysis of this type should be averaged over the              (2.11) and (2.12), analogous to the previous procedure.
+probability distribution for the threat.
+                                                                        The two similar examples just rendered have
+         In contrast to the foregoing analysis, which          been presented to demonstrate the concept. In practice,
+demonstrates one particular way that a TBMD system can         we would most likely anticipate the introduction of
+be deduced for a fixed cost, we can also use the               several inequality constraints.
+formalism for finding the minimum cost, Cmjn, to
+achieve a required level of effectiveness. For illustrative
+purposes let us consider the "flip side" of the previous
+problem in which we impose the fixed system                                     3. Sample Calculations
+requirement
+                                                                         We have not yet applied the formalism in this
+                                                               paper to an actual problem. The purpose of this paper is
+MT = I Afi^-pWfirfAjW^Mo ,(2.30)                               to establish the foundations for such applications. For
+                                                               insight into some issues concerning the use of the
+                                                               methodology developed, we have analyzed three
+and seek to minimize the cost                                  situations, each of which has a different result.
+
+                                                                         For simplicity, assume that there are only two
+         CT = I CjiNi)                               (2.31)    TBMD systems under consideration, called A and B.
+                                                               These might be the PAC-3 and NAD systems.
+                                                               Moreover, we assume that these two systems have the
+associated with the constraint M0.                             same probability-of-kill against all TBMs that would be
+                                                               aimed at the targets they protect.
+          Where they differ is: (1) availability in the
+theater at the time attacks begin, (2) cost, and (3) access
+to and coverage of the region immediately surrounding
+some of the targets. Availability in the theater reflects the                             SOLUTIONS FOR
+possibility that some types of TBMD systems are more                                         CASE III
+readily transported to a given theater than another. In the
+absence of prepositioning or early deployments, land-
+based TBMD defenses might not be as available in the
+numbers needed for full protection of targets as would
+ship-based TBMD systems.              Cost differences in
+acquisition and O&S are to be expected between two
+different TBMD systems. And, despite availability in the           NUMBER
+theater, one of the TBMD systems might be limited by                  OF
+                                                                   MISSILES
+location from covering targets the other could protect.               NA
+For example, short-range ship-board TBMD systems may
+not be able to protect targets deep inland.
+                                                                                  NUMBER OF
+            We examine three different situations. For                           MISSILES, NB
+illustration purposes, we use the linear relationship
+between cost and number of missiles:
+
+                                                                     Figure 1. Constraint Relationships for NA and NB.
+            ct     C
+                     oi + aiNi                             (3.1)
+
+                                                                   these 2M missiles are A-type missiles and how many are
+where Coi is a fixed cost and az- is a constant. For
+                                                                   B-type missiles? The examples are chosen so that there
+example, application of Eq. (3.1) to Table III gives               are different answers to the same question, depending on
+C0 = $3.6 B and a = $2.0 M for PAC-3. For NAD, CQ                  the constraints.
+= $3.0B anda = $2.0 M.
+                                                                           An understanding of the solution is facilitated
+         These three different cases we examine are                and summarized with the aid of Figure 1. The ordinate is
+summarized in Table IV, and characterized more                     the number of missiles of type A, and the abscissa is the
+completely in the related text. In all cases a total of M          number of type B missiles.
+TBMs are fired in defense of the complex of theater
+targets.                                                                     The negatively sloped line connecting the
+                                                                   ordinate and the abscissa in Figure 1 is the locus of all
+                                                                   points for which NA + NB = 2M. The solution to any
+   Table IV. Illustrative Cases for TBMD Solutions                 of the three cases lies somewhere along this line ( or to
+                                                                   the right), the exact point or points being determined by
+                 Case I          Case II          Case III         the specific constraints.
+  Avail-         A, B both       A, B both        A constrained
+  ability        unconstrained   unconstrained    to NA * ; B
+                                                  unconstrained           There are three general solutions to the cases
+  Cost           C0A > CoB '     C-oA >   C0B ;   C0A > C0B;       summarized in Table IV, subject to the equality constraint
+                  aA = aB = a    aA = aB = a      «A = aB = a
+  Coverage       A, B can        A can defend     A can defend
+  of             defend          all; B can       all; B can                     N, + NB = 2M.                          (3.2)
+  Targets        all targets     defend 50%       defend 50%
+                                                                   They are
+         For simplicity, we assume that the defenses fire
+2 TBMD missiles against each incoming TBM. Greater                    CT='CM+ aNA = C0A + a(2M)                        (3.3a)
+complexity can be added, as in Eq. (2.7), but at the                  CT = C0B + aNB = C0B + a(2M)                     (3.3b)
+expense of clarity. Thus, a total of 2M TBMD missiles
+must be in the theater. The question is: how many of                   CT=C0A + C0B + a(NA+NB)
+                                                                         = CQA + C0B + a(2M)                           (3.3c)
+          Case I. Reference to Table IV shows that this                   The expected solution here is more complex
+corresponds to a totally unconstrained solution to the          than for the other cases analyzed. We look separately at
+TBMD question. Both systems A and B can be in the               three different domains of NA*: (i) NA*<M, (ii) M <
+theater to the extent required. Both are equally effective,
+                                                                NA* < 2M, and (iii) 2M < NA*.                 The special
+but the costs are different. And both systems can be
+                                                                conditions on A arise from the fact that B can defend only
+located anywhere within the theater to protect all targets.
+Thus either alone could perform to meet defense                 up to one-half the targets by expending Mmissiles.
+requirements. The least cost solution in Case I is to buy
+only one system, the lower cost system B. This solution                   (i) NA* < M. If there are this few A-type
+corresponds to Eq. (3.3b).                                      missiles available, Figure 1 shows that there is no solution
+                                                                that meets the requirements of engaging every incoming
+                                                                TBM with 2 missiles. So, if the constraints are too
+          Case II. One of the conditions in Case I is           severe, there is no solution at any cost that meets the
+constrained in this case. See Table IV for the details.         requirements. New requirements would be needed to
+Here both A and B are available in any numbers required         proceed.
+( as in Case I), except that B can be positioned, no matter
+how numerous in the theater, to protect only 50 percent of                (ii) M < NA* < 2M. In this intermediate
+the targets. Thus the solution in Case I, while the least       case, both A and B together can defend all targets. There
+costly, fails to meet the requirement that all targets be       exists a least cost solution that meets the requirements,
+protected with 2M missiles. The possible solutions are          and it is given by Eq. (3.3c). While the minimum cost is
+reduced to either Eq. (3.3a) or Eq.(3.3c). An examination       determined uniquely, the appropriate mix of A and B is
+of the costs in Table III shows that the least-cost solution    not, since A and B missiles cost exactly the same to
+here is to buy only one system, but this time system A.         produce (by assumption). The architecture with equal
+Even though A is more costly than B to develop and bring        numbers of A and B missiles (i.e. NA= NB= M) is just
+to the point of production (i.e. CoA > CoB), the cost of        as effective as the one with NA* type-A missiles and
+a single system that protects all targets is lower than a mix
+                                                                (2M - NA* ) type-B missiles. Graphically, all the points
+of A and B, due to the relatively large R&D costs
+                                                                on the dark line in Figure 1 are equal cost and equal
+associated with acquiring a second system. Thus, the
+                                                                effectiveness solutions. So, for some conditions, there
+architecture that meets requirements at lowest cost in
+                                                                may be many solutions that are equally cost-effective.
+Case II is the single system A, even though its cost is
+higher than that ofB. Its cost is given by Eq. (3.3a).
+                                                                          (Hi) 2M < NA *. Finally, we examine a case
+                                                                outside the boundaries. If NA* had actually exceeded 2M,
+          Case III.      This is a doubly constrained case,     this case is identical with Case II ( except for the number
+even more constrained than Case II. In Case III, as Table       of missiles), and the single system A architecture
+IV shows, only B can be in the theater in unconstrained         becomes preferred.          So this condition is not
+numbers. System A is available up to a limit, a limit that      fundamentally different from one already analyzed. This
+prevents full protection of all targets to the high level       observation makes us realize that there is a discontinuity
+required. This limit might be a force size constraint (there    in the solution and the cost at NA * = 2M. When NA * is
+is a maximum number of missile batteries in the force) or       slightly larger than 2M, only a single system (system A)
+to strategic deployment constraints ( inadequate time and       is the most cost-effective. When NA * is slightly less than
+lift assets available). Thus A alone fails to meet the
+                                                                2M, the combined A and B system architecture, with a
+specified requirement. On the other hand, even though B
+                                                                considerably larger total cost, is the most cost-effective.
+can be available in unlimited numbers, it is constrained as
+                                                                Here we need to decide whether the requirement is more
+in Case II to defending only 50 percent of the targets.
+                                                                important than the cost. This points to the need for
+System B alone also fails to meet the defensive
+                                                                probing for discontinuity points by small excursions
+requirement. Thus, both A and B are constrained in some
+                                                                around the optimum solution point when solving much
+fashion in this case. The general solution would therefore
+                                                                more complex problems by numerical means, ones in
+be a mixed solution and lie somewhere on the darkened
+                                                                which the results cannot easily be guessed beforehand.
+portion of the line in Figure 1.
+                                                                Points of non-analytic behavior with discontinuities in
+                                                                system choices and costs can occur.
+                      4. Conclusions
+                                                               numerical search algorithm. The exact solution found
+          In summary, we have presented the basic theory,      would depend on where in its initial guess the search
+using Lagrange multiplier techniques, for estimating the       algorithm began its search. In a more realistic case with
+most cost-effective TBMD architecture. We have shown           many more variables and constraints, there may reside a
+by example how inequality constraints can greatly              range of solutions that differ insignificantly from one
+influence the solution. Lowest cost, highest performance,      another in cost and effectiveness, but which are hard to
+selective defense of designated targets, prioritized defense   discover by reasonable numerical means. Criteria other
+against probable WMD warheads, or any other constraint         than the ones in the model, to include subjective and
+criterion can be introduced within its framework. This         political ones, could then be brought to bear on selecting
+approach was adapted from one developed in another             the "best" of the otherwise "equal" solutions.
+field (nuclear C survivability) where it has been used
+with great success for a number of years.                                On the other hand, the solution found may be
+                                                               near one or more discontinuity points, such as the one
+          The approach to finding the most cost-effective      also discussed in Case III in this paper. This type of
+architecture is straightforward, although demanding in its     solution, if its metastability is discovered, would probably
+attention to detail and ultimate extensive use of computer     require a re-examination of the conditions that initially
+resources for realistic cases.           Extensions of the     constrained the solution. A small change in requirements
+methodology to go beyond fixed assumptions ( such as           could result in a dramatic change in costs for the least-
+target selection by enemy TBMs) and to include                 cost solution that meets all the criteria, an area worth
+distributions of the critical parameters in the theory are     exploring.
+contemplated, but are not included in the present version
+of the theory. We have avoided these extensions in this                  Finally, the use of simplified examples, such as
+paper, the purpose of which is to introduce the main           those in Section 3, can serve to help us choose good first
+outlines of the theory with a minimum of embellishments,       guesses in starting the search algorithms for the more
+rather than to develop it in its entirety.                     general and more complex constrained realistic cases.
+                                                               Because of the large volume of space in which the search
+          We have not yet applied the full theory to           is to take place, a good starting point is crucial to realistic
+finding the most cost-effective mix of TBMD systems for        computer search times and convergence criteria, as noted
+a realistic scenario. But we have examined several simple      in the examples studied.
+cases in order to anticipate some of the difficulties to be
+expected in such an application. Despite the power of
+the approach outlined here, optimum solutions obtained
+from the formalism should be used with care. The
+solution found by an optimization algorithm may not be
+the only one of interest. Several observations on this are
+made next.                                                                            5. References
+
+          We have examined several simple cases that                 I.   Kohlberg,    "Theory       of   Performance     and
+serve to illustrate in a transparent fashion how metastable                                      3
+                                                                     Survivability of Large C I Networks Under ECM
+the least cost solution can be. Much depends on the
+                                                                     and Nuclear-Stressed Conditions", Presented at the
+constraints imposed on the problem. We have selected
+                                                                     National Radio Science Meeting, Boulder, CO,
+here for illustration the availability, R&D cost, and
+                                                                     13-15 January 1981.
+theater coverage, because they are realistic variables that
+would constrain and possibly dominate any more                 2.    M. J. Box, "A New Method of Constrained
+complex treatments. These would probably continue to
+                                                                     Optimization and A Comparison with Other
+exert powerful influences on any TBMD acquisition
+                                                                     Methods", Compt. J. 8, 42-52 (1965).
+problem, no matter how many other variables were
+introduced.
+                                                               3.   F. B. Hildebrand, Advanced Calculus for
+                                                                    Applications. Prentice-Hall, Inc., Englewood Cliffs,
+          The extreme case is the situation in Case III in
+                                                                    New Jersey, 1962.
+which there are numerous equally cost-effective
+solutions, only one of which will probably be found by a
+T
+     10-28-1996 13=07                        693 7341                                       OASD/PACDFOISR                                             P. 02
+
+
+                          CLEARANCE REQUEST FOR PUBLIC RELEASE OF DEPARTMENT OF DEFENSE INFORMATION
+
+TO:           Assistant Secretary of Defense (Public Affairs)
+ATTN:         Director, Freedom of Information & Security Review, Room 2C757, Pentagon
+
+                                                                  SEE INSTRUCTIONS ON REVERSE
+        (This form is to be used in requesting review and clearance ofDoD information proposedfor public release In accordance with DoDD 5230.9.)
+
+                                                                       1. DOCUMENT DESCRIPTION
+
+       TTTPT                                           b. TITLE
+
+        Document                                             Weapon System Effectiveness and Minimum Cost for
+                                                             Ballistic Missile Defense Alternatives
+
+c PAGE COUNT                                            d. SUBJECT AREA
+                                                              Theater Ballistic Missile Defenses
+
+                                                                             2. AUTHOR/SPEAKER
+
+a. NAME (Lot, Hraf, Ml)                                  b. RANK                                                 e. TITLE
+
+         Greer, William L.                                    Civilians                                               IDA Research Staff
+
+                   and                                   d. OfFICE                                               a. AGENCY
+                                                              Institute for Defense Analyses                          Institute for Defense Analyses
+          Kohlberg, Ira
+
+    3. PRESENTATION/PUBLICATION DATA
+
+    This document is an unclassified paper to be given at the AIAA Missile Systems Conference at the Naval Postgraduate
+    School on December 5,1996. This document is submitted for approval for public release as an unclassified document. All
+    information used in the development of this document was taken from unclassified sources. This study was prepared by the
+    Institute for Defense Analyses, an OSD-sponsored, Federally Funded Research and Development Center, under Contract
+    DASW01 94 C 0054. The deadline for submission of this document to AIAA is 30 October, 1996.
+
+                 4. POINT OF CONTACT                                                                S. PRIOR COORDINATION
+
+    •. NAME (Laat, FlraL Ml)                             a. OFFICE                                                    !Jav**S *£>rtDt?k25
+    Pendley.KimbleD.                                     OUSD/API/FFRDC
+
+    b. TELEPHONE NUMBER flflefoda Arne Code)              b. AGENCY                                              Ugt^lCfHO)                  ....—~
+    703-845-2361                                          OSD
+                                                                                                                               CLEARER
+    6. REMARKS                                                                                                              FOR OPEt*PUBUCATK>N
+                        iamL.
+     1. IDAPOC: Dr. William L. Greer (703)845-226^
+                                           845-2263^
+                           v, please call Dr. Greerj
+    2. After security review,                                         ——-^                                                     0CT tt R 1998           22
+                                       ~             ~                                    '       affljAinRATlt FfJd MtfEPüU OP INTOWMATIOM
+                                                         7. RECOMMENDATION OF SUBMITTING OFFlCE/A6ERtTi^Wg|(J^^^g^jo49f>pAj
+
+     a. Tr» attach malarial hMrjapartmantfCffloa/Aoareyap^                                                                                              ....
+        raoommandad wioar provMon» of DoDD 5230.9.1 am autarfcad lo maKa Ma raeommandellon lor ralaaaa on baha» of:
+
+
+     b. Claaranoaiaraquaatadby     (96710/25) iBUUQD)
+
+     c. NAME(L»»t,Hraf.My                                         d. TITLE                    a. SIGNATURE
+
+
+     t. OFFICE                                                     p. AGENCY                  h. DATE (YYUUOD)
+
+
+                                                                                                                                        pMMc^llDltlWlio*t6iiT
+     DD 5%n 1910
+
+                                                                                                          DTIC QDAUTF INSPECTED 1
