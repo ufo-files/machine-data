@@ -1,0 +1,1903 @@
+{"created_utc": "2026-10-10T02:27:55Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 3944097, "source_ctime_ns": 1790472906604932056, "source_file": "Black-Vault-UFO/pdfs/inside-the-pentagon-s-release-of-three-ufo-videos-19.pdf", "source_mtime_ns": 1790472815655072453, "source_rel": "Black-Vault-UFO/pdfs/inside-the-pentagon-s-release-of-three-ufo-videos-19.pdf", "source_sha256": "7a5cdc8fcfd8ed9b8f456817a59d4778721692b956c202d9911a2b95108c44bc"}
+
+CLEARANCE REQUEST FOR PUBLIC RELEASE OF DEPARTMENT OF DEFENSE INFORMATION
+                                                           (See Instructions on back.)
+(This form is to be used in requesting review and clearance of DoD information proposed for public release in accordance with DoDD 5230.09.)
+
+   TO: (See Note) Chief, Defense Office of Prepublication and Security Review, 1155 Defense Pentagon, Washington, DC 20301-1155
+   Note: Regular mail address shown above. For drop-off/next day delivery, use:
+         Room 2A534, 1155 Defense Pentagon, Washington, DC 20301-1155
+
+1. DOCUMENT DESCRIPTION
+a. TYPE                                        b. TITLE
+                   REPORT                                 Financial Readiness Personal Assistant for Learning (FR-PAL) - Final Report
+c. PAGE COUNT                                  d. SUBJECT AREA
+                       54                         DISTRIBUTED LEARNING
+2. AUTHOR/SPEAKER
+a. NAME (Last, First, Middle Initial)          b. RANK                   c. TITLE
+Murphy, Jennifer                                                          Contractor
+d. OFFICE                                                                e. AGENCY
+
+
+3. PRESENTATION/PUBLICATION DATA (Date, Place, Event)
+
+Submission to DTIC following R&D project completion and potentially public relsease on ADLnet.gov website.
+
+
+4. POINT OF CONTACT
+a. NAME (Last, First, Middle Initial)                                                                    b. TELEPHONE NO. (Include Area Code)
+Carter, Crystal                                                                                                      (571) 480-4649
+5. PRIOR COORDINATION
+a. NAME (Last, First, Middle Initial)          b. OFFICE/AGENCY                                          c. TELEPHONE NO. (Include Area Code)
+
+
+6. REMARKS
+
+
+7. RECOMMENDATION OF SUBMITTING OFFICE/AGENCY
+a. THE ATTACHED MATERIAL HAS DEPARTMENT/OFFICE/AGENCY APPROVAL FOR PUBLIC RELEASE (qualifications, if any, are indicated in
+   Remarks section) AND CLEARANCE FOR OPEN PUBLICATION IS RECOMMENDED UNDER PROVISIONS OF DODD 5230.09. I AM A
+   GOVERNMENT EMPLOYEE (civilian or military), AND NOT A CONTRACTOR, AUTHORIZED TO MAKE THIS RECOMMENDATION FOR
+   RELEASE ON BEHALF OF:
+   ADVANCED DISTRIBUTED LEARNING INITIATIVE
+
+b. CLEARANCE IS REQUESTED BY
+                                        SSchatz                   (YYYYMMDD). 20181213
+c. NAME (Last, First, Middle Initial)                                  d. TITLE
+Schatz, Sarah                                                            Director
+e. OFFICE                                                                f. AGENCY
+Advanced Distributed Learning Initiative                                  DASD Force Education and Training
+g. SIGNATURE                                                                                             h. DATE SIGNED (YYYYMMDD)
+
+
+DD FORM 1910, APR 2016                                 PREVIOUS EDITION IS OBSOLETE.                                               Adobe Professional XI
+Financial Readiness Personal Assistant
+for Learning (FR-PAL)
+Final Report
+
+
+Contract: W911QY-16-C-0163
+
+
+This work was supported by the U.S. Advanced Distributed Learning (ADL) Initiative (Contract W911QY-16-C-0163).
+    The views and conclusions contained in this document are those of the authors and should not be interpreted as
+ representing the official policies, either expressed or implied, of the ADL Initiative or the U.S. Government. The U.S.
+                Government is authorized to reproduce and distribute reprints for Government purposes.
+
+
+Prepared for:
+Dr. Sarah Schatz
+Advanced Distributed Learning
+sarah.l.schatz.civ@mail.mil
+407-920-4981
+
+Point of Contact:
+Dr. Jennifer Murphy
+Quantum Improvements Consulting LLC
+jmurphy@quantumimprovements.net
+407-900-4576
+
+
+                   DISTRIBUTION A. Approved for public release: distribution unlimited.
+                                  www.quantumimprovements.net
+Table of Contents
+
+1.      Executive Summary ....................................................................................................................................4
+2.      Introduction ................................................................................................................................................4
+     Background.....................................................................................................................................................4
+     Project Approach ............................................................................................................................................5
+3.      Objectives ...................................................................................................................................................5
+4.      Phase I ........................................................................................................................................................6
+     Requirements Collection & Documentation...................................................................................................6
+     Content Development Strategy .......................................................................................................................8
+     Application Design .......................................................................................................................................11
+     Information Assurance Design and Implementation ....................................................................................17
+     Research Design and Protocol Development ...............................................................................................17
+     Formative Testing .........................................................................................................................................18
+     Application Development .............................................................................................................................19
+5.      Phase II .....................................................................................................................................................21
+     Instructional Design and Content Development ...........................................................................................21
+     Requirements Collection ..............................................................................................................................37
+     Information Assurance Design and Implementation ....................................................................................38
+     Application Development .............................................................................................................................38
+     Formative Testing .........................................................................................................................................40
+     Lifecycle Planning and Documentation........................................................................................................41
+6.      Phase III ....................................................................................................................................................41
+     Information Assurance Design and Implementation ....................................................................................41
+     Instructional Design and Content Development ...........................................................................................42
+     Research Design and Protocol Development ...............................................................................................46
+     Summative Testing .......................................................................................................................................47
+     Application Development .............................................................................................................................49
+     User Guide Development .............................................................................................................................50
+     Lifecycle Planning and Documentation........................................................................................................51
+     Developer and System Administrator Documentation and Training Package for Lifecycle Trainers,
+     Developers and System Admins ...................................................................................................................51
+     Government Acceptance Coordination ........................................................................................................51
+7.      Conclusions ..............................................................................................................................................52
+8.      References ................................................................................................................................................53
+
+
+                                Distribution A. Approved for public release: distribution unlimited.
+                                                 www.quantumimprovements.net
+                                                                1
+Table of Figures
+Figures 1a & b. Balsamiq wireframe of conceptual screen layout; Microsoft PowerPoint wireframe of
+conceptual screen layout ...................................................................................................................................10
+Figure 2. InVision mockup screens with "hotspots" for use in Formative I Usability Testing ........................11
+Figure 3. Site map.............................................................................................................................................12
+Figure 4. Example style sheet resources from Apple Developer website and Android Developer website .....13
+Figure 5. Initial mood board concept................................................................................................................14
+Figure 6. Final mood board concept .................................................................................................................15
+Figure 7. Application Log in and Dashboard – Initial concepts .......................................................................16
+Figure 8. Application content - Initial concepts ...............................................................................................16
+Figure 9. Recommended back-end architecture based on AWS ......................................................................20
+Figure 10. Recommended back-end infrastructure ...........................................................................................21
+Figure 11. Abbreviated Content Ontology .......................................................................................................23
+Figure 12. Example section of DTI Ratio Use Case (description, actors, pre-conditions) ...............................25
+Figure 13. Example section of Financial Awareness Use Case (alternate flows, post-conditions, special
+requirements) ....................................................................................................................................................26
+Figure 14. Content Architecture for 1st Duty Station touchpoint.....................................................................27
+Figure 15. Example node maps for “Touchpoint – Subsequent Duty Station,” “Spending Plan”....................28
+Figure 16. Example wireframes created in Microsoft PowerPoint ...................................................................29
+Figure 17. Mockup screen examples ................................................................................................................30
+Figure 18. Landing screen for Word Jumbler game .........................................................................................31
+Figure 19. Landing screen for Financial Carnival: Bring Home the Bacon game ...........................................32
+Figure 20. Landing screen for Word Search game ...........................................................................................33
+Figure 21. Example wireframe of a Knowledge Assessment ...........................................................................34
+Figure 22. Concept variants of Green Pig ........................................................................................................35
+Figure 23. Progress bar example ......................................................................................................................35
+Figure 24. Content Development Review Process ...........................................................................................36
+Figure 25. Concept map for touchpoints at the Financial Readiness Microlearning Event .............................37
+Figure 26. Mobile application architecture.......................................................................................................39
+Figure 27. Review Process for content updates and quality assurance ............................................................43
+Figure 28. Formalized Glossary .......................................................................................................................44
+Figure 29. Example of a tip of the day being pushed to notifications ..............................................................45
+Figures 30a, b, & c. Formalized Knowledge Challenge ...................................................................................45
+Figures 31a & b. Content hyperlinks - web links; glossary terms ....................................................................46
+
+
+                               Distribution A. Approved for public release: distribution unlimited.
+                                                www.quantumimprovements.net
+                                                               2
+Table of Tables
+Table 1. Products Reviewed During the Competitive Review ...........................................................................7
+Table 2. Persona Identification and Descriptions ...............................................................................................8
+Table 3. Service-identified Financial Priorities per 10 U.S. Code § 992 Touchpoints.....................................38
+
+
+                           Distribution A. Approved for public release: distribution unlimited.
+                                            www.quantumimprovements.net
+                                                           3
+1. Executive Summary
+Sen$e is a mobile application designed to support service members and their families with financial readiness
+information using micro-learning, gamification, and other motivational techniques to cultivate life-long
+learning. Sen$e supports service member financial literacy and preparedness through engaging “bite-sized,”
+personally relevant, multimedia content. To encourage continued use, Sen$e features motivational elements
+such as push notifications, gamification, and visual progress indicators. In addition to educational content,
+validated financial tools and resources are incorporated into this user-centered application. Sen$e was
+developed using human-centered design principles and Agile software development processes. This iterative
+approach allowed for significant front-end analyses, engagement with end-users, derivation of user needs into
+requirements, development, and testing throughout each phase of the project to ensure a holistic and user-
+friendly system. Project performance progressed through a three-phased development process. Deliveries made
+throughout each phase of the project underwent an extensive and thorough review process. The process of
+meeting the project goals for developing a useful, usable, and user-centered financial application, for service
+members and their families, is described, in detail, in the following final report.
+
+2. Introduction
+Background
+While service members and their families receive unique financial benefits as a result of their service, the
+systems and processes required to negotiate these benefits are complex and often difficult to use. In addition,
+many service members enter military service without prior education in personal finance. As a result, service
+members may fall prey to predatory lending practices, high-pressure sales pitches and other financial pitfalls.
+Recent changes in the military’s retirement systems offer service members more options when it comes to
+investing in their futures, but many are not prepared to make effective decisions in these areas. Issues with
+individual service member financial literacy affect the military at large. According to a 2015 report by the
+Military Compensation and Retirement Modernization Commission, improving financial literacy of service
+members could save the Department of Defense (DoD) up to $137M annually by reducing the number of
+service members separated from the military as a result of financial hardship.
+
+To support financial literacy education, the DoD has implemented several initiatives. These include classroom
+training at military installations, individual service member counseling, and access to resource websites.
+Despite these efforts, the 2015 Blue Star Families Annual Lifestyle Survey found that only 12% of service
+members reported receiving financial literacy training through their command. Service members may not find
+the information easily accessible online due to security requirements such as Common Access Card (CAC)
+access. Finding the time to enroll in classroom training or visit a counselor may also be challenging. To address
+this gap, the ADL Initiative and Office of Financial Readiness (FinRed) have developed a Personal Assistant
+for Learning to provide military personnel financial literacy information anytime, anyplace, on mobile devices.
+
+Service members’ financial needs and goals change throughout their lives, both during their military service
+and after separation. To address these changing needs, 10 U.S. Code§992 requires financial literacy training
+to be provided to service members at multiple stages throughout their careers. Service members are required
+to have financial literacy training during initial entry training, at their first duty station, on the date of their
+promotion (up to E-5 or O-3), when they vest in the Thrift Savings Plan (TSP), during leadership training,
+during pre- and post- deployment training, at major life events, and at separation.
+
+To support this initiative, Quantum Improvements Consulting (QIC) in partnership with Float, developed a
+Financial Readiness - Personal Assistant for Learning (FR-PAL) called Sen$e. Sen$e supports service member
+financial literacy and preparedness through engaging “bite-sized,” personally relevant, multimedia content. To
+encourage continued use, Sen$e features motivational elements such as push notifications, gamification, and
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                      4
+visual progress indicators. In addition to educational content, validated financial tools and resources are
+incorporated into this user-centered application.
+
+Project Approach
+Sen$e was developed using human-centered design principles and Agile software development processes. This
+iterative approach allowed for significant front-end analyses, engagement with end-users, derivation of user
+needs into requirements, development, and testing throughout each phase of the project to ensure a holistic and
+user-friendly system. Project performance progressed through a three-phased development process, with each
+phase resulting in a set of deliverables. Deliveries made throughout each phase underwent extensive internal
+(peer reviews within the project team) and external (Government and stakeholders) reviews.
+
+3. Objectives
+The goal of Phase I was to develop functional mockups of key aspects of the application’s functionality. These
+include backend data management, data flows, user interactions, and feedback elements. To accomplish this
+development, the team conducted a front-end analysis to identify the needs of the end-user for implementation
+within the software. Needs of end-users including service members, their family, and administrators drove the
+software design aspects centered on the content ontology, content format, financial planning tools, and data
+flows. Content is focused on the crucial financial topics relating to service members including, but not limited
+to, budgeting, retirement, transition, education, and scam-avoidance information. Data flow of the application
+includes appropriate terminology, architecture, standard platform interactions, and desired push/pull
+information. The front-end analysis provided data to inform requirements development, content development
+strategy, and application design. Phase I culminated in wireframes and mockups simulating the general
+application layout and content delivery mechanisms, data flows, and user interactions. The application
+mockups were generated in a digital prototyping application, InVision, and were utilized to conduct the first
+instantiation of interactive usability testing. The Formative 1 Test was conducted with a local population of
+service members and veterans. Data garnered through this effort provided enhanced design recommendations.
+
+In Phase II, the goal was to implement the wireframes and mockups into an alpha version of Sen$e. The
+application was designed and developed for utilization across Android and iOS platforms. Sample training
+content was developed and implemented within the content ontology for the purpose of testing. Information
+assurance documentation was developed and included with the release of the Phase II beta prototype along
+with the sample content. The second round of formative testing included testing of the Phase II beta prototype.
+This formative testing allowed potential end-users to provide input on the user interface (UI), site structure,
+content organization, and overall app functionality. Additional information was collected on user-satisfaction
+and user expectations regarding the application. Phase II culminated in the design and development of a limited
+functioning prototype system that produced initial positive usability results, which have been incorporated into
+the final design of Phase III.
+
+Goals for Phase III included development of the final beta version of Sen$e, populated with training content,
+measures for data collection, and financial planning tools and calculators. Additionally, the system should be
+enjoyable to use, provide personalized and relevant information, maintain security over user data, and sustain
+capabilities. Towards these goals, extensive iterative summative testing was conducted to assess usability, user
+satisfaction, training effectiveness, quality assurance, and load testing. To ensure that Sen$e maintains
+sustained capabilities, a sustainment plan, usage guide, and developer and system administration
+documentation has also been developed and delivered along with the source code for the operational system.
+Phase III performance has resulted in the development and delivery of this final version of the Sen$e
+application under the current period of performance. The application is populated with financial readiness
+training content, the ability to collect usage information, and financial calculators and resources.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                     5
+The following documentation details the design and development progress made throughout the contract period
+across the three phases.
+
+4. Phase I
+Requirements Collection & Documentation
+Guiding Documentation
+The development of Sen$e began with the collection and definition of requirements through a variety of
+knowledge elicitation activities. Guiding documentation provided by stakeholders was reviewed and analyzed.
+Specifically, FY16 NDAA Section 661 and 10 U.S. Code § 992 – Financial Literacy Training: Financial
+Services were reviewed to derive A-level requirements, providing the foundation for when training content
+should be provided to service members. Training is required to be provided at various “touchpoints” throughout
+a service member’s military career. These touchpoints include:
+
+      •   As a component of initial entry training
+      •   Upon arrival at the first duty station
+      •   Upon arrival at each subsequent duty station for E-4 or below or O-3 or below
+      •   On the date of promotion for E-5 or below or O-4 or below
+      •   When vested in the Thrift Savings Plan (TSP)
+      •   When eligible to receive continuation pay
+      •   At major life events including, marriage, divorce, birth of first child, disabling sickness or condition
+      •   During leadership training
+      •   During pre-deployment training and during post-deployment training
+      •   At transition points including transition from regular component to reserve, separation, or retirement
+      •   During periodically recurring required training
+
+While the application is not meant to meet the requirements of mandatory training, it is anticipated to be used
+as a supplement, with relevant information pertaining to each touchpoint. Furthermore, while the touchpoints
+indicate when training should be provided, they do not prescribe what training should be
+provided. Requirements pertaining to content were derived from training content provided by Joint
+Knowledge Online (JKO) and Office of Force Education (OFE) resources. These documents were analyzed
+in search of common themes and most frequently discussed topics to ensure significant topics were
+included in the application. Such topics include Thrift Savings Plan (TSP), Blended Retirement System
+(BRS), financial preparation for deployment, budgeting, spending plan, SMART goal setting,
+Servicemembers Civil Relief Act (SCRA), and insurance.
+
+The information extracted from the guiding documentation helped to inform the creation of the initial end-user
+interview protocol, namely, the items that would be ranked by end-users as either important or useful.
+
+Initial End-User Interviews
+As part of the initial requirements collection process, an interview protocol was developed to elicit broad
+financial behavior from an end-user pool. Demographic information as well as themes about common financial
+behavior (i.e., car ownership, home ownership, college savings, retirement savings, account usage) were
+collected and then weighted (ranked) by the participants in order of what they considered important, useful,
+and high priority. The interview protocol can be found in Appendix A. Interview responses were collected
+from five participants (Mage = 32.2), with an average time in service of 11.1 years., Individuals served in the
+Air Force, Army, and the Marine Corps and ranged from National Guard, Active, Reserve, and Retired statuses.
+When asked to rank 13 financially related items per the top priority or most important to them, all respondents
+ranked saving and budgeting, household finance, and personal banking and security in their top five.
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                     6
+Additionally, items of importance included retirement, credit, and credit cards. In a similar vein, all respondents
+ranked savings and retirement in their top five most useful financial calculators. Additional calculators related
+to debt (elimination or consolidation) and loans (payoff and rates). These findings were included in the initial
+thematic and organizational scheme for content development.
+
+Marketplace Competitive Review
+The competitive review process consisted of researching and aggregating all relevant information on products
+that provide similar financial services both commercially- and government-produced. This process helped
+designers better understand current products available in the market, what needs are being addressed, and how
+effectively those products are addressing those needs. Designers evaluated each product’s goals, strengths, and
+weaknesses. This information was used to inform design recommendations for integration into the design of
+the new product. The competitive review process ensured that the delivered product leverages the best elements
+of comparable products, without their weaknesses, in order to deliver the best available product for end-users
+and stakeholders. The following (Table 1) is a list of the web-based software products and applications that
+were reviewed as part of this analysis.
+
+Table 1.
+Products Reviewed During the Competitive Review
+
+ Military America            Making Better        Learnvest         Simple                Mint
+ Saves                       Money Habits
+ Prosper Daily               Money Matters        Military One      BBB Mobile            USAA
+                                                  Source            Mi$$ion App
+ Military.com                Creditscorequiz      Credit.com        Quizzle               Saveandinvest.org
+                             .org
+ Credit Sesame               myFICO               Bankrate          Acorns                Payoff
+ SaveUp                      Clarke Howard        Money Habitudes   Gen I Revolution      Love Your Money
+ PowerPay                    myRA                 CreditCards.com   Consumer              Treasury Direct
+                                                                    Financial
+                                                                    Protection
+                                                                    Bureau
+ National 4H                 FinAid               Myeddebt.ed.gov   Betterment            PocketGuard
+ Curriculum and 4H
+ Build A Million Club
+ You Need a Budget           GoodBudget           Mvelopes          HomeBudget            Wally
+ Level Money                 Spendee              BUDGT             Unsplurge
+
+
+Persona Development
+Personas are representations of end-users developed with the intent of providing the design and development
+team with a sense of realism surrounding the project. Personas are typically developed through the collection
+and analysis of qualitative data and convey information pertaining to users’ goals, needs, and interests.
+Personas created under this effort represented major user groups of the system and helped the design team
+understand who their primary users are and what the system’s primary functions should be. Here, end-users
+are defined by several user classes with their own representative characteristics. Used for persona development,
+user classes were designated, and descriptive demographics developed (Table 2).
+
+
+                       Distribution A. Approved for public release: distribution unlimited.
+                                        www.quantumimprovements.net
+                                                       7
+Table 2.
+Persona Identification and Descriptions
+
+
+    Persona Group Identification          Description
+    Enlisted New Service Members          Novice, young, potentially little to no financial training or experience
+    (E1-E4)
+
+    Enlisted Middle Management            Growing assets, career responsibilities increase, potential family,
+    (E5-E6)                               retirement is important and relevant now
+
+    Enlisted Upper Management             May have personal experience in financial success and/or financial
+    (E7 and up)                           hardships, potential growing families, career responsibilities increase,
+                                          benefits for oneself and/or family member, increased retirement focus
+
+    Officer New Service Members           Novice, young, potentially little to no financial training or experience,
+    (O1-O3; W1-W2)                        potential education debt
+
+    Officer Upper Management              Growing assets, career responsibilities increase, potential family,
+    (O4 and up; W3 and up)                benefits for oneself and/or family member, increased retirement focus
+
+    Veterans                              Wide range population; young, middle-aged and older, planned
+                                          separation from service, unplanned separation from service, potential
+                                          for education debt, potential for growing assets, potential medical and
+                                          disability benefits focus, retirement focus, potential for other
+                                          benefit/entitlement programs
+
+    Spouse and/or family member           Use for and by almost anyone; a military spouse, a non-military
+                                          spouse, child, parent, other family member, may be closely involved
+                                          with household financial decisions, may hold power of attorney for
+                                          service member, etc.
+
+    Administrative                        Content upkeep, content consistency and accuracy, maintenance,
+                                          upkeep in relevant and accurate policies and local information
+                                          changes, system admin functions, legal issues, security issues,
+                                          protected information, information assurance
+
+For additional details, see contract deliverable Initial Financial Readiness PAL Requirements Report 4.4.1
+(Initial Financial Readiness PAL Requirements Report.pdf).
+
+Content Development Strategy
+The front-end analysis (review of guiding documentation, analysis of end-user interview data, and the
+marketplace competitive review) resulted in A-level requirements that drove the design of the application and
+defined the functions and features within. Additionally, the analysis and content sourcing that took place in the
+requirements collection produced vast amounts of relevant information on finances, financial health, financial
+readiness, and other similar content related to finance. This information was utilized for the content
+development strategy.
+
+
+                         Distribution A. Approved for public release: distribution unlimited.
+                                          www.quantumimprovements.net
+                                                         8
+The Content Development Strategy (CDS) was created to detail how content was accumulated, prioritized, and
+designed for this application. The objective of the CDS is to outline and develop a strategy for defining the
+content that will reside in the application, the applicable learning objectives (LOs), relational models within
+and between content and LOs, and the site map architecture to accommodate the UI/UX within platform and
+device standard operating environments (SOE). The following sections briefly detail the tasks that comprise
+the CDS. For additional details, see contract deliverable Content Development Strategy 4.4.4 (Content
+Development Strategy.pdf)
+
+Content Management
+Content management was an ongoing and iterative process throughout the project. Content management for
+Sen$e consisted of a content and asset library and a traceability matrix. The content and asset library contained
+all content related to LOs, financial education and knowledge items, graphic assets, tools and calculators, and
+assessment modalities. The library contained all content media types including, but not limited to: Microsoft
+Word documents, PDFs, infographics and other graphical formats, tools and calculators, e-books, video files,
+audio files, weblinks, and mini-game executables. Lastly, content management followed a specified naming
+convention, the traceability matrix, that allowed items from each file, LO, and ontology location to be mapped
+to one another for easy and efficient traceability and cross-reference among all content assets. In this way, all
+assets could be traced to functional software components. Version control was also established to maintain the
+content and asset library after each iteration of internal and customer review processes and during content
+sourcing.
+
+Content Modeling
+Content modeling is the act of defining and structuring content and assets. This includes defining LOs and
+associated knowledge content; determining content-specific presentation mediums; determining relational
+models between content items; and developing a framework for adaptive features leveraging content, user-
+provided information, and application usage. In order to present both the LOs and educational content
+effectively, the appropriate content-specific presentation mediums were determined. This entailed leveraging
+micro-learning strategies (small units of information) and media rich delivery mechanisms to effectively
+present learning content in an engaging manner. To appropriately map differing media types to content, best
+practices in mobile design and development were leveraged. For example, a vignette was designed to narrate
+a story about a financial concept. The vignette was presented in either graphical or video format to effectively
+leverage both the mobile real-estate and also present strategically grouped content in order to deliver a micro-
+learning episode to the user. Knowledge assessment responses and associated feedback, responsive checklists,
+and tools and calculators all leveraged the content modeling process.
+
+In order to create impactful content presentation, selected mediums need to meet user expectations, be intuitive,
+and efficient. Therefore, relational models between content items were presented within the database, content
+ontology, and navigational strategies provided by the UI. Related content, knowledge components, assessments,
+and tools were appropriately mapped within the application to provide a unified user experience. Navigation
+to and from the application home screen and within content sections included simple nested levels so that users
+knew their location within the application.
+
+Prioritized Content
+Content sourced as a result of the requirements collection process was prioritized for into the
+application. The stakeholder and end-user interview analyses, and mobile design strategies fueled design
+recommendations and requirements for the content prioritization. Interview analyses highlighted important
+themes found in the financial behaviors of the sampled end-users. These themes were also verified to be topics
+within JKO educational materials, 10 U.S. Code § 992, and other approved military resource websites. Based
+on the LOs developed for each financial category, the expected outcomes of learning could drive content
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                      9
+refinement in order to present users pedagogically relevant material. Content and asset libraries were iteratively
+updated to keep prioritized content at the forefront while version control and other applied nomenclature
+allowed dated or irrelevant materials to be archived. This tasking resulted in an organizational shell to be
+partially populated in the Phase II content development activities.
+
+Wireframes and Mockups
+With sourced, prioritized content in place for the LOs, the initial development of wireframes began.
+Wireframing consists of prototyping the design, look, and feel of the software product. The design of the
+software prototype involved developing the way the user interacts with the tools and elements within the
+application. Wireframing activities dealt with the layout of the application, design elements, and how the user
+navigates throughout the application. Project team members created wireframes using Balsamiq and Microsoft
+PowerPoint software (Figures 1a & 1b). After initial wireframing activities, the design team created a
+wireframe design generated within InVison for the interactive mockup of the application. Mockup screens
+applied the initial mood board styles (see Style Sheets and Mood Board section below) and were used to present
+the content and graphical user interface (GUI; Figure 2) The interactive InVision mockups were then used in
+the evaluation during formative usability testing. It was an iterative element of designing a clean, functional,
+and easy-to-use application that engages and interests the users. The wireframing and mockup activities were
+completed in concert with the content development activities of Phase I to ensure the design of the application
+would harmoniously accommodate the content.
+
+
+  Figures 1a & b. Balsamiq wireframe of conceptual screen layout; Microsoft PowerPoint wireframe of conceptual screen layout
+
+
+                       Distribution A. Approved for public release: distribution unlimited.
+                                        www.quantumimprovements.net
+                                                      10
+                 Figure 2. InVision mockup screens with "hotspots" for use in Formative I Usability Testing
+
+Application Design
+The application design took shape throughout Phase I and continued to be refined during Phase II. The bulk of
+the design decisions included architecture definition, (both front-end and back-end), the look and feel of the
+application through the use of style sheets and mood boards, and finally, the display of content through the use
+of mockups.
+
+Site Map
+A site map illustrates the different screens (pages) of an application. They are used in the planning stages to
+facilitate discussions between design and development teams regarding application structure, organization, and
+hierarchy. A high-level, user-centric site map was created for Sen$e outlining system first-time entry, user
+tools, and main content areas (Figure 3).
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    11
+                                              This work was supported by the U.S. Advanced Distributed Learning (ADL) Initiative
+                                            (Contract W911QY-16-C-0163). The views and conclusions contained in this document are
+                                                those of the authors and should not be interpreted as representing the official
+                                           policies, either expressed or implied, of the ADL Initiative or the U.S. Government. The
+                                               U.S. Government is authorized to reproduce and distribute reprints for Government
+                                                                                   purposes.
+
+
+                                                             Create Account
+                                                        Provide email/password /
+                                                                                              Log In
+                                                          sends confirmation or
+                                                             welcome email
+
+                                                                                                                                                                                              Birthdate
+                                                                                                                                               Intro to the App –
+                            Settings / Help                                                                                                   Welcome to $POWER
+
+                                                                                                                                                                                              Zip Code
+                                Glossary
+                                                                                          Main Dashboard
+                                                                                      (All Content Accessible)                                                        Complete Profile
+                                                                                                                                             Introductory Dashboard                           Military
+                           Relevant Adaptive                                                                                                      (Only Financial                             Branch
+                                Toasts                                                                                                          Awareness subset
+                                                                                                                                                    Accessible)
+                                                                                                                                                                                               Active v
+                           Tools / Calculators
+                                                                                                                                                                                              Reserve v
+                                 Library
+                                                                                                                                                                                               Retired
+                                                                                                                                              Subset of Financial
+                                                                                                                                             Awareness Information
+                                                                                                                                                                                         Currently Deployed?
+                                                                                                                                                                                         Recently Deployed?
+                                                                                                                                                                                         Planning to Deploy?
+Specific Demographics        Specific Demographics      Specific Demographics           Specific Demographics      Specific Demographics
+  Driving Adaptive             Driving Adaptive           Driving Adaptive                Driving Adaptive           Driving Adaptive
+        Content                      Content                    Content                         Content                    Content
+                                                                                                                                               Text Presentation
+
+
+        Savings               Expenses / Spending                Debt                   Benefits / Entitlements     Financial Awareness
+
+
+                                                                                                                                                   Activities
+
+
+   Text Presentation           Text Presentation           Text Presentation              Text Presentation          Text Presentation
+
+
+Activities / Assessments    Activities / Assessments    Activities / Assessments       Activities / Assessments   Activities / Assessments
+
+
+  Tools / Calculators          Tools / Calculators        Tools / Calculators             Tools / Calculators       Tools / Calculators
+
+
+                                                                                                                  Figure 3. Site map
+
+                    For additional details, see contract deliverable Site Map 4.4.2 (Site Map_4.4.2_W911QY-16-C-0163.pdf).
+
+                                                                               Distribution A. Approved for public release: distribution unlimited.
+                                                                                                www.quantumimprovements.net
+                                                                                                              12
+Style Sheets and Mood Board
+Tandem to the development of the content strategy and content sourcing, the design team developed application
+style sheets and mood boards to visualize the initial look and feel of the application. Style sheets are guidelines
+for the human interface of the system. There are standards and best practices for creating within the Android
+and iOS environments and style sheets capture these elements with respect to device features, application
+architecture, system capabilities, user interaction, and visual design. Usually a style sheet is presented in code
+that will be applied to the design. While the style sheet leverages mobile design best practices and sets a
+foundation for standardizing content screen layouts, the mood board was designed to garner customer feedback
+regarding style, imagery, application concepts, typography, iconography, buttonology, colors, and other
+elements for the user interface (Figure 4). Style sheets describe the “how” and mood boards illustrate the “what”
+of the application. The development of the mood board was an iterative process (Figure 5), with direct feedback
+from the customer accounted for in the design (Figure 6). The style sheets and mood board concepts were then
+leveraged during the creation of wireframes, mockups, and storyboards, later, in the design process. For
+additional details, see contract deliverable Mood Board 4.4.2 (Mood Board_Deliverable_4.4.2_W911QY-16-
+C-0163.pdf).
+
+
+            Figure 4. Example style sheet resources from Apple Developer website and Android Developer website
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     13
+                  Figure 5. Initial mood board concept
+
+
+Distribution A. Approved for public release: distribution unlimited.
+                 www.quantumimprovements.net
+                               14
+                                         Figure 6. Final mood board concept
+
+Mockups
+The Phase I mockups presented as part of the initial application design included screens representing the
+application log in, welcome, a demographics sample, dashboard, an activity sample, and an information sample.
+The goal in providing these mockups was to provide a representative sample of screens to begin providing
+stakeholders with a greater sense for the look and feel of the application. A collection of the mockups that were
+part of the deliverable are presented below (Figures 7 & 8).
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    15
+                           Figure 7. Application Log in and Dashboard – Initial concepts
+
+
+                                  Figure 8. Application content - Initial concepts
+
+
+For additional details, see contract deliverable Mockups 4.4.2 (Mockups_Deliverable_4.4.2_W911QY-16-C-
+0163.pdf).
+                   Distribution A. Approved for public release: distribution unlimited.
+                                    www.quantumimprovements.net
+                                                  16
+Information Assurance Design and Implementation
+The initial Information Assurance Management Strategy (IAMS) documentation was created in Phase I and
+updated throughout the period of performance, as necessary. The IAMS documentation defined the IA strategy
+for shared security controls, the application and database servers, and the web and mobile applications. Such
+strategies included user identification and authentication, password storage, account management, logon
+attempts, permitted actions without authentication, security updates for dependencies, physical protections,
+encryption, and user-sensitive data. Defined system monitoring included system availability, access logs, and
+maintenance. As this was the first draft of the IAMS documentation and the application was still in the early
+design phases, some notable items were unable to be defined at this time but were defined in subsequent phases
+of the period of performance. Those items included determining who the hosting provider would be as well as
+the fact that some functional requirements had not yet been defined.
+
+For additional details, see contract deliverable Information Assurance Management Strategy 4.4.3 (Information
+Assurance Management Strategy_4.4.3_W911QY-16-C-0163.pdf).
+
+Research Design and Protocol Development
+The Multi-Phased Research Design Document describes the assessment protocol used to implement the multi-
+phased research design for conducting usability and training effectiveness testing throughout the development
+of Sen$e. During Phase I, a cumulative Research Design and Protocol document was developed for three
+assessments that were to occur throughout the design lifecycle, using progressively higher fidelity prototypes.
+The three assessments included two formative assessments and one summative assessment. Generally,
+formative assessments included usability evaluations conducted during the first two phases of the project, to
+help inform iterative prototypes by uncovering any issues early in the design. The summative assessment was
+conducted on a nearly final product to provide usability benchmarks. The summative assessment was
+conducted during Phase III of the project.
+
+When content was incorporated into the application, the effectiveness in providing learning gains was
+evaluated in the summative assessment. The evaluation was based on the New World Kirkpatrick Model
+(NWKM) of training evaluation (Kirkpatrick & Kirkpatrick, 2016). The NWKM holds the same four Levels
+of the original model but includes additional explanations within each level. We conducted both Level 1
+(Reactions) and Level 2 (Learning) evaluations. Level 1 addressed reaction through the usability aspects of
+our evaluation. We captured users’ responses to guided interactions with Sen$e through measures of
+satisfaction and perceived usability. Qualitative feedback was collected using think-aloud protocols during
+these interactions. Level 2 addressed learning, where we evaluated a subset of the training content in the Sen$e
+application. This was assessed using post- knowledge tests.
+
+The research design and protocol incorporated state-of-science methodologies in conducting usability and
+effectiveness evaluations and leveraged standardized and validated questionnaires and subjective feedback
+elicitation methods. The assessments used in the effectiveness evaluation were cross-checked by several
+members of the project team. The protocols for each of the three-phased approaches all underwent professional
+institutional review board (IRB) evaluation and all researchers on the project team are certified in human-
+subjects research through the CITI certification process. For additional details, see contract deliverable
+MultiPhased Research Design 4.4.5 (Multi-Phased Research Design_4.4.5_W911QY-16-C-0163.pdf)
+
+Usability Protocol Development
+Usability testing is a process by which designers can optimize how users interact with a product and can be
+conducted in both formative and summative fashions, harnessing users’ expectations. The objectives of
+usability testing included: extracting user-expectations of site structure, content organization, and terminology;
+establishing user-satisfaction and expectations of the UI and functionality; identifying benefits of the interface
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    17
+and overall application as well as potential design concerns. Discussions took place with researchers, so users
+could share their interactions with the software as well as their thoughts and concerns while doing so. Usability
+testing was integral to the success of the software system because the process optimized how users interact
+with the product. The usability testing produced quantitative (e.g., the time it took to complete a task) as well
+as qualitative data (e.g., users’ overall experience).
+
+The development of the usability protocol included identifying the objectives, participants, tasks (use cases/test
+scenarios), and testing documents. The objectives included: extracting user-expectations of site structure,
+content organization, and terminology; establishing user-satisfaction and expectations of the UI and
+functionality; identifying benefits of the interface and overall application as well as potential design concerns.
+In order to meet the objectives, researchers identified the desired participants and developed four test scenarios.
+A test scenario is a description of how users should perform tasks on the Sen$e application. Test scenarios
+include a list of user actions and the system’s response to that action. The desired user actions and system
+response must result in the achievement of the specified task. Test scenarios were identified by the team based
+on the available functionality of the application and reflected tasks which are likely to be executed by the end-
+users.
+
+Once the test scenarios were developed, the research team compiled the remaining documents required to
+perform the usability assessment. The documents included an informed consent form, researcher script, and
+pre- and post- questionnaires. The consent form provided potential participants with an explanation of the
+proposed usability testing and the nature of the participation. This allowed participants to decide whether they
+want to participate in the testing or not. The script was developed for the facilitators to verbally describe the
+consent form, purpose of the study, and the tasks participants are asked to perform. The script also described
+the role of the facilitator, note-taker, and participant. Facilitators used the script to ask participants to think-
+aloud and respond verbally to several questions as part of a subjective questionnaire. The script also described
+the questionnaires used in the usability testing, which included a demographic questionnaire, the Satisfaction
+Questionnaire (SQ; Lewis, 1995), Subjective Usability Questionnaire (SUQ; Lewis, 1995), and System
+Usability Scale (SUS; Brooke, 1996). The IRB determined the Phase I Formative Testing to be "exempt” under
+32 CFR 219.101(b)(2). Therefore, the IRB protocol did not require a higher IRB review.
+
+Formative Testing
+Usability Testing
+Over the project lifecycle and across all three phases, Sen$e was subjected to iterative usability testing. In
+Phase I, a formative evaluation on an interactive mockup within InVision allowed the project team to identify
+issues early in the development lifecycle. The Formative I Usability Evaluation identified benefits of the
+interface and overall application as well as potential design concerns. Recommendations resulting from the
+usability evaluation were presented as the basis for design enhancements going forward. Human factors and
+usability experts conducted a heuristic analysis on the prototype to compare against the usability findings to
+further support the design enhancements. The findings from the heuristic analysis are integrated into the
+findings and recommendations throughout the remainder of this section.
+
+Method
+Eight participants local to Orlando, FL were recruited to participate in this study. Three participants had
+previous military experience (one served in the U.S. Marine Corps and two served in the U.S. Army).
+Researchers provided a brief training to the participants on how to perform a think-aloud procedure.
+Participants then completed four test scenarios, while “thinking aloud.” Meanwhile, the facilitator directly
+observed their actions and asked questions throughout their interaction. The note taker also observed their
+behavior, took notes, and asked any questions to help clarify their responses.
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     18
+The participants’ “work flow” or the path taken during each scenario was observed and noted. The team noted
+critical errors (i.e., deviations from the end targets of the scenario), such as navigating to wrong areas within
+the application. Participants may or may not have been aware that the task goal was incorrect or incomplete.
+
+Subjective data was collected using a “think aloud” protocol. As each participant executed the scenarios, they
+were asked to discuss what they were doing and why they were doing it. Additionally, participants completed
+the SQ (Lewis, 1995), SUQ (Lewis, 1995), and SUS (Brooke, 1996). The SQ is a semantic differential five-
+item questionnaire that assesses the user’s perceived satisfaction with the overall system. Ratings are indicated
+using 9-point Likert items. The SUQ is a semantic differential questionnaire but is comprised of 16 items
+broken up into four main categories: 1) screen, 2) terminology and system information, 3) learning, 4) system
+capabilities. Ratings are indicated using 9-point Likert items. The SUS is a 10-item questionnaire focused on
+perceived usability of the system and requires users to rate their subjective responses using 5-point Likert items.
+Finally, participants verbally discussed their likes, dislikes, and suggestions about Sen$e when prompted by
+the researcher.
+
+Results
+Participants performed four test scenarios and although they were partially successful in completing the tasks,
+the overall first impressions were very positive. Participants felt the application has a strong potential to provide
+educational information in a unique way. The general perspective across all the surveys was that the application
+was useful, was rated ‘good’ in terms of user-friendliness, and has a lot of potential to reach the application
+goal. The debrief questions asked at the end of the evaluation also helped to capture users’ perceived usability
+and satisfaction with the application. Insights into users’ likes, dislikes, and suggested improvements to the
+application were noted. Through the assessments and responses to the debrief questions, specific
+recommendations were extracted to help improve the application further. The recommendations were extracted
+from thematic synthesis of user data and parsed into main categories: navigation, content, interaction,
+iconography, buttonology, status, authentication, and aesthetics. By categorizing the recommendations, data-
+driven updates and improvements to Sen$e were prioritized. These findings provided opportunities for
+maximizing the utility of the Sen$e application for use with our target audience of service members and their
+families. Together this provided a holistic assessment resulting in valuable end-user recommendations.
+
+For additional details, see contract deliverable FR PAL Formative Testing 1 Results Report 4.4.8 (FR PAL
+Formative Testing 1 Results Report.pdf).
+
+Application Development
+During Phase I, the Sen$e application was defined as being comprised of a mobile application and supporting
+back-end infrastructure. The mobile application would be used by end-users for accessing the content and tools
+and the back-end would be for administrative and content management activities.
+
+Mobile Application
+Development of the mobile application began by identifying key user stories and goals. Paired with a design
+direction and aesthetic, those stories were developed into a prototype application. The prototype application
+was developed using InVisionApp and demonstrated a high-level overview of the user experience of the
+application. The prototype application covered the onboarding experience, showed how content would be
+grouped by category, and illustrated how users would browse categories and select specific topics to review.
+
+The original InVisionApp prototype is available here: https://invis.io/BJAC0A8F7.
+
+The overall experience was divided into two parts: browsing/searching available content and consuming
+content. To give each topic some freedom in how the content was presented, but enforce a consistent aesthetic
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     19
+and experience, the Adapt authoring tool and framework were selected for content design and development.
+Additionally, to adhere to current learning standards, the Experience API (xAPI) was selected as the foundation
+of communication between the content and the rest of the application.
+
+Back-end
+Drupal was selected as the content management system for the content in the Sen$e application. Drupal is the
+leading open-source CMS for ambitious digital experiences and offers a thriving community and rich
+opportunities for future development and enhancements. Drupal is a PHP/MySQL based CMS and thus
+requires a dedicated application and database server.
+
+A database server was established to store all application content and user data. Users are identified by their
+personal email address. It was recommended that the entire database be encrypted using AES with a 128-bit
+key to ensure security of data at-rest. The database will maintain application-level permissions and application
+access logs. The server will be protected by a firewall to only allow access by the application server (by default).
+
+An application server environment (Figure 9) has also been established to host the Web application (providing
+a Web interface for managing content and an API for mobile applications). For a production environment, the
+recommended server environment is comprised of multiple application servers behind a load balancer to assist
+in dynamically scaling server resources in response to application demand (Figure 10). The application server
+is responsible for running the Web application. The Web application provides a Web-based interface for
+managing application content and an API utilized by the mobile application for accessing content and syncing
+user data.
+
+
+                                         Figure SEQ Figure \* ARABIC 3. Web
+                              Figure 9. Recommended Application
+                                                    back-end architecture based on AWS
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     20
+                                  Figure 10. Recommended back-end infrastructure
+
+
+For additional details, see contract deliverable FR PAL Functional Prototype 4.4.7 (FR PAL Functional
+Prototype).
+
+5. Phase II
+Instructional Design and Content Development
+Content Library Ontology
+A content ontology is a graphical representation of system information, naming conventions (taxonomy),
+themes, and relationships between assets within the system. The content ontology allows designers and
+developers to view system concepts related to the content and content assets at a high level. During Phase II,
+design strategies for an ontology were fully developed into a graphical representation of the Sen$e content
+library ontology. The ontology consisted of content (themes, sub-themes, categories), adaptive and interactive
+elements (contextual awareness, user-centric data), instructional design strategies (mobile learning, multi-
+media), and analytic measures (tools, app usage, assessments). For the development of the content library
+ontology, content was sorted and mapped to establish meaningful relationships between content assets. Content
+mapping is an approach that establishes workflows based on user intent and helps align the content with the
+needs of the targeted audience. Once the scope of LOs and associated content necessary to meet the those LOs
+were identified, a content library ontology (Figure 11) operationalized these LOs into an atomized, relational
+model (representative LOs, their properties, and relationships between them).
+
+High-level themes were developed as the transaction between an individual (the user) and their flow of money
+which resulted in money coming “In,” money going “Out,” and money they will “Keep.” These terms are
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    21
+highly elementary; however, they established the foundation for categorizing content based on financial
+knowledge and behaviors required at each of these junctions. To further define “In,” “Out,” and “Keep,” sub-
+themes and categories were created on a more granular level and addressed specific content rooted in
+requirements from military touchpoints.
+
+User interactions and instructional design strategies were outlined for the ontology in tandem to the content
+categorization. Establishing how content would be presented to the user based on touchpoints, need, or self-
+guided exploration within the application was presented in the ontology as contextual awareness. Contextual
+awareness also addressed how potential content adaptation or prioritization could be triggered within the
+application. Additionally, the content library ontology provided a repository for content media types that were
+to be included in the application as well as tools and calculators that would be used to support financial literacy
+and learning. These assets are housed under “Instructional Strategy” in the ontology. Lastly, varying measures
+and methods for assessing user learning and capturing re user-analytics and user-data were included in the
+ontology as “Standards” and included knowledge assessments and tool-use.
+
+This strategy was identified to link content with the LOs for each category with their associated touchpoint
+information. First, LOs were analyzed for presentation relevancy across each of the touchpoints (LOs that seem
+to logically fall within certain touchpoints and not others). There were cases where LOs were duplicated across
+multiple touchpoints (e.g., when the LO related to generalized financial information or when it referred to
+spending plans or budgeting, in which case those financial tools need to be updated periodically and across
+various touchpoints). After each LO for the category (Savings, Financial Awareness, Expenses and Spending,
+Debt, and Benefits and Entitlements) was parsed across each of the touchpoints (i.e., Initial Entry Training,
+Pre-deployment Training, etc.), the associated content was then tailored to include additional information
+pertaining to that specific touchpoint. In this way, depending on the content prioritization taking place, the user
+may see content specifically related to them at point-of-need, during a touchpoint occurring in their life, and
+referencing the content category they selected to view. This content mapping strategy was developed in tandem
+to the adaptation strategy development in Phase I.
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     22
+                                      Figure 11. Abbreviated Content Ontology
+
+Learning Objectives
+Learning objectives (LOs) are statements about the expected outcome of a student’s learning after an
+instructional intervention (course, class, experiential learning episode, etc.). They help create a foundation of
+instructional strategy and most often closely follow Blooms Taxonomy of educational objectives (Anderson
+& Krathwohl, 2001; Bloom, 1956). The LOs created for Sen$e aim to cover broad categories of pertinent
+financial concepts and financial readiness and were strongly influenced by the front-end analysis. The first
+iteration of LOs included learner statements about financial awareness, savings, expenses and spending, debt
+and credit cards, and benefits and entitlements, for example, “Users should know the signs of a legitimate debt
+management firm,” or “Users should be able to know the purpose of the Servicemembers Civil Relief Act
+(SCRA).” The goals of these LOs were to promote the understanding about common financial terms, how to
+develop healthy money habits, and how to translate financial plans and goals into actions. They were also used
+to gain insight on personal financial habits and behavior. After the initial LO statement was written, the LO
+was then broken down into its component parts, application location was detailed, and methods for assessing
+user learning was designed. After the LOs were decomposed in this way, they were incorporated into the design
+of the CDS and wireframes.
+
+Adaptive Content
+In Phase I, strategies were developed to deliver a personalized learning experience, in which end users are
+guided to tailored content. Leveraging concepts from adaptive training, whereby adaptation of content,
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    23
+instructional methods, or both to support the needs of the learner based on knowledge, abilities, skills, and
+preferences (Landsberg, Astwood, Van Buskirk, Townsend, & Steinhauser, 2012), tailoring content would
+facilitate users getting the right information at the right time. The team identified ways to tailor the content for
+each user. Methods to tailor content are based on macro-adaptation. Macro-level adaptive strategies are often
+based on characteristics of the learner in which a planned course of action is mapped through existing and
+available content. These strategies can be employed in order to determine content recommendations as well as
+adjust content format based on system wide preference settings, for instance, or specified through point of need.
+In the context of financial literacy, user’s demographic information and touchpoints influence the prioritization
+of content. Prioritizing content based on touchpoints (including those listed in FY16 NDAA Section 661) such
+as arrival at first duty station, marriage, divorce, birth of first child, disabling sickness or other condition, and
+planned separation date from the military would offer new content recommendations as new touchpoints occur.
+Designs for content organization prioritization based on assessment performance were also developed to help
+further tailor content to the user’s needs. Allowing objective data collection opportunities, through the use of
+assessments, would provide valuable insight into what users know and how they navigate the application. This
+information can be leveraged in future design iterations, allowing for more robust adaptation to take place
+across content organization, content presentation, and content recommendations.
+
+Use Case Development
+A use case is a document that describes how users will interact with a system to achieve a goal. The use case
+document details the user input and the expected system response. A use case is written with the user in mind
+and from the user perspective such that optimal work flows, those in which the goal is achieved as efficiently
+as possible, are considered main “flows.” A use case can utilize other design documents as reference points to
+text descriptions, however high-fidelity mockups are not necessarily a requirement to create detailed and
+thorough use cases. A task description (user goal), users, necessary pre-conditions to system state, main flow,
+alternate flows (something outside the purview of the main goal), post-conditions, and any special requirements
+of the system (e.g., system save data, system logic specific to interactions pertaining to the use case, etc.) are
+written into the use cases in shall/should statements (Figures 12 & 13). Use cases were developed for the
+content within partially populated content library to detail user/system interactions for main content and pre-
+and post-assessments for each of the following sections: Benefits and Entitlements, Credit, Debt, Expenses
+and Spending, Financial Awareness, and Savings. Each use case developed for these sections contained
+detailed user actions and intended system responses for every possible interaction contained within each main
+flow and alternate flow(s). The use cases were also designed to cross-reference other use cases for the system
+such that pre-conditions and post-conditions could accurately be described within the use case library (all the
+use cases developed for Sen$e). Only areas that had populated content were detailed in the use cases. Areas of
+main content per touchpoint or category and associated assessments have use case reference numbers (numeric
+labelling system assigned to each use case), whereas all other use cases that were designed as placeholders
+have a reference label To Be Determined or TBD (e.g., home screen, content section main screens, etc.). The
+content ontology, node-maps, and other organizational reference materials were paramount during the creation
+of the use cases to understand the interdependencies, relational models, and cross-references needed for this
+task. This document is one of many tools used by development and design teams to communicate system
+specifications for user-centered design.
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     24
+Figure 12. Example section of DTI Ratio Use Case (description, actors, pre-conditions)
+
+
+  Distribution A. Approved for public release: distribution unlimited.
+                   www.quantumimprovements.net
+                                 25
+Figure 13. Example section of Financial Awareness Use Case (alternate flows, post-conditions, special requirements)
+
+
+                 Distribution A. Approved for public release: distribution unlimited.
+                                  www.quantumimprovements.net
+                                                26
+Content Architecture
+Given the updated priorities, additional LOs were created and associated content was sourced from
+government and military publications. Given the of more learning objectives, the content was restructured in
+an effort to deliver effective and efficient micro-learning modules. Content fell into three main categories.
+These categories were 1) touchpoints (military career touchpoints – e.g., 1st Duty Station), 2) point of need
+(personal milestones – e.g., birth of a child, retirement), and 3) general content (e.g., debt, financial
+awareness). As a result, the team revised the content library to include these terms and created a graphical
+representation of the content architecture (Figure 14). The content architecture is more detailed than the
+content ontology library such that the architecture provides the project team an overview of specific content
+organizational structure, workflow (application dashboard, screen, and page), and implementation of
+specified learning objectives with associated knowledge assessments.
+
+
+                              Figure 14. Content Architecture for 1st Duty Station touchpoint
+
+Node-map
+A node-map is used as a planning tool in web and application design to visualize the structure of an experience
+to be designed and developed by a software development team. The node -maps represent each state (or screen)
+of the application as well as the entry points for that state and the exit paths. These states directly relate to the
+wireframes to further document how each state works (Figure 15). The node-maps created for Sen$e define
+interactions for each piece of content characterized in the content architecture. A node-map was created and
+placed at the beginning of each wireframe document to depict highly detailed, functional interactions between
+system and user to further detail user workflow. Content presentation style is also captured by the icons
+represented in each node-map. Icons represent either viewable components such as text or an image and
+interactive components like a button, overlay, video, flipbook, accordion menu, text box, or filmstrip.
+Additional icons also represented features such as in-application links, hyperlinks to outside websites, or
+glossary terms.
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     27
+At quick glance, the project team can see that “Impact of PCS”, for instance, contains textual and graphical
+assets, has several interactive components (buttons, glossary items, and overlays) and roughly five states (LO
+screen, main content screen, two overlays, and a post-assessment screen).
+
+
+                Figure 15. Example node maps for “Touchpoint – Subsequent Duty Station,” “Spending Plan”
+
+Wireframes and Mockups
+Wireframes are a vital part of the design phase in order to convey content design and composition. Hierarchical
+typography choices, image size and placement, navigational design, and user experience design were all
+explored at this phase in order to confirm the design was functional. In each wireframe, key interactive
+elements were annotated with a more detailed description regarding their expected functionality. The
+wireframes were delivered alongside the node map. Designed in a collaborative fashion by the development
+and the design team, wireframes served as a foundational deliverable and are a crucial part of application
+design. A wireframe is more of an engineering document than it is an artistic document, with the emphasis on
+completeness and accuracy rather than artfulness (see Figure 16).
+
+Wireframes were reviewed in a presentation to allow the production team to provide a narrative to the design
+as well as field any initial questions regarding why certain design decisions were made. Iterative changes
+produced improvements to some elements within the initial wireframes, however, the intent of the UI/UX in
+the wireframes was a solid foundation for development and testing.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    28
+                            Figure 16. Example wireframes created in Microsoft PowerPoint
+
+A design mockup is a full expression of the UI for the experience. A successful mockup is easily translated to
+design by a development team with a minimal confusion. Mockups can be very time consuming to produce
+based on fidelity of the renderings. Special attention also needs to be made to keep mockups current, as the
+design evolves or the development effort demands. Because mockups are so time-consuming to produce,
+mockups are often only produced for “key” application states (while wireframes are typically created for each
+application state; see Figure 17).
+
+Produced by the design team, under advice (input and high-level direction from the developers), the mockups
+were reviewed to identify graphic design areas for enhancement and issues. This included elements like color,
+image choice(s), final font, and typography layout, etc. At this point, UI control elements and UI layout were
+approved and verified during the wireframe phase. Once updates were made to fix issues brought up during
+the team review, the mockup was shared with the software development team.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    29
+                                        Figure 17. Mockup screen examples
+
+Motivational Elements
+To encourage continued use and engagement with the application, various types of motivational elements
+were identified for in the design and development of Sen$e. Engagement with the application and
+continued motivation to use the application was addressed by instantiating gamification elements within and
+throughout the entirety of the application. A popular countermeasure to mitigate boredom and the loss of
+motivation is incorporating gameplay. Games are empirically found to influence the learners’ motivational
+processing through game appeal, game involvement, and game structure (Huang, Johnson, & Han., 2013).
+Hamari, Koivisto, and Sarsa (2014) further identified the gamification elements that are empirically supported
+to involve motivational affordances. These elements include points, leaderboards, achievements/badges, levels,
+story/theme, clear goals, feedback, rewards, progress, and challenge.
+
+Leveraging the Marketplace Competitive Review data for application “best features” and in-house expertise
+in the field, elements for motivational engagement were identified. Featured gamification elements under
+consideration include tools to track learner progress through content and materials (pre- and post-assessments,
+progress bar), system usage feedback, ability to favorite or like content, development of an avatar, creation of
+user profiles, mini-games that will leverage financially complex materials as game content, and a points and
+scoring system which will overtly gamify the UI to support engagement. In Phase I, these motivation elements
+were identified and included in the content ontology throughout various levels as a system-wide gamification
+strategy.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    30
+As the mockups were being developed, additional motivational elements were incorporated. These
+motivational elements include but are not limited to games, knowledge assessments, Green Pig, and a point
+system.
+
+   Games
+Games were created to leverage learning within the application and allow the user to apply their knowledge.
+Games are also an innovative tool to help distinguish Sen$e from traditional content or tool driven financial
+applications. By transforming financial content into interactive gameplay, engagement and immersion in the
+application could be enhanced. The project team first created conceptual drafts of several mobile-based games
+that drew inspiration from popular game genres like action, adventure, trivia, simulation, puzzle, role playing,
+strategy, and casual game genres Concept game names included Whack-a-Goal, Journey to Hale Crater, Money
+Mummy, Credit Score Power Plant, Word Scrambler, Finance Ninja, and Battle Ship. The goal was to create
+financial games that would appeal to the differences of end-users (e.g., from initial entry service
+members to retired spouses) represented in the application. Moving from the initial concept, several game
+ideas (e.g., Word Jumbler, Financial Carnival, Word Search) were selected based off feasibility and
+alignment with overall project needs. These ideas were further fleshed out into a detailed conceptual game
+design document to track the overall gameplay concept, such as the storyline or game environment and
+visual style. The gameplay UI, mechanics, controls, scores, and feedback were all included in the Game
+Design Document. Questions as well as correct and incorrect answers were also derived for the sourced
+content in the mockups. Game mockups were then created in addition to content libraries and game logic
+algorithms, to be handed off to the developers for development and integration into the application. Further
+details regarding the integrated mobile games are described below:
+
+Word Jumbler: Users are asked to unscramble four jumbled financial terms containing letters that reveal the
+answer to a financial question. Key financial terms were extracted directly from the content and were organized
+in Excel according to content section. Each content has its own Word Jumbler that contains content specific
+terminology in addition to the overall Word Jumbler that is located in the main Games and Resources section
+that contains terminology from all content areas. This game follows an adventure-style puzzle game, where
+users embark on an adventure with their guide, G.P. Jones (Green Pig Jones), to complete quests, or financial
+jumbles, to uncover pieces of the adventure map. The setting is an ancient jungle containing archeological
+artifacts that can be earned, along with points, as the user completes more quests and unlocks more pieces of
+the adventure map. The use of rewards, a point system, and the transparency of the user’s progress come
+together to support user engagement and motivation within the game. The landing screen for this game can be
+seen in Figure 18.
+
+
+                                  Figure 18. Landing screen for Word Jumbler game
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    31
+Financial Carnival: Embodying the classic carnival theme, users are prompted to answer financial trivia
+questions from Hambone the clown to obtain darts for a virtual dart table that is presented after completing the
+questions. By tapping on a moving green pig, players can attempt to pop the pigs with the darts. Players are
+motivated to correctly answer the trivia questions in order to maximize the amount of darts earned. Financial
+concepts are tested through targeted questions that were extracted directly from each content area. Users can
+either access the Financial Carnival game in each content for content-specific questions, or in the Games and
+Resources menu that tests all financial concepts presented in the application. The landing screen for this game
+can be seen in Figure 19.
+
+
+                      Figure 19. Landing screen for Financial Carnival: Bring Home the Bacon game
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    32
+Word Search: Encompassing the classic pen and paper Word Search puzzle, A financial Word Search game
+was created that tests user’s knowledge of key financial terms used in the application. A glossary was generated
+in Excel that accurately captures the full scope of financial terms. Users swipe up, down, left, and right, to
+highlight terms and upon each successful word identification, a pop-up reveals the term definition. Users can
+earn points by successfully locating all financial terms in a given word search. Further motivation is achieved
+by including a timer that challenges the users to complete the word search as fast as possible for more points.
+The landing screen for this game can be seen in Figure 20.
+
+
+                                   Figure 20. Landing screen for Word Search game
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    33
+   Knowledge Assessments
+Post assessments were created based on the LOs and sourced content. The post-assessments are scenario-based
+questions, which gauge the user’s understanding of a specific financial subject (Figure 21). The content author
+and team reviewed the assessments to check for errors and typos as well as to verify that the questions and
+answer choices corresponded with the content.
+
+
+                              Figure 21. Example wireframe of a Knowledge Assessment
+
+   Green Pig
+Green Pig was a pedagogical agent developed to create motivation by creating a more entertaining, likeable,
+and engaging environment within Sen$e. Pedagogical agents are frequently seen in eLearning environments
+and can be used to enhance learning by facilitating effective communication between humans and machines.
+Green Pig was designed to resemble a green piggy bank because of the established use of piggy banks as a
+financial symbol, and because of associations between green and money, as well as green and the military.
+Green Pig has a simple persona of a financial pal who presents dense financial information into user-friendly
+learning, highlights important information, and provides a personal feel to the application, while giving the
+users something to connect with. Green Pig went through an iterative process that started with a concept of a
+simple green pig that was incorporated into wireframes and mockups early on. Based off end-user and customer
+feedback, Green Pig was iterated on to include more personalization and human elements like the design of
+different Green Pig personalities (e.g., Wizard Green Pig’, ‘Snow Day Green Pig’, and ‘Surfer Green Pig’)
+through character costumes and speech bubbles (see Figure 22 for concept variant of Green Pig). Content
+wireframes and mockups were designed with the rethemed Green Pig and delivered to the developers for
+integration into the application.
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    34
+                                      Figure 22. Concept variants of Green Pig
+
+   Progress Bar and Tracking System
+A progress bar is a graphical, feedback representation of progress through or percent-complete. Users can
+monitor progress by this standard GUI element. Generally, it is suggested users prefer feedback about progress
+(Branaghan & Sanchez, 2009), and that progress bars may provide encouragement to users (Villar, Callegaro,
+& Yang, 2013). To represent percent-complete in any one area of content, the use of a progress bar was
+instantiated into the application design. This variable-rate progress bar measures viewed content compared to
+all content within a particular section. To view all content will include expanding every accordion menu and
+viewing each page of a flipbook or film strip interaction (for example). The progress bar will track progression
+through content in this way (Figure 23).
+
+
+                                          Figure 23. Progress bar example
+
+Iterative Review Process
+The sourced content was large, in breadth, volume, detail, and scope. Additional supplemental content was
+created for each of the content categories and touchpoints like a Tips of the Day feature, glossary terms and
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    35
+definitions, as well as a library of all verified weblinks for in the application (i.e., hyperlinks).
+Interaction node maps were created to illustrate user interactions and system response as well as the updated
+content architecture. In order to maintain content accuracy and versioning control, content creation underwent
+an iterative review process.
+
+The review process for developed content can be seen in Figure 24. Of note, the content underwent various
+reviews from the project team, the development team, management, and a subject matter expert. Upon
+completion of each review, changes and refinements were incorporated. Once the content was determined to
+be complete, the ancillary features and functions that were impacted by new content were updated and reviewed.
+This included a review of LOs, tips of the day, glossary terms and their definitions, post assessments, and
+interaction node maps. For additional details, see contract deliverable Financial Readiness Content Library
+(Partially Populated) 4.4.12 folder containing files for pre- and post-assessments word files, mockup PDFs,
+and use case word files.
+
+
+                                  Figure 24. Content Development Review Process
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    36
+Requirements Collection
+Requirements continued to be derived and refined throughout the beginning of Phase II. Requirements were
+derived from the Phase I formative testing as well as additional knowledge elicitation activities and meetings
+with stakeholders. As new requirements were identified, and old requirements were modified, the relevant
+design artifacts were updated including the content ontology, learning objectives, content, mockups, etc.
+
+The formative results enabled a user-centered design, and recommendations were incorporated into the
+prototype. The design team also had an opportunity to speak with participants of the Office of Financial
+Readiness Microlearning Event held in Alexandria, VA. Participants of the 3-day microlearning event
+consisted of financial readiness policy-makers, curriculum developers, and financial advisors, all of whom
+currently hold leadership roles in their respective Services (Army, Navy, Marine Corps, Air Force, Guard),
+responsible for the execution of financial readiness training within their Service. Additionally, individuals
+responsible for the Transition curriculum and individuals from the Consumer Financial Protection Bureau were
+present. The event was used to determine microlearning training topics being developed by FinRed separate
+from development of Sen$e, however, Sen$e utilizes microlearning concepts and may leverage the
+microlearning content being developed. During the event, a concept mapping task took place to elicit top level
+priorities and financial concepts by touchpoint membership. Figure 25 depicts two touchpoints and associated
+financial concepts.
+
+
+                  Figure 25. Concept map for touchpoints at the Financial Readiness Microlearning Event
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    37
+This activity yielded priority issues across the military touchpoints for each branch of the service (Table 3).
+
+Table 3.
+Service-identified Financial Priorities per 10 U.S. Code § 992 Touchpoints
+
+   Touchpoint                                               Main Topic
+   At Entry Training                                        LES
+   Upon Arrival at First Duty Station                       Spending Plan
+   Upon Arrival at Each Subsequent Duty Station             Update your Financial Plan
+   Upon Promotion                                           Adjust your Financial Plan
+   When Vested in TSP                                       Matching
+   When Entitled to Receive Continuation Pay                Tax Implications
+   At Each Major Life Event                                 Overall Financial Plan
+   During Leadership Training                               Identify Appropriate Resources / Recognize Warning Signs
+   During Pre- and Post-Deployment Training                 Budget / Changes in Pay / Pay Entitlements
+   At Transition Points                                     Managing TSP / Budget
+   As Part of Required Recurrent Training                   Finance Overview
+
+With new priorities in place, the team conducted a gap analysis to identify which priorities did not already
+have content. The team began sourcing additional content from government and military internet sources once
+they identified the gaps within the content.
+
+For additional details, see contract deliverable Financial Readiness PAL Requirements Report Update 4.4.9
+(Financial Readiness PAL Requirements Report Update_4.4.9_W911QY-16-C-0163.pdf).
+
+Information Assurance Design and Implementation
+The interim Information Assurance Management Strategy (IAMS) documentation was updated during Phase
+II with additional information that was a result of additional design and development activities throughout the
+phase.
+
+The document was clarified to be more specific about the types of personal information would be tracked based
+on the content design and development. Additionally, the encryption strategies were broadened to ensure the
+entire database was encrypted at-rest instead of individual fields. The document was peer reviewed by the
+project team and delivered in September 2017.
+
+For additional details, see contract deliverable Information Assurance Interim Documentation 4.4.10
+(Information Assurance Interim Documentation_4.4.10_W911QY-16-C-0163.pdf).
+
+Application Development
+During Phase II, the prototype application from Phase I was formalized and developed into a working proof-
+of-concept iOS and Android application.
+
+The application was created using Microsoft’s Xamarin development environment and the UI was developed
+using the open-source Xamarin Forms cross-platform UI framework (Figure 26). The Xamarin toolkit allows
+for native iOS and Android applications to be developed from a shared codebase. About 80-90% of the
+application code base is shared between the iOS and Android applications. The shared code base allows for
+better feature parity and lower maintenance costs between the two platforms. The mobile application supports
+
+                         Distribution A. Approved for public release: distribution unlimited.
+                                          www.quantumimprovements.net
+                                                        38
+iOS 10 and later and Android 5.0 and later. The UI is optimized for the phone form factor but is responsive
+and supports larger screens.
+
+                                       iOS App                   Android App
+
+
+                                                   Sen$e App
+
+
+                                                 Xamarin.Forms
+
+
+                                    Xamarin.iOS               Xamarin.Android
+
+
+                                      iOS SDK                   Android SDK
+
+
+                                     Figure 26. Mobile application architecture
+
+
+Throughout Phase II, a series of alpha and beta builds were released through HockeyApp and demonstrated
+the continuously evolving capabilities. Bugs were tracked based on feedback from the QA team and the client.
+Crashes and other errors were automatically tracked using HockeyApp’s crash reporting functionality. A final
+build was released via HockeyApp in September 2017.
+
+Additionally, a custom theme was developed for the Adapt framework to provide a consistent visual aesthetic
+between the native application and learning content. All approved content was implemented in the Adapt
+framework and added to the application. The application also featured three games to help enforce key financial
+concepts and terminology.
+
+Back-end
+A simplified version of the recommended back-end infrastructure was implemented for Phase II. Because the
+expected number of users was going to be low, a load balancer and CDN were not yet necessary.
+
+A Drupal CMS was configured and further customized via a variety of contributed and custom modules.
+Custom modules were developed to enable email-based user authentication, provide a JSON API for use by
+the mobile app, enforce security controls identified in the IAMS document, track awarded points, and provide
+tools for importing and managing application content.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    39
+At the close of Phase II, the back-end was implemented in AWS to provide a stable evaluation environment
+for user testing and client review. An EC2 instance was provisioned for the application server with and RDS
+instance for hosting the database.
+
+For additional details, see contract deliverable Back End Architecture 4.4.2 (Back End
+Architecture_4.4.2_W911QY-16-C-0163.pdf) and contract deliverable Financial Readiness PAL Functional
+Prototype Phase II 4.4.13 (FRPAL Functional Prototype_4.4.13_W911QY-16-C-0163.iOS.ipa; FRPAL.
+Functional Prototype_4.4.13_W911QY-16-C-0163.apk).
+
+Formative Testing
+The second round of Formative Testing, during Phase II of the period of performance, leveraged the multi-
+phased research design that was delivered during Phase I. The research design and protocol focused on the
+usability of the Sen$e interfaces, user flows, and other aspects of the application that were currently available
+at the time of Phase II testing. The development of the research design and protocol followed state-of-science
+methodologies in conducting usability evaluations. This included leveraging standardized and validated
+questionnaires and subjective feedback elicitation methods. The protocol for this Formative II Usability
+Evaluation approach underwent professional IRB evaluation where the IRB determined the Phase II Formative
+Testing to be "exempt” under 32 CFR 219.101(b)(2). Therefore, the IRB protocol did not require a higher
+IRB review. Furthermore, all researchers on the project team were already certified in human-subjects research
+through the CITI certification process.
+
+Method
+Five users local to Orlando, FL were recruited to participate in this study. Five users had previous military
+experience (one U.S. Marine Corps, one U.S. Navy, one U.S. Coast Guard, and two served in the U.S. Army).
+The alpha version of the application was presented on either a Galaxy S7 phone with the Android operating
+system or an Apple iPhone 7 with the iOS operating system. Users performed the tasks on the type of device
+they indicated they were most comfortable using. Researchers provided a brief training to the participants on
+how to perform a think-aloud procedure. Participants then completed six test scenarios, while “thinking aloud.”
+Meanwhile, the facilitator directly observed their actions and asked questions throughout their interaction. The
+note taker also observed their behavior, took notes, and asked any questions to help clarify their responses.
+
+Test scenarios were identified by the team based on the available functionality of the application at the time of
+Phase II testing and reflected tasks which are likely to be executed by the end-users. The test scenarios were
+as follows:
+
+The participants’ ‘work flow’ or the path taken during each scenario was observed and noted. The team noted
+critical errors (i.e., deviations from the end targets of the scenario), such as navigating to wrong areas within
+the application. Participants may or may not have been aware that the task goal was incorrect or incomplete.
+
+Subjective data was collected using a “think aloud” protocol. As each participant executed the scenarios, they
+were asked to discuss what they were doing and why they were doing it. Additionally, participants completed
+the SQ (Lewis, 1995), SUQ (Lewis, 1995), and SUS (Brooke, 1996). Finally, participants verbally discussed
+their likes, dislikes, and suggestions about Sen$e when prompted by the researcher.
+
+Results
+This usability evaluation identified benefits of the interface and overall application as well as potential design
+concerns. Benefits included the clean, intuitive, and simple design and display of information while there were
+some concerns with respect to navigation, content organization, and interaction with the system. Overall, users
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    40
+liked the idea and direction of the Sen$e application and described it as a “one-stop-shop” for obtaining
+pertinent financial information. This bodes well for the breadth of the application’s target audience. Aligning
+with our goal, users were able to efficiently extract key information by quickly entering and exiting the
+application. This experience is reflective of how users are expected to use the application in the real-world.
+While current financial applications overload the user with too much information, Sen$e successfully balances
+between too much and too little by presenting content in bite-sized and manageable chunks. Users across the
+board found the content to be straightforward and useful, and they appreciated the option to explore content in
+more detail through overlays, accessing content outside of the application, and exploring infographics and
+accordion content. Users specifically liked the integration of an accordion design to help manage large chunks
+of information by intuitively revealing and concealing information. In general, the navigation and interaction
+were intuitive and met the user’s expectations when tapping on hyperlinks, exploring different types of menus
+and scrolling through the content. Specifically, users liked how the backwards navigation returned the user to
+their previous position, the “mentally comforting” loading screen, and the ability to update preferences and
+demographics in the user profile at a later date. In general, users enjoyed having a mascot for Sen$e although
+they recommended creating a new mascot that was more reflective of the military. While the overall impression
+of the Sen$e application was very positive, user actions indicated room for improvement in how content is
+organized, clarity of interactions, and general aesthetics.
+
+For additional details, see contract deliverable FR PAL Phase II Formative Test Report 4.4.14 (FRPAL Phase
+II Formative Test Report.pdf).
+
+Lifecycle Planning and Documentation
+A Lifecycle Planning and Documentation effort was also completed in Phase II to ensure there was an adequate
+plan in place to allow for sustained use and maintenance of the application.
+
+The key focus of the document was to offer recommendations for technical maintenance of the application
+(both the mobile application and supporting back-end). The document provided:
+
+      •   an overview of the entire system,
+      •   implementation recommendations based on using AWS as the hosting provider,
+      •   suggested processes for monitoring the system, providing end-user support, and analyzing how users
+          are using content, and
+      •   requirements for maintaining each system component.
+
+For additional details, see contract deliverable Interim Lifecycle Sustainment Plan 4.4.11 (Interim Lifecycle
+Sustainment Plan_4.4.11_W911QY-16-C-0163.pdf)
+
+6. Phase III
+Information Assurance Design and Implementation
+The IAMS document was updated to clarify recommendations for the back-end infrastructure, but the
+implementation details were removed now that the Office of Personnel Management (OPM) is responsible for
+the implementation and long-term maintenance.
+
+The security controls and other functional protocols remained unchanged from phase II.
+
+For additional details, see contract deliverable Information Assurance Final Review 4.4.15 (Information
+Assurance Final Review_4.4.15_W911QY-16-C-0163.pdf).
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    41
+Instructional Design and Content Development
+Iterative Review Process
+Throughout the development lifecycle and through Phase III, the project team continued to iteratively review
+content. As the review process extended outside the project team to include customer review feedback (through
+thorough, expert working groups), the instructional design and content development strategies adapted to not
+only incorporate the feedback, but to improve upon system usability, content accuracy, and content
+presentation within Sen$e. A review process was put into place to manage and mitigate version issues as well
+as prioritize and execute the instantiation of recommended improvements, feedback updates, and addressed
+review comments. The review process guided the extensive asset management across expert
+comments/feedback, the project team investigative reports, pre- and post-working group adjudication,
+integration strategy, content development and refinement, quality assurance (QA), and final incorporation. To
+track comments and subsequent updates to content, all comments were first entered into a spreadsheet (with a
+separate sheet for each section). Each comment was entered into its own row, with separate columns to track
+pertinent information, such as the slide number and reviewer. Once all comments were entered, they were
+reviewed by the project manager and were assigned one of the following categories: 1) “incorporate” if the
+comment was to be incorporated into updated content; 2) “do not incorporate” if the comment should not be
+incorporated into the content; 3) “investigating” if the content required investigation by the content author to
+determine the path forward; 4) “discuss” if the meaning of the comment was unclear and required discussion
+with the commenter; or 5) “duplicate” if there was more than one of the same comment, then the first comment
+would be categorized as above and the remaining would be marked “duplicate.” A separate column described
+a path forward that detailed how to make changes, if the comment was to be incorporated. If there were any
+items marked as “discuss,” a working group meeting was held to determine a path forward, after which a new
+category (as indicated above) was marked in a new column. Once decisions were made about the path forward
+for each comment, the author would update the content and described the changes that were made to the content,
+the date changes were made, and the new slide number (if appropriate) in separate columns. A final quality
+assurance editor reviewed the comments and the updated content to determine whether updates sufficiently
+addressed the comment and indicated whether the comments were addressed in a new column.
+
+Comments were considered “closed” if any one of the following conditions was met.
+
+        1. It was marked as “incorporate” and the content was subsequently updated to address the
+           comment.
+        2. It was marked as duplicate.
+        3. It was marked as do not incorporate.
+A separate spreadsheet was created to manage statistics of comment status for all content sections. This sheet
+contained formulas to track the number of the comments in each section (based on a count of the number of
+comments), the number of comments in each category before and after working group meetings (based on a
+count of each category type), the number comments that were addressed in content updates (based on a count
+of the “incorporate” comments that had author comments about changes made), the amount of comments that
+had received a quality assurance review (based on the percent of “incorporate” comments that were adequately
+addressed in the updated content), and the number of closed comments (based on the number of comments that
+met any of the completed conditions above). Figure 27 outlines the review process for content updates and
+quality assurance tasking that took place during continued content development tasking.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    42
+     Figure 27. Review Process for content updates and quality assurance
+
+
+Distribution A. Approved for public release: distribution unlimited.
+                 www.quantumimprovements.net
+                               43
+Keyword Library
+To aid in the creation of the search functionality of the application, a keyword library was created for all content
+and the respective content categories and touchpoints (17 categories in total). Keywords or key phrases were
+entered in the library based on association with the content, glossary items, buzz words (notable words found
+in content sourcing), common search terms, and word derivatives (plurals, acronyms, conversational terms,
+etc.). For example, Vehicle Purchasing content resulted in key words/key phrases such as “APR,” “annual
+percental rate,” “car,” “vehicle,” “auto,” etc. Across all content categories, over 4,000 words and phrases
+were populated in the keyword library for potential in the search functionality logic.
+
+Formalized Glossary
+Across all phases of content development, definition terms, key items of interest, and uncommon/unfamiliar
+terms had been identified for in a complete formalized Glossary (Figure 28). Terms and associated reference
+citations were categorized and then alphabetized into a complete file for into a Glossary section within the
+application.
+
+
+                                            Figure 28. Formalized Glossary
+
+Formalized “Tips of the Day”
+Leveraging similar strategies used in the creation of the formalized Glossary, “Tips of the Day” for each
+content section were created. Tips of the day are any interesting fact, uncommon financial information, or
+helpful strategies found while content sourcing. Tips range in variety, financial category, and either contain
+action items, links, or just helpful tidbits of information for the user. A strategy for providing tips at scheduled,
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     44
+periodic events as push notifications was developed (Figure 29). An extensive library of tips was compiled
+and categorized. Over 360 tips (at least one per day) were created for into the Sen$e content.
+
+
+                           Figure 29. Example of a tip of the day being pushed to notifications
+
+Formalized Knowledge Assessments
+All assessment questions created for each content section were compiled into a centralized and formalized file.
+The knowledge assessment library was developed to be extendable in order to accept new knowledge
+assessment questions with the addition of new/updated content with future iterations. The assessment library
+contains each assessment question, answer choices, correct and incorrect feedback, and an answer key (Figures
+30a, b, & c). All questions are categorized based on financial category from which each assessment was created.
+
+
+                                 Figures 30a, b, & c. Formalized Knowledge Challenge
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    45
+Content Hyperlinks
+Using multi-media, as part of the micro-learning strategy, hyperlinks were utilized throughout the Sen$e
+application. Glossary terms are hyperlinked to allow a pop-up feature within content, reference in-application
+locations are hyperlinked to allow users to navigate quickly and seamlessly to other areas in the app, and
+outside web-links are hyperlinked to allow users to visit verified and approved government sites (.gov, .mil)
+for more information (Figures 31a & b). Hyperlink management was created to compile a reference library of
+all hyperlinked media contained within the application. Cross-references to in-application locations were
+verified as well as web-links to outside sources.
+
+
+                            Figures 31a & b. Content hyperlinks - web links; glossary terms
+
+For additional details, see contract deliverable Financial Readiness Content Library (Populated) 4.4.17 folder
+containing the keyword file, formalized glossary file, formalized tips file, formalized knowledge assessment
+file, mockup PDFs, and use case word files.
+
+Research Design and Protocol Development
+The same methodologies that were applied in the Phase I and Phase II Research Design and Protocol
+Development tasks were followed here in the Phase III Research Design and Protocol Development. Additional
+considerations were made for the current state of the application, the number of participants required to
+complete usability and effectiveness testing, and the location in which the evaluation would take place.
+Finally, because of the of the effectiveness testing, and IRB protocol needed to be updated, resubmitted for
+full review, and approved.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    46
+Our approach to evaluation was based on the NWKM of training evaluation (Kirkpatrick & Kirkpatrick, 2016).
+We conducted Level 1 (Reactions) and Level 2 (Learning) evaluations in the Phase III Summative Evaluation.
+Level 1 addressed reactions through usability aspects. We captured users’ responses to guided interactions
+with Sen$e through measures of satisfaction and perceived usability. Qualitative feedback was collected using
+think-aloud protocols during these interactions. Level 2 addressed training effectiveness through participant
+performance on knowledge challenge questions whereby we evaluated the training content from the populated
+content library.
+
+Summative Protocol Development
+A beta version of the application was available for testing, meaning the majority of content and functionality
+was present. Usability test scenarios were developed to access a wide array of functionality and content
+throughout the application, and those sections accessed were representative of the rest of the application.
+Functionality included general dashboard navigation, navigation within course content, use of accordion menus,
+slideshows, and scrolling. Content accessed included Expenses and Spending, Basic Finance, Birth of a Child,
+and Compound Interest.
+
+The effectiveness protocol allowed for the consumption and subsequent testing of participants on a variety of
+representative topics including Basic Finance, Birth of a Child, Disability, Divorce, and Vehicle Purchasing.
+The test scenarios used in the Phase III Summative Evaluation were identified by the team based on the
+available functionality of the application at the time of Phase III testing and reflected tasks which are likely to
+be executed by the end-users as well as included a variety of in-application interactions and financial content.
+Results from the data collected was qualitatively and quantitatively analyzed with descriptive statistics to guide
+project designs, inform the project team of critical errors and areas of improvement with application interaction
+and incorporate feedback into system recommendations. The protocol for the Summative Evaluation approach
+underwent professional IRB evaluation. For additional details, see contract deliverable Summative Testing
+Protocol      and      Human        Protection      Documentation         4.4.16     (Summative_PAL_Protocol-
+v3_5.2.18_4.4.16_W911QY-16-C-0163.pdf; Certification for Study IRB Approval_4.4.16_W911QY-16-C-
+0163.pdf)
+
+Summative Testing
+A summative evaluation was conducted to gauge usability, user experience, user satisfaction, and application
+effectiveness. Eight current service members completed usability testing to determine the extent to which user
+expectations of the application structure, content, interfaces, and functionality were met. This usability
+evaluation identified benefits of the interface and overall application as well as potential design concerns and
+areas for enhancement. Benefits included the clean, intuitive, and simple design and display of information.
+There were some concerns with respect to navigation and content organization within the system. Twenty-
+seven service members completed the effectiveness evaluation where knowledge gained from the application
+was assessed. Participant feedback was collected through semi-structured interviews. By and large, participants
+said that Sen$e was easy to use, useful, helpful, and contained important and relevant information.
+
+Usability- Method
+Eight participants from across four branches of the military (U.S. Navy, U.S. Air Force, U.S. Marine Corps,
+and U.S. Army) stationed at Joint Base Pearl Harbor-Hickam, Marine Corps Base Hawaii, and Schofield
+Barracks, respectively, on the island of Oahu, HI were recruited to participate in this study. All participants are
+currently serving in the military. The study team utilized the same methods carried out in the two previous
+formative usability protocols to conduct and collect data in the Phase III usability portion of the Phase III
+Summative Evaluation.
+
+
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     47
+Usability- Results
+Overall, participants felt the application was useful and saw the potential for providing financial education.
+The general perspective across all the surveys was that the application was useful and rated ‘excellent’ in terms
+of user-friendliness, therefore, meeting the application goal. By and large, participants said that the application
+was easy to use, useful, and contained important and relevant information. When participants mentioned
+wanting something different, they indicated a desire for more detailed content and more tools. The main
+usability issues related to navigation and specifically to content categorization and organizational structure.
+Participants also did not understand what the term “Touchpoint” meant, as this was cause for several of the
+navigational errors encountered. Users rated the interface regarding the characters and icons as clear and easy
+to read; however, the ratings suggest that the organization of information on the screen as well as the sequence
+of screens could be improved. Terminology and system information was rated as highly consistent throughout
+application content. Users felt that the application was easy to learn, and it was easy to explore new features
+through trial and error. Users found help messages on the screen to be helpful and found the supplemental
+reference materials to be clear. They also felt that the tasks could be performed in a straight-forward manner.
+Lastly, regarding system capabilities, users thought they could easily correct their mistakes while interacting
+with the application.
+
+Effectiveness- Method
+Twenty-eight participants from across four branches of the military (U.S. Navy, U.S. Air Force, U.S. Marine
+Corps, and U.S. Army) stationed at Joint Base Pearl Harbor-Hickam, Marine Corps Base Hawaii, and Schofield
+Barracks, respectively, on the island of Oahu, HI were recruited to participant in this study. All participants
+are currently serving in the military. Participants used the type of phone they indicated they were most
+comfortable using for the duration of the study (iPhone 7 Plus, iPhone 6s, Samsung Galaxy S7, or Google
+Pixel). A high functioning beta version of the application was presented on one of the four phones. Participants
+were invited to take five minutes to freely explore the Sen$e application. Afterwards, participants reviewed a
+total of five content areas, one area at a time, and completed a knowledge challenge for each content area. The
+version of the application used during testing was not able to store participant responses, so paper-based
+challenge questions were administered that tested their knowledge and understanding of the content.
+Participants were allowed to use the application while answering the knowledge challenge questions, if needed.
+At the conclusion of the evaluation, participants were asked to respond verbally to several debrief questions
+regarding their experience with the application.
+
+Each scenario required participants to access and review content in a different content category from the
+dashboard. Their respective knowledge challenges ranged from three to four questions, and participants were
+allowed to use their devices while taking the challenges, if needed. All questions were scenario-based and were
+cross-validated for applicability and difficulty by at least two other members of the project team.
+
+Objective data were collected using participant responses to knowledge challenge questions. Seventeen
+questions, in total, across five content categories were created utilizing the challenge questions located within
+each content area in the application. Content categories Divorce, Birth of a Child, Disability, Basic Finance,
+and Vehicle Purchasing were included in the knowledge challenge. At the time of the evaluation, the
+application was unable to store participant responses to the challenge questions, so paper-based questions were
+created.
+
+Effectiveness- Results
+Participant responses for the knowledge challenge questions were recorded and graded across each of the 17
+questions and within each of the five content sections (Divorce, Birth of a Child, Disability, Basic Finance,
+and Vehicle Purchasing). Overall, participants scored an average of 82.57% (SD = 17.05) correct, with 71.60%
+(SD = 33.20) correct responses in the “Divorce” content, 93.83% (SD = 2.14) correct responses in the “Birth
+                      Distribution A. Approved for public release: distribution unlimited.
+                                       www.quantumimprovements.net
+                                                     48
+of a Child” content, 81.48% (SD = 13.52) correct responses in the “Disability” content, 100% (SD = 0) correct
+responses in the “Basic Finance” content, and 70.37% (SD = 29.78) correct responses in the “Vehicle
+Purchasing” content. Data were presented across all participants, by military branch, and by age range. Age
+ranges were selected to capture equal numbers in each range. Overall, participants were successful in obtaining
+and remembering financial concepts by navigating and reviewing content in the application. The results of the
+effectiveness evaluation suggest that Sen$e is an effective learning tool.
+
+Semi-structured Interviews
+All participants were asked open-ended, semi-structured interview questions regarding their likes, dislikes, and
+suggested improvements for the Sen$e application. The qualitative debrief findings for both groups of
+participants are consolidated here and a summary of participant responses is presented. A synthesis on the
+findings from these data have been incorporated into the list of recommendations.
+
+   Semi-structured Interview Results
+Interview data were collected from 36 participants in total. Feedback was coded into 27 unique codes relating
+to overall application usability, usefulness, and application specific items (i.e., content location, navigation,
+visualization, etc.). The number of times codes occurred across participants was summed and grouped into
+high-level themes made up of navigation, content, interaction, buttonology, status, aesthetics. These themes
+helped to drive the overall recommendations stemming from the finding of the summative evaluation. At a
+high level, the majority of participants specifically mentioned that Sen$e was easy to use, useful or helpful,
+that they learned something, the interactions were what they expected, the information was useful or relevant,
+the terminology was good, and that they were able to navigate the application easily.
+
+User opinions garnered through semi-structured interviews revealed that participants found the content to be
+straightforward and useful. They appreciated the option to explore content in more detail through overlays,
+accessing content outside of the application, and exploring infographics and other interactions to reveal
+additional content. Participants specifically liked the integration of an accordion design to help manage large
+chunks of information by intuitively revealing and concealing information. In general, the navigation and
+interactions were intuitive and met the participant’s expectations when tapping on hyperlinks, exploring
+different types of menus, and scrolling through the content. While the overall impression of the Sen$e
+application was very positive, participant actions indicated room for improvement in how content is organized
+and clarity of nomenclature. Based on areas of improvement, the project team provided recommendations for
+consideration. Participants specified that categories like “Basic Finance,” “Compound Interest,” and “DTI
+Ratio” belong in the “General” category. The dashboard category term “Touchpoints” was generally
+misunderstood, and participants suggested renaming the category to something career-specific, like “Military
+Touchpoints,” “Military Career,” or “Career Milestones.” Additionally, the requirement to view all content
+before accessing the associated “Challenge” was confusing and considered burdensome to participants.
+
+For additional details, see contract deliverable FR PAL Phase III Summative Test Report 4.4.19 (SenSe
+Summative Usability Test Results Report.pdf).
+
+Application Development
+Mobile app
+Based on user feedback and internal review from Phase II, Phase III focused on continued enhancements to
+the application. The following key features were added during Phase III:
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    49
+    •   Offline support – once content is downloaded, the application can be used without an active internet
+        connection; user activity and progress are stored locally and synced with the server later when an
+        internet connection is available.
+    •   Overhauled application user experience – based on user feedback, the dashboard and related screens
+        were redesigned to make content easier to discover and find.
+    •   Improved content user experience – user progress is now remembered, and users are offered the ability
+        to resume a topic wherever they left off.
+    •   Tip of the Week – once a week, users will optionally receive a notification containing a financial tip
+        to help encourage them back to the application and toward better financial habits.
+    •   Improved content architecture – based on client and user feedback, content was reorganized into
+        touchpoints and life events to make relevant content easier to find.
+    •   Searching – users can now search for content and glossary terms based on keywords.
+    •   Enhanced application security – the application now encourages users to enable a passcode and
+        encryption on their device to ensure any financial information they enter into the application is kept
+        secure; additionally, users may optionally protect the app using the biometric authentication (if
+        available on their device)
+    •   Ability to edit user profile – users can now make changes to their user profile.
+
+Additionally, the content library was significantly expanded with new topics and calculators designed to better
+meet the needs of end-users.
+
+As with Phase II, a series of alpha and beta builds were released through HockeyApp and demonstrated the
+continuously evolving capabilities. Bugs were tracked based on feedback from the QA team and the client.
+Crashes and other errors were automatically tracked using HockeyApp’s crash reporting functionality. A final
+build was released via HockeyApp in September 2018.
+
+Back-end
+The CMS required only minor changes in Phase III to support the improved dashboard designs. The concept
+of “activity groups” in the content management system was revised to allow content to be a part of multiple
+groups. This is reflected in the app when a piece of content appears in more than one place.
+
+The back-end was maintained throughout Phase III with security patches being applied to the development
+environment as they were published by the Drupal community.
+
+Additionally, OPM was selected as the group responsible for long-term maintenance of the back-end. The team
+collaborated with OPM to share the requirements and recommendations for the back-end infrastructure. OPM
+is now responsible for implementation and maintenance of the back-end.
+
+User Guide Development
+Float created screencast videos to help illustrate and explain key application features. These videos are capable
+to be deployed as internal or external facing content for use in promotional purposes as well.
+
+For additional details, see contract deliverable How-to Usage Guide 4.4.21 (How To Usage
+Guide_4.4.21_W911QY-16-C-0163.mp4).
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    50
+Lifecycle Planning and Documentation
+The document outlining lifecycle planning was updated to provide only a general overview of the back-end
+infrastructure. The implementation details were removed now that OPM is responsible for the implementation
+and long-term maintenance.
+
+For additional details, see contract deliverable Lifecycle Sustainment Plan Report 4.4.20 (Lifecycle
+Sustainment Plan_4.4.20_W911QY-16-C-0163.pdf)
+
+Developer and System Administrator Documentation and Training Package for
+Lifecycle Trainers, Developers and System Admins
+As part of Phase III, the team developed a set of documentation describing the specifications and architecture
+utilized by the Sen$e application and related components. It provides an overview of these components and
+how they interact. System administrators should use this document to build a strategy for performing basic
+troubleshooting and maintenance tasks during the life of this application. Developers should use this document
+to build an understanding of the key system components, so they can be maintained and extended as the
+application evolves. Lifecycle trainers can utilize this document in order to understand how to add and
+distribute the content to the application.
+
+For system administrators, the document provides the technical information necessary for maintaining the
+Drupal CMS to ensure stability and security. It covered how to properly monitor Drupal, perform updates, and
+implement system backups. The document did not cover basic database and Apache system administration as
+those tasks are not specific to Sen$e.
+
+For developers, the document provided detailed insights into how the mobile application and back-end were
+developed. Developers are provided guidance in establishing a local development environment and high-level
+overview of the code design and structure to assist in onboarding of a new developer. The documentation does
+not cover basics of code signing or other general knowledge requirements for building and distributing mobile
+applications as those tasks are also not specific to Sen$e.
+
+Finally, for lifecycle trainers, the document provided detailed steps and screenshots showing how to manage
+content for the application. It covers how key content (activities and glossary terms) can be added, removed,
+and organized.
+
+For additional details, see contract deliverable Developer and System Administrator Documentation &
+Training Package for Lifecycle Trainers, Developers and System Administrators. (Developer and SA
+Documentation and Training Package_4.4.22_W911QY-16-C-0163.pdf).
+
+Government Acceptance Coordination
+Throughout the Government Acceptance Coordination period, extensive meetings were conducted with ADL,
+FinRed, and OPM to ensure successful transition of the application from a prototype state to a deployable and
+functional application. The project team provided support to implement processes to establish requirements
+for future implementation of the application. The final deliverables include the operational system with
+documentation, source code and content.
+
+For additional details, see contract deliverable Operational System with Documentation 4.4.24 and Final
+Operational System with Documentation 4.4.25.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    51
+7. Conclusions
+In support of financial literacy education initiatives set forth by the DoD, specifically 10 U.S. Code§992
+which requires financial literacy training to be provided to service members at multiple stages throughout their
+careers a Financial Readiness Personal Assistant for Learning (FR-PAL) was developed. Sen$e supports
+service member financial literacy and preparedness through engaging “bite-sized,” personally relevant,
+multimedia content. Across the three-phased project lifecycle, Sen$e has been iteratively designed, developed,
+and tested.
+
+In Phase I, the project team strategized and developed a requirements report containing a front-end analysis
+consisting of user-needs, a literature review of guiding documentation, and a thorough marketplace competitive
+review. Findings from the front-end analysis provided the foundation for initial application designs and content
+development strategies. The project team applied state-of-science instructional design methodologies during
+content creation for instantiation of optimal micro-learning events in future design iterations. To ensure
+persistent user-centered design, Phase I tasking included designing and executing a formative usability
+evaluation on the mockup prototype of the Sen$e application. Results revealed insights in participant
+satisfaction, perceived usability, likes, dislikes, and areas needing improvement. These results fueled the
+iterative design and development process for future phases.
+
+In Phase II, the project team was heavily focused on delivering developed content through a high fidelity, beta
+prototype version of Sen$e. Instructional design and content development strategies were executed utilizing
+best-practices in mobile-learning and micro-learning paradigms. Rigorous content development ensued to
+partially populate the asset list within the content library ontology. Phase II culminated in the design and
+development of a limited functioning prototype application that produced positive usability results from a
+second formative usability evaluation (conducted in Phase II).
+
+Phase III tasking produced refinements to content and application interactions leveraging extensive and
+thorough review processes that took place. Formalized content libraries were created and asset libraries within
+the content library ontology were cross-checked and verified. A final evaluation was executed on a high
+functioning, beta prototype version of Sen$e. The final evaluation included usability testing as well as an
+effectiveness evaluation. Aligning with our goal, users were able to efficiently extract key information as seen
+through the results of the effectiveness evaluation. This experience is reflective of how users are expected to
+use the application in the real-world. Users, across the board and across all phases of the project life cycle,
+found the content to be, helpful, relevant, straightforward, and useful. The application was easy to use, and
+users were satisfied during their interactions with the application. From objective and subjective data analyses
+across usability testing and the effectiveness evaluation, the project team provided recommendations for
+consideration during future design and development iterations of the Sen$e application. Overall, the project
+goals for developing a useful, usable, and user-centered financial application, for service members and their
+families, were met.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    52
+8. References
+Anderson, L. W., & Krathwohl, D. R. (2001). A taxonomy for learning, teaching, and assessing: A revision of
+         Bloom's taxonomy of educational objectives. New York, NY: Longmans.
+Armed Forces Consumer Education: Financial Services, 10 U.S.C. § 992 (2011).
+Bloom B. S. (1956). Taxonomy of educational objectives: The classification of educational goals. New York,
+         NY: Longmans, Green.
+Blue Star Families. (2015). Military family lifestyle survey comprehensive report. Retrieved from
+         https://bluestarfam.org/wp-content/uploads/2016/04/bsf_2015_comprehensive_report.pdf
+Branaghan, R. J., & Sanchez, C. A. (2009). Feedback preferences and impressions of waiting. Human Factors,
+         51(4), 528-538.
+Brooke, J. (1996). SUS: A “quick and dirty'' usability scale. In P. W. Jordan, B. Thomas, B. A. Weerdmeester
+         & I. L. McClelland (Eds.), Usability evaluation in industry (pp. 189-194). London: Taylor & Francis.
+Hamari, J., Koivisto, J., & Sarsa, H. (2014, January). Does gamification work?--a literature review of empirical
+         studies on gamification. In System Sciences (HICSS), 2014 47th Hawaii International Conference on
+         (pp. 3025-3034). IEEE.
+Huang, W. D., Johnson, T. E., & Han, S. H. C. (2013). Impact of online instructional game features on college
+         students’ perceived motivational support and cognitive investment: A structural equation modeling
+         study. The Internet and Higher Education, 17, 58-68.
+Improvement of financial literacy and preparedness of members of the Armed Forces, 6 U.S.C. §661 (2016).
+Kirkpatrick, J. D., & Kirkpatrick, W. K. (2016). Kirkpatrick's four levels of training evaluation. Alexandria,
+         VA: Association for Talent Development.
+Landsberg, C. R., Astwood Jr, R. S., Van Buskirk, W. L., Townsend, L. N., & Steinhauser, N. B. (2012).
+         Review of adaptive training system techniques. Military Psychology, 24, 96-113.
+Lewis, J. (1995). IBM computer usability satisfaction questionnaires: Psychometric evaluation and instructions
+         for Use. International Journal of Human-Computer Interaction, 7(1), 57-78.
+Military Compensation and Retirement Modernization Commission. (2015). Final Report. Retrieved from
+         https://www.ngaus.org/sites/default/files/MCRMC%202015_0.pdf
+Villar, A., Callegaro, M., & Yang, Y. (2013). Where am I? A meta-analysis of experiments on the effects of
+         progress indicators for web surveys. Social Science Computer Review, 31(6), 744-762.
+
+
+                     Distribution A. Approved for public release: distribution unlimited.
+                                      www.quantumimprovements.net
+                                                    53
