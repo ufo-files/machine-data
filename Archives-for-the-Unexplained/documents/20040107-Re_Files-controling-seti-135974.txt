@@ -1,0 +1,52 @@
+{"created_utc": "2026-10-11T13:14:31Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 20699, "source_ctime_ns": 1790860707766792102, "source_file": "Archives-for-the-Unexplained/documents/20040107-Re_Files-controling-seti-135974.pdf", "source_mtime_ns": 1790860707678128094, "source_rel": "Archives-for-the-Unexplained/documents/20040107-Re_Files-controling-seti-135974.pdf", "source_sha256": "6fe595344bd66b43326b4844e973913cd89a98476c9aef50cb3d7192bacb402c"}
+
+Re: Files controling seti
+
+
+   Subject: Re: Files controling seti
+   From: raj@rijhwani.org (Raj Rijhwani)
+   Date: 07/01/2004, 12:36
+   Newsgroups: alt.sci.seti
+
+   On Tuesday, in article
+        <S0qKb.39161$Pg1.2544@newsread1.news.pas.earthlink.net>
+        obermd.@.alum.mit.edu.nospam "Michael D. Ober" wrote (subject to
+        re-rorderding):
+
+
+           "AZ Woody" <Reply@here.not.email> wrote in message
+           news:kKnKb.38$dk6.51037@news.uswest.net...
+
+                    I know I've seen references to files which you can place in the seti dirs
+                    which will allow things like "stop after uploading results", etc, but
+
+           can't
+
+                    seem to find a list...
+                    I have a machine which is running a linux-ramdisk version, and would like
+
+           to
+
+                    control a few actions - for example, so that I don't loose WIP when I need
+                    to reboot...
+
+
+                    Can anybody point me at a list of the files that can control the client?
+
+
+           The only file you need to know about is stop_after_send.txt. This file
+           instructs the client to not download a new WU when it finishes returning the
+           current one. Other than that, all the files are updated every 60-65 seconds
+           as the client works, so you will never lose more than a minute or so of
+           processing when you reboot.
+
+
+   He's working from ramdisk. The files won't be stored at reboot unless he
+   explicitly backs them up.
+   --
+   Raj Rijhwani                   | This is the voice of the Mysterons...
+   raj@rijhwani.org               | ... We know that you can hear us Earthmen
+   http://www.rijhwani.org/raj/   | "Lieutenant Green: Launch all Angels!"
+
+
+20040107-Re_Files controling seti-135974.html[12/03/2022 16:06:33]

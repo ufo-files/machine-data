@@ -1,0 +1,142 @@
+{"created_utc": "2026-10-11T13:51:34Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 31868, "source_ctime_ns": 1790693155286014226, "source_file": "Archives-for-the-Unexplained/documents/d18-002-1b9dbc4bed.pdf", "source_mtime_ns": 1790693155277620026, "source_rel": "Archives-for-the-Unexplained/documents/d18-002-1b9dbc4bed.pdf", "source_sha256": "40d5742559e7fe9bd5a8ccc78a66d574ff3a91416c11f8e1fc39b68741b19ff1"}
+
+Guidelines for the Ufomind Moderator
+
+
+                          Guidelines for the Ufomind Moderator
+  Whomever is playing the role of moderator for Ufomind is concerned with these main tasks.
+
+  Submitted Links
+  Submitted links are the heart of our system. A lot of care must be given both to whether a link is kept and what its
+  format is. The moderator has the authority to change a link however appropriate so that it is the most useful and is
+  consistant with the style of other links.
+
+  The link file can be edited directly via telnet.
+
+      1. Every link should be checked to see what it actually leads to.
+
+      2. A link should go directly to the most relevant and useful part of a site. You shouldn't have to go through extra
+         pages to get to the information advertized. Change the link if necessary.
+
+      3. Long descriptions ("comments" field) with superfluous words should be cut down in size.
+
+      4. The relevancy of a link to the current page should be obvious from the title and description. If it isn't, add
+         something to the "comments" field to make it clear what relevant info can be found there.
+
+      5. Some people add way too much information to the link record, inserting fields that aren't really important. Delete
+         any superfluous fields.
+
+      6. General UFO sites, like "Joe's UFO Page", are often linked to places where they don't belong, and these should be
+         removed. However, although the top-level page may not be relevant, there may be some individual sections and
+         documents within it that are useful. If the moderator has time, he can cruise through Joe's site for useful material
+         and link it to the appropriate pages on our site.
+
+      7. If the moderator, moves or deletes a link, and an email address is give, the moderator should try to provide
+         feedback by email to the original poster (within reason). If someone is posting a lot of links, and you want to give
+         them some advice, please do. The aim of feedback is to train and encourage the active users who are building our
+         link structure. For example, if an active user posts a link, and we choose to move it, we should tell him.
+
+      8. Email feedback is also useful for certain "problem" users to tell them why the link was removed. If they don't get
+         feedback, they might try to re-post the link again and again. Problem posters can potentially cause a lot of
+         inconvenience on our system, so we have to make sure they don't get too frustrated. Excessive courtesy is
+         warranted especially for the jerks.
+
+  Comments
+  Comments are posted by users at the bottom of pages. They rarely have much practical value compared to link but they
+  give people something to do and the opportunity to "vent" when necessary.
+
+  The comment file can be edited directly via telnet.
+
+      1. Our main criteria for comments is that they be relevant to the page they are attached to. Any comment that is
+         irrelevant should be deleted. If it is irrelevant but strikes the moderator as particularly interesting, he may, at his
+         discretion, move it to a page where it is more appropriate.
+
+      2. Comments that obviously cross the bounds of decency -- like those full of expletives -- should be deleted, unless
+
+
+d18-002.shtml[28/02/2022 21:31:44]
+Guidelines for the Ufomind Moderator
+
+          it contributes something to our knowledge of the author. (For example, if a prominent ufologist posts a message
+          full of expletives, it s hould probably be retained as a reflection of their personality.)
+
+      3. A person may only make one comment per page. If a comment seems to have little value, the moderator can look
+         back at previous comments to see if that person has posted before (use the host number to help determine this). If
+         so, kill it.
+
+      4. Also watch for duplicate sequential postings where a person pressed the "Send " button twice. Delete the earlier
+         version.
+
+      5. We are generally more lenient on relevancy at the higher levels of the structure. E.g. on the Area 51 page, almost
+         any kind of alien inspired rant is acceptable, whereas on the Nellis AFB page, the comment has to be fairly
+         rational and directly relev ant to the topic.
+
+      6. Comments posted to the /org/ page must be comments about our server itself -- pro or con -- not about UFOs or
+         Area 51.
+
+      7. Watch for false names, where someone posts an inflammatory comment under the name of someone prominent. If
+         there is an email address supplied, you can verify the comment with them. If none is supplied and the comment is
+         questionable, kill it.
+
+      8. The moderator may not edit comments. He only decides whether to delete or move them.
+
+      9. There is no need for any feedback to users regarding comments. The volume is just too great. Feedback may be
+         useful only for known problem users: an extremely polite request might stop them from abusive postings. (Stern
+         threats don't usually work.) If necessary, we can implement a system to block them, but we would like to avoid
+         this.
+
+  Ufologists
+
+  Ufologist add requests are queued to the moderator. They are then added by the moderator via the internal add screen.
+  Then the person.data file can be edited directly via telnet.
+
+      1. To be added to the ufologist list, there must be significant documents by or about this person already on the net. It
+         is the responsibility of the requester to supply starting links. If none are given, and you have never heard of the
+         ufologist, you can ignore the request.
+
+      2. When a requester gives their email address, feedback should always be given -- either that the record was added
+         (giving the address) or that it was not added (giving the reason).
+
+      3. When a ufologist request comes in, check the by-letter page to see if someone with that last name already exists.
+         If so, then you must use a different last name in the initial add. Do this by adding the new person's first initial to
+         their last name. E.g. if "Jane Smith" exists already, then for a new Robert Smith, enter it as "Robert", "Smithr".
+         This puts the new entry in a "smithr" directory. You can then edit the person.data file to change the name back to
+         "Smith". (All the index entries and titles will be fixed the next time you run "makeufo."
+
+      4. The moderator can add a new ufologist on his own whenever he comes upon a homepage for that person, a photo
+         of them or a significant document about them.
+
+      5. Care should be given to the main description line for each ufologist. It is rarely acceptable as given by the
+         requester. Edit it to neutrally describe the person's role with a minimum of words. The description should be
+         something that both supporters and critics can agree on.
+
+      6. After the ufologist record has been created, the moderator should select initial topics for that person through the
+         topics screen.
+
+
+d18-002.shtml[28/02/2022 21:31:44]
+Guidelines for the Ufomind Moderator
+
+
+      7. If time allows, the moderator can do a cursury search for any missing information for that ufologist, like
+         homepage, photo or place of residence.
+
+      8. Ufologists are cross referenced with topics, etc, by running the "makeufo" program, which can whenever
+         necessary.
+
+      9. The moderator can further edit the person.data file as new information becomes available or changes are
+         requested by users.
+
+  Changes to Older Pages
+
+  Occasionally, requests or error reports are made for older pages or parts of pages that don't use our link system. These
+  fixes should be made as requested.
+
+                                                                                                 -- Glenn Campbell, 2/18/97
+
+                                                [ Ufomind Server Information ]
+  Size: 7k
+  File Created: Feb 18, 1997
+
+
+d18-002.shtml[28/02/2022 21:31:44]
