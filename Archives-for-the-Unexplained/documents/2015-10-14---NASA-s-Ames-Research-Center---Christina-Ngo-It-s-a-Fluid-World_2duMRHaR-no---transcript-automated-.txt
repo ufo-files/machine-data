@@ -1,0 +1,4550 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v1", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2015-10-14---NASA-s-Ames-Research-Center---Christina-Ngo-It-s-a-Fluid-World_2duMRHaR-no---transcript-automated-.txt", "source_sha256": "f1d0c3f8777a1fce06338c5a4e8e88d7bf63df95c8ccb8cd0126511c0b73cc9a", "source_bytes": 76399, "created_utc": "2026-10-13T13:33:58.214088+00:00"}
+
+1
+00:00:00,600 --> 00:00:06,600
+[music playing]
+
+2
+00:00:17,150 --> 00:00:18,840
+Welcome to the 2015
+NASA Ames Summer Series.
+
+3
+00:00:21,030 --> 00:00:22,540
+The world around us
+contains materials
+
+4
+00:00:23,510 --> 00:00:25,450
+that can be divided
+into solids, liquid, and gas.
+
+5
+00:00:28,180 --> 00:00:29,780
+These descriptions
+of the state of matter
+
+6
+00:00:30,660 --> 00:00:33,000
+are relative to the particular
+time span being observed.
+
+7
+00:00:35,570 --> 00:00:36,570
+Given a long enough time,
+
+8
+00:00:37,570 --> 00:00:39,030
+all matter
+exhibits fluid motion.
+
+9
+00:00:41,480 --> 00:00:42,750
+Understanding the interactions
+
+10
+00:00:43,780 --> 00:00:45,480
+between these different
+states of matter
+
+11
+00:00:45,750 --> 00:00:48,000
+is important for optimization
+of design and function,
+
+12
+00:00:51,000 --> 00:00:52,480
+specifically when you
+talk about work
+
+13
+00:00:53,540 --> 00:00:55,390
+that is done in aeronautics
+and space travels.
+
+14
+00:00:57,630 --> 00:00:59,240
+Today's seminar is
+"It's a Fluid World"
+
+15
+00:01:02,150 --> 00:01:03,660
+and will be presented
+by Christina Ngo.
+
+16
+00:01:05,300 --> 00:01:07,120
+Christina received
+her Bachelors of Science
+
+17
+00:01:08,180 --> 00:01:09,240
+in mechanical engineering
+
+18
+00:01:09,270 --> 00:01:10,630
+with a concentration
+in aerospace
+
+19
+00:01:10,780 --> 00:01:13,000
+from the University of
+California, San Diego in 2013,
+
+20
+00:01:16,300 --> 00:01:18,000
+but prior to that,
+she was also here at Ames
+
+21
+00:01:20,840 --> 00:01:21,840
+as an intern in 2009.
+
+22
+00:01:23,510 --> 00:01:25,240
+So all the interns
+that are in the audience,
+
+23
+00:01:25,720 --> 00:01:26,720
+think of the future.
+
+24
+00:01:29,810 --> 00:01:31,750
+After doing the internship,
+she got experiences
+
+25
+00:01:34,090 --> 00:01:35,720
+both in work and as an intern
+in aeronautics
+
+26
+00:01:37,420 --> 00:01:39,600
+at Pratt & Whitney, at
+Hamilton Sundstrand, and SpaceX.
+
+27
+00:01:43,120 --> 00:01:44,660
+And then she decided
+to come back to Ames.
+
+28
+00:01:46,480 --> 00:01:48,000
+So she joined
+the Fluid Mechanics Lab
+
+29
+00:01:48,840 --> 00:01:49,840
+as a research engineer
+
+30
+00:01:51,240 --> 00:01:52,720
+two years ago
+as a full-time employee.
+
+31
+00:01:54,480 --> 00:01:56,420
+And so please join me
+in welcoming Christina Ngo.
+
+32
+00:01:58,480 --> 00:02:01,540
+[applause]
+
+33
+00:02:04,390 --> 00:02:05,390
+Hello.
+
+34
+00:02:05,840 --> 00:02:06,840
+My name is Christina Ngo,
+
+35
+00:02:07,570 --> 00:02:09,060
+part of
+the Fluid Mechanics branch.
+
+36
+00:02:09,270 --> 00:02:10,270
+[clears throat]
+
+37
+00:02:11,600 --> 00:02:13,450
+Today I'll be presenting
+"It's a Fluid World."
+
+38
+00:02:15,090 --> 00:02:16,810
+So about six years ago,
+like Jacob mentioned,
+
+39
+00:02:17,570 --> 00:02:19,720
+I was sitting exactly where
+you are sitting as an intern
+
+40
+00:02:20,630 --> 00:02:21,720
+and thought to myself, "Man,
+
+41
+00:02:22,510 --> 00:02:24,540
+it would be great one day
+if I could ever be up there."
+
+42
+00:02:24,690 --> 00:02:27,270
+And honestly, I never thought I
+would ever have the opportunity.
+
+43
+00:02:28,120 --> 00:02:30,390
+So word of advice to all the
+interns who are out there today,
+
+44
+00:02:31,330 --> 00:02:32,810
+work hard,
+ask questions, learn a lot.
+
+45
+00:02:33,750 --> 00:02:35,480
+You're surrounded
+by some amazing people.
+
+46
+00:02:35,630 --> 00:02:37,360
+Really take advantage
+of your internship.
+
+47
+00:02:38,060 --> 00:02:39,060
+So let's begin.
+
+48
+00:02:39,570 --> 00:02:40,570
+So, during this talk,
+
+49
+00:02:41,060 --> 00:02:43,090
+I'm going to show you
+some of the hot research topics
+
+50
+00:02:43,180 --> 00:02:44,720
+that we have that we've done
+in our branch
+
+51
+00:02:44,750 --> 00:02:45,750
+currently and in the past
+
+52
+00:02:46,390 --> 00:02:50,000
+as well as how the aerodynamics
+applies to the world around us.
+
+53
+00:02:52,360 --> 00:02:53,870
+Here you see a lot
+of interesting photo.
+
+54
+00:02:54,630 --> 00:02:56,449
+It's basically a collage
+of a lot of the research topics
+
+55
+00:02:56,450 --> 00:02:57,510
+that we've done in the past,
+
+56
+00:02:58,600 --> 00:03:01,150
+anywhere from space shuttles
+to rockets to even sports balls,
+
+57
+00:03:03,270 --> 00:03:04,360
+next generation airplanes.
+
+58
+00:03:06,270 --> 00:03:08,180
+For in our branch,
+we are investigating the flow
+
+59
+00:03:08,660 --> 00:03:10,269
+around our models,
+whether that's on the surface
+
+60
+00:03:10,270 --> 00:03:11,450
+or off the surface of the model.
+
+61
+00:03:12,720 --> 00:03:15,840
+So how many of you have heard
+of a wind tunnel?
+
+62
+00:03:17,150 --> 00:03:18,150
+[chuckles]
+
+63
+00:03:18,150 --> 00:03:19,150
+Majority of you, great.
+
+64
+00:03:20,060 --> 00:03:21,870
+So, for us to investigate
+all these parameters,
+
+65
+00:03:23,390 --> 00:03:24,780
+characteristics
+of the flow field,
+
+66
+00:03:25,840 --> 00:03:28,060
+we have to look at it sometimes
+instantaneous in time.
+
+67
+00:03:29,390 --> 00:03:31,720
+So it's really difficult
+to measure these characteristics
+
+68
+00:03:32,690 --> 00:03:33,870
+having, say,
+a rocket going up
+
+69
+00:03:34,270 --> 00:03:36,450
+several hundred miles per hour
+through the atmosphere.
+
+70
+00:03:37,360 --> 00:03:38,720
+So, instead of
+having air moving--
+
+71
+00:03:40,330 --> 00:03:41,750
+having the model
+moving over the air,
+
+72
+00:03:42,360 --> 00:03:43,660
+we have air moving
+over the model,
+
+73
+00:03:44,180 --> 00:03:45,480
+which is why we have
+wind tunnels.
+
+74
+00:03:46,240 --> 00:03:47,630
+There's several of them
+shown here.
+
+75
+00:03:48,240 --> 00:03:49,720
+Top left, we have the 40x80
+wind tunnel
+
+76
+00:03:50,450 --> 00:03:52,030
+and next generation
+airplanes shown.
+
+77
+00:03:52,690 --> 00:03:55,030
+Top right, we're home to
+the world's largest wind tunnel.
+
+78
+00:03:55,240 --> 00:03:56,870
+We have parachute testing
+right over here.
+
+79
+00:03:58,180 --> 00:03:59,479
+We even have
+smaller scale wind tunnels
+
+80
+00:03:59,480 --> 00:04:01,450
+like the 11 feet by 11 feet
+transonic wind tunnel
+
+81
+00:04:02,240 --> 00:04:04,360
+testing a plane as well
+and sports ball aerodynamics.
+
+82
+00:04:06,030 --> 00:04:07,390
+Really great things
+you need to do,
+
+83
+00:04:08,660 --> 00:04:10,719
+and the majority of the research
+is done in wind tunnels
+
+84
+00:04:10,720 --> 00:04:11,780
+because of this, of course.
+
+85
+00:04:15,360 --> 00:04:17,060
+So I talked a little bit
+about wind tunnels
+
+86
+00:04:17,210 --> 00:04:18,750
+and how we use air
+to move over our models,
+
+87
+00:04:19,720 --> 00:04:21,210
+but we could actually
+use any fluid.
+
+88
+00:04:21,690 --> 00:04:23,540
+Here we have a facility
+called a water channel,
+
+89
+00:04:23,720 --> 00:04:25,330
+so we're moving water
+across our model.
+
+90
+00:04:26,060 --> 00:04:27,060
+So how does this work?
+
+91
+00:04:27,840 --> 00:04:29,840
+Well, we have an upper channel
+and a lower channel,
+
+92
+00:04:30,600 --> 00:04:32,179
+and the water moves
+from the upper channel
+
+93
+00:04:32,180 --> 00:04:34,300
+through our test section
+back down to a lower channel,
+
+94
+00:04:34,660 --> 00:04:35,810
+gets pumped back behind here.
+
+95
+00:04:36,360 --> 00:04:37,510
+That's not shown on the photo.
+
+96
+00:04:37,780 --> 00:04:39,570
+We're able to put
+small scale models in here.
+
+97
+00:04:40,390 --> 00:04:42,390
+Once that is done,
+we inject this fluorescent dye.
+
+98
+00:04:43,360 --> 00:04:45,840
+These green lines that you see,
+that's illuminated by UV lights.
+
+99
+00:04:46,540 --> 00:04:47,540
+We have a second color dye.
+
+100
+00:04:48,210 --> 00:04:49,720
+It's the orange dye
+that we use to inject
+
+101
+00:04:50,030 --> 00:04:52,180
+in places of interest, say,
+in the seat of a convertible
+
+102
+00:04:53,150 --> 00:04:54,630
+or behind a sports ball
+right over here
+
+103
+00:04:55,300 --> 00:04:56,300
+or even behind a hill.
+
+104
+00:04:56,750 --> 00:04:58,690
+So it's a really great visual
+technique to start,
+
+105
+00:05:00,690 --> 00:05:01,690
+instead of using
+
+106
+00:05:01,690 --> 00:05:03,329
+really expensive
+computational techniques
+
+107
+00:05:03,330 --> 00:05:05,660
+or advanced instrumentation
+before we even begin testing.
+
+108
+00:05:08,000 --> 00:05:09,059
+But what better way
+to explain it
+
+109
+00:05:09,060 --> 00:05:10,480
+than actually showing you
+in action?
+
+110
+00:05:11,180 --> 00:05:12,180
+So here you go.
+
+111
+00:05:14,120 --> 00:05:16,270
+We have the fluorescent dye
+flowing from left to right.
+
+112
+00:05:16,750 --> 00:05:17,750
+It's the green dye,
+
+113
+00:05:18,150 --> 00:05:20,180
+and we injected the orange dye
+in the very back here.
+
+114
+00:05:21,720 --> 00:05:23,240
+What's in this test section
+is a hill.
+
+115
+00:05:24,270 --> 00:05:26,420
+We call it the Fundamental Aero
+Investigates The Hill,
+
+116
+00:05:27,210 --> 00:05:28,210
+or FAITH Hill.
+
+117
+00:05:29,540 --> 00:05:30,630
+What's great about this dye,
+
+118
+00:05:31,390 --> 00:05:33,090
+this feature
+you can actually see exactly
+
+119
+00:05:33,300 --> 00:05:35,540
+where the flow is separating
+off the model right over here
+
+120
+00:05:36,600 --> 00:05:38,510
+and the vortex shedding
+that's coming off of it.
+
+121
+00:05:39,660 --> 00:05:41,359
+Even on this hill,
+it does look quite simple.
+
+122
+00:05:41,360 --> 00:05:42,360
+It's a cosine hill.
+
+123
+00:05:42,390 --> 00:05:43,780
+The flow
+is actually quite complex,
+
+124
+00:05:44,420 --> 00:05:46,750
+and with this hill, we use all
+of our experimental technique
+
+125
+00:05:47,570 --> 00:05:49,570
+to measure the forces
+and pressures on the surface
+
+126
+00:05:49,690 --> 00:05:51,180
+and on top of the surface
+of the model
+
+127
+00:05:51,870 --> 00:05:53,720
+to validate a lot
+of our computational method.
+
+128
+00:05:55,600 --> 00:05:57,330
+Again, here you can see
+how complex the flow
+
+129
+00:05:57,480 --> 00:05:58,480
+can actually be.
+
+130
+00:05:59,000 --> 00:06:01,180
+See the recirculation area
+and the flow behind there,
+
+131
+00:06:01,570 --> 00:06:02,570
+it's almost stagnant.
+
+132
+00:06:02,660 --> 00:06:03,660
+It's barely moving.
+
+133
+00:06:05,750 --> 00:06:06,750
+One technique that we use
+
+134
+00:06:08,780 --> 00:06:10,150
+is fringe-imaging skin friction
+
+135
+00:06:11,210 --> 00:06:13,120
+to measure the skin friction
+on top of our model.
+
+136
+00:06:14,540 --> 00:06:16,450
+Here is FAITH Hill again,
+and how does this work?
+
+137
+00:06:17,330 --> 00:06:19,030
+Well, let me explain
+skin friction first.
+
+138
+00:06:20,330 --> 00:06:21,809
+Skin friction is the force
+that parallels
+
+139
+00:06:21,810 --> 00:06:22,810
+the surface of the model.
+
+140
+00:06:23,330 --> 00:06:25,480
+So we have a model, and it has
+to be shiny for this to work.
+
+141
+00:06:26,360 --> 00:06:27,720
+We install this
+into a wind tunnel.
+
+142
+00:06:28,240 --> 00:06:30,360
+We turn on the wind tunnel
+for a certain amount of time.
+
+143
+00:06:31,450 --> 00:06:33,150
+Remember to apply oil
+of known viscosity.
+
+144
+00:06:34,450 --> 00:06:36,570
+Once the wind tunnel runs
+for a certain amount of time,
+
+145
+00:06:36,630 --> 00:06:38,240
+the oil sort of smears
+around our model.
+
+146
+00:06:40,000 --> 00:06:41,600
+Once that is done,
+we illuminate the model
+
+147
+00:06:41,780 --> 00:06:43,630
+with an extended
+monochromatic light source.
+
+148
+00:06:44,510 --> 00:06:46,660
+You get two interfering
+light waves when that happens.
+
+149
+00:06:47,300 --> 00:06:49,420
+First the light reflects
+off the surface of the model,
+
+150
+00:06:50,480 --> 00:06:51,999
+so that's one light wave,
+and then second,
+
+151
+00:06:52,000 --> 00:06:53,720
+the light reflects
+off the surface of the oil.
+
+152
+00:06:54,120 --> 00:06:55,180
+That's a second light wave.
+
+153
+00:06:55,570 --> 00:06:57,600
+And you get these fringe
+patterns that you see here.
+
+154
+00:06:58,870 --> 00:07:00,090
+In measuring the direction
+
+155
+00:07:00,330 --> 00:07:01,659
+and the space
+in the fringe pattern,
+
+156
+00:07:01,660 --> 00:07:03,660
+we could actually record that
+with skin friction.
+
+157
+00:07:04,000 --> 00:07:05,540
+So remember the video
+I showed you before
+
+158
+00:07:05,540 --> 00:07:07,540
+where the flow starts
+separating and speeding up?
+
+159
+00:07:07,870 --> 00:07:09,180
+You could see it in here
+as well.
+
+160
+00:07:09,840 --> 00:07:12,000
+Starts speeding up
+and the skin friction increases,
+
+161
+00:07:12,510 --> 00:07:13,510
+and once the flow's--
+
+162
+00:07:13,780 --> 00:07:15,510
+it's all stagnant and slow
+in the very back,
+
+163
+00:07:16,000 --> 00:07:18,870
+skin friction is actually
+really low right back here.
+
+164
+00:07:22,120 --> 00:07:23,810
+Another technique
+that our branch excels at
+
+165
+00:07:25,270 --> 00:07:27,450
+and spends a lot of time in
+is pressure-sensitive paint.
+
+166
+00:07:30,300 --> 00:07:32,210
+So originally, normally,
+we install our models
+
+167
+00:07:33,150 --> 00:07:35,060
+with discrete pressure tap,
+or pressure holes,
+
+168
+00:07:35,390 --> 00:07:37,630
+like you see here in one of
+our crew exploration vehicles,
+
+169
+00:07:38,240 --> 00:07:39,240
+Orion.
+
+170
+00:07:39,390 --> 00:07:40,870
+These tiny holes
+to measure pressure.
+
+171
+00:07:41,840 --> 00:07:44,000
+And for us to get a nice
+contour surface pressure map,
+
+172
+00:07:45,060 --> 00:07:46,270
+we have to extrapolate the data,
+
+173
+00:07:47,240 --> 00:07:49,150
+which sometimes could cause
+a lot of error here.
+
+174
+00:07:50,780 --> 00:07:52,270
+So with
+pressure-sensitive paint,
+
+175
+00:07:52,390 --> 00:07:53,780
+you pretty much
+get a pressure tap--
+
+176
+00:07:54,090 --> 00:07:56,210
+a pressure measurement
+at every pixel of the picture.
+
+177
+00:07:57,030 --> 00:07:58,030
+So you get a whole map
+
+178
+00:07:58,300 --> 00:08:00,480
+of the pressure surface
+without even extrapolating.
+
+179
+00:08:02,180 --> 00:08:03,390
+It's a very powerful technique.
+
+180
+00:08:04,810 --> 00:08:05,810
+Well, how does this work?
+
+181
+00:08:06,660 --> 00:08:07,749
+This pressure-sensitive paint
+
+182
+00:08:07,750 --> 00:08:09,240
+is first painted
+on top of the model.
+
+183
+00:08:09,780 --> 00:08:11,060
+It's this nice pink color here.
+
+184
+00:08:11,360 --> 00:08:12,360
+It's pretty cute here,
+
+185
+00:08:14,030 --> 00:08:15,419
+and there's these molecules
+inside the paint
+
+186
+00:08:15,420 --> 00:08:16,570
+that are excited by UV lights.
+
+187
+00:08:17,810 --> 00:08:19,420
+For them to return back
+to the base state
+
+188
+00:08:20,210 --> 00:08:21,750
+is via oxygen quenching,
+which is great,
+
+189
+00:08:23,360 --> 00:08:25,179
+because the higher pressure
+you have on the surface,
+
+190
+00:08:25,180 --> 00:08:26,180
+the more oxygen there is;
+
+191
+00:08:26,480 --> 00:08:27,780
+therefore they're more quenching
+
+192
+00:08:28,030 --> 00:08:30,300
+and the less luminescence
+that's picked up by our cameras.
+
+193
+00:08:30,600 --> 00:08:32,540
+And we can correlate this
+with pressure to give us
+
+194
+00:08:33,030 --> 00:08:34,660
+a nice contour map
+that you see on the right.
+
+195
+00:08:37,540 --> 00:08:39,180
+A few examples I have is
+on a space shuttle
+
+196
+00:08:40,090 --> 00:08:41,270
+right over here going Mach 2.5.
+
+197
+00:08:43,630 --> 00:08:44,780
+So Mach 1 is the speed of sound.
+
+198
+00:08:45,600 --> 00:08:47,330
+Right now it's 2.5 times
+the speed of sound.
+
+199
+00:08:48,630 --> 00:08:50,660
+On the bottom right,
+you see an F-18 going Mach 1.25.
+
+200
+00:08:52,720 --> 00:08:54,870
+Another great advantage
+of pressure-sensitive paint
+
+201
+00:08:55,480 --> 00:08:58,030
+is you're able to paint surfaces
+where you probably couldn't--
+
+202
+00:08:58,690 --> 00:09:00,540
+an instrument, say,
+where the wing attaches
+
+203
+00:09:01,210 --> 00:09:05,180
+to the body or the tip
+of the nose, right?
+
+204
+00:09:08,030 --> 00:09:09,660
+Here is a video
+of changing angles of attack
+
+205
+00:09:10,000 --> 00:09:11,000
+of an F-16 model.
+
+206
+00:09:11,390 --> 00:09:13,030
+You can see
+how the pressure is changing.
+
+207
+00:09:14,780 --> 00:09:16,510
+Say, if I'm running
+a computational method
+
+208
+00:09:16,840 --> 00:09:18,000
+to see the surface pressure
+
+209
+00:09:18,480 --> 00:09:20,180
+only at angles zero
+and one or two degrees,
+
+210
+00:09:21,390 --> 00:09:23,210
+how would I know
+at the higher angles of attack
+
+211
+00:09:23,720 --> 00:09:25,210
+to install pressure tap
+right here,
+
+212
+00:09:25,540 --> 00:09:27,180
+and that's actually
+an area of interest?
+
+213
+00:09:27,600 --> 00:09:28,600
+You wouldn't.
+
+214
+00:09:28,600 --> 00:09:29,839
+But with
+pressure-sensitive paint,
+
+215
+00:09:29,840 --> 00:09:31,840
+you don't need to do that.
+
+216
+00:09:34,660 --> 00:09:36,450
+So we talked a lot
+about pressures and forces
+
+217
+00:09:37,330 --> 00:09:38,390
+on the surface of the model.
+
+218
+00:09:38,630 --> 00:09:39,630
+How about off of the model?
+
+219
+00:09:40,690 --> 00:09:42,089
+The flow field
+off the top of the model?
+
+220
+00:09:42,090 --> 00:09:43,570
+Well, we use a lot
+of optics technique.
+
+221
+00:09:44,690 --> 00:09:47,180
+One technique we use is particle
+image velocimetry seen here.
+
+222
+00:09:49,510 --> 00:09:51,540
+We use a laser that's shining
+into a circular mirror
+
+223
+00:09:52,000 --> 00:09:53,150
+and produces this laser sheet
+
+224
+00:09:53,240 --> 00:09:54,840
+right across the model
+in our wind tunnel.
+
+225
+00:09:55,030 --> 00:09:56,240
+We need windows for this, right?
+
+226
+00:09:57,090 --> 00:09:58,090
+Right over here.
+
+227
+00:09:58,810 --> 00:10:00,510
+And using pulse LED lights
+and two cameras
+
+228
+00:10:01,600 --> 00:10:04,030
+and injecting, say, smoke or
+known particles into the flow,
+
+229
+00:10:05,240 --> 00:10:06,630
+we're able to track
+these particles
+
+230
+00:10:07,390 --> 00:10:08,390
+through the laser sheet.
+
+231
+00:10:08,750 --> 00:10:09,840
+So we know DP,
+the position,
+
+232
+00:10:10,540 --> 00:10:12,509
+and the time it took for it
+to move to that position;
+
+233
+00:10:12,510 --> 00:10:13,660
+therefore, we know velocity.
+
+234
+00:10:14,000 --> 00:10:15,180
+Three components of velocity.
+
+235
+00:10:15,720 --> 00:10:16,780
+This is a very powerful tool
+
+236
+00:10:17,390 --> 00:10:19,000
+to validate, say,
+computational codes
+
+237
+00:10:19,360 --> 00:10:20,630
+or looking at turbulence models.
+
+238
+00:10:21,630 --> 00:10:23,030
+For the aero engineers
+out there,
+
+239
+00:10:23,180 --> 00:10:24,180
+you can even see bow shock
+
+240
+00:10:24,300 --> 00:10:25,840
+coming off of the shuttle
+right over here
+
+241
+00:10:26,300 --> 00:10:30,270
+starting this really big jump
+in velocity.
+
+242
+00:10:33,360 --> 00:10:34,360
+But why stop there?
+
+243
+00:10:34,720 --> 00:10:36,120
+How about we take
+a multiple image
+
+244
+00:10:36,420 --> 00:10:38,330
+to get a nice video
+that varies in space and time?
+
+245
+00:10:40,150 --> 00:10:42,060
+So here on the top
+is the still image of a cylinder
+
+246
+00:10:43,390 --> 00:10:44,870
+with smoke injected
+into a flow field.
+
+247
+00:10:45,300 --> 00:10:46,450
+You get this vortex shedding.
+
+248
+00:10:47,390 --> 00:10:48,810
+Same thing as down here
+but using PIV.
+
+249
+00:10:50,480 --> 00:10:51,750
+We have a cylinder
+right up here,
+
+250
+00:10:52,630 --> 00:10:54,690
+and you see the vortex shedding
+moving back and forth
+
+251
+00:10:55,000 --> 00:10:56,000
+right over here.
+
+252
+00:10:56,450 --> 00:11:00,750
+It's two out of the three
+components of velocity plotted.
+
+253
+00:11:04,450 --> 00:11:06,600
+Another imaging technique
+we use is called Schlieren.
+
+254
+00:11:08,360 --> 00:11:09,870
+So usually we use air
+in our wind tunnel,
+
+255
+00:11:11,240 --> 00:11:12,660
+and once
+you start approaching, say,
+
+256
+00:11:12,840 --> 00:11:15,210
+the speed of sound, Mach 1,
+air starts getting compressed.
+
+257
+00:11:16,120 --> 00:11:18,390
+When air starts getting
+compressed, the density changes.
+
+258
+00:11:18,750 --> 00:11:20,750
+So using LED light source
+and high-speed cameras,
+
+259
+00:11:22,090 --> 00:11:23,480
+we can measure
+the refractive index
+
+260
+00:11:24,270 --> 00:11:25,540
+of how the light
+is reflected off
+
+261
+00:11:26,570 --> 00:11:29,060
+through the density gradient
+and take this really nice image.
+
+262
+00:11:30,720 --> 00:11:32,000
+Right here we have a rigid model
+
+263
+00:11:32,150 --> 00:11:34,210
+of a Mars Science Lab parachute
+going about Mach 2.5,
+
+264
+00:11:36,330 --> 00:11:38,660
+where it's extremely evident
+where the density is changing
+
+265
+00:11:38,780 --> 00:11:39,780
+is around shocks.
+
+266
+00:11:40,600 --> 00:11:42,420
+And you can see a nice bow shock
+right over here
+
+267
+00:11:42,510 --> 00:11:45,660
+dancing around
+in front of our model.
+
+268
+00:11:48,300 --> 00:11:49,690
+Okay.
+
+269
+00:11:50,690 --> 00:11:51,690
+On with imaging.
+
+270
+00:11:52,360 --> 00:11:54,480
+So one test that we've done
+is to look at just the plumes
+
+271
+00:11:57,240 --> 00:11:58,240
+and take a nice image
+
+272
+00:11:58,780 --> 00:12:00,420
+and see the details
+of what's going on.
+
+273
+00:12:01,030 --> 00:12:03,090
+Normally, we have a picture
+like this on the top left.
+
+274
+00:12:03,570 --> 00:12:05,750
+It's really saturated, and a lot
+of the details are lost.
+
+275
+00:12:06,630 --> 00:12:08,360
+How about, what if
+we had different cameras
+
+276
+00:12:10,150 --> 00:12:12,150
+around the same location
+with different filters?
+
+277
+00:12:12,150 --> 00:12:13,780
+We're able to superimpose
+these filters--
+
+278
+00:12:14,150 --> 00:12:15,150
+these photos together,
+
+279
+00:12:15,600 --> 00:12:17,780
+each having a little bit of--
+the last photo didn't have,
+
+280
+00:12:19,420 --> 00:12:21,660
+little bit of pieces of areas
+that we couldn't get before,
+
+281
+00:12:24,030 --> 00:12:25,149
+and superimpose them together
+
+282
+00:12:25,150 --> 00:12:28,360
+to get a really nice photo
+like this here.
+
+283
+00:12:31,810 --> 00:12:33,630
+So we used this technique
+at a shuttle launch.
+
+284
+00:12:34,210 --> 00:12:35,210
+What better way to use it?
+
+285
+00:12:36,060 --> 00:12:38,210
+Right here we have the 2011
+last, final shuttle launch.
+
+286
+00:12:39,810 --> 00:12:41,000
+On the left is a normal photo.
+
+287
+00:12:41,870 --> 00:12:43,060
+Keep in mind the right photo,
+
+288
+00:12:43,720 --> 00:12:45,510
+we used five cameras
+with different filters
+
+289
+00:12:45,600 --> 00:12:46,600
+and one IR camera,
+
+290
+00:12:47,210 --> 00:12:49,150
+or infrared camera,
+that measures temperature.
+
+291
+00:12:50,870 --> 00:12:52,030
+So this part right over here
+
+292
+00:12:53,720 --> 00:12:55,209
+you could see
+with the different filters,
+
+293
+00:12:55,210 --> 00:12:56,210
+but with this part
+
+294
+00:12:56,300 --> 00:12:57,600
+on the shuttle
+that's coming off,
+
+295
+00:12:58,150 --> 00:13:00,120
+none of the filters
+would actually pick that up.
+
+296
+00:13:00,240 --> 00:13:02,360
+That is because we had an
+IR camera on this part as well.
+
+297
+00:13:04,090 --> 00:13:05,419
+The second thing
+that's also really great--
+
+298
+00:13:05,420 --> 00:13:07,179
+looking at debris
+that's coming off of the model
+
+299
+00:13:07,180 --> 00:13:08,720
+that we couldn't see
+in normal pictures.
+
+300
+00:13:10,420 --> 00:13:11,570
+But using the same technique,
+
+301
+00:13:12,510 --> 00:13:14,660
+we are actually able to produce
+really nice videos too,
+
+302
+00:13:15,150 --> 00:13:16,210
+and I'll show you right now.
+
+303
+00:13:19,120 --> 00:13:22,120
+[rocket engines firing]
+
+304
+00:13:29,570 --> 00:13:31,180
+(Christina)
+You can see all the details
+
+305
+00:13:31,240 --> 00:13:33,300
+that we never could have seen
+without this technique
+
+306
+00:13:36,390 --> 00:13:38,240
+and even little debris
+that might be coming off
+
+307
+00:13:39,120 --> 00:13:41,180
+we could definitely detect
+in this better than this.
+
+308
+00:13:41,780 --> 00:13:43,780
+[man speaks indistinctly
+on video]
+
+309
+00:13:47,180 --> 00:13:49,330
+Pretty amazing.
+
+310
+00:13:51,870 --> 00:13:54,210
+So one big project that we've
+done in the last couple years
+
+311
+00:13:55,840 --> 00:13:57,750
+was the crew exploration
+vehicle launch abort.
+
+312
+00:13:59,060 --> 00:14:00,510
+So in this scenario,
+it only happens
+
+313
+00:14:00,780 --> 00:14:03,270
+during an emergency abort where
+we have to take our astronauts
+
+314
+00:14:03,600 --> 00:14:05,090
+off the rocket
+and back home safely.
+
+315
+00:14:06,120 --> 00:14:07,270
+And many aerodynamic aspects
+
+316
+00:14:08,660 --> 00:14:10,480
+that we need to consider
+during this mission.
+
+317
+00:14:12,510 --> 00:14:13,510
+Here we have Orion capsule
+
+318
+00:14:14,660 --> 00:14:16,360
+painted with
+pressure-sensitive paint,
+
+319
+00:14:17,480 --> 00:14:19,600
+and we have a simulation
+of a rocket right behind here.
+
+320
+00:14:21,180 --> 00:14:22,810
+So we separate the capsule
+from the rocket,
+
+321
+00:14:24,330 --> 00:14:26,209
+and we could look at
+to see the density gradients
+
+322
+00:14:26,210 --> 00:14:28,030
+and the shocks
+and the aerodynamic variation
+
+323
+00:14:28,690 --> 00:14:29,690
+during that separation.
+
+324
+00:14:30,480 --> 00:14:32,840
+Secondly, we're concerned about
+the abort motors right here
+
+325
+00:14:34,270 --> 00:14:36,600
+using high-pressure air to
+simulate an abort motor exhaust
+
+326
+00:14:36,690 --> 00:14:38,390
+impinging onto the surface
+of the rocket,
+
+327
+00:14:39,270 --> 00:14:41,750
+whether that be forces, moments,
+pressures, or even acoustics.
+
+328
+00:14:44,420 --> 00:14:46,420
+On the right, you have a bunch
+of Schlieren photos.
+
+329
+00:14:47,450 --> 00:14:49,630
+You could see the density
+gradients are right over here.
+
+330
+00:14:49,690 --> 00:14:51,720
+They're usually shocks
+and a nice shock in the front
+
+331
+00:14:52,540 --> 00:14:53,540
+of the model over here
+
+332
+00:14:54,330 --> 00:14:55,480
+and a second shock right here.
+
+333
+00:14:57,480 --> 00:14:58,480
+So why is this important?
+
+334
+00:14:59,030 --> 00:15:00,450
+Well,
+where do the astronauts sit?
+
+335
+00:15:00,780 --> 00:15:01,780
+They sit right here,
+
+336
+00:15:02,600 --> 00:15:04,000
+so we need to understand
+very well
+
+337
+00:15:04,690 --> 00:15:07,840
+what is happening
+during this process.
+
+338
+00:15:10,480 --> 00:15:12,270
+Here's a Schlieren photo
+of the separation,
+
+339
+00:15:13,210 --> 00:15:14,840
+and you can see
+the rapid changes in density
+
+340
+00:15:16,630 --> 00:15:18,810
+and how dynamic the environment
+is during this portion.
+
+341
+00:15:20,780 --> 00:15:23,000
+So the crew capsule is removing
+itself from the rocket
+
+342
+00:15:23,540 --> 00:15:24,540
+at about 10 Gs.
+
+343
+00:15:25,120 --> 00:15:27,060
+That's incredibly fast
+and incredibly dynamic,
+
+344
+00:15:27,300 --> 00:15:28,390
+and a lot of force is going on.
+
+345
+00:15:32,000 --> 00:15:33,420
+Here is a second video
+of impingement
+
+346
+00:15:34,870 --> 00:15:36,870
+using high-pressure air
+to simulate the exhaust.
+
+347
+00:15:37,540 --> 00:15:39,390
+One interesting feature
+to point on this photo
+
+348
+00:15:39,480 --> 00:15:41,480
+is you could see these
+multiple shocks coming off,
+
+349
+00:15:41,660 --> 00:15:42,660
+converging into one,
+
+350
+00:15:43,720 --> 00:15:45,180
+as well as
+the exhaust interaction
+
+351
+00:15:45,300 --> 00:15:46,300
+with the second shock,
+
+352
+00:15:46,570 --> 00:15:48,360
+you see a crossover
+coming over here as well.
+
+353
+00:15:50,600 --> 00:15:52,210
+And we talked a little
+about acoustics,
+
+354
+00:15:52,420 --> 00:15:54,330
+but how do you look
+at acoustics data using this?
+
+355
+00:15:55,720 --> 00:15:57,180
+Well, we have
+a whole research team
+
+356
+00:15:58,360 --> 00:15:59,510
+dedicated to aeroacoustics.
+
+357
+00:16:01,750 --> 00:16:02,750
+On the top right,
+
+358
+00:16:03,120 --> 00:16:04,750
+you have a 26% scale
+of a 777 wing right here.
+
+359
+00:16:07,630 --> 00:16:09,540
+And right here,
+you have these acoustics array.
+
+360
+00:16:10,810 --> 00:16:13,360
+There's usually several dozen
+to a couple hundred microphones
+
+361
+00:16:14,300 --> 00:16:16,300
+in a predetermined pattern
+measuring this noise.
+
+362
+00:16:17,330 --> 00:16:19,570
+With this technique, we're able
+to measure the magnitude
+
+363
+00:16:20,540 --> 00:16:21,690
+and the location of the noise,
+
+364
+00:16:23,060 --> 00:16:24,360
+so I would call it
+a sound picture.
+
+365
+00:16:24,870 --> 00:16:27,330
+Once that picture is taken,
+you can superimpose this picture
+
+366
+00:16:27,390 --> 00:16:28,870
+on the surface
+of the model, say, here.
+
+367
+00:16:30,840 --> 00:16:32,089
+Right now you can see
+a lot of the noise
+
+368
+00:16:32,090 --> 00:16:33,630
+coming from the leading edge,
+the slats,
+
+369
+00:16:34,210 --> 00:16:36,210
+and from the trailing edge,
+the flaps, right here.
+
+370
+00:16:37,810 --> 00:16:39,870
+Nowadays, engines
+are getting quieter and quieter,
+
+371
+00:16:40,390 --> 00:16:42,570
+so we need to reduce the noise
+of the plane itself as well.
+
+372
+00:16:43,780 --> 00:16:45,569
+I always thought,
+when a plane was flying over,
+
+373
+00:16:45,570 --> 00:16:46,840
+it was all
+from the engine noise,
+
+374
+00:16:47,810 --> 00:16:48,810
+but it really isn't.
+
+375
+00:16:50,180 --> 00:16:51,660
+A huge amount of noise
+also comes from,
+
+376
+00:16:52,000 --> 00:16:53,000
+like, the landing gear.
+
+377
+00:16:53,570 --> 00:16:55,090
+Basically anything
+with a sharp edge
+
+378
+00:16:55,210 --> 00:16:56,210
+produces a lot of noise.
+
+379
+00:16:57,750 --> 00:16:59,060
+On the bottom right
+right here,
+
+380
+00:16:59,480 --> 00:17:01,330
+it's something
+called an anechoic chamber.
+
+381
+00:17:02,360 --> 00:17:03,720
+It's what we use
+to build our arrays
+
+382
+00:17:04,780 --> 00:17:06,060
+and do some sound experiments.
+
+383
+00:17:08,210 --> 00:17:09,630
+So what this chamber does
+is the walls
+
+384
+00:17:10,210 --> 00:17:12,210
+are built up with these wedges
+that absorbs noise.
+
+385
+00:17:14,510 --> 00:17:15,720
+So, if you're testing something
+
+386
+00:17:16,030 --> 00:17:17,449
+and you want to know
+exactly where a noise source
+
+387
+00:17:17,450 --> 00:17:19,270
+is coming from,
+you don't have the reflection
+
+388
+00:17:20,750 --> 00:17:22,660
+off the walls coming off
+and messing up your data
+
+389
+00:17:22,810 --> 00:17:23,810
+or giving you errors.
+
+390
+00:17:24,450 --> 00:17:25,510
+So that's what's done here.
+
+391
+00:17:26,360 --> 00:17:27,540
+The majority of any experiment
+
+392
+00:17:28,420 --> 00:17:30,330
+that goes up on
+the International Space Station
+
+393
+00:17:30,630 --> 00:17:32,090
+needs a sound
+qualification test,
+
+394
+00:17:32,810 --> 00:17:36,060
+and that's usually done here
+in an anechoic chamber.
+
+395
+00:17:38,750 --> 00:17:40,660
+Here is an example
+of our microphones in action.
+
+396
+00:17:42,060 --> 00:17:43,570
+We have the launch abort mode
+full scale
+
+397
+00:17:44,270 --> 00:17:46,000
+that was tested in Utah
+several years back,
+
+398
+00:17:46,810 --> 00:17:49,150
+and here are the microphones
+that's measuring magnitude
+
+399
+00:17:49,390 --> 00:17:50,390
+in this case.
+
+400
+00:17:52,810 --> 00:17:54,600
+But a better visualization
+of this is seeing
+
+401
+00:17:55,570 --> 00:17:57,390
+the launch abort motors
+actually turning on,
+
+402
+00:17:58,810 --> 00:18:00,180
+so I have a video
+for you as well.
+
+403
+00:18:01,480 --> 00:18:04,660
+[rocket engine firing]
+
+404
+00:18:13,420 --> 00:18:15,480
+(Christina)
+Imagine how loud
+it really actually is
+
+405
+00:18:16,180 --> 00:18:17,240
+and sitting right above it,
+
+406
+00:18:18,840 --> 00:18:20,330
+right under it
+could be detrimental
+
+407
+00:18:21,210 --> 00:18:24,570
+if you don't understand
+the characteristics of this.
+
+408
+00:18:26,210 --> 00:18:27,210
+But...
+
+409
+00:18:27,390 --> 00:18:29,030
+So back in 2013,
+we went one step further.
+
+410
+00:18:30,660 --> 00:18:32,780
+We tested this at a real launch
+for the very first time.
+
+411
+00:18:34,150 --> 00:18:35,450
+So here is
+the microphone arrays,
+
+412
+00:18:36,810 --> 00:18:38,420
+and to give you a scale
+of how big this is,
+
+413
+00:18:38,540 --> 00:18:39,540
+about 10 feet by 10 feet.
+
+414
+00:18:40,240 --> 00:18:41,240
+It's huge.
+
+415
+00:18:41,540 --> 00:18:43,360
+Several hundred microphones
+are installed,
+
+416
+00:18:44,870 --> 00:18:47,090
+and honestly, we just get
+one chance to take this data.
+
+417
+00:18:47,690 --> 00:18:49,389
+We couldn't stop them,
+be like, "Oh, excuse me.
+
+418
+00:18:49,390 --> 00:18:51,120
+Could you launch that rocket
+one more time?
+
+419
+00:18:51,270 --> 00:18:52,360
+I didn't get the right data."
+
+420
+00:18:52,720 --> 00:18:54,000
+So a lot of engineering and work
+
+421
+00:18:54,720 --> 00:18:56,660
+went into making sure
+it was structurally sound,
+
+422
+00:18:56,720 --> 00:18:58,300
+we were able to get
+the frequency right
+
+423
+00:18:58,450 --> 00:19:00,540
+and all the data correctly
+during this experiment.
+
+424
+00:19:03,150 --> 00:19:05,060
+Here I'll show you a video
+of what it looked like.
+
+425
+00:19:05,420 --> 00:19:06,570
+The sound image is on the left,
+
+426
+00:19:07,150 --> 00:19:09,270
+and the camera that's really
+close to it is on the right
+
+427
+00:19:09,570 --> 00:19:10,720
+to better see what's going on.
+
+428
+00:19:11,780 --> 00:19:14,030
+You can see a lot of noise
+coming from the nozzle itself.
+
+429
+00:19:16,120 --> 00:19:17,839
+There is actually a duct
+that goes under the launch pad
+
+430
+00:19:17,840 --> 00:19:18,840
+that comes out at the exit.
+
+431
+00:19:20,090 --> 00:19:22,029
+And once it shows it again,
+you can see a lot of noise
+
+432
+00:19:22,030 --> 00:19:23,720
+actually coming
+out of the exit duct as well.
+
+433
+00:19:26,510 --> 00:19:27,870
+We have
+a water suppressant system
+
+434
+00:19:28,750 --> 00:19:30,270
+that actually
+suppresses the noise.
+
+435
+00:19:31,330 --> 00:19:32,720
+Have any of you seen
+a launch before?
+
+436
+00:19:34,720 --> 00:19:35,720
+Probably majority of you?
+
+437
+00:19:35,870 --> 00:19:37,510
+Okay, so, if you ever
+see the water system
+
+438
+00:19:38,810 --> 00:19:40,510
+that's getting blown
+onto the launch pad,
+
+439
+00:19:40,630 --> 00:19:42,450
+I always thought
+it was to cool the launch pad,
+
+440
+00:19:42,840 --> 00:19:44,360
+but it's actually
+to suppress noise.
+
+441
+00:19:45,390 --> 00:19:47,450
+And because of this test,
+it changed the whole system
+
+442
+00:19:48,750 --> 00:19:50,750
+of how launches were done
+in the future after this.
+
+443
+00:19:52,150 --> 00:19:53,450
+It had to be initiated
+a lot sooner
+
+444
+00:19:54,810 --> 00:19:57,150
+to suppress the noise.
+
+445
+00:20:00,450 --> 00:20:01,450
+On to more rockets.
+
+446
+00:20:02,630 --> 00:20:04,570
+We have a huge group
+in partnership with Stanford
+
+447
+00:20:07,210 --> 00:20:09,030
+working on
+liquefying hybrid rocket motors.
+
+448
+00:20:10,750 --> 00:20:12,030
+We've done 41 tests here at Ames
+
+449
+00:20:12,660 --> 00:20:14,120
+and over 500 ground tests
+overall.
+
+450
+00:20:14,870 --> 00:20:16,450
+A lot of effort
+and work went into this.
+
+451
+00:20:17,420 --> 00:20:18,600
+And here's some few advantages
+
+452
+00:20:19,660 --> 00:20:21,120
+of this liquefying
+hybrid rocket.
+
+453
+00:20:22,390 --> 00:20:23,780
+First it uses
+a paraffin solid fuel,
+
+454
+00:20:25,330 --> 00:20:26,330
+than the normal HTPB fuel.
+
+455
+00:20:28,870 --> 00:20:30,060
+It burns three times faster.
+
+456
+00:20:30,390 --> 00:20:31,390
+What does that give us?
+
+457
+00:20:31,660 --> 00:20:33,480
+Well, it gives us
+a more simple system to burn.
+
+458
+00:20:35,000 --> 00:20:36,810
+Here, that's what the fuel
+normally looks like.
+
+459
+00:20:38,000 --> 00:20:40,120
+You have multiple ports
+for it to burn evenly through.
+
+460
+00:20:41,630 --> 00:20:43,150
+Because it burns
+three times faster,
+
+461
+00:20:43,480 --> 00:20:45,180
+we don't need
+the multiple ports anymore.
+
+462
+00:20:45,270 --> 00:20:47,300
+We have one port where it
+could burn evenly through.
+
+463
+00:20:48,420 --> 00:20:50,450
+And with multiple ports,
+if it doesn't burn evenly,
+
+464
+00:20:51,240 --> 00:20:52,600
+it could cause
+structural damage,
+
+465
+00:20:54,090 --> 00:20:55,600
+and it makes rockets
+a little less safe.
+
+466
+00:20:57,270 --> 00:20:58,480
+But with this,
+it's a lot safer,
+
+467
+00:20:58,570 --> 00:21:00,150
+and it's environmentally
+friendly.
+
+468
+00:21:01,150 --> 00:21:03,300
+Right here, and on the right,
+we have a Peregrine rocket
+
+469
+00:21:05,660 --> 00:21:07,840
+that we hope to test roughly
+one year from now at Wallops.
+
+470
+00:21:10,450 --> 00:21:12,510
+In 2014, we conducted tests
+that shows that this fuel
+
+471
+00:21:14,150 --> 00:21:15,690
+is both viable
+and stable and efficient,
+
+472
+00:21:17,330 --> 00:21:19,360
+and it's able to fly in a flight
+with configuration.
+
+473
+00:21:20,720 --> 00:21:22,780
+I also want to emphasize
+the advantage of this rocket
+
+474
+00:21:24,300 --> 00:21:25,300
+where it has the advantage
+
+475
+00:21:26,270 --> 00:21:27,870
+of both a solid-
+and liquid-state rocket.
+
+476
+00:21:28,780 --> 00:21:30,690
+With a solid state,
+you get a really high thrust,
+
+477
+00:21:31,270 --> 00:21:32,270
+but it's on and off.
+
+478
+00:21:32,690 --> 00:21:34,810
+You light it up, it lights,
+it burns, and then it's off.
+
+479
+00:21:36,450 --> 00:21:38,390
+With the liquid fuel,
+you're able to throttle it.
+
+480
+00:21:38,840 --> 00:21:40,480
+This hybrid rocket,
+it's able to do both.
+
+481
+00:21:41,270 --> 00:21:43,660
+You have a liquid-state fuel,
+and you have a solid-state fuel,
+
+482
+00:21:44,750 --> 00:21:45,810
+and it's really efficient,
+
+483
+00:21:50,240 --> 00:21:52,240
+so...
+
+484
+00:21:53,840 --> 00:21:54,840
+Here you go.
+
+485
+00:21:55,090 --> 00:21:58,090
+[rocket engine firing]
+
+486
+00:22:13,750 --> 00:22:14,750
+Beautiful.
+
+487
+00:22:15,360 --> 00:22:16,360
+Very complete.
+
+488
+00:22:16,540 --> 00:22:17,540
+This was a ground test.
+
+489
+00:22:17,720 --> 00:22:18,870
+It was parallel to the ground,
+
+490
+00:22:20,570 --> 00:22:22,030
+but it's usually
+pointed upwards,
+
+491
+00:22:22,510 --> 00:22:23,510
+so we could go up.
+
+492
+00:22:24,570 --> 00:22:25,570
+[laughter]
+
+493
+00:22:27,480 --> 00:22:29,210
+So we talked a lot
+about going up into space.
+
+494
+00:22:30,630 --> 00:22:32,120
+What about coming back down
+to space
+
+495
+00:22:32,150 --> 00:22:33,360
+or even other planetary bodies?
+
+496
+00:22:34,690 --> 00:22:36,180
+Coming back down,
+it's really fast,
+
+497
+00:22:36,600 --> 00:22:38,779
+and it's really harsh, and it's
+a really hot environment.
+
+498
+00:22:38,780 --> 00:22:40,390
+So we use something
+called a heat shield
+
+499
+00:22:40,600 --> 00:22:41,600
+to protect our vehicle,
+
+500
+00:22:41,750 --> 00:22:43,480
+our instrumentation,
+and our astronauts.
+
+501
+00:22:44,660 --> 00:22:47,000
+And to simulate that, we have
+a facility called the Arc Jet
+
+502
+00:22:48,000 --> 00:22:49,630
+to test these
+thermal protection systems.
+
+503
+00:22:50,750 --> 00:22:52,120
+Right now you have
+a heat shield,
+
+504
+00:22:53,270 --> 00:22:55,060
+and it's being put
+into the arc jet right now.
+
+505
+00:22:57,090 --> 00:22:58,360
+So typically,
+for us to quantify
+
+506
+00:22:59,300 --> 00:23:01,810
+how well it worked, we measure
+the heat shield material before,
+
+507
+00:23:03,300 --> 00:23:05,329
+and once that's done, we measure
+the heat shield after,
+
+508
+00:23:05,330 --> 00:23:07,030
+and that's
+how much material has ablated.
+
+509
+00:23:07,330 --> 00:23:09,270
+The material has to ablate
+to dissipate the heat.
+
+510
+00:23:12,540 --> 00:23:14,600
+In the Fluid Mechanics Lab,
+we developed a better way
+
+511
+00:23:14,810 --> 00:23:16,450
+to do this to actually see
+what's going on
+
+512
+00:23:17,270 --> 00:23:18,630
+between the beginning
+and the end.
+
+513
+00:23:21,690 --> 00:23:23,840
+We call this photogrammetric
+recession measurement.
+
+514
+00:23:24,720 --> 00:23:26,120
+It uses the same technique
+as PIV,
+
+515
+00:23:27,270 --> 00:23:28,660
+but instead of
+tracking molecules,
+
+516
+00:23:29,210 --> 00:23:31,390
+you're actually tracking
+the surface of the heat shield
+
+517
+00:23:31,690 --> 00:23:32,690
+being ablated away.
+
+518
+00:23:33,360 --> 00:23:34,750
+Right now we have PICA
+in the arc jet.
+
+519
+00:23:38,090 --> 00:23:40,420
+And one great use of this is,
+what if the ablation was uneven?
+
+520
+00:23:42,420 --> 00:23:44,690
+Like, how would you know that
+measuring it before and after
+
+521
+00:23:44,690 --> 00:23:46,359
+and when it actually
+started becoming uneven?
+
+522
+00:23:46,360 --> 00:23:48,510
+With this technique, you're able
+to see it in real time.
+
+523
+00:23:50,570 --> 00:23:53,120
+And it's actually extremely hard
+to put any sort of instruments
+
+524
+00:23:53,450 --> 00:23:55,300
+that would survive
+in this kind of conditions,
+
+525
+00:23:56,060 --> 00:23:57,750
+and a lot of engineering
+also went into this.
+
+526
+00:23:59,810 --> 00:24:03,810
+The surface right here
+is brighter than the sun, so...
+
+527
+00:24:08,660 --> 00:24:10,180
+Like I mentioned
+from the beginning,
+
+528
+00:24:10,840 --> 00:24:11,840
+coming back into space,
+
+529
+00:24:12,360 --> 00:24:14,600
+NASA Ames is also home to
+the world's largest wind tunnel.
+
+530
+00:24:16,750 --> 00:24:18,030
+It could fit a full-scale F-18,
+
+531
+00:24:20,090 --> 00:24:21,270
+even a full-scale semi-truck.
+
+532
+00:24:22,360 --> 00:24:24,420
+But what better way to use it
+than to test parachutes?
+
+533
+00:24:25,570 --> 00:24:27,420
+On the left--this was done
+earlier this year--
+
+534
+00:24:28,060 --> 00:24:29,450
+it's two
+out of the three parachutes
+
+535
+00:24:29,780 --> 00:24:31,060
+that would be deployed on Orion
+
+536
+00:24:31,570 --> 00:24:32,720
+when it comes back onto Earth.
+
+537
+00:24:34,720 --> 00:24:37,090
+On the very right, you have
+the Mars Science Lab parachute.
+
+538
+00:24:38,150 --> 00:24:39,660
+It's the largest
+supersonic parachute
+
+539
+00:24:40,060 --> 00:24:41,780
+ever successfully designed
+right over here.
+
+540
+00:24:44,180 --> 00:24:46,510
+And what's incredible about
+this parachute in particular,
+
+541
+00:24:47,000 --> 00:24:48,180
+it's moving--it's taking MSL,
+
+542
+00:24:49,150 --> 00:24:50,750
+or "Curiosity,"
+onto the Mars atmosphere
+
+543
+00:24:51,330 --> 00:24:53,060
+but when it's approaching
+the atmosphere,
+
+544
+00:24:54,060 --> 00:24:55,810
+it's going about...
+over 1,000 miles per hour,
+
+545
+00:24:57,000 --> 00:24:58,060
+and it's the size of a Prius.
+
+546
+00:24:58,480 --> 00:25:00,870
+And we have to slow this Prius
+down to about 200 miles per hour
+
+547
+00:25:01,600 --> 00:25:02,600
+with just one parachute.
+
+548
+00:25:04,000 --> 00:25:05,000
+Pretty incredible.
+
+549
+00:25:05,570 --> 00:25:08,030
+I recommend YouTubing "Seven
+Minutes of Terror"on YouTube.
+
+550
+00:25:08,480 --> 00:25:10,510
+It also shows you the other
+complicated techniques
+
+551
+00:25:10,720 --> 00:25:11,720
+with zero margin of error
+
+552
+00:25:12,720 --> 00:25:15,570
+how to make this mission
+successful.
+
+553
+00:25:18,420 --> 00:25:19,600
+Here we had a high-speed camera
+
+554
+00:25:20,150 --> 00:25:21,540
+capture
+the successful deployment
+
+555
+00:25:22,150 --> 00:25:23,510
+of the Mars Science Lab
+parachute.
+
+556
+00:25:24,330 --> 00:25:25,420
+Of course, it's slowed down.
+
+557
+00:25:25,720 --> 00:25:27,300
+We had some problems
+in the beginning,
+
+558
+00:25:28,300 --> 00:25:30,300
+but at the end, we were able
+to solve those problems
+
+559
+00:25:30,330 --> 00:25:31,690
+and have
+a successful deployment.
+
+560
+00:25:32,330 --> 00:25:34,840
+But did this work?
+
+561
+00:25:36,630 --> 00:25:37,630
+Here's proof.
+
+562
+00:25:37,750 --> 00:25:38,750
+I took it with my iPhone.
+
+563
+00:25:39,150 --> 00:25:40,150
+[laughter]
+
+564
+00:25:41,090 --> 00:25:43,210
+So this is "Curiosity"landing
+on Mars August 5, 2012,
+
+565
+00:25:45,480 --> 00:25:48,030
+and everything went flawlessly,
+and the mission was a success.
+
+566
+00:25:50,390 --> 00:25:52,240
+Okay, so I talked a lot
+about supersonic speeds
+
+567
+00:25:53,630 --> 00:25:54,840
+and breaking the sound barrier,
+
+568
+00:25:55,270 --> 00:25:57,210
+but how does it look like
+to the naked eye on Earth?
+
+569
+00:25:59,180 --> 00:26:00,240
+Well, I got a photo.
+
+570
+00:26:00,660 --> 00:26:02,060
+This is an F-18
+flying about Mach 1
+
+571
+00:26:03,540 --> 00:26:04,600
+over the San Francisco Bay.
+
+572
+00:26:04,870 --> 00:26:06,150
+It's about 40 feet above water.
+
+573
+00:26:07,150 --> 00:26:08,150
+It's a very daring pilot,
+
+574
+00:26:08,750 --> 00:26:10,480
+and you can see the shocks
+coming off of here
+
+575
+00:26:10,570 --> 00:26:11,570
+or even the canopy.
+
+576
+00:26:12,630 --> 00:26:14,360
+When shocks occur,
+it's usually a change--
+
+577
+00:26:14,810 --> 00:26:16,390
+it's a change
+of pressure and density.
+
+578
+00:26:16,690 --> 00:26:18,150
+So that's what
+you're seeing here.
+
+579
+00:26:18,330 --> 00:26:21,450
+I'll call it
+a real-life Schlieren photo.
+
+580
+00:26:23,540 --> 00:26:24,600
+But what does it sound like?
+
+581
+00:26:25,660 --> 00:26:26,660
+Well...
+
+582
+00:26:26,660 --> 00:26:29,660
+[loud boom]
+
+583
+00:26:32,870 --> 00:26:33,870
+[roaring]
+
+584
+00:26:35,360 --> 00:26:36,360
+[crowd exclaiming]
+
+585
+00:26:36,840 --> 00:26:37,840
+[roaring]
+
+586
+00:26:39,600 --> 00:26:41,600
+(woman)
+Whoo-hoo-hoo-hoo-hoo!
+
+587
+00:26:43,870 --> 00:26:44,870
+[loud boom]
+
+588
+00:26:47,720 --> 00:26:49,630
+(man)
+Sound travels
+at about 760 miles per hour
+
+589
+00:26:51,660 --> 00:26:52,660
+or 340 meters per second.
+
+590
+00:26:54,270 --> 00:26:56,330
+That's about 661 knots
+on an average day at sea level.
+
+591
+00:26:58,510 --> 00:27:00,060
+And sometimes
+you can almost see it.
+
+592
+00:27:01,840 --> 00:27:03,119
+(Christina)
+That's how it sounds like.
+
+593
+00:27:03,120 --> 00:27:04,120
+[laughs]
+
+594
+00:27:04,540 --> 00:27:06,780
+Keep in mind you're also hearing
+a lot of the engine noises
+
+595
+00:27:07,150 --> 00:27:08,150
+that are coming off of it,
+
+596
+00:27:08,660 --> 00:27:10,149
+but I definitely don't want
+one of these planes
+
+597
+00:27:10,150 --> 00:27:11,420
+flying over my house
+at 3:00 a.m.
+
+598
+00:27:14,480 --> 00:27:16,210
+So NASA actually
+has a supersonics program
+
+599
+00:27:17,570 --> 00:27:19,359
+in partnership with a lot
+of commercial companies
+
+600
+00:27:19,360 --> 00:27:21,180
+such as Lockheed or Boeing
+and other entities
+
+601
+00:27:22,000 --> 00:27:24,030
+where we're trying
+to reduce the sound signature--
+
+602
+00:27:24,390 --> 00:27:26,510
+boom signature so it could fly
+over land efficiently.
+
+603
+00:27:28,750 --> 00:27:30,810
+These are several of the designs
+that they have here.
+
+604
+00:27:31,270 --> 00:27:32,630
+And this is
+for commercial planes.
+
+605
+00:27:33,090 --> 00:27:35,150
+So one of you, you and I
+could fly in one of these planes
+
+606
+00:27:35,450 --> 00:27:36,450
+in the next 15, 20 years.
+
+607
+00:27:36,720 --> 00:27:37,720
+How amazing would that be?
+
+608
+00:27:38,660 --> 00:27:40,270
+And so instead of going
+to New York, say,
+
+609
+00:27:40,660 --> 00:27:42,480
+in, like, 5 hours,
+you're there in 2 1/2 hours.
+
+610
+00:27:43,210 --> 00:27:44,689
+I'll definitely go to New York
+a lot more often
+
+611
+00:27:44,690 --> 00:27:45,690
+if I had the money.
+
+612
+00:27:46,450 --> 00:27:47,450
+Right here.
+
+613
+00:27:49,240 --> 00:27:51,060
+And to point out,
+back here is a pressure rail,
+
+614
+00:27:53,330 --> 00:27:55,780
+and that's what we're using to
+measure the sonic boom signature
+
+615
+00:27:56,300 --> 00:27:57,300
+coming off of the plane.
+
+616
+00:27:58,000 --> 00:27:59,480
+And the pointy nose
+and the wing itself
+
+617
+00:28:01,240 --> 00:28:02,750
+all reduces the noise
+of that boom, boom
+
+618
+00:28:04,150 --> 00:28:05,780
+that you hear
+when it's flying over as well.
+
+619
+00:28:08,300 --> 00:28:09,300
+Okay.
+
+620
+00:28:09,510 --> 00:28:10,690
+So what about subsonic planes?
+
+621
+00:28:11,810 --> 00:28:14,150
+What have we done for those
+instead of supersonic planes?
+
+622
+00:28:15,150 --> 00:28:16,239
+Well, we've actually done
+a lot of work
+
+623
+00:28:16,240 --> 00:28:17,420
+to make planes more efficient,
+
+624
+00:28:17,660 --> 00:28:20,090
+part of the environmentally
+responsible aviation program
+
+625
+00:28:20,720 --> 00:28:21,720
+here at Ames.
+
+626
+00:28:23,270 --> 00:28:24,269
+One technique
+that we've developed
+
+627
+00:28:24,270 --> 00:28:25,330
+is called the sweeping jet.
+
+628
+00:28:26,090 --> 00:28:28,150
+Right now what you're seeing
+is the 40x80 wind tunnel
+
+629
+00:28:28,840 --> 00:28:30,660
+with a full-sized
+Boeing 757 tail installed.
+
+630
+00:28:33,090 --> 00:28:34,810
+So these sweeping jets
+right here that you see
+
+631
+00:28:36,330 --> 00:28:37,840
+has no moving parts,
+and about 30 of them
+
+632
+00:28:38,510 --> 00:28:41,060
+are installed on these hinges,
+which provides us flow control.
+
+633
+00:28:42,840 --> 00:28:45,330
+Because these are installed,
+it provides 20% more side force,
+
+634
+00:28:47,720 --> 00:28:48,720
+which results in--
+
+635
+00:28:50,240 --> 00:28:51,630
+we don't need tails
+that big anymore
+
+636
+00:28:52,600 --> 00:28:53,600
+for the plane to fly.
+
+637
+00:28:54,060 --> 00:28:55,660
+So we could reduce the size
+tremendously,
+
+638
+00:28:57,090 --> 00:28:58,450
+therefore reducing
+mass and drag,
+
+639
+00:29:00,300 --> 00:29:01,720
+and giving us
+a more efficient plane.
+
+640
+00:29:03,330 --> 00:29:04,390
+This was a successful test,
+
+641
+00:29:04,870 --> 00:29:06,870
+and they actually tested it
+in flight in April 2015
+
+642
+00:29:08,480 --> 00:29:09,840
+on an ecoDemonstrator
+right here,
+
+643
+00:29:11,240 --> 00:29:12,750
+and that was also
+a successful mission.
+
+644
+00:29:14,060 --> 00:29:15,600
+I suspect to be
+seeing these flow control
+
+645
+00:29:17,870 --> 00:29:20,120
+on all future planes.
+
+646
+00:29:22,870 --> 00:29:25,030
+Here's one test that's going on
+right now as we speak.
+
+647
+00:29:26,330 --> 00:29:28,360
+I was actually walking
+next to the plane yesterday,
+
+648
+00:29:28,690 --> 00:29:30,420
+putting it
+into the wind tunnel right here.
+
+649
+00:29:31,090 --> 00:29:32,300
+It's the hybrid wing body plane.
+
+650
+00:29:33,120 --> 00:29:35,150
+It's a plane that's
+both designed by NASA and Boeing
+
+651
+00:29:36,630 --> 00:29:37,630
+right here.
+
+652
+00:29:37,630 --> 00:29:39,000
+So environmentally responsible
+
+653
+00:29:39,120 --> 00:29:40,510
+doesn't just mean
+fuel efficiency.
+
+654
+00:29:41,540 --> 00:29:42,840
+It also means
+reducing the noise.
+
+655
+00:29:44,030 --> 00:29:45,120
+So we have the engines on top.
+
+656
+00:29:46,120 --> 00:29:47,390
+They're typically on the bottom,
+
+657
+00:29:47,480 --> 00:29:49,390
+and this kind of shields
+the noise off the ground
+
+658
+00:29:50,720 --> 00:29:51,720
+right over here.
+
+659
+00:29:52,600 --> 00:29:54,540
+And this nice blended wing body
+gives us actually
+
+660
+00:29:56,240 --> 00:29:58,090
+a lot more efficiency
+and higher cruise speed.
+
+661
+00:29:59,750 --> 00:30:00,750
+You can see over here.
+
+662
+00:30:01,330 --> 00:30:02,840
+And back
+to the air aeroacoustics team,
+
+663
+00:30:03,420 --> 00:30:05,540
+we also installed several
+acoustics array right here
+
+664
+00:30:06,210 --> 00:30:07,210
+to measure the sound.
+
+665
+00:30:09,390 --> 00:30:10,390
+Pretty great.
+
+666
+00:30:13,330 --> 00:30:14,420
+This here is a special plane.
+
+667
+00:30:15,570 --> 00:30:17,060
+It's a design
+that's commonly used.
+
+668
+00:30:18,750 --> 00:30:19,750
+It's nonproprietary,
+
+669
+00:30:21,030 --> 00:30:22,300
+and it's used
+all over the world.
+
+670
+00:30:23,060 --> 00:30:25,210
+So this plane, you could use
+your computational method
+
+671
+00:30:26,210 --> 00:30:28,480
+or your experimental method
+that you developed in your lab
+
+672
+00:30:28,630 --> 00:30:30,090
+or install
+different wind tunnels
+
+673
+00:30:30,120 --> 00:30:31,120
+and go back to the database
+
+674
+00:30:31,570 --> 00:30:33,360
+that everyone can use
+and validate your data
+
+675
+00:30:33,690 --> 00:30:35,270
+or check if it's right
+or even close by.
+
+676
+00:30:35,780 --> 00:30:36,780
+It's really useful,
+
+677
+00:30:37,000 --> 00:30:38,119
+especially if you're not
+part of NASA,
+
+678
+00:30:38,120 --> 00:30:40,120
+you really want to check
+your computational code.
+
+679
+00:30:40,150 --> 00:30:41,150
+How do you do that?
+
+680
+00:30:41,270 --> 00:30:42,810
+Well, you run it
+on the same model, right?
+
+681
+00:30:43,540 --> 00:30:44,540
+Angle check there.
+
+682
+00:30:45,540 --> 00:30:46,749
+We've even done
+some work ourselves
+
+683
+00:30:46,750 --> 00:30:48,720
+in the Fluid Mechanics Lab.
+
+684
+00:30:51,090 --> 00:30:52,090
+Right over here.
+
+685
+00:30:52,180 --> 00:30:53,390
+So this is
+a semi-span CRM model
+
+686
+00:30:55,240 --> 00:30:56,600
+tested in
+our low-speed test cell.
+
+687
+00:30:58,060 --> 00:31:00,360
+And these blue streaks are
+actually oil that was applied.
+
+688
+00:31:01,630 --> 00:31:02,689
+We turned on the wind tunnel,
+
+689
+00:31:02,690 --> 00:31:04,180
+and we were able to see
+the flow field
+
+690
+00:31:04,480 --> 00:31:05,540
+on the surface of the model,
+
+691
+00:31:06,390 --> 00:31:08,390
+give us this nice visual effect
+of what's going on.
+
+692
+00:31:09,690 --> 00:31:10,690
+On the left and on the right
+
+693
+00:31:11,540 --> 00:31:13,060
+we're measuring
+wing-tip vortices.
+
+694
+00:31:13,450 --> 00:31:15,510
+On the left, we use a covert
+probe or a four-hole probe
+
+695
+00:31:16,660 --> 00:31:18,240
+that measures pressure
+along a plane.
+
+696
+00:31:20,510 --> 00:31:21,749
+And on the right,
+in the same plane,
+
+697
+00:31:21,750 --> 00:31:23,570
+we used PIV to
+measure velocities right here.
+
+698
+00:31:27,330 --> 00:31:28,330
+So why is it important
+
+699
+00:31:28,450 --> 00:31:30,180
+that we understand
+the wing-tip vortices?
+
+700
+00:31:30,240 --> 00:31:32,090
+Well, have you ever
+sat on a plane and wondered,
+
+701
+00:31:33,780 --> 00:31:35,329
+"The other plane's
+already taken off.
+
+702
+00:31:35,330 --> 00:31:37,390
+Why am I still sitting here?
+Why haven't we taken off?
+
+703
+00:31:37,600 --> 00:31:39,240
+I can't wait to go home
+for Thanksgiving.
+
+704
+00:31:39,330 --> 00:31:40,600
+My food's getting cold,"
+right?
+
+705
+00:31:42,000 --> 00:31:44,030
+Well, actually, wing-tip
+vortices can be so strong
+
+706
+00:31:45,060 --> 00:31:47,210
+that, if we're flying way
+too closely on the next plane,
+
+707
+00:31:48,810 --> 00:31:50,540
+it could flip another plane
+over behind it.
+
+708
+00:31:52,780 --> 00:31:54,240
+Which leads me
+to our next project.
+
+709
+00:31:55,060 --> 00:31:57,300
+Here we study wing-tip vortices
+and how to alleviate them
+
+710
+00:31:58,420 --> 00:32:00,330
+using vortices
+coming off the tail right here.
+
+711
+00:32:02,330 --> 00:32:04,030
+So if one vortice's
+coming off the wing tip
+
+712
+00:32:04,480 --> 00:32:05,480
+going one direction,
+
+713
+00:32:06,000 --> 00:32:08,059
+what if we had another vortice
+going in a different direction,
+
+714
+00:32:08,060 --> 00:32:09,060
+coming off the tail,
+
+715
+00:32:09,300 --> 00:32:11,000
+and basically cancelling
+each other out?
+
+716
+00:32:12,450 --> 00:32:14,180
+This did work,
+but the plane configuration
+
+717
+00:32:15,480 --> 00:32:17,390
+is just not a viable
+plane configuration to fly.
+
+718
+00:32:18,090 --> 00:32:19,270
+But we did prove that it worked.
+
+719
+00:32:20,000 --> 00:32:21,840
+On the bottom right,
+the red shows one direction.
+
+720
+00:32:23,330 --> 00:32:25,389
+The blue shows a different
+direction of the vortices.
+
+721
+00:32:25,390 --> 00:32:27,120
+These are two vortices
+coming from the wing
+
+722
+00:32:27,630 --> 00:32:29,210
+and two vortices
+coming from the tail.
+
+723
+00:32:30,030 --> 00:32:32,600
+Let me show you how it worked.
+
+724
+00:32:40,120 --> 00:32:41,630
+If we could find a way
+to get this to work,
+
+725
+00:32:42,630 --> 00:32:47,270
+we could reduce airline traffic
+by an incredible amount.
+
+726
+00:32:51,180 --> 00:32:52,570
+So we talked a lot
+about spacecrafts
+
+727
+00:32:52,840 --> 00:32:54,150
+and aircrafts and air vehicles.
+
+728
+00:32:54,540 --> 00:32:55,540
+We don't just do just that.
+
+729
+00:32:56,390 --> 00:32:58,390
+In the last 15 years,
+we've also studied truck drag
+
+730
+00:32:59,270 --> 00:33:01,120
+and wondering:
+why is truck drag important?
+
+731
+00:33:01,810 --> 00:33:03,270
+Well, trucks consume 13%
+of the oil
+
+732
+00:33:04,750 --> 00:33:05,810
+we use in the United States,
+
+733
+00:33:06,660 --> 00:33:08,060
+and over 60% of that fuel
+on a truck
+
+734
+00:33:08,630 --> 00:33:10,000
+is to overcome aerodynamic drag.
+
+735
+00:33:10,810 --> 00:33:13,180
+That's a huge amount of fuel
+overcoming aerodynamic drag.
+
+736
+00:33:14,240 --> 00:33:16,240
+So if we could even make it
+to 5%, 10%, 15% less drag,
+
+737
+00:33:18,330 --> 00:33:20,450
+imagine how much fuel savings
+we could have in the U.S.
+
+738
+00:33:21,690 --> 00:33:23,270
+So here we have
+a side and base extender
+
+739
+00:33:25,120 --> 00:33:26,120
+to cover up the gap.
+
+740
+00:33:26,540 --> 00:33:27,540
+That also reduces drag.
+
+741
+00:33:28,150 --> 00:33:29,750
+Another thing
+we tried is lowboy trailer,
+
+742
+00:33:30,600 --> 00:33:31,600
+or we called it side flaps.
+
+743
+00:33:32,720 --> 00:33:34,420
+Here it could reduce the drag
+by about 10%.
+
+744
+00:33:35,510 --> 00:33:37,300
+And if you want to add
+the trailer base flaps,
+
+745
+00:33:38,330 --> 00:33:40,060
+it could reduce drag
+by 15% right over here.
+
+746
+00:33:41,570 --> 00:33:43,720
+You could see a lot of this
+being implemented out there.
+
+747
+00:33:44,210 --> 00:33:45,210
+If you drive on Highway 5
+
+748
+00:33:46,000 --> 00:33:47,510
+or even on 101,
+a lot of trucks have this.
+
+749
+00:33:49,360 --> 00:33:51,420
+Most of them already have
+the side and base extenders
+
+750
+00:33:51,840 --> 00:33:54,240
+covering the gap for you.
+
+751
+00:33:59,300 --> 00:34:00,360
+On to the fun part.
+
+752
+00:34:02,000 --> 00:34:03,000
+So NASA's mission
+
+753
+00:34:03,240 --> 00:34:05,150
+is to inspire the next
+generation of explorers.
+
+754
+00:34:05,840 --> 00:34:07,030
+So the next couple of slides,
+
+755
+00:34:07,180 --> 00:34:08,659
+I'm gonna show you
+student-based projects
+
+756
+00:34:08,660 --> 00:34:10,390
+that we've done
+in the Fluid Mechanics Lab.
+
+757
+00:34:13,570 --> 00:34:15,030
+Here we have
+a fruit fly experiment
+
+758
+00:34:15,780 --> 00:34:17,180
+that was done
+over three summers,
+
+759
+00:34:17,390 --> 00:34:19,300
+and it was pretty much solely
+an intern project.
+
+760
+00:34:20,750 --> 00:34:22,030
+It was used to track and analyze
+
+761
+00:34:22,420 --> 00:34:24,480
+how fruit flies flew
+in micro-gravity environment.
+
+762
+00:34:25,120 --> 00:34:27,480
+But the biggest challenge was
+fitting this whole experiment
+
+763
+00:34:27,540 --> 00:34:28,540
+in a 4-inch by 6-inch box.
+
+764
+00:34:30,300 --> 00:34:31,300
+You can see here.
+
+765
+00:34:32,390 --> 00:34:33,390
+Pretty great.
+
+766
+00:34:34,390 --> 00:34:36,210
+This experiment flew up
+to the ISS last summer
+
+767
+00:34:36,450 --> 00:34:38,720
+on a SpaceX rocket.
+
+768
+00:34:43,060 --> 00:34:45,060
+Here we've done a lot
+of sports ball aerodynamics,
+
+769
+00:34:46,030 --> 00:34:47,540
+student-based
+educational programs.
+
+770
+00:34:48,570 --> 00:34:50,810
+On the top left, you see a
+tennis ball that's not spinning,
+
+771
+00:34:52,090 --> 00:34:53,630
+and we're injecting smoke
+into the flow.
+
+772
+00:34:54,300 --> 00:34:55,720
+You see
+a very symmetric flow pattern
+
+773
+00:34:56,810 --> 00:34:58,270
+on top and on the bottom
+of the ball.
+
+774
+00:35:00,720 --> 00:35:02,090
+And here we have
+a spinning ball.
+
+775
+00:35:03,390 --> 00:35:04,390
+It's spinning this way.
+
+776
+00:35:04,540 --> 00:35:06,150
+So you have the weight
+going further out
+
+777
+00:35:06,330 --> 00:35:07,840
+and the separation
+going further down,
+
+778
+00:35:08,570 --> 00:35:09,780
+so this causes a downward force.
+
+779
+00:35:11,600 --> 00:35:12,600
+Oh.
+
+780
+00:35:12,600 --> 00:35:13,660
+It's probably easier to see
+
+781
+00:35:13,660 --> 00:35:15,150
+if I show you a video
+of it happening.
+
+782
+00:35:16,030 --> 00:35:17,030
+Here it's a baseball.
+
+783
+00:35:17,090 --> 00:35:18,090
+Again, symmetric flow
+
+784
+00:35:18,240 --> 00:35:20,030
+both on the top
+and on the bottom of this ball.
+
+785
+00:35:21,150 --> 00:35:23,510
+And once it starts spinning, you
+can see how the flow changes.
+
+786
+00:35:24,420 --> 00:35:26,270
+The wake starts coming
+right off further down,
+
+787
+00:35:27,750 --> 00:35:29,570
+and you have the separation
+going further up,
+
+788
+00:35:30,210 --> 00:35:31,210
+causing a sideways force.
+
+789
+00:35:31,870 --> 00:35:33,120
+That's how a curveball works,
+
+790
+00:35:34,690 --> 00:35:35,690
+upward force.
+
+791
+00:35:38,300 --> 00:35:39,300
+So, fun fact, a tennis ball
+
+792
+00:35:40,300 --> 00:35:42,210
+has the highest drag
+out of all the sports balls.
+
+793
+00:35:44,060 --> 00:35:45,060
+Why is that?
+
+794
+00:35:45,360 --> 00:35:47,000
+It's 'cause it has
+the roughest surface.
+
+795
+00:35:48,000 --> 00:35:49,000
+So we tested that as well.
+
+796
+00:35:50,060 --> 00:35:52,240
+We have the same tennis ball
+tested at different speeds.
+
+797
+00:35:53,510 --> 00:35:54,510
+First is at low speed.
+
+798
+00:35:54,720 --> 00:35:56,389
+You can see the filaments
+kind of sticking out
+
+799
+00:35:56,390 --> 00:35:57,780
+kind of like hair on your arm,
+right?
+
+800
+00:35:59,210 --> 00:36:00,630
+A really rough surface,
+high drag.
+
+801
+00:36:01,600 --> 00:36:03,300
+We tested that same ball
+at higher speeds,
+
+802
+00:36:03,750 --> 00:36:05,360
+but now all the filaments
+are laid down.
+
+803
+00:36:07,570 --> 00:36:10,180
+Smoother ball, less drag.
+
+804
+00:36:14,630 --> 00:36:16,210
+How many of you have seen
+the World Cup?
+
+805
+00:36:18,600 --> 00:36:19,600
+A lot of you.
+
+806
+00:36:20,330 --> 00:36:21,480
+So the last couple World Cups,
+
+807
+00:36:21,600 --> 00:36:23,750
+there have been a lot of
+controversy on the soccer ball.
+
+808
+00:36:24,270 --> 00:36:26,300
+Every World Cup, they have
+a new soccer ball design.
+
+809
+00:36:26,750 --> 00:36:28,120
+It's not just
+for the looks of it.
+
+810
+00:36:28,690 --> 00:36:30,630
+The aerodynamics
+are actually quite different,
+
+811
+00:36:30,750 --> 00:36:32,660
+and that's because
+of the roughness of the ball.
+
+812
+00:36:33,450 --> 00:36:35,600
+The roughness is determined
+by the length of the seams,
+
+813
+00:36:37,030 --> 00:36:38,030
+how deep the seams are,
+
+814
+00:36:38,420 --> 00:36:40,120
+and the pimples
+on the surface of the ball.
+
+815
+00:36:42,750 --> 00:36:44,360
+This last year,
+it was the Brazuca ball.
+
+816
+00:36:45,090 --> 00:36:47,000
+It was a lot rougher
+than the previous World Cup,
+
+817
+00:36:49,240 --> 00:36:51,030
+and therefore,
+changing the aerodynamics.
+
+818
+00:36:51,510 --> 00:36:53,449
+The goalies and the players
+are actually a lot happier
+
+819
+00:36:53,450 --> 00:36:55,600
+with this ball, and we had
+no complaints this last year.
+
+820
+00:36:58,450 --> 00:37:00,750
+I would recommend Googling
+or YouTubing Brazuca or NASA.
+
+821
+00:37:03,510 --> 00:37:04,869
+There's a lot
+of great articles about it,
+
+822
+00:37:04,870 --> 00:37:06,480
+a lot of great videos
+to show you the work
+
+823
+00:37:06,660 --> 00:37:07,810
+that we put into our research,
+
+824
+00:37:08,450 --> 00:37:09,720
+and a lot
+of the student projects
+
+825
+00:37:09,720 --> 00:37:12,060
+to get students excited
+about aerodynamics with sports.
+
+826
+00:37:14,180 --> 00:37:15,180
+So it's really great.
+
+827
+00:37:18,060 --> 00:37:20,120
+And lastly, how many of you
+have seen "MythBusters?"
+
+828
+00:37:21,750 --> 00:37:22,750
+A lot of you.
+
+829
+00:37:23,060 --> 00:37:24,750
+We have a few stars
+in the audience right now.
+
+830
+00:37:26,540 --> 00:37:28,390
+So anytime "Mythbusters"has
+an aero problem,
+
+831
+00:37:29,480 --> 00:37:30,480
+who do they come to?
+
+832
+00:37:30,570 --> 00:37:32,090
+They come
+to the Fluid Mechanics Lab.
+
+833
+00:37:32,540 --> 00:37:33,749
+They've been here several times.
+
+834
+00:37:33,750 --> 00:37:35,450
+When I was an intern,
+they were here twice.
+
+835
+00:37:35,780 --> 00:37:36,780
+It was pretty cool.
+
+836
+00:37:38,390 --> 00:37:39,540
+And they test all their myths.
+
+837
+00:37:40,060 --> 00:37:41,780
+One of my favorite myths
+is the golf ball myth.
+
+838
+00:37:42,720 --> 00:37:44,420
+So say you have a golf ball
+and it's dimpled
+
+839
+00:37:46,060 --> 00:37:48,210
+and have the same exact ball
+that's completely smooth.
+
+840
+00:37:48,510 --> 00:37:50,029
+If I hit it
+with the same amount of force,
+
+841
+00:37:50,030 --> 00:37:51,210
+the golf ball goes twice as far,
+
+842
+00:37:52,090 --> 00:37:54,540
+and that's because of the dimple
+on the golf ball reducing drag.
+
+843
+00:37:55,570 --> 00:37:57,210
+So will that same idea
+work on, say, a car?
+
+844
+00:37:59,600 --> 00:38:01,690
+If I dimpled my car,
+would I get twice the efficiency
+
+845
+00:38:02,870 --> 00:38:03,870
+on my gas usage?
+
+846
+00:38:05,570 --> 00:38:07,270
+Well, we had actually
+high school interns
+
+847
+00:38:08,030 --> 00:38:09,030
+test that out here as well,
+
+848
+00:38:11,150 --> 00:38:12,150
+and as a matter of fact,
+
+849
+00:38:13,600 --> 00:38:15,000
+you actually
+don't get less drag.
+
+850
+00:38:16,150 --> 00:38:17,150
+It actually makes it worse
+
+851
+00:38:18,000 --> 00:38:20,120
+from our experiment that
+we've done with the interns.
+
+852
+00:38:20,480 --> 00:38:22,000
+And right here,
+when they first came,
+
+853
+00:38:23,630 --> 00:38:25,450
+I think this was
+actually when I was an intern.
+
+854
+00:38:25,750 --> 00:38:27,120
+They got to visit.
+I couldn't go.
+
+855
+00:38:27,750 --> 00:38:30,120
+They got to visit "Mythbusters"
+<font color = #FFFFFF>up in San Francisco, so...</font>
+
+856
+00:38:32,180 --> 00:38:33,180
+pretty cool.
+
+857
+00:38:34,450 --> 00:38:35,450
+All right, questions?
+
+858
+00:38:37,480 --> 00:38:38,480
+[applause]
+
+859
+00:38:38,870 --> 00:38:39,870
+Thank you.
+
+860
+00:38:41,240 --> 00:38:44,090
+[Christina laughs]
+
+861
+00:38:52,180 --> 00:38:54,570
+No questions?
+Okay.
+
+862
+00:39:00,720 --> 00:39:02,120
+Well, that makes it
+easier for me.
+
+863
+00:39:02,480 --> 00:39:04,330
+We'll have the center microphone
+in the aisle,
+
+864
+00:39:04,750 --> 00:39:06,870
+so please filter around
+and ask your questions there.
+
+865
+00:39:09,420 --> 00:39:10,420
+I don't bite.
+I promise.
+
+866
+00:39:12,090 --> 00:39:13,090
+Maybe a little.
+
+867
+00:39:14,360 --> 00:39:15,360
+You have a question here?
+
+868
+00:39:17,840 --> 00:39:18,840
+(woman)
+Yeah, the PIV,
+
+869
+00:39:19,750 --> 00:39:21,060
+what is the code
+that you use...
+
+870
+00:39:21,870 --> 00:39:23,030
+[continues indistinctly]
+
+871
+00:39:24,270 --> 00:39:26,060
+(man)
+Could you go to the mic
+and ask please?
+
+872
+00:39:28,030 --> 00:39:29,180
+(woman)
+Yeah, my question is
+
+873
+00:39:30,210 --> 00:39:31,810
+about the particle imaging
+velocimetry,
+
+874
+00:39:32,450 --> 00:39:34,570
+if you just happened to know
+what code you use for that.
+
+875
+00:39:36,630 --> 00:39:38,360
+And beautiful, excellent talk.
+Thank you.
+
+876
+00:39:39,780 --> 00:39:41,840
+(Christina)
+Thank you.
+Is JT in the audience today?
+
+877
+00:39:44,090 --> 00:39:45,090
+Laura Kushner?
+
+878
+00:39:45,540 --> 00:39:47,870
+(woman)
+We tend to use LaVision,
+just a commercial package
+
+879
+00:39:47,870 --> 00:39:48,870
+that is available.
+
+880
+00:39:51,240 --> 00:39:52,240
+We also use...
+
+881
+00:39:52,600 --> 00:39:53,660
+[continues indistinctly]
+
+882
+00:39:56,810 --> 00:39:58,540
+(man)
+If you don't mind
+repeating please?
+
+883
+00:39:59,060 --> 00:40:00,120
+(woman)
+Sure, no worries.
+
+884
+00:40:00,360 --> 00:40:02,390
+We tend to use LaVision,
+which is a software package
+
+885
+00:40:03,060 --> 00:40:04,330
+that is commercially available.
+
+886
+00:40:06,090 --> 00:40:07,450
+Sometimes we do use
+in-house codes
+
+887
+00:40:08,150 --> 00:40:10,420
+that we've written in-house
+if there's something special
+
+888
+00:40:10,750 --> 00:40:12,060
+that we want to do
+with the data.
+
+889
+00:40:13,420 --> 00:40:14,780
+(woman)
+Oh, and one last question.
+
+890
+00:40:15,450 --> 00:40:16,510
+Don't work in aeronautics.
+
+891
+00:40:17,360 --> 00:40:18,840
+I like the SC picture
+of the fruit flies
+
+892
+00:40:19,750 --> 00:40:21,330
+because that's the branch
+that I'm in,
+
+893
+00:40:21,600 --> 00:40:22,600
+the space biology branch.
+
+894
+00:40:24,300 --> 00:40:25,839
+But I've just been told
+that the new winglets
+
+895
+00:40:25,840 --> 00:40:27,630
+you see on aircraft
+are a recent innovation,
+
+896
+00:40:29,750 --> 00:40:32,330
+and I wondered if anyone could
+address the aerodynamics aspects
+
+897
+00:40:33,240 --> 00:40:34,720
+of these little winglet
+innovations.
+
+898
+00:40:35,480 --> 00:40:37,000
+The winglets,
+the one that goes on...
+
+899
+00:40:37,870 --> 00:40:40,389
+(Christina)
+The little tips at the end
+of the wings that now go up
+
+900
+00:40:40,390 --> 00:40:42,420
+that, I think, are
+a relatively recent innovation.
+
+901
+00:40:44,210 --> 00:40:45,810
+- Okay, Don?
+- I'll talk to that if you want.
+
+902
+00:40:46,840 --> 00:40:48,150
+- Go ahead.
+- So I'm Don Durston.
+
+903
+00:40:48,510 --> 00:40:50,000
+I'm in the same branch
+as Christina.
+
+904
+00:40:50,000 --> 00:40:51,000
+I'm lucky to work with her.
+
+905
+00:40:51,870 --> 00:40:53,270
+She's a rising star
+in our branch.
+
+906
+00:40:53,660 --> 00:40:55,360
+Winglets have been around
+for a long time,
+
+907
+00:40:55,660 --> 00:40:56,870
+several decades--what's that?
+
+908
+00:40:58,690 --> 00:40:59,750
+[man speaks indistinctly]
+
+909
+00:41:00,180 --> 00:41:01,450
+(Don)
+Okay, stand up here, okay.
+
+910
+00:41:04,600 --> 00:41:05,839
+So just in case
+they're recording this,
+
+911
+00:41:05,840 --> 00:41:06,840
+I'm Don Durston.
+
+912
+00:41:07,090 --> 00:41:08,449
+I work in the same branch
+as Christina.
+
+913
+00:41:08,450 --> 00:41:09,600
+I'm an aerodynamicist there.
+
+914
+00:41:10,330 --> 00:41:12,030
+Winglets have been around
+for a long time,
+
+915
+00:41:12,210 --> 00:41:13,630
+probably a couple
+of decades or more.
+
+916
+00:41:15,600 --> 00:41:17,269
+They've been tested
+on various aircraft,
+
+917
+00:41:17,270 --> 00:41:18,660
+but there's been
+a lot more emphasis
+
+918
+00:41:19,420 --> 00:41:21,120
+on trying to optimize them
+in their shapes
+
+919
+00:41:22,120 --> 00:41:23,840
+so that they really
+do improve the efficiency
+
+920
+00:41:25,090 --> 00:41:26,780
+of any kind of aircraft
+that they put them on.
+
+921
+00:41:27,660 --> 00:41:29,690
+You're seeing a lot
+of airliners now with winglets.
+
+922
+00:41:30,540 --> 00:41:32,690
+Southwest Airlines has put
+winglets on all their 737s,
+
+923
+00:41:34,270 --> 00:41:36,300
+and I'm seeing them
+more and more on other aircraft.
+
+924
+00:41:36,840 --> 00:41:38,000
+Basically what they do is--
+
+925
+00:41:39,600 --> 00:41:40,780
+their basic mechanism
+is that
+
+926
+00:41:41,000 --> 00:41:42,840
+they give an effective
+span increase to the wing.
+
+927
+00:41:45,030 --> 00:41:46,659
+Anytime you can increase
+the span a little bit,
+
+928
+00:41:46,660 --> 00:41:48,180
+you're increasing
+the aspect ratio.
+
+929
+00:41:48,720 --> 00:41:50,120
+That's lower drag configuration.
+
+930
+00:41:52,600 --> 00:41:54,750
+The winglets also do help
+to distribute the wake vortex
+
+931
+00:41:57,030 --> 00:41:58,840
+or the wing-tip vortices
+that come off the tips,
+
+932
+00:41:59,750 --> 00:42:02,030
+and they do help to make those
+just a little bit weaker,
+
+933
+00:42:02,390 --> 00:42:04,750
+and thus, you're reducing the
+induced drag just a little bit.
+
+934
+00:42:05,540 --> 00:42:07,570
+So it's kind of a complicated
+aerodynamic problem.
+
+935
+00:42:10,450 --> 00:42:12,630
+But with careful shaping
+and integration into the wings
+
+936
+00:42:13,390 --> 00:42:15,720
+of current aircraft, they
+are finding substantial savings
+
+937
+00:42:17,510 --> 00:42:18,690
+in fuel and the drag reduction,
+
+938
+00:42:20,390 --> 00:42:21,870
+so they were quite
+a great innovation.
+
+939
+00:42:23,540 --> 00:42:25,000
+And they look cool,
+as my boss says.
+
+940
+00:42:26,180 --> 00:42:27,690
+Thanks.
+
+941
+00:42:30,030 --> 00:42:31,870
+(man)
+I noticed that you use
+a lot of scale models
+
+942
+00:42:33,180 --> 00:42:34,180
+in these wind tunnels,
+
+943
+00:42:34,660 --> 00:42:36,779
+obviously 'cause you can't
+fit everything in there at once.
+
+944
+00:42:36,780 --> 00:42:38,810
+But at what point does
+the scaling sort of interfere
+
+945
+00:42:39,660 --> 00:42:41,149
+with the veracity
+of the measurement
+
+946
+00:42:41,150 --> 00:42:42,330
+that you're going to be taking?
+
+947
+00:42:43,030 --> 00:42:45,719
+(Christina)
+So there's this special number
+called the Reynolds number,
+
+948
+00:42:45,720 --> 00:42:47,450
+and it's rho times
+the dimensional length,
+
+949
+00:42:50,360 --> 00:42:52,300
+the size of it, divided
+by dynamic viscosity, mu.
+
+950
+00:42:54,780 --> 00:42:56,690
+So, if we're able to match
+this Reynolds number,
+
+951
+00:42:56,840 --> 00:42:59,180
+you actually get the same
+flow field around these models,
+
+952
+00:43:00,390 --> 00:43:01,870
+and we're able
+to have smaller scales.
+
+953
+00:43:03,180 --> 00:43:04,570
+Can you imagine
+trying to test, say,
+
+954
+00:43:05,660 --> 00:43:06,660
+a live, real-scale 737
+
+955
+00:43:08,000 --> 00:43:09,480
+and how much energy
+it would take for us
+
+956
+00:43:09,630 --> 00:43:11,030
+and even to fit
+into a wind tunnel?
+
+957
+00:43:12,480 --> 00:43:14,600
+Which is why we go down
+to smaller scales to test these.
+
+958
+00:43:15,780 --> 00:43:17,719
+A lot of the time, we actually
+don't test in full scales
+
+959
+00:43:17,720 --> 00:43:19,300
+in wind tunnels
+'cause they don't fit.
+
+960
+00:43:19,660 --> 00:43:21,480
+But all our validation's done
+in small scale,
+
+961
+00:43:22,060 --> 00:43:23,600
+and then we go
+into flight configuration
+
+962
+00:43:23,780 --> 00:43:24,780
+for the final test.
+
+963
+00:43:25,420 --> 00:43:28,180
+That was a good question.
+Thank you.
+
+964
+00:43:30,390 --> 00:43:31,839
+(woman)
+If there's
+no further questions,
+
+965
+00:43:31,840 --> 00:43:33,660
+please join me again
+in thanking our speaker.
+
+966
+00:43:35,000 --> 00:43:38,000
+[applause]
