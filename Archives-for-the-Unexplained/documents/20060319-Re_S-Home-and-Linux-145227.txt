@@ -1,0 +1,37 @@
+{"created_utc": "2026-10-13T07:22:04Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 15471, "source_ctime_ns": 1790859821315862574, "source_file": "Archives-for-the-Unexplained/documents/20060319-Re_S-Home-and-Linux-145227.pdf", "source_mtime_ns": 1790859820915951584, "source_rel": "Archives-for-the-Unexplained/documents/20060319-Re_S-Home-and-Linux-145227.pdf", "source_sha256": "961d7548f2e8050f10b51a77e06d256dd211d4ee3174f7048377da9b7f06d88a"}
+
+Re: S@Home and Linux
+
+
+  Subject: Re: S@Home and Linux
+  From: Klaatu
+  Date: 19/03/2006, 17:06
+  Newsgroups: alt.sci.seti
+
+  f/fgeorge wrote:
+
+
+         Martin how do I set up Linux to automatically start Boinc when Linux
+         starts? I have JUST started using Linux on a couple of boxes but must
+         currently be connected to them when they startup so I can manually
+         start Boinc. I am using PCLinuxOS 0.92 as the OS. It is fairly easy to
+         use, once I got thru the installation on the hard drive part, but
+         can't figure out how to make Boinc auto start. I am Windows guy so
+         please be gentle and as step by step with the directions as possible.
+
+
+  One way to start it, assuming you have it running correctly, is to use
+  ~/.kde/Autostart . Assuming as a beginner you are probably using KDE.
+  Just make a simple text file in the Autostart directory named startboinc
+  for example, make it executable with chmod +x or via gui, and enter
+  following data and save.
+  #!/bin/sh
+  cd ~/boinc
+  ./boinc&
+  Whenever you boot up to KDE, Boinc will start. The ~ is short for the path
+  to your home directory, where I assume you have Boinc installed in a
+  directory named boinc and the you haven't renamed the boinc executable
+  file. Not the only solution, but its an easy one.
+
+
+20060319-Re_S@Home and Linux-145227.html[12/03/2022 16:41:47]

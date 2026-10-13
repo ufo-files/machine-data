@@ -1,0 +1,1025 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v1", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2017-05-10---NASA-Astrobiology---AbSciCon-2017-Day-3-Session-2-Rodrigo-Luger_-SmLrKS7POA---transcript-automated-.txt", "source_sha256": "5fa32173bffadd6391fb627d958cd8558cdabcf743a55f574196c28beb98f367", "source_bytes": 19349, "created_utc": "2026-10-13T04:58:44.215101+00:00"}
+
+1
+00:00:00,220 --> 00:00:12,330
+[Music]
+
+2
+00:00:18,060 --> 00:00:15,570
+so shifting gears actually downshifting
+
+3
+00:00:22,890 --> 00:00:18,070
+back to basics finding planets in the
+
+4
+00:00:24,210 --> 00:00:22,900
+habitable zone so we probably have heard
+
+5
+00:00:24,780 --> 00:00:24,220
+about the k2 mission which is the
+
+6
+00:00:27,030 --> 00:00:24,790
+repurposed
+
+7
+00:00:28,769 --> 00:00:27,040
+Kepler spacecraft so a couple years ago
+
+8
+00:00:31,290 --> 00:00:28,779
+Kepler lost two of its reaction wheels
+
+9
+00:00:33,810 --> 00:00:31,300
+which makes it unable to point steadily
+
+10
+00:00:35,340 --> 00:00:33,820
+and significantly degrade the photometry
+
+11
+00:00:39,150 --> 00:00:35,350
+that comes out of it so we're trying to
+
+12
+00:00:41,880 --> 00:00:39,160
+find transiting planets with k2 but the
+
+13
+00:00:46,380 --> 00:00:41,890
+telescope is essentially crippled in a
+
+14
+00:00:49,650 --> 00:00:46,390
+sense and so this is what a typical
+
+15
+00:00:51,810 --> 00:00:49,660
+planet hosting kepler star looks like in
+
+16
+00:00:53,760 --> 00:00:51,820
+this case it's I think it's a 11th
+
+17
+00:00:57,120 --> 00:00:53,770
+magnitude Kepler band star with a hot
+
+18
+00:01:00,270 --> 00:00:57,130
+Jupiter this is a very similar star
+
+19
+00:01:02,520 --> 00:01:00,280
+observed by k2 also 11th magnitude also
+
+20
+00:01:05,730 --> 00:01:02,530
+has transiting planets and yet the data
+
+21
+00:01:08,130 --> 00:01:05,740
+look terrible the raw data you could not
+
+22
+00:01:11,219 --> 00:01:08,140
+buy I pick out any transits in this
+
+23
+00:01:13,649 --> 00:01:11,229
+light curve I think that might be one
+
+24
+00:01:15,749 --> 00:01:13,659
+but you can't be sure and Saudi trending
+
+25
+00:01:18,980 --> 00:01:15,759
+is a very important part of analyzing
+
+26
+00:01:21,480 --> 00:01:18,990
+data with k2 and I just wanted to
+
+27
+00:01:23,279 --> 00:01:21,490
+motivate a little bit of this why is the
+
+28
+00:01:24,120 --> 00:01:23,289
+data so poor with k2 so the spacecraft
+
+29
+00:01:26,099 --> 00:01:24,130
+camp point
+
+30
+00:01:27,870 --> 00:01:26,109
+fine but you're still observing the star
+
+31
+00:01:29,190 --> 00:01:27,880
+and the star is still in your aperture
+
+32
+00:01:31,020 --> 00:01:29,200
+so aren't you collecting the same amount
+
+33
+00:01:33,830 --> 00:01:31,030
+of flux that would be true if you had a
+
+34
+00:01:36,179 --> 00:01:33,840
+perfect detector but in real life
+
+35
+00:01:37,859 --> 00:01:36,189
+detectors are not homogeneous and their
+
+36
+00:01:39,809 --> 00:01:37,869
+sensitivity and so actual quantum
+
+37
+00:01:45,330 --> 00:01:39,819
+efficiency variations in the pixels and
+
+38
+00:01:46,709 --> 00:01:45,340
+across the pixels translate to change in
+
+39
+00:01:49,830 --> 00:01:46,719
+the total flux you're receiving from the
+
+40
+00:01:53,419 --> 00:01:49,840
+target that in the case of K 2 where the
+
+41
+00:01:55,679 --> 00:01:53,429
+drift occurs on very short timescales
+
+42
+00:01:58,649 --> 00:01:55,689
+accompanied by so the reason you have
+
+43
+00:02:01,289 --> 00:01:58,659
+this jigsaw or this jagged pattern is
+
+44
+00:02:03,209 --> 00:02:01,299
+that every six hours the spacecraft
+
+45
+00:02:06,770 --> 00:02:03,219
+fires a thruster to come back and point
+
+46
+00:02:11,490 --> 00:02:06,780
+to the original field when you convolve
+
+47
+00:02:13,380 --> 00:02:11,500
+in homogeneous detector with strong
+
+48
+00:02:15,300 --> 00:02:13,390
+motion you get a light curve that looks
+
+49
+00:02:17,610 --> 00:02:15,310
+essentially like this now this is just
+
+50
+00:02:20,460 --> 00:02:17,620
+simulated data but this is real k2
+
+51
+00:02:21,960 --> 00:02:20,470
+motion and so another wise flat and
+
+52
+00:02:24,420 --> 00:02:21,970
+featureless light curve which may or may
+
+53
+00:02:24,920 --> 00:02:24,430
+not have transits gets degraded in this
+
+54
+00:02:27,110 --> 00:02:24,930
+fashion
+
+55
+00:02:29,270 --> 00:02:27,120
+and the problem at hand is we don't
+
+56
+00:02:31,459 --> 00:02:29,280
+actually have this information about the
+
+57
+00:02:33,380 --> 00:02:31,469
+pixel sensitivity in each pixel all we
+
+58
+00:02:35,509 --> 00:02:33,390
+get is this severely downgraded low
+
+59
+00:02:39,550 --> 00:02:35,519
+resolution image of what the stars doing
+
+60
+00:02:43,369 --> 00:02:39,560
+over time and so what my pipeline does
+
+61
+00:02:45,259 --> 00:02:43,379
+are actually sorry one slide before I
+
+62
+00:02:47,929 --> 00:02:45,269
+get to that the question you might ask
+
+63
+00:02:50,259 --> 00:02:47,939
+is why bother we have spacecraft like
+
+64
+00:02:53,089 --> 00:02:50,269
+test coming up on line later this year
+
+65
+00:02:55,000 --> 00:02:53,099
+that are going to survey the entire sky
+
+66
+00:02:58,610 --> 00:02:55,010
+and find tons of more habitable planets
+
+67
+00:03:02,179 --> 00:02:58,620
+I want to make a pitch here for yk2 is
+
+68
+00:03:05,000 --> 00:03:02,189
+still awesome this is to scale so the
+
+69
+00:03:07,220 --> 00:03:05,010
+the actual collecting area of the Kepler
+
+70
+00:03:09,830 --> 00:03:07,230
+spacecraft is still much larger than
+
+71
+00:03:12,170 --> 00:03:09,840
+that of Tess and so the potential noise
+
+72
+00:03:14,030 --> 00:03:12,180
+floor for Kepler is still going to be
+
+73
+00:03:17,119 --> 00:03:14,040
+the best out there for detecting these
+
+74
+00:03:18,770 --> 00:03:17,129
+transiting planets in bulk now Tess has
+
+75
+00:03:20,209 --> 00:03:18,780
+awesome properties it's going to observe
+
+76
+00:03:23,240 --> 00:03:20,219
+the whole sky it's going to do it at
+
+77
+00:03:24,979 --> 00:03:23,250
+much higher cadence but while we still
+
+78
+00:03:26,209 --> 00:03:24,989
+have fuel for k2 we want to use it I'm
+
+79
+00:03:30,649 --> 00:03:26,219
+going to continue to find Heather Bowl
+
+80
+00:03:32,930 --> 00:03:30,659
+planet and so what my pipeline does is
+
+81
+00:03:33,619 --> 00:03:32,940
+to use a method called pixel level
+
+82
+00:03:35,240 --> 00:03:33,629
+decorrelation
+
+83
+00:03:37,009 --> 00:03:35,250
+it's a machine learning model we're
+
+84
+00:03:40,729 --> 00:03:37,019
+actually using information at the pixel
+
+85
+00:03:42,679 --> 00:03:40,739
+level and you build up some large matrix
+
+86
+00:03:44,899 --> 00:03:42,689
+of regressors and you do some linear
+
+87
+00:03:47,990 --> 00:03:44,909
+algebra and it's based on stuff that
+
+88
+00:03:49,399 --> 00:03:48,000
+Drake Deming has done for Spitzer but
+
+89
+00:03:51,710 --> 00:03:49,409
+basically at the end of the day I won't
+
+90
+00:03:53,179 --> 00:03:51,720
+get into the math of this you start with
+
+91
+00:03:55,539 --> 00:03:53,189
+the like or they look like this and at
+
+92
+00:03:58,309 --> 00:03:55,549
+the end of the day you actually recover
+
+93
+00:04:00,499 --> 00:03:58,319
+the original Kepler precision for bright
+
+94
+00:04:02,420 --> 00:04:00,509
+stars which allows you to do very
+
+95
+00:04:02,869 --> 00:04:02,430
+precise photometry and find transiting
+
+96
+00:04:05,449 --> 00:04:02,879
+planets
+
+97
+00:04:07,429 --> 00:04:05,459
+now you can look back and see in fact
+
+98
+00:04:09,439 --> 00:04:07,439
+that these are comparable precision at
+
+99
+00:04:11,719 --> 00:04:09,449
+the same magnitude and if you look at
+
+100
+00:04:15,050 --> 00:04:11,729
+the distribution of magnitudes for stars
+
+101
+00:04:17,360 --> 00:04:15,060
+d trended with Everest which is the RK 2
+
+102
+00:04:19,580 --> 00:04:17,370
+pipeline you can see that the
+
+103
+00:04:21,289 --> 00:04:19,590
+photometric precision as a function of
+
+104
+00:04:22,490 --> 00:04:21,299
+magnitude follows a very similar
+
+105
+00:04:24,200 --> 00:04:22,500
+distribution to that of the original
+
+106
+00:04:27,140 --> 00:04:24,210
+Kepler mission before the reaction
+
+107
+00:04:28,430 --> 00:04:27,150
+wheels failed and so blue is k2d trended
+
+108
+00:04:31,999 --> 00:04:28,440
+with Everest yellow is the original
+
+109
+00:04:33,800 --> 00:04:32,009
+Kepler up until about magnitude 15 or 14
+
+110
+00:04:36,570 --> 00:04:33,810
+or 15 we recover original Kappa
+
+111
+00:04:40,440 --> 00:04:38,670
+the science is coming out of this so
+
+112
+00:04:43,680 --> 00:04:40,450
+this is work in preparation led by Ethan
+
+113
+00:04:45,600 --> 00:04:43,690
+Cruz via University of Washington we are
+
+114
+00:04:46,890 --> 00:04:45,610
+finding a lot more planets that have
+
+115
+00:04:49,890 --> 00:04:46,900
+previously been missed by other
+
+116
+00:04:52,170 --> 00:04:49,900
+pipelines and in particular relevant to
+
+117
+00:04:53,550 --> 00:04:52,180
+today's session is that little region
+
+118
+00:04:55,860 --> 00:04:53,560
+there which is a habitable zone now
+
+119
+00:04:58,010 --> 00:04:55,870
+these are this is the very generous
+
+120
+00:05:01,110 --> 00:04:58,020
+optimistic habitable zone bounded by
+
+121
+00:05:02,490 --> 00:05:01,120
+Venus here and Mars here and so it might
+
+122
+00:05:05,340 --> 00:05:02,500
+be a little optimistic about these ones
+
+123
+00:05:07,470 --> 00:05:05,350
+near the edge but three of these points
+
+124
+00:05:10,320 --> 00:05:07,480
+here are new and have not been found by
+
+125
+00:05:11,700 --> 00:05:10,330
+previous pipelines if you're interested
+
+126
+00:05:12,960 --> 00:05:11,710
+in planets outside the habitable zone
+
+127
+00:05:15,060 --> 00:05:12,970
+another cool thing that's coming out of
+
+128
+00:05:17,160 --> 00:05:15,070
+this is we are finding tons of more
+
+129
+00:05:21,180 --> 00:05:17,170
+multi-planet systems with our pipeline
+
+130
+00:05:23,580 --> 00:05:21,190
+and so in total expect something like
+
+131
+00:05:26,730 --> 00:05:23,590
+300 more k2 planets in the first eight
+
+132
+00:05:28,530 --> 00:05:26,740
+campaigns several multis and three to
+
+133
+00:05:30,240 --> 00:05:28,540
+four new small habitable zone planets
+
+134
+00:05:32,370 --> 00:05:30,250
+coming soon there's a little family
+
+135
+00:05:33,840 --> 00:05:32,380
+portrait of the four this one is
+
+136
+00:05:34,890 --> 00:05:33,850
+slightly outside the habitable zone
+
+137
+00:05:36,270 --> 00:05:34,900
+we're hoping that revised other
+
+138
+00:05:41,610 --> 00:05:36,280
+parameters might actually scatter it in
+
+139
+00:05:43,050 --> 00:05:41,620
+it would be very cool I wanted to so
+
+140
+00:05:44,970 --> 00:05:43,060
+this is very recent stuff I wasn't
+
+141
+00:05:46,800 --> 00:05:44,980
+planning on talking about this but since
+
+142
+00:05:48,210 --> 00:05:46,810
+k2 observed Travis one I think that's
+
+143
+00:05:50,010 --> 00:05:48,220
+the perfect time to talk about a
+
+144
+00:05:52,710 --> 00:05:50,020
+habitable planets in the potentially
+
+145
+00:05:54,410 --> 00:05:52,720
+habitable planets in Trappist now many
+
+146
+00:05:57,960 --> 00:05:54,420
+of you know Trappist one seven
+
+147
+00:06:00,750 --> 00:05:57,970
+transiting planets to nature papers
+
+148
+00:06:02,940 --> 00:06:00,760
+earlier this year and last year kay to
+
+149
+00:06:07,200 --> 00:06:02,950
+observe the Trappist one system recently
+
+150
+00:06:10,530 --> 00:06:07,210
+and this is the raw light curve you can
+
+151
+00:06:13,560 --> 00:06:10,540
+see some modulation due to star spots
+
+152
+00:06:15,420 --> 00:06:13,570
+you can see some low laying outliers
+
+153
+00:06:18,170 --> 00:06:15,430
+they could be transits it could just be
+
+154
+00:06:21,720 --> 00:06:18,180
+noise after you de tren this light curve
+
+155
+00:06:24,060 --> 00:06:21,730
+it is much clearer and in fact almost
+
+156
+00:06:25,620 --> 00:06:24,070
+all of these points below the continuum
+
+157
+00:06:27,000 --> 00:06:25,630
+are transit and almost all of these
+
+158
+00:06:29,460 --> 00:06:27,010
+points above the continuum are flares
+
+159
+00:06:31,710 --> 00:06:29,470
+and so this star is either regular
+
+160
+00:06:33,540 --> 00:06:31,720
+transit or a flare happening about 20%
+
+161
+00:06:37,410 --> 00:06:33,550
+of the time this is the richest data set
+
+162
+00:06:38,790 --> 00:06:37,420
+we know of for EXO planet transits and
+
+163
+00:06:41,420 --> 00:06:38,800
+so it's very we're very lucky to have
+
+164
+00:06:45,450 --> 00:06:41,430
+been able to play with this with k2
+
+165
+00:06:47,659 --> 00:06:45,460
+here's a family portrait of the six the
+
+166
+00:06:49,879 --> 00:06:47,669
+first six Trappist planets
+
+167
+00:06:53,119 --> 00:06:49,889
+this is seen in k2 short cadence they
+
+168
+00:06:55,580 --> 00:06:53,129
+trended with Everest this is the longest
+
+169
+00:06:57,409 --> 00:06:55,590
+baseline light curve we have of the
+
+170
+00:07:00,080 --> 00:06:57,419
+system so far just because k2 stared at
+
+171
+00:07:05,209 --> 00:07:00,090
+it almost uninterrupted the leaf for 480
+
+172
+00:07:07,309 --> 00:07:05,219
+days and so we we can do we're still
+
+173
+00:07:08,869 --> 00:07:07,319
+working on transit timing variations you
+
+174
+00:07:10,519 --> 00:07:08,879
+can usually constrain the masses very
+
+175
+00:07:12,860 --> 00:07:10,529
+well those actually paper on the archive
+
+176
+00:07:15,290 --> 00:07:12,870
+doing this we think we can revise the
+
+177
+00:07:16,700 --> 00:07:15,300
+masses a little better but there's a
+
+178
+00:07:20,179 --> 00:07:16,710
+very cool stuff coming out of this data
+
+179
+00:07:22,580 --> 00:07:20,189
+out of this data set here are the
+
+180
+00:07:25,399 --> 00:07:22,590
+habitable zone planets EF and G or in
+
+181
+00:07:27,469 --> 00:07:25,409
+the conservative habitable zone D is a
+
+182
+00:07:33,709 --> 00:07:27,479
+little near the edge perhaps
+
+183
+00:07:36,230 --> 00:07:33,719
+uncomfortably so and I'm missing H from
+
+184
+00:07:38,749 --> 00:07:36,240
+that diagram and that's because so in
+
+185
+00:07:41,420 --> 00:07:38,759
+our paper from last month that we put on
+
+186
+00:07:45,079 --> 00:07:41,430
+archive we used k2 to confirm H and
+
+187
+00:07:48,529 --> 00:07:45,089
+detect its period and here is the raw
+
+188
+00:07:49,999 --> 00:07:48,539
+data and you can see that after
+
+189
+00:07:52,399 --> 00:07:50,009
+successive D trending the transit
+
+190
+00:07:54,890 --> 00:07:52,409
+appears you would not have been able to
+
+191
+00:08:00,379 --> 00:07:54,900
+see that from the from the raw Laker and
+
+192
+00:08:03,439 --> 00:08:00,389
+so here is the folded light curve on the
+
+193
+00:08:05,149 --> 00:08:03,449
+four transits of H that we detected this
+
+194
+00:08:06,980 --> 00:08:05,159
+planet so the reason I'm putting the
+
+195
+00:08:09,260 --> 00:08:06,990
+slide up here is because H is smaller
+
+196
+00:08:10,790 --> 00:08:09,270
+than the earth and it's further it's
+
+197
+00:08:12,559 --> 00:08:10,800
+outside the habitable zone beyond the
+
+198
+00:08:16,429 --> 00:08:12,569
+habitable zone and yet k2 can still
+
+199
+00:08:17,779 --> 00:08:16,439
+detect it and so k2 because of its if
+
+200
+00:08:20,719 --> 00:08:17,789
+you'da trend it properly just because if
+
+201
+00:08:23,959 --> 00:08:20,729
+it's awesome collecting power is still a
+
+202
+00:08:25,760 --> 00:08:23,969
+great observer observatory for detecting
+
+203
+00:08:31,670 --> 00:08:25,770
+planets in the habitable zone especially
+
+204
+00:08:32,959 --> 00:08:31,680
+small ones and we have fuel left on the
+
+205
+00:08:34,490 --> 00:08:32,969
+spacecraft and so we should continue to
+
+206
+00:08:36,589 --> 00:08:34,500
+do that
+
+207
+00:08:40,430 --> 00:08:36,599
+and I just wanted to conclude very
+
+208
+00:08:43,370 --> 00:08:40,440
+briefly with some links here so the
+
+209
+00:08:45,590 --> 00:08:43,380
+everest pipeline is open source you can
+
+210
+00:08:48,230 --> 00:08:45,600
+check it out on github or you can pip
+
+211
+00:08:50,900 --> 00:08:48,240
+install it if you use python and you can
+
+212
+00:08:53,030 --> 00:08:50,910
+check out our papers here we are going
+
+213
+00:08:56,780 --> 00:08:53,040
+to continue d trending all the campaigns
+
+214
+00:09:01,610 --> 00:08:56,790
+for k2 a long-ago spacecraft spacecraft
+
+215
+00:09:05,210 --> 00:09:03,470
+keep an eye out for our paper with the
+
+216
+00:09:14,330 --> 00:09:05,220
+with a new habits on planets so thank
+
+217
+00:09:16,460 --> 00:09:14,340
+you all right we have time for some
+
+218
+00:09:19,490 --> 00:09:16,470
+questions if you're able to be to come
+
+219
+00:09:21,910 --> 00:09:19,500
+up to the microphone not telescopes
+
+220
+00:09:24,710 --> 00:09:21,920
+wrong word
+
+221
+00:09:27,230 --> 00:09:24,720
+that was great um do you have stellar
+
+222
+00:09:30,800 --> 00:09:27,240
+information for those habitable zone
+
+223
+00:09:32,420 --> 00:09:30,810
+planets what do you mean by stellar
+
+224
+00:09:34,460 --> 00:09:32,430
+information what kind of stress
+
+225
+00:09:37,880 --> 00:09:34,470
+oh so one is an M and I think the other
+
+226
+00:09:40,190 --> 00:09:37,890
+three are K are these the new one yeah
+
+227
+00:09:42,500 --> 00:09:40,200
+then maybe there early am I'm not I'm
+
+228
+00:09:51,130 --> 00:09:42,510
+not exactly sure I'd have to ask Ethan
+
+229
+00:09:51,140 --> 00:09:56,060
+yeah
+
+230
+00:10:03,470 --> 00:10:00,139
+okay sorry can you say anything about
+
+231
+00:10:06,019 --> 00:10:03,480
+the flaring on Travis one from the k2
+
+232
+00:10:07,970 --> 00:10:06,029
+bikers yes so we have a paper in
+
+233
+00:10:17,420 --> 00:10:07,980
+preparation on that I'm not leading that
+
+234
+00:10:25,940 --> 00:10:20,540
+I can't remember the flaring rate off
+
+235
+00:10:27,560 --> 00:10:25,950
+the top of my head what can we say so so
+
+236
+00:10:31,160 --> 00:10:27,570
+based on the flaring and the and the
+
+237
+00:10:33,260 --> 00:10:31,170
+rotation period which is three days it's
+
+238
+00:10:35,240 --> 00:10:33,270
+consistent all we can say in the paper
+
+239
+00:10:39,650 --> 00:10:35,250
+at least is that it's consistent with
+
+240
+00:10:41,600 --> 00:10:39,660
+the middle-aged late I'm dwarf I don't
+
+241
+00:10:43,100 --> 00:10:41,610
+know what what exactly they're working
+
+242
+00:10:47,750 --> 00:10:43,110
+on in the flare modeling right now with
+
+243
+00:10:50,180 --> 00:10:47,760
+it thank you John Grunsfeld NASA have
+
+244
+00:10:52,700 --> 00:10:50,190
+you thought it all about contemporaneous
+
+245
+00:10:55,250 --> 00:10:52,710
+parallel observations with k2 and tests
+
+246
+00:10:57,050 --> 00:10:55,260
+to try and you know help test Commission
+
+247
+00:10:58,880 --> 00:10:57,060
+essentially or what you know what you
+
+248
+00:11:01,490 --> 00:10:58,890
+could learn and with your greater
+
+249
+00:11:04,280 --> 00:11:01,500
+sensitivity you know so that the test
+
+250
+00:11:04,790 --> 00:11:04,290
+can start discovering faster that's a
+
+251
+00:11:07,880 --> 00:11:04,800
+good idea
+
+252
+00:11:09,260 --> 00:11:07,890
+no I had not thought about that yeah
+
+253
+00:11:13,460 --> 00:11:09,270
+that's a good question for the for the
+
+254
+00:11:13,700 --> 00:11:13,470
+Kepler team yeah something to think
+
+255
+00:11:16,640 --> 00:11:13,710
+about
+
+256
+00:11:17,560 --> 00:11:16,650
+thank you all right let's give a Rodrigo
