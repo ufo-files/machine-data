@@ -1,0 +1,104 @@
+{"created_utc": "2026-10-14T19:05:29Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 23127, "source_ctime_ns": 1790859764978266063, "source_file": "Archives-for-the-Unexplained/documents/20030916-Re_Problem-w_SETI-Queue.-Possibly-from-latest-SETI-Spy_-134117.pdf", "source_mtime_ns": 1790859764684404399, "source_rel": "Archives-for-the-Unexplained/documents/20030916-Re_Problem-w_SETI-Queue.-Possibly-from-latest-SETI-Spy_-134117.pdf", "source_sha256": "0d6644b96ea85874fc74d4045c728b1418cf116d6bd311ab8516d3010d33aaf6"}
+
+Re: Problem w/SETI Queue. Possibly from latest SETI Spy?
+
+
+  Subject: Re: Problem w/SETI Queue. Possibly from latest SETI Spy?
+  From: "newsreader" <newsreader@wyvernhall.com>
+  Date: 16/09/2003, 19:19
+  Newsgroups: alt.sci.seti
+
+  "Martin" <ml_news@ddnospamddml1dd.co.uk.dd> wrote in message
+  news:6VH9b.1057$DM5.10254@newsfep4-glfd.server.ntli.net...
+
+          newsreader wrote:
+
+                  I've noticed that two of my machines have been unable to contact SETI
+
+  Queue
+
+                  to transfer work ever since I installed the latest version of SETI Spy.
+
+  Is
+
+                  anyone else seeing this?
+
+          [...]
+          What else has changed in any way?
+
+
+  Damnifiknow. Probably some Windows Updates from MicroSloth but nothing else
+  common to both affected systems. This setup has been running fine for
+  months with virtually no changes.
+
+
+                  The problem appears when SETI@home tries to connect to SETI Queue.                The
+                  usual transfer dialogue gets only this far:
+                  Using Proxy server 24.151.90.20:5517
+                  Sending result - connecting to server.
+                  connect: No such file or directory
+                  Can't connect to server; will retry in an hour.
+                  Thoughts anyone?
+
+
+          If you are playing on windoze, then the error messages can be completely
+          missleading.
+
+
+  Some more data points:
+  S@h (NT CLI 3.03) has no problem connecting directly with Berkeley if I
+  remove the proxy info for SETI Queue.
+  SETI Queue shows no evidence of connection attempts from the affected
+  machines in its logs.
+  A port scan from the affected machine has no trouble seeing the SETI Queue
+  server on port 5517.
+
+
+          Just one thought. I had some very strange wierdness with the s@h GUI
+          screensaver connecting from windoze to a remote SetiQueue. Being lazy, I
+          had entered the numerical IP address for the lan SetiQueue machine as
+          proxy (192.168.xxx.xxx and in the port box: 5517). The connect failed
+          with Error -26. The web server part of the queue was accessible fine
+          with http://192.168.xxx.xxx:5517...
+
+
+  I tried using both the "proper" static IP and the local network 192.168...
+  IP for the SETI Queue server with the same results either way. The client
+  machine just won't connect to transfer data yet it accesses the SETI Queue
+  web interface just fine. (Your problem sounds familiar. Were you using ICS
+  on the LAN? If so, you need to explicitly configure ICS to direct tcp port
+  5517 to the SETI Queue server.)
+
+
+          The fix: You must enter the host _name_ that is then looked up with DNS
+          (or WINS, or from a local hosts or lmhosts file)!
+
+
+20030916-Re_Problem w_SETI Queue. Possibly from latest SETI Spy_-134117.html[12/03/2022 15:59:18]
+Re: Problem w/SETI Queue. Possibly from latest SETI Spy?
+
+
+  I haven't fiddled with the HOSTS file yet but I'm doubtful it will help.                          If
+  it can't connect to an explicit IP address, I wouldn't think the results
+  would be any better connecting to that same address after forcing the
+  machine to look it up in HOSTS.
+
+
+          SetiSpy should not in any way affect s@h operation unless you get file
+          access permissions strangeness. This may be a problem if you are working
+          across network mounted directories...
+
+
+  I managed to rule out SETI Spy (Sorry for doubting you Roeloef! =) -- it was
+  apparently just a coincidence that I upgraded about the same time this
+  started happening.
+
+
+          Good luck,
+
+
+  Thanks!
+  Bob
+
+
+20030916-Re_Problem w_SETI Queue. Possibly from latest SETI Spy_-134117.html[12/03/2022 15:59:18]
