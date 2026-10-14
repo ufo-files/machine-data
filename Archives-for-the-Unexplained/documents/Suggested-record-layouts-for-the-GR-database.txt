@@ -1,0 +1,48 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v1", "engine_mode": "docx-xml", "source_file": "Archives-for-the-Unexplained/documents/Suggested-record-layouts-for-the-GR-database.docx", "source_sha256": "48a8d1b53f4690b82aba86465e86c9ae00c920e6157f61199cf379ba5cba7c04", "source_bytes": 17899, "created_utc": "2026-10-13T08:15:11.469423+00:00"}
+
+Suggested record layouts for the GR database
+
+Database table 1: “Incidents”
+
+Date information 
+International date format field YYYY-MM-DD where Y is Year, M is Month and D is Date. This only has a bearing on where the information/incident is strictly tied to a very exact dating (down to the date-of-the-month). For instance, vague references to incidents “during August 1946” cannot be coded this way. The column should be generated from column F in the Excel spreadsheet (YYMMDD) but only in those cases where there are 8 figures available, thus forming “a true & complete date”. The International Date Format column should be used, for instance, for all statistics where date is involved. For all sorting by date it should be in the (rational) European format (not the American Day-Month-Year style). 
+Weekday (As provided in column E of the spreadsheet. Having the weekday could be regarded as superfluous since this info can be computed from the date, but having the weekday for each incident helps placing information along the timeline, for instance when a newspaper refers to “the phenomenon last Saturday”. 
+Year = (YYYY, positions 1-4) in column F 
+Month = (MM, positions 5-6) in column F – blank if unknown (vague month)
+Date = (DD, positions 7-8) in column F – blank if unknown (vague day/date)
+Date note/uncertainty = free format information field related to the date, for instance “Publication date”, “Probable date”, “Before”, “After”, where any notes concerning the certainty of the date can be entered into the record. Information can be generated from column G, “Time” in the spreadsheet. 
+
+Note: since so many incidents/cases do not have a definite dating there is the obvious need to have separate columns for Year, Month, Date where only confirmed info is entered. For instance a case that happened “sometime during February 1946” should not be coded for any of the dates for that month. 
+
+Time-of-day information
+Hour (00-23)
+Minute (00-59)
+Time note/uncertainty, to be used for instance for “Before”, “After”, or the time zone for sightings happening in Finland and other countries not conforming to Swedish time.Column/field could also be used for noting the few very-very exact times (down to seconds) given by trained people. 
+
+Location
+Longitude according to column N in the spreadsheet
+Latitude according to column O in the spreadsheet
+Area name – as exact verbal description as possible – see column K of the spreadsheet. If the incident happened along a road that information is included here, for instance with “start”/”stop” places along the road, or the road number. Warning against using road number though since it would be hard to match up info from 1946 with contemporary road numbers.  
+Province name according to column K of the spreadsheet – a very good reference info for placing the incident “roughly in the geography”, for Swedish provinces/counties/”län” the traditional division used in 1946 should be used, preferably with the letters used for the “län” = administrative provinces (A-Z, AA, AB, BD…). How to use provinces for non-Swedish incidents?  
+Country – the final database will include many incidents reported from non-Scandinavian countries – worldwide. Standard ISO-coding for countries? Available info in column J of the spreadsheet.
+Map Grid is included in column L with the Excel database, this provides the code for the square formed on a M-KAK road map (widely used in Sweden). When sightings are coded in more detail with longitude – latitude this may not be necessary to keep in file?
+
+Needed administrative info
+AFU number (ScanCat file number), kolumn A in the database, would help AFU while cross-referencing against our own database in the future. 
+Source references, column P in the database, would also help AFU cross-reference work. 
+Source category (Military archives, Contemporary Pres, AFU files, etc) should be available but most probably not on the Incident database but coded on each document, maybe the document numbers can provide that info with documents in the 00001-03187 refers to the material scanned by Riksarkivet and the 04000 series refers to AFU files (anyway that’s how we name the clippings etc now being scanned)
+A short general description of the incident (like column C for English & column D for Swedish) would help ALL users navigating within this mass of information!!!
+
+Observational info
+Information on visual data like shape, size, color, fragments etc. – coming back to this… 
+
+Database table 2: “Connections” (connects Incidents with the numbered Documents)
+
+Incident number (consisting of YYYYMMDD-NNN where the NNN number represents different incidents during the date), as per column B in the spreadsheet. 
+Document number (000001-003187 for Riksarkivet, 004000- for AFU files…)
+Relative position (presentation order) within the incident / case – documents can be rearranged under each incident/case in a good reading order. 
+
+
+
+“Level 3”: Documents
+Note: One particular Document could be referenced to within an infinite number of Incidents. Each Document is physically stored just once.
