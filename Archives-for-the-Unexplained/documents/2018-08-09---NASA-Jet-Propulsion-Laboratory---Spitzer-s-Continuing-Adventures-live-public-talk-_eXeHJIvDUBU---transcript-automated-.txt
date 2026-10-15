@@ -1,0 +1,9234 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v1", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2018-08-09---NASA-Jet-Propulsion-Laboratory---Spitzer-s-Continuing-Adventures-live-public-talk-_eXeHJIvDUBU---transcript-automated-.txt", "source_sha256": "0364927c7bfc98f50263e7833ef685f4167499557517274335140a7aa50c570d", "source_bytes": 159140, "created_utc": "2026-10-15T02:17:04.217119+00:00"}
+
+1
+00:00:02,969 --> 00:00:05,672
+>> Narrator: NASA's Jet
+ Propulsion Laboratory presents
+
+2
+00:00:06,539 --> 00:00:08,141
+the von Kármán Lecture,
+
+3
+00:00:08,174 --> 00:00:10,943
+a series of talks by
+  scientists and engineers,
+
+4
+00:00:10,976 --> 00:00:14,480
+who are exploring our
+  planet, our solar system,
+
+5
+00:00:14,513 --> 00:00:16,849
+and all that lies beyond.
+
+6
+00:00:16,882 --> 00:00:19,719
+[uplifting music]
+
+7
+00:00:28,928 --> 00:00:30,696
+>> Hey, good evening,
+ ladies and gentlemen.
+
+8
+00:00:30,729 --> 00:00:32,365
+How's everyone tonight?
+
+9
+00:00:32,398 --> 00:00:34,133
+Good, thanks for coming
+out to join us on
+
+10
+00:00:34,166 --> 00:00:35,568
+this really toasty evening.
+
+11
+00:00:36,802 --> 00:00:38,571
+So, the Spitzer Space Telescope
+
+12
+00:00:38,604 --> 00:00:40,506
+is one of NASA's
+ great observatories,
+
+13
+00:00:40,539 --> 00:00:43,476
+and was designed to observe
+the universe in infrared light.
+
+14
+00:00:44,877 --> 00:00:48,047
+Launched in 2003, with an
+expected lifetime of five years,
+
+15
+00:00:48,080 --> 00:00:50,550
+the scope is still making
+  amazing discoveries
+
+16
+00:00:50,583 --> 00:00:53,052
+in its 15th year of operations.
+
+17
+00:00:53,085 --> 00:00:54,520
+Tonight, our guest will discuss
+
+18
+00:00:54,553 --> 00:00:56,222
+some of the novel
+  engineering feats
+
+19
+00:00:56,255 --> 00:00:58,958
+that have been made to extend
+ the operation of Spitzer,
+
+20
+00:00:58,991 --> 00:01:01,327
+as well as some of the
+ technical challenges
+
+21
+00:01:01,360 --> 00:01:02,829
+that the team is now facing.
+
+22
+00:01:02,862 --> 00:01:04,931
+We'll also see some
+  recent science highlights,
+
+23
+00:01:04,964 --> 00:01:08,901
+including science that Spitzer
+ was never designed to do.
+
+24
+00:01:08,934 --> 00:01:11,304
+Tonight's guest received
+his PhD in astronomy
+
+25
+00:01:11,337 --> 00:01:14,407
+from Rensselaer Polytechnic
+ Institute in 1995.
+
+26
+00:01:15,574 --> 00:01:17,643
+Prior to arriving
+ at Caltech in 2002,
+
+27
+00:01:17,676 --> 00:01:19,011
+he worked at Boston College,
+
+28
+00:01:19,044 --> 00:01:21,247
+and the Air Force
+ Research Laboratory,
+
+29
+00:01:21,280 --> 00:01:23,149
+helping to produce
+  an infrared survey
+
+30
+00:01:23,182 --> 00:01:26,819
+of the galactic plane
+with the MSX satellite.
+
+31
+00:01:26,852 --> 00:01:29,889
+At Caltech, he has worked
+  at IPAC in various roles
+
+32
+00:01:29,922 --> 00:01:31,691
+at the Spitzer Science Center,
+
+33
+00:01:31,724 --> 00:01:33,793
+including leading the
+instrument support team
+
+34
+00:01:33,826 --> 00:01:36,429
+for the infrared array
+ camera on Spitzer,
+
+35
+00:01:36,462 --> 00:01:41,234
+before becoming the manager of
+ the science center, in 2016.
+
+36
+00:01:41,267 --> 00:01:44,704
+He has diverse research
+ interests, from exoplanets,
+
+37
+00:01:44,737 --> 00:01:47,773
+to massive star formation,
+  to mere Earth asteroids.
+
+38
+00:01:47,806 --> 00:01:49,075
+He enjoys the challenges of
+
+39
+00:01:49,108 --> 00:01:50,977
+calibrating infrared
+ instruments,
+
+40
+00:01:51,010 --> 00:01:53,012
+and he likes to give data
+  away to the community
+
+41
+00:01:53,045 --> 00:01:56,215
+in the form of large surveys
+ of the plane of our galaxy.
+
+42
+00:01:56,248 --> 00:01:57,783
+Ladies and gentlemen,
+ please help me welcome
+
+43
+00:01:57,816 --> 00:02:00,153
+tonight's guest,
+Dr. Shawn Carey.
+
+44
+00:02:00,186 --> 00:02:03,089
+[audience applauds]
+
+45
+00:02:03,989 --> 00:02:06,025
+>> Thank you, thank you.
+
+46
+00:02:06,058 --> 00:02:07,060
+Thank you, everyone.
+
+47
+00:02:08,260 --> 00:02:10,096
+It's my privilege to
+ talk to you tonight,
+
+48
+00:02:10,129 --> 00:02:12,031
+about the Spitzer
+  Space Telescope,
+
+49
+00:02:12,064 --> 00:02:13,699
+which is an amazing instrument,
+
+50
+00:02:13,732 --> 00:02:15,668
+which many of you
+ may never heard of.
+
+51
+00:02:15,701 --> 00:02:17,503
+I hope all of you
+ have heard about the
+
+52
+00:02:17,536 --> 00:02:19,305
+Hubble Space Telescope,
+ may I see a raise of hands,
+
+53
+00:02:19,338 --> 00:02:21,040
+how many people have
+ heard of Hubble?
+
+54
+00:02:21,073 --> 00:02:22,508
+Okay, pretty good.
+
+55
+00:02:22,541 --> 00:02:24,710
+How about Spitzer, how many
+ of you heard of Spitzer?
+
+56
+00:02:24,743 --> 00:02:27,313
+Oh, that's awesome,
+ actually, that's fantastic,
+
+57
+00:02:27,346 --> 00:02:29,115
+so talking to my people here.
+
+58
+00:02:31,250 --> 00:02:32,451
+It's a little bit humbling,
+
+59
+00:02:32,484 --> 00:02:34,253
+because Spitzer's been
+operating for 15 years,
+
+60
+00:02:34,286 --> 00:02:37,957
+and there's an amazing breadth
+ and depth to the discoveries.
+
+61
+00:02:37,990 --> 00:02:40,126
+So I'm not gonna be
+able to cover all that,
+
+62
+00:02:40,159 --> 00:02:42,461
+nor am I gonna be
+ able to cover all the
+
+63
+00:02:42,494 --> 00:02:45,665
+excellent engineering that
+ went into building Spitzer,
+
+64
+00:02:45,698 --> 00:02:47,934
+getting it launched, and then
+ continuing to operate it,
+
+65
+00:02:47,967 --> 00:02:49,235
+for as long as we can.
+
+66
+00:02:49,268 --> 00:02:51,170
+So, I'm gonna kind
+  of pick the things
+
+67
+00:02:51,203 --> 00:02:53,606
+that I think are
+  interesting, pretty much.
+
+68
+00:02:53,639 --> 00:02:55,408
+So, as you know in these days,
+
+69
+00:02:55,441 --> 00:02:59,312
+you have to understand where
+your information's coming from.
+
+70
+00:02:59,345 --> 00:03:00,746
+What the source of
+ the information is,
+
+71
+00:03:00,779 --> 00:03:02,248
+and what their biases are.
+
+72
+00:03:02,281 --> 00:03:04,551
+So I'm gonna try to tell
+  you about my biases, okay?
+
+73
+00:03:05,985 --> 00:03:08,054
+First thing is, since we've
+ been in operation so long,
+
+74
+00:03:08,087 --> 00:03:10,356
+I've kind of forgotten
+ what happened
+
+75
+00:03:10,389 --> 00:03:12,358
+before the cryogen ran out.
+
+76
+00:03:12,391 --> 00:03:14,594
+So most of the stuff
+I'm gonna tell you about
+
+77
+00:03:14,627 --> 00:03:16,062
+is the new stuff.
+
+78
+00:03:16,095 --> 00:03:18,097
+What we did in the post
+ cryogenic role for Spitzer,
+
+79
+00:03:18,130 --> 00:03:20,299
+when all the helium
+ ran out of the tank.
+
+80
+00:03:20,332 --> 00:03:22,568
+And I'll explain why
+ that's important.
+
+81
+00:03:22,601 --> 00:03:26,138
+Part of that, too, is
+  because all of that data,
+
+82
+00:03:26,171 --> 00:03:28,474
+is focused on the
+ instrument that I worked on,
+
+83
+00:03:28,507 --> 00:03:30,209
+which was the
+ infrared ray camera,
+
+84
+00:03:30,242 --> 00:03:32,211
+which half of that
+ is still operating,
+
+85
+00:03:32,244 --> 00:03:35,281
+and we'll talk a little
+bit more about that.
+
+86
+00:03:35,314 --> 00:03:37,383
+And then as far
+  as research goes,
+
+87
+00:03:37,416 --> 00:03:40,219
+I don't know very much
+ about black holes,
+
+88
+00:03:40,252 --> 00:03:43,322
+the high redshift universe,
+ galaxies in general,
+
+89
+00:03:43,355 --> 00:03:45,224
+so you're not gonna hear
+a whole lot about that,
+
+90
+00:03:45,257 --> 00:03:47,793
+so if you're interested
+in that, I'm sorry.
+
+91
+00:03:47,826 --> 00:03:49,328
+I know there's some
+ other good talks
+
+92
+00:03:49,361 --> 00:03:52,064
+in the von Kármán Lecture
+  series that discuss those,
+
+93
+00:03:52,097 --> 00:03:54,133
+and if there's any of my
+ colleagues in the audience,
+
+94
+00:03:54,166 --> 00:03:56,402
+whom that's the
+ research interest,
+
+95
+00:03:56,435 --> 00:03:58,204
+you can bother
+me later.
+
+96
+00:03:58,237 --> 00:04:01,507
+I'm sorry, but I don't feel
+comfortable talking about that.
+
+97
+00:04:01,540 --> 00:04:04,110
+What I am comfortable talking
+ about, is images like this.
+
+98
+00:04:04,143 --> 00:04:07,346
+So this is an image of
+the plane of our galaxy,
+
+99
+00:04:07,379 --> 00:04:10,416
+so this is a little
+ bit of the Milky Way.
+
+100
+00:04:10,449 --> 00:04:12,285
+And it's seen in the infrared,
+
+101
+00:04:12,318 --> 00:04:16,188
+and in the images I show,
+ the way we're gonna map it,
+
+102
+00:04:16,221 --> 00:04:18,524
+is we usually have
+three different
+
+103
+00:04:18,557 --> 00:04:20,359
+colors, or wavelengths.
+
+104
+00:04:20,392 --> 00:04:23,129
+And the blue is, the shortest
+ wavelength will be blue,
+
+105
+00:04:23,162 --> 00:04:24,764
+the middle one will be green,
+
+106
+00:04:24,797 --> 00:04:26,465
+and then the longest
+wavelength will be red.
+
+107
+00:04:26,498 --> 00:04:28,067
+So you can see, there's
+ things that are blue in here,
+
+108
+00:04:28,100 --> 00:04:31,237
+and those are the
+ objects that emitted
+
+109
+00:04:31,270 --> 00:04:32,505
+the shortest wavelength,
+those are stars.
+
+110
+00:04:32,538 --> 00:04:35,574
+And then you see a lot
+ of stuff that's green,
+
+111
+00:04:35,607 --> 00:04:37,109
+which is gas and dust.
+
+112
+00:04:37,142 --> 00:04:39,879
+That's a pretty common theme
+ of what's done with Spitzer.
+
+113
+00:04:39,912 --> 00:04:42,748
+And then there's some red spots
+too, which are gas and dust
+
+114
+00:04:42,781 --> 00:04:44,750
+and some other
+ things of interest.
+
+115
+00:04:44,783 --> 00:04:46,552
+Okay, and this
+  image actually has
+
+116
+00:04:46,585 --> 00:04:48,421
+my favorite object ever in it,
+
+117
+00:04:48,454 --> 00:04:51,324
+something I've been
+  studying for a long time,
+
+118
+00:04:51,357 --> 00:04:53,893
+since 1998, which is this...
+
+119
+00:04:53,926 --> 00:04:56,562
+Here, let's see, I
+ can point it out...
+
+120
+00:04:56,595 --> 00:04:58,898
+This snake like shape
+ that's very dark,
+
+121
+00:04:58,931 --> 00:05:00,466
+and it's very dark
+  in the infrared,
+
+122
+00:05:00,499 --> 00:05:02,968
+and we called it The Snake
+ when we first discovered it,
+
+123
+00:05:03,001 --> 00:05:06,739
+in my previous existence,
+working with the MSX satellite.
+
+124
+00:05:06,772 --> 00:05:07,940
+Which did a survey.
+
+125
+00:05:07,973 --> 00:05:10,009
+Oh, see, running
+ out of battery here.
+
+126
+00:05:10,876 --> 00:05:11,744
+Okay, anyways.
+
+127
+00:05:12,978 --> 00:05:14,147
+You can see the snake.
+
+128
+00:05:15,247 --> 00:05:17,950
+That object there, is blocking
+
+129
+00:05:17,983 --> 00:05:20,319
+not just visible light,
+but infrared light,
+
+130
+00:05:20,352 --> 00:05:23,222
+and that tells us
+  it's very dense,
+
+131
+00:05:23,255 --> 00:05:24,457
+and there's a lot
+  of material there,
+
+132
+00:05:24,490 --> 00:05:25,991
+'cause that's the only
+ way you're blocking
+
+133
+00:05:26,024 --> 00:05:27,593
+the background infrared light.
+
+134
+00:05:28,961 --> 00:05:30,463
+And because of that,
+  there's a lot of material,
+
+135
+00:05:30,496 --> 00:05:32,498
+it's cold material,
+ if it wasn't cold,
+
+136
+00:05:32,531 --> 00:05:34,500
+it would be emitting
+ in the infrared.
+
+137
+00:05:34,533 --> 00:05:37,136
+This is something where,
+ place where stars are forming,
+
+138
+00:05:37,169 --> 00:05:39,105
+and we knew about that
+but with the MSX stuff,
+
+139
+00:05:39,138 --> 00:05:40,973
+we didn't have the
+ beautiful resolution,
+
+140
+00:05:41,006 --> 00:05:42,608
+the very clear
+ picture from Spitzer,
+
+141
+00:05:42,641 --> 00:05:44,210
+and we didn't see
+ the little red dots,
+
+142
+00:05:44,243 --> 00:05:47,480
+can everybody see the little
+ red dots in the dark plane?
+
+143
+00:05:47,513 --> 00:05:51,751
+Those are objects that are
+formed, they're becoming stars.
+
+144
+00:05:51,784 --> 00:05:54,320
+Those are what we call
+  protostars, or baby stars.
+
+145
+00:05:54,353 --> 00:05:55,521
+So they haven't
+ gotten to the point
+
+146
+00:05:55,554 --> 00:05:57,022
+where they have nuclear fusion,
+
+147
+00:05:57,055 --> 00:05:59,425
+and have lit up and are
+  glowing and are very hot,
+
+148
+00:05:59,458 --> 00:06:00,559
+but they're on their way,
+
+149
+00:06:00,592 --> 00:06:02,428
+they're gravitationally
+collapsing,
+
+150
+00:06:02,461 --> 00:06:04,830
+and so they're sort
+ of hottish, warmish,
+
+151
+00:06:04,863 --> 00:06:06,966
+and they're emitting
+ in the infrared.
+
+152
+00:06:06,999 --> 00:06:10,002
+Anyways, this is one of
+my favorite pictures.
+
+153
+00:06:10,035 --> 00:06:11,837
+The other reason it's one
+  of my favorite pictures,
+
+154
+00:06:11,870 --> 00:06:13,472
+is it shows the whole life cycle
+
+155
+00:06:13,505 --> 00:06:15,574
+of star formation,
+ from the dark stuff,
+
+156
+00:06:15,607 --> 00:06:19,044
+which is material stars could
+ potentially form out of.
+
+157
+00:06:19,077 --> 00:06:22,248
+So the red little dots,
+which are parts of
+
+158
+00:06:22,281 --> 00:06:24,316
+that stuff that are
+ gravitationally collapsing,
+
+159
+00:06:24,349 --> 00:06:26,118
+and are on their way
+ to forming stars,
+
+160
+00:06:26,151 --> 00:06:28,654
+to all the blue dots, okay,
+ all the little blue specs,
+
+161
+00:06:28,687 --> 00:06:29,889
+those are stars.
+
+162
+00:06:29,922 --> 00:06:32,024
+Okay, there's a lot of
+ stars in this image.
+
+163
+00:06:32,057 --> 00:06:35,528
+To this bright, red object ...
+
+164
+00:06:35,561 --> 00:06:36,429
+Good, I got it back.
+
+165
+00:06:36,462 --> 00:06:37,696
+Just have to press hard.
+
+166
+00:06:37,729 --> 00:06:40,766
+Down here, that blob
+ there, actually,
+
+167
+00:06:40,799 --> 00:06:42,968
+is the remains of what happens
+
+168
+00:06:43,001 --> 00:06:45,971
+when a massive star explodes,
+ this is a supernova remnant,
+
+169
+00:06:46,004 --> 00:06:49,875
+and what you're seeing is
+ the hot gas that's left over,
+
+170
+00:06:49,908 --> 00:06:51,811
+after the star
+ exploded and heated up
+
+171
+00:06:51,844 --> 00:06:53,312
+the material around it.
+
+172
+00:06:53,345 --> 00:06:56,248
+So we go all the way from
+  possibly forming stars,
+
+173
+00:06:56,281 --> 00:06:58,417
+to forming stars,
+  to actual stars,
+
+174
+00:06:58,450 --> 00:07:00,953
+to the death of a
+star, all in one image.
+
+175
+00:07:03,689 --> 00:07:05,090
+Okay.
+
+176
+00:07:05,123 --> 00:07:07,359
+But, before we get
+ more into the science,
+
+177
+00:07:07,392 --> 00:07:08,961
+why do you care
+ about the infrared?
+
+178
+00:07:08,994 --> 00:07:11,764
+I mean, why not just build
+ more Hubble Space Telescopes?
+
+179
+00:07:11,797 --> 00:07:14,066
+Well, the reason is,
+ the infrared gives us
+
+180
+00:07:14,099 --> 00:07:17,970
+an entirely different
+picture of the universe,
+
+181
+00:07:18,003 --> 00:07:19,638
+than what we can see
+ in visible light.
+
+182
+00:07:19,671 --> 00:07:21,874
+Here's a friend of mine,
+and a former colleague,
+
+183
+00:07:21,907 --> 00:07:23,943
+Jim Keller, and you can see
+ him in the visible light.
+
+184
+00:07:23,976 --> 00:07:25,177
+Looking quite dapper.
+
+185
+00:07:25,210 --> 00:07:27,446
+And then this is Jim
+ in the infrared light.
+
+186
+00:07:27,479 --> 00:07:30,449
+Taken with a camera that you
+ could put on your iPhone now,
+
+187
+00:07:30,482 --> 00:07:33,252
+or one of the floor cameras
+ that the firefighters use.
+
+188
+00:07:33,285 --> 00:07:35,254
+And you can see
+ quite a difference,
+
+189
+00:07:35,287 --> 00:07:37,823
+in what you can see
+ and not see, right?
+
+190
+00:07:37,856 --> 00:07:39,959
+Jim's hands, he's
+  wearing a trash bag here,
+
+191
+00:07:39,992 --> 00:07:41,227
+he doesn't usually do that,
+
+192
+00:07:41,260 --> 00:07:42,728
+but he's doing it
+  for this purpose,
+
+193
+00:07:42,761 --> 00:07:45,297
+because in visible light,
+  you can't see his hands,
+
+194
+00:07:45,330 --> 00:07:47,800
+but the trash bag, the plastic,
+
+195
+00:07:47,833 --> 00:07:49,268
+is transparent in
+ the infrared light.
+
+196
+00:07:49,301 --> 00:07:52,304
+So the infrared light
+  will pass through objects
+
+197
+00:07:52,337 --> 00:07:54,406
+that are absorbing
+  visible light,
+
+198
+00:07:54,439 --> 00:07:55,741
+and that's kind
+  of a common theme,
+
+199
+00:07:55,774 --> 00:07:57,977
+you should go to longer
+and longer wavelengths.
+
+200
+00:07:58,010 --> 00:08:01,213
+The material in our galaxy,
+all the material between stars,
+
+201
+00:08:01,246 --> 00:08:04,450
+the interstellar medium, will
+ absorb shorter wavelengths,
+
+202
+00:08:04,483 --> 00:08:08,988
+like visible light first, and
+ the infrared light, less so.
+
+203
+00:08:09,021 --> 00:08:11,190
+So it's longer the
+ wavelength it goes,
+
+204
+00:08:11,223 --> 00:08:13,292
+the more you can see
+  through things in general,
+
+205
+00:08:13,325 --> 00:08:14,693
+but not quite, right?
+
+206
+00:08:14,726 --> 00:08:16,495
+Because his glasses...
+ you can't see in the infrared,
+
+207
+00:08:16,528 --> 00:08:19,064
+the glass actually blocks
+  the infrared light.
+
+208
+00:08:19,097 --> 00:08:20,266
+And the other thing you notice,
+
+209
+00:08:20,299 --> 00:08:22,368
+is that, in the visible light,
+
+210
+00:08:22,401 --> 00:08:24,003
+what we're seeing is
+ the light reflected
+
+211
+00:08:24,036 --> 00:08:26,038
+off of Jim from an
+  external source.
+
+212
+00:08:26,071 --> 00:08:29,708
+In the infrared, you can
+actually see the glow from him,
+
+213
+00:08:29,741 --> 00:08:33,112
+it's his body heat that's
+emitting the infrared radiation.
+
+214
+00:08:33,145 --> 00:08:35,781
+So, the infrared light
+allows us to see things
+
+215
+00:08:35,814 --> 00:08:37,817
+that are cooler than
+ emit visible light.
+
+216
+00:08:39,351 --> 00:08:40,786
+So, that's what I
+  was saying here,
+
+217
+00:08:40,819 --> 00:08:42,988
+objects colder than stars
+ that give off infrared light.
+
+218
+00:08:43,021 --> 00:08:45,024
+So here's an object,
+
+219
+00:08:45,057 --> 00:08:47,059
+this is another thing,
+ called a Bok globule.
+
+220
+00:08:47,092 --> 00:08:48,727
+It's kind of like those
+infrared dark clouds
+
+221
+00:08:48,760 --> 00:08:50,996
+that I talked about, in
+ this you see invisible light
+
+222
+00:08:51,029 --> 00:08:52,031
+and you can't really
+ see through it,
+
+223
+00:08:52,064 --> 00:08:53,699
+there's a couple
+little red dots,
+
+224
+00:08:53,732 --> 00:08:56,068
+which are stars on the edge.
+
+225
+00:08:56,101 --> 00:08:58,571
+Where the material's
+ not as thick,
+
+226
+00:08:58,604 --> 00:09:00,506
+that you can see sort
+ of poking through.
+
+227
+00:09:00,539 --> 00:09:01,840
+Then if you look at
+ the infrared light,
+
+228
+00:09:01,873 --> 00:09:03,309
+you get an entirely
+ different picture.
+
+229
+00:09:03,342 --> 00:09:05,578
+So I'm just gonna flip back
+ and forth for a second,
+
+230
+00:09:05,611 --> 00:09:07,012
+so you can see that.
+
+231
+00:09:07,045 --> 00:09:08,847
+And one of the things you'll
+ notice is there's this
+
+232
+00:09:08,880 --> 00:09:12,151
+bright blob, bright thing
+  there, that's a star.
+
+233
+00:09:12,184 --> 00:09:15,921
+That's a cool object, it's
+ not a star, it's a protostar,
+
+234
+00:09:15,954 --> 00:09:17,756
+it's something on the
+ way to forming a star,
+
+235
+00:09:17,789 --> 00:09:19,825
+so you wouldn't see it
+ in the visible light,
+
+236
+00:09:19,858 --> 00:09:22,895
+even if it was
+ right on the surface
+
+237
+00:09:22,928 --> 00:09:24,597
+of the globule that
+ it's forming out of.
+
+238
+00:09:24,630 --> 00:09:27,499
+The only thing you see
+there is a little blob,
+
+239
+00:09:27,532 --> 00:09:29,234
+which is a protostellar jet.
+
+240
+00:09:29,267 --> 00:09:34,273
+So this material here, coming
+ either way from the star,
+
+241
+00:09:35,407 --> 00:09:36,875
+is what we call a
+ protostellar outflow.
+
+242
+00:09:36,908 --> 00:09:39,945
+Basically, what happens
+ when something's collapsing
+
+243
+00:09:39,978 --> 00:09:43,816
+to form a star, it collapses
+ and forms a disc, a pancake,
+
+244
+00:09:43,849 --> 00:09:45,417
+and the material
+from the pancake
+
+245
+00:09:45,450 --> 00:09:47,286
+infalls to a central object.
+
+246
+00:09:47,319 --> 00:09:49,588
+And then when the
+  material infalls,
+
+247
+00:09:49,621 --> 00:09:51,957
+some of it gets pushed
+ out, in an outflow,
+
+248
+00:09:51,990 --> 00:09:53,359
+and that's what
+ you're seeing there,
+
+249
+00:09:53,392 --> 00:09:57,630
+along the line, is
+  that's gas being ejected.
+
+250
+00:09:57,663 --> 00:09:59,565
+Part of, some of the
+ inflowing material
+
+251
+00:09:59,598 --> 00:10:02,668
+being back ejected out from
+ the star that's forming.
+
+252
+00:10:04,036 --> 00:10:07,206
+So, things that give off
+ infrared light that are colder
+
+253
+00:10:07,239 --> 00:10:09,775
+than things we see in the
+ visible light, are protostars.
+
+254
+00:10:09,808 --> 00:10:11,276
+Planets also, if
+ they're warm enough,
+
+255
+00:10:11,309 --> 00:10:13,612
+will emit in the infrared,
+  and we can actually see
+
+256
+00:10:13,645 --> 00:10:15,614
+the emission of the
+planets in the infrared.
+
+257
+00:10:15,647 --> 00:10:17,716
+And then, in our solar
+ system we can see
+
+258
+00:10:17,749 --> 00:10:21,920
+asteroids and comets in
+the reflected sunlight,
+
+259
+00:10:21,953 --> 00:10:24,890
+but we can also see
+ them much more easily
+
+260
+00:10:24,923 --> 00:10:26,625
+in their own infrared radiation,
+
+261
+00:10:26,658 --> 00:10:28,193
+provided that
+ they're hot enough,
+
+262
+00:10:28,226 --> 00:10:31,163
+so as comets come
+  in and heat up,
+
+263
+00:10:31,196 --> 00:10:33,899
+you'll pick them up very
+easily in the infrared.
+
+264
+00:10:37,602 --> 00:10:39,605
+The other thing, which we talked
+a little bit about already,
+
+265
+00:10:39,638 --> 00:10:41,674
+I just want to give another
+ example is it's easier
+
+266
+00:10:41,707 --> 00:10:44,410
+to see through the dust
+  that's between the stars,
+
+267
+00:10:44,443 --> 00:10:45,644
+and when I talk about dust here,
+
+268
+00:10:45,677 --> 00:10:48,947
+it's not like dirt sized dust,
+
+269
+00:10:48,980 --> 00:10:50,783
+this is more like cosmic soot,
+
+270
+00:10:50,816 --> 00:10:52,551
+so it's not like the dust
+  bunnies under your bed,
+
+271
+00:10:52,584 --> 00:10:54,520
+it's more like auto
+ exhaust, actually.
+
+272
+00:10:54,553 --> 00:10:56,622
+Or smog, is a good example.
+
+273
+00:10:56,655 --> 00:10:58,323
+And that actually blocks
+out visible light,
+
+274
+00:10:58,356 --> 00:11:00,592
+as you could tell
+looking at the mountains
+
+275
+00:11:00,625 --> 00:11:04,597
+on your way here, right, if
+you were coming from the south.
+
+276
+00:11:06,064 --> 00:11:08,333
+In the infrared, that light
+ passes more readily through,
+
+277
+00:11:08,366 --> 00:11:11,036
+because it's a longer wavelength
+and you can see that here,
+
+278
+00:11:11,069 --> 00:11:13,338
+in an image of the
+ North American Nebula,
+
+279
+00:11:13,371 --> 00:11:15,207
+where there's this dark
+dust lane, in between,
+
+280
+00:11:15,240 --> 00:11:16,375
+you can see sort of the shape
+
+281
+00:11:16,408 --> 00:11:18,844
+of the North
+ America here, right.
+
+282
+00:11:18,877 --> 00:11:22,848
+There's the outline, there's
+ Mexico, maybe Florida there.
+
+283
+00:11:22,881 --> 00:11:25,884
+It takes a little imagination
+ to come up with these names
+
+284
+00:11:25,917 --> 00:11:28,220
+but then, there's this
+ dark lane here, right,
+
+285
+00:11:28,253 --> 00:11:32,157
+and that dark lane, with some
+ foreground stars, is lit up,
+
+286
+00:11:32,190 --> 00:11:35,461
+in the infrared light, what
+you're seeing there is the gap,
+
+287
+00:11:35,494 --> 00:11:38,630
+the dust and gas
+  that is obscuring,
+
+288
+00:11:38,663 --> 00:11:42,234
+the invisible light from behind,
+is glowing in the infrared.
+
+289
+00:11:42,267 --> 00:11:46,505
+so we get to understand about
+ the material in between stars,
+
+290
+00:11:46,538 --> 00:11:48,140
+by looking at infrared light.
+
+291
+00:11:49,641 --> 00:11:51,610
+And then the other thing
+  that's really interesting,
+
+292
+00:11:51,643 --> 00:11:54,179
+is it allows us to see objects
+
+293
+00:11:54,212 --> 00:11:56,215
+more easily that are in
+  the early universe, okay,
+
+294
+00:11:56,248 --> 00:11:58,784
+and this takes a little
+  bit of effort, because...
+
+295
+00:11:58,817 --> 00:12:00,085
+What's happening here...
+
+296
+00:12:00,118 --> 00:12:02,187
+So, the foreground
+ stuff, all the things
+
+297
+00:12:02,220 --> 00:12:05,090
+that are greenish-blue
+ are stars.
+
+298
+00:12:05,123 --> 00:12:07,693
+The little red dots
+are background galaxies
+
+299
+00:12:07,726 --> 00:12:10,062
+that are fairly
+  far away from us,
+
+300
+00:12:10,095 --> 00:12:12,397
+and so we're seeing
+ light that was emitted
+
+301
+00:12:12,430 --> 00:12:16,235
+from some time in
+  the past, right,
+
+302
+00:12:16,268 --> 00:12:18,437
+because the light takes
+time to travel to us,
+
+303
+00:12:18,470 --> 00:12:19,838
+the farther away something is,
+
+304
+00:12:19,871 --> 00:12:21,907
+the longer the light
+ takes to travel to us,
+
+305
+00:12:21,940 --> 00:12:24,076
+and since the
+ universe is expanding,
+
+306
+00:12:24,109 --> 00:12:26,378
+as the light's traveling to us,
+
+307
+00:12:26,411 --> 00:12:29,314
+the distance that it
+ travels gets larger.
+
+308
+00:12:29,347 --> 00:12:33,252
+So as space is expanding,
+  and when it does that,
+
+309
+00:12:33,285 --> 00:12:34,853
+it has the property
+ of making the light
+
+310
+00:12:34,886 --> 00:12:36,722
+as it travels through
+ and we see it,
+
+311
+00:12:36,755 --> 00:12:39,057
+go to longer and longer
+wavelengths, meaning basically,
+
+312
+00:12:39,090 --> 00:12:41,093
+the material it's
+ travelling through,
+
+313
+00:12:41,126 --> 00:12:44,129
+is stretched out, so the
+  light gets stretched out.
+
+314
+00:12:44,162 --> 00:12:48,100
+So, as you look further
+  and further back in time,
+
+315
+00:12:48,133 --> 00:12:51,303
+something emits invisible
+ light will look progressively
+
+316
+00:12:51,336 --> 00:12:53,172
+redder and redder.
+
+317
+00:12:53,205 --> 00:12:55,274
+That's, when you heard
+ the term redshift,
+
+318
+00:12:55,307 --> 00:12:56,608
+that's actually, that's
+what we mean by that,
+
+319
+00:12:56,641 --> 00:12:59,178
+is that the light is
+actually getting redder,
+
+320
+00:12:59,211 --> 00:13:01,981
+the further you look
+ back in the universe.
+
+321
+00:13:03,281 --> 00:13:04,883
+Which is just what
+ I was saying there.
+
+322
+00:13:04,916 --> 00:13:06,218
+Okay.
+  So that's very important.
+
+323
+00:13:06,251 --> 00:13:08,720
+If you're interested in studying
+
+324
+00:13:08,753 --> 00:13:10,422
+the early universe,
+ which I have to admit,
+
+325
+00:13:10,455 --> 00:13:13,525
+I'm not super interested in,
+ but I think it's pretty cool,
+
+326
+00:13:13,558 --> 00:13:15,060
+then you want to use the
+infrared light
+
+327
+00:13:15,093 --> 00:13:16,529
+to do that as well.
+
+328
+00:13:17,629 --> 00:13:19,231
+Okay, so that brings
+ us to Spitzer.
+
+329
+00:13:19,264 --> 00:13:23,435
+Okay, Spitzer is an
+ infrared observatory,
+
+330
+00:13:23,468 --> 00:13:26,572
+that is used by astronomers
+ all over the world,
+
+331
+00:13:26,605 --> 00:13:28,540
+anybody in the
+  world can propose,
+
+332
+00:13:28,573 --> 00:13:31,243
+if you wanted to write a
+ proposal to use Spitzer time,
+
+333
+00:13:31,276 --> 00:13:34,580
+you could do that,
+ anybody, any country,
+
+334
+00:13:34,613 --> 00:13:35,814
+you don't have to have a degree,
+
+335
+00:13:35,847 --> 00:13:37,349
+you just have to
+  have a good idea,
+
+336
+00:13:37,382 --> 00:13:40,118
+and get it past the people who
+ review the ideas to make sure
+
+337
+00:13:40,151 --> 00:13:42,921
+one, it's a really good science
+idea, so it should be done,
+
+338
+00:13:42,954 --> 00:13:45,757
+and two, we can actually
+ take the data that you need
+
+339
+00:13:45,790 --> 00:13:47,559
+to get your science idea done.
+
+340
+00:13:47,592 --> 00:13:50,829
+So, Spitzer launched
+ August 25th, 2003,
+
+341
+00:13:50,862 --> 00:13:53,031
+which seems like a
+lifetime ago to me now,
+
+342
+00:13:53,064 --> 00:13:54,166
+but it wasn't that long ago.
+
+343
+00:13:54,199 --> 00:13:55,601
+It was very exciting.
+
+344
+00:13:55,634 --> 00:13:57,603
+Here's Spitzer on
+  the Delta Heavy
+
+345
+00:13:57,636 --> 00:14:00,138
+that it was launched
+from at Cape Canaveral.
+
+346
+00:14:00,171 --> 00:14:02,107
+We had a few launch
+ delays before that,
+
+347
+00:14:02,140 --> 00:14:04,142
+so everybody that was
+  working on the project was
+
+348
+00:14:04,175 --> 00:14:07,746
+really anxious for it to get
+ launched and us to get going.
+
+349
+00:14:07,779 --> 00:14:10,883
+It was the last of NASA's
+  Great Observatory program.
+
+350
+00:14:12,317 --> 00:14:16,822
+Which included the Compton
+  Gamma Ray Satellite,
+
+351
+00:14:16,855 --> 00:14:18,857
+the Hubble Space Telescope,
+ which you've all heard of,
+
+352
+00:14:18,890 --> 00:14:20,692
+and the Chandra X-ray Telescope.
+
+353
+00:14:20,725 --> 00:14:22,828
+So three of those four
+ great observatories
+
+354
+00:14:22,861 --> 00:14:25,430
+are still operating,
+  giving us wonderful data,
+
+355
+00:14:25,463 --> 00:14:28,033
+which spans a whole
+ range of wavelengths
+
+356
+00:14:28,066 --> 00:14:30,168
+that astronomers are
+ really interested in,
+
+357
+00:14:30,201 --> 00:14:34,172
+and the synergy between those
+ three observatories is huge.
+
+358
+00:14:34,205 --> 00:14:36,642
+A lot of times, we
+ will take Spitzer data
+
+359
+00:14:36,675 --> 00:14:38,310
+because Hubble has
+ discovered something.
+
+360
+00:14:38,343 --> 00:14:40,145
+Or somebody will see
+  something in Spitzer data,
+
+361
+00:14:40,178 --> 00:14:42,915
+and do a follow up with
+ the Chandra X-ray Telescope
+
+362
+00:14:42,948 --> 00:14:44,316
+to get more information.
+
+363
+00:14:45,884 --> 00:14:49,321
+Spitzer's expected lifetime
+ was five years, and ...
+
+364
+00:14:49,354 --> 00:14:51,723
+[phone ringtone]
+
+365
+00:14:51,756 --> 00:14:53,559
+I'll just wait for
+  somebody to mute.
+
+366
+00:14:54,726 --> 00:14:56,462
+It's okay, I do that
+ all the time, too.
+
+367
+00:14:57,562 --> 00:14:59,298
+Its expected lifetime
+ was five years,
+
+368
+00:14:59,331 --> 00:15:03,101
+that's how much helium
+ we had in the tank,
+
+369
+00:15:03,134 --> 00:15:04,636
+or what we thought it was.
+
+370
+00:15:04,669 --> 00:15:07,506
+And the lifetime, if it only
+ lasted two and a half years,
+
+371
+00:15:07,539 --> 00:15:08,941
+we would've met
+  our mission goal,
+
+372
+00:15:08,974 --> 00:15:10,208
+so we would've been happy
+  with two and a half.
+
+373
+00:15:10,241 --> 00:15:12,244
+We were ecstatic with five.
+
+374
+00:15:12,277 --> 00:15:13,879
+It ended up the
+  cryogenic mission,
+
+375
+00:15:13,912 --> 00:15:16,448
+so when we ran out of the
+  coolant that we needed,
+
+376
+00:15:16,481 --> 00:15:19,051
+ended 15 May, 2009,
+ so we even got more
+
+377
+00:15:19,084 --> 00:15:20,485
+than the five years' we planned,
+
+378
+00:15:20,518 --> 00:15:23,588
+because people were really
+smart in how we use the helium,
+
+379
+00:15:23,621 --> 00:15:25,357
+because we actually had
+some control over that,
+
+380
+00:15:25,390 --> 00:15:27,025
+which I'll talk
+  about in a second.
+
+381
+00:15:27,058 --> 00:15:30,362
+And then after we ran
+ out of the cryogen,
+
+382
+00:15:30,395 --> 00:15:34,599
+we started the warm mission
+ science in July, 2009,
+
+383
+00:15:34,632 --> 00:15:37,569
+and we're still going,
+ which is fantastic.
+
+384
+00:15:37,602 --> 00:15:38,904
+It's fantastic for
+  a lot of reasons,
+
+385
+00:15:38,937 --> 00:15:40,305
+one, the spacecraft
+ still working.
+
+386
+00:15:40,338 --> 00:15:41,506
+[knocking]
+
+387
+00:15:41,539 --> 00:15:43,008
+Knock on wood every
+ time I say that,
+
+388
+00:15:43,041 --> 00:15:46,411
+because my phone may go off
+ and that would be a bad thing,
+
+389
+00:15:46,444 --> 00:15:47,879
+because that would tell
+us there's an anomaly,
+
+390
+00:15:47,912 --> 00:15:49,114
+and if there's a bunch of people
+
+391
+00:15:49,147 --> 00:15:50,816
+in the audience, that
+ I know, got up too,
+
+392
+00:15:50,849 --> 00:15:53,919
+we would know it's a really
+ big deal, but so far, so good.
+
+393
+00:15:53,952 --> 00:15:55,187
+So I haven't jinxed us.
+
+394
+00:15:56,955 --> 00:15:59,124
+And the science still
+ is excellent, in fact,
+
+395
+00:15:59,157 --> 00:16:01,493
+the science now, I would
+argue in some ways,
+
+396
+00:16:01,526 --> 00:16:03,462
+is better, because
+  people's ideas are better,
+
+397
+00:16:03,495 --> 00:16:06,431
+because we're learning
+ more every year,
+
+398
+00:16:06,464 --> 00:16:08,000
+about the universe.
+
+399
+00:16:10,301 --> 00:16:11,870
+Let's see, what did
+ I not do right here?
+
+400
+00:16:11,903 --> 00:16:13,939
+Okay, so ...
+
+401
+00:16:13,972 --> 00:16:15,874
+The Spitzer Space
+  Telescope was named after
+
+402
+00:16:15,907 --> 00:16:18,377
+a very prominent astronomer
+ named Lyman Spitzer,
+
+403
+00:16:18,410 --> 00:16:19,878
+here's a picture
+  of Lyman Spitzer,
+
+404
+00:16:19,911 --> 00:16:22,581
+he was also an avid mountain
+ climber, and this is him,
+
+405
+00:16:22,614 --> 00:16:25,350
+Lyman, on his way to
+climbing the Matterhorn.
+
+406
+00:16:25,383 --> 00:16:28,587
+And this is... and the
+ way Spitzer was named,
+
+407
+00:16:28,620 --> 00:16:30,922
+is we had a contest, actually,
+
+408
+00:16:30,955 --> 00:16:33,625
+and people wrote in
+ whom they thought,
+
+409
+00:16:33,658 --> 00:16:36,261
+what the name for the
+ telescope should be,
+
+410
+00:16:36,294 --> 00:16:39,197
+because the idea usually,
+  or back in the past was,
+
+411
+00:16:39,230 --> 00:16:41,733
+you didn't name an
+ observatory that was launched
+
+412
+00:16:41,766 --> 00:16:44,169
+into space until it was
+actually operational.
+
+413
+00:16:44,202 --> 00:16:47,272
+Before Spitzer was operational,
+it was called SIRTF,
+
+414
+00:16:47,305 --> 00:16:49,841
+which was an acronym for
+a popular NASA thing,
+
+415
+00:16:49,874 --> 00:16:54,480
+which stood for Space
+ Infrared Telescope Facility,
+
+416
+00:16:55,380 --> 00:16:56,515
+really exciting, right?
+
+417
+00:16:57,916 --> 00:17:00,052
+Before it was the Space
+ Infrared Telescope Facility,
+
+418
+00:17:00,085 --> 00:17:01,586
+and a form incarnation,
+
+419
+00:17:01,619 --> 00:17:03,789
+it was actually the Shuttle
+ Infrared Telescope Facility,
+
+420
+00:17:03,822 --> 00:17:05,424
+the idea was that
+ was gonna be launched
+
+421
+00:17:05,457 --> 00:17:07,159
+on the shuttle like Hubble.
+
+422
+00:17:07,192 --> 00:17:09,928
+It ended up by the time that
+ it was getting developed,
+
+423
+00:17:09,961 --> 00:17:12,330
+in the 90s, that got
+really expensive to do,
+
+424
+00:17:12,363 --> 00:17:14,132
+and people had a much
+better way of doing it,
+
+425
+00:17:14,165 --> 00:17:15,734
+so instead of putting
+ it on the shuttle
+
+426
+00:17:15,767 --> 00:17:18,970
+and lifting it up,
+ like Hubble was done,
+
+427
+00:17:19,003 --> 00:17:21,339
+and then the idea then was
+ you were gonna periodically
+
+428
+00:17:21,372 --> 00:17:24,142
+send up the shuttle and top
+ off the tank of cryogen,
+
+429
+00:17:24,175 --> 00:17:26,645
+so you would have
+  a continuing tank.
+
+430
+00:17:26,678 --> 00:17:28,180
+There was a much
+  cheaper, actually,
+
+431
+00:17:28,213 --> 00:17:30,582
+way of doing it, which
+provided better science,
+
+432
+00:17:30,615 --> 00:17:33,051
+even though it made
+ a smaller telescope,
+
+433
+00:17:33,084 --> 00:17:35,654
+and I'm gonna talk about
+that in a little bit.
+
+434
+00:17:35,687 --> 00:17:38,523
+But, Lyman Spitzer was an expert
+in the interstellar medium,
+
+435
+00:17:38,556 --> 00:17:40,792
+so having an infrared telescope
+
+436
+00:17:40,825 --> 00:17:42,427
+named after him is
+ entirely appropriate,
+
+437
+00:17:42,460 --> 00:17:44,429
+because the infrared,
+ as we've just learned,
+
+438
+00:17:44,462 --> 00:17:46,131
+is really great
+  for understanding
+
+439
+00:17:46,164 --> 00:17:47,732
+all the stuff between the stars,
+
+440
+00:17:47,765 --> 00:17:50,735
+all that gas and dust which
+ you can't see in the visible,
+
+441
+00:17:50,768 --> 00:17:52,337
+you can see in the infrared.
+
+442
+00:17:52,370 --> 00:17:55,574
+And Lyman would be really
+  excited about that.
+
+443
+00:17:55,607 --> 00:17:56,741
+Unfortunately, he passed away
+
+444
+00:17:56,774 --> 00:18:01,046
+before the telescope
+ was launched.
+
+445
+00:18:01,079 --> 00:18:03,115
+And the other thing, this
+  is the really cool part,
+
+446
+00:18:03,148 --> 00:18:05,250
+is he was the first
+  person to think of putting
+
+447
+00:18:05,283 --> 00:18:07,152
+a telescope in space.
+
+448
+00:18:07,185 --> 00:18:08,887
+He did this in 1946.
+
+449
+00:18:08,920 --> 00:18:11,022
+And his idea led to the
+Hubble Space Telescope.
+
+450
+00:18:11,055 --> 00:18:13,425
+He was a huge proponent for
+ the Hubble Space Telescope,
+
+451
+00:18:13,458 --> 00:18:15,026
+and he's one of the
+ driving influences
+
+452
+00:18:15,059 --> 00:18:16,595
+in getting that launched.
+
+453
+00:18:16,628 --> 00:18:19,731
+And the reason you wanna
+put telescopes in space,
+
+454
+00:18:19,764 --> 00:18:22,634
+not just infrared telescopes,
+ but telescopes in space,
+
+455
+00:18:22,667 --> 00:18:23,935
+they get you above
+  the atmosphere,
+
+456
+00:18:23,968 --> 00:18:26,204
+which is really
+annoying to astronomers,
+
+457
+00:18:26,237 --> 00:18:27,873
+because the atmosphere,
+what it does,
+
+458
+00:18:27,906 --> 00:18:30,976
+is it blurs your vision, so
+ with an optical telescope,
+
+459
+00:18:31,009 --> 00:18:34,012
+you can't see the fine
+ resolution you want as well.
+
+460
+00:18:34,045 --> 00:18:36,715
+And in the infrared
+ light, actually,
+
+461
+00:18:36,748 --> 00:18:38,216
+the atmosphere
+ blocks a lot of the
+
+462
+00:18:38,249 --> 00:18:39,818
+infrared wavelengths
+ we're interested in.
+
+463
+00:18:39,851 --> 00:18:42,354
+You can sort of see
+some of the wavelengths
+
+464
+00:18:42,387 --> 00:18:45,357
+Spitzer looks at from the
+ ground, but not really well,
+
+465
+00:18:45,390 --> 00:18:47,359
+so instead of blowing a
+ hole through the atmosphere,
+
+466
+00:18:47,392 --> 00:18:50,228
+you have to put your telescope
+ above the atmosphere.
+
+467
+00:18:50,261 --> 00:18:53,165
+There's another very good
+  telescope called Sofia,
+
+468
+00:18:53,198 --> 00:18:55,066
+I don't remember, it's
+ like stratospheric,
+
+469
+00:18:55,099 --> 00:18:56,334
+because it's on an airplane.
+
+470
+00:18:56,367 --> 00:18:58,937
+So it's an infrared
+ telescope on a 747,
+
+471
+00:18:58,970 --> 00:19:01,306
+and that flies up to
+about 40 thousand feet,
+
+472
+00:19:01,339 --> 00:19:03,074
+so it's above most of the
+  water in the atmosphere,
+
+473
+00:19:03,107 --> 00:19:04,576
+which is the big problem.
+
+474
+00:19:04,609 --> 00:19:07,345
+especially if you're looking
+ for water somewhere else,
+
+475
+00:19:07,378 --> 00:19:10,048
+you don't wanna see the
+water in the atmosphere.
+
+476
+00:19:10,081 --> 00:19:11,449
+So anyways, it's
+  a good idea to get
+
+477
+00:19:11,482 --> 00:19:14,419
+your telescope away
+ from the atmosphere,
+
+478
+00:19:14,452 --> 00:19:16,522
+because that makes it
+ hard to see things.
+
+479
+00:19:17,689 --> 00:19:20,258
+Even though it's really
+good for us otherwise.
+
+480
+00:19:20,291 --> 00:19:21,726
+Okay, so the Spitzer
+ Space Telescope,
+
+481
+00:19:21,759 --> 00:19:23,395
+let's give some stats to it now.
+
+482
+00:19:23,428 --> 00:19:25,830
+It's an 85 centimeter,
+ infrared telescope.
+
+483
+00:19:25,863 --> 00:19:27,999
+Now, 85 centimeters is
+ smaller than a mirror.
+
+484
+00:19:28,032 --> 00:19:29,834
+It's... and there it is.
+
+485
+00:19:29,867 --> 00:19:31,303
+That's the telescope, actually
+
+486
+00:19:31,336 --> 00:19:34,639
+before it was encased in a tube,
+and had all its instruments
+
+487
+00:19:34,672 --> 00:19:36,875
+and the cryogenic tank put
+  underneath it and stuff,
+
+488
+00:19:36,908 --> 00:19:38,276
+and you can kind of
+ get the scale for it,
+
+489
+00:19:38,309 --> 00:19:41,012
+because there's two
+ normal sized people,
+
+490
+00:19:41,045 --> 00:19:43,081
+I think this was at JPL.
+
+491
+00:19:45,550 --> 00:19:46,851
+And it's very shiny,
+ because you want
+
+492
+00:19:46,884 --> 00:19:48,620
+your mirror to be reflective.
+
+493
+00:19:48,653 --> 00:19:51,223
+There's a secondary mirror
+  under that column there,
+
+494
+00:19:51,256 --> 00:19:53,925
+and the telescope was made
+  entirely of beryllium.
+
+495
+00:19:53,958 --> 00:19:56,027
+The mirror's solid beryllium,
+ and the reason why,
+
+496
+00:19:56,060 --> 00:19:58,563
+is that when you cool it
+  down to the temperatures,
+
+497
+00:19:58,596 --> 00:20:01,566
+you wanna cool infrared
+telescopes down to,
+
+498
+00:20:01,599 --> 00:20:04,570
+you don't want the
+  mirror to shrink.
+
+499
+00:20:05,337 --> 00:20:07,939
+So it has to be
+thermally stable,
+
+500
+00:20:07,972 --> 00:20:09,874
+at very low temperatures,
+
+501
+00:20:09,907 --> 00:20:12,811
+and the low temperatures
+in this case are
+
+502
+00:20:12,844 --> 00:20:17,048
+between five and 12 degrees
+ above absolute zero.
+
+503
+00:20:17,081 --> 00:20:19,084
+The reason you want
+ the mirror that cold,
+
+504
+00:20:19,117 --> 00:20:21,386
+is if the mirror
+isn't that cold,
+
+505
+00:20:21,419 --> 00:20:25,257
+then you see the infrared
+  radiation from the mirror,
+
+506
+00:20:25,290 --> 00:20:27,025
+and then that takes
+ away the signals
+
+507
+00:20:27,058 --> 00:20:28,360
+that you're interested in.
+
+508
+00:20:30,728 --> 00:20:31,896
+Okay.
+
+509
+00:20:31,929 --> 00:20:33,531
+And there are three
+instruments on Spitzer.
+
+510
+00:20:33,564 --> 00:20:37,302
+One was, had a very
+ useful acronym, IRAC,
+
+511
+00:20:37,335 --> 00:20:40,138
+with the infrared array camera,
+and so set of four cameras,
+
+512
+00:20:40,171 --> 00:20:43,408
+that operate from
+ three to nine microns.
+
+513
+00:20:43,441 --> 00:20:45,243
+I was trying to think of
+ a... what a good analogy...
+
+514
+00:20:45,276 --> 00:20:48,780
+so a micron is a
+ millionth of a meter,
+
+515
+00:20:48,813 --> 00:20:52,217
+and 70 microns is about
+  the width of a human hair,
+
+516
+00:20:52,250 --> 00:20:54,620
+so it's a pretty tiny...
+
+517
+00:20:56,487 --> 00:20:58,023
+size for the wavelength.
+
+518
+00:20:58,056 --> 00:21:01,293
+But the longest wavelength
+  we can see with our eyes,
+
+519
+00:21:01,326 --> 00:21:03,795
+is about .8 microns, that's
+ about as red as you can go,
+
+520
+00:21:03,828 --> 00:21:05,430
+I think bees and dogs can see
+
+521
+00:21:05,463 --> 00:21:08,033
+slightly farther
+  into our infrared,
+
+522
+00:21:08,066 --> 00:21:11,703
+but, so this is between
+what's, .8, so you know,
+
+523
+00:21:11,736 --> 00:21:14,839
+it's like four or
+ five times the size,
+
+524
+00:21:14,872 --> 00:21:17,175
+of visible light
+  going out further,
+
+525
+00:21:17,208 --> 00:21:20,178
+the spectrographs,
+ disperse the light...
+
+526
+00:21:21,679 --> 00:21:24,249
+From five to 38 microns,
+and that instrument
+
+527
+00:21:24,282 --> 00:21:28,019
+was called the IRS
+ Infrared Spectrograph.
+
+528
+00:21:28,052 --> 00:21:29,287
+And then there was a
+ set of cameras with
+
+529
+00:21:29,320 --> 00:21:32,991
+much longer wavelengths,
+24, 70 and 160 microns,
+
+530
+00:21:33,024 --> 00:21:34,526
+and that had the acronym, MIPS,
+
+531
+00:21:34,559 --> 00:21:39,364
+so it was the Multi-imaging
+ Band Photometer for Spitzer.
+
+532
+00:21:41,065 --> 00:21:43,435
+And all these three
+ instruments give us different
+
+533
+00:21:43,468 --> 00:21:46,871
+wavelength ranges, and
+  view on the universe, and,
+
+534
+00:21:46,904 --> 00:21:48,506
+no, no, that's not the ...
+
+535
+00:21:48,539 --> 00:21:50,942
+Come on ...
+ Laser pointer.
+
+536
+00:21:50,975 --> 00:21:51,810
+Alright, anyways.
+
+537
+00:21:53,044 --> 00:21:56,047
+IRAC and MIPS show
+  us that protostar
+
+538
+00:21:56,080 --> 00:21:58,049
+we showed you earlier, okay.
+
+539
+00:21:58,082 --> 00:22:01,286
+And the reddest
+ colors are for MIPS,
+
+540
+00:22:01,319 --> 00:22:04,055
+and the bluish and green
+ are from IRAC in that image.
+
+541
+00:22:04,088 --> 00:22:07,959
+And then, what we're seeing
+ in the diagram there,
+
+542
+00:22:07,992 --> 00:22:10,862
+is a plot of brightness, is
+ a function of wavelength,
+
+543
+00:22:10,895 --> 00:22:13,064
+and that's from IRS,
+ and what you can see,
+
+544
+00:22:13,097 --> 00:22:16,434
+is that it's rising in
+general, the protostar,
+
+545
+00:22:16,467 --> 00:22:18,136
+as you get to longer
+and longer wavelengths,
+
+546
+00:22:18,169 --> 00:22:19,437
+because it's a sort
+ of cool object,
+
+547
+00:22:19,470 --> 00:22:21,539
+so it's brighter at
+ longer wavelengths,
+
+548
+00:22:21,572 --> 00:22:24,442
+and then you see all these
+  dips in the spectrum,
+
+549
+00:22:24,475 --> 00:22:26,344
+those troughs and
+stuff, and those are due
+
+550
+00:22:26,377 --> 00:22:30,982
+to different materials
+ absorbing some of the light,
+
+551
+00:22:31,015 --> 00:22:33,952
+the gas and dust in
+ front of the star,
+
+552
+00:22:33,985 --> 00:22:36,755
+the protostar, actually,
+  so you can see water, ice,
+
+553
+00:22:36,788 --> 00:22:38,223
+there's a line to
+  methyl alcohol,
+
+554
+00:22:38,256 --> 00:22:40,058
+so it tells you about the
+  chemical constituents,
+
+555
+00:22:40,091 --> 00:22:42,026
+so spectroscopy
+  is really powerful
+
+556
+00:22:42,059 --> 00:22:44,662
+if you wanna understand what
+ something is made out of,
+
+557
+00:22:44,695 --> 00:22:47,165
+not just where it
+ is, or how hot it is.
+
+558
+00:22:49,167 --> 00:22:50,268
+Okay.
+
+559
+00:22:50,301 --> 00:22:51,903
+So Spitzer had a
+few innovations,
+
+560
+00:22:51,936 --> 00:22:54,372
+which are fantastic
+and other observatories
+
+561
+00:22:54,405 --> 00:22:56,941
+are copying them now, because
+ we've learned from Spitzer.
+
+562
+00:22:56,974 --> 00:22:58,877
+The first thing,
+ and this was another
+
+563
+00:22:58,910 --> 00:23:00,445
+good thing for an
+ infrared telescope,
+
+564
+00:23:00,478 --> 00:23:03,148
+is you have to get it
+  away from a really bright
+
+565
+00:23:03,181 --> 00:23:04,883
+infrared source,
+ which is the Earth.
+
+566
+00:23:04,916 --> 00:23:07,218
+The Earth gives out a lot
+  of infrared radiation.
+
+567
+00:23:07,251 --> 00:23:08,720
+So Spitzer was designed to be an
+
+568
+00:23:08,753 --> 00:23:10,922
+Earth trailing orbit
+ around the sun.
+
+569
+00:23:12,423 --> 00:23:13,258
+Thank you.
+
+570
+00:23:14,826 --> 00:23:16,728
+I'll give it back, okay.
+
+571
+00:23:16,761 --> 00:23:18,263
+Oh, that's so much better.
+
+572
+00:23:19,397 --> 00:23:20,465
+I'm gonna go crazy
+ with the pointer now.
+
+573
+00:23:20,498 --> 00:23:21,333
+No, I won't.
+
+574
+00:23:23,334 --> 00:23:26,538
+So, getting Spitzer
+ away from the Earth
+
+575
+00:23:26,571 --> 00:23:29,407
+meant that you're getting it
+ away from this huge heat bath,
+
+576
+00:23:29,440 --> 00:23:31,443
+which also allowed you
+ to do something called
+
+577
+00:23:31,476 --> 00:23:33,645
+passive cooling, because
+you're away from the heat bath,
+
+578
+00:23:33,678 --> 00:23:35,680
+and this is a really
+ neat, and also,
+
+579
+00:23:35,713 --> 00:23:37,182
+it sounds really simple concept,
+
+580
+00:23:37,215 --> 00:23:39,350
+but it's really hard when you
+ actually do the engineering.
+
+581
+00:23:39,383 --> 00:23:40,785
+Except now, people
+  know how to do it,
+
+582
+00:23:40,818 --> 00:23:43,254
+so they made it look, they
+made the hard look really easy.
+
+583
+00:23:43,287 --> 00:23:46,791
+And basically, the idea is
+  that the telescope here,
+
+584
+00:23:46,824 --> 00:23:48,059
+so remember, I showed
+ you the mirror,
+
+585
+00:23:48,092 --> 00:23:50,528
+it's inside this tube,
+ there's a shiny side,
+
+586
+00:23:50,561 --> 00:23:52,697
+which is always pointing
+towards the sun, which is good,
+
+587
+00:23:52,730 --> 00:23:54,833
+because those are solar
+  rays, which power Spitzer,
+
+588
+00:23:54,866 --> 00:23:56,301
+so you need power to power it,
+
+589
+00:23:56,334 --> 00:23:59,037
+and the side in the
+ back is painted black,
+
+590
+00:23:59,070 --> 00:24:01,372
+and that radiates to cold space.
+
+591
+00:24:01,405 --> 00:24:04,742
+Because Spitzer is always in
+ the shadow of the solar rays,
+
+592
+00:24:04,775 --> 00:24:07,779
+so it's, the tube
+ itself gets very cold,
+
+593
+00:24:07,812 --> 00:24:09,380
+just by the fact that you keep
+
+594
+00:24:09,413 --> 00:24:11,549
+starlight away from it,
+sunlight away from it,
+
+595
+00:24:11,582 --> 00:24:13,685
+and that's the only
+ heat source going on.
+
+596
+00:24:13,718 --> 00:24:14,853
+Then down at the
+  bottom, actually,
+
+597
+00:24:14,886 --> 00:24:16,354
+is all the warm electronics,
+
+598
+00:24:16,387 --> 00:24:18,423
+so those are actually warm
+  because they're powered
+
+599
+00:24:18,456 --> 00:24:20,758
+and there's things like
+heaters and computers
+
+600
+00:24:20,791 --> 00:24:22,293
+and stuff that
+ keep it pretty hot.
+
+601
+00:24:22,326 --> 00:24:24,162
+In the back, there
+ are two star trackers,
+
+602
+00:24:24,195 --> 00:24:27,131
+which help Spitzer tell
+  itself where it's pointed,
+
+603
+00:24:27,164 --> 00:24:28,633
+'cause that's very important.
+
+604
+00:24:28,666 --> 00:24:30,635
+If you wanna look at
+ something you wanna make sure
+
+605
+00:24:30,668 --> 00:24:32,971
+you can actually point
+ the telescope to it.
+
+606
+00:24:33,004 --> 00:24:35,807
+So this passive
+ cooling is the thing
+
+607
+00:24:35,840 --> 00:24:37,876
+that allowed Spitzer
+ to keep going,
+
+608
+00:24:37,909 --> 00:24:41,079
+'cause even after we ran
+  out of the tank of helium,
+
+609
+00:24:41,946 --> 00:24:43,515
+it's still very cold.
+
+610
+00:24:44,549 --> 00:24:45,984
+Before, what it also did,
+
+611
+00:24:46,017 --> 00:24:48,319
+is allowed us to keep
+  that tank of helium small,
+
+612
+00:24:48,352 --> 00:24:50,588
+because we didn't have to
+  cool the whole telescope
+
+613
+00:24:50,621 --> 00:24:52,991
+as much as you would if it
+  wasn't passively cooled,
+
+614
+00:24:53,024 --> 00:24:56,194
+and it also allowed us to
+ adaptively cool the telescope.
+
+615
+00:24:56,227 --> 00:24:58,062
+So we had a tank of helium,
+
+616
+00:24:58,095 --> 00:24:59,864
+and then we'd had
+  a little heater.
+
+617
+00:24:59,897 --> 00:25:01,399
+So it's kind of
+  counter intuitive.
+
+618
+00:25:01,432 --> 00:25:04,035
+You heat the helium, you allow
+ it to pass through a tube,
+
+619
+00:25:04,068 --> 00:25:06,037
+and then that tube,
+ the helium goes up
+
+620
+00:25:06,070 --> 00:25:10,542
+and it cools the mirror, so
+ the more you heat the tank,
+
+621
+00:25:10,575 --> 00:25:11,943
+the more helium flows through,
+
+622
+00:25:11,976 --> 00:25:13,244
+so when we're doing the longest
+
+623
+00:25:13,277 --> 00:25:15,179
+wavelength
+observations with MIPS,
+
+624
+00:25:15,212 --> 00:25:18,116
+we cool the mirror more, because
+the longer the wavelength,
+
+625
+00:25:18,149 --> 00:25:19,885
+the colder you want
+ your telescope.
+
+626
+00:25:22,219 --> 00:25:23,421
+Okay.
+
+627
+00:25:23,454 --> 00:25:26,324
+The one downside to this
+Earth trailing orbit,
+
+628
+00:25:26,357 --> 00:25:29,227
+is that Spitzer is getting
+ farther away from the Earth
+
+629
+00:25:29,260 --> 00:25:31,563
+every year, and that's
+complicating things now,
+
+630
+00:25:31,596 --> 00:25:34,365
+because we're way
+ beyond how far away
+
+631
+00:25:34,398 --> 00:25:36,200
+we thought we would
+ be from the Earth.
+
+632
+00:25:36,233 --> 00:25:37,936
+So the Earth's down
+ here, and every year,
+
+633
+00:25:37,969 --> 00:25:39,537
+Spitzer will recede
+ further and further,
+
+634
+00:25:39,570 --> 00:25:42,674
+so in April, 2006, which
+was, that was our goal,
+
+635
+00:25:42,707 --> 00:25:43,942
+if we got that, we were happy.
+
+636
+00:25:43,975 --> 00:25:46,210
+Spitzer was gonna
+  be that far away.
+
+637
+00:25:46,243 --> 00:25:49,213
+When we ran out of coolant
+ and started the warm mission,
+
+638
+00:25:49,246 --> 00:25:50,982
+it was this far away,
+ and here are now,
+
+639
+00:25:51,015 --> 00:25:52,450
+almost toward the
+  15th anniversary,
+
+640
+00:25:52,483 --> 00:25:56,921
+it's 1.6 astronomical
+  units away from the Earth,
+
+641
+00:25:56,954 --> 00:25:58,923
+so it's further
+ away from the Earth
+
+642
+00:25:58,956 --> 00:26:01,559
+than either Spitzer or the Earth
+
+643
+00:26:01,592 --> 00:26:03,227
+is away from the sun.
+
+644
+00:26:03,260 --> 00:26:06,731
+And running to a problem
+  now, because of geometry,
+
+645
+00:26:06,764 --> 00:26:10,034
+because we keep the solar rays
+ pointed at the sun to power,
+
+646
+00:26:10,067 --> 00:26:13,204
+but we have to point, let
+ me just go back a second...
+
+647
+00:26:13,237 --> 00:26:15,139
+I can go back a second?
+Yes.
+
+648
+00:26:15,172 --> 00:26:17,575
+At the bottom here,
+that's the antennae that
+
+649
+00:26:17,608 --> 00:26:19,644
+we have to point back to
+ Earth to get the data down,
+
+650
+00:26:19,677 --> 00:26:21,546
+so you can take all
+ the data you want,
+
+651
+00:26:21,579 --> 00:26:24,148
+but if you don't get it
+down to the astronomers,
+
+652
+00:26:24,181 --> 00:26:26,217
+then you got a lot
+ of grumpy astronomers
+
+653
+00:26:26,250 --> 00:26:27,285
+and no good science.
+
+654
+00:26:28,386 --> 00:26:29,821
+So now, every time we do this,
+
+655
+00:26:29,854 --> 00:26:31,923
+I'm gonna put this stuff down
+ for a second, so I can...
+
+656
+00:26:31,956 --> 00:26:35,360
+So, we gotta keep the solar
+ rays pointed to the sun,
+
+657
+00:26:35,393 --> 00:26:37,028
+and then the Earth's
+ off to the side,
+
+658
+00:26:37,061 --> 00:26:38,730
+so we point the antennae...
+
+659
+00:26:39,563 --> 00:26:40,598
+Which is my elbow here,
+
+660
+00:26:40,631 --> 00:26:42,734
+to the Earth, but as we do that,
+
+661
+00:26:42,767 --> 00:26:45,136
+as we get further and
+ further away from the Earth,
+
+662
+00:26:45,169 --> 00:26:46,371
+and you'll just kinda...
+
+663
+00:26:46,404 --> 00:26:48,406
+you guys can puzzle
+ this out as you...
+
+664
+00:26:48,439 --> 00:26:52,010
+We have to point the
+ telescope further away
+
+665
+00:26:52,043 --> 00:26:54,245
+from pointing the
+  solar rays so that
+
+666
+00:26:54,278 --> 00:26:57,015
+the sunlight hits it
+ at a 90 degree angle.
+
+667
+00:26:57,048 --> 00:26:59,751
+And when we do that, the
+ solar rays get less efficient,
+
+668
+00:26:59,784 --> 00:27:01,552
+just like the solar
+ rays on your roof
+
+669
+00:27:01,585 --> 00:27:02,887
+would get less
+ efficient, you know,
+
+670
+00:27:02,920 --> 00:27:04,822
+depending upon the
+  angle of incidence
+
+671
+00:27:04,855 --> 00:27:08,560
+of the light of the sun as
+ it, you know, rises and sets.
+
+672
+00:27:09,593 --> 00:27:11,029
+And that's a
+ problem, because now,
+
+673
+00:27:11,062 --> 00:27:13,398
+when we're downlinking data,
+ we're at the point now,
+
+674
+00:27:13,431 --> 00:27:17,969
+we've reached the point
+  actually, in 2013, where,
+
+675
+00:27:18,002 --> 00:27:19,404
+no actually, no, it was a
+ little bit further, I'm sorry,
+
+676
+00:27:19,437 --> 00:27:23,474
+when we get towards 2016,
+we're no longer power positive.
+
+677
+00:27:23,507 --> 00:27:26,344
+We don't get enough
+ light from the sun,
+
+678
+00:27:26,377 --> 00:27:30,648
+when we're downlinking
+data, to power Spitzer,
+
+679
+00:27:30,681 --> 00:27:32,717
+but fortunately,
+ Spitzer has a battery,
+
+680
+00:27:32,750 --> 00:27:35,219
+which gets charged, usually,
+when the sunlight's hitting it,
+
+681
+00:27:35,252 --> 00:27:37,255
+but now we're draining the
+  battery during downlinks,
+
+682
+00:27:37,288 --> 00:27:39,557
+and that means we can
+only spend so much time
+
+683
+00:27:39,590 --> 00:27:42,627
+during downlink because we
+ can't drain the battery fully,
+
+684
+00:27:42,660 --> 00:27:44,095
+because then, Spitzer dies.
+
+685
+00:27:44,128 --> 00:27:45,863
+So there's a finite
+ amount of time
+
+686
+00:27:45,896 --> 00:27:47,532
+that we can spend
+  downlinking data,
+
+687
+00:27:47,565 --> 00:27:50,234
+and that's getting less
+and less each year.
+
+688
+00:27:50,267 --> 00:27:52,003
+Upshot of that, means
+ that we can take
+
+689
+00:27:52,036 --> 00:27:54,472
+less and less science
+ data each year,
+
+690
+00:27:54,505 --> 00:27:57,642
+each time between downlinks,
+ because it's getting
+
+691
+00:27:57,675 --> 00:27:59,577
+harder and harder
+  to communicate.
+
+692
+00:27:59,610 --> 00:28:01,946
+There's also some things
+ with things like sun sensors,
+
+693
+00:28:01,979 --> 00:28:03,614
+which tell us how close
+to the sun we are,
+
+694
+00:28:03,647 --> 00:28:06,050
+and during downlinks, we
+ have to turn those off now.
+
+695
+00:28:06,083 --> 00:28:08,653
+Which engineers don't
+ like to turn off
+
+696
+00:28:08,686 --> 00:28:10,354
+things that help keep you safe
+
+697
+00:28:10,387 --> 00:28:11,723
+and keep you from
+ pointing to the sun,
+
+698
+00:28:11,756 --> 00:28:14,426
+but they weren't useful anymore.
+
+699
+00:28:15,626 --> 00:28:17,228
+Okay, so now, here's a
+ little bit of science.
+
+700
+00:28:17,261 --> 00:28:20,932
+This is science of the
+ plane of our galaxy,
+
+701
+00:28:20,965 --> 00:28:24,836
+and what you're gonna see
+  here, is a map with IRAC,
+
+702
+00:28:24,869 --> 00:28:27,004
+of pretty much the entire
+  plane of our galaxy,
+
+703
+00:28:27,037 --> 00:28:28,806
+and I'm not going
+  to show it all.
+
+704
+00:28:28,839 --> 00:28:32,276
+And what you're seeing is,
+  so, as it's going through,
+
+705
+00:28:32,309 --> 00:28:34,712
+we're seeing the plane, because
+remember, The Milky, okay.
+
+706
+00:28:34,745 --> 00:28:37,048
+First, we're seeing the
+galactic center in the infrared,
+
+707
+00:28:37,081 --> 00:28:38,516
+which you can see the
+ center of the galaxy,
+
+708
+00:28:38,549 --> 00:28:41,219
+where in the visible light,
+ it's entirely opaque,
+
+709
+00:28:41,252 --> 00:28:43,321
+and you see a lot of
+emissions, there's my favorite,
+
+710
+00:28:43,354 --> 00:28:45,323
+snakes going whizzing by us.
+
+711
+00:28:46,724 --> 00:28:49,393
+And what we're looking
+at, is we're in the disc
+
+712
+00:28:49,426 --> 00:28:50,295
+of the Milky Way.
+
+713
+00:28:51,495 --> 00:28:54,398
+And so, our galaxy is
+ seeing edge on to us,
+
+714
+00:28:54,431 --> 00:28:56,267
+so when we look at
+  the entire galaxy,
+
+715
+00:28:56,300 --> 00:28:57,769
+it's a strip in the sky.
+
+716
+00:28:57,802 --> 00:28:59,003
+If you look up in
+  a really dark sky,
+
+717
+00:28:59,036 --> 00:29:01,005
+you see the Milky Way, you know,
+
+718
+00:29:01,038 --> 00:29:04,041
+a glowing band of light, and
+ it's dark in some places,
+
+719
+00:29:04,074 --> 00:29:06,344
+which is where you have the
+ dust that's obscuring it.
+
+720
+00:29:06,377 --> 00:29:07,812
+Well, you're seeing
+ the dust now,
+
+721
+00:29:07,845 --> 00:29:09,380
+and you're seeing
+ the stars behind it.
+
+722
+00:29:09,413 --> 00:29:11,516
+In fact, in the infrared light,
+
+723
+00:29:11,549 --> 00:29:14,252
+you're seeing more stars than
+ you can see in visible light,
+
+724
+00:29:14,285 --> 00:29:17,522
+because of all that gas
+and dust between us.
+
+725
+00:29:17,555 --> 00:29:19,357
+And you'll see something,
+  objects that are red,
+
+726
+00:29:19,390 --> 00:29:22,527
+you'll see bubbles,
+where stars that are hot
+
+727
+00:29:22,560 --> 00:29:25,363
+have blown the gas and
+ dust away from them,
+
+728
+00:29:25,396 --> 00:29:27,431
+that's a kind of
+common feature you see.
+
+729
+00:29:27,464 --> 00:29:29,066
+This is a star
+ forming region here,
+
+730
+00:29:29,099 --> 00:29:31,202
+we see all these
+ pillars and chimneys,
+
+731
+00:29:31,235 --> 00:29:35,506
+as the mass of stars are born
+ they carve out the material
+
+732
+00:29:35,539 --> 00:29:38,142
+into structures which you'll
+ see repeated over and over,
+
+733
+00:29:38,175 --> 00:29:40,478
+and then as we get
+  towards the outer galaxy,
+
+734
+00:29:40,511 --> 00:29:42,180
+you don't see much
+ of anything at all,
+
+735
+00:29:42,213 --> 00:29:45,616
+because most of the action
+ is going towards the center.
+
+736
+00:29:45,649 --> 00:29:47,685
+But basically, in this
+image, if I let it play,
+
+737
+00:29:47,718 --> 00:29:49,654
+and I'm not gonna go
+ all the way through,
+
+738
+00:29:49,687 --> 00:29:54,458
+90% of all the stars in the
+ galaxy are in this strip.
+
+739
+00:29:54,491 --> 00:29:56,327
+And most of the
+ material that stars
+
+740
+00:29:56,360 --> 00:29:58,029
+are made out of is in the strip.
+
+741
+00:29:58,062 --> 00:30:00,331
+There's plenty of
+ other material around,
+
+742
+00:30:00,364 --> 00:30:03,367
+but most of the action
+  is in a very narrow band,
+
+743
+00:30:03,400 --> 00:30:05,269
+which we call the Milky
+Way, it's our edge,
+
+744
+00:30:05,302 --> 00:30:08,472
+that's the, you know, we're
+ seeing our galaxy edge on.
+
+745
+00:30:08,505 --> 00:30:09,941
+And what we're able
+ to do with Spitzer,
+
+746
+00:30:09,974 --> 00:30:13,511
+with its infrared eyes, is
+ look at all the stars in that.
+
+747
+00:30:15,112 --> 00:30:17,815
+And when we did it,
+ we're able to come up
+
+748
+00:30:17,848 --> 00:30:19,750
+with an idea what the
+ galaxy looks like,
+
+749
+00:30:19,783 --> 00:30:21,986
+so this is an excellent
+artist concept,
+
+750
+00:30:22,019 --> 00:30:24,222
+by one of my
+colleagues, Robert Hurt.
+
+751
+00:30:24,255 --> 00:30:26,991
+All the graphics you see, or
+ pretty much all the graphics,
+
+752
+00:30:27,024 --> 00:30:28,860
+Robert and his colleague
+Tim Pile have made,
+
+753
+00:30:28,893 --> 00:30:30,995
+they're fantastic in that.
+
+754
+00:30:31,028 --> 00:30:33,197
+They're able to do
+  scientific visualization,
+
+755
+00:30:33,230 --> 00:30:35,733
+which is scientifically
+ accurate for the most part,
+
+756
+00:30:35,766 --> 00:30:39,203
+and I'll tell you when
+it isn't, if I remember.
+
+757
+00:30:39,236 --> 00:30:41,839
+But it also is pretty
+ pleasing to the eye.
+
+758
+00:30:41,872 --> 00:30:43,441
+So this is our
+  best understanding
+
+759
+00:30:43,474 --> 00:30:45,610
+of what the Milky
+  Way looks like.
+
+760
+00:30:45,643 --> 00:30:48,179
+Based on mapping stars as seen
+
+761
+00:30:48,212 --> 00:30:49,914
+with Spitzer in the infrared.
+
+762
+00:30:49,947 --> 00:30:52,083
+We used a very particular
+  type of star in this case,
+
+763
+00:30:52,116 --> 00:30:53,985
+something called
+  a Red Clump Giant,
+
+764
+00:30:54,018 --> 00:30:54,952
+where you know what
+the brightness
+
+765
+00:30:54,985 --> 00:30:56,754
+of that star
+should be,
+
+766
+00:30:56,787 --> 00:30:58,890
+so if you know the
+ brightness of the star
+
+767
+00:30:58,923 --> 00:31:00,491
+and you see how...
+
+768
+00:31:00,524 --> 00:31:03,261
+You see the brightness
+ you measure,
+
+769
+00:31:03,294 --> 00:31:06,297
+then you can determine how far
+ away it is, because you know,
+
+770
+00:31:06,330 --> 00:31:09,700
+every distance that a
+  star moves away from you,
+
+771
+00:31:09,733 --> 00:31:11,602
+if it's twice as far
+ away its brightness
+
+772
+00:31:11,635 --> 00:31:13,004
+drops by a factor of four.
+
+773
+00:31:13,037 --> 00:31:14,639
+So you can actually
+figure out the distance
+
+774
+00:31:14,672 --> 00:31:16,841
+by measuring how
+  bright a star is,
+
+775
+00:31:16,874 --> 00:31:18,976
+if you know what the
+ brightness should be.
+
+776
+00:31:19,009 --> 00:31:20,444
+It's a standard candle.
+
+777
+00:31:20,477 --> 00:31:22,046
+And we can see
+  most of the stars,
+
+778
+00:31:22,079 --> 00:31:25,116
+because we're looking
+  through the gas and dust.
+
+779
+00:31:25,149 --> 00:31:27,785
+But not quite, so this
+  is a great artist concept
+
+780
+00:31:27,818 --> 00:31:29,453
+and it's showing us,
+ so we're like, here.
+
+781
+00:31:29,486 --> 00:31:31,255
+This is where the Earth is,
+
+782
+00:31:31,288 --> 00:31:34,258
+kind of in between two spiral
+ arms, we got a nice structure,
+
+783
+00:31:34,291 --> 00:31:37,962
+and we can see to the bar
+ in the center of the galaxy.
+
+784
+00:31:37,995 --> 00:31:41,799
+It doesn't serve alcohol,
+  it's just a bar of stars,
+
+785
+00:31:41,832 --> 00:31:44,101
+but what's going on in
+the back, we don't know.
+
+786
+00:31:44,134 --> 00:31:45,503
+That's kind of
+ conjecture actually,
+
+787
+00:31:45,536 --> 00:31:47,538
+because we can only see
+so far with Spitzer,
+
+788
+00:31:47,571 --> 00:31:50,708
+we can see to about, like this.
+
+789
+00:31:50,741 --> 00:31:53,978
+And the reason is, there's so
+ many stars, it's so crowded,
+
+790
+00:31:54,011 --> 00:31:57,114
+that you need a bigger
+telescope with higher resolution
+
+791
+00:31:57,147 --> 00:31:59,850
+to be able to look to the
+  far side of the galaxy.
+
+792
+00:31:59,883 --> 00:32:02,586
+Which is something that a
+ new mission, called WFIRST,
+
+793
+00:32:02,619 --> 00:32:05,323
+which is in the planning
+ stages, should be able to do.
+
+794
+00:32:05,356 --> 00:32:07,224
+If we point it at our Milky Way,
+
+795
+00:32:07,257 --> 00:32:08,693
+we'll be able to
+  map the structure
+
+796
+00:32:08,726 --> 00:32:11,396
+of the entire galaxy,
+  which is pretty fantastic.
+
+797
+00:32:13,464 --> 00:32:15,433
+Okay, so that brings
+ us to the next,
+
+798
+00:32:15,466 --> 00:32:16,901
+and this is something
+ we never thought
+
+799
+00:32:16,934 --> 00:32:18,135
+we would do at Spitzer.
+
+800
+00:32:18,168 --> 00:32:19,603
+Because usually, when you do it,
+
+801
+00:32:19,636 --> 00:32:22,807
+you build an observatory,
+  a science observatory,
+
+802
+00:32:22,840 --> 00:32:24,208
+you come up with a science case,
+
+803
+00:32:24,241 --> 00:32:26,711
+and then you design
+ the telescope
+
+804
+00:32:26,744 --> 00:32:28,980
+and the instruments to
+  support that science case,
+
+805
+00:32:29,013 --> 00:32:30,881
+so you can do the
+science you want it to.
+
+806
+00:32:30,914 --> 00:32:32,817
+And Spitzer had that
+ and had four goals,
+
+807
+00:32:32,850 --> 00:32:34,652
+and to be honest, I can't
+ remember what they are now,
+
+808
+00:32:34,685 --> 00:32:36,053
+they were all very
+  exciting, though.
+
+809
+00:32:36,086 --> 00:32:37,722
+And we were able to do them all.
+
+810
+00:32:37,755 --> 00:32:40,725
+But one of the things we
+did not have as a goal,
+
+811
+00:32:40,758 --> 00:32:43,694
+was to study exoplanets,
+ mainly because there was like,
+
+812
+00:32:43,727 --> 00:32:45,563
+one exoplanet that
+  was discovered
+
+813
+00:32:45,596 --> 00:32:47,398
+when Spitzer was getting built,
+
+814
+00:32:47,431 --> 00:32:50,234
+and we did not know
+ that we'd be able
+
+815
+00:32:50,267 --> 00:32:52,403
+to learn about
+exoplanets with Spitzer.
+
+816
+00:32:52,436 --> 00:32:54,772
+And it ends up, though,
+Spitzer is a fantastic
+
+817
+00:32:54,805 --> 00:32:57,708
+observatory to learn
+ about exoplanets.
+
+818
+00:32:57,741 --> 00:32:59,276
+The types of exoplanets we
+  learn about with Spitzer,
+
+819
+00:32:59,309 --> 00:33:02,079
+there's several different
+ ways you can study exoplanets,
+
+820
+00:33:02,112 --> 00:33:04,849
+one is, if it's far
+  enough away from its star,
+
+821
+00:33:04,882 --> 00:33:09,120
+and its mass big enough,
+like a super Jupiter,
+
+822
+00:33:09,153 --> 00:33:10,588
+you could directly image it.
+
+823
+00:33:10,621 --> 00:33:14,091
+And there's a few planets that
+ have been imaged that way.
+
+824
+00:33:14,124 --> 00:33:18,562
+Another way, is by looking
+  at the spectra of the star
+
+825
+00:33:18,595 --> 00:33:20,898
+and all the spectra
+ for stars have...
+
+826
+00:33:22,266 --> 00:33:25,736
+lines, like sodium
+  vapor lamps, in,
+
+827
+00:33:25,769 --> 00:33:27,838
+street lamps,
+ actually, have lines,
+
+828
+00:33:27,871 --> 00:33:29,673
+if you were to
+ point a spectrometer
+
+829
+00:33:29,706 --> 00:33:32,309
+which breaks the light up into
+ its different wavelengths,
+
+830
+00:33:32,342 --> 00:33:34,378
+or a prism will do that for you.
+
+831
+00:33:34,411 --> 00:33:37,615
+And what you see
+ with a spectrometer,
+
+832
+00:33:37,648 --> 00:33:40,551
+is that those lines
+will move back and forth
+
+833
+00:33:40,584 --> 00:33:42,987
+because the star's getting
+  tugged by something.
+
+834
+00:33:43,020 --> 00:33:45,589
+So if a planet's around it
+  and it's in a right orbit,
+
+835
+00:33:45,622 --> 00:33:48,025
+and it's massive enough,
+  it'll tug the star enough
+
+836
+00:33:48,058 --> 00:33:51,429
+that you can actually
+ measure that motion.
+
+837
+00:33:51,462 --> 00:33:53,597
+Just like police
+officers measure
+
+838
+00:33:53,630 --> 00:33:55,366
+our motion with a radar gun.
+
+839
+00:33:55,399 --> 00:33:57,668
+It's a very similar
+  thing, they're doing the,
+
+840
+00:33:57,701 --> 00:34:00,237
+they're using a doppler
+shift with your car.
+
+841
+00:34:00,270 --> 00:34:04,575
+You can also do that with
+  emission lines from stars,
+
+842
+00:34:04,608 --> 00:34:07,178
+if they're getting
+ tugged by a planet,
+
+843
+00:34:07,211 --> 00:34:09,046
+and that's another
+ technique that's done.
+
+844
+00:34:09,079 --> 00:34:10,347
+Spitzer doesn't do
+  either of those,
+
+845
+00:34:10,380 --> 00:34:12,216
+it does something,
+ one thing very well,
+
+846
+00:34:12,249 --> 00:34:14,318
+it looks for
+ transiting exoplanets.
+
+847
+00:34:14,351 --> 00:34:16,320
+So these are planets
+ just by geometry,
+
+848
+00:34:16,353 --> 00:34:18,222
+we're just lucky enough,
+there's the planets
+
+849
+00:34:18,255 --> 00:34:21,392
+orbiting around its
+ star, as we see it.
+
+850
+00:34:21,425 --> 00:34:23,627
+So here's the star,
+ planet goes around,
+
+851
+00:34:23,660 --> 00:34:25,863
+and then goes in
+  front of the star.
+
+852
+00:34:25,896 --> 00:34:28,466
+Like this, and then what
+happens is that planet
+
+853
+00:34:28,499 --> 00:34:30,167
+blocks out a portion
+ of the star light,
+
+854
+00:34:30,200 --> 00:34:32,570
+because the planet isn't
+brighter than the star,
+
+855
+00:34:32,603 --> 00:34:33,771
+and that's what we see here.
+
+856
+00:34:33,804 --> 00:34:36,273
+So if we're looking
+here, so this is a plot,
+
+857
+00:34:36,306 --> 00:34:38,176
+as a function of
+  time essentially.
+
+858
+00:34:39,576 --> 00:34:42,746
+Actually time measured in units
+of the year of that planet,
+
+859
+00:34:42,779 --> 00:34:44,715
+that's what this
+ orbital phase means.
+
+860
+00:34:44,748 --> 00:34:47,418
+And then you see this dip here,
+so this is the star light,
+
+861
+00:34:47,451 --> 00:34:49,320
+and all of a sudden,
+ it goes, "dup", drops.
+
+862
+00:34:49,353 --> 00:34:52,089
+Because the planet's blocking
+ out some of the star light.
+
+863
+00:34:52,122 --> 00:34:54,425
+It's not a very big dip,
+if you can read this,
+
+864
+00:34:54,458 --> 00:34:59,230
+it's like one, and this is .975,
+it's only a couple percent,
+
+865
+00:34:59,263 --> 00:35:02,099
+because the planet is much
+  smaller than the star.
+
+866
+00:35:02,132 --> 00:35:04,135
+But the size of that
+ dip tells us the size
+
+867
+00:35:04,168 --> 00:35:05,469
+of the planet relative the star,
+
+868
+00:35:05,502 --> 00:35:07,271
+so if you know the
+  size of the star,
+
+869
+00:35:07,304 --> 00:35:09,974
+and astronomers can figure out
+ sizes of stars pretty well,
+
+870
+00:35:10,007 --> 00:35:11,475
+you know what the
+ size of the planet is,
+
+871
+00:35:11,508 --> 00:35:14,512
+just by watching it go
+ in front of the star.
+
+872
+00:35:14,545 --> 00:35:16,680
+Then, as the planet
+ goes around the star,
+
+873
+00:35:16,713 --> 00:35:18,682
+now we look at the bottom
+  graph here, so this
+
+874
+00:35:18,715 --> 00:35:20,918
+is the same plot, but
+ we've zoomed it in,
+
+875
+00:35:20,951 --> 00:35:22,153
+so you don't see the
+ depth of the transit,
+
+876
+00:35:22,186 --> 00:35:24,889
+gonna be down through
+ the floor here,
+
+877
+00:35:24,922 --> 00:35:26,757
+but you see two more dips...
+
+878
+00:35:28,158 --> 00:35:30,528
+Which are when the planet
+  goes behind the star,
+
+879
+00:35:30,561 --> 00:35:32,163
+because we're looking
+ at the infrared,
+
+880
+00:35:32,196 --> 00:35:35,132
+the planet's fairly warm, so
+ it's glowing in its own light,
+
+881
+00:35:35,165 --> 00:35:36,667
+and when that day
+  side of the planet
+
+882
+00:35:36,700 --> 00:35:39,971
+goes behind the star, you lose
+ the light from the planet.
+
+883
+00:35:41,405 --> 00:35:43,374
+So, since you already know
+  the size of the planet,
+
+884
+00:35:44,508 --> 00:35:46,210
+you can measure the
+ size of the dip,
+
+885
+00:35:46,243 --> 00:35:47,845
+then you can figure
+ out the temperature
+
+886
+00:35:47,878 --> 00:35:50,147
+of this day side of the planet.
+
+887
+00:35:50,180 --> 00:35:52,683
+Based on the amount of
+ light that you've lost
+
+888
+00:35:52,716 --> 00:35:55,619
+from the planet when it
+goes behind the star.
+
+889
+00:35:55,652 --> 00:35:57,755
+And now, most of
+all the planets,
+
+890
+00:35:57,788 --> 00:36:01,192
+we study with this
+ transiting exoplanet, are ...
+
+891
+00:36:02,759 --> 00:36:05,629
+Are tidally locked to their
+ star, they're orbiting
+
+892
+00:36:05,662 --> 00:36:07,431
+close enough to their stars,
+ usually, because otherwise,
+
+893
+00:36:07,464 --> 00:36:10,334
+it would take a really
+ long time to see a transit,
+
+894
+00:36:11,868 --> 00:36:14,972
+that they always
+ show the same face,
+
+895
+00:36:15,005 --> 00:36:17,041
+the planet shows the
+ same face to the star,
+
+896
+00:36:17,074 --> 00:36:18,275
+it's sort of like the moon,
+
+897
+00:36:18,308 --> 00:36:19,743
+we only see one
+  face of the moon,
+
+898
+00:36:19,776 --> 00:36:23,414
+as the moon orbits the
+Earth, it also rotates,
+
+899
+00:36:23,447 --> 00:36:25,349
+but it keeps the same
+ face facing the Earth,
+
+900
+00:36:25,382 --> 00:36:26,917
+because it's
+ orbiting very close,
+
+901
+00:36:26,950 --> 00:36:28,819
+these planets do the same thing.
+
+902
+00:36:28,852 --> 00:36:31,188
+So, when it's going
+ around the orbit,
+
+903
+00:36:31,221 --> 00:36:34,725
+we see the dark
+ side, the back side,
+
+904
+00:36:34,758 --> 00:36:38,596
+of the planet in transit,
+ and then as it goes around,
+
+905
+00:36:38,629 --> 00:36:40,231
+we see more and more
+ of the day side,
+
+906
+00:36:40,264 --> 00:36:41,832
+and that's what
+ you're seeing here.
+
+907
+00:36:41,865 --> 00:36:44,501
+So you see the day
+ side, you see the dip,
+
+908
+00:36:44,534 --> 00:36:46,370
+do it going behind the star,
+
+909
+00:36:46,403 --> 00:36:48,439
+which is when you
+ have no planet at all,
+
+910
+00:36:48,472 --> 00:36:50,741
+and then you see
+  the smooth curve,
+
+911
+00:36:50,774 --> 00:36:54,144
+as it goes from day to night.
+
+912
+00:36:54,177 --> 00:36:56,413
+And then finally, it
+  transits and you block out
+
+913
+00:36:56,446 --> 00:36:59,316
+some of the star, so
+that changes everything.
+
+914
+00:36:59,349 --> 00:37:01,585
+Now, going from day to
+ night, tells you about
+
+915
+00:37:01,618 --> 00:37:05,189
+the temperature difference
+between the day and night side.
+
+916
+00:37:05,222 --> 00:37:07,157
+And if you don't see any
+temperature difference
+
+917
+00:37:07,190 --> 00:37:09,159
+between day and night, then
+ it tells you that something
+
+918
+00:37:09,192 --> 00:37:11,662
+has to transport energy
+from the day side,
+
+919
+00:37:11,695 --> 00:37:14,131
+where the sunlight's hitting
+ it, to the night side.
+
+920
+00:37:15,866 --> 00:37:18,569
+And even if it doesn't,
+if it's moving,
+
+921
+00:37:18,602 --> 00:37:20,070
+you know, you see
+  some difference,
+
+922
+00:37:20,103 --> 00:37:22,273
+it tells you about how
+ energy's transported
+
+923
+00:37:22,306 --> 00:37:24,008
+from the day side
+  to the night side.
+
+924
+00:37:24,041 --> 00:37:25,676
+So this is a way
+ of telling us about
+
+925
+00:37:25,709 --> 00:37:29,413
+the atmosphere and
+ the winds on planets.
+
+926
+00:37:29,446 --> 00:37:32,082
+So we can actually say
+ something about winds
+
+927
+00:37:32,115 --> 00:37:33,917
+and planets around other stars,
+
+928
+00:37:33,950 --> 00:37:35,986
+just by looking at the
+light curve of the star.
+
+929
+00:37:36,019 --> 00:37:37,421
+So you have to remember here,
+
+930
+00:37:37,454 --> 00:37:38,989
+none of this do we actually
+ see the planet, right,
+
+931
+00:37:39,022 --> 00:37:41,625
+we're not resolving the
+ planet relative to its star,
+
+932
+00:37:41,658 --> 00:37:45,195
+we're just seeing the change
+ in brightness of the star,
+
+933
+00:37:45,228 --> 00:37:47,031
+when a planet passes
+ in front of it.
+
+934
+00:37:48,598 --> 00:37:50,567
+Okay, but Spitzer wasn't
+designed to do that,
+
+935
+00:37:50,600 --> 00:37:52,102
+so we had to do some tricks,
+
+936
+00:37:52,135 --> 00:37:55,205
+because when we tried to do
+ this, what we found out...
+
+937
+00:37:55,238 --> 00:37:57,541
+I'll go a little bit
+quick because it's so...
+
+938
+00:37:57,574 --> 00:38:00,177
+This is a plot made by my
+  colleague, Jim Ingalls.
+
+939
+00:38:00,210 --> 00:38:02,646
+Is that if we measure
+  the brightness of a star,
+
+940
+00:38:02,679 --> 00:38:05,883
+on a part of the
+ camera for Spitzer,
+
+941
+00:38:05,916 --> 00:38:07,184
+it's brighter in one spot,
+
+942
+00:38:07,217 --> 00:38:09,353
+that's what the
+ purplish number means,
+
+943
+00:38:09,386 --> 00:38:11,789
+and then as we go down to
+ white, it gets less bright.
+
+944
+00:38:11,822 --> 00:38:14,591
+And this changes
+  by a few percent.
+
+945
+00:38:14,624 --> 00:38:18,629
+Which, if we go back and
+look at this HD189733,
+
+946
+00:38:18,662 --> 00:38:20,831
+there's only a couple
+percent for the transit,
+
+947
+00:38:20,864 --> 00:38:23,967
+and for the eclipses,
+  it's much less than that.
+
+948
+00:38:24,000 --> 00:38:28,038
+So we're trying to measure
+  very small changes here,
+
+949
+00:38:28,071 --> 00:38:30,841
+with a camera where,
+ just the fact that
+
+950
+00:38:30,874 --> 00:38:35,045
+a star's here instead of
+  here, it's a huge change.
+
+951
+00:38:35,078 --> 00:38:37,247
+And this is only one pixel of
+ the camera, so what we do now,
+
+952
+00:38:37,280 --> 00:38:41,752
+is we hold the star
+ steady on the camera,
+
+953
+00:38:41,785 --> 00:38:43,654
+but just like my hand,
+  and of course I'm nervous,
+
+954
+00:38:43,687 --> 00:38:45,155
+which is why my
+  hand's jittering,
+
+955
+00:38:45,188 --> 00:38:47,358
+but the spacecraft
+  wobbles because we didn't
+
+956
+00:38:47,391 --> 00:38:48,892
+design it not to do that, right,
+
+957
+00:38:48,925 --> 00:38:51,462
+because there's no reason
+  to have it point that well
+
+958
+00:38:51,495 --> 00:38:54,231
+to do all the things that
+ Spitzer was supposed to do,
+
+959
+00:38:54,264 --> 00:38:56,100
+and then, so all scientists
+ said to the engineers,
+
+960
+00:38:56,133 --> 00:38:58,969
+well, stop the wobble,
+and they said, we can't,
+
+961
+00:38:59,002 --> 00:39:02,373
+because it's part of the, you
+ know, we never designed it
+
+962
+00:39:02,406 --> 00:39:04,475
+to do that but they
+ could do some things.
+
+963
+00:39:05,675 --> 00:39:06,643
+Which I'll get to
+  in just a second,
+
+964
+00:39:06,676 --> 00:39:08,212
+so if we look at
+a light curve...
+
+965
+00:39:09,246 --> 00:39:10,981
+From another
+ transiting exoplanet,
+
+966
+00:39:11,014 --> 00:39:12,783
+and there's a transit
+ in here, actually,
+
+967
+00:39:12,816 --> 00:39:14,918
+there's an eclipse in here,
+ you'll have to believe me.
+
+968
+00:39:14,951 --> 00:39:16,487
+You see, you get these
+ percent variations,
+
+969
+00:39:16,520 --> 00:39:18,589
+and that's due to the
+wobble of the spacecraft
+
+970
+00:39:18,622 --> 00:39:21,058
+and the fact that the
+cameras aren't perfect.
+
+971
+00:39:22,859 --> 00:39:24,495
+The engineers figured
+ out a way to keep the,
+
+972
+00:39:24,528 --> 00:39:26,730
+and this is actually after
+  we cut the wobble down,
+
+973
+00:39:26,763 --> 00:39:28,932
+by stopping the
+ cycling of a battery.
+
+974
+00:39:28,965 --> 00:39:30,701
+I'm sorry, a heater
+ for a battery,
+
+975
+00:39:30,734 --> 00:39:32,936
+because we needed
+ to keep the battery
+
+976
+00:39:32,969 --> 00:39:36,140
+for Spitzer warm so
+ that it didn't freeze,
+
+977
+00:39:36,173 --> 00:39:38,041
+because you know, we
+  keep it passively cooled,
+
+978
+00:39:38,074 --> 00:39:40,944
+and ends up that heater
+would flip on and off,
+
+979
+00:39:40,977 --> 00:39:43,480
+and it would kind of shake
+ the telescope a little bit.
+
+980
+00:39:43,513 --> 00:39:44,848
+And then we're turn,
+ they've allowed us
+
+981
+00:39:44,881 --> 00:39:46,316
+to turn the heater setting down,
+
+982
+00:39:46,349 --> 00:39:48,318
+so it only shook, it shook
+  it a little bit less,
+
+983
+00:39:48,351 --> 00:39:49,620
+which was a good thing.
+
+984
+00:39:49,653 --> 00:39:51,321
+But it still shook it.
+
+985
+00:39:51,354 --> 00:39:52,923
+But then, going back just one,
+
+986
+00:39:52,956 --> 00:39:55,959
+knowing this map, so
+you know how it varies,
+
+987
+00:39:55,992 --> 00:39:59,196
+and seeing it vary,
+ you can take that out.
+
+988
+00:39:59,229 --> 00:40:01,465
+It's not magic, it's
+ data processing,
+
+989
+00:40:01,498 --> 00:40:03,367
+which leads you to science.
+
+990
+00:40:03,400 --> 00:40:05,536
+And folks like Jim
+  and Jessica Crick
+
+991
+00:40:05,569 --> 00:40:08,372
+are really good at doing this,
+ and people in the community,
+
+992
+00:40:08,405 --> 00:40:10,274
+and then okay, so you still
+ don't see the transit here
+
+993
+00:40:10,307 --> 00:40:11,809
+because the data's still noisy,
+
+994
+00:40:11,842 --> 00:40:13,811
+that's just normal
+ noise, so what you do,
+
+995
+00:40:13,844 --> 00:40:18,449
+is you add data together,
+  sum it up in average,
+
+996
+00:40:18,482 --> 00:40:20,818
+and then you can see
+the dip for the eclipse.
+
+997
+00:40:20,851 --> 00:40:24,621
+Which is, let's see, it's
+  like a tenth of a percent,
+
+998
+00:40:24,654 --> 00:40:26,724
+it's a very small fluctuation.
+
+999
+00:40:27,891 --> 00:40:29,526
+And then you can
+  fit a model to it,
+
+1000
+00:40:29,559 --> 00:40:32,863
+and that model helps tell
+  you about the brightness,
+
+1001
+00:40:32,896 --> 00:40:34,364
+the temperature of the planet,
+
+1002
+00:40:34,397 --> 00:40:37,168
+the day side temperature of
+ the planet at this wavelength.
+
+1003
+00:40:38,935 --> 00:40:40,170
+Okay.
+
+1004
+00:40:40,203 --> 00:40:41,271
+And that's what we
+  do with Spitzer,
+
+1005
+00:40:41,304 --> 00:40:42,773
+so the first
+detections of emission,
+
+1006
+00:40:42,806 --> 00:40:44,308
+thermal emission
+from exoplanets,
+
+1007
+00:40:44,341 --> 00:40:46,543
+was done by Spitzer,
+just like I've told you.
+
+1008
+00:40:46,576 --> 00:40:49,179
+And so that's by Dave
+ Charbonneau and Drake Deming,
+
+1009
+00:40:49,212 --> 00:40:50,581
+they did almost
+  at the same time,
+
+1010
+00:40:50,614 --> 00:40:52,783
+they had a joint press
+ release, it was very exciting,
+
+1011
+00:40:52,816 --> 00:40:54,084
+and these planets
+  are hot, right,
+
+1012
+00:40:54,117 --> 00:40:56,019
+they're thousands
+  of degrees Kelvin,
+
+1013
+00:40:56,052 --> 00:40:57,554
+because if they
+  weren't that hot,
+
+1014
+00:40:57,587 --> 00:40:59,456
+then they wouldn't emit
+  enough infrared radiation
+
+1015
+00:40:59,489 --> 00:41:01,091
+for Spitzer to be
+  able to see them,
+
+1016
+00:41:01,124 --> 00:41:02,359
+and this is commonplace now.
+
+1017
+00:41:02,392 --> 00:41:03,994
+So these are things
+ called hot Jupiters,
+
+1018
+00:41:04,027 --> 00:41:05,496
+they're about the
+  size of Jupiter,
+
+1019
+00:41:05,529 --> 00:41:08,398
+but they're in much closer to
+ their star than Jupiter is,
+
+1020
+00:41:08,431 --> 00:41:10,100
+they're more like in
+ the orbit of Mercury.
+
+1021
+00:41:10,133 --> 00:41:11,902
+So they get heated up,
+ a high temperature,
+
+1022
+00:41:11,935 --> 00:41:14,938
+and this is a class of planet
+ which we didn't know existed
+
+1023
+00:41:14,971 --> 00:41:17,808
+until Spitzer and Kepler
+started studying them.
+
+1024
+00:41:19,609 --> 00:41:20,844
+Okay.
+
+1025
+00:41:20,877 --> 00:41:22,880
+So then, actually,
+  and this was done
+
+1026
+00:41:22,913 --> 00:41:25,249
+before Spitzer ran out
+ of CryoSys in 2006,
+
+1027
+00:41:25,282 --> 00:41:27,685
+and then we ran out tank
+shortly, well, in 2009.
+
+1028
+00:41:29,619 --> 00:41:31,788
+So Spitzer heated up from
+  the 12 Kelvin we used
+
+1029
+00:41:31,821 --> 00:41:33,791
+to operate the
+telescope, to 28 Kelvin.
+
+1030
+00:41:34,791 --> 00:41:36,727
+And we knew that we
+could probably do this,
+
+1031
+00:41:36,760 --> 00:41:38,128
+so we know that.
+
+1032
+00:41:38,161 --> 00:41:39,897
+Two, we figured that
+ two of the cameras
+
+1033
+00:41:39,930 --> 00:41:41,331
+on one instrument still
+work, so this is IRAC
+
+1034
+00:41:41,364 --> 00:41:43,000
+and this is the
+ shortest wavelength
+
+1035
+00:41:43,033 --> 00:41:45,769
+the 3.6 and 4.5 micron cameras.
+
+1036
+00:41:45,802 --> 00:41:47,771
+And they'd work the
+same as they did before,
+
+1037
+00:41:47,804 --> 00:41:50,040
+and this is the
+ first image we took
+
+1038
+00:41:50,073 --> 00:41:51,475
+with them of a
+ star-forming region.
+
+1039
+00:41:51,508 --> 00:41:53,443
+I got to pick the region...
+
+1040
+00:41:53,476 --> 00:41:55,746
+I thought it looked
+pretty cool and it did.
+
+1041
+00:41:55,779 --> 00:41:58,482
+But, we'd never been
+ able to test this
+
+1042
+00:41:58,515 --> 00:42:00,717
+because we weren't allowed to
+ test the extended operations
+
+1043
+00:42:00,750 --> 00:42:02,686
+because, "Nah, you're
+  never gonna get that far."
+
+1044
+00:42:02,719 --> 00:42:04,421
+And when we dialed
+  in the numbers
+
+1045
+00:42:04,454 --> 00:42:07,591
+to set the temperatures and
+ everything, nothing worked.
+
+1046
+00:42:07,624 --> 00:42:11,261
+It was a total... we tried to
+ stabilize the temperatures,
+
+1047
+00:42:11,294 --> 00:42:15,198
+instead we railed the
+ heaters on the observatory,
+
+1048
+00:42:15,231 --> 00:42:17,601
+and there were some choice
+  words said by people,
+
+1049
+00:42:17,634 --> 00:42:19,036
+and we tried to figure
+ out what was going on.
+
+1050
+00:42:19,069 --> 00:42:21,739
+And basically, we had sent a...
+
+1051
+00:42:22,839 --> 00:42:25,943
+a 16-bit number to
+control the temperature
+
+1052
+00:42:25,976 --> 00:42:27,444
+because that's what
+our documentation said,
+
+1053
+00:42:27,477 --> 00:42:30,113
+and then when we looked at
+ the actual wiring diagrams,
+
+1054
+00:42:30,146 --> 00:42:32,916
+my colleague Bill Gwacham
+ grabbed the wiring diagrams,
+
+1055
+00:42:32,949 --> 00:42:35,252
+looked and said, "Well, you
+ can't pass a 16-bit thing
+
+1056
+00:42:35,285 --> 00:42:37,688
+"to this controller because
+ it only takes 12 bits."
+
+1057
+00:42:37,721 --> 00:42:40,324
+it's like "Oh, okay,
+ we made a mistake."
+
+1058
+00:42:40,357 --> 00:42:42,426
+So we're able to correct
+it, which is why there's
+
+1059
+00:42:42,459 --> 00:42:45,228
+a little bit of lag between
+ when we ran out of cryogen,
+
+1060
+00:42:45,261 --> 00:42:46,697
+and when we actually
+ started operating.
+
+1061
+00:42:46,730 --> 00:42:48,699
+Because we had
+ clever engineering,
+
+1062
+00:42:48,732 --> 00:42:50,334
+which said, we could continue,
+
+1063
+00:42:50,367 --> 00:42:52,736
+but then we had to go
+ figure out how to operate it
+
+1064
+00:42:52,769 --> 00:42:56,073
+because we'd never operated
+ in that mode before.
+
+1065
+00:42:56,106 --> 00:42:57,641
+And you always have
+ to check things
+
+1066
+00:42:57,674 --> 00:42:59,509
+and this isn't
+ some testing we did
+
+1067
+00:42:59,542 --> 00:43:01,211
+on the ground prior to launch.
+
+1068
+00:43:02,779 --> 00:43:04,615
+But we kinda knew
+  it could happen,
+
+1069
+00:43:04,648 --> 00:43:07,151
+so we were upset, but
+ we figured it out.
+
+1070
+00:43:08,351 --> 00:43:09,586
+Actually that was
+  a bad day for me,
+
+1071
+00:43:09,619 --> 00:43:11,822
+because I was monitoring
+the telemetry,
+
+1072
+00:43:11,855 --> 00:43:13,290
+I saw that we were,
+ instead of being
+
+1073
+00:43:13,323 --> 00:43:16,259
+at 28 Kelvin we were
+ like at 50 Kelvin
+
+1074
+00:43:16,292 --> 00:43:17,794
+and I'm like, "Oh that's bad."
+
+1075
+00:43:17,827 --> 00:43:19,630
+And then I had to
+  phone the folks...
+
+1076
+00:43:20,697 --> 00:43:21,598
+who do the commanding
+ and I said,
+
+1077
+00:43:21,631 --> 00:43:22,799
+"Turn off the instrument.
+
+1078
+00:43:22,832 --> 00:43:24,334
+"Because we don't want
+ those heaters on."
+
+1079
+00:43:24,367 --> 00:43:25,836
+Because we didn't know how
+  much heat we would put in
+
+1080
+00:43:25,869 --> 00:43:27,904
+and how look it'd
+  take to cool down.
+
+1081
+00:43:27,937 --> 00:43:29,239
+So you think,
+ okay, you only have
+
+1082
+00:43:29,272 --> 00:43:31,041
+two cameras on one instrument.
+
+1083
+00:43:31,074 --> 00:43:34,211
+This is not a good situation
+ around an observatory.
+
+1084
+00:43:34,244 --> 00:43:36,279
+But, these wavelengths
+ are really good
+
+1085
+00:43:36,312 --> 00:43:38,749
+for the things like exoplanets
+ and distant galaxies.
+
+1086
+00:43:38,782 --> 00:43:40,617
+So it was even better
+ than we imagined,
+
+1087
+00:43:40,650 --> 00:43:42,653
+because now we could spend
+  all our, not all our time,
+
+1088
+00:43:42,686 --> 00:43:43,854
+but most of our time working on
+
+1089
+00:43:43,887 --> 00:43:45,455
+exoplanets and distant galaxies.
+
+1090
+00:43:45,488 --> 00:43:47,591
+And there are a lot of
+astronomers who want to do this.
+
+1091
+00:43:47,624 --> 00:43:49,660
+And there are a lot of
+ cool results from it.
+
+1092
+00:43:50,760 --> 00:43:52,996
+One of the results I'll show,
+
+1093
+00:43:53,029 --> 00:43:54,331
+is looking at
+ eclipse measurements
+
+1094
+00:43:54,364 --> 00:43:56,700
+of another hot, not Jupiter,
+
+1095
+00:43:56,733 --> 00:43:58,735
+because it's smaller than
+ Jupiter, its more Earth size.
+
+1096
+00:43:58,768 --> 00:44:01,104
+A planet called 55
+Cancri e, which is also
+
+1097
+00:44:01,137 --> 00:44:03,874
+orbiting very
+ close to it's star.
+
+1098
+00:44:03,907 --> 00:44:05,342
+And one thing we
+  notice looking at
+
+1099
+00:44:05,375 --> 00:44:08,912
+these eclipse measurements
+  in 2012 and 2013,
+
+1100
+00:44:08,945 --> 00:44:11,982
+is that the depths vary
+  from 50 parts per million
+
+1101
+00:44:12,015 --> 00:44:16,019
+to over 200 parts per
+  million from 2012 to 2013.
+
+1102
+00:44:16,052 --> 00:44:18,522
+So what that means, if you
+ convert that to temperature,
+
+1103
+00:44:18,555 --> 00:44:19,823
+is that the low temperature,
+
+1104
+00:44:19,856 --> 00:44:22,426
+like down here, from
+ the 2012 measurements,
+
+1105
+00:44:22,459 --> 00:44:25,328
+was about 1300 Kelvin
+ for that planet.
+
+1106
+00:44:25,361 --> 00:44:27,831
+And then it jumps up
+ to like 2800 Kelvin.
+
+1107
+00:44:27,864 --> 00:44:29,533
+So what's going on right?
+
+1108
+00:44:29,566 --> 00:44:32,369
+So now, this is good
+  because now we have data,
+
+1109
+00:44:32,402 --> 00:44:33,870
+which is telling us the
+temperature's changing,
+
+1110
+00:44:33,903 --> 00:44:35,372
+so now this gets all the people
+
+1111
+00:44:35,405 --> 00:44:37,708
+who model exoplanets
+ very excited,
+
+1112
+00:44:37,741 --> 00:44:39,876
+because now they've got to
+ figure out what's going on.
+
+1113
+00:44:39,909 --> 00:44:42,512
+And one hypothesis, and
+we can't confirm it,
+
+1114
+00:44:42,545 --> 00:44:44,214
+and this is just an
+ illustration, right?
+
+1115
+00:44:44,247 --> 00:44:46,717
+We don't actually see the
+  planet in any of this,
+
+1116
+00:44:46,750 --> 00:44:49,219
+we just see a star
+  and then we see it
+
+1117
+00:44:49,252 --> 00:44:53,190
+get very fainter by little
+  tiny fluctuations, right?
+
+1118
+00:44:53,223 --> 00:44:54,124
+You wouldn't even be able to see
+
+1119
+00:44:54,157 --> 00:44:55,759
+this fluctuation with your eye.
+
+1120
+00:44:55,792 --> 00:44:56,993
+If I passed the, you know, if I
+
+1121
+00:44:57,026 --> 00:44:58,862
+flipped through the
+ images with you.
+
+1122
+00:44:58,895 --> 00:45:00,797
+But what we think is
+ happening is that,
+
+1123
+00:45:00,830 --> 00:45:03,133
+because it's in
+  close it's getting
+
+1124
+00:45:03,166 --> 00:45:05,769
+tidally stretched and
+  stuff, there's volcanism.
+
+1125
+00:45:05,802 --> 00:45:07,904
+Volcanoes on this planet.
+
+1126
+00:45:07,937 --> 00:45:10,207
+And in 2012, it was
+ just less active
+
+1127
+00:45:10,240 --> 00:45:12,042
+or maybe we're seeing
+ a different portion
+
+1128
+00:45:12,075 --> 00:45:14,311
+of the planet because
+maybe it rotates slowly.
+
+1129
+00:45:14,344 --> 00:45:16,713
+And in 2013, it's more active.
+
+1130
+00:45:16,746 --> 00:45:18,648
+Or we're seeing the
+ hotter side of it,
+
+1131
+00:45:18,681 --> 00:45:20,951
+because maybe it isn't
+totally tidally locked,
+
+1132
+00:45:20,984 --> 00:45:23,587
+maybe it's rotating very
+  slowly like Mercury does.
+
+1133
+00:45:24,754 --> 00:45:26,089
+So that's a really
+  exciting is that
+
+1134
+00:45:26,122 --> 00:45:27,624
+we can start to
+  understand something like,
+
+1135
+00:45:27,657 --> 00:45:31,028
+if you can call this weather,
+ weather on other planets.
+
+1136
+00:45:35,064 --> 00:45:37,634
+And, in conjunction with Hubble,
+
+1137
+00:45:37,667 --> 00:45:39,970
+we're able to identify
+to most distant galaxy.
+
+1138
+00:45:41,104 --> 00:45:42,539
+Okay, I'm gonna go through fast.
+
+1139
+00:45:42,572 --> 00:45:44,074
+So this is some of the
+  lights that we could see.
+
+1140
+00:45:44,107 --> 00:45:46,176
+This galaxy hasn't
+  aged, we see it
+
+1141
+00:45:46,209 --> 00:45:49,546
+as it was 13.4
+  billion years ago.
+
+1142
+00:45:49,579 --> 00:45:51,014
+It's about 1/100 the
+ size of the Milky Way
+
+1143
+00:45:51,047 --> 00:45:53,717
+and we know this because we
+can measure how far away it is.
+
+1144
+00:45:53,750 --> 00:45:57,254
+It's redshift,
+  essentially, by when it...
+
+1145
+00:45:57,287 --> 00:45:58,722
+we can see the light from it.
+
+1146
+00:45:59,856 --> 00:46:01,858
+Because basically,
+  this line here
+
+1147
+00:46:01,891 --> 00:46:04,427
+is when all the light that's
+ at shorter wavelength,
+
+1148
+00:46:04,460 --> 00:46:06,396
+that gets redshifted out,
+
+1149
+00:46:06,429 --> 00:46:08,965
+gets absorbed by the
+ gas in the galaxy.
+
+1150
+00:46:08,998 --> 00:46:10,400
+So that's a very good...
+
+1151
+00:46:10,433 --> 00:46:12,402
+You can model what the
+galaxy should look like,
+
+1152
+00:46:12,435 --> 00:46:14,671
+because you don't see
+ it in one Hubble band,
+
+1153
+00:46:14,704 --> 00:46:16,139
+you see it in the second.
+
+1154
+00:46:16,172 --> 00:46:19,075
+And then you see the blob
+  in the two IRAC bands.
+
+1155
+00:46:19,108 --> 00:46:23,213
+So... what this is, is
+ that the Hubble data
+
+1156
+00:46:23,246 --> 00:46:26,750
+allows you to get the
+ redshift or the time that...
+
+1157
+00:46:26,783 --> 00:46:28,552
+You looking back to
+ observe the galaxy,
+
+1158
+00:46:28,585 --> 00:46:30,787
+and then Spitzer gives the
+ mass and the age of the stars
+
+1159
+00:46:30,820 --> 00:46:32,956
+because this is where
+ all the starlight is.
+
+1160
+00:46:34,524 --> 00:46:35,759
+Okay.
+
+1161
+00:46:35,792 --> 00:46:37,260
+One other thing
+ we're able to do is
+
+1162
+00:46:37,293 --> 00:46:38,795
+there's another technique
+  for looking at planets.
+
+1163
+00:46:38,828 --> 00:46:41,965
+And these are planets, that
+ you can't see any other way
+
+1164
+00:46:41,998 --> 00:46:43,834
+because you can
+ directly image them
+
+1165
+00:46:43,867 --> 00:46:45,202
+if they're pretty far
+ away from the star,
+
+1166
+00:46:45,235 --> 00:46:47,237
+and you can use
+  radial velocities
+
+1167
+00:46:47,270 --> 00:46:49,139
+and transits if
+  they're in close,
+
+1168
+00:46:49,172 --> 00:46:51,007
+and they're either
+  affecting the star passing
+
+1169
+00:46:51,040 --> 00:46:53,677
+in front of it, but how
+  about things like Jupiter.
+
+1170
+00:46:53,710 --> 00:46:54,878
+How do you observe Jupiter?
+
+1171
+00:46:54,911 --> 00:46:56,346
+Things that are
+ round or snow lined.
+
+1172
+00:46:56,379 --> 00:46:57,881
+Well, if you get really lucky
+
+1173
+00:46:57,914 --> 00:47:00,116
+and you look at a lot of stars,
+
+1174
+00:47:00,149 --> 00:47:03,620
+when stars pass in
+front of other stars...
+
+1175
+00:47:05,455 --> 00:47:06,490
+Nope, I'm sorry...
+
+1176
+00:47:12,228 --> 00:47:14,364
+If they perfectly align,
+
+1177
+00:47:14,397 --> 00:47:17,968
+the foreground star
+ will gravitational,
+
+1178
+00:47:18,001 --> 00:47:19,836
+and the gravity of
+ that star will focus
+
+1179
+00:47:19,869 --> 00:47:21,304
+the light of the
+background star,
+
+1180
+00:47:21,337 --> 00:47:22,973
+and that's what you're
+  seeing here is this flip.
+
+1181
+00:47:23,006 --> 00:47:24,841
+Is that the light gets
+gravitationally focused
+
+1182
+00:47:24,874 --> 00:47:27,077
+as the star passes in
+front of the other star.
+
+1183
+00:47:27,110 --> 00:47:30,614
+And if there's a
+ planet with that star,
+
+1184
+00:47:30,647 --> 00:47:32,682
+that can also
+gravitationally interact
+
+1185
+00:47:32,715 --> 00:47:36,519
+if the geometry's right, so,
+ it doesn't happen that often.
+
+1186
+00:47:36,552 --> 00:47:38,822
+If you look at a
+  few million stars
+
+1187
+00:47:38,855 --> 00:47:40,390
+over the course of a few months,
+
+1188
+00:47:40,423 --> 00:47:41,625
+which people do from the ground,
+
+1189
+00:47:41,658 --> 00:47:43,093
+you may see a thousand
+ events where you see
+
+1190
+00:47:43,126 --> 00:47:45,629
+a star brightened
+  by another star.
+
+1191
+00:47:45,662 --> 00:47:48,365
+And you may get
+ three with a planet.
+
+1192
+00:47:48,398 --> 00:47:50,834
+So that's what's done by
+ people who study microlensing,
+
+1193
+00:47:50,867 --> 00:47:53,536
+every year, when they can look
+ at the center of our galaxy
+
+1194
+00:47:53,569 --> 00:47:56,506
+where there's a lot of stars
+ and you have a lot of chances
+
+1195
+00:47:56,539 --> 00:47:58,475
+of stars going in
+ front of other stars.
+
+1196
+00:48:00,677 --> 00:48:03,213
+The problem with that
+is, even if you do that,
+
+1197
+00:48:03,246 --> 00:48:06,049
+you see the bump, you
+ know there's a planet,
+
+1198
+00:48:06,082 --> 00:48:11,088
+you don't know, you can't
+ tell the mass and the distance
+
+1199
+00:48:11,955 --> 00:48:13,123
+with just one measurement
+
+1200
+00:48:13,156 --> 00:48:14,691
+because you only
+ get one measurement
+
+1201
+00:48:16,092 --> 00:48:17,928
+and everything can be
+closer and less massive
+
+1202
+00:48:17,961 --> 00:48:19,996
+or it can be further
+ away and more massive.
+
+1203
+00:48:20,029 --> 00:48:22,332
+And it's very hard to
+  disentangle between those
+
+1204
+00:48:22,365 --> 00:48:24,167
+if all you have is
+  one light curve,
+
+1205
+00:48:24,200 --> 00:48:27,404
+but since Spitzer's so
+far away from the Earth,
+
+1206
+00:48:27,437 --> 00:48:28,972
+if both Spitzer and Earth,
+
+1207
+00:48:29,005 --> 00:48:31,341
+observe one of these
+ microlensing events,
+
+1208
+00:48:31,374 --> 00:48:34,244
+the time between when
+ Spitzer observes the event,
+
+1209
+00:48:34,277 --> 00:48:37,948
+which is the red, and when
+  the Earth sees the event,
+
+1210
+00:48:37,981 --> 00:48:41,518
+allows you to disentangle
+  between mass and distance.
+
+1211
+00:48:41,551 --> 00:48:44,921
+Because you're able to look at
+ from two different positions.
+
+1212
+00:48:44,954 --> 00:48:46,823
+You're able to
+ pin-down the geometry.
+
+1213
+00:48:48,291 --> 00:48:49,426
+And we're able to do this,
+  and we've been doing this
+
+1214
+00:48:49,459 --> 00:48:50,894
+for quite some time.
+
+1215
+00:48:50,927 --> 00:48:52,930
+But the first observation
+  we do with Spitzer...
+
+1216
+00:48:56,799 --> 00:48:57,968
+Is that one there.
+
+1217
+00:48:58,001 --> 00:49:00,537
+We actually got the
+star, we actually saw...
+
+1218
+00:49:00,570 --> 00:49:02,272
+So you see the
+ star curve and then
+
+1219
+00:49:02,305 --> 00:49:03,740
+that dip is due to the planet,
+
+1220
+00:49:03,773 --> 00:49:06,276
+so we have a star and
+  planet microlensing event
+
+1221
+00:49:06,309 --> 00:49:07,844
+and we're able to determine
+ the mass of the star
+
+1222
+00:49:07,877 --> 00:49:09,079
+is 0.5 Jupiters.
+
+1223
+00:49:10,847 --> 00:49:13,883
+The planet mass is not... no,
+ I've got this the other way.
+
+1224
+00:49:13,916 --> 00:49:15,118
+I'm very sorry.
+
+1225
+00:49:17,754 --> 00:49:20,390
+The star mass is 7/10 the sun,
+
+1226
+00:49:20,423 --> 00:49:21,858
+so it's a little
+ smaller than the sun.
+
+1227
+00:49:21,891 --> 00:49:24,427
+The planet is about
+ half of Jupiter mass,
+
+1228
+00:49:24,460 --> 00:49:25,795
+which is kind of interesting,
+
+1229
+00:49:25,828 --> 00:49:27,030
+and it's the distance of three
+
+1230
+00:49:27,063 --> 00:49:30,533
+astronomical units
+  from it's star,
+
+1231
+00:49:30,566 --> 00:49:32,769
+which we couldn't
+  see any other way.
+
+1232
+00:49:32,802 --> 00:49:35,772
+And Spitzer and the ground
+routine, we do this every year,
+
+1233
+00:49:35,805 --> 00:49:38,074
+we look at a handful of planets
+with Spitzer and the ground
+
+1234
+00:49:38,107 --> 00:49:39,776
+and we're learning about planets
+
+1235
+00:49:39,809 --> 00:49:41,644
+that you can't see
+  in any other way.
+
+1236
+00:49:41,677 --> 00:49:42,879
+The only problem
+ with this technique
+
+1237
+00:49:42,912 --> 00:49:44,214
+is that once that
+  alignment's gone,
+
+1238
+00:49:44,247 --> 00:49:46,116
+that's the last time you
+ever see that planet.
+
+1239
+00:49:46,149 --> 00:49:47,384
+Which is a real bummer.
+
+1240
+00:49:47,417 --> 00:49:48,918
+You can't go back and
+ re-observe it because
+
+1241
+00:49:48,951 --> 00:49:51,521
+you could never
+ see, you don't see,
+
+1242
+00:49:51,554 --> 00:49:52,956
+the lens in the first place.
+
+1243
+00:49:54,957 --> 00:49:56,126
+Okay.
+
+1244
+00:49:56,159 --> 00:49:58,828
+Alright, so it gets here
+to the coolest thing
+
+1245
+00:49:58,861 --> 00:50:00,563
+that I've ever had
+ a chance to work on,
+
+1246
+00:50:00,596 --> 00:50:03,333
+which is the observations
+  of the TRAPPIST-1 system,
+
+1247
+00:50:03,366 --> 00:50:05,035
+which maybe some
+ of you heard about.
+
+1248
+00:50:05,068 --> 00:50:06,870
+So this was a star,
+that was only discovered
+
+1249
+00:50:06,903 --> 00:50:07,804
+in the year 2000.
+
+1250
+00:50:07,837 --> 00:50:10,240
+Its a very cold, red star,
+
+1251
+00:50:10,273 --> 00:50:12,409
+and was discovered with
+another infrared survey
+
+1252
+00:50:12,442 --> 00:50:15,779
+which was done with JPL
+  and Caltech called 2MASS.
+
+1253
+00:50:15,812 --> 00:50:18,615
+It's at 40 light years
+  away, but it's very small.
+
+1254
+00:50:18,648 --> 00:50:20,917
+It's only 8/100 of a solar mass,
+
+1255
+00:50:20,950 --> 00:50:22,719
+and it's about half the
+temperature of the sun,
+
+1256
+00:50:22,752 --> 00:50:24,220
+and it's only a little
+bit bigger than Jupiter.
+
+1257
+00:50:24,253 --> 00:50:26,823
+It's something called an
+  ultra-cool dwarf, M dwarf.
+
+1258
+00:50:28,257 --> 00:50:32,028
+And because it's so cold, it's
+ four thousand times brighter
+
+1259
+00:50:32,061 --> 00:50:35,198
+in the infrared than it is in
+ the visible, which is good.
+
+1260
+00:50:35,231 --> 00:50:37,434
+And since it's small, that means
+
+1261
+00:50:37,467 --> 00:50:39,569
+that when a planet
+ passes in front of it,
+
+1262
+00:50:39,602 --> 00:50:40,937
+smaller planets
+  are easier to see
+
+1263
+00:50:40,970 --> 00:50:43,606
+around smaller
+ stars, which is nice.
+
+1264
+00:50:43,639 --> 00:50:47,510
+And we just happened to
+see, so from the ground,
+
+1265
+00:50:47,543 --> 00:50:49,612
+an astronomer named
+ Caglioni was looking
+
+1266
+00:50:49,645 --> 00:50:52,282
+to see if he could find
+planets around very cold stars,
+
+1267
+00:50:52,315 --> 00:50:54,117
+because we didn't know
+if they would have them,
+
+1268
+00:50:54,150 --> 00:50:58,288
+and he saw some transit-like
+ things, but it looked weird.
+
+1269
+00:50:58,321 --> 00:51:00,457
+It had this weird extra
+hump to this and this,
+
+1270
+00:51:00,490 --> 00:51:01,858
+and he wasn't sure
+  what's going on.
+
+1271
+00:51:01,891 --> 00:51:03,626
+So he asked for
+  some Spitzer time
+
+1272
+00:51:03,659 --> 00:51:07,297
+and then we got more odd
+looking bumps as well.
+
+1273
+00:51:07,330 --> 00:51:09,633
+So we didn't know what
+was going on with this.
+
+1274
+00:51:11,100 --> 00:51:14,537
+And so, we ended up spending
+ a lot of time with Spitzer.
+
+1275
+00:51:14,570 --> 00:51:17,841
+We spent 500 hours to
+  just stare at the system,
+
+1276
+00:51:17,874 --> 00:51:19,576
+which is something you
+ can do with Spitzer
+
+1277
+00:51:19,609 --> 00:51:21,311
+since it's not orbiting the...
+
+1278
+00:51:21,344 --> 00:51:22,812
+it's not on the Earth, so
+  you don't have to worry
+
+1279
+00:51:22,845 --> 00:51:24,848
+about the sun coming
+ up and ruining
+
+1280
+00:51:24,881 --> 00:51:27,050
+your observations every
+eight to 16 hours,
+
+1281
+00:51:27,083 --> 00:51:29,152
+and it's not orbiting around
+ the Earth like Hubble.
+
+1282
+00:51:29,185 --> 00:51:31,521
+Every time Hubble
+ looks at something,
+
+1283
+00:51:31,554 --> 00:51:33,823
+Hubble's orbit, it's 90 minutes,
+
+1284
+00:51:33,856 --> 00:51:35,525
+so it can look at something
+ for about 40 minutes
+
+1285
+00:51:35,558 --> 00:51:36,659
+and then it goes
+behind the Earth
+
+1286
+00:51:36,692 --> 00:51:38,128
+and can't see that source again
+
+1287
+00:51:38,161 --> 00:51:40,263
+until it comes back
+ around the other side.
+
+1288
+00:51:40,296 --> 00:51:41,965
+But with Spitzer, we
+ can look at something
+
+1289
+00:51:41,998 --> 00:51:44,667
+between 40 days to a whole year
+
+1290
+00:51:44,700 --> 00:51:46,236
+if we want to, and
+  it, with TRAPPIST,
+
+1291
+00:51:46,269 --> 00:51:48,004
+we could look at it for 40 days,
+
+1292
+00:51:48,037 --> 00:51:49,973
+we spent 20 days looking at it.
+
+1293
+00:51:50,006 --> 00:51:51,875
+And this is what we saw...
+  So...
+
+1294
+00:51:53,509 --> 00:51:55,011
+I'll give you the
+  punch line is that
+
+1295
+00:51:55,044 --> 00:51:57,680
+there's seven transiting
+  planets around TRAPPIST-1.
+
+1296
+00:51:57,713 --> 00:51:59,482
+The system has a set of planets
+
+1297
+00:51:59,515 --> 00:52:02,152
+that are very closely
+ packed, and remember,
+
+1298
+00:52:02,185 --> 00:52:03,520
+because if for them to transit,
+
+1299
+00:52:03,553 --> 00:52:05,522
+they have to pass
+between us and the star.
+
+1300
+00:52:05,555 --> 00:52:08,925
+So all their orbits are
+in a nice, tight plane.
+
+1301
+00:52:08,958 --> 00:52:11,594
+Which is a little bit
+surprising, but not impossible.
+
+1302
+00:52:11,627 --> 00:52:14,330
+So, we got kind of lucky with
+ this, and this is a graphic.
+
+1303
+00:52:14,363 --> 00:52:16,499
+And then, here's
+ the data coming up,
+
+1304
+00:52:16,532 --> 00:52:18,368
+so this is the Spitzer data,
+
+1305
+00:52:18,401 --> 00:52:19,903
+and you can see there's the star
+
+1306
+00:52:19,936 --> 00:52:21,104
+and there's a
+ little bit of noise,
+
+1307
+00:52:21,137 --> 00:52:23,072
+and then you see
+ these periodic dips.
+
+1308
+00:52:23,105 --> 00:52:24,541
+And when we saw this we thought,
+
+1309
+00:52:24,574 --> 00:52:26,509
+"Well, wait a minute,
+  there's a lot of transits.
+
+1310
+00:52:26,542 --> 00:52:28,778
+"What the heck is going on?"
+
+1311
+00:52:28,811 --> 00:52:30,847
+And you can see the transits
+
+1312
+00:52:30,880 --> 00:52:33,716
+of the same size keep appearing.
+
+1313
+00:52:33,749 --> 00:52:35,118
+Like this, you keep seeing,
+
+1314
+00:52:35,151 --> 00:52:37,187
+well that one's during a
+downlink, so you don't see it...
+
+1315
+00:52:37,220 --> 00:52:39,556
+You also see some
+ flares when the star
+
+1316
+00:52:39,589 --> 00:52:41,391
+gets a little hot and burps.
+
+1317
+00:52:41,424 --> 00:52:45,962
+But you can keep seeing
+repeated dips of the same depth,
+
+1318
+00:52:45,995 --> 00:52:47,931
+which means it's the
+ same size planet,
+
+1319
+00:52:47,964 --> 00:52:49,432
+So it's the same planet.
+
+1320
+00:52:49,465 --> 00:52:50,934
+And then you can
+  go and pick it out
+
+1321
+00:52:50,967 --> 00:52:53,803
+and you can see the
+ spacing between the planet,
+
+1322
+00:52:53,836 --> 00:52:58,074
+the dips in time, so this
+ is in days now we're seeing,
+
+1323
+00:52:58,107 --> 00:53:01,010
+so every time you see
+ that planet repeat
+
+1324
+00:53:01,043 --> 00:53:02,712
+you know what the
+period of the planet is
+
+1325
+00:53:02,745 --> 00:53:03,880
+because it's making one orbit.
+
+1326
+00:53:03,913 --> 00:53:06,583
+So for planet B here,
+ that's 1.8 days.
+
+1327
+00:53:06,616 --> 00:53:09,352
+So, you're able to tell
+the size of the planet,
+
+1328
+00:53:09,385 --> 00:53:11,421
+you're also able
+to tell how long
+
+1329
+00:53:11,454 --> 00:53:13,189
+it takes to go around it's star,
+
+1330
+00:53:13,222 --> 00:53:14,724
+so that also tells
+  you the distance
+
+1331
+00:53:14,757 --> 00:53:16,226
+of the planet from the star.
+
+1332
+00:53:16,259 --> 00:53:18,962
+And since you know how hot
+  and bright the star is,
+
+1333
+00:53:18,995 --> 00:53:20,563
+that also tells
+  you how much heat
+
+1334
+00:53:20,596 --> 00:53:22,632
+the planet gets from the star.
+
+1335
+00:53:22,665 --> 00:53:25,001
+It tells us something about
+ the temperature of the star.
+
+1336
+00:53:25,034 --> 00:53:26,670
+So, we got a lot of information.
+
+1337
+00:53:27,770 --> 00:53:28,571
+Now I've got to go
+find the clicker again,
+
+1338
+00:53:28,604 --> 00:53:30,273
+sorry about that...
+
+1339
+00:53:30,306 --> 00:53:31,774
+Okay.
+
+1340
+00:53:31,807 --> 00:53:33,276
+So the TRAPPIST-1 system
+  is much smaller than ours,
+
+1341
+00:53:33,309 --> 00:53:35,645
+here's seven planets
+ closely packed system,
+
+1342
+00:53:35,678 --> 00:53:38,848
+all would fit very comfortably
+ inside the orbit of Mercury.
+
+1343
+00:53:38,881 --> 00:53:41,985
+In fact, it's more like
+what the Galilean Moons
+
+1344
+00:53:42,018 --> 00:53:43,586
+look like in Jupiter.
+
+1345
+00:53:43,619 --> 00:53:45,488
+It's kind of, in between.
+
+1346
+00:53:45,521 --> 00:53:48,258
+And the star's, sort of,
+  a little bit more massive
+
+1347
+00:53:48,291 --> 00:53:51,427
+and about the same size
+and radius as Jupiter,
+
+1348
+00:53:51,460 --> 00:53:54,130
+so it's more similar to
+what the Galilean system
+
+1349
+00:53:54,163 --> 00:53:55,999
+looks like than our
+ own solar system.
+
+1350
+00:53:57,166 --> 00:53:58,601
+But that's not all,
+
+1351
+00:53:58,634 --> 00:54:00,937
+'cause those planets
+are so closely packed...
+
+1352
+00:54:06,876 --> 00:54:10,713
+They tend to gravitationally
+ interact with each other.
+
+1353
+00:54:10,746 --> 00:54:12,215
+Not only are they closely packed
+
+1354
+00:54:12,248 --> 00:54:15,318
+but they're in these things
+ called resonance orbits.
+
+1355
+00:54:15,351 --> 00:54:17,520
+What that means is that
+every time B orbits,
+
+1356
+00:54:17,553 --> 00:54:19,989
+hang on I can't find
+ B, there it goes,
+
+1357
+00:54:20,022 --> 00:54:22,925
+for eight orbits of
+ B, C orbits five times
+
+1358
+00:54:22,958 --> 00:54:24,560
+and D orbits three times,
+
+1359
+00:54:24,593 --> 00:54:26,429
+during these three
+  body resonances.
+
+1360
+00:54:26,462 --> 00:54:28,031
+And what that means is
+ there's a lot of times
+
+1361
+00:54:28,064 --> 00:54:30,566
+when they pass in front of
+each other in regular patterns,
+
+1362
+00:54:30,599 --> 00:54:33,570
+and the whole pattern repeats
+ about every 38.6 days.
+
+1363
+00:54:34,937 --> 00:54:36,873
+And because of that,
+  planets keep whizzing by,
+
+1364
+00:54:36,906 --> 00:54:39,309
+they gravitationally
+  interact with each other.
+
+1365
+00:54:39,342 --> 00:54:41,744
+So they tug and
+ pull on each other,
+
+1366
+00:54:41,777 --> 00:54:44,580
+and that tug and pull, if
+  you look at the transits,
+
+1367
+00:54:44,613 --> 00:54:46,215
+so this is for TRAPPIST-1 D,
+
+1368
+00:54:46,248 --> 00:54:49,719
+and I'm just showing you
+ different transits observed
+
+1369
+00:54:49,752 --> 00:54:52,922
+over a span of many months now.
+
+1370
+00:54:52,955 --> 00:54:55,625
+And what you see is, if you
+ look at the orange line,
+
+1371
+00:54:55,658 --> 00:54:58,027
+that's where they
+ all, all the midpoints
+
+1372
+00:54:58,060 --> 00:55:00,997
+should line up if it's
+ just orbiting around
+
+1373
+00:55:01,030 --> 00:55:02,799
+in the period space constant.
+
+1374
+00:55:02,832 --> 00:55:04,834
+But what we find is,
+ it's not orbiting
+
+1375
+00:55:04,867 --> 00:55:06,202
+around that period
+  staying constant,
+
+1376
+00:55:06,235 --> 00:55:08,338
+it's changing by minutes,
+
+1377
+00:55:08,371 --> 00:55:10,540
+and the reason it's
+ changing by minutes
+
+1378
+00:55:10,573 --> 00:55:14,210
+is because the other
+ planets, C and E,
+
+1379
+00:55:14,243 --> 00:55:15,712
+are gravitationally interacting.
+
+1380
+00:55:15,745 --> 00:55:17,947
+So they tug it one way and
+  they tug it the other way.
+
+1381
+00:55:17,980 --> 00:55:21,050
+So they speed it up and they
+ slow it down in it's orbit.
+
+1382
+00:55:21,083 --> 00:55:23,153
+So they change the
+ timing of the transit.
+
+1383
+00:55:24,053 --> 00:55:25,855
+And if you take enough data,
+
+1384
+00:55:25,888 --> 00:55:27,056
+and you have a big
+  enough computer,
+
+1385
+00:55:27,089 --> 00:55:28,024
+and you're really clever,
+
+1386
+00:55:28,057 --> 00:55:29,525
+and your name's Simon Grimm,
+
+1387
+00:55:29,558 --> 00:55:31,427
+who's a really
+ excellent astronomer,
+
+1388
+00:55:31,460 --> 00:55:32,829
+you can take all
+  that information,
+
+1389
+00:55:32,862 --> 00:55:35,198
+because now you know
+ the timing change,
+
+1390
+00:55:35,231 --> 00:55:38,034
+you could figure out the
+masses of the planets.
+
+1391
+00:55:38,067 --> 00:55:39,302
+And that's amazing, right?
+
+1392
+00:55:39,335 --> 00:55:42,138
+So now we know the size
+and we know the mass.
+
+1393
+00:55:42,171 --> 00:55:44,207
+So since we know the
+ size of the planets,
+
+1394
+00:55:44,240 --> 00:55:45,441
+they're all about Earth-size,
+
+1395
+00:55:45,474 --> 00:55:47,310
+and the mass they're
+ all about Earth-mass,
+
+1396
+00:55:47,343 --> 00:55:48,778
+D's a little bit smaller,
+
+1397
+00:55:48,811 --> 00:55:51,013
+we could figure out the
+  density of these planets.
+
+1398
+00:55:51,046 --> 00:55:53,149
+And this is amazing
+ because this tells-
+
+1399
+00:55:53,182 --> 00:55:55,451
+we can tell something
+ about the bulk composition.
+
+1400
+00:55:55,484 --> 00:55:57,587
+We could tell if they're
+little balls of iron,
+
+1401
+00:55:57,620 --> 00:56:00,390
+or big fluff balls of water
+ or something in between.
+
+1402
+00:56:00,423 --> 00:56:02,392
+They're all
+ something in between.
+
+1403
+00:56:02,425 --> 00:56:03,626
+And because of that then,
+
+1404
+00:56:03,659 --> 00:56:04,861
+we can take it to
+ the graphics folks,
+
+1405
+00:56:04,894 --> 00:56:06,229
+because we have all
+ this information,
+
+1406
+00:56:06,262 --> 00:56:08,431
+if fact we have more
+ information about the planets
+
+1407
+00:56:08,464 --> 00:56:12,502
+in this system than any other
+ system other than our own.
+
+1408
+00:56:12,535 --> 00:56:14,437
+Where we can actually
+go and see the planets.
+
+1409
+00:56:14,470 --> 00:56:16,105
+We know the densities
+ of all these planets
+
+1410
+00:56:16,138 --> 00:56:18,908
+to about 10% or better,
+which is outstanding,
+
+1411
+00:56:18,941 --> 00:56:21,611
+because it's amazing, because
+ these 40 light years away,
+
+1412
+00:56:21,644 --> 00:56:23,246
+we can't even see these objects,
+
+1413
+00:56:23,279 --> 00:56:25,448
+yet we know what
+ they're densities are
+
+1414
+00:56:25,481 --> 00:56:28,251
+and we know what their
+ surface gravities are.
+
+1415
+00:56:28,284 --> 00:56:30,420
+And because of that we
+ can make conjectures
+
+1416
+00:56:30,453 --> 00:56:31,954
+about what they
+  should look like,
+
+1417
+00:56:31,987 --> 00:56:33,956
+what their composition
+ should look like.
+
+1418
+00:56:33,989 --> 00:56:35,892
+So the things in
+close, actually,
+
+1419
+00:56:35,925 --> 00:56:38,628
+have a fair amount of
+  water or gas or something,
+
+1420
+00:56:38,661 --> 00:56:41,931
+because their densities are
+lower than the Earth's density.
+
+1421
+00:56:41,964 --> 00:56:43,833
+They're more like
+  Venus densities.
+
+1422
+00:56:43,866 --> 00:56:46,903
+So we think C is probably
+  an analog to Venus.
+
+1423
+00:56:46,936 --> 00:56:49,939
+D is probably something
+  that's, it has, let's see,
+
+1424
+00:56:49,972 --> 00:56:52,041
+it's density is less than Earth,
+
+1425
+00:56:52,074 --> 00:56:54,177
+so it's probably got a
+fair amount of something
+
+1426
+00:56:54,210 --> 00:56:57,580
+lighter than rock on it,
+  water, gas, we don't know,
+
+1427
+00:56:57,613 --> 00:57:00,016
+we're thinking
+ maybe it's waterish.
+
+1428
+00:57:00,049 --> 00:57:02,518
+And then E is the one
+ that's most Earth-like
+
+1429
+00:57:02,551 --> 00:57:05,221
+in terms of density, it's about
+the same density as Earth.
+
+1430
+00:57:05,254 --> 00:57:06,722
+And as we get further out,
+
+1431
+00:57:06,755 --> 00:57:09,725
+these planets are slightly
+ less than dense than Earth,
+
+1432
+00:57:09,758 --> 00:57:12,028
+which means that they
+ have things like,
+
+1433
+00:57:13,195 --> 00:57:15,565
+lighter than rock, so
+ that's some sort of
+
+1434
+00:57:15,598 --> 00:57:17,900
+like carbon-monoxide,
+ water, methane,
+
+1435
+00:57:17,933 --> 00:57:19,635
+what-have-you, that are lighter.
+
+1436
+00:57:19,668 --> 00:57:21,604
+And those are probably
+some form of atmosphere,
+
+1437
+00:57:21,637 --> 00:57:24,140
+but since they're further
+  away it's probably cold,
+
+1438
+00:57:24,173 --> 00:57:25,975
+so it's probably
+ in the form of ice.
+
+1439
+00:57:27,443 --> 00:57:29,312
+Okay, I'm running over time
+ here, I'm sorry about that.
+
+1440
+00:57:29,345 --> 00:57:32,515
+So just compare it quickly to
+ the solar system, if we map,
+
+1441
+00:57:32,548 --> 00:57:35,451
+so this is the plot of density
+ here, and there's the Earth,
+
+1442
+00:57:35,484 --> 00:57:37,086
+and then illumination
+ from the host star,
+
+1443
+00:57:37,119 --> 00:57:38,354
+relative to Sun/Earth.
+
+1444
+00:57:38,387 --> 00:57:40,289
+So what that tells us it
+that if it's on one-one,
+
+1445
+00:57:40,322 --> 00:57:41,791
+it should be very
+ similar to the Earth,
+
+1446
+00:57:41,824 --> 00:57:44,727
+so D has about the same amount
+ of radiation coming from it,
+
+1447
+00:57:44,760 --> 00:57:46,662
+so it might be about
+ the same temperature.
+
+1448
+00:57:46,695 --> 00:57:51,000
+And E is slightly cooler, but
+ has about the same density,
+
+1449
+00:57:51,033 --> 00:57:53,302
+so it could be very similar
+ to Earth in properties,
+
+1450
+00:57:53,335 --> 00:57:55,037
+but a colder version.
+
+1451
+00:57:55,070 --> 00:57:57,073
+And then F and G are
+ sort of like Mars,
+
+1452
+00:57:57,106 --> 00:57:58,774
+so these extended
+  envelopes, well,
+
+1453
+00:57:58,807 --> 00:58:00,042
+it could be arid like Mars,
+
+1454
+00:58:00,075 --> 00:58:02,278
+or it also could have
+ icy compositions,
+
+1455
+00:58:02,311 --> 00:58:04,480
+we don't know, but we know
+  a lot about the system
+
+1456
+00:58:04,513 --> 00:58:06,949
+and we can continue to explore.
+
+1457
+00:58:06,982 --> 00:58:08,518
+So looking to the future,
+
+1458
+00:58:08,551 --> 00:58:09,919
+Spitzer's going to
+keep operating
+
+1459
+00:58:09,952 --> 00:58:13,356
+until November 2019, and
+  then for budgetary reasons
+
+1460
+00:58:13,389 --> 00:58:16,392
+we're not going to continue,
+ at least up til this point.
+
+1461
+00:58:16,425 --> 00:58:19,762
+And we're gonna keep looking
+ for planets around cool stars
+
+1462
+00:58:19,795 --> 00:58:21,230
+and things that are
+ even cooler than stars
+
+1463
+00:58:21,263 --> 00:58:24,200
+called brown dwarfs, very
+  similar to TRAPPIST-1.
+
+1464
+00:58:24,233 --> 00:58:25,835
+Another thing we may
+ do is measure the mass
+
+1465
+00:58:25,868 --> 00:58:27,770
+of an isolated stellar
+ mass black hole
+
+1466
+00:58:28,938 --> 00:58:30,806
+and we're really looking
+forward to the launch
+
+1467
+00:58:30,839 --> 00:58:34,443
+of the James Webb Space
+Telescope in 2021.
+
+1468
+00:58:34,476 --> 00:58:37,446
+Which if you think of,
+take Hubble and Spitzer
+
+1469
+00:58:37,479 --> 00:58:39,649
+and combine them, so James Webb,
+
+1470
+00:58:39,682 --> 00:58:42,585
+would be like the love
+ child of Spitzer and Hubble,
+
+1471
+00:58:42,618 --> 00:58:43,853
+and it's bigger and better.
+
+1472
+00:58:43,886 --> 00:58:46,122
+And one of the things
+ we'll be able to do
+
+1473
+00:58:46,155 --> 00:58:51,160
+is actually start to give us
+ ideas about the composition.
+
+1474
+00:58:52,261 --> 00:58:53,496
+So are these pictures
+ correct or not?
+
+1475
+00:58:53,529 --> 00:58:55,465
+We'll be able to figure
+that out, with, well...
+
+1476
+00:58:56,432 --> 00:58:57,600
+Okay.
+
+1477
+00:58:57,633 --> 00:58:59,502
+Well thank you very
+much for your attention.
+
+1478
+00:58:59,535 --> 00:59:01,838
+[applause]
+
+1479
+00:59:07,176 --> 00:59:10,913
+So if you have any questions,
+ please use the mic,
+
+1480
+00:59:10,946 --> 00:59:13,249
+which is right in the
+  center of the auditorium,
+
+1481
+00:59:13,282 --> 00:59:15,018
+and just, yeah,
+ come on up and ask.
+
+1482
+00:59:28,964 --> 00:59:30,232
+>> Hi...
+
+1483
+00:59:30,265 --> 00:59:33,035
+I had wondered if Spitzer
+
+1484
+00:59:33,068 --> 00:59:38,074
+focused in on anything
+ since SNR HBH3.
+
+1485
+00:59:40,609 --> 00:59:43,512
+>> SNR HBH3, I'm not familiar
+ with that, so you'll have to
+
+1486
+00:59:43,545 --> 00:59:48,184
+tell me a little bit more
+  >> Supernova remnant HBH3.
+
+1487
+00:59:48,217 --> 00:59:52,188
+In the new star system
+ that's just forming.
+
+1488
+00:59:53,288 --> 00:59:55,024
+>> We haven't because
+ no one submitted
+
+1489
+00:59:55,057 --> 00:59:57,727
+a proposal to the
+ best of my knowledge.
+
+1490
+00:59:57,760 --> 01:00:00,463
+Somebody could go and do that.
+
+1491
+01:00:00,496 --> 01:00:02,331
+One of the considerations
+  with Spitzer is that
+
+1492
+01:00:02,364 --> 01:00:05,468
+we don't get to see all of
+  the sky all of the time.
+
+1493
+01:00:05,501 --> 01:00:07,403
+We get to view a
+strip of the sky
+
+1494
+01:00:07,436 --> 01:00:08,704
+because depending
+upon our geometry
+
+1495
+01:00:08,737 --> 01:00:10,306
+with respect
+to the Sun.
+
+1496
+01:00:10,339 --> 01:00:12,775
+So, maybe that that system
+  isn't available yet.
+
+1497
+01:00:12,808 --> 01:00:15,578
+So, it's quite possible
+that somebody right now
+
+1498
+01:00:15,611 --> 01:00:17,246
+is writing a proposal
+ and we'll be able
+
+1499
+01:00:17,279 --> 01:00:19,248
+to observe it within the year.
+
+1500
+01:00:19,281 --> 01:00:20,883
+>> Thank you.
+  >> Carey: You're welcome.
+
+1501
+01:00:22,751 --> 01:00:24,854
+>> Thanks for the great talk.
+ >> Carey: You're welcome.
+
+1502
+01:00:24,887 --> 01:00:27,723
+>> Two questions, on
+ the TRAPPIST system,
+
+1503
+01:00:27,756 --> 01:00:31,060
+has there been any
+atmospheric spectroscopy
+
+1504
+01:00:31,093 --> 01:00:35,531
+that's been teased out of
+  any infrared signatures?
+
+1505
+01:00:35,564 --> 01:00:38,868
+>> So, we tried a little
+bit, by looking at
+
+1506
+01:00:38,901 --> 01:00:41,837
+the two Spitzer channels,
+  the 3.6 and 4.5 micron
+
+1507
+01:00:41,870 --> 01:00:44,273
+to see if we could see a
+difference in the depth,
+
+1508
+01:00:44,306 --> 01:00:46,142
+which would be indicative
+  of an atmosphere
+
+1509
+01:00:46,175 --> 01:00:48,144
+because you're selectively
+  blocking light,
+
+1510
+01:00:48,177 --> 01:00:50,246
+and there wasn't enough
+signal to do that.
+
+1511
+01:00:50,279 --> 01:00:52,281
+Now, Hubble's also looked at it
+
+1512
+01:00:52,314 --> 01:00:54,150
+and they get a depth
+  very similar to Spitzer's
+
+1513
+01:00:54,183 --> 01:00:55,651
+so what they're
+  able to rule out,
+
+1514
+01:00:55,684 --> 01:00:57,720
+with a shorter
+wavelength spectroscopy,
+
+1515
+01:00:57,753 --> 01:01:00,923
+is that these planets
+ don't, at least B, C, and D,
+
+1516
+01:01:00,956 --> 01:01:02,925
+which I think is all
+ Hubble's observed,
+
+1517
+01:01:02,958 --> 01:01:05,561
+don't have extended
+ hydrogen envelopes,
+
+1518
+01:01:05,594 --> 01:01:07,530
+which is good if you're
+ interested in thinking about
+
+1519
+01:01:07,563 --> 01:01:09,866
+things that aren't just
+big balls of hydrogen.
+
+1520
+01:01:11,066 --> 01:01:14,270
+>> And second
+question, on 55 Cancri,
+
+1521
+01:01:14,303 --> 01:01:16,806
+the jump in heat after
+ all the volcanism,
+
+1522
+01:01:17,673 --> 01:01:19,275
+is there thoughts on that?
+
+1523
+01:01:19,308 --> 01:01:21,711
+That it's atmospheric blanketing
+
+1524
+01:01:21,744 --> 01:01:25,581
+where it's keeping it in or...
+
+1525
+01:01:25,614 --> 01:01:26,949
+Is there other ways to rule out
+
+1526
+01:01:26,982 --> 01:01:29,719
+shadowing from the atmosphere?
+
+1527
+01:01:29,752 --> 01:01:32,254
+>> So, there's no conclusive
+ to go one way or the other.
+
+1528
+01:01:32,287 --> 01:01:35,491
+So, yeah, the atmospheric
+  properties and blanketing
+
+1529
+01:01:35,524 --> 01:01:39,895
+due to high level
+ particulates, is one scenario.
+
+1530
+01:01:39,928 --> 01:01:41,764
+Another one is just geometry,
+
+1531
+01:01:41,797 --> 01:01:43,799
+and we're seeing some
+change in the properties
+
+1532
+01:01:43,832 --> 01:01:46,102
+because it is not
+  tidally locked,
+
+1533
+01:01:47,536 --> 01:01:49,472
+and there's no way, with
+ just the data points we have
+
+1534
+01:01:49,505 --> 01:01:52,374
+to distinguish between those.
+
+1535
+01:01:52,407 --> 01:01:53,909
+One of the things though
+will be interesting,
+
+1536
+01:01:53,942 --> 01:01:55,878
+and people are continuing
+ to take data on this system,
+
+1537
+01:01:55,911 --> 01:01:58,581
+is to see if they see
+ any repeating patterns
+
+1538
+01:01:58,614 --> 01:02:00,416
+or something that,
+which would be cyclical,
+
+1539
+01:02:00,449 --> 01:02:01,917
+and then you could
+ say something about...
+
+1540
+01:02:01,950 --> 01:02:05,187
+You know, if you see something
+ reoccurring on some cadence,
+
+1541
+01:02:05,220 --> 01:02:08,991
+then that will in credence
+  to some hypothesis.
+
+1542
+01:02:09,024 --> 01:02:11,360
+But yeah, no, there's nothing
+ that distinguishes between,
+
+1543
+01:02:11,393 --> 01:02:13,863
+I think there's like four
+  or five different ways
+
+1544
+01:02:13,896 --> 01:02:16,465
+of potentially explaining
+  the change in temperature
+
+1545
+01:02:16,498 --> 01:02:17,666
+that was observed.
+
+1546
+01:02:17,699 --> 01:02:18,534
+>> Thanks.
+
+1547
+01:02:21,537 --> 01:02:23,539
+>> Good evening.
+  My question is...
+
+1548
+01:02:23,572 --> 01:02:27,243
+Do you see any potential
+in finding an exomoon...
+
+1549
+01:02:27,276 --> 01:02:28,778
+using Spitzer?
+
+1550
+01:02:28,811 --> 01:02:30,246
+Because I know that,
+
+1551
+01:02:30,279 --> 01:02:32,214
+potentially if you have a large
+enough planet you might have
+
+1552
+01:02:32,247 --> 01:02:33,582
+like an Earth size moon
+>> Carey: Yep.
+
+1553
+01:02:33,615 --> 01:02:35,184
+>> or possibly even
+ slightly larger.
+
+1554
+01:02:35,217 --> 01:02:37,586
+So it's not totally
+ outlandish, I think.
+
+1555
+01:02:37,619 --> 01:02:40,055
+>> No, it's certainly
+ possible to do that.
+
+1556
+01:02:40,088 --> 01:02:41,323
+In fact with the TRAPPIST,
+
+1557
+01:02:41,356 --> 01:02:43,492
+with the very odd
+ transit signatures,
+
+1558
+01:02:43,525 --> 01:02:46,195
+that was one of the hypotheses
+ that was batted about.
+
+1559
+01:02:46,228 --> 01:02:49,131
+But then when people tried
+  to fit a two-body system,
+
+1560
+01:02:49,164 --> 01:02:52,468
+you know, a planet with a fairly
+
+1561
+01:02:52,501 --> 01:02:55,037
+reasonably-sized moon,
+ it didn't work out.
+
+1562
+01:02:55,070 --> 01:02:57,173
+So, it's certainly possible...
+
+1563
+01:02:58,440 --> 01:02:59,875
+People are looking for that,
+
+1564
+01:02:59,908 --> 01:03:03,445
+primarily with ground
+based observations, now.
+
+1565
+01:03:03,478 --> 01:03:05,548
+And haven't come up
+ with any moons yet,
+
+1566
+01:03:05,581 --> 01:03:07,316
+so that's, I think that's
+  telling us something.
+
+1567
+01:03:07,349 --> 01:03:10,319
+Maybe that's telling
+ us that, yet again,
+
+1568
+01:03:10,352 --> 01:03:14,990
+that our solar system
+ is maybe not common.
+
+1569
+01:03:15,023 --> 01:03:16,258
+>> Inquirer: Okay.
+  >> Yeah, so...
+
+1570
+01:03:16,291 --> 01:03:17,793
+but people are looking
+ for things like that.
+
+1571
+01:03:17,826 --> 01:03:19,728
+>> Okay, and my
+ second question is,
+
+1572
+01:03:19,761 --> 01:03:21,764
+If you've somehow
+ had infinite budget,
+
+1573
+01:03:21,797 --> 01:03:24,800
+how long could you ride
+Spitzer down in flames
+
+1574
+01:03:24,833 --> 01:03:26,535
+before it just could not
+give you data anymore?
+
+1575
+01:03:26,568 --> 01:03:27,903
+>> That's a really
+  good question,
+
+1576
+01:03:27,936 --> 01:03:32,241
+and I don't have a very
+crisp answer to that
+
+1577
+01:03:32,274 --> 01:03:35,177
+because we try not to look
+  so far into the future.
+
+1578
+01:03:35,210 --> 01:03:38,614
+Right now, everything is
+ fully redundant on Spitzer,
+
+1579
+01:03:38,647 --> 01:03:40,616
+all the, most of the
+ parts on Spitzer,
+
+1580
+01:03:40,649 --> 01:03:42,351
+because it's a
+ telescope in space,
+
+1581
+01:03:42,384 --> 01:03:44,119
+and if it breaks
+  you can't fix it,
+
+1582
+01:03:44,152 --> 01:03:45,287
+so we have two of things, like
+
+1583
+01:03:45,320 --> 01:03:46,655
+there's two star
+ trackers for instance.
+
+1584
+01:03:46,688 --> 01:03:48,858
+The only thing we
+  have one of are
+
+1585
+01:03:48,891 --> 01:03:51,460
+the arrays and the
+  mirror, obviously.
+
+1586
+01:03:52,761 --> 01:03:55,097
+I think Spitzer could
+ take useful data
+
+1587
+01:03:55,130 --> 01:03:59,635
+out to 2021, for
+  sure... possibly.
+
+1588
+01:03:59,668 --> 01:04:00,970
+It could go further than that,
+
+1589
+01:04:01,003 --> 01:04:02,471
+but it'd be taking
+ less and less data,
+
+1590
+01:04:02,504 --> 01:04:04,607
+and of course sooner or later
+ something's going to break.
+
+1591
+01:04:04,640 --> 01:04:05,975
+If I had to bet on
+  what would break,
+
+1592
+01:04:06,008 --> 01:04:07,243
+it would be the reaction wheels.
+
+1593
+01:04:07,276 --> 01:04:08,978
+The things that help
+ drive Spitzer around
+
+1594
+01:04:09,011 --> 01:04:09,979
+because they're spinning parts,
+
+1595
+01:04:10,012 --> 01:04:11,647
+they're continuously spinning,
+
+1596
+01:04:11,680 --> 01:04:13,816
+and we're way beyond
+ warranty on those.
+
+1597
+01:04:13,849 --> 01:04:15,284
+[crowd chuckles]
+
+1598
+01:04:15,317 --> 01:04:17,653
+Yeah, the only good thing,
+ is I think we got a good set,
+
+1599
+01:04:17,686 --> 01:04:19,622
+so we bought 'em on a Wednesday
+or something and didn't
+
+1600
+01:04:19,655 --> 01:04:21,156
+do bargain in basement.
+[audience laughs]
+
+1601
+01:04:21,189 --> 01:04:24,159
+Which speaks very well to
+  project management at JPL,
+
+1602
+01:04:24,192 --> 01:04:25,027
+I might add.
+
+1603
+01:04:26,662 --> 01:04:29,532
+>> Thank you very much.
+  >> Carey: You're welcome.
+
+1604
+01:04:30,732 --> 01:04:33,435
+>> Hi, you mentioned
+ about the redshift,
+
+1605
+01:04:33,468 --> 01:04:34,970
+>> Carey: Yes.
+ >> Yeah, so...
+
+1606
+01:04:35,003 --> 01:04:37,306
+how do you determine
+ whether the celestial object
+
+1607
+01:04:37,339 --> 01:04:40,943
+was starting with some
+ wavelength or is it,
+
+1608
+01:04:40,976 --> 01:04:45,314
+was it initially red and not
+ white, so to have shifted?
+
+1609
+01:04:45,347 --> 01:04:47,383
+>> So, you make the
+ assumption that when
+
+1610
+01:04:47,416 --> 01:04:51,621
+you look at the distant
+  galaxies that they have...
+
+1611
+01:04:53,488 --> 01:04:56,025
+Emission, like a spectral
+  energy distribution
+
+1612
+01:04:56,058 --> 01:04:58,661
+that the light coming, it
+ is a functional wavelength,
+
+1613
+01:04:58,694 --> 01:05:01,230
+looks like a galaxy.
+
+1614
+01:05:01,263 --> 01:05:03,165
+Okay, and then you
+ try to fit different,
+
+1615
+01:05:03,198 --> 01:05:04,400
+and there are different ways.
+
+1616
+01:05:04,433 --> 01:05:05,901
+So you can have galaxies
+that don't have dust,
+
+1617
+01:05:05,934 --> 01:05:08,537
+galaxies that have dust,
+  galaxies that form stars,
+
+1618
+01:05:08,570 --> 01:05:11,974
+so the things that have dust
+ or form stars may be redder.
+
+1619
+01:05:12,007 --> 01:05:13,776
+And then you fit
+  that to the data,
+
+1620
+01:05:13,809 --> 01:05:15,077
+and then, basically,
+ what you have to do
+
+1621
+01:05:15,110 --> 01:05:16,779
+is see if you can get a good fit
+
+1622
+01:05:16,812 --> 01:05:19,214
+by progressively shifting
+  the different models
+
+1623
+01:05:19,247 --> 01:05:22,351
+back and forth with redshift
+ until you get to one
+
+1624
+01:05:22,384 --> 01:05:24,420
+that fits very well,
+ and that was done.
+
+1625
+01:05:24,453 --> 01:05:26,121
+The other thing that
+Spitzer allows you to do
+
+1626
+01:05:26,154 --> 01:05:29,258
+is rule out nearby,
+ but dusty galaxies
+
+1627
+01:05:29,291 --> 01:05:32,828
+which give you a sort of
+ similar shape in the visible,
+
+1628
+01:05:32,861 --> 01:05:34,396
+because you don't see the
+  short wavelength light
+
+1629
+01:05:34,429 --> 01:05:36,398
+'cause it gets blocked out.
+
+1630
+01:05:36,431 --> 01:05:39,234
+So it could either
+ be dust or redshift.
+
+1631
+01:05:39,267 --> 01:05:40,736
+Does that help, does
+  that answer you question?
+
+1632
+01:05:40,769 --> 01:05:45,140
+>> Yes, so, is that based on
+ the prior observations, right,
+
+1633
+01:05:45,173 --> 01:05:47,309
+of the galaxies and
+ what wavelengths
+
+1634
+01:05:47,342 --> 01:05:48,844
+do they generally emit?
+
+1635
+01:05:48,877 --> 01:05:50,746
+>> Yes, that's right,
+ so it's based on
+
+1636
+01:05:51,680 --> 01:05:54,083
+measurements of nearby galaxies
+
+1637
+01:05:54,116 --> 01:05:56,518
+and then also modeling
+based on what, you know,
+
+1638
+01:05:56,551 --> 01:05:58,921
+we know what the constituents
+ of galaxies should be.
+
+1639
+01:05:58,954 --> 01:06:01,123
+So then you can put those
+ together in a model as well.
+
+1640
+01:06:01,156 --> 01:06:04,093
+So it's a combination
+ of, use models,
+
+1641
+01:06:04,126 --> 01:06:05,861
+but they're informed
+by observations
+
+1642
+01:06:05,894 --> 01:06:07,529
+of nearby
+objects, yes.
+
+1643
+01:06:07,562 --> 01:06:12,568
+>> Okay... my second question
+ is, you use this spectroscopy
+
+1644
+01:06:13,969 --> 01:06:16,338
+to find out the chemical
+ composition as well, right?
+
+1645
+01:06:16,371 --> 01:06:21,377
+>> Yes, well, when Spitzer had
+ a working spectrograph we did.
+
+1646
+01:06:22,778 --> 01:06:24,813
+Hubble still does that, so,
+ actually that galaxy I showed
+
+1647
+01:06:24,846 --> 01:06:28,150
+was spectroscopically
+ confirmed by Hubble
+
+1648
+01:06:28,183 --> 01:06:30,019
+because they were able to
+  actually look for lines
+
+1649
+01:06:30,052 --> 01:06:31,887
+that they knew where
+ they should be at,
+
+1650
+01:06:31,920 --> 01:06:32,955
+and then they were
+  able to measure
+
+1651
+01:06:32,988 --> 01:06:35,324
+the redshift directly from that.
+
+1652
+01:06:35,357 --> 01:06:38,260
+>> Okay, so, in case
+ there is a chemical
+
+1653
+01:06:38,293 --> 01:06:41,397
+which is not known to us,
+  like this spectroscopy,
+
+1654
+01:06:41,430 --> 01:06:43,499
+we don't about some chemical...
+
+1655
+01:06:43,532 --> 01:06:45,768
+so it is possible that
+ we can extrapolate
+
+1656
+01:06:45,801 --> 01:06:48,504
+from the power of observations
+ and what we observe now,
+
+1657
+01:06:48,537 --> 01:06:51,140
+to find out that might
+ be a new chemical
+
+1658
+01:06:51,173 --> 01:06:53,242
+which we are seeing
+ in the spectroscopy.
+
+1659
+01:06:53,275 --> 01:06:54,777
+>> Yeah, that's
+ certainly possible,
+
+1660
+01:06:54,810 --> 01:06:56,211
+with the spectroscopy here,
+
+1661
+01:06:56,244 --> 01:06:58,180
+it usually doesn't have
+high enough resolution
+
+1662
+01:06:58,213 --> 01:07:01,016
+to be able to see things
+we don't understand.
+
+1663
+01:07:01,049 --> 01:07:02,718
+It, longer wavelengths
+ than the radio
+
+1664
+01:07:02,751 --> 01:07:04,353
+and the sub-millimeter,
+in particular.
+
+1665
+01:07:04,386 --> 01:07:07,256
+There are a lot of lines
+ that are unidentified still
+
+1666
+01:07:07,289 --> 01:07:09,591
+and chemists are working
+very hard on those.
+
+1667
+01:07:09,624 --> 01:07:11,727
+>> Inquirer: Thank you.
+>> You're welcome.
+
+1668
+01:07:15,263 --> 01:07:16,732
+>> Would there be...
+
+1669
+01:07:18,433 --> 01:07:22,538
+Is Mars atmosphere strong
+  enough to have life?
+
+1670
+01:07:22,571 --> 01:07:26,375
+Because, like, the gulleys...
+
+1671
+01:07:28,310 --> 01:07:31,480
+they could have been carved
+ by water because, like...
+
+1672
+01:07:33,048 --> 01:07:34,650
+>> Right, so you might
+ know more about Mars
+
+1673
+01:07:34,683 --> 01:07:36,452
+than I do actually
+ because I don't study
+
+1674
+01:07:36,485 --> 01:07:39,288
+our solar system, so, my
+  understanding is that Mars
+
+1675
+01:07:39,321 --> 01:07:41,824
+had a more
+ significant atmosphere
+
+1676
+01:07:41,857 --> 01:07:44,126
+and most of that is left
+ because the density of Mars
+
+1677
+01:07:44,159 --> 01:07:47,863
+is too low to hold a very
+  significant atmosphere.
+
+1678
+01:07:47,896 --> 01:07:49,231
+So, there was
+ probably water on it,
+
+1679
+01:07:49,264 --> 01:07:50,633
+which is what we're seeing.
+
+1680
+01:07:51,967 --> 01:07:53,869
+And some of the planets
+on the TRAPPIST system
+
+1681
+01:07:53,902 --> 01:07:55,370
+have similar densities to Mars,
+
+1682
+01:07:55,403 --> 01:07:57,639
+so they might also
+  be very Mars-like,
+
+1683
+01:07:57,672 --> 01:08:01,643
+or they could also
+  have smaller...
+
+1684
+01:08:01,676 --> 01:08:03,212
+they could have fairly
+ significant cores,
+
+1685
+01:08:03,245 --> 01:08:06,482
+with a much larger envelope
+ and atmosphere still,
+
+1686
+01:08:06,515 --> 01:08:08,517
+and we don't know the
+ answer to that yet.
+
+1687
+01:08:08,550 --> 01:08:10,018
+So, they could be
+very Mars-like,
+
+1688
+01:08:10,051 --> 01:08:11,587
+like you've mentioned.
+
+1689
+01:08:12,821 --> 01:08:15,624
+>> And my second question is...
+
+1690
+01:08:15,657 --> 01:08:18,760
+I've heard that in
+2020 they're gonna make
+
+1691
+01:08:18,793 --> 01:08:23,799
+a telescope that can
+ see past several...
+
+1692
+01:08:31,139 --> 01:08:34,810
+Galaxies, like, I can't
+think of the name...
+
+1693
+01:08:36,244 --> 01:08:37,746
+>> Are you thinking of
+  the James Webb Telescope?
+
+1694
+01:08:37,779 --> 01:08:39,715
+Because the James Webb Telescope
+
+1695
+01:08:39,748 --> 01:08:41,350
+is a much larger
+collecting area.
+
+1696
+01:08:41,383 --> 01:08:44,653
+Will it be able to see even
+ farther back in the universe
+
+1697
+01:08:44,686 --> 01:08:47,289
+than the combination
+ of Spitzer and Hubble?
+
+1698
+01:08:47,322 --> 01:08:48,524
+And that's certainly true,
+
+1699
+01:08:48,557 --> 01:08:50,859
+one of the things
+  we will have to,
+
+1700
+01:08:50,892 --> 01:08:52,528
+one of the things that
+Webb was designed to do
+
+1701
+01:08:52,561 --> 01:08:55,063
+was to go back and look at
+  the epic of first stars.
+
+1702
+01:08:55,096 --> 01:08:56,798
+And I think from
+what we understand
+
+1703
+01:08:56,831 --> 01:08:57,899
+with Spitzer and Hubble
+
+1704
+01:08:57,932 --> 01:09:00,335
+is that stars formed a lot
+  earlier in the universe
+
+1705
+01:09:00,368 --> 01:09:01,870
+than we had anticipated,
+
+1706
+01:09:01,903 --> 01:09:04,873
+so Webb may not actually be
+ able to see the first stars,
+
+1707
+01:09:04,906 --> 01:09:07,843
+but it will see a lot of
+ the very earliest galaxies.
+
+1708
+01:09:09,110 --> 01:09:10,513
+>> Thank you.
+  _ [Carey] You're welcome.
+
+1709
+01:09:12,981 --> 01:09:14,416
+>> Hi, thanks for the talk.
+
+1710
+01:09:14,449 --> 01:09:16,318
+My question is actually very
+ similar to his question,
+
+1711
+01:09:16,351 --> 01:09:19,188
+I was wondering
+  in what ways will,
+
+1712
+01:09:19,221 --> 01:09:20,956
+is Spitzer gonna be a precursor
+
+1713
+01:09:20,989 --> 01:09:22,624
+for James Webb Space Telescope,
+
+1714
+01:09:22,657 --> 01:09:24,259
+and how can it
+ inform that mission?
+
+1715
+01:09:24,292 --> 01:09:25,427
+>> Yeah, it's a good question.
+
+1716
+01:09:25,460 --> 01:09:26,929
+And I think the combining,
+
+1717
+01:09:26,962 --> 01:09:31,233
+in terms of understanding
+ the high redshift universe,
+
+1718
+01:09:31,266 --> 01:09:33,402
+the combination of
+  Hubble and Spitzer
+
+1719
+01:09:33,435 --> 01:09:37,406
+has already told us that Webb
+ will not see the first stars.
+
+1720
+01:09:37,439 --> 01:09:38,740
+The combination's
+  also telling us
+
+1721
+01:09:38,773 --> 01:09:41,543
+some of the objects that
+Webb should look at,
+
+1722
+01:09:41,576 --> 01:09:42,878
+some of the most
+distant galaxies
+
+1723
+01:09:42,911 --> 01:09:44,680
+that have already
+  been identified.
+
+1724
+01:09:44,713 --> 01:09:48,116
+So those are the first
+  targets that Webb will use
+
+1725
+01:09:48,149 --> 01:09:51,186
+to, with its spectrographs
+  to disperse the light
+
+1726
+01:09:51,219 --> 01:09:52,721
+and really characterize them.
+
+1727
+01:09:52,754 --> 01:09:54,790
+So, Webb will give
+ us an understanding
+
+1728
+01:09:54,823 --> 01:09:57,493
+of the star formation rate,
+
+1729
+01:09:58,660 --> 01:10:01,496
+and how metal and rich
+ those galaxies are,
+
+1730
+01:10:01,529 --> 01:10:03,298
+which will tell us something
+ about if there were
+
+1731
+01:10:03,331 --> 01:10:05,801
+previous episodes of
+star formation in those.
+
+1732
+01:10:05,834 --> 01:10:07,536
+Which at some point there
+  won't be any, right?
+
+1733
+01:10:07,569 --> 01:10:11,139
+You're gonna see just that
+first primordial star formation,
+
+1734
+01:10:11,172 --> 01:10:13,041
+but Webb will be able
+ to actually measure
+
+1735
+01:10:13,074 --> 01:10:15,911
+the metal content in the
+gas of those galaxies
+
+1736
+01:10:15,944 --> 01:10:17,947
+and that will be very
+ powerful, I think.
+
+1737
+01:10:19,214 --> 01:10:20,349
+>> Thank you.
+  >> Carey: You're welcome.
+
+1738
+01:10:22,550 --> 01:10:24,086
+>> If you could indulge
+one other question,
+
+1739
+01:10:24,119 --> 01:10:25,354
+>> Carey: Absolutely.
+
+1740
+01:10:25,387 --> 01:10:26,955
+>> The Mars topic made
+ me think of something.
+
+1741
+01:10:26,988 --> 01:10:30,826
+So, Mars lost a lot
+ of it's atmosphere
+
+1742
+01:10:30,859 --> 01:10:34,896
+because the core freezing
+  out lost the magnetism,
+
+1743
+01:10:34,929 --> 01:10:38,100
+on the TRAPPIST system
+  for the Mars-like objects,
+
+1744
+01:10:38,133 --> 01:10:40,902
+is it possible, is
+ the resolution to see
+
+1745
+01:10:40,935 --> 01:10:45,073
+or to infer magnetic
+fields from Zeeman lines
+
+1746
+01:10:45,106 --> 01:10:48,377
+or is that not feasible?
+
+1747
+01:10:48,410 --> 01:10:52,314
+>> I don't think that'll be
+ feasible with any technology
+
+1748
+01:10:52,347 --> 01:10:55,851
+that can be done
+ in...in, uh, yeah...
+
+1749
+01:10:55,884 --> 01:10:58,754
+I think that's a
+ very hard observation
+
+1750
+01:10:58,787 --> 01:11:02,190
+to see the Zeeman splitting,
+ there's not much signal.
+
+1751
+01:11:02,223 --> 01:11:05,995
+Remember the transits are 1%
+
+1752
+01:11:07,095 --> 01:11:08,630
+and what you're gonna
+ talk about then,
+
+1753
+01:11:08,663 --> 01:11:12,334
+is looking at the
+  atmospheric constituents,
+
+1754
+01:11:12,367 --> 01:11:17,272
+so you figure the atmosphere
+ is at most 1/100th of that,
+
+1755
+01:11:17,305 --> 01:11:19,841
+so now you're down
+  another factor of hundred
+
+1756
+01:11:19,874 --> 01:11:21,843
+and then you have to have
+  enough signal to noise
+
+1757
+01:11:21,876 --> 01:11:24,212
+and a very narrow
+  wavelength range,
+
+1758
+01:11:24,245 --> 01:11:26,081
+to be able to resolve the lines.
+
+1759
+01:11:26,114 --> 01:11:27,716
+So, I think, you'd
+  need an enormous
+
+1760
+01:11:27,749 --> 01:11:28,950
+collecting area to do that.
+
+1761
+01:11:28,983 --> 01:11:30,119
+I think that's...
+
+1762
+01:11:32,220 --> 01:11:34,222
+You would need a
+ gigantic telescope,
+
+1763
+01:11:34,255 --> 01:11:35,824
+[laughter]
+
+1764
+01:11:35,857 --> 01:11:37,893
+I can't even figure out
+how big the telescope
+
+1765
+01:11:37,926 --> 01:11:39,728
+would need to be, which
+is what you're asking.
+
+1766
+01:11:39,761 --> 01:11:42,364
+So, I think it's, that'd be
+ really far in the future.
+
+1767
+01:11:42,397 --> 01:11:45,000
+I'd be very happy
+  if, with these,
+
+1768
+01:11:45,033 --> 01:11:50,005
+we were able to actually get
+ a measurement of constituents,
+
+1769
+01:11:50,038 --> 01:11:52,007
+chemical constituents
+ in the atmosphere.
+
+1770
+01:11:52,040 --> 01:11:54,143
+If we're able to
+ see a low resolution
+
+1771
+01:11:55,310 --> 01:11:58,714
+specter of the
+ atmosphere in transit
+
+1772
+01:11:58,747 --> 01:12:01,583
+that showed us a dipped
+for methane or CO2,
+
+1773
+01:12:01,616 --> 01:12:03,385
+could tell us something
+about, what those...
+
+1774
+01:12:03,418 --> 01:12:04,953
+First all, if there is
+ an atmosphere right?
+
+1775
+01:12:04,986 --> 01:12:06,822
+That's the first thing,
+and then the second,
+
+1776
+01:12:06,855 --> 01:12:09,057
+what would that
+  atmosphere be composed of?
+
+1777
+01:12:09,090 --> 01:12:11,760
+And I know based on
+ work people have done
+
+1778
+01:12:11,793 --> 01:12:14,963
+in planning for observations
+ with James Webb of TRAPPIST
+
+1779
+01:12:14,996 --> 01:12:18,100
+and a couple other systems
+ that that's entirely feasible.
+
+1780
+01:12:18,133 --> 01:12:21,470
+It just, in a couple years,
+ we'll have an answer to that
+
+1781
+01:12:21,503 --> 01:12:22,404
+which I think is real exciting,
+
+1782
+01:12:22,437 --> 01:12:24,239
+because we know what to look at
+
+1783
+01:12:24,272 --> 01:12:26,141
+and we have a
+ telescope very soon
+
+1784
+01:12:26,174 --> 01:12:28,243
+that will allow us to
+ do that, so, you know,
+
+1785
+01:12:28,276 --> 01:12:29,745
+wait a couple of years
+  and somebody will give you
+
+1786
+01:12:29,778 --> 01:12:33,415
+a von Kármán Lecture
+ in 2022, hopefully,
+
+1787
+01:12:33,448 --> 01:12:35,517
+and we'll have some
+ of those answers.
+
+1788
+01:12:35,550 --> 01:12:39,388
+>> Would any of the large
+ Earth proposed, large scale
+
+1789
+01:12:39,421 --> 01:12:41,490
+space station would
+  ferrometers be capable of
+
+1790
+01:12:41,523 --> 01:12:44,259
+getting down to that
+detection level, or not?
+
+1791
+01:12:44,292 --> 01:12:45,660
+>> It's not a question
+ of resolution,
+
+1792
+01:12:45,693 --> 01:12:47,629
+it's a question of
+  collecting area, I think.
+
+1793
+01:12:47,662 --> 01:12:50,632
+For things like the
+ Zeeman splitting.
+
+1794
+01:12:50,665 --> 01:12:55,404
+So you want a massive single
+ aperture and I think...
+
+1795
+01:12:57,105 --> 01:12:59,908
+my gut is telling
+  me that, what you,
+
+1796
+01:12:59,941 --> 01:13:01,643
+for that particular
+ experiment you need something
+
+1797
+01:13:01,676 --> 01:13:04,513
+way beyond anything that
+we'd be able to assemble
+
+1798
+01:13:04,546 --> 01:13:06,281
+in the next 20 years.
+
+1799
+01:13:06,314 --> 01:13:07,816
+>> Inquirer: Thanks.
+ >> You're welcome.
+
+1800
+01:13:09,083 --> 01:13:10,652
+>> I have a question about,
+
+1801
+01:13:10,685 --> 01:13:13,321
+since you've reached
+ that far in the galaxy
+
+1802
+01:13:13,354 --> 01:13:16,057
+what about the dark matter?
+
+1803
+01:13:16,090 --> 01:13:19,828
+Have you ever considered,
+ since you talked about masses
+
+1804
+01:13:19,861 --> 01:13:23,866
+and taking that [mumbles]
+  the controversial...
+
+1805
+01:13:26,234 --> 01:13:29,638
+Aspect of dark matter
+ and they're trying
+
+1806
+01:13:29,671 --> 01:13:32,140
+right now to change
+ the equation.
+
+1807
+01:13:32,173 --> 01:13:34,309
+>> Carey: Yeah, for the...
+ >> Have you looked at that?
+
+1808
+01:13:34,342 --> 01:13:37,379
+>> Not for, with Spitzer,
+  not for our own Milky Way,
+
+1809
+01:13:39,080 --> 01:13:41,016
+I know for external galaxies
+
+1810
+01:13:41,049 --> 01:13:42,584
+there's been a lot
+  of observations
+
+1811
+01:13:42,617 --> 01:13:46,254
+in conjunction with either
+  ground based spectrographs
+
+1812
+01:13:46,287 --> 01:13:49,291
+or Hubble to get some measure
+ of the velocity dispersion.
+
+1813
+01:13:49,324 --> 01:13:50,992
+Spitzer gives you very well,
+
+1814
+01:13:51,025 --> 01:13:54,796
+the visible mass
+ density of the galaxy.
+
+1815
+01:13:54,829 --> 01:13:57,566
+So the combination of we're
+ getting rotation curves
+
+1816
+01:13:57,599 --> 01:13:59,734
+and visible masses
+  help to determine
+
+1817
+01:13:59,767 --> 01:14:04,439
+what the dark matter halos are,
+for fairly nearby galaxies.
+
+1818
+01:14:04,472 --> 01:14:06,174
+So, and you know...
+
+1819
+01:14:06,207 --> 01:14:10,412
+>> I was also wondering, the
+ Webb might be able to actually
+
+1820
+01:14:11,379 --> 01:14:14,783
+look at that more accurately?
+
+1821
+01:14:14,816 --> 01:14:18,353
+>> Yeah, actually Webb will be
+ able to do that as well, yeah.
+
+1822
+01:14:18,386 --> 01:14:21,723
+>> Okay, I want to make
+a final comment here
+
+1823
+01:14:21,756 --> 01:14:25,060
+about the budgeting
+ and thing with that.
+
+1824
+01:14:25,093 --> 01:14:29,164
+We had, for the
+ Magellan Spacecraft,
+
+1825
+01:14:29,197 --> 01:14:31,666
+we had the design for one year
+
+1826
+01:14:31,699 --> 01:14:34,369
+and that were to
+ operate for 40 years
+
+1827
+01:14:34,402 --> 01:14:38,707
+and they cut the
+ funding after that,
+
+1828
+01:14:38,740 --> 01:14:41,643
+although it could operate
+  for much longer than that.
+
+1829
+01:14:43,511 --> 01:14:47,182
+Unfortunately, people who make
+ decision to cut the funding
+
+1830
+01:14:47,215 --> 01:14:50,252
+are not the one who
+actually do the work...
+
+1831
+01:14:50,285 --> 01:14:52,587
+>> Yeah, no that's
+  a fair comment.
+
+1832
+01:14:52,620 --> 01:14:53,822
+I think there's a
+ lot of good science
+
+1833
+01:14:53,855 --> 01:14:55,056
+that could continue to be done
+
+1834
+01:14:55,089 --> 01:14:57,125
+with a lot of
+ existing facilities,
+
+1835
+01:14:57,158 --> 01:14:58,627
+and it's just a
+ question of priority.
+
+1836
+01:14:58,660 --> 01:15:01,429
+So, I understand, the folks
+ who make those decisions
+
+1837
+01:15:01,462 --> 01:15:04,199
+actually have a really
+  hard job in prioritizing.
+
+1838
+01:15:05,300 --> 01:15:07,402
+[inaudible]
+
+1839
+01:15:07,435 --> 01:15:10,839
+Oh yeah, let me put my
+ glasses on... okay...
+
+1840
+01:15:10,872 --> 01:15:13,075
+So we have a couple
+ from the web, I guess.
+
+1841
+01:15:14,876 --> 01:15:18,046
+So Hassid asked, "Are
+  there any other telescopes
+
+1842
+01:15:18,079 --> 01:15:20,782
+"working infrared in space?"
+
+1843
+01:15:22,517 --> 01:15:25,320
+Well James Webb will
+ be working very soon.
+
+1844
+01:15:25,353 --> 01:15:28,957
+There's the WISE mission, which
+is actually doing a survey,
+
+1845
+01:15:28,990 --> 01:15:30,825
+it's in it's extended mission,
+
+1846
+01:15:30,858 --> 01:15:33,161
+so it does a, it's
+ a survey of the sky
+
+1847
+01:15:33,194 --> 01:15:34,896
+and it's operating
+ in bands very close
+
+1848
+01:15:34,929 --> 01:15:37,532
+to what IRAC is doing
+ now for Spitzer,
+
+1849
+01:15:37,565 --> 01:15:38,767
+so it's very complimentary,
+
+1850
+01:15:38,800 --> 01:15:40,835
+and one of the things
+WISE is doing actually,
+
+1851
+01:15:40,868 --> 01:15:43,038
+is looking for
+ near-Earth objects.
+
+1852
+01:15:43,071 --> 01:15:45,006
+Near-Earth asteroids and comets
+
+1853
+01:15:45,039 --> 01:15:47,309
+using the infrared,
+ so that's one.
+
+1854
+01:15:47,342 --> 01:15:51,846
+And then, not in space, but
+ very close to space is Sophia,
+
+1855
+01:15:51,879 --> 01:15:54,215
+which has a huge
+  compliment of instruments
+
+1856
+01:15:54,248 --> 01:15:57,218
+because they can change them
+ out because it's on a plane.
+
+1857
+01:15:57,251 --> 01:15:59,421
+So, that's another
+ telescope that's working in,
+
+1858
+01:15:59,454 --> 01:16:01,923
+sort of near, space
+ in the infrared.
+
+1859
+01:16:01,956 --> 01:16:03,792
+Okay, and then I have
+ one from Will here,
+
+1860
+01:16:03,825 --> 01:16:05,761
+Okay, he asked, "How
+ much gas is left?
+
+1861
+01:16:07,362 --> 01:16:08,630
+"Could you line
+  up the telescopes
+
+1862
+01:16:08,663 --> 01:16:11,232
+"with CubeSats to make
+ communication link?"
+
+1863
+01:16:11,265 --> 01:16:13,268
+Those are very good questions.
+
+1864
+01:16:13,301 --> 01:16:15,403
+So, I think the first
+ one is about the gas,
+
+1865
+01:16:15,436 --> 01:16:16,771
+the reaction gas.
+
+1866
+01:16:16,804 --> 01:16:18,974
+So Spitzer has a
+  tank of nitrogen,
+
+1867
+01:16:19,007 --> 01:16:22,010
+which is used to dump momentum
+ from the reaction wheels.
+
+1868
+01:16:22,043 --> 01:16:26,114
+We had 15 kilograms to start,
+ we have more than seven now.
+
+1869
+01:16:26,147 --> 01:16:28,350
+So we have plenty
+  of gas to do that.
+
+1870
+01:16:28,383 --> 01:16:30,885
+Otherwise, we move entirely
+ on the reaction wheels.
+
+1871
+01:16:30,918 --> 01:16:32,954
+So the big thing with Spitzer is
+
+1872
+01:16:32,987 --> 01:16:35,290
+if a reaction wheel breaks,
+ then it's harder to move.
+
+1873
+01:16:35,323 --> 01:16:39,427
+We have four, we could
+ operate on three very easily,
+
+1874
+01:16:39,460 --> 01:16:42,364
+two would make engineers do
+ things they don't want to do,
+
+1875
+01:16:42,397 --> 01:16:44,733
+and we'd not be
+  able to afford it.
+
+1876
+01:16:44,766 --> 01:16:47,235
+Linking up with CubeSats to
+ make the communications link.
+
+1877
+01:16:47,268 --> 01:16:48,737
+I think the answer
+  to that is no.
+
+1878
+01:16:48,770 --> 01:16:50,672
+Because the CubeSats
+ are too small
+
+1879
+01:16:50,705 --> 01:16:53,575
+to provide enough collecting
+ area to be a repeater.
+
+1880
+01:16:53,608 --> 01:16:55,710
+I mean, because you
+ would need something
+
+1881
+01:16:55,743 --> 01:16:58,446
+with as much power as
+ probably the Spitzer,
+
+1882
+01:16:58,479 --> 01:17:00,015
+or a high gain
+ antenna to do that,
+
+1883
+01:17:00,048 --> 01:17:01,516
+and I don't think
+  you could fit that
+
+1884
+01:17:01,549 --> 01:17:04,319
+in a CubeSat form factor, but
+ that's an interesting idea.
+
+1885
+01:17:04,352 --> 01:17:05,687
+Okay, so I think those
+ are from the web,
+
+1886
+01:17:05,720 --> 01:17:06,921
+and you had a question sir?
+
+1887
+01:17:06,954 --> 01:17:08,189
+>> Yes, first of all,
+ I'd just like to say
+
+1888
+01:17:08,222 --> 01:17:09,557
+thank you very much for
+your time this evening,
+
+1889
+01:17:09,590 --> 01:17:11,159
+it's been very, very
+ informational...
+
+1890
+01:17:11,192 --> 01:17:12,360
+>> Carey: Thank you.
+
+1891
+01:17:12,393 --> 01:17:13,795
+>> One question that
+ I've taken away,
+
+1892
+01:17:13,828 --> 01:17:15,597
+is so far with the discovery
+ of all the exoplanets
+
+1893
+01:17:15,630 --> 01:17:18,233
+that Spitzer's of
+course been involved in,
+
+1894
+01:17:18,266 --> 01:17:20,502
+am I to infer from
+this that we're finding
+
+1895
+01:17:20,535 --> 01:17:23,271
+an extraordinarily
+  high percentage
+
+1896
+01:17:23,304 --> 01:17:24,773
+that are actually
+  tidally locked?
+
+1897
+01:17:24,806 --> 01:17:27,509
+And if so, is there
+ a reason for that,
+
+1898
+01:17:27,542 --> 01:17:29,577
+that they've been
+  able to ascertain?
+
+1899
+01:17:29,610 --> 01:17:31,713
+>> So, the ones tidally locked
+
+1900
+01:17:31,746 --> 01:17:34,916
+are because of
+ proximity to the star.
+
+1901
+01:17:34,949 --> 01:17:38,987
+It's just the, it's a
+ question of orbital dynamics.
+
+1902
+01:17:39,020 --> 01:17:41,423
+So, it's a selection
+ effect, I think,
+
+1903
+01:17:41,456 --> 01:17:45,460
+in that the planets
+ that are orbiting...
+
+1904
+01:17:45,493 --> 01:17:48,630
+closer in, are easier to
+observe if the geometry's right
+
+1905
+01:17:48,663 --> 01:17:50,632
+from transiting and
+ they're also the ones
+
+1906
+01:17:50,665 --> 01:17:52,534
+that we can
+ characterize the best.
+
+1907
+01:17:52,567 --> 01:17:55,837
+So, you see this
+  population preferentially.
+
+1908
+01:17:57,305 --> 01:18:00,975
+I'm blanking on what
+  Kepler's shown in terms of
+
+1909
+01:18:01,008 --> 01:18:04,112
+total planetary statistics
+  about the distribution.
+
+1910
+01:18:04,145 --> 01:18:06,414
+I mean, the idea of these
+  in-close, hot Jupiters
+
+1911
+01:18:06,447 --> 01:18:09,050
+was something that people
+  who modeled systems
+
+1912
+01:18:09,083 --> 01:18:12,654
+before they were
+ discovered hadn't expected.
+
+1913
+01:18:12,687 --> 01:18:14,823
+Just because dynamically
+you had to figure out
+
+1914
+01:18:14,856 --> 01:18:17,759
+how to get them there,
+but now I think they've,
+
+1915
+01:18:17,792 --> 01:18:19,961
+the models accommodate
+ this very well.
+
+1916
+01:18:19,994 --> 01:18:22,530
+But I think really
+ when we focus on it,
+
+1917
+01:18:22,563 --> 01:18:23,965
+it's really just a
+  selection effect.
+
+1918
+01:18:23,998 --> 01:18:25,300
+It's not that these
+ are more prevalent,
+
+1919
+01:18:25,333 --> 01:18:26,735
+but they're very interesting.
+
+1920
+01:18:26,768 --> 01:18:27,936
+>> Inquirer: Got ya.
+ >> Okay.
+
+1921
+01:18:27,969 --> 01:18:28,737
+>> Inquirer: Thank
+  you very much.
+
+1922
+01:18:28,770 --> 01:18:29,504
+>> You're welcome.
+
+1923
+01:18:33,241 --> 01:18:35,110
+Well, thank you for your time.
