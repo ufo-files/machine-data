@@ -1,0 +1,7405 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v1", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2016-05-19---NASA-Jet-Propulsion-Laboratory---Public-Talk-Replicating-Titan-Mars_2EmGFovCypc---transcript-automated-.txt", "source_sha256": "07e83be2a31d8fd07b56b53e1873e22053bb60263606869c04c370642d0cdedf", "source_bytes": 135829, "created_utc": "2026-10-15T04:19:44.660578+00:00"}
+
+1
+00:00:03,909 --> 00:00:02,310
+nasa's jet propulsion laboratory
+
+2
+00:00:06,550 --> 00:00:03,919
+presents
+
+3
+00:00:08,629 --> 00:00:06,560
+the von carmen lecture a series of talks
+
+4
+00:00:11,910 --> 00:00:08,639
+by scientists and engineers who are
+
+5
+00:00:26,710 --> 00:00:11,920
+exploring our planet our solar system
+
+6
+00:00:30,070 --> 00:00:28,230
+hey good evening everybody how's
+
+7
+00:00:32,310 --> 00:00:30,080
+everyone tonight
+
+8
+00:00:34,790 --> 00:00:32,320
+superb again as always thank you very
+
+9
+00:00:36,709 --> 00:00:34,800
+much for coming out to join us tonight
+
+10
+00:00:38,869 --> 00:00:36,719
+so the search for life elsewhere in the
+
+11
+00:00:41,110 --> 00:00:38,879
+solar system has tantalized humanity for
+
+12
+00:00:42,869 --> 00:00:41,120
+centuries and as much as this search has
+
+13
+00:00:44,630 --> 00:00:42,879
+led us to look outward
+
+14
+00:00:46,950 --> 00:00:44,640
+towards places that may have life or the
+
+15
+00:00:49,270 --> 00:00:46,960
+chemical precursors for life it has also
+
+16
+00:00:50,709 --> 00:00:49,280
+led us inward studying places on earth
+
+17
+00:00:53,029 --> 00:00:50,719
+and recreating other worlds in the
+
+18
+00:00:54,630 --> 00:00:53,039
+laboratory that can act as analog
+
+19
+00:00:56,630 --> 00:00:54,640
+environments to other places that are
+
+20
+00:00:58,950 --> 00:00:56,640
+far more difficult to reach
+
+21
+00:01:01,270 --> 00:00:58,960
+titan a moon of saturn is an excellent
+
+22
+00:01:04,070 --> 00:01:01,280
+example of a prebiotic world where a
+
+23
+00:01:05,750 --> 00:01:04,080
+diverse array of organic molecules exist
+
+24
+00:01:07,990 --> 00:01:05,760
+but life as we know it cannot survive on
+
+25
+00:01:09,910 --> 00:01:08,000
+the surface the liquid hydrocarbon lakes
+
+26
+00:01:11,590 --> 00:01:09,920
+of titan are a unique environment where
+
+27
+00:01:13,990 --> 00:01:11,600
+organic molecules have the opportunity
+
+28
+00:01:16,310 --> 00:01:14,000
+to interact and possibly react with each
+
+29
+00:01:17,749 --> 00:01:16,320
+other by recreating titan's lakes in the
+
+30
+00:01:19,270 --> 00:01:17,759
+laboratory we are discovering new
+
+31
+00:01:21,270 --> 00:01:19,280
+chemical interactions that were
+
+32
+00:01:23,270 --> 00:01:21,280
+previously unknown to science and which
+
+33
+00:01:24,230 --> 00:01:23,280
+may help us understand how titan came to
+
+34
+00:01:26,230 --> 00:01:24,240
+be
+
+35
+00:01:28,469 --> 00:01:26,240
+iceland a nordic island shaped by
+
+36
+00:01:30,310 --> 00:01:28,479
+volcanism and glaciers is recognized as
+
+37
+00:01:33,109 --> 00:01:30,320
+an analog environment for mars due to
+
+38
+00:01:34,710 --> 00:01:33,119
+its similar geochemistry and mineralogy
+
+39
+00:01:36,469 --> 00:01:34,720
+two field expeditions there have
+
+40
+00:01:38,550 --> 00:01:36,479
+successfully tested life detection
+
+41
+00:01:41,109 --> 00:01:38,560
+techniques that may be used on future
+
+42
+00:01:43,830 --> 00:01:41,119
+mars missions discovering that microbial
+
+43
+00:01:45,590 --> 00:01:43,840
+diversity can vary widely even in areas
+
+44
+00:01:47,990 --> 00:01:45,600
+that appear to be the same in terms of
+
+45
+00:01:50,630 --> 00:01:48,000
+geology this has implications for where
+
+46
+00:01:52,630 --> 00:01:50,640
+and how we might search for life on mars
+
+47
+00:01:54,389 --> 00:01:52,640
+tonight's guest is a technologist in the
+
+48
+00:01:57,270 --> 00:01:54,399
+instrument systems implementation and
+
+49
+00:01:58,950 --> 00:01:57,280
+concepts section right here at jpl she's
+
+50
+00:02:01,190 --> 00:01:58,960
+also the assistant project science
+
+51
+00:02:03,190 --> 00:02:01,200
+systems engineer on the cassini mission
+
+52
+00:02:04,709 --> 00:02:03,200
+which has been orbiting saturn for the
+
+53
+00:02:06,550 --> 00:02:04,719
+last 10 years
+
+54
+00:02:08,550 --> 00:02:06,560
+her research focuses on organic and
+
+55
+00:02:10,630 --> 00:02:08,560
+biomarker detection strategies through
+
+56
+00:02:12,869 --> 00:02:10,640
+both in-situ and remote sensing
+
+57
+00:02:14,550 --> 00:02:12,879
+techniques while earning her phd in
+
+58
+00:02:16,710 --> 00:02:14,560
+chemistry at the california institute of
+
+59
+00:02:18,790 --> 00:02:16,720
+technology she designed receptor sites
+
+60
+00:02:20,710 --> 00:02:18,800
+for the detection of bacterial spores
+
+61
+00:02:22,710 --> 00:02:20,720
+the toughest form of life
+
+62
+00:02:25,270 --> 00:02:22,720
+as a nasa postdoctoral fellow right here
+
+63
+00:02:27,910 --> 00:02:25,280
+at jpl she developed novel protocols to
+
+64
+00:02:30,229 --> 00:02:27,920
+analyze organics such as fatty acids
+
+65
+00:02:32,229 --> 00:02:30,239
+using small portable microfluidic
+
+66
+00:02:34,390 --> 00:02:32,239
+sensors she is currently working as a
+
+67
+00:02:36,630 --> 00:02:34,400
+collaborator on the mapping in imaging
+
+68
+00:02:38,790 --> 00:02:36,640
+spectrometer for europa an instrument
+
+69
+00:02:40,710 --> 00:02:38,800
+selected for nasa's next mission to
+
+70
+00:02:42,470 --> 00:02:40,720
+jupiter's icy moon europa this
+
+71
+00:02:44,470 --> 00:02:42,480
+spectrometer will map europa's surface
+
+72
+00:02:46,309 --> 00:02:44,480
+and search for organics salts and
+
+73
+00:02:48,070 --> 00:02:46,319
+minerals ladies and gentlemen please
+
+74
+00:02:57,990 --> 00:02:48,080
+help me welcome tonight's guest dr
+
+75
+00:03:02,229 --> 00:03:00,550
+hello can you guys hear me all right
+
+76
+00:03:04,390 --> 00:03:02,239
+all right thank you so much for coming
+
+77
+00:03:05,830 --> 00:03:04,400
+tonight i'm very excited to be here to
+
+78
+00:03:07,509 --> 00:03:05,840
+have you guys be here to tell you a
+
+79
+00:03:10,149 --> 00:03:07,519
+little bit about some analog
+
+80
+00:03:11,830 --> 00:03:10,159
+environments that we use to study the
+
+81
+00:03:15,670 --> 00:03:11,840
+solar system
+
+82
+00:03:18,149 --> 00:03:15,680
+so first i wanted to ask you a question
+
+83
+00:03:21,190 --> 00:03:18,159
+so analog environments we are looking at
+
+84
+00:03:23,350 --> 00:03:21,200
+places on earth or places that that we
+
+85
+00:03:25,910 --> 00:03:23,360
+can simulate in the lab that may
+
+86
+00:03:26,790 --> 00:03:25,920
+replicate places elsewhere in the solar
+
+87
+00:03:29,910 --> 00:03:26,800
+system
+
+88
+00:03:31,430 --> 00:03:29,920
+so is this mars or earth
+
+89
+00:03:34,149 --> 00:03:31,440
+yeah this one was a little easy there
+
+90
+00:03:35,589 --> 00:03:34,159
+are plants in here
+
+91
+00:03:37,910 --> 00:03:35,599
+but
+
+92
+00:03:40,070 --> 00:03:37,920
+this is jordan this is actually where
+
+93
+00:03:43,750 --> 00:03:40,080
+the martian was filmed
+
+94
+00:03:48,949 --> 00:03:47,030
+good okay you guys are doing pretty well
+
+95
+00:03:51,589 --> 00:03:48,959
+what about this
+
+96
+00:03:56,869 --> 00:03:54,869
+you're right this is in libya
+
+97
+00:03:58,630 --> 00:03:56,879
+how about this
+
+98
+00:04:02,390 --> 00:03:58,640
+you guys are really good i was hoping i
+
+99
+00:04:07,190 --> 00:04:02,400
+would trick you it says salisbury peak
+
+100
+00:04:12,149 --> 00:04:10,229
+oh i'm not so sure now are you
+
+101
+00:04:14,309 --> 00:04:12,159
+this is iceland
+
+102
+00:04:15,110 --> 00:04:14,319
+yeah so
+
+103
+00:04:17,509 --> 00:04:15,120
+many
+
+104
+00:04:19,749 --> 00:04:17,519
+environments on earth places like jordan
+
+105
+00:04:22,310 --> 00:04:19,759
+and libya the atacama desert have been
+
+106
+00:04:24,390 --> 00:04:22,320
+used by nasa as analog environments for
+
+107
+00:04:26,469 --> 00:04:24,400
+places like mars for a while and iceland
+
+108
+00:04:29,110 --> 00:04:26,479
+is one of these places it was actually
+
+109
+00:04:30,790 --> 00:04:29,120
+used in the 50s and 60s to train apollo
+
+110
+00:04:32,469 --> 00:04:30,800
+astronauts for some of their their
+
+111
+00:04:34,150 --> 00:04:32,479
+activities on the moon
+
+112
+00:04:36,469 --> 00:04:34,160
+the reason that we like it as an analog
+
+113
+00:04:38,629 --> 00:04:36,479
+for mars is because it's very
+
+114
+00:04:41,189 --> 00:04:38,639
+volcanically active right it's a land of
+
+115
+00:04:43,510 --> 00:04:41,199
+fire and ice glaciers and volcanism
+
+116
+00:04:45,110 --> 00:04:43,520
+a lot of those volcanic regions are very
+
+117
+00:04:46,550 --> 00:04:45,120
+similar in some of their properties to
+
+118
+00:04:49,270 --> 00:04:46,560
+places on mars
+
+119
+00:04:51,670 --> 00:04:49,280
+it's also typically has areas that are
+
+120
+00:04:54,230 --> 00:04:51,680
+desiccated so not a lot of water
+
+121
+00:04:56,469 --> 00:04:54,240
+low nutrient availability just like mars
+
+122
+00:04:58,070 --> 00:04:56,479
+temperature extremes and also some
+
+123
+00:05:00,550 --> 00:04:58,080
+isolation from
+
+124
+00:05:02,070 --> 00:05:00,560
+us from contamination that could
+
+125
+00:05:04,790 --> 00:05:02,080
+fool some of our life detection
+
+126
+00:05:07,029 --> 00:05:04,800
+techniques so we really like iceland as
+
+127
+00:05:09,029 --> 00:05:07,039
+an analog for mars
+
+128
+00:05:10,950 --> 00:05:09,039
+now i'm part of a team
+
+129
+00:05:13,029 --> 00:05:10,960
+and it's a nasa team so of course we
+
+130
+00:05:16,469 --> 00:05:13,039
+love our acronyms
+
+131
+00:05:18,390 --> 00:05:16,479
+feldspar is a type of volcanic mineral
+
+132
+00:05:20,390 --> 00:05:18,400
+and that's what we decided to name our
+
+133
+00:05:22,950 --> 00:05:20,400
+team which stands for i'll only say it
+
+134
+00:05:25,350 --> 00:05:22,960
+one time i promise field exploration and
+
+135
+00:05:28,230 --> 00:05:25,360
+life detection sampling for planetary
+
+136
+00:05:31,430 --> 00:05:28,240
+and astrobiology research
+
+137
+00:05:33,990 --> 00:05:31,440
+yes feldspar go team feldspar okay
+
+138
+00:05:35,510 --> 00:05:34,000
+so this is the team
+
+139
+00:05:37,189 --> 00:05:35,520
+and this is all the places that we're
+
+140
+00:05:39,029 --> 00:05:37,199
+from and i wanted to take a minute and
+
+141
+00:05:41,749 --> 00:05:39,039
+describe how we all met because this was
+
+142
+00:05:43,270 --> 00:05:41,759
+a very unique set of circumstances you
+
+143
+00:05:45,189 --> 00:05:43,280
+can tell we're all from a variety of
+
+144
+00:05:47,029 --> 00:05:45,199
+different places both in the u.s and
+
+145
+00:05:48,950 --> 00:05:47,039
+over in europe and we met through
+
+146
+00:05:51,029 --> 00:05:48,960
+something called the nasa nordic
+
+147
+00:05:53,029 --> 00:05:51,039
+astrobiology summer school raise your
+
+148
+00:05:54,710 --> 00:05:53,039
+hand if you've heard of this before
+
+149
+00:05:57,189 --> 00:05:54,720
+okay you should all google this because
+
+150
+00:05:59,430 --> 00:05:57,199
+this is an amazing program it's meant
+
+151
+00:06:01,430 --> 00:05:59,440
+for early career scientists and
+
+152
+00:06:04,390 --> 00:06:01,440
+engineers people interested in learning
+
+153
+00:06:06,629 --> 00:06:04,400
+about astrobiology and this wait hang on
+
+154
+00:06:08,550 --> 00:06:06,639
+i have a laser pointer
+
+155
+00:06:10,469 --> 00:06:08,560
+okay this gentleman right here wolf
+
+156
+00:06:12,469 --> 00:06:10,479
+goepper organizes the one that's in
+
+157
+00:06:14,550 --> 00:06:12,479
+iceland it alternates between iceland
+
+158
+00:06:16,629 --> 00:06:14,560
+and hawaii it's every i think year and a
+
+159
+00:06:18,790 --> 00:06:16,639
+half and it's a wonderful program
+
+160
+00:06:20,870 --> 00:06:18,800
+so as a chemist my background is in
+
+161
+00:06:24,230 --> 00:06:20,880
+chemistry i went and learned about
+
+162
+00:06:25,909 --> 00:06:24,240
+geology and biology and geophysics
+
+163
+00:06:27,430 --> 00:06:25,919
+things that are important for the study
+
+164
+00:06:29,830 --> 00:06:27,440
+of astrobiology it's a very
+
+165
+00:06:31,350 --> 00:06:29,840
+interdisciplinary field and so the
+
+166
+00:06:33,270 --> 00:06:31,360
+biologists would learn some chemistry
+
+167
+00:06:35,350 --> 00:06:33,280
+and the geologists would too and and it
+
+168
+00:06:37,990 --> 00:06:35,360
+was a great way for us to interact
+
+169
+00:06:40,070 --> 00:06:38,000
+and so we went around and toured a few
+
+170
+00:06:41,909 --> 00:06:40,080
+lava fields and some glaciers and other
+
+171
+00:06:44,469 --> 00:06:41,919
+environments on iceland that are good
+
+172
+00:06:46,150 --> 00:06:44,479
+analogs for planetary environments and a
+
+173
+00:06:48,309 --> 00:06:46,160
+few of us were thinking boy
+
+174
+00:06:49,909 --> 00:06:48,319
+these are some really cool places and i
+
+175
+00:06:52,230 --> 00:06:49,919
+haven't found much in the literature of
+
+176
+00:06:54,629 --> 00:06:52,240
+people actually using these environments
+
+177
+00:06:56,790 --> 00:06:54,639
+to test things for mars maybe we should
+
+178
+00:06:58,550 --> 00:06:56,800
+do something about that and so this
+
+179
+00:07:00,550 --> 00:06:58,560
+smaller group i think there are 50 that
+
+180
+00:07:02,309 --> 00:07:00,560
+were in the astrobiology summer school
+
+181
+00:07:04,230 --> 00:07:02,319
+but a group of about 12 or 13 of us
+
+182
+00:07:06,230 --> 00:07:04,240
+decided to cobble together funding from
+
+183
+00:07:08,790 --> 00:07:06,240
+whatever sources we could get and put
+
+184
+00:07:10,870 --> 00:07:08,800
+together an expedition so after that
+
+185
+00:07:12,469 --> 00:07:10,880
+summer school the following year we were
+
+186
+00:07:13,270 --> 00:07:12,479
+able to come back to iceland and do our
+
+187
+00:07:15,830 --> 00:07:13,280
+own
+
+188
+00:07:18,710 --> 00:07:15,840
+smaller expedition and start our
+
+189
+00:07:22,150 --> 00:07:18,720
+question to inform future mars missions
+
+190
+00:07:26,309 --> 00:07:23,990
+so this is not mars again this is
+
+191
+00:07:28,550 --> 00:07:26,319
+iceland which so ignore the beautiful
+
+192
+00:07:30,469 --> 00:07:28,560
+icelandic glaciers in the background
+
+193
+00:07:32,629 --> 00:07:30,479
+and pretend like you're on mars okay
+
+194
+00:07:34,230 --> 00:07:32,639
+you've landed your rover
+
+195
+00:07:36,390 --> 00:07:34,240
+so there it is
+
+196
+00:07:38,870 --> 00:07:36,400
+and you've used high resolution imagery
+
+197
+00:07:40,950 --> 00:07:38,880
+this is actually an image of the mars
+
+198
+00:07:43,270 --> 00:07:40,960
+curiosity rover can you see it
+
+199
+00:07:44,469 --> 00:07:43,280
+this is uh from mars it's right there in
+
+200
+00:07:47,110 --> 00:07:44,479
+the middle
+
+201
+00:07:49,430 --> 00:07:47,120
+taken by highrise which is a camera
+
+202
+00:07:51,510 --> 00:07:49,440
+aboard the mars reconnaissance orbiter
+
+203
+00:07:54,070 --> 00:07:51,520
+so you've used your high resolution
+
+204
+00:07:56,390 --> 00:07:54,080
+imagery to pick your spot that you think
+
+205
+00:07:58,070 --> 00:07:56,400
+has life all right you've landed your
+
+206
+00:07:59,909 --> 00:07:58,080
+rover and you've got all sorts of
+
+207
+00:08:02,070 --> 00:07:59,919
+instruments
+
+208
+00:08:05,270 --> 00:08:02,080
+including your life finder 3000 this is
+
+209
+00:08:07,270 --> 00:08:05,280
+a future mars mars lander mars rover
+
+210
+00:08:08,950 --> 00:08:07,280
+and you're ready to look for life okay
+
+211
+00:08:10,150 --> 00:08:08,960
+well
+
+212
+00:08:13,830 --> 00:08:10,160
+where do you look
+
+213
+00:08:15,990 --> 00:08:13,840
+do you look here do you look over here
+
+214
+00:08:17,909 --> 00:08:16,000
+in terms of the the really close small
+
+215
+00:08:19,749 --> 00:08:17,919
+context this is the best imaging you
+
+216
+00:08:22,309 --> 00:08:19,759
+have is what's coming from your rover
+
+217
+00:08:24,950 --> 00:08:22,319
+and who knows the alien could be hiding
+
+218
+00:08:26,390 --> 00:08:24,960
+right behind that rock that
+
+219
+00:08:28,869 --> 00:08:26,400
+that you don't sample
+
+220
+00:08:31,189 --> 00:08:28,879
+so our question was when you get to this
+
+221
+00:08:33,509 --> 00:08:31,199
+this place and it looks uh the technical
+
+222
+00:08:35,909 --> 00:08:33,519
+term would be homogeneous so it sort of
+
+223
+00:08:37,829 --> 00:08:35,919
+all looks the same if you drive your
+
+224
+00:08:39,110 --> 00:08:37,839
+rover over here and you collect a sample
+
+225
+00:08:41,110 --> 00:08:39,120
+and then you drive your rover over here
+
+226
+00:08:42,630 --> 00:08:41,120
+and collect another sample
+
+227
+00:08:44,230 --> 00:08:42,640
+will they be the same
+
+228
+00:08:46,389 --> 00:08:44,240
+would you find life in one and not the
+
+229
+00:08:47,670 --> 00:08:46,399
+other and how do you decide
+
+230
+00:08:50,230 --> 00:08:47,680
+so that was a question that we were
+
+231
+00:08:51,269 --> 00:08:50,240
+trying to answer
+
+232
+00:08:52,790 --> 00:08:51,279
+and so
+
+233
+00:08:55,350 --> 00:08:52,800
+we have mars on the left earth on the
+
+234
+00:08:56,790 --> 00:08:55,360
+right so a typical mars type exploration
+
+235
+00:08:59,350 --> 00:08:56,800
+for this again you'd start with that
+
+236
+00:09:01,350 --> 00:08:59,360
+remote sensing we don't have mro
+
+237
+00:09:04,470 --> 00:09:01,360
+orbiting around earth so we used google
+
+238
+00:09:06,870 --> 00:09:04,480
+earth to do some of our our very high
+
+239
+00:09:08,949 --> 00:09:06,880
+resolution imagery of our site so this
+
+240
+00:09:10,230 --> 00:09:08,959
+is one of the the lava fields that we
+
+241
+00:09:12,070 --> 00:09:10,240
+visited
+
+242
+00:09:14,389 --> 00:09:12,080
+now we didn't have a mars rover but we
+
+243
+00:09:17,030 --> 00:09:14,399
+had a land rover which is
+
+244
+00:09:18,870 --> 00:09:17,040
+what we used to go and and visit our
+
+245
+00:09:21,190 --> 00:09:18,880
+various sample sites we tried to pick
+
+246
+00:09:23,350 --> 00:09:21,200
+places that were sort of off the beaten
+
+247
+00:09:25,829 --> 00:09:23,360
+path even in iceland it's become quite a
+
+248
+00:09:28,389 --> 00:09:25,839
+tourist site and so we're trying to find
+
+249
+00:09:29,750 --> 00:09:28,399
+places where we can find fresh lava but
+
+250
+00:09:31,829 --> 00:09:29,760
+that doesn't have a lot of tourist
+
+251
+00:09:34,150 --> 00:09:31,839
+traffic
+
+252
+00:09:35,670 --> 00:09:34,160
+and just like we do on mars with the
+
+253
+00:09:37,269 --> 00:09:35,680
+curiosity rover
+
+254
+00:09:39,750 --> 00:09:37,279
+which has uh several techniques for
+
+255
+00:09:43,590 --> 00:09:39,760
+doing standoff tech analysis things like
+
+256
+00:09:46,230 --> 00:09:43,600
+the the tunable laser spectrometer tls
+
+257
+00:09:48,230 --> 00:09:46,240
+or laser laser ablation types of
+
+258
+00:09:51,190 --> 00:09:48,240
+experiments we also use some field
+
+259
+00:09:53,829 --> 00:09:51,200
+portable instruments this is me with a
+
+260
+00:09:56,790 --> 00:09:53,839
+what's called an asd spectrometer which
+
+261
+00:09:57,990 --> 00:09:56,800
+is sort of strapped here and we have a
+
+262
+00:09:59,990 --> 00:09:58,000
+probe that we use that we point at
+
+263
+00:10:01,910 --> 00:10:00,000
+samples and this this instrument looks
+
+264
+00:10:03,269 --> 00:10:01,920
+at the light that's reflected that comes
+
+265
+00:10:05,269 --> 00:10:03,279
+from the sun that's reflected off the
+
+266
+00:10:07,509 --> 00:10:05,279
+rocks and comes back and you can
+
+267
+00:10:08,949 --> 00:10:07,519
+identify minerals this way and it's very
+
+268
+00:10:13,110 --> 00:10:08,959
+similar to some instruments that we've
+
+269
+00:10:15,030 --> 00:10:13,120
+included on mars rovers in the past
+
+270
+00:10:16,470 --> 00:10:15,040
+so now once you've collected your sample
+
+271
+00:10:18,710 --> 00:10:16,480
+a typical mars rover will bring it
+
+272
+00:10:20,470 --> 00:10:18,720
+inside and interrogate it with a variety
+
+273
+00:10:22,470 --> 00:10:20,480
+of different instruments well we have a
+
+274
+00:10:24,710 --> 00:10:22,480
+field lab and a bunch of of my
+
+275
+00:10:26,470 --> 00:10:24,720
+colleagues this is my friend elena who's
+
+276
+00:10:28,150 --> 00:10:26,480
+studying she's getting her phd up at the
+
+277
+00:10:29,910 --> 00:10:28,160
+university of washington
+
+278
+00:10:32,069 --> 00:10:29,920
+and so she pretended to be one of the
+
+279
+00:10:35,110 --> 00:10:32,079
+instruments
+
+280
+00:10:37,030 --> 00:10:35,120
+um and okay so so we're doing this sort
+
+281
+00:10:39,350 --> 00:10:37,040
+of thinking about what would a mars
+
+282
+00:10:41,030 --> 00:10:39,360
+rover do and now what would we do
+
+283
+00:10:43,269 --> 00:10:41,040
+and there are plenty of places that we
+
+284
+00:10:46,069 --> 00:10:43,279
+could go on iceland it's one of the most
+
+285
+00:10:47,990 --> 00:10:46,079
+volcanically active areas in on earth
+
+286
+00:10:49,829 --> 00:10:48,000
+it's growing so it's it's sort of
+
+287
+00:10:51,190 --> 00:10:49,839
+sandwiched between two plates and one of
+
+288
+00:10:53,750 --> 00:10:51,200
+those plates is growing i think at five
+
+289
+00:10:55,910 --> 00:10:53,760
+centimeters per year which is in fact is
+
+290
+00:10:57,910 --> 00:10:55,920
+the same rate as your fingernails grow
+
+291
+00:10:59,509 --> 00:10:57,920
+kind of cool
+
+292
+00:11:02,790 --> 00:10:59,519
+okay so these are the
+
+293
+00:11:05,430 --> 00:11:02,800
+the different places that we decided to
+
+294
+00:11:08,230 --> 00:11:05,440
+look in order of age all right now raise
+
+295
+00:11:11,110 --> 00:11:08,240
+your hand if you're icelandic
+
+296
+00:11:13,030 --> 00:11:11,120
+okay so i'm apologize if i butcher any
+
+297
+00:11:15,509 --> 00:11:13,040
+of the icelandic
+
+298
+00:11:17,030 --> 00:11:15,519
+this is a melee fetal sander which is
+
+299
+00:11:18,710 --> 00:11:17,040
+the oldest site this is sort of a
+
+300
+00:11:20,150 --> 00:11:18,720
+volcanic desert
+
+301
+00:11:21,670 --> 00:11:20,160
+kind of in the middle of nowhere in
+
+302
+00:11:22,630 --> 00:11:21,680
+iceland which is good so not a lot of
+
+303
+00:11:24,230 --> 00:11:22,640
+people
+
+304
+00:11:26,870 --> 00:11:24,240
+go there this is our oldest site this is
+
+305
+00:11:28,550 --> 00:11:26,880
+on the order of about 10 000 years
+
+306
+00:11:29,829 --> 00:11:28,560
+uh land mana lugar which is in the
+
+307
+00:11:32,710 --> 00:11:29,839
+central highlands this is from an
+
+308
+00:11:35,030 --> 00:11:32,720
+eruption in the 1400s
+
+309
+00:11:37,110 --> 00:11:35,040
+eldfell which is actually a relatively
+
+310
+00:11:39,030 --> 00:11:37,120
+new eruption on this tiny little island
+
+311
+00:11:40,949 --> 00:11:39,040
+called jaime this eruption happened in
+
+312
+00:11:42,870 --> 00:11:40,959
+1973
+
+313
+00:11:45,030 --> 00:11:42,880
+and that's more of a lava fisher and
+
+314
+00:11:47,990 --> 00:11:45,040
+then our newest site is a femme
+
+315
+00:11:50,790 --> 00:11:48,000
+volderhalls which is a new lava field do
+
+316
+00:11:52,310 --> 00:11:50,800
+you guys remember back in 2010 the
+
+317
+00:11:54,630 --> 00:11:52,320
+air traffic was really messed up in
+
+318
+00:11:57,670 --> 00:11:54,640
+europe that was because of this
+
+319
+00:12:01,269 --> 00:11:57,680
+and the the um glacier that it erupted
+
+320
+00:12:04,790 --> 00:12:03,190
+don't ask me to say it again uh i've
+
+321
+00:12:06,790 --> 00:12:04,800
+been practicing
+
+322
+00:12:09,269 --> 00:12:06,800
+okay so uh but i'm only going to be
+
+323
+00:12:12,870 --> 00:12:09,279
+talking about these two today
+
+324
+00:12:14,710 --> 00:12:12,880
+so this is what the jaime eruption looks
+
+325
+00:12:16,949 --> 00:12:14,720
+like you can see a couple of the other
+
+326
+00:12:18,550 --> 00:12:16,959
+islands that are in this this island
+
+327
+00:12:20,310 --> 00:12:18,560
+chain down off the southern coast of
+
+328
+00:12:22,470 --> 00:12:20,320
+iceland it's actually funny you see that
+
+329
+00:12:23,990 --> 00:12:22,480
+little white dot that's somebody's house
+
+330
+00:12:26,710 --> 00:12:24,000
+he's the only guy that lives on that
+
+331
+00:12:29,030 --> 00:12:26,720
+island there's one house
+
+332
+00:12:30,629 --> 00:12:29,040
+but this eruption happens sort of on the
+
+333
+00:12:33,350 --> 00:12:30,639
+the eastern side of the island and the
+
+334
+00:12:35,430 --> 00:12:33,360
+island actually grew by about 25
+
+335
+00:12:37,590 --> 00:12:35,440
+over a period of a few months as lava
+
+336
+00:12:40,230 --> 00:12:37,600
+poured out this is a tiny island it's a
+
+337
+00:12:43,190 --> 00:12:40,240
+it's a fishing town basically and the
+
+338
+00:12:45,990 --> 00:12:43,200
+lava almost uh encroached into the the
+
+339
+00:12:47,350 --> 00:12:46,000
+bay where you know all the harbor where
+
+340
+00:12:48,550 --> 00:12:47,360
+the fishing boats were and they were
+
+341
+00:12:49,910 --> 00:12:48,560
+really concerned that it was going to
+
+342
+00:12:51,910 --> 00:12:49,920
+block it off completely and they would
+
+343
+00:12:53,750 --> 00:12:51,920
+lose their livelihood so they brought in
+
+344
+00:12:56,230 --> 00:12:53,760
+these boats you know the fire boats that
+
+345
+00:12:57,670 --> 00:12:56,240
+shoot water and we're doing that for
+
+346
+00:12:59,430 --> 00:12:57,680
+months and months and months and we're
+
+347
+00:13:01,030 --> 00:12:59,440
+able to stop the flow of lava so now
+
+348
+00:13:03,030 --> 00:13:01,040
+they have a more protected harbor
+
+349
+00:13:05,430 --> 00:13:03,040
+because of this eruption well this is
+
+350
+00:13:08,389 --> 00:13:05,440
+1973
+
+351
+00:13:10,550 --> 00:13:08,399
+and this is the the more recent uh film
+
+352
+00:13:13,829 --> 00:13:10,560
+volder house uh
+
+353
+00:13:15,350 --> 00:13:13,839
+yokoro twice yes okay eruption
+
+354
+00:13:17,829 --> 00:13:15,360
+and uh so these are the two that i'll be
+
+355
+00:13:20,550 --> 00:13:17,839
+talking about today now we didn't go to
+
+356
+00:13:21,990 --> 00:13:20,560
+them when they looked like this we
+
+357
+00:13:23,829 --> 00:13:22,000
+when we went they look like this it's a
+
+358
+00:13:26,069 --> 00:13:23,839
+little dark because it was a little a
+
+359
+00:13:28,389 --> 00:13:26,079
+little cloudy when we were there let me
+
+360
+00:13:31,190 --> 00:13:28,399
+see if i can play this so we also
+
+361
+00:13:34,389 --> 00:13:31,200
+brought with us a quadcopter to get some
+
+362
+00:13:36,389 --> 00:13:34,399
+more context imaging and you can see
+
+363
+00:13:38,710 --> 00:13:36,399
+it's a little bit dim but
+
+364
+00:13:40,949 --> 00:13:38,720
+beautiful landscape a lot of ice and a
+
+365
+00:13:43,590 --> 00:13:40,959
+lot of lava
+
+366
+00:13:45,509 --> 00:13:43,600
+and not a lot of magma right so now it's
+
+367
+00:13:46,949 --> 00:13:45,519
+it's it's cooled and it's had time for
+
+368
+00:13:49,670 --> 00:13:46,959
+life to gain a foothold and that's what
+
+369
+00:13:51,509 --> 00:13:49,680
+we're interested in we're interested in
+
+370
+00:13:54,230 --> 00:13:51,519
+how does life gain a foothold where does
+
+371
+00:13:57,110 --> 00:13:54,240
+it start to colonize first
+
+372
+00:13:58,389 --> 00:13:57,120
+what types of life are there
+
+373
+00:14:00,389 --> 00:13:58,399
+okay so
+
+374
+00:14:01,910 --> 00:14:00,399
+at these sampling sites
+
+375
+00:14:03,829 --> 00:14:01,920
+we were thinking like a rover but we're
+
+376
+00:14:07,030 --> 00:14:03,839
+also thinking like a sampling team here
+
+377
+00:14:08,629 --> 00:14:07,040
+on earth now rovers have a very uh small
+
+378
+00:14:10,870 --> 00:14:08,639
+set of samples that they can collect
+
+379
+00:14:12,629 --> 00:14:10,880
+right every single sample is precious
+
+380
+00:14:14,870 --> 00:14:12,639
+but for us with our team we could
+
+381
+00:14:16,790 --> 00:14:14,880
+collect many samples and then go back
+
+382
+00:14:17,829 --> 00:14:16,800
+and do that thought exercise of okay
+
+383
+00:14:19,269 --> 00:14:17,839
+would that have been the one that we
+
+384
+00:14:21,189 --> 00:14:19,279
+would have picked
+
+385
+00:14:23,350 --> 00:14:21,199
+so what we did what we decided to do was
+
+386
+00:14:25,350 --> 00:14:23,360
+collect samples we do it in triplicate
+
+387
+00:14:26,389 --> 00:14:25,360
+which means we collect three in the same
+
+388
+00:14:28,790 --> 00:14:26,399
+place
+
+389
+00:14:31,350 --> 00:14:28,800
+at five centimeters depth at uh one
+
+390
+00:14:32,710 --> 00:14:31,360
+meters spacing so we collect three here
+
+391
+00:14:35,990 --> 00:14:32,720
+and then go one meter away and do it
+
+392
+00:14:38,150 --> 00:14:36,000
+again and then we'd go 10 meters away do
+
+393
+00:14:40,310 --> 00:14:38,160
+it again and then 100 meters away and do
+
+394
+00:14:43,590 --> 00:14:40,320
+it again so that we could get an idea of
+
+395
+00:14:46,150 --> 00:14:43,600
+scale right so orders of magnitude
+
+396
+00:14:48,550 --> 00:14:46,160
+and we used as sterile of technique as
+
+397
+00:14:50,310 --> 00:14:48,560
+we could so we we sterilized our our
+
+398
+00:14:52,470 --> 00:14:50,320
+shovels and trowels before we collected
+
+399
+00:14:54,550 --> 00:14:52,480
+the sample we approached from downwind
+
+400
+00:14:57,030 --> 00:14:54,560
+all those things to try to minimize any
+
+401
+00:14:59,030 --> 00:14:57,040
+anything from us contaminating this
+
+402
+00:14:59,990 --> 00:14:59,040
+fresh lava field that we were trying to
+
+403
+00:15:01,750 --> 00:15:00,000
+collect
+
+404
+00:15:05,750 --> 00:15:01,760
+samples from to be sure that we didn't
+
+405
+00:15:09,670 --> 00:15:07,430
+okay so
+
+406
+00:15:12,069 --> 00:15:09,680
+here's an example of one of our sampling
+
+407
+00:15:13,670 --> 00:15:12,079
+areas as you can see we collected three
+
+408
+00:15:15,590 --> 00:15:13,680
+from each
+
+409
+00:15:17,430 --> 00:15:15,600
+and also after we were done collecting
+
+410
+00:15:19,509 --> 00:15:17,440
+the samples we would go in with our our
+
+411
+00:15:23,750 --> 00:15:19,519
+standoff techniques and get some some
+
+412
+00:15:27,670 --> 00:15:25,350
+once we collected the samples we brought
+
+413
+00:15:30,069 --> 00:15:27,680
+them back to our field lab this is in a
+
+414
+00:15:31,910 --> 00:15:30,079
+tiny town called fosvetlor which the
+
+415
+00:15:34,230 --> 00:15:31,920
+headmistress was kind enough to let us
+
+416
+00:15:35,509 --> 00:15:34,240
+use their school as our field lab
+
+417
+00:15:37,350 --> 00:15:35,519
+because the students were out for the
+
+418
+00:15:39,269 --> 00:15:37,360
+summer this was in the middle of july so
+
+419
+00:15:41,269 --> 00:15:39,279
+the sun never fully set while we were
+
+420
+00:15:44,550 --> 00:15:41,279
+there so we could work all day because
+
+421
+00:15:47,350 --> 00:15:44,560
+there was no night um
+
+422
+00:15:50,069 --> 00:15:47,360
+and but we loved it and it really was a
+
+423
+00:15:52,230 --> 00:15:50,079
+was a beautiful time to to be in iceland
+
+424
+00:15:53,990 --> 00:15:52,240
+so for the biology type experiments
+
+425
+00:15:55,590 --> 00:15:54,000
+again we use the sterile technique but
+
+426
+00:15:57,269 --> 00:15:55,600
+we split up the samples and for some of
+
+427
+00:15:59,269 --> 00:15:57,279
+them we would grind them and then look
+
+428
+00:16:03,269 --> 00:15:59,279
+at them with some other mineralogy
+
+429
+00:16:04,870 --> 00:16:03,279
+techniques this is a raman spectrometer
+
+430
+00:16:05,910 --> 00:16:04,880
+and
+
+431
+00:16:09,749 --> 00:16:05,920
+so
+
+432
+00:16:13,030 --> 00:16:09,759
+well one experiment that we did was
+
+433
+00:16:15,430 --> 00:16:13,040
+called pcr pcr stands for polymerase
+
+434
+00:16:17,590 --> 00:16:15,440
+chain reaction it's basically a fancy
+
+435
+00:16:19,269 --> 00:16:17,600
+way of saying that you pick a certain
+
+436
+00:16:21,269 --> 00:16:19,279
+type of dna an organism that you're
+
+437
+00:16:23,749 --> 00:16:21,279
+interested in looking for and you make a
+
+438
+00:16:25,350 --> 00:16:23,759
+lot of copies of its dna until you have
+
+439
+00:16:27,910 --> 00:16:25,360
+enough that you can actually detect it
+
+440
+00:16:31,110 --> 00:16:27,920
+and quantify it also
+
+441
+00:16:33,509 --> 00:16:31,120
+and we looked for bacteria fungi and
+
+442
+00:16:35,910 --> 00:16:33,519
+archaea which are the three main
+
+443
+00:16:37,670 --> 00:16:35,920
+kingdoms in the tree of life and we were
+
+444
+00:16:39,590 --> 00:16:37,680
+interested in seeing how much of each of
+
+445
+00:16:41,590 --> 00:16:39,600
+these were were present and if that
+
+446
+00:16:44,389 --> 00:16:41,600
+varied depending on where we are or
+
+447
+00:16:46,550 --> 00:16:44,399
+where we were sampling
+
+448
+00:16:48,470 --> 00:16:46,560
+so this is our
+
+449
+00:16:50,150 --> 00:16:48,480
+fresh lava field this is the one that
+
+450
+00:16:52,069 --> 00:16:50,160
+messed up the air traffic i'm just going
+
+451
+00:16:54,710 --> 00:16:52,079
+to call it fim for short
+
+452
+00:16:56,470 --> 00:16:54,720
+and so this is an example of that
+
+453
+00:16:58,870 --> 00:16:56,480
+collection scheme i talked about where
+
+454
+00:17:01,269 --> 00:16:58,880
+for every green dot that's a one sample
+
+455
+00:17:02,150 --> 00:17:01,279
+site so you've got ones that are a meter
+
+456
+00:17:06,470 --> 00:17:02,160
+apart
+
+457
+00:17:08,390 --> 00:17:06,480
+now we don't really need the numbers
+
+458
+00:17:09,750 --> 00:17:08,400
+here so i'm going to nix those for now
+
+459
+00:17:11,590 --> 00:17:09,760
+but what i'm going to do is take that
+
+460
+00:17:14,150 --> 00:17:11,600
+green dot and i'm going to expand it to
+
+461
+00:17:16,710 --> 00:17:14,160
+the size of how much bacteria were
+
+462
+00:17:18,309 --> 00:17:16,720
+present how much bacteria we found
+
+463
+00:17:19,350 --> 00:17:18,319
+as soon as i hit the forward button
+
+464
+00:17:20,230 --> 00:17:19,360
+there we go
+
+465
+00:17:21,750 --> 00:17:20,240
+okay
+
+466
+00:17:23,669 --> 00:17:21,760
+now i said that we collected things in
+
+467
+00:17:25,829 --> 00:17:23,679
+triplicate so there are three circles
+
+468
+00:17:27,669 --> 00:17:25,839
+for each sample site because because we
+
+469
+00:17:29,590 --> 00:17:27,679
+analyzed that three times
+
+470
+00:17:32,310 --> 00:17:29,600
+and what you can see is that this is the
+
+471
+00:17:34,470 --> 00:17:32,320
+amount of dna of bacteria by size so
+
+472
+00:17:36,870 --> 00:17:34,480
+this is a lot this is a little
+
+473
+00:17:38,549 --> 00:17:36,880
+you can see even on like one meter
+
+474
+00:17:40,470 --> 00:17:38,559
+differences
+
+475
+00:17:43,110 --> 00:17:40,480
+the amount of bacteria that we see there
+
+476
+00:17:44,789 --> 00:17:43,120
+varies a lot way more than we expected
+
+477
+00:17:46,870 --> 00:17:44,799
+so that means if you were standing in
+
+478
+00:17:48,390 --> 00:17:46,880
+one spot and you went three feet over
+
+479
+00:17:51,909 --> 00:17:48,400
+you would see a big difference in the
+
+480
+00:17:53,830 --> 00:17:51,919
+amount of life that was there now this
+
+481
+00:17:55,430 --> 00:17:53,840
+means that it's very very important
+
+482
+00:17:57,590 --> 00:17:55,440
+where you're looking for life that you
+
+483
+00:18:00,230 --> 00:17:57,600
+have to be very clear on where you're
+
+484
+00:18:02,470 --> 00:18:00,240
+sampling to be sure that you can try to
+
+485
+00:18:04,870 --> 00:18:02,480
+detect life and not miss it
+
+486
+00:18:06,710 --> 00:18:04,880
+so we were surprised by that and even in
+
+487
+00:18:08,310 --> 00:18:06,720
+the samples that we collected three
+
+488
+00:18:10,310 --> 00:18:08,320
+samples in the same spot we would have a
+
+489
+00:18:12,710 --> 00:18:10,320
+lot of variation
+
+490
+00:18:14,470 --> 00:18:12,720
+now this wasn't true with just bacteria
+
+491
+00:18:16,470 --> 00:18:14,480
+here is fungi
+
+492
+00:18:18,230 --> 00:18:16,480
+and again you can see even on the one
+
+493
+00:18:20,549 --> 00:18:18,240
+meter difference
+
+494
+00:18:23,270 --> 00:18:20,559
+huge or one meter uh spacing you can see
+
+495
+00:18:25,510 --> 00:18:23,280
+huge differences in the amount of life
+
+496
+00:18:27,430 --> 00:18:25,520
+that was there uh we find fungi
+
+497
+00:18:29,350 --> 00:18:27,440
+everywhere they're likened that are a
+
+498
+00:18:31,430 --> 00:18:29,360
+type of a fungus and symbiotic
+
+499
+00:18:33,270 --> 00:18:31,440
+relationship with cyanobacteria that
+
+500
+00:18:34,549 --> 00:18:33,280
+live in antarctica and can survive mars
+
+501
+00:18:35,430 --> 00:18:34,559
+conditions we see them all over the
+
+502
+00:18:37,029 --> 00:18:35,440
+place
+
+503
+00:18:39,110 --> 00:18:37,039
+and it was interesting to find them here
+
+504
+00:18:40,950 --> 00:18:39,120
+in this very new lava field
+
+505
+00:18:43,270 --> 00:18:40,960
+but we are again surprised with how much
+
+506
+00:18:44,549 --> 00:18:43,280
+variability there was just between
+
+507
+00:18:45,590 --> 00:18:44,559
+these different samples that we
+
+508
+00:18:47,350 --> 00:18:45,600
+collected
+
+509
+00:18:49,110 --> 00:18:47,360
+and archaea was the same we didn't find
+
+510
+00:18:50,470 --> 00:18:49,120
+quite as much archaea
+
+511
+00:18:51,750 --> 00:18:50,480
+archaea are
+
+512
+00:18:54,150 --> 00:18:51,760
+they're sort of the most primitive form
+
+513
+00:18:56,470 --> 00:18:54,160
+of life unlike bacteria they don't have
+
+514
+00:18:58,710 --> 00:18:56,480
+a mitochondria inside of their their
+
+515
+00:19:01,590 --> 00:18:58,720
+cells and we again find these everywhere
+
+516
+00:19:03,510 --> 00:19:01,600
+too they're they're really really robust
+
+517
+00:19:06,310 --> 00:19:03,520
+and and we saw this this incredible
+
+518
+00:19:07,909 --> 00:19:06,320
+variability
+
+519
+00:19:09,430 --> 00:19:07,919
+so how does that compare to our other
+
+520
+00:19:10,950 --> 00:19:09,440
+lava field remember i mentioned i was
+
+521
+00:19:12,470 --> 00:19:10,960
+going to be talking about two so this is
+
+522
+00:19:15,029 --> 00:19:12,480
+our younger one and this is the older
+
+523
+00:19:16,549 --> 00:19:15,039
+one still not old in geology terms
+
+524
+00:19:18,710 --> 00:19:16,559
+geologists think about things on like
+
+525
+00:19:20,789 --> 00:19:18,720
+millions of years but but it's old in
+
+526
+00:19:22,630 --> 00:19:20,799
+terms of the life that we were finding
+
+527
+00:19:24,789 --> 00:19:22,640
+and we do see differences
+
+528
+00:19:26,870 --> 00:19:24,799
+now i'm going to add sort of error bars
+
+529
+00:19:27,909 --> 00:19:26,880
+to these so these
+
+530
+00:19:30,310 --> 00:19:27,919
+blue
+
+531
+00:19:31,830 --> 00:19:30,320
+sort of circles represent the errors in
+
+532
+00:19:33,270 --> 00:19:31,840
+the measurements what i did was i
+
+533
+00:19:34,789 --> 00:19:33,280
+averaged every single sample that we
+
+534
+00:19:37,029 --> 00:19:34,799
+took from fem
+
+535
+00:19:39,029 --> 00:19:37,039
+of the bacteria and that's this one here
+
+536
+00:19:40,789 --> 00:19:39,039
+and everything from elderfell the the
+
+537
+00:19:42,470 --> 00:19:40,799
+island sample and that's here and you
+
+538
+00:19:44,150 --> 00:19:42,480
+can see for the older lava field the
+
+539
+00:19:46,070 --> 00:19:44,160
+error bars the
+
+540
+00:19:49,190 --> 00:19:46,080
+the blue rings are smaller they're
+
+541
+00:19:50,950 --> 00:19:49,200
+thinner so these were more reproducible
+
+542
+00:19:53,350 --> 00:19:50,960
+in terms of the amount of life that we
+
+543
+00:19:55,830 --> 00:19:53,360
+found whereas things kind of varied much
+
+544
+00:19:57,990 --> 00:19:55,840
+more for the younger lava field
+
+545
+00:19:59,830 --> 00:19:58,000
+which is very interesting to us so maybe
+
+546
+00:20:01,990 --> 00:19:59,840
+this means that it takes a while for
+
+547
+00:20:03,669 --> 00:20:02,000
+life to stabilize things vary quite a
+
+548
+00:20:05,510 --> 00:20:03,679
+bit they're more heterogeneous at first
+
+549
+00:20:08,150 --> 00:20:05,520
+but then they become more homogeneous
+
+550
+00:20:10,230 --> 00:20:08,160
+over time
+
+551
+00:20:12,150 --> 00:20:10,240
+now that was one technique that we used
+
+552
+00:20:15,350 --> 00:20:12,160
+another technique that we looked at was
+
+553
+00:20:17,909 --> 00:20:15,360
+atp now atp stands for adenosine
+
+554
+00:20:20,789 --> 00:20:17,919
+triphosphate it is the energy molecule
+
+555
+00:20:21,830 --> 00:20:20,799
+that all life all life that we know of
+
+556
+00:20:23,510 --> 00:20:21,840
+uses
+
+557
+00:20:25,669 --> 00:20:23,520
+and it also doesn't hang around very
+
+558
+00:20:27,110 --> 00:20:25,679
+long um in the environment once a cell
+
+559
+00:20:28,230 --> 00:20:27,120
+dies so it's a really good way of
+
+560
+00:20:30,070 --> 00:20:28,240
+telling you
+
+561
+00:20:31,669 --> 00:20:30,080
+not just what organisms are there it
+
+562
+00:20:33,350 --> 00:20:31,679
+can't tell you identify specific
+
+563
+00:20:35,430 --> 00:20:33,360
+organisms because everybody uses it it's
+
+564
+00:20:37,029 --> 00:20:35,440
+sort of like your energy
+
+565
+00:20:39,190 --> 00:20:37,039
+but it can tell you whether or not
+
+566
+00:20:41,029 --> 00:20:39,200
+they're alive like right now they're
+
+567
+00:20:42,310 --> 00:20:41,039
+actively metabolizing
+
+568
+00:20:45,190 --> 00:20:42,320
+like us
+
+569
+00:20:46,470 --> 00:20:45,200
+so um in 2013 now we're looking at a bar
+
+570
+00:20:48,390 --> 00:20:46,480
+graph but i've sort of highlighted
+
+571
+00:20:51,350 --> 00:20:48,400
+things that differ on a 10 meter scale
+
+572
+00:20:53,590 --> 00:20:51,360
+so so these guys differ in a meter these
+
+573
+00:20:56,310 --> 00:20:53,600
+guys differ in a meter but these and
+
+574
+00:20:57,270 --> 00:20:56,320
+these are 10 meters spaced apart and you
+
+575
+00:20:59,110 --> 00:20:57,280
+can see that there's a lot of
+
+576
+00:21:01,270 --> 00:20:59,120
+variability even things that were right
+
+577
+00:21:03,350 --> 00:21:01,280
+next to each other
+
+578
+00:21:05,750 --> 00:21:03,360
+vary widely in the amount of energy the
+
+579
+00:21:08,710 --> 00:21:05,760
+amount of life that's active that's
+
+580
+00:21:13,510 --> 00:21:11,350
+but in 2015 now this is the same lava
+
+581
+00:21:15,110 --> 00:21:13,520
+field this is that young lava field now
+
+582
+00:21:16,070 --> 00:21:15,120
+we start to see some patterns emerging
+
+583
+00:21:19,029 --> 00:21:16,080
+right
+
+584
+00:21:20,149 --> 00:21:19,039
+this grouping is all at one spatial
+
+585
+00:21:22,310 --> 00:21:20,159
+scale
+
+586
+00:21:23,830 --> 00:21:22,320
+of one meter apart
+
+587
+00:21:25,590 --> 00:21:23,840
+and it's starting to look distinctly
+
+588
+00:21:26,549 --> 00:21:25,600
+different from this grouping and this
+
+589
+00:21:28,149 --> 00:21:26,559
+one
+
+590
+00:21:29,750 --> 00:21:28,159
+so it seems that over time we're
+
+591
+00:21:31,830 --> 00:21:29,760
+starting to get
+
+592
+00:21:34,549 --> 00:21:31,840
+more predictability at least and less
+
+593
+00:21:37,830 --> 00:21:34,559
+variation on these distance scales
+
+594
+00:21:42,710 --> 00:21:40,870
+oh and i forgot to mention okay so so
+
+595
+00:21:44,630 --> 00:21:42,720
+look at the scale here this goes up to 3
+
+596
+00:21:46,310 --> 00:21:44,640
+000 this goes up to ten thousand so
+
+597
+00:21:48,630 --> 00:21:46,320
+let's make them the same
+
+598
+00:21:50,549 --> 00:21:48,640
+you'll also notice that uh life is
+
+599
+00:21:53,990 --> 00:21:50,559
+increasing which makes sense right that
+
+600
+00:21:55,909 --> 00:21:54,000
+we're over time starting to build up a
+
+601
+00:21:59,029 --> 00:21:55,919
+stronger community more diverse
+
+602
+00:22:00,149 --> 00:21:59,039
+hopefully microbial community here
+
+603
+00:22:02,230 --> 00:22:00,159
+so this is something that we're hoping
+
+604
+00:22:03,750 --> 00:22:02,240
+to monitor over time we have two
+
+605
+00:22:05,750 --> 00:22:03,760
+data points in terms of uh two
+
+606
+00:22:07,830 --> 00:22:05,760
+expeditions that we've been to visit and
+
+607
+00:22:09,350 --> 00:22:07,840
+sample this place and we're hoping to go
+
+608
+00:22:10,830 --> 00:22:09,360
+back
+
+609
+00:22:13,669 --> 00:22:10,840
+so to conclude
+
+610
+00:22:15,990 --> 00:22:13,679
+our when it comes to things like this
+
+611
+00:22:17,990 --> 00:22:16,000
+there's no real ending to the story at
+
+612
+00:22:20,070 --> 00:22:18,000
+least not yet we're just starting on
+
+613
+00:22:22,149 --> 00:22:20,080
+this we've done two expeditions we just
+
+614
+00:22:24,230 --> 00:22:22,159
+got funding to do four more over the
+
+615
+00:22:26,070 --> 00:22:24,240
+next four years which is really exciting
+
+616
+00:22:27,909 --> 00:22:26,080
+so we're going to go back to these lava
+
+617
+00:22:28,950 --> 00:22:27,919
+fields that i told you about and also a
+
+618
+00:22:31,669 --> 00:22:28,960
+new one
+
+619
+00:22:32,950 --> 00:22:31,679
+this one is called okay
+
+620
+00:22:34,789 --> 00:22:32,960
+it's up in the northern region of
+
+621
+00:22:37,430 --> 00:22:34,799
+iceland which is called the
+
+622
+00:22:40,310 --> 00:22:37,440
+bunga and this particular lava field is
+
+623
+00:22:42,549 --> 00:22:40,320
+called uh nornachron which means witch's
+
+624
+00:22:46,149 --> 00:22:42,559
+hair in icelandic which is pretty cool
+
+625
+00:22:48,149 --> 00:22:46,159
+uh but this one erupted in 2014 and
+
+626
+00:22:49,990 --> 00:22:48,159
+we've gotten permission to be able to to
+
+627
+00:22:51,590 --> 00:22:50,000
+go up there and so this one will get
+
+628
+00:22:54,310 --> 00:22:51,600
+even more of a head start at trying to
+
+629
+00:22:56,950 --> 00:22:54,320
+see exactly where life starts what
+
+630
+00:22:58,630 --> 00:22:56,960
+starts first and then what comes later
+
+631
+00:23:01,270 --> 00:22:58,640
+so some conclusions that we've drawn
+
+632
+00:23:03,430 --> 00:23:01,280
+just from our limited data so far we
+
+633
+00:23:05,510 --> 00:23:03,440
+know that the older fields older lava
+
+634
+00:23:07,350 --> 00:23:05,520
+fields have different types of life than
+
+635
+00:23:08,950 --> 00:23:07,360
+the younger lava fields
+
+636
+00:23:10,950 --> 00:23:08,960
+in the younger ones we also see that
+
+637
+00:23:13,669 --> 00:23:10,960
+life abundance varies widely even at
+
+638
+00:23:15,909 --> 00:23:13,679
+spatial scales of just a meter away but
+
+639
+00:23:18,549 --> 00:23:15,919
+it does appear at least tentatively that
+
+640
+00:23:20,549 --> 00:23:18,559
+over time patterns do emerge
+
+641
+00:23:22,870 --> 00:23:20,559
+so our plan is to continue to go back
+
+642
+00:23:25,430 --> 00:23:22,880
+and monitor this emergence of life in
+
+643
+00:23:27,590 --> 00:23:25,440
+fresh lava fields over time
+
+644
+00:23:29,909 --> 00:23:27,600
+so that's the fire and ice part
+
+645
+00:23:31,110 --> 00:23:29,919
+now let's talk about the the methane
+
+646
+00:23:33,029 --> 00:23:31,120
+ethane part
+
+647
+00:23:35,510 --> 00:23:33,039
+so this is part two
+
+648
+00:23:37,190 --> 00:23:35,520
+for mars we have analogs on earth but
+
+649
+00:23:38,950 --> 00:23:37,200
+there are some places in the universe or
+
+650
+00:23:41,510 --> 00:23:38,960
+in the solar system at least that are so
+
+651
+00:23:42,630 --> 00:23:41,520
+weird we don't have any analogues here
+
+652
+00:23:44,710 --> 00:23:42,640
+on earth
+
+653
+00:23:46,870 --> 00:23:44,720
+i'd like to introduce you to titan this
+
+654
+00:23:49,110 --> 00:23:46,880
+is a moon around saturn it's actually
+
+655
+00:23:51,510 --> 00:23:49,120
+the largest moon in the solar system if
+
+656
+00:23:52,950 --> 00:23:51,520
+you count its atmosphere yes it has an
+
+657
+00:23:55,830 --> 00:23:52,960
+atmosphere it's actually thicker than
+
+658
+00:23:57,510 --> 00:23:55,840
+ours about one and a half times thicker
+
+659
+00:23:58,789 --> 00:23:57,520
+once you strip that atmosphere away
+
+660
+00:24:00,870 --> 00:23:58,799
+though then it's a little bit smaller
+
+661
+00:24:02,149 --> 00:24:00,880
+than ganymede but second place that's
+
+662
+00:24:04,549 --> 00:24:02,159
+all right
+
+663
+00:24:07,350 --> 00:24:04,559
+it's got an atmosphere that's about uh
+
+664
+00:24:09,750 --> 00:24:07,360
+96 nitrogen a little bit of methane and
+
+665
+00:24:11,029 --> 00:24:09,760
+it's thicker like i mentioned than ours
+
+666
+00:24:13,909 --> 00:24:11,039
+the surface
+
+667
+00:24:16,470 --> 00:24:13,919
+is this a mantle of water ice water ice
+
+668
+00:24:17,750 --> 00:24:16,480
+takes the form of rock on titan it's the
+
+669
+00:24:19,269 --> 00:24:17,760
+hardness of granite at these
+
+670
+00:24:21,510 --> 00:24:19,279
+temperatures because it's way way out
+
+671
+00:24:22,870 --> 00:24:21,520
+past the sun or far away from the sun so
+
+672
+00:24:24,630 --> 00:24:22,880
+it's much colder
+
+673
+00:24:26,870 --> 00:24:24,640
+and so you have this mantle of water
+
+674
+00:24:28,710 --> 00:24:26,880
+icing it's coated in this veneer of
+
+675
+00:24:30,710 --> 00:24:28,720
+organic molecules
+
+676
+00:24:32,549 --> 00:24:30,720
+we've got dunes that are also we think
+
+677
+00:24:35,510 --> 00:24:32,559
+made of those organic molecules
+
+678
+00:24:38,070 --> 00:24:35,520
+and then we've got this hydrologic cycle
+
+679
+00:24:41,029 --> 00:24:38,080
+but by hydro i don't mean water i mean
+
+680
+00:24:43,510 --> 00:24:41,039
+hydrocarbon methane and ethane this is
+
+681
+00:24:44,789 --> 00:24:43,520
+an example of a specular reflection you
+
+682
+00:24:46,870 --> 00:24:44,799
+know if you're in an airplane and you
+
+683
+00:24:48,470 --> 00:24:46,880
+sort of get that sun glint off of liquid
+
+684
+00:24:49,830 --> 00:24:48,480
+water that's what you're seeing here
+
+685
+00:24:52,070 --> 00:24:49,840
+this is off of a lake that's in the
+
+686
+00:24:53,830 --> 00:24:52,080
+northern pole of titan that's made out
+
+687
+00:24:55,430 --> 00:24:53,840
+of mostly methane
+
+688
+00:24:57,830 --> 00:24:55,440
+so we have methane and ethane that form
+
+689
+00:25:00,230 --> 00:24:57,840
+clouds and rain down onto the surface
+
+690
+00:25:02,470 --> 00:25:00,240
+and we may even have some cryovolcanoes
+
+691
+00:25:04,630 --> 00:25:02,480
+although this is still hotly debated uh
+
+692
+00:25:07,110 --> 00:25:04,640
+in the titan community so we may have
+
+693
+00:25:09,110 --> 00:25:07,120
+evidence where okay so titan just like
+
+694
+00:25:11,269 --> 00:25:09,120
+europa and enceladus and all these other
+
+695
+00:25:12,950 --> 00:25:11,279
+icy moons has an ocean of water
+
+696
+00:25:16,070 --> 00:25:12,960
+underneath all this stuff like deeper
+
+697
+00:25:19,029 --> 00:25:16,080
+down ocean of liquid water and some in
+
+698
+00:25:20,630 --> 00:25:19,039
+some places for example sotra facula we
+
+699
+00:25:22,470 --> 00:25:20,640
+may see some of that
+
+700
+00:25:24,310 --> 00:25:22,480
+liquid water maybe mixed with some stuff
+
+701
+00:25:26,310 --> 00:25:24,320
+like methanol coming up to the surface
+
+702
+00:25:28,870 --> 00:25:26,320
+maybe which would be really exciting
+
+703
+00:25:31,590 --> 00:25:28,880
+because then more chemistry could happen
+
+704
+00:25:33,990 --> 00:25:31,600
+so titan's a fascinating place
+
+705
+00:25:36,149 --> 00:25:34,000
+and it is similar to earth in some ways
+
+706
+00:25:37,830 --> 00:25:36,159
+right it has clouds earth has clouds
+
+707
+00:25:39,909 --> 00:25:37,840
+they're made out of different stuff but
+
+708
+00:25:43,029 --> 00:25:39,919
+they both have clouds and atmospheres
+
+709
+00:25:44,870 --> 00:25:43,039
+and those types of behaviors
+
+710
+00:25:46,230 --> 00:25:44,880
+they both have river channels
+
+711
+00:25:48,470 --> 00:25:46,240
+they are moving different things in
+
+712
+00:25:52,070 --> 00:25:48,480
+those channels but uh in terms of their
+
+713
+00:25:53,510 --> 00:25:52,080
+their geology they do look very similar
+
+714
+00:25:55,590 --> 00:25:53,520
+they have lakes
+
+715
+00:25:58,230 --> 00:25:55,600
+and this is like gmare which is in the
+
+716
+00:26:00,950 --> 00:25:58,240
+north pole of titan its surface area is
+
+717
+00:26:03,669 --> 00:26:00,960
+actually twice as big as lake michigan
+
+718
+00:26:04,549 --> 00:26:03,679
+it's a big lake
+
+719
+00:26:07,190 --> 00:26:04,559
+and
+
+720
+00:26:09,269 --> 00:26:07,200
+we've got remnants of ridges other sort
+
+721
+00:26:11,590 --> 00:26:09,279
+of geological features on earth we see
+
+722
+00:26:13,590 --> 00:26:11,600
+echoed in titan as well the scales may
+
+723
+00:26:15,990 --> 00:26:13,600
+be a little bit different but we still
+
+724
+00:26:18,230 --> 00:26:16,000
+see very similar behavior
+
+725
+00:26:19,430 --> 00:26:18,240
+so maybe that suggests similar processes
+
+726
+00:26:21,669 --> 00:26:19,440
+even though they're made of very
+
+727
+00:26:23,669 --> 00:26:21,679
+different things and the dunes which are
+
+728
+00:26:25,350 --> 00:26:23,679
+crazy cool they're hundreds of
+
+729
+00:26:27,669 --> 00:26:25,360
+kilometers long i think like 10
+
+730
+00:26:30,950 --> 00:26:27,679
+kilometers high mike is that right 10
+
+731
+00:26:33,190 --> 00:26:30,960
+kilometers ish yeah
+
+732
+00:26:35,029 --> 00:26:33,200
+we're not sure if they're moving or if
+
+733
+00:26:37,590 --> 00:26:35,039
+they're frozen dunes
+
+734
+00:26:39,510 --> 00:26:37,600
+but we're pretty well we believe that
+
+735
+00:26:41,029 --> 00:26:39,520
+they're formed by
+
+736
+00:26:43,510 --> 00:26:41,039
+organic chemistry happening in the
+
+737
+00:26:45,510 --> 00:26:43,520
+atmosphere so the atmosphere has just
+
+738
+00:26:47,510 --> 00:26:45,520
+two things in it nitrogen and methane
+
+739
+00:26:50,149 --> 00:26:47,520
+until you introduce energy now the
+
+740
+00:26:52,390 --> 00:26:50,159
+energy can be uv radiation from the sun
+
+741
+00:26:54,630 --> 00:26:52,400
+even though it's far away over time that
+
+742
+00:26:56,789 --> 00:26:54,640
+can add up and cause chemistry you have
+
+743
+00:26:58,789 --> 00:26:56,799
+these really fast moving protons and
+
+744
+00:27:00,390 --> 00:26:58,799
+electrons that are accelerated by saturn
+
+745
+00:27:02,950 --> 00:27:00,400
+that go slamming into these molecules
+
+746
+00:27:06,070 --> 00:27:02,960
+and they break them apart and so pretty
+
+747
+00:27:07,830 --> 00:27:06,080
+much any combination of carbon hydrogen
+
+748
+00:27:09,029 --> 00:27:07,840
+and nitrogen that you can think of that
+
+749
+00:27:10,710 --> 00:27:09,039
+you can make in your little chemistry
+
+750
+00:27:13,029 --> 00:27:10,720
+set at home do you guys have chemistry
+
+751
+00:27:14,870 --> 00:27:13,039
+sets at home
+
+752
+00:27:16,549 --> 00:27:14,880
+anything that you can make probably
+
+753
+00:27:18,630 --> 00:27:16,559
+exists on titan
+
+754
+00:27:21,430 --> 00:27:18,640
+you start to form these these complex
+
+755
+00:27:23,510 --> 00:27:21,440
+molecules that continue to react and
+
+756
+00:27:25,269 --> 00:27:23,520
+sort of combine with each other as they
+
+757
+00:27:26,630 --> 00:27:25,279
+they form these haze layers that we see
+
+758
+00:27:28,870 --> 00:27:26,640
+in the atmosphere and then eventually
+
+759
+00:27:30,789 --> 00:27:28,880
+they make it down to the surface and we
+
+760
+00:27:32,710 --> 00:27:30,799
+think that's what is uh making up these
+
+761
+00:27:35,430 --> 00:27:32,720
+dunes in addition to other surface
+
+762
+00:27:37,269 --> 00:27:35,440
+features on titan
+
+763
+00:27:39,269 --> 00:27:37,279
+okay so let's go back to the lakes
+
+764
+00:27:41,350 --> 00:27:39,279
+because you know
+
+765
+00:27:43,350 --> 00:27:41,360
+if it looks like a duck
+
+766
+00:27:44,710 --> 00:27:43,360
+but in this case it's not actually
+
+767
+00:27:47,750 --> 00:27:44,720
+looking like a duck i mean we do see
+
+768
+00:27:50,070 --> 00:27:47,760
+some things we see bathymetry it has
+
+769
+00:27:52,310 --> 00:27:50,080
+similar depth similar
+
+770
+00:27:54,870 --> 00:27:52,320
+properties in terms of appearance to
+
+771
+00:27:57,190 --> 00:27:54,880
+earth lakes but they're not right these
+
+772
+00:28:00,070 --> 00:27:57,200
+are filled with something very different
+
+773
+00:28:01,990 --> 00:28:00,080
+methane ethane a little bit of propane
+
+774
+00:28:03,909 --> 00:28:02,000
+so earth we don't have a good analog
+
+775
+00:28:05,510 --> 00:28:03,919
+unless we were to go and dump a lot of
+
+776
+00:28:07,029 --> 00:28:05,520
+propane in a lake and i don't think
+
+777
+00:28:08,549 --> 00:28:07,039
+anyone would be too happy with us if we
+
+778
+00:28:10,310 --> 00:28:08,559
+did that and plus it would boil away
+
+779
+00:28:13,110 --> 00:28:10,320
+because it's too hot here
+
+780
+00:28:15,110 --> 00:28:13,120
+so what do we do well we go to the lab
+
+781
+00:28:17,830 --> 00:28:15,120
+and we can make mini titan lakes in the
+
+782
+00:28:19,909 --> 00:28:17,840
+lab using things called cryostats so we
+
+783
+00:28:22,070 --> 00:28:19,919
+use liquid nitrogen which is actually a
+
+784
+00:28:24,230 --> 00:28:22,080
+little bit colder than titan's surface
+
+785
+00:28:27,590 --> 00:28:24,240
+titan surface is about 90 kelvin which
+
+786
+00:28:28,870 --> 00:28:27,600
+is minus 183 degrees c and i don't know
+
+787
+00:28:29,750 --> 00:28:28,880
+what it is in fahrenheit i should know
+
+788
+00:28:31,190 --> 00:28:29,760
+that
+
+789
+00:28:33,110 --> 00:28:31,200
+but it's cold
+
+790
+00:28:35,830 --> 00:28:33,120
+liquid nitrogen is even colder it's
+
+791
+00:28:37,750 --> 00:28:35,840
+about 77 78 kelvin so we use that as our
+
+792
+00:28:39,510 --> 00:28:37,760
+bath and then we heat it up just a
+
+793
+00:28:41,669 --> 00:28:39,520
+little bit about 10 or 12 degrees to get
+
+794
+00:28:43,750 --> 00:28:41,679
+up to tighten temperatures
+
+795
+00:28:45,669 --> 00:28:43,760
+this is what it looks like so we've got
+
+796
+00:28:47,350 --> 00:28:45,679
+our dewar that's a silver thing here it
+
+797
+00:28:49,669 --> 00:28:47,360
+keeps hot things hot in our case it
+
+798
+00:28:51,990 --> 00:28:49,679
+keeps cold things cold we put our liquid
+
+799
+00:28:54,389 --> 00:28:52,000
+nitrogen in here and then inside of this
+
+800
+00:28:57,190 --> 00:28:54,399
+beaker within a beaker is a little titan
+
+801
+00:28:58,870 --> 00:28:57,200
+lake that's liquid ethane in there
+
+802
+00:29:00,549 --> 00:28:58,880
+and so this is what we'll use to do our
+
+803
+00:29:02,549 --> 00:29:00,559
+experiments
+
+804
+00:29:05,430 --> 00:29:02,559
+now there are a lot of fascinating
+
+805
+00:29:07,110 --> 00:29:05,440
+things going on on titan we've got
+
+806
+00:29:08,870 --> 00:29:07,120
+atmospheric chemistry
+
+807
+00:29:11,510 --> 00:29:08,880
+we've got rain methane and ethane rains
+
+808
+00:29:13,669 --> 00:29:11,520
+down on the surface it may be dissolving
+
+809
+00:29:15,669 --> 00:29:13,679
+some things or potentially forming caves
+
+810
+00:29:18,070 --> 00:29:15,679
+or other interesting types of
+
+811
+00:29:20,149 --> 00:29:18,080
+geologic features it may be flowing
+
+812
+00:29:22,789 --> 00:29:20,159
+things into these lakes stuff that gets
+
+813
+00:29:24,149 --> 00:29:22,799
+dissolved can can move into those lakes
+
+814
+00:29:26,230 --> 00:29:24,159
+and then the lakes themselves they can
+
+815
+00:29:28,389 --> 00:29:26,240
+evaporate over time and so we have these
+
+816
+00:29:31,110 --> 00:29:28,399
+really interesting cycles that we would
+
+817
+00:29:32,630 --> 00:29:31,120
+like to study and understand better
+
+818
+00:29:33,750 --> 00:29:32,640
+so let's take them one at a time and i'm
+
+819
+00:29:35,669 --> 00:29:33,760
+not going to do them all i'm just doing
+
+820
+00:29:38,149 --> 00:29:35,679
+two but let's look first at soluble
+
+821
+00:29:40,870 --> 00:29:38,159
+material dissolution basically
+
+822
+00:29:43,029 --> 00:29:40,880
+what dissolves in a titan lake
+
+823
+00:29:45,590 --> 00:29:43,039
+okay this is a setup from one of my
+
+824
+00:29:47,510 --> 00:29:45,600
+colleagues mike malaska put together to
+
+825
+00:29:49,830 --> 00:29:47,520
+try to answer that question so again
+
+826
+00:29:51,750 --> 00:29:49,840
+we've got our dewar which keeps hot
+
+827
+00:29:53,430 --> 00:29:51,760
+things hot or cold things cold and a lot
+
+828
+00:29:55,590 --> 00:29:53,440
+of liquid nitrogen
+
+829
+00:29:57,909 --> 00:29:55,600
+now if you look at a schematic of this
+
+830
+00:29:59,830 --> 00:29:57,919
+this is a figure from
+
+831
+00:30:01,750 --> 00:29:59,840
+one of mike's presentations
+
+832
+00:30:03,830 --> 00:30:01,760
+we'll fill it with liquid methane or
+
+833
+00:30:06,230 --> 00:30:03,840
+liquid ethane and then this is our probe
+
+834
+00:30:07,669 --> 00:30:06,240
+that we'll use to measure concentrations
+
+835
+00:30:09,590 --> 00:30:07,679
+of things that we dissolve in there that
+
+836
+00:30:11,590 --> 00:30:09,600
+we're interested in in studying to see
+
+837
+00:30:13,269 --> 00:30:11,600
+how well they dissolve in this liquid
+
+838
+00:30:15,590 --> 00:30:13,279
+and so we'll do what's called a flush
+
+839
+00:30:17,350 --> 00:30:15,600
+and fill to sort of push things out and
+
+840
+00:30:19,190 --> 00:30:17,360
+it has to come back through a filter
+
+841
+00:30:20,870 --> 00:30:19,200
+before it comes back in so we don't want
+
+842
+00:30:22,950 --> 00:30:20,880
+any chunks you know if you dissolve
+
+843
+00:30:24,389 --> 00:30:22,960
+something like sugar in your coffee and
+
+844
+00:30:26,149 --> 00:30:24,399
+you put too much sugar in there and some
+
+845
+00:30:27,350 --> 00:30:26,159
+of it kind of falls to the bottom we
+
+846
+00:30:29,669 --> 00:30:27,360
+don't want that to interfere with our
+
+847
+00:30:31,110 --> 00:30:29,679
+measurements so we have a filter so only
+
+848
+00:30:33,909 --> 00:30:31,120
+the things that are actually dissolved
+
+849
+00:30:35,190 --> 00:30:33,919
+in the liquid are what we'll measure
+
+850
+00:30:36,470 --> 00:30:35,200
+now a few of the things that mike has
+
+851
+00:30:39,029 --> 00:30:36,480
+measured so far
+
+852
+00:30:40,149 --> 00:30:39,039
+are these organic molecules here
+
+853
+00:30:42,630 --> 00:30:40,159
+benzene
+
+854
+00:30:45,350 --> 00:30:42,640
+naphthalene and biphenyl
+
+855
+00:30:48,230 --> 00:30:45,360
+and the amounts that dissolve in a titan
+
+856
+00:30:50,149 --> 00:30:48,240
+lake range from about 18 milligrams per
+
+857
+00:30:52,870 --> 00:30:50,159
+liter down to much lower than that now
+
+858
+00:30:55,269 --> 00:30:52,880
+to put this in context sugar dissolving
+
+859
+00:30:58,230 --> 00:30:55,279
+in water at room temperature any guesses
+
+860
+00:31:00,389 --> 00:30:58,240
+on how many migs per liter that is
+
+861
+00:31:02,310 --> 00:31:00,399
+it's way more than 18. it's almost 2
+
+862
+00:31:03,350 --> 00:31:02,320
+million actually
+
+863
+00:31:07,909 --> 00:31:03,360
+so
+
+864
+00:31:10,630 --> 00:31:07,919
+or ethane but this is still interesting
+
+865
+00:31:12,470 --> 00:31:10,640
+for us to try to understand right
+
+866
+00:31:14,710 --> 00:31:12,480
+because it's cold because it's made out
+
+867
+00:31:16,549 --> 00:31:14,720
+of methane and ethane instead of water
+
+868
+00:31:18,789 --> 00:31:16,559
+water is polar these things aren't so
+
+869
+00:31:21,110 --> 00:31:18,799
+they behave differently and this helps
+
+870
+00:31:24,870 --> 00:31:21,120
+us understand and generate models that
+
+871
+00:31:26,389 --> 00:31:24,880
+we can start to to think about processes
+
+872
+00:31:28,149 --> 00:31:26,399
+that have happened on titan over very
+
+873
+00:31:30,549 --> 00:31:28,159
+long time scales millions or even
+
+874
+00:31:32,789 --> 00:31:30,559
+billions of years
+
+875
+00:31:35,750 --> 00:31:32,799
+and this can help also this can help us
+
+876
+00:31:37,909 --> 00:31:35,760
+uh understand what types of processes or
+
+877
+00:31:39,350 --> 00:31:37,919
+physical landforms we see on the surface
+
+878
+00:31:40,950 --> 00:31:39,360
+if these are due to certain things
+
+879
+00:31:44,630 --> 00:31:40,960
+dissolving and certain things being left
+
+880
+00:31:47,990 --> 00:31:45,990
+and it also
+
+881
+00:31:50,149 --> 00:31:48,000
+these experiments can tell us about some
+
+882
+00:31:52,230 --> 00:31:50,159
+interesting features that we've seen
+
+883
+00:31:53,750 --> 00:31:52,240
+for example there's something that was
+
+884
+00:31:56,470 --> 00:31:53,760
+observed by
+
+885
+00:31:59,350 --> 00:31:56,480
+the cassini mission happening over a
+
+886
+00:32:01,350 --> 00:31:59,360
+period of many years we noticed that
+
+887
+00:32:03,350 --> 00:32:01,360
+this feature which is this is again my
+
+888
+00:32:04,310 --> 00:32:03,360
+gmri a lake at the northern pole of
+
+889
+00:32:06,149 --> 00:32:04,320
+titan
+
+890
+00:32:08,310 --> 00:32:06,159
+we saw this this uh
+
+891
+00:32:10,630 --> 00:32:08,320
+bright feature appear in uh this is in
+
+892
+00:32:12,549 --> 00:32:10,640
+radar datas uh synthetic aperture radar
+
+893
+00:32:14,549 --> 00:32:12,559
+data and we see it appear and then
+
+894
+00:32:16,950 --> 00:32:14,559
+disappear over time
+
+895
+00:32:19,029 --> 00:32:16,960
+and this is called a magic island jason
+
+896
+00:32:21,430 --> 00:32:19,039
+hoffgartner wrote about this recently
+
+897
+00:32:22,789 --> 00:32:21,440
+and he's i saw him he's here somewhere
+
+898
+00:32:23,990 --> 00:32:22,799
+there he is
+
+899
+00:32:25,750 --> 00:32:24,000
+and um
+
+900
+00:32:27,430 --> 00:32:25,760
+so so this was really interesting right
+
+901
+00:32:29,110 --> 00:32:27,440
+what is this it's a transient feature
+
+902
+00:32:31,830 --> 00:32:29,120
+right it comes and goes so is it
+
+903
+00:32:33,990 --> 00:32:31,840
+something floating on methane and ethane
+
+904
+00:32:36,230 --> 00:32:34,000
+it can't be methane or ethane ice unlike
+
+905
+00:32:39,190 --> 00:32:36,240
+water ice that ice sinks it doesn't
+
+906
+00:32:41,269 --> 00:32:39,200
+float so it can't be that could it be
+
+907
+00:32:43,029 --> 00:32:41,279
+something else we don't know but we have
+
+908
+00:32:45,190 --> 00:32:43,039
+a theory based on some of the
+
+909
+00:32:47,269 --> 00:32:45,200
+experiments that we've been doing
+
+910
+00:32:49,190 --> 00:32:47,279
+our theory is that if you have a lake
+
+911
+00:32:50,710 --> 00:32:49,200
+that's rich in ethane and then you get a
+
+912
+00:32:52,549 --> 00:32:50,720
+rainfall
+
+913
+00:32:54,310 --> 00:32:52,559
+nitrogen which is in the atmosphere
+
+914
+00:32:56,549 --> 00:32:54,320
+dissolves a little bit in both of these
+
+915
+00:32:59,110 --> 00:32:56,559
+but it's much more soluble in methane
+
+916
+00:33:01,190 --> 00:32:59,120
+than it is in ethane and so when this
+
+917
+00:33:03,190 --> 00:33:01,200
+nitrogen saturated methane hits this
+
+918
+00:33:06,070 --> 00:33:03,200
+lake it can cause some of that nitrogen
+
+919
+00:33:08,149 --> 00:33:06,080
+to boil off to it's called exsolvate but
+
+920
+00:33:10,789 --> 00:33:08,159
+it just means bubbles happen
+
+921
+00:33:12,710 --> 00:33:10,799
+and and it can generate something maybe
+
+922
+00:33:14,070 --> 00:33:12,720
+that could be an explanation for these
+
+923
+00:33:16,310 --> 00:33:14,080
+magic islands
+
+924
+00:33:17,590 --> 00:33:16,320
+and mike actually did an experiment in
+
+925
+00:33:19,990 --> 00:33:17,600
+the lab where
+
+926
+00:33:21,509 --> 00:33:20,000
+it looks like something similar could be
+
+927
+00:33:23,830 --> 00:33:21,519
+happening so what you're looking at here
+
+928
+00:33:25,830 --> 00:33:23,840
+this is a a glass container there's a
+
+929
+00:33:26,950 --> 00:33:25,840
+stir bar that's moving around
+
+930
+00:33:30,070 --> 00:33:26,960
+in here
+
+931
+00:33:32,149 --> 00:33:30,080
+on the outside is a bath of methane that
+
+932
+00:33:33,669 --> 00:33:32,159
+has nitrogen dissolved in it and on the
+
+933
+00:33:35,190 --> 00:33:33,679
+inside he's trying to condense some
+
+934
+00:33:36,549 --> 00:33:35,200
+ethane now when that happens you
+
+935
+00:33:37,750 --> 00:33:36,559
+generate a little bit of heat just a
+
+936
+00:33:39,909 --> 00:33:37,760
+little bit
+
+937
+00:33:41,350 --> 00:33:39,919
+and it's just enough that now you can
+
+938
+00:33:43,430 --> 00:33:41,360
+start to see these bubbles do you see
+
+939
+00:33:44,950 --> 00:33:43,440
+these bubbles happening that's the
+
+940
+00:33:46,950 --> 00:33:44,960
+nitrogen that's boiling out that's
+
+941
+00:33:49,029 --> 00:33:46,960
+accelerating out
+
+942
+00:33:51,110 --> 00:33:49,039
+so we see some things in the laboratory
+
+943
+00:33:53,269 --> 00:33:51,120
+that maybe we can use to attribute to
+
+944
+00:33:56,070 --> 00:33:53,279
+physical processes that are happening on
+
+945
+00:34:01,350 --> 00:33:58,149
+alright so let's look at one more
+
+946
+00:34:03,350 --> 00:34:01,360
+process that may be going on on titan
+
+947
+00:34:05,029 --> 00:34:03,360
+we're interested in these lakes and what
+
+948
+00:34:07,509 --> 00:34:05,039
+can happen when
+
+949
+00:34:09,430 --> 00:34:07,519
+the volume of those lakes changes
+
+950
+00:34:11,589 --> 00:34:09,440
+so what happens when things evaporate
+
+951
+00:34:12,629 --> 00:34:11,599
+from a titan lake
+
+952
+00:34:14,389 --> 00:34:12,639
+well
+
+953
+00:34:16,629 --> 00:34:14,399
+we have some evidence that something
+
+954
+00:34:17,589 --> 00:34:16,639
+interesting is going on from the cassini
+
+955
+00:34:20,069 --> 00:34:17,599
+mission
+
+956
+00:34:23,190 --> 00:34:20,079
+we've noticed that around some of these
+
+957
+00:34:25,510 --> 00:34:23,200
+lakes we'll see what we sort of
+
+958
+00:34:28,230 --> 00:34:25,520
+call our nickname bathtub rings they
+
+959
+00:34:30,069 --> 00:34:28,240
+sort of look like evaporative deposits
+
+960
+00:34:31,589 --> 00:34:30,079
+that are happening perhaps as the lake
+
+961
+00:34:33,109 --> 00:34:31,599
+is evaporating away we don't know if
+
+962
+00:34:35,909 --> 00:34:33,119
+that's actually the process that's just
+
+963
+00:34:37,669 --> 00:34:35,919
+a guess but it is interesting and we
+
+964
+00:34:39,349 --> 00:34:37,679
+started to think okay well what could
+
+965
+00:34:41,829 --> 00:34:39,359
+these be made up of
+
+966
+00:34:44,230 --> 00:34:41,839
+well let's go back to that that um
+
+967
+00:34:46,710 --> 00:34:44,240
+solubility experiment mike did well
+
+968
+00:34:50,470 --> 00:34:46,720
+benzene is not very soluble
+
+969
+00:34:52,230 --> 00:34:50,480
+so if the lake liquid volume changes
+
+970
+00:34:55,030 --> 00:34:52,240
+because of evaporation and it's
+
+971
+00:34:56,710 --> 00:34:55,040
+dissolved to what we call to saturation
+
+972
+00:34:58,790 --> 00:34:56,720
+so you put in as much benzene in that
+
+973
+00:35:01,109 --> 00:34:58,800
+liquid as you possibly can if some of it
+
+974
+00:35:03,430 --> 00:35:01,119
+evaporates away the liquid some of that
+
+975
+00:35:05,990 --> 00:35:03,440
+benzene is going to crash out
+
+976
+00:35:07,510 --> 00:35:06,000
+and precipitate out and so this could be
+
+977
+00:35:09,349 --> 00:35:07,520
+something that's happening
+
+978
+00:35:11,430 --> 00:35:09,359
+and so we decided to do an experiment in
+
+979
+00:35:13,030 --> 00:35:11,440
+the lab to simulate this so what you're
+
+980
+00:35:15,829 --> 00:35:13,040
+looking at is this is a zoomed in
+
+981
+00:35:17,510 --> 00:35:15,839
+microscopic image this is a droplet of
+
+982
+00:35:19,349 --> 00:35:17,520
+benzene so you're looking at the edge of
+
+983
+00:35:21,109 --> 00:35:19,359
+it so this is benzene up here that's
+
+984
+00:35:23,270 --> 00:35:21,119
+frozen because it's it's definitely a
+
+985
+00:35:26,069 --> 00:35:23,280
+solid at time temperatures and this is
+
+986
+00:35:29,109 --> 00:35:26,079
+in liquid ethane so you can imagine that
+
+987
+00:35:30,950 --> 00:35:29,119
+this is sort of like um if an ethane
+
+988
+00:35:32,950 --> 00:35:30,960
+lake started to evaporate away and some
+
+989
+00:35:34,870 --> 00:35:32,960
+of the benzene was left behind
+
+990
+00:35:37,270 --> 00:35:34,880
+now what we noticed was when we mixed
+
+991
+00:35:39,190 --> 00:35:37,280
+these two together and we waited we saw
+
+992
+00:35:41,190 --> 00:35:39,200
+something interesting this is something
+
+993
+00:35:43,430 --> 00:35:41,200
+called recrystallization you can see how
+
+994
+00:35:45,589 --> 00:35:43,440
+there are some crystals solid chunks
+
+995
+00:35:47,589 --> 00:35:45,599
+here but then over here they broken up
+
+996
+00:35:49,349 --> 00:35:47,599
+into tiny little bits and we didn't do
+
+997
+00:35:51,829 --> 00:35:49,359
+anything we didn't touch the sample we
+
+998
+00:35:53,750 --> 00:35:51,839
+just sat it there and and watched this
+
+999
+00:35:55,030 --> 00:35:53,760
+happen and we saw this happen over and
+
+1000
+00:35:57,030 --> 00:35:55,040
+over again
+
+1001
+00:35:58,310 --> 00:35:57,040
+now in chemistry we get very excited
+
+1002
+00:36:00,390 --> 00:35:58,320
+when something like this happens because
+
+1003
+00:36:02,069 --> 00:36:00,400
+it tells us that something is changing
+
+1004
+00:36:03,750 --> 00:36:02,079
+inside of the sample whether it's a
+
+1005
+00:36:05,190 --> 00:36:03,760
+physical or chemical change it's a
+
+1006
+00:36:07,190 --> 00:36:05,200
+change and it's at really cold
+
+1007
+00:36:09,349 --> 00:36:07,200
+temperatures which is exciting normally
+
+1008
+00:36:11,270 --> 00:36:09,359
+things slow down or even stop at very
+
+1009
+00:36:13,109 --> 00:36:11,280
+low temperatures so this was something
+
+1010
+00:36:15,190 --> 00:36:13,119
+we excuse me something we wanted to
+
+1011
+00:36:17,510 --> 00:36:15,200
+investigate further
+
+1012
+00:36:20,790 --> 00:36:17,520
+so we turned to one of our instruments
+
+1013
+00:36:22,230 --> 00:36:20,800
+this is a data from a raman spectrometer
+
+1014
+00:36:25,030 --> 00:36:22,240
+and essentially what you're looking at
+
+1015
+00:36:26,950 --> 00:36:25,040
+is peaks that are attributed to
+
+1016
+00:36:28,550 --> 00:36:26,960
+different molecules that are present in
+
+1017
+00:36:30,230 --> 00:36:28,560
+our sample now we just have two things
+
+1018
+00:36:31,750 --> 00:36:30,240
+in there right we've got our benzene and
+
+1019
+00:36:34,150 --> 00:36:31,760
+we've got our ethane
+
+1020
+00:36:35,829 --> 00:36:34,160
+and what we noticed is that once you mix
+
+1021
+00:36:38,550 --> 00:36:35,839
+them and you wait for a little bit we
+
+1022
+00:36:40,310 --> 00:36:38,560
+see this new peak appear over here and
+
+1023
+00:36:42,710 --> 00:36:40,320
+we also see some shifts in these peaks
+
+1024
+00:36:44,630 --> 00:36:42,720
+over here now this tells us this
+
+1025
+00:36:46,550 --> 00:36:44,640
+particular technique not only does it
+
+1026
+00:36:48,790 --> 00:36:46,560
+tell you what's there but it tells you
+
+1027
+00:36:49,670 --> 00:36:48,800
+the chemical environment that it's in as
+
+1028
+00:36:51,510 --> 00:36:49,680
+well
+
+1029
+00:36:53,829 --> 00:36:51,520
+now this peak growing in this is one of
+
+1030
+00:36:55,990 --> 00:36:53,839
+the ethane peaks this tells us that some
+
+1031
+00:36:57,910 --> 00:36:56,000
+population of the ethane molecules that
+
+1032
+00:37:00,630 --> 00:36:57,920
+are in our sample are in a different
+
+1033
+00:37:02,230 --> 00:37:00,640
+environment than the rest of the liquid
+
+1034
+00:37:04,470 --> 00:37:02,240
+so we started to try to think of what
+
+1035
+00:37:06,230 --> 00:37:04,480
+that different environment could be
+
+1036
+00:37:08,550 --> 00:37:06,240
+well we've got two things we've got
+
+1037
+00:37:10,630 --> 00:37:08,560
+benzene and ethane how can you
+
+1038
+00:37:12,870 --> 00:37:10,640
+combine them or mix them together to
+
+1039
+00:37:15,030 --> 00:37:12,880
+sort of trap ethane in some kind of like
+
+1040
+00:37:16,630 --> 00:37:15,040
+a co-crystal or some other
+
+1041
+00:37:18,870 --> 00:37:16,640
+sort of state
+
+1042
+00:37:21,270 --> 00:37:18,880
+well we turn to the literature
+
+1043
+00:37:23,829 --> 00:37:21,280
+and there's a paper on a similar
+
+1044
+00:37:25,030 --> 00:37:23,839
+molecular pair same with benzene but now
+
+1045
+00:37:26,790 --> 00:37:25,040
+we've got a different molecule in the
+
+1046
+00:37:28,710 --> 00:37:26,800
+middle called acetylene but they formed
+
+1047
+00:37:29,829 --> 00:37:28,720
+this really cool sort of sandwich
+
+1048
+00:37:31,510 --> 00:37:29,839
+structure
+
+1049
+00:37:33,910 --> 00:37:31,520
+where the acetylene was stabilized
+
+1050
+00:37:35,750 --> 00:37:33,920
+inside and so we thought okay well
+
+1051
+00:37:37,670 --> 00:37:35,760
+ethane is very similar to acetylene it's
+
+1052
+00:37:39,270 --> 00:37:37,680
+just got a few extra protons so maybe
+
+1053
+00:37:40,950 --> 00:37:39,280
+maybe this is what's going on we did
+
+1054
+00:37:42,150 --> 00:37:40,960
+some modeling that supported this as
+
+1055
+00:37:46,069 --> 00:37:42,160
+well
+
+1056
+00:37:48,230 --> 00:37:46,079
+we've got this friend colleague in
+
+1057
+00:37:50,550 --> 00:37:48,240
+australia who has access to their
+
+1058
+00:37:53,109 --> 00:37:50,560
+synchrotron so let's go down there and
+
+1059
+00:37:54,550 --> 00:37:53,119
+do some cryogenic experiments
+
+1060
+00:37:57,030 --> 00:37:54,560
+and so one of our colleagues went down
+
+1061
+00:37:58,069 --> 00:37:57,040
+there and basically fired a bunch of
+
+1062
+00:38:00,390 --> 00:37:58,079
+x-rays
+
+1063
+00:38:02,870 --> 00:38:00,400
+at our sample kept it cold and when
+
+1064
+00:38:05,270 --> 00:38:02,880
+x-rays bounce off of a crystal structure
+
+1065
+00:38:07,670 --> 00:38:05,280
+that pattern of how the rays are are
+
+1066
+00:38:09,430 --> 00:38:07,680
+bounced off and diffracted can tell you
+
+1067
+00:38:10,870 --> 00:38:09,440
+what the molecule what the atoms are and
+
+1068
+00:38:12,630 --> 00:38:10,880
+where they are what their specific
+
+1069
+00:38:14,310 --> 00:38:12,640
+arrangement is so this can tell you what
+
+1070
+00:38:15,990 --> 00:38:14,320
+the crystal structure is it's like being
+
+1071
+00:38:18,470 --> 00:38:16,000
+able to zoom in and look at individual
+
+1072
+00:38:20,150 --> 00:38:18,480
+atoms which is very cool
+
+1073
+00:38:22,870 --> 00:38:20,160
+and so we did that and this is what we
+
+1074
+00:38:25,430 --> 00:38:22,880
+saw very very different from what we
+
+1075
+00:38:27,750 --> 00:38:25,440
+expected so you can see there's like a
+
+1076
+00:38:28,710 --> 00:38:27,760
+ring of benzenes
+
+1077
+00:38:30,069 --> 00:38:28,720
+and then
+
+1078
+00:38:31,589 --> 00:38:30,079
+it's kind of hard to see but you
+
+1079
+00:38:33,030 --> 00:38:31,599
+basically got this line of ethae
+
+1080
+00:38:34,470 --> 00:38:33,040
+molecules that are forming sort of like
+
+1081
+00:38:36,310 --> 00:38:34,480
+a tube
+
+1082
+00:38:38,870 --> 00:38:36,320
+totally not what we expected really
+
+1083
+00:38:41,190 --> 00:38:38,880
+wicked cool we were very excited so if
+
+1084
+00:38:42,550 --> 00:38:41,200
+you sort of like drape them a cloth over
+
+1085
+00:38:44,390 --> 00:38:42,560
+the benzenes you can sort of get a
+
+1086
+00:38:47,109 --> 00:38:44,400
+better idea of the structure
+
+1087
+00:38:48,950 --> 00:38:47,119
+we call this an inclusion compound and
+
+1088
+00:38:51,030 --> 00:38:48,960
+ethanes form in these channels in
+
+1089
+00:38:52,470 --> 00:38:51,040
+between the benzenes really unusual no
+
+1090
+00:38:53,910 --> 00:38:52,480
+one had ever seen this before we did
+
+1091
+00:38:55,990 --> 00:38:53,920
+this experiment
+
+1092
+00:38:58,470 --> 00:38:56,000
+and this was really exciting for us both
+
+1093
+00:39:00,150 --> 00:38:58,480
+from a chemistry perspective and from a
+
+1094
+00:39:02,150 --> 00:39:00,160
+what the heck is going on on titan
+
+1095
+00:39:04,550 --> 00:39:02,160
+perspective because this helps give us
+
+1096
+00:39:07,190 --> 00:39:04,560
+some insight into weird processes that
+
+1097
+00:39:09,990 --> 00:39:07,200
+could be happening on the surface
+
+1098
+00:39:11,990 --> 00:39:10,000
+so titan surface landscape is strongly
+
+1099
+00:39:13,750 --> 00:39:12,000
+influenced by this complex organic cycle
+
+1100
+00:39:15,750 --> 00:39:13,760
+and we're starting to get some insights
+
+1101
+00:39:17,910 --> 00:39:15,760
+through doing lab experiments
+
+1102
+00:39:19,990 --> 00:39:17,920
+to try to understand what's going on
+
+1103
+00:39:21,750 --> 00:39:20,000
+we know that certain molecules dissolve
+
+1104
+00:39:23,430 --> 00:39:21,760
+and thanks to the work from some of our
+
+1105
+00:39:25,430 --> 00:39:23,440
+colleagues we now know exactly how much
+
+1106
+00:39:28,069 --> 00:39:25,440
+dissolves we know that some of them
+
+1107
+00:39:29,990 --> 00:39:28,079
+precipitate or reorganize like that cool
+
+1108
+00:39:31,510 --> 00:39:30,000
+crystal structure i just showed you and
+
+1109
+00:39:35,190 --> 00:39:31,520
+this leads to some
+
+1110
+00:39:35,990 --> 00:39:35,200
+novel solid geological materials this
+
+1111
+00:39:37,589 --> 00:39:36,000
+this
+
+1112
+00:39:39,270 --> 00:39:37,599
+is the equivalent of like a hydrated
+
+1113
+00:39:40,710 --> 00:39:39,280
+mineral on earth
+
+1114
+00:39:41,670 --> 00:39:40,720
+and so this can help us try to
+
+1115
+00:39:44,150 --> 00:39:41,680
+understand
+
+1116
+00:39:46,550 --> 00:39:44,160
+how things are stored how they move how
+
+1117
+00:39:48,069 --> 00:39:46,560
+they interact on this really exotic
+
+1118
+00:39:49,510 --> 00:39:48,079
+alien world
+
+1119
+00:39:51,510 --> 00:39:49,520
+but of course this is just part of the
+
+1120
+00:39:53,510 --> 00:39:51,520
+story again it doesn't have a full
+
+1121
+00:39:55,349 --> 00:39:53,520
+ending yet we definitely need more lab
+
+1122
+00:39:56,950 --> 00:39:55,359
+work we need future missions to go to
+
+1123
+00:39:59,030 --> 00:39:56,960
+this amazing moon cassini has given us
+
+1124
+00:40:00,550 --> 00:39:59,040
+an incredible wealth of data but it's
+
+1125
+00:40:02,150 --> 00:40:00,560
+also given us more questions than
+
+1126
+00:40:03,430 --> 00:40:02,160
+answers which a scientist is what we
+
+1127
+00:40:05,109 --> 00:40:03,440
+love
+
+1128
+00:40:07,190 --> 00:40:05,119
+so i'm hoping that we'll be able to go
+
+1129
+00:40:11,190 --> 00:40:07,200
+back and study titan further in the
+
+1130
+00:40:13,430 --> 00:40:11,200
+future to learn about what makes it tick
+
+1131
+00:40:16,069 --> 00:40:13,440
+so with that i have a lot of people to
+
+1132
+00:40:17,349 --> 00:40:16,079
+thank i hope i included all of them from
+
+1133
+00:40:20,069 --> 00:40:17,359
+the first part for the iceland
+
+1134
+00:40:21,829 --> 00:40:20,079
+expedition our feldspar team
+
+1135
+00:40:24,710 --> 00:40:21,839
+funding from a variety of different
+
+1136
+00:40:26,230 --> 00:40:24,720
+sources the headmistress of fosgoli
+
+1137
+00:40:27,670 --> 00:40:26,240
+which the icelandic person in the
+
+1138
+00:40:30,390 --> 00:40:27,680
+audience can tell me how to pronounce
+
+1139
+00:40:32,069 --> 00:40:30,400
+her name the nasa nordic astrobiology
+
+1140
+00:40:33,270 --> 00:40:32,079
+summer school that i mentioned google it
+
+1141
+00:40:35,349 --> 00:40:33,280
+if you're interested in learning about
+
+1142
+00:40:36,550 --> 00:40:35,359
+astrobiology or pursuing that as a
+
+1143
+00:40:38,870 --> 00:40:36,560
+career
+
+1144
+00:40:40,950 --> 00:40:38,880
+the planetary science and technology
+
+1145
+00:40:42,310 --> 00:40:40,960
+from analog research program p star
+
+1146
+00:40:44,630 --> 00:40:42,320
+that's what just gave us some funding to
+
+1147
+00:40:47,510 --> 00:40:44,640
+go back and then for the titan lab work
+
+1148
+00:40:49,510 --> 00:40:47,520
+uh rob tuan mike matthew bunch of people
+
+1149
+00:41:04,309 --> 00:40:49,520
+and funding and thank you all for your
+
+1150
+00:41:08,309 --> 00:41:06,390
+so i'd love to take your questions uh
+
+1151
+00:41:09,910 --> 00:41:08,319
+there is a mic since this is being
+
+1152
+00:41:12,069 --> 00:41:09,920
+broadcast so we can all hear your
+
+1153
+00:41:15,109 --> 00:41:12,079
+questions not just me and i'll try to
+
+1154
+00:41:17,270 --> 00:41:15,119
+remember to repeat them out loud too if
+
+1155
+00:41:20,069 --> 00:41:17,280
+if we need to go ahead
+
+1156
+00:41:22,550 --> 00:41:20,079
+hi um i was wondering you mentioned uh
+
+1157
+00:41:25,190 --> 00:41:22,560
+that there's some sort of fungus that
+
+1158
+00:41:26,069 --> 00:41:25,200
+could survive on mars oh this is cool
+
+1159
+00:41:28,069 --> 00:41:26,079
+okay
+
+1160
+00:41:29,750 --> 00:41:28,079
+i don't know exactly the authors of this
+
+1161
+00:41:31,990 --> 00:41:29,760
+paper but there's this lichen that they
+
+1162
+00:41:33,710 --> 00:41:32,000
+found in antarctica now lichen is it's a
+
+1163
+00:41:35,589 --> 00:41:33,720
+combination of a fungus and a
+
+1164
+00:41:37,750 --> 00:41:35,599
+cyanobacteria that live in this
+
+1165
+00:41:40,950 --> 00:41:37,760
+symbiotic relationship they sort of need
+
+1166
+00:41:41,750 --> 00:41:40,960
+each other to survive and the group took
+
+1167
+00:41:43,510 --> 00:41:41,760
+that
+
+1168
+00:41:45,829 --> 00:41:43,520
+lichen and then they put it into a marsh
+
+1169
+00:41:47,990 --> 00:41:45,839
+chamber and they put it some of it sort
+
+1170
+00:41:49,750 --> 00:41:48,000
+of under a rock kind of shielded from uv
+
+1171
+00:41:52,150 --> 00:41:49,760
+radiation and then the other one was
+
+1172
+00:41:53,829 --> 00:41:52,160
+exposed and then they stuck it in there
+
+1173
+00:41:56,550 --> 00:41:53,839
+for i think it was a couple of months
+
+1174
+00:41:58,150 --> 00:41:56,560
+and it had you know mars temperature the
+
+1175
+00:42:00,470 --> 00:41:58,160
+the atmospheric conditions were correct
+
+1176
+00:42:03,109 --> 00:42:00,480
+and the uv radiation and it survived
+
+1177
+00:42:04,950 --> 00:42:03,119
+which is crazy so i suggest if you just
+
+1178
+00:42:07,589 --> 00:42:04,960
+google something like mars antarctica
+
+1179
+00:42:09,510 --> 00:42:07,599
+lichen you'll probably find the paper
+
+1180
+00:42:10,950 --> 00:42:09,520
+but it's fascinating that i mean every
+
+1181
+00:42:12,710 --> 00:42:10,960
+place on earth that we look for life
+
+1182
+00:42:14,630 --> 00:42:12,720
+pretty much we find it and there are
+
+1183
+00:42:16,950 --> 00:42:14,640
+plenty of conditions out there in the
+
+1184
+00:42:19,270 --> 00:42:16,960
+solar system places like mars europa
+
+1185
+00:42:21,430 --> 00:42:19,280
+enceladus where life as we know it could
+
+1186
+00:42:23,510 --> 00:42:21,440
+survive and it's fun to be pushing those
+
+1187
+00:42:26,069 --> 00:42:23,520
+bounds and to see exactly what could be
+
+1188
+00:42:27,510 --> 00:42:26,079
+transplanted and be growing there today
+
+1189
+00:42:29,750 --> 00:42:27,520
+is there anything else that we know of
+
+1190
+00:42:32,069 --> 00:42:29,760
+that could survive sure there's
+
+1191
+00:42:33,910 --> 00:42:32,079
+something called bacterial spores that
+
+1192
+00:42:35,430 --> 00:42:33,920
+these are certain types of bacteria when
+
+1193
+00:42:37,990 --> 00:42:35,440
+they're put in stressful conditions they
+
+1194
+00:42:40,790 --> 00:42:38,000
+go into like this hibernation state
+
+1195
+00:42:42,390 --> 00:42:40,800
+and those spores can survive in space
+
+1196
+00:42:44,390 --> 00:42:42,400
+they could have survived some sort of
+
+1197
+00:42:47,190 --> 00:42:44,400
+meteoritic transfer between earth and
+
+1198
+00:42:49,190 --> 00:42:47,200
+mars based on modeling and stuff we
+
+1199
+00:42:51,430 --> 00:42:49,200
+found some on earth in halite crystals
+
+1200
+00:42:53,750 --> 00:42:51,440
+that were on the order of i believe uh
+
+1201
+00:42:55,109 --> 00:42:53,760
+10 to 100 million years old really old
+
+1202
+00:42:57,030 --> 00:42:55,119
+it's kind of controversial because we're
+
+1203
+00:42:58,870 --> 00:42:57,040
+not sure if they were deposited when the
+
+1204
+00:42:59,829 --> 00:42:58,880
+halite crystal formed or if they came in
+
+1205
+00:43:01,430 --> 00:42:59,839
+later
+
+1206
+00:43:03,030 --> 00:43:01,440
+we've also found spores in amber that's
+
+1207
+00:43:04,710 --> 00:43:03,040
+like 50 000 years old so there are
+
+1208
+00:43:06,790 --> 00:43:04,720
+things that can hang around that can
+
+1209
+00:43:09,349 --> 00:43:06,800
+resist those uh conditions those
+
+1210
+00:43:11,109 --> 00:43:09,359
+extremes even in space that could
+
+1211
+00:43:13,589 --> 00:43:11,119
+potentially be somewhere else
+
+1212
+00:43:16,230 --> 00:43:13,599
+thank you yeah thank you good questions
+
+1213
+00:43:19,510 --> 00:43:16,240
+that's great yeah did the 50 million
+
+1214
+00:43:21,349 --> 00:43:19,520
+year old scores did they uh regenerate
+
+1215
+00:43:23,670 --> 00:43:21,359
+they reanimate i mean so the question
+
+1216
+00:43:25,589 --> 00:43:23,680
+was did those 50 million year old spores
+
+1217
+00:43:27,349 --> 00:43:25,599
+regenerate and they were regenerated in
+
+1218
+00:43:30,550 --> 00:43:27,359
+a lab to my knowledge
+
+1219
+00:43:32,550 --> 00:43:30,560
+so that was what was so exciting
+
+1220
+00:43:35,990 --> 00:43:32,560
+uh do you intend to use
+
+1221
+00:43:37,990 --> 00:43:36,000
+nano technologies in your analogs
+
+1222
+00:43:40,309 --> 00:43:38,000
+nano technologies in the analogs like
+
+1223
+00:43:43,109 --> 00:43:40,319
+like how so can you be more specific uh
+
+1224
+00:43:46,309 --> 00:43:43,119
+well for example uh
+
+1225
+00:43:47,109 --> 00:43:46,319
+nano carbon nano tubes
+
+1226
+00:43:50,230 --> 00:43:47,119
+to
+
+1227
+00:43:51,190 --> 00:43:50,240
+dissuade the radiation that comes in oh
+
+1228
+00:43:53,430 --> 00:43:51,200
+sure
+
+1229
+00:43:55,349 --> 00:43:53,440
+we have lots of plans for using sort of
+
+1230
+00:43:57,109 --> 00:43:55,359
+up and coming technologies like that
+
+1231
+00:43:59,270 --> 00:43:57,119
+some of the work that i did as a postdoc
+
+1232
+00:44:00,630 --> 00:43:59,280
+was doing microfluidic
+
+1233
+00:44:02,309 --> 00:44:00,640
+techniques things that can take an
+
+1234
+00:44:03,990 --> 00:44:02,319
+entire lab you know biologists and
+
+1235
+00:44:06,470 --> 00:44:04,000
+chemists working in a lab on a bench and
+
+1236
+00:44:08,950 --> 00:44:06,480
+condense it down into a tiny little
+
+1237
+00:44:10,390 --> 00:44:08,960
+chip that instead of moving like instead
+
+1238
+00:44:11,990 --> 00:44:10,400
+of having wires and move electrons
+
+1239
+00:44:14,069 --> 00:44:12,000
+around you have channels that move
+
+1240
+00:44:15,829 --> 00:44:14,079
+liquid around and you can do an entire
+
+1241
+00:44:18,309 --> 00:44:15,839
+suite of organic chemist chemical
+
+1242
+00:44:20,230 --> 00:44:18,319
+analyses on a tiny little they call it a
+
+1243
+00:44:21,589 --> 00:44:20,240
+lab on a chip because that's what it is
+
+1244
+00:44:24,150 --> 00:44:21,599
+so there are sorts of things like that
+
+1245
+00:44:25,990 --> 00:44:24,160
+that we are advancing the technology of
+
+1246
+00:44:27,510 --> 00:44:26,000
+usually they have to get to a certain
+
+1247
+00:44:29,190 --> 00:44:27,520
+threshold before we'll put them on a
+
+1248
+00:44:31,670 --> 00:44:29,200
+mission it's called a technology
+
+1249
+00:44:33,349 --> 00:44:31,680
+readiness level or trl it goes from one
+
+1250
+00:44:34,950 --> 00:44:33,359
+to nine usually when you get to a six
+
+1251
+00:44:37,190 --> 00:44:34,960
+they start to take you seriously for
+
+1252
+00:44:38,630 --> 00:44:37,200
+planetary missions and this microfluidic
+
+1253
+00:44:40,309 --> 00:44:38,640
+stuff is getting to that point i'm not
+
+1254
+00:44:41,589 --> 00:44:40,319
+sure exactly about the carbon nanotube
+
+1255
+00:44:43,829 --> 00:44:41,599
+stuff but i'm sure someone's pushing
+
+1256
+00:44:45,750 --> 00:44:43,839
+that technology along thank you thank
+
+1257
+00:44:47,030 --> 00:44:45,760
+you
+
+1258
+00:44:48,710 --> 00:44:47,040
+next victim
+
+1259
+00:44:49,670 --> 00:44:48,720
+um at the risk of sounding a little like
+
+1260
+00:44:50,870 --> 00:44:49,680
+darwin
+
+1261
+00:44:52,870 --> 00:44:50,880
+some of what you were talking about for
+
+1262
+00:44:55,589 --> 00:44:52,880
+the um
+
+1263
+00:44:57,510 --> 00:44:55,599
+volcanic fields the lava fields
+
+1264
+00:44:58,710 --> 00:44:57,520
+sounds like the way cities organically
+
+1265
+00:45:00,069 --> 00:44:58,720
+create where first they're kind of
+
+1266
+00:45:01,349 --> 00:45:00,079
+esoterically populated and then
+
+1267
+00:45:03,109 --> 00:45:01,359
+eventually as they reach a certain
+
+1268
+00:45:05,349 --> 00:45:03,119
+critical mass they start to stabilize in
+
+1269
+00:45:07,829 --> 00:45:05,359
+terms of what areas are
+
+1270
+00:45:09,589 --> 00:45:07,839
+zoned for what
+
+1271
+00:45:11,109 --> 00:45:09,599
+is there any am i just making that up in
+
+1272
+00:45:13,109 --> 00:45:11,119
+my head or does that seem to have any
+
+1273
+00:45:15,109 --> 00:45:13,119
+corollary that's a really interesting
+
+1274
+00:45:17,190 --> 00:45:15,119
+point um
+
+1275
+00:45:18,950 --> 00:45:17,200
+i mean we're just starting to try and
+
+1276
+00:45:20,470 --> 00:45:18,960
+understand this and we're doing as many
+
+1277
+00:45:22,069 --> 00:45:20,480
+measurements as we can right but more
+
+1278
+00:45:23,670 --> 00:45:22,079
+data is better there could be sort of
+
+1279
+00:45:26,069 --> 00:45:23,680
+micro environments happening right there
+
+1280
+00:45:28,069 --> 00:45:26,079
+could be a localized uh warm patch or a
+
+1281
+00:45:29,430 --> 00:45:28,079
+humid patch over here maybe
+
+1282
+00:45:31,270 --> 00:45:29,440
+temperature's different because some of
+
+1283
+00:45:33,750 --> 00:45:31,280
+these lava fields are still warm we were
+
+1284
+00:45:34,950 --> 00:45:33,760
+having lunch near not right next to
+
+1285
+00:45:36,630 --> 00:45:34,960
+because we didn't want to contaminate
+
+1286
+00:45:37,829 --> 00:45:36,640
+but sort of near one of our sample sites
+
+1287
+00:45:39,430 --> 00:45:37,839
+and i remember sitting on the ground
+
+1288
+00:45:41,349 --> 00:45:39,440
+being like you know
+
+1289
+00:45:43,109 --> 00:45:41,359
+my butt's getting a little warm and you
+
+1290
+00:45:44,550 --> 00:45:43,119
+know things are still geologically
+
+1291
+00:45:46,950 --> 00:45:44,560
+active in those areas and so there could
+
+1292
+00:45:48,390 --> 00:45:46,960
+be small environments that we're not
+
+1293
+00:45:50,069 --> 00:45:48,400
+capturing yet in our techniques that
+
+1294
+00:45:52,550 --> 00:45:50,079
+we're planning on doing for future
+
+1295
+00:45:53,910 --> 00:45:52,560
+expeditions but in terms of how cities
+
+1296
+00:45:55,910 --> 00:45:53,920
+organize and things like that whenever
+
+1297
+00:45:58,790 --> 00:45:55,920
+you get to complex
+
+1298
+00:46:01,109 --> 00:45:58,800
+systems right there can be small things
+
+1299
+00:46:02,710 --> 00:46:01,119
+that lead to large changes in terms of
+
+1300
+00:46:04,069 --> 00:46:02,720
+how how things are distributed and
+
+1301
+00:46:05,430 --> 00:46:04,079
+presented and there could be some
+
+1302
+00:46:06,870 --> 00:46:05,440
+analogies there
+
+1303
+00:46:09,109 --> 00:46:06,880
+absolutely
+
+1304
+00:46:11,510 --> 00:46:09,119
+and then uh quickly for titan
+
+1305
+00:46:12,870 --> 00:46:11,520
+is it possible that there could be
+
+1306
+00:46:14,150 --> 00:46:12,880
+uh
+
+1307
+00:46:15,910 --> 00:46:14,160
+not
+
+1308
+00:46:17,990 --> 00:46:15,920
+environmental corollary for titan for
+
+1309
+00:46:19,750 --> 00:46:18,000
+earth before the oxygen catastrophe when
+
+1310
+00:46:21,750 --> 00:46:19,760
+most life wasn't
+
+1311
+00:46:24,630 --> 00:46:21,760
+aerobic or i think i'm using the word
+
+1312
+00:46:26,710 --> 00:46:24,640
+right yeah yes and no uh so
+
+1313
+00:46:28,790 --> 00:46:26,720
+right back in earth's early history
+
+1314
+00:46:30,790 --> 00:46:28,800
+there was less oxygen and there was a
+
+1315
+00:46:32,470 --> 00:46:30,800
+point in time where there was some sort
+
+1316
+00:46:34,870 --> 00:46:32,480
+of something magic turned on and
+
+1317
+00:46:37,349 --> 00:46:34,880
+suddenly we were very oxygen rich
+
+1318
+00:46:39,109 --> 00:46:37,359
+so in that sense titan can be an analog
+
+1319
+00:46:41,349 --> 00:46:39,119
+but remember it's much much further away
+
+1320
+00:46:43,829 --> 00:46:41,359
+from the sun it's a lot colder and so
+
+1321
+00:46:46,550 --> 00:46:43,839
+certain things that would be a gas on
+
+1322
+00:46:48,069 --> 00:46:46,560
+earth are liquid on titan okay so some
+
+1323
+00:46:49,990 --> 00:46:48,079
+of those analogies you have to be
+
+1324
+00:46:51,030 --> 00:46:50,000
+careful about how you draw them
+
+1325
+00:46:52,950 --> 00:46:51,040
+one cool
+
+1326
+00:46:54,870 --> 00:46:52,960
+fact that always gets me excited when i
+
+1327
+00:46:57,990 --> 00:46:54,880
+think about titan is um so if you think
+
+1328
+00:46:59,670 --> 00:46:58,000
+about uh what stars are most common in
+
+1329
+00:47:01,750 --> 00:46:59,680
+the universe or at least in our corner
+
+1330
+00:47:04,069 --> 00:47:01,760
+of the universe our star is actually not
+
+1331
+00:47:05,990 --> 00:47:04,079
+the most common one red dwarfs are now
+
+1332
+00:47:07,910 --> 00:47:06,000
+if you're a planet in a stable orbit
+
+1333
+00:47:11,430 --> 00:47:07,920
+around a red dwarf you're not really
+
+1334
+00:47:13,349 --> 00:47:11,440
+really close you're about 1au one atomic
+
+1335
+00:47:15,349 --> 00:47:13,359
+or astronomical unit which is what earth
+
+1336
+00:47:17,750 --> 00:47:15,359
+is from our sun you're about that far
+
+1337
+00:47:19,670 --> 00:47:17,760
+away but red dwarfs are a lot dimmer
+
+1338
+00:47:22,470 --> 00:47:19,680
+than our star so it turns out that if
+
+1339
+00:47:23,589 --> 00:47:22,480
+you're 1au away from a red dwarf you get
+
+1340
+00:47:26,230 --> 00:47:23,599
+about the same amount of light that
+
+1341
+00:47:27,829 --> 00:47:26,240
+titan does so chances are just
+
+1342
+00:47:29,750 --> 00:47:27,839
+statistically there are probably more
+
+1343
+00:47:31,910 --> 00:47:29,760
+titans out there than earth's so if we
+
+1344
+00:47:33,589 --> 00:47:31,920
+discover some new chemistry that could
+
+1345
+00:47:35,589 --> 00:47:33,599
+happen that could potentially form
+
+1346
+00:47:38,069 --> 00:47:35,599
+molecules important for life or support
+
+1347
+00:47:40,790 --> 00:47:38,079
+life that would be a really
+
+1348
+00:47:44,710 --> 00:47:40,800
+big sort of universal context discovery
+
+1349
+00:47:47,270 --> 00:47:45,430
+hi
+
+1350
+00:47:49,990 --> 00:47:47,280
+um
+
+1351
+00:47:51,829 --> 00:47:50,000
+do we have strong reasons to believe
+
+1352
+00:47:54,550 --> 00:47:51,839
+that there
+
+1353
+00:47:57,109 --> 00:47:54,560
+might may be life on titan or was the
+
+1354
+00:48:00,790 --> 00:47:57,119
+experiment that you did was that just to
+
+1355
+00:48:01,750 --> 00:48:00,800
+investigate hydrologic uh processes
+
+1356
+00:48:03,430 --> 00:48:01,760
+on them
+
+1357
+00:48:05,750 --> 00:48:03,440
+yeah it's a good question it's a hard
+
+1358
+00:48:07,109 --> 00:48:05,760
+question so
+
+1359
+00:48:09,349 --> 00:48:07,119
+thinking from an astrobiology
+
+1360
+00:48:11,910 --> 00:48:09,359
+perspective places like this with tons
+
+1361
+00:48:13,349 --> 00:48:11,920
+of organic molecules are really exciting
+
+1362
+00:48:16,230 --> 00:48:13,359
+right because what do we eat we eat
+
+1363
+00:48:18,230 --> 00:48:16,240
+organic molecules all life needs those
+
+1364
+00:48:20,309 --> 00:48:18,240
+type of building blocks to be able to
+
+1365
+00:48:22,470 --> 00:48:20,319
+make the structures that they use to
+
+1366
+00:48:24,150 --> 00:48:22,480
+exist at least life as we know it right
+
+1367
+00:48:26,950 --> 00:48:24,160
+now titan is unique because it's got
+
+1368
+00:48:28,790 --> 00:48:26,960
+these alien exotic solvents of methane
+
+1369
+00:48:30,950 --> 00:48:28,800
+and ethane and it would be so cool and
+
+1370
+00:48:32,630 --> 00:48:30,960
+lots of scientists are working on
+
+1371
+00:48:34,549 --> 00:48:32,640
+theories of what kind of life could
+
+1372
+00:48:36,150 --> 00:48:34,559
+exist in these places but you have to
+
+1373
+00:48:38,230 --> 00:48:36,160
+remember that
+
+1374
+00:48:39,589 --> 00:48:38,240
+these are very cold places now when
+
+1375
+00:48:41,109 --> 00:48:39,599
+things are cold not a lot of stuff
+
+1376
+00:48:43,270 --> 00:48:41,119
+dissolves right we've done some
+
+1377
+00:48:45,190 --> 00:48:43,280
+experiments that demonstrate that
+
+1378
+00:48:48,069 --> 00:48:45,200
+and life at least as we know it needs
+
+1379
+00:48:50,549 --> 00:48:48,079
+large molecules in order to store and
+
+1380
+00:48:52,470 --> 00:48:50,559
+transfer information like your dna like
+
+1381
+00:48:54,470 --> 00:48:52,480
+your proteins those molecules have to be
+
+1382
+00:48:56,710 --> 00:48:54,480
+pretty big so they can store information
+
+1383
+00:48:58,309 --> 00:48:56,720
+and store function so your proteins can
+
+1384
+00:49:00,230 --> 00:48:58,319
+bend and fold in certain ways to do
+
+1385
+00:49:03,430 --> 00:49:00,240
+certain processes that are important for
+
+1386
+00:49:05,430 --> 00:49:03,440
+your your cells to work properly
+
+1387
+00:49:07,829 --> 00:49:05,440
+when it comes to methane and ethane not
+
+1388
+00:49:10,150 --> 00:49:07,839
+a lot of large molecules can dissolve
+
+1389
+00:49:12,069 --> 00:49:10,160
+it's just too cold and it's not as good
+
+1390
+00:49:13,750 --> 00:49:12,079
+of a solvent as water now that doesn't
+
+1391
+00:49:15,750 --> 00:49:13,760
+mean that life couldn't exist in a place
+
+1392
+00:49:18,470 --> 00:49:15,760
+like this it just means it's harder for
+
+1393
+00:49:20,790 --> 00:49:18,480
+us to come up with some good examples of
+
+1394
+00:49:23,510 --> 00:49:20,800
+life at least with our earth hat on
+
+1395
+00:49:25,510 --> 00:49:23,520
+thinking like we do that as life as we
+
+1396
+00:49:26,870 --> 00:49:25,520
+know it but there are other solvents too
+
+1397
+00:49:28,950 --> 00:49:26,880
+not just those that could exist out
+
+1398
+00:49:31,510 --> 00:49:28,960
+there in the solar or in the universe
+
+1399
+00:49:33,190 --> 00:49:31,520
+ammonia is a good example that can host
+
+1400
+00:49:34,710 --> 00:49:33,200
+all sorts of really interesting and
+
+1401
+00:49:37,270 --> 00:49:34,720
+interesting molecules
+
+1402
+00:49:39,109 --> 00:49:37,280
+co2 supercritical co2 if it's under
+
+1403
+00:49:41,270 --> 00:49:39,119
+pressure can dissolve things just as
+
+1404
+00:49:43,349 --> 00:49:41,280
+well as water can so there are other
+
+1405
+00:49:45,430 --> 00:49:43,359
+exotic forms of
+
+1406
+00:49:48,470 --> 00:49:45,440
+liquids that could potentially host life
+
+1407
+00:49:50,630 --> 00:49:48,480
+elsewhere in the universe
+
+1408
+00:49:52,309 --> 00:49:50,640
+i i think i remember
+
+1409
+00:49:55,030 --> 00:49:52,319
+hearing or reading about it somewhere
+
+1410
+00:49:57,750 --> 00:49:55,040
+that like titan's atmosphere
+
+1411
+00:49:59,549 --> 00:49:57,760
+the uh i guess it's nitrogen and a lot
+
+1412
+00:50:02,230 --> 00:49:59,559
+of methane came from like the
+
+1413
+00:50:05,030 --> 00:50:02,240
+decomposition of ammonia or something
+
+1414
+00:50:07,190 --> 00:50:05,040
+like that there's an equilibrium between
+
+1415
+00:50:10,309 --> 00:50:07,200
+nitrogen and ammonia that happens so
+
+1416
+00:50:12,150 --> 00:50:10,319
+nitrogen n2 ammonia nh3
+
+1417
+00:50:14,069 --> 00:50:12,160
+there's a relationship between those two
+
+1418
+00:50:15,109 --> 00:50:14,079
+molecules and you can actually use that
+
+1419
+00:50:19,510 --> 00:50:15,119
+to
+
+1420
+00:50:20,470 --> 00:50:19,520
+sort of date how old things are um so
+
+1421
+00:50:22,790 --> 00:50:20,480
+there
+
+1422
+00:50:24,470 --> 00:50:22,800
+places like titan we we can look at that
+
+1423
+00:50:26,710 --> 00:50:24,480
+and study that
+
+1424
+00:50:29,109 --> 00:50:26,720
+but in terms of like the exact age i'm
+
+1425
+00:50:31,349 --> 00:50:29,119
+not very uh familiar with that
+
+1426
+00:50:33,510 --> 00:50:31,359
+thank you thank you very much
+
+1427
+00:50:35,109 --> 00:50:33,520
+so go go ahead and use the mic please if
+
+1428
+00:50:41,910 --> 00:50:35,119
+you don't mind i can also repeat your
+
+1429
+00:50:46,150 --> 00:50:43,510
+thank you so you're talking about
+
+1430
+00:50:48,230 --> 00:50:46,160
+organic material and life how do we go
+
+1431
+00:50:51,190 --> 00:50:48,240
+from there and is there a definition of
+
+1432
+00:50:55,270 --> 00:50:51,200
+life for this project
+
+1433
+00:50:57,270 --> 00:50:55,280
+okay um we'd astrobiologists biologists
+
+1434
+00:50:58,230 --> 00:50:57,280
+it's hard to agree on a definition of
+
+1435
+00:51:00,230 --> 00:50:58,240
+life
+
+1436
+00:51:01,910 --> 00:51:00,240
+uh one of the
+
+1437
+00:51:03,510 --> 00:51:01,920
+things that we'll look for
+
+1438
+00:51:05,510 --> 00:51:03,520
+at least when we're looking for places
+
+1439
+00:51:06,950 --> 00:51:05,520
+where water is a liquid is we'll look
+
+1440
+00:51:08,549 --> 00:51:06,960
+for life as we know it because it's
+
+1441
+00:51:10,230 --> 00:51:08,559
+using the same solvent
+
+1442
+00:51:12,549 --> 00:51:10,240
+and it's probably going to use a lot of
+
+1443
+00:51:14,790 --> 00:51:12,559
+the same atoms if you just look at the
+
+1444
+00:51:17,430 --> 00:51:14,800
+abundances of of elements in the
+
+1445
+00:51:19,349 --> 00:51:17,440
+universe right hydrogen really abundant
+
+1446
+00:51:21,349 --> 00:51:19,359
+there's a ton of hydrogen next there's
+
+1447
+00:51:23,270 --> 00:51:21,359
+helium and then there are the lighter
+
+1448
+00:51:24,470 --> 00:51:23,280
+elements carbon hydrogen nitrogen the
+
+1449
+00:51:26,630 --> 00:51:24,480
+things we use
+
+1450
+00:51:29,670 --> 00:51:26,640
+now the which star trek episode is the
+
+1451
+00:51:32,069 --> 00:51:29,680
+one that had the silicon based life
+
+1452
+00:51:34,150 --> 00:51:32,079
+thank you
+
+1453
+00:51:35,589 --> 00:51:34,160
+nice
+
+1454
+00:51:37,430 --> 00:51:35,599
+so it's not to say things like that
+
+1455
+00:51:39,750 --> 00:51:37,440
+couldn't exist it's just silicon is a
+
+1456
+00:51:42,470 --> 00:51:39,760
+lot less abundant than carbon and as a
+
+1457
+00:51:44,630 --> 00:51:42,480
+life form you want to use things that
+
+1458
+00:51:45,589 --> 00:51:44,640
+are common around you
+
+1459
+00:51:48,150 --> 00:51:45,599
+right because you don't want to be
+
+1460
+00:51:49,430 --> 00:51:48,160
+starved for nutrients or building blocks
+
+1461
+00:51:52,230 --> 00:51:49,440
+of things that you need in your
+
+1462
+00:51:55,109 --> 00:51:52,240
+molecular machinery to to continue to
+
+1463
+00:51:56,710 --> 00:51:55,119
+exist so most likely life that we find
+
+1464
+00:51:58,470 --> 00:51:56,720
+is probably going to be composed of some
+
+1465
+00:52:00,549 --> 00:51:58,480
+of those more common elements now they
+
+1466
+00:52:03,510 --> 00:52:00,559
+may be combined in ways that are very
+
+1467
+00:52:05,190 --> 00:52:03,520
+alien and different and here at jpl and
+
+1468
+00:52:07,430 --> 00:52:05,200
+other places when we're starting to
+
+1469
+00:52:09,349 --> 00:52:07,440
+think about what the next life detection
+
+1470
+00:52:11,030 --> 00:52:09,359
+experiment should be we're keeping that
+
+1471
+00:52:13,270 --> 00:52:11,040
+in mind we're trying to think as broadly
+
+1472
+00:52:15,430 --> 00:52:13,280
+as we can but we're still going to be
+
+1473
+00:52:17,589 --> 00:52:15,440
+looking for patterns of life that may
+
+1474
+00:52:18,950 --> 00:52:17,599
+contain these molecules did that answer
+
+1475
+00:52:19,990 --> 00:52:18,960
+your question
+
+1476
+00:52:22,950 --> 00:52:20,000
+sort of
+
+1477
+00:52:28,150 --> 00:52:25,589
+going from molecule to life going from
+
+1478
+00:52:30,309 --> 00:52:28,160
+molecules to life okay well amino acids
+
+1479
+00:52:32,390 --> 00:52:30,319
+are present in meteorites
+
+1480
+00:52:34,790 --> 00:52:32,400
+lots of meteorites life didn't put them
+
+1481
+00:52:37,430 --> 00:52:34,800
+there they formed naturally from things
+
+1482
+00:52:39,670 --> 00:52:37,440
+that were available in the solar system
+
+1483
+00:52:41,829 --> 00:52:39,680
+in the universe things that reacted
+
+1484
+00:52:44,309 --> 00:52:41,839
+because they were in gas clouds that got
+
+1485
+00:52:46,309 --> 00:52:44,319
+some energy from radiation from a star
+
+1486
+00:52:48,150 --> 00:52:46,319
+nearby or something like that so these
+
+1487
+00:52:50,150 --> 00:52:48,160
+molecules form
+
+1488
+00:52:52,950 --> 00:52:50,160
+in in the universe and when they get
+
+1489
+00:52:54,390 --> 00:52:52,960
+concentrated on a place like earth
+
+1490
+00:52:55,750 --> 00:52:54,400
+where they're in an environment where
+
+1491
+00:52:57,349 --> 00:52:55,760
+they could potentially react and
+
+1492
+00:52:58,950 --> 00:52:57,359
+interact then
+
+1493
+00:53:00,950 --> 00:52:58,960
+eventually at least we have one data
+
+1494
+00:53:02,470 --> 00:53:00,960
+point that says that leads to life
+
+1495
+00:53:03,510 --> 00:53:02,480
+now on
+
+1496
+00:53:07,990 --> 00:53:03,520
+what was i going to say i was going to
+
+1497
+00:53:10,150 --> 00:53:08,000
+say something else yeah so um on titan
+
+1498
+00:53:11,829 --> 00:53:10,160
+we we again have these molecules and we
+
+1499
+00:53:13,510 --> 00:53:11,839
+found that there there's something you
+
+1500
+00:53:15,190 --> 00:53:13,520
+can make in the lab here called tholin
+
+1501
+00:53:16,710 --> 00:53:15,200
+which is our best guesses to that that
+
+1502
+00:53:18,710 --> 00:53:16,720
+sort of organic muck that's on the
+
+1503
+00:53:21,270 --> 00:53:18,720
+surface this sort of beautiful brownish
+
+1504
+00:53:23,510 --> 00:53:21,280
+orangish stuff uh carl sagan coined the
+
+1505
+00:53:25,589 --> 00:53:23,520
+term comes from the greek tholos which
+
+1506
+00:53:27,030 --> 00:53:25,599
+means muddy or not clear which is kind
+
+1507
+00:53:28,790 --> 00:53:27,040
+of fun because we don't know what it's
+
+1508
+00:53:31,190 --> 00:53:28,800
+made of and it's sort of muddy looking
+
+1509
+00:53:33,670 --> 00:53:31,200
+um but when you put that in water it
+
+1510
+00:53:35,510 --> 00:53:33,680
+automatically makes amino acids like
+
+1511
+00:53:37,270 --> 00:53:35,520
+right there spontaneously so all you
+
+1512
+00:53:39,109 --> 00:53:37,280
+would need was liquid water and you know
+
+1513
+00:53:41,910 --> 00:53:39,119
+just sit and wait and you're making some
+
+1514
+00:53:44,150 --> 00:53:41,920
+prebiotic molecules that could form life
+
+1515
+00:53:45,670 --> 00:53:44,160
+so it's a it's a chemistry question i
+
+1516
+00:53:47,990 --> 00:53:45,680
+think more than anything else if you've
+
+1517
+00:53:49,030 --> 00:53:48,000
+got the stuff there and the chemical
+
+1518
+00:53:50,549 --> 00:53:49,040
+conditions are right you're going to
+
+1519
+00:53:54,069 --> 00:53:50,559
+form some interesting stuff and
+
+1520
+00:53:56,150 --> 00:53:54,079
+hopefully maybe life one day
+
+1521
+00:53:58,710 --> 00:53:56,160
+i'd like to understand why there's a
+
+1522
+00:54:01,270 --> 00:53:58,720
+variation in these life forms in the
+
+1523
+00:54:02,390 --> 00:54:01,280
+area you're measuring a little more we
+
+1524
+00:54:03,109 --> 00:54:02,400
+would too
+
+1525
+00:54:05,270 --> 00:54:03,119
+well
+
+1526
+00:54:08,549 --> 00:54:05,280
+it seems to me one way would be just the
+
+1527
+00:54:10,230 --> 00:54:08,559
+transport of material which must happen
+
+1528
+00:54:12,950 --> 00:54:10,240
+it comes from somewhere else when it
+
+1529
+00:54:15,670 --> 00:54:12,960
+originally ends up on these fresh lava
+
+1530
+00:54:18,790 --> 00:54:15,680
+fields and on the other hand the life
+
+1531
+00:54:20,549 --> 00:54:18,800
+forms themselves may be propagating
+
+1532
+00:54:22,549 --> 00:54:20,559
+living dying certainly they can die
+
+1533
+00:54:25,750 --> 00:54:22,559
+there whether they live and grow and so
+
+1534
+00:54:28,069 --> 00:54:25,760
+on is another way the concentrations can
+
+1535
+00:54:30,630 --> 00:54:28,079
+vary how much do you understand about
+
+1536
+00:54:32,230 --> 00:54:30,640
+what causes the variations we don't
+
+1537
+00:54:34,309 --> 00:54:32,240
+understand much about what causes those
+
+1538
+00:54:36,230 --> 00:54:34,319
+variations and it's it's a point of
+
+1539
+00:54:39,190 --> 00:54:36,240
+consternation that i really want to to
+
+1540
+00:54:41,750 --> 00:54:39,200
+know what's going on so we've we've
+
+1541
+00:54:43,670 --> 00:54:41,760
+brought as many sort of
+
+1542
+00:54:45,829 --> 00:54:43,680
+techniques that we can bring to bear
+
+1543
+00:54:47,109 --> 00:54:45,839
+we're bringing mineralogy experiments a
+
+1544
+00:54:49,109 --> 00:54:47,119
+few things that i didn't get a chance to
+
+1545
+00:54:51,030 --> 00:54:49,119
+talk about today we're measuring
+
+1546
+00:54:53,270 --> 00:54:51,040
+temperature relative humidity things
+
+1547
+00:54:55,270 --> 00:54:53,280
+like that and we're trying to expand
+
+1548
+00:54:57,270 --> 00:54:55,280
+not just looking at the the general
+
+1549
+00:54:59,030 --> 00:54:57,280
+kingdoms of life that's there but
+
+1550
+00:55:01,670 --> 00:54:59,040
+looking more specifically then it
+
+1551
+00:55:03,750 --> 00:55:01,680
+becomes a problem of manpower that our
+
+1552
+00:55:06,790 --> 00:55:03,760
+team isn't quite large enough to be able
+
+1553
+00:55:09,670 --> 00:55:06,800
+to address that entire sort of area
+
+1554
+00:55:11,670 --> 00:55:09,680
+sample space of of parameters right that
+
+1555
+00:55:13,270 --> 00:55:11,680
+we can look for so we're trying to do as
+
+1556
+00:55:15,270 --> 00:55:13,280
+much as we can in the field when we're
+
+1557
+00:55:16,710 --> 00:55:15,280
+there certain things that are transient
+
+1558
+00:55:17,990 --> 00:55:16,720
+uh the amount of water in the sample the
+
+1559
+00:55:19,430 --> 00:55:18,000
+amount of life that's there we'll look
+
+1560
+00:55:21,190 --> 00:55:19,440
+at that right away but then we're
+
+1561
+00:55:23,030 --> 00:55:21,200
+bringing our samples back to do the
+
+1562
+00:55:25,270 --> 00:55:23,040
+mineralogy to do things that now we can
+
+1563
+00:55:27,190 --> 00:55:25,280
+take our time and study in more detail
+
+1564
+00:55:28,870 --> 00:55:27,200
+and so we're we're looking for these
+
+1565
+00:55:31,030 --> 00:55:28,880
+correlations like i said if there are
+
+1566
+00:55:32,630 --> 00:55:31,040
+micro environments present or if maybe
+
+1567
+00:55:34,470 --> 00:55:32,640
+some hiker you know came along and
+
+1568
+00:55:36,069 --> 00:55:34,480
+accidentally kicked our sample site i
+
+1569
+00:55:37,829 --> 00:55:36,079
+mean these places we're only there for a
+
+1570
+00:55:39,270 --> 00:55:37,839
+few weeks out of the year and who knows
+
+1571
+00:55:42,150 --> 00:55:39,280
+what else is going on when we're not
+
+1572
+00:55:45,109 --> 00:55:42,160
+there in fact some of our sites from fem
+
+1573
+00:55:47,270 --> 00:55:45,119
+from 2013 when we came back in 2015
+
+1574
+00:55:49,910 --> 00:55:47,280
+iceland had had a really wet winter and
+
+1575
+00:55:51,829 --> 00:55:49,920
+some of them had snow on them and so we
+
+1576
+00:55:53,670 --> 00:55:51,839
+we weren't able to use those sites again
+
+1577
+00:55:55,190 --> 00:55:53,680
+and we in a way we didn't want to
+
+1578
+00:55:56,950 --> 00:55:55,200
+because then that's that's too wet
+
+1579
+00:55:58,630 --> 00:55:56,960
+that's not really like mars anymore so
+
+1580
+00:56:01,030 --> 00:55:58,640
+we're trying to be better about
+
+1581
+00:56:03,270 --> 00:56:01,040
+selecting sites in sort of lower
+
+1582
+00:56:05,670 --> 00:56:03,280
+altitudes that won't get a chance to
+
+1583
+00:56:07,270 --> 00:56:05,680
+potentially form as much snow
+
+1584
+00:56:09,190 --> 00:56:07,280
+and other things like that as well but
+
+1585
+00:56:10,630 --> 00:56:09,200
+it's a hard problem and we're hoping
+
+1586
+00:56:14,150 --> 00:56:10,640
+that some of the information if we're
+
+1587
+00:56:16,230 --> 00:56:14,160
+able to glean an idea of okay well you
+
+1588
+00:56:18,390 --> 00:56:16,240
+mars rover go over here don't go over
+
+1589
+00:56:19,910 --> 00:56:18,400
+there because it has x parameter we're
+
+1590
+00:56:23,670 --> 00:56:19,920
+hoping that we'll be able to do that for
+
+1591
+00:56:27,190 --> 00:56:26,150
+any other questions
+
+1592
+00:56:30,390 --> 00:56:27,200
+yeah
+
+1593
+00:56:34,470 --> 00:56:30,400
+what evidence is there about the uh
+
+1594
+00:56:37,030 --> 00:56:34,480
+the duration of existence of oceans on
+
+1595
+00:56:40,549 --> 00:56:37,040
+mars and the types of
+
+1596
+00:56:42,870 --> 00:56:40,559
+uh things dissolved in the oceans that
+
+1597
+00:56:44,549 --> 00:56:42,880
+that you could use earth as an analog
+
+1598
+00:56:46,230 --> 00:56:44,559
+for in terms of
+
+1599
+00:56:48,150 --> 00:56:46,240
+how long it took life to develop in the
+
+1600
+00:56:49,670 --> 00:56:48,160
+oceans on earth do you have anything to
+
+1601
+00:56:51,670 --> 00:56:49,680
+say about the likelihood that it could
+
+1602
+00:56:53,349 --> 00:56:51,680
+have happened on mars okay so like what
+
+1603
+00:56:55,349 --> 00:56:53,359
+you know so far so the question was
+
+1604
+00:56:57,030 --> 00:56:55,359
+about oceans on mars how long have they
+
+1605
+00:56:59,349 --> 00:56:57,040
+existed what could have been dissolved
+
+1606
+00:57:01,430 --> 00:56:59,359
+in them and how can we use analogs on
+
+1607
+00:57:02,549 --> 00:57:01,440
+earth to address that and that's a very
+
+1608
+00:57:04,390 --> 00:57:02,559
+good question
+
+1609
+00:57:07,030 --> 00:57:04,400
+our understanding right now is that mars
+
+1610
+00:57:09,349 --> 00:57:07,040
+used to be a very warm and wet place had
+
+1611
+00:57:11,190 --> 00:57:09,359
+water or liquid water on its surface for
+
+1612
+00:57:13,670 --> 00:57:11,200
+extended periods of time there's
+
+1613
+00:57:15,589 --> 00:57:13,680
+evidence that that the ph of that water
+
+1614
+00:57:17,510 --> 00:57:15,599
+wasn't as extreme as we originally
+
+1615
+00:57:19,270 --> 00:57:17,520
+thought so it may be more conducive to
+
+1616
+00:57:21,349 --> 00:57:19,280
+life there were probably a lot of salts
+
+1617
+00:57:24,069 --> 00:57:21,359
+dissolved in that too but there are lots
+
+1618
+00:57:25,030 --> 00:57:24,079
+of salts in in our ocean waters as well
+
+1619
+00:57:27,030 --> 00:57:25,040
+so
+
+1620
+00:57:29,349 --> 00:57:27,040
+i think there's a large sample space
+
+1621
+00:57:31,510 --> 00:57:29,359
+there in terms of what concentrations of
+
+1622
+00:57:33,750 --> 00:57:31,520
+things could be present that there are
+
+1623
+00:57:36,150 --> 00:57:33,760
+lots of scientists working in the lab to
+
+1624
+00:57:39,109 --> 00:57:36,160
+try to simulate that we're interested
+
+1625
+00:57:40,470 --> 00:57:39,119
+more on okay now life has had a chance
+
+1626
+00:57:42,549 --> 00:57:40,480
+to get a foothold
+
+1627
+00:57:43,430 --> 00:57:42,559
+in one of these these volcanic areas on
+
+1628
+00:57:44,789 --> 00:57:43,440
+mars
+
+1629
+00:57:46,630 --> 00:57:44,799
+and that those are the places that we're
+
+1630
+00:57:48,069 --> 00:57:46,640
+sending our rovers to now are our
+
+1631
+00:57:50,549 --> 00:57:48,079
+sampling
+
+1632
+00:57:52,549 --> 00:57:50,559
+planetary missions there so that's where
+
+1633
+00:57:54,710 --> 00:57:52,559
+we want to try to get a handle on what
+
+1634
+00:57:56,390 --> 00:57:54,720
+kind of life may still be there what is
+
+1635
+00:57:58,470 --> 00:57:56,400
+what is its distribution and if
+
+1636
+00:57:59,750 --> 00:57:58,480
+something looks the same everywhere is
+
+1637
+00:58:02,230 --> 00:57:59,760
+it really the same everywhere and we're
+
+1638
+00:58:03,750 --> 00:58:02,240
+finding no so
+
+1639
+00:58:05,510 --> 00:58:03,760
+but it's a good question there are a lot
+
+1640
+00:58:07,670 --> 00:58:05,520
+of labs that are doing all sorts of cool
+
+1641
+00:58:10,390 --> 00:58:07,680
+work to try to address what mars used to
+
+1642
+00:58:15,030 --> 00:58:12,870
+okay well we hear about life being here
+
+1643
+00:58:16,309 --> 00:58:15,040
+life being there and found over here and
+
+1644
+00:58:18,470 --> 00:58:16,319
+not there
+
+1645
+00:58:19,750 --> 00:58:18,480
+but what's your formula
+
+1646
+00:58:24,549 --> 00:58:19,760
+on
+
+1647
+00:58:27,349 --> 00:58:25,430
+well
+
+1648
+00:58:29,190 --> 00:58:27,359
+have you ever thought of that who does
+
+1649
+00:58:32,069 --> 00:58:29,200
+that there are some people that just
+
+1650
+00:58:34,150 --> 00:58:32,079
+happens by accident
+
+1651
+00:58:37,270 --> 00:58:34,160
+doesn't anybody isn't there a thought
+
+1652
+00:58:38,710 --> 00:58:37,280
+out there somewhere oh sure
+
+1653
+00:58:40,309 --> 00:58:38,720
+there are a lot of people working on the
+
+1654
+00:58:41,990 --> 00:58:40,319
+original life and it depends on who you
+
+1655
+00:58:44,470 --> 00:58:42,000
+talk to there are some people who
+
+1656
+00:58:45,829 --> 00:58:44,480
+believe that life originated in some
+
+1657
+00:58:49,030 --> 00:58:45,839
+type of a
+
+1658
+00:58:50,309 --> 00:58:49,040
+warm pool on the surface where organics
+
+1659
+00:58:51,910 --> 00:58:50,319
+were able to concentrate and then you
+
+1660
+00:58:53,750 --> 00:58:51,920
+had energy sources
+
+1661
+00:58:55,510 --> 00:58:53,760
+from the atmosphere and things raining
+
+1662
+00:58:57,030 --> 00:58:55,520
+down in there's another camp that
+
+1663
+00:58:58,870 --> 00:58:57,040
+believes that life may have originated
+
+1664
+00:59:01,109 --> 00:58:58,880
+in hydrothermal vents down at the ocean
+
+1665
+00:59:02,710 --> 00:59:01,119
+floor now from an astrobiology
+
+1666
+00:59:04,549 --> 00:59:02,720
+perspective looking out in the rest of
+
+1667
+00:59:06,630 --> 00:59:04,559
+the solar system this is really exciting
+
+1668
+00:59:08,789 --> 00:59:06,640
+because we have places like europa and
+
+1669
+00:59:10,789 --> 00:59:08,799
+enceladus that have pretty good evidence
+
+1670
+00:59:13,030 --> 00:59:10,799
+that they may have hydrothermal activity
+
+1671
+00:59:15,510 --> 00:59:13,040
+down underneath their ice shell in their
+
+1672
+00:59:17,430 --> 00:59:15,520
+oceans and so if life formed here in
+
+1673
+00:59:19,109 --> 00:59:17,440
+those kind of conditions you know what
+
+1674
+00:59:21,030 --> 00:59:19,119
+are the chances that life could also be
+
+1675
+00:59:21,829 --> 00:59:21,040
+present in one of these places
+
+1676
+00:59:23,829 --> 00:59:21,839
+so
+
+1677
+00:59:25,829 --> 00:59:23,839
+in terms of the exact
+
+1678
+00:59:27,670 --> 00:59:25,839
+molecular reactions that happen that
+
+1679
+00:59:29,670 --> 00:59:27,680
+depends on a lot of different factors
+
+1680
+00:59:31,990 --> 00:59:29,680
+there are certain associations that are
+
+1681
+00:59:34,710 --> 00:59:32,000
+favored in certain temperature regimes
+
+1682
+00:59:36,710 --> 00:59:34,720
+in under certain phs certain redox
+
+1683
+00:59:38,390 --> 00:59:36,720
+gradients you know if it's oxidized or
+
+1684
+00:59:40,950 --> 00:59:38,400
+reducing certain reactions will be
+
+1685
+00:59:42,470 --> 00:59:40,960
+favored and they'll form certain things
+
+1686
+00:59:43,750 --> 00:59:42,480
+uh there are a lot of experiments going
+
+1687
+00:59:46,549 --> 00:59:43,760
+on to
+
+1688
+00:59:48,309 --> 00:59:46,559
+understand exactly what um
+
+1689
+00:59:49,750 --> 00:59:48,319
+you know if you have a very acidic ph
+
+1690
+00:59:51,510 --> 00:59:49,760
+and you have certain concentrations of
+
+1691
+00:59:53,910 --> 00:59:51,520
+things and it's reducing
+
+1692
+00:59:55,510 --> 00:59:53,920
+what forms what spontaneously forms and
+
+1693
+00:59:57,109 --> 00:59:55,520
+what degrades and sort of what things
+
+1694
+00:59:59,510 --> 00:59:57,119
+can you make and then people looking in
+
+1695
+01:00:01,270 --> 00:59:59,520
+other conditions as well so all i can
+
+1696
+01:00:02,470 --> 01:00:01,280
+say is there's a lot going on and when
+
+1697
+01:00:04,150 --> 01:00:02,480
+someone makes
+
+1698
+01:00:08,470 --> 01:00:04,160
+life in the lab you will definitely hear
+
+1699
+01:00:13,430 --> 01:00:10,870
+yeah but you know it's just like
+
+1700
+01:00:15,030 --> 01:00:13,440
+let's say a computer itself represents
+
+1701
+01:00:16,789 --> 01:00:15,040
+life
+
+1702
+01:00:17,910 --> 01:00:16,799
+and you turn it on and there it is and
+
+1703
+01:00:20,069 --> 01:00:17,920
+all of a sudden you see a bunch of
+
+1704
+01:00:23,270 --> 01:00:20,079
+things on it
+
+1705
+01:00:25,990 --> 01:00:23,280
+well it just doesn't happen like that
+
+1706
+01:00:27,270 --> 01:00:26,000
+there has to be some kind of formula
+
+1707
+01:00:34,710 --> 01:00:27,280
+to
+
+1708
+01:00:36,390 --> 01:00:34,720
+fish
+
+1709
+01:00:37,829 --> 01:00:36,400
+or a bear
+
+1710
+01:00:40,069 --> 01:00:37,839
+or what
+
+1711
+01:00:42,230 --> 01:00:40,079
+or a human being i think part of that
+
+1712
+01:00:44,789 --> 01:00:42,240
+formula is chemistry right it's it's
+
+1713
+01:00:46,470 --> 01:00:44,799
+entropy it's a randomness it's these
+
+1714
+01:00:49,030 --> 01:00:46,480
+fundamental physical parameters that
+
+1715
+01:00:51,829 --> 01:00:49,040
+define our universe uh moving things
+
+1716
+01:00:53,349 --> 01:00:51,839
+from from you know order to disorder
+
+1717
+01:00:55,030 --> 01:00:53,359
+that type of thing
+
+1718
+01:00:56,950 --> 01:00:55,040
+energy gradients right moving things
+
+1719
+01:00:59,430 --> 01:00:56,960
+from a higher energy molecule something
+
+1720
+01:01:01,190 --> 01:00:59,440
+that say has high energy bonds in it to
+
+1721
+01:01:03,190 --> 01:01:01,200
+lower energy bonds and gaining energy
+
+1722
+01:01:05,349 --> 01:01:03,200
+from that essentially that's all life is
+
+1723
+01:01:07,349 --> 01:01:05,359
+is catalysis it's getting over that
+
+1724
+01:01:09,030 --> 01:01:07,359
+activation energy barrier to get to a
+
+1725
+01:01:11,589 --> 01:01:09,040
+lower energetic state and using that
+
+1726
+01:01:13,750 --> 01:01:11,599
+energy it's as expressed as life that's
+
+1727
+01:01:16,069 --> 01:01:13,760
+what we all do right we eat food and
+
+1728
+01:01:20,390 --> 01:01:16,079
+then we we breathe out co2 and we give
+
+1729
+01:01:25,270 --> 01:01:23,750
+so i if there was a formula someone
+
+1730
+01:01:27,430 --> 01:01:25,280
+you know it doesn't mean that there
+
+1731
+01:01:29,990 --> 01:01:27,440
+doesn't exist one one doesn't exist but
+
+1732
+01:01:31,670 --> 01:01:30,000
+it it is complicated we're very complex
+
+1733
+01:01:32,710 --> 01:01:31,680
+systems well
+
+1734
+01:01:34,390 --> 01:01:32,720
+life is
+
+1735
+01:01:36,230 --> 01:01:34,400
+the motion
+
+1736
+01:01:38,470 --> 01:01:36,240
+of these items
+
+1737
+01:01:41,109 --> 01:01:38,480
+the question is just
+
+1738
+01:01:42,470 --> 01:01:41,119
+where is this motion going to and how is
+
+1739
+01:01:44,230 --> 01:01:42,480
+it going to form
+
+1740
+01:01:46,950 --> 01:01:44,240
+and of course you can't answer me that
+
+1741
+01:01:47,910 --> 01:01:46,960
+question thank you thank you
+
+1742
+01:01:50,950 --> 01:01:47,920
+it's always good to have these
+
+1743
+01:01:56,230 --> 01:01:53,190
+right i have an another strange but
+
+1744
+01:01:58,470 --> 01:01:56,240
+quick question okay um you say quick but
+
+1745
+01:02:00,950 --> 01:01:58,480
+let's see
+
+1746
+01:02:03,510 --> 01:02:00,960
+i believe it was back like in uh may
+
+1747
+01:02:05,670 --> 01:02:03,520
+10th uh when mercury was crossing across
+
+1748
+01:02:06,630 --> 01:02:05,680
+the sun yeah the transit the transit
+
+1749
+01:02:07,750 --> 01:02:06,640
+yeah
+
+1750
+01:02:09,510 --> 01:02:07,760
+um
+
+1751
+01:02:11,910 --> 01:02:09,520
+i'm not sure if this article is correct
+
+1752
+01:02:13,829 --> 01:02:11,920
+and the video is what i saw but this
+
+1753
+01:02:15,349 --> 01:02:13,839
+amateur astronomer by the name of paul
+
+1754
+01:02:16,710 --> 01:02:15,359
+cox i believe
+
+1755
+01:02:19,030 --> 01:02:16,720
+he was showing the
+
+1756
+01:02:20,549 --> 01:02:19,040
+broadcast live through a solar telescope
+
+1757
+01:02:21,750 --> 01:02:20,559
+i don't know it was the sleuth system or
+
+1758
+01:02:23,670 --> 01:02:21,760
+what
+
+1759
+01:02:26,150 --> 01:02:23,680
+and you can see
+
+1760
+01:02:27,750 --> 01:02:26,160
+you mentioned red dwarf so that's why
+
+1761
+01:02:28,870 --> 01:02:27,760
+i had to bring it up
+
+1762
+01:02:31,270 --> 01:02:28,880
+um
+
+1763
+01:02:32,470 --> 01:02:31,280
+he saw he was the sun and then murphy
+
+1764
+01:02:34,069 --> 01:02:32,480
+was crossing
+
+1765
+01:02:36,069 --> 01:02:34,079
+next to it was another son and there's
+
+1766
+01:02:38,309 --> 01:02:36,079
+been a lot of talk about this
+
+1767
+01:02:40,230 --> 01:02:38,319
+and he explained that that was uh our
+
+1768
+01:02:42,150 --> 01:02:40,240
+our red dwarf that we belong to of our
+
+1769
+01:02:45,270 --> 01:02:42,160
+binary system
+
+1770
+01:02:47,430 --> 01:02:45,280
+and yeah you could see it clearly and um
+
+1771
+01:02:49,190 --> 01:02:47,440
+there's a lot of talk about this and
+
+1772
+01:02:52,230 --> 01:02:49,200
+i've seen pictures of it like in the old
+
+1773
+01:02:53,990 --> 01:02:52,240
+1930s britannica encyclopedias
+
+1774
+01:02:56,789 --> 01:02:54,000
+explaining that we have or we're a part
+
+1775
+01:02:57,670 --> 01:02:56,799
+of a binary so we're like tatooine
+
+1776
+01:02:59,589 --> 01:02:57,680
+cool
+
+1777
+01:03:01,190 --> 01:02:59,599
+so do you know anything about it binary
+
+1778
+01:03:02,630 --> 01:03:01,200
+star systems are a lot more common than
+
+1779
+01:03:03,990 --> 01:03:02,640
+most people think i don't know the exact
+
+1780
+01:03:06,549 --> 01:03:04,000
+percentage but it's a significant
+
+1781
+01:03:08,069 --> 01:03:06,559
+percentage of of star systems that are
+
+1782
+01:03:08,950 --> 01:03:08,079
+out there i hadn't heard anything about
+
+1783
+01:03:11,270 --> 01:03:08,960
+this
+
+1784
+01:03:12,710 --> 01:03:11,280
+it's interesting i think
+
+1785
+01:03:14,549 --> 01:03:12,720
+in terms of all of the the mission
+
+1786
+01:03:17,029 --> 01:03:14,559
+planning mission design that we do when
+
+1787
+01:03:18,470 --> 01:03:17,039
+we plan trajectories for say cassini to
+
+1788
+01:03:20,470 --> 01:03:18,480
+get out to the saturn system and we're
+
+1789
+01:03:21,990 --> 01:03:20,480
+planning for this new europa mission
+
+1790
+01:03:24,230 --> 01:03:22,000
+that's going to go
+
+1791
+01:03:25,829 --> 01:03:24,240
+orbit around jupiter and visit europa we
+
+1792
+01:03:27,589 --> 01:03:25,839
+have to plan those maneuvers very
+
+1793
+01:03:29,029 --> 01:03:27,599
+carefully and
+
+1794
+01:03:30,789 --> 01:03:29,039
+it seems to me if there was something
+
+1795
+01:03:32,870 --> 01:03:30,799
+like that there that would affect our
+
+1796
+01:03:34,789 --> 01:03:32,880
+spacecraft
+
+1797
+01:03:36,630 --> 01:03:34,799
+but you know we we have to do orbit trim
+
+1798
+01:03:37,670 --> 01:03:36,640
+maneuvers we have to modify things all
+
+1799
+01:03:40,150 --> 01:03:37,680
+the time
+
+1800
+01:03:42,470 --> 01:03:40,160
+we have to check for a cassini which is
+
+1801
+01:03:44,470 --> 01:03:42,480
+right over there whenever we're getting
+
+1802
+01:03:46,950 --> 01:03:44,480
+close to titan to do a slingshot around
+
+1803
+01:03:48,870 --> 01:03:46,960
+to to continue to do some analyses of
+
+1804
+01:03:50,390 --> 01:03:48,880
+the saturn system we're always checking
+
+1805
+01:03:52,470 --> 01:03:50,400
+the positions of the other moons it's
+
+1806
+01:03:53,990 --> 01:03:52,480
+called the ephemeris to make sure that
+
+1807
+01:03:55,109 --> 01:03:54,000
+we are where we think we are and they
+
+1808
+01:03:57,190 --> 01:03:55,119
+are where we think they are and
+
+1809
+01:03:58,470 --> 01:03:57,200
+sometimes we have to do corrections
+
+1810
+01:04:03,430 --> 01:03:58,480
+so
+
+1811
+01:04:07,990 --> 01:04:06,470
+any other questions
+
+1812
+01:04:09,270 --> 01:04:08,000
+all right well oh good we've got one
+
+1813
+01:04:10,789 --> 01:04:09,280
+from the web
+
+1814
+01:04:12,470 --> 01:04:10,799
+let's see
+
+1815
+01:04:15,829 --> 01:04:12,480
+bk bkpr1
+
+1816
+01:04:16,950 --> 01:04:15,839
+asks have you seen biomats on earth is
+
+1817
+01:04:18,870 --> 01:04:16,960
+there anything in your research that
+
+1818
+01:04:22,390 --> 01:04:18,880
+says biomats could have formed on mars
+
+1819
+01:04:24,870 --> 01:04:22,400
+good question okay so we we see biomats
+
+1820
+01:04:27,430 --> 01:04:24,880
+in a lot of places on earth now i'm not
+
+1821
+01:04:29,910 --> 01:04:27,440
+a geochemist so i can't speak about them
+
+1822
+01:04:32,230 --> 01:04:29,920
+in any detail but i know these microbial
+
+1823
+01:04:34,630 --> 01:04:32,240
+mats form and we also see evidence of
+
+1824
+01:04:35,990 --> 01:04:34,640
+them in the geological record too uh
+
+1825
+01:04:37,670 --> 01:04:36,000
+there are things like um
+
+1826
+01:04:39,750 --> 01:04:37,680
+biovermiculation
+
+1827
+01:04:40,789 --> 01:04:39,760
+is one thing where you see patterns or
+
+1828
+01:04:43,029 --> 01:04:40,799
+fossils
+
+1829
+01:04:45,589 --> 01:04:43,039
+fossilized microbial mats
+
+1830
+01:04:47,109 --> 01:04:45,599
+and there are theories that we may see
+
+1831
+01:04:49,990 --> 01:04:47,119
+something like this on mars these kind
+
+1832
+01:04:51,829 --> 01:04:50,000
+of communities are extensive we see them
+
+1833
+01:04:54,150 --> 01:04:51,839
+all in conditions that we may consider
+
+1834
+01:04:56,470 --> 01:04:54,160
+to be extreme and so one of our goals
+
+1835
+01:04:58,150 --> 01:04:56,480
+with curiosity and with a lot of other
+
+1836
+01:05:00,230 --> 01:04:58,160
+future missions is to try to look for
+
+1837
+01:05:02,549 --> 01:05:00,240
+this kind of evidence in some of these
+
+1838
+01:05:04,789 --> 01:05:02,559
+these layered rocks that we see
+
+1839
+01:05:06,630 --> 01:05:04,799
+so good question we see them here we're
+
+1840
+01:05:08,470 --> 01:05:06,640
+hoping to see them elsewhere who knows
+
+1841
+01:05:09,670 --> 01:05:08,480
+what the equivalent of a biomat would be
+
+1842
+01:05:11,029 --> 01:05:09,680
+on titan
+
+1843
+01:05:12,230 --> 01:05:11,039
+i don't even know how we would look for
+
+1844
+01:05:13,910 --> 01:05:12,240
+that but
+
+1845
+01:05:17,910 --> 01:05:13,920
+that would be an interesting thought
+
+1846
+01:05:22,069 --> 01:05:19,829
+well i appreciate you guys coming out
+
+1847
+01:05:24,309 --> 01:05:22,079
+and staying late and i will hang around
+
+1848
+01:05:26,549 --> 01:05:24,319
+if you have more questions but continue
+
+1849
+01:05:28,069 --> 01:05:26,559
+to ask questions and remember that even
+
+1850
+01:05:30,230 --> 01:05:28,079
+your backyard could be an analog
+
+1851
+01:05:41,670 --> 01:05:30,240
+environment for somewhere else
