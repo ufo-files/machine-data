@@ -1,8 +1,7 @@
-name: Request graph builder rebuild
+name: Request graph builder rebuild (manual only)
 
 on:
-  push:
-    branches: [main]
+  # machine-data publishes continuously; graph production builds are nightly.
   workflow_dispatch:
 
 permissions:
@@ -19,11 +18,9 @@ jobs:
       - name: Send rebuild request
         env:
           GH_TOKEN: ${{ secrets.GRAPH_BUILDER_DISPATCH_TOKEN }}
-          MACHINE_DATA_REVISION: ${{ github.sha }}
         shell: bash
         run: |
           gh api \
             --method POST \
-            repos/ufo-files/relationship-graph-builder/dispatches \
-            --field event_type=machine-data-updated \
-            --field "client_payload[revision]=$MACHINE_DATA_REVISION"
+            repos/ufo-files/relationship-graph-builder/actions/workflows/rebuild-graph.yml/dispatches \
+            --field ref=main
