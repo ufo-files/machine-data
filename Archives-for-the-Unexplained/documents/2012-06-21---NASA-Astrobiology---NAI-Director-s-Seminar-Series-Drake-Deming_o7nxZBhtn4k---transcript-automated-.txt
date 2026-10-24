@@ -1,0 +1,5557 @@
+{"created_utc": "2026-10-24T10:53:43Z", "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "embedded-text", "pages": 0, "schema": "ufo-files-archive-ocr/v1", "source_bytes": 193015, "source_ctime_ns": 1790194041499414751, "source_file": "Archives-for-the-Unexplained/documents/2012-06-21---NASA-Astrobiology---NAI-Director-s-Seminar-Series-Drake-Deming_o7nxZBhtn4k---transcript-automated-.pdf", "source_mtime_ns": 1790194041489737241, "source_rel": "Archives-for-the-Unexplained/documents/2012-06-21---NASA-Astrobiology---NAI-Director-s-Seminar-Series-Drake-Deming_o7nxZBhtn4k---transcript-automated-.pdf", "source_sha256": "3b8677e1ce2bc6bc0f9bcf295d1a4ab44358fdf204a83037bbbdee6f86b7a2ec"}
+
+1
+00:00:06,519 --> 00:00:03,350
+well good morning or good afternoon
+
+2
+00:00:10,480 --> 00:00:06,529
+everyone depending on your time zone
+
+3
+00:00:14,150 --> 00:00:10,490
+it's morning back here on the west coast
+
+4
+00:00:17,810 --> 00:00:14,160
+I'm Carl Pilcher and I am going to
+
+5
+00:00:20,659 --> 00:00:17,820
+introduce our speaker today for the NAI
+
+6
+00:00:23,120 --> 00:00:20,669
+director seminar our speakers Drake gain
+
+7
+00:00:24,710 --> 00:00:23,130
+from Goddard Space Flight Center a
+
+8
+00:00:27,439 --> 00:00:24,720
+member of the Goddard Space Flight
+
+9
+00:00:29,179 --> 00:00:27,449
+Center team I've known drank for a lot
+
+10
+00:00:32,319 --> 00:00:29,189
+of years and I'm really glad that he was
+
+11
+00:00:34,670 --> 00:00:32,329
+able to give this but this talk because
+
+12
+00:00:39,290 --> 00:00:34,680
+there have been some very exciting
+
+13
+00:00:42,440 --> 00:00:39,300
+recent results particularly based on the
+
+14
+00:00:44,510 --> 00:00:42,450
+spitzer space craft data and Drake is
+
+15
+00:00:46,400 --> 00:00:44,520
+also going to tell us about how those
+
+16
+00:00:49,540 --> 00:00:46,410
+kinds of results might be extrapolated
+
+17
+00:00:52,460 --> 00:00:49,550
+to what would be possible with jwst
+
+18
+00:00:56,080 --> 00:00:52,470
+Drake received his PhD in astronomy in
+
+19
+00:00:59,000 --> 00:00:56,090
+1976 from the University of Illinois at
+
+20
+00:01:00,170 --> 00:00:59,010
+champaign-urbana and spend some time at
+
+21
+00:01:01,940 --> 00:01:00,180
+the astronomy department at the
+
+22
+00:01:06,279 --> 00:01:01,950
+University of Maryland came to Goddard
+
+23
+00:01:09,169 --> 00:01:06,289
+in 1979 and he has been there ever since
+
+24
+00:01:11,560 --> 00:01:09,179
+working on infrared observations of
+
+25
+00:01:14,749 --> 00:01:11,570
+solar system objects and obviously he's
+26
+00:01:16,310 --> 00:01:14,759
+expanded his purview to observations of
+
+27
+00:01:18,529 --> 00:01:16,320
+planetary objects and other solar
+
+28
+00:01:20,419 --> 00:01:18,539
+systems so today Drake's going to tell
+
+29
+00:01:22,249 --> 00:01:20,429
+us about infrared spectra of extrasolar
+
+30
+00:01:27,099 --> 00:01:22,259
+planets and I will turn it over without
+
+31
+00:01:29,480 --> 00:01:27,109
+further ado to Drake okay Thank You Carl
+
+32
+00:01:31,249 --> 00:01:29,490
+first I want to acknowledge my
+
+33
+00:01:34,999 --> 00:01:31,259
+collaborators in this work Jeremy
+
+34
+00:01:38,899 --> 00:01:35,009
+Richardson was a NASA postdoctoral
+
+35
+00:01:41,270 --> 00:01:38,909
+fellow at Goddard and actually I wasn't
+
+36
+00:01:43,069 --> 00:01:41,280
+his advisor he was Jeremy worked in a
+
+37
+00:01:45,010 --> 00:01:43,079
+couple of different laboratories and his
+
+38
+00:01:47,389 --> 00:01:45,020
+advisor was filled Angie over in the
+
+39
+00:01:49,879 --> 00:01:47,399
+exoplanet and stellar astrophysics
+
+40
+00:01:51,289 --> 00:01:49,889
+laboratory Karen Horning is an
+
+41
+00:01:53,239 --> 00:01:51,299
+undergraduate student at Florida
+
+42
+00:01:56,779 --> 00:01:53,249
+Institute of Technology and she was our
+
+43
+00:01:58,639 --> 00:01:56,789
+summer astrobiology intern last summer
+
+44
+00:02:01,219 --> 00:01:58,649
+and Karen did a lot of the really hard
+
+45
+00:02:02,090 --> 00:02:01,229
+work that's going to make the analysis
+
+46
+00:02:04,219 --> 00:02:02,100
+that I'm going to show you today
+
+47
+00:02:06,050 --> 00:02:04,229
+possible Sara Seager is our team's
+
+48
+00:02:08,570 --> 00:02:06,060
+theorist and in the early stages of this
+
+49
+00:02:08,779 --> 00:02:08,580
+work she was up to the Carnegie node and
+
+50
+00:02:11,630 --> 00:02:08,789
+she
+51
+00:02:13,520 --> 00:02:11,640
+since moved to MIT and joe harrington is
+
+52
+00:02:17,420 --> 00:02:13,530
+our collaborator at the University of
+
+53
+00:02:19,759 --> 00:02:17,430
+Central Florida and this this talk is
+
+54
+00:02:21,740 --> 00:02:19,769
+really divided into a series of topics
+
+55
+00:02:23,899 --> 00:02:21,750
+first since i'm talking about spectra of
+
+56
+00:02:27,470 --> 00:02:23,909
+extrasolar planets i'm going to just
+
+57
+00:02:29,569 --> 00:02:27,480
+review that very briefly the status of
+
+58
+00:02:32,929 --> 00:02:29,579
+that field the the known extrasolar
+
+59
+00:02:34,610 --> 00:02:32,939
+planets extend from hot Jupiters to in
+
+60
+00:02:37,879 --> 00:02:34,620
+one or two cases some planets that could
+
+61
+00:02:40,039 --> 00:02:37,889
+be arguably called potters and I'll
+
+62
+00:02:41,899 --> 00:02:40,049
+mention the possible detection of
+
+63
+00:02:44,780 --> 00:02:41,909
+biomarkers I'm not going to show you any
+
+64
+00:02:47,589 --> 00:02:44,790
+actual biomarkers these are just our
+
+65
+00:02:49,699 --> 00:02:47,599
+future goal but I'll try to relate the
+
+66
+00:02:51,860 --> 00:02:49,709
+spectra that we that i'm going to show
+
+67
+00:02:55,909 --> 00:02:51,870
+you for hot Jupiters to the eventual
+
+68
+00:02:57,949 --> 00:02:55,919
+detection of biomarkers now in order to
+
+69
+00:03:01,069 --> 00:02:57,959
+show you that we've measured spectra of
+
+70
+00:03:04,009 --> 00:03:01,079
+two extrasolar planets i first have to
+
+71
+00:03:06,440 --> 00:03:04,019
+show you that we can detect photons from
+
+72
+00:03:09,470 --> 00:03:06,450
+extrasolar planets at all so i'll
+
+73
+00:03:11,720 --> 00:03:09,480
+briefly describe the first spitzer
+
+74
+00:03:15,409 --> 00:03:11,730
+detections and follow-up detection using
+
+75
+00:03:19,159 --> 00:03:15,419
+spitzer using photometry to just measure
+76
+00:03:20,509 --> 00:03:19,169
+the planets in a photometric mode and
+
+77
+00:03:22,399 --> 00:03:20,519
+then i'll talk about measuring the
+
+78
+00:03:24,969 --> 00:03:22,409
+spectra of giant planets with spitzer
+
+79
+00:03:27,379 --> 00:03:24,979
+i'll show you two extrasolar planets
+
+80
+00:03:29,649 --> 00:03:27,389
+specter of two extrasolar planets one
+
+81
+00:03:31,699 --> 00:03:29,659
+measured by our group and another by
+
+82
+00:03:33,740 --> 00:03:31,709
+another group that we work in parallel
+
+83
+00:03:35,869 --> 00:03:33,750
+with and I'll finish up by saying how
+
+84
+00:03:38,479 --> 00:03:35,879
+this might eventually lead to this
+
+85
+00:03:43,399 --> 00:03:38,489
+spectra of what we call hotter or close
+
+86
+00:03:46,670 --> 00:03:43,409
+in extra solar terrestrial planets okay
+
+87
+00:03:48,170 --> 00:03:46,680
+well since 1995 the Doppler groups have
+
+88
+00:03:51,050 --> 00:03:48,180
+detected the bulk of the extrasolar
+
+89
+00:03:53,240 --> 00:03:51,060
+planets and the way to remind you how
+
+90
+00:03:55,460 --> 00:03:53,250
+the this works is the Doppler groups
+
+91
+00:03:57,199 --> 00:03:55,470
+will look at a stellar system and they
+
+92
+00:03:59,030 --> 00:03:57,209
+won't detect the planet directly that is
+
+93
+00:04:00,860 --> 00:03:59,040
+they won't see photons from the planet
+
+94
+00:04:03,050 --> 00:04:00,870
+but they'll see the Doppler reflex of
+
+95
+00:04:06,649 --> 00:04:03,060
+the parent star as it orbits the center
+
+96
+00:04:10,280 --> 00:04:06,659
+of mass of its planetary system one of
+
+97
+00:04:11,749 --> 00:04:10,290
+the earliest surprises of the results
+
+98
+00:04:13,369 --> 00:04:11,759
+from this group was the fact the very
+
+99
+00:04:16,460 --> 00:04:13,379
+first planet that was detected was
+
+100
+00:04:18,379 --> 00:04:16,470
+orbiting the star 51 pegasi and it was
+101
+00:04:20,659 --> 00:04:18,389
+very it was a giant planet of nearly
+
+102
+00:04:22,290 --> 00:04:20,669
+jupiter-mass and it was in very close
+
+103
+00:04:25,770 --> 00:04:22,300
+point 05 a you
+
+104
+00:04:27,659 --> 00:04:25,780
+that's 20 times closer to the to its
+
+105
+00:04:29,219 --> 00:04:27,669
+star than the earth is to the Sun and
+
+106
+00:04:31,170 --> 00:04:29,229
+these planets have been called by
+
+107
+00:04:32,850 --> 00:04:31,180
+various names I prefer to call them hot
+
+108
+00:04:35,460 --> 00:04:32,860
+Jupiters because they're jupiter-mass
+
+109
+00:04:36,960 --> 00:04:35,470
+but they're in close to the star and in
+
+110
+00:04:39,990 --> 00:04:36,970
+that close to the star they're going to
+
+111
+00:04:42,149 --> 00:04:40,000
+be very strongly irradiated on one side
+
+112
+00:04:45,149 --> 00:04:42,159
+as as envisioned here by Greg Laughlin
+
+113
+00:04:46,499 --> 00:04:45,159
+and James Cho by stellar irradiation
+
+114
+00:04:50,430 --> 00:04:46,509
+where they're going to be heated to very
+
+115
+00:04:52,589 --> 00:04:50,440
+high temperatures now of course
+
+116
+00:04:54,719 --> 00:04:52,599
+ultimately what we want to do in the
+
+117
+00:04:56,939 --> 00:04:54,729
+field of astrobiology has concerns
+
+118
+00:04:58,950 --> 00:04:56,949
+extrasolar planets is we would like to
+
+119
+00:05:01,830 --> 00:04:58,960
+measure the spectrum of an earth-like
+
+120
+00:05:03,689 --> 00:05:01,840
+planet or something at least close to an
+
+121
+00:05:05,670 --> 00:05:03,699
+earth-like planet being in the habitable
+
+122
+00:05:09,260 --> 00:05:05,680
+zone and this is some material from
+
+123
+00:05:11,610 --> 00:05:09,270
+vikki meadows showing model spectra of
+
+124
+00:05:13,499 --> 00:05:11,620
+first like planets where you could see
+
+125
+00:05:16,969 --> 00:05:13,509
+an ozone signature near nine and a half
+126
+00:05:20,850 --> 00:05:16,979
+microns methane near 7.8 microns
+
+127
+00:05:23,719 --> 00:05:20,860
+possibly co2 at 15 microns and to
+
+128
+00:05:25,890 --> 00:05:23,729
+measure the spectra that the
+
+129
+00:05:27,089 --> 00:05:25,900
+technologically difficult but
+
+130
+00:05:30,059 --> 00:05:27,099
+conceptually the most straightforward
+
+131
+00:05:32,969 --> 00:05:30,069
+way would be to make it a highly
+
+132
+00:05:34,649 --> 00:05:32,979
+specially resolved image of a star
+
+133
+00:05:36,779 --> 00:05:34,659
+containing the planet and then to
+
+134
+00:05:39,240 --> 00:05:36,789
+isolate the planet and observe it with
+
+135
+00:05:40,980 --> 00:05:39,250
+some very advanced space mission and if
+
+136
+00:05:43,439 --> 00:05:40,990
+you can separate stellar and Planetary
+
+137
+00:05:45,029 --> 00:05:43,449
+photons by some high technology method
+
+138
+00:05:47,040 --> 00:05:45,039
+like this then you can just take these
+
+139
+00:05:48,510 --> 00:05:47,050
+planetary photons you can put them
+
+140
+00:05:50,519 --> 00:05:48,520
+through your spectrograph and you have a
+
+141
+00:05:52,469 --> 00:05:50,529
+spectrum and it's a simple proposition
+
+142
+00:05:55,110 --> 00:05:52,479
+but technologically this is very
+
+143
+00:05:58,350 --> 00:05:55,120
+difficult and it will be very expensive
+
+144
+00:06:00,480 --> 00:05:58,360
+and it hasn't been done yet but for
+
+145
+00:06:02,999 --> 00:06:00,490
+those of us who are interested in seeing
+
+146
+00:06:04,800 --> 00:06:03,009
+this done we can't wait so we're
+
+147
+00:06:08,209 --> 00:06:04,810
+pursuing other techniques and those
+
+148
+00:06:11,159 --> 00:06:08,219
+other techniques were used transits um
+
+149
+00:06:13,619 --> 00:06:11,169
+since many of these planets are close in
+
+150
+00:06:15,659 --> 00:06:13,629
+to their star a closed-end planet has a
+151
+00:06:18,899 --> 00:06:15,669
+high probability to transit its star
+
+152
+00:06:22,379 --> 00:06:18,909
+that is to cross in front of its star as
+
+153
+00:06:24,360 --> 00:06:22,389
+seen from the earth the transit
+
+154
+00:06:27,180 --> 00:06:24,370
+probability if you calculate it is is
+
+155
+00:06:30,059 --> 00:06:27,190
+the radius of the star divided by the
+
+156
+00:06:31,889 --> 00:06:30,069
+orbital radius of the planet and for the
+
+157
+00:06:33,460 --> 00:06:31,899
+closed-end hot Jupiter type planets
+
+158
+00:06:37,180 --> 00:06:33,470
+that's about ten percent
+
+159
+00:06:38,710 --> 00:06:37,190
+and early on in the history of this
+
+160
+00:06:41,140 --> 00:06:38,720
+field when there are about a dozen such
+
+161
+00:06:44,530 --> 00:06:41,150
+planets known were in clothes from the
+
+162
+00:06:45,940 --> 00:06:44,540
+Doppler surveys statistically one of
+
+163
+00:06:48,310 --> 00:06:45,950
+them should transit and that one that
+
+164
+00:06:52,900 --> 00:06:48,320
+was discovered to transit was hd2 or 945
+
+165
+00:06:54,760 --> 00:06:52,910
+8b which mrs. Hubble observations of the
+
+166
+00:06:57,820 --> 00:06:54,770
+transit of that made from space very
+
+167
+00:06:59,560 --> 00:06:57,830
+high quality very low noise photometry
+
+168
+00:07:02,440 --> 00:06:59,570
+the transit depth the amount of light
+
+169
+00:07:04,710 --> 00:07:02,450
+that the planet blocks is about one and
+
+170
+00:07:07,210 --> 00:07:04,720
+a half percent one-point-six percent
+
+171
+00:07:09,970 --> 00:07:07,220
+there are now 14 of these known
+
+172
+00:07:11,020 --> 00:07:09,980
+transiting bright solar-type stars and
+
+173
+00:07:12,580 --> 00:07:11,030
+of course the transit is very
+
+174
+00:07:15,280 --> 00:07:12,590
+interesting the depth of this transit
+
+175
+00:07:17,680 --> 00:07:15,290
+tells us tells us the amount of stellar
+176
+00:07:20,320 --> 00:07:17,690
+life that the planet blocks but we're
+
+177
+00:07:22,540 --> 00:07:20,330
+not detecting light from the planet this
+
+178
+00:07:25,750 --> 00:07:22,550
+way in order to detect light from the
+
+179
+00:07:28,810 --> 00:07:25,760
+planet we have to use what's called the
+
+180
+00:07:31,480 --> 00:07:28,820
+secondary eclipse the transit is the
+
+181
+00:07:33,610 --> 00:07:31,490
+primary eclipse planet canít planet
+
+182
+00:07:35,710 --> 00:07:33,620
+passing in front of the star that tells
+
+183
+00:07:37,480 --> 00:07:35,720
+us the size of the planet and in
+
+184
+00:07:39,280 --> 00:07:37,490
+principle we can see and in fact it has
+
+185
+00:07:40,810 --> 00:07:39,290
+been done radiation from the star
+
+186
+00:07:42,580 --> 00:07:40,820
+transmitted through the planet's
+
+187
+00:07:44,409 --> 00:07:42,590
+atmosphere so in fact the first
+
+188
+00:07:47,230 --> 00:07:44,419
+detection of an atmosphere was made this
+
+189
+00:07:49,810 --> 00:07:47,240
+way but we can't see photons emitted by
+
+190
+00:07:51,909 --> 00:07:49,820
+the planet in order to do that we have
+
+191
+00:07:54,640 --> 00:07:51,919
+to go to the secondary eclipse when the
+
+192
+00:07:56,560 --> 00:07:54,650
+planet passes behind the star then if we
+
+193
+00:07:58,690 --> 00:07:56,570
+look in the combined light of the system
+
+194
+00:08:00,630 --> 00:07:58,700
+with no attempt to specially resolve the
+
+195
+00:08:03,040 --> 00:08:00,640
+system we will see thermal radiation
+
+196
+00:08:06,010 --> 00:08:03,050
+from the planet disappear and reappear
+
+197
+00:08:07,540 --> 00:08:06,020
+and in so doing we will learn particular
+
+198
+00:08:09,969 --> 00:08:07,550
+about the atmosphere of that planet
+
+199
+00:08:12,280 --> 00:08:09,979
+because that thermal radiation that we
+
+200
+00:08:13,719 --> 00:08:12,290
+receive emerges ultimately from the
+201
+00:08:15,610 --> 00:08:13,729
+atmosphere of the planet will also learn
+
+202
+00:08:17,409 --> 00:08:15,620
+about its orbit and other things but I'm
+
+203
+00:08:20,200 --> 00:08:17,419
+going to focus here mainly on the
+
+204
+00:08:24,219 --> 00:08:20,210
+spectra of two of these planets which
+
+205
+00:08:26,950 --> 00:08:24,229
+tell us about their atmosphere here are
+
+206
+00:08:28,630 --> 00:08:26,960
+the first detection of photons from
+
+207
+00:08:30,550 --> 00:08:28,640
+extrasolar planets they were made with
+
+208
+00:08:33,659 --> 00:08:30,560
+the Spitzer Space Telescope almost
+
+209
+00:08:36,940 --> 00:08:33,669
+exactly two years ago this month and
+
+210
+00:08:39,610 --> 00:08:36,950
+there were in fact done one of the great
+
+211
+00:08:42,240 --> 00:08:39,620
+coincidences of astronomy is that the
+
+212
+00:08:43,800 --> 00:08:42,250
+two detection papers were submitted
+
+213
+00:08:45,840 --> 00:08:43,810
+on the same day two different journals
+
+214
+00:08:48,960 --> 00:08:45,850
+completely uncoordinated the two groups
+
+215
+00:08:50,820 --> 00:08:48,970
+had known no we're not courting the
+
+216
+00:08:54,570 --> 00:08:50,830
+coordinating their measurements our
+
+217
+00:08:57,660 --> 00:08:54,580
+group detected ht-29 458 be using the
+
+218
+00:08:59,190 --> 00:08:57,670
+using spitzer at 24 microns this shows
+
+219
+00:09:02,430 --> 00:08:59,200
+the secondary eclipse where the light
+
+220
+00:09:04,230 --> 00:09:02,440
+from the planet goes goes away then the
+
+221
+00:09:06,570 --> 00:09:04,240
+radiation comes back again after Eclipse
+
+222
+00:09:08,670 --> 00:09:06,580
+and then a group led by Dave Charbonneau
+
+223
+00:09:11,040 --> 00:09:08,680
+at Harvard detected the planet called
+
+224
+00:09:12,780 --> 00:09:11,050
+trace one at eight microns and they also
+
+225
+00:09:16,070 --> 00:09:12,790
+detected it at four and a half microns
+226
+00:09:18,540 --> 00:09:16,080
+which isn't isn't shown here now the
+
+227
+00:09:20,160 --> 00:09:18,550
+eclipse depth of the secondary eclipse
+
+228
+00:09:22,320 --> 00:09:20,170
+is just the depth of the it's the
+
+229
+00:09:24,210 --> 00:09:22,330
+projected area ratio this is really just
+
+230
+00:09:25,470 --> 00:09:24,220
+the depth of the transit and in the
+
+231
+00:09:27,090 --> 00:09:25,480
+rayleigh jeans limit there's an
+
+232
+00:09:29,070 --> 00:09:27,100
+additional factor which is the ratio of
+
+233
+00:09:32,490 --> 00:09:29,080
+temperatures and this is something like
+
+234
+00:09:34,560 --> 00:09:32,500
+one fifth row one quarter so these these
+
+235
+00:09:36,000 --> 00:09:34,570
+secondary eclipses are less deep than
+
+236
+00:09:37,850 --> 00:09:36,010
+the transits and that's why there of
+
+237
+00:09:40,830 --> 00:09:37,860
+course much noisier than transits and
+
+238
+00:09:43,050 --> 00:09:40,840
+these initial detection were you know
+
+239
+00:09:44,850 --> 00:09:43,060
+you can see that the data have a fair
+
+240
+00:09:46,530 --> 00:09:44,860
+amount of scatter an individual point
+
+241
+00:09:49,740 --> 00:09:46,540
+wouldn't really be sufficient to detect
+
+242
+00:09:51,420 --> 00:09:49,750
+these eclipses but in aggregate each of
+
+243
+00:09:54,780 --> 00:09:51,430
+these eclipses is about a six sigma
+
+244
+00:09:58,140 --> 00:09:54,790
+detection and the temperature is about
+
+245
+00:09:59,670 --> 00:09:58,150
+eleven hundred Kelvin now although these
+
+246
+00:10:01,410 --> 00:09:59,680
+were you know sort of two independent
+
+247
+00:10:04,800 --> 00:10:01,420
+groups and we both got about the same
+
+248
+00:10:06,240 --> 00:10:04,810
+result on to two different planets using
+
+249
+00:10:07,590 --> 00:10:06,250
+different Spitzer instruments
+
+250
+00:10:09,990 --> 00:10:07,600
+nevertheless if you were a really
+251
+00:10:12,000 --> 00:10:10,000
+skeptical person you might say well at
+
+252
+00:10:14,490 --> 00:10:12,010
+all six sigma maybe I don't really
+
+253
+00:10:16,530 --> 00:10:14,500
+believe that well I will in that case I
+
+254
+00:10:18,930 --> 00:10:16,540
+I welcome that skepticism i will show
+
+255
+00:10:24,090 --> 00:10:18,940
+you an additional follow-up detection
+
+256
+00:10:26,460 --> 00:10:24,100
+because a later in 2005 an additional
+
+257
+00:10:28,430 --> 00:10:26,470
+planet was detected that has an even
+
+258
+00:10:31,110 --> 00:10:28,440
+greater transit dip and an even greater
+
+259
+00:10:33,360 --> 00:10:31,120
+secondary eclipse depth due to the fact
+
+260
+00:10:36,420 --> 00:10:33,370
+that the star that it that it orbits is
+
+261
+00:10:38,820 --> 00:10:36,430
+much smaller to the ratio of planetary
+
+262
+00:10:41,730 --> 00:10:38,830
+flux stellar flux is much better and
+
+263
+00:10:43,680 --> 00:10:41,740
+that's HD 189733 B and here's its
+
+264
+00:10:45,600 --> 00:10:43,690
+secondary eclipse observed by Spitzer
+
+265
+00:10:47,970 --> 00:10:45,610
+although you know maybe you could be
+
+266
+00:10:49,380 --> 00:10:47,980
+skeptical over first detection is no
+
+267
+00:10:51,960 --> 00:10:49,390
+one's going to be skeptical of this one
+
+268
+00:10:53,210 --> 00:10:51,970
+this is a 32 sigma detection of this
+
+269
+00:10:55,879 --> 00:10:53,220
+planet at 16
+
+270
+00:10:58,340 --> 00:10:55,889
+Brown's man this is the unbend or all
+
+271
+00:11:00,019 --> 00:10:58,350
+the original spitzer measurements all of
+
+272
+00:11:03,740 --> 00:11:00,029
+them every 10 seconds and this is a bin
+
+273
+00:11:05,780 --> 00:11:03,750
+plot just to show it more clearly again
+
+274
+00:11:08,150 --> 00:11:05,790
+the deputy clips depth is the ratio of
+
+275
+00:11:10,420 --> 00:11:08,160
+the projected area of the planet to
+276
+00:11:12,860 --> 00:11:10,430
+start times the temperature ratio and
+
+277
+00:11:14,119 --> 00:11:12,870
+what I wanted to point out with this is
+
+278
+00:11:17,210 --> 00:11:14,129
+that as you go down the main sequence
+
+279
+00:11:18,949 --> 00:11:17,220
+two smaller stars this is a case star if
+
+280
+00:11:21,619 --> 00:11:18,959
+you go to even smaller stars if you go
+
+281
+00:11:23,689 --> 00:11:21,629
+to M dwarf stars this this becomes even
+
+282
+00:11:26,540 --> 00:11:23,699
+more favorable situation in the infrared
+
+283
+00:11:30,889 --> 00:11:26,550
+and the reason is that this this term
+
+284
+00:11:33,100 --> 00:11:30,899
+this this area ratio was the dominant
+
+285
+00:11:34,910 --> 00:11:33,110
+term whereas this term is the
+
+286
+00:11:36,920 --> 00:11:34,920
+temperatures of the planets and the
+
+287
+00:11:38,689 --> 00:11:36,930
+stars don't vary all that much the
+
+288
+00:11:40,460 --> 00:11:38,699
+temperature of the planet is the
+
+289
+00:11:42,949 --> 00:11:40,470
+temperature of the star in thermal
+
+290
+00:11:45,889 --> 00:11:42,959
+equilibrium times the angular diameter
+
+291
+00:11:48,199 --> 00:11:45,899
+of the star as seen from the planet and
+
+292
+00:11:50,780 --> 00:11:48,209
+the square root of that so this varies
+
+293
+00:11:53,840 --> 00:11:50,790
+relatively mildly where is this term
+
+294
+00:11:55,610 --> 00:11:53,850
+very predominantly and as you go to
+
+295
+00:11:58,280 --> 00:11:55,620
+smaller stars this becomes more
+
+296
+00:12:00,199 --> 00:11:58,290
+favorable so lower main sequence stars
+
+297
+00:12:02,030 --> 00:12:00,209
+are very good for for high
+
+298
+00:12:05,780 --> 00:12:02,040
+signal-to-noise planet detection using
+
+299
+00:12:07,129 --> 00:12:05,790
+secondary eclipses so I think by this
+
+300
+00:12:12,499 --> 00:12:07,139
+I've convinced you that we're seeing
+301
+00:12:14,629 --> 00:12:12,509
+photons from extrasolar giant planets so
+
+302
+00:12:17,240 --> 00:12:14,639
+now I want to talk about dissecting
+
+303
+00:12:19,790 --> 00:12:17,250
+those photons and and looking at their
+
+304
+00:12:22,610 --> 00:12:19,800
+at their spectrum the previous
+
+305
+00:12:26,119 --> 00:12:22,620
+detections were photometric and now when
+
+306
+00:12:28,850 --> 00:12:26,129
+we begin dividing the photons into
+
+307
+00:12:30,679 --> 00:12:28,860
+smaller wavelength bins it's a more
+
+308
+00:12:33,079 --> 00:12:30,689
+challenging problem but nevertheless
+
+309
+00:12:36,199 --> 00:12:33,089
+there are two transiting planets HD
+
+310
+00:12:39,590 --> 00:12:36,209
+189733 that I just showed you an hd2 a
+
+311
+00:12:41,420 --> 00:12:39,600
+945 a which are bright enough that we
+
+312
+00:12:43,369 --> 00:12:41,430
+can measure their spectra using the
+
+313
+00:12:46,730 --> 00:12:43,379
+relatively modest aperture Spitzer's an
+
+314
+00:12:48,740 --> 00:12:46,740
+85 centimeter telescope and both of
+
+315
+00:12:52,189 --> 00:12:48,750
+those detection zwarst earlier this year
+
+316
+00:12:54,860 --> 00:12:52,199
+our detection was in nature there's a
+
+317
+00:12:58,160 --> 00:12:54,870
+group headed by Karl grill mayor at the
+
+318
+00:13:00,350 --> 00:12:58,170
+ipaq at the Spitzer Science Center and
+
+319
+00:13:03,319 --> 00:13:00,360
+Dave Charbonneau collaborated with him
+
+320
+00:13:04,819 --> 00:13:03,329
+who detected HD 189733 and I'll show you
+
+321
+00:13:05,540 --> 00:13:04,829
+their results also there's another
+
+322
+00:13:07,970 --> 00:13:05,550
+analysis
+
+323
+00:13:10,190 --> 00:13:07,980
+done by mark Swain who reanalyzed our
+
+324
+00:13:13,759 --> 00:13:10,200
+data and i won't i won't discuss marks
+
+325
+00:13:17,870 --> 00:13:13,769
+result unless someone asks here's the
+326
+00:13:19,579 --> 00:13:17,880
+principle that we use and i emphasize
+
+327
+00:13:20,900 --> 00:13:19,589
+this is the principle this is not what
+
+328
+00:13:23,360 --> 00:13:20,910
+we actually do but this is the
+
+329
+00:13:25,550 --> 00:13:23,370
+conceptual basis of what we do before
+
+330
+00:13:28,190 --> 00:13:25,560
+the secondary Eclipse we use spitzer to
+
+331
+00:13:30,980 --> 00:13:28,200
+measure the combined light the spectrum
+
+332
+00:13:32,780 --> 00:13:30,990
+of the star plus planet now we know when
+
+333
+00:13:34,850 --> 00:13:32,790
+the planet is going to be in Eclipse so
+
+334
+00:13:38,060 --> 00:13:34,860
+during that time we observe the stellar
+
+335
+00:13:40,069 --> 00:13:38,070
+spectrum Spitzer's in a very stable
+
+336
+00:13:44,000 --> 00:13:40,079
+heliocentric orbit the instrument
+
+337
+00:13:46,550 --> 00:13:44,010
+doesn't change very very much and so we
+
+338
+00:13:49,660 --> 00:13:46,560
+can subtract the two and drive the
+
+339
+00:13:53,000 --> 00:13:49,670
+planet spectrum so it's a very simple a
+
+340
+00:13:54,410 --> 00:13:53,010
+simple idea we'd practice it gets more
+
+341
+00:13:57,740 --> 00:13:54,420
+complicated and I'm going to show you
+
+342
+00:14:00,290 --> 00:13:57,750
+some of the actual you know nitty gritty
+
+343
+00:14:02,930 --> 00:14:00,300
+dirty laundry of how we do this analysis
+
+344
+00:14:05,300 --> 00:14:02,940
+here's an actual here's an actual
+
+345
+00:14:07,100 --> 00:14:05,310
+imaging frame from Spitzer and I'm
+
+346
+00:14:08,990 --> 00:14:07,110
+tempted to say this is raw data that the
+
+347
+00:14:11,510 --> 00:14:09,000
+Spitzer people would correct me this is
+
+348
+00:14:13,850 --> 00:14:11,520
+what they call BCD or basic calibrated
+
+349
+00:14:16,910 --> 00:14:13,860
+data it's an image of the spectrum of
+
+350
+00:14:19,400 --> 00:14:16,920
+hd2 0945 8v here's the eight we observed
+351
+00:14:22,430 --> 00:14:19,410
+between a rap about seven and a half
+
+352
+00:14:24,050 --> 00:14:22,440
+microns to about 14 microns here this
+
+353
+00:14:27,400 --> 00:14:24,060
+street this bright streak is the
+
+354
+00:14:30,260 --> 00:14:27,410
+spectrum of the star plus the planet and
+
+355
+00:14:32,630 --> 00:14:30,270
+you can see all you know bad pixels on
+
+356
+00:14:34,340 --> 00:14:32,640
+the array the hot pixels over at the
+
+357
+00:14:36,319 --> 00:14:34,350
+right side of the detector array there
+
+358
+00:14:39,310 --> 00:14:36,329
+what are called the peak up arrays which
+
+359
+00:14:42,380 --> 00:14:39,320
+are just regions which which receive
+
+360
+00:14:45,110 --> 00:14:42,390
+which are not dispersed so the star
+
+361
+00:14:47,389 --> 00:14:45,120
+first the telescope places the star here
+
+362
+00:14:49,430 --> 00:14:47,399
+to center it and then offsets it to the
+
+363
+00:14:50,930 --> 00:14:49,440
+slid to the spectrograph we actually can
+
+364
+00:14:52,670 --> 00:14:50,940
+use the peak up arrays for various
+
+365
+00:14:55,220 --> 00:14:52,680
+things they're very bright here because
+
+366
+00:14:56,660 --> 00:14:55,230
+they're not seeing this first light
+
+367
+00:14:59,510 --> 00:14:56,670
+they're looking at the at the background
+
+368
+00:15:02,210 --> 00:14:59,520
+radiation from our zodiacal background
+
+369
+00:15:04,880 --> 00:15:02,220
+directly but we actually observe two
+
+370
+00:15:07,689 --> 00:15:04,890
+full eclipses of this planet each
+
+371
+00:15:10,250 --> 00:15:07,699
+eclipse was a six-hour sequence of
+
+372
+00:15:12,860 --> 00:15:10,260
+observation each of one is let each one
+
+373
+00:15:14,730 --> 00:15:12,870
+of which is like this these were made in
+
+374
+00:15:16,960 --> 00:15:14,740
+july 2005
+
+375
+00:15:18,850 --> 00:15:16,970
+shortly after we did the photometric
+376
+00:15:20,850 --> 00:15:18,860
+protections we immediately jumped on
+
+377
+00:15:23,200 --> 00:15:20,860
+this spectroscopic technique our
+
+378
+00:15:25,360 --> 00:15:23,210
+observations are basically 60-second
+
+379
+00:15:27,820 --> 00:15:25,370
+exposures there are two hundred and
+
+380
+00:15:29,500 --> 00:15:27,830
+eighty of them her eclipse and we have
+
+381
+00:15:32,140 --> 00:15:29,510
+two eclipses so we have a total of five
+
+382
+00:15:34,780 --> 00:15:32,150
+hundred and sixty data frames that look
+
+383
+00:15:36,400 --> 00:15:34,790
+like this there is a telescope nod at
+
+384
+00:15:38,650 --> 00:15:36,410
+the center of the eclipse we move the
+
+385
+00:15:40,690 --> 00:15:38,660
+spectrum so that we can subtract the
+
+386
+00:15:43,630 --> 00:15:40,700
+background and what's under the spectrum
+
+387
+00:15:45,690 --> 00:15:43,640
+or more accurately the spectral
+
+388
+00:15:48,220 --> 00:15:45,700
+resolving power is about a hundred and
+
+389
+00:15:50,650 --> 00:15:48,230
+that's just sort of barely what a
+
+390
+00:15:52,480 --> 00:15:50,660
+spectroscopy would call a spectrum but
+
+391
+00:15:54,160 --> 00:15:52,490
+it is a legitimate that's a high enough
+
+392
+00:15:56,530 --> 00:15:54,170
+spectral resolution it's not photometry
+
+393
+00:15:59,410 --> 00:15:56,540
+it's spectroscopy now we can immediately
+
+394
+00:16:02,350 --> 00:15:59,420
+estimate what signal-to-noise we expect
+
+395
+00:16:04,480 --> 00:16:02,360
+on the planet in combined light the
+
+396
+00:16:07,330 --> 00:16:04,490
+signal to noise on this spectrum Star
+
+397
+00:16:10,860 --> 00:16:07,340
+Plus planet is about 100 in a given
+
+398
+00:16:16,300 --> 00:16:10,870
+pixel a pixel meaning a given wavelength
+
+399
+00:16:18,760 --> 00:16:16,310
+/ spectrum since we have 560 spectrum
+
+400
+00:16:20,830 --> 00:16:18,770
+about half of which are in Eclipse and
+401
+00:16:22,390 --> 00:16:20,840
+half of which are out of Eclipse to
+
+402
+00:16:23,530 --> 00:16:22,400
+detect the spectrum of the planet we
+
+403
+00:16:26,200 --> 00:16:23,540
+have to basically at each wavelength
+
+404
+00:16:28,870 --> 00:16:26,210
+define two levels and in Eclipse level
+
+405
+00:16:30,940 --> 00:16:28,880
+and an out of Eclipse level each level
+
+406
+00:16:33,430 --> 00:16:30,950
+is defined by there are five hundred and
+
+407
+00:16:35,590 --> 00:16:33,440
+sixty total spectra each level is
+
+408
+00:16:37,420 --> 00:16:35,600
+defined by half of those are about 280
+
+409
+00:16:39,220 --> 00:16:37,430
+so the signal Foyle is on each level
+
+410
+00:16:41,890 --> 00:16:39,230
+improves by a hundred times the square
+
+411
+00:16:44,650 --> 00:16:41,900
+root of 280 but then since we have to
+
+412
+00:16:46,600 --> 00:16:44,660
+compare two independent levels we lose
+
+413
+00:16:50,020 --> 00:16:46,610
+the square root of two and if you work
+
+414
+00:16:52,150 --> 00:16:50,030
+that out in our combined data at each at
+
+415
+00:16:54,250 --> 00:16:52,160
+each wavelength we would have a signal
+
+416
+00:16:57,490 --> 00:16:54,260
+to noise on the combined system of about
+
+417
+00:16:59,350 --> 00:16:57,500
+1,200 on Star Plus planet the planet is
+
+418
+00:17:01,840 --> 00:16:59,360
+about three-tenths of a percent of this
+
+419
+00:17:03,550 --> 00:17:01,850
+total therefore our signal to noise on
+
+420
+00:17:07,300 --> 00:17:03,560
+the planet at a given wavelength will be
+
+421
+00:17:09,310 --> 00:17:07,310
+about 4 which is low signal-to-noise we
+
+422
+00:17:14,829 --> 00:17:09,320
+are limited by the number of photons
+
+423
+00:17:20,480 --> 00:17:18,559
+now in order to get to that photon limit
+
+424
+00:17:23,319 --> 00:17:20,490
+we have to deal with some some
+
+425
+00:17:25,549 --> 00:17:23,329
+instrument and telescope on
+426
+00:17:27,769 --> 00:17:25,559
+uncertainties some systemic effects
+
+427
+00:17:29,899 --> 00:17:27,779
+there are two principal systemic effects
+
+428
+00:17:34,460 --> 00:17:29,909
+first of all there's something we call
+
+429
+00:17:37,759 --> 00:17:34,470
+the ramp and it what happens is when you
+
+430
+00:17:39,350 --> 00:17:37,769
+first put light on on the specter on the
+
+431
+00:17:41,299 --> 00:17:39,360
+detector in the infrared spectrograph
+
+432
+00:17:43,700 --> 00:17:41,309
+but also on some of the other Spitzer
+
+433
+00:17:46,269 --> 00:17:43,710
+detectors see the same effect the
+
+434
+00:17:48,470 --> 00:17:46,279
+intensity that comes out of the detector
+
+435
+00:17:51,049 --> 00:17:48,480
+even though the source isn't changing
+
+436
+00:17:53,570 --> 00:17:51,059
+the intensity gradually ramps up with
+
+437
+00:17:57,049 --> 00:17:53,580
+time that asymptotically approaches some
+
+438
+00:17:59,840 --> 00:17:57,059
+constant value over many hours and this
+
+439
+00:18:02,330 --> 00:17:59,850
+is recently the physical cause of this
+
+440
+00:18:04,399 --> 00:18:02,340
+as has recently been identified by the
+
+441
+00:18:06,230 --> 00:18:04,409
+effect by the Iraq group at the Center
+
+442
+00:18:07,850 --> 00:18:06,240
+for Astrophysics and they believe this
+
+443
+00:18:10,399 --> 00:18:07,860
+is due to charge trapping in the
+
+444
+00:18:13,039 --> 00:18:10,409
+detector material the first photons that
+
+445
+00:18:14,899 --> 00:18:13,049
+come in don't produce electrons instead
+
+446
+00:18:17,570 --> 00:18:14,909
+the electrons that get freed from the
+
+447
+00:18:19,490 --> 00:18:17,580
+detector get trapped by ionized
+
+448
+00:18:21,320 --> 00:18:19,500
+impurities in the detector and you don't
+
+449
+00:18:23,240 --> 00:18:21,330
+really reach full sensitivity until you
+
+450
+00:18:25,730 --> 00:18:23,250
+fill all those charged traps and that
+451
+00:18:27,230 --> 00:18:25,740
+makes for this ramping up baseline so we
+
+452
+00:18:29,659 --> 00:18:27,240
+have to we have to deal with this we
+
+453
+00:18:31,310 --> 00:18:29,669
+have to subtract this from our data the
+
+454
+00:18:33,169 --> 00:18:31,320
+other effect is there's a telescope
+
+455
+00:18:36,169 --> 00:18:33,179
+oscillation and we're taking spectrum
+
+456
+00:18:39,710 --> 00:18:36,179
+the the Spitzer telescope is is
+
+457
+00:18:42,950 --> 00:18:39,720
+wonderful but it has a point 05 arc
+
+458
+00:18:45,019 --> 00:18:42,960
+second oscillation in position with it
+
+459
+00:18:47,240 --> 00:18:45,029
+with a period of about one hour and
+
+460
+00:18:49,310 --> 00:18:47,250
+because the telescope is oscillating
+
+461
+00:18:51,350 --> 00:18:49,320
+that means the slit that the star is
+
+462
+00:18:53,560 --> 00:18:51,360
+moving on the slit and the amount of
+
+463
+00:18:56,450 --> 00:18:53,570
+light that comes through our slit is
+
+464
+00:18:59,570 --> 00:18:56,460
+oscillating by several percent do to
+
+465
+00:19:01,759 --> 00:18:59,580
+that telescope oscillation well you can
+
+466
+00:19:03,769 --> 00:19:01,769
+imagine if we didn't subtract this we're
+
+467
+00:19:05,720 --> 00:19:03,779
+looking for the spectra of a planet
+
+468
+00:19:06,860 --> 00:19:05,730
+which is a few tenths of a percent this
+
+469
+00:19:08,180 --> 00:19:06,870
+is an order of magnitude this
+
+470
+00:19:10,899 --> 00:19:08,190
+oscillation is an order of magnitude
+
+471
+00:19:14,960 --> 00:19:10,909
+larger than the planet signal
+
+472
+00:19:16,879 --> 00:19:14,970
+fortunately that the where the telescope
+
+473
+00:19:20,210 --> 00:19:16,889
+is pointed is not a function of
+
+474
+00:19:22,639 --> 00:19:20,220
+wavelength it's so the phase of this
+
+475
+00:19:25,039 --> 00:19:22,649
+oscillation is absolutely independent of
+476
+00:19:25,830 --> 00:19:25,049
+wavelength its amplitude is slightly
+
+477
+00:19:28,950 --> 00:19:25,840
+dependent
+
+478
+00:19:32,460 --> 00:19:28,960
+wavelength but we can nevertheless
+
+479
+00:19:36,269 --> 00:19:32,470
+subtract it if you that we do see the
+
+480
+00:19:39,419 --> 00:19:36,279
+planet at all I've simply summed all of
+
+481
+00:19:40,860 --> 00:19:39,429
+the wavelengths over time and you can
+
+482
+00:19:43,049 --> 00:19:40,870
+see here is that here is the total
+
+483
+00:19:44,610 --> 00:19:43,059
+intensity in our spectra as a function
+
+484
+00:19:47,519 --> 00:19:44,620
+and this is both eclipses averaged
+
+485
+00:19:49,980 --> 00:19:47,529
+together and you can see the ramp see
+
+486
+00:19:52,350 --> 00:19:49,990
+how it rises up and then approaches some
+
+487
+00:19:54,480 --> 00:19:52,360
+asymptotic value this these dotted lines
+
+488
+00:19:56,430 --> 00:19:54,490
+are where ingress and egress of the
+
+489
+00:19:58,980 --> 00:19:56,440
+planets eclipses occur you can see there
+
+490
+00:20:00,659 --> 00:19:58,990
+is a decrease at this time and that's
+
+491
+00:20:03,630 --> 00:20:00,669
+the eclipse of the planet you can also
+
+492
+00:20:05,490 --> 00:20:03,640
+see the residual oscillation since we've
+
+493
+00:20:07,500 --> 00:20:05,500
+averaged two independent eclipses the
+
+494
+00:20:09,060 --> 00:20:07,510
+oscillations not a big because the
+
+495
+00:20:10,740 --> 00:20:09,070
+oscillation had a different phase
+
+496
+00:20:12,510 --> 00:20:10,750
+because those in those eclipses were
+
+497
+00:20:14,850 --> 00:20:12,520
+measured a week apart the telescope
+
+498
+00:20:16,680 --> 00:20:14,860
+repointed to completely reset the phase
+
+499
+00:20:19,470 --> 00:20:16,690
+of the oscillation so it tends to
+
+500
+00:20:21,180 --> 00:20:19,480
+average out here but we'd what we do is
+501
+00:20:23,250 --> 00:20:21,190
+we independently subtract it in each
+
+502
+00:20:24,779 --> 00:20:23,260
+eclipse but I average these together
+
+503
+00:20:29,060 --> 00:20:24,789
+because I have to show you first of all
+
+504
+00:20:32,159 --> 00:20:29,070
+that we do see the eclipse of the planet
+
+505
+00:20:35,639 --> 00:20:32,169
+now here's how we actually get the
+
+506
+00:20:36,960 --> 00:20:35,649
+spectra it's a multi-step process the
+
+507
+00:20:39,149 --> 00:20:36,970
+first thing we have to do is we have
+
+508
+00:20:41,220 --> 00:20:39,159
+images of the spectra we have to
+
+509
+00:20:43,320 --> 00:20:41,230
+actually get spectra that means we have
+
+510
+00:20:45,269 --> 00:20:43,330
+to remove all those bad pixels we have
+
+511
+00:20:47,610 --> 00:20:45,279
+to subtract the background and we have
+
+512
+00:20:51,240 --> 00:20:47,620
+to sum over a special window and we
+
+513
+00:20:52,500 --> 00:20:51,250
+actually spent about three months doing
+
+514
+00:20:54,840 --> 00:20:52,510
+this and we did it three different ways
+
+515
+00:20:56,820 --> 00:20:54,850
+we had to sort of custom ways to do it
+
+516
+00:20:58,500 --> 00:20:56,830
+where we would look at the actual time
+
+517
+00:21:00,930 --> 00:20:58,510
+dependence of the intensity in each
+
+518
+00:21:03,630 --> 00:21:00,940
+pixel and we would throw away bad pixels
+
+519
+00:21:06,019 --> 00:21:03,640
+we literally every pixel in the detector
+
+520
+00:21:09,090 --> 00:21:06,029
+had to become our personal friend and
+
+521
+00:21:11,010 --> 00:21:09,100
+and we had to two members of our team do
+
+522
+00:21:13,200 --> 00:21:11,020
+this with their own custom procedures
+
+523
+00:21:15,450 --> 00:21:13,210
+then there are their standard software
+
+524
+00:21:17,669 --> 00:21:15,460
+to do it by the Spitzer method and we
+
+525
+00:21:18,990 --> 00:21:17,679
+did that too and we then we took all
+526
+00:21:21,269 --> 00:21:19,000
+those results and put them through our
+
+527
+00:21:24,240 --> 00:21:21,279
+entire analysis to get the spectrum of
+
+528
+00:21:26,850 --> 00:21:24,250
+the planet and we can't just pick the
+
+529
+00:21:29,070 --> 00:21:26,860
+method we like the best we have to have
+
+530
+00:21:31,049 --> 00:21:29,080
+some objective way of doing it and the
+
+531
+00:21:33,029 --> 00:21:31,059
+objective method that we decided to pick
+
+532
+00:21:36,050 --> 00:21:33,039
+the best method who is we would compare
+
+533
+00:21:38,630 --> 00:21:36,060
+the planets spectrum on the two eclipses
+
+534
+00:21:40,220 --> 00:21:38,640
+and we would do a chi-squared of the
+
+535
+00:21:41,870 --> 00:21:40,230
+difference between the two eclipses from
+
+536
+00:21:44,180 --> 00:21:41,880
+the planet spectrum and the method that
+
+537
+00:21:47,030 --> 00:21:44,190
+produced the minimum chi-squared is a
+
+538
+00:21:49,250 --> 00:21:47,040
+method we used it turned out to be one
+
+539
+00:21:51,850 --> 00:21:49,260
+of our custom extraction methods which
+
+540
+00:21:53,630 --> 00:21:51,860
+isn't surprising because the
+
+541
+00:21:56,180 --> 00:21:53,640
+characteristics of the detector do
+
+542
+00:21:58,550 --> 00:21:56,190
+change with time so if we use something
+
+543
+00:22:01,330 --> 00:21:58,560
+care to customize for our own data
+
+544
+00:22:05,030 --> 00:22:01,340
+that's going to produce the best results
+
+545
+00:22:07,280 --> 00:22:05,040
+then what we do is we really don't we
+
+546
+00:22:10,630 --> 00:22:07,290
+really don't subtract spectra we really
+
+547
+00:22:13,790 --> 00:22:10,640
+treat these spectra as a series of
+
+548
+00:22:16,160 --> 00:22:13,800
+photometry measurements in other words
+
+549
+00:22:18,920 --> 00:22:16,170
+we normalize the intensities at each
+
+550
+00:22:21,590 --> 00:22:18,930
+wavelength to into an average value of
+551
+00:22:24,770 --> 00:22:21,600
+unity another way of saying that is we
+
+552
+00:22:27,740 --> 00:22:24,780
+divide every spectrum by the average
+
+553
+00:22:29,390 --> 00:22:27,750
+spectrum of the star and that normalizes
+
+554
+00:22:31,840 --> 00:22:29,400
+the intensity of each wavelength to
+
+555
+00:22:34,400 --> 00:22:31,850
+unity and it puts our final results in
+
+556
+00:22:38,050 --> 00:22:34,410
+in what's called contrast units the
+
+557
+00:22:42,980 --> 00:22:38,060
+ratio of the planet to the star we then
+
+558
+00:22:45,290 --> 00:22:42,990
+give up the average eclipse and in other
+
+559
+00:22:49,220 --> 00:22:45,300
+words we subtract the average time
+
+560
+00:22:53,330 --> 00:22:49,230
+series and when we do that this average
+
+561
+00:22:55,220 --> 00:22:53,340
+eclipse goes away we subtract it out of
+
+562
+00:22:57,290 --> 00:22:55,230
+the data what we're left with are the
+
+563
+00:23:00,770 --> 00:22:57,300
+differences in that eclipse from one
+
+564
+00:23:03,290 --> 00:23:00,780
+wavelength to the next so if the planets
+
+565
+00:23:05,540 --> 00:23:03,300
+spectrum were constant over our
+
+566
+00:23:08,630 --> 00:23:05,550
+wavelength range we would see nothing
+
+567
+00:23:10,610 --> 00:23:08,640
+but because we do see the average
+
+568
+00:23:12,230 --> 00:23:10,620
+eclipse we would know that the point
+
+569
+00:23:13,700 --> 00:23:12,240
+that we are detecting the flux from the
+
+570
+00:23:17,030 --> 00:23:13,710
+planet but that it's constant with
+
+571
+00:23:18,740 --> 00:23:17,040
+wavelength now the advantage of
+
+572
+00:23:21,650 --> 00:23:18,750
+subtracting that average time series is
+
+573
+00:23:24,200 --> 00:23:21,660
+it removes most of the systematics it
+
+574
+00:23:26,480 --> 00:23:24,210
+removes the intensity ramp apart from a
+
+575
+00:23:28,070 --> 00:23:26,490
+linear term and it and it very
+576
+00:23:33,260 --> 00:23:28,080
+effectively removes the telescope
+
+577
+00:23:35,840 --> 00:23:33,270
+oscillation we then to each time series
+
+578
+00:23:37,040 --> 00:23:35,850
+we fit in eclipse curve and we do allow
+
+579
+00:23:39,260 --> 00:23:37,050
+that eclipse curve to have a linear
+
+580
+00:23:42,620 --> 00:23:39,270
+baseline a sloping up or down at each
+
+581
+00:23:44,360 --> 00:23:42,630
+wavelength and we derive the planet
+
+582
+00:23:46,460 --> 00:23:44,370
+spectrum from the amplitude of those
+
+583
+00:23:47,560 --> 00:23:46,470
+eclipse curve we those are differential
+
+584
+00:23:49,810 --> 00:23:47,570
+eclipses
+
+585
+00:23:51,660 --> 00:23:49,820
+let's say that the planet is brighter at
+
+586
+00:23:54,310 --> 00:23:51,670
+one wavelength than it is at another
+
+587
+00:23:56,200 --> 00:23:54,320
+then when we subtract the average time
+
+588
+00:23:58,570 --> 00:23:56,210
+series we will have a little bit of
+
+589
+00:24:00,010 --> 00:23:58,580
+residual extra eclipse at that
+
+590
+00:24:04,480 --> 00:24:00,020
+wavelength with the planet is brighter
+
+591
+00:24:06,490 --> 00:24:04,490
+and thus will and and our Eclipse our
+
+592
+00:24:09,250 --> 00:24:06,500
+method of fitting the Eclipse curve will
+
+593
+00:24:11,650 --> 00:24:09,260
+detect that little extra Eclipse and we
+
+594
+00:24:14,590 --> 00:24:11,660
+would take that extra Eclipse depth and
+
+595
+00:24:16,660 --> 00:24:14,600
+translate it into an extra depth for an
+
+596
+00:24:18,340 --> 00:24:16,670
+extra brightness for the planet we then
+
+597
+00:24:21,730 --> 00:24:18,350
+go through and reject any wavelengths
+
+598
+00:24:23,680 --> 00:24:21,740
+that have for fits if if this fit to the
+
+599
+00:24:26,920 --> 00:24:23,690
+Eclipse curve doesn't show the correct
+
+600
+00:24:28,840 --> 00:24:26,930
+ingress time the correct egress time the
+601
+00:24:30,490 --> 00:24:28,850
+correct central phase we throw it away
+
+602
+00:24:33,730 --> 00:24:30,500
+and about five percent of the
+
+603
+00:24:35,260 --> 00:24:33,740
+wavelengths have residual you know ramp
+
+604
+00:24:37,600 --> 00:24:35,270
+effect so the systematics are not
+
+605
+00:24:39,600 --> 00:24:37,610
+effectively removed or those pixels are
+
+606
+00:24:43,230 --> 00:24:39,610
+very poorly behaved we throw those away
+
+607
+00:24:47,710 --> 00:24:43,240
+we then compared to independent eclipses
+
+608
+00:24:50,140 --> 00:24:47,720
+and this is an example of a differential
+
+609
+00:24:54,790 --> 00:24:50,150
+eclipse this is our the point where we
+
+610
+00:24:56,050 --> 00:24:54,800
+find the brightest peak in the planet
+
+611
+00:24:59,890 --> 00:24:56,060
+spectrum and this is a differential
+
+612
+00:25:02,740 --> 00:24:59,900
+eclipse it's centered at phase 0.5 where
+
+613
+00:25:06,610 --> 00:25:02,750
+it's supposed to whisk this dash line is
+
+614
+00:25:09,130 --> 00:25:06,620
+is a theoretical eclipse curve that has
+
+615
+00:25:10,900 --> 00:25:09,140
+the correct ingress time and egress time
+
+616
+00:25:13,000 --> 00:25:10,910
+in the correct central phase we don't
+
+617
+00:25:14,650 --> 00:25:13,010
+ship this back and forth all we do is we
+
+618
+00:25:19,630 --> 00:25:14,660
+fit its amplitude we stretch it up and
+
+619
+00:25:23,350 --> 00:25:19,640
+down here are the aggregate results for
+
+620
+00:25:26,830 --> 00:25:23,360
+two eclipses of this planet 0 is right
+
+621
+00:25:28,300 --> 00:25:26,840
+here so you can see we're detecting at
+
+622
+00:25:30,790 --> 00:25:28,310
+the longest wavelength we basically
+
+623
+00:25:33,250 --> 00:25:30,800
+don't we barely detect the planets
+
+624
+00:25:36,310 --> 00:25:33,260
+continuum we know we can't really say
+
+625
+00:25:39,250 --> 00:25:36,320
+anything about any structure there are
+626
+00:25:41,710 --> 00:25:39,260
+there are two features in this spectrum
+
+627
+00:25:43,360 --> 00:25:41,720
+that we regard as real in the sense that
+
+628
+00:25:45,700 --> 00:25:43,370
+although there are only three or four
+
+629
+00:25:47,620 --> 00:25:45,710
+Sigma detection and we would like not to
+
+630
+00:25:49,870 --> 00:25:47,630
+be in the three or four Sigma domain but
+
+631
+00:25:52,030 --> 00:25:49,880
+that's the amount of photons we have but
+
+632
+00:25:54,310 --> 00:25:52,040
+these features have to have passed at
+
+633
+00:25:56,110 --> 00:25:54,320
+least all of our tests and actually
+
+634
+00:25:57,580 --> 00:25:56,120
+there's another of there's another
+
+635
+00:25:58,899 --> 00:25:57,590
+aspect that I'll talk about that it's
+
+636
+00:26:01,659 --> 00:25:58,909
+even more robust
+
+637
+00:26:03,460 --> 00:26:01,669
+but the two peaks near about nine and a
+
+638
+00:26:05,499 --> 00:26:03,470
+half microns we see this kind of broad
+
+639
+00:26:07,930 --> 00:26:05,509
+peak in the spectrum and you notice that
+
+640
+00:26:09,489 --> 00:26:07,940
+the blue points and the red points both
+
+641
+00:26:13,239 --> 00:26:09,499
+show it these are two independent
+
+642
+00:26:14,710 --> 00:26:13,249
+eclipses this is the stretching
+
+643
+00:26:17,440 --> 00:26:14,720
+resonance between silicon and oxygen
+
+644
+00:26:20,049 --> 00:26:17,450
+there are many many Astrophysical
+
+645
+00:26:22,690 --> 00:26:20,059
+sources not extrasolar planets but no
+
+646
+00:26:24,669 --> 00:26:22,700
+proto planetary objects and disks and
+
+647
+00:26:28,749 --> 00:26:24,679
+support which shall silicate emission at
+
+648
+00:26:31,389 --> 00:26:28,759
+this wavelength and so this is a very
+
+649
+00:26:33,849 --> 00:26:31,399
+familiar feature to astronomers we think
+
+650
+00:26:36,330 --> 00:26:33,859
+that this is indicative of silicate
+651
+00:26:38,859 --> 00:26:36,340
+clouds in the atmosphere of the planet
+
+652
+00:26:42,430 --> 00:26:38,869
+there is another sharper feature in the
+
+653
+00:26:43,989 --> 00:26:42,440
+spectrum that that passes our tests to
+
+654
+00:26:47,049 --> 00:26:43,999
+be real in fact that differential
+
+655
+00:26:48,729 --> 00:26:47,059
+eclipse that I showed you this eclipse
+
+656
+00:26:53,950 --> 00:26:48,739
+is made at the at the peak of that
+
+657
+00:26:55,899 --> 00:26:53,960
+narrow feature and initially we this is
+
+658
+00:26:57,430 --> 00:26:55,909
+at seven point seven eight microns and
+
+659
+00:26:59,589 --> 00:26:57,440
+initially we thought this was the q
+
+660
+00:27:01,119 --> 00:26:59,599
+branch of methane that was showing an
+
+661
+00:27:03,999 --> 00:27:01,129
+emission because the planet had a hot
+
+662
+00:27:06,369 --> 00:27:04,009
+stratosphere and we've since been able
+
+663
+00:27:07,960 --> 00:27:06,379
+to determine that its wavelength is not
+
+664
+00:27:09,519 --> 00:27:07,970
+coincident with the q branch the q
+
+665
+00:27:11,799 --> 00:27:09,529
+branch is at like seven point six five
+
+666
+00:27:13,389 --> 00:27:11,809
+microns and it shifts the longer
+
+667
+00:27:16,330 --> 00:27:13,399
+wavelengths at hotter temperatures but
+
+668
+00:27:17,919 --> 00:27:16,340
+not enough and we very carefully checked
+
+669
+00:27:19,989 --> 00:27:17,929
+the wavelength calibration and we talked
+
+670
+00:27:22,269 --> 00:27:19,999
+to the folks at the Spitzer Science
+
+671
+00:27:24,609 --> 00:27:22,279
+Center and they tell us that there is
+
+672
+00:27:26,440 --> 00:27:24,619
+that the wavelength calibration of
+
+673
+00:27:28,419 --> 00:27:26,450
+Spitzer it's out of the question for it
+
+674
+00:27:31,869 --> 00:27:28,429
+to be off by it would have to be off by
+
+675
+00:27:34,690 --> 00:27:31,879
+like two pixels so this teacher can't be
+676
+00:27:37,269 --> 00:27:34,700
+messing about the only thing that we
+
+677
+00:27:38,950 --> 00:27:37,279
+can't eliminate we don't know what it is
+
+678
+00:27:41,649 --> 00:27:38,960
+but we can't eliminate that it's due to
+
+679
+00:27:44,169 --> 00:27:41,659
+some feature due to the there's a
+
+680
+00:27:47,820 --> 00:27:44,179
+carbon-carbon stretching residence near
+
+681
+00:27:50,560 --> 00:27:47,830
+near about 7.8 microns and in most
+
+682
+00:27:54,339 --> 00:27:50,570
+Astrophysical sources this is seen in
+
+683
+00:27:59,409 --> 00:27:54,349
+polycyclic aromatic hydrocarbons pah the
+
+684
+00:28:01,029 --> 00:27:59,419
+pah has another emission feature at 11.3
+
+685
+00:28:03,729 --> 00:28:01,039
+microns which we don't see anything
+
+686
+00:28:06,580 --> 00:28:03,739
+there but the reason we can't eliminate
+
+687
+00:28:08,499 --> 00:28:06,590
+this as being pah is that is that that
+
+688
+00:28:09,640 --> 00:28:08,509
+other resonance weakens in high
+
+689
+00:28:12,400 --> 00:28:09,650
+radiation environment
+
+690
+00:28:14,830 --> 00:28:12,410
+it's and we're in point oh five AU from
+
+691
+00:28:17,620 --> 00:28:14,840
+a relatively hot star certainly a high
+
+692
+00:28:20,050 --> 00:28:17,630
+radiation environment so it's possible
+
+693
+00:28:22,420 --> 00:28:20,060
+that we're only seeing this CC stretch
+
+694
+00:28:24,940 --> 00:28:22,430
+there is another carbon-carbon stretch
+
+695
+00:28:27,070 --> 00:28:24,950
+at 6.2 microns and we have proposed that
+
+696
+00:28:29,530 --> 00:28:27,080
+Spitzer observed at shorter wavelengths
+
+697
+00:28:31,630 --> 00:28:29,540
+so we won't really conclude anything
+
+698
+00:28:33,010 --> 00:28:31,640
+about this until we can look at that but
+
+699
+00:28:35,740 --> 00:28:33,020
+that other at the wavelength of that
+
+700
+00:28:36,790 --> 00:28:35,750
+other resonance now this lower panel
+701
+00:28:38,910 --> 00:28:36,800
+shows you the average of these two
+
+702
+00:28:43,480 --> 00:28:38,920
+spectra the red line is just a blackbody
+
+703
+00:28:45,520 --> 00:28:43,490
+the blue line is a fancy model our team
+
+704
+00:28:48,460 --> 00:28:45,530
+fear of Sara Seager this is one of her
+
+705
+00:28:50,440 --> 00:28:48,470
+hot models models by Adam Burroughs
+
+706
+00:28:52,330 --> 00:28:50,450
+showed the same general behavior what
+
+707
+00:28:54,070 --> 00:28:52,340
+what these hot extrasolar planets are
+
+708
+00:28:55,840 --> 00:28:54,080
+supposed to have their supposed to be a
+
+709
+00:28:59,440 --> 00:28:55,850
+fall off at Short wavelengths due to
+
+710
+00:29:01,570 --> 00:28:59,450
+water absorption here the blue line is
+
+711
+00:29:03,340 --> 00:29:01,580
+supposed to decrease downwards you can
+
+712
+00:29:05,800 --> 00:29:03,350
+see that the points certainly don't do
+
+713
+00:29:07,360 --> 00:29:05,810
+that if anything they tend to trim the
+
+714
+00:29:11,080 --> 00:29:07,370
+other direction and then jump up in this
+
+715
+00:29:16,540 --> 00:29:11,090
+silicate residence another aspect of
+
+716
+00:29:22,660 --> 00:29:16,550
+this we bend it in these broad bins and
+
+717
+00:29:24,760 --> 00:29:22,670
+you can see this is the really coarse
+
+718
+00:29:28,270 --> 00:29:24,770
+bidding of the spectrum if we in the two
+
+719
+00:29:30,640 --> 00:29:28,280
+points here are if we if we include or
+
+720
+00:29:33,610 --> 00:29:30,650
+not include this narrow feature in the
+
+721
+00:29:36,280 --> 00:29:33,620
+bin we use this to convince ourselves
+
+722
+00:29:38,320 --> 00:29:36,290
+that this peak due to the near the SiO
+
+723
+00:29:40,120 --> 00:29:38,330
+stretching resonance is real in the data
+
+724
+00:29:42,250 --> 00:29:40,130
+actually we only claim that this
+
+725
+00:29:45,280 --> 00:29:42,260
+difference is is real this difference
+726
+00:29:48,070 --> 00:29:45,290
+here is a little it that's a little not
+
+727
+00:29:49,630 --> 00:29:48,080
+so significant so it's in a sense it's
+
+728
+00:29:50,890 --> 00:29:49,640
+only half significant it's only
+
+729
+00:29:55,110 --> 00:29:50,900
+significant if you come from the
+
+730
+00:30:00,160 --> 00:29:58,180
+to show you a similar result this is the
+
+731
+00:30:03,640 --> 00:30:00,170
+grill mayor a towel result their their
+
+732
+00:30:06,070 --> 00:30:03,650
+spectrum of HD 189733 B they have better
+
+733
+00:30:07,990 --> 00:30:06,080
+signal to noise because their planet has
+
+734
+00:30:10,720 --> 00:30:08,000
+a higher contrast to the star the star
+
+735
+00:30:12,490 --> 00:30:10,730
+is smaller the planet too stark contrast
+
+736
+00:30:15,700 --> 00:30:12,500
+ratio is better by about a factor of two
+
+737
+00:30:18,220 --> 00:30:15,710
+or three here's their data points and a
+
+738
+00:30:22,210 --> 00:30:18,230
+similar model I believe this is an atom
+
+739
+00:30:24,280 --> 00:30:22,220
+burrows model again water absorption
+
+740
+00:30:25,900 --> 00:30:24,290
+would cause this model to trend
+
+741
+00:30:28,090 --> 00:30:25,910
+downwards you can see the data don't do
+
+742
+00:30:30,340 --> 00:30:28,100
+that they're flat we know that the
+
+743
+00:30:32,470 --> 00:30:30,350
+specter of these planets will turn down
+
+744
+00:30:34,600 --> 00:30:32,480
+at some point below beyond this because
+
+745
+00:30:37,030 --> 00:30:34,610
+the Spitzer photometry at four and a
+
+746
+00:30:39,670 --> 00:30:37,040
+half microns show a much lower contrast
+
+747
+00:30:41,860 --> 00:30:39,680
+so somewhere this this spectrum falls
+
+748
+00:30:48,130 --> 00:30:41,870
+off the cliff towards lower values but
+
+749
+00:30:51,820 --> 00:30:48,140
+not in this wavelength range so why are
+
+750
+00:30:55,090 --> 00:30:51,830
+we seeing no water absorption the sort
+751
+00:30:57,580 --> 00:30:55,100
+of the most naive possibility would be
+
+752
+00:31:00,190 --> 00:30:57,590
+that the planets have no water and
+
+753
+00:31:03,130 --> 00:31:00,200
+that's we considered that for about
+
+754
+00:31:07,060 --> 00:31:03,140
+three milliseconds and the reason that
+
+755
+00:31:08,710 --> 00:31:07,070
+we have to reject that is that it's so
+
+756
+00:31:10,450 --> 00:31:08,720
+easy to make water it's hard to avoid
+
+757
+00:31:13,120 --> 00:31:10,460
+wat wat oxygen is the third most
+
+758
+00:31:15,340 --> 00:31:13,130
+abundant element in the universe and
+
+759
+00:31:16,870 --> 00:31:15,350
+hydrogen is certainly very molecular
+
+760
+00:31:19,120 --> 00:31:16,880
+hydrogen is very abundant in these
+
+761
+00:31:21,220 --> 00:31:19,130
+objects it seems virtually physically
+
+762
+00:31:22,870 --> 00:31:21,230
+impossible to make these planets for
+
+763
+00:31:25,330 --> 00:31:22,880
+that significant amounts of water vapor
+
+764
+00:31:27,520 --> 00:31:25,340
+in their atmosphere so they have to have
+
+765
+00:31:29,800 --> 00:31:27,530
+some water so the only really two
+
+766
+00:31:32,230 --> 00:31:29,810
+explanations are that perhaps their
+
+767
+00:31:34,200 --> 00:31:32,240
+masked by high clouds that would be
+
+768
+00:31:37,380 --> 00:31:34,210
+consistent with the fact that we see is
+
+769
+00:31:40,259 --> 00:31:37,390
+we see a silicate emission feature
+
+770
+00:31:43,269 --> 00:31:40,269
+notice that
+
+771
+00:31:46,090 --> 00:31:43,279
+real maridel don't see really a silicate
+
+772
+00:31:49,239 --> 00:31:46,100
+emission feature but the star that this
+
+773
+00:31:51,039 --> 00:31:49,249
+planet orbits is a que drawer and if
+
+774
+00:31:53,440 --> 00:31:51,049
+there are features in emission we would
+
+775
+00:31:55,659 --> 00:31:53,450
+expect them to be excited more when you
+776
+00:31:57,879 --> 00:31:55,669
+orbit a hotter star our planet was a
+
+777
+00:32:00,369 --> 00:31:57,889
+hundred star so that's consistent so
+
+778
+00:32:02,200 --> 00:32:00,379
+maybe there are high clouds and maybe
+
+779
+00:32:04,149 --> 00:32:02,210
+their silicate clouds that are masking
+
+780
+00:32:06,099 --> 00:32:04,159
+the water absorption below it there's
+
+781
+00:32:07,499 --> 00:32:06,109
+other evidence for high clouds and the
+
+782
+00:32:09,999 --> 00:32:07,509
+atmospheres of these hot Jupiters
+
+783
+00:32:11,590 --> 00:32:10,009
+another possibility is that there's some
+
+784
+00:32:14,769 --> 00:32:11,600
+perturbation to the temperature gradient
+
+785
+00:32:16,989 --> 00:32:14,779
+in fact since we see features in
+
+786
+00:32:18,969 --> 00:32:16,999
+emission if there are thermal features
+
+787
+00:32:22,180 --> 00:32:18,979
+that would require a reverse temperature
+
+788
+00:32:23,889 --> 00:32:22,190
+gradient the stratosphere in effect it
+
+789
+00:32:27,009 --> 00:32:23,899
+takes less than that to mask the high
+
+790
+00:32:29,979 --> 00:32:27,019
+water this is a this is a result by
+
+791
+00:32:32,649 --> 00:32:29,989
+Jonathan Kourtney it's a model in which
+
+792
+00:32:35,229 --> 00:32:32,659
+they incorporate the effects of dynamics
+
+793
+00:32:36,759 --> 00:32:35,239
+that is strong circulation that is
+
+794
+00:32:39,969 --> 00:32:36,769
+believed to occur in the hot Jupiter
+
+795
+00:32:42,129 --> 00:32:39,979
+atmospheres and they show you what that
+
+796
+00:32:43,509 --> 00:32:42,139
+it fit with that strong circulation the
+
+797
+00:32:46,869 --> 00:32:43,519
+effect that it has on the emerging
+
+798
+00:32:48,399 --> 00:32:46,879
+spectrum when the when you observe here
+
+799
+00:32:50,440 --> 00:32:48,409
+you are looking at the planet here
+
+800
+00:32:52,629 --> 00:32:50,450
+here's the star when the planet is
+801
+00:32:54,549 --> 00:32:52,639
+behind the star at secondary eclipse or
+
+802
+00:32:57,999 --> 00:32:54,559
+is opposite from you then you're looking
+
+803
+00:33:00,339 --> 00:32:58,009
+at the dayside of the planet and the
+
+804
+00:33:03,099 --> 00:33:00,349
+what Courtney I'll find is that the
+
+805
+00:33:05,499 --> 00:33:03,109
+temperature profile on the dayside the
+
+806
+00:33:07,479 --> 00:33:05,509
+effect of the strong circulation is to
+
+807
+00:33:10,060 --> 00:33:07,489
+is to make the temperature profile much
+
+808
+00:33:11,889 --> 00:33:10,070
+more isothermal so the spectra on the
+
+809
+00:33:15,009 --> 00:33:11,899
+dayside are much more like a black body
+
+810
+00:33:17,680 --> 00:33:15,019
+in this spectral range and this dip
+
+811
+00:33:19,629 --> 00:33:17,690
+downwards due to water at seven microns
+
+812
+00:33:22,029 --> 00:33:19,639
+is not nearly so prominent at secondary
+
+813
+00:33:24,099 --> 00:33:22,039
+eclipse so in other words when we can
+
+814
+00:33:26,229 --> 00:33:24,109
+measure the spectra that secondary
+
+815
+00:33:28,450 --> 00:33:26,239
+eclipse that's when the spectra are
+
+816
+00:33:30,070 --> 00:33:28,460
+least interesting in this respect and
+
+817
+00:33:33,489 --> 00:33:30,080
+that's unfortunate but that would
+
+818
+00:33:35,229 --> 00:33:33,499
+explain the and my colleague Sara Seager
+
+819
+00:33:37,690 --> 00:33:35,239
+also has other ideas on how the
+
+820
+00:33:39,519 --> 00:33:37,700
+temperature gradient could be perturbed
+
+821
+00:33:41,589 --> 00:33:39,529
+she thinks that there might be affected
+
+822
+00:33:43,509 --> 00:33:41,599
+deep stratosphere a temperature reversal
+
+823
+00:33:45,999 --> 00:33:43,519
+that extends to fairly high pressures
+
+824
+00:33:48,129 --> 00:33:46,009
+now I can't really articulate the
+
+825
+00:33:50,109 --> 00:33:48,139
+physics underlying these models in
+826
+00:33:50,409 --> 00:33:50,119
+particular I would like Jonathan if he's
+
+827
+00:33:57,820 --> 00:33:50,419
+on
+
+828
+00:33:59,379 --> 00:33:57,830
+profile isothermal but maybe he's not
+
+829
+00:34:03,129 --> 00:33:59,389
+online maybe one of his collaborators
+
+830
+00:34:04,749 --> 00:34:03,139
+can explain that to me well what I will
+
+831
+00:34:07,299 --> 00:34:04,759
+do is I want to try to extend these a
+
+832
+00:34:09,099 --> 00:34:07,309
+little bit because what we're really
+
+833
+00:34:13,359 --> 00:34:09,109
+interested in is the spectroscopy of
+
+834
+00:34:15,250 --> 00:34:13,369
+habitable planets and we can't where we
+
+835
+00:34:17,530 --> 00:34:15,260
+probably can't do that with Spitzer
+
+836
+00:34:19,240 --> 00:34:17,540
+there are several sort of super
+
+837
+00:34:21,399 --> 00:34:19,250
+earth-mass planets that are known to
+
+838
+00:34:25,720 --> 00:34:21,409
+orbit close to M Dwarfs for example
+
+839
+00:34:27,789 --> 00:34:25,730
+Gliese 876 D of is a 7.5 earth-mass
+
+840
+00:34:31,930 --> 00:34:27,799
+planet that orbits close to the M dwarf
+
+841
+00:34:34,569 --> 00:34:31,940
+lewis at 876 and this system is five
+
+842
+00:34:37,149 --> 00:34:34,579
+parsecs from Earth and in fact Sara
+
+843
+00:34:39,220 --> 00:34:37,159
+Seager and I have a room have a
+
+844
+00:34:42,490 --> 00:34:39,230
+photometric program to try to measure
+
+845
+00:34:44,470 --> 00:34:42,500
+the phase modulation of the infrared
+
+846
+00:34:47,079 --> 00:34:44,480
+phase modulation to try to detect the
+
+847
+00:34:49,750 --> 00:34:47,089
+planet at all photometrically but we
+
+848
+00:34:53,980 --> 00:34:49,760
+haven't dared to try to measure its
+
+849
+00:34:56,020 --> 00:34:53,990
+spectrum in order to measure the specter
+
+850
+00:34:58,690 --> 00:34:56,030
+of these planets we have to go to what I
+851
+00:35:01,240 --> 00:34:58,700
+regard as the as NASA's most important
+
+852
+00:35:03,670 --> 00:35:01,250
+planet measuring mission even though
+
+853
+00:35:05,319 --> 00:35:03,680
+it's not build that way and this is this
+
+854
+00:35:08,319 --> 00:35:05,329
+is a model of the James Webb Space
+
+855
+00:35:10,829 --> 00:35:08,329
+Telescope if Spitzer can measure the
+
+856
+00:35:14,500 --> 00:35:10,839
+specter of two bright giant planets
+
+857
+00:35:17,170 --> 00:35:14,510
+Spitzer's 85 centimeters in aperture
+
+858
+00:35:19,559 --> 00:35:17,180
+this james webb space telescope is six
+
+859
+00:35:22,839 --> 00:35:19,569
+point six point five meters in diameter
+
+860
+00:35:26,200 --> 00:35:22,849
+25 square meter collecting area runs
+
+861
+00:35:28,539 --> 00:35:26,210
+from point six to 25 microns the this
+
+862
+00:35:31,539 --> 00:35:28,549
+this telescope will have fantastic
+
+863
+00:35:34,780 --> 00:35:31,549
+capabilities if it is even half a stable
+
+864
+00:35:36,490 --> 00:35:34,790
+and it's in you know will be it is not
+
+865
+00:35:38,109 --> 00:35:36,500
+earth orbiting it's a little groggy in
+
+866
+00:35:40,270 --> 00:35:38,119
+point where it should be in a thermally
+
+867
+00:35:43,299 --> 00:35:40,280
+stable environment you can see this
+
+868
+00:35:47,319 --> 00:35:43,309
+model here this is set up at Goddard and
+
+869
+00:35:49,420 --> 00:35:47,329
+this these layers of material here are
+
+870
+00:35:52,510 --> 00:35:49,430
+the sunshield what I like most are these
+
+871
+00:35:54,069 --> 00:35:52,520
+potted plants that go below it I think
+
+872
+00:35:57,160 --> 00:35:54,079
+these are the in case there are any more
+
+873
+00:35:59,240 --> 00:35:57,170
+budget cuts these are the D scope option
+
+874
+00:36:04,520 --> 00:35:59,250
+NASA will watch these in lieu of the
+
+875
+00:36:07,490 --> 00:36:04,530
+shield now we've been doing calculations
+876
+00:36:10,370 --> 00:36:07,500
+of what jwst would see if we did our
+
+877
+00:36:13,940 --> 00:36:10,380
+Spitzer investigation with jwst for a
+
+878
+00:36:15,590 --> 00:36:13,950
+nearby bright M dwarf we have this IDL
+
+879
+00:36:17,720 --> 00:36:15,600
+code that will calculate we'll go
+
+880
+00:36:20,180 --> 00:36:17,730
+through our analysis and calculate the
+
+881
+00:36:23,540 --> 00:36:20,190
+signal to noise in the planet spectrum
+
+882
+00:36:26,090 --> 00:36:23,550
+at a given spectral resolving power for
+
+883
+00:36:28,460 --> 00:36:26,100
+a postulated stellar temperature we've
+
+884
+00:36:31,820 --> 00:36:28,470
+input here on M dwarf which is point
+
+885
+00:36:35,840 --> 00:36:31,830
+three stellar radii 3,500 Kelvin we
+
+886
+00:36:38,270 --> 00:36:35,850
+placed a planet at point O five AU the
+
+887
+00:36:40,130 --> 00:36:38,280
+nice thing about M Dwarfs is that if the
+
+888
+00:36:42,200 --> 00:36:40,140
+planet transits if it's in clothes in it
+
+889
+00:36:43,850 --> 00:36:42,210
+transits that has a hike transit
+
+890
+00:36:46,700 --> 00:36:43,860
+probability that's also where the
+
+891
+00:36:49,190 --> 00:36:46,710
+habitable zone is so planets transiting
+
+892
+00:36:51,890 --> 00:36:49,200
+M Dwarfs may be in the habitable zone
+
+893
+00:36:54,890 --> 00:36:51,900
+this planet we've made it a super
+
+894
+00:36:56,960 --> 00:36:54,900
+earth-mass planet to earth radii its
+
+895
+00:37:00,110 --> 00:36:56,970
+temperature follows from these
+
+896
+00:37:02,120 --> 00:37:00,120
+parameters and an assumed albedo which
+
+897
+00:37:04,550 --> 00:37:02,130
+in this case we assume point three its
+
+898
+00:37:07,400 --> 00:37:04,560
+temperatures 379 Kelvin much cooler than
+
+899
+00:37:08,840 --> 00:37:07,410
+the planet that I just then the giant
+
+900
+00:37:11,960 --> 00:37:08,850
+planets I've just been talking about we
+901
+00:37:14,540 --> 00:37:11,970
+placed it 10 parsecs from Earth this is
+
+902
+00:37:17,090 --> 00:37:14,550
+the signal to noise that jwst would hat
+
+903
+00:37:19,730 --> 00:37:17,100
+would would obtain in 200 hours of
+
+904
+00:37:21,860 --> 00:37:19,740
+observation and you may scoff and you
+
+905
+00:37:25,130 --> 00:37:21,870
+may think we'll we will never get 200
+
+906
+00:37:27,560 --> 00:37:25,140
+hours on jwst oh yes we will if we can
+
+907
+00:37:31,520 --> 00:37:27,570
+measure we can measure the spectrum of a
+
+908
+00:37:33,560 --> 00:37:31,530
+habitable planet orbiting an m-dwarf 200
+
+909
+00:37:35,510 --> 00:37:33,570
+hours is not out of line compared to
+
+910
+00:37:37,580 --> 00:37:35,520
+like things like the Hubble Deep Field
+
+911
+00:37:40,070 --> 00:37:37,590
+and the are what our extra galactic
+
+912
+00:37:42,140 --> 00:37:40,080
+colleagues do so we think that in fact
+
+913
+00:37:44,510 --> 00:37:42,150
+that the way to measure spectra of
+
+914
+00:37:47,360 --> 00:37:44,520
+habitable at least some kinds of
+
+915
+00:37:49,460 --> 00:37:47,370
+habitable earth-like planets is to look
+
+916
+00:37:54,110 --> 00:37:49,470
+for planets transiting m dwarfs and to
+
+917
+00:37:58,100 --> 00:37:54,120
+go after them with jwst so i'm going to
+
+918
+00:38:00,290 --> 00:37:58,110
+end by concluding there are two seven to
+
+919
+00:38:03,020 --> 00:38:00,300
+14 micron spectra of hot Jupiters they
+
+920
+00:38:05,450 --> 00:38:03,030
+show evan evidence both planets show
+
+921
+00:38:07,430 --> 00:38:05,460
+measured by two independent groups show
+
+922
+00:38:08,750 --> 00:38:07,440
+evidence for masking of their predicted
+
+923
+00:38:10,520 --> 00:38:08,760
+water absorption
+
+924
+00:38:12,020 --> 00:38:10,530
+that there's evidence for silicate
+
+925
+00:38:14,540 --> 00:38:12,030
+clouds on at least one of those planets
+926
+00:38:15,890 --> 00:38:14,550
+in either case we need some kind of
+
+927
+00:38:17,510 --> 00:38:15,900
+perturbations to the temperature
+
+928
+00:38:20,480 --> 00:38:17,520
+gradient as compared to simple
+
+929
+00:38:23,840 --> 00:38:20,490
+equilibrium models and finally we're
+
+930
+00:38:26,480 --> 00:38:23,850
+looking forward to jwst taking this to
+
+931
+00:38:32,510 --> 00:38:26,490
+the spectra of hot Earth's and I will
+
+932
+00:38:35,350 --> 00:38:32,520
+entertain questions and I'm sure there
+
+933
+00:38:37,400 --> 00:38:35,360
+are lots of questions for the
+
+934
+00:38:41,150 --> 00:38:37,410
+sequestering of oxygen to make hear him
+
+935
+00:38:46,120 --> 00:38:41,160
+I'll repeat the question boy there's one
+
+936
+00:38:49,100 --> 00:38:46,130
+of Hoover's grab the huggable for the
+
+937
+00:38:50,960 --> 00:38:49,110
+sequestering in the legend let me just
+
+938
+00:38:52,730 --> 00:38:50,970
+ask people around the net if they would
+
+939
+00:38:54,170 --> 00:38:52,740
+raise their hands on webex and will
+
+940
+00:38:55,900 --> 00:38:54,180
+calling them from here but let's go
+
+941
+00:39:01,340 --> 00:38:55,910
+ahead with the questions it's got it
+
+942
+00:39:03,440 --> 00:39:01,350
+okay okay I recall that toured for brown
+
+943
+00:39:07,600 --> 00:39:03,450
+dwarfs in the late L and early tee
+
+944
+00:39:11,240 --> 00:39:07,610
+sequence there's a dichotomy of how you
+
+945
+00:39:12,860 --> 00:39:11,250
+sequester how you the taxonomy of those
+
+946
+00:39:14,810 --> 00:39:12,870
+things whether how cloudy there are and
+
+947
+00:39:16,700 --> 00:39:14,820
+so in fact that reinforces the idea of a
+
+948
+00:39:19,880 --> 00:39:16,710
+cloud of something so loquacious
+
+949
+00:39:22,100 --> 00:39:19,890
+material over a great hot Jupiter but
+
+950
+00:39:23,810 --> 00:39:22,110
+also there's limbs evidence for carbon
+951
+00:39:25,370 --> 00:39:23,820
+monoxide as well I wondered what the
+
+952
+00:39:28,600 --> 00:39:25,380
+arguments are against putting all the
+
+953
+00:39:30,830 --> 00:39:28,610
+oxygen into co as opposed to water a
+
+954
+00:39:32,900 --> 00:39:30,840
+Glenn's question is why can't you just
+
+955
+00:39:34,670 --> 00:39:32,910
+put all the oxygen in the co formation
+
+956
+00:39:36,560 --> 00:39:34,680
+and I think the sort of simple-minded
+
+957
+00:39:38,750 --> 00:39:36,570
+answer is that cosmically there's more
+
+958
+00:39:40,250 --> 00:39:38,760
+oxygen in their carbon so if you do that
+
+959
+00:39:42,980 --> 00:39:40,260
+you have oxygen left over and that goes
+
+960
+00:39:45,800 --> 00:39:42,990
+into water you can there are suggestions
+
+961
+00:39:47,090 --> 00:39:45,810
+that there are carbon planets if there
+
+962
+00:39:49,490 --> 00:39:47,100
+are carbon planets where there's more
+
+963
+00:39:51,410 --> 00:39:49,500
+carbon than oxygen than carbon will then
+
+964
+00:39:53,150 --> 00:39:51,420
+all the oxygen or most of it will go
+
+965
+00:39:54,950 --> 00:39:53,160
+into co formation and you won't have
+
+966
+00:39:59,300 --> 00:39:54,960
+water advanced but I think carbon
+
+967
+00:40:04,430 --> 00:39:59,310
+planets are considered exotic so that's
+
+968
+00:40:11,130 --> 00:40:07,950
+have a question here hecka go to bright
+
+969
+00:40:14,099 --> 00:40:11,140
+you actually show is the nice high road
+
+970
+00:40:15,510 --> 00:40:14,109
+drive the spectra I show the question is
+
+971
+00:40:17,130 --> 00:40:15,520
+are the spectra show for the night side
+
+972
+00:40:19,440 --> 00:40:17,140
+the spectra were measured during
+
+973
+00:40:20,940 --> 00:40:19,450
+secondary Eclipse secondary Eclipse
+
+974
+00:40:22,770 --> 00:40:20,950
+we're looking at the dayside of the
+
+975
+00:40:24,539 --> 00:40:22,780
+planet the planet on the opposite side
+976
+00:40:27,480 --> 00:40:24,549
+of the star will start shining directly
+
+977
+00:40:29,099 --> 00:40:27,490
+out of it I mean I mean you're planning
+
+978
+00:40:31,289 --> 00:40:29,109
+design is behind so if you don't get to
+
+979
+00:40:34,559 --> 00:40:31,299
+cope and putting trevino onions are
+
+980
+00:40:36,420 --> 00:40:34,569
+being behind this time then you get when
+
+981
+00:40:38,370 --> 00:40:36,430
+you get this is truck from here when
+
+982
+00:40:44,220 --> 00:40:38,380
+it's in front of you minus the one in
+
+983
+00:40:46,279 --> 00:40:44,230
+fact we're seeing we're seeing that the
+
+984
+00:40:49,020 --> 00:40:46,289
+internet in Eclipse and out of eclipse
+
+985
+00:40:51,089 --> 00:40:49,030
+phase difference is very small compared
+
+986
+00:40:52,980 --> 00:40:51,099
+to the orbit of the planet so we're
+
+987
+00:40:54,990 --> 00:40:52,990
+we're essentially looking at the same
+
+988
+00:40:58,470 --> 00:40:55,000
+subtracting the same phase out of
+
+989
+00:40:59,730 --> 00:40:58,480
+eclipses in Eclipse so we're the
+
+990
+00:41:01,920 --> 00:40:59,740
+different that difference is just the
+
+991
+00:41:05,160 --> 00:41:01,930
+thermal readmission of the photons from
+
+992
+00:41:06,569 --> 00:41:05,170
+the planet I can try that what you're
+
+993
+00:41:10,170 --> 00:41:06,579
+really doing it each wavelength
+
+994
+00:41:12,329 --> 00:41:10,180
+immeasurably contrast between out of the
+
+995
+00:41:15,690 --> 00:41:12,339
+coach genetic codes it's that contrast
+
+996
+00:41:17,940 --> 00:41:15,700
+we can show the spectral signature at
+
+997
+00:41:19,559 --> 00:41:17,950
+that waiver that's correct yes we're
+
+998
+00:41:21,779 --> 00:41:19,569
+measuring the white button the excess
+
+999
+00:41:24,269 --> 00:41:21,789
+intensity at 7.8 minor enhancements
+
+1000
+00:41:25,829 --> 00:41:24,279
+we're reconstructing here we're
+1001
+00:41:27,990 --> 00:41:25,839
+reconstructing the spectrum of the
+
+1002
+00:41:31,400 --> 00:41:28,000
+planet from the wavelength dependence of
+
+1003
+00:41:33,670 --> 00:41:31,410
+the secondary Eclipse amplitude correct
+
+1004
+00:41:37,160 --> 00:41:33,680
+my question
+
+1005
+00:41:39,470 --> 00:41:37,170
+okay Goddard still asking just a Drake
+
+1006
+00:41:44,210 --> 00:41:39,480
+there's 14 planets that have been
+
+1007
+00:41:46,310 --> 00:41:44,220
+detected in an eclipse they're 14 bright
+
+1008
+00:41:48,110 --> 00:41:46,320
+extrasolar transiting planets and
+
+1009
+00:41:50,030 --> 00:41:48,120
+clients and fainter ones what are the
+
+1010
+00:41:54,200 --> 00:41:50,040
+chances of getting structure from the
+
+1011
+00:41:58,010 --> 00:41:54,210
+other 12 the the two that I've shown you
+
+1012
+00:42:00,140 --> 00:41:58,020
+are but by far the two brightest so I at
+
+1013
+00:42:01,610 --> 00:42:00,150
+least have not proposed to use fitzer on
+
+1014
+00:42:04,070 --> 00:42:01,620
+the fainter runs maybe someone else has
+
+1015
+00:42:06,050 --> 00:42:04,080
+I think you would really be photon stars
+
+1016
+00:42:08,990 --> 00:42:06,060
+in that case and you would require
+
+1017
+00:42:12,320 --> 00:42:09,000
+multiple multiple eclipses to obtain
+
+1018
+00:42:18,980 --> 00:42:12,330
+spectra jwst on the other hand will
+
+1019
+00:42:21,380 --> 00:42:18,990
+really do these planets really well come
+
+1020
+00:42:23,150 --> 00:42:21,390
+up to the table and ask ask the question
+
+1021
+00:42:27,260 --> 00:42:23,160
+actually and then maybe we shout at the
+
+1022
+00:42:29,870 --> 00:42:27,270
+other notes you've shown the silicon
+
+1023
+00:42:31,880 --> 00:42:29,880
+emission from the planetary potential a
+
+1024
+00:42:33,830 --> 00:42:31,890
+haze how do you know that those
+
+1025
+00:42:36,290 --> 00:42:33,840
+silicates aren't in the disk of the
+1026
+00:42:37,790 --> 00:42:36,300
+system ah that's a good question he
+
+1027
+00:42:39,410 --> 00:42:37,800
+asked how do we know that the silicate
+
+1028
+00:42:42,590 --> 00:42:39,420
+is really associated with the planets
+
+1029
+00:42:46,640 --> 00:42:42,600
+and not associated with it with a disk
+
+1030
+00:42:48,530 --> 00:42:46,650
+around the star well because what we see
+
+1031
+00:42:50,600 --> 00:42:48,540
+is in eclipse minus out of it clicks
+
+1032
+00:42:52,610 --> 00:42:50,610
+that's a very short that's a very short
+
+1033
+00:42:55,310 --> 00:42:52,620
+Kemp relatively short temporal
+
+1034
+00:42:57,590 --> 00:42:55,320
+modulation only really a small fraction
+
+1035
+00:43:00,170 --> 00:42:57,600
+of any disk could be if there's a lump
+
+1036
+00:43:02,870 --> 00:43:00,180
+in the disk it would have to be very
+
+1037
+00:43:04,700 --> 00:43:02,880
+closely associated to the planet we
+
+1038
+00:43:06,590 --> 00:43:04,710
+couldn't rule out the possibility that
+
+1039
+00:43:08,810 --> 00:43:06,600
+there's some extended dust envelope
+
+1040
+00:43:10,310 --> 00:43:08,820
+around the planet that's emitting but
+
+1041
+00:43:12,500 --> 00:43:10,320
+people but you don't see that during
+
+1042
+00:43:14,060 --> 00:43:12,510
+transfer the radius of this planet
+
+1043
+00:43:16,370 --> 00:43:14,070
+during transit at infrared wavelengths
+
+1044
+00:43:18,110 --> 00:43:16,380
+is the same as in the visible so if
+
+1045
+00:43:20,950 --> 00:43:18,120
+there's if there's some dust around the
+
+1046
+00:43:23,060 --> 00:43:20,960
+planet it's very low optical depth and
+
+1047
+00:43:26,089 --> 00:43:23,070
+it would have to get very close to the
+
+1048
+00:43:31,579 --> 00:43:28,339
+Drake I'd like to ask a question and
+
+1049
+00:43:33,319 --> 00:43:31,589
+then we have a question at Colorado okay
+
+1050
+00:43:37,489 --> 00:43:33,329
+question I'd like to ask comes back to
+1051
+00:43:39,229 --> 00:43:37,499
+the discussion you included about the
+
+1052
+00:43:40,729 --> 00:43:39,239
+effects of the temperature gradient
+
+1053
+00:43:42,979 --> 00:43:40,739
+since you're looking in the thermal
+
+1054
+00:43:44,359 --> 00:43:42,989
+infrared of course the visibility of
+
+1055
+00:43:46,579 --> 00:43:44,369
+spectral features is going to depend
+
+1056
+00:43:48,410 --> 00:43:46,589
+upon a vertical temperature contrast in
+
+1057
+00:43:50,450 --> 00:43:48,420
+the atmosphere you mentioned the
+
+1058
+00:43:52,219 --> 00:43:50,460
+possible effects of circulation could
+
+1059
+00:43:55,370 --> 00:43:52,229
+you just talk a little bit more about
+
+1060
+00:43:57,890 --> 00:43:55,380
+what you expect the vertical temperature
+
+1061
+00:44:01,489 --> 00:43:57,900
+profiles in these atmospheres to be and
+
+1062
+00:44:03,289 --> 00:44:01,499
+how variations in that or uncertainty in
+
+1063
+00:44:05,299 --> 00:44:03,299
+your understanding of that affects your
+
+1064
+00:44:07,069 --> 00:44:05,309
+interpretation of the spectra
+
+1065
+00:44:11,660 --> 00:44:07,079
+particularly whether or not you see a
+
+1066
+00:44:14,749 --> 00:44:11,670
+feature well you do expect when these
+
+1067
+00:44:17,089 --> 00:44:14,759
+planets were initially discovered my
+
+1068
+00:44:18,979 --> 00:44:17,099
+first reaction was that they probably
+
+1069
+00:44:21,680 --> 00:44:18,989
+have very hot stratosphere scuzz there
+
+1070
+00:44:23,630 --> 00:44:21,690
+so in so close to this star we know
+
+1071
+00:44:27,940 --> 00:44:23,640
+jupiter has a stratosphere because it's
+
+1072
+00:44:31,279 --> 00:44:27,950
+it no it has methane methane absorbs
+
+1073
+00:44:33,200 --> 00:44:31,289
+solar radiation heats the atmosphere if
+
+1074
+00:44:34,430 --> 00:44:33,210
+you put a planet in that close to the
+
+1075
+00:44:36,440 --> 00:44:34,440
+star I would think it would have a very
+1076
+00:44:39,620 --> 00:44:36,450
+strong stratosphere but when people that
+
+1077
+00:44:42,229 --> 00:44:39,630
+shows that shows how poor my intuition
+
+1078
+00:44:44,839 --> 00:44:42,239
+is because when people actually put the
+
+1079
+00:44:47,089 --> 00:44:44,849
+opacities of water vapor and the various
+
+1080
+00:44:49,430 --> 00:44:47,099
+molecules into their codes they found
+
+1081
+00:44:51,979 --> 00:44:49,440
+that indeed the the temperature in the
+
+1082
+00:44:53,479 --> 00:44:51,989
+outer atmosphere was raised slightly but
+
+1083
+00:44:55,759 --> 00:44:53,489
+not enough to actually invert the
+
+1084
+00:44:57,650 --> 00:44:55,769
+temperature so the temperature profiles
+
+1085
+00:45:00,499 --> 00:44:57,660
+of these planets are not all that
+
+1086
+00:45:03,339 --> 00:45:00,509
+different from brown dwarf atmospheres
+
+1087
+00:45:05,749 --> 00:45:03,349
+in the sense that their their their
+
+1088
+00:45:08,450 --> 00:45:05,759
+highest temperatures are down deep and
+
+1089
+00:45:11,150 --> 00:45:08,460
+the external boundary temperatures are
+
+1090
+00:45:12,920 --> 00:45:11,160
+on the order of a hundred Kelvin versus
+
+1091
+00:45:16,370 --> 00:45:12,930
+fifteen hundred Kelvin deeper deeper
+
+1092
+00:45:18,349 --> 00:45:16,380
+down now maybe the observations are
+
+1093
+00:45:21,380 --> 00:45:18,359
+showing maybe the Spitzer observations
+
+1094
+00:45:23,630 --> 00:45:21,390
+are showing us that didn't we have more
+
+1095
+00:45:26,420 --> 00:45:23,640
+to learn there but at least that's the
+
+1096
+00:45:28,130 --> 00:45:26,430
+current understanding i guess the second
+
+1097
+00:45:30,739 --> 00:45:28,140
+part of my question was is that
+
+1098
+00:45:33,400 --> 00:45:30,749
+affecting the visibility of features so
+
+1099
+00:45:35,630 --> 00:45:33,410
+for example when you don't see a feature
+
+1100
+00:45:37,100 --> 00:45:35,640
+could it be that the
+1101
+00:45:38,600 --> 00:45:37,110
+that you're looking for is there but the
+
+1102
+00:45:41,120 --> 00:45:38,610
+temperature contrast to enable you to
+
+1103
+00:45:46,430 --> 00:45:41,130
+see it isn't yes yes that's that's
+
+1104
+00:45:51,830 --> 00:45:46,440
+that's the predominant view yes okay I'm
+
+1105
+00:45:57,680 --> 00:45:51,840
+University of Colorado hydrate god this
+
+1106
+00:46:00,800 --> 00:45:57,690
+is Tom ears nice talk um I wanted to ask
+
+1107
+00:46:02,990 --> 00:46:00,810
+a question actually two questions on the
+
+1108
+00:46:05,750 --> 00:46:03,000
+first one is what are the prospects of
+
+1109
+00:46:09,290 --> 00:46:05,760
+performing this type of experiment with
+
+1110
+00:46:11,540 --> 00:46:09,300
+a large telescope from the ground in the
+
+1111
+00:46:13,610 --> 00:46:11,550
+same name for red and what are the
+
+1112
+00:46:16,400 --> 00:46:13,620
+prospects for doing this in the
+
+1113
+00:46:18,770 --> 00:46:16,410
+ultraviolet from space and then the
+
+1114
+00:46:21,710 --> 00:46:18,780
+second question is that you described an
+
+1115
+00:46:22,910 --> 00:46:21,720
+alternative analysis of your own data by
+
+1116
+00:46:24,980 --> 00:46:22,920
+another group and I wonder if you could
+
+1117
+00:46:28,340 --> 00:46:24,990
+just mention what their results were now
+
+1118
+00:46:30,260 --> 00:46:28,350
+they differ from yours um okay let's see
+
+1119
+00:46:31,670 --> 00:46:30,270
+let's take the first part of that
+
+1120
+00:46:34,040 --> 00:46:31,680
+question first can we do this from the
+
+1121
+00:46:35,780 --> 00:46:34,050
+ground the ground-based observers are
+
+1122
+00:46:37,640 --> 00:46:35,790
+knocking on the door of Planet
+
+1123
+00:46:40,460 --> 00:46:37,650
+protection there is a tentative like
+
+1124
+00:46:42,550 --> 00:46:40,470
+three sigma detection of one of the oval
+
+1125
+00:46:46,580 --> 00:46:42,560
+transiting planets at two microns
+1126
+00:46:48,320 --> 00:46:46,590
+bye-bye snellen that we think that the
+
+1127
+00:46:50,930 --> 00:46:48,330
+way to do this from the ground is to is
+
+1128
+00:46:53,240 --> 00:46:50,940
+to find a system with a bright nearby
+
+1129
+00:46:54,830 --> 00:46:53,250
+comparison star so we can take out the
+
+1130
+00:46:57,110 --> 00:46:54,840
+effects of the Earth's atmosphere and
+
+1131
+00:46:58,850 --> 00:46:57,120
+that would add an additional
+
+1132
+00:47:01,370 --> 00:46:58,860
+complication to the analysis that we
+
+1133
+00:47:04,430 --> 00:47:01,380
+think it's possibly and there are
+
+1134
+00:47:05,600 --> 00:47:04,440
+proposals being submitted to try that
+
+1135
+00:47:08,420 --> 00:47:05,610
+and we think it's eventually that will
+
+1136
+00:47:10,780 --> 00:47:08,430
+be possible of the advantage of course
+
+1137
+00:47:13,370 --> 00:47:10,790
+doing it from the ground is that is that
+
+1138
+00:47:17,000 --> 00:47:13,380
+Spitzer will run out of cryogen in the
+
+1139
+00:47:18,440 --> 00:47:17,010
+spring of 2009 and and also Spitzer has
+
+1140
+00:47:19,820 --> 00:47:18,450
+limited wavelength coverage there are
+
+1141
+00:47:21,620 --> 00:47:19,830
+important features in the spectra
+
+1142
+00:47:24,140 --> 00:47:21,630
+between two to five microns where
+
+1143
+00:47:25,520 --> 00:47:24,150
+Spitzer has no wavelength we were not
+
+1144
+00:47:28,160 --> 00:47:25,530
+accessible to those wavelengths been
+
+1145
+00:47:29,840 --> 00:47:28,170
+Spitzer then the second part of the
+
+1146
+00:47:32,480 --> 00:47:29,850
+question was what about the Swain
+
+1147
+00:47:35,290 --> 00:47:32,490
+analysis and so I have to go back to my
+
+1148
+00:47:37,370 --> 00:47:35,300
+talk you make my talk come up again
+
+1149
+00:47:39,110 --> 00:47:37,380
+Martha we need the presenter ballbag
+
+1150
+00:47:41,480 --> 00:47:39,120
+yeah you should be able to control right
+1151
+00:47:51,330 --> 00:47:41,490
+now this one
+
+1152
+00:47:53,640 --> 00:47:51,340
+okay okay how do I make it oh in
+
+1153
+00:48:03,800 --> 00:47:53,650
+tribute go down to the bottom vertical
+
+1154
+00:48:03,810 --> 00:48:18,440
+ok
+
+1155
+00:48:24,020 --> 00:48:21,380
+whereas our analysis uses these
+
+1156
+00:48:26,240 --> 00:48:24,030
+differential eclipses what what marks
+
+1157
+00:48:27,740 --> 00:48:26,250
+Wayne's analysis well I guess his papers
+
+1158
+00:48:29,900 --> 00:48:27,750
+still under review what he does is he
+
+1159
+00:48:32,990 --> 00:48:29,910
+actually subtracts the spectra out of
+
+1160
+00:48:35,480 --> 00:48:33,000
+eclipse minus in eclipse and we do that
+
+1161
+00:48:38,000 --> 00:48:35,490
+too only we do that as a check on the
+
+1162
+00:48:40,490 --> 00:48:38,010
+analysis we have we we rely on these
+
+1163
+00:48:42,079 --> 00:48:40,500
+differential eclipses and and I would
+
+1164
+00:48:45,349 --> 00:48:42,089
+argue that you really have to rely on
+
+1165
+00:48:47,000 --> 00:48:45,359
+the differential eclipses because if you
+
+1166
+00:48:50,180 --> 00:48:47,010
+don't do that there can be effects in
+
+1167
+00:48:52,370 --> 00:48:50,190
+the time series that that are
+
+1168
+00:48:54,440 --> 00:48:52,380
+unaccounted for in your analysis and in
+
+1169
+00:48:56,810 --> 00:48:54,450
+fact if you look at marks paper you find
+
+1170
+00:49:00,560 --> 00:48:56,820
+that he has a term called G of T which
+
+1171
+00:49:02,930 --> 00:49:00,570
+is the gain of the of the detector
+
+1172
+00:49:05,780 --> 00:49:02,940
+system and he explicitly assumes that
+
+1173
+00:49:09,859 --> 00:49:05,790
+that is wavelength independent let me go
+
+1174
+00:49:12,890 --> 00:49:09,869
+back a little further this ramp this
+
+1175
+00:49:15,380 --> 00:49:12,900
+ramp is like a game because it's due to
+1176
+00:49:17,540 --> 00:49:15,390
+charge trapping in the detector when you
+
+1177
+00:49:20,450 --> 00:49:17,550
+illuminate the detector with a faint
+
+1178
+00:49:22,430 --> 00:49:20,460
+source that is the stellar spectrum at
+
+1179
+00:49:24,410 --> 00:49:22,440
+long wavelengths it takes a lot longer
+
+1180
+00:49:27,620 --> 00:49:24,420
+for it to ramp up to full sensitivity
+
+1181
+00:49:31,430 --> 00:49:27,630
+than it does at at Short wavelengths
+
+1182
+00:49:32,990 --> 00:49:31,440
+where there is a high intensity being
+
+1183
+00:49:34,790 --> 00:49:33,000
+shown on the detector in other words the
+
+1184
+00:49:37,430 --> 00:49:34,800
+gaining of the detector is effectively
+
+1185
+00:49:40,550 --> 00:49:37,440
+wavelength dependent whereas marks
+
+1186
+00:49:43,880 --> 00:49:40,560
+analysis explicitly assumes that it is
+
+1187
+00:49:45,319 --> 00:49:43,890
+not and that's not correct and for that
+
+1188
+00:49:47,300 --> 00:49:45,329
+reason I think he's probably not
+
+1189
+00:49:52,870 --> 00:49:47,310
+deriving the spectrum of the planet at
+
+1190
+00:49:59,209 --> 00:49:55,759
+second one hey there is a spectra from
+
+1191
+00:50:04,009 --> 00:49:59,219
+space UV spectra from space have been
+
+1192
+00:50:09,289 --> 00:50:04,019
+measured by Hubble okay Arizona have a
+
+1193
+00:50:13,269 --> 00:50:09,299
+question if there were a ring around
+
+1194
+00:50:16,519 --> 00:50:13,279
+this planet it would of course produce
+
+1195
+00:50:20,029 --> 00:50:16,529
+likely emission lines or omission bands
+
+1196
+00:50:23,449 --> 00:50:20,039
+whatever one calls it and one would help
+
+1197
+00:50:26,929 --> 00:50:23,459
+distinguish that because the Eclipse
+
+1198
+00:50:30,069 --> 00:50:26,939
+would be broader because of the diameter
+
+1199
+00:50:32,719 --> 00:50:30,079
+of the ring system would be broader and
+
+1200
+00:50:36,109 --> 00:50:32,729
+therefore I'd like to know what evidence
+1201
+00:50:38,929 --> 00:50:36,119
+you have that in this omission that the
+
+1202
+00:50:42,079 --> 00:50:38,939
+Eclipse does indeed have the threats
+
+1203
+00:50:46,069 --> 00:50:42,089
+associated exactly with that you see of
+
+1204
+00:50:48,109 --> 00:50:46,079
+the planet continuum well at one time at
+
+1205
+00:50:50,509 --> 00:50:48,119
+one time rings around this planet were
+
+1206
+00:50:52,399 --> 00:50:50,519
+my favorite theory because they're as
+
+1207
+00:50:54,139 --> 00:50:52,409
+you know the planets radius is larger
+
+1208
+00:50:57,139 --> 00:50:54,149
+than can be accounted for by simple
+
+1209
+00:50:58,999 --> 00:50:57,149
+models one way to explain that would be
+
+1210
+00:51:00,409 --> 00:50:59,009
+perhaps ring a ring system which was
+
+1211
+00:51:03,409 --> 00:51:00,419
+increasing the effective area of the
+
+1212
+00:51:07,999 --> 00:51:03,419
+planet that beautiful theory has been
+
+1213
+00:51:09,679 --> 00:51:08,009
+contradicted by ugly facts the transit
+
+1214
+00:51:12,079 --> 00:51:09,689
+of the planet was measured at Spitzer
+
+1215
+00:51:13,879 --> 00:51:12,089
+way the transit the primary eclipse of
+
+1216
+00:51:16,069 --> 00:51:13,889
+the planet was measured by Spitzer
+
+1217
+00:51:19,189 --> 00:51:16,079
+wavelengths by Jeremy Richardson at 24
+
+1218
+00:51:21,620 --> 00:51:19,199
+microns and he obtains an a radius for
+
+1219
+00:51:23,689 --> 00:51:21,630
+the planet in very close agreement with
+
+1220
+00:51:25,879 --> 00:51:23,699
+the visible results so if there are
+
+1221
+00:51:27,469 --> 00:51:25,889
+rings they have almost the same optical
+
+1222
+00:51:31,519 --> 00:51:27,479
+depth at two very very different
+
+1223
+00:51:34,339 --> 00:51:31,529
+wavelengths which is may be possible but
+
+1224
+00:51:36,709 --> 00:51:34,349
+but it does argue against it somewhat
+
+1225
+00:51:38,539 --> 00:51:36,719
+then the other the the other argument
+1226
+00:51:40,370 --> 00:51:38,549
+that is the width of the Eclipse is that
+
+1227
+00:51:41,479 --> 00:51:40,380
+we have additional observations that we
+
+1228
+00:51:43,519 --> 00:51:41,489
+haven't published yet and I haven't
+
+1229
+00:51:47,029 --> 00:51:43,529
+shown you and I know that's a terrible
+
+1230
+00:51:49,189 --> 00:51:47,039
+thing to say but what but add to
+
+1231
+00:51:50,779 --> 00:51:49,199
+original discovery observations and if
+
+1232
+00:51:53,120 --> 00:51:50,789
+the Eclipse were significantly broader
+
+1233
+00:51:55,159 --> 00:51:53,130
+you know the aggressor egress Tom were
+
+1234
+00:51:57,559 --> 00:51:55,169
+significantly different then we would
+
+1235
+00:51:59,280 --> 00:51:57,569
+have seen that and also de Charbonneau
+
+1236
+00:52:01,050 --> 00:51:59,290
+has additional data that he hasn't
+
+1237
+00:52:11,000 --> 00:52:01,060
+published yet and he would have seen it
+
+1238
+00:52:17,700 --> 00:52:14,880
+he's red light on them hello this is
+
+1239
+00:52:19,710 --> 00:52:17,710
+paul davis at aims to operational
+
+1240
+00:52:23,310 --> 00:52:19,720
+questions one you said you took half
+
+1241
+00:52:25,170 --> 00:52:23,320
+your data before the secondary transept
+
+1242
+00:52:28,170 --> 00:52:25,180
+and half the data during the secondary
+
+1243
+00:52:30,030 --> 00:52:28,180
+transit wouldn't it be better in regard
+
+1244
+00:52:32,100 --> 00:52:30,040
+to system editors to take a quarter
+
+1245
+00:52:33,630 --> 00:52:32,110
+before a half during and a quarter after
+
+1246
+00:52:35,840 --> 00:52:33,640
+yeah that's that's what we actually do
+
+1247
+00:52:40,230 --> 00:52:35,850
+we started we take a quarter before
+
+1248
+00:52:42,000 --> 00:52:40,240
+patent yes with some variation on that
+
+1249
+00:52:44,520 --> 00:52:42,010
+depending on how quickly the telescope
+
+1250
+00:52:46,860 --> 00:52:44,530
+people can the exact starting time and
+1251
+00:52:49,740 --> 00:52:46,870
+give them a window okay so thank you the
+
+1252
+00:52:53,250 --> 00:52:49,750
+other question is you mentioned the one
+
+1253
+00:52:55,320 --> 00:52:53,260
+hour point 05 arcsecond oscillation and
+
+1254
+00:52:58,320 --> 00:52:55,330
+you also mention doing a nod in the
+
+1255
+00:53:00,180 --> 00:52:58,330
+middle of the transit measurement to get
+
+1256
+00:53:03,180 --> 00:53:00,190
+a reference does the nod reset the
+
+1257
+00:53:05,100 --> 00:53:03,190
+oscillation and can you use the knob to
+
+1258
+00:53:06,870 --> 00:53:05,110
+control the oscillations or is it better
+
+1259
+00:53:09,480 --> 00:53:06,880
+to deal with in calculation a lot
+
+1260
+00:53:12,530 --> 00:53:09,490
+calculation alee the nod does the nod
+
+1261
+00:53:15,840 --> 00:53:12,540
+does not seem to reset the oscillation
+
+1262
+00:53:17,610 --> 00:53:15,850
+the having the telescope nod is both
+
+1263
+00:53:19,620 --> 00:53:17,620
+good and bad i want to comment about the
+
+1264
+00:53:21,420 --> 00:53:19,630
+nod that it's good in the sense that
+
+1265
+00:53:23,790 --> 00:53:21,430
+when we see this like this differential
+
+1266
+00:53:27,000 --> 00:53:23,800
+eclipse that i have shown you on the
+
+1267
+00:53:28,890 --> 00:53:27,010
+screen up here that the that the ingress
+
+1268
+00:53:30,600 --> 00:53:28,900
+of this eclipse is actually measured
+
+1269
+00:53:33,180 --> 00:53:30,610
+with different pixels of pixels of the
+
+1270
+00:53:34,380 --> 00:53:33,190
+detector than the egress because we're
+
+1271
+00:53:36,750 --> 00:53:34,390
+always worried that you know there's
+
+1272
+00:53:39,480 --> 00:53:36,760
+some rogue pixel who is causing a
+
+1273
+00:53:41,700 --> 00:53:39,490
+spurious result so in so by having a
+
+1274
+00:53:44,550 --> 00:53:41,710
+telescope nod there have to be sort of
+
+1275
+00:53:46,470 --> 00:53:44,560
+two sets of rogue pixels and have to
+1276
+00:53:49,290 --> 00:53:46,480
+conspire together to make an ingress and
+
+1277
+00:53:50,940 --> 00:53:49,300
+egress at the right time and at that
+
+1278
+00:53:54,120 --> 00:53:50,950
+point you just you don't worry about
+
+1279
+00:53:56,880 --> 00:53:54,130
+things that bizarre the disadvantage of
+
+1280
+00:53:59,549 --> 00:53:56,890
+the nod is that it may reset the ramp to
+
+1281
+00:53:59,549 --> 00:53:59,559
+some extent
+
+1282
+00:54:05,489 --> 00:54:03,269
+you can see right here there's a there's
+
+1283
+00:54:08,219 --> 00:54:05,499
+a the charge trapping in the detector
+
+1284
+00:54:10,109 --> 00:54:08,229
+when we move the spectrum when we move
+
+1285
+00:54:11,999 --> 00:54:10,119
+the spectrum there's a little bit of a
+
+1286
+00:54:14,449 --> 00:54:12,009
+reset of the ramp I would like not to
+
+1287
+00:54:17,370 --> 00:54:14,459
+have that I've since concluded that for
+
+1288
+00:54:19,439 --> 00:54:17,380
+true and also for reasons of comparing
+
+1289
+00:54:23,459 --> 00:54:19,449
+to Karl grill mayer where they don't nod
+
+1290
+00:54:29,579 --> 00:54:23,469
+that we propose to redo this to do it
+
+1291
+00:54:36,839 --> 00:54:29,589
+without the nod that's that's a real
+
+1292
+00:54:39,390 --> 00:54:36,849
+subtlety of the other day thank you okay
+
+1293
+00:54:40,799 --> 00:54:39,400
+there are no more hands raised we can
+
+1294
+00:54:42,420 --> 00:54:40,809
+send it back to Goddard for any more
+
+1295
+00:54:45,150 --> 00:54:42,430
+questions at Goddard if there are any
+
+1296
+00:54:48,779 --> 00:54:45,160
+there oh god it always has question oh I
+
+1297
+00:54:50,699 --> 00:54:48,789
+know I know drink in the spectrum they
+
+1298
+00:54:53,069 --> 00:54:50,709
+seem to be another feature at the longer
+
+1299
+00:54:54,779 --> 00:54:53,079
+wavelength is that another feature at
+
+1300
+00:54:57,029 --> 00:54:54,789
+the hunger way Ron Paul than I have
+1301
+00:54:58,709 --> 00:54:57,039
+microns or somewhere around there well
+
+1302
+00:55:01,769 --> 00:54:58,719
+some kind of scrubs but look at the
+
+1303
+00:55:03,719 --> 00:55:01,779
+error bars here and look at the look at
+
+1304
+00:55:05,339 --> 00:55:03,729
+the agreement or disagreement between
+
+1305
+00:55:08,130 --> 00:55:05,349
+the two different eclipses which is what
+
+1306
+00:55:09,630 --> 00:55:08,140
+we have to go by you can treat basically
+
+1307
+00:55:12,120 --> 00:55:09,640
+just scatter at the long wavelengths and
+
+1308
+00:55:14,939 --> 00:55:12,130
+in fact the spectrum goes the spectre go
+
+1309
+00:55:16,589 --> 00:55:14,949
+out to 14 microns but the Spitzer people
+
+1310
+00:55:19,890 --> 00:55:16,599
+say that they're scattered light beyond
+
+1311
+00:55:23,839 --> 00:55:19,900
+13.2 so we don't even we don't even try
+
+1312
+00:55:26,489 --> 00:55:23,849
+be on there it's called the teardrop
+
+1313
+00:55:32,339 --> 00:55:26,499
+short low that's a short guy this is
+
+1314
+00:55:33,599 --> 00:55:32,349
+this is short glo SL this is SL too we
+
+1315
+00:55:36,020 --> 00:55:33,609
+don't have enough photons to get a high
+
+1316
+00:55:39,980 --> 00:55:37,880
+have a question have you ever done here
+
+1317
+00:55:42,560 --> 00:55:39,990
+Anunnaki effects for some of these
+
+1318
+00:55:46,940 --> 00:55:42,570
+missions or have we considered non-lte
+
+1319
+00:55:49,310 --> 00:55:46,950
+effects if if get this if if this
+
+1320
+00:55:52,010 --> 00:55:49,320
+feature is is really due to a
+
+1321
+00:55:54,380 --> 00:55:52,020
+carbon-carbon stretch which we think is
+
+1322
+00:55:55,790 --> 00:55:54,390
+kind of speculative but if it were then
+
+1323
+00:56:00,470 --> 00:55:55,800
+it would have to be due to fluorescence
+
+1324
+00:56:04,250 --> 00:56:00,480
+which is non a non-thermal so yeah there
+
+1325
+00:56:08,720 --> 00:56:04,260
+could be non thermal effects yeah okay
+1326
+00:56:11,600 --> 00:56:08,730
+well when I look at the spectrum it
+
+1327
+00:56:14,300 --> 00:56:11,610
+seems to me that both grill mares
+
+1328
+00:56:16,460 --> 00:56:14,310
+respect that the image and yours could
+
+1329
+00:56:18,620 --> 00:56:16,470
+be interpreted as having a double Pete
+
+1330
+00:56:21,820 --> 00:56:18,630
+structure that was had a minimum near
+
+1331
+00:56:24,470 --> 00:56:21,830
+7.6 microns and two beats one if I'm
+
+1332
+00:56:27,890 --> 00:56:24,480
+firefight like wanna lower way life is
+
+1333
+00:56:31,670 --> 00:56:27,900
+that supportable is that not correct hmm
+
+1334
+00:56:34,300 --> 00:56:31,680
+I mean I think you could argue in favor
+
+1335
+00:56:37,460 --> 00:56:34,310
+of a lot of different explanations but
+
+1336
+00:56:40,970 --> 00:56:37,470
+but since there are proposals to
+
+1337
+00:56:42,530 --> 00:56:40,980
+reabsorb oath systems and those and in
+
+1338
+00:56:44,930 --> 00:56:42,540
+at these wavelengths and at other
+
+1339
+00:56:47,870 --> 00:56:44,940
+wavelengths a lot much will be clarified
+
+1340
+00:56:49,580 --> 00:56:47,880
+after this summer these these are
+
+1341
+00:56:55,220 --> 00:56:49,590
+observable by Spitzer during the summers
+
+1342
+00:56:56,540 --> 00:56:55,230
+open which I believe me what we proposed
+
+1343
+00:56:58,940 --> 00:56:56,550
+to observe it at somewhat shorter
+
+1344
+00:57:01,100 --> 00:56:58,950
+wavelengths 528 micron where we expect
+
+1345
+00:57:03,230 --> 00:57:01,110
+the flux to decrease the contrast to
+
+1346
+00:57:05,300 --> 00:57:03,240
+decrease strongly and Karl grill mayor
+
+1347
+00:57:08,840 --> 00:57:05,310
+has observed it as proposed to observe
+
+1348
+00:57:11,210 --> 00:57:08,850
+HD 189733 at many other wavelengths I
+
+1349
+00:57:16,130 --> 00:57:11,220
+don't know the specifics where we do
+
+1350
+00:57:18,320 --> 00:57:16,140
+next expect to see water where would we
+1351
+00:57:19,760 --> 00:57:18,330
+next expect to see water actually I
+
+1352
+00:57:23,360 --> 00:57:19,770
+think the best prospects for seeing
+
+1353
+00:57:26,210 --> 00:57:23,370
+water are from the ground to detect the
+
+1354
+00:57:28,640 --> 00:57:26,220
+there's a peek at 3.8 microns between
+
+1355
+00:57:30,020 --> 00:57:28,650
+water and carbon dioxide absorption that
+
+1356
+00:57:31,850 --> 00:57:30,030
+I think can be detected using
+
+1357
+00:57:35,030 --> 00:57:31,860
+ground-based observations in these
+
+1358
+00:57:37,730 --> 00:57:35,040
+planets so that's that's the way I think
+
+1359
+00:57:40,730 --> 00:57:37,740
+is the real way to detect water Drake
+
+1360
+00:57:42,350 --> 00:57:40,740
+could you just amplify for a second on
+
+1361
+00:57:45,319 --> 00:57:42,360
+the comment you made just a minute ago
+
+1362
+00:57:48,349 --> 00:57:45,329
+that if that featured around
+
+1363
+00:57:50,569 --> 00:57:48,359
+just short of 8 microns is carbon-carbon
+
+1364
+00:57:55,849 --> 00:57:50,579
+stretch it has to be fluorescence why is
+
+1365
+00:57:59,930 --> 00:57:55,859
+that um because that's the way that's
+
+1366
+00:58:01,910 --> 00:57:59,940
+the way a mission from PAH molecules is
+
+1367
+00:58:03,499 --> 00:58:01,920
+seen in Astrophysical sources at these
+
+1368
+00:58:05,390 --> 00:58:03,509
+wavelengths so I guess it doesn't have
+
+1369
+00:58:09,440 --> 00:58:05,400
+to be but I would expect that it would
+
+1370
+00:58:10,969 --> 00:58:09,450
+be in that case because you know
+
+1371
+00:58:13,670 --> 00:58:10,979
+carbon-carbon stretch wouldn't would
+
+1372
+00:58:16,670 --> 00:58:13,680
+indicate PAH and pah is seen in many
+
+1373
+00:58:18,229 --> 00:58:16,680
+sources now by Spitzer and it's always
+
+1374
+00:58:21,140 --> 00:58:18,239
+in a mission and it's new to
+
+1375
+00:58:22,609 --> 00:58:21,150
+fluorescence certainly you're in you
+1376
+00:58:24,140 --> 00:58:22,619
+know this planet is in close enough to a
+
+1377
+00:58:26,479 --> 00:58:24,150
+hot enough star there's enough UV
+
+1378
+00:58:28,069 --> 00:58:26,489
+because fluorescence and you're giving
+
+1379
+00:58:30,049 --> 00:58:28,079
+up in dirty extremity region I mean
+
+1380
+00:58:32,749 --> 00:58:30,059
+we're being speculative now but if there
+
+1381
+00:58:34,549 --> 00:58:32,759
+are there are silicate clouds those
+
+1382
+00:58:37,009 --> 00:58:34,559
+silicate grains could be associated with
+
+1383
+00:58:39,769 --> 00:58:37,019
+pah molecules also and they could
+
+1384
+00:58:43,130 --> 00:58:39,779
+fluoresce well when I think in this case
+
+1385
+00:58:44,870 --> 00:58:43,140
+the fluorescence is not the same as kind
+
+1386
+00:58:47,239 --> 00:58:44,880
+of fluorescence as if you had a diatomic
+
+1387
+00:58:49,640 --> 00:58:47,249
+molecule which was pumped at a higher
+
+1388
+00:58:51,829 --> 00:58:49,650
+statement re-radiated at different
+
+1389
+00:58:55,999 --> 00:58:51,839
+wavelengths it's really more that you
+
+1390
+00:58:59,390 --> 00:58:56,009
+might have a pH grain or macro molecule
+
+1391
+00:59:01,150 --> 00:58:59,400
+that is flash heated by UV photon and
+
+1392
+00:59:04,819 --> 00:59:01,160
+then you get vibrational excitation
+
+1393
+00:59:07,699 --> 00:59:04,829
+which is seen in addition but the grain
+
+1394
+00:59:10,039 --> 00:59:07,709
+itself is probably slightly warm welcome
+
+1395
+00:59:13,249 --> 00:59:10,049
+by that UV photon that's that's exactly
+
+1396
+00:59:14,870 --> 00:59:13,259
+correct yeah it's not quite the same
+
+1397
+00:59:16,400 --> 00:59:14,880
+it's not question say but it's still
+
+1398
+00:59:19,009 --> 00:59:16,410
+referred to as fluorescence because it's
+
+1399
+00:59:21,890 --> 00:59:19,019
+a repercussion a roomie it's a
+
+1400
+00:59:29,400 --> 00:59:21,900
+readmission of the UV radiation from the
+1401
+00:59:33,690 --> 00:59:31,620
+well drink there aren't any hands raised
+
+1402
+00:59:38,570 --> 00:59:33,700
+around the net and so I just wanted to
+
+1403
+00:59:52,020 --> 00:59:49,230
+weekly and thank you again and look
