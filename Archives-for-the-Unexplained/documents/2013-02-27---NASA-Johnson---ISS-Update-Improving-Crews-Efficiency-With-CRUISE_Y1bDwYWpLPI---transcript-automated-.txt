@@ -1,0 +1,988 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2013-02-27---NASA-Johnson---ISS-Update-Improving-Crews-Efficiency-With-CRUISE_Y1bDwYWpLPI---transcript-automated-.pdf", "source_sha256": "37590853187b47f518bee4e42ccf56275a5749ab256b7bab5e7760d1903ff3cc", "source_bytes": 91541, "source_mtime": 1790742166, "source_mtime_ns": 1790742166688895734, "source_ctime_ns": 1790742167026759373, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T21:33:23.577016+00:00"}
+
+1
+00:00:06,299 --> 00:00:04,380
+we've been mentioning a variety of the
+
+2
+00:00:07,920 --> 00:00:06,309
+kinds of experiments that International
+
+3
+00:00:10,470 --> 00:00:07,930
+Space Station the crew members perform
+
+4
+00:00:12,810 --> 00:00:10,480
+and those experiments come in a wide
+
+5
+00:00:15,930 --> 00:00:12,820
+range of their different scientific
+
+6
+00:00:18,600 --> 00:00:15,940
+disciplines some of it very deep and
+
+7
+00:00:20,970 --> 00:00:18,610
+theoretical some of it designed to learn
+
+8
+00:00:23,070 --> 00:00:20,980
+more about how people can live in the
+
+9
+00:00:25,650 --> 00:00:23,080
+space environment and some of it is
+
+10
+00:00:28,260 --> 00:00:25,660
+demonstrating concepts for technology
+
+11
+00:00:31,230 --> 00:00:28,270
+that could assist future exploration to
+
+12
+00:00:33,389 --> 00:00:31,240
+deep space and today commander Kevin
+
+13
+00:00:35,279 --> 00:00:33,399
+Ford performed one of those latter
+
+14
+00:00:38,040 --> 00:00:35,289
+experiments you're seeing some video
+
+15
+00:00:40,770 --> 00:00:38,050
+that we recorded that was a downlink to
+
+16
+00:00:43,139 --> 00:00:40,780
+earlier today of Ford performing a
+
+17
+00:00:45,090 --> 00:00:43,149
+European Space Agency investigation
+
+18
+00:00:47,639 --> 00:00:45,100
+that's aimed at improving crew
+
+19
+00:00:50,969 --> 00:00:47,649
+operations efficiency and as their
+
+20
+00:00:54,000 --> 00:00:50,979
+autonomy as well joining us this morning
+
+21
+00:00:56,610 --> 00:00:54,010
+to talk more about cruise which is crew
+
+22
+00:00:59,189 --> 00:00:56,620
+user interface system enhancement is
+
+23
+00:01:02,699 --> 00:00:59,199
+Michael Wolff a senior software engineer
+
+24
+00:01:04,560 --> 00:01:02,709
+and ESA's lead and co-investigator for
+
+25
+00:01:06,330 --> 00:01:04,570
+the crews experiment speaking with us
+26
+00:01:08,790 --> 00:01:06,340
+this morning from his office at the
+
+27
+00:01:10,740 --> 00:01:08,800
+european space research and Technology
+
+28
+00:01:13,140 --> 00:01:10,750
+Center the Nord wig in the Netherlands
+
+29
+00:01:15,000 --> 00:01:13,150
+Michael tell me about the background of
+
+30
+00:01:18,120 --> 00:01:15,010
+this project and how you got involved in
+
+31
+00:01:20,610 --> 00:01:18,130
+it okay a good morning Pat first and
+
+32
+00:01:24,450 --> 00:01:20,620
+thanks for the chance to chat with you
+
+33
+00:01:26,010 --> 00:01:24,460
+about this we our group here at ISA and
+
+34
+00:01:29,460 --> 00:01:26,020
+our industrial colleagues we've been
+
+35
+00:01:33,300 --> 00:01:29,470
+interested in improving the onboard user
+
+36
+00:01:36,540 --> 00:01:33,310
+interface for a long time essentially
+
+37
+00:01:40,170 --> 00:01:36,550
+trying to make astronauts performance
+
+38
+00:01:41,880 --> 00:01:40,180
+improve and also get better there you
+
+39
+00:01:44,100 --> 00:01:41,890
+use the satisfaction for when they
+
+40
+00:01:46,260 --> 00:01:44,110
+actually working up there and the
+
+41
+00:01:49,710 --> 00:01:46,270
+streams we've been doing this in is
+
+42
+00:01:52,500 --> 00:01:49,720
+technology demonstrations say building
+
+43
+00:01:55,080 --> 00:01:52,510
+block demonstrations but we're also been
+
+44
+00:01:57,240 --> 00:01:55,090
+thinking same or in larger term or
+
+45
+00:02:00,540 --> 00:01:57,250
+trying to establish a path towards
+
+46
+00:02:03,660 --> 00:02:00,550
+building a is smart assistance a and E
+
+47
+00:02:06,960 --> 00:02:03,670
+partner to actually give a more broader
+
+48
+00:02:09,359 --> 00:02:06,970
+support I'd say that what we did today
+
+49
+00:02:11,699 --> 00:02:09,369
+the commander session with cruise is a
+
+50
+00:02:14,260 --> 00:02:11,709
+building block type of technology
+51
+00:02:16,970 --> 00:02:14,270
+demonstration and often operations them
+
+52
+00:02:18,980 --> 00:02:16,980
+or maybe a way to help understand this
+
+53
+00:02:22,100 --> 00:02:18,990
+is to turn that question on its head
+
+54
+00:02:24,620 --> 00:02:22,110
+what is the deficiency in the way the
+
+55
+00:02:25,970 --> 00:02:24,630
+crews operate now what do you what do
+
+56
+00:02:30,530 --> 00:02:25,980
+you see in the current way that they
+
+57
+00:02:32,540 --> 00:02:30,540
+operate that should be improved well
+
+58
+00:02:34,490 --> 00:02:32,550
+first Adam I don't think it's only
+
+59
+00:02:36,560 --> 00:02:34,500
+deficiencies we do we do have some
+
+60
+00:02:38,600 --> 00:02:36,570
+advantages with the electronic systems
+
+61
+00:02:40,630 --> 00:02:38,610
+on board I mean we can carry less paper
+
+62
+00:02:44,330 --> 00:02:40,640
+and thereby we get things a little bit
+
+63
+00:02:47,120 --> 00:02:44,340
+more cost effective operations but but
+
+64
+00:02:50,030 --> 00:02:47,130
+certainly one deficiency is of course
+
+65
+00:02:52,220 --> 00:02:50,040
+that it takes a long time to spin in
+
+66
+00:02:54,200 --> 00:02:52,230
+technologies from from ground into the
+
+67
+00:02:56,390 --> 00:02:54,210
+space segments install validation and
+
+68
+00:02:58,670 --> 00:02:56,400
+safety aspects has to be taken into
+
+69
+00:03:02,450 --> 00:02:58,680
+account and this is this is what we're
+
+70
+00:03:05,540 --> 00:03:02,460
+trying to do especially we've seen that
+
+71
+00:03:09,170 --> 00:03:05,550
+for manual tasks in-flight maintenance
+
+72
+00:03:11,870 --> 00:03:09,180
+task type of things the user interface
+
+73
+00:03:13,820 --> 00:03:11,880
+that is provided today for for the
+
+74
+00:03:16,340 --> 00:03:13,830
+astronauts is not so-called test
+
+75
+00:03:19,850 --> 00:03:16,350
+transparent enough which means the user
+76
+00:03:21,740 --> 00:03:19,860
+interface often gets in the way while
+
+77
+00:03:24,740 --> 00:03:21,750
+they are doing our primary tasks say
+
+78
+00:03:28,699 --> 00:03:24,750
+you're adjusting available or doing a
+
+79
+00:03:31,250 --> 00:03:28,709
+repair and prepare and activity their
+
+80
+00:03:33,410 --> 00:03:31,260
+ability to consult the instructions is
+
+81
+00:03:37,640 --> 00:03:33,420
+hampering them from doing the actual
+
+82
+00:03:42,080 --> 00:03:37,650
+work that's correct and we also seen
+
+83
+00:03:45,590 --> 00:03:42,090
+that the operation the actual
+
+84
+00:03:47,750 --> 00:03:45,600
+instructions for avionics task when you
+
+85
+00:03:49,550 --> 00:03:47,760
+actually have to attune something deep
+
+86
+00:03:52,540 --> 00:03:49,560
+down in the system you usually have the
+
+87
+00:03:54,860 --> 00:03:52,550
+operations content the procedures
+
+88
+00:03:57,949 --> 00:03:54,870
+separated from the flight software
+
+89
+00:04:02,690 --> 00:03:57,959
+displays and one of our sub experiments
+
+90
+00:04:06,560 --> 00:04:02,700
+today is to deter to go towards the
+
+91
+00:04:09,320 --> 00:04:06,570
+design where we have both operations
+
+92
+00:04:12,050 --> 00:04:09,330
+instructions and flight software pots in
+
+93
+00:04:15,320 --> 00:04:12,060
+the same flow in the procedure something
+
+94
+00:04:17,780 --> 00:04:15,330
+that is not yet available on board we've
+
+95
+00:04:20,210 --> 00:04:17,790
+noticed that part of this procedure is
+
+96
+00:04:22,190 --> 00:04:20,220
+to do with the use of voice activation
+
+97
+00:04:24,620 --> 00:04:22,200
+and there's a piece of hardware that we
+
+98
+00:04:28,070 --> 00:04:24,630
+saw in the video where the Kevin Ford
+
+99
+00:04:30,860 --> 00:04:28,080
+was wearing a little headset microphone
+
+100
+00:04:32,600 --> 00:04:30,870
+which is not brand new technology are
+101
+00:04:34,939 --> 00:04:32,610
+you just trying to make better use of
+
+102
+00:04:38,480 --> 00:04:34,949
+what already exists are you trying to
+
+103
+00:04:42,230 --> 00:04:38,490
+develop something new I would say to a
+
+104
+00:04:44,149 --> 00:04:42,240
+large extent it is has been in type of
+
+105
+00:04:46,159 --> 00:04:44,159
+experiments we're spinning in from from
+
+106
+00:04:48,529 --> 00:04:46,169
+the consumer market and what's available
+
+107
+00:04:53,270 --> 00:04:48,539
+for us here down on ground and indeed as
+
+108
+00:04:55,730 --> 00:04:53,280
+you noticed it is it's a felon normal
+
+109
+00:04:59,779 --> 00:04:55,740
+microphone and headset is using their so
+
+110
+00:05:03,020 --> 00:04:59,789
+but but a voice dialogue has not been
+
+111
+00:05:05,029 --> 00:05:03,030
+available for truth before that has been
+
+112
+00:05:07,670 --> 00:05:05,039
+other experiments our NASA colleagues
+
+113
+00:05:09,830 --> 00:05:07,680
+have indeed experiment with this but
+
+114
+00:05:13,010 --> 00:05:09,840
+moving from experiments towards action
+
+115
+00:05:16,249 --> 00:05:13,020
+or operational interfaces has not yet
+
+116
+00:05:18,649 --> 00:05:16,259
+taken place and we trying to learn more
+
+117
+00:05:20,570 --> 00:05:18,659
+about this so we can based on this
+
+118
+00:05:24,709 --> 00:05:20,580
+experiment we can design systems that
+
+119
+00:05:26,749 --> 00:05:24,719
+are that this will actually work and I
+
+120
+00:05:28,929 --> 00:05:26,759
+noticed in some of the paperwork that
+
+121
+00:05:32,420 --> 00:05:28,939
+one member of your science team is
+
+122
+00:05:36,110 --> 00:05:32,430
+Italian astronaut paolo nespoli anissa
+
+123
+00:05:37,939 --> 00:05:36,120
+astronaut has having his point of view a
+
+124
+00:05:40,399 --> 00:05:37,949
+veteran station crew members point of
+
+125
+00:05:44,089 --> 00:05:40,409
+view helped you in your in your
+126
+00:05:47,180 --> 00:05:44,099
+development for us yes it's always very
+
+127
+00:05:49,969 --> 00:05:47,190
+important to have end users involved as
+
+128
+00:05:52,100 --> 00:05:49,979
+astronauts involved and an Paolo and
+
+129
+00:05:53,749 --> 00:05:52,110
+also his other colleagues as European
+
+130
+00:05:57,439 --> 00:05:53,759
+astronaut centers for example Frank
+
+131
+00:06:00,829 --> 00:05:57,449
+Levin has has helped us both in the
+
+132
+00:06:03,019 --> 00:06:00,839
+development and in the testing so it's
+
+133
+00:06:05,390 --> 00:06:03,029
+not only for the final test but we need
+
+134
+00:06:07,010 --> 00:06:05,400
+all stakeholders astronauts and
+
+135
+00:06:09,469 --> 00:06:07,020
+operations engineers to be involved
+
+136
+00:06:12,019 --> 00:06:09,479
+throughout development and testing to
+
+137
+00:06:14,719 --> 00:06:12,029
+get a product that we think can do the
+
+138
+00:06:17,240 --> 00:06:14,729
+job that we expected to do so how did it
+
+139
+00:06:19,369 --> 00:06:17,250
+go this morning Kevin Ford was working
+
+140
+00:06:21,499 --> 00:06:19,379
+with in two sessions on the on the
+
+141
+00:06:22,999 --> 00:06:21,509
+timeline here with a procedural display
+
+142
+00:06:25,939 --> 00:06:23,009
+and then with a voice-activated
+
+143
+00:06:30,829 --> 00:06:25,949
+procedure viewer tell us how today's
+
+144
+00:06:32,390 --> 00:06:30,839
+work went and I I could only follow it
+
+145
+00:06:34,879 --> 00:06:32,400
+the same way you did which was the voice
+
+146
+00:06:39,350 --> 00:06:34,889
+loot and from video and certainly the
+
+147
+00:06:40,250 --> 00:06:39,360
+paper procedure display look to go very
+
+148
+00:06:43,040 --> 00:06:40,260
+there
+
+149
+00:06:45,260 --> 00:06:43,050
+fine we were on time and we had the
+
+150
+00:06:47,680 --> 00:06:45,270
+whole test completed we will be very
+151
+00:06:50,780 --> 00:06:47,690
+interested in seeing the data generated
+
+152
+00:06:53,450 --> 00:06:50,790
+later on it was the voice-activated
+
+153
+00:06:57,050 --> 00:06:53,460
+procedure viewer that we did and that
+
+154
+00:06:58,970 --> 00:06:57,060
+task was selected to be as realistic as
+
+155
+00:07:01,250 --> 00:06:58,980
+possible so this was in an in-flight
+
+156
+00:07:05,120 --> 00:07:01,260
+maintenance task and with in-flight
+
+157
+00:07:08,060 --> 00:07:05,130
+maintenance task comes also say other
+
+158
+00:07:11,960 --> 00:07:08,070
+issues and I think there was one issue
+
+159
+00:07:14,900 --> 00:07:11,970
+with the tools here and that means
+
+160
+00:07:17,650 --> 00:07:14,910
+overall that there was some some time
+
+161
+00:07:21,710 --> 00:07:17,660
+pressure i believe and high workload on
+
+162
+00:07:23,360 --> 00:07:21,720
+Kevin and a in such a situation and this
+
+163
+00:07:27,230 --> 00:07:23,370
+is part of what we want to learn about
+
+164
+00:07:30,530 --> 00:07:27,240
+also it is it is excellent to be able to
+
+165
+00:07:33,380 --> 00:07:30,540
+do one thing to do user interaction in
+
+166
+00:07:36,620 --> 00:07:33,390
+more than one way to voice and
+
+167
+00:07:41,240 --> 00:07:36,630
+point-and-click but it's of course easy
+
+168
+00:07:44,180 --> 00:07:41,250
+to do the most a the one that you must
+
+169
+00:07:45,800 --> 00:07:44,190
+use to first so I believe we got we got
+
+170
+00:07:49,010 --> 00:07:45,810
+some good they were voice commanding in
+
+171
+00:07:51,260 --> 00:07:49,020
+there but we have a mixture above both
+
+172
+00:07:53,390 --> 00:07:51,270
+commanding and traditional commanding so
+
+173
+00:07:55,520 --> 00:07:53,400
+again when we look at the data there
+
+174
+00:07:57,200 --> 00:07:55,530
+it's both the objective in this
+
+175
+00:07:59,810 --> 00:07:57,210
+objective data it will be very
+176
+00:08:02,450 --> 00:07:59,820
+interesting to see and I believe that
+
+177
+00:08:05,360 --> 00:08:02,460
+Chris Hadfield is going to do a similar
+
+178
+00:08:09,770 --> 00:08:05,370
+type of run for you later on right
+
+179
+00:08:11,660 --> 00:08:09,780
+that's correct so thereby we we cannot
+
+180
+00:08:14,300 --> 00:08:11,670
+say of course that we have a full
+
+181
+00:08:18,260 --> 00:08:14,310
+statistical can do a full statistical
+
+182
+00:08:20,300 --> 00:08:18,270
+analysis but with two and astronauts
+
+183
+00:08:22,880 --> 00:08:20,310
+performing our experiment we will have a
+
+184
+00:08:24,950 --> 00:08:22,890
+much better on the idea that only the
+
+185
+00:08:27,680 --> 00:08:24,960
+ground-based experiments that we've done
+
+186
+00:08:29,660 --> 00:08:27,690
+before that we are hopefully we got the
+
+187
+00:08:32,320 --> 00:08:29,670
+kind of insight we need to design these
+
+188
+00:08:35,360 --> 00:08:32,330
+systems so what's the next step after
+
+189
+00:08:36,860 --> 00:08:35,370
+Ford and Hadfield do this you said you
+
+190
+00:08:38,930 --> 00:08:36,870
+wanted to you need to look at the data
+
+191
+00:08:43,520 --> 00:08:38,940
+but what will be the next step for you
+
+192
+00:08:45,980 --> 00:08:43,530
+and your team yeah after analysis I I
+
+193
+00:08:47,540 --> 00:08:45,990
+think we're heading towards more type of
+
+194
+00:08:49,550 --> 00:08:47,550
+building block experiments for example
+
+195
+00:08:52,830 --> 00:08:49,560
+having these so-called procedure you
+
+196
+00:08:55,750 --> 00:08:52,840
+were on a state-of-the-art
+
+197
+00:08:58,270 --> 00:08:55,760
+and also adapt its user interface to
+
+198
+00:09:00,820 --> 00:08:58,280
+something that we're more used to on the
+
+199
+00:09:02,800 --> 00:09:00,830
+ground this is also in cooperation with
+
+200
+00:09:07,750 --> 00:09:02,810
+our NASA colleagues and the procedure
+201
+00:09:10,150 --> 00:09:07,760
+group there we are also looking at more
+
+202
+00:09:12,730 --> 00:09:10,160
+wearable system so you should not have
+
+203
+00:09:14,980 --> 00:09:12,740
+to be floating back and forth to your
+
+204
+00:09:16,690 --> 00:09:14,990
+laptop for any reason but you should be
+
+205
+00:09:19,600 --> 00:09:16,700
+able to bring bring your equipment with
+
+206
+00:09:21,910 --> 00:09:19,610
+you to your to your workplace and we
+
+207
+00:09:24,820 --> 00:09:21,920
+hope we can test these things in the
+
+208
+00:09:27,070 --> 00:09:24,830
+near future and of course with with
+
+209
+00:09:30,130 --> 00:09:27,080
+voice which is one of the new natural
+
+210
+00:09:32,350 --> 00:09:30,140
+user interfaces we hope we can implement
+
+211
+00:09:34,390 --> 00:09:32,360
+a full dialogue this time we only had
+
+212
+00:09:37,720 --> 00:09:34,400
+full voice dialogue this time we only
+
+213
+00:09:40,210 --> 00:09:37,730
+had always commanding but the system
+
+214
+00:09:44,020 --> 00:09:40,220
+itself was in a sense silent it didn't
+
+215
+00:09:47,010 --> 00:09:44,030
+really speak back let's see is that the
+
+216
+00:09:49,390 --> 00:09:47,020
+goal then and in the long run is are you
+
+217
+00:09:53,260 --> 00:09:49,400
+trying once this is all developed and
+
+218
+00:09:55,420 --> 00:09:53,270
+implemented are you trying to create a
+
+219
+00:09:57,190 --> 00:09:55,430
+system where like in science fiction
+
+220
+00:10:00,820 --> 00:09:57,200
+where people can talk to the computers
+
+221
+00:10:03,070 --> 00:10:00,830
+and the computers talk back or you could
+
+222
+00:10:05,290 --> 00:10:03,080
+say Lily you could have that science
+
+223
+00:10:07,360 --> 00:10:05,300
+fiction picture a friendly hair but of
+
+224
+00:10:09,280 --> 00:10:07,370
+course it's not only that you can talk
+
+225
+00:10:10,990 --> 00:10:09,290
+it's also what you're talking about so
+226
+00:10:15,220 --> 00:10:11,000
+it should it should be robust and
+
+227
+00:10:19,090 --> 00:10:15,230
+resilient a partner or crew assistant
+
+228
+00:10:21,370 --> 00:10:19,100
+that that can help the crew member the
+
+229
+00:10:26,020 --> 00:10:21,380
+astronaut and the astronaut team to work
+
+230
+00:10:28,450 --> 00:10:26,030
+together and share the tasks properly
+
+231
+00:10:31,090 --> 00:10:28,460
+and give appropriate support depending
+
+232
+00:10:33,250 --> 00:10:31,100
+on the individual's needs and that is
+
+233
+00:10:35,070 --> 00:10:33,260
+then we've gone beyond building blocks
+
+234
+00:10:38,310 --> 00:10:35,080
+and actually we'll build a system
+
+235
+00:10:41,110 --> 00:10:38,320
+hopefully we have a chance to do some of
+
+236
+00:10:44,590 --> 00:10:41,120
+testing for this kind of system to
+
+237
+00:10:48,090 --> 00:10:44,600
+support more autonomous operations when
+
+238
+00:10:52,060 --> 00:10:48,100
+ISS can be used as an analog foreign
+
+239
+00:10:53,590 --> 00:10:52,070
+mission beyond low-earth orbit sounds
+
+240
+00:10:55,480 --> 00:10:53,600
+great and actually I was thinking more
+
+241
+00:10:57,130 --> 00:10:55,490
+of a talking to the star trek computer
+
+242
+00:11:00,640 --> 00:10:57,140
+rather than how but it's the same time
+
+243
+00:11:03,490 --> 00:11:00,650
+separately in principle it should work
+
+244
+00:11:05,110 --> 00:11:03,500
+that to Michael I appreciate your taking
+
+245
+00:11:05,740 --> 00:11:05,120
+the time to bring us up to speed on this
+
+246
+00:11:08,110 --> 00:11:05,750
+its variant
+
+247
+00:11:10,570 --> 00:11:08,120
+sting thank you thank you very much
+
+248
+00:11:12,790 --> 00:11:10,580
+flooding able to come on like a wolf is
+
+249
+00:11:15,010 --> 00:11:12,800
+a senior software engineer with the

@@ -1,0 +1,630 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2012-03-07---NASA-Johnson---Interview-With-Alex-Janas-Goddard-Robot-Operator_uQA-K9MyQ3A---transcript-automated-.txt", "source_sha256": "09806a32f1bc6d786718dbe7f85d5529a84c80f589b66b197b6a4539c7ada205", "source_bytes": 13566, "source_mtime": 1790635799, "source_mtime_ns": 1790635799332724357, "source_ctime_ns": 1790635799416955330, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T21:22:48.021558+00:00"}
+
+1
+00:00:02,240 --> 00:00:07,560
+You're getting a look now at the station's
+robotic arm using the Dextre multi dexterous
+
+2
+00:00:07,560 --> 00:00:13,010
+manipulator as it works to change out
+some of the tools and get ready to move
+
+3
+00:00:13,010 --> 00:00:15,340
+through the operations for today.
+
+4
+00:00:15,340 --> 00:00:20,670
+And joining me on console right now we
+have our, one of our robotics operators
+
+5
+00:00:20,670 --> 00:00:24,990
+from the Goddard Space Flight Center who's been
+involved hand in hand with the controllers here
+
+6
+00:00:24,990 --> 00:00:28,710
+in Mission Control Houston as they move
+through to do some of these checkout.
+
+7
+00:00:28,710 --> 00:00:33,350
+So his name is Alex Janas, and Alex, thank
+you very much for joining me here today.
+
+8
+00:00:33,350 --> 00:00:34,330
+Thanks for having me here.
+
+9
+00:00:34,330 --> 00:00:39,900
+So why don't you tell us a little bit about
+what you do up at Goddard and how you got there.
+
+10
+00:00:39,900 --> 00:00:40,870
+A pleasure.
+
+11
+00:00:40,870 --> 00:00:44,340
+So, at Goddard I'm one of the robot operators,
+
+12
+00:00:44,340 --> 00:00:47,270
+for the satellite servicing
+capabilities project.
+
+13
+00:00:47,270 --> 00:00:54,620
+The project as a whole is working on using
+robotics to practice servicing satellites
+
+14
+00:00:54,620 --> 00:00:58,910
+as we've ramped down a lot
+of manned spaceflight work.
+
+15
+00:00:58,910 --> 00:01:02,490
+My job there, I work on the robotic test bed.
+
+16
+00:01:02,490 --> 00:01:04,560
+Obviously here we're doing flight robotics.
+
+17
+00:01:04,560 --> 00:01:08,080
+There we're testing everything on the
+ground before we can send it up to orbit,
+
+18
+00:01:08,080 --> 00:01:12,050
+So what I've done there is,
+we design tools to interface
+
+19
+00:01:12,050 --> 00:01:15,820
+with non-corporative satellite
+interfaces, that being the satellites
+
+20
+00:01:15,820 --> 00:01:19,340
+in orbit right now aren't
+designed on to be interfaced
+
+21
+00:01:19,340 --> 00:01:22,140
+with robotics It's a very
+non-friendly interface.
+
+22
+00:01:22,140 --> 00:01:25,140
+There's lots of wires and valves and covers.
+
+23
+00:01:25,140 --> 00:01:29,540
+So we work with the tool designer tubes to
+design the tools, and my job is to throw them
+
+24
+00:01:29,540 --> 00:01:34,510
+on our robots which are actually industrial
+robots but we've used custom software
+
+25
+00:01:34,510 --> 00:01:41,110
+to mimic flight robots, And we take them and
+we test out the tools, and we provide feedback,
+
+26
+00:01:41,110 --> 00:01:45,470
+and the ideas to have the best
+possible when we send it up in flight.
+
+27
+00:01:45,470 --> 00:01:46,830
+Okay, very cool.
+
+28
+00:01:46,830 --> 00:01:49,730
+And as we've been talking about
+a little bit through this hour,
+
+29
+00:01:49,730 --> 00:01:53,680
+they are working on the Robotic Refueling
+Mission, which is a payload flown
+
+30
+00:01:53,680 --> 00:01:56,260
+up last July in the final shuttle mission.
+
+31
+00:01:56,260 --> 00:01:58,170
+So we actually have an animation
+that's going to go
+
+32
+00:01:58,170 --> 00:02:00,950
+over some more general points of that payload.
+
+33
+00:02:00,950 --> 00:02:03,040
+And why don't we talk a little
+bit about that now.
+
+34
+00:02:03,040 --> 00:02:06,530
+Sure thing.
+
+35
+00:02:06,530 --> 00:02:12,850
+So what you're looking at here is the SPDM,
+special purpose dexterous manipulator,
+
+36
+00:02:12,850 --> 00:02:17,400
+and its excessing that big box there,
+is RRM, the Robotic Refueling Mission.
+
+37
+00:02:17,400 --> 00:02:24,480
+It's on one of the ELC carriers, and
+there's four different tools on RRM itself.
+
+38
+00:02:24,480 --> 00:02:28,060
+RRM is kind of a self- contained test bed here.
+
+39
+00:02:28,060 --> 00:02:34,120
+We have four tools that we can pull out and we
+use those tools to interface with about half
+
+40
+00:02:34,120 --> 00:02:38,210
+of the interfaces, our custom-designed
+interfaces that have tools and adapters,
+
+41
+00:02:38,210 --> 00:02:43,620
+like here you see the multifunction tool pulling
+out an adapter that removes tertiary caps,
+
+42
+00:02:43,620 --> 00:02:48,370
+And once it pulls out this adapter it'll
+access what's called fill/drain valve,
+
+43
+00:02:48,370 --> 00:02:51,640
+and these valves are very
+common on satellite interfaces.
+
+44
+00:02:51,640 --> 00:02:55,410
+And these are the interfaces you
+have to have to remove these caps
+
+45
+00:02:55,410 --> 00:02:58,810
+and ties before it's actually
+accessed the refueling port
+
+46
+00:02:58,810 --> 00:03:02,530
+where you can transfer fluid
+to refill satellites.
+
+47
+00:03:02,530 --> 00:03:08,690
+So here it's removed the tertiary cap, it's now
+stowing the cap in a tertiary cap receptacle.
+
+48
+00:03:08,690 --> 00:03:14,660
+Basically there's a process, these fill/drain
+valves, the way they're capped off and secured
+
+49
+00:03:14,660 --> 00:03:18,550
+on a satellite is they're meant to never
+be accessed again right before launch.
+
+50
+00:03:18,550 --> 00:03:23,630
+So the refueling port itself
+will be torqued closed and then
+
+51
+00:03:23,630 --> 00:03:27,290
+after that we'll put two
+different caps on top of that valve
+
+52
+00:03:27,290 --> 00:03:30,290
+and then those caps themselves
+will be wired shut as well.
+
+53
+00:03:30,290 --> 00:03:32,070
+So it's really a not friendly interface.
+
+54
+00:03:32,070 --> 00:03:33,920
+It's non-corporative.
+
+55
+00:03:33,920 --> 00:03:37,680
+And here we're pulling out the
+EVR nozzle tool, or the ENT,
+
+56
+00:03:37,680 --> 00:03:40,910
+and this is actually the
+fluid transfer tool itself.
+
+57
+00:03:40,910 --> 00:03:43,330
+You'll see there's a hose attached to it.
+
+58
+00:03:43,330 --> 00:03:48,330
+The tool goes ahead and it connects to the
+refueling valve, and once that threads on,
+
+59
+00:03:48,330 --> 00:03:54,090
+it releases the valve, to open it up and we
+transfer fluid through the payload itself.
+
+60
+00:03:54,090 --> 00:03:58,400
+And the RRM payload itself does
+have fluid transfer capability,
+
+61
+00:03:58,400 --> 00:04:04,210
+so were actually practicing transferring fluid
+out of RRM through the tool and back into RRM.
+
+62
+00:04:05,880 --> 00:04:12,440
+Okay, so like you mentioned, this is all being
+done in order to eventually service satellites
+
+63
+00:04:12,440 --> 00:04:15,320
+that were built and made to never be serviced.
+
+64
+00:04:15,320 --> 00:04:18,280
+So what are some of the activities
+it's going to be doing to kind
+
+65
+00:04:18,280 --> 00:04:21,610
+of mimic tackling those challenges?
+
+66
+00:04:22,880 --> 00:04:26,240
+So that's a very good question.
+
+67
+00:04:26,240 --> 00:04:31,790
+You know, the challenges being
+the, these interfaces don't have,
+
+68
+00:04:31,790 --> 00:04:38,100
+with robotics you're very used to using optical
+cues and large lead ins to access something.
+
+69
+00:04:38,100 --> 00:04:42,820
+You know, with a human hand you're typically
+used to being compliant in yourself,
+
+70
+00:04:42,820 --> 00:04:45,790
+you know its very easy to feel
+around and feel how something fits.
+
+71
+00:04:45,790 --> 00:04:50,700
+With a robot that's very difficult because the
+robot can't really sense the way human can.
+
+72
+00:04:50,700 --> 00:04:56,450
+So the real challenge is making sure we design
+the tools correctly to access these interfaces
+
+73
+00:04:56,450 --> 00:04:58,740
+because we have no control how
+the interface was designed.
+
+74
+00:04:58,740 --> 00:05:01,350
+It's already up there, you
+know, on hundreds of satellites
+
+75
+00:05:01,350 --> 00:05:05,040
+and the satellite designers don't want
+to change anything to accommodate us
+
+76
+00:05:05,040 --> 00:05:07,340
+because we haven't proved we
+can service a satellite yet.
+
+77
+00:05:07,340 --> 00:05:11,560
+So RRM is here trying to build
+experience and we're trying to say,
+
+78
+00:05:11,560 --> 00:05:13,500
+"Look we can do it on these interfaces.
+
+79
+00:05:13,500 --> 00:05:17,900
+These are just like interfaces on
+satellites that are already up in orbit."
+
+80
+00:05:17,900 --> 00:05:22,660
+So it's kind of test bed to prove
+we have this kind of experience.
+
+81
+00:05:22,660 --> 00:05:27,070
+So really just kind of the first step
+in assuring you can convince others
+
+82
+00:05:27,070 --> 00:05:29,560
+that such a process is even
+going to be possible.
+
+83
+00:05:29,560 --> 00:05:30,380
+Precisely.
+
+84
+00:05:30,380 --> 00:05:33,450
+Okay, well walk us through a little
+bit of the activities going on today.
+
+85
+00:05:33,450 --> 00:05:35,040
+I know they're checking out some of the tools.
+
+86
+00:05:35,040 --> 00:05:38,670
+What are the exact specifications
+to what they're doing today?
+
+87
+00:05:38,670 --> 00:05:43,940
+Sure. This is a very exciting day because this
+is the first day that we actually access three
+
+88
+00:05:43,940 --> 00:05:46,120
+of our tools and power on the tool cameras.
+
+89
+00:05:46,120 --> 00:05:52,430
+So the three different tools today that
+we're checking out are the wire cutting tool,
+
+90
+00:05:52,430 --> 00:05:55,100
+the safety cap tool and the multifunction tool.
+
+91
+00:05:55,100 --> 00:06:01,090
+And what we're going to do initially is SPDM
+will go up and grasp the three tools harmonics,
+
+92
+00:06:01,090 --> 00:06:02,610
+power them on, make sure the tool cameras work.
+
+93
+00:06:02,610 --> 00:06:03,770
+We'll pull them out of the bay.
+
+94
+00:06:03,770 --> 00:06:07,900
+We'll do a visual inspection
+of them, and then we'll...
+
+95
+00:06:07,900 --> 00:06:10,570
+excuse me...and then we'll actually access...
+
+96
+00:06:10,570 --> 00:06:14,270
+we'll use the torque to command the tools
+and make sure all the tools modes work.
+
+97
+00:06:14,270 --> 00:06:18,800
+And once we've checked out the tools we'll
+proceed to use the multifunction tool
+
+98
+00:06:18,800 --> 00:06:23,930
+to release basically we have launch locks on
+some of the adapters and we need to go ahead
+
+99
+00:06:23,930 --> 00:06:28,720
+and we need to release those launch locks
+so we're prepared to pull the adapters out.
+
+100
+00:06:28,720 --> 00:06:33,940
+And then after that we're going to use the wire
+cutter tool where we have a gas fittings panel
+
+101
+00:06:33,940 --> 00:06:37,510
+which is representative of, you
+know, different satellite interfaces.
+
+102
+00:06:37,510 --> 00:06:39,060
+Not also satellites just need refueling.
+
+103
+00:06:39,060 --> 00:06:41,830
+Some of them need gas coolant filled.
+
+104
+00:06:41,830 --> 00:06:45,310
+And we have wires on some of those caps
+there that we use the wire cutter to tool
+
+105
+00:06:45,310 --> 00:06:49,100
+to cut the wire between two different
+T-valves and then there's a cap
+
+106
+00:06:49,100 --> 00:06:51,030
+on there we need to cut a wire on.
+
+107
+00:06:51,030 --> 00:06:55,730
+Okay. And so like you said, today's exciting,
+but it's just kind of a checkout day.
+
+108
+00:06:55,730 --> 00:06:57,010
+What about the next two days?
+
+109
+00:06:57,010 --> 00:06:57,590
+Is that going to be...
+
+110
+00:06:57,590 --> 00:07:02,010
+you going to be cutting wires, actually
+transferring any fluid over the next few days,
+
+111
+00:07:02,010 --> 00:07:03,550
+or what are the activities going to involve?
+
+112
+00:07:03,550 --> 00:07:05,680
+No, we won't be transferring
+fluid unfortunately.
+
+113
+00:07:05,680 --> 00:07:08,150
+That's a bit down the road, but you're correct.
+
+114
+00:07:08,150 --> 00:07:09,250
+We will be cutting wires.
+
+115
+00:07:09,250 --> 00:07:13,110
+We don't have a full set schedule
+for each of the next days.
+
+116
+00:07:13,110 --> 00:07:15,950
+The idea is to press, see how
+much we can get done every day.
+
+117
+00:07:15,950 --> 00:07:18,280
+Ideally we'd like to get ahead.
+
+118
+00:07:18,280 --> 00:07:22,510
+Today will be mostly just the
+free space checkout of the tools
+
+119
+00:07:22,510 --> 00:07:25,840
+and then tomorrow we'll probably be releasing
+those launch locks I was talking about,
+
+120
+00:07:25,840 --> 00:07:27,960
+and then the final day will be cutting wires.
+
+121
+00:07:27,960 --> 00:07:29,750
+Okay. All right, very cool.
+
+122
+00:07:29,750 --> 00:07:33,340
+We're going to be following along with
+everything, and again this is all being done
+
+123
+00:07:33,340 --> 00:07:37,650
+by controllers here in Houston and
+back at Goddard, so it's all people
+
+124
+00:07:37,650 --> 00:07:42,670
+down the ground controlling this robot 220
+miles up the air, so very exciting stuff.
+
+125
+00:07:42,670 --> 00:07:45,960
+Well Alex, we want to thank you very
+much for being here with me today.
+
+126
+00:07:45,960 --> 00:07:48,620
+Really appreciate the information,
+and we'll be following along.
+
+127
+00:07:48,620 --> 00:07:51,090
+Thank you so much for your time, and
+if there's one more thing I can throw
+
+128
+00:07:51,090 --> 00:07:53,190
+in is it's not just controllers
+here, but we're also working
+
+129
+00:07:53,190 --> 00:07:54,910
+with the Canadian Space Agency and MDA.
+
+130
+00:07:54,910 --> 00:07:57,490
+So we have controllers up in
+Canada helping us as well.
+
+131
+00:07:57,490 --> 00:08:03,340
+Okay, because Canada's heavily involved in all
+the robotic arms, pretty much producing them,
+
+132
+00:08:03,340 --> 00:08:06,360
+all the ones that are onboard the station.
+
+133
+00:08:06,360 --> 00:08:06,720
+All right.
+
+134
+00:08:06,720 --> 00:08:07,360
+Very cool.
