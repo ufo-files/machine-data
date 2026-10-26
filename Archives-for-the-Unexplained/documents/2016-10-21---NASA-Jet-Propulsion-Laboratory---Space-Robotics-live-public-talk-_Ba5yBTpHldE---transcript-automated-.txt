@@ -1,0 +1,8808 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2016-10-21---NASA-Jet-Propulsion-Laboratory---Space-Robotics-live-public-talk-_Ba5yBTpHldE---transcript-automated-.pdf", "source_sha256": "b4ca7afc8c5bae23c68e30cb06ce4d7f211983fb2a862721dd0e3d98c2ae66ee", "source_bytes": 350070, "source_mtime": 1790087567, "source_mtime_ns": 1790087567532396620, "source_ctime_ns": 1790087567636663059, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T22:33:33.248901+00:00"}
+
+1
+00:00:02,768 --> 00:00:06,239
+- [Voiceover] NASA's Jet
+Propulsion Laboratory presents
+
+2
+00:00:06,272 --> 00:00:08,975
+the von Karman Lecture,
+a series of talks
+
+3
+00:00:09,008 --> 00:00:12,612
+by scientists and engineers
+who are exploring our planet,
+
+4
+00:00:12,645 --> 00:00:16,216
+our solar system, and
+all that lies beyond.
+
+5
+00:00:17,083 --> 00:00:20,820
+(uplifting, enchanted music)
+
+6
+00:00:28,394 --> 00:00:29,462
+- Good evening,
+ladies and gentleman.
+
+7
+00:00:29,495 --> 00:00:31,397
+How's everyone tonight?
+
+8
+00:00:31,430 --> 00:00:32,665
+- [Audience] Good.
+
+9
+00:00:32,698 --> 00:00:34,200
+- Good, thank you very
+much for coming out
+
+10
+00:00:34,233 --> 00:00:36,936
+between the Thursday night
+football, the baseball game,
+
+11
+00:00:36,969 --> 00:00:39,672
+and the candidate dinner
+thing, we're really grateful
+
+12
+00:00:39,705 --> 00:00:42,141
+you made it out
+tonight. (laughs)
+
+13
+00:00:42,174 --> 00:00:44,610
+So the ability to rove
+the surface of Mars
+
+14
+00:00:44,643 --> 00:00:47,413
+has revolutionized JPL missions.
+
+15
+00:00:47,446 --> 00:00:50,883
+With more advanced mobility,
+new targets like cliff faces,
+
+16
+00:00:50,916 --> 00:00:54,220
+cave ceilings, and the surfaces
+of asteroids and comets
+
+17
+00:00:54,253 --> 00:00:56,155
+could potentially be explored.
+
+18
+00:00:56,188 --> 00:00:57,523
+Tonight's talk will
+present the work
+
+19
+00:00:57,556 --> 00:01:00,493
+of JPL's Robotic
+Rapid Prototyping Lab,
+
+20
+00:01:00,526 --> 00:01:02,662
+which is currently
+working on grippers
+
+21
+00:01:02,695 --> 00:01:05,031
+for NASA's Asteroid
+Redirect Mission.
+22
+00:01:05,064 --> 00:01:07,967
+This mission plans to
+extract a 20 ton boulder
+
+23
+00:01:08,000 --> 00:01:09,602
+from the surface of an asteroid,
+
+24
+00:01:09,635 --> 00:01:11,838
+then actually alter it's orbit,
+
+25
+00:01:11,871 --> 00:01:13,606
+using a method
+that could be used
+
+26
+00:01:13,639 --> 00:01:16,776
+to prevent future asteroid
+impacts with Earth.
+
+27
+00:01:16,809 --> 00:01:19,445
+Our guest will also talk
+about other inspired adhesives
+
+28
+00:01:19,478 --> 00:01:23,950
+and designs currently being
+tested on Earth and in space.
+
+29
+00:01:23,983 --> 00:01:25,718
+Tonight's guest is
+the group leader
+
+30
+00:01:25,751 --> 00:01:28,688
+of the Extreme Environment
+Robotics Group at JPL
+
+31
+00:01:28,721 --> 00:01:32,291
+and the head of the Robotic
+Rapid Prototyping Laboratory.
+
+32
+00:01:32,324 --> 00:01:34,427
+He received two bachelor's
+degrees from MIT
+
+33
+00:01:34,460 --> 00:01:36,796
+in Mechanical Engineering
+and Creative Writing,
+
+34
+00:01:36,829 --> 00:01:39,398
+and an MS and Ph.D.
+from Stanford University
+
+35
+00:01:39,431 --> 00:01:40,967
+in Mechanical Engineering.
+
+36
+00:01:41,000 --> 00:01:42,535
+At JPL, he currently works on
+
+37
+00:01:42,568 --> 00:01:44,804
+the Asteroid Redirect
+Mission, leading a team
+
+38
+00:01:44,837 --> 00:01:48,341
+that is developing the robotic
+grippers for the spacecraft.
+
+39
+00:01:48,374 --> 00:01:50,343
+Additionally, he
+formulates and leads
+
+40
+00:01:50,376 --> 00:01:52,545
+several technology
+development projects
+
+41
+00:01:52,578 --> 00:01:55,014
+and also assists
+work in JPL's office
+
+42
+00:01:55,047 --> 00:01:57,850
+of the Chief Scientist
+and Chief Technologist.
+43
+00:01:57,883 --> 00:01:59,285
+He and his work have
+been featured in
+
+44
+00:01:59,318 --> 00:02:02,555
+The Economist, Time Magazine,
+and as a Popular Science
+
+45
+00:02:02,588 --> 00:02:05,091
+top 100 innovation of the year,
+
+46
+00:02:05,124 --> 00:02:07,493
+as well as on the
+Discovery Channel, BBC,
+
+47
+00:02:07,526 --> 00:02:11,130
+and in JPL's own Crazy
+Engineering on YouTube.
+
+48
+00:02:11,163 --> 00:02:14,600
+In 2015, he was awarded one
+of JPL's highest honors,
+
+49
+00:02:14,633 --> 00:02:16,602
+the Lew Allen Award,
+which recognizes
+
+50
+00:02:16,635 --> 00:02:21,340
+individual accomplishments,
+pardon me, or leadership
+
+51
+00:02:21,373 --> 00:02:24,410
+in scientific research or
+technological innovation
+
+52
+00:02:24,443 --> 00:02:27,046
+by JPL employees
+during the early years
+53
+00:02:27,079 --> 00:02:28,881
+of their professional careers.
+
+54
+00:02:28,914 --> 00:02:31,117
+Ladies and gentlemen, please
+help me welcome tonight's guest
+
+55
+00:02:31,150 --> 00:02:32,418
+Dr. Aaron Parness.
+
+56
+00:02:32,451 --> 00:02:36,055
+(audience applause)
+
+57
+00:02:36,088 --> 00:02:37,090
+- Thank you.
+
+58
+00:02:39,858 --> 00:02:43,196
+Hello, everyone, thank
+you for coming out.
+
+59
+00:02:43,229 --> 00:02:44,931
+It's my honor, actually,
+to talk to you tonight
+
+60
+00:02:44,964 --> 00:02:47,200
+about our robotic grippers.
+
+61
+00:02:49,001 --> 00:02:50,336
+Let's see here.
+
+62
+00:02:50,369 --> 00:02:53,439
+So we have three basic
+technologies you'll learn about.
+
+63
+00:02:53,472 --> 00:02:55,875
+On the left is a
+gecko-inspired adhesive.
+
+64
+00:02:55,908 --> 00:02:59,111
+Geckos use lots of tiny hairs
+on the surfaces of their feet
+
+65
+00:02:59,144 --> 00:03:02,281
+to stick using van
+der Waals forces.
+
+66
+00:03:02,314 --> 00:03:04,750
+In the center is a physics
+that we all learned
+
+67
+00:03:04,783 --> 00:03:06,619
+when we were about
+five or six years old,
+
+68
+00:03:06,652 --> 00:03:09,121
+walking with wool
+socks across the carpet
+
+69
+00:03:09,154 --> 00:03:12,024
+to shock our siblings or
+rubbing the balloon on our head
+
+70
+00:03:12,057 --> 00:03:13,893
+to get it to stick to the wall.
+
+71
+00:03:13,926 --> 00:03:14,860
+So we were able to harness that
+
+72
+00:03:14,893 --> 00:03:17,396
+for sticking to things in space.
+
+73
+00:03:17,429 --> 00:03:20,766
+And on the right you
+see an insect-inspired
+
+74
+00:03:20,799 --> 00:03:23,903
+adhesive method
+using claws or hooks.
+75
+00:03:23,936 --> 00:03:28,107
+This is good for penetrable
+surfaces like soft rocks or wood
+
+76
+00:03:29,275 --> 00:03:32,411
+and for rough surfaces
+that are very sturdy
+
+77
+00:03:32,444 --> 00:03:34,113
+like volcanic rocks.
+
+78
+00:03:35,481 --> 00:03:38,217
+So the talk is broken
+up into four chapters.
+
+79
+00:03:38,250 --> 00:03:41,153
+We'll start with ARM, the
+Asteroid Redirect Mission.
+
+80
+00:03:41,186 --> 00:03:43,656
+And then we'll move,
+actually, backwards in time
+
+81
+00:03:43,689 --> 00:03:45,558
+to talk about our
+rock climbing robots.
+
+82
+00:03:45,591 --> 00:03:49,629
+These have been in development
+for about 10 or 12 years now.
+
+83
+00:03:49,662 --> 00:03:52,932
+The third chapter is on
+the gecko-like adhesives.
+
+84
+00:03:52,965 --> 00:03:57,169
+And we'll wrap up with a
+montage of videos and photos
+85
+00:03:57,202 --> 00:04:00,339
+of some of our
+prototypes in the lab.
+
+86
+00:04:00,372 --> 00:04:04,143
+And I'll try and touch on the
+iterative design principles
+
+87
+00:04:04,176 --> 00:04:07,780
+we use and the rapid prototyping
+techniques that enable us
+
+88
+00:04:07,813 --> 00:04:11,985
+to make these robots very
+fast and very cost effective.
+
+89
+00:04:13,485 --> 00:04:15,788
+Okay, so ARM, the
+Asteroid Redirect Mission.
+
+90
+00:04:15,821 --> 00:04:18,824
+It's a NASA mission, JPL
+is leading this mission.
+
+91
+00:04:18,857 --> 00:04:20,826
+But there's a lot of partners.
+
+92
+00:04:20,859 --> 00:04:23,796
+Goddard Space Flight Center is
+developing the capture module
+
+93
+00:04:23,829 --> 00:04:26,666
+with significant
+contributions from Langley
+
+94
+00:04:26,699 --> 00:04:29,468
+as well as some teams
+back here at JPL.
+
+95
+00:04:29,501 --> 00:04:32,038
+Glenn Research Center is
+developing a high-power
+
+96
+00:04:32,071 --> 00:04:35,408
+solar electric propulsion
+system for this mission,
+
+97
+00:04:35,441 --> 00:04:38,644
+and Johnson Space Center is
+working on a follow-on mission
+
+98
+00:04:38,677 --> 00:04:40,646
+that would send
+astronauts to the boulder
+
+99
+00:04:40,679 --> 00:04:42,882
+that we're collecting
+off the surface.
+
+100
+00:04:42,915 --> 00:04:45,418
+The spacecraft itself
+is going to built by an
+
+101
+00:04:45,451 --> 00:04:48,354
+industrial partner, and that's
+in competition right now.
+
+102
+00:04:48,387 --> 00:04:50,056
+So there are four
+finalists competing
+
+103
+00:04:50,089 --> 00:04:52,592
+to see who will build the bus.
+
+104
+00:04:54,026 --> 00:04:57,396
+An animation here shows the
+mission during the surface
+
+105
+00:04:57,429 --> 00:05:00,266
+phase, which is a really
+critical phase of the mission.
+
+106
+00:05:00,299 --> 00:05:01,901
+We're scanning the asteroid.
+
+107
+00:05:01,934 --> 00:05:03,803
+It's a giant spacecraft.
+
+108
+00:05:03,836 --> 00:05:07,440
+From tip to tip, those solar
+arrays are about 40 meters,
+
+109
+00:05:07,473 --> 00:05:12,044
+or over 120 feet, much larger
+than an NBA basketball court.
+
+110
+00:05:12,077 --> 00:05:14,513
+We need all that power for
+that high-power solar electric
+
+111
+00:05:14,546 --> 00:05:16,982
+propulsion system, which
+is really good for pushing
+
+112
+00:05:17,015 --> 00:05:21,754
+heavy things like 20 ton
+boulders around in space.
+
+113
+00:05:21,787 --> 00:05:25,558
+As we land, we're gonna absorb
+that landing with the legs,
+
+114
+00:05:25,591 --> 00:05:27,660
+try and cushion ourselves
+and use our thrusters
+
+115
+00:05:27,693 --> 00:05:30,529
+to make sure we don't
+bounce, as was what happened
+116
+00:05:30,562 --> 00:05:34,166
+to the Philae lander on
+the comet about a year ago.
+
+117
+00:05:34,199 --> 00:05:36,369
+Asteroids are actually
+notoriously hard to land on.
+
+118
+00:05:36,402 --> 00:05:39,638
+The Japanese also failed in
+an attempt about 12 years ago
+
+119
+00:05:39,671 --> 00:05:42,274
+with a mission called Hayabusa.
+
+120
+00:05:42,307 --> 00:05:44,744
+We'll use dexterous robotic
+arms to place grippers
+
+121
+00:05:44,777 --> 00:05:47,046
+onto the surface
+of this boulder.
+
+122
+00:05:47,079 --> 00:05:50,015
+And I lead the team that's
+developing these grippers.
+
+123
+00:05:50,048 --> 00:05:52,952
+First, we'll grab onto
+the outside of the rock
+
+124
+00:05:52,985 --> 00:05:55,621
+and then use that grip
+to support a drill
+
+125
+00:05:55,654 --> 00:05:58,424
+that penetrates into the rock
+about four or five inches,
+126
+00:05:58,457 --> 00:06:00,793
+which creates a really
+strong anchor point
+
+127
+00:06:00,826 --> 00:06:03,262
+to pull that boulder
+off the surface.
+
+128
+00:06:03,295 --> 00:06:06,232
+Now the boulder has a
+mass of about 20 tons,
+
+129
+00:06:06,265 --> 00:06:09,301
+but on an asteroid, it only
+weighs one or two pounds,
+
+130
+00:06:09,334 --> 00:06:11,003
+and that's because the
+gravitational environment
+
+131
+00:06:11,036 --> 00:06:11,871
+is so low.
+
+132
+00:06:13,272 --> 00:06:15,941
+So we're actually more worried
+about forces like cohesion
+
+133
+00:06:15,974 --> 00:06:18,277
+between the regolith
+and the boulder
+
+134
+00:06:18,310 --> 00:06:22,181
+than we are about the
+weight of that boulder.
+
+135
+00:06:22,214 --> 00:06:23,916
+Once we have it back
+off the surface,
+
+136
+00:06:23,949 --> 00:06:25,684
+we're gonna wrap it up tight
+so we can bring it back
+
+137
+00:06:25,717 --> 00:06:27,186
+to the Earth-Moon System.
+
+138
+00:06:27,219 --> 00:06:28,587
+We're gonna do some
+other cool things with it
+
+139
+00:06:28,620 --> 00:06:31,124
+before we depart the asteroid.
+
+140
+00:06:32,157 --> 00:06:34,693
+So the high-level goals for ARM.
+
+141
+00:06:34,726 --> 00:06:36,962
+The first one, is
+demonstrate the ability
+
+142
+00:06:36,995 --> 00:06:39,999
+to alter an
+asteroid's trajectory.
+
+143
+00:06:40,032 --> 00:06:42,435
+So nudge it out of the way
+if it's coming to hit Earth,
+
+144
+00:06:42,468 --> 00:06:43,903
+so it's a near miss instead of
+
+145
+00:06:43,936 --> 00:06:46,972
+a dinosaur killing
+kind of event.
+
+146
+00:06:47,005 --> 00:06:48,874
+The second one is
+to get that boulder.
+147
+00:06:48,907 --> 00:06:52,178
+And we're gonna put that
+boulder in orbit around the Moon
+
+148
+00:06:52,211 --> 00:06:54,747
+where it's safe and it doesn't
+risk any damage to the Earth
+
+149
+00:06:54,780 --> 00:06:57,349
+or any of our assets
+in Earth orbit,
+
+150
+00:06:57,382 --> 00:06:59,318
+but where it's
+accessible to astronauts
+
+151
+00:06:59,351 --> 00:07:02,655
+in a follow-on mission and
+potentially others, as well.
+
+152
+00:07:02,688 --> 00:07:04,323
+You may have heard about
+some of these companies
+
+153
+00:07:04,356 --> 00:07:07,860
+that have started up recently
+trying to mine asteroids.
+
+154
+00:07:07,893 --> 00:07:09,595
+We might make that
+boulder available to them
+
+155
+00:07:09,628 --> 00:07:13,766
+as sort of a practice
+resource close to home.
+
+156
+00:07:13,799 --> 00:07:17,136
+The third key goal is to
+demonstrate technologies
+157
+00:07:17,169 --> 00:07:19,305
+for NASA's Journey to Mars.
+
+158
+00:07:19,338 --> 00:07:22,308
+The Journey to Mars is
+NASA's plan to send humans
+
+159
+00:07:22,341 --> 00:07:27,279
+to the surface of Mars in
+the late 2030s or 2040s.
+
+160
+00:07:27,312 --> 00:07:29,682
+To do that, we need a
+few key technologies
+
+161
+00:07:29,715 --> 00:07:31,250
+we don't have today.
+
+162
+00:07:31,283 --> 00:07:33,452
+One of those is the
+SEP, the ability to push
+
+163
+00:07:33,485 --> 00:07:35,788
+those heavy things
+around the solar system.
+
+164
+00:07:35,821 --> 00:07:39,124
+This would be habitats,
+fuel, a rocket
+
+165
+00:07:39,157 --> 00:07:42,428
+to get us back off the
+surface of Mars, food, water.
+
+166
+00:07:42,461 --> 00:07:44,930
+We wanna stage all of that
+at Mars before we ever
+
+167
+00:07:44,963 --> 00:07:48,300
+send a crew out there,
+and we need this
+
+168
+00:07:48,333 --> 00:07:50,302
+high-power SEP to get it there.
+
+169
+00:07:50,335 --> 00:07:52,438
+We'll also demonstrate robotics.
+
+170
+00:07:52,471 --> 00:07:55,307
+Any human mission to Mars
+is gonna be a collaboration
+
+171
+00:07:55,340 --> 00:07:57,910
+between robots and astronauts.
+
+172
+00:07:57,943 --> 00:08:01,013
+And so, we'll take the
+first steps in that here.
+
+173
+00:08:01,046 --> 00:08:04,650
+And in the follow-on
+mission, ARCM,
+
+174
+00:08:04,683 --> 00:08:06,785
+the Asteroid Redirect
+Crewed Mission,
+
+175
+00:08:06,818 --> 00:08:09,455
+we'll be doing EVAs
+at the boulder.
+
+176
+00:08:09,488 --> 00:08:11,824
+The first time doing
+astronaut activities
+
+177
+00:08:11,857 --> 00:08:15,594
+beyond low Earth orbit
+since the days of Apollo.
+178
+00:08:15,627 --> 00:08:17,396
+And we would use
+the Orion spacecraft
+
+179
+00:08:17,429 --> 00:08:19,765
+and the SLS rocket for that.
+
+180
+00:08:21,600 --> 00:08:22,835
+So the first one of those goals
+
+181
+00:08:22,868 --> 00:08:24,537
+always gets the
+attention, right?
+
+182
+00:08:24,570 --> 00:08:26,305
+We're gonna push an
+asteroid out of the way
+
+183
+00:08:26,338 --> 00:08:28,007
+so it doesn't hit the Earth.
+
+184
+00:08:28,040 --> 00:08:31,777
+So I got some of my jokes
+from the popular media,
+
+185
+00:08:31,810 --> 00:08:33,479
+and here you can see,
+we've already had
+
+186
+00:08:33,512 --> 00:08:35,614
+our get out of jail free card.
+
+187
+00:08:35,647 --> 00:08:37,816
+The dinosaurs saved the mammals
+
+188
+00:08:37,849 --> 00:08:41,720
+when the first extinction
+event came along.
+189
+00:08:41,753 --> 00:08:44,056
+The other one I like,
+here are two dinosaurs
+
+190
+00:08:44,089 --> 00:08:47,526
+sitting together, and in case
+you can't read the bottom,
+
+191
+00:08:47,559 --> 00:08:50,996
+one of them is saying,
+"I'm saying now is the time
+
+192
+00:08:51,029 --> 00:08:53,666
+to develop technology
+to deflect an asteroid."
+
+193
+00:08:53,699 --> 00:08:54,700
+(audience laughing)
+
+194
+00:08:54,733 --> 00:08:56,903
+So, I couldn't agree more.
+
+195
+00:08:58,670 --> 00:09:02,408
+Now, some of you may have said,
+I've seen this movie before.
+
+196
+00:09:02,441 --> 00:09:04,810
+What's scary is the interns
+that we get into our lab,
+
+197
+00:09:04,843 --> 00:09:06,312
+some of them haven't
+seen this movie,
+
+198
+00:09:06,345 --> 00:09:07,179
+and they don't remember it.
+
+199
+00:09:07,212 --> 00:09:08,547
+(audience laughing)
+200
+00:09:08,580 --> 00:09:09,949
+But we send Bruce Willis, right?
+
+201
+00:09:09,982 --> 00:09:12,051
+If an asteroid is
+coming to hit the Earth,
+
+202
+00:09:12,084 --> 00:09:14,153
+put a nuclear bomb
+on the surface
+
+203
+00:09:14,186 --> 00:09:16,088
+and obliterate
+it, right?
+
+204
+00:09:16,121 --> 00:09:18,624
+And that's one possible method.
+
+205
+00:09:18,657 --> 00:09:20,926
+And if it was
+coming really fast,
+
+206
+00:09:20,959 --> 00:09:22,661
+and we didn't have
+a lot of time,
+
+207
+00:09:22,694 --> 00:09:25,664
+that might be the
+method that we chose.
+
+208
+00:09:25,697 --> 00:09:27,466
+But there's actually
+several other ways
+
+209
+00:09:27,499 --> 00:09:30,569
+that we might deflect
+that asteroid.
+
+210
+00:09:30,602 --> 00:09:32,838
+And some of them don't require
+launching a nuclear bomb
+
+211
+00:09:32,871 --> 00:09:34,941
+off the coast of Florida.
+
+212
+00:09:36,508 --> 00:09:39,678
+The method we've selected is
+a gravity tractor technique.
+
+213
+00:09:39,711 --> 00:09:42,181
+We're not sure if it's
+the best technique.
+
+214
+00:09:42,214 --> 00:09:44,283
+We don't know, we haven't
+done this before, right?
+
+215
+00:09:44,316 --> 00:09:45,818
+But it's the technique we think
+
+216
+00:09:45,851 --> 00:09:47,820
+we can achieve
+with this mission,
+
+217
+00:09:47,853 --> 00:09:50,923
+and so we collect that
+boulder, and the combined mass
+
+218
+00:09:50,956 --> 00:09:53,425
+of the spacecraft and
+the boulder is enough
+
+219
+00:09:53,458 --> 00:09:56,061
+that when we hover
+in a halo orbit
+
+220
+00:09:56,094 --> 00:09:58,764
+on one side of the asteroid,
+the gravitational attraction
+
+221
+00:09:58,797 --> 00:10:01,767
+between us and that
+parent asteroid
+
+222
+00:10:01,800 --> 00:10:05,237
+will slowly tug it, over the
+course of several months,
+
+223
+00:10:05,270 --> 00:10:06,939
+and change its orbit.
+
+224
+00:10:06,972 --> 00:10:10,442
+So we're tracking all of the
+potentially hazardous asteroids
+
+225
+00:10:10,475 --> 00:10:12,077
+that are gonna come
+and hit the Earth.
+
+226
+00:10:12,110 --> 00:10:13,545
+By the way, nothing
+to worry about
+
+227
+00:10:13,578 --> 00:10:17,683
+for the next 50 to 100 years,
+but we're tracking them.
+
+228
+00:10:17,716 --> 00:10:20,452
+And so we could send one of
+these missions out in advance,
+
+229
+00:10:20,485 --> 00:10:22,888
+demonstrate that we've
+pushed it off course,
+
+230
+00:10:22,921 --> 00:10:25,524
+and then continue to track
+it to confirm that it is,
+231
+00:10:25,557 --> 00:10:27,893
+in fact, no longer a threat.
+
+232
+00:10:30,729 --> 00:10:33,132
+So to get that boulder,
+to increase our mass,
+
+233
+00:10:33,165 --> 00:10:35,901
+to make that gravity
+tractor extra effective,
+
+234
+00:10:35,934 --> 00:10:37,569
+we're gonna use these grippers.
+
+235
+00:10:37,602 --> 00:10:41,774
+So two of these grippers
+that are about yea big
+
+236
+00:10:41,807 --> 00:10:44,610
+are gonna grab that big
+boulder you see in the back.
+
+237
+00:10:44,643 --> 00:10:47,546
+And that's a mock up that's
+at the Satellite Servicing Lab
+
+238
+00:10:47,579 --> 00:10:50,215
+out at Goddard
+Space Flight Center.
+
+239
+00:10:50,248 --> 00:10:52,418
+So how do you grab a rock?
+
+240
+00:10:53,618 --> 00:10:56,488
+We use a technology
+called microspines.
+
+241
+00:10:56,521 --> 00:10:58,057
+They're basically sharp hooks
+
+242
+00:10:58,090 --> 00:11:00,292
+and flexible
+suspension structures.
+
+243
+00:11:00,325 --> 00:11:02,227
+So you drag them
+along the surface,
+
+244
+00:11:02,260 --> 00:11:04,697
+and they opportunistically
+catch hold
+
+245
+00:11:04,730 --> 00:11:07,833
+of bumps, pits,
+ledges, ramps, holes.
+
+246
+00:11:08,934 --> 00:11:11,103
+They only need really
+small roughness.
+
+247
+00:11:11,136 --> 00:11:14,339
+Much smaller than what you
+might grip with your hand.
+
+248
+00:11:14,372 --> 00:11:16,508
+In fact, in these prototypes,
+we're using fishhooks.
+
+249
+00:11:16,541 --> 00:11:18,143
+So you can imagine
+dragging a sharp fishhook
+
+250
+00:11:18,176 --> 00:11:21,580
+across a rock, it's gonna
+catch pretty readily.
+
+251
+00:11:21,613 --> 00:11:23,315
+A key feature of
+these microspines,
+
+252
+00:11:23,348 --> 00:11:25,951
+is that when they catch, they
+don't prevent their neighbors
+
+253
+00:11:25,984 --> 00:11:29,588
+from also trying to search
+out a good place to catch.
+
+254
+00:11:29,621 --> 00:11:31,123
+So they load share.
+
+255
+00:11:31,156 --> 00:11:33,892
+Each microspine only holds
+one or two pounds of force,
+
+256
+00:11:33,925 --> 00:11:35,961
+but you can use them
+by the thousands,
+
+257
+00:11:35,994 --> 00:11:40,166
+and only need 10% or so to
+support a really large load.
+
+258
+00:11:43,101 --> 00:11:44,737
+So here's what one
+of those looks like
+
+259
+00:11:44,770 --> 00:11:46,972
+as it drags across the surface.
+
+260
+00:11:47,005 --> 00:11:49,775
+You can see the hook
+catches, and when it catches,
+
+261
+00:11:49,808 --> 00:11:52,578
+you'll notice the yellow sort
+of rubber band-like feature
+262
+00:11:52,611 --> 00:11:54,246
+in the back stretches out.
+
+263
+00:11:54,279 --> 00:11:57,049
+That's when it's supporting
+that one or two pounds of force.
+
+264
+00:11:57,082 --> 00:12:00,119
+And again, we only need
+10% or so of these to catch
+
+265
+00:12:00,152 --> 00:12:04,390
+in order to support the loads
+we need for the mission.
+
+266
+00:12:08,593 --> 00:12:12,765
+So in order to grab a rock, we
+need more than just that tip.
+
+267
+00:12:14,132 --> 00:12:17,503
+Rocks are rough on a macro
+scale as well as a micro scale,
+
+268
+00:12:17,536 --> 00:12:20,339
+and so we use a
+hierarchical compliance
+
+269
+00:12:20,372 --> 00:12:22,875
+to try and conform to
+the rock's geometry
+
+270
+00:12:22,908 --> 00:12:25,677
+at all of the different
+length scales.
+
+271
+00:12:25,710 --> 00:12:27,713
+And since we're doing
+this in microgravity,
+
+272
+00:12:27,746 --> 00:12:30,082
+we use oppositional microspines.
+
+273
+00:12:30,115 --> 00:12:32,117
+So they're reacting
+against one another,
+
+274
+00:12:32,150 --> 00:12:33,886
+they're all squeezing
+towards the center,
+
+275
+00:12:33,919 --> 00:12:36,922
+so that you don't need any
+gravity to load them up.
+
+276
+00:12:36,955 --> 00:12:38,524
+And they can support forces
+
+277
+00:12:38,557 --> 00:12:41,894
+that you might exert in
+any different direction.
+
+278
+00:12:41,927 --> 00:12:43,362
+And, of course, since
+we're going to an asteroid,
+
+279
+00:12:43,395 --> 00:12:45,898
+we better make sure
+that they can withstand
+
+280
+00:12:45,931 --> 00:12:48,000
+the extreme environment
+that we're gonna find there.
+
+281
+00:12:48,033 --> 00:12:49,268
+So this is vacuum,
+
+282
+00:12:49,301 --> 00:12:51,770
+potentially very cold
+temperatures, as well.
+283
+00:12:51,803 --> 00:12:54,072
+So those rubber band-like
+features I showed you before,
+
+284
+00:12:54,105 --> 00:12:55,541
+those are not gonna work.
+
+285
+00:12:55,574 --> 00:12:57,743
+So we've done a
+lot of development
+
+286
+00:12:57,776 --> 00:13:00,045
+to make metallic
+versions of microspines
+
+287
+00:13:00,078 --> 00:13:04,049
+that can withstand
+those cold temperatures.
+
+288
+00:13:04,082 --> 00:13:06,518
+On the first point, the
+hierarchical compliance,
+
+289
+00:13:06,551 --> 00:13:09,988
+most natural surfaces
+have fractal roughness,
+
+290
+00:13:10,021 --> 00:13:13,258
+meaning they're rough at every
+length scale you look at.
+
+291
+00:13:13,291 --> 00:13:15,427
+So as you continue to
+increase your magnification
+
+292
+00:13:15,460 --> 00:13:17,095
+with the microscope, all you see
+
+293
+00:13:17,128 --> 00:13:19,464
+is the same level of roughness.
+
+294
+00:13:19,497 --> 00:13:22,467
+So to match that, we use
+a hierarchical system
+
+295
+00:13:22,500 --> 00:13:26,004
+that can conform at all of
+those different length scales.
+
+296
+00:13:26,037 --> 00:13:28,807
+So the microspines grip
+at the milometer scale,
+
+297
+00:13:28,840 --> 00:13:32,277
+we put those into cassettes
+that can conform to the rock
+
+298
+00:13:32,310 --> 00:13:35,814
+at centimeter scale, and we use
+the robotic arms to place us
+
+299
+00:13:35,847 --> 00:13:38,383
+in position at the
+10 centimeter,
+
+300
+00:13:38,416 --> 00:13:41,386
+100 centimeter scale.
+
+301
+00:13:41,419 --> 00:13:43,255
+So you can see that in action.
+
+302
+00:13:43,288 --> 00:13:46,325
+Here, you've seen some of
+these microspines have caught,
+
+303
+00:13:46,358 --> 00:13:48,360
+they've stretched out,
+they're sharing the load
+304
+00:13:48,393 --> 00:13:51,263
+between any of them that
+have stretched out here.
+
+305
+00:13:51,296 --> 00:13:53,999
+Let's see, you can
+see these have caught.
+
+306
+00:13:54,032 --> 00:13:55,934
+And then these here
+have not caught.
+
+307
+00:13:55,967 --> 00:13:59,905
+So this is more than 10%,
+we have a very good grip.
+
+308
+00:13:59,938 --> 00:14:03,508
+You can see here, some of that
+centimeter scale compliance.
+
+309
+00:14:03,541 --> 00:14:07,179
+Some of these cassettes have
+gone to different angles
+
+310
+00:14:07,212 --> 00:14:08,614
+to conform to the
+rock, and some of them
+
+311
+00:14:08,647 --> 00:14:12,618
+have squeezed in
+closer to the gripper.
+
+312
+00:14:12,651 --> 00:14:15,320
+Another demonstration, you
+can see both of those levels
+
+313
+00:14:15,353 --> 00:14:18,891
+happening here and
+supporting some force.
+314
+00:14:18,924 --> 00:14:23,395
+So this is about 25 pounds,
+30 pounds on the left and
+
+315
+00:14:23,428 --> 00:14:27,600
+20 pounds on the right with
+some of our early prototypes.
+
+316
+00:14:28,967 --> 00:14:30,802
+Here's a video that's
+showing you how that works.
+
+317
+00:14:30,835 --> 00:14:33,205
+We have two actuations,
+
+318
+00:14:33,238 --> 00:14:35,407
+two mechanisms that
+are at play here.
+
+319
+00:14:35,440 --> 00:14:38,143
+One that puts those
+cassettes up and down,
+
+320
+00:14:38,176 --> 00:14:41,346
+and the other one that squeezes
+them in towards the center.
+
+321
+00:14:41,379 --> 00:14:43,382
+So the idea is, you
+come into the rock,
+
+322
+00:14:43,415 --> 00:14:45,884
+you deploy your microspines,
+they all conform
+
+323
+00:14:45,917 --> 00:14:49,154
+to whatever roughness they
+find, you squeeze together,
+324
+00:14:49,187 --> 00:14:51,590
+and now you've got a good grip.
+
+325
+00:14:51,623 --> 00:14:53,892
+You just reverse that
+process to let go.
+
+326
+00:14:53,925 --> 00:14:56,195
+So it's a reusable gripper.
+
+327
+00:14:58,029 --> 00:14:59,364
+Here's some of the
+work we've been doing
+
+328
+00:14:59,397 --> 00:15:02,501
+to make these
+microspines space-grade.
+
+329
+00:15:02,534 --> 00:15:04,102
+You can see some of
+the early prototypes
+
+330
+00:15:04,135 --> 00:15:05,871
+in the upper left when
+we are using those
+
+331
+00:15:05,904 --> 00:15:08,974
+rubber band-like
+polyurethane flexures.
+
+332
+00:15:09,007 --> 00:15:11,343
+We used some extension
+springs, they kind of thing
+
+333
+00:15:11,376 --> 00:15:13,979
+you would find in a ballpoint
+pen, and then we used
+
+334
+00:15:14,012 --> 00:15:16,481
+these sort of curly Q flexures
+where we started using
+
+335
+00:15:16,514 --> 00:15:20,119
+the aluminum itself as
+the spring material.
+
+336
+00:15:21,286 --> 00:15:22,421
+If you look in the
+center, you can see
+
+337
+00:15:22,454 --> 00:15:24,790
+we went to sort of
+zig-zag like flexures.
+
+338
+00:15:24,823 --> 00:15:28,060
+And on the right, we've actually
+been gluing in very thin
+
+339
+00:15:28,093 --> 00:15:31,496
+steel ribbons that are acting
+like a leaf spring to provide
+
+340
+00:15:31,529 --> 00:15:35,200
+that compliance, mimicking
+what the rubber band does.
+
+341
+00:15:35,233 --> 00:15:37,235
+In the lower left,
+we've been experimenting
+
+342
+00:15:37,268 --> 00:15:39,271
+with different kinds of hooks.
+
+343
+00:15:39,304 --> 00:15:42,374
+So we have a fish hook,
+which is a conical point,
+
+344
+00:15:42,407 --> 00:15:44,776
+we've also been looking at
+razor blades, so more of
+
+345
+00:15:44,809 --> 00:15:48,981
+a shovel tip, and some more
+exotic things even than that.
+
+346
+00:15:50,382 --> 00:15:52,584
+These are now being
+carried on a linkage.
+
+347
+00:15:52,617 --> 00:15:54,720
+And here you can see some
+of this iterative design
+
+348
+00:15:54,753 --> 00:15:56,254
+I mentioned at the beginning.
+
+349
+00:15:56,287 --> 00:15:59,224
+We've gone through about four
+different linkage topologies
+
+350
+00:15:59,257 --> 00:16:03,295
+with multiple designs at
+each one of those iterations.
+
+351
+00:16:03,328 --> 00:16:04,930
+And we're trying to make
+sure that the microspines
+
+352
+00:16:04,963 --> 00:16:07,966
+all make contact with the
+rock, and that as we drag them
+
+353
+00:16:07,999 --> 00:16:11,136
+along the surface, the angle
+doesn't change too much.
+
+354
+00:16:11,169 --> 00:16:12,237
+And that's true whether we're on
+355
+00:16:12,270 --> 00:16:14,773
+a flat rock or a round rock.
+
+356
+00:16:14,806 --> 00:16:16,208
+So we've been
+playing around with
+
+357
+00:16:16,241 --> 00:16:19,311
+the four-bar linkage perimeters
+to try and optimize that.
+
+358
+00:16:19,344 --> 00:16:21,513
+But you can't just
+build the prototype,
+
+359
+00:16:21,546 --> 00:16:23,181
+you have to test the prototype.
+
+360
+00:16:23,214 --> 00:16:26,651
+And so here is a test stand
+for a single cassette.
+
+361
+00:16:26,684 --> 00:16:28,520
+We're able to execute a motion
+
+362
+00:16:28,553 --> 00:16:31,757
+where we bring those
+microspines into the rock,
+
+363
+00:16:31,790 --> 00:16:33,258
+drag them along the surface,
+
+364
+00:16:33,291 --> 00:16:37,429
+and there's a six axis force
+torque censor behind the rock.
+
+365
+00:16:37,462 --> 00:16:38,930
+So we're measuring
+all of the forces
+366
+00:16:38,963 --> 00:16:42,034
+during that whole procedure.
+
+367
+00:16:42,067 --> 00:16:44,636
+I think there's a
+video of this, yup.
+
+368
+00:16:44,669 --> 00:16:47,372
+So here you go, this
+is a very soft rock.
+
+369
+00:16:47,405 --> 00:16:49,674
+We're going to a
+carbonaceous chondrite,
+
+370
+00:16:49,707 --> 00:16:52,611
+which is a type of asteroid
+that is usually considered
+
+371
+00:16:52,644 --> 00:16:55,981
+to be softer than the stony
+asteroids, the S-types,
+
+372
+00:16:56,014 --> 00:16:58,750
+or the metallic
+asteroids, the M-types.
+
+373
+00:16:58,783 --> 00:17:00,819
+But we chose a C-type asteroid
+
+374
+00:17:00,852 --> 00:17:03,055
+because it has the
+most water content.
+
+375
+00:17:03,088 --> 00:17:04,923
+It has the most
+carbon rich molecules.
+
+376
+00:17:04,956 --> 00:17:08,727
+So it's scientifically
+very interesting.
+
+377
+00:17:08,760 --> 00:17:12,664
+In fact, some folks believe
+that asteroid and comet impacts
+
+378
+00:17:12,697 --> 00:17:15,400
+actually seeded the
+primordial soup,
+
+379
+00:17:15,433 --> 00:17:18,136
+put the building blocks
+of life onto the planet
+
+380
+00:17:18,169 --> 00:17:19,805
+during the late
+bombardment period
+
+381
+00:17:19,838 --> 00:17:22,774
+that helped spark
+life on our planet.
+
+382
+00:17:22,807 --> 00:17:24,676
+So we wanna investigate,
+what are those carbon bearing
+
+383
+00:17:24,709 --> 00:17:27,112
+molecules that are
+on the surface
+
+384
+00:17:27,145 --> 00:17:28,914
+of these C-type
+asteroids?
+
+385
+00:17:28,947 --> 00:17:30,649
+Now what you probably
+can't see very well
+
+386
+00:17:30,682 --> 00:17:34,686
+in the lower right corner
+there is a plot of the forces.
+
+387
+00:17:34,719 --> 00:17:37,289
+So during the drag force,
+that blue line goes up
+
+388
+00:17:37,322 --> 00:17:40,525
+because we're having a lot
+of force along the surface.
+
+389
+00:17:40,558 --> 00:17:42,994
+And then when we start
+to raise the center,
+
+390
+00:17:43,027 --> 00:17:45,597
+which is out of frame, you
+see the red line go up,
+
+391
+00:17:45,630 --> 00:17:47,265
+which is the adhesive
+force we're getting
+
+392
+00:17:47,298 --> 00:17:49,868
+pulling away from that rock.
+
+393
+00:17:49,901 --> 00:17:52,137
+So we can use this
+test stand to optimize
+
+394
+00:17:52,170 --> 00:17:55,941
+both the microspine design
+and that linkage design.
+
+395
+00:17:55,974 --> 00:17:58,276
+And it sure beats making
+a thousand microspines
+
+396
+00:17:58,309 --> 00:18:00,479
+every time you
+have a new design.
+
+397
+00:18:00,512 --> 00:18:02,914
+But in order to estimate what
+that grip strength would be,
+
+398
+00:18:02,947 --> 00:18:04,516
+we do a statistically
+method called
+
+399
+00:18:04,549 --> 00:18:07,352
+a Monte Carlo simulation
+to try and predict
+
+400
+00:18:07,385 --> 00:18:09,488
+what a grip strength would be at
+
+401
+00:18:09,521 --> 00:18:12,858
+out of a distribution
+of 20 or so tests.
+
+402
+00:18:15,727 --> 00:18:16,895
+Of course, every once
+in a while,
+
+403
+00:18:16,928 --> 00:18:18,864
+we do make a
+full gripper.
+
+404
+00:18:18,897 --> 00:18:21,700
+So this was a 2.0 gripper.
+
+405
+00:18:21,733 --> 00:18:25,403
+It was worked on in
+collaboration with Thomas Evans
+
+406
+00:18:25,436 --> 00:18:26,938
+at West Virginia
+University, who provided
+407
+00:18:26,971 --> 00:18:29,274
+the robot arm to do testing.
+
+408
+00:18:29,307 --> 00:18:33,345
+So this gripper has
+about 650 microspines.
+
+409
+00:18:33,378 --> 00:18:35,380
+It's got them in
+two different rings,
+
+410
+00:18:35,413 --> 00:18:37,549
+and it turns out that
+was a bad design.
+
+411
+00:18:37,582 --> 00:18:40,752
+So in the 3.0 gripper, we
+went back to just one ring.
+
+412
+00:18:40,785 --> 00:18:42,320
+The reason it was bad is
+because the inner ring
+
+413
+00:18:42,353 --> 00:18:44,656
+and the outer ring would
+be at different angles
+
+414
+00:18:44,689 --> 00:18:47,425
+if you were on a flat
+rock versus a curved rock.
+
+415
+00:18:47,458 --> 00:18:50,162
+And so the angles of those
+hooks essentially meant one ring
+
+416
+00:18:50,195 --> 00:18:53,131
+was very effective and the
+other ring was not effective.
+417
+00:18:53,164 --> 00:18:56,301
+So we just decided,
+let's just pick one ring.
+
+418
+00:18:56,334 --> 00:18:58,870
+You can see the same
+kind of data coming in
+
+419
+00:18:58,903 --> 00:19:01,840
+in the upper left as we're
+starting to support loads.
+
+420
+00:19:01,873 --> 00:19:06,044
+In this test, we get up to,
+that's about 100, 120 newtons.
+
+421
+00:19:07,412 --> 00:19:10,916
+Before you see us slip,
+and then it reattaches
+
+422
+00:19:10,949 --> 00:19:13,051
+and starts to grip again.
+
+423
+00:19:15,687 --> 00:19:17,055
+A question we get all the time
+
+424
+00:19:17,088 --> 00:19:20,025
+is what happens if there's
+dust on the surface?
+
+425
+00:19:20,058 --> 00:19:22,327
+And since the hooks
+are very sharp,
+
+426
+00:19:22,360 --> 00:19:24,129
+as long as that
+dust isn't too deep,
+
+427
+00:19:24,162 --> 00:19:26,064
+they'll just dig
+right through it.
+
+428
+00:19:26,097 --> 00:19:28,633
+And so here you can see a
+prototype that was built,
+
+429
+00:19:28,666 --> 00:19:30,669
+where we're able
+to pull out a rock
+
+430
+00:19:30,702 --> 00:19:33,772
+that is completely
+covered in dust.
+
+431
+00:19:33,805 --> 00:19:35,307
+And so on the asteroid
+surface, it may be
+
+432
+00:19:35,340 --> 00:19:37,876
+a dusty environment, but we
+don't expect that dust layer
+
+433
+00:19:37,909 --> 00:19:42,080
+to be so deep that we won't
+just cut right through it.
+
+434
+00:19:43,948 --> 00:19:46,585
+So some of the
+prototype evolution.
+
+435
+00:19:46,618 --> 00:19:49,588
+We started with rapid
+prototype 3D printed parts,
+
+436
+00:19:49,621 --> 00:19:53,024
+moving as fast as we could,
+designing in plastic.
+
+437
+00:19:53,057 --> 00:19:55,026
+And then we move into
+the aluminum grippers,
+
+438
+00:19:55,059 --> 00:19:56,828
+which are larger,
+that's the actual size
+
+439
+00:19:56,861 --> 00:19:58,663
+we're gonna fly on the mission.
+
+440
+00:19:58,696 --> 00:20:00,832
+So we call this the 2.0 Tool.
+
+441
+00:20:00,865 --> 00:20:03,235
+We actually built two of
+those grippers at that size.
+
+442
+00:20:03,268 --> 00:20:06,705
+So here's 2.1, has some
+slightly different electronics
+
+443
+00:20:06,738 --> 00:20:10,275
+and different microspines,
+the hoop flexures down there
+
+444
+00:20:10,308 --> 00:20:13,979
+where we were testing
+out some new concepts.
+
+445
+00:20:14,012 --> 00:20:17,082
+Currently, we're actually
+building the 3.0 Tool.
+
+446
+00:20:17,115 --> 00:20:18,917
+So this is coming
+together right now.
+
+447
+00:20:18,950 --> 00:20:20,986
+You're seeing pictures
+hot off the presses.
+448
+00:20:21,019 --> 00:20:23,421
+This is maybe a day or
+two ago we took this one.
+
+449
+00:20:23,454 --> 00:20:25,423
+This is our drivetrain.
+
+450
+00:20:25,456 --> 00:20:27,058
+It's basically like the gearbox
+
+451
+00:20:27,091 --> 00:20:28,693
+or the transmission in your car.
+
+452
+00:20:28,726 --> 00:20:30,295
+It's got a two-stage clutch,
+
+453
+00:20:30,328 --> 00:20:34,199
+and it powers six different
+mechanisms in the Tool.
+
+454
+00:20:34,232 --> 00:20:37,002
+The 3.0 Tool is actually
+much more complex
+
+455
+00:20:37,035 --> 00:20:40,572
+than the 2.0, 2.1, any
+of the previous Tools
+
+456
+00:20:40,605 --> 00:20:43,308
+because we've added a
+rotary percussive drill
+
+457
+00:20:43,341 --> 00:20:44,676
+down the center.
+
+458
+00:20:45,910 --> 00:20:49,848
+Here's a underside view
+of this drivetrain.
+459
+00:20:49,881 --> 00:20:51,616
+And here's that drill.
+
+460
+00:20:51,649 --> 00:20:53,118
+So it's a little
+hard to make out
+
+461
+00:20:53,151 --> 00:20:55,186
+everything that's going on,
+but you've got things like
+
+462
+00:20:55,219 --> 00:20:57,122
+you're chuck, which
+is how you connect
+
+463
+00:20:57,155 --> 00:21:00,625
+your drill bit to the drill,
+a spindle, percussions,
+
+464
+00:21:00,658 --> 00:21:03,995
+this is a hammer drill,
+an anchor deployment,
+
+465
+00:21:04,028 --> 00:21:07,432
+I'll talk about that in a little
+bit, and a feed mechanism.
+
+466
+00:21:07,465 --> 00:21:09,334
+And we're lucky, because
+at JPL there's been a lot
+
+467
+00:21:09,367 --> 00:21:13,772
+of development work already on
+how to drill in outer space.
+
+468
+00:21:13,805 --> 00:21:15,707
+So Curiosity, of
+course, has a drill,
+469
+00:21:15,740 --> 00:21:18,743
+a rotary percussive drill,
+and the Mars 2020 mission,
+
+470
+00:21:18,776 --> 00:21:21,313
+which is a bit ahead of us
+in the development timeline,
+
+471
+00:21:21,346 --> 00:21:22,814
+has also got a drill.
+
+472
+00:21:22,847 --> 00:21:25,617
+So we've tried to leverage all
+of the lessons that they've
+
+473
+00:21:25,650 --> 00:21:28,019
+learned and all of the
+design experience they have,
+
+474
+00:21:28,052 --> 00:21:31,556
+incorporating those
+things into our drill.
+
+475
+00:21:32,824 --> 00:21:35,026
+Here's the Tool in
+its current state
+
+476
+00:21:35,059 --> 00:21:36,628
+as its getting assembled.
+
+477
+00:21:36,661 --> 00:21:39,064
+So it's only the drill and
+the drivetrain right now.
+
+478
+00:21:39,097 --> 00:21:42,267
+The gripper is still
+getting put together.
+
+479
+00:21:42,300 --> 00:21:45,270
+But that drivetrain is really
+complicated because we've made
+
+480
+00:21:45,303 --> 00:21:49,541
+a choice not to fly motors
+inside our Tool, but instead
+
+481
+00:21:49,574 --> 00:21:52,143
+to use the motors that
+are in the robotic arm
+
+482
+00:21:52,176 --> 00:21:54,245
+to drive our Tool mechanically.
+
+483
+00:21:54,278 --> 00:21:56,247
+So there's a tool drive output
+
+484
+00:21:56,280 --> 00:21:58,650
+at the end of the robotic
+arm, and we're using
+
+485
+00:21:58,683 --> 00:22:01,886
+those outputs to
+power our mechanisms.
+
+486
+00:22:01,919 --> 00:22:05,056
+Trouble is, there's three
+outputs on the robotic arm,
+
+487
+00:22:05,089 --> 00:22:08,393
+two rotary and one linear,
+and we have six mechanisms
+
+488
+00:22:08,426 --> 00:22:11,296
+on our Tool that
+we need to operate.
+
+489
+00:22:11,329 --> 00:22:13,965
+But we don't have to operate
+them all at the same time.
+490
+00:22:13,998 --> 00:22:15,533
+So we use a clutch.
+
+491
+00:22:15,566 --> 00:22:17,535
+Same way you don't
+drive your car
+
+492
+00:22:17,568 --> 00:22:20,038
+with all the gears
+running simultaneously.
+
+493
+00:22:20,071 --> 00:22:22,240
+We index between
+whether we're gripping
+
+494
+00:22:22,273 --> 00:22:24,409
+or drilling or anchoring.
+
+495
+00:22:24,442 --> 00:22:26,411
+So this ended up
+being pretty complex,
+
+496
+00:22:26,444 --> 00:22:30,515
+but what I think is some
+pretty beautiful hardware.
+
+497
+00:22:30,548 --> 00:22:32,016
+I'm a mechanical
+engineer, though.
+
+498
+00:22:32,049 --> 00:22:33,251
+(audience laughing)
+
+499
+00:22:33,284 --> 00:22:36,054
+So I like all these
+kinds of pictures.
+
+500
+00:22:37,155 --> 00:22:39,424
+Now with that drill,
+our operations
+
+501
+00:22:39,457 --> 00:22:42,260
+get a little bit more
+complex, as well.
+
+502
+00:22:42,293 --> 00:22:45,163
+So we allow the robotic arm
+to bring us into contact
+
+503
+00:22:45,196 --> 00:22:47,599
+with the surface and align
+us, make sure our drill bit's
+
+504
+00:22:47,632 --> 00:22:51,669
+facing orthogonally to
+the rock wherever we are.
+
+505
+00:22:51,702 --> 00:22:54,506
+And we deploy the gripper,
+we bring those cassettes
+
+506
+00:22:54,539 --> 00:22:57,075
+down onto the rock and
+then squeeze them in
+
+507
+00:22:57,108 --> 00:22:59,911
+to establish a grip with
+all of the microspines.
+
+508
+00:22:59,944 --> 00:23:03,214
+Once we've got that grip,
+we're able to drill.
+
+509
+00:23:03,247 --> 00:23:05,283
+The gripper is
+basically there to react
+
+510
+00:23:05,316 --> 00:23:08,453
+the forces and torques of
+drilling in microgravity.
+
+511
+00:23:08,486 --> 00:23:11,322
+An analogy I like to use is
+if you're on an asteroid,
+
+512
+00:23:11,355 --> 00:23:14,025
+and you've got your drill
+that you use at home,
+
+513
+00:23:14,058 --> 00:23:17,228
+if you push that drill bit into
+the surface, on an asteroid,
+
+514
+00:23:17,261 --> 00:23:19,964
+you're going to be pushing
+yourself into outer space.
+
+515
+00:23:19,997 --> 00:23:22,867
+And if you pull the trigger on
+that drill to start drilling
+
+516
+00:23:22,900 --> 00:23:25,036
+it gets worse, 'cause you're
+gonna start spinning around
+
+517
+00:23:25,069 --> 00:23:26,538
+(audience laughing)
+the drill bit
+
+518
+00:23:26,571 --> 00:23:29,007
+instead of the drill bit
+spinning in the borehole.
+
+519
+00:23:29,040 --> 00:23:31,643
+So we use a microspine
+gripper to react those loads
+
+520
+00:23:31,676 --> 00:23:34,512
+and make sure that the
+drill goes into the rock
+
+521
+00:23:34,545 --> 00:23:36,414
+and make sure it
+spins and the robot
+
+522
+00:23:36,447 --> 00:23:38,883
+and the spacecraft don't spin.
+
+523
+00:23:38,916 --> 00:23:40,652
+So once we've drilled
+to a certain depth,
+
+524
+00:23:40,685 --> 00:23:42,420
+we do an anchoring process.
+
+525
+00:23:42,453 --> 00:23:45,423
+We actually cut a groove in
+the bottom of the borehole
+
+526
+00:23:45,456 --> 00:23:48,626
+that locks us in
+geometrically to the rock.
+
+527
+00:23:48,659 --> 00:23:51,529
+So we do that by flanging
+out some little cutters,
+
+528
+00:23:51,562 --> 00:23:53,331
+and I'll show you a picture
+of that in a second.
+
+529
+00:23:53,364 --> 00:23:56,167
+But that creates a very strong
+anchor that we're now able
+
+530
+00:23:56,200 --> 00:23:59,204
+to pull on with thousands
+of newtons of force
+531
+00:23:59,237 --> 00:24:02,541
+to extract the boulder
+off the surface.
+
+532
+00:24:03,774 --> 00:24:05,777
+So of course we have
+to prototype this.
+
+533
+00:24:05,810 --> 00:24:09,314
+So we've put a drill down the
+center of our 1.0 grippers,
+
+534
+00:24:09,347 --> 00:24:11,115
+and because we are prototyping,
+
+535
+00:24:11,148 --> 00:24:14,953
+we used the best, quickest,
+dirtiest drill we could find,
+
+536
+00:24:14,986 --> 00:24:16,154
+which was at Home Depot,
+
+537
+00:24:16,187 --> 00:24:18,356
+it was a Bosch Rotary
+Percussive Drill.
+
+538
+00:24:18,389 --> 00:24:21,659
+We chopped it up, put the
+innards into our own motor,
+
+539
+00:24:21,692 --> 00:24:23,595
+and then had a prototype working
+
+540
+00:24:23,628 --> 00:24:25,763
+where we were practicing
+drilling into rock
+
+541
+00:24:25,796 --> 00:24:28,166
+I think within about one summer.
+
+542
+00:24:28,199 --> 00:24:30,835
+You can see on the right,
+it's actually anchored itself
+
+543
+00:24:30,868 --> 00:24:32,504
+to the ceiling, and is not only
+
+544
+00:24:32,537 --> 00:24:34,706
+supporting the weight
+of that whole assembly,
+
+545
+00:24:34,739 --> 00:24:36,641
+but is also drilling
+into the ceiling.
+
+546
+00:24:36,674 --> 00:24:38,776
+So it's supporting
+the loads it takes
+
+547
+00:24:38,809 --> 00:24:40,979
+to drill into the ceiling.
+
+548
+00:24:42,813 --> 00:24:45,783
+Now that's a harder than zero
+G test going into the ceiling.
+
+549
+00:24:45,816 --> 00:24:48,119
+Microgravity is
+actually true zero G.
+
+550
+00:24:48,152 --> 00:24:50,555
+So what we did was
+fly on the Vomit Comet
+
+551
+00:24:50,588 --> 00:24:52,457
+and test this mechanism.
+
+552
+00:24:52,490 --> 00:24:56,427
+Now show of hands, who's
+heard of the Vomit Comet?
+
+553
+00:24:56,460 --> 00:24:58,129
+All right, that's
+about three quarters,
+
+554
+00:24:58,162 --> 00:25:00,665
+that's a good audience,
+you guys are well-educated.
+
+555
+00:25:00,698 --> 00:25:02,800
+For those that don't
+know, it's an airplane
+
+556
+00:25:02,833 --> 00:25:06,804
+that NASA operates that
+flies a parabolic trajectory.
+
+557
+00:25:06,837 --> 00:25:09,674
+So basically, the airplane
+throws you up into the air
+
+558
+00:25:09,707 --> 00:25:12,844
+and then tracks you
+as you're in freefall,
+
+559
+00:25:12,877 --> 00:25:16,548
+as you're experiencing zero
+G as you would in space,
+
+560
+00:25:16,581 --> 00:25:19,417
+and then you go into a nosedive,
+and at the last second,
+
+561
+00:25:19,450 --> 00:25:22,186
+they pull out of that
+parabolic trajectory,
+
+562
+00:25:22,219 --> 00:25:24,589
+they basically catch
+you, and you experience
+
+563
+00:25:24,622 --> 00:25:27,492
+double gravity for
+the rest of that,
+
+564
+00:25:27,525 --> 00:25:29,360
+the bottom part of the parabola,
+
+565
+00:25:29,393 --> 00:25:30,795
+and then they go right
+into the next one
+
+566
+00:25:30,828 --> 00:25:32,463
+and just throw you
+in the air again.
+
+567
+00:25:32,496 --> 00:25:35,300
+So you get about 20 or
+25 seconds of zero G,
+
+568
+00:25:35,333 --> 00:25:37,602
+where you're floating
+around, it's very zen.
+
+569
+00:25:37,635 --> 00:25:40,138
+People ask if it's like a
+roller coaster, it's not.
+
+570
+00:25:40,171 --> 00:25:42,206
+It's very calm.
+
+571
+00:25:42,239 --> 00:25:44,576
+But then when they catch you,
+and you go into double gravity
+
+572
+00:25:44,609 --> 00:25:46,711
+and you're glued down
+against the floor,
+
+573
+00:25:46,744 --> 00:25:49,347
+that feels a little bit
+more like a roller coaster.
+
+574
+00:25:49,380 --> 00:25:51,316
+And they give you very strong
+motion sickness medication
+
+575
+00:25:51,349 --> 00:25:53,651
+so that you don't
+have the effect
+
+576
+00:25:53,684 --> 00:25:56,020
+after which the plane is named.
+
+577
+00:25:56,053 --> 00:25:58,022
+(audience laughing)
+
+578
+00:25:58,055 --> 00:26:00,058
+So what you see here
+is our prototype.
+
+579
+00:26:00,091 --> 00:26:01,960
+It's on a Stewart Platform.
+
+580
+00:26:01,993 --> 00:26:03,294
+And that Stewart Platform is on
+
+581
+00:26:03,327 --> 00:26:05,196
+air bearings that have brakes.
+
+582
+00:26:05,229 --> 00:26:08,733
+So basically the whole drill
+and the rock float during
+
+583
+00:26:08,766 --> 00:26:11,869
+the zero G portion, but when
+we go into the two G portion,
+
+584
+00:26:11,902 --> 00:26:14,839
+those brakes seize up and
+lock everything in place.
+
+585
+00:26:14,872 --> 00:26:17,875
+So it's a way for us to
+not have our hardware
+
+586
+00:26:17,908 --> 00:26:21,112
+crash into the floor every
+one of those parabolas.
+
+587
+00:26:21,145 --> 00:26:23,815
+And by the way, on a single
+flight, they do 40 of those
+
+588
+00:26:23,848 --> 00:26:28,019
+back to back, takes about
+an hour, and it's exciting.
+
+589
+00:26:29,420 --> 00:26:32,523
+We've done, I've done
+now, 12 of these flights.
+
+590
+00:26:32,556 --> 00:26:35,159
+So I have just over an
+hour of zero G time.
+
+591
+00:26:35,192 --> 00:26:37,428
+So if I keep up this pace,
+
+592
+00:26:37,461 --> 00:26:39,430
+I'll never catch up
+to the astronauts.
+
+593
+00:26:39,463 --> 00:26:40,465
+(audience laughing)
+594
+00:26:40,498 --> 00:26:41,966
+It's always fun.
+
+595
+00:26:41,999 --> 00:26:44,002
+Now this is my favorite
+video for another reason.
+
+596
+00:26:44,035 --> 00:26:45,770
+You see all the
+debris coming out.
+
+597
+00:26:45,803 --> 00:26:48,039
+This is my favorite video
+I'm going to show all night.
+
+598
+00:26:48,072 --> 00:26:50,475
+But sort of for nerdy reasons.
+
+599
+00:26:50,508 --> 00:26:53,344
+You see all that debris coming
+out, and that's a barometer
+
+600
+00:26:53,377 --> 00:26:57,015
+to tell what part of the
+spacecraft a person works on.
+
+601
+00:26:57,048 --> 00:26:59,317
+So if you show this to
+robotics people, they're like,
+
+602
+00:26:59,350 --> 00:27:01,619
+ah, this is awesome,
+that's so cool.
+
+603
+00:27:01,652 --> 00:27:02,620
+And you know that
+they're used to
+
+604
+00:27:02,653 --> 00:27:04,555
+interacting with the surface.
+
+605
+00:27:04,588 --> 00:27:06,991
+If you show it to someone,
+and they have very pale face
+
+606
+00:27:07,024 --> 00:27:09,694
+and start to shake, you
+know that they work on
+
+607
+00:27:09,727 --> 00:27:13,998
+camera systems or remote
+sensing or they have delicate
+
+608
+00:27:14,031 --> 00:27:18,102
+equipment that's back at the
+backside of the spacecraft.
+
+609
+00:27:18,135 --> 00:27:21,139
+So on the actual asteroid
+mission, we'll have a shroud.
+
+610
+00:27:21,172 --> 00:27:22,740
+We'll make sure we
+catch all of this debris
+
+611
+00:27:22,773 --> 00:27:24,242
+so that it doesn't contaminate
+
+612
+00:27:24,275 --> 00:27:27,545
+all of the other activities
+we're going to be doing.
+
+613
+00:27:27,578 --> 00:27:30,281
+Now the final reason I
+think this is so cool,
+
+614
+00:27:30,314 --> 00:27:32,583
+is you can see that
+dust cloud kind of shift
+615
+00:27:32,616 --> 00:27:35,620
+a couple of times
+during the video, right?
+
+616
+00:27:35,653 --> 00:27:37,355
+And this is, I didn't know this
+
+617
+00:27:37,388 --> 00:27:39,057
+until I saw this video
+and asked the question,
+
+618
+00:27:39,090 --> 00:27:42,860
+I thought a computer was
+flying this, the airplane.
+
+619
+00:27:42,893 --> 00:27:46,030
+Turns out it's actually the
+blue suiters, the pilots,
+
+620
+00:27:46,063 --> 00:27:48,266
+who are manually steering,
+trying to keep you
+
+621
+00:27:48,299 --> 00:27:50,835
+in that sweet spot of zero G.
+
+622
+00:27:50,868 --> 00:27:54,972
+And so every time you see that
+dust cloud change directions,
+
+623
+00:27:55,005 --> 00:27:56,808
+they're making a
+small adjustment,
+
+624
+00:27:56,841 --> 00:27:59,777
+trying to keep the plane
+in that perfect freefall.
+
+625
+00:27:59,810 --> 00:28:02,880
+So it might be .01
+G, minus .02 G,
+
+626
+00:28:02,913 --> 00:28:05,883
+and they're actually very
+talented at keeping you
+
+627
+00:28:05,916 --> 00:28:08,953
+in that perfect zone
+throughout the 20, 25 seconds
+
+628
+00:28:08,986 --> 00:28:11,990
+that you have to
+do your experiment.
+
+629
+00:28:13,390 --> 00:28:15,493
+So a little bit more about
+the anchoring drill bit.
+
+630
+00:28:15,526 --> 00:28:16,728
+That's a prototype on the right
+
+631
+00:28:16,761 --> 00:28:19,764
+that we test in
+pre-drilled boreholes.
+
+632
+00:28:19,797 --> 00:28:22,233
+So we drill with a commercial
+drill, we put this prototype
+
+633
+00:28:22,266 --> 00:28:26,104
+in, and then practice the
+anchoring procedure only.
+
+634
+00:28:26,137 --> 00:28:30,108
+And you can see in the
+colorful diagrams there
+
+635
+00:28:30,141 --> 00:28:32,944
+how those anchoring
+teeth flare out.
+
+636
+00:28:32,977 --> 00:28:34,812
+And so this happens at
+the bottom of the borehole
+
+637
+00:28:34,845 --> 00:28:36,581
+as you're still
+spinning the drill,
+
+638
+00:28:36,614 --> 00:28:39,183
+but you're not pushing
+the drill in any further.
+
+639
+00:28:39,216 --> 00:28:43,020
+And so what you're left
+with is a little groove.
+
+640
+00:28:43,053 --> 00:28:44,655
+I hope you can see this one.
+
+641
+00:28:44,688 --> 00:28:45,890
+A groove in the rock
+
+642
+00:28:45,923 --> 00:28:49,494
+that you can pull on
+with a lot of force.
+
+643
+00:28:49,527 --> 00:28:52,563
+So here you can see again where
+we've cut one of these open.
+
+644
+00:28:52,596 --> 00:28:54,732
+You can see where
+that groove was cut
+
+645
+00:28:54,765 --> 00:28:56,868
+and where those teeth
+were actually pulling.
+646
+00:28:56,901 --> 00:28:58,469
+So we've been able to pull
+on some of these rocks
+
+647
+00:28:58,502 --> 00:29:00,738
+up to a few thousand pounds.
+
+648
+00:29:00,771 --> 00:29:03,708
+And we've tested on all
+different kinds of rocks.
+
+649
+00:29:03,741 --> 00:29:05,610
+Because we've never been to
+the surface of an asteroid,
+
+650
+00:29:05,643 --> 00:29:08,613
+we don't actually have a
+very good understanding
+
+651
+00:29:08,646 --> 00:29:11,682
+of the strength of the boulders
+that we're gonna find there.
+
+652
+00:29:11,715 --> 00:29:14,352
+So we have meteorite data
+and we have bolide data,
+
+653
+00:29:14,385 --> 00:29:17,655
+which is measurements when
+asteroids hit the atmosphere
+
+654
+00:29:17,688 --> 00:29:19,423
+at what point they break up.
+
+655
+00:29:19,456 --> 00:29:21,626
+And from those two sources
+we can make some guesses
+
+656
+00:29:21,659 --> 00:29:24,829
+about how strong the
+rocks are on an asteroid
+
+657
+00:29:24,862 --> 00:29:27,565
+and specifically on
+a C-type asteroid.
+
+658
+00:29:27,598 --> 00:29:30,701
+But the range is pretty big,
+like two orders of magnitude.
+
+659
+00:29:30,734 --> 00:29:34,806
+So we have to design
+a very robust tool.
+
+660
+00:29:34,839 --> 00:29:36,908
+Now it's gonna seem
+like I'm kind of
+
+661
+00:29:36,941 --> 00:29:39,310
+cutting this portion
+of the talk short,
+
+662
+00:29:39,343 --> 00:29:41,179
+and that's because it's
+a work in progress.
+
+663
+00:29:41,212 --> 00:29:42,647
+So you've literally
+seen all the way
+
+664
+00:29:42,680 --> 00:29:44,849
+up to where we are today.
+
+665
+00:29:44,882 --> 00:29:47,652
+We're planning towards
+a launch in 2021.
+
+666
+00:29:47,685 --> 00:29:49,187
+So if you keep
+following the news,
+
+667
+00:29:49,220 --> 00:29:51,589
+you're gonna see a lot
+more about the ARM Mission,
+
+668
+00:29:51,622 --> 00:29:53,391
+Asteroid Redirect
+Mission, and you'll
+
+669
+00:29:53,424 --> 00:29:57,228
+see all of our good
+results from that 3.0 Tool.
+
+670
+00:29:57,261 --> 00:30:00,097
+But now we'll move into the
+second phase of the talk.
+
+671
+00:30:00,130 --> 00:30:02,133
+Second chapter,
+we'll look at some
+
+672
+00:30:02,166 --> 00:30:04,268
+rock climbing robots
+that we've built.
+
+673
+00:30:04,301 --> 00:30:06,404
+So on the right, that's
+Christine Fuller and I
+
+674
+00:30:06,437 --> 00:30:09,640
+out at the Mojave Desert
+climbing in some lava tubes,
+
+675
+00:30:09,673 --> 00:30:11,910
+place called Pisgah Crater.
+
+676
+00:30:13,143 --> 00:30:15,980
+Here's our rock climbing
+robot, and people ask,
+
+677
+00:30:16,013 --> 00:30:17,615
+why would you want a
+rock climbing robot,
+
+678
+00:30:17,648 --> 00:30:19,350
+except that it's super awesome.
+
+679
+00:30:19,383 --> 00:30:21,018
+(audience laughing)
+
+680
+00:30:21,051 --> 00:30:22,620
+It turns out that there
+are a lot of places
+
+681
+00:30:22,653 --> 00:30:26,257
+on Mars and other planets
+that we can't access with the
+
+682
+00:30:26,290 --> 00:30:29,894
+six-wheeled rocker-bogie
+rovers that we have now.
+
+683
+00:30:29,927 --> 00:30:33,231
+So we see stratified
+layers in the rock
+
+684
+00:30:33,264 --> 00:30:36,400
+on outcrops on Mars, but
+we can't get to them.
+
+685
+00:30:36,433 --> 00:30:38,002
+We've tried, actually,
+but because the rovers
+
+686
+00:30:38,035 --> 00:30:41,072
+can only drive on a 20,
+maybe 30 degree slope,
+687
+00:30:41,105 --> 00:30:43,441
+we can't actually
+access those outcrops.
+
+688
+00:30:43,474 --> 00:30:45,543
+And if anyone's been
+to the Grand Canyon,
+
+689
+00:30:45,576 --> 00:30:47,345
+you see those different
+layers, and they tell you,
+
+690
+00:30:47,378 --> 00:30:49,347
+oh, you can look back in time
+
+691
+00:30:49,380 --> 00:30:51,148
+by looking at the
+different layers, right?
+
+692
+00:30:51,181 --> 00:30:53,050
+The oldest ones
+being at the bottom.
+
+693
+00:30:53,083 --> 00:30:55,486
+So that's true on Mars, as
+well, and wouldn't it be great
+
+694
+00:30:55,519 --> 00:30:58,956
+to deploy instruments at all
+of those different epochs
+
+695
+00:30:58,989 --> 00:31:02,226
+in Mars's geologic
+evolution and learn about
+
+696
+00:31:02,259 --> 00:31:03,794
+the history of the planet?
+
+697
+00:31:03,827 --> 00:31:06,464
+And it would be great,
+and we hope to do that,
+
+698
+00:31:06,497 --> 00:31:11,235
+but we can't do it with the
+rovers that we have today.
+
+699
+00:31:11,268 --> 00:31:12,637
+So the start of
+rock climbing robot
+
+700
+00:31:12,670 --> 00:31:15,907
+actually predates
+me joining JPL.
+
+701
+00:31:15,940 --> 00:31:18,075
+I was in graduate
+school at Stanford,
+
+702
+00:31:18,108 --> 00:31:20,311
+and we were working on
+vertical climbing robots
+
+703
+00:31:20,344 --> 00:31:23,347
+actually for the military
+to try and climb up
+
+704
+00:31:23,380 --> 00:31:25,750
+the outsides of brick buildings.
+
+705
+00:31:25,783 --> 00:31:28,252
+So this robot was made
+by Boston Dynamics.
+
+706
+00:31:28,285 --> 00:31:29,787
+Many folks know them
+for making robots
+
+707
+00:31:29,820 --> 00:31:32,423
+like BigDog and Atlas, WildCat.
+708
+00:31:33,791 --> 00:31:37,228
+They're a very good
+company for making robots.
+
+709
+00:31:37,261 --> 00:31:39,330
+This is a lesser known
+robot called RiSe,
+
+710
+00:31:39,363 --> 00:31:41,666
+and I worked on building
+the feet for this robot
+
+711
+00:31:41,699 --> 00:31:43,834
+with my lab at
+Stanford University.
+
+712
+00:31:43,867 --> 00:31:46,470
+The professor there
+is Mark Cutkosky.
+
+713
+00:31:46,503 --> 00:31:48,706
+It used the first
+versions of microspines,
+
+714
+00:31:48,739 --> 00:31:52,076
+which used gravity just
+to engage themselves.
+
+715
+00:31:52,109 --> 00:31:54,111
+So this robot would only
+climb in a straight line,
+
+716
+00:31:54,144 --> 00:31:55,813
+straight vertically.
+
+717
+00:31:57,247 --> 00:31:58,716
+Couple of years later, I
+took a little bit of break
+718
+00:31:58,749 --> 00:32:01,652
+from my Ph.D. for five or
+six weeks and worked for
+
+719
+00:32:01,685 --> 00:32:05,189
+the Discovery Channel on a
+show called Prototype This!
+
+720
+00:32:05,222 --> 00:32:06,490
+And I'm guessing many
+of you didn't see it
+
+721
+00:32:06,523 --> 00:32:09,627
+'cause it got cancelled
+after the first season.
+
+722
+00:32:09,660 --> 00:32:12,630
+But here, we're showing
+paddles, where Lynn,
+
+723
+00:32:12,663 --> 00:32:15,533
+who's a professional rock
+climber, is scaling the outside
+
+724
+00:32:15,566 --> 00:32:18,869
+of a parking garage
+in downtown Oakland.
+
+725
+00:32:18,902 --> 00:32:22,974
+Each one of those panels
+has 1500 microspines,
+
+726
+00:32:23,007 --> 00:32:26,477
+which is why it took me
+six weeks to make them.
+
+727
+00:32:26,510 --> 00:32:28,646
+And I was very excited,
+this was the first time
+728
+00:32:28,679 --> 00:32:31,315
+we had taken them
+out and tried them.
+
+729
+00:32:31,348 --> 00:32:33,084
+So a huge relief.
+
+730
+00:32:33,117 --> 00:32:35,052
+A younger, skinnier,
+very happy version
+
+731
+00:32:35,085 --> 00:32:36,454
+of me there in the red shirt.
+
+732
+00:32:36,487 --> 00:32:39,857
+(audience laughing)
+
+733
+00:32:39,890 --> 00:32:41,926
+So I mentioned these
+innovations before.
+
+734
+00:32:41,959 --> 00:32:44,729
+When I came to JPL, the
+question was, how can we use
+
+735
+00:32:44,762 --> 00:32:46,564
+these climbing
+robot technologies
+
+736
+00:32:46,597 --> 00:32:48,165
+for NASA
+applications?
+
+737
+00:32:48,198 --> 00:32:51,302
+So on Mars, it's not a brick
+wall, it's a cliff face, right?
+
+738
+00:32:51,335 --> 00:32:52,970
+So the same three
+things I mentioned.
+
+739
+00:32:53,003 --> 00:32:56,407
+Conform to the roughness,
+opposing microspines
+
+740
+00:32:56,440 --> 00:32:58,709
+so you can resist
+forces in any direction,
+
+741
+00:32:58,742 --> 00:33:01,412
+and make them out of
+space-grade materials.
+
+742
+00:33:01,445 --> 00:33:02,913
+And so that's what we did.
+
+743
+00:33:02,946 --> 00:33:05,016
+You can see us testing, pulling
+these in different angles
+
+744
+00:33:05,049 --> 00:33:08,285
+because we've got
+that opposed gripper.
+
+745
+00:33:08,318 --> 00:33:09,687
+Again, notice this
+doesn't look like
+
+746
+00:33:09,720 --> 00:33:11,288
+the ones I've shown you before.
+
+747
+00:33:11,321 --> 00:33:13,391
+We go through iteration
+after iteration.
+
+748
+00:33:13,424 --> 00:33:15,059
+We make tons of prototypes.
+
+749
+00:33:15,092 --> 00:33:18,362
+We have a big wall full
+of dead prototypes.
+
+750
+00:33:18,395 --> 00:33:22,366
+That's fun to look at if
+you ever get to take a tour.
+
+751
+00:33:22,399 --> 00:33:25,736
+Here you can see testing,
+again, at different angles.
+
+752
+00:33:25,769 --> 00:33:28,472
+And we test it on all
+different kinds of rocks.
+
+753
+00:33:28,505 --> 00:33:30,708
+And you'll notice the
+bottom line there says
+
+754
+00:33:30,741 --> 00:33:33,911
+limited performance
+on granular materials.
+
+755
+00:33:33,944 --> 00:33:37,048
+These are things like
+pebbles, sand, regolith,
+
+756
+00:33:37,081 --> 00:33:39,617
+powder, that sort of thing.
+
+757
+00:33:39,650 --> 00:33:42,887
+And I'll tell you a secret,
+in an academic paper
+
+758
+00:33:42,920 --> 00:33:45,589
+or in a talk like this,
+if you see something
+
+759
+00:33:45,622 --> 00:33:48,692
+that says limited
+performance, that means zero.
+
+760
+00:33:48,725 --> 00:33:50,461
+(audience laughing)
+
+761
+00:33:50,494 --> 00:33:53,697
+This is really a technology
+for consolidated rock, right?
+
+762
+00:33:53,730 --> 00:33:55,766
+If you want to
+grip the sand dune
+
+763
+00:33:55,799 --> 00:33:59,170
+or the regolith field on
+the asteroid or the comet,
+
+764
+00:33:59,203 --> 00:34:00,971
+you need a different
+kind of gripper.
+
+765
+00:34:01,004 --> 00:34:03,107
+You might use the
+same kind of robot.
+
+766
+00:34:03,140 --> 00:34:05,276
+You might use the same autonomy
+
+767
+00:34:05,309 --> 00:34:07,745
+and the same perception
+system, but you're gonna want
+
+768
+00:34:07,778 --> 00:34:10,881
+a beach umbrella
+kind of gripper.
+
+769
+00:34:10,914 --> 00:34:12,917
+Something that's meant for sand
+770
+00:34:12,950 --> 00:34:15,787
+or these unconsolidated
+materials.
+
+771
+00:34:18,422 --> 00:34:19,990
+So a cool spin-off we got to do.
+
+772
+00:34:20,023 --> 00:34:22,793
+Because we're able to make
+these grippers pretty quickly,
+
+773
+00:34:22,826 --> 00:34:25,262
+is we made a hand actuated
+version of the gripper
+
+774
+00:34:25,295 --> 00:34:28,766
+that would function
+in saltwater.
+
+775
+00:34:28,799 --> 00:34:32,403
+So this is a neutral buoyancy
+test bed that the astronauts
+
+776
+00:34:32,436 --> 00:34:35,773
+use to practice mocking
+up their missions.
+
+777
+00:34:35,806 --> 00:34:38,008
+Buzz Aldrin, way back
+in the Apollo day,
+
+778
+00:34:38,041 --> 00:34:40,144
+realized that if you wanted
+to practice zero gravity
+
+779
+00:34:40,177 --> 00:34:43,848
+for a long time, one way
+is on the Vomit Comet,
+
+780
+00:34:43,881 --> 00:34:45,916
+but another way
+is in a scuba suit
+
+781
+00:34:45,949 --> 00:34:48,052
+where you can make
+yourself neutrally buoyant,
+
+782
+00:34:48,085 --> 00:34:49,487
+which is actually a
+pretty good simulation
+
+783
+00:34:49,520 --> 00:34:52,256
+for what it's like to
+be in zero gravity.
+
+784
+00:34:52,289 --> 00:34:54,191
+And so here, they're
+using microspine grippers
+
+785
+00:34:54,224 --> 00:34:56,360
+to anchor themselves
+to the floor,
+
+786
+00:34:56,393 --> 00:34:59,029
+which is a simulated
+surface of Phobos.
+
+787
+00:34:59,062 --> 00:35:01,799
+Phobos is one of
+the moons of Mars.
+
+788
+00:35:01,832 --> 00:35:05,169
+And then they're doing other
+operations, other samples.
+
+789
+00:35:05,202 --> 00:35:07,171
+The moons at Mars
+are way, way smaller
+
+790
+00:35:07,204 --> 00:35:09,106
+than the moons of Earth.
+
+791
+00:35:09,139 --> 00:35:11,509
+So they are actually
+microgravity environments
+
+792
+00:35:11,542 --> 00:35:13,544
+like an asteroid or a comet.
+
+793
+00:35:13,577 --> 00:35:15,012
+I think there's
+actually some debate
+
+794
+00:35:15,045 --> 00:35:17,581
+about whether those moons
+are captured asteroids
+
+795
+00:35:17,614 --> 00:35:21,352
+or if they're
+actually, truly moons.
+
+796
+00:35:21,385 --> 00:35:24,021
+Here's the rock climbing robot.
+
+797
+00:35:24,054 --> 00:35:26,323
+This was a video we put
+together a couple years ago.
+
+798
+00:35:26,356 --> 00:35:29,960
+So just like you see different
+iterations of the grippers,
+
+799
+00:35:29,993 --> 00:35:31,896
+we have different
+versions of the robot.
+
+800
+00:35:31,929 --> 00:35:34,131
+So this is LEMUR 2B.
+801
+00:35:34,164 --> 00:35:36,967
+So there's a LEMUR 1, 2,
+2A, 2B, we actually have
+
+802
+00:35:37,000 --> 00:35:40,804
+a LEMUR 3 now, which I'll
+show you in just a moment.
+
+803
+00:35:40,837 --> 00:35:44,408
+I'm gonna skip ahead a
+little bit if I can here.
+
+804
+00:35:44,441 --> 00:35:45,276
+Let's see.
+
+805
+00:35:46,343 --> 00:35:48,145
+That's the more exciting part.
+
+806
+00:35:48,178 --> 00:35:49,880
+So this is sped up, as well.
+
+807
+00:35:49,913 --> 00:35:52,850
+Because when we did
+this project,
+
+808
+00:35:52,883 --> 00:35:54,718
+LEMUR 2B already
+existed.
+
+809
+00:35:54,751 --> 00:35:55,653
+So we said, hey, can
+we just use
+
+810
+00:35:55,686 --> 00:35:57,154
+this robot with our grippers?
+
+811
+00:35:57,187 --> 00:35:59,690
+Again, try and prototype
+and demonstrate something
+812
+00:35:59,723 --> 00:36:01,759
+as fast as we can.
+
+813
+00:36:01,792 --> 00:36:04,962
+And Brett Kennedy, who had
+designed and built this robot,
+
+814
+00:36:04,995 --> 00:36:08,098
+said sure, but I designed
+it to have a peg for a leg,
+
+815
+00:36:08,131 --> 00:36:11,168
+which only weighs 100 grams.
+
+816
+00:36:11,201 --> 00:36:14,138
+And I came along and put a one
+kilogram gripper on the end,
+
+817
+00:36:14,171 --> 00:36:17,808
+so it's at the maximum amount
+of torque that the motors
+
+818
+00:36:17,841 --> 00:36:22,013
+can put out in order to
+do these kinds of motions.
+
+819
+00:36:25,349 --> 00:36:27,518
+So all of the videos
+are sped up quite a bit.
+
+820
+00:36:27,551 --> 00:36:30,921
+But as you might know,
+going fast, for JPL,
+
+821
+00:36:30,954 --> 00:36:33,090
+is not necessarily a priority.
+
+822
+00:36:33,123 --> 00:36:35,926
+It's safety and reliability
+that are more important.
+
+823
+00:36:35,959 --> 00:36:38,162
+So Curiosity on
+the surface of Mars
+
+824
+00:36:38,195 --> 00:36:41,365
+at most goes about
+100 meters in a day.
+
+825
+00:36:41,398 --> 00:36:42,866
+So if you had a
+rock climbing robot
+
+826
+00:36:42,899 --> 00:36:45,769
+that might be able to go two
+or three meters in a day,
+
+827
+00:36:45,802 --> 00:36:47,771
+over the course of a year or
+two years, you're actually
+
+828
+00:36:47,804 --> 00:36:51,676
+gonna cover that cliff
+face from top to bottom.
+
+829
+00:36:52,943 --> 00:36:55,045
+So here's LEMUR 3.
+
+830
+00:36:55,078 --> 00:36:57,615
+You can see it's got
+a lot more joints.
+
+831
+00:36:57,648 --> 00:37:01,352
+With more joints, it's able
+to do more complex motions.
+
+832
+00:37:01,385 --> 00:37:05,322
+So LEMUR 2 only had three
+degrees of freedom per limb,
+
+833
+00:37:05,355 --> 00:37:09,527
+which meant three motors that
+could turn in any given axis.
+
+834
+00:37:10,861 --> 00:37:12,930
+LEMUR 3 has seven degrees
+of freedom per limb,
+
+835
+00:37:12,963 --> 00:37:15,232
+which is similar to what
+you have in a human arm.
+
+836
+00:37:15,265 --> 00:37:19,203
+So it can put its foot any place
+in space at any orientation
+
+837
+00:37:19,236 --> 00:37:22,439
+plus have one extra degree
+of freedom to enable it
+
+838
+00:37:22,472 --> 00:37:25,843
+to move its body around or
+do other sorts of things.
+
+839
+00:37:25,876 --> 00:37:27,878
+Now this is not a
+test wall in our lab.
+
+840
+00:37:27,911 --> 00:37:29,113
+One of my favorite
+parts of the job
+
+841
+00:37:29,146 --> 00:37:31,448
+is that we get to go
+camping with the robots.
+
+842
+00:37:31,481 --> 00:37:33,317
+And we go out and
+we do field tests.
+
+843
+00:37:33,350 --> 00:37:35,853
+So this is at a pretty
+spectacular cave
+
+844
+00:37:35,886 --> 00:37:38,722
+called El Malpais in New Mexico.
+
+845
+00:37:38,755 --> 00:37:40,291
+El Malpais is the
+national monument,
+
+846
+00:37:40,324 --> 00:37:43,360
+the cave itself is
+called Big Skylight Cave.
+
+847
+00:37:43,393 --> 00:37:45,596
+You can guess why.
+
+848
+00:37:45,629 --> 00:37:47,998
+So we climb down in here
+and we have the robot
+
+849
+00:37:48,031 --> 00:37:51,869
+practicing on the side
+of this lava tube.
+
+850
+00:37:51,902 --> 00:37:53,771
+Lave tubes are
+really interesting
+
+851
+00:37:53,804 --> 00:37:56,206
+because we see them on Mars.
+
+852
+00:37:56,239 --> 00:37:58,809
+So you can see our field
+site that we practice on
+
+853
+00:37:58,842 --> 00:38:01,478
+in New Mexico on the right,
+and you can see a picture
+
+854
+00:38:01,511 --> 00:38:04,748
+that was taken from an
+orbiter at Mars on the left.
+
+855
+00:38:04,781 --> 00:38:07,451
+And the similarities
+are really remarkable.
+
+856
+00:38:07,484 --> 00:38:10,154
+What you'll notice is the
+difference is that our
+
+857
+00:38:10,187 --> 00:38:12,156
+lava tubes on
+Earth are smaller,
+
+858
+00:38:12,189 --> 00:38:14,425
+so 20 meters
+versus 50 meters.
+
+859
+00:38:14,458 --> 00:38:17,628
+Turns out the size of the lava
+tubes seems to correlate to
+
+860
+00:38:17,661 --> 00:38:21,832
+the amount of gravity that
+exists on that planet or body.
+
+861
+00:38:22,999 --> 00:38:25,869
+So on Earth, we see
+20, 30 meter max.
+
+862
+00:38:25,902 --> 00:38:29,039
+On Mars, we see 50,
+some even at 100 meters.
+
+863
+00:38:29,072 --> 00:38:32,576
+On the Moon, we can see them
+up to 200 meters in diameter.
+
+864
+00:38:32,609 --> 00:38:36,480
+So you can imagine
+that is a giant cave.
+
+865
+00:38:36,513 --> 00:38:37,881
+Now caves are really interesting
+
+866
+00:38:37,914 --> 00:38:40,584
+because they're
+preservation environments.
+
+867
+00:38:40,617 --> 00:38:42,386
+So if you get into a cave,
+
+868
+00:38:42,419 --> 00:38:44,355
+the environment is
+relatively stable.
+
+869
+00:38:44,388 --> 00:38:46,590
+It never gets too hot,
+never gets too cold.
+
+870
+00:38:46,623 --> 00:38:48,559
+On Mars and the Moon,
+you're protected
+
+871
+00:38:48,592 --> 00:38:50,894
+from radiation as well.
+
+872
+00:38:50,927 --> 00:38:54,031
+So samples that may be
+susceptible to that radiation
+
+873
+00:38:54,064 --> 00:38:56,133
+haven't volatilized and escaped.
+874
+00:38:56,166 --> 00:38:59,169
+You may have things
+that are preserved.
+
+875
+00:38:59,202 --> 00:39:02,039
+It's no accident that
+we find cave paintings
+
+876
+00:39:02,072 --> 00:39:04,575
+from early man in caves.
+
+877
+00:39:04,608 --> 00:39:07,578
+It wasn't that they didn't
+like painting out in the light,
+
+878
+00:39:07,611 --> 00:39:10,180
+it was that all of the
+paintings on the cliff walls
+
+879
+00:39:10,213 --> 00:39:13,250
+got washed away and
+weathered away over time.
+
+880
+00:39:13,283 --> 00:39:17,254
+So the only ones we find
+now are in the caves.
+
+881
+00:39:17,287 --> 00:39:18,956
+Here's another picture
+of caves on Mars.
+
+882
+00:39:18,989 --> 00:39:21,225
+We actually have thousands
+of these skylights
+
+883
+00:39:21,258 --> 00:39:22,893
+that we've observed.
+
+884
+00:39:22,926 --> 00:39:27,064
+And you can see here, several
+of them along a sinuous rille.
+
+885
+00:39:27,097 --> 00:39:29,233
+It sure looks to me
+like that's a cave
+
+886
+00:39:29,266 --> 00:39:31,668
+that's probably
+connected underground.
+
+887
+00:39:31,701 --> 00:39:33,170
+And you can see
+from the scale bar,
+
+888
+00:39:33,203 --> 00:39:36,340
+it's several miles in length.
+
+889
+00:39:36,373 --> 00:39:37,808
+The other thing that's
+good about having
+
+890
+00:39:37,841 --> 00:39:40,210
+a preservation environment
+is if you're a person,
+
+891
+00:39:40,243 --> 00:39:42,980
+you're not getting
+cancer, being blasted
+
+892
+00:39:43,013 --> 00:39:45,149
+by that radiation
+on the surface.
+
+893
+00:39:45,182 --> 00:39:49,453
+So it may be that we
+evolved from cave people
+
+894
+00:39:49,486 --> 00:39:51,522
+and we will return
+to being cave people
+
+895
+00:39:51,555 --> 00:39:53,590
+when we visit Mars and the Moon
+
+896
+00:39:53,623 --> 00:39:58,128
+to protect ourselves from
+that radiation when we sleep.
+
+897
+00:39:58,161 --> 00:40:00,397
+Now caves are amazing,
+but you might also
+
+898
+00:40:00,430 --> 00:40:04,168
+want to visit those cliff
+faces, as I mentioned before.
+
+899
+00:40:04,201 --> 00:40:06,303
+And there's plenty
+of them on Mars.
+
+900
+00:40:06,336 --> 00:40:10,207
+The Grand Canyon equivalent
+on Mars, Valles Marineris,
+
+901
+00:40:10,240 --> 00:40:13,877
+is actually much, much
+larger than our Grand Canyon.
+
+902
+00:40:13,910 --> 00:40:15,913
+So you can imagine a
+pretty epic mission
+
+903
+00:40:15,946 --> 00:40:20,117
+having a robot climb from top
+to bottom or bottom to top.
+
+904
+00:40:22,686 --> 00:40:24,455
+And just to emphasize the point,
+905
+00:40:24,488 --> 00:40:26,156
+I don't know how many people
+have seen these photos,
+
+906
+00:40:26,189 --> 00:40:27,958
+they were published by Curiosity
+
+907
+00:40:27,991 --> 00:40:32,262
+and the Mars science laboratory
+team just a few weeks ago,
+
+908
+00:40:32,295 --> 00:40:35,332
+but these are Murray
+Buttes in Gale Crater,
+
+909
+00:40:35,365 --> 00:40:38,235
+and they really show some
+spectacular cliff faces,
+
+910
+00:40:38,268 --> 00:40:41,972
+and I would love to have
+that be our next test site.
+
+911
+00:40:42,005 --> 00:40:44,775
+And just to emphasize the
+cameras that they have now
+
+912
+00:40:44,808 --> 00:40:46,810
+on these missions
+are incredible.
+
+913
+00:40:46,843 --> 00:40:50,013
+The detail we see, the
+layering that you see,
+
+914
+00:40:50,046 --> 00:40:54,651
+there's so much to explore
+beyond what's on the floor.
+
+915
+00:40:54,684 --> 00:40:56,353
+So rock climbing robots are good
+
+916
+00:40:56,386 --> 00:40:57,788
+for cliff faces and for caves.
+
+917
+00:40:57,821 --> 00:41:00,691
+They may also be good
+for microgravity.
+
+918
+00:41:00,724 --> 00:41:02,092
+So moving in
+microgravity is more of
+
+919
+00:41:02,125 --> 00:41:04,862
+a climbing problem
+than a walking problem.
+
+920
+00:41:04,895 --> 00:41:09,666
+If you let go in microgravity,
+you fall off, right?
+
+921
+00:41:09,699 --> 00:41:12,002
+So Itokawa, which
+is the asteroid
+
+922
+00:41:12,035 --> 00:41:13,704
+that the Japanese
+visited,
+
+923
+00:41:13,737 --> 00:41:18,609
+it's about 500 meters across,
+the long part of that potato,
+
+924
+00:41:18,642 --> 00:41:22,813
+and it has the equivalent of
+.0003% of Earth's gravity.
+
+925
+00:41:25,282 --> 00:41:28,151
+And that's pointing sort of
+in weird directions, as well,
+
+926
+00:41:28,184 --> 00:41:31,154
+because that's not a
+perfectly spherical body.
+
+927
+00:41:31,187 --> 00:41:34,892
+So if you jumped off the
+surface of Itokawa, no doubt,
+
+928
+00:41:34,925 --> 00:41:38,061
+you end up in outer
+space, never to come back.
+
+929
+00:41:38,094 --> 00:41:39,830
+If you drop a baseball
+on the surface,
+
+930
+00:41:39,863 --> 00:41:43,700
+takes many minutes for it to
+fall down and hit the ground.
+
+931
+00:41:43,733 --> 00:41:47,838
+So keeping yourself anchored
+to the surface is a good idea.
+
+932
+00:41:47,871 --> 00:41:50,841
+Now these bodies are littered
+with boulders and other kinds
+
+933
+00:41:50,874 --> 00:41:53,744
+of terrain that we might
+want to crawl around on.
+
+934
+00:41:53,777 --> 00:41:55,012
+As I mentioned, the microspines
+
+935
+00:41:55,045 --> 00:41:57,147
+are good for consolidated rock.
+936
+00:41:57,180 --> 00:41:59,483
+We might have that auger
+or that beach umbrella
+
+937
+00:41:59,516 --> 00:42:02,152
+for the weaker,
+granular materials.
+
+938
+00:42:02,185 --> 00:42:05,255
+The picture on the right was
+taken by the Rosetta mission.
+
+939
+00:42:05,288 --> 00:42:08,659
+That's comet 67P,
+I always say CG.
+
+940
+00:42:08,692 --> 00:42:11,295
+That name is tremendously long.
+
+941
+00:42:11,328 --> 00:42:13,263
+And these are
+incredible pictures,
+
+942
+00:42:13,296 --> 00:42:16,567
+but wouldn't you like to
+have a rover on that body
+
+943
+00:42:16,600 --> 00:42:19,202
+the same way we have
+a rover on Mars?
+
+944
+00:42:19,235 --> 00:42:22,039
+If you did, you might
+start at one lobe
+
+945
+00:42:22,072 --> 00:42:25,475
+and traverse across the neck
+and onto the other lobe.
+
+946
+00:42:25,508 --> 00:42:28,078
+There's a hypothesis
+that 67P might have been
+
+947
+00:42:28,111 --> 00:42:31,148
+two comets that
+got fused together.
+
+948
+00:42:31,181 --> 00:42:33,617
+We don't have a great way of
+testing that because there's
+
+949
+00:42:33,650 --> 00:42:36,820
+redistribution of the granular
+materials on the surface.
+
+950
+00:42:36,853 --> 00:42:38,889
+So if that fusion happened,
+
+951
+00:42:38,922 --> 00:42:41,158
+it's kind of been
+obscured by now.
+
+952
+00:42:41,191 --> 00:42:43,794
+But if we could drill, if we
+could get under the surface,
+
+953
+00:42:43,827 --> 00:42:45,329
+we could learn all
+kinds of secrets
+
+954
+00:42:45,362 --> 00:42:48,098
+about the history of that comet.
+
+955
+00:42:48,131 --> 00:42:50,901
+So you can see places
+I've marked with red X's
+
+956
+00:42:50,934 --> 00:42:54,171
+as example locations in
+different geographical units
+
+957
+00:42:54,204 --> 00:42:57,040
+that we might try and drill.
+
+958
+00:42:57,073 --> 00:42:59,576
+Here's just a closer in picture,
+
+959
+00:42:59,609 --> 00:43:02,680
+example pathways
+that we might take.
+
+960
+00:43:04,114 --> 00:43:06,817
+And I'll wrap up with our
+beautiful artist concept
+
+961
+00:43:06,850 --> 00:43:09,286
+of what a rover mission on
+the surface of an asteroid
+
+962
+00:43:09,319 --> 00:43:11,054
+or comet would look like.
+
+963
+00:43:11,087 --> 00:43:13,023
+I was told, though,
+actually if the Earth
+
+964
+00:43:13,056 --> 00:43:15,726
+is this big in the picture,
+it's a bad day for the Earth.
+
+965
+00:43:15,759 --> 00:43:17,160
+(audience laughing)
+
+966
+00:43:17,193 --> 00:43:19,930
+We might need that asteroid
+deflection technology.
+
+967
+00:43:19,963 --> 00:43:23,333
+But it makes for a good picture.
+
+968
+00:43:23,366 --> 00:43:26,670
+Okay, so chapter three
+is gecko-like adhesives.
+
+969
+00:43:26,703 --> 00:43:28,605
+Now gecko adhesives
+are very different
+
+970
+00:43:28,638 --> 00:43:31,274
+than the claw-based approaches
+I've been talking about.
+
+971
+00:43:31,307 --> 00:43:34,645
+You'll sometimes hear me refer
+to them as ON-OFF adhesives
+
+972
+00:43:34,678 --> 00:43:37,447
+because one of the most
+remarkable properties
+
+973
+00:43:37,480 --> 00:43:40,384
+is a gecko can turn the
+stickiness of its foot
+
+974
+00:43:40,417 --> 00:43:43,320
+on and off depending on
+which way its pulling on it.
+
+975
+00:43:43,353 --> 00:43:45,188
+So imagine having duct
+tape that you could switch
+
+976
+00:43:45,221 --> 00:43:48,425
+whether it's sticky
+or not sticky.
+
+977
+00:43:48,458 --> 00:43:52,429
+So geckos, amazing, nature's
+best climber by far.
+
+978
+00:43:52,462 --> 00:43:54,831
+That adhesive is reusable.
+
+979
+00:43:54,864 --> 00:43:56,800
+We've actually tested
+it with some colleagues.
+
+980
+00:43:56,833 --> 00:44:00,470
+30,000 cycles and the gecko
+adhesive didn't wear out.
+
+981
+00:44:00,503 --> 00:44:01,672
+Can you imagine
+if you're a gecko
+
+982
+00:44:01,705 --> 00:44:04,274
+and your foot stops
+sticking after 10 steps,
+
+983
+00:44:04,307 --> 00:44:06,410
+you're quickly a dead
+gecko, which is bad.
+
+984
+00:44:06,443 --> 00:44:07,678
+(audience laughing)
+
+985
+00:44:07,711 --> 00:44:09,513
+That ON-OFF behavior,
+and the physics
+
+986
+00:44:09,546 --> 00:44:12,049
+behind this is van
+der Waals forces.
+
+987
+00:44:12,082 --> 00:44:14,251
+And if you remember your
+high school physics,
+988
+00:44:14,284 --> 00:44:17,387
+van der Waals forces are
+the temporary and weak
+
+989
+00:44:17,420 --> 00:44:21,858
+interactions that you get
+between two electron clouds.
+
+990
+00:44:21,891 --> 00:44:24,227
+So you bring neutral
+atoms very close together,
+
+991
+00:44:24,260 --> 00:44:26,396
+those electrons are flying
+around all over the place,
+
+992
+00:44:26,429 --> 00:44:27,964
+they don't stay in one spot.
+
+993
+00:44:27,997 --> 00:44:30,434
+So at any given minute, if
+you slice the atom in half,
+
+994
+00:44:30,467 --> 00:44:33,537
+a few more electrons may be
+on one side than on the other.
+
+995
+00:44:33,570 --> 00:44:35,672
+And if those atoms are
+really close together,
+
+996
+00:44:35,705 --> 00:44:38,375
+they're gonna induce
+a matching polarity
+
+997
+00:44:38,408 --> 00:44:40,477
+in the electron clouds
+that are close by.
+
+998
+00:44:40,510 --> 00:44:42,279
+So you get this net
+attractive force
+
+999
+00:44:42,312 --> 00:44:44,548
+called van der Waals forces.
+
+1000
+00:44:44,581 --> 00:44:47,384
+Way weaker than
+electromagnetic forces,
+
+1001
+00:44:47,417 --> 00:44:50,320
+way weaker than if the
+atom is missing an electron
+
+1002
+00:44:50,353 --> 00:44:51,822
+and the other one
+has an extra electron
+
+1003
+00:44:51,855 --> 00:44:54,624
+and you've got a covalent
+bond or something like that.
+
+1004
+00:44:54,657 --> 00:44:56,626
+But the gecko can
+use those forces
+
+1005
+00:44:56,659 --> 00:45:00,063
+because of all the tiny
+hairs it has on its feet.
+
+1006
+00:45:00,096 --> 00:45:03,100
+Now some great videos
+of geckos here.
+
+1007
+00:45:03,133 --> 00:45:06,203
+One toe supporting its
+entire body weight.
+
+1008
+00:45:06,236 --> 00:45:09,706
+So it's really sticky, and
+that's on glass, by the way.
+
+1009
+00:45:09,739 --> 00:45:11,374
+And if you look on the
+video on the right,
+
+1010
+00:45:11,407 --> 00:45:15,812
+you can see some really
+rich biology going on
+
+1011
+00:45:15,845 --> 00:45:18,014
+with the curving spine
+and the trot gait
+
+1012
+00:45:18,047 --> 00:45:20,117
+and its curling its toes.
+
+1013
+00:45:21,518 --> 00:45:23,053
+Geckos could go from the
+floor to the ceiling in here
+
+1014
+00:45:23,086 --> 00:45:24,888
+in about two seconds.
+
+1015
+00:45:24,921 --> 00:45:27,958
+They take ten steps per second.
+
+1016
+00:45:27,991 --> 00:45:30,327
+Now imagine trying
+to peel duct tape
+
+1017
+00:45:30,360 --> 00:45:34,131
+and put it back on the surface
+ten times in one second.
+
+1018
+00:45:34,164 --> 00:45:35,265
+You can't because you can't turn
+
+1019
+00:45:35,298 --> 00:45:37,167
+the stickiness of duct tape off.
+
+1020
+00:45:37,200 --> 00:45:39,936
+But because the gecko, when
+it pulls down on the adhesive,
+
+1021
+00:45:39,969 --> 00:45:42,372
+is sticky, and when it
+releases that weight,
+
+1022
+00:45:42,405 --> 00:45:45,476
+is un-sticky, it
+can fly up the wall.
+
+1023
+00:45:47,143 --> 00:45:48,812
+So to really
+appreciate the gecko,
+
+1024
+00:45:48,845 --> 00:45:50,580
+you have to have a microscope.
+
+1025
+00:45:50,613 --> 00:45:55,485
+So geckos have this hierarchical
+structure of tiny hairs.
+
+1026
+00:45:55,518 --> 00:45:57,220
+The only ones you
+can see with your eye
+
+1027
+00:45:57,253 --> 00:45:59,556
+are up here in the upper left.
+
+1028
+00:45:59,589 --> 00:46:01,691
+They're called lamellae,
+and they're flaps.
+
+1029
+00:46:01,724 --> 00:46:03,260
+They look like flaps, they're on
+1030
+00:46:03,293 --> 00:46:06,196
+the sort of milometer scale.
+
+1031
+00:46:06,229 --> 00:46:09,599
+Growing on each of those
+flaps is a forest of hairs,
+
+1032
+00:46:09,632 --> 00:46:11,935
+tiny hairs called
+setae that are about
+
+1033
+00:46:11,968 --> 00:46:16,106
+five microns in diameter maybe
+a hundred microns in length.
+
+1034
+00:46:16,139 --> 00:46:17,474
+For reference, a human hair
+
+1035
+00:46:17,507 --> 00:46:20,177
+is about a hundred
+microns in diameter.
+
+1036
+00:46:20,210 --> 00:46:22,078
+So these hairs are
+20 times smaller
+
+1037
+00:46:22,111 --> 00:46:23,914
+than the hair on your head.
+
+1038
+00:46:23,947 --> 00:46:27,017
+They grow at an angle, as
+well, which is important.
+
+1039
+00:46:27,050 --> 00:46:29,486
+At the ends of those
+hairs, though, down here,
+
+1040
+00:46:29,519 --> 00:46:32,222
+you see it kind of tufts
+like a head of broccoli.
+
+1041
+00:46:32,255 --> 00:46:33,990
+And that's because
+you have branches.
+
+1042
+00:46:34,023 --> 00:46:37,394
+Each one of those hairs tufts
+into dozens if not hundreds
+
+1043
+00:46:37,427 --> 00:46:40,730
+of branches that are at
+the single micron scale.
+
+1044
+00:46:40,763 --> 00:46:42,032
+Really, really small.
+
+1045
+00:46:42,065 --> 00:46:44,501
+And those branches
+terminate in spatulae,
+
+1046
+00:46:44,534 --> 00:46:46,937
+which are only tens
+of nanometers thick
+
+1047
+00:46:46,970 --> 00:46:49,372
+and 100, 200 nanometers across.
+
+1048
+00:46:49,405 --> 00:46:50,774
+And they kind of
+look like a spatula,
+
+1049
+00:46:50,807 --> 00:46:53,510
+although that's a
+coincidence with the name.
+
+1050
+00:46:53,543 --> 00:46:55,612
+Those are what makes
+contact with the surface
+1051
+00:46:55,645 --> 00:46:58,648
+and what uses those van
+der Waals forces to stick.
+
+1052
+00:46:58,681 --> 00:47:00,684
+So the genius of
+the gecko system
+
+1053
+00:47:00,717 --> 00:47:03,653
+is that it has this intricate
+suspension structure
+
+1054
+00:47:03,686 --> 00:47:07,190
+behind those spatulae that
+help it conform to the surface
+
+1055
+00:47:07,223 --> 00:47:12,028
+and load share without pushing
+the animal back off the wall.
+
+1056
+00:47:12,061 --> 00:47:15,398
+I can jam my hand into a
+surface and generate some
+
+1057
+00:47:15,431 --> 00:47:18,168
+van der Waals forces, but
+because the deflection
+
+1058
+00:47:18,201 --> 00:47:22,138
+of the tissue in my hand
+is greater in terms of
+
+1059
+00:47:22,171 --> 00:47:24,641
+a spring back force
+than the adhesion I get
+
+1060
+00:47:24,674 --> 00:47:27,577
+from the van der Waals forces,
+I can't climb up the wall.
+1061
+00:47:27,610 --> 00:47:30,080
+Unfortunately, that
+would be great.
+
+1062
+00:47:30,113 --> 00:47:31,648
+But a gecko can do it.
+
+1063
+00:47:31,681 --> 00:47:35,252
+Now manufacturing
+something that intricate
+
+1064
+00:47:35,285 --> 00:47:37,754
+is still probably 50 years out.
+
+1065
+00:47:37,787 --> 00:47:39,222
+We just don't have
+the technology
+
+1066
+00:47:39,255 --> 00:47:42,459
+to make something like
+the gecko is able to grow.
+
+1067
+00:47:42,492 --> 00:47:45,328
+We can make thing at the
+nanoscale like nanotubes.
+
+1068
+00:47:45,361 --> 00:47:47,163
+We can make things at
+the milometer scale.
+
+1069
+00:47:47,196 --> 00:47:51,568
+But making them together, and
+non-coplanar and branching,
+
+1070
+00:47:51,601 --> 00:47:53,637
+it's just too much.
+
+1071
+00:47:53,670 --> 00:47:55,939
+So as an engineer, I
+don't wanna wait 50 years
+
+1072
+00:47:55,972 --> 00:47:57,874
+for the technology
+to come around.
+
+1073
+00:47:57,907 --> 00:47:59,676
+So we do biomimetics.
+
+1074
+00:48:00,843 --> 00:48:02,045
+We're not trying
+to copy the gecko,
+
+1075
+00:48:02,078 --> 00:48:03,747
+we're trying to
+learn the lessons
+
+1076
+00:48:03,780 --> 00:48:06,149
+and apply them in our robots.
+
+1077
+00:48:06,182 --> 00:48:08,351
+So one of the lessons
+is this directionality.
+
+1078
+00:48:08,384 --> 00:48:10,787
+You can see this
+hair has an angle.
+
+1079
+00:48:10,820 --> 00:48:13,490
+These hairs are about 20
+microns across the base.
+
+1080
+00:48:13,523 --> 00:48:15,125
+So they are about
+five times smaller
+
+1081
+00:48:15,158 --> 00:48:16,993
+than the hair on your head.
+
+1082
+00:48:17,026 --> 00:48:19,062
+And they're made out
+of a silicone rubber.
+
+1083
+00:48:19,095 --> 00:48:21,164
+So gecko hairs are actually
+made out of beta-carotene,
+
+1084
+00:48:21,197 --> 00:48:23,767
+which is like a
+fingernail or lizard skin.
+
+1085
+00:48:23,800 --> 00:48:25,001
+It's rough.
+
+1086
+00:48:25,034 --> 00:48:27,170
+We cheat by using a
+rubbery-like material.
+
+1087
+00:48:27,203 --> 00:48:29,606
+Not a sticky material, but
+something a little softer
+
+1088
+00:48:29,639 --> 00:48:32,442
+that lets us get a
+little bit more adhesion.
+
+1089
+00:48:32,475 --> 00:48:35,745
+Just because we can't
+match that geometry.
+
+1090
+00:48:35,778 --> 00:48:37,347
+You can see that same property
+
+1091
+00:48:37,380 --> 00:48:40,850
+if you pull the gecko
+hairs along the surface,
+
+1092
+00:48:40,883 --> 00:48:43,753
+they bend over, you get a
+high, real area of contact,
+
+1093
+00:48:43,786 --> 00:48:46,790
+lots of van der Waals
+forces, and they stick.
+
+1094
+00:48:46,823 --> 00:48:48,925
+If you push them in
+the opposite direction
+
+1095
+00:48:48,958 --> 00:48:51,861
+or you don't load them at
+all, it's only the very tips
+
+1096
+00:48:51,894 --> 00:48:54,130
+of these hairs, it's only
+this point, right here,
+
+1097
+00:48:54,163 --> 00:48:56,366
+that makes contact with the
+surface, and you don't have
+
+1098
+00:48:56,399 --> 00:48:59,436
+any van der Waals
+forces, it doesn't stick.
+
+1099
+00:48:59,469 --> 00:49:01,838
+We add a tip to these features,
+
+1100
+00:49:01,871 --> 00:49:04,007
+we've been collaborating
+with Elliot Hawkes
+
+1101
+00:49:04,040 --> 00:49:07,010
+and my old advisor Mark
+Cutcosky at Stanford,
+
+1102
+00:49:07,043 --> 00:49:08,912
+we've really never
+stopped working together
+1103
+00:49:08,945 --> 00:49:11,114
+since I was a young
+master's student,
+
+1104
+00:49:11,147 --> 00:49:13,850
+to add this mushroom shaped tip,
+
+1105
+00:49:13,883 --> 00:49:16,186
+and that gives you
+about twice the adhesion
+
+1106
+00:49:16,219 --> 00:49:20,123
+'cause you have a thin
+film effect at the edges.
+
+1107
+00:49:20,156 --> 00:49:22,525
+So the way we make these,
+
+1108
+00:49:22,558 --> 00:49:24,194
+I'll try and do it very quickly,
+
+1109
+00:49:24,227 --> 00:49:26,663
+I'm gonna speak MEMS
+technology here for a minute.
+
+1110
+00:49:26,696 --> 00:49:28,999
+So if you don't
+understand, don't worry.
+
+1111
+00:49:29,032 --> 00:49:33,036
+We use a quartz wafer, and
+then we hard mask that in metal
+
+1112
+00:49:33,069 --> 00:49:36,840
+so that we can do an
+exposure through that wafer.
+
+1113
+00:49:36,873 --> 00:49:39,909
+Quartz is transparent to
+UV light so we can have
+
+1114
+00:49:39,942 --> 00:49:43,313
+UV light come through this
+wafer from the back side
+
+1115
+00:49:43,346 --> 00:49:46,549
+and expose where we
+haven't blocked it off.
+
+1116
+00:49:46,582 --> 00:49:48,651
+We then align and do
+a vertical exposure
+
+1117
+00:49:48,684 --> 00:49:52,322
+and then develop, and what
+you end up with is a mold.
+
+1118
+00:49:52,355 --> 00:49:55,158
+So we have a negative
+version of that shape
+
+1119
+00:49:55,191 --> 00:49:57,560
+that we can cast into
+over and over again.
+
+1120
+00:49:57,593 --> 00:49:58,862
+So we use that silicone rubber,
+
+1121
+00:49:58,895 --> 00:50:00,930
+which starts kind of
+like 5 Minute Epoxy.
+
+1122
+00:50:00,963 --> 00:50:03,400
+It's two parts of liquid,
+you mix it together,
+
+1123
+00:50:03,433 --> 00:50:06,536
+you pour it in, and
+voila, it solidifies,
+
+1124
+00:50:06,569 --> 00:50:07,804
+and you can peel it out.
+
+1125
+00:50:07,837 --> 00:50:10,507
+You do that over and over again.
+
+1126
+00:50:12,341 --> 00:50:14,310
+To understand the
+behavior, we test that
+
+1127
+00:50:14,343 --> 00:50:16,046
+at all different angles.
+
+1128
+00:50:16,079 --> 00:50:19,182
+So we pull on that gecko
+material with sheer
+
+1129
+00:50:19,215 --> 00:50:21,184
+or with no sheer, and
+the key point here,
+
+1130
+00:50:21,217 --> 00:50:22,886
+is this goes through the origin.
+
+1131
+00:50:22,919 --> 00:50:25,655
+Which means if you don't
+pull across the surface,
+
+1132
+00:50:25,688 --> 00:50:27,190
+it doesn't stick.
+
+1133
+00:50:27,223 --> 00:50:29,292
+And if you release that
+force across the surface,
+
+1134
+00:50:29,325 --> 00:50:30,794
+it comes off.
+1135
+00:50:30,827 --> 00:50:33,830
+You can see with the more force
+along the surface you have,
+
+1136
+00:50:33,863 --> 00:50:35,698
+the more stickiness you have.
+
+1137
+00:50:35,731 --> 00:50:37,534
+This axis is your stickiness,
+
+1138
+00:50:37,567 --> 00:50:41,004
+and this axis is your
+pulling along the surface.
+
+1139
+00:50:41,037 --> 00:50:43,139
+And that maxes
+out at some point,
+
+1140
+00:50:43,172 --> 00:50:45,742
+and then you kind of asymptote.
+
+1141
+00:50:46,943 --> 00:50:48,344
+So I'll get back to a
+more interesting thing,
+
+1142
+00:50:48,377 --> 00:50:50,847
+here's the first robots
+that we were testing
+
+1143
+00:50:50,880 --> 00:50:52,782
+with this gecko-like adhesive.
+
+1144
+00:50:52,815 --> 00:50:54,250
+We called it Stickybot.
+
+1145
+00:50:54,283 --> 00:50:56,719
+In fact, this is Stickybot
+2, so I was learning
+1146
+00:50:56,752 --> 00:51:00,290
+iterative design even
+when I was in school.
+
+1147
+00:51:00,323 --> 00:51:01,624
+You can see, it's
+very gecko-like
+
+1148
+00:51:01,657 --> 00:51:03,626
+in more ways than just the feet.
+
+1149
+00:51:03,659 --> 00:51:06,663
+Sangbae Kim was the main
+guy who designed the robot.
+
+1150
+00:51:06,696 --> 00:51:08,898
+I really worked on the
+feet for this robot.
+
+1151
+00:51:08,931 --> 00:51:10,834
+He's now a professor at
+MIT, you may have seen
+
+1152
+00:51:10,867 --> 00:51:15,805
+his Cheetah robots if you've
+seen any of the YouTube videos.
+
+1153
+00:51:15,838 --> 00:51:17,841
+I like to joke, people
+in Thailand come down
+
+1154
+00:51:17,874 --> 00:51:20,777
+and they see a gecko running
+up their kitchen cupboard.
+
+1155
+00:51:20,810 --> 00:51:22,745
+In our lab at Stanford,
+we would come down
+1156
+00:51:22,778 --> 00:51:27,417
+and we would see a robot
+gecko running up the cupboard.
+
+1157
+00:51:27,450 --> 00:51:31,788
+This gecko used gravity to
+engage that ON-OFF behavior.
+
+1158
+00:51:31,821 --> 00:51:33,556
+So again, it only
+climbed in a vertical
+
+1159
+00:51:33,589 --> 00:51:36,093
+straight line against gravity.
+
+1160
+00:51:37,226 --> 00:51:39,162
+We have to do a
+trick if we're gonna
+
+1161
+00:51:39,195 --> 00:51:42,298
+get it to work in zero
+gravity, in space.
+
+1162
+00:51:42,331 --> 00:51:44,467
+And it's the same trick
+a gecko does, actually.
+
+1163
+00:51:44,500 --> 00:51:47,103
+You can see here, if a
+gecko's sideways on a wall,
+
+1164
+00:51:47,136 --> 00:51:49,639
+it orients its feet so
+that gravity is pointing
+
+1165
+00:51:49,672 --> 00:51:52,709
+in the preferred direction
+to make their feet sticky.
+
+1166
+00:51:52,742 --> 00:51:56,312
+And if they flip upside down
+to go head first down the wall
+
+1167
+00:51:56,345 --> 00:51:57,981
+they actually rotate their feet,
+
+1168
+00:51:58,014 --> 00:52:00,216
+again so that they're in
+the preferred direction
+
+1169
+00:52:00,249 --> 00:52:02,652
+so gravity turns
+the stickiness on.
+
+1170
+00:52:02,685 --> 00:52:04,120
+The first person
+to observe this,
+
+1171
+00:52:04,153 --> 00:52:06,122
+or at least the first
+person to write it down,
+
+1172
+00:52:06,155 --> 00:52:08,658
+was actually Aristotle
+in one of his books.
+
+1173
+00:52:08,691 --> 00:52:11,594
+So kind of cool side note
+is I got to cite Aristotle
+
+1174
+00:52:11,627 --> 00:52:13,730
+in my Ph.D. thesis,
+(audience laughing)
+
+1175
+00:52:13,763 --> 00:52:16,299
+which I thought was great.
+
+1176
+00:52:16,332 --> 00:52:17,967
+Now so we use that
+trick to our advantage
+
+1177
+00:52:18,000 --> 00:52:20,036
+in the same way we do
+with the microspines.
+
+1178
+00:52:20,069 --> 00:52:23,339
+Put two gecko pads in
+opposition, squeeze together,
+
+1179
+00:52:23,372 --> 00:52:25,074
+and you're gonna get
+an adhesive anchor
+
+1180
+00:52:25,107 --> 00:52:27,777
+that can support loads
+in any direction.
+
+1181
+00:52:27,810 --> 00:52:28,978
+You can do it with two pads,
+
+1182
+00:52:29,011 --> 00:52:31,948
+you can do it with
+a lot of pads.
+
+1183
+00:52:31,981 --> 00:52:34,317
+Of course, since it's
+supposed to work in zero G,
+
+1184
+00:52:34,350 --> 00:52:37,487
+we gotta take it on the
+airplane, test it out.
+
+1185
+00:52:37,520 --> 00:52:40,823
+So here's me grappling
+a free-floating cube
+
+1186
+00:52:40,856 --> 00:52:43,960
+during one of those
+zero G moments.
+1187
+00:52:43,993 --> 00:52:46,229
+So this is a video, again,
+collaborating with Stanford
+
+1188
+00:52:46,262 --> 00:52:50,233
+to demonstrate some of the
+properties of these grippers.
+
+1189
+00:52:50,266 --> 00:52:51,467
+One of the key things is
+
+1190
+00:52:51,500 --> 00:52:53,369
+you don't have to push
+it into the surface.
+
+1191
+00:52:53,402 --> 00:52:55,505
+You just have to pull
+along the surface.
+
+1192
+00:52:55,538 --> 00:52:57,540
+So unlike duct tape, again,
+where you have to sort of
+
+1193
+00:52:57,573 --> 00:53:00,810
+make sure it's pressed down
+firmly to get it to stick well,
+
+1194
+00:53:00,843 --> 00:53:03,880
+with a gecko-like adhesive you
+just touch it to the surface,
+
+1195
+00:53:03,913 --> 00:53:05,315
+and it sticks.
+
+1196
+00:53:05,348 --> 00:53:07,717
+And similarly, you can
+release it with zero force.
+
+1197
+00:53:07,750 --> 00:53:12,021
+It doesn't fall or push that
+plate away when he lets go.
+
+1198
+00:53:12,054 --> 00:53:14,857
+We've done testing here at JPL
+in a thermal vacuum chamber
+
+1199
+00:53:14,890 --> 00:53:17,493
+so it does work in the
+environment you find in space,
+
+1200
+00:53:17,526 --> 00:53:20,030
+minus 60 Celsius, full vacuum.
+
+1201
+00:53:21,197 --> 00:53:22,699
+We've done over 30,000 cycles
+
+1202
+00:53:22,732 --> 00:53:25,335
+with our synthetic
+gecko adhesive.
+
+1203
+00:53:25,368 --> 00:53:27,503
+And here we're demonstrating
+one of the use cases,
+
+1204
+00:53:27,536 --> 00:53:30,607
+where we might try and grapple
+a piece of orbital debris,
+
+1205
+00:53:30,640 --> 00:53:33,643
+a piece of space garbage, and
+try and tow it out of the way,
+
+1206
+00:53:33,676 --> 00:53:35,979
+make sure it doesn't
+hit astronauts
+
+1207
+00:53:36,012 --> 00:53:37,113
+like that
+movie Gravity,
+
+1208
+00:53:37,146 --> 00:53:40,483
+make sure that we can
+protect our assets.
+
+1209
+00:53:40,516 --> 00:53:43,519
+Now we wanted to test a
+hundred kilogram cube,
+
+1210
+00:53:43,552 --> 00:53:46,623
+which is basically a
+refrigerator, and we asked NASA,
+
+1211
+00:53:46,656 --> 00:53:49,058
+can we fly a refrigerator
+inside the airplane?
+
+1212
+00:53:49,091 --> 00:53:50,760
+And they said, heck no.
+(audience laughing)
+
+1213
+00:53:50,793 --> 00:53:52,595
+And so we were bummed
+for a couple of days
+
+1214
+00:53:52,628 --> 00:53:54,998
+until one of our
+students, Jonathon there,
+
+1215
+00:53:55,031 --> 00:53:57,567
+said y'know I'm
+about 100 kilograms.
+
+1216
+00:53:57,600 --> 00:54:00,203
+And so we put a vest
+on him, and he became
+
+1217
+00:54:00,236 --> 00:54:02,239
+the high inertia target.
+1218
+00:54:03,706 --> 00:54:05,041
+And that's one of our
+other interns at the time,
+
+1219
+00:54:05,074 --> 00:54:08,511
+who now works here,
+grappling him.
+
+1220
+00:54:08,544 --> 00:54:10,480
+Another facility we have at JPL
+
+1221
+00:54:10,513 --> 00:54:13,516
+to test in a zero
+G-like environment
+
+1222
+00:54:13,549 --> 00:54:16,619
+is the Robo-Dome or the
+Formation Control Testbed.
+
+1223
+00:54:16,652 --> 00:54:18,521
+It's like a giant
+air hockey table,
+
+1224
+00:54:18,554 --> 00:54:21,157
+but these robots are pumping
+the air out the bottom
+
+1225
+00:54:21,190 --> 00:54:23,159
+instead of the air
+coming through the table.
+
+1226
+00:54:23,192 --> 00:54:25,228
+The robots weigh
+about 800 pounds each,
+
+1227
+00:54:25,261 --> 00:54:27,463
+but you can push
+them with your pinky.
+1228
+00:54:27,496 --> 00:54:30,199
+And in this demonstration,
+we used thrusters
+
+1229
+00:54:30,232 --> 00:54:33,336
+on the gold robot to
+chase down the blue one,
+
+1230
+00:54:33,369 --> 00:54:35,004
+grapple it with
+the gecko adhesive,
+
+1231
+00:54:35,037 --> 00:54:37,774
+and tow it back
+to a set position.
+
+1232
+00:54:37,807 --> 00:54:40,276
+So this is a mission that
+you might see in space
+
+1233
+00:54:40,309 --> 00:54:42,478
+if you're grappling a
+satellite that's gone
+
+1234
+00:54:42,511 --> 00:54:45,248
+out of its preferred orbit
+and putting it back in place,
+
+1235
+00:54:45,281 --> 00:54:49,286
+maybe doing repair,
+refueling on that satellite.
+
+1236
+00:54:50,720 --> 00:54:52,322
+Of course, I'm a roboticist,
+and so I wanna see robots
+
+1237
+00:54:52,355 --> 00:54:54,490
+crawling around on everything.
+
+1238
+00:54:54,523 --> 00:54:56,492
+Here's an artist
+concept of a robot
+
+1239
+00:54:56,525 --> 00:54:58,861
+inspecting the outside
+of the space station.
+
+1240
+00:54:58,894 --> 00:55:02,498
+And if we send humans to
+Mars, that journey to Mars,
+
+1241
+00:55:02,531 --> 00:55:05,501
+you may find robots to
+maintain that space station,
+
+1242
+00:55:05,534 --> 00:55:09,272
+make sure it's functioning,
+do light repairs.
+
+1243
+00:55:11,107 --> 00:55:13,509
+So we've done some
+work on this, as well.
+
+1244
+00:55:13,542 --> 00:55:16,946
+In this case, we're using
+a counterweight to reduce
+
+1245
+00:55:16,979 --> 00:55:20,883
+the gravity and allow us
+to climb around in zero G.
+
+1246
+00:55:20,916 --> 00:55:23,419
+Now I knew you guys were
+gonna be a smart audience,
+
+1247
+00:55:23,452 --> 00:55:26,322
+and so I sped up the video
+that was already sped up
+
+1248
+00:55:26,355 --> 00:55:31,094
+so any of those numbers
+you see, multiply by three.
+
+1249
+00:55:31,127 --> 00:55:33,596
+So you can see it
+gripping and releasing.
+
+1250
+00:55:33,629 --> 00:55:36,866
+And you can see this is LEMUR
+3 just with different feet.
+
+1251
+00:55:36,899 --> 00:55:39,335
+We use LEMUR 3 for rock
+climbing with the microspines.
+
+1252
+00:55:39,368 --> 00:55:42,372
+Use LEMUR 3 for ISS inspection
+
+1253
+00:55:42,405 --> 00:55:45,742
+kinds of challenges
+with gecko grippers.
+
+1254
+00:55:48,978 --> 00:55:50,613
+Now earlier this
+year my first piece
+
+1255
+00:55:50,646 --> 00:55:52,715
+of hardware got sent to space.
+
+1256
+00:55:52,748 --> 00:55:54,317
+This was in May.
+
+1257
+00:55:54,350 --> 00:55:56,886
+I did not take this picture,
+but I was very close to
+
+1258
+00:55:56,919 --> 00:55:59,889
+this spot, and my picture
+looks nothing like this.
+1259
+00:55:59,922 --> 00:56:01,357
+(audience laughing)
+
+1260
+00:56:01,390 --> 00:56:03,693
+But here's a resupply
+mission going to the ISS,
+
+1261
+00:56:03,726 --> 00:56:06,696
+it was a night launch, it
+was awesome to see it go.
+
+1262
+00:56:06,729 --> 00:56:08,464
+And we put a few gecko grippers
+
+1263
+00:56:08,497 --> 00:56:10,266
+in the hands of the astronauts.
+
+1264
+00:56:10,299 --> 00:56:12,368
+So here's Jeff Williams.
+
+1265
+00:56:12,401 --> 00:56:15,204
+He's attached a gecko
+gripper to the bulkhead.
+
+1266
+00:56:15,237 --> 00:56:16,572
+And then he's gonna
+take out a force gauge
+
+1267
+00:56:16,605 --> 00:56:19,008
+and tug on it and
+measure the force.
+
+1268
+00:56:19,041 --> 00:56:20,343
+We also had them
+leave those grippers
+
+1269
+00:56:20,376 --> 00:56:22,512
+in place for a few weeks,
+1270
+00:56:22,545 --> 00:56:24,347
+just to demonstrate that
+it doesn't wear out,
+
+1271
+00:56:24,380 --> 00:56:27,049
+doesn't need any power
+to stay attached.
+
+1272
+00:56:27,082 --> 00:56:28,418
+And my favorite part right here,
+
+1273
+00:56:28,451 --> 00:56:30,052
+this is the first
+time he does it,
+
+1274
+00:56:30,085 --> 00:56:31,821
+he thinks it's gonna pull off.
+
+1275
+00:56:31,854 --> 00:56:34,357
+Then he realizes, oop,
+I gotta brace myself,
+
+1276
+00:56:34,390 --> 00:56:37,060
+because that's a sticky gripper.
+
+1277
+00:56:39,528 --> 00:56:41,531
+There are opportunities to use
+
+1278
+00:56:41,564 --> 00:56:43,800
+this technology here on Earth.
+
+1279
+00:56:43,833 --> 00:56:45,668
+We've partnered with
+a startup company
+
+1280
+00:56:45,701 --> 00:56:48,671
+called Perception
+Robotics that's here in LA
+1281
+00:56:48,704 --> 00:56:51,607
+that wants to put gecko
+grippers onto the factory floor
+
+1282
+00:56:51,640 --> 00:56:54,110
+to do pick and place operations,
+those kinds of things.
+
+1283
+00:56:54,143 --> 00:56:56,612
+And they sent me
+this picture one day,
+
+1284
+00:56:56,645 --> 00:56:58,848
+which I was not expecting,
+where they were at
+
+1285
+00:56:58,881 --> 00:57:01,884
+a small business event,
+and President Obama
+
+1286
+00:57:01,917 --> 00:57:03,953
+and Chancellor Merkel stopped by
+
+1287
+00:57:03,986 --> 00:57:07,190
+and I actually built that
+gripper that we had given
+
+1288
+00:57:07,223 --> 00:57:10,560
+to the company to do testing
+and demonstrations with.
+
+1289
+00:57:10,593 --> 00:57:14,197
+So they sent me this
+picture, and I--
+
+1290
+00:57:14,230 --> 00:57:15,031
+Holy cow.
+
+1291
+00:57:15,064 --> 00:57:17,867
+(audience laughing)
+
+1292
+00:57:17,900 --> 00:57:20,570
+So we're onto the fourth
+chapter, and we're gonna do
+
+1293
+00:57:20,603 --> 00:57:23,840
+a rapid fire kind of
+whirlwind through some of
+
+1294
+00:57:23,873 --> 00:57:27,877
+the early stage prototypes
+we have in the lab.
+
+1295
+00:57:27,910 --> 00:57:30,246
+So we've put some of these
+adhesive technologies
+
+1296
+00:57:30,279 --> 00:57:31,981
+onto wheeled robots.
+
+1297
+00:57:32,014 --> 00:57:33,916
+We're trying to
+miniaturize robots.
+
+1298
+00:57:33,949 --> 00:57:36,486
+Get them as small as possible.
+
+1299
+00:57:36,519 --> 00:57:38,120
+So you can see here
+the microspines
+
+1300
+00:57:38,153 --> 00:57:39,789
+climbing up rough surfaces.
+
+1301
+00:57:39,822 --> 00:57:42,826
+(audience laughing)
+
+1302
+00:57:44,126 --> 00:57:45,461
+And you'll notice
+there's no safety line.
+
+1303
+00:57:45,494 --> 00:57:47,396
+We try and make these
+sort of crash proof
+
+1304
+00:57:47,429 --> 00:57:50,633
+so that they can survive
+if they are to fall off
+
+1305
+00:57:50,666 --> 00:57:51,801
+(audience laughing)
+
+1306
+00:57:51,834 --> 00:57:53,169
+or if we intentionally
+drive them off.
+
+1307
+00:57:53,202 --> 00:57:54,770
+This was especially
+fulfilling 'cause we eat lunch
+
+1308
+00:57:54,803 --> 00:57:57,306
+right next to these stairs,
+so we would look at it
+
+1309
+00:57:57,339 --> 00:57:59,308
+every day and say,
+one day we're gonna
+
+1310
+00:57:59,341 --> 00:58:02,078
+have the robot climb
+up those stairs.
+
+1311
+00:58:02,111 --> 00:58:04,814
+You see Kalind Carpenter
+there controlling the robot.
+
+1312
+00:58:04,847 --> 00:58:07,884
+He did most of the work
+here to make that a reality.
+
+1313
+00:58:07,917 --> 00:58:09,385
+So it was another fun
+day when we were out
+
+1314
+00:58:09,418 --> 00:58:11,387
+at the tallest brick
+building we could find,
+
+1315
+00:58:11,420 --> 00:58:12,889
+it's about six stories.
+
+1316
+00:58:12,922 --> 00:58:14,857
+The robot made it all
+the way to the top.
+
+1317
+00:58:14,890 --> 00:58:17,493
+And then we realized that the
+latch to the roof was locked.
+
+1318
+00:58:17,526 --> 00:58:18,394
+(audience laughing)
+
+1319
+00:58:18,427 --> 00:58:19,896
+And we couldn't get up there.
+
+1320
+00:58:19,929 --> 00:58:22,932
+So we brought out a fishing
+net and tried to catch it.
+
+1321
+00:58:22,965 --> 00:58:25,067
+And we made it fall
+off, and we missed.
+
+1322
+00:58:25,100 --> 00:58:28,104
+(audience laughing)
+
+1323
+00:58:30,906 --> 00:58:34,477
+So one story kind of
+falls, we can survive.
+
+1324
+00:58:34,510 --> 00:58:36,379
+That six story was
+a little tough.
+
+1325
+00:58:36,412 --> 00:58:40,383
+But here you can see some
+of our impact testing.
+
+1326
+00:58:40,416 --> 00:58:42,618
+The robot keeps going.
+
+1327
+00:58:42,651 --> 00:58:44,520
+Now it's the same
+robot, but here
+
+1328
+00:58:44,553 --> 00:58:46,322
+it's got a different
+kind of wheel.
+
+1329
+00:58:46,355 --> 00:58:47,590
+These are the
+electrostatic wheels
+
+1330
+00:58:47,623 --> 00:58:49,559
+that I mentioned at
+the very beginning.
+
+1331
+00:58:49,592 --> 00:58:53,963
+So they operate at a very high
+voltage, about 5000 volts,
+
+1332
+00:58:53,996 --> 00:58:56,465
+but they are only creating
+a charge differential.
+
+1333
+00:58:56,498 --> 00:58:58,868
+So they're not powering
+anything, they're just keeping
+
+1334
+00:58:58,901 --> 00:59:02,738
+the charge between the
+pad and the surface.
+
+1335
+00:59:02,771 --> 00:59:05,241
+The reason the balloon falls
+off the wall after a while
+
+1336
+00:59:05,274 --> 00:59:06,842
+is 'cause that
+charge differential
+
+1337
+00:59:06,875 --> 00:59:08,077
+bleeds off
+into the air.
+
+1338
+00:59:08,110 --> 00:59:09,579
+So you hook up a
+circuit to the balloon
+
+1339
+00:59:09,612 --> 00:59:11,314
+after you rub it on your
+head, it'll stay up there
+
+1340
+00:59:11,347 --> 00:59:14,183
+as long as your
+battery has power.
+
+1341
+00:59:15,517 --> 00:59:17,353
+So the electrostatic
+adhesives, we're partnering
+
+1342
+00:59:17,386 --> 00:59:20,790
+with Matt Spenko at Illinois
+Institute of Technology.
+
+1343
+00:59:20,823 --> 00:59:24,660
+And these are used,
+electrodes that are sort of
+
+1344
+00:59:24,693 --> 00:59:28,097
+interstitial like this, powered
+at that very high voltage.
+
+1345
+00:59:28,130 --> 00:59:30,499
+I put one equation
+in the entire talk,
+
+1346
+00:59:30,532 --> 00:59:32,835
+'cause I felt like you
+have to have one equation.
+
+1347
+00:59:32,868 --> 00:59:34,036
+But it's a really easy one.
+
+1348
+00:59:34,069 --> 00:59:35,771
+So it says, the force
+you get from this
+
+1349
+00:59:35,804 --> 00:59:40,142
+is a product of the
+polarizability of the material,
+
+1350
+00:59:40,175 --> 00:59:42,912
+how easy it is to create
+an electric field in it,
+
+1351
+00:59:42,945 --> 00:59:45,948
+so metals are really high,
+clay and things are really low,
+
+1352
+00:59:45,981 --> 00:59:49,552
+and the strength of
+your electric field.
+
+1353
+00:59:49,585 --> 00:59:51,053
+Of course, we got a new robot,
+1354
+00:59:51,086 --> 00:59:53,923
+we gotta test it in
+the zero G airplane.
+
+1355
+00:59:53,956 --> 00:59:56,325
+So here we're showing
+the first demonstrations
+
+1356
+00:59:56,358 --> 00:59:59,095
+of zero G mobility,
+I think ever.
+
+1357
+01:00:00,162 --> 01:00:01,397
+I think this is the first robot
+
+1358
+01:00:01,430 --> 01:00:04,534
+that's ever climbed
+around in zero G.
+
+1359
+01:00:05,701 --> 01:00:07,169
+We have had some free flyers
+
+1360
+01:00:07,202 --> 01:00:09,605
+that are sort of
+hovering and fly around.
+
+1361
+01:00:09,638 --> 01:00:11,941
+This is the first
+crawler that I know of.
+
+1362
+01:00:11,974 --> 01:00:14,543
+So here's a spare solar panel.
+
+1363
+01:00:14,576 --> 01:00:16,345
+This was actually an
+extra from a satellite
+
+1364
+01:00:16,378 --> 01:00:18,047
+that went up to GEO.
+
+1365
+01:00:18,947 --> 01:00:21,617
+The slide before was mylar,
+
+1366
+01:00:21,650 --> 01:00:24,053
+which is a common
+thermal blanket material.
+
+1367
+01:00:24,086 --> 01:00:25,521
+So the outsides of spacecraft
+
+1368
+01:00:25,554 --> 01:00:27,390
+are covered in these
+kinds of things.
+
+1369
+01:00:27,423 --> 01:00:30,726
+Here, Christine is grappling
+a one meter cylinder.
+
+1370
+01:00:30,759 --> 01:00:32,461
+We chose one meter and aluminum
+
+1371
+01:00:32,494 --> 01:00:35,364
+because that's the materials
+of the Thor booster.
+
+1372
+01:00:35,397 --> 01:00:37,500
+So back in the 60s and 70s
+we weren't so concerned
+
+1373
+01:00:37,533 --> 01:00:40,002
+about all the garbage
+that we put up in space,
+
+1374
+01:00:40,035 --> 01:00:41,704
+and there's hundreds of boosters
+
+1375
+01:00:41,737 --> 01:00:44,540
+that are about that diameter,
+so we're demonstrating
+
+1376
+01:00:44,573 --> 01:00:46,709
+the ability to
+grapple one of those.
+
+1377
+01:00:46,742 --> 01:00:49,178
+It wouldn't be cost effective
+to do that with all of them,
+
+1378
+01:00:49,211 --> 01:00:51,981
+but if one of them's coming to
+hit a very high value asset,
+
+1379
+01:00:52,014 --> 01:00:54,250
+like the International
+Space Station,
+
+1380
+01:00:54,283 --> 01:00:58,120
+it'd be great to protect
+yourself from that.
+
+1381
+01:00:58,153 --> 01:01:01,590
+Here's an inchworm-style version
+using gecko-like materials.
+
+1382
+01:01:01,623 --> 01:01:03,225
+It's a lot slower,
+so it was only taking
+
+1383
+01:01:03,258 --> 01:01:05,261
+one step each parabola.
+
+1384
+01:01:06,395 --> 01:01:07,963
+And then we're having
+some fun at the end,
+
+1385
+01:01:07,996 --> 01:01:12,635
+testing out the robot on
+these curved surfaces.
+
+1386
+01:01:12,668 --> 01:01:14,236
+So we've also done
+some rapid prototyping
+
+1387
+01:01:14,269 --> 01:01:16,005
+with a volcano bot.
+
+1388
+01:01:16,038 --> 01:01:18,374
+This is Carolyn Parcheta.
+
+1389
+01:01:18,407 --> 01:01:22,745
+She is bold, and I'm
+terrified when we're here.
+
+1390
+01:01:22,778 --> 01:01:24,046
+This is in Hawaii.
+
+1391
+01:01:24,079 --> 01:01:27,316
+She came to our lab
+and wanted to image
+
+1392
+01:01:28,717 --> 01:01:32,021
+underground conduits for
+fissure-style eruptions.
+
+1393
+01:01:32,054 --> 01:01:33,989
+Now Carolyn is a volcanologist.
+
+1394
+01:01:34,022 --> 01:01:38,527
+She has her doctorate in
+Geology and Volcanology,
+
+1395
+01:01:38,560 --> 01:01:41,097
+but she came to our lab and
+asked us to build a robot
+
+1396
+01:01:41,130 --> 01:01:44,433
+with her to image these
+underground vents.
+
+1397
+01:01:44,466 --> 01:01:47,436
+She had taken lidar and
+imaged them from the surface,
+
+1398
+01:01:47,469 --> 01:01:50,239
+but because the vents have
+some sinuosity to them,
+
+1399
+01:01:50,272 --> 01:01:51,173
+she was only to be able to get
+
+1400
+01:01:51,206 --> 01:01:52,842
+about two or three meters deep.
+
+1401
+01:01:52,875 --> 01:01:55,478
+Lidar only works line of sight.
+
+1402
+01:01:57,045 --> 01:01:59,215
+I love this robot because
+it's really a great example
+
+1403
+01:01:59,248 --> 01:02:02,618
+of the methodology we try
+and embrace in the lab.
+
+1404
+01:02:02,651 --> 01:02:06,422
+We used 3D printers, motors
+we already had on the shelf,
+
+1405
+01:02:06,455 --> 01:02:09,725
+Arduino micro controllers
+that we already had code for.
+
+1406
+01:02:09,758 --> 01:02:13,562
+We basically duct taped a robot
+together as fast as we could
+1407
+01:02:13,595 --> 01:02:16,532
+and she and I were out
+in the field in Hawaii
+
+1408
+01:02:16,565 --> 01:02:19,268
+about four months later
+testing that robot
+
+1409
+01:02:19,301 --> 01:02:22,872
+with an Xbox Kinect
+as the sensor.
+
+1410
+01:02:22,905 --> 01:02:26,308
+Off the shelf system to map
+that underground conduit.
+
+1411
+01:02:26,341 --> 01:02:29,578
+And she had spent her Ph.D.
+studying these same fissures
+
+1412
+01:02:29,611 --> 01:02:31,213
+and had gotten that lidar data,
+
+1413
+01:02:31,246 --> 01:02:33,716
+and even though the
+robot on that first trip
+
+1414
+01:02:33,749 --> 01:02:37,186
+only worked about 20% of the
+time, we spent most of our days
+
+1415
+01:02:37,219 --> 01:02:40,222
+in the hotel room trying to
+fix it, we were able to get
+
+1416
+01:02:40,255 --> 01:02:42,992
+some data that was
+first of its kind.
+
+1417
+01:02:43,025 --> 01:02:45,394
+Where we're imaging the fissure,
+we went all the way down
+
+1418
+01:02:45,427 --> 01:02:48,164
+to 40 meters, and we
+ran out of tether.
+
+1419
+01:02:48,197 --> 01:02:50,499
+So from three meters
+to now 40 meters.
+
+1420
+01:02:50,532 --> 01:02:53,636
+And we iterated on that, and
+we went back this past spring,
+
+1421
+01:02:53,669 --> 01:02:55,938
+and the third of fourth
+version of the robot
+
+1422
+01:02:55,971 --> 01:02:59,742
+basically worked from dusk until
+dawn for two straight weeks
+
+1423
+01:02:59,775 --> 01:03:03,612
+and we have a map now of
+the entire conduit system
+
+1424
+01:03:03,645 --> 01:03:06,549
+of one of these
+fissure eruptions.
+
+1425
+01:03:07,749 --> 01:03:09,318
+So if you look at that
+data that you get back
+
+1426
+01:03:09,351 --> 01:03:10,953
+it's generally point cloud data.
+
+1427
+01:03:10,986 --> 01:03:12,621
+We're interested in
+this for some of our
+
+1428
+01:03:12,654 --> 01:03:14,623
+rock climbing robots, as well.
+
+1429
+01:03:14,656 --> 01:03:17,293
+This is the kind of
+thing you get back.
+
+1430
+01:03:17,326 --> 01:03:19,695
+And we're interested in
+ways to visualize that data
+
+1431
+01:03:19,728 --> 01:03:21,964
+besides just showing
+it on a computer screen
+
+1432
+01:03:21,997 --> 01:03:23,833
+so we may try and integrate
+it into some of those
+
+1433
+01:03:23,866 --> 01:03:26,168
+virtual reality goggles
+so you could actually have
+
+1434
+01:03:26,201 --> 01:03:28,537
+a scientist be
+inside that fissure
+
+1435
+01:03:28,570 --> 01:03:30,005
+where they would never fit.
+
+1436
+01:03:30,038 --> 01:03:34,110
+These fissures are only about
+20 to 30 centimeters wide.
+
+1437
+01:03:35,477 --> 01:03:38,581
+One more video here,
+we're showing a quadrotor
+1438
+01:03:38,614 --> 01:03:42,151
+that's able to land on
+the side of a building.
+
+1439
+01:03:42,184 --> 01:03:44,687
+We use a quadrotor because
+we have an atmosphere here.
+
+1440
+01:03:44,720 --> 01:03:47,489
+If you're in space, you
+might have a propulsive robot
+
+1441
+01:03:47,522 --> 01:03:49,325
+like the SPHERES robot.
+
+1442
+01:03:49,358 --> 01:03:51,560
+We're making a new version
+of that called Astrobee
+
+1443
+01:03:51,593 --> 01:03:53,495
+up at Ames Research Center.
+
+1444
+01:03:53,528 --> 01:03:55,798
+You could use a gripper
+like this to attach yourself
+
+1445
+01:03:55,831 --> 01:03:58,400
+to dock to the space
+station or a satellite,
+
+1446
+01:03:58,433 --> 01:04:00,603
+hang out for a while,
+save your propellant,
+
+1447
+01:04:00,636 --> 01:04:02,638
+and then take off again.
+
+1448
+01:04:04,973 --> 01:04:08,143
+And I think this is my
+last set of slides here.
+
+1449
+01:04:08,176 --> 01:04:11,747
+I just want to voice
+how fun a job this is.
+
+1450
+01:04:12,981 --> 01:04:14,550
+What a toy shop we seem to have.
+
+1451
+01:04:14,583 --> 01:04:17,019
+I know my garage at
+home will never be
+
+1452
+01:04:17,052 --> 01:04:20,322
+as full as my lab is
+here with equipment.
+
+1453
+01:04:20,355 --> 01:04:22,625
+So we've gotten a lot of
+support from our section
+
+1454
+01:04:22,658 --> 01:04:27,196
+as well as the JPL leadership
+to make these things happen.
+
+1455
+01:04:27,229 --> 01:04:29,899
+So this is where we
+spend a lot of our time.
+
+1456
+01:04:29,932 --> 01:04:32,768
+We also spend a lot of time
+here in the machine shop.
+
+1457
+01:04:32,801 --> 01:04:35,137
+Every once in a while, we
+go to the very high-tech
+
+1458
+01:04:35,170 --> 01:04:39,208
+facilities here at JPL to test
+in a space-like environment.
+
+1459
+01:04:39,241 --> 01:04:40,943
+And as you know,
+on the good days,
+
+1460
+01:04:40,976 --> 01:04:44,847
+I get to have a little fun
+inside the zero G airplane
+
+1461
+01:04:44,880 --> 01:04:48,784
+or have a lot of fun out in
+the field with the robots.
+
+1462
+01:04:48,817 --> 01:04:51,887
+And of course part of
+NASA's mission is outreach,
+
+1463
+01:04:51,920 --> 01:04:55,224
+and so it's always great
+fun to do talks like this
+
+1464
+01:04:55,257 --> 01:04:58,994
+and get to share our
+work with the public.
+
+1465
+01:04:59,027 --> 01:05:00,696
+So that's it.
+
+1466
+01:05:00,729 --> 01:05:03,165
+I think a few people
+in here have worked on
+
+1467
+01:05:03,198 --> 01:05:05,467
+some of what I've shown,
+so I'd ask those people
+
+1468
+01:05:05,500 --> 01:05:07,970
+to also sort of
+stand up and receive
+1469
+01:05:08,003 --> 01:05:10,639
+a round of applause
+along with me.
+
+1470
+01:05:10,672 --> 01:05:12,675
+And I'll be happy to take
+some questions, as well.
+
+1471
+01:05:12,708 --> 01:05:13,909
+Thank you very much.
+
+1472
+01:05:13,942 --> 01:05:16,946
+(audience applause)
+
+1473
+01:05:25,687 --> 01:05:27,289
+It appears my team
+is either too shy
+
+1474
+01:05:27,322 --> 01:05:28,991
+or they didn't
+wanna come tonight.
+
+1475
+01:05:29,024 --> 01:05:30,693
+(audience laughing)
+
+1476
+01:05:30,726 --> 01:05:32,528
+Yeah, so for questions,
+if we can have you go
+
+1477
+01:05:32,561 --> 01:05:34,196
+to the microphone
+in the middle there
+
+1478
+01:05:34,229 --> 01:05:38,401
+just so folks online can
+hear the question, as well.
+
+1479
+01:05:42,537 --> 01:05:46,141
+- Now I was just wondering
+if the hooks wear out,
+
+1480
+01:05:46,174 --> 01:05:48,711
+get blunt, become less
+effective over time.
+
+1481
+01:05:48,744 --> 01:05:51,080
+- Yeah, that's a
+excellent question.
+
+1482
+01:05:51,113 --> 01:05:53,382
+The hooks do wear out over time.
+
+1483
+01:05:53,415 --> 01:05:55,084
+For the Asteroid
+Redirect Mission,
+
+1484
+01:05:55,117 --> 01:05:57,419
+we only have to grip
+the boulder once.
+
+1485
+01:05:57,452 --> 01:05:59,154
+Where if we fail,
+we have the ability
+
+1486
+01:05:59,187 --> 01:06:02,391
+to try two more attempts,
+so they don't really
+
+1487
+01:06:02,424 --> 01:06:04,960
+wear out over that
+length of time.
+
+1488
+01:06:04,993 --> 01:06:06,462
+The way they wear out, though,
+
+1489
+01:06:06,495 --> 01:06:08,731
+is if you yank them
+off the surface.
+1490
+01:06:08,764 --> 01:06:12,835
+So they only really wear
+quickly in a failure case.
+
+1491
+01:06:12,868 --> 01:06:14,803
+If you're just gripping
+and then releasing
+
+1492
+01:06:14,836 --> 01:06:17,706
+during the normal operation,
+they wear very slowly.
+
+1493
+01:06:17,739 --> 01:06:21,043
+And we've done thousands of
+cycles of that kind of grip.
+
+1494
+01:06:21,076 --> 01:06:24,780
+But when we try and test the
+max force that they hold,
+
+1495
+01:06:24,813 --> 01:06:28,484
+they do dull over the
+course of 10, 20 cycles.
+
+1496
+01:06:28,517 --> 01:06:29,418
+Yeah, yeah.
+
+1497
+01:06:31,153 --> 01:06:33,822
+- Question, did you think
+about the possibility
+
+1498
+01:06:33,855 --> 01:06:37,559
+of a sooty or gritty or
+even oily contaminants
+
+1499
+01:06:37,592 --> 01:06:39,161
+on the surface of some
+of the aluminum objects
+1500
+01:06:39,194 --> 01:06:41,830
+that the gecko adhesive
+was designed to move?
+
+1501
+01:06:41,863 --> 01:06:43,866
+- Yeah, that's a good
+question, as well.
+
+1502
+01:06:43,899 --> 01:06:47,736
+So the surface matters a
+lot for the gecko adhesives.
+
+1503
+01:06:47,769 --> 01:06:49,972
+So the smoother the better.
+
+1504
+01:06:51,139 --> 01:06:52,374
+Because we don't
+have all of that
+
+1505
+01:06:52,407 --> 01:06:55,911
+intricate hierarchy
+that the animal has,
+
+1506
+01:06:55,944 --> 01:06:58,680
+we can only grip
+pretty smooth surfaces.
+
+1507
+01:06:58,713 --> 01:07:00,849
+And then the dirtiness
+of that surface
+
+1508
+01:07:00,882 --> 01:07:05,888
+or if it's oily or wet will
+also degrade the performance.
+
+1509
+01:07:05,921 --> 01:07:07,856
+You don't see that problem
+as much with geckos
+
+1510
+01:07:07,889 --> 01:07:10,192
+because they're able to
+use a stiffer material,
+
+1511
+01:07:10,225 --> 01:07:12,061
+and so they're more
+resilient to dust
+
+1512
+01:07:12,094 --> 01:07:13,796
+and debris and things like that.
+
+1513
+01:07:13,829 --> 01:07:16,598
+Good news is in space,
+the surfaces are generally
+
+1514
+01:07:16,631 --> 01:07:20,702
+much cleaner than they are
+in our lab, which is a mess.
+
+1515
+01:07:20,735 --> 01:07:23,472
+(laughing) Yeah.
+
+1516
+01:07:25,807 --> 01:07:28,977
+- A number of the
+robots that climbed up
+
+1517
+01:07:29,010 --> 01:07:31,847
+a vertical surface had
+a tail, and I wonder
+
+1518
+01:07:31,880 --> 01:07:33,515
+if there's a function to that.
+
+1519
+01:07:33,548 --> 01:07:35,484
+- Yeah, you guys
+have great questions.
+
+1520
+01:07:35,517 --> 01:07:37,753
+A tail is very important.
+1521
+01:07:37,786 --> 01:07:40,222
+If all you have is the
+two wheels in the front,
+
+1522
+01:07:40,255 --> 01:07:41,857
+the robot's gonna spin around.
+
+1523
+01:07:41,890 --> 01:07:43,826
+So the tail reacts the moment
+
+1524
+01:07:43,859 --> 01:07:45,994
+that keeps you
+from falling back.
+
+1525
+01:07:46,027 --> 01:07:47,196
+And tails are actually
+really important
+
+1526
+01:07:47,229 --> 01:07:49,765
+in biology, as
+well, for balance.
+
+1527
+01:07:49,798 --> 01:07:53,402
+But there's a, I didn't
+show the video, but geckos-
+
+1528
+01:07:53,435 --> 01:07:55,003
+we've worked with some
+folks that do some
+
+1529
+01:07:55,036 --> 01:07:58,107
+interesting things like
+put slippery surfaces
+
+1530
+01:07:58,140 --> 01:08:00,275
+and then make the geckos
+try and climb across them.
+
+1531
+01:08:00,308 --> 01:08:01,510
+So these are great videos.
+
+1532
+01:08:01,543 --> 01:08:02,878
+You watch the gecko
+climbing up the wall,
+
+1533
+01:08:02,911 --> 01:08:04,446
+and then all of a
+sudden it's like
+
+1534
+01:08:04,479 --> 01:08:06,582
+it's stepped on a banana,
+and it starts slipping.
+
+1535
+01:08:06,615 --> 01:08:08,851
+And what they do at that
+point, is they actually
+
+1536
+01:08:08,884 --> 01:08:11,920
+push their tail as hard
+as they can into the wall.
+
+1537
+01:08:11,953 --> 01:08:14,756
+So they're falling backwards,
+and they use the tail
+
+1538
+01:08:14,789 --> 01:08:18,660
+as a self righting mechanism
+to regain their grip.
+
+1539
+01:08:18,693 --> 01:08:21,697
+So, yeah, tails are
+really critical.
+
+1540
+01:08:21,730 --> 01:08:23,365
+What you see on ours
+are passive tails.
+
+1541
+01:08:23,398 --> 01:08:25,734
+They're just a pole that
+reacts to the moment.
+
+1542
+01:08:25,767 --> 01:08:28,737
+I think in the future, we'd
+like to make those tails active
+
+1543
+01:08:28,770 --> 01:08:31,907
+the same way an animal's
+tail is active and able to do
+
+1544
+01:08:31,940 --> 01:08:36,112
+those kinds of fall responses
+and things like that.
+
+1545
+01:08:40,248 --> 01:08:41,517
+Yeah, other questions.
+
+1546
+01:08:41,550 --> 01:08:43,752
+- Great talk, thank you.
+- Yeah.
+
+1547
+01:08:43,785 --> 01:08:45,854
+- So I was wondering,
+what about the timelines
+
+1548
+01:08:45,887 --> 01:08:48,657
+for these projects or
+the groups of people?
+
+1549
+01:08:48,690 --> 01:08:50,225
+Like how many work on these,
+
+1550
+01:08:50,258 --> 01:08:53,195
+especially in the earlier
+versions of rapid prototypes?
+
+1551
+01:08:53,228 --> 01:08:56,698
+- Yeah, so the projects
+will range in duration
+1552
+01:08:56,731 --> 01:08:59,134
+from a few months, where
+you're just trying to show
+
+1553
+01:08:59,167 --> 01:09:03,372
+the first version of the
+prototype, and to a few years,
+
+1554
+01:09:03,405 --> 01:09:06,375
+where you really have some
+higher level objectives.
+
+1555
+01:09:06,408 --> 01:09:08,577
+The Asteroid Redirect
+Mission we started
+
+1556
+01:09:08,610 --> 01:09:10,913
+about a year and a
+half ago, formally,
+
+1557
+01:09:10,946 --> 01:09:15,250
+and that's currently
+targeting to launch in 2021.
+
+1558
+01:09:15,283 --> 01:09:16,718
+So that's a very long timeline.
+
+1559
+01:09:16,751 --> 01:09:18,153
+We have to deliver our hardware
+
+1560
+01:09:18,186 --> 01:09:21,190
+in a year and a half
+before the actual launch.
+
+1561
+01:09:21,223 --> 01:09:25,260
+But that gives you a
+sense of the timelines.
+
+1562
+01:09:25,293 --> 01:09:28,530
+When you're at a lower
+level of development,
+
+1563
+01:09:28,563 --> 01:09:30,832
+those prototypes can
+happen very quickly.
+
+1564
+01:09:30,865 --> 01:09:32,067
+Couple of weeks.
+
+1565
+01:09:32,100 --> 01:09:34,636
+And you can build them
+maybe one or two people.
+
+1566
+01:09:34,669 --> 01:09:36,872
+As you get up to a
+more complex robot,
+
+1567
+01:09:36,905 --> 01:09:40,342
+the rock climbing robots,
+it's a team of about five.
+
+1568
+01:09:40,375 --> 01:09:42,377
+The asteroid grippers,
+right now we're a team
+
+1569
+01:09:42,410 --> 01:09:45,214
+of about seven, but that's
+gonna grow to a peak
+
+1570
+01:09:45,247 --> 01:09:48,517
+of about 12 or 13 of
+us, I think, yeah.
+
+1571
+01:09:49,484 --> 01:09:50,953
+Yeah.
+
+1572
+01:09:50,986 --> 01:09:53,222
+- Can you talk a little bit
+about cable tensed structures
+1573
+01:09:53,255 --> 01:09:55,357
+that are pulled through
+tubes as opposed to
+
+1574
+01:09:55,390 --> 01:09:57,693
+stepper motor
+actuated rigid arms?
+
+1575
+01:09:57,726 --> 01:09:59,394
+- Yeah, sure.
+
+1576
+01:09:59,427 --> 01:10:03,599
+So we do use cables to
+actuate parts of our grippers
+
+1577
+01:10:04,766 --> 01:10:06,602
+and other parts of the robots.
+
+1578
+01:10:06,635 --> 01:10:09,438
+Cables are nice because they
+only act in one direction.
+
+1579
+01:10:09,471 --> 01:10:12,274
+So you can pull on
+them and have tension,
+
+1580
+01:10:12,307 --> 01:10:14,209
+but when, for
+instance, those fingers
+
+1581
+01:10:14,242 --> 01:10:17,312
+flop down on the surface,
+if one flops down early,
+
+1582
+01:10:17,345 --> 01:10:20,449
+the cable just goes slack
+as opposed to a bar,
+
+1583
+01:10:20,482 --> 01:10:22,384
+which would get jammed.
+
+1584
+01:10:23,551 --> 01:10:25,087
+Now the downside is
+that you gotta do
+
+1585
+01:10:25,120 --> 01:10:29,024
+cable management and
+routing all those cables,
+
+1586
+01:10:29,057 --> 01:10:30,559
+making sure they're
+the right length.
+
+1587
+01:10:30,592 --> 01:10:33,128
+I have learned all my Boy
+Scout knots late in life
+
+1588
+01:10:33,161 --> 01:10:35,664
+dealing with those
+kinds of systems.
+
+1589
+01:10:35,697 --> 01:10:37,699
+So it's always an
+engineering trade
+
+1590
+01:10:37,732 --> 01:10:40,502
+between what you're trying
+to have the system do
+
+1591
+01:10:40,535 --> 01:10:44,106
+and what you're
+engineering parameters are.
+
+1592
+01:10:45,707 --> 01:10:47,776
+Another thing, maybe you
+were asking about this,
+
+1593
+01:10:47,809 --> 01:10:49,311
+is cables can be used to change
+
+1594
+01:10:49,344 --> 01:10:51,246
+a stiffness of a
+structure sometimes,
+
+1595
+01:10:51,279 --> 01:10:53,482
+those are called
+tensegrity robots.
+
+1596
+01:10:53,515 --> 01:10:56,418
+Actually, you're human body
+is a tensegrity structure.
+
+1597
+01:10:56,451 --> 01:10:59,121
+The tendons and
+muscles are in tension
+
+1598
+01:10:59,154 --> 01:11:02,257
+keeping your stiffness different
+
+1599
+01:11:02,290 --> 01:11:05,093
+than if you were just
+standing on your bones alone.
+
+1600
+01:11:05,126 --> 01:11:06,595
+So some folks are
+working in robotics
+
+1601
+01:11:06,628 --> 01:11:09,431
+where they're using cables
+and tensioning those cables
+
+1602
+01:11:09,464 --> 01:11:12,501
+to try and give the robot a
+different level of stiffness.
+
+1603
+01:11:12,534 --> 01:11:16,271
+In our lab, we haven't
+really worked on that yet.
+1604
+01:11:16,304 --> 01:11:17,673
+There's some ideas
+floating around,
+
+1605
+01:11:17,706 --> 01:11:20,642
+but we're not going down
+that path right now.
+
+1606
+01:11:20,675 --> 01:11:23,312
+- And on an extension
+for the cable concept,
+
+1607
+01:11:23,345 --> 01:11:24,446
+how are they actuated?
+
+1608
+01:11:24,479 --> 01:11:27,215
+Is it solenoids or is it cams?
+
+1609
+01:11:27,248 --> 01:11:29,785
+And if it is solenoids,
+how would that function in
+
+1610
+01:11:29,818 --> 01:11:33,555
+magnetically active environments
+like the Van Allen belt?
+
+1611
+01:11:33,588 --> 01:11:38,126
+- So none of what you
+saw today was a solenoid.
+
+1612
+01:11:38,159 --> 01:11:40,829
+In prototyping, a lot of
+times we use servo motors
+
+1613
+01:11:40,862 --> 01:11:43,032
+or just brushed DC motors.
+
+1614
+01:11:44,165 --> 01:11:45,500
+A lot of times, as
+well, we're trying to do
+
+1615
+01:11:45,533 --> 01:11:49,738
+underactuation so when
+those carriages lift up,
+
+1616
+01:11:49,771 --> 01:11:52,874
+that's one motor that's
+powering all 16 of those, right?
+
+1617
+01:11:52,907 --> 01:11:54,443
+We're just pulling
+on a plate that has
+
+1618
+01:11:54,476 --> 01:11:57,646
+all of those cables
+attached to it.
+
+1619
+01:11:57,679 --> 01:12:01,283
+In flight, a lot of times
+we use brushless DC motors
+
+1620
+01:12:01,316 --> 01:12:03,585
+because the brushes
+can create debris
+
+1621
+01:12:03,618 --> 01:12:07,022
+and don't work quite
+as well in vacuum.
+
+1622
+01:12:07,055 --> 01:12:08,790
+So we use those as
+well, sometimes.
+
+1623
+01:12:08,823 --> 01:12:10,759
+It's sort of a-
+
+1624
+01:12:10,792 --> 01:12:14,963
+each job requires maybe a
+different consideration.
+
+1625
+01:12:15,997 --> 01:12:17,166
+Yeah.
+- Thanks.
+
+1626
+01:12:19,634 --> 01:12:21,737
+- It's too tall for me, okay.
+
+1627
+01:12:21,770 --> 01:12:25,540
+Hi, this is very exciting,
+so thank you for this talk.
+
+1628
+01:12:25,573 --> 01:12:28,243
+I was wondering what
+the current use rate
+
+1629
+01:12:28,276 --> 01:12:31,847
+of 3D printing is for you
+guys, and is there a plan
+
+1630
+01:12:31,880 --> 01:12:35,584
+or a roadmap to increase
+that to a certain percentage,
+
+1631
+01:12:35,617 --> 01:12:37,786
+whether it be for
+efficiency or just
+
+1632
+01:12:37,819 --> 01:12:41,123
+ease of building maybe
+what doesn't exist?
+
+1633
+01:12:41,156 --> 01:12:43,092
+- Yeah, so I would say-
+
+1634
+01:12:44,526 --> 01:12:46,828
+Well we have, let's see,
+we've gone through probably
+1635
+01:12:46,861 --> 01:12:51,700
+12 or 15 different 3D printers
+in the last five years or so.
+
+1636
+01:12:51,733 --> 01:12:55,137
+We bring in some of the low
+cost hobby kind of grade ones
+
+1637
+01:12:55,170 --> 01:12:58,607
+that we use for quick,
+dirty prototypes,
+
+1638
+01:12:58,640 --> 01:13:00,642
+and we turn our
+students loose on those.
+
+1639
+01:13:00,675 --> 01:13:03,745
+We also have some high-end
+printers that we call them
+
+1640
+01:13:03,778 --> 01:13:07,215
+the Ferrari because the price
+tag is kind of equivalent.
+
+1641
+01:13:07,248 --> 01:13:11,420
+But across the board, those
+printers run every day for us.
+
+1642
+01:13:11,453 --> 01:13:16,224
+So at times during the summer,
+which is our busiest season,
+
+1643
+01:13:16,257 --> 01:13:19,861
+we haves queues of people
+waiting to print parts.
+
+1644
+01:13:19,894 --> 01:13:23,331
+So in a prototyping phase,
+they're in use constantly.
+1645
+01:13:23,364 --> 01:13:25,267
+And we've tried to
+open up that lab space
+
+1646
+01:13:25,300 --> 01:13:27,969
+to the broader JPL
+community, as well.
+
+1647
+01:13:28,002 --> 01:13:29,905
+So we have people from
+all different sections,
+
+1648
+01:13:29,938 --> 01:13:33,775
+all different departments
+coming by to print parts
+
+1649
+01:13:33,808 --> 01:13:37,179
+because they have
+a need for them.
+
+1650
+01:13:37,212 --> 01:13:39,948
+So the adoption rate
+has been really quick.
+
+1651
+01:13:39,981 --> 01:13:42,384
+I think it's gonna
+continue to grow.
+
+1652
+01:13:42,417 --> 01:13:45,921
+One area that we haven't
+really moved into yet
+
+1653
+01:13:45,954 --> 01:13:48,790
+but I think is coming
+is metal 3D printing.
+
+1654
+01:13:48,823 --> 01:13:50,592
+So we have filament
+style printers,
+1655
+01:13:50,625 --> 01:13:54,129
+we have liquid UV resin
+kinds of printers,
+
+1656
+01:13:55,497 --> 01:13:58,300
+and I think the metal
+printers are coming next.
+
+1657
+01:13:58,333 --> 01:14:00,068
+We've outsourced some parts.
+
+1658
+01:14:00,101 --> 01:14:02,437
+We use local shops and
+vendors all the time, as well.
+
+1659
+01:14:02,470 --> 01:14:06,007
+So we've had some titanium
+printed parts that we've used,
+
+1660
+01:14:06,040 --> 01:14:08,977
+but I think JPL is
+gonna get on board
+
+1661
+01:14:09,010 --> 01:14:11,580
+and get some of our own
+machines there soon, as well.
+
+1662
+01:14:11,613 --> 01:14:14,916
+People are actually looking
+into flying 3D printed parts
+
+1663
+01:14:14,949 --> 01:14:16,418
+as part of the spacecraft.
+
+1664
+01:14:16,451 --> 01:14:19,988
+So it makes a lot of sense,
+and I think it's gonna happen.
+
+1665
+01:14:20,021 --> 01:14:21,023
+- Thank you.
+
+1666
+01:14:26,194 --> 01:14:29,498
+- It looked like a number of
+your robots were autonomous,
+
+1667
+01:14:29,531 --> 01:14:32,000
+weren't any cables
+attached or anything.
+
+1668
+01:14:32,033 --> 01:14:33,401
+Could you talk briefly
+about what kind of
+
+1669
+01:14:33,434 --> 01:14:36,238
+controllers they have on
+board to have direction
+
+1670
+01:14:36,271 --> 01:14:38,673
+and move the limbs
+and all of that?
+
+1671
+01:14:38,706 --> 01:14:43,011
+- Yeah, so autonomy is
+an interesting thing.
+
+1672
+01:14:43,044 --> 01:14:45,680
+We don't think of
+autonomy as on or off,
+
+1673
+01:14:45,713 --> 01:14:47,716
+we think of it as
+a slider between
+
+1674
+01:14:47,749 --> 01:14:50,986
+fully teleoperated
+and fully autonomous.
+
+1675
+01:14:51,019 --> 01:14:52,554
+And so on some of the robots,
+1676
+01:14:52,587 --> 01:14:54,155
+that slider's kind
+of in the middle.
+
+1677
+01:14:54,188 --> 01:14:56,091
+If you're climbing up a
+wall, and you're trying
+
+1678
+01:14:56,124 --> 01:14:58,927
+to steer looking at a
+camera, turns out the wall
+
+1679
+01:14:58,960 --> 01:15:01,730
+looks the same whether
+you're 15 degrees to the left
+
+1680
+01:15:01,763 --> 01:15:03,465
+or 15 degrees to the right.
+
+1681
+01:15:03,498 --> 01:15:05,867
+So what we do is
+we augment the user
+
+1682
+01:15:05,900 --> 01:15:09,137
+by steering to match the
+gravity vector, right?
+
+1683
+01:15:09,170 --> 01:15:11,006
+So this is sort of autonomy,
+
+1684
+01:15:11,039 --> 01:15:15,710
+but it's also still being
+controlled by an operator.
+
+1685
+01:15:15,743 --> 01:15:18,513
+On the further side for
+the rock climbing robots,
+
+1686
+01:15:18,546 --> 01:15:20,882
+we are trying to make
+that much more autonomous
+
+1687
+01:15:20,915 --> 01:15:24,252
+where we give it waypoints that
+are maybe a few meters ahead
+
+1688
+01:15:24,285 --> 01:15:28,156
+of where it is, and it
+decides how to move its limbs
+
+1689
+01:15:28,189 --> 01:15:30,992
+and where the good
+places to grip are.
+
+1690
+01:15:31,025 --> 01:15:34,696
+Turns out that a person
+trying to sort of joystick
+
+1691
+01:15:34,729 --> 01:15:38,800
+a seven degree of freedom limb
+is actually not very good.
+
+1692
+01:15:38,833 --> 01:15:42,337
+It's too complex for you
+to work out in your head
+
+1693
+01:15:42,370 --> 01:15:44,940
+which motor has to
+move at which time.
+
+1694
+01:15:44,973 --> 01:15:46,207
+And you don't have
+enough buttons
+
+1695
+01:15:46,240 --> 01:15:48,410
+on the controller
+to do it, anyways.
+
+1696
+01:15:48,443 --> 01:15:50,879
+And so we try and use
+a lot more autonomy,
+
+1697
+01:15:50,912 --> 01:15:54,516
+move that slider closer to
+a fully autonomous state
+
+1698
+01:15:54,549 --> 01:15:57,953
+for some of the rock
+climbing robots.
+
+1699
+01:15:57,986 --> 01:16:00,488
+- And what do you use on board
+for a processing satellite,
+
+1700
+01:16:00,521 --> 01:16:01,890
+do we know?
+
+1701
+01:16:01,923 --> 01:16:03,391
+- So, no, so the
+rock climbing robot
+
+1702
+01:16:03,424 --> 01:16:07,062
+right now has two
+brains, if you will.
+
+1703
+01:16:07,095 --> 01:16:10,932
+It's got a low brain
+that's a PC/104 stack.
+
+1704
+01:16:10,965 --> 01:16:12,200
+So that's a bunch of cards.
+
+1705
+01:16:12,233 --> 01:16:15,136
+It's actually pretty old
+electronics technology.
+
+1706
+01:16:15,169 --> 01:16:19,341
+And then it has an Intel NUC,
+which is a much more powerful
+
+1707
+01:16:19,374 --> 01:16:23,278
+computer that's doing the higher
+level computer vision work
+
+1708
+01:16:23,311 --> 01:16:25,947
+and the trajectory
+generation, and then those two
+
+1709
+01:16:25,980 --> 01:16:28,249
+have to talk to each other.
+
+1710
+01:16:28,282 --> 01:16:31,753
+So the lower brain handles
+make the motor spin,
+
+1711
+01:16:31,786 --> 01:16:35,523
+and that Intel computer handles
+the where do I put my foot
+
+1712
+01:16:35,556 --> 01:16:39,160
+and how do I move
+all of my joints.
+
+1713
+01:16:39,193 --> 01:16:40,762
+- Thank you.
+- Sure.
+
+1714
+01:16:44,432 --> 01:16:45,533
+- Hi.
+- Hello.
+
+1715
+01:16:46,968 --> 01:16:51,239
+- So I have questions about
+the adhesive gecko robots.
+
+1716
+01:16:51,272 --> 01:16:52,774
+- Sure.
+- So you guys are
+1717
+01:16:52,807 --> 01:16:56,344
+planning to deploy that on
+a mission to Mars, right?
+
+1718
+01:16:56,377 --> 01:16:58,213
+So my question is that
+
+1719
+01:17:00,314 --> 01:17:03,051
+the weathers on Mars
+are much harsher
+
+1720
+01:17:03,084 --> 01:17:05,854
+than it is here on Earth,
+have you guys thought about
+
+1721
+01:17:05,887 --> 01:17:08,990
+something like
+how to tackle that
+
+1722
+01:17:09,023 --> 01:17:12,193
+when it hit a storm or
+something like that?
+
+1723
+01:17:12,226 --> 01:17:14,529
+- Yeah, so the
+environment on Mars
+
+1724
+01:17:14,562 --> 01:17:16,732
+is obviously very extreme.
+
+1725
+01:17:19,033 --> 01:17:20,235
+It's funny that our group name
+
+1726
+01:17:20,268 --> 01:17:22,003
+is Extreme Environment Robotics.
+
+1727
+01:17:22,036 --> 01:17:23,238
+You might think
+that the entire lab
+
+1728
+01:17:23,271 --> 01:17:26,307
+is really doing extreme
+environment robotics.
+
+1729
+01:17:26,340 --> 01:17:27,976
+So it's a consideration.
+
+1730
+01:17:28,009 --> 01:17:30,045
+In the prototyping
+phase, we haven't really
+
+1731
+01:17:30,078 --> 01:17:34,349
+been too concerned about
+the thermal environment
+
+1732
+01:17:34,382 --> 01:17:37,852
+or protecting ourselves
+from dust and debris,
+
+1733
+01:17:37,885 --> 01:17:41,022
+but as that robot
+matures, we would bring in
+
+1734
+01:17:41,055 --> 01:17:44,359
+all of those folks from
+JPL who are really expert
+
+1735
+01:17:44,392 --> 01:17:47,495
+at managing the cold
+temperatures and the
+
+1736
+01:17:47,528 --> 01:17:50,031
+hot temperatures and
+managing the dust storms
+
+1737
+01:17:50,064 --> 01:17:52,100
+and some of those
+sorts of things.
+1738
+01:17:52,133 --> 01:17:55,603
+And I don't think there's
+any critical limitations
+
+1739
+01:17:55,636 --> 01:17:58,306
+for the rock climbing
+robots to operate
+
+1740
+01:17:58,339 --> 01:18:00,141
+on the surface of Mars.
+
+1741
+01:18:00,174 --> 01:18:02,243
+The gecko adhesives are
+really tailored more
+
+1742
+01:18:02,276 --> 01:18:05,380
+to smooth surfaces, so we
+wouldn't use those on Mars.
+
+1743
+01:18:05,413 --> 01:18:07,782
+We'd use the gecko
+adhesives in orbit
+
+1744
+01:18:07,815 --> 01:18:10,118
+to grapple satellites
+and operate maybe
+
+1745
+01:18:10,151 --> 01:18:13,221
+on the sort of carrier ship
+that would go back and forth
+
+1746
+01:18:13,254 --> 01:18:15,890
+between Mars and
+Earth but not actually
+
+1747
+01:18:15,923 --> 01:18:19,428
+on the surface where
+it's dirty and rough.
+1748
+01:18:21,662 --> 01:18:23,198
+- Alright, thank you.
+- You're welcome.
+
+1749
+01:18:23,231 --> 01:18:26,234
+I think we have a couple
+questions from online, maybe.
+
+1750
+01:18:26,267 --> 01:18:28,236
+And these have been screened,
+
+1751
+01:18:28,269 --> 01:18:30,038
+so these are the
+best ones, I think.
+
+1752
+01:18:30,071 --> 01:18:31,573
+(audience laughing)
+
+1753
+01:18:31,606 --> 01:18:34,109
+The question here is what are
+the major challenges in moving
+
+1754
+01:18:34,142 --> 01:18:38,113
+the grippers from field
+tests to space flight tests?
+
+1755
+01:18:38,146 --> 01:18:40,515
+That's a great question.
+
+1756
+01:18:40,548 --> 01:18:42,917
+Some of the challenges
+are technical
+
+1757
+01:18:42,950 --> 01:18:46,020
+like figuring out
+how to make it robust
+
+1758
+01:18:46,053 --> 01:18:48,556
+across all of the
+different rock types.
+
+1759
+01:18:48,589 --> 01:18:51,793
+So it's easy when you're
+developing something in the lab
+
+1760
+01:18:51,826 --> 01:18:53,495
+to kind of design it to work on
+
+1761
+01:18:53,528 --> 01:18:55,363
+whatever you have in the lab.
+
+1762
+01:18:55,396 --> 01:18:56,998
+You take it out into the
+field and you realize,
+
+1763
+01:18:57,031 --> 01:18:59,033
+oh, this rock is actually
+a little different.
+
+1764
+01:18:59,066 --> 01:19:02,270
+We're going to have to go
+back and fix some things.
+
+1765
+01:19:02,303 --> 01:19:05,140
+So some of the technical
+challenges are in making it
+
+1766
+01:19:05,173 --> 01:19:09,077
+robust, making sure it
+doesn't break over time.
+
+1767
+01:19:09,110 --> 01:19:11,246
+But some of the other
+challenges to moving
+
+1768
+01:19:11,279 --> 01:19:15,717
+from the lab to space flight
+are actually programmatic.
+1769
+01:19:15,750 --> 01:19:18,419
+You need to be in the right
+place at the right time,
+
+1770
+01:19:18,452 --> 01:19:21,456
+so if you're developing a
+technology that's really tuned
+
+1771
+01:19:21,489 --> 01:19:24,626
+for Venus, and the next
+mission is going to Mars,
+
+1772
+01:19:24,659 --> 01:19:27,395
+you've got a mismatch
+there, and so there's always
+
+1773
+01:19:27,428 --> 01:19:31,600
+a little bit of awareness and
+strategy that NASA and JPL
+
+1774
+01:19:33,234 --> 01:19:35,737
+is trying to stay on top of
+to make sure we're developing
+
+1775
+01:19:35,770 --> 01:19:39,508
+the right technologies
+for the next missions.
+
+1776
+01:19:40,775 --> 01:19:43,278
+So some of the
+challenges can be of that
+
+1777
+01:19:43,311 --> 01:19:46,548
+more personal or
+non-technical variety.
+
+1778
+01:19:49,083 --> 01:19:51,186
+I guess the other one,
+which is a big driver,
+1779
+01:19:51,219 --> 01:19:55,557
+is testing, the costs of
+doing environmental testing
+
+1780
+01:19:55,590 --> 01:19:59,761
+and really validating your
+technology can be very high.
+
+1781
+01:19:59,794 --> 01:20:03,464
+So to do that on an R&D budget
+can be a real challenge.
+
+1782
+01:20:03,497 --> 01:20:05,233
+And sometimes there's a mismatch
+
+1783
+01:20:05,266 --> 01:20:07,735
+between what a mission
+is willing to pay for
+
+1784
+01:20:07,768 --> 01:20:10,872
+and what the technology
+program is willing to pay for
+
+1785
+01:20:10,905 --> 01:20:12,907
+where you have to try and
+prove that you're ready
+
+1786
+01:20:12,940 --> 01:20:15,743
+for the mission, but in
+order to do that testing,
+
+1787
+01:20:15,776 --> 01:20:19,013
+you need the dollars that are
+associated with the mission.
+
+1788
+01:20:19,046 --> 01:20:23,484
+So sometimes, it's trying to
+scrap together a story that
+
+1789
+01:20:23,517 --> 01:20:27,755
+really proves that it's gonna
+work in that environment.
+
+1790
+01:20:27,788 --> 01:20:30,292
+So the second question here is
+
+1791
+01:20:31,759 --> 01:20:35,363
+are AI and machine learning
+technologies in use here?
+
+1792
+01:20:35,396 --> 01:20:36,631
+And if so, how?
+
+1793
+01:20:37,865 --> 01:20:41,102
+So the answer, AI
+and machine learning,
+
+1794
+01:20:42,336 --> 01:20:45,373
+they are definitely
+in use here at JPL.
+
+1795
+01:20:45,406 --> 01:20:47,375
+In the robots I
+showed you here today,
+
+1796
+01:20:47,408 --> 01:20:51,913
+we're not really doing much
+machine learning or AI.
+
+1797
+01:20:51,946 --> 01:20:55,383
+The one exception to that,
+is we're trying to train
+
+1798
+01:20:55,416 --> 01:20:59,621
+the rock climbing robot on
+what is a good place to grip,
+
+1799
+01:20:59,654 --> 01:21:02,991
+and so we've just started
+collecting lots and lots
+
+1800
+01:21:03,024 --> 01:21:07,095
+of 3D models of different rock
+faces, and we're, by hand,
+
+1801
+01:21:07,128 --> 01:21:09,464
+highlighting these are
+good places to grip,
+
+1802
+01:21:09,497 --> 01:21:11,799
+these are bad places to grip,
+and then we're gonna feed
+
+1803
+01:21:11,832 --> 01:21:16,537
+that into a program that
+will learn, hopefully,
+
+1804
+01:21:16,570 --> 01:21:21,276
+from those examples where
+those good places to grip are.
+
+1805
+01:21:21,309 --> 01:21:24,245
+That's work that's just
+getting under way now.
+
+1806
+01:21:24,278 --> 01:21:26,848
+But there's a lot more complex
+machine learning and AI
+
+1807
+01:21:26,881 --> 01:21:30,118
+that's happening in
+other projects at JPL.
+
+1808
+01:21:30,151 --> 01:21:33,221
+So I'd encourage you to go
+to the JPL Robotics website,
+
+1809
+01:21:33,254 --> 01:21:35,189
+and there's lots of videos
+of some other robots
+
+1810
+01:21:35,222 --> 01:21:38,660
+that really emphasize
+those technologies.
+
+1811
+01:21:40,094 --> 01:21:43,865
+So that's it, and I'll stick
+around up front if people have-
+
+1812
+01:21:44,999 --> 01:21:46,634
+well, we'll take one
+more question, I guess.
+
+1813
+01:21:46,667 --> 01:21:47,468
+- Thank you.
+- Go ahead.
+
+1814
+01:21:47,501 --> 01:21:48,970
+- I appreciate it.
+
+1815
+01:21:49,003 --> 01:21:53,008
+On the ARM project, when you
+bring the boulder off the comet
+
+1816
+01:21:55,042 --> 01:21:58,313
+and you bring it to the
+Moon and put it in orbit
+
+1817
+01:21:58,346 --> 01:22:02,884
+around the Moon, you said that
+you were gonna let companies
+
+1818
+01:22:02,917 --> 01:22:04,652
+possibly go up there
+and practice mining
+
+1819
+01:22:04,685 --> 01:22:06,655
+and that sort of thing.
+1820
+01:22:08,389 --> 01:22:11,225
+Is that something that
+we'd be able to see
+
+1821
+01:22:11,258 --> 01:22:12,928
+through a telescope?
+
+1822
+01:22:14,128 --> 01:22:17,865
+I know you said it's as
+big as a SUV, possibly,
+
+1823
+01:22:17,898 --> 01:22:20,468
+in orbit around the Moon,
+and I was just wondering
+
+1824
+01:22:20,501 --> 01:22:23,604
+if that would be like
+something we'd be able to see,
+
+1825
+01:22:23,637 --> 01:22:25,373
+and how big is the orbit,
+
+1826
+01:22:25,406 --> 01:22:27,342
+and how long would
+it take to go around?
+
+1827
+01:22:27,375 --> 01:22:31,079
+- Yeah, so after we pull the
+boulder from the asteroid,
+
+1828
+01:22:31,112 --> 01:22:32,847
+we'll put it in
+a, what's called a
+
+1829
+01:22:32,880 --> 01:22:36,084
+retrograde orbit around the
+Moon, so it's very stable.
+
+1830
+01:22:36,117 --> 01:22:40,488
+And it'll be up there
+for hundreds of years.
+
+1831
+01:22:40,521 --> 01:22:43,825
+Now, I don't think
+it'll be large enough
+
+1832
+01:22:43,858 --> 01:22:46,260
+to see with most telescopes.
+
+1833
+01:22:46,293 --> 01:22:48,963
+I think you might be able
+to see a point source
+
+1834
+01:22:48,996 --> 01:22:51,499
+that, yeah, there's a signal or
+
+1835
+01:22:53,300 --> 01:22:55,103
+certainly we're going to be
+talking to the spacecraft,
+
+1836
+01:22:55,136 --> 01:22:57,605
+but I don't think,
+optically, you're probably
+
+1837
+01:22:57,638 --> 01:22:59,707
+going to be able to see that.
+
+1838
+01:22:59,740 --> 01:23:03,011
+But that's my 90%
+confidence answer,
+
+1839
+01:23:03,044 --> 01:23:04,979
+I'm not for sure on that.
+
+1840
+01:23:05,012 --> 01:23:06,681
+- [Man] Put a reflector on it.
+
+1841
+01:23:06,714 --> 01:23:09,250
+- Yeah.
+(audience laughing)
+
+1842
+01:23:09,283 --> 01:23:11,719
+But you'll get great videos
+when the crew come and dock
+
+1843
+01:23:11,752 --> 01:23:15,757
+with that spacecraft and the
+boulder, and we'll probably see
+
+1844
+01:23:15,790 --> 01:23:19,961
+all of that happening in near
+real time down here on Earth.
+
+1845
+01:23:21,028 --> 01:23:22,897
+So that'll be very exciting.
+
+1846
+01:23:22,930 --> 01:23:24,832
+Thank you again for
+coming, it was my pleasure.
+
+1847
+01:23:24,865 --> 01:23:27,869
+(audience applause)

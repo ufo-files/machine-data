@@ -1,0 +1,1273 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2017-05-11---NASA-Astrobiology---AbSciCon-2017-Day-5-Session-2-Amanda-Truitt_yu1PUcfqpvQ---transcript-automated-.txt", "source_sha256": "caf2d61c663612a00c0089e45cbaaeba0428813f8e14368218c37892becd0938", "source_bytes": 24175, "source_mtime": 1790250930, "source_mtime_ns": 1790250930126961787, "source_ctime_ns": 1790250930131812557, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T22:53:19.401034+00:00"}
+
+1
+00:00:12,250 --> 00:00:06,150
+you
+
+2
+00:00:17,800 --> 00:00:15,119
+[Music]
+
+3
+00:00:20,320 --> 00:00:17,810
+well thanks to the conference organizers
+
+4
+00:00:22,120 --> 00:00:20,330
+and the session chairs for giving me the
+
+5
+00:00:26,050 --> 00:00:22,130
+opportunity to talk today so that's some
+
+6
+00:00:29,769 --> 00:00:26,060
+of my thesis work so some motivating
+
+7
+00:00:31,900 --> 00:00:29,779
+questions for this talk or how to stars
+
+8
+00:00:33,970 --> 00:00:31,910
+of different math and composition
+
+9
+00:00:36,040 --> 00:00:33,980
+evolved how does this impact the
+
+10
+00:00:38,890 --> 00:00:36,050
+location of the habitable zone around
+
+11
+00:00:41,049 --> 00:00:38,900
+the star how does the habitable zone
+
+12
+00:00:43,170 --> 00:00:41,059
+co-evolved with the star over time and
+
+13
+00:00:46,030 --> 00:00:43,180
+how will utilizing this knowledge apply
+
+14
+00:00:47,500 --> 00:00:46,040
+in the continued search for potentially
+
+15
+00:00:52,959 --> 00:00:47,510
+habitable earth-like planets in the
+
+16
+00:00:54,610 --> 00:00:52,969
+future so I know I don't need to you
+
+17
+00:00:56,080 --> 00:00:54,620
+know belabor the point that habitable
+
+18
+00:00:57,520 --> 00:00:56,090
+zones are complicated concepts but I
+
+19
+00:00:59,790 --> 00:00:57,530
+just want to emphasize that for the
+
+20
+00:01:02,170 --> 00:00:59,800
+context of this work we're approaching
+
+21
+00:01:04,119 --> 00:01:02,180
+habitability or the habitable zone from
+
+22
+00:01:08,230 --> 00:01:04,129
+the Astrophysical perspective in terms
+
+23
+00:01:11,139 --> 00:01:08,240
+of thinking about how stars of different
+
+24
+00:01:16,389 --> 00:01:11,149
+math and temperature how they're
+
+25
+00:01:17,950 --> 00:01:16,399
+habitable zones differ and also make the
+
+26
+00:01:19,570 --> 00:01:17,960
+point that for different math stars not
+
+27
+00:01:23,200 --> 00:01:19,580
+only are the distances of the habitable
+
+28
+00:01:26,980 --> 00:01:23,210
+zones variable but they expand outward
+
+29
+00:01:29,109 --> 00:01:26,990
+at different rates so the two main
+
+30
+00:01:33,190 --> 00:01:29,119
+measurable parameters that I look at our
+
+31
+00:01:36,999 --> 00:01:33,200
+math which impacts the rate of hydrogen
+
+32
+00:01:38,859 --> 00:01:37,009
+fusion in the star which thus impacts
+
+33
+00:01:41,649 --> 00:01:38,869
+the main sequence lifetime of the star
+
+34
+00:01:43,510 --> 00:01:41,659
+as well as the composition which affects
+
+35
+00:01:46,870 --> 00:01:43,520
+the opacity energy transport within the
+
+36
+00:01:48,850 --> 00:01:46,880
+star so something with a star with lower
+
+37
+00:01:51,340 --> 00:01:48,860
+opacity for example would have more
+
+38
+00:01:53,020 --> 00:01:51,350
+efficient energy escapes and a shorter
+
+39
+00:01:59,170 --> 00:01:53,030
+main sequence lifetime than a star of
+
+40
+00:02:00,870 --> 00:01:59,180
+equal mass so what I do to model stellar
+
+41
+00:02:03,969 --> 00:02:00,880
+evolution is I use Tycho a
+
+42
+00:02:05,620 --> 00:02:03,979
+one-dimensional hydrodynamic alcoa which
+
+43
+00:02:07,990 --> 00:02:05,630
+outputs stellar surface quantities of
+
+44
+00:02:09,669 --> 00:02:08,000
+interest for each time step of the
+
+45
+00:02:11,920 --> 00:02:09,679
+evolution so typically temperature and
+
+46
+00:02:15,030 --> 00:02:11,930
+luminosity or what we're primarily
+
+47
+00:02:17,590 --> 00:02:15,040
+interested in and I've created an online
+
+48
+00:02:19,180 --> 00:02:17,600
+database for the evolutionary tracks
+
+49
+00:02:22,510 --> 00:02:19,190
+that's available it has an interactive
+
+50
+00:02:25,180 --> 00:02:22,520
+interpolation tool as well and primarily
+
+51
+00:02:26,190 --> 00:02:25,190
+what we want from these evolutionary
+
+52
+00:02:28,530 --> 00:02:26,200
+tracks is to look
+
+53
+00:02:31,530 --> 00:02:28,540
+at how the location and lifetime of the
+
+54
+00:02:35,309 --> 00:02:31,540
+habitable zone depends on the changes
+
+55
+00:02:38,820 --> 00:02:35,319
+over the stars made sequence lifetime as
+
+56
+00:02:41,580 --> 00:02:38,830
+it goes so looking at the temperature in
+
+57
+00:02:45,059 --> 00:02:41,590
+luminosity you have the HR diagram even
+
+58
+00:02:46,080 --> 00:02:45,069
+just for looking at oxygen if we have
+
+59
+00:02:48,930 --> 00:02:46,090
+depleted oxygen
+
+60
+00:02:51,930 --> 00:02:48,940
+- enriched oxygen compared to the Sun
+
+61
+00:02:54,720 --> 00:02:51,940
+and dots you can see that there's quite
+
+62
+00:02:56,820 --> 00:02:54,730
+a significant spread in the temperature
+
+63
+00:02:59,990 --> 00:02:56,830
+in luminosity outputs for the HR
+
+64
+00:03:04,500 --> 00:03:00,000
+diagrams for each mass in our range and
+
+65
+00:03:07,610 --> 00:03:04,510
+if we plot the Sun on our tracks you can
+
+66
+00:03:10,860 --> 00:03:07,620
+see that this is a good estimate of the
+
+67
+00:03:13,949 --> 00:03:10,870
+current Sun temperature and luminosity
+
+68
+00:03:16,170 --> 00:03:13,959
+so just believable estimates for what
+
+69
+00:03:18,240 --> 00:03:16,180
+we're getting here so the limit
+
+70
+00:03:23,190 --> 00:03:18,250
+equations that we use also come from
+
+71
+00:03:25,410 --> 00:03:23,200
+Ravi copper Rafi's 2013-2014 papers what
+
+72
+00:03:26,940 --> 00:03:25,420
+we're focused on here again the
+
+73
+00:03:29,190 --> 00:03:26,950
+temperature and luminosity so we take
+
+74
+00:03:32,610 --> 00:03:29,200
+that from Tyco and input this into these
+
+75
+00:03:34,800 --> 00:03:32,620
+equations that calculate the habitable
+
+76
+00:03:38,520 --> 00:03:34,810
+zone distance at each time step in our
+
+77
+00:03:42,090 --> 00:03:38,530
+evolution and this is the program that I
+
+78
+00:03:44,250 --> 00:03:42,100
+use that I wrote to do these radii
+
+79
+00:03:46,050 --> 00:03:44,260
+calculations are easily upgradeable for
+
+80
+00:03:48,000 --> 00:03:46,060
+any particular habitable zone
+
+81
+00:03:50,729 --> 00:03:48,010
+prescriptions that you want to use but
+
+82
+00:03:53,400 --> 00:03:50,739
+we chose the conservative cases from
+
+83
+00:03:55,289 --> 00:03:53,410
+copper abu which are the runaway
+
+84
+00:03:58,680 --> 00:03:55,299
+greenhouse and the maximum greenhouse
+
+85
+00:04:01,590 --> 00:03:58,690
+cases and that's where total ocean
+
+86
+00:04:04,349 --> 00:04:01,600
+evaporation to the point at which
+
+87
+00:04:05,940 --> 00:04:04,359
+Raleigh scattering by co2 starts out
+
+88
+00:04:09,720 --> 00:04:05,950
+with a greenhouse effect on the outer
+
+89
+00:04:11,190 --> 00:04:09,730
+edge so with elemental abundances what
+
+90
+00:04:13,470 --> 00:04:11,200
+we're thinking about is that usually
+
+91
+00:04:15,150 --> 00:04:13,480
+only iron is measured in stars because
+
+92
+00:04:17,219 --> 00:04:15,160
+it's easy there are lots of lines and
+
+93
+00:04:19,140 --> 00:04:17,229
+other elements are just assumed to scale
+
+94
+00:04:23,640 --> 00:04:19,150
+in the same proportions that are
+
+95
+00:04:26,790 --> 00:04:23,650
+observed at the Sun but as in natalie
+
+96
+00:04:29,520 --> 00:04:26,800
+Hinkle's 2014 papers especially we see
+
+97
+00:04:33,180 --> 00:04:29,530
+that specific chemical abundances can
+
+98
+00:04:35,130 --> 00:04:33,190
+vary significantly among stars and also
+
+99
+00:04:37,640 --> 00:04:35,140
+previous work by patrick Young has shown
+
+100
+00:04:39,620 --> 00:04:37,650
+that oxygen specifically has
+
+101
+00:04:44,060 --> 00:04:39,630
+a really strong impact to the stellar
+
+102
+00:04:46,070 --> 00:04:44,070
+evolution so my database that I put
+
+103
+00:04:49,370 --> 00:04:46,080
+together for the stellar evolution
+
+104
+00:04:51,740 --> 00:04:49,380
+tracks in 2015 paper I discussed a grid
+
+105
+00:04:54,770 --> 00:04:51,750
+of three hundred and seventy-six models
+
+106
+00:04:57,140 --> 00:04:54,780
+that range from 0.5 to 1.2 solar masses
+
+107
+00:04:59,180 --> 00:04:57,150
+it has a scaled overall metallicity
+
+108
+00:05:01,430 --> 00:04:59,190
+relative to the Sun so just scaling all
+
+109
+00:05:04,370 --> 00:05:01,440
+the elements proportionally from point 1
+
+110
+00:05:07,879 --> 00:05:04,380
+to 1.5 solar metallicity and then a
+
+111
+00:05:09,260 --> 00:05:07,889
+specific oxygen abundance values ranging
+
+112
+00:05:12,500 --> 00:05:09,270
+from point four four to two point two
+
+113
+00:05:16,909 --> 00:05:12,510
+eight solar oxygen and in my recent
+
+114
+00:05:19,610 --> 00:05:16,919
+paper we added additional 528 models so
+
+115
+00:05:23,150 --> 00:05:19,620
+that's four carbon magnesium and neon
+
+116
+00:05:24,860 --> 00:05:23,160
+and neon is an artificial range here
+
+117
+00:05:27,320 --> 00:05:24,870
+just because it's very difficult to
+
+118
+00:05:29,090 --> 00:05:27,330
+accurately measure in stars but we want
+
+119
+00:05:32,320 --> 00:05:29,100
+to include it even hypothetically
+
+120
+00:05:33,890 --> 00:05:32,330
+because it's important for
+
+121
+00:05:37,879 --> 00:05:33,900
+considerations into the stellar
+
+122
+00:05:39,529 --> 00:05:37,889
+evolution so what we were plotting here
+
+123
+00:05:43,040 --> 00:05:39,539
+is how does one distance versus stellar
+
+124
+00:05:44,270 --> 00:05:43,050
+age days age and distance and we have
+
+125
+00:05:47,180 --> 00:05:44,280
+the inner limits and the outer limits
+
+126
+00:05:50,029 --> 00:05:47,190
+here each color represents a different
+
+127
+00:05:51,980 --> 00:05:50,039
+elemental abundance so we have oxygen in
+
+128
+00:05:54,290 --> 00:05:51,990
+red and purple and you can see that they
+
+129
+00:05:57,350 --> 00:05:54,300
+make the most difference versus the
+
+130
+00:06:00,110 --> 00:05:57,360
+black line which is solar then orange
+
+131
+00:06:02,180 --> 00:06:00,120
+and blue or magnesium and yellow and
+
+132
+00:06:04,370 --> 00:06:02,190
+green or carbon and interestingly Carvin
+
+133
+00:06:05,540 --> 00:06:04,380
+actually makes less of the difference
+
+134
+00:06:08,210 --> 00:06:05,550
+than magnesium even though it's
+
+135
+00:06:10,189 --> 00:06:08,220
+relatively more abundant in stars the
+
+136
+00:06:13,450 --> 00:06:10,199
+magnesium has a higher opacity per gram
+
+137
+00:06:15,230 --> 00:06:13,460
+so it impacts the difference in
+
+138
+00:06:19,129 --> 00:06:15,240
+evolution the temperature and luminosity
+
+139
+00:06:22,189 --> 00:06:19,139
+outputs and not only do the Hobbit alone
+
+140
+00:06:23,450 --> 00:06:22,199
+distances differ with variable
+
+141
+00:06:26,000 --> 00:06:23,460
+composition we also see that the
+
+142
+00:06:28,610 --> 00:06:26,010
+lifetimes again can be significantly
+
+143
+00:06:31,670 --> 00:06:28,620
+truncated for example if we're looking
+
+144
+00:06:33,770 --> 00:06:31,680
+at depleted oxygen here versus enriched
+
+145
+00:06:37,640 --> 00:06:33,780
+oxygen there's a difference of maybe
+
+146
+00:06:41,750 --> 00:06:37,650
+three billion years so it's quite a big
+
+147
+00:06:44,270 --> 00:06:41,760
+difference if we plot the earth here you
+
+148
+00:06:46,610 --> 00:06:44,280
+can see that Earth is on the inner edge
+
+149
+00:06:47,899 --> 00:06:46,620
+of the habitable zone currently however
+
+150
+00:06:48,920 --> 00:06:47,909
+for thinking about some sort of
+
+151
+00:06:49,679 --> 00:06:48,930
+hypothetical
+
+152
+00:06:53,850 --> 00:06:49,689
+X
+
+153
+00:06:55,649 --> 00:06:53,860
+planet at the same current time then you
+
+154
+00:06:58,949 --> 00:06:55,659
+can see that it's only recently entered
+
+155
+00:07:01,019 --> 00:06:58,959
+the habitable zone so up until this
+
+156
+00:07:04,109 --> 00:07:01,029
+point it's been what we would maybe
+
+157
+00:07:06,089 --> 00:07:04,119
+consider outside and we don't know now
+
+158
+00:07:08,999 --> 00:07:06,099
+what implications that would have for
+
+159
+00:07:10,499 --> 00:07:09,009
+this planet so generally though we want
+
+160
+00:07:17,129 --> 00:07:10,509
+to avoid planets that have only recently
+
+161
+00:07:19,379 --> 00:07:17,139
+entered the habitable zone this table is
+
+162
+00:07:21,959 --> 00:07:19,389
+showing the fraction of orbital radii
+
+163
+00:07:24,600 --> 00:07:21,969
+that do enter after the mid point I want
+
+164
+00:07:26,219 --> 00:07:24,610
+to highlight is that up to a third to a
+
+165
+00:07:28,229 --> 00:07:26,229
+half of all orbits in the habitable zone
+
+166
+00:07:32,329 --> 00:07:28,239
+only become so in the second half of
+
+167
+00:07:36,449 --> 00:07:34,709
+additionally a trend that we see is that
+
+168
+00:07:39,149 --> 00:07:36,459
+with increasing composition a higher
+
+169
+00:07:41,279 --> 00:07:39,159
+percentage of planets are not in the
+
+170
+00:07:43,919 --> 00:07:41,289
+habitable zone until the second half of
+
+171
+00:07:46,319 --> 00:07:43,929
+the stars main sequence lifetime so this
+
+172
+00:07:48,779 --> 00:07:46,329
+prompts us to constrain with a time
+
+173
+00:07:53,069 --> 00:07:48,789
+criteria our consideration of the
+
+174
+00:07:55,409 --> 00:07:53,079
+habitable zones so I wanted to show this
+
+175
+00:07:57,689 --> 00:07:55,419
+it's kind of a complicated figure but
+
+176
+00:08:00,329 --> 00:07:57,699
+mostly what we're looking at is distance
+
+177
+00:08:03,239 --> 00:08:00,339
+here versus stellar mass and this is for
+
+178
+00:08:05,269 --> 00:08:03,249
+all of the 376 grid
+
+179
+00:08:08,759 --> 00:08:05,279
+it just basically is meant to illustrate
+
+180
+00:08:11,369 --> 00:08:08,769
+that we see a wide range of habitable
+
+181
+00:08:14,999 --> 00:08:11,379
+distances based on the stellar
+
+182
+00:08:17,339 --> 00:08:15,009
+composition so it can really impact what
+
+183
+00:08:20,159 --> 00:08:17,349
+we're seeing in terms of distance based
+
+184
+00:08:25,780 --> 00:08:20,169
+on the wide variety of stellar
+
+185
+00:08:33,260 --> 00:08:29,930
+okay okay so if we pick out one which is
+
+186
+00:08:34,670 --> 00:08:33,270
+just the solar value and we look at what
+
+187
+00:08:37,370 --> 00:08:34,680
+we would think of as a continuously
+
+188
+00:08:42,110 --> 00:08:37,380
+habitable zone the green shaded region
+
+189
+00:08:45,590 --> 00:08:42,120
+here is what we would think of as the CH
+
+190
+00:08:48,230 --> 00:08:45,600
+Z 1 which is the where something would
+
+191
+00:08:50,030 --> 00:08:48,240
+be continuously habitable for the Stars
+
+192
+00:08:54,860 --> 00:08:50,040
+entire main sequence lifetime so you see
+
+193
+00:08:56,420 --> 00:08:54,870
+that that's not a very comprehensive way
+
+194
+00:09:02,840 --> 00:08:56,430
+to think about it because if we plot
+
+195
+00:09:06,230 --> 00:09:02,850
+earth on here that doesn't find earth so
+
+196
+00:09:07,970 --> 00:09:06,240
+we we know that Earth is in what we
+
+197
+00:09:09,920 --> 00:09:07,980
+would consider the habitable zone so we
+
+198
+00:09:11,630 --> 00:09:09,930
+need to be more careful about how we
+
+199
+00:09:14,180 --> 00:09:11,640
+define is continuously habitable zone
+
+200
+00:09:16,870 --> 00:09:14,190
+instead if we use a 2 billion year
+
+201
+00:09:22,250 --> 00:09:16,880
+criteria which is based on obviously
+
+202
+00:09:26,660 --> 00:09:22,260
+earth took about 2 billion years to
+
+203
+00:09:29,060 --> 00:09:26,670
+produce enough biogenic gases that would
+
+204
+00:09:33,110 --> 00:09:29,070
+be detectable with something in the most
+
+205
+00:09:36,140 --> 00:09:33,120
+recent decade all survey then we have
+
+206
+00:09:38,300 --> 00:09:36,150
+that earth does fall into this range of
+
+207
+00:09:40,370 --> 00:09:38,310
+orbits that would be continuously
+
+208
+00:09:42,910 --> 00:09:40,380
+habitable for at least two billion years
+
+209
+00:09:46,490 --> 00:09:42,920
+so anything within this green range
+
+210
+00:09:48,470 --> 00:09:46,500
+would meet that criteria now here's a
+
+211
+00:09:50,450 --> 00:09:48,480
+table illustrating that and what I want
+
+212
+00:09:52,580 --> 00:09:50,460
+to draw the attention to here is that
+
+213
+00:09:56,720 --> 00:09:52,590
+for low mass stars obviously they have a
+
+214
+00:09:59,750 --> 00:09:56,730
+very high percent of time that a planet
+
+215
+00:10:01,220 --> 00:09:59,760
+would spend in the continuously have 2
+
+216
+00:10:03,860 --> 00:10:01,230
+billion year continuously have it alone
+
+217
+00:10:06,200 --> 00:10:03,870
+versus the entire main sequence whereas
+
+218
+00:10:08,450 --> 00:10:06,210
+something with lower composition at
+
+219
+00:10:10,280 --> 00:10:08,460
+higher mass don't have any orbits that
+
+220
+00:10:13,520 --> 00:10:10,290
+are continuously habitable for 2 billion
+
+221
+00:10:14,990 --> 00:10:13,530
+years just because of the main short
+
+222
+00:10:17,150 --> 00:10:15,000
+main sequence lifetime so that could
+
+223
+00:10:20,540 --> 00:10:17,160
+help us constrain maybe the types of
+
+224
+00:10:24,770 --> 00:10:20,550
+stars we want to focus on as well we can
+
+225
+00:10:29,150 --> 00:10:24,780
+provide accurate time evolution of a
+
+226
+00:10:30,920 --> 00:10:29,160
+wider array of stars to better evaluate
+
+227
+00:10:34,670 --> 00:10:30,930
+individual cases of interest as they
+
+228
+00:10:35,850 --> 00:10:34,680
+arise so the current work that I've been
+
+229
+00:10:37,860 --> 00:10:35,860
+doing
+
+230
+00:10:41,760 --> 00:10:37,870
+is expanding a catalogue to also include
+
+231
+00:10:44,310 --> 00:10:41,770
+a grid of M dwarf stars which utilize
+
+232
+00:10:47,520 --> 00:10:44,320
+the same range of abundances for oxygen
+
+233
+00:10:49,050 --> 00:10:47,530
+carbon magnesium etc except for now we
+
+234
+00:10:50,030 --> 00:10:49,060
+have from point one to point four five
+
+235
+00:10:52,890 --> 00:10:50,040
+solar masses
+
+236
+00:10:55,350 --> 00:10:52,900
+- hopefully incorporate all the interest
+
+237
+00:10:57,510 --> 00:10:55,360
+for M dwarf habitability and I'm also
+
+238
+00:10:59,220 --> 00:10:57,520
+writing a type of subroutine that will
+
+239
+00:11:02,760 --> 00:10:59,230
+be able to estimate the activity versus
+
+240
+00:11:04,440 --> 00:11:02,770
+age for each star in our catalog this is
+
+241
+00:11:07,830 --> 00:11:04,450
+based on a minimalist couple evolution
+
+242
+00:11:10,770 --> 00:11:07,840
+model from Blackmon and O in 2016 and
+
+243
+00:11:13,410 --> 00:11:10,780
+I'm also working on keeping the database
+
+244
+00:11:15,570 --> 00:11:13,420
+updated it's designed for the
+
+245
+00:11:18,300 --> 00:11:15,580
+astrobiology exoplanet communities to
+
+246
+00:11:20,400 --> 00:11:18,310
+basically characterize any particular
+
+247
+00:11:23,970 --> 00:11:20,410
+system that we're interested in any new
+
+248
+00:11:26,190 --> 00:11:23,980
+discoveries that are coming up planetary
+
+249
+00:11:28,530 --> 00:11:26,200
+candidates so we can look at the host
+
+250
+00:11:32,120 --> 00:11:28,540
+star characterization and try to get an
+
+251
+00:11:35,100 --> 00:11:32,130
+idea of what's going on with that so
+
+252
+00:11:50,730 --> 00:11:35,110
+with that I will stop I'll take
+
+253
+00:11:53,010 --> 00:11:50,740
+questions questions for Amanda so Amanda
+
+254
+00:11:55,320 --> 00:11:53,020
+this is really cool and I was curious if
+
+255
+00:11:57,690 --> 00:11:55,330
+you had so you said you were going to
+
+256
+00:12:01,280 --> 00:11:57,700
+these smaller stars and I was curious if
+
+257
+00:12:03,030 --> 00:12:01,290
+you had any intuition as to what the
+
+258
+00:12:04,620 --> 00:12:03,040
+essentially certain you start forming
+
+259
+00:12:07,260 --> 00:12:04,630
+molecular species in their atmospheres
+
+260
+00:12:09,920 --> 00:12:07,270
+and what that might say for your stellar
+
+261
+00:12:15,480 --> 00:12:09,930
+effective temperatures and luminosities
+
+262
+00:12:17,130 --> 00:12:15,490
+I think that would you mean I mean it's
+
+263
+00:12:19,500 --> 00:12:17,140
+just generally lower but are you bring
+
+264
+00:12:21,690 --> 00:12:19,510
+like different species could yeah
+
+265
+00:12:23,640 --> 00:12:21,700
+differently right so is that going to
+
+266
+00:12:25,980 --> 00:12:23,650
+affect your your luminosity of it'll I
+
+267
+00:12:27,780 --> 00:12:25,990
+think yeah definitely will but I'm not
+
+268
+00:12:29,850 --> 00:12:27,790
+sure I can say anything about specific
+
+269
+00:12:31,800 --> 00:12:29,860
+species like how how particular
+
+270
+00:12:33,660 --> 00:12:31,810
+molecules might affect but I think
+
+271
+00:12:36,810 --> 00:12:33,670
+absolutely that yes
+
+272
+00:12:39,450 --> 00:12:36,820
+having having that and at the lower
+
+273
+00:12:41,490 --> 00:12:39,460
+effective temperatures will impact the
+
+274
+00:12:43,350 --> 00:12:41,500
+stellar evolution but I'm not I'm not
+
+275
+00:12:45,840 --> 00:12:43,360
+exactly sure because I don't know how
+
+276
+00:12:47,699 --> 00:12:45,850
+each specific species will interact in
+
+277
+00:12:52,410 --> 00:12:47,709
+the whole process so
+
+278
+00:12:55,889 --> 00:12:52,420
+Thanks I guess the idea that I've heard
+
+279
+00:12:58,290 --> 00:12:55,899
+around that is that by increasing the
+
+280
+00:13:00,780 --> 00:12:58,300
+amount of absorption towards the red you
+
+281
+00:13:03,359 --> 00:13:00,790
+effectively widened a half zone a little
+
+282
+00:13:06,059 --> 00:13:03,369
+further out and that especially around M
+
+283
+00:13:08,879 --> 00:13:06,069
+dwarfs hey where the light is redder
+
+284
+00:13:13,109 --> 00:13:08,889
+right in planetary albedo is smaller at
+
+285
+00:13:15,509 --> 00:13:13,119
+those wavelengths I guess that I was
+
+286
+00:13:18,329 --> 00:13:15,519
+thinking about you know the minimum age
+
+287
+00:13:21,059 --> 00:13:18,339
+or the minimum continuously habitable
+
+288
+00:13:23,249 --> 00:13:21,069
+time you know in terms of setting
+
+289
+00:13:24,900 --> 00:13:23,259
+constraints on which types of stars
+
+290
+00:13:27,150 --> 00:13:24,910
+could absolute habitable planets around
+
+291
+00:13:28,889 --> 00:13:27,160
+them yeah we have fun too
+
+292
+00:13:32,609 --> 00:13:28,899
+I mean we thought about this you know a
+
+293
+00:13:35,040 --> 00:13:32,619
+lot but it would be fun to translate you
+
+294
+00:13:38,009 --> 00:13:35,050
+know what if you wanted planets that are
+
+295
+00:13:40,710 --> 00:13:38,019
+at least 1 billion years habitable or to
+
+296
+00:13:43,679 --> 00:13:40,720
+really into actual mission detection
+
+297
+00:13:45,900 --> 00:13:43,689
+parameters because planets in the
+
+298
+00:13:48,389 --> 00:13:45,910
+habitable zones around a stars for
+
+299
+00:13:50,489 --> 00:13:48,399
+example have a much steeper contrast
+
+300
+00:13:52,470 --> 00:13:50,499
+rate rate that you have to reach then to
+
+301
+00:13:55,829 --> 00:13:52,480
+detect those than in the half zone
+
+302
+00:13:58,110 --> 00:13:55,839
+around a G Star by K star and M star and
+
+303
+00:13:59,879 --> 00:13:58,120
+then but then also they're further out
+
+304
+00:14:01,919 --> 00:13:59,889
+so it's a little easier in terms of
+
+305
+00:14:03,780 --> 00:14:01,929
+interworking angle but it would be fun
+
+306
+00:14:06,179 --> 00:14:03,790
+to actually try to map that out in terms
+
+307
+00:14:09,210 --> 00:14:06,189
+of contrast interworking angle as well
+
+308
+00:14:11,160 --> 00:14:09,220
+as that the actual apparent magnitude of
+
+309
+00:14:12,660 --> 00:14:11,170
+the planet you have to get down to four
+
+310
+00:14:14,100 --> 00:14:12,670
+specific stars yeah that's really
+
+311
+00:14:16,559 --> 00:14:14,110
+interesting I've had discussions about
+
+312
+00:14:18,780 --> 00:14:16,569
+kind of doing contour type plots even
+
+313
+00:14:21,360 --> 00:14:18,790
+with like different ages or different
+
+314
+00:14:24,059 --> 00:14:21,370
+time criteria so like 1 billion years or
+
+315
+00:14:25,829 --> 00:14:24,069
+two or five or whatever so that's also
+
+316
+00:14:27,449 --> 00:14:25,839
+really interesting at the end one day
+
+317
+00:14:29,850 --> 00:14:27,459
+you kind of have to do it star by star
+
+318
+00:14:31,799 --> 00:14:29,860
+so right super time-consuming but it has
