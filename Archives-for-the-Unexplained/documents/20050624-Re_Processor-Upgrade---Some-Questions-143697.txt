@@ -1,0 +1,97 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/20050624-Re_Processor-Upgrade---Some-Questions-143697.pdf", "source_sha256": "48a8c5ea7525d84891b6ceea0b466368c1c797df414f8b9173a144a8f45b23f6", "source_bytes": 35623, "source_mtime": 1790859544, "source_mtime_ns": 1790859544796139773, "source_ctime_ns": 1790859545145029191, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T20:46:16.978328+00:00"}
+
+Re: Processor Upgrade - Some Questions
+
+
+  Subject: Re: Processor Upgrade - Some Questions
+  From: f/fgeorge
+  Date: 24/06/2005, 22:17
+  Newsgroups: alt.sci.seti
+
+  On Fri, 24 Jun 2005 21:05:43 +0200, Tom Baldwin
+  <tomba_nospam_@pobox.com> wrote:
+
+
+          On Fri, 24 Jun 2005 00:36:37 -0700, Eric
+          <BorgMotherShip@AliensR_US.org> wrote:
+
+
+                  Tom Baldwin wrote:
+
+
+                         I've processed a modest 8750 work units in 6+ years. Now it's time to
+                         upgrade my processor for BOINC. For reasons that are not relevant
+                         here, it's to be a Dell Dimensions; either a 9100 or an XPS Gen 5, the
+                         latter billed as the "ultimate gaming machine" (the only game I play
+                         is SETI). The price difference is �500 (not far off $1000), but if I
+                         compare the two side by side I see little difference:
+                         - Same processor; up to Pentium D 840, 3.2GHz, 2x1MB L2 cache, 800MHz
+                         FSB. The 9100 also boasts "with dual core technology", whatever that
+                         is...
+                         - Same memory; dual channel DDR2-533MHz SDRAM.
+                         Questions:
+                         - Since it's raw power I'm after, am I going to get �500-worth of
+                         difference out of the Gen 5?
+                         - What happened to HT, which I read earlier in this list lets me run
+                         two instances of SETI simultaneously? Will I be able to do this with
+                         either of these?
+                         - What happened to the Pentiums that I have seen approaching 5GHz?
+                         These two have only a modest 3.2GHz??
+                         Thanks for any insights you can offer.
+
+
+
+          Thanks, Eric, for your input.
+
+                  Where have you ever seen a Pentium at 5GHz? 3.8GHz is the highest ever
+                  released to the market.
+
+          I THOUGHT I'd seen 4+; perhaps on a laptop?? Maybe a senior moment???
+
+                  Dual core means 2 complete processors in one package each with its own
+                  caches, execution unit, decoder etc,etc. A HT cpu is partially 2 cores but
+                  they share some of the internals with each other. So if you get a Pentium-D
+                  you have a real live dual cpu machine. A HT cpu is one cpu that in certain
+                  cases will perform better than 1 cpu but never as good as 2 completely
+                  separate cpu's. If the Pentium-D's are also hyperthreaded then you get 4
+                  logical cpu's and you can run either 2 or 4 copies of seti depending on how
+                  you think they do on a HT processor. (Personally i would run 4 copies on a
+                  HT Pentium-D system. Try it and then run only 2 and see what your overall
+                  throughput is.)
+
+          I bit the bullet ---- Dell offers finish in two days --- and ordered a
+          Dimension 9100 with a 3.0 Pentium-D. They offer 3.2 but the price
+          difference was OTT. It was not until I got the order confirmation that
+          I learned I had HT too! None of the pre-order specs mentioned it, So I
+          can run four SETI instances. Wow!! But...
+          Do I just start SETI four times and Windows allocates the work
+          automagically, or do I need to do something different myself?
+
+
+
+  Are you going to run Classic or Boinc? If Classic just get a hold of
+  SetiDriver and set the max cpu(the very top box) to 4 and the box just
+
+
+20050624-Re_Processor Upgrade - Some Questions-143697.html[12/03/2022 16:35:26]
+Re: Processor Upgrade - Some Questions
+
+  under it to 8 or more. DO NOT click the processor affinity box, that
+  locks a particular workunit to a particular cpu and you really don't
+  care.
+
+
+                  Here's another thought: My impression from running both linux and windows
+                  versions is that linux will process more wu's in less time in the long run.
+                  Consider installing Mandrake Linux.
+
+          Thanks for the tip, but one thing at a time, methinks. Let's get this
+          baby up and running Windows first.
+          Thanks again, Tom
+
+  You do realize that Classic is closing, probably within 30 days?!
+
+
+
+
+20050624-Re_Processor Upgrade - Some Questions-143697.html[12/03/2022 16:35:26]

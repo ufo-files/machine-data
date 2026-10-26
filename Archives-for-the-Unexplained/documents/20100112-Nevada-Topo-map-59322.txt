@@ -1,0 +1,89 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/20100112-Nevada-Topo-map-59322.pdf", "source_sha256": "a019690cadf1efa413e320ff0261b1d3bb57b8e1a43bc907078f1b8929099a90", "source_bytes": 36918, "source_mtime": 1790746460, "source_mtime_ns": 1790746460578885666, "source_ctime_ns": 1790746460604124053, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T21:03:08.137520+00:00"}
+
+Re: laser targeting
+
+
+   Subject: Re: laser targeting
+   From: "miso@sushi.com" <miso@sushi.com>
+   Date: 12/01/2010, 07:33
+   Newsgroups: alt.conspiracy.area51
+
+   On Jan 11, 3:14�pm, obviouslydelusional
+   <obviouslydelusio...@gmail.com> wrote:
+
+           On Jan 10, 9:54�pm, "m...@sushi.com" <m...@sushi.com> wrote:
+
+
+                      Of course, now you have to wonder if Al Qaeda has a "holy crap I'm
+                      being targeted" device. Who knows, maybe an off the shelf radar/lidar
+                      detector would work, though the laser frequency would be off a bit.
+                      The police lidar is 900 or 950nm, while the military is using
+                      something a bit longer than a micron. So the optical filter and
+                      perhaps sensor would need to be changed.
+
+
+
+                      I don't believe I have any weapons school audio of laser targeting,
+                      but the buzzword is "sparkle."
+
+
+           Those were all good thoughts you had, but you may �be over thinking
+           things a bit.
+           What it comes down to is detecting the presence of Nd:YAG 1064 nm
+           laser light, which most military targeting systems use. �If you're
+           being swept by a beam of that wavelength, it's time to duck, I don't
+           care what it's pulse rate is.
+           Start with a very sensitive photodiode or other sensor that is
+           sensitive to the 1064 nm wavelength. �Put it behind a 1064 nm laser
+           line filter, such as the following Newport optical item for $150.
+           Maybe even include a concave reflector to improve gathering ability:
+           http://search.newport.com/?sku=10LF10-1064
+           The laser line filter is essentially a very narrow bandpass filter,
+           which in this case peaks at 1064. �So what you have is a sensor setup
+           that will only detect if exposed to 1064 light. �Unless the sensor is
+           horribly slow, it should respond even to pulses. �I suspect that's how
+           most police laser detectors work. �And now that I think of it, maybe
+           just get a police laser detector and swap the original filter for a
+           laser line filter?
+           It might not work real well in daylight or in urban areas as there
+           will be a 1064 nm component to many light sources. �But out around the
+           ranges where it's dark should be fine.
+
+
+   Most photodiodes peak in infrared, so that is not an issue. The
+   trouble is they are very very slow. A photodiode has a lot of
+   capacitance. When you hook it up to the traditional TIA, the feedback
+   resistor is essentially the impedance presented to the capacitiance,
+   so you get a very low bandwidth system. [Large R, lare C, implies
+   large RC product.] Worse yet, all that capacitance at the front end
+   make the circuit unstable, so you need a feedback capacitor, which in
+   turns makes things even slower.
+   I have a cascode photodiode amp in the works for another project. I
+   came up with a servo scheme to remove the constant DC (i.e. ambient
+   light), allowing the sensor to respond to changes in light. The
+   cascode places a low impedance on the photodiode, neutralizing the
+   capacitance. Essentially, you still have a large C, but the R is now a
+   few ohms (Assuming bipolar cascode, R=1/(40*collector current))
+   Ultimately this kind of circuit needs a detector. Even if you have a
+   simple low bandwidth amp, even with a filter, you need to detect the
+   change in intensity, and this will be a highpass filter of some sort.
+   There is no escaping that. The problem with your scheme is the circuit
+   is working in the 1/f region of the amplifier. By sticking with higher
+   frequencies, you can get to a location where the thermal noise is
+
+
+
+20100112-Nevada Topo map-59322.html[12/03/2022 10:24:14]
+Re: laser targeting
+
+   dominant. Using the servo scheme, you have removed the DC offset at
+   the first gain stage, which improves the dynamic range of the
+   circuit. [A gain stage followed by a highpass means the gain stage
+   has to swing enough to accommodate the DC. With a servo, the DC is
+   canceled at the first stage, so the amplifier needs to only swing for
+   AC signals.]
+
+
+
+
+20100112-Nevada Topo map-59322.html[12/03/2022 10:24:14]
