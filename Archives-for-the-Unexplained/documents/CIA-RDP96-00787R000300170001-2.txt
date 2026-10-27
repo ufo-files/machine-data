@@ -1,0 +1,1534 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/CIA-RDP96-00787R000300170001-2.pdf", "source_sha256": "d619808a3ae9236a0d768f0e13780e827252015ac4dde028411e947c9e329963", "source_bytes": 1043740, "source_mtime": 1790714194, "source_mtime_ns": 1790714194334683519, "source_ctime_ns": 1790714194472275602, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T02:44:53.269475+00:00"}
+
+'---::=::::zs;Rproved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                          Final Report- Task 6.0. 1                                 March 1989
+                          Covering the Period 1 October 1988 to 15 February 1989
+
+
+
+
+                          REVIEW OF THE PSYCHOENERGETIC RESEARCH
+                          CONDUCTED AT SRI INTERNATIONAL (1973-1988)
+
+
+
+
+                          By:            Edwin C. May           Virginia V. Trask   Thane J. Frivoid
+                                         Jessica M. Utts        Wanda W. Luke       Beverly S. Humphrey
+
+
+                          Prepared for:
+
+SG1J
+                          CONTRACTING OFFICER'S TECHNICAL REPRESENTATIVE
+
+
+                          SRI Project 1291
+
+
+
+
+                          Approved by:
+
+
+                          MURRAY J. BARON, Director
+                          Geoscience and Engineering Center
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                                   TABLE OF CONTE:NTS
+LIST OF TABLES
+                         · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · .......... iv
+LIST OF FIGURES ..... .
+                                       ..................................................... v
+     I       OBJECTIVE
+                                   ....................................................... 1
+    II
+             EXECUTIVE SUMMARY ........................................... 2
+   III
+             INTRODUCTION .................................................. 3
+   IV        METHOD OF APPROACH                                                                .
+                                                            .......................................... 4
+             A.
+                       Analysis Domain .............................................. 4
+             B.        Database Management System ................................... 5
+             c.        Statistical Methods ............................................ 7
+
+   v         RESULTS AND DISCUSSION                                • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •         0   ••      11
+             A.       Overall Results           •••••••
+                                                              0
+                                                                  •••••••••••••••••••••••••••••••••••••                                              0   •   11
+             B.       Results for Categories Within the Informational Process ............                                                                   12
+                                                                                                                                                         0
+
+
+
+             c.       Specific Results for Remote Viewing ........................                                                                           14
+                                                                                                                                     0   0   0       0   0
+
+
+
+
+REFERENCES .
+                                                                                                                                                             24
+                  0   • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+
+
+
+                                                                  iii
+
+
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                       LIST OF TABLES
+
+1.   Definitions And Meta-analysis Formalism            ................................ 9
+
+2.   Statistical Results For Major Classes      .................................... 11
+3.   Statistical Results For Informational Categories       . .......................... 13
+
+
+
+
+                                              iv
+
+
+
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+j (
+             Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                        LIST OF FIGURES
+      1.   Categories And Number Of Trials    ....................................... 5
+      2    Database Schema Design For Meta-analysis    .............................. i
+
+
+
+
+                                               v
+
+
+
+            Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                    I OBJECTIVE
+
+           The objective of Task 6.0.1 of the FY 1989 Statement of Work (SOW) is to assess,
+where possible, the experimental results of the research at SRI International since 1973. •
+
+
+
+
+        This report constitutes the deliverable for Statement of Work, Task 6.0.1.
+
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                             II EXECUTIVE SUl\fMARY
+
+                We have conducted a review and analysis of the psychoenergetic research
+conducted at SRI International from 1 October 1973 to 30 September 1988.            The database
+comprises 117 documents with a total of 5,025 pages.
+
+                A total of 25,449 trials were conducted under a variety of protocols.     Analysis
+indicates that the odds that our results are not due to simple statistical fluctuations alone are
+better than 2 X 1020 to 1 (i.e., 2 followed by 20 zeros). Using accepted criteria set fonh in the
+standard behavioral sciences, we conclude that this constitutes convincing, if not conclusive,
+evidence for the existence of psychoenergetic functioning.
+
+                The main re,Sults are summarized below:
+
+        •   Remote viewing (RV) can provide useful                 information.
+        •   Laboratory                    remote viewing show the greatest potential for
+            practical applications.
+        •   Experienced viewers are significantly better than the general population.
+        •   Approximately 1% of the general population possess a natural remote viewing
+            ability.
+        •   Remote viewing ability does not degrade over time.
+        •   At this time, there is no quantitative evidence to suppon a training hypothesis.
+        •   1'\atural scenes are significantly better than symbols as targets for remote
+            viewing.
+        •   Remote viewing quality is independent of target distance and/or size.
+        •   There is no evidence to suppon that a psychoenergetic interaction with the
+            physical world exists.
+        •   Electromagnetic shielding is not effective against psychoenergetic acquisition of
+            information.
+        •   A potential central nervous system correlate to remote viewing has recently
+            been identified.
+
+
+
+
+                                                  2
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+             Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+! 1
+
+
+
+
+                                        III INTRODUCTION
+
+                    Until recently, the task of assessing any general body of published knowledge was
+      formidable.     Most of the attempts included review anicles that were based primarily upon the
+      informed opinions of the reviewers. It was recognized, however, that in the behavioral sciences
+      specific problems arose that were unique to those disciplines.         For example, many of the
+      behavioral results are based on a statistical rejection of a null hypothesis, and, using accepted
+      practices, 1 • a successful outcome is declared if the odds that the result is not due to a chance
+      statistical fluctuation are better than 20 to 1. A major problem for reviewers is created when the
+      behavioral sciences' technical journals refuse to publish results that fail to meet this statistical
+      criterion. For example, if only one-in-20 studies is published, then the literature may appear to
+      provide evidence for a phenomenon, but taken with the 19 unpublished studies for every
+      published one, there is no evidence for a phenomenon. This panicular difficulty is called "the
+      file drawer problem." ·
+
+                    This and other problems resulting from the diversity and difficulty of the behavioral
+      sciences have been addressed in a new review technique known as meta-analysis. 2 - 4
+      Meta-analytical procedures are most useful when a large number of diverse studies is under
+      consideration.     Meta-analysis provides techniques to clarify the impact of the file drawer
+      problem and to enable us to combine diverse experiments in a meaningful manner .
+
+                •. The results of SRI's psychoenergetic research encompass a wide variety of
+      experiments and thus can be addressed with these techniques. The analysis of the SRI data,
+      however, is simplified because there is no file drawer problem.          All experiments that were
+      conducted have been reponed, and thus are included in the analysis.
+
+                    This repon describes the database, the analysis techniques, and the results of 16 years
+      of psychoenergetic research conducted at SRI International.
+
+
+
+
+               References may be found at the end of this repon.
+
+                                                         3
+
+
+
+
+               Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                            IV l\1ETHOD OF APPROACH (U)
+
+A.          Analysis Domain
+
+                The domain of this meta-analysis includes all government-sponsored intelligence
+applications and psychoenergetic research conducted at SRI International, or under the auspices
+of its subcontractors, from 1 October 1973 to 30 September 1988.               A priori declared
+demonstrations or other activities that were not under the control of SRI International were not
+included in the documentation.      All other forms of experimentation were included in SRI
+International technical repons, unclassified journals, or publications, and thus were pan of this
+analysis. This database comprises 117 documents with a total of 5,025 pages.
+
+            By definition, there is no file drawer problem in this analysis; all items that met the
+above criteria were included regardless of their results.   Care was exercised to avoid multiple
+entries of the same data.
+
+                All psychoenergetic phenomena fall broadly into two classes:
+
+       ( 1) In formation Processes-those phenomena that involve a passive transfer of
+            information (e.g., remote viewing, search),
+
+      (2) Causal Processes-those putative phenomena that involve an anomalous
+          interaction with matter (e.g., remote action).
+
+The psychoenergetic effon has been divided into various categories within these processes. The
+various categories within this domain are defined as follows:
+
+      ( 1) Forced-Choice-remote viewing u~l?ere the targets are drawn from a limited
+           (and knov.71) set o( potential symbols (e.g., the integers 0, 1).
+      (2) RV-Lab-remote viewing where the targets are drawn from a large set of
+          potential material (e.g., photographs of natural scenes, natural physical
+          locations), and the experiments are conducted under strict laboratory
+          conditions.
+
+      (3)   RV-Oos-remote viewing where the targets are drawn from specific targets of
+            interest
+
+     · ( 4) ~-remote viewing where the targets are generally known but their
+            location is unknown (e.g., a specific military aircraft is knovm to have
+            crashed-where is it?).
+
+
+
+                                                4
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                                                                                                                    ':il.
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2                                            ~
+                                                                                                                     ~
+
+
+
+             For the purpose of this analysis, all putative causal-process experiments are
+considered under the general heading of remote action.
+
+             Figure 1 shows a schematic representation of these categories and the total number of
+individual trials that were conducted within each category.
+
+
+
+                                              Psychoenergetics
+                                                  26,074
+
+                                                       I
+                            I                                                          I
+                   Informational                                                    Causal
+                      25,045                                                        1,029
+
+                            I
+              I                           I                              I                         I
+       Forced Choice                   RV-Lab                      RV-Ops                        Search
+          19,715                        1,071                       106                          4,153
+
+
+
+
+                  FIGCRE 1               CATEGORIES A!\"D NUMBER OF TRIALS
+
+                  The total number of psychoenergetic trials (26,074) was collected in 15 4
+different experiments involving 227 different              subjects~ •       All the data were entered into a
+computer ·database management system (DBMS).
+
+B.           Database Management System
+
+        1.        Database Requirements
+
+                  One of the main purposes of performing a meta-analysis is to be able to look at
+data gathered fro"rri multiple studies conducted under a wide variety of circumstances. In order
+to collect and store the data in a meaningful way, one must know what kind of data
+manipulations     will be       performed.      To   evaluate      the       effect of certain    parameters   on
+psychoenergetic functioning, we needed to focus our attention on the conditions of a wide array
+of potentially important variables. As a result, the database design is primarily determined by the
+data   and    provides   for     the   selection   of information,           by experiment,      given parameter
+specifications.
+
+
+          The number of subjects does not include the preliminary mass screening panici-
+     pants. The formal screening participants were, however, included in the analysis.
+
+
+                                                           5
+
+
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+           Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+      2.         Database Design
+
+                 The database schema that was used consists of four basic tables (people.
+documents, experiments, and units), and two basic relationships (author and parameter). See
+Figure 2 for an illustration of this schema. The units-table contains information about the lowest
+level of statistical analysis in a given experiment. For example, if 6 viewers panicipated in 20
+trials each, the database would contain 6 unit entries-one for the overall result for each viewer.
+
+                 Although our database management system is a relational database, our
+requirements were inherently hierarchical.      That is, each of the documents contains several
+experiments, and each of our experiments contain several trials.        In order to minimize the
+redundancy within the database, we attempted to include all peninent information as high in the
+hierarchy as possible. That is, if a parameter or condition applied to an entire experiment, we
+would record that data at the experiment level.        If, on the other hand, the parameter varied
+across units within a given experiment, we made provision to record those data as a function of
+unit instead.
+
+                 The analyses of most of our experiments contain both individual and group
+statistics. In order to prevent any trial from being "counted" multiple times, we required that all
+experiments be broken up into the "units" which represent the basic grouping of trials upon
+which a hypothesis was being tested. Thus, any given trial appears only once in the database yet
+we can reco.nstitute the group statistics at a later time.
+
+                 This approach offers two advantages. First, any arbitrary parameter which does
+not have an explicit slot in the database can be stored, thus providing flexibility. Second, we can
+distinguish between "independent variables" and "incidental variables."           The former are
+variables which are intentionally manipulated by the experimenter, and the latter are actually
+parameters which the experimenter either could not control or treated as insignificant.
+
+                 Some of the documents detail multiple analyses for a given experiment in order
+to compare and evaluate standard and. new analytic techniques.        For this effon. however, we
+required that only one analysis be recorded for each experiment, since our primary focus was to
+evaluate the parameters that effect psychoenergetic functioning and not to compare different
+evaluation techniques. In determining which analysis to enter into the database, we always chose
+a blind method over a post hoc method. If a choice still remained, we then always chose the
+technique that had been developed first.
+
+
+
+
+                                                   6
+
+
+
+           Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                    Document      --           Author               ...        Person
+
+
+
+
+                    Experiment
+                                  -
+                                  ~
+                                         Principal Investigator
+
+
+                        ,It
+
+                       Unit
+                                  -
+                                  ~
+                                         Subject ID
+                                         Monitor ID
+
+
+
+                    Parameters
+                                                                  ,..       One-to-Many
+                                                                            Relationship
+                                                                            Entity
+
+                                                           (            )   Relationship
+
+
+
+       FIGURE 2                DATABASE SCHEMA DESIGN FOR META-Al'\ALYSIS
+
+
+                    The Appendix contains examples of the DBMS input sheets that were used to
+encode psychoenergetic data for the database, and the instructions that were given to analysts.
+
+           •.
+They are included in the Appendix for completeness; there is no funher discussion about them in
+this repon.
+
+
+C.              Statistical Methods
+
+
+      1.            Effect Size Calculations
+
+                    Effect sizes were calculated for each experiment or condition using the formula
+given by Rosenthal: 2
+
+                                                       2
+                                                d=-
+                                                    rn·
+where n is the number of trials and z is the usual normalized output score. If no z score was given
+for an experiment, but a p value was, the z that would have given that p value was computed and
+used in the formula.          The exception to this procedure was for experiments based on a
+sum-of-rank statistic. For those, a more appropriate effect size formula was used and is given by
+
+                                                   7
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                                  S _ (R + 1)
+                                            d=
+                                                   JEil-.  2
+
+
+
+ where S is the average rank and R is the number of choices for each rank.
+
+        2.        Comparisons Across Classes
+
+                  Experiments can be categorized in accordance with a number of specific
+ variables (e. g.. type of feedback, type of target, distance between the viewer and the target).
+ Effect sizes can be examined within a given category and compared across categories. For each
+ categorization, the following questions are of interest:
+
+
+              (1) Queqion 1: Is there any evidence of psychoenergetic functioning within
+                  each of the individual categories?
+
+              (2) Que~tion 2: Is the level of psychoenergetic functioning constant across
+                  all experiments within a category?
+
+              (3) Question 3: Is the level of psychoenergetic functioning constant across
+                  categories?
+
+              ( 4) Question 4: If there are differences across categories, what is the
+                   relative size of the effect in each category?
+
+                 Table 1 shows the notation that is used in the formalism that answers these
+questions.
+
+
+               To answer question 1, compare the average z score in each category with the
+standard normal tables.
+
+
+                 To answer question 2, compute
+
+                                            k     m;
+                                    Qw =   I I n;J(d;J- d;.)            2
+                                                                            •
+                                           i =l j =l
+
+If effect sizes are homogeneous within categories, the distribution of Qw will be approximately X2
+with v = (I.mi - k) degrees of freedom. The hypothesis of homogeneity is rejected if Qw is large
+compared to the chi-square table entry with v degrees of freedom.               To test for homogeneity
+within a single category, i, compute
+
+                                            mi
+                                    Qw; =   I n J(d;J- dr)
+                                                  1
+                                                                2
+                                                                    •
+                                           j =l
+
+
+
+                                                       8
+
+
+
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+    Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2                                          :~
+                                                                                                              ..1
+
+
+
+                Similarly, the distribution of Qw; will be approximately X 2 with v              = (mi - k)
+degrees of freedom, and can be examined as above.
+
+                                                Table 1
+                     DEFINITIONS AND META-ANALYSIS FORMALISM
+
+     Basic Definitions
+
+             k = number of categories
+           mi  = number of experiments in category i; i = 1, ... , k
+           dij = effect size for experiment j in category i; i = 1,  , k; j = 1, ... , mi
+           nil = number of trials in experiment j in category i
+           ZiJ = z score for experiment j in category i
+
+
+     Computed Quantities
+
+                                          n;. =In;; = number of trials
+                                                   j
+
+                                                  IniAJ
+            Within Category i             d;. =....;1::.._·_ _     = average effect size
+
+                                                  I /nijziJ
+                                          z;. =. .:1:......-==-- =d; . .Jni. = average z score
+                                                       .;n;
+
+                                          n .. = In;. = total number of trials
+
+
+
+            Across Categories
+                                                           n ..
+                                                                       = overall average effect size
+
+                                     ~     z.. =£d..              = overall average z score
+
+
+                 To answer question 3, compute
+                                            k
+                                    QB   = Ini-(d;. -d .. ) 2 •
+                                           j =I
+
+If effect sizes are homogeneous across categories, the distribution of Qa will be approximately X 2
+with v = k-1 degrees of freedom. Therefore, the hypothesis of homogeneity across categories is
+rejected if Qa is large compared to the appropriate entry in the chi-square table with v degrees of
+freedom.
+
+                                                       9
+
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+                Finally, to answer question 4, approximate 95% confidence intervals may be
+computed for the average effect size within a category using
+
+
+                                                1.96
+                                         d j. ±-,.--.
+                                                >In;.
+
+
+
+
+                                              10
+
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+! .          Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                V RESULTS AND DISCUSSION
+
+                 The results of the meta-analysis are presented here, where possible, in quantitative
+      analytic terms, and various interpretations are discussed in detail. In addition, items that cannot
+      be analyzed are discussed from a qualitative perspective.
+
+                 The analysis proceeds in a top-down fashion in accordance with the hierarchy shown
+      in Figure 1.
+
+
+      A.          Overall Results
+
+                 The overall analysis was conducted from three different perspectives:
+
+                     (1) All of the data, regardless of the purponed skill of the subjects,
+                     (2) A subset of the data contributed by an experienced group of viewers, G 1
+                         (i.e., long-term, generally accepted expen viewers-002, 009, 131, 372,
+                         414, and 504)
+                     (3) All of the data except for the group Gl (i.e., AII-Gl).
+
+      Table 2 shows the number of trials n, total z score, p value, and effect size d for informational
+      and putative causal processes and for the combination of the two.
+
+                                                    Table 2
+
+                               STATISTICAL RESULTS FOR MAJOR CLASSES
+
+                     Class                Perspective         n    z          p*        d
+
+                     Psychoenergetics     All           25,449    9.37   3.69 (-21)    0.059
+                                          G1             9,825    6.86   3.46 (-12)    0.069
+                                          All-G1        15,624    6.53   3.46 (-11)    0.052
+
+                     Informational        All           24,450    9.07   5.83 (-20)    0.058
+                                          Gl             9, 702   6.69   1.14 ( -11)   0.068
+                                          AII-Gl        14,748    6.25   1.96 (-10)    0.052
+
+                     Causal               All              999    2.42   6.39 (-03)    0.077
+                                          Gl               123    2.06   1.99 (-02)    0.171
+                                          AII-Gl           876    1.89   2.95 (-02)    0.064
+
+
+                         Powers-of-ten are shown in parentheses.
+
+
+                                                         11
+
+
+
+                Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                                                                                                         ·;
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+           The number of trials shown in Table 2 differs slightly from those shown in Figure 1.
+A few trials in each category were analyzed from a post-hoc point of view and therefore have not
+been included in the formal analysis.
+
+               The heterogeneity of effect size within each group for all classes is very large (i.e.,
+the chi-squares for within-groups were large).· This is to be expected for such a global analysis
+and is frequently seen in meta-analyses of psychological data. 5 The sources of the within-group
+variation include the psychoenergetic skill level of the subjects and fundamental differences
+between psychoenergetic tasks.
+
+               The data, regardless of subjects or process, show strongly significant evidence for
+psychoenergetic functioning (p < 3.69 X 1o- 21 ).      Both the informational and putative causal
+processes show significant evidence of psychoenergetic functioning, as well.
+
+               Since p values are strongly dependent upon the number of trials, the modern
+trend in meta-analysis is to consider the trial-independent measure of effect size. From this
+point of view, the magnitude of the psychoenergetic functioning appears roughly constant for ill!
+the data shown in Table 2, and, according to Cohen's criteria for the interpretation of effect
+size, • corresponds to small effects. 6 The method of calculating overall effect size, however,
+involves a weighted average (see Table 1) and thus may not provide an accurate picture of the
+size of the psychoenergetic functioning within a given category. To obtain more insight into the
+nature of the functioning, we must examine the data within each category.
+
+
+B.        ··Results for Categories Within the Informational Process
+
+                Table 3 shows the number of trials, total z score, p value, and effect size for
+categories \\.ithin the informational process.   The data show strongly significant evidence for
+psychoenergetic functioning for all categories regardless of subjects. The effect size, however,
+begins to demonstrate category differences.
+
+                The forced-choice effect size (d = 0.052) is equivalent to the overall effect size
+shown in Table 2 (d = 0.059). Since the forced-choice category accounts for 77% of the total
+number of trials, the effect-size averaging technique biases the overall result. For example, the
+effect size (d = 0.209) for the RY-Lab category is significantly larger than for the Forced-Choice
+case (X2 = 22.70, v = 1; p < 6.63 X 10- 6 ). The RV-Lab effect sizes meet Cohen's criterion for
+a medium-sized behavioral effect.
+
+
+
+
+         Values of 0.1, 0.3, and 0.5 correspond to small, medium, and large effects. respectively.
+
+                                                  12
+
+
+          Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+             Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+! •
+
+
+
+
+                                                     Table 3
+
+                      STATISTICAL RESCL TS FOR Il\'FORMATIO:\'AL CATEGORIES
+                    Category              Perspective       n        z           p•        d
+
+                    Forced-Choice         All           19,675      7.42   6.12 ( -14)    0.052
+                                          G1             9,487      5.82   2.92 (-09)     0.060
+                                          All-G1        10,18 8     4.69   1. 39 (-06)    0.046
+                    RV-Lab                All              966      6.49    4.33 (-11)    0.209
+                                          G1               196      5.39    3.49 (-08)    0.385
+                                          All-G1           770      4.55    2. 71 (-06)   0.164
+                    RV-Ops                All                   9   3.98    3.45 (-05)    1.326
+                                          G1                    9   3.98    3.45 ( -05)   1.326
+                                          All-Gl               -     -          -          -
+                    RV-Search             All            3, 790     2.61    4.53 (-03)    0.042
+                                          Gl                   -     -          -           -
+                                          AII-G1         3,790      2.61    4.53 (-03)    0.042
+
+                        Powers-of-ten are shown in parentheses.
+
+                      For the RV-Lab category, the experienced group, Gl, performs significantly
+      better than the novice, larger group (X2 = 7.63, v = 1; p < 0.0057).
+
+                      As in the overall analysis, the data analyzed in Table 3 show a large heterogeneity
+      of effect size within each category.      The heterogeneity of effect size, however, is signif1camly
+      reduced for the experienced subjects in the RV-Lab category. This reduction may result from a
+      more uniform skill level of the subjects in group G 1; this is in general agreement with our
+      qualitative assessment of their abilities.
+
+                      Only 8.5% of the remote viewing operational trials were analyzed as a formal
+      experiment.    The effect size for these exceeds Cohen's definition of a large effect.            The
+      intelligence requirements of operational remote viev.r:ing, however, are less dependent upon the
+      quality of the viewing than they may be on other factors.            Excellent remote viewing does not
+      necessarily imply good intelligence information.
+
+                      Because of the usual sensitivities associated with intelligence data, obtaining
+      evaluations of the operational remote viewing has continued to be difficult.
+
+
+
+
+                                                          13
+
+
+
+               Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+                 In the RY-Search category, 91.3% of the data were collected under laboratory
+conditions by novice subjects.        The remaining trials were conducted under
+conditions, and                 analysis is not available.     The small effect size (d = 0.042) is
+commensurate with that found in other laboratories, and may reflect our lack of understandir.g
+about how to elicit this form of psychoenergetic functioning.
+
+
+C.            Specific Results for Remote Viewing
+
+              In this section we address the specific questions posed in the SOW. In any kind of an
+investigation where the general results fall under a statistical regime (i.e., z scores less than about
+5), no hard definitions exist for definitive conclusions. The problem is confounded in behavioral
+science because many factors, beyond the panicular independent variable in question. may
+significantly alter the outcome of an experiment. In trying to assess a large body of literature. as
+more constraints are placed on the outcomes, fewer within-group trials are available for analysis:
+thus, statistical conclusions become more difficult. This is also true for psychoenergetic research
+Yet, it is possible tO describe trends, to suggest ways of improving experiments based upon earlier
+results, and to obtain clear insights into factors that may affect psychoenergetic functioning.
+
+                  To ensure the most reliable interpretations of results in what follows below, group
+Gl has been used for the quantitative discussion.       As was shown in Section V.-B, this group
+possessed the most homogeneous set of data for the RY-Lab category and demonstrated a
+significant amount of remote vie\\oing ability.
+
+
+       1.          Selection/Screening
+
+                       The selection of individuals who are able to accomplish remote viewing both
+in an operational setting and in the laboratory is of paramount imponance.            As is shown in
+Section V.-B., above, group Gl provides the best results for both types of remote viewing.
+Throughout the history of the program at SRI, 6 individuals have been able to demonstrate
+consistent functioning over a long period of time.           This does not mean that, after vigorous
+searching, only 6 have been found. Rather, given our applications-oriented chaner for most of
+the time period in question, we had little impetus to find other viewers.          During fiscal year~
+1986-1988, it became clear that a greater number of talented viewers was needed for both
+applications and research.
+
+
+
+
+                                                   14
+
+
+
+            Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+i. ,.            Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        •
+
+                                 Prior to FY 1986, little was known about how to select good viewers. There
+            was little systematic research either at SRI or within the field in general, and what was available
+            was inconclusive or contradictory.      The effort that began in FY 1986 encompassed a broad
+            approach to the problem.          We initiated three different types of quantitative approaches:
+            self-report personality tests, neuropsychological testing, and behavioral testing           (i.e.,   the
+            Personality Assessment System-PAS).          In addition, we used one heuristic approach, which
+            simply asked individuals to try remote viewing.
+
+                                 The heuristic approach has been quite successful. The efficiency (i.e., the
+            number of talented viewers found divided by the total number screened) is approximately 1% in
+            the general population (i.e., groups of self-selected volunteers).      Based upon the results of a
+            mass screening effort, two individuals have been asked to be regular contributors to the project.
+
+                                    One other heuristic source of good viewers is individuals who have noticed a
+            psychoenergetic ability in their lives.    Many viewers in group G1 came to the project in this
+            manner, and a new viewer, claiming similar experiences, was identified in a recent screening
+            effort. This viewer produced an effect size of 0.440 in 6 remote viewing trials. which contained
+            many striking qualitative correspondences between targets and responses.
+
+                                    Of the quantitative techniques, the neuropsychological approach was not
+            successful at predicting performance. The PAS, however, predicted performance of 9 viewers to
+            a significant degree.
+
+                                    By far, the best way to select viewers as of this writing is to use individuals
+            who either have abilities measured in other laboratories, or who have had strong personal
+            experiences.
+
+                                    One technique not mentioned above holds great promise for the future.
+            Three individuals from group GJ who participated in a neurophysiological study of correlates with
+            remote viewing produced unusually large central nervous system responses to light stimuli
+            directed at the eyes.      More work is needed to determine if this simple test might be the most
+            effective way to screen for individuals with excellent remote viewing ability.
+
+
+
+
+                                                                15
+
+
+
+                   Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                 Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+. I
+
+
+
+
+                2.            Targeting
+
+                                  Targeting is a general term to describe the method by which a viewer IS
+      directed to the intended target.           Common techniques that have been employed include the
+      following:
+
+                        ( 1) Beacon-an individual at the site of the intended target.
+                        (2) Coordinates-the geographical or military coordinates of the intended
+                            target.
+
+                        (3) Abstract-a word or phrase (e.g.,"target")               or     other   abstract
+                            representation of the intended target.
+                        (4) Srlf-none of the above, the viewer initiates the collection of data.
+
+      We examined these techniques in order to determine wlfich provides the best access to a remote
+      target.
+
+                                  For these    four targeting techniques.     183 trials    were   identified-the
+      remainder, 13 trials, were listed as "unknov.n" targeting. The effect size for viewings initiated by
+      these targeting techniques was 0. 401, leading to a p value of 2. 9 2           x 1o-s .     Thus. there is
+      significant evidence for remote viewing functioning.                The between-groups chi-square is
+      significant      (X 2   = 12.58, v = 3; p < 0.0058), indicating that the effect sizes resulting from these
+      targeting techniques are not drawn from the same population.
+
+                                  It is difficult, however, to attribute the significant differences to targeting
+      techniques alone. In none of the experiments could the targeting technique be used as a valid
+      independept variable, because, in all cases, the viewers and experimenters were not blind to the
+      targeting condition. Thus, it is possible, even likely, that the viewers' scientific or emotional bias
+      toward one technique or another confounds the interpretation. Other factors, such as feedback
+      time and type, or potential physics models of information transfer, also confound the
+      interpretation.
+
+                                  Given these caveats, beacon targeting appears to provide the best and most
+      stable results (n = 66, z = 5:305, p <           5.65 x 10- 8 , d = 0.653).
+
+                3.            Evaluation and Analysis
+                              The evaluation and analysis of remote viewing data has undergone significant
+      improvement during our 16 years of investigation.              Beginning as a simple blind matching by
+      judges, the techniques have been improved by the addition of concept analysis (the paraphrasing
+      of a complex response), discrete descriptor analysis (defining targets and response as the yes/no
+      answers to a predetermined set of descriptors), and fuzzy set descriptors (defining targets and
+      responses as fuzzy sets).
+
+
+                                                              16
+
+
+                     Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+                      The fuzzy set ..technique has also been applied to intelligence simulation
+experiments and found to provide a useful estimate of remote viev.ring accuracy (the percent of
+the intended target that was described correctly) and viewer reliability (the percent of the
+viewer's response that was correct).
+
+                      For rapid evaluation of laboratory experiments, rank-order judging of
+targets within preselected (i.e., by fuzzy set techniques) target packets is recommended.        For
+more accurate measures of remote viev.ing ability, however, the full fuzzy set analysis is
+suggested. Determining whether the fuzzy set technique can be applied to intelligence situations is
+a topic for further investigation.
+
+       4.         Training
+
+                      Six training efforts   were    conducted during the      time   period   under
+consideration; three were qualitative and three were quantitative. There is no overall quantitative
+evidence that remote viev.ring can be taught to novice viewers. Of the qualitative efforts, two were
+conducted with client personnel as \iewers, and one was conducted with SRI personnel.             All
+three showed some qualitative evidence, however, that training improves remote viewing skill.
+
+                      Quantitative experiments were conducted with 18 novice viewers in three
+separate experiments comprising 4 81 trials. In the first group, the novices were self-selected on
+the basis of strong interest and previous personal experiences. !\'one had participated in prior
+laboratory experiments. The six viewers in this group produced overall significant evidence for
+remote viewing (n = 169, z = 1.719, p < 0.043, d = 0.132).          None of the viewers, however.
+
+            ..
+individually or collectively demonstrated significant evidence that training helps a viewer to
+improve.
+
+                      The second group of 9 viewers was selected because the Personality
+Assessment System predicted that they would exhibit a wide range of remote viewing ability.
+Overall, their data did not reach statistical significance (n = 221, z = -0.971, p < 0.834,
+d = -0.065).     While the best viewer produced an effect size of 0.170, none of the viewers' data
+reached-statistical significance. Kone of these viewers individually or collectively demonstrated
+significant evidence that training helps a viewer to improve.
+
+                      In the third group of 3 novice viewers, one demonstrated significant
+evidence for improvement (n = 26, z = 3.01, p < 0.0013, d = 0.590).
+
+                      While significant evidence for remote viewing has been observed. whether
+training can improve remote viev.ring skill has yet to be substantiated quantitatively. It is possible
+that knowledge has not yet advanced to the point where we know how to train. Since the data
+from viewers in group G 1 have remained stable over time, we conclude that simple practice does
+not appear to improve performance.
+
+                                                    17
+
+
+            Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                                   2/11/18 : CIA-RDP96-00787R000300170001-2
+    Approved For Re Iease 200
+
+                     SRI recommends that investigations into training be continued.         In the
+meantime, good viewers are more easily found than trained.
+
+
+       5.        Role of Feedback
+
+                 Feedback is defined as providing the viewer \\-ith information about the intended
+target after a remote vie\\-ing experiment. Very few experiments were devised to test the role of
+feedback in determining remote vie\\-ing quality. In the early phases of the project, the primary
+objective was to provide as good a result as possible, and since feedback appeared not to hinder
+remote viewing, most of the early sessions always included it in one form or another.
+
+                     The strongest evidence about the role of feedback is provided by the FY
+19 8 7 tachistoscope experiment.    In that study, subliminal or minimal visual feedback was
+provided to the viewers.    Two of the four viewers produced independent evidence for remote
+vie\.\':ing ability (n = 40; z = 2.30, p < 0.012, d = 0.363, and z = 4.43, p < 4. 78 X 10- 6 •
+d = 0. 700. respectively). ]\;either of these viewers showed any dependency upon the intensity of
+the visual feedback, including zero intensity (i.e., no feedback at all).
+
+                     The question of the role of feedback was examined for group C 1.            We
+examined feedback time (i.e., the time duration after a session before feedback was provided),
+and feedback type (e.g., site, false site, verbal, visual). We found that there were substantial and
+significant differences among the various feedback times and among the various feedback types.
+
+                     To interpret these differences with regard to feedback is difficult.        For
+example, t·he significant difference between a 1-hour delay compared to a 5-minute delay may
+result from the fact that most of the 5-minute delay feedback intervals occurred in experiments
+in which photographs were used as targets. Since the longer delay occurred in experiments that
+used beacons and natural sites as targets, one interpretation is that the observed differences are
+attributable to target type rather than feedback interval.
+
+                      A similar problem arises in the feedback type category.     One clear result.
+however, does emerge. The effect sizes for feedback of natural sites (d = 0.734) is significantly
+larger than for feedback of the incorrect natural site (d = -0.137. X 2 = 4.55, v = 1; p < 0.042).
+Giving false feedback appears to inhibit remote viewing.
+
+                      A recent study indicates that feedback in remote viewing experiments is not
+essential. 7   This result is in qualitative agreement \\-ith the findings from our tachistoscope
+experiment. In forced-choice experiments, however, Honorton found that the role of feedback
+in the precognition experiments was critical. 8
+
+
+                                                  18
+
+
+
+                         o I     2002/11/18: CIA-RDP96-00787R000300170001-2
+            Approved For "e ease
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+•
+                         \Vhile the quantitative results are mixed, viewers indicate that feedback is
+    psychologically important. We conclude, therefore, that feedback should be provided whene\'er
+    possible.
+
+
+           6.        Effect of Distance
+
+                          We examined the effect of distance on the quality of remote viewing.
+    Distances were divided into four ranges: < 1 km, < 50 km, < 5000 km, and > 5000 km. For the
+    group Gl, there was no effect of distance on the quality of remote viewing (X2 = 3.56, v = :2;
+    p < 0.16 7).    It is possible to be definitive about this particular result since all confounding
+    variables tend to increase the chi-square rather than decrease it.
+
+
+           7.        Effect of Size of Target
+
+                          Only one experiment has been conducted that directly addresses this issue.
+    Photographs were reduced to a spot size of approximately 1 mm in diameter. One viewer from
+    group GJ produced significant results (n        = 6, z =2.10, p < 0.018, d = 0.857). We are able to
+    conclude that targets 1 mm in diameter do not inhibit remote viev.ing quality.         ::--:o data are
+    available on targets of varying sizes.
+
+
+           8.         Physiological Correlates to Remote Viewing
+
+                      In the field in general. the search for physiological correlates has not been
+    successful. Early results indicated that an individual should be moderately relaxed and as free
+    from physiological stress as possible (e.g., headaches, bathroom demands). These results are not
+    surprising in that it is likely that such a "physiological" state would be optimal for any human
+    activity.
+
+                          SRI has examined neurophysiological correlates to remote viev.ing in two
+    separate experiments.       Specifically, the central nervous system appears to respond to a remote
+    light flash, and thus provides a correlate to remote viewing. For the two experiments, a total of
+    four viewers (all from group G 1) produced independent significant changes in o-production in
+    correlation with remote light stimuli. 9 • 10
+
+                           SRI recommends that the effort to isolate particular pans of the central
+    nervous system that respond to remote stimuli be continued.          The potential for screening and
+    training are significant.
+
+
+
+
+                                                          19
+
+
+
+          Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+      Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+       9.         Psychological Correlates to Remote Viewing
+
+                       Psychological correlates to remote viewing have provided        weak.   but
+significant, evidence for correlations with some forms of psychological variables.    In the early
+work with the Personality Assessment System, SRI found that many of the group Gl viewers
+clustered near each other in PAS space. In later work, the PAS predicted viewer performance to
+a significant degree.     SRI's work with self-repon personality tests has not been successful:
+however, Hononon repons small, but significant correlations with the thinking/feeling dimension
+in the Myers-Briggs Type Inventory. 1 l      In general, psychological correlates have been weak
+and/or unreliable.
+
+
+       10.         Shielding and ELF
+
+                       The main purpose of searching for shielding against psychoenergetic
+functioning is to provide for a secure environment.          I. M. Kogan proposed a model of
+psychoenergetic information transfer based on extremely low-frequency (ELF) electromag:1euc
+radiation. 12   In that model, Kogan proposed that the brain is, in effect, a 10-Hz oscillator and
+the body is a crude antenna. Radiation at that frequency would exhibit many of the properties of
+psychoenergetic functioning kn01.vn at that time.
+
+                       Too few data were collected under known shielding conditions to make
+definitive statements with regard to shielding. Two trials were collected in a 30-dB shielding at
+10 Hz.      These trials showed significant evidence of remote viewing (n = 2, z = 1. 92,
+p < 0.02.7, d = 1.358).       In another experiment, when the target material was contained in a
+SCIF, significant evidence for remote viewing was observed (n = 6, z = 1.91, p < 0.028,
+d   = 0.780).      The trend, however, is clear: electromagnetic shielding does not inhibit
+psychoenergetic acquisition of target material.
+
+
+
+         11.       Audio Analysis
+
+                        In a single study involving 6 trials with a single viewer from group G 1. a
+significant correlation of remote viewing quality v:ith the audio/linguistic character of the
+response v.'as found (n = 6, r = 0.995, p < 0.050, d = 0.800).        One purpose for determining
+within-session correlations with remote viewing quality is to provide for an independent and
+a priori measure of quality.
+
+                   SRI recommends that this type of investigation be continued to determine the
+degree to which the result can be generalized across viewers.
+
+
+
+
+                                                   20
+
+
+            Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                                                                                                       '1
+
+       Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+      12.        Search and Tracking
+
+                     As was seen in Section V.-B., above, significant evidence for search was
+found overall (n = 3,790, z = 2.61, p < 0.0045, d = 0.042). Most of these trials were collected
+in experiments using computer techniques.      In a few experiments, however, the target materia:
+was physical objects in a laboratory setting. The effect sizes from these experiments do not differ
+significantly from the overall result.
+
+                     Search has always been a challenge. On a few occasions, operational use of
+search has proved extremely useful data, but on the average, both the laboratory experiments
+and operational use have been disappointing.      SRI recommends continued effon in search to
+determine those factors that can enhance a potentially very useful phenomenon.
+
+
+       13.       Precognitive Remote Viewing
+
+                     The first SRI precognition experiment provided significant evidence of the
+phenomenon (n      = 4, z = 1.73, p < 0.042, d = 0.864). 13         From FY 1975 to FY 1987,
+precognition was not studied in any systematic manner.      During FY 19 8 7, one experiment was
+conducted using natural sites as targets and one of the group Gl viewers.       The result was not
+significant (n = 10, z = -0.476, p < 0.683, d = -0.150).       A second experiment using novice
+viewers was conducted in the same year. This also did not reach a significant level (n = 55,
+z = 0.070, p < 0.472, d = 0.064).        Therefore, the results of SRI's investigations are mixed.
+However, in a recent meta-analysis of the precognition forced-choice literature conducted by
+one of SR}.'s subcontractors. 50 years of experimentation involving 50,000 subjects showed highly
+significant evidence for the phenomenon (n R1 10 6 , z = 24.23, p < 4 x 10-s 2 , d = 0.041). This
+result is consistent with the forced-choice real-time studies conducted at SRI (d = 0.052).
+
+                      Taken as a whole, there appears to be compelling evidence for precognition.
+\\'hen precognition is used as the underlying assumption for a heuristic model of psychoenergetic
+functioning, 15 years of random number generator data fall on the. :predicted theoretical curve . 14
+
+
+       14.        Analytics (Forced-Choice)
+
+                  Forced-choice remote viewing (defined in Section IV.-A.) has traditionally
+provided weak but consistent evidence for a psychoenergetic phenomenon. In the experiments
+conducted during the Rhine era, over one million trials were conducted wnh ESP cards (i.e .. a
+one-in-five target system) . 1 ~   Strong significances were observed, but effect sizes were of the
+order of 0.02.
+
+
+
+
+                                                  21
+
+
+
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                 Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+! I
+
+
+
+
+                           Table 3 shows the results for 19,6 7 5 trials collected at SRI since 197 3. The
+      effect size is consistent with the early results of Rhine (d = 0 .052).   In fiscal years 19 8 6-19 8 8,
+      one of the viewers from group G 1 was able to increase the effect size by a factor of 10 (n = 50,
+      p < 0.00015, d = 0.51), meeting Cohen's definition of a strong effect.               \Vhile there was
+      significant improvement with this viewer during the three years, the number of formal trials was
+      small, and thus interpretation is difficult.
+
+                           SRI recommends that a forced-choice investigation be                continued to
+      determine if such strong effects can be observed in other viewers.
+
+
+             15.        Conducting an RV Experiment
+
+                           No    formal   experimentation has been conducted to            examine    session
+      parameters that enhance remote vie'-''ing. SRI does not use any formal induction technique, and
+      the sessions are conducted in a businesslike atmosphere with the viewer and monitor sitting
+      upright and opposite each other across a table. Since the overall effect size (d = 0.385) observed
+      for group G 1 meets Cohen's definition of a medium-sized effect, these session conditions do not
+      appear to hinder the phenomenon.
+
+
+
+             16.        Countermeasures
+
+                           The first step in investigating countermeasures for remote viev.ing is to
+      examine whether it is possible to shield against psychoenergetic intrusion.       As was discussed in
+      Section V.-C.-10, E&M shielding does not appear to be effective.
+
+
+                            To provide an effective shield or a useful physical countermeasure, it must
+      be determined whether psychoenergetic phenomena interact with the physical world.                In the
+      remote action studies conducted at SRI, most of the studies have not demonstrated any evidence
+      of psychoenergetic interaction with the physical world.
+
+                            Two exceptions are worthy of discussion. In a study conducte-d .in FY 1979
+      involving random number generators, the significant results were consistent '-'ith the historical
+      database of such experiments.       Later, it was shown that these results are not due to a physical
+      interaction, but rather due to precognition. 14
+
+                            During FY 19 7 5, a striking anomaly was observed when one of the viewers
+      from group G 1 attempted to influence a shielded magnetometer. The device was perturbed in a
+      significant manner, but no other experiments were conducted that showed similar non-statistical
+      results.
+
+
+
+                                                         22
+
+
+
+                   Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+                    In an experiment designed to replicate claims made in the People's Republic
+of China, SRI determined the degree to which pulses from a photomultiplier tube correlated with
+the quality of remote viewing. While strong evidence for remote viewing was seen, no significant
+correlations with the tube output were observed.
+
+
+                    At this time, there is no evidence that psychoenergetic phenomena can be
+shielded against nor effectively coumermeasured.
+
+
+
+
+                                              23
+
+
+        Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+      Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                   REFERENCES
+
+1.    Zimbardo, P., Psychology and Life, 12th Ed., Scott, Foresman and Company, Boston,
+      MA, p. 54 (1988)
+2.    Rosenthal, R., Meta-Analytic Procedures for Social Research, Applied Social Research
+      Methods Series, Vol. 6, Sage Publications, Beverly Hills, CA (1982)
+3.    Light, R. J. and D. B. Pillemer, Summing Up, The Science of Re1•iewing Research.
+      Harvard lJniversity Press, Cambridge, MA ( 19 84)
+4.    Hedges, L. V. and I. Olkin, Statistical Methods/or Meta-Analysis, Academic Press, Inc.,
+      1\:ew York, ?\'Y (1985)
+5.    Feingold, A., "Matching for. Attractiveness in Romantic Partners and Same-Sex Friends:
+      A Meta-Analysis and Theoretical Critique," Psych. Bull., Vol. 104, !\o. 2, pp. 226-23S
+      (1988)
+6.    Cohen, J., Statistical Power Analysis for the Behavioral Sciences, (rev. ed.) Academic
+      Press. !'\ew York, i\'Y ( 1977)
+7.    Targ, E., R. Targ, and 0. Lichtarge, "Realtime Clairvoyance: A Study of Remote \'ie\ving
+      Without Feedback," The Proceedings of the Parapsychological Association 28th Annual
+      Convention,    Tufts University,    Medford,   MA. pp. 335-342          (August   1985)
+
+
+8.    Hononon, C., D. B. Ferrari, and G. Hansen, "Meta-Analysis of Forced-Choice
+      Precognition Experiments," Psychophysical Research Laboratories' Technical Report
+      (1989)
+9.    May, E. C., R. Targ, and H. E. Puthoff, "Possible EEG Correlates to Remote Stimuli
+      lJncter Conditions of Sensory Shielding," Proceedings of Electro77 Professional Program
+      of the IEEE, Special Session on the State of the Art in Psychic Res.:arch. !':ew York
+      (April 19 77)
+10.   May, E. C., W. W. Luke, and T. J. Frivold, "Neurophysiological Correlates to Ro:mote
+      Viewing     , " SRI International, Menlo Park, CA. Final Report-Objective D, Task. 1,
+      Project 1291 (December 1988)
+11.   Private communication.
+12.   Kogan, I. M., "Is Telepathy Possible?" Radio Eng., Vol. 21, P. 75 (January 1966)
+
+13.   Puthoff. H. E. and R. Targ, "A Perceptual Channel for Information Transfer Over
+      Kilometer Distances: Historical Perspective and Recent Research," Proceedings of the
+      IEEE, Vol. 64, No. 3, pp. 329-354 (March 1976)
+14.   May, E. C., D. I. Radin, G. S. Hubbard, B. S. Humphrey, and J. M. Ctts, "PSI
+      Experiments with Random Number Generators: An Informational Model." SRI
+      International, Menlo Park, CA, Final Report Project 8067 (October 1985)
+
+
+15.   Honorton, C.. "Error Some Place!," Journal of Communication, pp. 103-116 (Winter
+      197 5)
+
+
+                                              24
+
+
+         Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+  Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001 -:-2
+
+
+
+
+                               Appendix
+CODING SHEETS AND INSTRUCTIONS FOR UIE META-ANALYSIS
+
+
+
+
+                                  25
+
+
+
+  Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+               Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                                                                                                        Page:
+
+                  I             Unit Information
+                                                                                             I                          Coder I.D:
+                                                                                                                        Date:
+                                                                                                                        Form I.D:
+
+
+ I            Unit          I                                                           Data
+
+      Unit Name                  Session     Viewer       Viewer within Condition                Trial      Experiment       0:
+
+      Unit I.D.
+      Viewer I.D.                J.D.
+                                        ---               Experienced           Novice
+
+      Monitor I.D.
+      Start Date
+      Date Duration
+      Start Time
+      Time Duration
+      VIewer Location            SRI       Home:                         Client:                          Field:                          0:
+
+
+
+
+In ten-
+tiona!
+          I Parameters That Differ                                    Circle or write in all appropriate conditions
+
+YN         Target Name
+YN         Targeting Method                        Beacon         Abstract    Coordma tes        Prompting      Sell    Unknown               0:
+YN         Target Type                             Ops      Real Site        Photograph      Alpha INume ric       Penon            Object!        0:
+YN         Target Distance (km)                    < I      <50     < 5000     > 5000        Unknown         0:
+YN         Target Location                         Inside     Outside        Both                0:
+
+YN         Target: When Selected                   Retrocognition        Real Time               Precognition           0:
+
+YN         Shieldiog Type                          Unknown           E&M Cage/Room               Water          SCJF                     0:
+
+YN         Feedback Type                           None Visual          Audio           Verbal        Intermediate           Site      Unknown 0:
+
+YN         Feedback: When                          Immediate           <5 min        <I hr         <I day              >I day            Unknown        0:
+
+YN         Independent Variable #1                 Condition:
+
+YN         Independent Variable #2                 Condition:
+
+
+
+
+  I        . Statistics     I                                                           Data
+
+      #of Trials
+      Raw Score
+      Judgement Score            I      2      3      4
+
+      Z-Score
+      P-Value
+      Effect Size
+
+      Comments:
+
+
+
+
+                  Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+                                                                              ,\-1
+                    Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+                                                                                                           Page:
+                       Publication Information                                                             Coder I.D:
+                                                                                                           Date:
+                                                                                                           Form I D·
+      I   PJJhlir<'ltil"''n P!'l~<'~rn.:>tF>r~   I                                        Data
+
+          Title
+
+          Authors
+          S_RI PmiAr.t Number
+          Document Number
+          Clas~ifir.Atinn
+          Total Number of Paces
+          Tvoe of Reoort                             Final   Mid-year   Interim   Quarterly Progre'u   Monthly Progress   0:
+
+          Date of Puhlir.l'ltinn
+                                                        Rules for Meta-analysis Coding
+      Or2anization
+         1.    Use one Publication Information sheet for each publication.
+         2.    Use as few Experiment Information sheets as necessary.
+         3.    A Unit is the smallest level at which the most basic hypothesis (usually psi versus no psi) was tested.
+         4.    Results for a hypothesis that cannel be reconstructed from the basic units should be coded as a separa1e
+               "experiment". The Type should be listed as 0: correlation.
+         5.    For an experiment, staple together all Unit Information sheets with the Experiment Information sheet on
+               top. Clip together all experiment packets from the same publication. Number all of the sheets consecu-
+               tively within a publication.
+      ~:
+         1.    Circle (or slash) the appropriate choice.
+         2.    Use [ J around data to indicate a coder guess or calculation.
+         3.    If Oiher (0:) then specify.
+      Experiment Parameters Known Taraet Parameters and Feedback:
+         1.    Use publication date if Experiment date is unknown.
+         2.    Generally, independent variables are those manipulated by the experimenter. However, this space can
+               also be used for variables that differ unintentionally within an experiment. See Rule #4 under "Unit In-
+               formation".
+         3.    Example: LANL experiment is coded as follows: Experiment Type: RV-Lab: Principal Hypothesis·
+               CNS responds to remote, external stimuli; Independent Variable: Timing of remote stimuli.
+         4.    Targeting Method: Prompting means a sound or gesture (e.g., Gina's bell).
+         5.    Shielding is for viewer, target, or both.
+         6.    Most feedback is actually multi-mode. Code the niJ:rulrY mode . .Y.i.ma.l Feedback: Photograph (e.g.,
+               National. Geographic Magazine). Aw1i.Q Feedback: Just a sound (e.g., Bell !rom the tea·ching ma-
+               chine) . .Yul2Al Feedback: Verbal debrief (e.g., You did well. The target was ... ). ~Feedback:
+               Physical visit to the target site (e.g., Outbound experiment).
+      Basic Analysis:
+          1.   Rank R = number or choices for ranking, including target and all decoys.
+          2.   Analysis scale, n =maximum. (e.g., 0 -> 4, n = 4).
+          3.   Judgment means a qualitative estimate (e.g., by-gosh-by-golly); 1 =complete miss, 4 =complete hit.
+          4.    Statistic means z-score or F ratio, etc.
+      Unit Information:
+          1.   Unit Name is "Session" for a single RV session, but "Trial" for a single forced choice. In forced choice
+                experiments, there are usually several trials in a single session.
+          2.    Unit I. D. is blank most of the time. Use Ops tag when appropriate.
+          3.    Viewer l.D. is according to our most current list. Therefore, if a known viewer was listed under an old
+                1.0 .. note the person's name so the current J.D. can be entered in the data base.
+          4.    Parameters that differ should be filled in only for those cases where "differs" was circled on the Experi-
+--'             ment Sheet. If the variable was intentionally manipulated, circle Y.
+          5.    P-value should be entered as -1 if it is unknown, to avoid confusion with the default missing value code
+                of 0. which could be a legitimate P-value.
+
+
+
+
+                    Approved For Release 2002/11/18 :A€PA-RDP96-00787R000300170001-2
+             Approved For Release 2002/11/18 : CIA-RDP96-00787R000300170001-2
+
+
+
+
+              [ Experiment Information                                                   I                                      Page:
+                                                                                                                                Coder 1.0:
+                                                                                                                                Date:
+                                                                                                                                Form 1.0:
+                                                                        Y       n
+              Sub-experiment or Condition?                             0 O
+I Experiment Parameters I                                                                          Data
+
+    Type                                 RV-Lab          RV-Ops            Forced-Choice         Screening          Training         Search      0:
+
+
+    Date
+
+    Pages Within Document
+
+    Principal Investigator
+    Number of Subjects
+
+
+     Principal Hypothesis
+
+
+    Independent Variable (s}                1.                                                                     2.
+
+    not included below; list                a.                                                                     a.
+    categories or describe                  b.                                                                     b.
+    in space provided.                      Differs·                                                                Differs·
+
+
+     Experiment Task
+
+
+    Known Tarqet Parameters                                                                        Data
+
+      Target Name
+      Targeting Method                   Beacon             Abstract       Coordinates       Prompting       Self        Unknown         Differs'     0:
+      Type                               Ops          Real Site        Photograph         Alpha/Numeric            Person          Objects      Differs'    0:
+      Distance (km)                      <1          < SD     < sooo       > 5000        Unknown          Dirrer:s•        0:
+
+      Location                           Inside         Outside          Both                Dirfers'         0:
+
+      When Selected                        Reuocognition               Real Time             Pre cognition               Dtffers'        0:
+
+      Shielding Type                     Unknown                  E&M Cage/Room              Water            SCIF       Dirfers'        0:
+
+
+I         Feedback       I                                                               Data
+      Type                   None    Visual          Audio        Verbal      Intermediate         Sne       Unknown               Dirfers'      0:
+
+      When                   Immediate      <S min           <1 hr         <I day       >I day     Unknown              Differs•        0:
+
+
+I Basic Analysis I                                                                        Data
+    How                      Blind            Post Hoc                                                    N of chotces
+
+    Depndt. Variable         Raung Ranl<. R                  Fuzzy Bit Discr. Bit            Concept        Hits_ Scale n                     Judgment     Match 0 _
+                                                 -                                                                        -
+    Method                   Scott's Nrows                   FM             Sum-of-Ranks                   StatistiC        0:
+
+    By Whom                  SRI      Client                 0:   ---
+    Purpose                  RV       PK                     Utility         Demonstration           0:
+
+
+    ' When "Differs" is circled, information must be entered at the unit level.
+
+
+
+
+                 Approved For Release 2002/11/1.~ _: CIA-RDP96-00787R000300170001-2
+                                                                                    3
