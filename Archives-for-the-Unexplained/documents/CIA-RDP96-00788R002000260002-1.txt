@@ -1,0 +1,1180 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/CIA-RDP96-00788R002000260002-1.pdf", "source_sha256": "bfd17f17572f516b8b424ff8bef2471ba8ef9459aa2bc9af3ae95174e5ecee3e", "source_bytes": 1142768, "source_mtime": 1790665621, "source_mtime_ns": 1790665621813276101, "source_ctime_ns": 1790665621908090198, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T02:45:47.350616+00:00"}
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+
+                  THE JOURNAL OF THE AMERICAN
+i
+                  SOCIETY FOR PSYCHICAL RESEARCH
+    I
+    '
+\   .             VOLUME 74                      APRIL ~         1980                     NUMBER2
+
+
+
+
+                    A Computer-Based Laboratory Facility for the
+                         Psychophysiological Study of PsP
+
+                    JAMES E. LENZ, EDWARD F. KELLY, AND JOHN L. ARTLEY
+
+
+
+                  ABSTRACT: This paper provides the basic reference to technical resources for
+                  psychophysiological research developed by the Experiential Learning Laboratory,
+                  Department of Electrical Engineering, Duke University. Hardware and software
+                  facilities are described which permit rapid construction of efficient computer-driven
+                  protocols for a wide range of experiments, entirely in FORTRAN. All data files are
+                  written directly to digital storage in a self-describing standard format, and are thus
+                  accessible to subsequent processing by a large collection of generalized data-·
+                  management, data-reduction, and statistical analysis programs. Special precautions
+                  have been taken to insure the integrity of physiological data, including development
+                  of computer-assisted daily-calibration and system-measurement procedures. The
+                  facilities described supply the necessary technical foundation for a systematic,
+                  wide-ranging, and long-term program of experimental research on physiological
+                  correlates of paranormal processes.
+
+
+
+                                                   INTRODUCTION
+
+                    Although it has not yet been clearly established that psi events
+                  bear orderly relations to physiological events, a number of theoreti-
+                  cal and empirical considerations converge to suggest that they
+                  should, and that the relevant physiological events may in useful
+                  degree be measurable (Kelly, 1977, 1979).                         ·
+                    The discovery of consistent relationships of this sort could in
+                  principle lead to many useful consequences, among them improved
+                     1 Aspects of this work have been supported by grants from the American Society
+
+                  for Psychical Research, the John E. Fetzer Foundation, Foundation for Research on
+                  the Nature of Man, the James McDonnell Foundation, the National Institute of
+                  Mental Health (small grant MH 26537-01), and the Psychical Research Foundation.
+                  We also express our gratitude to the Parapsychology Foundation and the Arthur
+                  Vining Davis Foundations, whose encouragement and financial support made it
+                  possible to carry out this work.
+
+
+
+
+        Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+        l,.,;cJ   1..
+Approved For Release 2003/09/16 : CIA-RDP96-00788R00200026000~L1
+   150         Journal of the American Society for Psychical Research
+
+   prediction and control, resolution of experimental ambiguities con-
+   cerning time and source of psi effects, and even fundamental new
+   insights into the mechanisms underlying psi.
+      To explore these possibilities, we are currently developing a
+   program of systematic research on the physiological correlates of
+   psi processes in human beings. The central strategy of this program
+   is to study fluctuations in psi task performance in relation to fluctu-
+   ations of bodily state, as reflected in various kinds of electrical and
+   mechanical signals measurable at the body surface.
+      Although its strategy is conceptually straightforward, this kind of
+   research is technically demanding. This is particularly true of re-
+   search involving the electroencephalogram (EEG), the physiolog-
+   ical signal which interests us the most because of its demonstrably
+   intimate relationship to many information-processing activities of
+   the brain. Consequently, we have devoted a large proportion of our
+   initial effort to careful construction of a suitable base of technical
+   resources for psychophysiological research.
+      This report summarizes these developments, and is intended to
+   provide the basic technical references for subsequent experimental
+   reports. We have attempted to organize our presentation in such a
+   way as to make it accessible to the general reader, while main-
+   taining adequate completeness of technical detail. Thus, both the
+   report as a whole and its major sections begin with general intro-
+   ductions to the material in them, more detailed information being
+   deferred to subsequent sections, footnotes, and parenthetical re-
+   marks; the bulk of the very detailed material has been set aside in
+   appendices for those who have interest in such details. 2
+
+         I. OVERALL STRUCTURE AND OPERATION OF THE RESEARCH
+                                      FACILITY
+
+      The facility is located within the Electrical Engineering Depart-
+   ment of Duke University. A general layout of its organization is
+   shown in Figure 1, the three main parts corresponding to physically
+   separate regions of the facility.
+      The computer, located on the first floor of the new engineering
+   annex building, is owned by the EE Department. The instrumenta-
+   tion and controlled environment rooms are in the sub-basement of
+   the old engineering building, some hundred feet, three walls, and
+   two floors distant. The instrumentation room contains the equip-
+   ment noted in Figure 1; the experimenter is normally located in this
+   room while monitoring an experimental session in progress. Lo-                     f
+
+
+     2   Copies of these appendices are available upon request to the authors.--Ed.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+     .
+  Approve" For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+            .
+          A Computer-Based Laboratory                                                                    151
+
+                                         HARDWARE ORGANIZATION
+                                                                        Laboratory Area
+                 Computer Room                   Instrumentation Room              Controlled Environment Room
+
+
+
+
+                                                                                                  LroA,dio
+                                                                                               /Rece1~er
+
+           Fig. 1. General layout of the research facility. (Heavy arrows denote multichannel
+         data paths; dashed vertical lines delimit physically separate regions of the facility.)
+
+         cated adjacent to this area is the controlled environment room
+         where the subject is located during a session. This room is elec-
+         tromagnetically shielded, acoustically quiet (though not sound-
+         proof), and of pleasant decor lighted by a bank of adjustable, DC
+         powered colored lights.
+            A typical experimental session runs as follows: The subject, after
+         being appropriately outfitted with electrodes for physiological re-
+         cording, is brought to the controlled environment room. Here the
+         electrodes are connected to the polygraph via a plugboard, and
+         various facilities are arranged for presenting stimuli and monitoring
+         responses.
+            In the adjacent instrumentation room, the experimenter first
+         makes preliminary adjustments of relevant equipment, and then,
+         using the downstairs console, initiates a dialogue with the remote
+         computer. This dialogue may include, for example, tests of the
+         hardware random number generator (RNG), adjustment of audio
+         feedback tones, and tests of the response-monitoring devices. It
+         invariably includes a standard daily calibration procedure for the
+         physiological measurement system (see below, Section III.D.l.).
+         The experimenter then invokes the relevant "real-time" experi-
+         mental control program and supplies it with information about the
+         experimental session to be run; for example, session and subject
+         identifications, and experimental parameters such as number of
+         trials, number of physiological channels to be sampled, length of
+         sample periods, etc.
+            With the instrumentation correctly adjusted and the control pro-
+         gram suitably initialized, the experiment proper can begin
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R00200026000 _
+                                                             2 1
+Approved For Release 2003/09/16: CIA-RDP96-00788R002.0Q~260~0~-1
+
+  152        Journal of the American Society for Psychical Research
+
+  whenever the subject feels ready. 3 From this point. forward, the
+  experimenter's function is principally to monitor the physiological
+  instruments and to intervene in the event any abnormal conditions
+  should develop. The experiment is otherwise entirely under the
+  supervision of the remote computer program, which controls such
+  processes as generation of targets, collection of responses, sam-
+  pling of physiological channels, and writing of data records to
+  computer storage as dictated by the experimental protocol.
+     The analysis of the physiological data in particular is generally
+  too complex to be carried out concurrently with data collection,
+  and is instead normally carried out later in a separate stage by
+  applying the data management, data reduction, and statistical
+  analysis capabilities outlined below in Section III.B.
+
+                         II. HARDWARE CoMPONENTS
+    Here we give further details on the hardware organization, em-
+  phasizing major items of equipment that can be purchased in vari-
+  able configuration, plus specialized or novel components of the
+  hardware system that are not available commercially.
+
+  A. Computer
+     The central computer, which we share with other members of the
+  Electrical Engineering Department, is a Digital Equipment Cor-
+  poration (DEC) PDP-11/45. It has 28K 16-bit words of core mem-
+  ory, supplemented by an (FP-llB) floating-point processor. 4 Stor-
+  age devices include two (RK05) removable cartridge disks each
+  capable of handling up to 1.2 million words of data, an (RC 11)
+  fixed-head disk with 64K words capacity (used mainly for spe-
+  cialized utility functions), and a (Digidata Maxidek 1730) digital
+
+
+     3 The presence of large amounts of formidable-looking apparatus tends to create a
+
+  heavy "technologkal" atmosphere which some subjects may find intimidating on
+  first contact. Our experience so far, however, suggests that this is not a serious
+  problem. We always spend a good deal of time with new subjects to help them to feel
+  relaxed and comfortable with us and with the laboratory, and we generally work
+  intensively with each selected subject over an extended period of time. Under these
+  circumstances any initial difficulties seem to dissipate quite rapidly.
+     • We wish to thank the Parapsychology Foundation for a special equipment grant
+  which made possible the purchase of the last 12K of core; this was essential to
+  implementation of the software capabilities described below. We also thank the
+  Arthur Vining Davis Foundations for supporting purchase of the floating-point
+  processor and digital tape drive, which jointly make it practical to apply these
+  software capabilities to the large volume of data generated by psychophysiological
+  experiments.
+
+
+
+
+  Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+                                  .
+Approved, For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+  ·    A' Computer-Based Laboratory                        153
+
+       tape dnve (1600 BPI, approximately I2-I5 million words per 2400'
+       tape). The main controlling console is a (Tektronix 4013) graphics
+       terminal, which has. an associated copying facility (Tektronix 46IO)
+       for making permanent records of visual displays as desired. When
+       large volumes of printed output are generated, as for example in
+       statistical analyses of physiological data, they are directed to a
+       small line printer (Data Products LP 231 0) which prints up to
+       80-character lines at speeds of up to 250 lines per minute.
+          As shown in Figure 1, communication between the PDP-I1 and
+       the equipment in the instrumentation room downstairs takes place
+       through several devices. First, the DR11-C is a general-purpose
+       digital input-output device reserved solely for our use, which con-
+       trols in parallel I6 lines of digital input and I6 lines of digital
+       output. As described in more detail below (in subsections D, E) it
+       is used primarily for transmitting upstairs to the PDP-II sampled
+       physiological data and other kinds of information generated during
+       an experiment. However, it can also be used to send data in the
+       other direction as well. For example, we can use this device to
+       display in the laboratory physiological data being received upstairs
+       by the PDP-II; this assures rapid detection of gross malfunction in
+       the data acquisition system.
+          Second, two sets of serial input-output ports are used. The "con-
+       sole" port can be connected with the DECwriter terminal in the
+       laboratory, thus permitting the PDP-11 to be controlled remotely
+       as described earlier. The "auxiliary" port enables the PDP-I1 to
+       control the 8085 microprocessor; for example, it is used to load into
+       the 8085, automatically, particular pre-programmed subroutines re-
+       quired for a given experiment (see subsection E).
+          Finally, a number of other facilities are available through a
+       DEC-supplied hardware facility called the Laboratory Peripheral
+       System (LPS-11). Our LPS-11 contains the following: First, a
+       (KWII-P) programmable clock, which is crystal-controlled to
+       permit precise regulation of the timing of all experimental events
+       such as the spacing of successive physiological samples, generation
+       of targets, etc. The "ticks" of this clock are also delivered simulta-
+       neously to the 8085 via a special dedicated line. Other facilities
+       include an 8-channel analog-to-digital converter (no longer used-
+       see subsection D); two channels of digital-to-analog conversion,
+       used for returning various kinds of signals to the laboratory; two
+       relays, which can be used to control stimulus devices in the neigh-
+       borhood of the PDP-I1 (for example, a stroboscope); another
+        I6-bit parallel digital input/output unit (not used); and a simple
+       numerical display of light-emitting diodes (LED), which can be
+       used, for example, in debugging programs or to display target
+       numbers to "agents" in GESP experiments.
+
+
+
+
+ Approved For Release 2003/09/16: CIA-RDP96-00788R002000260002-1
+ Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+    154         Journal of the American Society for Psychical Research
+
+    B. Polygraph
+       The core of the physiological measurement system is a Grass
+    (Model 7B) solid-state polygraph. It has eight channels of amplifi-
+    cation: two DC preamplifiers (7P1B), four wide-band AC-coupled
+    preamplifiers (7P5B), and two wide-band AC-coupled preamplifiers
+    with integrators (7P3B). All channels use Model 7DAE driver
+    amplifiers. Auxiliary equipment includes the Grass (EB24) elec-
+    trode plugboard and (7ESP24) electrode selector panel. 5
+
+    C. Analog Tape Recorders and Telemetry Units
+       Many kinds of physiological experiments generate enormous
+    volumes of data. Analog recorders are widely used for bulk storage
+    of raw physiological data, and we initially planned to follow this
+    practice, taking advantage of the 4-channel Hewlett-Packard in-
+    strumentation recorder, which was already on hand. Although this
+    approach proved fairly satisfactory, it became evident that a com-
+    pletely digital system would be greatly superior. By recording data
+    directly in digital (sampled) form, one eliminates a variety of small
+    but not negligible sources of experimental error. These include
+    such things as irregularities of tape transport speed and tape orien-
+    tation, additive environmental noise, and other imperfections of
+    analog environments related to problems such as providing accu-
+    rate timing signals and reliable mechanisms for encoding and de-
+    coding responses (Bendat and Piersol, 1971, Chapter 7; Walter,
+    1972; see also Vos, 1977).
+       However, analog recording methods still have occasional uses .
+    in our work. The main use is to provide access to data collected in
+    other hiboratories, or under field conditions, using radio telemetry
+    methods developed in our laboratory by Fritz Klein. These
+    methods encode physiological signals as modulations of an PM
+    carrier, using pocket-sized amplifier/transmitter units and audio
+    tape recording. The basic techniques are described in detail
+    elsewhere (Klein, 1976b) and some preliminary examples of their
+    many possible applications in parapsychological research are con-
+    tained in Palmer (1979) and Solfvin, Roll, and Kelly (1977). 6
+
+
+      5 We wish to express our gratitude to W. G. Roll and the Psychical Research
+
+    Foundation for making this essential equipment available to us. It replaces the Grass
+    Model 79B which we used initially.
+      6
+        Our current prototype telemetry units, which were constructed using funds
+    supplied by the John E. Fetzer Foundation, allow us to collect either two channels
+    of EEG, or EKG and GSR. We are presently seeking funds to construct an
+    expanded and improved system, particularly for use in poltergeist investigations.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+  A Computer-Based Laboratory                                                     155
+
+  D. Microprocessor and Data-Conversion System
+
+     A critical feature of any computer-based physiology lab is the
+  analog-to-digital conversion (ADC) pr~:>eess, which supplies the
+  interface between continuously varying physiological signals and
+  their discrete numerical representation inside the computer. For
+  example, in order to maintain adequate fidelity in the digital repre-
+  sentation of EEG signals, they must be measured accurately at
+  typical rates of from 128 to 512 equally-spaced samples per second
+  on each EEG channel (see Vos, 1977).
+     ADC systems can be implemented in a large variety of ways.
+  One basic decision concerns the physical location. of the ADC
+  process with respect to the signal source. Ideally ADC should
+  occur close to the source to minimize possibilities of noise corrup-
+  tion in the analog data. One way of achieving this is to have the
+  main computer itself located right in the laboratory. This of course
+  was not feasible for us economically, nor could we purchase a
+  smaller computer of the PDP-11 family to serve the same purpose.
+  Instead, since the already available central computer was equipped
+  with an LPS-11 that included ADC capability (see above), we
+  began by developing a low-cost system for transferring physiolog-
+  ical data from the lab to the PDP-11 via analog channels. 7 Al-
+  though this system generally worked reliably during the time when
+  it was in use, we continued to be concerned that the length of the
+  transmission lines, coupled with the variety and intensity of possi-
+  ble noise sources in the engineering environment, made the poten-
+  tial for corruption of the analog data intolerably high. As part of
+  our general concern for maximizing data reliability, we therefore
+  continued to look for cost-effective alternative solutions. This past
+  year we were able to abandon the analog system in favor of a
+  microcomputer system which performs ADC in the laboratory and
+  transmits data to the PDP-11 in digital format via the DRll-C (see
+  subsection E). This system has proved highly effective in suppress-
+  ing contamination from outside sources.
+     The microcomputer is based on an Intel 8085 microprocessor.
+  Although it is small, rather slow, and by no means a general-
+  purpose laboratory computer, it can perform a variety of useful
+  functions in addition to. ADC (for example, triggering the RNG,
+  delivering stimulus or feedback information via its two digital-to-
+  analog converters, etc.), and it can also be used locally, indepen-
+
+
+     7
+       We thank James W. Davis for valuable technical advice, and FRNM for funds
+  to implement the resulting designs. The actual construction was carried out by Ross
+  Dunseath and Steven Suddharth.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 20_03/09/16 : CIA-RDP96-00788R00200026000,2-1
+
+        156      Journal of the American Society for Psychical Research
+
+        dently of the PDP-11, for simple kinds of experimental tasks (see
+        Appendix 1 for further details).
+           The ADC system 8 itself uses a Datel (ADC-HZ12B) converter
+        with 12-bit resolution. That is, the instantaneous voltage on a
+        sampled channel can in principle be characterized by one of 212 =
+        4096 possible numerical values. In our system, the noise level
+        amounts to somewhat less than one bit, so that we have effectively
+        11 significant bits of signal; in general, eight bits is regarded as
+        minimally adequate, and 10 bits is excellent. One other special
+        feature which we designed in, and which should be mentioned
+        here, is that each input channel to the converter works in a
+        "sample-and-hold" manner-that is, when the ADC system is
+        triggered, the contents of all channels are simultaneously "frozen"
+        for sequential conversion by the analog-to-digital converter. This
+        feature eliminates any possibility of interchannel phase distortion
+        arising from sampling lags between successive channels, and
+        strengthens the technical foundation for investigations of relation-
+        ships between brain areas (Clusin, Giannitrapani, and Roccaforte,
+        1970; Cooper, 1975).
+
+        E. Digital Multiplexer
+           Most data from the lab enter the PDP-11 computer through the
+        DR11--C. Only one digital data source at a time may be connected
+        directly to the computer through this device. However, usually
+        several digital devices need to be used together in a given experi-
+        ment (the 8085 data acquisition system plus RNG and/or one or
+        more respondent devices). To accomplish this, the single DR11-C
+        input port may be shared by routing the data from the several
+        devices through a digital multiplexer. This device determines pre-
+        cedence and presents the data to the DR11-C port from one device
+        at a time in sequence. Conflicts between devices are resolved by
+        assigning a fixed priority order to the sources and sending the bits
+        from the highest priority device first. The source of data is iden-
+        tified by a 3-bit "address" attached io the data themselves as they
+        are fed into the DRll-C. Up to eight digital sources may be
+        attached to the multiplexer and thus share the one DR11-C input
+        port.
+
+        F. Hardware Random-Number Generator ( RNG)
+         Since the fundamental work of Schmidt ( 1970, 1973; see also
+        Davis and Akers, 1974), hardware randomization devices have
+         " This part of the system was constructed by Ross Dunseath, who was also
+       responsible for parts of its design.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+A~prowd For Release 20.03/09/16 : CIA-RDP96-00788R002000260002-1
+ .    A' Computer-Based Laboratory                                               157
+
+      become a standard fixture in many parapsychology laboratories.
+      We have also built such a device, primarily for use in studies of the
+      physiological correlates of performance in a fast PK test. Our RNG
+      uses a noise source to produce random bits at rates above 1000
+      per second, and its output has shown excellent approximation to
+      ideal randomness. 9
+
+                            III. SoFTWARE CoMPONENTS
+         Thus far we have focused primarily on the hardware components
+      of the facility. In fact, however, by far the greater proportion of our
+      developmental effort has gone into construction of software re-
+      sources for psychophysiology-psi research. These resources con-
+      sist of a collection of computer programs which allow us to exploit
+      effectively the available hardware in collecting, managing, and
+      analyzing physiological data.
+         Two main interrelated design objectives have guided this
+      software development work. The first is generality. Our aim has
+      been to develop software resources for what we foresee as a
+      long-term program of systematic research on physiological corre-
+      lates of psi processes. Accordingly, rather than developing highly
+      specialized software for running each new experiment and analyz-
+      ing the resulting data, we set out to develop a set of general-
+      purpose research tools that can henceforth be used in a wide
+      variety of contexts without further modification. Our second ob-
+      jective is ease of use. Most people trained in experimental fields
+      have little experience with computer programming, particularly
+      systems-level programming. Yet these are precisly the sort of
+      people we hope will be able to use our system effectively. Our aim
+      has therefore been to make the complexities of the software rea-
+      sonably transparent to users, in the sense that they can readily
+      command the major resources of the system for their own research
+      purposes without having to invest large amounts of relatively un-
+      productive effort in mastering unpleasant details of a computer-
+      science nature. A corollary aim was to make the system readily
+      exportable, in the sense that its effective use should be minimally
+      dependent on the continued availability of its creators or similar
+      personnel.
+         The present software system represents, we believe, a good first
+      approximation to realization of these aims. However, certain limi-
+      tations were unavoidable. Generality and ease-of-use IUUSt always
+
+        9 Our thanks to Helmut Schmidt for consulting with us on design considerations
+      for RNGs. The final version of our RNG was designed and built by Jack Hebrank.
+      Technical details are provided in Appendix 2.
+
+
+
+
+  Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+  Approved For Release 2003/09/16 : CIA-RDP96-00788R0020~0260002:1
+      158       Journal of the American Society for Psychical Research
+
+      be traded off against the amount of storage needed for data and the
+      speed of execution of a program. An easy-to-use system with many
+      seldom-used features usually requires much computer storage                       "
+      space and may run notoriously slowly. Thus, in our system, which
+      must handle large amounts of data in a relatively small computer,
+      certain niceties had to be avoided. The rapid execution necessary                 t
+      in the data acquisition system also required certain compromises.
+      True exportability is also a problem in a program written in an
+      assembly language for a particular piece of hardware. The data
+      acquisition system is such a program and its ability to be shared
+     -with other labs is thus quite limited. Despite these limitations,
+      however, the overall system has proved to be fairly exportable, 10
+      and it meets our current needs in terms of generality and ease of
+      use. We now describe this software in some detail.
+        The overall organization of the software system is outlined in
+      Figure 2, details of which will become clear as we proceed. The
+      system has two main parts-a collection of facilities for construct-
+      ing and executing programs which control experiments and acquire
+      data on-line; and a collection of data management, data reduction,
+      and statistical analysis programs.
+
+     A. Real-Time Data Acquisition System
+        The major component of the real-time system is a collection of
+     assembly-language subroutines which allows construction, entirely
+     in FORTRAN IV, of computer programs for on-line control of any
+     of a wide variety of experiments.
+        Using these facilities, an experiment is organized as a temporal
+     structure of events controlled by the programmable LPS clock.
+     Associated with each event is a user-provided FORTRAN sub-
+     routine which typically performs some elementary activity such as
+     generating a target, receiving a response, storing sampled physi-
+     ological data, etc. The real-time subroutines provide for defining
+     events and their attributes (such as repetititon rate and priority of
+     execution), scheduling and cancelling events, and starting and
+     stopping the clock and setting its "tick" or interrupt rate.
+
+
+       10 The current Duke implementation runs under the single-user Disk Operating
+
+     System (DOS). However, parallel versions of all our software have also been
+     developed for the parapsychology laboratory of the University of Utrecht, in The
+     Netherlands, which runs the multiple-user RSX-llM operating system. Technical
+     details of the DOS real-time software are contained in Appendix 3. The first two
+     authors wish to express their thanks to Martin Johnson and Sybo Schouten, and to
+     the Parapsychology Foundation, for supporting nine months of work at the Utrecht
+     laboratory.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+ApproveCI For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+        A Computer-Based Laboratory                                            159
+
+                              SOFTWARE ORGANIZATION
+
+                      Calibration
+                      Programs
+                                Fl LGEN
+           Real-Time
+             System
+        Data Acquisition
+                                                                 MANOVA
+                                                                    MOA
+                                                                Multivariate
+                                                                 Statistics
+         Fig. 2. Overall organization of the software system.
+
+
+           During execution, ~henever the clock "ticks," whatever pro-
+        cessing is going on is interrupted and, in effect, "put on hold." The
+        real-time system then takes over and inspects ,an internal list to
+        determine whether any events are scheduled to occur. If any are
+        found, the subroutines associated with these events are executed in
+        the order specified by the event priority. Then, following the pro-
+        cessing of any scheduled events, execution of the interrupted pro-
+        gram may resume. This clock-driven priority hierarchy assures
+        accurate timing for critical events, while allowing several overlap-
+        ping processes to share the computer as they need it. It thus
+        permits maximally efficient use of the machine. By contrast, in
+        most existing systems the user requests a service such as data
+        sampling and then must wait idle until the service is completed and
+        control returns to his program, even if the service itself is only
+        using the machine intermittently while it is active (see, e.g., Don-
+        chin and Heffley, 1975).
+          These principles govern real-time program execution not only in
+        the PDP-11, but also in the downstairs microcomputer which oper-
+        ates partly independently and in parallel. Whenever the clock
+        "ticks," the 8085 processor is also activated. Normally at this
+        point the conversion of the physiology to digital form is accom-
+        plished and then the results transferred to the PDP-11 via the
+        digital multiplexer and DRll-C. In addition, however, the 8085
+        may cause other events (so-called "remote events") to occur.
+        These remote events are similar to the events executed at the
+        PDP-11 and may include (in addition to the A to D conversion
+        event) the driving of feedback devices and/or triggering the RNG,
+        for example. When running an experimental protocol, before the
+        experiment itself begins, the PDP-11 loads the 8085 (via the auxil-
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+   160      Journal of the American Society for Psychical Research
+
+  iary serial port) with the proper program data to execute the remote
+  events required by the particular experiment. Prior to this time, the
+  remote events (which are really 8085 assembly language sub-
+  routines) have been written and compiled in proper format using a
+  cross-assembler available on the PDP-11. Thus, although the 8085
+  may be used as a "stand-alone" computer, all program develop-
+  ment, storage, and execution is actually handled on the PDP-11.
+     Auxiliary subroutines provided by the real-time system allow
+  FORTRAN access to various parts of the LPS such as the analog
+  and digital input-output facilities, LED display, and relays. An-
+  other important group of routines is concerned with the formation
+  and use of queues, or circular data buffers. This useful data struc-
+  ture (analogous in operation to the ticket line at the theatre in that
+  the data enter the queue at one end and are removed from the
+  other) allows us to maintain a continuously updated record of
+  physiological data from the immediate past. This is particularly
+  important when we want to look at physiological patterns preced-
+  ing some occurrence whose timing is not known in advance-for
+  example, a self-initiated response in an ESP task.
+     Our experience with these facilities so far suggests that they can
+  be effectively used by persons with moderate skill in FORTRAN,
+  and that initial programming time for new experiments will typi-
+  cally range between a few hours and a few days, even for quite
+  intricate experiments. Also, once the basic structure of an experi-
+  mental control program is written, modifications are usually quite
+  easy to make, thus reducing the effort involved in "shaking down"
+  a new experimental protocol. (Further details of the real-time sys-
+  tem are given in Appendix 3.)
+
+  B. Interactive Data Management, Data Reduction, and Statistical
+  Analysis System
+     This part of the system is written almost entirely in FORTRAN,
+  and thus is relatively machine-independent and exportable. It is
+  designed to allow users to process data from virtually any kind of
+  experiment (although many of its facilities are specialized for
+  psychophysiological research and would not be as useful in other
+  applications), and demands roughly the same order of user sophis-
+  tication required for effective use of commercially distri~ed
+  "canned" statistical packages such as SAS or BMD.
+     A key concept underlying the generality of the system i:it that of
+  the standard file format (details are given in Appendi)! 4). Real-
+  time programs are normally designed to write their oufput directly
+  in the standard form. All subsequent processing is tlren carried out
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+       ~
+
+
+
+    J\p.proved For Release 2003/09/16: CIA-RDP96-00788R002000260002-1
+      A Computer-Based Laboratory                                        161
+
+      by programs which read standard-file inputs and (optionally) write
+      standard-file outputs.
+         Data files in standard form are self-describing-that is, the actual
+      data records are preceded by header records which describe the
+      structure and content of the file. In fact, only the very first record
+      is fixed in structure, and by reading it the system learns enough to
+      be able to read correctly the whole remainder of the file. Thus, a
+      great variety of data files can be accommodated within a single
+      uniform system of data management and data analysis routines.
+         Individual data records themselves have two main parts-the
+      actual data-points (which might be the values of digitalized physi-
+      ological samples, estimates of EEG power spectra, or any of a wide
+      variety of other possibilities), and identification information. Iden-
+      tification information is carried in what we call grouping-variables,
+      which are in effect much like factors or classification-variables in
+      the analysis-of-variance and experimental-design sense. To illus-
+      trate, if we think of an ESP experiment as consisting of a series of
+      trials, then each trial can be categorized in various ways-for
+      example, by what target was generated, what response was made,
+      and whether the response was a hit or a miss. This kind of infor-
+      mation is stored in the grouping-variables.
+         Another important aspect of data-records is that they are or-
+      ganized into sets to reflect the likely possibility of multiple-channel
+      physiological recording. To continue with our illustrative experi-
+      ment, suppose we recorded six channels of physiology during a
+      short period prior to each response. In that case, each ESP trial
+      would be represented in the raw data file by a record-set consisting
+      of six data records, one for each physiological channel. Apart from
+      channel number, the grouping-variable values would be identical
+      within each record-set, but the data-values would differ from rec-
+      ord to record depending on what activities were occurring in the
+      corresponding physiological leads. Data files arising from a non-
+      physiological experiment would of course typically have only one
+      channel, and the data values would be those of whatever dependent
+      variables were measured in the experiment.
+        The primary instrument for management, display, and analysis of
+     data is a master program called FILMAN. FILMAN processes a
+     standard input file by applying one each of three categories of
+     routines-routines for record-set selection, routines for operating
+     on grouping-variables, and routines for operating on data-points.
+     The system contains a large basic set of generally useful routines
+     (described in Appendix 5), and new ones for special purposes can
+     fairly easily be added.
+        During an initialization phase, FILMAN first asks for an input
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R0020002S0~02-1
+
+
+      162        Journal of the American Society for Psychical Research
+
+      data file and then requests users to specify one routine from each
+      of the three categories to be used in processing that file. It also
+      requests users to specify which channels they wish to process, and
+      which data-points within channels. FILMAN then loads the desired
+      routines from the disk and begins to process the input file one
+      record-set at a time. If the chosen record-set selection routine                      t
+      determines that the current record-set is to be processed, then
+      FILMAN executes the selected grouping-variable and data-point
+      operations for the selected channels and data points. 1 1 Depending
+      on which point-processing routine was selected, an output data file
+      may also be written; if so, it is itself a standard file and hence
+      accessible for further processing, either by FILMAN itself or by
+      other routines such as the statistical analysis programs.
+         We remark here that the analysis of EEG data in particular is a
+      very complex. and still rather poorly understood subject. There are
+      really two aspects to the analysis of task- or state-related EEG
+      differences: first, feature-extraction, or reduction of the raw EEG to
+      some hopefully more compact and physiologically revealing repre-
+      sentation; and second, pattern-recognition, or use of the extracted
+      features to discriminate the relevant tasks or states. Within our
+      system, these aspects are handled largely separately. All of the
+      feature-extraction or data-reduction takes place in FILMAN.
+      Holding no very fixed views at present concerning the relative
+      merits of alternative feature-extraction methods, we have endowed
+      FILMAN with the capacity to . apply most major techniques
+      presently known or thought to be useful. These include in particu-
+      lar spectral analysis (Adey, 1965, 1970; Bendat and Piersol, 1971;
+      Dumermuth, 1973), period analysis (Klein, 1976a; Saltzberg, 1973),
+      and analysis of raw EEG amplitude distributions (Adey, 1970; Elul,
+      1969).
+         The pattern recognition part of the problem is itself open to a
+      vast variety of possible approaches, and may ultimately prove to be
+      an important area of investigation in its own right (e.g., see
+      Nilsson, 1965). For the present, however (and no doubt as a good
+      first-order approximation to still more elaborate techniques that
+      may come later), our statistical treatment of physiological data wil1
+      be carried out within the framework of the multivariate general
+      linear model (Morrison, 1967; Timm, 1975). In brief, this model
+      absorbs all the familiar univariate statistical designs into one over-
+
+         11 FILMAN uses a specially modified version of the FORTRAN overlay system,
+
+      in which the load and execute phases are separated. In this way the selected
+      routines are loaded into specific regions of core at initialization time and then
+      executed in place repeatedly, rather than having to be reloaded for each record-set
+      in turn.
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+           ..
+    "- Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+          A Computer-Based Laboratory                                      163
+
+          arching theory, extends it to cases in which there are multiple
+          dependent variables, and provides a unified computational frame-
+          work for all cases. The multivariate extension is important in our
+          work because we typically use batteries of physiological measures
+          to attempt to discriminate the kinds of differences that interest us.
+t         For example, continuing with our hypothetical ESP experiment,
+          kinds of questions to be answered by statistical analysis would
+          include whether vector-valued observations such as BEG power
+          spectra, or coherence and phase relations between pairs of chan-
+          nels at multiple frequencies, differ systematically for hitting and
+          missing ESP responses.
+             With this as background, we now describe our statistical analysis
+          programs, which have to run stand-alone because of their size. We
+          have two main programs, each originally developed and published
+          by other workers. Each has been subjected to what we will call the
+          "basic modification"-namely, modification to allow input of stan-
+          dard files, with channel and point selection. The uniform avail-
+          ability of channel and point selection mechanisms throughout the
+          data analysis system, it should be noted, effects great economies in
+          analysis because the analysis of K channels is carried out in paral-
+          lel, as it were, rather than requiring the K-fold repetition of an
+          essentially identical analysis sequence. In addition we eliminate the
+          costs in processing time and storage space that would arise if
+          specially tailored files containing just the right data points and
+          channels had to be created for each new application of the statisti-
+          cal analysis programs.
+             The first and simpler program is a multiple discriminant analyzer
+          (MDA) adapted from Overall and Klett (1972). It performs a one-
+          way multivariate analysis of variance (MANOV A), like the ordi-
+          nary one-way univariate ANOV A, but extended to multiple depen-
+          dent variables or criteria. We have expanded the maximum number
+          of criteria to 40 (in order to accommodate large parts of the BEG
+          frequency spectrum simultaneously), added a variety of optional
+          data transform operations (to improve the distributional properties
+          of extracted BEG features), and added significance tests on indi-
+          vidual criteria (to help identify sources of significance in multi-
+          variate results). The final change is an optional "random rep-
+          licates" feature. This feature permits arbitrary numbers of
+          reanalyses of a single data-file, each time randomly permuting the
+          assignments of record-sets to groups rather than using their true
+          group identities. This mechanism can be used to provide what
+          amounts to a brute-force non-parametric test circumventing all
+          distributional assumptions (approximates a randomization test). We
+          will also use it to study the distributional properties of statistics
+          based on features such as BEG power spectral estimates.
+
+
+
+     Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R0020002o6q02-1 - ~
+
+       164      Journal of the American Society for Psychical Research
+
+          The heart of our data analysis system is an adaptation of the
+       widely known MANOV A program originally written by Elliot
+       Cramer in 1965, based principally on an algorithm published by
+       Bock (1963). MANOVA is an extremely general program for least-
+       squares analysis of linear models. Apart from size restrictions it
+       can analyze any analyzable experimental design, univariate or
+       multivariate, orthogonal or non-orthogonal, including all the var-
+       ious kinds of unbalanced, incomplete, and nested designs. In
+                                                                                  '
+       analyzing factorial designs it permits various kinds of special single
+       or multiple degree of freedom contrasts in the main effects and .
+       interactions. It also permits optional transformations of criterion
+       variables, as in our version of MDA. Finally, it can perform
+       analysis of covariance, multiple regression, and canonical correla-
+       tion. In short, it is a very powerful general-purpose instrument for
+       the analysis of experimental data. It is also reasonably well docu-
+       mented and for most applications quite easy to use.
+          The version we began with had already been adapted to run on
+       another small computer, the IBM 1130. In adapting it to our pur-
+       poses we have made a number of major changes in program struc-
+       ture beyond those needed to make the "basic modification." By
+       suitably restructuring the program to use storage more efficiently,
+       we have been able to implement a version which runs in approx-
+       imately 24K core and will handle up to 40-variable problems. As
+       indicated above, this expansion of the maximum number of criteria
+       is essential because it allows us to analyze realistically large col-
+       lections of physiological measures simultaneously. In order to se-
+       cure it we had to compromise on other characteristics of the im-
+       plementation, but our version will still handle up to four factors
+       with a maximum of eight levels each, or a total of not more than 30
+       non-vacant cells. These specifications are quite sufficient to cover
+       our prest~ntly anticipated needs; in fact, in its most critical specifi-
+       cation (number of variables), our version is equivalent to that
+       implemented on our regional computer (IBM 370).
+
+       C. Auxiliary File-Handling Routines
+          A few additional utility routines for manipulating data files
+       should be mentioned (see also Figure 2). SUMRY merely writes
+       file header information to the user terminal and line printer for
+       identification and checking. APPEND adds records from one stan-
+       dard file to those of another, conformable file (i.e., one sufficiently
+       similar in structure-having the same number of grouping vari-
+       ables, same number of channels, same number and format of data-
+       points, etc.). It can be used, for example, to add individual subject
+       or session files to a master file. Finally, FILGEN is a program
+
+
+
+ Approved For Release 2003/09/16: CIA-RDP96-00788R002000260002-1
+    Approv~d For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+
+          A Computer-Based Laboratory                                     165
+
+         allowing creation of standard files from the user terminal. It can be
+         used to input test data for new FILMAN programs, or to bring
+         small amounts of experimental data collected in other environ-
+         ments into the system for analysis. Larger amounts of non-physio-
+         logical data can also readily be brought into the system via special-
+t        purpose programs (see, for example, Schouten and Kelly, 1978).
+
+         D. Programs for Calibration of the Physiological Measurement
+         System
+            Physiological signals such as the BEG are extremely small, on
+         the order of microvolts, and between our recording electrodes on
+         the scalp and the output from the MANOVA program there
+         stretches a long chain of instruments and processes, some of which
+         are individually very complex. The integrity of the basic measure-
+         ment system, from scalp electrodes to numbers inside the computer
+         is particularly critical, and it is vulnerable to corruption at many
+         points along the way. Even with meticulous attention to detail,
+         technical problems of various kinds occasionally but inevitably
+         occur. To reduce such problems to a minimum, we have invested
+         considerable effort in developing procedures for calibrating our
+         measurement system and studying its properties. We will briefly
+         describe the main features of these procedures.
+            1. Daily calibration routines. The measurement system should
+         establish a fixed and known correspondence between the mag-
+         nitude of physiological signals appearing at the inputs to the poly-
+         graph preamplifiers and the numbers which emerge from the
+         A-to-D converter at the computer interface. This correspondence
+         defines the sensitivity of the measurement system. Many
+         psychophysiology laboratories simply use the manual and visual
+         calibration controls on the polygraph itself. Procedures of this sort
+         may be sufficient for clinical purposes and for simple kinds of
+         experimentation, but they certainly do not provide a sufficiently
+         precise foundation for work involving computer analysis of the
+         EEG (Clusin et al., 1970; Walter, 1972).
+            In our system the daily calibration process is pegged to a precise
+         external reference-namely, the DC calibration signals generated
+         by our HIP instrumentation recorder. After a preliminary manual
+         adjustment of the polygraph drivers, this DC signal is used to
+         calibrate any one of the data acquisition channels. A program is
+         then run which uses this channel to measure an adjustable 10 Hertz
+         signal source. This AC signal, now of precisely adjusted amplitude,
+         is reduced in size by a passive voltage divider and presented
+         simultaneously to the inputs of all polygraph channels. Each poly-
+         graph output is attached in turn to the data acquisition channel it
+
+
+
+
+    Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+                                                                      ~
+
+
+
+
+    166       Journal of the American Society for Psychical Research
+
+    will use in the course of the experiment and this combination is
+    adjusted under program control. Daily calibration is completed by
+    running a program which measures all channels simultaneously,
+    producing statistical averages for each channel's offset and gain.
+       The product of this calibration process is an updated version of a
+    special disk file containing calibration data which are then read and
+    displayed by whatever real-time experimental program is being
+    executed. Offsets are invariably close to zero, and gains to unity.
+    These values are used to correct received physiological signals for
+    the measured deviations from ideal calibration in the channels in
+    which they appear.
+       2. System measurement routine. Ideally, all channels of the
+    measurement system should respond identically to identical input
+    signals (assuming identical arrangement of the channel bandpass
+    controls); that is, the frequency and phase response characteristics
+    of all channels should be as nearly identical as possible. To the
+    degree that this condition is not met, physiological effects may be
+    obscured or confused with measurement system artifacts.
+       Although the daily calibration procedure described above is
+    greatly superior to simple visual methods, and effectively equalizes
+    system response at the frequency of the calibration signal, it is far
+    from guaranteeing homogeneity of response at other frequencies
+    within the EEG band. To cite an unfortunate example, Clusin et al.
+    (1970) reported discovering massive and previously unsuspected
+    interchannel differences when spectral analysis was performed on a
+    single pre-recorded EEG signal passed simultaneously through all
+    channels of their 16-channel electroencephalograph. Estimates of
+    corresponding spectral magnitudes differed by as -much as 44%
+    across channels, and there were phase differences on the order of
+    45 degrees.
+       Intending to avoid this kind of problem, we have set out to
+    measure carefully our system response. Our technique, detailed in
+    Lenz and Kelly (1980), uses trains of specially designed test signals
+    consisting of computer-generated impulses of modified sin x/x
+    form, with known spectra. These test signals are sent from com-
+    puter to lab, passed through the relevant polygraph channels, and
+    sent back up to the computer for recovery, averaging, and spectral
+    analysis of the average recovered impulse responses. The fre-
+    quency and phase response functions of all channels are thus pre-
+    cisely measured, and can be compared with each other, with poly-
+    graph technical specifications, and with theoretical expectation.
+       Applications of this procedure to our six AC-coupled EEG chan-
+    nels at several bandpass and sensitivity configurations have yielded
+    excellent results showing that the system functions of these chan-
+    nels are highly homogeneous. Consequently, equation of system
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+     _, Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+
+           A Computer-Based Laboratory                                        167
+
+           response at a single frequency, as effected by our daily calibration
+.I         procedure, does in fact approximately equate system response at
+           all other frequencies in the relevant bandpass.
+
+
+                                      IV. PROSPECTS
+              This completes our outline of the research resources we have
+           developed to date. The system is also open-ended in the sense that
+           it can readily absorb additional hardware and software components
+           as these become available, with minimal modification of the exist-
+           ing software.
+              Certainly we can imagine numerous extensions and im-
+           provements of our current system. Nevertheless, the facility as
+           already described comes gratifyingly close to meeting the design
+           criteria we established when we first began working on this project
+           five years ago. These resources are sufficiently powerful to support
+           a serious and systematic research effort on the psychophysiology
+           of psi.
+              Many readers may have wondered why so much computing
+           power is required for this research. It will help in closing to provide
+           more concrete quantitative feeling for the sheer numerical scale of
+           the domain in which we are operating. Consider as a typical exam-
+           ple our remote photic stimulation experiment (Kelly and Lenz,
+           1976). In its current form a single session of that experiment can
+           generate (100 trials) x (8 seconds per trial) x (128 samples per
+           second per channel) x (8 channels) or over 800,000 words of raw
+           EEG data, more than two-thirds of the usable space on a disk. If
+           we now compute an intermediate file of complex Fourier coeffi-
+           cients, even preserving only frequency components up to 32 Hz,
+           that file will consume another 800,000 words of storage. From it we
+           may compute autospectral and cross-spectral parameters at varying
+           frequency resolution. Looking at cross-spectra, for example, there
+           are N(N -1)/2 possible pairings of N channels, or 28 pairs for the
+           case we are considering. For each specified pair of physiological
+           channels we may store, for all specified frequency bands and for
+           every trial, the transfer function, coherence, phase, and complex
+           cross-spectrum information that collectively characterizes the re-
+           lationship between the activities in those leads during the experi-
+           mental session. Finally, multivariate statistical analysis of large
+           multichannel files of extracted EEG features is itself a heavy com-
+           putational task involving a matrix inversion and the solution of an
+           eigenvalue problem for each hypothesis tested, with total running
+           time roughly proportional to the square of the number of variables
+           used in the analysis.
+
+
+
+
+       Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+                                                                               '-
+
+     . Approved For Release 2003/09/16 : CIA-RDP96-00788R00200026ll002-1 ~
+
+            168       Journal of the American Society for Psychical Research
+
+               This computational load can be managed on our computer, par-
+            ticularly since the arrival of the digital tape drive and floating-point
+            processor. However, it should be entirely clear that we are working
+            in a world that is quantitatively utterly remote from that of tradi-
+            tional parapsychological experiments.
+               At the same time, it must be acknowledged that this is in part an
+            expression of our essentially complete ignorance of the physiolog-
+            ical basis of psi processes. We do not know what we are looking
+            for, and so we must be prepared to look as widely and as
+            searchingly as possible. It is conceivable, though we think unlikely,
+            that with inspired guesswork one might arrive at similar research
+            outcomes using much simpler procedures and approaches than
+            ours. And certainly one of our main hopes is that we will learn
+            enough through research to determine what simplifications may be
+            feasible and appropriate for later investigations.
+               Meanwhile, however, our single strongest intuition is that the
+            key to psychophysiological understanding, not only of psi functions
+            but of all human mental functions, lies in the analysis of momen-
+            tary relationships between brain areas (see also Luria, 1973). The
+            system we have described constitutes the most elaborate resource
+·I
+            parapsychologists have yet had at their disposal for this kind of
+ i
+            research. If physiological signals derived from the cortex do indeed
+            harbor traces of psi processes, then we believe we now have
+            research tools powerful enough to detect and study them.
+
+                                         REFERENCES
+            ADEY, W. R. Computer analysis in neurophysiology. In R. W.
+              Stacy and B. D. Waxman (Eds.), Computers in Biomedical Re-
+              search. (Vol. 1.) New York: Academic Press, 1965. Pp. 223-263.
+            ADEY, W. R. Spontaneous electrical rhythms accompanying
+              learned responses. In F. 0. Schmitt (Ed.), The Neurosciences:
+              Second Study Program. New York: Rockefeller University
+              Press, 1970. Pp. 224-243.
+            BENDAT, J. S., and Piersol, A. G. Random Data: Analysis and
+              Measurement Procedures. New York: Wiley, 1971.
+            BocK, R. D. Programming univariate and multivariate analysis of
+              variance. Technometrics, 1963, 5, 95-117.
+            CLUSIN, W., GIANNITRAPANI, D., AND RoccAFORTE, P. A nu-
+              merical approach to matching amplification for the spectral
+              analysis of recorded EEG. Electroencephalography and Clinical
+              Neurophysiology, 1970, 28, 639-641.
+            CoOPER, R. Measurement of time and phase relationships of the
+              EEG. In G. Dolce and H. Kunkel (Eds.), CEAN: Computerized
+              EEG Analysis. Stuttgart: Fischer, 1975. Pp. 85-97.
+
+
+
+     Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+             ,
+Approve~ For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+ .,
+
+        A Computer-Based Laboratory                                   169
+
+        DAVIS, J. W., AND AKERS, C. Randomization and tests for ran-
+          domness. Journal of Parapsychology, 1974, 38, 393-407.
+        DoNCHIN, E., AND HEFFLEY, E. Minicomputers in the signal-
+          averaging laboratory. American Psychologist Special Issue: In-
+          strumentation in Psychology, 1975, 30, 299-312.
+        DuMERMUTH, G. Numerical spectral analysis. In M. Matousek,
+          Frequency and Correlation Analysis. Part 5A, Handbook of
+          Electroencephalography and Neurophysiology, A. Remond
+          (Ed.). Amsterdam: Elsevier, 1973. Pp. 33-60.
+        ELUL, R. Gaussian behavior of the electroencephalogram: Changes
+          during performance of mental task. Science, 1969, 164, 328-331.
+        KELLY, E. F. Physiological correlates of psi processes. Parapsy-
+          chology Review, 1977, 8, 1-9.
+        KELLY, E. F. Converging lines of evidence on mind/brain relations.
+          In B. Shapin and L. Coly (Eds.), Brain/Mind and Parapsychol-
+          ogy. (Proceedings of the 27th International Conference of the
+          Parapsychology Foundation, Montreal, 1978.) New York: Para-
+          psychology Foundation, 1979. Pp. l-34.
+        KELLY, E. F., AND LENZ, J. E. EEG changes correlated with a
+          remote stroboscopic stimulus: A preliminary study. In J. D.
+          Morris, W. G. Roll, and R. L. Morris (Eds.), Research in Para-
+          psychology 1975. Metuchen, N.J.: Scarecrow Press, 1976. Pp.
+          58-63.
+        KLEIN, F. A waveform analyzer applied to the human EEG. IEEE
+          Transactions on Biomedical Engineering, 1976, BME-23, 246-
+          252. (a)
+        KLEIN, F. A low-powered 4-channel physiological radiotelemetry
+          system for use in surgical patient monitoring. IEEE Transactions
+          on Biomedical Engineering, 1976, BME-23, 478-481. (b)
+        LENZ, J. E., AND KELLY, E. F. Computer-based calibration and
+          system measurement procedures for psychophysiology research.
+          Submitted for publication, 1980.
+        LURIA, A. R. The Working Brain: An Introduction to Neuro-
+          psychology. New York: Basic Books, 1973.
+        MoRRISON, D. F. Multivariate Statistical Methods. New York:
+          McGraw-Hill, 1967.
+        NILSSON, N. J. Learning Machines-Foundations of Trainable
+          Pattern-Classifying Systems. New York: McGraw-Hill, 1965.
+        OVERALL, J. E., AND KLETT, C. J. Applied Multivariate Analysis.
+          New York: McGraw-Hill, 1972.
+        PALMER, J. ESP and out-of-body experiences: EEG correlations.
+          In W. G. Roll (Ed.), Research in Parapsychology 1978.
+          Metuchen, N.J.: Scarecrow Press, 1979. Pp. 135-138.
+        SALTZBERG, B. Period analysis. In M. Matousek, Frequency and
+          Correlation Analysis. Part 5A, Handbook of Electroencephalog-
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
+Approved For Release 2003/09/16 : CIA-RDP96-00788R0~2000260002-1
+                                                      .. ,.. -
+                                                          '           (•
+
+
+
+
+  170      Journal of the American Society for Psychical Research
+
+    raphy and Neurophysiology, A Remond (Ed.). Amsterdam:
+    Elsevier, 1973. Pp. 67-78.
+  SCHMIDT, H. A quantum mechanical random number generator for
+    psi tests. Journal of Parapsychology, 1970, 34, 219-224.
+  ScHMIDT, H. PK tests with a high-speed random number
+    generator. Journal of Parapsychology, 1973, 37, 105-118.               "'
+  ScHOUTEN, S. A., AND KELLY, E. F. The experiment of Brug-
+    mans, Heymans, and Weinberg. European Journal of Parapsy-
+    chology, 1978, 4, 247-290.
+  SoLFVIN, G. L., RoLL, W. G., AND KELLY, E. F. A
+    psychophysiological study of mediumistic communicators.
+    Parapsychology Review, 1977, 8, 21-22.
+  TIMM, N. H. Multivariate Analysis: With Applications in Educa-
+    tion and Psychology. Belmont, Calif: Wadsworth, 1975.
+  Vos, J. E. Between BEG-machine and computer: Data storage and
+    data conversion. In A. Remond (Ed.), EEG Informatics: A Di-
+    dactic Review of Methods and Applications of EEG Data Pro-
+    cessing. Amsterdam: Elsevier-North Holland, 1977. P. 143-155.
+  WALTER, D. 0. Digital processing of bioelectrical phenomena. In
+    A. Remond (Ed.), Handbook of Electroencephalography and
+    Clinical Neurophysiology. (Vol. 4B). Amsterdam: Elsevier, 1972.
+
+  Department of Electrical Engineering
+  Duke University
+  Durham, North Carolina 27706
+
+
+
+
+Approved For Release 2003/09/16 : CIA-RDP96-00788R002000260002-1
