@@ -1,0 +1,2355 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/CIA-RDP96-00788R001800190001-3.pdf", "source_sha256": "463fb62689f0f79e4af6bae4e7f3b3307f3aa9622eb2bc2832a205715b596cbe", "source_bytes": 1675251, "source_mtime": 1790687712, "source_mtime_ns": 1790687712580930536, "source_ctime_ns": 1790687712707407663, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T02:45:39.198980+00:00"}
+
+-          · Ap~or Release'2000/08/08 : Clt~DP96-00788ROj00190001-3
+
+
+
+
+-             ~
+             ©
+                             Interim Report
+                                                                                                         July 1984
+                             Covering the Period 15 November 1983 to 15 July 1984
+
+
+
+
+                             GEOPHYSICAL EFFECTS STUDY (U)
+
+
+
+
+-
+....                                                                                          /
+                                                                                              J
+~I                                                                                   i
+                                                                                         ,7
+                                                                                                  SRI Project 6600
+-i                                                                                                    ESU 83-147
+
+
+       I                                                                             !
+                                                                         .-....------/
+
+
+                                 /
+                                                                                                            I
+                             (                                                                              I
+                             \
+                             l
+                                                                                                           I
+                                 ---
+-                                                                                                          J..~····l
+                                                                                              Copy No . ....
+                                                                              This document consists of 54 pages.
+                                                                                                                     ;
+
+
+
+
+                                                                                                                ---
+                        ~"
+
+
+
+
+                    I                                      /
+                                                                                                                     \
+                    i                                                                                               ~
+                    I
+                    i
+                    I
+
+                   L_ _ ~                      ~-----
+     Ap:proved For Release (j~'tloA:~~~~rf,"00788R001800190001-3
+
+
+
+
+,,                                     CONTENTS (U)
+
+
+(t   LIST OF ILLUSTRATIONS                                            v
+
+     LIST OF TABLES                                                   v
+
+      I     OBJECTIVE .                                               1
+
+      II    INTRODUCTION                                              3
+
+      III   PRESENT STATUS                                            5
+            A.    General                                             5
+            B.    Literature Search                                   7
+            c.    ELF Measurements •                                  7
+                  1.   Introduction                                   7
+                  2.   Los Altos Site                                 8
+"                 3.   ELF Data Acquisition Systems                   8
+                       a.    Basic System Design                      8
+                       b.    FFT Program .       .                   10
+                       c.    System Electronics .                    10
+                       d.    ELF Electronics/Software Sub tasks
+                             (Status) . . . •      • •               10
+                       e.    ELF System Calibration •                11
+            D.    Satellite Downlink Geophysical Data-Acquisition
+                  System •     . . . •   . . . .   . . .  . .        12
+            E.    Geophysical Data/RV Performance Correlation
+                  Analysis                                           14
+
+      IV    SUMMARY                                                  17
+
+     APPENDICES
+            A     FAST FOURIER TRANSFORM ROUTINE FOR ELF DATA        19
+
+            B     ULF TREE POTENTIALS AND GEOMAGNETIC PULSATIONS .   31
+
+            c     FORMAT FOR SATELLITE BROADCAST OF
+                  SPACE ENVIRONMENT SERVICES                         37
+
+      REFERENCES • . .        . . . • .                              47
+
+
+
+
+                                             iii
+
+     'Approved For Release U*Jt~SIS.Jf>I=IO>o788R001800190001-3
+Approved For Release 2fJN~l~~~rfJ00788R001800190001-3
+
+
+
+
+            THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                             iv
+
+Approved For Release bJ>N~SS(~i&;-00788R001800190001-3
+         Approved For Releasu'Wer~ sCStrtrff·00788R001800190001-3
+
+
+
+
+    ..                              ILLUSTRATIONS (U)
+f
+I
+
+
+    •    1   ELF Data-Acquisition System     •.••...                 9
+         2   Real-Time Geophysical Data Acquisition Via Westar IV
+             Downlink . . • . . . . . . . . . . . .                 13
+         3   Real-Time Geophysical Data-Acquisition System          15
+         4   Geophysical/Performance Data-Analysis System .         16
+
+
+
+
+    ..
+                                           TABLES (U)
+
+
+         1   Geophysical Data Bases . . . . . . • .                  6
+
+
+
+
+    ..
+
+
+
+                                               v
+
+         Approved For Release ~N€t~S51-RII>E&oo788R001800190001-3
+Approved For Release UIQJ'ef~§~P~D-00788R001800190001-3
+
+
+
+
+                                                          •.
+
+
+
+
+           THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                                                          •
+
+
+
+                             vi
+
+Approved For ReleasebJN61LASSWEJOs-oo788R001800190001-3
+-     Approved For Releas~00/08/08 : CIA-RDP96-001:88R001800190001-3
+            '                         l_                         ~
+
+
+-
+                                           I   OBJECTIVE   (U)
+
+
+
+-                          1
+                               The objective of this effort is to investigate the
+      possible effects of ambient geophysical/low-frequency electromagnetic
+
+
+-
+       '~
+
+
+      factors on remote viewing (RV)* performance
+
+
+
+-
+..
+-
+
+-
+
+
+-
+!
+
+
+     * (U)      RV (remote viewing) is the acquisition and description, by mental
+
+r               means, of information blocked from ordinary perception by distance
+                or shielding.
+
+
+
+
+t
+                                                  1
+
+
+     ' Approved For Relef/2000/08/08 : CIA-RDP99j788R001800190001-3
+                                  f
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+
+
+
+
+                                                                    Ill
+
+
+
+
+                                                                   ..
+                                                                   •
+                                                                   .
+
+                                                                   Ill!
+                                                                      I
+
+
+
+
+                                                                   •
+
+
+
+
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+     Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+
+                                                                                 .   1
+
+
+
+
+-                                             II       INTRODUCTION   (U)
+
+
+-                       -   ~   SRI International is             tasked~
+
+                       ·to investigate a potential correlation between remote viewing
+                                                                                           ______      ......   ~
+
+
+
+
+      (RV) performance and ambient geophysical/extremely-low-frequency electro-
+
+
+-
+      magnetic (ELF) activity.                The possibility of such correlation is indicated,
+      for example, by studies showing psychophysiological effects 1 'a* and
+                                 4
+      behavioral changes 3 '
+
+-
+                                          associated with ELF electro-magnetic fields.                 The
+      geophysical variables of interest include such factors as ELF intensity/
+      fluctuations, ionospheric conditions, geomagnetic indices, sunspot number,
+
+-    and solar'emissions (e.g., X rays and solar flares).
+     answered i:U. this program are
+                                                                                         The questions to be
+
+
+             •     Do geophysical/performance correlations exist such that
+                   measurement of the ambient geophysical variables could
+
+
+-            •
+                   be used as an indicator of expected performance?
+                   If so, can optimum performance windows be identified?
+
+
+
+-            (U)
+     consists of
+                     The structure of the program that will address the above issues
+
+
+
+
+-
+_.
+             •
+             •
+                   A literature search.
+                   Real-time ELF measurements
+                     SRI (Menlo Park, California location)
+                     Time Research Institute (Los Altos, California
+                     field station).
+
+
+-            •
+
+
+             •
+                   Real-time geophysical data acquisition via NOAA
+                   (National Oceanic and Atmospheric Administration)
+                   Westar IV satellite downlink.
+                   Computer correlation studies of RV performance versus
+                   variables of interest.
+
+
+
+-
+-    * (U)       References are listed at the end of this report.
+
+
+
+                                                           ~
+-    Approved For Relea/e 2000/Q8/08 CIA-RDP96-0q788R001800190001-3
+                                \ \"
+                                 ' · ..
+                                          \
+                                          '
+                                                   '                        .I
+                                                                            ~
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+
+                                                                   ·•.
+
+
+
+
+                                                                   •
+
+
+                                                                   •
+                                                                   -
+                                                                   •
+
+
+                                                                   !!!!I
+
+
+
+
+                                                                   •
+                                                                   •
+
+
+
+
+                                                                   •   I
+
+
+
+
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3   •  ,
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+                         UNCLASSIFIED
+
+
+
+                         III   PRESENT STATUS   (U)
+
+
+A.   (U)    General
+
+      (U)   In order to accomplish the goals set out in Section II, the
+program has been designed as a joint effort between SRI International and
+Time Research Institute of Los Altos, California, with SRI as the prime
+contractor.    Time Research Institute is a research organization that
+specializes in temporal analysis of geophysical variables and their po-
+tential correlation with phenomena of interest, such as weather patterns,
+earthquakes, and so forth.
+
+      (U)   With regard to the present effort, Time Research Institute is
+responsible for establishing the appropriate hardware and software systems
+ for collecting and analyzing data concerning environmental conditions and
+ their correlation with RV performance.     The purpose of the correlation
+ study is to determine whether RV performance is enhanced or degraded by
+measurable changes occurring in the geophysical (including solar-
+ terrestrial) environments.    The specific data bases under consideration
+ in this effort are given in Table 1.
+
+      (U)   Should correlations between geophysical variables and RV
+performance be found, the application potential of the effort is twofold:
+
+      (1)   Time periods in which enhanced RV performance might be
+            expected could be identified, resulting in increased
+            quality and accuracy of information obtained through
+            such channels; similarly, time periods in which degraded
+            RV performance might be expected could be avoided. Thus,
+            optimum performance windows would be identified.
+      (2)   An increased understanding of the types of environmental
+            changes that correlate with RV performance could provide
+            clues as to the mechanisms involved in RV functioning.
+            Such knowledge would lead to more focussed research on
+            factors that could enhance RV performance, and would
+            also provide information critical to the development of
+            defensive countermeasures against RV.
+
+
+
+                                        5
+Approved For Release 2eJ>tvfel8A~~-fff!t)l0788R001800190001-3
+Approved For Release \ffl'e'f~ S~Jmb00788R001800190001-3
+
+
+                                     Table 1
+
+                        (U)     GEOPHYSICAL DATA BASES
+
+
+             •    Solar-Terrestrial
+                  - Geomagnetic
+                       Ground-measured indices Ap, K, etc.
+                       Satellite-measured intensities
+                    Solar flux (MHz)
+                       15,400       1,415
+                        8,800         606
+                        4,995         410
+                        2,800         245
+                        2,695
+                    Sunspot number
+                    Solar flares
+                    Interplanetary magnetic field
+                    Solar wind (Pioneer XII)
+                    Protons
+                  - Cosmic ray indices (neutron monitor)
+
+              •   Ionospheric Measurements
+                  - Sudden ionospheric disturbances (SIDS)
+                  - Auroral electrojet
+                  - Radio propagation quality indices
+
+              •   ULF/ELF
+                  - 30 frequencies (from 1 to 30 Hz)
+
+           UNCLASSIFIED
+
+
+
+     (U)   The tasks listed in Section II (literature search, real-time
+ELF measurements, real-time geophysical data acquisition via satellite
+downlink, and correlation studies of RV performance versus geophysical
+variables of interest) have been prioritized with the goal of producing
+the longest possible ELF data base during the period of this contract.
+Therefore, while all of the tasks are being pursued in pa~allel, ELF-
+related tasks have been the focus of attention to date.
+
+                                        6
+
+Approved For Release~QIJL'A S&l.f~0-00788R001800190001-3
+      Approved For Release ~0.00/08/08 : CIA-RDP96-00788R001800190001-3
+                                    uNCLASSIFIED
+      B.      (U)    Literature Search
+
+              (U)    The purpose of the literature search is to acquire and
+      integrate information from recent work done in the field of biological
+      response to ELF and geophysical conditions.         Approximately 30 keywords
+      are in use as input to a computerized literature search.         Forty manu-
+      scripts have been obtained to date and are in the process of being
+      reviewed, plus additional sources of literature have been identified and
+      will be retrieved as priorities permit.
+
+
+      C.      (U)    ELF Measurements
+
+              1.      (U)   Introduction
+
+                      (U)   Although the ELF frequency range (3 to 300 Hz) has been
+      studied in some detail, many unknowns remain.        For example, although it
+      is known that ELF frequencies generated by geophysical means (e.g., elec-
+...   trical storm activity) tend to distribute themselves globally, little
+      information is available on the variation of the ELF environment from
+      location to location.         Therefore, local variations may exist that are
+      caused by both manmade sources, and by the geological structure of the
+      area.        In the San Francisco Bay Area, manmade sources that generate ELF
+      on a local scale include motors, telephone lines, power lines, and
+      electrical subways [Bay Area Rapid Transit (BART)], and it needs to be
+      determined whether the emission from such sources constitutes a signif-
+      icant contribution to the omnipresent global ELF field.
+
+                      (U)   In order to address the above issue, two ELF monitoring
+      stations are being set up--one at SRI Menlo Park (in the RV Laboratory),
+      the other at the Time Research Institute field station, 17 km distant.
+      It is anticipated that the SRI environment may be a "noisy" one due to
+      the large amount of electronics known to be in the area.         Data from the
+      two sites, taking the field site as a reference, are to be compared in
+      order to begin to differentiate the naturally-occurring ELF from the
+      manmade noise occurring at the location where RV is being carried out.
+
+
+
+
+                                                7
+
+       Approved For ReleasEt.J~f.'~ S~tfPtfrt·00788R001800190001-3
+Approved For Release       uweeA         S!llfl~~00788R001800190001-3
+
+
+      2.   (U)    Los Altos Site
+
+           (U)    Since May 1982, Time Research Institute h~s been operating
+ an ELF monitoring site in Los Altos, collecting data twice daily for the
+ purpose of correlating ELF disturbances with various phenomena of interest.
+ In this period, analysis techniques were developed that are directly
+ applicable to the present task.
+
+           (U)    One of the first tasks was the upgrading of the Los Altos
+ ELF monitoring site to provide coverage during power interrupts.         Research
+ was performed to determine the best power-interrupt syst~m, including
+ generators.     The selection criteria chosen for the generator sought to
+ optimize power output, cost effectiveness, and reputation for reliability,
+ with the consideration that this system might serve as a!model for addi-
+ tional sites in the client corrununity.       On this basis, a 3500-W Kubota
+ generator was bought and installed at the site.        A PTI Industries "Data-
+ shield" device was also purchased and installed, for use in conjunction
+ with the generator (which must be started manually).         This device powers
+ the required electronics for a period of twenty minutes on its own while
+ awaiting generator startup.       Furthermore, an automatic alarm telephone
+ dialing system dials up as many as four individuals shou~d a power failure
+ occur while no one is at the site.         The two devices work!ng together have
+ protected the system on numerous occasions from power interruptions--
+ including an 8-hr outage planned by Pacific Gas and Electric Company.
+ Thus, since installation of the power-interrupt equipment, there has been
+ no loss of data collection/storage.
+
+
+      3.   (U)    ELF Data Acquisition Systems
+
+           a.      (U)   Basic System Design
+
+                   (U)   With the requirement that two ELF mopitoring sites
+ be implemented for the program--one at SRI and one at Time Research
+ Institute--it was decided that the two systems would be made identical.
+ In this way, differences between the two systems would be minimized, thus
+ reducing the opportunity for artifactual differences between the two sys-
+ tem outputs.
+
+                                        8
+
+Approved For Release 2bJ>ttMillaA~.S.NSiidlo788R001800190001-3
+Approved For Release 2eJ>Nt'[8A CS~Fftlij0788R001800190001-3
+
+
+                (U)    Figure 1 is a block diagram of the basic ELF data
+ acquisition system.    The ELF signal is collected by an antenna, amplified,
+ and then digitized by an analog-to-digital (A/D) converter so that the
+ signal can be input into an IBM PC Jr. computer for the purpose of analy-
+ sis by a fast-fourier-transform (FFT) program on at least an hourly basis.
+ The recorded data are then transferred by floppy diskette to an IBM XT
+ computer for further handling.
+
+
+
+
+                                       INCREASES SIGNAL STRENGTH·
+
+
+                    A/D                MAKES SIGNAL READABLE BY
+                 CONVERTER             COMPUTER ·
+
+
+
+
+                                       DETERMINES INTENSITY OF SIGNAL
+                                       FREQUENCY COMPONENTS
+
+
+
+                   HOURLY      1----t.. FLOPPY DISKETTES TRANSPORTED
+                    DATA                TO IBM XT COMPUTER
+
+               UNCLASSI FlED
+
+
+                FIGURE 1        (U)   ELF DATA-ACQUISITION SYSTEM
+
+
+                (U)    As indicated in the above system description, an
+ integral part of the data acquisition system is computerized record
+ keeping, using IBM systems--both the IBM PC Jr. and the IBM XT.            The
+ software is written and compiled on the XT, used as a master system, and
+ then run on the PC Jr. (the PC Jr. is not itself large enough to run a
+ compiler, nor are there compilers written for it).            Beyond this, however,
+ in spite of the much publicized "compatibility" between the various
+
+                                           9
+
+Approved For Release 2hi>Nl€i4aA<S&.Id5~&EDo788R001800190001-3
+Approved For Release ~f~ S1~1¥f~tj0788R001800190001-3
+
+
+IBM PC systems, some development time had to be expended to ensure that
+programs compiled on the XT (that were concerned with communication with
+external devices) could be run on the PC Jr.--because they handle the
+addressing of communication ports differently.
+
+
+           b.     (U)   FFT Program
+
+                  (U)   A consultant was hired from the Radioscience Labora-
+tory at Stanford University to critique the ELF system at Time Research
+Institute as it stood at program start.       As part of that critique, he
+recommended changes in the FFT software to increase its accuracy and
+running speed.    As a result, new FFT software was written in compiled
+BASIC and then debugged.      The program description is given in Appendix A.
+This task was completed in mid-April.
+
+
+           c.     (U)   System Electronics
+
+                  (U)   The prototype system of Figure 1 was assembled and
+installed for our purposes at the Los Altos site.        Early tests indicated
+that modification of the existing electronics was required because
+(1) the system was sensitive to ground-loop problems, thus the preamplifier
+had to be redesigned to include an isolation amplifier, and (2) when the
+new system was installed in mid-June, it was found that a slowly-varying
+de level was superimposed on the incoming ELF signal, resulting in ex-
+cursions that exceeded the limits of the A/D converter at amplification
+ levels required for good signal analysis.       Therefore, new circuitry was
+designed to eliminate the de problem.        With these changes, the ELF detec-
+ tion system is scheduled for completion of testing, debugging, and
+ calibration at the Los Altos site in August, before its sister system
+ is installed at SRI.
+
+
+           d.     (U)   ELF Electronics/Software Subtasks (Status)
+
+                  (U)   The status of the ELF electronics/software subtasks
+ is as follows:
+
+
+
+
+                                      10
+
+Approved For Release ~N«<>A:mfltE!&00788R001800190001-3
+~
+I
+
+
+
+    Approved For Release 20U~C04.Aii.l:litlt-0788R001800190001-3
+
+      (U)
+
+            •   Subject to the requirement that the basic microprocessor
+                units to be used in the program would (1) be able to com-
+                municate with an IBM XT, (2) have at least 64K of memory,
+                (3) possess diskette storage capability, and (4) be cost
+                effective, the IBM PC Jr. was selected from among the
+                various alternatives, and two units were purchased.
+            •   Preamplifiers, low bandpass filters, and amplifiers have
+                been designed, and one complete prototype system has been
+                assembled. Amplifiers and filters have been assembled
+                for the second system to be installed at SRI.
+            •   Design specifications have been completed for the ELF
+                antenna. Assembly of this antenna is pending the results
+                of a calibration task (described in Section III.D.3.e).
+            •   A survey of A/D converters that would be compatible with
+                the other system components was completed, and the
+                selected units were purchased.
+            •   Communication between the IBM PC Jr. and the A/D con-
+                verter has been established, enabling the computer to
+                read the incoming signal.
+            •   Software has been developed and debugged that: (1) reads
+                the communications RS 232 port of the PC Jr. input from
+                the A/D converter, (2) performs FFT analysis of the signal,
+                and then (3) writes half-hourly averages of 19 different
+                frequencies (from 1 to 29 Hz) to a computer diskette.
+                Further software refinements will continue to be made, such
+                as determining daily maximum values for each frequency.
+                This software has been implemented and debugged. The sys-
+                tem is ready to begin data acquisition upon implementation
+                of the de-level-controlling hardware. Minor enhancements
+                of the software will continue.
+            •   The Los Altos system is now in operation and is being
+                tested. It is anticipated that the SRI system will be
+                implemented in August.
+
+
+                  e.   (U)   ELF System Calibration
+
+                       (U)   System calibration is proceeding.   The Stanford
+      University consultant mentioned earlier is an expert in the areas of ELF
+      and VLF measurement, antenna design, and spectral analysis.       His cali-
+      bration program is being carried out at the present Los Altos site using
+      specialized, sophisticated instruments from the Stanford Radioscience
+      Laboratory.
+
+
+
+                                           11
+
+
+     Approved For Release 2Y,~,W~-l~~~0788R001800190001-3
+Approved For Release Uf}J~'f~ 51!-wf!lj>0788R001800190001-3
+
+
+                  (U)   As part of the calibration process, certain power-
+line and power-supply "noise" sources were identified that could have
+produced artifacts in the historical and ongoing data.      Therefore, in-
+creased electronic-filtering measures are being incorporated into the
+system, including software changes to recalibrate past data already in
+storage.
+
+                  (U)   Finally, as part of the calibration process,   three
+systems are to be monitored simultaneously:      (1) the original unmodified
+Los Altos system on which the historical ELF data have been acquired;
+(2) a new system (described in this report) using an ELF wire-coil
+antenna designed by and on loan from the Radioscience Laboratory at
+Stanford University; (3) the new system, but with a bioantenna (oak tree)
+as an antenna, which is a procedure recommended by Stanfo~d (see Nature
+reprint, Appendix B).      The results from the calibration tests will be
+used to calibrate the historical data base, and to fix the final antenna
+design.
+
+
+D.   (U)     Satellite Downlink Geophysical Data-AcguisitionSystem
+                                                             I
+     (U)     A near real-time satellite downlink system for $alar-terrestrial
+data has recently become available from NOAA (National Oc~anic and Atmo-
+spheric Administration).      With this unit, it is possible to provide
+immediate feedback and/or analysis in conjunction with Rv:sessions.
+(Normally, there are long delays in procuring solar-terreJtrial data;
+without the downlink, delays of 10 days to 6 months are standard.)        The
+downlink system provides for accumulation of a detailed data base directly
+on computer diskettes.      (See Appendix C for an item-by-item description.)
+
+     (U)     A satellite controller and a dish antenna for the downlink
+system were ordered and installed at the Los Altos site early in the
+project (see Figure 2).      At the time of this writing, specifications for
+data-acquisition software for the IBM PC Jr. have been completed, and
+first-order software has been written that captures the data to computer
+diskettes.     Because of the large volume of data transmitted each minute,
+a double-density, double-sided diskette fills in about 21 hours.       Disk-
+
+
+                                      12
+
+Approved For ReleaseU~lJA S<5.liRI:IPD-00788R001800190001-3
+Approved For Release 2fJ>f4e'l8A CS~rf>l1tf0788R001800190001-3
+
+
+                                     ANTENNA
+
+
+
+
+                                       DATA
+                                     DISKETTE
+
+
+
+
+                                  BURROUGHS 86900
+                                     COMPUTER
+
+                            UNCLASSIFIED
+
+
+                 FIGURE 2   (U)   REAL-TIME GEOPHYSICAL DATA
+                                  ACQUISITION VIA WESTAR IV
+                                  DOWNLINK
+
+
+(U)
+
+ettes have been changed on an almost daily basis since early April in
+order to begin to acquire a long-term data base.
+
+      (U)   To increase the amount of data that can be stored on a
+diskette, it is necessary to separate numerical data of interest.           The
+necessary software is now being written that will be able to identify
+the various data types as they are transmitted, so that only the data of
+interest will be transferred to an appropriate data file on the diskette.
+Statistical analysis can then be done on the data in this form.
+
+      (U)   Other data bases are continuing to be maintained for this
+project by Time Research Institute.           Files of 2800-MHz solar flux, the
+planetary magnetic activity index (Ap), the Anchorage magnetic index,
+                                         13
+
+Approved For ReleasetiN~5:S4~1tD-oo788R001800190001-3
+Approved For Release 1m'e'f~ S~Jmtf0788R001800190001-3
+
+(U)
+
+and the Stanford mean solar magnetic field are updated on a weekly or
+monthly basis as the data are available.       ELF data from the "old" system
+are recorded twice daily; ELF data from the "new" system are being
+recorded at the following intervals:       half-hourly averages (48 times a day),
+and two sets of half-daily averages (twice a day) at 00:00 and 12:00 UT,
+and at 04:30 and 16:30 UT.      Whole-day averages are also being recorded.
+
+      (U)    To summarize the status of the satellite-downlink data-
+acquisition system:
+
+      •     The downlink-geophysical system is in place and in operation
+            at the Los Altos site.
+      •     Partial data acquisition from the downlink is in,place.
+      •     Software for the final data-acquisition system will be
+            completed and implemented in August.
+
+
+E.    (U)     Geophysical Data/RV Performance Correlation An!lysis
+
+      (U)    Data for RV sessions are to be analyzed for statistical cor-
+relation with respect to the battery of geophysical data sets listed in
+Table 1, and those acquired by Time Research Institute via measurement
+ (Figure 3).     Recording of RV and geophysical data is now in progress.
+The overall system for data acquisition and analysis of RV performance/
+geophysical data is depicted in Figure 4.       When enough data have been
+collected toward the end of the contract period, analysis will be performed.
+The tasks described in earlier sections are in preparation for this task,
+and therefore have received the bulk of the effort.       Certain subtasks in
+ the analysis task, which require a longer leadtime, have, however, already
+ been completed in preparation for the analysis.
+
+      (U)     The primary statistical program that will be used to scan the
+data for possible relationships is called EPOCH ANALYSIS.       This program
+ reads two files simultaneously.     The first file is an event file, the
+ second a data file.     The program first reads an event, then scans the
+data temporally backward and forward in time around the event.        This
+ information is stored, a second event is read, and so forth.        When all
+
+
+
+                                      14
+
+Approved For Release 2UN~~ACSStPt(E00788R001800190001-3
+Approved For Release 2oeJ>~lA~fttf788R001800190001-3
+
+
+
+                           LOS ALTOS STATION                          SRI STATION
+
+
+        WESTAR IV DOWNLINK
+                                    I      ELF DATA
+                                                            1   r
+                                                                       ELF DATA
+                                                                                         l
+        I           • I
+             IBM PC JR. No. 1
+                                                • I
+                                     'IBM PC JR. No. 2
+                                                                           •
+                                                                    IBM PC JR. No. 3
+
+                   j_
+                  DATA
+                                                +
+                                             DATA
+                                                                          •
+                                                                         DATA
+                                                                       DISKETTE
+                DISKETTE                   DISKETTE
+
+                                                i
+                                      I IBM XT COMPUTER :
+                                     -I
+                                                                          1
+                                               ~ 1
+                                  BURROUGHS B6900 COMPUTER
+
+       UNCLASSI FlED
+
+
+         FIGURE 3       (U)   REAL-TIME GEOPHYSICAL DATA-ACQUISITION SYSTEM
+
+
+ (U)
+
+ the events and surrounding data have been read, a printout is created
+ that lists appropriate cross-correlation statistics between event and
+ data elements.
+
+       (U)     Preliminary scans of data generated during an approximate
+ 100-site series with one remote viewer have been carried out.                         The
+ session quality was graded on a scale of 0 to 3+, and correlations
+ between solar magnetic field and solar sunspot number were investigated.
+ Some correlation between RV performance and solar sunspot number was
+ found, which, if substantiated by further data, would indicate the
+ possibility that performance might improve immediately after a peak in
+ the sunspot number, and would deteriorate just before the sunspot number
+ peaks in its 27-to-29-day cycle.              This result is based on data points
+ that are too small in number to be taken seriously at the point, however,
+ and is mentioned only to give an example of the types of correlations
+ that will be sought out and examined during the course of study.
+
+
+                                               15
+
+Approved For Release ~JhiA. SIS.Ifii:&O>o788R001800190001-3
+Approved For ReleaselJtQfet'A SS1"ffl!;·00788R001~00190001-3
+                                                                                    I·
+
+
+
+
+                           1     _;.
+                                                +
+      PERFORM-                                GEO-                (GEOPHYSICAL· DATAl
+                           ELF
+
+
+
+                                                                        A•
+        ANCE                                PHYSICAL
+                          DATA
+        DATA                                  DATA
+                                 -"!'   .....        ......
+
+          •                                     1
+                    IBM XT COMPUTER                           BURROUGHS B6900 COMPUTER
+
+
+                           •
+                      DATA BASE
+                  MANAGEMENT SYSTEM
+                                                                            •
+                                                                        ANALYSIS
+                                                              REQUIRING LARGE: MJ\INFRAME
+                                                              (e.g., MULTIVARIAT~ A}JALYSIS)
+                           +
+                 •
+                                                       ~
+
+
+
+
+       I
+           • I
+             EPOCH
+            ANALYSIS           I STATISTICAL
+                                  ANALYSIS
+                                             ~                              •
+                                                                       STATISTICS
+                                                                          AND
+                                                                                         I-+    MANUAL
+
+
+         ,       •                GRAPHS/
+                                 STATISTICS
+                                                                       -
+                                                                        GRAPHS                 ANALYSIS
+
+
+                                                                                                  •
+                                                                                               FORECASTS
+
+
+               -
+      GRAPHS/
+     STATISTICS
+
+     -
+    UNCLASSIFIED
+
+
+    FIGURE 4       (U)   GEOPHYSICAL/PERFORMANCE DATA-ANALYSIS SYSTEM
+
+
+
+
+                                                16
+                                                                                         '
+Approved For Release UN~IoA:i~f~~00788R001800190001-3
+Approved For Release 20QQ/QW.O.S · CJA;RDP96-00788R001800190001-3
+        .                UN~LA:;:;IFIED
+
+
+
+
+                             IV   SUMMARY   (U)
+
+
+      (U)   Approximately 80 percent of the project's data-acquisition
+ tasks have been completed, and all of the equipment and hardware have
+ been purchased and delivered.
+
+      (U)   System calibration should be completed in the near future,
+ and ELF and downlink-data acquisition will have begun in their final
+ formats.
+
+      (U)   At the above point, the focus of effort will turn to analysis
+ of past and present geophysical and ELF data, soon to be followed by the
+ initiation of correlation studies of these data against RV performance.
+
+
+
+
+                                     17
+
+  Approved For ReleasON~~S §1ff11J!D5-00788R001800190001-3
+Approved For Release {j~'E(.oAfSlfifft·00788R001800190001-3
+
+
+
+
+             THISPAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                                18
+
+Approved For Release 20eJNa~&Silfii!00788R001800190001-3
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+                        UNCLASSIFIED
+
+
+
+
+                               Appendix A
+
+            FAST FOURIER TRANSFORM ROUTINE FOR ELF DATA (U)
+
+
+
+
+                                   19
+Approved For Release 20'6'ffelA'~~ftf1!~788R001800190001-3
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+                     UNCLASSIFIED
+
+
+
+
+             THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                               20
+
+Approved For Release6ft~')\~fr11!'D6-00788R001800190001-3
+    Approved For Release 2~f~~fm0788R001800190001-3
+
+
+
+
+                                    Appendix A
+
+                 FAST FOURIER ROUTINE FOR ELF DATA (U)
+
+    •
+    ;************************************************************************
+    l *                                                                       *
+    ;*                      PROGRAM DESCRIPTION                               *
+    l *                                                                       *
+    ;************************************************************************
+    I
+    ;THIS PROGRAM USES THE FAST FOURIER TRANSFORM <FFT) ALGORITHM TO
+    ;CALCULATE THE SPECTRAL MAGNITUDES OF AN ARRAY OF CLOSE-PACKED REAL INPUT
+    ;DATA POINTS. THE PROGRAM IS ORGANIZED AS FOLLOWS:
+           1. AT THE START, DATA POINTS ARE STORED IN THE REAL ARRAY X(f),
+           WHERE f RUNS FROM B TO NX-1. NX MUST BE AN INTEGRAL POWER OF 2,
+           OF THE FORM NX = 2AMX <IE, MX a LOG2(NX>>. SUCCESSIVE ELEMENTS
+           OF X REPRESENT SUCCESSIVE SAMPLES OF AN INPUT SIGNAL, SAMPLED AT
+           REGULAR INTERVALS OF TIME DT.
+           2. THE REAL ARRAY X(f) IS TREATED FOR THE FFT AS A COMPLEX ARRAY
+           OF NX/2 PAIRS OF REAL AND IMAGINARY ELEMENTS. THAT IS, THE REAL
+           ELEMENTS OF THE ARRAY ARE THE EVEN-NUMBERED INPUT SAMPLES, AND
+           THE IMAGINARY ELEMENTS OF THE ARRAY ARE THE ODD-NUMBERED INPUT
+           SAMPLES. AFTER THE FFT IS CALCULATED, AN ADDITIONAL STEP IS USED
+           TO EXTRACT THE SPECTRUM OF THE REAL INPUT DATA. TRANSFORMING
+           CLOSE-PACKED DATA IN THIS WAY, EVEN THOUGH IT REQUIRES AN
+           ADDITIONAL STEP FOR THE REAL TRANSFORM EXTRACTION, IS FASTER THAN
+           TRANSFORMING A COMPLEX ARRAY OF NX REAL-IMAGINARY PAIRS (2*NX
+           ELEMENTS>, WHERE ALL OF THE INITIAL IMAGINARY VALUES ARE ZERO.
+           3.   THE FFT IS CALCULATED AS FOLLOWS:
+                    A. THE INPUT PAIRS IN X ARE REARRANGED IN BIT-REVERSED
+                    ORDER.
+                    B. THE FFT IS CALCULATED USING DECIMATION IN TIME, WITH
+                    ANGLE ARGUMENTS IN EACH SUB-OFT APPEARING IN NATURAL
+                    <IE, INCREASING> ORDER.
+                    C. AFTER THE LAST PASS THROUGH THE FFT ALGORITHM, THE
+                    ARRAY X CONTAINS SPECTRAL VALUES IN NORMAL ORDER, WITH
+                    EACH EVEN POINT A REAL VALUE AND EACH SUBSEQUENT ODD
+                    POINT THE CORRESPONDING IMAGINARY VALUE.
+           4. FOLLOWING THE FFT THE REAL TRANSFORM IS EXTRACTED. NOTE THAT
+           IF THE SAMPLING INTERVAL <THE TIME BETWEEN SUCCESSIVE SAMPLES> IS
+           DT, THEN THE TOTAL SIGNAL INTERVAL PROCESSED IS NX*DT <THE FFT
+           ASSUMES THAT THE MISSING RIGHT END POINT IS THE SAME AS THE FIRST
+           POINT>. THE FFT GENERATES A SPECTRUM CONTAINING VALUES AT
+           INCREMENTS OF OF IN FREQUENCY, WHERE OF • 1/(NX*DT>. IF WE WERE
+           TO TRANSFORM AN ARRAY OF NX COMPLEX DATA POINTS <WHOSE IMAGINARY
+           VALUES WERE ZERO, SINCE WE ARE CONCERNED WITH A REAL SIGNAL) WE
+           WOULD GENERATE NX COMPLEX SPECTRAL POINTS RANGING IN FREQUENCY
+.          FROM B TO <NX-l>*DF Hz. HOWEVER, THE POINTS FROM <NX/2+l>*DF Hz
+           TO <NX-l>*DF Hz ARE MERELY THE COMPLEX CONJUGATES OF THE LOWER
+           POINTS, AND CONTAIN NO ADDITIONAL INFORMATION. THIS IS BECAUSE
+           THE NYQUIST RATE, OR THE HIGHEST UNALIASED FREQUENCY THAT CAN BE
+           SAMPLED, IS l/2*NX*DF. WHEN WE TRANSFORM NX REAL CLOSE-PACKED
+           POINTS AND THEN EXTRACT THE REAL TRANSFORM, WE GET ONLY THE LOWER
+           NX/2 COMPLEX SPECTRAL VALUES, WHICH ARE ALL THAT ARE NEEDED.
+                                         21
+
+    Approved For Release tiN€tlASSiflli0-oo788R001800190001-3
+    Approved For Release u~aoASS1ftr[f·00788R001800190001-3
+
+
+        5. NEKT, THE SPECTRUM IS CONVOLVED WITH A SHORT WINDOW FUNCTION.
+        THE REAL AND IMAGINARY <EVEN AND ODD> POINTS ARE CONVOLVED
+        SEPARATELY, SINCE THE WINDOW FUNCTION IS A SEQUENCE OF REAL
+        NUMBERS. WINDOWING IS NECESSARY IF THE SIGNAL FILTERS WE ARE
+        EFFECTIVELY SYNTHESIZING ARE TO HAVE A USEFUL SHAPE. WITHOUT
+        WINDOWING WE WOULD FIND THAT EACH SPECTRAL FILTER WOULD HAVE A
+        NARROW PASSBAND BUT SIGNIFICANT SIDELOBE RESPONSES. THAT IS, THE
+        MAGNITUDE OF A SPECTRAL LINE K< 1) WOULD DEPEND NOT ONLY ON SIGNAL
+        COMPONENTS NEAR 1*DF IN FREQUENCY, BUT ALSO SIGNIFICANTLY ON
+        COMPONENTS AT OTHER FREQUENCIES AS WELL. WINDOWING BROADENS THE
+        SHAPE OF THE PASSBAND OF EACH SPECTRAL FILTER BUT DECREASES THE
+        SIDELOBE RESPONSES. THE AMOUNT OF BROADENING AND SUP~RESSION OF
+        SIDELOBES DEPENDS ON THE WINDOW ORDER, OR THE LENGTH OF THE
+        WINDOW FUNCTION WHICH IS CONVOLVED WITH THE RAW SPECTRUM.
+        6. FINALLY, THE MAGNITUDE OF THE SIGNAL AT EACH SPECTRAL
+        FREQUENCY IS CALCULATED AS THE ROOT SUM OF THE SQUARES OF THE
+        REAL AND IMAGINARY SPECTRAL COMPONENTS <IE, THE VECTO. MAGNITUDE
+        OF EACH COMPLEK SPECTRAL POINT> AND SCALED TO MAKE THE PROCESSING
+        GAIN INDEPENDENT OF THE SIZE OF THE BLOCK lENGTH NK. WE COULD
+        ALSO CALCULATE THE PHASE OF THE SPECTRAL POINTS BUT T~IS
+        INFORMATION ISN'T TOO VALUABLE FOR OUR USE. NOTE THA~ THE
+        HIGHEST MEANINGFUL SPECTRAL FREQUENCY DEPENDS ON THE ~NTI­
+        ALIASING LOW-PASS FILTER THAT IS USED WHEN THE SIGNAU IS SAMPLED.
+        THERE IS NOT MUCH MEANING TO SPECTRAL POINTS ABOVE TH. FILTER
+        CUTOFF FREQUENCY, WHERE SIGNALS ARE ATTENUATED AND FREQUENCY
+        ALIASING BECOMES A PROBLEM. THUS, IN THIS PROGRAM WE DO NOT
+        CALCULATE SPECTRAL COMPONENTS ABOVE ABOUT 3B Hz <THE NOMINAL
+        CUTOFF FREQUENCY OF THE LOW-PASS FILTER>.
+I
+;THIS PROGRAM IS WRITTEN IN BASIC FOR THE IBM PC COMPUTER. ijOWEVER, IT
+; IS EASILY ADAPTED TO OTHER MACHINES. FOUR THINGS TO WATCH O!UT FOR WHEN
+;TRANSFERRING THE PROGRAM TO ANOTHER VERSION OF BASIC ARE:
+         1. ALL ARRAYS START WITH INDEX B. THAT IS, THE ARR~Y X<NX> RUNS
+         FROM X<B> TO K<NX-1). ARRAY REFERENCES WILL NEED TO ~E CHANGED
+         IF THE PROGRAM IS TO BE USED ON MACHINES WHERE THE FI~ST ELEMENT
+         OF ARRAYS HAS INDEX 1.
+        2. ALL VARIABLES WHOSE NAMES START WITH THE LETTERS "I" THROUGH
+        "N" ARE IMPLICITLY INTEGERS <DEFINT I-N STATEMENT>. THESE
+        VARIABLES MAY NEED TO BE RENAMED. IT IS IMPORTANT THAT LOOP
+        COUNTERS AND ARRAY INDEX VARIABLES BE INTEGERS BECAUSE INTEGER
+        ARITHMETIC <WHERE AVAILABLE> IS FASTER THAN FLOATING-~POINT
+        ARITHMETIC.
+         3. THIS PROGRAM USES THE INTEGER DIVI~ION OPERATOR "\",   THIS
+         MAY BE CHANGED TO "/" IN OTHER VERSIONS OF BASIC.
+         4. THIS PROGRAM USES LOGICAL OPERATORS (•NOT", "AND", "OR"> ON
+         INTEGER VARIABLES <NOT LOGICAL VARIABLES> IN THE BIT-REVERSAL
+         ROUTINE. IF THESE OPERATORS ARE NOT AVAILABLE THE ALTERNATE
+         VERSION OF STATEMENTS 3BBB-319B USING ONLY INTEGER ARITHMETIC
+         MUST BE SUBSTITUTED.
+
+
+
+
+                                     22
+    Approved For Release UP4@'AS&JffED3-00788R001800190001-3
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+                           UNCLASSIFIED
+
+;************************************************************************
+;*                                                                        *
+;*               CHOICE OF SAMPLING TIME AND BLOCK SIZE                   *
+;*                                                                        *
+;************************************************************************
+I
+;THE SAMPLING TIME DT AND THE BLOCK SIZE NX TOGETHER DETERMINE THE
+;NUMBER OF SPECTRAL POINTS CALCULATED AND THEIR SPACING IN FREQUENCY.
+;THE CHOICE OF SAMPLING TIME ALSO AFFECTS THE FREQUENCIES AT WHICH POWER-
+;LINE HARMONIC INTERFERENCE THAT IS PASSED BY THE ANTI-ALIASING LOW-PASS
+;FILTER WILL APPEAR IN THE SPECTRUM. THE FOLLOWING DISCUSSION ASSUMES
+;THAT THE 3S Hz LOW-PASS FILTER WILL BE USED TO ATTENUATE HIGH FREQUENCY
+;SIGNAL COMPONENTS BEFORE SAMPLING.
+I
+;IF THE INPUT SIGNAL THAT IS SAMPLED CONTAINED ONLY FREQUENCIES BELOW
+;3S Hz IT WOULD BE SUFFICIENT TO SAMPLE AT THE NYQUIST RATE OF 6S SAMPLES
+;PER SECOND. HOWEVER, SINCE THE FILTER DOES NOT HAVE INFINITE
+;ATTENUATION ABOVE 3S Hz IT IS NECESSARY TO SAMPLE AT A SOMEWHAT HIGHER
+;RATE, AND THEN DISCARD THOSE SPECTRAL POINTS REPRESENTING SIGNALS ABOVE
+;3S Hz.
+          1. ONE CONSIDERATION IN CHOOSING THE SAMPLING RATE IS THE ACTUAL
+          RATE AVAILABLE WITH A GIVEN AID CONVERTER. WITH THE CMC BUSSTER
+          D16 AID CONVERTER, SAMPLING TIMES CAN BE AS SMALL AS S.SSSS s.
+          HOWEVER, IF MORE THAN ONE SIGNAL IS TO BE DIGITIZED AT ONE TIME,
+          THE MINIMUM SAMPLING TIME IS S.Sl s PER CHANNEL, OR A SAMPLING
+          RATE OF ISS SAMPLES/SECOND. THIS SEEMS LIKE A REASONABLE CHOICE.
+          2. A SECOND CONSIDERATION IS THE EFFECT OF THE SAMPLING RATE ON
+          THE FREQUENCIES OF ALIASED POWER LINE HARMONICS. ONLY HARMONICS
+          AT 6S AND 120 Hz ARE LIKELY TO BE A PROBLEM. WITH DT • 0.Sl S,
+          THE NYQUIST RATE IS 50 Hz, SO THE SPECTRUM WILL CONTAIN POINTS AT
+          FREQUENCIES FROM 0 TO 50 Hz. ANY 6¥ Hz SIGNAL THAT IS DIGITIZED
+          WILL APPEAR IN THE SPECTRUM AT 40Hz, WHICH POINT WILL BE THROWN
+          OUT, SO 60 Hz INTERFERENCE WON'T BE A PROBLEM. HOWEVER,
+          INTERFERENCE AT 120 Hz WILL APPEAR AT 20 Hz IN THE SPECTRUM, AND
+          THIS FACT MUST BE KEPT IN MIND WHEN ANALYZING THE DATA. !HIGHER
+          HARMONICS APPEAR AS: 18S AT 20Hz, 24S AT 40Hz, 300 AT S Hz,
+          360 AT 40Hz, AND SO ON.>
+ ;
+ ;GIVEN A SAMPLING TIME DT • 0.01 s, WE CAN CALCULATE THE SPECTRAL SPACING
+ ;FOR DIFFERENT CHOICES OF BLOCK SIZE NX, AND WE FIND THE FOLLOWING:
+            NX            OF                NUMBER OF POINTS <• 30 Hz
+            64            1.5625 Hz                  19
+           128            0.7813 Hz                  38
+           256            S.39S6 Hz                  76
+           512            0.1953 Hz                 153
+          1S24            0.0977 Hz                 3S7
+          2048            0.S488 Hz                 614
+
+
+
+
+                                       23
+     Approved For Release ff~fi'lSStf!lfi)6-00788R001800190001-3
+    Approved For Release 2000/08/0~ : CJA~.i.6-00788R001800190001 3
+                                       UNCLAS~It-ltU                                                                 -
+
+;***********************************************************~************
+;*                                                                                                               *
+;*                                             WINDOWING                                                         *
+;*                                                                                                               *
+•************************************************************************
+•                                                                                         !
+
+I
+;AFTER THE SPECTRUM OF THE INPUT SIGNAL HAS BEEN FOUND, IT IS CONVOLVED
+;WITH A SHORT WINDOW SEQUENCE TO IMPROVE THE SHAPE OF THE SYNTHESIZED
+;FILTERS. THOUGH THE SPECTRAL VALUES ARE COMPLEX, THE WINDOW SEQUENCE IS
+;A SEQUENCE OF REAL NUMBERS, SO THE CONVOLUTION IS DONE SEPARATELY FOR
+;THE REAL AND IMAGINARY SEQUENCES IN THE SPECTRUM. THE CONVOLUTION IS OF
+;THE FORM                                                    .
+         X<Jl <- W3*[X(J·3l+X(J+3ll +W2*CX<J-2l+X(J+2ll
+                  +Wl*CX<J-ll+X(J+lll +WB*X(J}
+I                                  .                                                  ,
+;WHERE X<J> IS THE REAL OR IMAGINARY SUBSEQUENCE OF THE SPECTRUM, AND THE
+;CONVOLUTION IS ILLUSTRATED FOR A 4TH ORDER WINDOW SEQUENCE.' NOTE THAT
+;IF THE CONVOLUTION IS TO BE DONE IN-PLACE, A SMALL ARRAY MU$T BE USED TO
+;HOLD THE PREVIOUS VALUES OF X(J-3), X(J-2), X<J-1), and X<J) FOR USE IN
+;SUBSEQUENT CONVOLUTIONS.
+I                                                                                     .
+;THE VALUES TO USE FOR DATA POINTS BEYOND THE ENDS OF THE SPECTRUM ARE
+;THE COMPLEX CONJUGATES OF THE POINTS REFLECTED ABOUT THE ENDS, SO THE
+;AUXILLIARV ARRAY OF PREVIOUS VALUES MUST BE INITIALIZED AS FOLLOWS:
+         Re( -3 l •   Re( 3)                   Im<-3> • -Im<3>
+         Re< -2 > • Re< 2 >                    Im(-2) • -Im<2>
+         Re( -1 l • Re< 1 l                    Im(-1 > • -Im< 1 l
+!POINTS AFTER THE FAR END OF THE SPECTRUM ARE REFLECTED IN T~E SAME WAY,
+;BUT SINCE WE WON'T CALCULATE SPECTRAL POINTS ABOVE 3B Hz TH~RE IS NO
+;NEED TO WINDOW POINTS THERE.                               ,
+I
+;THE FOLLOWING WINDOW SEQUENCES ARE THE MOST IMPORTANT FOR OUR USE.
+;THESE ARE ALL MINIMUM-SIDELOBE WINDOWS WHICH SUPPRESS SIDELpBE RESPONSES
+;AS MUCH AS POSSIBLE FOR A GIVEN WINDOW ORDER, AND HAVE BEE~ NORMALIZED
+;FOR UNITY GAIN. NOTE THAT THE ORDER-1 WINDOW CORRESPONDS     NO WINDOW
+;AT ALL. THE ORDER-2 WINDOW IS SIMILAR TO THE HAMMING FUNCTION.
+                                                                                     ro
+         ORDER                                     2                 3                4
+         WB                     1.11JB/1JBB         1.B/1J/1JB/1J    1.11JBBBB/1JB    1 .11JI1J/1J/1J/1J/1J/1J
+         W1                    g                  -/6.42875         -16.5895613      ..;.0'.6727198
+         W2                    B                   B                 .11J.B922278      g. 1878524
+         W3                    B                   .I1J              B               -</6,/1Jl46337
+         HIGHEST               -13 dB             -43 dB            -72 dB           -98 dB
+         SIDE LOBE
+         3-dB WIDTH            B.89 OF             1.3.0' OF         1. 61 DF         1. 86        DF
+         6-dB WIDTH             1. 2/1J   OF       1.81 DF           2.25 DF          2.62 OF
+;
+;FOR OUR USE, I THINK THE 3RD-ORDER WINDOW IS THE MOST APPROPRIATE, AND
+;THE PROGRAM USES THIS WINDOW FUNCTION. SINCE W3 • B IN THiS CASE, THE
+;ACTUAL CONVOLUTION CONTAINS ONLY 3 TERMS. SINCE WB • 1, THE LAST TERM
+;IS JUST X(Jl, WITHOUT A MULTIPLICATION. THUS THE WINDOWING OF EACH
+;POINT INCLUDES 5 ADDITIONS AND 2 MULTIPLICATIONS FOR EACH QF THE REAL
+;AND IMAGINARY COMPONENTS. IF ONLY VERY SHORT BLOCKS <SAY mx • 64l ARE
+;TO BE PROCESSED, THE 2ND-ORDER WINDOW MIGHT BE MORE APPROP~IATE SINCE
+;THE FILTERS ARE A BIT NARROWER IN THAT CASE.              .
+
+
+
+
+                                                     24
+
+Approved For Release 2UNtfA<5$1ffE!l00788R001800190001-3
+Approved For Release 20~~t;\.j~~y
+                                                       0 o788R001800190001-3
+
+
+
+
+;•***********•••***************•*****************************************
+I*                                                                                *
+;*                                     PROGRAM                                    *
+ ;*                                                                               *
+ ·************************************************************************
+ •
+I
+ ; DEFINITIONS:
+1161111       DEFINT I-N               'VARIABLES STARTING •1•-•N" ARE INTEGERS
+UlB           NX = 11124               'DATA BLOCK SIZE
+111211        NXM1 = NX-1
+111311        DIM X<NX>                'INPUT DATA ARRAY XC1), 1 • .0', ••• , NX-1
+116411        DT • .0'.111             'INPUT SAMPLE TIME IN SECONDS
+USB           OF • 1./( DT*NX)         'SPECTRAL LINE SPACING IN Hz
+1116.0'       NMAX • 3.0'./DF          'NUMBER OF HIGHEST SPECTRAl liNE <• 311 Hz
+llBB          NF • NX\2                'FFT SIZE CNR OF COMPLEX POINTS>
+11111         MF • LOGCNF>ILOGC2.>     'NF • 2"'MF
+112.0'        NFD2 .. NF\2
+113.0'        NFMl • NF-1
+114.0'        DIM CACNF>               'COSINE AND SINE ARRAYS,
+115.0'        OIMSA<NF>                I  ANGlES FROM B TO 18B*CNX-1)/NX
+116.0'        Pl2 • 6.2831853
+12.0'.0'      W1 • -.0'. 5859613       'WINDOW COEFFICIENTS
+12111         W2 • .0'.11922278
+ ;************************************************************************
+ I
+ ;CALCUlATE SINE AND COSINE ARRAYS:
+ I
+ ;THIS NEED BE DONE ONlY ONCE. NOTE THAT THE FFT ROUTINE USED SINES AND
+ ;COSINES FROM B TO <ISS DEGREES IN STEPS OF 3611/NF DEGREES, AND THE REAL
+ ;TRANSFORM EXTRACTION ROUTINE USES SINES AND COSINES UP TO <911 DEGREES IN
+ ;STEPS OF 3611/NX DEGREES. THUS THE ODD NUMBERED POINTS IN THESE ARRAYS
+ ;FOR ANGLES ABOVE 9.0' DEGREES ARE NOT USED. IF MEMORY SPACE IS A PROBLEM,
+ ;THE ARRAYS CAN BE CONDENSED AND ONLY POINTS FROM B TO (18.0' DEGREES IN
+ ;STEPS OF 3611/NF CALCULATED FOR USE BY THE FFT. IN THIS CASE, THE VALUES
+ ;USED BY THE REAL TRANSFORM EXTRACTION WILL HAVE TO BE CALCULATED AS
+ ;NEEDED. IT IS ALSO POSSIBLE TO USE A TABLE CONTAINING VALUES FOR ANGLES
+ ;ONLY FROM B TO 45 DEGREES, BUT THIS MAKES THE LOOKUP PROCEDURE SOMEWHAT
+ ;MORE COMPLICATED, INVOLVING A POSSIBLE CHANGE OF SIGN OR EXCHANGE OF SIN
+ ;AND COS VALUES DEPENDING ON THE SEMIQUADRANT OF THE ANGLE.
+151111        DA • PI2/NX              'ANGLE INCREMENT
+15111         FOR J • B TO NFMl        'CALCULATE SINES AND COSINES
+15211           A • DA*J
+153.0'          CA<J> = COS<A>
+154.0'          SA<J> • SIN<A>
+155.0'        NEXT J
+ ;************************************************************************
+ ;
+ ;SAMPLE INPUT DATA INTO ARRAY )(:
+ ;
+ ;THIS CODE MUST BE WRITTEN TO SAMPLE THE INPUT SIGNAL EVERY .0'.111 SECOND
+ ;AND STUFF SUCCESSIVE VALUES INTO X~ ONLY NX VALUES NEED BE TAKEN.
+ ;ENTER HERE TO START PROCESSING A NEW BLOCK OF DATA.
+ ;2.0'.0'11   CODE VET TO BE WRITTEN
+
+
+
+
+                                           25
+
+     Approved For Release ~~~AS!tFI!EJ-00788R001800190001-3
+    Approved For Release tf~ttlSStmrf·00788R001800190001-3
+
+
+
+;************************************************************~***********
+;
+1 BIT      REVERSAL:
+I
+;THE REAL COMPACT SAMPLES IN X ARE NOW TREATED AS A COMPLEX A~RAV OF NF
+;(REAL,IMAGINARY> PAIRS. PAIRS AT BIT-REVERSED ADDRESSES ARE NOW SWAPPED
+;PRIOR TO THE FFT ROUTINE.
+I
+;THE FOLLOWING ROUTINE USES LOGICAL OPERATORS.
+3161616       K • 1                   'INITIAL BIT-REVERSED ADDRESS
+3/6116        FOR J • 1 TO NFM1        'SCAN ALL ADDRESSES EXCEPT TH~ FIRST
+3/62/6          L • NFD2               'INITIAL BIT MASK
+316316          IF NOT<K AND L> GOTO 307/6 'THIS BIT SET?
+316416            K • K AND NOT L     ' YES - CLEAR IT,
+3/65/6            L • L \2                 SHIFT MASK RIGHT,
+3/66/6            GOTO 3/630              AND CONTINUE
+3/670           K • K OR L            'BIT WAS CLEAR, SET IT
+3080            IF K <• J GOTO 3190    'SKIP IF ADDRESS SAME OR ALRE.ADV DONE
+3/690           J2 • J+J               'ARRAY ADDRESS OF LOWER REAL ~OMPONENT
+31160           K2 • K+K              ;ARRAY ADDRESS OF UPPER REAL COMPONENT
+3110            T • X(J2>              'SWAP REALS                   .
+312/6           X<J2> • X<K2>
+313/6           X<K2> • T
+3140            T = X<J2+1)            'SWAP IMAGINARIES
+3150            X<J2+1) • X<K2+1)
+3180            X<K2+1l • T
+3190          NEXT J
+;THE FOLLOWING VERSION USES ONLY INTEGER ARITHMETIC BUT IS A BIT LESS
+;EFFICIENT.
+;
+;3000         FOR J • 1 TO NFMl       'SCAN ALL ADDRESSES EXCEPT THE FIRST
+; 316116        K1 • J                'INITIALIZE DIVISOR
+;3020           K •    0              'INITIALIZE BIT-REVERSED ADD~ESS
+;316316         FOR I • 1 TO MF       ;BIT-REVERSE ALL MF BITS
+;3/640            K2 • K1\2
+;3/650            K • <K-K2)*2+K1
+;3/660            K1 • K2
+;3/670          NEXT I
+;3080           IF K <• J GOTO 3190   'SKIP IF ADDRESS SAME OR ALREADY DONE
+;3090           J2 • J+J              'ARRAY ADDRESS OF LOWER REAL COMPONENT
+;31160          K2 • K+K              ;ARRAY ADDRESS OF UPPER REAL COMPONENT
+; 3110          T • X<J2>             'SWAP REALS
+;3120           X(J2l • X(K2>
+;3130           X<K2> • T
+;3140           T • )((J2+1l          'SWAP IMAGINARIES
+;3150           X<JZ+1) • X<KZ+1)
+;3180           X<KZ+1l • T
+;3190         NEXT J
+
+
+
+
+                                           26
+
+Approved For Release ~ASSiftED-oo788R001800190001-3
+Approved For Release 20ij'~e\.A~~f[}0788R001800190001-3
+
+
+
+ ;************************************************************************
+ I
+ ;FFT ROUTINE:
+ ;
+ ;THIS ROUTINE USED DECIMATION IN TIME.       THE COMPLEX DATA INPUT IS IN BIT-
+ ;REVERSED ORDER.
+          1. THE OUTER LOOP MAKES MF PASSES THROUGH THE DATA. THE INITIAL
+          NUMBER OF SUB-OFT'S IS 1, AND DOUBLES ON EACH PASS. THE INITIAL
+          INCREMENT IN ANGLE BETWEEN SUB-OFT'S IS 188 DEGREES, AND HALVES
+          ON EACH PASS.
+          2. THE MIDDLE LOOP PROCESSES THE SUB-OFT'S. AT EACH SUB-OFT
+          ANGLES INCREASE IN NATURAL ORDER AS 8 <1•1); 8, 98 <I=2); 8, 45,
+          98, 135 <I•3l; 8, 22.5, 45, ... <1•4>; AND SO ON.
+          3. THE INNER LOOP CALCULATES THE BUTTERFLIES FOR A GIVEN ANGLE
+          IN EACH SUB-OFT. EACH DECIMATION-IN-TIME BUTTERFLY HAS THE FORM
+                  Re(J)   <- Re(J)+[Re<kl*C+Im<k>*Sl
+                  Im(J)   <- Im(J)+[Im<k>*C-Re<kl*Sl
+                  Re(k)   <- Re(J)-[Re<k>*C+Im<k>*Sl
+                  Im(k)   <- Im(J)-[lm<k>*C-Re(k)*Sl
+          WHERE C AND S ARE THE COSINE AND SINE OF THE ANGLE.
+ 3283     LM • 1                         'INITIAL NUMBER OF SUB-OFT'S •
+ 3218     LM2 • LM+LM
+ 3228     IDA • NF                       'INITIAL ANGLE INCREMENT • 188 DEG
+ 3238     FOR I • 1 TO MF                'OUTER LOOP
+ 3248       IA • 8                       'INITIAL SUB-OFT ANGLE • 8 DEGREES
+ 3258       FOR L • 1 TO LM              'MIDDLE LOOP
+ 3268         C • CA<IA)                 'LOOK UP COS AND SIN FOR THIS ANGLE
+ 3278         S • SA<IA>
+ 3288         FOR J•L-1 TO NFMl STEP LM2 ;INNER LOOP
+ 3298            JR • J+J                'ARRAY ADDRESS OF LOWER REAL COMPONENT
+ 3388            JI • JR+1               'ARRAY ADDRESS OF LOWER IMAG COMPONENT
+ 3318            KR • JR+LM2             'ARRAY ADDRESS OF UPPER REAL COMPONENT
+ 3328            KI • KR+l               'ARRAY ADDRESS OF UPPER IMAG COMPONENT
+ 3338            TR • X<KR>*C+X<KI>*S 'BUTTERFLY
+ 3348            TI • X<KI>*C-X<KRl*S
+ 3358            X<KR> • X<JRl-TR
+ 3 3 68          X< KI ) • X< J I >- T I
+ 3378            X(JR> • X<JRl+TR
+ 3388            X<JI) • X<JI l+TI
+ 3398         NEXT J                     'END OF INNER LOOP
+ 3488         IA • IA+IDA                'BUMP ANGLE
+ 3418       NEXT L                       'END OF MIDDLE LOOP
+ 3348       LM = LM2                     'DOUBLE NUMBER OF SUB-OFT'S
+ 3438       LM2 • LM2+LM2
+ 3448       IDA • IDA\2                  'HALVE ANGLE INCREMENT
+ 3458     NEXT I                         'BOTTOM OF OUTER LOOP
+
+
+
+
+                                         27
+    Approved For Release {j~a_oASS1ffrff·00788R001800190001-3
+
+
+
+'************************************************************~***********
+I
+;EXTRACT CLOSE-PACKED REAL DATA TRANSFORM:
+I
+; NOW WE MUST EXTRACT THE SPECTRUM OF THE INPUT DATA AS IF IT HAD BEEN
+;CALCULATED FROM A SEQUENCE OF NX COMPLEX INPUT VALUES ALL OF WHOSE
+;IMAGINARY COMPENENTS WERE ZERO. THE ALGORITHM FOR THIS IS AS FOLLOWS:
+           1.   FOR POINTS J • 1, 2, ••• , NF/2-1 CALCULATE
+                    Re(J) <- Re(J)+Re(k)-[Re<J>-Re<k>l*S+[lm(J)+,Im(k)l*C
+                    Im(J) <- Im<J>-Im<k>-CRe(J)-Re<k>l*C-Cim(J)+Im<k>l*S
+                    ReCk)<- Re<J>+Re(k)+[Re(J)-Re<k>l*S-Cim(J)+Im<k>l*C
+                    Im<k> <- -lm(J)+lm{k)-[Re(J)·Re<k>l*C-[lm{J)+lm<k>l*S
+           WHERE k • NF -J,      A • J*36B/NX DEGREES, C • COS<A>, AND
+           S • SINCA).
+           WE ALSO HAVE THE SPECIAL POINTS:
+                    Re<.0'> <-    [Re<.0'>+Im<.0'>l
+                    Im(.0') <-   .0'
+                    Re<NF/2) <- Re<NF/2)*2
+                    Im<NF/2) <- -Im<NF/2>*2
+           AND <THOUGH THESE VALUES ARE NOT CALCULATED):
+                    Re< NF > <- [Re<.0'>-Im(.0')l*2
+                    Im<NF> IS UNKNOWN
+35BB       X(.0') • X(.0')*2.             'SPECIAL CASE FOR XC.0'>
+351B       XC1) • B.
+352B       FOR J • 1 TO NFD2-1            'LOOP FOR GENERAL CASE
+353B          JR • J+J                    'ARRAY ADDRESS OF LOWER REAL COMPONENT
+354.0'        JI • JR+l                   'ARRAY ADDRESS OF LOWER IMAG COMPONENT
+355.0'        KR • NX-JR                  'ARRAY ADDRESS OF UPPER REAL COMPONENT
+356.0'        Kl • KR+l                   'ARRAY ADDRESS OF UPPER IMAG COMPONENT
+357.0'        C • CA<J>                   'LOOK UP COS AND SIN FOR THIS ANGLE
+358B          S • SA<J>
+359.0'        RS • XCJR>+X<KR>            'REAL SUM
+36.0'.0'      RD • XCJR>-X<KR>            I REAL OIFF
+361B          as· X<JI>+X<KI>             I IMAG SUM
+362.0'        QO • XCJI>-X<KI>            I IMAG DIFF
+363B          TR • QS*C-RD*S              ITERM FOR REALS
+364.0'        TI • RO*C+QS*S              'TERM FOR IMAGS
+365.0'        )(( JR) • RS+TR
+366.0'        XCJI > • QS-TI
+367.0'        XCKR> • RS-TR
+368B          X<KI> • -QS-TI
+369.0'     NEXT J                         'BOTTOM OF LOOP
+37.0'.0'   XCNF> • XCNF>*2.               'SPECIAL CASE FOR XCNF/2)
+371.0'     XC NF+l > • XC NF+l >*2.
+
+
+
+
+                                               28
+
+    Approved For Release~Gi!,'A~f06-00788R001800190001-3
+Approved For Release 2oef~eti.M'Flmo7SSR001S00190001-3
+
+
+
+
+;
+;WINDOW SPECTRAL DATA TO IMPROVE FILTER SHAPE:
+;
+;SEE THE DISCUSSION OF WINDOWING ABOVE.    THIS ROUTINE IS FOR A 3RD-ORDER
+;WINDOW FUNCTION.
+3888     R2 ~ X<4>                 'INITIALIZE PREVIOUS VALUE ARRAY, Re<2>
+3818     R1 • X<2>                     Re<1>
+3828     RH = X<H>                    Re<H>
+3838     02 ~ -X<S>                    ImC2)
+3 8 48   Q 1 = -X< 3 >                 I mC1 l
+3 8 ss   as • - x < 1 >                I m<s > • s.
+3868     FOR JS • H TO NMAX*2 STEP 2 'WINDOW POINTS <• 38 Hz
+3870        Jl • JH+1              'ADDRESS OF IMAG COMPONENT
+3888        )((JS> • CR2+X(JS+4>>*W2+CR1+X<JH+2l>*Wl+R0 'REAL COMPONENT
+3890        XCJl> • (Q2+X<J1+4ll*W2+CQ1+X(J1+2ll*Wl+Q0 'IMAG COMPONENT
+3900        R2 • R1                'SHIFT PREVIOUS ARRAY
+3910        Rl • RH
+3928        R0 = )((J0+2l             AND INSERT NEW VALUE
+3938        02 = 01
+3940        01 = as
+3950        as = XCJ1+2>
+3968     NEXT J                    'END OF LOOP
+
+••************************************************************************
+I
+;CALCULATE MAGNITUDES:
+;
+;THE MAGNITUDE OF EACH SPECTRAL VECTOR IS CALCULATED AS
+         MAGNITUDE<J> • SQRT[ReCJ>*ReCJ>+ImCJ>*Im(J)l*SF
+;
+;WHERE SF • 1/NX IS A SCALING FACTOR, USED FOR 2 REASONS:
+         1. THE SCALING FACTOR SETS THE PROCESSING GAIN. WITH SF • 1/NX,
+         THE GAIN FOR A SINGLE-COMPONENT SIGNAL IS 1. THAT IS, IF THE
+         INPUT SIGNAL IS A SINE-WAVE AT FREQUENCY n*DF WITH PEAK AMPLITUDE
+         1.8, THE SPECTRUM AT FREQUENCY n*DF WILL ALSO BE 1.8.
+         2. THE SCALING FACTOR MAKES THE PROCESSING GAIN INDEPENDENT OF
+         THE BLOCK SIZE NX, SO THE SAME SIGNAL CAN BE PROCESSED WITH
+         DIFFERENT BLOCK SIZES IN ORDER TO GENERATE DIFFERENT SPECTRA WITH
+         VARYING FREQUENCY RESOLUTION, BUT THE MAGNITUDE OF A NARROW-BAND
+         SIGNAL COMPONENT WILL BE THE SAME IN EACH SPECTRUM.
+;
+;NOTE THAT MAGNITUDES ARE ONLY CALCULATED FOR SPECTRAL POINTS <• 38Hz.
+;MAGNITUDES ARE STORED AT THE BOTTOM OF THE ARRAY X, IN THE FIRST NMAX
+;POINTS.
+I
+;THIS ROUTINE CAN BE INCLUDED IN THE WINDOWING ROUTINE ABOVE WITH A SMALL
+;INCREASE IN PROGRAM EFFICIENCY, BUT IT IS SHOWN SEPARATELY HERE FOR
+; CLARITY.
+4000     SF • 1./NX              'SCALE FACTOR
+4010     FOR J • H TO NMAX       'PROCESS POINTS <• 38Hz
+4028       J2 • J+J              'ADDRESS OF REAL COMPONENT
+4830       K2 • J2+1             'ADDRESS OF IMAG COMPONENT
+4840       X<J> • SQRT<XCJ2>*X<J2>+XCK2l*X(K2ll*SF 'CALCULATE MAGNITUDE
+4058     NEXT J                  'BOTTOM OF LOOP
+ ;END OF PROGRAM.
+
+
+
+
+                                      29
+
+    Approved For Release~I!AS<SfPIED6-00788R001800190001-3
+    Approved For Release 2000/08/08 :~JA-Bm'iP-00788R001800190001 3
+                          UNCLA!)!)It-ltU                                        -
+
+
+;***********************************************************~************
+;*                                                                           *
+;*                       TESTING THE PROGRAM                            *
+;*                                                                      *
+;***********************************************************'************
+;
+;THE BEST WAY TO TEST THE PROGRAM IS TO GENERATE A SYNTHETIC INPUT ARRAY
+;OF DATA POINTS CONTAINING SIGNALS AT KNOWN FREQUENCIES, AND:PROCESS THEM
+;AND CHECK THAT THE RESULTING SPECTRUM IS CORRECT. TO GENERATE A SIGNAL
+;ARRAY WHICH CONTAINS A SIGNAL AT A FREQUENCY C*DF USE THE F9LLOWING CODE
+;BEFORE THE BIT-REVERSAL ROUTINE:
+uss      a •...                  'FREQUENCY IN UNITS OF OF
+2S1S     DP • PIZ*C/NX           'PHASE INCREMENT PER SAMPLE
+2S2S     FOR I • S TO NXMl       'DATA GENERATION LOOP
+2S3S       X<I> • SIN<DP*I>      'CALCULATE A DATA POINT
+2S4S     NEXT I                  'END OF LOOP
+;Q IS A REAL NUMBER, AND SHOULD BE CHOSEN SO THAT S <• Q <• NX/2.     NOTE
+;THAT THE ARRAY X WILL CONTAIN Q CYCLES OF A SINEWAVE SIGNAL.
+;
+;AFTER PROCESSING, THE SPECTRUM SHOULD CONTAIN ONLY COMPONEN~S NEAR THE
+;FREQUENCY Q*OF. THAT IS, SPECTRAL LINES X<J> SHOULD BE SMA~L EXCEPT FOR
+;J NEAR Q, IF Q IS AN INTEGER, THE SPECTRAL LINE X(Q) SHOULD BE 1 AND
+;ALL THE OTHERS SHOULD BE S (OR OF ORDER lE-6, DEPENDING ON 'THE ROUND-OFF
+;ERRORS IN THE PROCESSING>. USING NON-INTEGER VALUES OF Q ~ILL RESULT IN
+;A SPECTRUM WITH A CLUSTER OF RESPONSES NEAR X( INT<Q) > BUT L!INES FAR AWAY
+;FROM Q SHOULD BE SMALL. THE FALLOFF IN RESPONSE IN THE SP~CTRUM AS ONE
+;MOVES AWAY FROM THE LINE X< INT<Q> > DEPENDS ON THE EFFECTIVE!NESS OF THE
+;WINDOW FUNCTION, AND THE SHAPE OF THE SYNTHESIZED FILTER RE;SPONSE CAN BE
+;PLOTTED BY USING VARIOUS VALUES OF Q,                         .
+;
+;NOTE THAT IF NMAX < Q <• NX/2, THE SIGNAL GENERATED LIES I~ THE UPPER
+;PART OF THE SPECTRUM, WHICH IS THROWN AWAY <DON'T EXAMINE SPECTRAL LINES
+;X<J> WHERE J > NMAX, AS THEY HAVEN'T BEEN CALCULATED>. ALSO,   IF
+;NX/2 < Q < NX, THE SIGNAL WILL BE ALIASED IN THE SPECTRUM, 1APPEARING AT
+;A FREQUENCY OF NX/2-Q.
+I
+;************************************************************************
+
+
+
+
+                                      30
+Approved For Release 2~fA!S'JPI!Ol0788R001800190001-3
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+         ·              UNCLASSIFIED
+
+
+
+
+                              Appendix B
+
+             ULF TREE POTENTIALS AND GEOMAGNETIC PULSATIONS (U)
+
+
+
+
+                                  31
+Approved For Release 2eJNe!l8A~51PJEI)00788R001800190001-3
+Approved For Release u~aolscSimB-00788R001800190001-3
+
+
+
+
+             THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                              32
+Approved For Release ~~t~SI5Jflat00788R001800190001-3
+Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+
+
+
+
+                                                                    ..
+
+
+
+
+                                                                    .
+
+
+
+
+                                                                    "
+
+
+
+
+ Approved For Release 2000/08/08 : CIA-RDP96-00788R001800190001-3
+       Approved For Release 2lftfe~A~f.Pf!00788R001800190001-3
+
+
+
+
+                                    REFERENCES   (U)
+
+
+        1.   Persinger, M.A., H. W. Ludwig, and H. P. Ossenkopp, "Psycho-
+...          physiological Effects of ELF Electromagnetic Fields: A Review,"
+             Perceptual and Motor Skills, Vol. 36, pp. 1131-1159 (1973).
+
+        2.   Weber, R., "Human Circadian Rhythms under the Influence of Weak
+             Electric Fields and the Different Aspects of These Studies,"
+             Int'l. Jour. Biometeorology, Vol. 17, No. 3, pp. 227-232 (1974).
+
+        3.   Friedman, H., R. Becker, and C. Bachman, "Effect of Magnetic
+             Fields on Reaction-Time Performance," Nature, pp. ~49-950
+             (4 March 1967).
+
+        4.   Konig, H. L., "Behavioral Changes in Human Subjects Associated
+             with ELF Electrical Fields," ELF and VLF Electromagnetic Field
+             Effects, M.A. Persinger (ed.), Plenum Press, New York, pp. 81-99
+             (1974).
+
+
+
+
+"
+
+
+
+
+                                           47
+
+      Approved For Release 20~~&J.:~~~~~~fQ788R001800190001-3
+Approved For Release 2~~~fA~~-rff[fj00788R001800190001-3
+
+
+(the numbers are          9.XRAY >= M5
+transmitted with          lO.XRAY >= Xl
+the alerts)               ll.A INDEX>= 20    CBOU) (forecast or observed)
+                          12. A INDEX >= 30  ( BOU)      "     "    "
+                          13.A INDEX >= 50   CBOU)       "     "    "
+                          14.K INDEX >= 4    CBOU) (fest, obsvd,or in progress}
+                          15.K INDEX >= 5    CBOU}    "     "    " "      "
+                          16.K INDEX>= 6     (BOU)    "     "    " II     "
+                          17.K INDEX>= 5-5 CBOU)      II    II   II   II  "
+                          18.SUDDEN STORM COMMENCEMENT (forecast or observed)
+                          19.STRATWARM
+                          20.SST ALERT: RADIATION >= 10 MILLIREMS (forecast or
+                              observed)
+
+LINE SEVEN ••• MESSAGES
+111111111 •••
+
+     where I I I I 1••• = unformatted message with up to 60 characters wl I I
+                          sometimes be broadcast In this I lne. Messages that
+                          wll I take more than one I lne wll I be broadcast
+                          sequentially over several minutes. These sequential
+                          messages wll I start with MMMM at the beginning of
+                          the first I lne. NNNN at the beginning of a line
+                          wll I Indicate that the message Is complete.
+                          In the future routine products wll I be transmitted
+                                                                                           .
+                          using this I lne at preselected times. A tentative
+                          schedule of these products follows:
+                                 PRODUCT                           TIME
+                          Current message schedule                 002
+                          SMM (Solar Maximum Mission)              012 1 072 1 132 1 192
+                          Observing Plan
+                          Region Report (body of 00302 report)     022 1 082,142,202
+                          27 Day Forecast                          032 1 092,152,212
+                          SGAS
+                          <Solar Geophysical Activity Summary)     042,102 1 162,222
+                          (body of 02452 report}                                           •
+                          SDF (Report of Solar and Geophysical
+                          Actlvlty •• formerly Space Disturbance   052 1 112 1 172,232     ~
+                          Forecast) (text portion of 22002
+                          report)
+                          GEOALERT Cbody of 03302 GEOALERT)        062 I 122 I 182
+                                       46
+
+ Approved For Release~I!ASSifllE06-00788R001800190001-3
+     Approved For Release ~f~S~J'fllm-00788R001800190001-3
+
+
+     Ll NE F IVE •••• FORECASTS AND WARNINGS (cent In ued}
+       Ml nute 4
+     111111111111 •••
+     SOLQUIET
+         where IIIII ••• = Description of forecast solar actlvl;ty
+                           This wll I usually be: which Indicates
+                           SOLQUIET                  only sporadic weak solar activity,
+                                                     (class Cor smaller flares)
+                           SOLALERT JJ/KK            M Class flar~s, or an
+                                                     increase in Mlevel
+                                                     activity fro~ days JJ
+                                                     to KK        '
+                           MAJOR FLARE ALERT JJ/KK QXXYY
+                                                  region located at QXXYY
+                                                  (see minute 3> has a 15%
+                                                  or greater prob of X class
+                                                  flares from days JJ to KK
+                           SOLNIL                    end of activ~ period or beglnlng
+                                                     of period ofivery low activity
+•                                                    (used to end alerts}
+
+
+
+     LINE SIX •••• ALERTS
+     (rotates through alI activated alerts)
+     lllllllll.
+     ALERT NIL
+         where I I I II ••• = descriptive text of alert conditions that are met
+                              These are The current alerts
+                               O.ALERT NIL (when no alerts are t;urned on)
+                               1.245 MHZ BURST> 100 SFU
+                               2.245 MHZ RADIO NOISE STORM > 5 TIMES BKGND
+                               3.10 CM FLARE > 100% ABOVE BKGND
+                               4.TYPE II RADIO BURST
+                               5.TYPE IV RADIO BURST
+                               6.SUSPECTED PROTON FLARE
+                               ?.PROTON EVENT 10 PART/CM2*SEC*SlER > 10 MEV
+                               8 PROTON EVENT 100 PART/CM2*SEC*STER > 100 MEV
+
+
+
+
+                                           45
+
+    Approved For Release 2<UNCI1A$61l1511D>o788R001800190001-3
+  Approved For Release tJN~fAmPfrD·00788R001800190001-3
+
+
+                     MAGALERT JJ/KK or        Increase In or continued
+                     MAGALERT MINOR JJ/KK     high magnetic activity
+                                              (JJ/KK are the first and
+                                              last calendar days of
+                                              activity)
+                     MAGNIL                   end of active period or beginning
+                                              of period of very low activity
+                                              (used to end alerts)
+
+
+
+
+  Minute 3
+111111111111 •••
+PROTONN IL
+    where I 1I I 1••• = Description of forecast proton activity
+                        This wll I usually be: which Indicates:
+                     PROTONQUIET             no proton enhancements measured
+                                             In, or forecast for the near
+                                             earth environment.
+                     PROTON FLARE ALERT JJ/KK QXXYY
+                                            Protons expected near earth
+                                            because the solar region
+                                             located In quadrant Q <l=NE,
+                                            2=SE, 3=SW, 4=NW), Central
+                                            meridian distance XX, latitude
+                                            YY, has a 15% or greater
+                                            probabl lty of a proton
+                                             flare from days JJ to KK
+                     PROTON ARRIVAL ALERT PP/FF HHmm
+                                            Protons expected near earth
+                                            on day PP from flare which
+                                            occurred on day FF at HHmm
+                     PROTONALERT   JJ/KK      Protons expected to meet the
+                                              SESC alert criteria (see line 6
+                                              ALERTS) In the near earth
+                                              environment from days JJ to KK
+                     PROTONNIL                end of active period or beginlng
+                                              of period of very low activity
+                                              (used to end alerts)
+
+
+
+                                      44
+
+Approved For Release 2UNGIBA<S$.ti:lmoo788R001800190001-3
+Approved For Release 2~fA~~fEtj0788R001800190001-3
+
+
+ LINE FIVE •••• FORECASTS AND WARNINGS
+   Minute 0
+ doy-doy Mnn/nn/nn Xnn/nn/nn Pnn/nn/nn 10CMrrr/rrr/rrr/rrr
+ 348-350 M01/01/01 X01/01/01 POl/01/01 10CM102/100/098/***
+     where doy-doy = day of year, first and last days of the forecast
+          nn/nn/nn = percent probabl I lty for occurrence of activity
+                     on the first, second, and last day pf the forecast.
+                     These apply toM flares, X flares, or Proton events
+                     as indicated. Example 01/01/01
+   rrr/rrr/rrr/rrr = forecast 10 CM solar radio flux for the 3 forecast
+                     days, such as 102/100/098/*** The last group of
+                     rrr Is for the last doy plus one and wi I I be ***
+                     until approx 18z on the first doy. ·At this time
+                     values wll I be added.
+  Minute
+ doy-doy AFaaa/aaa/aaa APaaa/aaa/aaa Kkkkk kkkk kkkk kkkk
+ 348-350 AF018/015/015 AP020/020/020 K**** **33 3444 3333
+     where doy-doy = day of year, first and last days of the forecast
+       aaa/aaa/aaa = forecast A values for the forecast perlod,elther
+                     AF, or AP as Indicated. Example 018/015/015, or
+                     20/20/20
+    kkkk kkkk kkkk = Forecast KP values (without the O,+,or->.
+    kkkk             The first of these 16 consecutive K values
+                     Is for 002 through 032 on the flrst:doy I isted.
+                     Once a forecast K value has been me~sured It wll I
+                     appear in I lne two and the forecast value In this
+                     I lne wll I be replaced by an*· Example**** ***3
+                     3444 3334. At approximately 182 the remaining
+                     values wll I be updated with a new forecast.
+
+
+  Minute 2
+11111111111 •••
+MAGALERT MINOR
+    where 1111 1••• = Description of forecast magnetic activity
+                      This wil I usually be: which Indicates:
+                     MAGQUI ET              only sporadic weak
+                                            geomagnetic activity
+
+
+
+
+                                     43
+
+ Approved For Release tzJ>NQ()\~Pti!DS-00788R001800190001-3
+Approved For Release 2tJf\tel.8A~!IJY!D00788R001800190001-3
+
+  Minute 3
+
+doy 10CM rrr 90 DAY MEAN mmm SSN sss XRAY BGD lx.x
+346 10CM 104 90 DAY MEAN 110 SSN 090 XRAY BGO 82.5
+     where      doy = day of year <yesterday), Such as 346
+                rrr = 10 CM solar radio flux In Solar Flux Units,
+                      for 1700Z on doy Indicated, such as 104
+                mmm = 90 day mean of the 10 CM Solar radio flux
+                      through yesterday, such as 110
+                sss = Sun Spot Number for yesterday, such as 090
+               lx.x = Xray Background level for yesterday expressed on
+                      the B,C,M,X scale, where B = 10-7 watts 1 meter2
+                      C = 10-6, M = 10-', and X= 1o-4.Jn the example,
+                      82.5 = 2.5 * 10-7 watts I meter2.
+  Minute 4
+
+doy GOES5 <W075) FLUENCE 1MEV f.fE+f 10 MEV f.fE+f
+346 GOES5 <W075) FLUENCE 1MEV 2.8E+4 10 MEV 5.2E+3
+     where      doy   = day of year (yesterday), such as 346
+             f.fE+f   =dally total fluence <protons I (cm2*day*ster))
+                        greater than lMEV or 10MEV (as Indicated) expressed
+                        as an exponential number, such as 2.8E+4, or 5.2E+3
+
+
+
+LINE FOUR •••• HOURLY IONOSPHERIC DATA
+     Each 24 hour set of data wll I take 3 minutes to transmit
+     (8 hours of data per I lne). EMPTY Indicates that no data
+     Is being transmitted.
+sss ddddd doy hh nn.n nn.n nn.n nn.n nn.n nn.n nn.n nn.n
+SOU TEC 347 16 09.5 14.0 20.3 22.8 22.3 22.8 **** ****
+     where      sss = station Identifier such as SOU:
+              ddddd =data identifier, such as TEC <Total Electron
+                      Count),FOF2 (Critical Frequency of the F2 Layer),
+                      M3000 (Optimum Frequency for a Single Hop 3000 KM
+                      Transmission), FMIN (Minimum Usable Frequency),
+                      or FOES (Critical Frequency of the Sporadic
+                      E Layer).
+                 hh = hour of first data group, such as 16
+               nn.n = data group. There are eight consecutive data
+                      groups. Missing data, or data not yet
+                      determined wl I I have ****· Data for TEC
+                      Is In units of 10+16 electrons I meter2,
+                      for the others It Is MHZ. Example 09.5
+
+
+                                      42
+
+Approved For ReleasebiN61£ASSUftiOs-00788R001800190001-3
+Approved For Release 2~A~f~rEtf0788R001800190001-3
+
+
+ Minute 1
+ooy hh-hh K klggg 80 Knnnn nnnn PL Knnnn nnnn 10CM rrr
+347 18-21 K 31033 80 K3334 333* PL K4334 433* 10CM 104
+     where       = day of year (current day), such as ~47
+               doy
+                 =beginning and ending hours (in Unlv~rsal
+             hh-hh
+                   Time or Z) for the 3 hr period of tije K
+                   index to follow, such as 18-21      ·
+           klggg = Boulder K value I Gammas of deflection from the
+                   quiet day curve, such as 31033
+       nnnn nnnn = K Indices determined so far for this day <Boulder
+                   or planetary>. The first value is for OOZ-03Z,
+                   and each index Is for the 3 Hr period following
+                   the K Index preceding it. Missing values wll I
+                   have an *· Example 3324 333* or 4334 433*
+             rrr = 10 CM solar radio flux In Solar Flux Units,
+                   C1o-22 watts I Cmeter2*Hz>> as measured by
+                   Ottawa at approximately 1700Z each day. This value Is
+                   for the doy indicated at the start of the line.
+                   Until this value Is available*** wl I I be broadcast.
+                   Example 104
+
+
+  Minute 2
+doy 80 Aaaa Knnnn nnnn PL Aaaa Knnnn nnnn TEDttt
+346 BO A017 K3334 4323 PL A024 K4333 4434 TED***
+     where     doy=day of year (yesterday), such as 346
+               aaa= A Index (Boulder or Planetary) for yesterday,
+                    such as 017, or 024
+        nnnn nnnn = K indices (Boulder or Planetary) for yesterday,
+                    (starting at 00-03Z) missing values wl I I contain *
+                    Example 3334 4323 or 4333 4434
+             ttt = Total Energy Deposition, an estimate of the total
+                    power being dissipated In one hemisphere's auroral
+                    atmosphere by precipitating particles. The units
+                    are gigawatts. This Is a dally average for the doy
+                    indicated. Estimates are made using particle data
+                    from Tlros satel I ltes. Dally averages vary from
+                    near 005 on a quiet day up to about 100 on a very
+                    active day. If this data is unavailable*** wl I I
+                    be used. Example ***
+
+
+
+
+                                   41
+
+Approved For Release 2'lm@A55fPfEI)>0788R001800190001-3
+Approved For Release tf~tl~§I~J~Eb'00788R001800190001-3
+
+
+LINE TWO •••• GOES GEOSYNCHRONOUS MAGNETIC DATA
+(1 minute values broadcast each minute)
+GOES5 HPsgggg HEsgggg HNsgggg GOES6 HPsgggg HEsgggg HNsgggg
+GOES5 HP+0123 HE-0023 HN+0033 GOES6 HP+0123 HE-0023 HN+0033
+     where sgggg = sign (+ for positive, - for negative) and value
+                   (In gammas) of the magnetic field components at
+                   geosynchronous altitudes (approximately 22,000
+                   miles). These are measured by the GOES 5 (W075)
+                   and GOES 6 CW135) satel I ltes. These components are
+                   HP (paral lei to the Earth's rotation axis,+ Is
+                   north), HE (directed earthward, + Is down) and HN
+                   <perpendicular to the other two, le east or west,
+                   + Is west}. Example +0123.
+
+
+
+LINE THREE •••• INDICES
+  Minute 0
+1MEV p.pE+p 10MEV p.pE+p 100MEV p.pE+p PCA aa.aDB NTRN nnnn
+1MEV 3.1E+O 10MEV 2.5E+O 100MEV 1.2E+O PCA 00.008 NTRN 0451
+     where p.pEp  = number of protons I (sec*cm2*ster)
+                    at greater than lMEV, 10MEV,or 100MEV energies
+                    (5 min avg), such as 3.1E+O
+             aa.a = DB of polar cap absorption at 30 MHZ as
+                    measured at Thule, (15 Min value), such as 00.0
+             nnnn =Thule neutron monitor data In mil I !volts (15 min
+                    value). The background level Is 460 to 470 mv.
+                    Significant deviations are +or - 10% or less than
+                    410 mv and greater than 510 mv. A sharp Increase
+                    that lasts for a few tens of minutes to hours is a
+                    Ground Level Event that Is caused by relativistic
+                    particles associated with solar flares. A sig-
+                    nificant decrease that lasts for several hours
+                    to several days Is a Forbush Decrease. This
+                    decrease Is the scattering of background cosmic
+                    rays due to plasma density enhancements and
+                    associated magnetic field enhancements in the near
+                    earth solar wind. These enhancements may or may
+                    not be solar flare related.
+
+
+
+
+                                  40
+
+Approved For Release 2eJN~A~5-f¥11!800788R001800190001-3
+Approved For Release 2fj~e'i~~~-FFltf;oo7ssRoo1S00190001-3
+
+
+
+
+                             Appendix C
+
+  FORMAT FOR SATELLITE BROADCAST OF SPACE ENVIRONMENT SERVICES (U)
+                           (15 February 1984)
+
+
+
+
+There are seven sixty character I lnes. Each is followed by a carriage
+return and a line feed.
+123456789012345678901234567890123456789012345678901234567890
+In the examples of lines, CAPITAL letters are caption Information
+that appears as it does in the broadcast. Small letters' represent
+data that are explained below. The : Indicates the 61sti space
+(: Is not broadcast). Any data not available for broadcast wll I be
+replaced by ***·
+
+LINE ONE - GOES X-RAY AND TOTAL MAGNETIC FIELD
+(1 min values broadcast each minute)
+dey hhmm GOES6 lx.x GOES5 lx.x BOU TF ggggg GAMMAS
+347 2153 GOES6 82.0 GOES5 82.0 BOU TF 55397 GAMMAS
+     where dey = day of year, such as 347
+           hhmm = hours and minutes, such as 2153
+           lx.x =x-ray level,(1 min avg), expressed wit~ the 8,C,M,X
+                  scale, where 8 = 1o-7 watts I meter2, C = 10-6
+                  M = 10 -5 and X = 10 -4.                ·
+                  X-rays are measured In a 1-8 angstrom ~hannel on the
+                  GOES geosynchronous satel I ltes. An Increase in X-ray
+                  levels Indicates solar flare activity.
+                  In the example 82.0 = 2.0 * 10-7 watts I meter2.
+          ggggg =Boulder mag field In gammas,Cl min avg),
+                 such as 55397
+
+
+
+
+                                   39
+Approved For Release Uf\l~fAS!tFI!D-00788R001800190001-3
+Approved For Release 2"~t"515tfi!:T)00788R001800190001-3
+
+
+
+
+           THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                             38
+
+Approved For Release U~:SSifdia-00788R001800190001-3
+         Approved' For Release 2fj~t't~S~~-{j!iEf)oo7ssRoo1soo19ooo1-3
+
+
+
+
+                                       Appendix C
+
+            FORMAT FOR SATELLITE BROADCAST OF SPACE ENVIRONMENT SERVICES (U)
+
+
+
+
+I   ..
+'
+
+
+
+
+                                           37
+         Approved For Release 2tftfe!lBACS51fi'E8"00788R001800190001-3
+Approved For Release UNefA=~IfD·00788R001800190001-3
+
+
+
+
+           THIS PAGE INTENTIONALLY LEFT BLANK
+
+
+
+
+                             36
+
+Approved For Release ~ASIIH!O-oo788R001800190001-3
+Approved For Release 2UN~A~~~f>00788R001800190001-3
+
+desirable, because the tree ring data could provide a unique
+record of past U LF and higher-frequency geomagnetic
+activity.
+   I thank D. B. Coates for technical assistance. This work
+was supported in part by the Advanced Research Projects
+Agency of the US Department of Defence and ~n pa11t by
+the US Office of Naval Research.
+                                       A. c. FRASER-SMITH
+Radioscience Laboratory,
+Stanford Electronics Laboratories,
+Stanford University,
+Stanford, California 94305
+Received 16 August: accepted 15 December 1977.
+ I. Jacobs. J. A. Cromagneti<· Micropu!sations 15 (Springer. New York, 1970).
+ 2. Campbell. W. H. Proc.IEEE 51. 1337-134~ (1963).
+ 3. Teple), L. R. J. geophys. Rc•.1. 66, 1651-1658 ( 1961 ).
+ 4. Lokken. J. E .. Shand. J. A. & Wright, C. S. J.l/c'ophy.\. Rc•s. 68,789.794 (1963).
+ 5. Lokken. J. E. in 1\"atura/ Eh•ctromoplll'lh' PhC'nomena Below 30 Kef~ (cd. Bleil
+     D. F.) 373-428 (Plenum, New York 1964).
+ 6. Buxton, J. L. & Fraser-Smith, A. C. IEEE Trans. Ceosci. £/ec. GE-12 109-11
+     (1974).
+ 7. Troitskaya, V. A. J. 1/<'ophy.\. Rc•.1. 66, 5-18 (1961).
+ 8. Heacock. R. R. & Hessler.\'. P. J. geophy.1·. Res. 67,3985-3995 (1962).
+ 9. Fraser-Smith. A. C. J. geophys. Res. 75, 4735-4745 ( 1970); J. gc•ophrs. Re.\, 77
+     4209-4~20 (1972).                                                      .
+10. Fraser-Smith. A. C. & Coates. D. B. Radio Sci. (submitted).
+II. Burr, H. S. )'a/eJ. Bioi. Med. 17,727-734 (1945): Ya/1'1. Bioi. Med. 19, 311-31·
+     (1947); Science 124, 1204-1205 (1956).
+12. Presman. A. S. Electl'omagnetic Field~· and Li/(• (tn:tnsl. Sinclair, F. L.. ed
+     Brown, F. A. Jr) 155 (Plenum. New York. 1970).
+13. LaMarche, Jr, V. C. & Fritts, H. C. Tree-Ring Bull. 32, 19-33 (1972).
+
+
+
+
+                                                                        35
+
+Approved For Release tiN€bA5illttiO-oo788R001800190001-3
+             Approved For Release urfei!.9\SB+~I!D3-00788R001800190001-3
+CPYRGHT
+characteristics. Figure I, for example, shows spectrograms        the re evant oop antenna 1s e ne           t e mtersect10n o
+of a sequence of four Pc I pulsation events that occurred         the tree with a vertical plane perpendicular to the particular
+during the interval 1200 ·to 1500 UT on 17 January 1976,          field direction and passing through the two electrodes. Thus,
+and which were received by the tree 'antenna' (a) and the         in the measurements reported here, the Pc 1 pulsation events
+conventional north-south solenoid antenna (b). With the           observed in the tree potentials were produced by Pc I pulsa-
+exception of a lower signal-to-noise ratio for the tree           tions of the north-south component of the geomagnetic
+measurements, the two Pc I pulsation records are closely          field.
+alike. It will also be noticed that the lower frequency Pc 2/        Further tests showed that the tree potentials could only
+Pc 3 geomagnetic activity (frequencies in the range 0.02 to       be detected in a living tree. Thus, when a tree dies, the
+0.2 Hz) is recorded similarly by both systems. The amplitude      potentials gradually disappear as the wood dries and loses
+of the ULF pulsations in the tree potentials is very small.       its conductivity.
+For the Pc I pulsations shown in Fig. 1, the maximum                 In conclusion, measurements with tree electrodes show
+amplitude of the potential fluctuations was about 0.1 m V.        that trees may be used as 'antennas' to detect ULF geo-
+   The nearly identical occurrence and spectral character-        magnetic pulsations. The measurements also show that ULF
+istics of ULF events measured by the tree electrodes and          tree potentials are largely produced by ULF fluctuations of
+by the conventional ULF equipment indicated that the tree         the geomagnetic field (the remaining component of the
+potentials were largely induced by ULF time variations of          potentials is probably thermal noise). Presman" noted that
+the geomagnetic field. To investigate this .possibility, a        ~lectromagnetic fields usually have an adverse effect on
+portable planar search · coil powered by a 1 Hz signal            living processes. If the ULF geomagnetic pulsations have
+generator was moved around the tree near the electrodes.          any adverse effect on the growth of trees (and, as we have
+It was found that a 1 Hz oscillation of the potential dif-        seen, they must induce electric currents in the living
+ference between the tree electrodes was produced only when         material) these effects could possibly be observed in tree
+the search coil was orientated with its moment vector in           ring data. Pc 1 geomagnetic pulsation occurrences vary
+the north-south direction. When the two electrodes were            markedly over a solar cycle" and thus, if these particular
+moved to the north face of the tree, a response from the           pulsations effect tree growth, a solar cycle in tree ring data
+electrodes could be obtained only when the search coil             could occur. LaMarche and Fritts" searched unsuccessfully
+moment vector was orientated in the east-west direction.           for a relation between tree ring data and sunspot numbers.
+These results, and the observations of natural Pc I pulsa-         The phase of the Pc 1 pulsation solar cycle, however, differs
+tions, can possibly be best understood by considering the          by several years from the sunspot cycle and, assuming the
+tree/electrode pair combination to form a collection of            two cycles affect tree ring data, they may tend to obscure
+conducting loop antennas in which e.m.fs may be induced            each other's effects. Furthermore, other geomagnetic pulsa-
+by magnetic field fluctuations in the appropriate direction.       tions and higher-frequency electromagnetic signals have
+The conducting paths are provided by the conducting                their own cycles of occurrence, and their effects on tree
+ material of the tree (and the cambium in particular"), and,       ring formation, if any, could add further to the complexity
+ for field fluctuations in a particular direction, the area of     of the tree ring data. Studies of these possible effects are
+
+
+
+                  0
+           2.0-
+
+
+
+
+                                                                                             Fig. 1 Spectrograms of a series
+                                                                                             of Pc I geomagnetic pulsation
+  ,_...,                                                                                     events recorded at Stanford, Cali-
+   N                                                                                         fornia, using tree potentials (a)
+  ::t                                                                                        and a conventional solenoid an-
+  '"-"       0                                                                               tenna (b). Short intervals of a
+   »
+   u                                                                                         I Hz calibration signal appear
+   c                                                                                         at the start of each hour. The
+   <IJ            b
+   ;:I                                                                                       vertical lines in the upper spectro-
+   0"
+           2.0-                                                                              gram are caused either by local
+   <IJ                                                                                       electromagnetic transients or by
+   ....
+  '-l-.                                                                                      natural sferics; similar lines occur
+                                                                                             in the lower spectrogram, but
+                                                                                             they are not as obvious because
+                                                                                             the background noise is com-
+           1.0-                                                                                     paratively suppressed.
+
+
+
+
+                                                             34
+
+             Approved For Release           Y~&~~-~~-00788R001800190001-3
+        Approved For Release 2~A5S'Jff!U0788R001800190001-3
+
+
+
+
+                                                            Appendix B
+
+CPYRGHT                       ULF TREE POTENTIALS AND GEOMAGNETIC PULSATIONS
+
+ HIGH-SENSITIVITY measurements of ultra-low-freque-ncy                        electrical storm suggested that ULF variations of tref
+ (ULF; frequencies less than 5Hz) geomagnetic pulsations'                     potentials might occur on occasion. I therefore began a
+ usually require elaborate receiving antennas ranging from                    search for variations with frequencies predominantly in the
+ large air-cored coils' through multi-turn steel, or mumetal-                 Pc I geomagnetic p(Jisation range (0.2-5 Hz). These
+ cored solenoids'-' to small superconducting loops immersed                   frequencies correspond approximately to the delta regime
+ in liquid helium•. Pairs of electrodes inserted in the ground                for human brain waves,
+ have also been used as antennas'·". The need for a large                        The measurements Were made using a large native oak,
+ spacing between the electrodes (varying from hundreds to                     Quercus lobata, that was located near conventional ULF
+ thousands of metres) and the difficulty of calibrating the                   recording equipment at a site on the Stanford University
+ measurements absolutely have resulted in the almost univer-                  campus. This latter equipment uses 20,000 turn steel-cored
+ sal use of the more compact and easily calibrated coil-type                  solenoids as ULF antennas and it operated continuously
+ antennas in recent years. I describe here a new method for                   throughout the interval during which the tree measurements
+ measuring U LF geomagnetic pulsations, which requires 11                     were made. Thus, simultaneous measurements of ULF geo-
+ minimum of elaborate equipment. The method is based on                      magnetic pulsations using both conventional loop antennas
+ the use of trees, or, more specifically, on the use of pairs of             and a tree 'antenna' were obtained at the one location.
+electrodes inserted into trees, as ULF receiving antennas.                       Two steel nails were used as electrodes. Following Burr·~
+    There are several reasons that this new method of                        configuration, they were inserted about 0.05 m into the tree
+measurement may he of interest. The equipment is simple                      along the long axis, with a spacing of 0. 76 m. The lower
+and thus the method could lead to more widespread observa-                   electrode was approximately I m above the ground, and the
+tions of U LF geomagnetic pulsation phenomena. The                           two electrodes faced toward the geomagnetic west. Because
+method of measurement also provides new information                          the tree was not completely vertical, a line joining the two
+about tree potentials, that is, it shows that some, and                      electrodes would have been inclined approximately 20°
+perhaps all, of the ULF components of these .potentials are                  toward the geomagnetic east. The diameter of the tree mid-
+induced hy U LF geomagnetic field fluctuations and do not                    way between the two electrodes was 0.65 m.
+originate in the trees themselves. Finally, although it is not                  A resistance of about5 k!l was typically observed between
+clear at present what etl'ect induced U LF electric fields may               the electrodes, increasing to about 10 k!l if polarisation was
+have on the growth and other vital processes in a tree, the                 allowed to occur. A ·d.c. potential difference was also
+link between these U LF electric fields and geomagnetic                      observed that varied from day to day but whose absolute
+field fluctuations suggests that some environment-related                    value was usually in the range 10 to 100 mV, with the upper
+changes in trees could also be influenced by changes in                     electrode positive. The electrodes were connected to a low-
+geomagnetic activity. These changes may have a natural                      frequency high-gain a~plifier through an RC filter (R=
+origin (for example, the changes that occur during a solar                  22 M!l, C= 50 ttF). Thf1 amplifier was usually set for 50 db
+cycle") or they may be caused by a variety of human activi-                 gain, and its output was filtered (0.02-7 Hz) before being
+ties (by modern d.c.-powered mass transit systems, which                    recorded, generally without additional amplification, on a
+can produce large amplitude ULF electromagnetic fields'").                  chart record and on analog magnetic tape.
+   The U LF measurements reported here were stimulated                          The ULF signals measured by this system were
+hy the work of Burr on relatively steady-state tree poten-                  undoubtedly induced in the tree 'antenna' and not in the
+tials". Burr recorded these potentials for more than a                      shielded cabling between the electrodes and the recording
+decade using a pair of specially-designed non-polarisahle                   system: when the electrodes were disconnected from the
+electrodes inserted in the cambium of an unspecified tree                   tree and connected to an equivalent 5 k!l resistor, without
+(which was probably a maple). The electrodes were about a                   any other change in the wiring or configuration of the
+metre apart along the long axis of the tree and Burr                        system, only a steady low level of white noise (typical resistor
+observed diurnal, 27-d, and seasonal variations, as well as a               thermal noise) was obsetved.
+suggestion of a correlation with sunspot activity, in their                     Similarities between ~he ULF signals recorded conven-
+potential difference.
+                                                                            tionally and with the: tree 'antenna' were immediately
+   Most of Burr's observations were at frequencies far                      apparent on the chart records. More detailed analysis con-
+below the frequency range for ULF geomagnetic pulsations.                   firmed that Pc I pulsation events recorded by the two
+One ~eries of measurement obtained, however, during an                      systems were very neatly identical in all their important
+
+
+~~prlflt•dfrom NGtiiiY, VoL 271, No. Jt146, pp, 641-642, Fllbi'UGI'}I 16,1978}
+                     C lof•cmDIGfllourru~ll Ltd., 1978
+
+
+                                                                  33
+
+        Approved For Release ~AS&.lf!LED-oo788R001800190001-3

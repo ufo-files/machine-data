@@ -1,0 +1,5835 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2013-09-30---NASA---Asteroid-Initiative-Workshop----Asteroid-Redirection-Systems-Part-2-of-3-_tGhXcGztpI8---transcript-automated-.pdf", "source_sha256": "9d77996eace557f6bc1d4c65f736222fec0bb8b808813701d8de961f7f553768", "source_bytes": 226335, "source_mtime": 1790768224, "source_mtime_ns": 1790768224951997622, "source_ctime_ns": 1790768225050448081, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T21:43:27.619581+00:00"}
+
+1
+00:00:05,030 --> 00:00:02,790
+okay good afternoon welcome back to the
+
+2
+00:00:06,710 --> 00:00:05,040
+asteroid observation session uh for
+
+3
+00:00:08,629 --> 00:00:06,720
+those of you online again just as a
+
+4
+00:00:11,669 --> 00:00:08,639
+reminder you can follow along at the
+
+5
+00:00:14,150 --> 00:00:11,679
+website www.nasa.gov
+
+6
+00:00:16,710 --> 00:00:14,160
+asteroid workshop and also follow along
+
+7
+00:00:18,630 --> 00:00:16,720
+on the hashtag find asteroids our next
+
+8
+00:00:20,470 --> 00:00:18,640
+speaker is coming to us from born
+
+9
+00:00:22,230 --> 00:00:20,480
+jeffrey mitchell he'll be talking to us
+
+10
+00:00:24,230 --> 00:00:22,240
+about a web portal for aggregating
+
+11
+00:00:27,109 --> 00:00:24,240
+disseminating and standardizing
+
+12
+00:00:28,070 --> 00:00:27,119
+observations jeffrey over to you
+
+13
+00:00:29,910 --> 00:00:28,080
+thanks
+
+14
+00:00:31,990 --> 00:00:29,920
+i'm jeff mitchell and i have a concept
+
+15
+00:00:34,150 --> 00:00:32,000
+for an online research collaboration
+
+16
+00:00:36,229 --> 00:00:34,160
+system i envision this concept creating
+
+17
+00:00:38,869 --> 00:00:36,239
+a highly interconnected network of
+
+18
+00:00:40,549 --> 00:00:38,879
+researchers volunteers and facilities my
+
+19
+00:00:42,549 --> 00:00:40,559
+goal today is to enlist the help of
+
+20
+00:00:44,950 --> 00:00:42,559
+observation domain experts in the final
+
+21
+00:00:46,950 --> 00:00:44,960
+design phase of this system by focusing
+
+22
+00:00:52,229 --> 00:00:46,960
+on what's possible for such a system i
+
+23
+00:00:55,590 --> 00:00:53,670
+some of the system goals will be to
+
+24
+00:00:57,270 --> 00:00:55,600
+facilitate communication increase
+
+25
+00:00:58,950 --> 00:00:57,280
+visibility lines of research to the
+26
+00:01:00,869 --> 00:00:58,960
+public and the observation research
+
+27
+00:01:02,790 --> 00:01:00,879
+community to remove barriers to
+
+28
+00:01:04,789 --> 00:01:02,800
+participating in projects that would
+
+29
+00:01:07,270 --> 00:01:04,799
+benefit from volunteers or even a wider
+
+30
+00:01:09,190 --> 00:01:07,280
+base of professional researchers
+
+31
+00:01:11,030 --> 00:01:09,200
+to provide a provided equipment
+
+32
+00:01:12,550 --> 00:01:11,040
+coordination and computational support
+
+33
+00:01:15,030 --> 00:01:12,560
+through interface and interoperability
+
+34
+00:01:18,149 --> 00:01:15,040
+standardization and use the power of a
+
+35
+00:01:19,670 --> 00:01:18,159
+research network to uncover new pro
+
+36
+00:01:23,510 --> 00:01:19,680
+to uncover new insights and
+
+37
+00:01:27,830 --> 00:01:25,670
+and facilitating communication
+
+38
+00:01:29,990 --> 00:01:27,840
+will provide a single point of focus for
+
+39
+00:01:32,310 --> 00:01:30,000
+a project status quickly identify
+
+40
+00:01:35,109 --> 00:01:32,320
+relationships between projects that so
+
+41
+00:01:37,030 --> 00:01:35,119
+that duplicate efforts can be identified
+
+42
+00:01:39,109 --> 00:01:37,040
+provide very detailed chronological
+
+43
+00:01:40,870 --> 00:01:39,119
+records of events and discoveries and
+
+44
+00:01:43,510 --> 00:01:40,880
+allow a principal researcher to quickly
+
+45
+00:01:45,510 --> 00:01:43,520
+promote the urgency of a given
+
+46
+00:01:51,510 --> 00:01:45,520
+of a given task or sub-project to the
+
+47
+00:01:54,630 --> 00:01:53,270
+we need efficient collaboration we need
+
+48
+00:01:56,550 --> 00:01:54,640
+to make sure that we reduce the
+
+49
+00:01:58,870 --> 00:01:56,560
+onboarding work for a principal research
+
+50
+00:02:01,190 --> 00:01:58,880
+team so the volunteers contributions
+51
+00:02:02,870 --> 00:02:01,200
+result in a net gain in productivity
+
+52
+00:02:04,950 --> 00:02:02,880
+also the most
+
+53
+00:02:07,270 --> 00:02:04,960
+valuable volunteers are most likely busy
+
+54
+00:02:09,350 --> 00:02:07,280
+individuals as well and the quicker they
+
+55
+00:02:11,270 --> 00:02:09,360
+can become productive the better the
+
+56
+00:02:13,190 --> 00:02:11,280
+system would create an efficient on-ramp
+
+57
+00:02:15,030 --> 00:02:13,200
+so that forward progress of a project
+
+58
+00:02:17,589 --> 00:02:15,040
+isn't hampered by the merging of new
+
+59
+00:02:19,030 --> 00:02:17,599
+participants with the project
+
+60
+00:02:21,110 --> 00:02:19,040
+this would be by allowing for
+
+61
+00:02:22,390 --> 00:02:21,120
+prospective volunteers to watch and
+
+62
+00:02:25,110 --> 00:02:22,400
+learn by
+
+63
+00:02:26,630 --> 00:02:25,120
+before attempting to contribute
+
+64
+00:02:28,390 --> 00:02:26,640
+knowledge transfer to the project's
+
+65
+00:02:29,670 --> 00:02:28,400
+network becomes a force multiplier for
+
+66
+00:02:31,430 --> 00:02:29,680
+the researcher
+
+67
+00:02:34,070 --> 00:02:31,440
+education and onboarding materials are
+
+68
+00:02:35,910 --> 00:02:34,080
+continually improved by the network so
+
+69
+00:02:37,830 --> 00:02:35,920
+that the network begins to take on the
+
+70
+00:02:42,790 --> 00:02:37,840
+tasks associated with making new members
+
+71
+00:02:47,030 --> 00:02:44,710
+these next few areas are where i feel
+
+72
+00:02:49,750 --> 00:02:47,040
+this system differentiates itself from
+
+73
+00:02:51,350 --> 00:02:49,760
+content management systems or wikis
+
+74
+00:02:53,430 --> 00:02:51,360
+which are already being used to some
+
+75
+00:02:55,190 --> 00:02:53,440
+degree to fulfill the first two goals
+76
+00:02:57,830 --> 00:02:55,200
+though not in the detail and volume iron
+
+77
+00:02:59,670 --> 00:02:57,840
+vision for this system this next goal
+
+78
+00:03:01,350 --> 00:02:59,680
+involves providing a gateway for data
+
+79
+00:03:03,110 --> 00:03:01,360
+and numerical analysis especially in
+
+80
+00:03:05,509 --> 00:03:03,120
+cases where there may be no public
+
+81
+00:03:07,110 --> 00:03:05,519
+gateway at all jpl horizons and the
+
+82
+00:03:08,869 --> 00:03:07,120
+minor planet center's web portal have
+
+83
+00:03:11,430 --> 00:03:08,879
+great access but i can guess that not
+
+84
+00:03:13,990 --> 00:03:11,440
+all facilities having data relevant to
+
+85
+00:03:15,670 --> 00:03:14,000
+an observation project or have available
+
+86
+00:03:17,270 --> 00:03:15,680
+computational power
+
+87
+00:03:19,270 --> 00:03:17,280
+have this type of interface so a
+
+88
+00:03:20,550 --> 00:03:19,280
+simplified way to provide that should be
+
+89
+00:03:21,830 --> 00:03:20,560
+beneficial
+
+90
+00:03:23,830 --> 00:03:21,840
+this will be done by providing a
+
+91
+00:03:26,070 --> 00:03:23,840
+framework in which manual computations
+
+92
+00:03:27,830 --> 00:03:26,080
+can be performed commonly formatted
+
+93
+00:03:30,070 --> 00:03:27,840
+aggregated and vetted by the research
+
+94
+00:03:31,910 --> 00:03:30,080
+project's network participants
+
+95
+00:03:34,070 --> 00:03:31,920
+can harness the untapped computational
+
+96
+00:03:36,070 --> 00:03:34,080
+powers of idle desktops or even idle
+
+97
+00:03:37,430 --> 00:03:36,080
+data centers one method might be
+
+98
+00:03:39,589 --> 00:03:37,440
+internet scale clustering through
+
+99
+00:03:40,550 --> 00:03:39,599
+message passing interfaces another
+
+100
+00:03:42,390 --> 00:03:40,560
+method
+101
+00:03:44,470 --> 00:03:42,400
+would simply be grabbing a data set
+
+102
+00:03:46,550 --> 00:03:44,480
+doing some type of numerical analysis on
+
+103
+00:03:48,390 --> 00:03:46,560
+that data set and returning
+
+104
+00:03:50,309 --> 00:03:48,400
+standardized result set
+
+105
+00:03:52,789 --> 00:03:50,319
+provide project integration points or
+
+106
+00:03:55,030 --> 00:03:52,799
+gateways to existing systems containing
+
+107
+00:03:57,350 --> 00:03:55,040
+data that might be of use but otherwise
+
+108
+00:03:59,910 --> 00:03:57,360
+has no public interface this will be
+
+109
+00:04:01,670 --> 00:03:59,920
+achieved partially through simple and
+
+110
+00:04:07,270 --> 00:04:01,680
+standardized application programming
+
+111
+00:04:11,429 --> 00:04:09,589
+graph databases represent an alternate
+
+112
+00:04:13,589 --> 00:04:11,439
+way for a software system to persist
+
+113
+00:04:15,750 --> 00:04:13,599
+data that uses attributes of data
+
+114
+00:04:18,150 --> 00:04:15,760
+objects to create connections or paths
+
+115
+00:04:20,229 --> 00:04:18,160
+to other data it's widely used by social
+
+116
+00:04:22,710 --> 00:04:20,239
+networking platforms to connect people
+
+117
+00:04:24,629 --> 00:04:22,720
+but are proposed to use it to expose new
+
+118
+00:04:27,030 --> 00:04:24,639
+connections among research ideas
+
+119
+00:04:29,430 --> 00:04:27,040
+facilities and discoveries it exposes
+
+120
+00:04:31,189 --> 00:04:29,440
+this technology daily this technology is
+
+121
+00:04:32,629 --> 00:04:31,199
+currently being used to create a profile
+
+122
+00:04:34,629 --> 00:04:32,639
+of you based on things like what you
+
+123
+00:04:36,230 --> 00:04:34,639
+normally normally purchase and what you
+
+124
+00:04:38,390 --> 00:04:36,240
+search for on the internet these
+
+125
+00:04:40,550 --> 00:04:38,400
+attributes are used to predict things
+126
+00:04:42,629 --> 00:04:40,560
+like whether a credit card transaction
+
+127
+00:04:44,390 --> 00:04:42,639
+is fraudulent or what ads to show you
+
+128
+00:04:47,189 --> 00:04:44,400
+it's one of my personal missions to use
+
+129
+00:04:53,189 --> 00:04:47,199
+graph database technologies to a greater
+
+130
+00:04:56,550 --> 00:04:54,790
+i like to use a software engineering
+
+131
+00:04:58,150 --> 00:04:56,560
+technique that involves storyboarding at
+
+132
+00:04:59,990 --> 00:04:58,160
+a high level this mimics the same
+
+133
+00:05:02,230 --> 00:05:00,000
+process that scenes from a screenplay
+
+134
+00:05:04,870 --> 00:05:02,240
+are laid out in a movie to lay out how a
+
+135
+00:05:06,629 --> 00:05:04,880
+user will interact with this system so
+
+136
+00:05:08,790 --> 00:05:06,639
+far what i've laid out are like props
+
+137
+00:05:10,950 --> 00:05:08,800
+locations and actions that are available
+
+138
+00:05:12,469 --> 00:05:10,960
+to us perhaps now let's look at some
+
+139
+00:05:14,790 --> 00:05:12,479
+attributes of a few of the people that
+
+140
+00:05:16,390 --> 00:05:14,800
+might participate in such such a system
+
+141
+00:05:18,629 --> 00:05:16,400
+they're called actors in this design
+
+142
+00:05:20,150 --> 00:05:18,639
+methodology leveraging graph technology
+
+143
+00:05:22,230 --> 00:05:20,160
+these attributes would be how
+
+144
+00:05:23,909 --> 00:05:22,240
+researchers will interact with will
+
+145
+00:05:25,749 --> 00:05:23,919
+intersect with volunteers and other
+
+146
+00:05:31,749 --> 00:05:25,759
+professionals doing similar work and
+
+147
+00:05:34,950 --> 00:05:33,270
+so some of the attributes of a
+
+148
+00:05:37,510 --> 00:05:34,960
+researcher might be
+
+149
+00:05:39,749 --> 00:05:37,520
+areas of specialization current projects
+
+150
+00:05:41,909 --> 00:05:39,759
+primary focus access to facilities and
+151
+00:05:43,830 --> 00:05:41,919
+past publications
+
+152
+00:05:45,909 --> 00:05:43,840
+a volunteer would also have a profile or
+
+153
+00:05:47,909 --> 00:05:45,919
+a set of attributes being areas of
+
+154
+00:05:49,270 --> 00:05:47,919
+interest relevant skills availability
+
+155
+00:05:52,629 --> 00:05:49,280
+and what is it basically what their
+
+156
+00:05:54,230 --> 00:05:52,639
+commitment level is maybe a past history
+
+157
+00:06:00,230 --> 00:05:54,240
+and they may even have relevant
+
+158
+00:06:04,070 --> 00:06:01,990
+the project is really the main character
+
+159
+00:06:05,749 --> 00:06:04,080
+this it's not only it's not exactly an
+
+160
+00:06:06,790 --> 00:06:05,759
+actor but it's the central focus of this
+
+161
+00:06:08,790 --> 00:06:06,800
+system
+
+162
+00:06:10,629 --> 00:06:08,800
+examples of a project might be orbital
+
+163
+00:06:12,230 --> 00:06:10,639
+characterization of a near-earth object
+
+164
+00:06:13,830 --> 00:06:12,240
+or the development of a new technique or
+
+165
+00:06:15,670 --> 00:06:13,840
+observation pattern
+
+166
+00:06:17,189 --> 00:06:15,680
+here's some of the attributes that
+
+167
+00:06:19,590 --> 00:06:17,199
+create the connection between the
+
+168
+00:06:22,469 --> 00:06:19,600
+projects it has a subject a series of
+
+169
+00:06:24,469 --> 00:06:22,479
+subjects it has participants it has ever
+
+170
+00:06:26,710 --> 00:06:24,479
+growing content contribution from simple
+
+171
+00:06:28,710 --> 00:06:26,720
+status posts to detail
+
+172
+00:06:31,189 --> 00:06:28,720
+calculations and beyond it has
+
+173
+00:06:33,189 --> 00:06:31,199
+interfaces the necessary systems and it
+
+174
+00:06:39,110 --> 00:06:33,199
+likely descends from a broader apparent
+
+175
+00:06:42,629 --> 00:06:40,550
+in closing in the short time that i've
+176
+00:06:44,150 --> 00:06:42,639
+had i hope that i'll give you enough of
+
+177
+00:06:46,230 --> 00:06:44,160
+a picture of what's possible in such a
+
+178
+00:06:47,270 --> 00:06:46,240
+system to generate some interest i'll be
+
+179
+00:06:49,510 --> 00:06:47,280
+happy to
+
+180
+00:06:50,870 --> 00:06:49,520
+expand further and short and in staying
+
+181
+00:06:52,629 --> 00:06:50,880
+with the storyboarding principle i
+
+182
+00:06:54,550 --> 00:06:52,639
+referenced earlier i need help from
+
+183
+00:06:56,390 --> 00:06:54,560
+leaders and experts in the observation
+
+184
+00:06:58,629 --> 00:06:56,400
+field to build it build the detailed
+
+185
+00:07:00,150 --> 00:06:58,639
+story points of this system i'm jeff
+
+186
+00:07:07,909 --> 00:07:00,160
+mitchell please contact me if you're
+
+187
+00:07:14,390 --> 00:07:11,110
+okay any questions in the room for
+
+188
+00:07:17,510 --> 00:07:15,430
+anyone
+
+189
+00:07:20,390 --> 00:07:17,520
+nothing online
+
+190
+00:07:21,510 --> 00:07:20,400
+okay thank you jeff uh if we could
+
+191
+00:07:23,270 --> 00:07:21,520
+move to the
+
+192
+00:07:26,550 --> 00:07:23,280
+next speaker
+
+193
+00:07:28,710 --> 00:07:26,560
+which is uh the dim uh seminyovic
+
+194
+00:07:30,550 --> 00:07:28,720
+from the kharkov uh national university
+
+195
+00:07:39,749 --> 00:07:30,560
+in ukraine
+
+196
+00:07:45,830 --> 00:07:42,710
+vadim can you hear me
+
+197
+00:07:47,430 --> 00:07:45,840
+yesterday okay can you uh speak a little
+
+198
+00:07:50,629 --> 00:07:47,440
+bit louder and closer to your microphone
+
+199
+00:08:13,350 --> 00:07:51,350
+no
+
+200
+00:08:14,950 --> 00:08:13,360
+yes please start
+201
+00:08:17,189 --> 00:08:14,960
+okay okay
+
+202
+00:08:18,629 --> 00:08:17,199
+the topic of my
+
+203
+00:08:21,029 --> 00:08:18,639
+presentation is software for
+
+204
+00:08:30,070 --> 00:08:21,039
+professional asteroids survey frame
+
+205
+00:08:35,670 --> 00:08:32,149
+creativeness is a key factor
+
+206
+00:08:37,990 --> 00:08:35,680
+in discovery of nea or pha modern
+
+207
+00:08:40,230 --> 00:08:38,000
+asteroid survey kills many planes during
+
+208
+00:08:42,949 --> 00:08:40,240
+the night especially will be unable to
+
+209
+00:08:44,949 --> 00:08:42,959
+verify this promptly with uniform
+
+210
+00:08:47,350 --> 00:08:44,959
+quality in the blinking mode
+
+211
+00:08:49,509 --> 00:08:47,360
+this obstacle is a challenging one for
+
+212
+00:08:52,870 --> 00:08:49,519
+large aperture who might
+
+213
+00:08:55,829 --> 00:08:52,880
+feel difficult this is a few of which
+
+214
+00:08:57,190 --> 00:08:55,839
+can include currently up to millions of
+
+215
+00:09:01,190 --> 00:08:57,200
+points
+
+216
+00:09:05,110 --> 00:09:04,070
+of surfboards so it is not something but
+
+217
+00:09:07,509 --> 00:09:05,120
+there is
+
+218
+00:09:09,430 --> 00:09:07,519
+a reference
+
+219
+00:09:11,590 --> 00:09:09,440
+presently call it ex
+
+220
+00:09:13,509 --> 00:09:11,600
+throws the problem of roasted frames of
+
+221
+00:09:15,430 --> 00:09:13,519
+current knight asteroids through it to
+
+222
+00:09:17,350 --> 00:09:15,440
+detect asteroids automatically with
+
+223
+00:09:18,790 --> 00:09:17,360
+subsequent visual confirmation of
+
+224
+00:09:21,829 --> 00:09:18,800
+results
+
+225
+00:09:24,949 --> 00:09:21,839
+context software executes executes in
+226
+00:09:31,030 --> 00:09:24,959
+reference for four slides in the serious
+
+227
+00:09:36,070 --> 00:09:33,269
+the core of quality software consists in
+
+228
+00:09:37,670 --> 00:09:36,080
+preliminary detection of objects based
+
+229
+00:09:40,070 --> 00:09:37,680
+on accumulation of statistical
+
+230
+00:09:42,790 --> 00:09:40,080
+proportional to the energy of signals
+
+231
+00:09:44,870 --> 00:09:42,800
+along possible objects motion paths such
+
+232
+00:09:46,790 --> 00:09:44,880
+accumulation is performed by by
+
+233
+00:09:49,269 --> 00:09:46,800
+multivariate transformation of
+
+234
+00:09:51,350 --> 00:09:49,279
+coordinates of objects two-stage
+
+235
+00:09:52,790 --> 00:09:51,360
+execution stabilizes
+
+236
+00:09:56,470 --> 00:09:52,800
+computational
+
+237
+00:09:59,030 --> 00:09:56,480
+over here at an acceptable level
+
+238
+00:10:01,910 --> 00:09:59,040
+at the first stage this information is
+
+239
+00:10:04,949 --> 00:10:01,920
+equivalent to the hulk transform
+
+240
+00:10:09,509 --> 00:10:04,959
+one can say the program is a two-stage
+
+241
+00:10:13,509 --> 00:10:11,670
+the features of polytech software
+
+242
+00:10:15,190 --> 00:10:13,519
+implementation hello
+
+243
+00:10:17,110 --> 00:10:15,200
+to the possibility of
+
+244
+00:10:22,230 --> 00:10:17,120
+effective applications
+
+245
+00:10:22,240 --> 00:10:28,230
+the olds mode is especially significant
+
+246
+00:10:35,030 --> 00:10:30,870
+it flows for near real-time data system
+
+247
+00:10:36,470 --> 00:10:35,040
+and domain of more population objects
+
+248
+00:10:41,670 --> 00:10:36,480
+and not
+
+249
+00:10:47,430 --> 00:10:43,829
+and very diverse objects there's a very
+
+250
+00:10:50,389 --> 00:10:47,440
+slow inflection views like our example
+251
+00:10:52,470 --> 00:10:50,399
+the comet ison which is a very popular
+
+252
+00:10:54,550 --> 00:10:52,480
+delete
+
+253
+00:10:57,350 --> 00:10:54,560
+konitak visualizes its processing
+
+254
+00:11:01,750 --> 00:10:59,190
+contact software equipped with the
+
+255
+00:11:04,069 --> 00:11:01,760
+modern viewer of obtain as result is a
+
+256
+00:11:06,470 --> 00:11:04,079
+user-friendly gui that you will run
+
+257
+00:11:09,030 --> 00:11:06,480
+independently of the main program it can
+
+258
+00:11:11,110 --> 00:11:09,040
+be used for independent review of
+
+259
+00:11:14,550 --> 00:11:11,120
+qualitative operation results when the
+
+260
+00:11:16,949 --> 00:11:14,560
+main program is producing data
+
+261
+00:11:19,110 --> 00:11:16,959
+a mobile version of the viewer is
+
+262
+00:11:21,430 --> 00:11:19,120
+available connected operation results
+
+263
+00:11:23,190 --> 00:11:21,440
+can be monitored from anywhere of the in
+
+264
+00:11:25,910 --> 00:11:23,200
+the world
+
+265
+00:11:28,310 --> 00:11:25,920
+all that is required is
+
+266
+00:11:31,829 --> 00:11:28,320
+any modern smartphones available or
+
+267
+00:11:33,750 --> 00:11:31,839
+laptops running of any os platform after
+
+268
+00:11:36,069 --> 00:11:33,760
+connecting to our web interface you can
+
+269
+00:11:38,470 --> 00:11:36,079
+perform different operations for example
+
+270
+00:11:40,870 --> 00:11:38,480
+send the report to mpc including quick
+
+271
+00:11:43,670 --> 00:11:40,880
+report 2 and eoct
+
+272
+00:11:46,630 --> 00:11:43,680
+when authorities see a direction time is
+
+273
+00:11:49,190 --> 00:11:46,640
+critical it can be increased by reducing
+
+274
+00:11:50,710 --> 00:11:49,200
+the nea discovery confirmation time
+
+275
+00:11:51,990 --> 00:11:50,720
+there's no need to wait for new
+276
+00:11:54,230 --> 00:11:52,000
+observations
+
+277
+00:11:57,110 --> 00:11:54,240
+often it's suspicious to have
+
+278
+00:12:00,790 --> 00:11:57,120
+information contained public access ages
+
+279
+00:12:03,190 --> 00:12:00,800
+race automatic extraction and systems
+
+280
+00:12:04,550 --> 00:12:03,200
+of observation statement results
+
+281
+00:12:05,350 --> 00:12:04,560
+from mpc
+
+282
+00:12:06,710 --> 00:12:05,360
+and
+
+283
+00:12:19,350 --> 00:12:06,720
+publicly
+
+284
+00:12:23,509 --> 00:12:21,590
+in several years however this software
+
+285
+00:12:25,350 --> 00:12:23,519
+will be developed anyway all through
+
+286
+00:12:27,829 --> 00:12:25,360
+this poor coalition
+
+287
+00:12:30,389 --> 00:12:27,839
+the first step in such system will
+
+288
+00:12:31,990 --> 00:12:30,399
+involve some storage and publication
+
+289
+00:12:35,350 --> 00:12:32,000
+software which has already been
+
+290
+00:12:40,150 --> 00:12:37,190
+the first step in developing such
+
+291
+00:12:41,190 --> 00:12:40,160
+systems will involve finance the
+
+292
+00:12:43,190 --> 00:12:41,200
+storage
+
+293
+00:12:45,110 --> 00:12:43,200
+publication software which has already
+
+294
+00:12:47,829 --> 00:12:45,120
+been developed and this will tell us
+
+295
+00:12:50,069 --> 00:12:47,839
+maintaining a frame rate and searching
+
+296
+00:12:51,269 --> 00:12:50,079
+for frames by specified parameters
+
+297
+00:12:53,990 --> 00:12:51,279
+coordinates
+
+298
+00:12:54,790 --> 00:12:54,000
+external access to the hub is provided
+
+299
+00:12:57,509 --> 00:12:54,800
+by
+
+300
+00:12:59,430 --> 00:12:57,519
+the own web interface and the led
+301
+00:13:01,910 --> 00:12:59,440
+software it allows you an additional
+
+302
+00:13:04,829 --> 00:13:01,920
+transform from the such external
+
+303
+00:13:07,990 --> 00:13:04,839
+resources as
+
+304
+00:13:09,829 --> 00:13:08,000
+sdss the software has been has been
+
+305
+00:13:12,550 --> 00:13:09,839
+implemented with this
+
+306
+00:13:15,509 --> 00:13:12,560
+with the use of vo technologies
+
+307
+00:13:19,990 --> 00:13:16,470
+the
+
+308
+00:13:21,750 --> 00:13:20,000
+smart image access products
+
+309
+00:13:23,110 --> 00:13:21,760
+presently qualitative being used in
+
+310
+00:13:27,670 --> 00:13:23,120
+ukraine
+
+311
+00:13:28,710 --> 00:13:27,680
+dc and russia g00 h15 its planet to use
+
+312
+00:13:31,030 --> 00:13:28,720
+it's uh
+
+313
+00:13:33,350 --> 00:13:31,040
+it's an ambassador observatory in spain
+
+314
+00:13:35,350 --> 00:13:33,360
+and australia in
+
+315
+00:13:38,790 --> 00:13:35,360
+politics will start to be hidden risk
+
+316
+00:13:41,350 --> 00:13:38,800
+and russia that observatories in 2014
+
+317
+00:13:43,030 --> 00:13:41,360
+the republic may be used more
+
+318
+00:13:46,069 --> 00:13:43,040
+extensively in the material and of
+
+319
+00:14:01,189 --> 00:13:46,079
+course on this provide which have
+
+320
+00:14:04,150 --> 00:14:02,470
+road leave for
+
+321
+00:14:05,509 --> 00:14:04,160
+hundreds of thousands of survey
+
+322
+00:14:08,870 --> 00:14:05,519
+observations
+
+323
+00:14:13,189 --> 00:14:08,880
+during these three called c slash 2010
+
+324
+00:14:22,949 --> 00:14:13,199
+x1 elenium t slash 2011 and one
+
+325
+00:14:26,790 --> 00:14:24,949
+in over 20 years
+326
+00:14:30,629 --> 00:14:26,800
+the distribution is discovered objects
+
+327
+00:14:33,030 --> 00:14:30,639
+by adding magnitude and orbital elements
+
+328
+00:14:34,790 --> 00:14:33,040
+shown in this slide implant in previous
+
+329
+00:14:38,710 --> 00:14:34,800
+one
+
+330
+00:14:41,030 --> 00:14:38,720
+during 2011 and 2012 context was used in
+
+331
+00:14:43,110 --> 00:14:41,040
+is anthropology countries for making
+
+332
+00:14:46,470 --> 00:14:43,120
+minimum 80
+
+333
+00:14:49,269 --> 00:14:46,480
+personal observations and 75 percent of
+
+334
+00:14:52,710 --> 00:14:49,279
+the linear discoveries of asteroids by
+
+335
+00:14:59,030 --> 00:14:52,720
+the overall results of 2011 and 2012
+
+336
+00:15:03,670 --> 00:15:01,670
+telescope and quality software record
+
+337
+00:15:06,629 --> 00:15:03,680
+seventh worldwide and both number of
+
+338
+00:15:08,470 --> 00:15:06,639
+observations observations of asteroids
+
+339
+00:15:09,670 --> 00:15:08,480
+and the number of their preliminary
+
+340
+00:15:12,790 --> 00:15:09,680
+discoveries
+
+341
+00:15:15,110 --> 00:15:12,800
+the kolitek project is developed by npvr
+
+342
+00:15:18,870 --> 00:15:15,120
+it has been supported for several years
+
+343
+00:15:22,870 --> 00:15:18,880
+each organization says iphone m a o
+
+344
+00:15:24,949 --> 00:15:22,880
+n a s u and r i n s
+
+345
+00:15:27,269 --> 00:15:24,959
+and a u
+
+346
+00:15:28,550 --> 00:15:27,279
+thanks for your attention
+
+347
+00:15:39,509 --> 00:15:28,560
+any question
+
+348
+00:15:41,189 --> 00:15:39,519
+anyone in this is uh
+
+349
+00:15:43,829 --> 00:15:41,199
+bentley johnson at
+
+350
+00:15:45,829 --> 00:15:43,839
+nasa headquarters
+351
+00:15:48,710 --> 00:15:45,839
+thank you for your presentation it's
+
+352
+00:15:51,269 --> 00:15:48,720
+very very interesting to know that
+
+353
+00:15:52,230 --> 00:15:51,279
+you and the ison network has been very
+
+354
+00:15:54,870 --> 00:15:52,240
+active
+
+355
+00:15:56,550 --> 00:15:54,880
+in providing observations to the minor
+
+356
+00:15:59,670 --> 00:15:56,560
+planet center for the
+
+357
+00:16:01,350 --> 00:15:59,680
+international asteroid network
+
+358
+00:16:03,990 --> 00:16:01,360
+um
+
+359
+00:16:08,710 --> 00:16:04,000
+the audio was a little bad on the
+
+360
+00:16:17,269 --> 00:16:13,430
+so that i understand are you offering
+
+361
+00:16:17,279 --> 00:16:31,990
+to be used by other observatories
+
+362
+00:16:32,000 --> 00:16:40,949
+okay very good
+
+363
+00:16:55,829 --> 00:16:42,790
+and they can contact you through your
+
+364
+00:16:58,389 --> 00:16:57,189
+hey lindley i don't think they can hear
+
+365
+00:17:00,230 --> 00:16:58,399
+you
+
+366
+00:17:01,749 --> 00:17:00,240
+repeat the question okay let me try let
+
+367
+00:17:04,230 --> 00:17:01,759
+me try again
+
+368
+00:17:06,549 --> 00:17:04,240
+is the best way to contact you through
+
+369
+00:17:11,029 --> 00:17:06,559
+your website
+
+370
+00:17:15,829 --> 00:17:12,870
+yes yes there is a better way to contact
+
+371
+00:17:18,789 --> 00:17:15,839
+us through the website
+
+372
+00:17:20,470 --> 00:17:18,799
+okay thank you okay thank you thank you
+
+373
+00:17:22,789 --> 00:17:20,480
+very much
+
+374
+00:17:24,150 --> 00:17:22,799
+any questions
+
+375
+00:17:26,789 --> 00:17:24,160
+from the room
+376
+00:17:28,950 --> 00:17:26,799
+any questions online
+
+377
+00:17:30,630 --> 00:17:28,960
+okay thank you very much uh video thank
+
+378
+00:17:33,270 --> 00:17:30,640
+you very much
+
+379
+00:17:35,510 --> 00:17:33,280
+we could move to the um next uh topic
+
+380
+00:17:37,830 --> 00:17:35,520
+next speaker is oily lindgren for an
+
+381
+00:17:39,750 --> 00:17:37,840
+entropy limited uh going to be talking
+
+382
+00:17:41,830 --> 00:17:39,760
+about development of a high performance
+
+383
+00:17:42,630 --> 00:17:41,840
+information theory based data mining
+
+384
+00:17:45,430 --> 00:17:42,640
+tool
+
+385
+00:17:46,950 --> 00:17:45,440
+for asteroid threat determination
+
+386
+00:17:51,669 --> 00:17:46,960
+poorly
+
+387
+00:17:55,590 --> 00:17:53,990
+hello i'm ready can you
+
+388
+00:17:57,669 --> 00:17:55,600
+can you hear and see
+
+389
+00:17:59,430 --> 00:17:57,679
+yes we can hear and see your
+
+390
+00:18:02,390 --> 00:17:59,440
+presentation
+
+391
+00:18:03,990 --> 00:18:02,400
+great uh i just wanted to say i'm uh
+
+392
+00:18:06,310 --> 00:18:04,000
+presenting today
+
+393
+00:18:08,789 --> 00:18:06,320
+on behalf of my colleagues with entropy
+
+394
+00:18:12,070 --> 00:18:08,799
+limited particularly dr ronald
+
+395
+00:18:15,110 --> 00:18:12,080
+christensen who is our founder and the
+
+396
+00:18:18,549 --> 00:18:15,120
+uh resident expert on information
+
+397
+00:18:19,750 --> 00:18:18,559
+theoretic statistical data mining for us
+
+398
+00:18:21,990 --> 00:18:19,760
+and
+
+399
+00:18:25,750 --> 00:18:22,000
+a person who worked with us some
+
+400
+00:18:26,870 --> 00:18:25,760
+20 years ago when he was in physics at
+401
+00:18:30,390 --> 00:18:26,880
+harvard
+
+402
+00:18:32,070 --> 00:18:30,400
+uh stephen eichenberry
+
+403
+00:18:34,789 --> 00:18:32,080
+who
+
+404
+00:18:37,510 --> 00:18:34,799
+got his phd in astronomy from from
+
+405
+00:18:38,789 --> 00:18:37,520
+harvard and went on to
+
+406
+00:18:41,909 --> 00:18:38,799
+now
+
+407
+00:18:45,750 --> 00:18:41,919
+be a professor at florida the university
+
+408
+00:18:53,430 --> 00:18:49,590
+dr christensen was very active in the
+
+409
+00:18:54,390 --> 00:18:53,440
+early 60s late 50s early 60s
+
+410
+00:18:57,190 --> 00:18:54,400
+and
+
+411
+00:19:00,150 --> 00:18:57,200
+he developed um
+
+412
+00:19:03,190 --> 00:19:00,160
+studies of world developments in radio
+
+413
+00:19:05,430 --> 00:19:03,200
+astronomy that now are cited as part of
+
+414
+00:19:07,430 --> 00:19:05,440
+the national radio observatory
+
+415
+00:19:09,350 --> 00:19:07,440
+association's uh
+
+416
+00:19:11,830 --> 00:19:09,360
+historical database
+
+417
+00:19:14,950 --> 00:19:11,840
+and he did work at rand that was
+
+418
+00:19:16,870 --> 00:19:14,960
+classified he finished his
+
+419
+00:19:20,070 --> 00:19:16,880
+education in
+
+420
+00:19:23,669 --> 00:19:20,080
+engineering at caltech and
+
+421
+00:19:24,870 --> 00:19:23,679
+went on to harvard to do work on space
+
+422
+00:19:27,029 --> 00:19:24,880
+law
+
+423
+00:19:29,270 --> 00:19:27,039
+and so we've been interested in these
+
+424
+00:19:31,190 --> 00:19:29,280
+issues for a very long time
+
+425
+00:19:33,590 --> 00:19:31,200
+most of the work we have done
+426
+00:19:36,310 --> 00:19:33,600
+subsequently has been to
+
+427
+00:19:38,990 --> 00:19:36,320
+apply operations research
+
+428
+00:19:41,750 --> 00:19:39,000
+information theoretic uh
+
+429
+00:19:45,110 --> 00:19:41,760
+multivariate statistical analysis to
+
+430
+00:19:47,029 --> 00:19:45,120
+prediction of difficult problems in a
+
+431
+00:19:48,310 --> 00:19:47,039
+number of areas
+
+432
+00:19:50,150 --> 00:19:48,320
+um
+
+433
+00:19:51,990 --> 00:19:50,160
+let's see if i can switch to the next
+
+434
+00:19:54,470 --> 00:19:52,000
+slide
+
+435
+00:20:00,070 --> 00:19:54,480
+not quite sure how to do that but let's
+
+436
+00:20:04,870 --> 00:20:02,789
+can somebody switch the slide for me
+
+437
+00:20:08,230 --> 00:20:04,880
+there we go
+
+438
+00:20:12,070 --> 00:20:08,240
+we believe that there are uh challenges
+
+439
+00:20:15,190 --> 00:20:12,080
+um of uh uncertainty and error
+
+440
+00:20:15,909 --> 00:20:15,200
+uh certainly in near-earth object
+
+441
+00:20:17,990 --> 00:20:15,919
+uh
+
+442
+00:20:21,669 --> 00:20:18,000
+asteroid threat characterization
+
+443
+00:20:22,870 --> 00:20:21,679
+identification characterization
+
+444
+00:20:24,310 --> 00:20:22,880
+and
+
+445
+00:20:26,310 --> 00:20:24,320
+we
+
+446
+00:20:27,750 --> 00:20:26,320
+have
+
+447
+00:20:31,190 --> 00:20:27,760
+a belief
+
+448
+00:20:33,270 --> 00:20:31,200
+based upon discussions with
+
+449
+00:20:37,029 --> 00:20:33,280
+with university of florida and others
+
+450
+00:20:37,830 --> 00:20:37,039
+that our methodology could be useful
+451
+00:20:40,789 --> 00:20:37,840
+and
+
+452
+00:20:43,510 --> 00:20:40,799
+we are offering to
+
+453
+00:20:45,669 --> 00:20:43,520
+to do research in conjunction with many
+
+454
+00:20:48,870 --> 00:20:45,679
+others around the world
+
+455
+00:20:50,470 --> 00:20:48,880
+applying our entropy minimax pattern
+
+456
+00:20:53,110 --> 00:20:50,480
+discovery method
+
+457
+00:20:54,630 --> 00:20:53,120
+but moreover we think it's timely
+
+458
+00:20:56,470 --> 00:20:54,640
+to
+
+459
+00:20:59,110 --> 00:20:56,480
+identify
+
+460
+00:21:02,789 --> 00:20:59,120
+on a on a world scale what are these
+
+461
+00:21:05,110 --> 00:21:02,799
+main challenges of uncertainty and error
+
+462
+00:21:07,590 --> 00:21:05,120
+and what
+
+463
+00:21:11,110 --> 00:21:07,600
+what are some of the
+
+464
+00:21:15,270 --> 00:21:13,430
+statistical data mining methods that
+
+465
+00:21:17,909 --> 00:21:15,280
+have been used
+
+466
+00:21:20,310 --> 00:21:17,919
+successfully so far to address some of
+
+467
+00:21:23,029 --> 00:21:20,320
+those problems and what are some of the
+
+468
+00:21:25,430 --> 00:21:23,039
+challenges that remain
+
+469
+00:21:28,230 --> 00:21:25,440
+let's go to the next slide look forward
+
+470
+00:21:32,710 --> 00:21:30,470
+collaborating and
+
+471
+00:21:35,590 --> 00:21:32,720
+understanding what our tools and what
+
+472
+00:21:39,590 --> 00:21:35,600
+these other tools can do
+
+473
+00:21:41,510 --> 00:21:39,600
+to help model in a probabilistic way and
+
+474
+00:21:43,430 --> 00:21:41,520
+classify asteroid
+
+475
+00:21:46,070 --> 00:21:43,440
+properties and predict their orbital
+476
+00:21:49,350 --> 00:21:46,080
+elements from partial data
+
+477
+00:21:51,990 --> 00:21:49,360
+and to help to validate the threat
+
+478
+00:21:54,789 --> 00:21:52,000
+likelihood of earth impacts
+
+479
+00:21:56,310 --> 00:21:54,799
+and we believe that there are many tools
+
+480
+00:21:58,950 --> 00:21:56,320
+out there
+
+481
+00:22:01,510 --> 00:21:58,960
+in the nasa and other
+
+482
+00:22:03,510 --> 00:22:01,520
+national science foundations and
+
+483
+00:22:05,350 --> 00:22:03,520
+department of energy sponsored programs
+
+484
+00:22:07,029 --> 00:22:05,360
+as well as european and other countries
+
+485
+00:22:10,230 --> 00:22:07,039
+sponsored programs
+
+486
+00:22:12,710 --> 00:22:10,240
+uh that warrant demonstration let's go
+
+487
+00:22:13,990 --> 00:22:12,720
+to the next slide
+
+488
+00:22:16,789 --> 00:22:14,000
+now some of the
+
+489
+00:22:18,390 --> 00:22:16,799
+uh simple things that our tools do and
+
+490
+00:22:20,070 --> 00:22:18,400
+do routinely
+
+491
+00:22:22,230 --> 00:22:20,080
+uh in very
+
+492
+00:22:23,430 --> 00:22:22,240
+complex large databases where we're
+
+493
+00:22:27,350 --> 00:22:23,440
+dealing with
+
+494
+00:22:31,190 --> 00:22:27,360
+uh rare events and have to struggle with
+
+495
+00:22:33,590 --> 00:22:31,200
+the co-linearity and non-linearity and
+
+496
+00:22:35,590 --> 00:22:33,600
+missing data and so forth we find
+
+497
+00:22:37,590 --> 00:22:35,600
+missing data fill the gaps with
+
+498
+00:22:40,630 --> 00:22:37,600
+probabilistic estimates
+
+499
+00:22:42,789 --> 00:22:40,640
+we believe that some of those methods
+
+500
+00:22:45,190 --> 00:22:42,799
+could be useful
+501
+00:22:46,390 --> 00:22:45,200
+current currently
+
+502
+00:22:49,830 --> 00:22:46,400
+we do that
+
+503
+00:22:51,430 --> 00:22:49,840
+based upon understanding
+
+504
+00:22:53,750 --> 00:22:51,440
+databases where
+
+505
+00:22:55,029 --> 00:22:53,760
+there is not missing data and then
+
+506
+00:22:55,990 --> 00:22:55,039
+controlling
+
+507
+00:22:58,070 --> 00:22:56,000
+uh
+
+508
+00:23:00,470 --> 00:22:58,080
+to develop the predictive modeling
+
+509
+00:23:02,549 --> 00:23:00,480
+systems for filling in that data and and
+
+510
+00:23:03,590 --> 00:23:02,559
+then carefully keeping track of it so
+
+511
+00:23:06,470 --> 00:23:03,600
+you can
+
+512
+00:23:10,149 --> 00:23:06,480
+account for what you've filled in and go
+
+513
+00:23:13,029 --> 00:23:10,159
+back and monitor and change it
+
+514
+00:23:16,470 --> 00:23:13,039
+the data distributions we have
+
+515
+00:23:20,070 --> 00:23:16,480
+through the years developed analysis of
+
+516
+00:23:22,310 --> 00:23:20,080
+more than 100 non-normally distributed
+
+517
+00:23:25,909 --> 00:23:22,320
+uh uh
+
+518
+00:23:28,390 --> 00:23:25,919
+distributions and have specified the
+
+519
+00:23:32,230 --> 00:23:28,400
+developed created algorithms and
+
+520
+00:23:36,710 --> 00:23:34,630
+estimating the parameters and computing
+
+521
+00:23:38,549 --> 00:23:36,720
+the probabilities we believe those many
+
+522
+00:23:39,750 --> 00:23:38,559
+of those will be relevant
+
+523
+00:23:41,750 --> 00:23:39,760
+to the
+
+524
+00:23:43,750 --> 00:23:41,760
+near-earth object asteroid
+
+525
+00:23:45,669 --> 00:23:43,760
+characterization problems that we're
+526
+00:23:46,870 --> 00:23:45,679
+facing now and that our method of
+
+527
+00:23:48,870 --> 00:23:46,880
+developing
+
+528
+00:23:52,310 --> 00:23:48,880
+the data distribution
+
+529
+00:23:53,510 --> 00:23:52,320
+um publications and software can be
+
+530
+00:23:54,870 --> 00:23:53,520
+applied
+
+531
+00:23:55,990 --> 00:23:54,880
+in this field
+
+532
+00:23:57,350 --> 00:23:56,000
+with good
+
+533
+00:23:59,430 --> 00:23:57,360
+utility
+
+534
+00:24:01,190 --> 00:23:59,440
+finally multivariate probabilities and
+
+535
+00:24:04,390 --> 00:24:01,200
+uncertainties
+
+536
+00:24:07,029 --> 00:24:04,400
+is the area of handling non-linearity
+
+537
+00:24:10,390 --> 00:24:07,039
+and big data from modeling and rapidly
+
+538
+00:24:13,350 --> 00:24:10,400
+estimating and finding rare outcomes
+
+539
+00:24:14,390 --> 00:24:13,360
+our software has been developed since
+
+540
+00:24:18,950 --> 00:24:14,400
+the
+
+541
+00:24:21,669 --> 00:24:18,960
+was at a great premium we have through
+
+542
+00:24:23,909 --> 00:24:21,679
+the years work to make them run
+
+543
+00:24:26,390 --> 00:24:23,919
+very very fast on
+
+544
+00:24:29,190 --> 00:24:26,400
+modern computers and believe that we
+
+545
+00:24:31,190 --> 00:24:29,200
+could meet the challenge of very big
+
+546
+00:24:33,350 --> 00:24:31,200
+very fast data
+
+547
+00:24:34,870 --> 00:24:33,360
+and that we some of the methods could be
+
+548
+00:24:37,590 --> 00:24:34,880
+translated
+
+549
+00:24:40,230 --> 00:24:37,600
+into firmware that could be built in to
+
+550
+00:24:42,789 --> 00:24:40,240
+some of the systems that need to deal
+551
+00:24:43,510 --> 00:24:42,799
+very rapidly characterizing uncertainty
+
+552
+00:24:44,390 --> 00:24:43,520
+in
+
+553
+00:24:46,549 --> 00:24:44,400
+and
+
+554
+00:24:49,830 --> 00:24:46,559
+making probabilistic
+
+555
+00:24:52,470 --> 00:24:49,840
+estimates next slide please
+
+556
+00:24:55,350 --> 00:24:52,480
+we're actively fostering collaboration
+
+557
+00:24:57,190 --> 00:24:55,360
+we've we've discovered
+
+558
+00:24:59,909 --> 00:24:57,200
+many publications
+
+559
+00:25:02,950 --> 00:24:59,919
+and many scientists working
+
+560
+00:25:03,830 --> 00:25:02,960
+throughout the u.s and abroad
+
+561
+00:25:05,470 --> 00:25:03,840
+and
+
+562
+00:25:07,350 --> 00:25:05,480
+our
+
+563
+00:25:10,070 --> 00:25:07,360
+multi-disciplinary specialists would
+
+564
+00:25:12,230 --> 00:25:10,080
+very much like to collaborate with nasa
+
+565
+00:25:15,830 --> 00:25:12,240
+and these centers the next slide let's
+
+566
+00:25:17,510 --> 00:25:15,840
+run through these slides rather rapidly
+
+567
+00:25:22,470 --> 00:25:17,520
+we are
+
+568
+00:25:25,430 --> 00:25:22,480
+let's go on through with ffrdc's
+
+569
+00:25:28,549 --> 00:25:25,440
+for the national science foundation doe
+
+570
+00:25:31,510 --> 00:25:28,559
+dod dhs and white house programs next
+
+571
+00:25:39,029 --> 00:25:36,230
+and various missions of nasa
+
+572
+00:25:41,430 --> 00:25:39,039
+next slide please
+
+573
+00:25:44,070 --> 00:25:41,440
+some of the university affiliated
+
+574
+00:25:45,909 --> 00:25:44,080
+research centers particularly with uh
+
+575
+00:25:48,470 --> 00:25:45,919
+with nasa ames
+576
+00:25:50,950 --> 00:25:48,480
+uh have been leaders in the development
+
+577
+00:25:53,990 --> 00:25:50,960
+of these
+
+578
+00:25:56,310 --> 00:25:54,000
+the these data mining and uh
+
+579
+00:25:58,149 --> 00:25:56,320
+and and and other information theoretic
+
+580
+00:25:59,909 --> 00:25:58,159
+type programs
+
+581
+00:26:02,230 --> 00:25:59,919
+and we have been in touch with some of
+
+582
+00:26:04,630 --> 00:26:02,240
+their researchers and believe that
+
+583
+00:26:05,750 --> 00:26:04,640
+their publications and their published
+
+584
+00:26:07,190 --> 00:26:05,760
+software
+
+585
+00:26:11,029 --> 00:26:07,200
+should be shared
+
+586
+00:26:15,830 --> 00:26:13,830
+uh let's go on these are some of the
+
+587
+00:26:18,310 --> 00:26:15,840
+uh federally funded research and
+
+588
+00:26:21,430 --> 00:26:18,320
+development programs i've been leaders
+
+589
+00:26:23,269 --> 00:26:21,440
+in the field who have a
+
+590
+00:26:26,149 --> 00:26:23,279
+very well-trained
+
+591
+00:26:29,190 --> 00:26:26,159
+scientists and we have had some initial
+
+592
+00:26:30,470 --> 00:26:29,200
+contact and believe that they are
+
+593
+00:26:32,789 --> 00:26:30,480
+many are
+
+594
+00:26:34,310 --> 00:26:32,799
+ready to be collaborating next slide
+
+595
+00:26:37,190 --> 00:26:34,320
+please that's the national science
+
+596
+00:26:40,710 --> 00:26:37,200
+foundation department of energy
+
+597
+00:26:42,549 --> 00:26:40,720
+fermi lawrence berkeley national labs
+
+598
+00:26:44,470 --> 00:26:42,559
+they've had many projects funded that
+
+599
+00:26:47,750 --> 00:26:44,480
+deal with uncertainty and error
+
+600
+00:26:51,350 --> 00:26:47,760
+detection and
+601
+00:26:52,390 --> 00:26:51,360
+publicly available open source software
+
+602
+00:26:54,789 --> 00:26:52,400
+that will
+
+603
+00:26:57,430 --> 00:26:54,799
+we think be beneficial and should be
+
+604
+00:26:58,390 --> 00:26:57,440
+tested alongside ours uh next slide
+
+605
+00:26:59,990 --> 00:26:58,400
+please
+
+606
+00:27:00,710 --> 00:27:00,000
+you're uh running out of time
+
+607
+00:27:03,590 --> 00:27:00,720
+and
+
+608
+00:27:06,149 --> 00:27:03,600
+ready to wrap up thank you uh
+
+609
+00:27:12,789 --> 00:27:06,159
+thank you okay i'm ready for questions
+
+610
+00:27:20,230 --> 00:27:15,110
+we have time for one really quick
+
+611
+00:27:22,470 --> 00:27:21,269
+okay
+
+612
+00:27:24,389 --> 00:27:22,480
+hearing none
+
+613
+00:27:27,590 --> 00:27:24,399
+thank you early very much
+
+614
+00:27:29,110 --> 00:27:27,600
+thank you okay our next talk is by
+
+615
+00:27:32,310 --> 00:27:29,120
+clinton clark
+
+616
+00:27:34,070 --> 00:27:32,320
+uh exo analytics solutions
+
+617
+00:27:35,510 --> 00:27:34,080
+uh he's going to be speaking about
+
+618
+00:27:37,190 --> 00:27:35,520
+leveraging
+
+619
+00:27:40,710 --> 00:27:37,200
+algorithms developed for missile defense
+
+620
+00:27:42,310 --> 00:27:40,720
+agency for automated nea detection
+
+621
+00:27:44,389 --> 00:27:42,320
+uh good afternoon everybody in houston
+
+622
+00:27:45,590 --> 00:27:44,399
+and also around the world listening
+
+623
+00:27:47,350 --> 00:27:45,600
+thank you for the opportunity to talk
+
+624
+00:27:48,470 --> 00:27:47,360
+today and learn a little bit more about
+
+625
+00:27:50,070 --> 00:27:48,480
+what we do
+626
+00:27:51,430 --> 00:27:50,080
+and our capabilities for automated
+
+627
+00:27:53,510 --> 00:27:51,440
+near-earth asteroid detection and
+
+628
+00:27:55,269 --> 00:27:53,520
+characterization
+
+629
+00:27:57,110 --> 00:27:55,279
+over the past 15 years or so we've
+
+630
+00:27:59,750 --> 00:27:57,120
+developed our capabilities in support of
+
+631
+00:28:01,510 --> 00:27:59,760
+the u.s missile defense agency air force
+
+632
+00:28:03,350 --> 00:28:01,520
+and navy and in support of those
+
+633
+00:28:07,110 --> 00:28:03,360
+organizations what we've done is develop
+
+634
+00:28:09,190 --> 00:28:07,120
+the means to in real time detect track
+
+635
+00:28:12,070 --> 00:28:09,200
+determine the orbit characterize size
+
+636
+00:28:14,149 --> 00:28:12,080
+shape material etc of man-made space
+
+637
+00:28:16,230 --> 00:28:14,159
+objects from a variety of sensors
+
+638
+00:28:18,950 --> 00:28:16,240
+different cameras different lenses
+
+639
+00:28:20,549 --> 00:28:18,960
+ground-based airborne space based
+
+640
+00:28:23,590 --> 00:28:20,559
+sensors
+
+641
+00:28:25,830 --> 00:28:23,600
+for these customers and multiple bands
+
+642
+00:28:26,870 --> 00:28:25,840
+and recently in the last few months
+
+643
+00:28:28,149 --> 00:28:26,880
+we've
+
+644
+00:28:30,389 --> 00:28:28,159
+in response to this initiative done
+
+645
+00:28:32,389 --> 00:28:30,399
+internal testing and verified that these
+
+646
+00:28:33,510 --> 00:28:32,399
+tools and techniques can be applied to
+
+647
+00:28:34,470 --> 00:28:33,520
+the near earth asteroid mission and
+
+648
+00:28:36,389 --> 00:28:34,480
+that's what we're going to talk about
+
+649
+00:28:40,389 --> 00:28:36,399
+today
+
+650
+00:28:42,389 --> 00:28:40,399
+currently from our operations center in
+651
+00:28:45,029 --> 00:28:42,399
+manhattan beach california
+
+652
+00:28:46,549 --> 00:28:45,039
+we detect track and characterize
+
+653
+00:28:49,269 --> 00:28:46,559
+near-earth objects
+
+654
+00:28:51,350 --> 00:28:49,279
+using our network of small telescopes
+
+655
+00:28:53,350 --> 00:28:51,360
+government assets that we do work on and
+
+656
+00:28:54,789 --> 00:28:53,360
+our espoc software and so you're seeing
+
+657
+00:28:56,149 --> 00:28:54,799
+our software platform in the bottom
+
+658
+00:28:59,110 --> 00:28:56,159
+left-hand corner
+
+659
+00:29:01,669 --> 00:28:59,120
+what it does in real time it processes
+
+660
+00:29:03,990 --> 00:29:01,679
+the focal plane and then in addition to
+
+661
+00:29:05,669 --> 00:29:04,000
+doing the work it overlays that image on
+
+662
+00:29:07,430 --> 00:29:05,679
+a simulated sky so not only are we
+
+663
+00:29:08,950 --> 00:29:07,440
+getting the answer but we're viewing the
+
+664
+00:29:10,870 --> 00:29:08,960
+results of that answer in the context of
+
+665
+00:29:13,269 --> 00:29:10,880
+the full sky where the telescope is
+
+666
+00:29:15,029 --> 00:29:13,279
+looking and the only reason i showed the
+
+667
+00:29:16,710 --> 00:29:15,039
+picture of this scope here this is
+
+668
+00:29:18,470 --> 00:29:16,720
+actually our best piece of hardware so
+
+669
+00:29:20,070 --> 00:29:18,480
+we're not a hardware company
+
+670
+00:29:21,269 --> 00:29:20,080
+we are a software company so when we
+
+671
+00:29:22,549 --> 00:29:21,279
+talk about
+
+672
+00:29:24,310 --> 00:29:22,559
+science ready i think somebody used a
+
+673
+00:29:26,470 --> 00:29:24,320
+term earlier today in the enabling
+
+674
+00:29:28,149 --> 00:29:26,480
+amateur astronomy astronomers to
+
+675
+00:29:30,789 --> 00:29:28,159
+contribute and we're using amateur
+676
+00:29:32,789 --> 00:29:30,799
+astronomer hardware with our own uh
+
+677
+00:29:34,789 --> 00:29:32,799
+software resources
+
+678
+00:29:37,430 --> 00:29:34,799
+so we've incorporated a number of key
+
+679
+00:29:39,029 --> 00:29:37,440
+technologies into the e-spot software i
+
+680
+00:29:40,549 --> 00:29:39,039
+put this up here we're not going to talk
+
+681
+00:29:41,830 --> 00:29:40,559
+about each of these today i'm actually
+
+682
+00:29:44,310 --> 00:29:41,840
+just going to transition to the next
+
+683
+00:29:46,310 --> 00:29:44,320
+side slide and walk you through what
+
+684
+00:29:47,510 --> 00:29:46,320
+happens in real time and when i say in
+
+685
+00:29:49,190 --> 00:29:47,520
+real time
+
+686
+00:29:51,029 --> 00:29:49,200
+think of frame rates on the order of a
+
+687
+00:29:52,789 --> 00:29:51,039
+thousand hertz as being the upper limit
+
+688
+00:29:54,710 --> 00:29:52,799
+of speed where we could go let me
+
+689
+00:29:56,870 --> 00:29:54,720
+describe to you what happens when we go
+
+690
+00:29:58,389 --> 00:29:56,880
+out with our telescopes and look at the
+
+691
+00:30:00,549 --> 00:29:58,399
+sky
+
+692
+00:30:03,909 --> 00:30:00,559
+so we take an image that image comes off
+
+693
+00:30:05,350 --> 00:30:03,919
+to see off the camera into our computer
+
+694
+00:30:07,510 --> 00:30:05,360
+in real time
+
+695
+00:30:10,070 --> 00:30:07,520
+the image is processed all the sources
+
+696
+00:30:12,950 --> 00:30:10,080
+of light are identified it trains itself
+
+697
+00:30:14,710 --> 00:30:12,960
+on the fly to decide what is a star and
+
+698
+00:30:16,630 --> 00:30:14,720
+all those stars are fed into a billion
+
+699
+00:30:17,830 --> 00:30:16,640
+star star catalog that we built for the
+
+700
+00:30:19,909 --> 00:30:17,840
+mda
+701
+00:30:21,590 --> 00:30:19,919
+uses that catalog to do real-time image
+
+702
+00:30:23,909 --> 00:30:21,600
+registration and calibration and just
+
+703
+00:30:26,070 --> 00:30:23,919
+for your awareness we register to about
+
+704
+00:30:28,310 --> 00:30:26,080
+one micro radian of accuracy and we
+
+705
+00:30:29,830 --> 00:30:28,320
+calibrate brightness within about 0.1
+
+706
+00:30:31,510 --> 00:30:29,840
+visual magnitudes
+
+707
+00:30:33,110 --> 00:30:31,520
+the next step that happens is all
+
+708
+00:30:34,549 --> 00:30:33,120
+non-star sources of light are
+
+709
+00:30:35,750 --> 00:30:34,559
+adjudicated with our dim object
+
+710
+00:30:37,269 --> 00:30:35,760
+detection
+
+711
+00:30:39,510 --> 00:30:37,279
+technology and just as a point of
+
+712
+00:30:40,950 --> 00:30:39,520
+reference with the 16 inch scope that i
+
+713
+00:30:42,950 --> 00:30:40,960
+showed you on the previous slide and
+
+714
+00:30:45,590 --> 00:30:42,960
+about a 10 second integration time we
+
+715
+00:30:48,789 --> 00:30:45,600
+can get to 20th magnitude objects in the
+
+716
+00:30:50,470 --> 00:30:48,799
+skies where we have telescopes
+
+717
+00:30:51,990 --> 00:30:50,480
+once that is done we sort we look at all
+
+718
+00:30:53,510 --> 00:30:52,000
+those pieces of light again we use our
+
+719
+00:30:55,830 --> 00:30:53,520
+closely spaced object detection
+
+720
+00:30:58,389 --> 00:30:55,840
+algorithm to determine are each of these
+
+721
+00:30:59,509 --> 00:30:58,399
+non-star sources of light one or more
+
+722
+00:31:01,350 --> 00:30:59,519
+object
+
+723
+00:31:03,190 --> 00:31:01,360
+and once we've made our decision in our
+
+724
+00:31:06,470 --> 00:31:03,200
+accuracy there is about if objects are
+
+725
+00:31:08,630 --> 00:31:06,480
+separated by a half a pixel or more and
+726
+00:31:10,789 --> 00:31:08,640
+one object is at least one twentieth the
+
+727
+00:31:12,230 --> 00:31:10,799
+brightness of the other we can tell them
+
+728
+00:31:13,350 --> 00:31:12,240
+apart and maintain separate track on
+
+729
+00:31:14,789 --> 00:31:13,360
+both
+
+730
+00:31:16,149 --> 00:31:14,799
+that all happens
+
+731
+00:31:17,669 --> 00:31:16,159
+that fast
+
+732
+00:31:19,190 --> 00:31:17,679
+what follows then is we maintain
+
+733
+00:31:21,509 --> 00:31:19,200
+independent track on each of those
+
+734
+00:31:23,669 --> 00:31:21,519
+objects on the focal plane grab their
+
+735
+00:31:26,230 --> 00:31:23,679
+astrometrics and their radiometrics in
+
+736
+00:31:28,870 --> 00:31:26,240
+real time and feed those into orbit
+
+737
+00:31:30,950 --> 00:31:28,880
+determination orbit updating processes
+
+738
+00:31:32,950 --> 00:31:30,960
+or into object characterization
+
+739
+00:31:34,630 --> 00:31:32,960
+processes whether we want to do tumble
+
+740
+00:31:36,230 --> 00:31:34,640
+rate or size or shape or material
+
+741
+00:31:37,669 --> 00:31:36,240
+whatever depending on the bands that
+
+742
+00:31:38,950 --> 00:31:37,679
+we're collecting in so that's what feeds
+
+743
+00:31:41,110 --> 00:31:38,960
+our signature
+
+744
+00:31:42,389 --> 00:31:41,120
+and feature extraction
+
+745
+00:31:44,389 --> 00:31:42,399
+line and then it goes into target
+
+746
+00:31:46,470 --> 00:31:44,399
+characterization and track updates and
+
+747
+00:31:48,710 --> 00:31:46,480
+then we maintain our own high accuracy
+
+748
+00:31:50,070 --> 00:31:48,720
+catalog for the objects that we maintain
+
+749
+00:31:51,590 --> 00:31:50,080
+and track so when we go back we can
+
+750
+00:31:53,430 --> 00:31:51,600
+verify if there have been any changes
+751
+00:31:54,710 --> 00:31:53,440
+based on photometry or if the orbit has
+
+752
+00:31:56,950 --> 00:31:54,720
+changed significantly from the last time
+
+753
+00:31:58,630 --> 00:31:56,960
+we've gone out
+
+754
+00:32:00,549 --> 00:31:58,640
+so every good astronomer presentation
+
+755
+00:32:02,310 --> 00:32:00,559
+needs an eye chart this is mine all it
+
+756
+00:32:03,509 --> 00:32:02,320
+has really are more detailed
+
+757
+00:32:05,669 --> 00:32:03,519
+descriptions of some of the key
+
+758
+00:32:09,269 --> 00:32:05,679
+algorithms as well as performance
+
+759
+00:32:10,630 --> 00:32:09,279
+statistics on some of the algorithms
+
+760
+00:32:14,870 --> 00:32:10,640
+but what i really wanted to show you was
+
+761
+00:32:18,310 --> 00:32:17,110
+uh looks like we're missing a slide okay
+
+762
+00:32:19,669 --> 00:32:18,320
+well we won't show this one i'll just
+
+763
+00:32:20,870 --> 00:32:19,679
+move to the next one
+
+764
+00:32:22,870 --> 00:32:20,880
+um
+
+765
+00:32:24,630 --> 00:32:22,880
+i had a video with a wide field of view
+
+766
+00:32:27,190 --> 00:32:24,640
+on the previous slide where we had a 30
+
+767
+00:32:28,870 --> 00:32:27,200
+second video where we tracked 14 objects
+
+768
+00:32:30,149 --> 00:32:28,880
+simultaneously i just wanted you to see
+
+769
+00:32:32,310 --> 00:32:30,159
+what would happen
+
+770
+00:32:35,269 --> 00:32:32,320
+uh with the real time
+
+771
+00:32:37,350 --> 00:32:35,279
+uh no that's not it but that's okay
+
+772
+00:32:39,269 --> 00:32:37,360
+uh we'll give it a shot no it's not
+
+773
+00:32:40,149 --> 00:32:39,279
+playing and that's okay no worries so
+
+774
+00:32:42,230 --> 00:32:40,159
+what i would have shown you on the
+
+775
+00:32:45,110 --> 00:32:42,240
+previous was a was a 2x2 field of view a
+776
+00:32:47,750 --> 00:32:45,120
+30 second video where we were capturing
+
+777
+00:32:49,590 --> 00:32:47,760
+14 objects as they flew through
+
+778
+00:32:51,350 --> 00:32:49,600
+and show you that we were simultaneously
+
+779
+00:32:52,470 --> 00:32:51,360
+pulling off the metric information that
+
+780
+00:32:53,669 --> 00:32:52,480
+we could then feed into our orbit
+
+781
+00:32:55,029 --> 00:32:53,679
+determination software and the
+
+782
+00:32:56,950 --> 00:32:55,039
+photometry in this case we were using a
+
+783
+00:32:59,350 --> 00:32:56,960
+visible band and we were actually
+
+784
+00:33:00,870 --> 00:32:59,360
+calculating the tumble rates on the fly
+
+785
+00:33:02,789 --> 00:33:00,880
+in lieu of that i'll show you this delta
+
+786
+00:33:03,909 --> 00:33:02,799
+4
+
+787
+00:33:05,669 --> 00:33:03,919
+example
+
+788
+00:33:07,350 --> 00:33:05,679
+there's a raw focal plane we're looking
+
+789
+00:33:08,789 --> 00:33:07,360
+up at the milky way
+
+790
+00:33:11,669 --> 00:33:08,799
+and i promise you there's a tumbling
+
+791
+00:33:13,110 --> 00:33:11,679
+delta iv rocket body in view and this
+
+792
+00:33:14,950 --> 00:33:13,120
+the challenge with this object is
+
+793
+00:33:16,710 --> 00:33:14,960
+similar to the neo problem
+
+794
+00:33:18,950 --> 00:33:16,720
+you have to watch long enough that you
+
+795
+00:33:21,110 --> 00:33:18,960
+can tell the objects apart from a star
+
+796
+00:33:22,789 --> 00:33:21,120
+and in this case the delta iv has a very
+
+797
+00:33:24,470 --> 00:33:22,799
+similar streak length and very similar
+
+798
+00:33:25,350 --> 00:33:24,480
+streak angle
+
+799
+00:33:26,549 --> 00:33:25,360
+to
+
+800
+00:33:28,230 --> 00:33:26,559
+the stars in the field of view and it
+801
+00:33:30,549 --> 00:33:28,240
+becomes very very challenging for the
+
+802
+00:33:32,389 --> 00:33:30,559
+human eye to pick this out
+
+803
+00:33:33,590 --> 00:33:32,399
+what i'm going to do now is i'm not
+
+804
+00:33:34,549 --> 00:33:33,600
+i've already run this through so i know
+
+805
+00:33:35,830 --> 00:33:34,559
+what the answer is so i'm going to cheat
+
+806
+00:33:38,549 --> 00:33:35,840
+a little bit and give you guys a little
+
+807
+00:33:39,990 --> 00:33:38,559
+help and overlay the simulated sky
+
+808
+00:33:41,830 --> 00:33:40,000
+behind the image
+
+809
+00:33:43,269 --> 00:33:41,840
+so now what i've done is in behind are
+
+810
+00:33:44,630 --> 00:33:43,279
+all the simulated stars not all i'm up
+
+811
+00:33:45,430 --> 00:33:44,640
+to about magnitude 14. we don't need
+
+812
+00:33:47,669 --> 00:33:45,440
+them all because we're looking in the
+
+813
+00:33:49,269 --> 00:33:47,679
+milky way we just blot out the image but
+
+814
+00:33:51,269 --> 00:33:49,279
+also right there in the center is a
+
+815
+00:33:53,430 --> 00:33:51,279
+simulated delta iv so using the
+
+816
+00:33:54,789 --> 00:33:53,440
+spacetrac.org tle
+
+817
+00:33:57,110 --> 00:33:54,799
+that's where that object should be
+
+818
+00:33:58,950 --> 00:33:57,120
+located and that green streak is the
+
+819
+00:34:00,870 --> 00:33:58,960
+streak length and streak angle of the
+
+820
+00:34:03,269 --> 00:34:00,880
+object we should be looking for now the
+
+821
+00:34:05,990 --> 00:34:03,279
+question is where is that streak and if
+
+822
+00:34:07,990 --> 00:34:06,000
+i go one more
+
+823
+00:34:09,909 --> 00:34:08,000
+process this
+
+824
+00:34:11,750 --> 00:34:09,919
+this is the fully processed frame so
+
+825
+00:34:12,710 --> 00:34:11,760
+what happened as soon as that image was
+826
+00:34:14,310 --> 00:34:12,720
+taken
+
+827
+00:34:16,230 --> 00:34:14,320
+that quickly
+
+828
+00:34:18,470 --> 00:34:16,240
+all of the stars were
+
+829
+00:34:19,909 --> 00:34:18,480
+identified circle and we had a white box
+
+830
+00:34:21,990 --> 00:34:19,919
+put around them those were fed into our
+
+831
+00:34:23,510 --> 00:34:22,000
+registration and calibration
+
+832
+00:34:25,990 --> 00:34:23,520
+processes so that we could overlay that
+
+833
+00:34:28,230 --> 00:34:26,000
+frame on the simulated sky it also in
+
+834
+00:34:29,589 --> 00:34:28,240
+real time identified that streak as a
+
+835
+00:34:31,349 --> 00:34:29,599
+delta iv
+
+836
+00:34:33,030 --> 00:34:31,359
+now we watched this object for a few
+
+837
+00:34:34,710 --> 00:34:33,040
+minutes in this case we were staring so
+
+838
+00:34:36,550 --> 00:34:34,720
+the stars are streaking through
+
+839
+00:34:38,550 --> 00:34:36,560
+we watched it for a few minutes you'll
+
+840
+00:34:40,550 --> 00:34:38,560
+notice it's about 25 kilometers from
+
+841
+00:34:42,310 --> 00:34:40,560
+where it's supposed to be so in the few
+
+842
+00:34:44,550 --> 00:34:42,320
+minutes that we watched this we updated
+
+843
+00:34:46,710 --> 00:34:44,560
+its orbit track pulled its photometry
+
+844
+00:34:48,310 --> 00:34:46,720
+and calculated its tumble rate this
+
+845
+00:34:49,510 --> 00:34:48,320
+isn't the full string here but just to
+
+846
+00:34:50,710 --> 00:34:49,520
+give you an example of what we were
+
+847
+00:34:53,030 --> 00:34:50,720
+doing
+
+848
+00:34:54,310 --> 00:34:53,040
+so we do this routinely and the core of
+
+849
+00:34:55,990 --> 00:34:54,320
+our mission is to look at man-made
+
+850
+00:34:57,829 --> 00:34:56,000
+things but as i said recently we've
+851
+00:34:59,990 --> 00:34:57,839
+looked at can we do this for near-earth
+
+852
+00:35:01,589 --> 00:35:00,000
+asteroids so the next example is one
+
+853
+00:35:03,349 --> 00:35:01,599
+where we've done that so this is a
+
+854
+00:35:04,790 --> 00:35:03,359
+processed focal plane so i've taken the
+
+855
+00:35:06,390 --> 00:35:04,800
+picture
+
+856
+00:35:08,150 --> 00:35:06,400
+i've flagged it i've tracked all the
+
+857
+00:35:10,069 --> 00:35:08,160
+stars in view so i put boxes around them
+
+858
+00:35:12,470 --> 00:35:10,079
+so i know where i'm looking
+
+859
+00:35:14,069 --> 00:35:12,480
+and in here there is
+
+860
+00:35:15,510 --> 00:35:14,079
+a actually there are two asteroids i'll
+
+861
+00:35:16,470 --> 00:35:15,520
+just show you one
+
+862
+00:35:18,150 --> 00:35:16,480
+so i went ahead i'm going to go ahead
+
+863
+00:35:19,589 --> 00:35:18,160
+and throw the simulated stars behind it
+
+864
+00:35:21,349 --> 00:35:19,599
+to help you out
+
+865
+00:35:23,349 --> 00:35:21,359
+so now you can see that the streaks
+
+866
+00:35:25,030 --> 00:35:23,359
+overlay the stars the simulated stars
+
+867
+00:35:27,109 --> 00:35:25,040
+will listen to those streaks
+
+868
+00:35:28,790 --> 00:35:27,119
+but hiding here in the bottom is series
+
+869
+00:35:29,750 --> 00:35:28,800
+and i chose this one we've done a few
+
+870
+00:35:31,270 --> 00:35:29,760
+dozen
+
+871
+00:35:32,710 --> 00:35:31,280
+to confirm that the software does what
+
+872
+00:35:34,150 --> 00:35:32,720
+we expect i pick series because it's my
+
+873
+00:35:36,470 --> 00:35:34,160
+favorite because it's big and it's got
+
+874
+00:35:39,109 --> 00:35:36,480
+it's got a nice little history about it
+
+875
+00:35:41,030 --> 00:35:39,119
+actually there's one up here that's
+876
+00:35:42,390 --> 00:35:41,040
+undocumented we put question marks by it
+
+877
+00:35:43,589 --> 00:35:42,400
+when we look at it so we haven't gone
+
+878
+00:35:44,630 --> 00:35:43,599
+back to the minor planet center to
+
+879
+00:35:47,030 --> 00:35:44,640
+verify
+
+880
+00:35:48,550 --> 00:35:47,040
+uh what that is but again it was an
+
+881
+00:35:50,310 --> 00:35:48,560
+uncute detection
+
+882
+00:35:52,230 --> 00:35:50,320
+so the idea that i wanted to show you
+
+883
+00:35:54,870 --> 00:35:52,240
+here is we do this all the time for
+
+884
+00:35:56,630 --> 00:35:54,880
+man-made space objects we go up we find
+
+885
+00:35:58,230 --> 00:35:56,640
+them we track them we update their
+
+886
+00:35:59,589 --> 00:35:58,240
+orbits we characterize them using
+
+887
+00:36:01,510 --> 00:35:59,599
+multiple band
+
+888
+00:36:03,510 --> 00:36:01,520
+photometrics and radiometrics
+
+889
+00:36:04,790 --> 00:36:03,520
+that same technology can be applied to
+
+890
+00:36:06,630 --> 00:36:04,800
+near that asteroids and in this case if
+
+891
+00:36:07,670 --> 00:36:06,640
+we watched this for much longer we would
+
+892
+00:36:09,109 --> 00:36:07,680
+have been able to
+
+893
+00:36:10,710 --> 00:36:09,119
+generate an orbit from scratch or update
+
+894
+00:36:12,310 --> 00:36:10,720
+an orbit from the minor planet center
+
+895
+00:36:13,750 --> 00:36:12,320
+and then pull its photometry or its
+
+896
+00:36:16,069 --> 00:36:13,760
+radiometrics if we'd have been in
+
+897
+00:36:17,589 --> 00:36:16,079
+different bands
+
+898
+00:36:19,829 --> 00:36:17,599
+again this is back to that presentation
+
+899
+00:36:21,829 --> 00:36:19,839
+slumbering real-time
+
+900
+00:36:23,030 --> 00:36:21,839
+dim object detection tracking orbit
+901
+00:36:25,109 --> 00:36:23,040
+determination
+
+902
+00:36:28,069 --> 00:36:25,119
+real-time characterization from multiple
+
+903
+00:36:30,230 --> 00:36:28,079
+bands we don't care about the sensor so
+
+904
+00:36:31,510 --> 00:36:30,240
+if you want to use the best of the best
+
+905
+00:36:33,589 --> 00:36:31,520
+from the air force and in fact we've
+
+906
+00:36:34,950 --> 00:36:33,599
+done some some work on air force sensors
+
+907
+00:36:36,710 --> 00:36:34,960
+very high quality you can do great work
+
+908
+00:36:38,470 --> 00:36:36,720
+with it if you want to you go all the
+
+909
+00:36:40,470 --> 00:36:38,480
+way down to the low end of the of the
+
+910
+00:36:42,069 --> 00:36:40,480
+technology food chain and enable amateur
+
+911
+00:36:44,550 --> 00:36:42,079
+astronomers we've done that as well in
+
+912
+00:36:47,190 --> 00:36:44,560
+fact we've gone down to commercial
+
+913
+00:36:48,950 --> 00:36:47,200
+camera lenses and been able to to find
+
+914
+00:36:50,550 --> 00:36:48,960
+space objects with that
+
+915
+00:36:51,430 --> 00:36:50,560
+uh so in terms of enabling astronomers
+
+916
+00:36:52,950 --> 00:36:51,440
+we think that's this is a great
+
+917
+00:36:54,390 --> 00:36:52,960
+opportunity as well
+
+918
+00:36:55,910 --> 00:36:54,400
+and then the last thing is
+
+919
+00:36:57,750 --> 00:36:55,920
+because of the speed we can go back and
+
+920
+00:36:59,670 --> 00:36:57,760
+process historic data
+
+921
+00:37:00,870 --> 00:36:59,680
+and generate a catalog from images that
+
+922
+00:37:02,710 --> 00:37:00,880
+have already been taken and build that
+
+923
+00:37:04,630 --> 00:37:02,720
+up and then use that to cue subsequent
+
+924
+00:37:07,190 --> 00:37:04,640
+uh searches so with that i'll take
+
+925
+00:37:13,510 --> 00:37:07,200
+questions uh thank you for your time
+926
+00:37:17,030 --> 00:37:14,390
+okay
+
+927
+00:37:22,390 --> 00:37:17,040
+uh just one moment questions from the
+
+928
+00:37:27,670 --> 00:37:25,349
+okay um i'm familiar with the ucac4 can
+
+929
+00:37:29,109 --> 00:37:27,680
+you share some of the stats about your
+
+930
+00:37:32,790 --> 00:37:29,119
+reference catalog
+
+931
+00:37:34,950 --> 00:37:32,800
+so we use a catalog called ppxml it's a
+
+932
+00:37:37,349 --> 00:37:34,960
+combination of two star databases that i
+
+933
+00:37:39,190 --> 00:37:37,359
+don't know off the top of my head
+
+934
+00:37:42,950 --> 00:37:39,200
+or billion stars in it
+
+935
+00:37:45,190 --> 00:37:42,960
+it's visible multiple ir bands and uv so
+
+936
+00:37:48,390 --> 00:37:45,200
+it's it allows extremely
+
+937
+00:37:51,109 --> 00:37:48,400
+high accurate registration
+
+938
+00:37:52,870 --> 00:37:51,119
+i saw two more yeah um just a kind of a
+
+939
+00:37:54,870 --> 00:37:52,880
+few questions who funds your work now
+
+940
+00:37:56,150 --> 00:37:54,880
+because it clearly is well funded uh
+
+941
+00:37:58,470 --> 00:37:56,160
+number two how do you open this up
+
+942
+00:37:59,750 --> 00:37:58,480
+beyond one click citizen science is
+
+943
+00:38:01,109 --> 00:37:59,760
+there is there a way to do that because
+
+944
+00:38:03,670 --> 00:38:01,119
+right now it seems
+
+945
+00:38:04,950 --> 00:38:03,680
+um well is is do you have any plans or
+
+946
+00:38:05,829 --> 00:38:04,960
+any thoughts on that and then number
+
+947
+00:38:07,430 --> 00:38:05,839
+three
+
+948
+00:38:09,030 --> 00:38:07,440
+what other problems are you working
+
+949
+00:38:10,630 --> 00:38:09,040
+towards what's your future look like
+
+950
+00:38:13,109 --> 00:38:10,640
+because this is all your present current
+951
+00:38:14,069 --> 00:38:13,119
+work yes yeah what are the big problems
+
+952
+00:38:15,349 --> 00:38:14,079
+you're working on right now so i'm going
+
+953
+00:38:16,710 --> 00:38:15,359
+to try to work through those you may
+
+954
+00:38:20,150 --> 00:38:16,720
+keep the mic close to in case i forget
+
+955
+00:38:22,470 --> 00:38:20,160
+so the first one who's funding it no one
+
+956
+00:38:24,950 --> 00:38:22,480
+is funding
+
+957
+00:38:27,589 --> 00:38:24,960
+the software to go after near-earth
+
+958
+00:38:29,349 --> 00:38:27,599
+asteroids or space debris and we get
+
+959
+00:38:31,510 --> 00:38:29,359
+very little funding for space objects so
+
+960
+00:38:33,990 --> 00:38:31,520
+much much of what you saw is irad and
+
+961
+00:38:36,390 --> 00:38:34,000
+it's historic stuff built on sbirs for
+
+962
+00:38:37,829 --> 00:38:36,400
+for those organizations for very
+
+963
+00:38:40,069 --> 00:38:37,839
+specific missions and what we've done
+
+964
+00:38:41,270 --> 00:38:40,079
+here is organize it into a a full suite
+
+965
+00:38:43,270 --> 00:38:41,280
+to make it science ready to use
+
+966
+00:38:44,950 --> 00:38:43,280
+somebody's word from earlier today to
+
+967
+00:38:47,270 --> 00:38:44,960
+close the loop on that
+
+968
+00:38:48,470 --> 00:38:47,280
+where we've been focusing uh i think i'm
+
+969
+00:38:52,310 --> 00:38:48,480
+skipping to your third question where we
+
+970
+00:38:54,390 --> 00:38:52,320
+have been focusing mainly lately is how
+
+971
+00:38:57,430 --> 00:38:54,400
+using the software to enable us to go
+
+972
+00:38:59,750 --> 00:38:57,440
+down the food chain in hardware cost so
+
+973
+00:39:01,829 --> 00:38:59,760
+we're to the point of chef testing
+
+974
+00:39:05,510 --> 00:39:01,839
+the absolute least expensive camera
+
+975
+00:39:07,109 --> 00:39:05,520
+absolute least expensive lenses to see
+976
+00:39:09,109 --> 00:39:07,119
+how far down we can go and still be
+
+977
+00:39:12,470 --> 00:39:09,119
+effective in various missions and so
+
+978
+00:39:14,470 --> 00:39:12,480
+what we've done a huge trade study on
+
+979
+00:39:16,310 --> 00:39:14,480
+every camera and scope combination
+
+980
+00:39:17,990 --> 00:39:16,320
+what field of view that generates versus
+
+981
+00:39:19,910 --> 00:39:18,000
+the minimum detectable magnitude versus
+
+982
+00:39:21,270 --> 00:39:19,920
+our software which we which operates at
+
+983
+00:39:23,349 --> 00:39:21,280
+near optimal
+
+984
+00:39:25,510 --> 00:39:23,359
+uh the capability in terms of detections
+
+985
+00:39:27,030 --> 00:39:25,520
+of dim objects versus the noise
+
+986
+00:39:29,030 --> 00:39:27,040
+uh so we that's kind of been our focus
+
+987
+00:39:31,510 --> 00:39:29,040
+is how far down can we push that
+
+988
+00:39:33,430 --> 00:39:31,520
+uh our pedigree has been in
+
+989
+00:39:34,870 --> 00:39:33,440
+finding them extremely fast that was
+
+990
+00:39:36,790 --> 00:39:34,880
+where we got our start and now it's can
+
+991
+00:39:38,870 --> 00:39:36,800
+we find them extremely fast with minimal
+
+992
+00:39:41,829 --> 00:39:38,880
+cost and then what that allows us to do
+
+993
+00:39:43,990 --> 00:39:41,839
+is to enable sort of a greater reach of
+
+994
+00:39:45,270 --> 00:39:44,000
+contributors to the mission because the
+
+995
+00:39:47,030 --> 00:39:45,280
+further down the food chain we can go
+
+996
+00:39:49,030 --> 00:39:47,040
+then we can leverage the hardware that
+
+997
+00:39:50,710 --> 00:39:49,040
+amateurs have just take if we have time
+
+998
+00:39:52,390 --> 00:39:50,720
+tag imagery for example
+
+999
+00:39:53,829 --> 00:39:52,400
+that's all i need to go and hunt for
+
+1000
+00:39:55,750 --> 00:39:53,839
+asteroids
+1001
+00:39:57,670 --> 00:39:55,760
+okay we need to move on really quickly
+
+1002
+00:40:00,710 --> 00:39:57,680
+uh one question here but before there's
+
+1003
+00:40:02,550 --> 00:40:00,720
+a question from online uh for you are
+
+1004
+00:40:06,150 --> 00:40:02,560
+you working primarily with telescope
+
+1005
+00:40:09,829 --> 00:40:06,160
+data if so which or satellite imagery
+
+1006
+00:40:11,190 --> 00:40:09,839
+so primarily telescopes uh so in terms
+
+1007
+00:40:12,630 --> 00:40:11,200
+of the which
+
+1008
+00:40:13,349 --> 00:40:12,640
+maybe i'll tie it back to this question
+
+1009
+00:40:14,870 --> 00:40:13,359
+so
+
+1010
+00:40:17,030 --> 00:40:14,880
+the farthest down the food chain we've
+
+1011
+00:40:18,950 --> 00:40:17,040
+gone that is a telescope would be like a
+
+1012
+00:40:21,349 --> 00:40:18,960
+four and a half inch celestron it's like
+
+1013
+00:40:24,309 --> 00:40:21,359
+a three an eight tick 383 l plus so so
+
+1014
+00:40:26,550 --> 00:40:24,319
+basic amateur entry-level amateur stuff
+
+1015
+00:40:28,230 --> 00:40:26,560
+all the way up to processing uh
+
+1016
+00:40:30,470 --> 00:40:28,240
+something from uh space-based space
+
+1017
+00:40:32,950 --> 00:40:30,480
+surveillance uh platform
+
+1018
+00:40:34,309 --> 00:40:32,960
+uh from boeing so that that is kind of
+
+1019
+00:40:36,470 --> 00:40:34,319
+the spectrum of
+
+1020
+00:40:40,069 --> 00:40:36,480
+tools that we've processed on okay
+
+1021
+00:40:44,790 --> 00:40:42,309
+yeah it'd be better if but we do have
+
+1022
+00:40:46,390 --> 00:40:44,800
+time at the end for uh discussion so say
+
+1023
+00:40:47,670 --> 00:40:46,400
+that question uh clinton you're gonna be
+
+1024
+00:40:49,589 --> 00:40:47,680
+around for the discussion absolutely so
+
+1025
+00:40:51,430 --> 00:40:49,599
+we'll say that so let's move on
+1026
+00:40:54,710 --> 00:40:51,440
+the next uh speaker
+
+1027
+00:40:57,109 --> 00:40:54,720
+is uh sarah case from ai solutions
+
+1028
+00:40:59,030 --> 00:40:57,119
+incorporated she's going to be speaking
+
+1029
+00:41:02,870 --> 00:40:59,040
+to us about a free flyer software for
+
+1030
+00:41:15,589 --> 00:41:02,880
+asteroid observation and mission design
+
+1031
+00:41:19,990 --> 00:41:17,750
+okay thank you very much i am here to
+
+1032
+00:41:22,309 --> 00:41:20,000
+talk about a free flyer software which
+
+1033
+00:41:24,950 --> 00:41:22,319
+is developed by my company ai solutions
+
+1034
+00:41:27,430 --> 00:41:24,960
+and how it can be used for the
+
+1035
+00:41:28,309 --> 00:41:27,440
+asteroid observation problem as well as
+
+1036
+00:41:30,870 --> 00:41:28,319
+the
+
+1037
+00:41:32,630 --> 00:41:30,880
+asteroid redirect mission design
+
+1038
+00:41:35,109 --> 00:41:32,640
+and really just want to
+
+1039
+00:41:39,910 --> 00:41:35,119
+promote awareness of our software um and
+
+1040
+00:41:43,670 --> 00:41:41,910
+world
+
+1041
+00:41:45,270 --> 00:41:43,680
+so for those who have no awareness at
+
+1042
+00:41:47,349 --> 00:41:45,280
+all of free flyer it's a commercial
+
+1043
+00:41:49,750 --> 00:41:47,359
+off-the-shelf software tool for
+
+1044
+00:41:51,990 --> 00:41:49,760
+spacecraft mission design analysis
+
+1045
+00:41:53,990 --> 00:41:52,000
+analysis and operations so all the way
+
+1046
+00:41:56,069 --> 00:41:54,000
+from the beginning through the end of
+
+1047
+00:41:58,710 --> 00:41:56,079
+spacecraft mission life cycle
+
+1048
+00:42:01,190 --> 00:41:58,720
+and it's been used for the last 16 years
+
+1049
+00:42:03,829 --> 00:42:01,200
+at various nasa centers military
+
+1050
+00:42:06,150 --> 00:42:03,839
+organizations as well as commercial and
+1051
+00:42:07,829 --> 00:42:06,160
+international organizations
+
+1052
+00:42:09,829 --> 00:42:07,839
+so the nasa centers where free flyers
+
+1053
+00:42:11,829 --> 00:42:09,839
+used predominantly are
+
+1054
+00:42:13,829 --> 00:42:11,839
+the johnson space center here in houston
+
+1055
+00:42:16,870 --> 00:42:13,839
+as well as goddard
+
+1056
+00:42:18,390 --> 00:42:16,880
+kennedy and marshall space flight center
+
+1057
+00:42:19,750 --> 00:42:18,400
+free floor has been used to support
+
+1058
+00:42:22,230 --> 00:42:19,760
+missions in
+
+1059
+00:42:24,069 --> 00:42:22,240
+a variety of orbit regimes from leo to
+
+1060
+00:42:25,990 --> 00:42:24,079
+geo as well as
+
+1061
+00:42:29,109 --> 00:42:26,000
+some of the more deep space missions
+
+1062
+00:42:32,069 --> 00:42:29,119
+earth moon i'm sorry earth sun l1 some
+
+1063
+00:42:35,349 --> 00:42:32,079
+analysis for er sentinel 2
+
+1064
+00:42:38,470 --> 00:42:35,359
+heliocentric missions as well as
+
+1065
+00:42:40,069 --> 00:42:38,480
+lunar orbiters and some analysis for
+
+1066
+00:42:41,670 --> 00:42:40,079
+asteroid missions
+
+1067
+00:42:43,430 --> 00:42:41,680
+and especially since we're here in
+
+1068
+00:42:45,589 --> 00:42:43,440
+houston i want to bring attention to the
+
+1069
+00:42:47,750 --> 00:42:45,599
+fact that free flyer has been selected
+
+1070
+00:42:50,069 --> 00:42:47,760
+to replace all of the flight dynamics
+
+1071
+00:42:51,109 --> 00:42:50,079
+functionality for the mission control
+
+1072
+00:42:53,430 --> 00:42:51,119
+center
+
+1073
+00:42:56,150 --> 00:42:53,440
+for the international space station so
+
+1074
+00:42:58,470 --> 00:42:56,160
+freefly will be providing all of the
+
+1075
+00:43:00,550 --> 00:42:58,480
+mission planning for iss going forward
+1076
+00:43:05,270 --> 00:43:00,560
+as well as future vehicles that are
+
+1077
+00:43:09,190 --> 00:43:07,190
+um some of the key free flyer features
+
+1078
+00:43:10,230 --> 00:43:09,200
+that are useful to know about
+
+1079
+00:43:12,710 --> 00:43:10,240
+i'm sorry
+
+1080
+00:43:16,150 --> 00:43:12,720
+our
+
+1081
+00:43:18,550 --> 00:43:16,160
+propagation spacecraft propagation and
+
+1082
+00:43:20,790 --> 00:43:18,560
+trajectory design maneuver planning
+
+1083
+00:43:23,589 --> 00:43:20,800
+coverage and contact analysis
+
+1084
+00:43:25,510 --> 00:43:23,599
+um attitude modeling um
+
+1085
+00:43:26,950 --> 00:43:25,520
+orbit determination and interplanetary
+
+1086
+00:43:28,710 --> 00:43:26,960
+navigation
+
+1087
+00:43:32,230 --> 00:43:28,720
+the image that's shown here shows an
+
+1088
+00:43:35,030 --> 00:43:32,240
+example of a hyperbolic flyby of mars
+
+1089
+00:43:38,230 --> 00:43:35,040
+and then visualizing the orbit plane the
+
+1090
+00:43:39,030 --> 00:43:38,240
+incoming asymptote b-plane some of the
+
+1091
+00:43:40,470 --> 00:43:39,040
+key
+
+1092
+00:43:41,910 --> 00:43:40,480
+directions that are involved in that
+
+1093
+00:43:43,670 --> 00:43:41,920
+analysis
+
+1094
+00:43:45,589 --> 00:43:43,680
+so it's really a combination of a
+
+1095
+00:43:47,750 --> 00:43:45,599
+visualization tool
+
+1096
+00:43:49,670 --> 00:43:47,760
+as well as a very high fidelity
+
+1097
+00:43:51,030 --> 00:43:49,680
+analysis tool
+
+1098
+00:43:52,710 --> 00:43:51,040
+and
+
+1099
+00:43:54,309 --> 00:43:52,720
+at the bottom we
+
+1100
+00:43:57,030 --> 00:43:54,319
+want to note in particular the software
+1101
+00:43:58,470 --> 00:43:57,040
+is very flexible and very scalable
+
+1102
+00:44:00,069 --> 00:43:58,480
+it incorporates its own scripting
+
+1103
+00:44:01,430 --> 00:44:00,079
+language and so there's really no limit
+
+1104
+00:44:03,190 --> 00:44:01,440
+to the logic
+
+1105
+00:44:05,589 --> 00:44:03,200
+that you can implement to have a very
+
+1106
+00:44:09,750 --> 00:44:05,599
+customized scenario play out in your
+
+1107
+00:44:15,190 --> 00:44:12,870
+for asteroid observation in particular
+
+1108
+00:44:17,670 --> 00:44:15,200
+free flyer has the ability to process
+
+1109
+00:44:21,109 --> 00:44:17,680
+ground and space based observations in
+
+1110
+00:44:22,790 --> 00:44:21,119
+order to perform orbit determination
+
+1111
+00:44:25,430 --> 00:44:22,800
+in free flyer you can implement anything
+
+1112
+00:44:27,109 --> 00:44:25,440
+from an initial orbit determination to
+
+1113
+00:44:29,109 --> 00:44:27,119
+batchly squares and we also have two
+
+1114
+00:44:31,270 --> 00:44:29,119
+different formulations of a common
+
+1115
+00:44:33,430 --> 00:44:31,280
+filter and those can be used in any
+
+1116
+00:44:35,910 --> 00:44:33,440
+combination so you could do
+
+1117
+00:44:38,550 --> 00:44:35,920
+first an initial od then a batch process
+
+1118
+00:44:40,230 --> 00:44:38,560
+then a common filtering process
+
+1119
+00:44:41,829 --> 00:44:40,240
+in sequence or you could perhaps have
+
+1120
+00:44:43,510 --> 00:44:41,839
+those running in parallel if you wanted
+
+1121
+00:44:44,630 --> 00:44:43,520
+to compare the results
+
+1122
+00:44:45,670 --> 00:44:44,640
+between
+
+1123
+00:44:47,430 --> 00:44:45,680
+more than one of these different
+
+1124
+00:44:49,190 --> 00:44:47,440
+estimators
+
+1125
+00:44:51,109 --> 00:44:49,200
+and then with each of those estimation
+1126
+00:44:53,589 --> 00:44:51,119
+processes you can estimate position
+
+1127
+00:44:55,510 --> 00:44:53,599
+velocity coefficient of reflectivity and
+
+1128
+00:44:57,190 --> 00:44:55,520
+also any accelerations that aren't
+
+1129
+00:44:59,750 --> 00:44:57,200
+already modeled in your force model that
+
+1130
+00:45:01,589 --> 00:44:59,760
+might be acting on the body
+
+1131
+00:45:03,829 --> 00:45:01,599
+and you can estimate an unlimited number
+
+1132
+00:45:06,630 --> 00:45:03,839
+of objects concurrently whether that's
+
+1133
+00:45:08,470 --> 00:45:06,640
+one spacecraft or asteroid or 10 or 100
+
+1134
+00:45:10,309 --> 00:45:08,480
+or a thousand there's no limit in our
+
+1135
+00:45:11,829 --> 00:45:10,319
+software for that
+
+1136
+00:45:13,670 --> 00:45:11,839
+and then moving down towards the bottom
+
+1137
+00:45:16,309 --> 00:45:13,680
+half of this slide
+
+1138
+00:45:18,150 --> 00:45:16,319
+once the orbit has been estimated and
+
+1139
+00:45:19,829 --> 00:45:18,160
+you want to predict forward to when is
+
+1140
+00:45:23,030 --> 00:45:19,839
+this object going to be visible from
+
+1141
+00:45:25,109 --> 00:45:23,040
+different observation sites
+
+1142
+00:45:27,030 --> 00:45:25,119
+again you can do observations
+
+1143
+00:45:28,069 --> 00:45:27,040
+predictions from ground and space based
+
+1144
+00:45:30,309 --> 00:45:28,079
+assets
+
+1145
+00:45:32,790 --> 00:45:30,319
+and you can constrain those predicted
+
+1146
+00:45:34,710 --> 00:45:32,800
+contact times based on the field of view
+
+1147
+00:45:37,430 --> 00:45:34,720
+of your sensor the range to the object
+
+1148
+00:45:38,870 --> 00:45:37,440
+the size of the object as well as the
+
+1149
+00:45:41,030 --> 00:45:38,880
+lighting conditions
+
+1150
+00:45:43,430 --> 00:45:41,040
+you can implement any custom logic again
+1151
+00:45:45,670 --> 00:45:43,440
+to filter objects down by orbit or
+
+1152
+00:45:48,230 --> 00:45:45,680
+rotation rate and you can generate once
+
+1153
+00:45:50,150 --> 00:45:48,240
+you have some information about
+
+1154
+00:45:53,109 --> 00:45:50,160
+the size the attitude state of your
+
+1155
+00:45:58,309 --> 00:45:53,119
+object you can visualize them and create
+
+1156
+00:46:03,270 --> 00:46:00,309
+again this tool can be used throughout
+
+1157
+00:46:05,829 --> 00:46:03,280
+the asteroid mission life cycle and so
+
+1158
+00:46:08,069 --> 00:46:05,839
+once we get into the actual redirection
+
+1159
+00:46:09,990 --> 00:46:08,079
+portion of the mission this tool can
+
+1160
+00:46:11,670 --> 00:46:10,000
+still be applied and that's
+
+1161
+00:46:12,790 --> 00:46:11,680
+part of the mission as well
+
+1162
+00:46:15,030 --> 00:46:12,800
+um
+
+1163
+00:46:18,150 --> 00:46:15,040
+free flyer will then allow you to model
+
+1164
+00:46:21,030 --> 00:46:18,160
+the spacecraft orbit to go and redirect
+
+1165
+00:46:24,150 --> 00:46:21,040
+the asteroid and also the crude vehicle
+
+1166
+00:46:26,309 --> 00:46:24,160
+to rendezvous with the asteroid
+
+1167
+00:46:28,470 --> 00:46:26,319
+with free flyer you can model the
+
+1168
+00:46:30,630 --> 00:46:28,480
+gravity from any planet or any other
+
+1169
+00:46:32,950 --> 00:46:30,640
+body that you want to specify using
+
+1170
+00:46:35,589 --> 00:46:32,960
+either a spherical harmonic gravity
+
+1171
+00:46:37,750 --> 00:46:35,599
+expansion or polyhedral gravity with
+
+1172
+00:46:39,510 --> 00:46:37,760
+polyhedral gravity which is gravity
+
+1173
+00:46:41,349 --> 00:46:39,520
+modeling which is what i'm showing in
+
+1174
+00:46:43,109 --> 00:46:41,359
+the top image here
+
+1175
+00:46:45,670 --> 00:46:43,119
+and then you can also model other forces
+1176
+00:46:49,109 --> 00:46:45,680
+solar radiation pressure solid tides
+
+1177
+00:46:50,790 --> 00:46:49,119
+ocean tides albedo etc
+
+1178
+00:46:52,630 --> 00:46:50,800
+those can actually be implemented even
+
+1179
+00:46:54,150 --> 00:46:52,640
+if it's not built in you can specify
+
+1180
+00:46:55,750 --> 00:46:54,160
+custom forces to add into your
+
+1181
+00:46:58,069 --> 00:46:55,760
+spacecraft's force model into the
+
+1182
+00:46:59,589 --> 00:46:58,079
+integration process
+
+1183
+00:47:02,069 --> 00:46:59,599
+and then again once you have your
+
+1184
+00:47:04,390 --> 00:47:02,079
+environment model set up you can do your
+
+1185
+00:47:06,710 --> 00:47:04,400
+mission design and trade studies
+
+1186
+00:47:08,950 --> 00:47:06,720
+whether you want to do
+
+1187
+00:47:10,470 --> 00:47:08,960
+impulsive or finite maneuver modeling
+
+1188
+00:47:11,829 --> 00:47:10,480
+chemical or electrical propulsion
+
+1189
+00:47:12,790 --> 00:47:11,839
+modeling
+
+1190
+00:47:14,630 --> 00:47:12,800
+um
+
+1191
+00:47:17,270 --> 00:47:14,640
+basically to to analyze the entire
+
+1192
+00:47:20,630 --> 00:47:17,280
+mission life cycle and determine delta v
+
+1193
+00:47:22,549 --> 00:47:20,640
+fuel usage time of flight uh to go and
+
+1194
+00:47:24,230 --> 00:47:22,559
+do the entire mission for any candidate
+
+1195
+00:47:26,150 --> 00:47:24,240
+asteroid and you could run this for
+
+1196
+00:47:27,750 --> 00:47:26,160
+multiple asteroid candidates in order to
+
+1197
+00:47:31,030 --> 00:47:27,760
+turn to determine your your best
+
+1198
+00:47:34,870 --> 00:47:33,430
+in summary i wanted to again reiterate
+
+1199
+00:47:36,470 --> 00:47:34,880
+that free flour can be used throughout
+
+1200
+00:47:38,549 --> 00:47:36,480
+the mission life cycle
+1201
+00:47:41,270 --> 00:47:38,559
+and again since it's already in use at
+
+1202
+00:47:43,109 --> 00:47:41,280
+various nasa centers including jsc
+
+1203
+00:47:44,790 --> 00:47:43,119
+using free flyer for the asteroid
+
+1204
+00:47:47,190 --> 00:47:44,800
+redirect mission will be a natural
+
+1205
+00:47:49,829 --> 00:47:47,200
+progression for nasa here in houston
+
+1206
+00:47:52,230 --> 00:47:49,839
+and any other organizations that adopt
+
+1207
+00:47:53,990 --> 00:47:52,240
+free flyer or start to learn about it
+
+1208
+00:47:56,790 --> 00:47:54,000
+will then have access to the same models
+
+1209
+00:47:58,150 --> 00:47:56,800
+and interfaces that are used by nasa
+
+1210
+00:48:03,030 --> 00:47:58,160
+and
+
+1211
+00:48:04,549 --> 00:48:03,040
+across the organization really just
+
+1212
+00:48:07,109 --> 00:48:04,559
+saves time and effort prevents
+
+1213
+00:48:08,630 --> 00:48:07,119
+duplication of work and so if anybody is
+
+1214
+00:48:09,990 --> 00:48:08,640
+interested i'd very much encourage you
+
+1215
+00:48:12,069 --> 00:48:10,000
+you can of course go to the
+
+1216
+00:48:13,750 --> 00:48:12,079
+freeflyer.com website you can ask me any
+
+1217
+00:48:14,790 --> 00:48:13,760
+questions you might have
+
+1218
+00:48:22,630 --> 00:48:14,800
+thank you
+
+1219
+00:48:33,030 --> 00:48:23,829
+okay
+
+1220
+00:48:35,430 --> 00:48:33,040
+thought about using this with a real
+
+1221
+00:48:37,109 --> 00:48:35,440
+asteroid data yet
+
+1222
+00:48:38,549 --> 00:48:37,119
+in terms of what your plans just for a
+
+1223
+00:48:40,390 --> 00:48:38,559
+proof of concept
+
+1224
+00:48:42,710 --> 00:48:40,400
+so we have done some analysis with
+
+1225
+00:48:45,349 --> 00:48:42,720
+goddard related to osiris-rex for the
+1226
+00:48:47,030 --> 00:48:45,359
+mission planning for that um but as far
+
+1227
+00:48:49,829 --> 00:48:47,040
+as the abstract observation problem we
+
+1228
+00:48:52,309 --> 00:48:49,839
+haven't started down that path yet
+
+1229
+00:48:54,710 --> 00:48:52,319
+good great thank you
+
+1230
+00:48:56,549 --> 00:48:54,720
+okay let's move to the last presentation
+
+1231
+00:49:00,790 --> 00:48:56,559
+in this section
+
+1232
+00:49:03,109 --> 00:49:00,800
+uh tom burleson from rice engineering
+
+1233
+00:49:05,109 --> 00:49:03,119
+talking about geometric non-linear
+
+1234
+00:49:06,549 --> 00:49:05,119
+signal processing algorithm to enhance
+
+1235
+00:49:10,390 --> 00:49:06,559
+range performance
+
+1236
+00:49:12,309 --> 00:49:10,400
+of nasa radars for tracking asteroids
+
+1237
+00:49:16,309 --> 00:49:12,319
+and uh
+
+1238
+00:49:18,390 --> 00:49:16,319
+tom whenever you are ready
+
+1239
+00:49:20,790 --> 00:49:18,400
+thank you very much
+
+1240
+00:49:21,910 --> 00:49:20,800
+uh i am not the planned presenter the
+
+1241
+00:49:23,510 --> 00:49:21,920
+planned presenter is having some
+
+1242
+00:49:24,470 --> 00:49:23,520
+difficulty in huntsville he was going to
+
+1243
+00:49:28,390 --> 00:49:24,480
+do this
+
+1244
+00:49:33,270 --> 00:49:30,790
+what we have is a geometric non-linear
+
+1245
+00:49:35,109 --> 00:49:33,280
+signal processor or gen list
+
+1246
+00:49:36,470 --> 00:49:35,119
+and we've developed this algorithm to
+
+1247
+00:49:37,190 --> 00:49:36,480
+reduce
+
+1248
+00:49:43,990 --> 00:49:37,200
+the
+
+1249
+00:49:45,589 --> 00:49:44,000
+developing it for
+
+1250
+00:49:47,510 --> 00:49:45,599
+department of defense
+1251
+00:49:50,390 --> 00:49:47,520
+applications to increase either the
+
+1252
+00:49:52,069 --> 00:49:50,400
+radar range or the size of the radar
+
+1253
+00:49:54,150 --> 00:49:52,079
+objects they could detect with their
+
+1254
+00:49:56,230 --> 00:49:54,160
+phased array radars
+
+1255
+00:49:58,630 --> 00:49:56,240
+it is applicable to asteroid hunting and
+
+1256
+00:50:00,710 --> 00:49:58,640
+characterization it obviously has a
+
+1257
+00:50:02,549 --> 00:50:00,720
+missile defense application and there
+
+1258
+00:50:04,790 --> 00:50:02,559
+are some other things that we're not at
+
+1259
+00:50:09,190 --> 00:50:04,800
+liberty to talk about
+
+1260
+00:50:16,069 --> 00:50:13,589
+linear algorithm currently used by most
+
+1261
+00:50:18,309 --> 00:50:16,079
+radars in most modern phased array
+
+1262
+00:50:19,670 --> 00:50:18,319
+radars have thousands of transmit and
+
+1263
+00:50:21,109 --> 00:50:19,680
+receive elements they take those
+
+1264
+00:50:22,790 --> 00:50:21,119
+transmit and receive elements and
+
+1265
+00:50:25,349 --> 00:50:22,800
+various sub arrays that take the
+
+1266
+00:50:27,510 --> 00:50:25,359
+subarray outputs and combine those in a
+
+1267
+00:50:29,750 --> 00:50:27,520
+linear fashion
+
+1268
+00:50:31,910 --> 00:50:29,760
+to get the estimate of the radar
+
+1269
+00:50:35,349 --> 00:50:31,920
+position of the excuse me the target
+
+1270
+00:50:39,829 --> 00:50:37,430
+what we have is an algorithm which will
+
+1271
+00:50:41,670 --> 00:50:39,839
+take a non-linear process to do that
+
+1272
+00:50:43,670 --> 00:50:41,680
+same activity
+
+1273
+00:50:45,670 --> 00:50:43,680
+it will increase the radar performance
+
+1274
+00:50:48,069 --> 00:50:45,680
+by about double
+
+1275
+00:50:49,990 --> 00:50:48,079
+in our sample calculations we used
+1276
+00:50:52,069 --> 00:50:50,000
+outputs from these sub arrays and our
+
+1277
+00:50:53,349 --> 00:50:52,079
+special a geometric expansion of the
+
+1278
+00:50:55,990 --> 00:50:53,359
+data
+
+1279
+00:50:59,109 --> 00:50:56,000
+added an averaging process
+
+1280
+00:51:00,470 --> 00:50:59,119
+the actual process is a
+
+1281
+00:51:05,190 --> 00:51:00,480
+i'm not going to discuss it at this
+
+1282
+00:51:11,510 --> 00:51:08,309
+what's what's the word i want
+
+1283
+00:51:15,510 --> 00:51:13,510
+that's proprietary right essentially
+
+1284
+00:51:18,150 --> 00:51:15,520
+what you can do if you look at the upper
+
+1285
+00:51:19,910 --> 00:51:18,160
+half of this radar phase ray radar beam
+
+1286
+00:51:21,750 --> 00:51:19,920
+you can see something with a linear
+
+1287
+00:51:23,750 --> 00:51:21,760
+process that has been detected at a
+
+1288
+00:51:25,910 --> 00:51:23,760
+certain range
+
+1289
+00:51:27,910 --> 00:51:25,920
+with our nonlinear process gen list you
+
+1290
+00:51:30,950 --> 00:51:27,920
+can detect something much smaller at the
+
+1291
+00:51:33,349 --> 00:51:30,960
+same range or approximately double
+
+1292
+00:51:35,990 --> 00:51:33,359
+the range of the radar
+
+1293
+00:51:38,470 --> 00:51:36,000
+this is not done with magic
+
+1294
+00:51:40,710 --> 00:51:38,480
+we've done computer experiments to show
+
+1295
+00:51:42,150 --> 00:51:40,720
+how the how the algorithm applies to
+
+1296
+00:51:44,150 --> 00:51:42,160
+radar data
+
+1297
+00:51:45,990 --> 00:51:44,160
+we've done numerous trials
+
+1298
+00:51:49,349 --> 00:51:46,000
+thousands of samples each with a
+
+1299
+00:51:51,349 --> 00:51:49,359
+simulated signal plus noise
+
+1300
+00:51:54,069 --> 00:51:51,359
+if you look at the linear
+1301
+00:51:56,150 --> 00:51:54,079
+results using a linear algorithm you get
+
+1302
+00:51:57,750 --> 00:51:56,160
+a nice bell-shaped curve and right there
+
+1303
+00:52:00,790 --> 00:51:57,760
+in the middle you see the
+
+1304
+00:52:03,990 --> 00:52:00,800
+assumed position of the
+
+1305
+00:52:05,349 --> 00:52:04,000
+object being tracked
+
+1306
+00:52:07,349 --> 00:52:05,359
+the same
+
+1307
+00:52:09,270 --> 00:52:07,359
+data processed with our non-linear
+
+1308
+00:52:11,589 --> 00:52:09,280
+process
+
+1309
+00:52:13,750 --> 00:52:11,599
+comes up with a much narrower curve the
+
+1310
+00:52:15,109 --> 00:52:13,760
+important thing to look at is the
+
+1311
+00:52:19,510 --> 00:52:15,119
+horizontal
+
+1312
+00:52:22,390 --> 00:52:19,520
+axis there it's a
+
+1313
+00:52:23,910 --> 00:52:22,400
+two orders of magnitude larger
+
+1314
+00:52:25,750 --> 00:52:23,920
+scale
+
+1315
+00:52:28,710 --> 00:52:25,760
+if you look at
+
+1316
+00:52:31,030 --> 00:52:28,720
+on the same scale you went from
+
+1317
+00:52:33,829 --> 00:52:31,040
+that kind of a response to
+
+1318
+00:52:38,549 --> 00:52:33,839
+this you get a much more accurate
+
+1319
+00:52:43,750 --> 00:52:40,470
+standard deviations after the processing
+
+1320
+00:52:46,309 --> 00:52:43,760
+for linear was about 0.11 with the gen
+
+1321
+00:52:48,630 --> 00:52:46,319
+list process it was much smaller that's
+
+1322
+00:52:50,470 --> 00:52:48,640
+a 240 time improvement
+
+1323
+00:52:52,390 --> 00:52:50,480
+in accuracy
+
+1324
+00:52:54,390 --> 00:52:52,400
+calculation of the range improvement was
+
+1325
+00:52:57,109 --> 00:52:54,400
+tempered by our four losses and we can
+1326
+00:52:58,230 --> 00:52:57,119
+approximately double the radar range
+
+1327
+00:53:00,230 --> 00:52:58,240
+with the
+
+1328
+00:53:01,270 --> 00:53:00,240
+radar which we were simulating at that
+
+1329
+00:53:05,430 --> 00:53:01,280
+point
+
+1330
+00:53:07,829 --> 00:53:05,440
+uh this 240 times improvement in
+
+1331
+00:53:10,309 --> 00:53:07,839
+in radar accuracy versus branch two
+
+1332
+00:53:11,190 --> 00:53:10,319
+times improvement radar range they're
+
+1333
+00:53:13,750 --> 00:53:11,200
+actually
+
+1334
+00:53:16,630 --> 00:53:13,760
+similar kinds of numbers in radar world
+
+1335
+00:53:19,829 --> 00:53:16,640
+we look at 240 times the radar cross
+
+1336
+00:53:20,710 --> 00:53:19,839
+section which is approximately 15 or 16
+
+1337
+00:53:23,030 --> 00:53:20,720
+times
+
+1338
+00:53:25,510 --> 00:53:23,040
+the actual radius
+
+1339
+00:53:27,990 --> 00:53:25,520
+if you look at doubling the range that
+
+1340
+00:53:29,270 --> 00:53:28,000
+requires approximately six times 16
+
+1341
+00:53:33,829 --> 00:53:29,280
+times
+
+1342
+00:53:37,270 --> 00:53:33,839
+kind of a thing either doubling the
+
+1343
+00:53:43,990 --> 00:53:37,280
+range or 240 times smaller in radar
+
+1344
+00:53:54,230 --> 00:53:45,750
+we can resolve
+
+1345
+00:53:57,829 --> 00:53:55,829
+you can do this in both ordinary
+
+1346
+00:54:01,270 --> 00:53:57,839
+observations and in synthetic aperture
+
+1347
+00:54:06,549 --> 00:54:03,670
+we can apply gen lift processes to the
+
+1348
+00:54:08,069 --> 00:54:06,559
+nasa radar data we can also
+
+1349
+00:54:10,230 --> 00:54:08,079
+we can increase the effective detection
+
+1350
+00:54:11,990 --> 00:54:10,240
+range or we can improve the detection of
+1351
+00:54:14,630 --> 00:54:12,000
+smaller asteroids
+
+1352
+00:54:17,270 --> 00:54:14,640
+looking at some of the
+
+1353
+00:54:18,069 --> 00:54:17,280
+abstracts which were presented earlier
+
+1354
+00:54:22,790 --> 00:54:18,079
+we
+
+1355
+00:54:25,430 --> 00:54:22,800
+laser laser radar
+
+1356
+00:54:28,069 --> 00:54:25,440
+which are proposed in a couple of others
+
+1357
+00:54:30,710 --> 00:54:28,079
+so future plans
+
+1358
+00:54:32,390 --> 00:54:30,720
+we need to have some nasa radar data to
+
+1359
+00:54:34,790 --> 00:54:32,400
+apply this on to show that it works in
+
+1360
+00:54:36,710 --> 00:54:34,800
+the real world
+
+1361
+00:54:38,789 --> 00:54:36,720
+we have advanced algorithms under
+
+1362
+00:54:41,109 --> 00:54:38,799
+investigation which seem to work when
+
+1363
+00:54:42,069 --> 00:54:41,119
+you have a fairly good signal to noise
+
+1364
+00:54:43,109 --> 00:54:42,079
+ratio
+
+1365
+00:54:45,190 --> 00:54:43,119
+and we look forward to further
+
+1366
+00:54:46,549 --> 00:54:45,200
+discussions either with nasa or with
+
+1367
+00:54:48,150 --> 00:54:46,559
+other interested
+
+1368
+00:54:50,390 --> 00:54:48,160
+parties
+
+1369
+00:54:52,870 --> 00:54:50,400
+contact information dr robert carruth is
+
+1370
+00:54:54,789 --> 00:54:52,880
+the principal investigator for this item
+
+1371
+00:54:56,309 --> 00:54:54,799
+that's a telephone number of rice
+
+1372
+00:54:58,390 --> 00:54:56,319
+engineers
+
+1373
+00:55:00,230 --> 00:54:58,400
+and an email if you care to call us if
+
+1374
+00:55:02,150 --> 00:55:00,240
+you care to email us
+
+1375
+00:55:08,230 --> 00:55:02,160
+and questions all right thank you very
+1376
+00:55:11,270 --> 00:55:10,069
+so wait wait wait for the microphone
+
+1377
+00:55:12,870 --> 00:55:11,280
+please so uh we're going to take
+
+1378
+00:55:14,710 --> 00:55:12,880
+questions from the room first and then
+
+1379
+00:55:17,270 --> 00:55:14,720
+online
+
+1380
+00:55:19,589 --> 00:55:17,280
+is that this is lynley um
+
+1381
+00:55:25,109 --> 00:55:23,109
+i'm looking for a government agency that
+
+1382
+00:55:26,150 --> 00:55:25,119
+we could
+
+1383
+00:55:28,150 --> 00:55:26,160
+talk with
+
+1384
+00:55:29,829 --> 00:55:28,160
+about you
+
+1385
+00:55:32,789 --> 00:55:29,839
+from your location i assume maybe you've
+
+1386
+00:55:35,589 --> 00:55:32,799
+done work with mda
+
+1387
+00:55:36,950 --> 00:55:35,599
+we have made several proposals to mda
+
+1388
+00:55:39,510 --> 00:55:36,960
+we don't actually have a contract with
+
+1389
+00:55:42,470 --> 00:55:39,520
+mda at this point
+
+1390
+00:55:46,630 --> 00:55:44,150
+so there has not been any real world
+
+1391
+00:55:48,870 --> 00:55:46,640
+testing of these algorithms yet
+
+1392
+00:55:50,309 --> 00:55:48,880
+not with actual radar data well we've
+
+1393
+00:55:53,829 --> 00:55:50,319
+always what we've done so far has been
+
+1394
+00:55:53,839 --> 00:55:57,109
+okay thank you
+
+1395
+00:55:59,990 --> 00:55:58,069
+go ahead
+
+1396
+00:56:03,030 --> 00:56:00,000
+so just real quick are you familiar with
+
+1397
+00:56:04,230 --> 00:56:03,040
+the doppler range approach that jpl uses
+
+1398
+00:56:06,309 --> 00:56:04,240
+in its
+
+1399
+00:56:07,349 --> 00:56:06,319
+radar observations yes we are and dr
+
+1400
+00:56:08,789 --> 00:56:07,359
+cruz
+1401
+00:56:10,870 --> 00:56:08,799
+assures me that he believes this is
+
+1402
+00:56:12,230 --> 00:56:10,880
+applicable to the doppler radar
+
+1403
+00:56:14,069 --> 00:56:12,240
+world as well
+
+1404
+00:56:18,309 --> 00:56:14,079
+okay
+
+1405
+00:56:20,630 --> 00:56:18,319
+person to ask but you know what are the
+
+1406
+00:56:23,270 --> 00:56:20,640
+distances we're talking about for an
+
+1407
+00:56:24,870 --> 00:56:23,280
+active system like radar what how far
+
+1408
+00:56:26,630 --> 00:56:24,880
+out can you reach
+
+1409
+00:56:28,950 --> 00:56:26,640
+this is actually a process which you
+
+1410
+00:56:31,030 --> 00:56:28,960
+apply to an existing radar
+
+1411
+00:56:32,630 --> 00:56:31,040
+it's not a radar system in itself it's a
+
+1412
+00:56:34,710 --> 00:56:32,640
+procedure that you apply to the radar
+
+1413
+00:56:36,309 --> 00:56:34,720
+data and that allows you to double the
+
+1414
+00:56:42,390 --> 00:56:36,319
+range that you currently have with the
+
+1415
+00:56:47,349 --> 00:56:45,030
+so so doppler range radar
+
+1416
+00:56:49,349 --> 00:56:47,359
+is limited by bandwidth you mentioned
+
+1417
+00:56:50,870 --> 00:56:49,359
+power what effect does it have on the
+
+1418
+00:56:52,230 --> 00:56:50,880
+bandwidth requirement for a doppler
+
+1419
+00:56:53,990 --> 00:56:52,240
+range radar
+
+1420
+00:56:57,030 --> 00:56:54,000
+okay you've uh you've exceeded my
+
+1421
+00:56:58,309 --> 00:56:57,040
+capability to answer questions at this
+
+1422
+00:56:59,910 --> 00:56:58,319
+you give me your card point share it
+
+1423
+00:57:01,750 --> 00:56:59,920
+with colleagues at jpl all right if
+
+1424
+00:57:04,150 --> 00:57:01,760
+you'll contact dr kruth at this
+
+1425
+00:57:06,549 --> 00:57:04,160
+particular email address i'm sure he can
+1426
+00:57:08,390 --> 00:57:06,559
+answer that
+
+1427
+00:57:10,710 --> 00:57:08,400
+okay any other
+
+1428
+00:57:12,390 --> 00:57:10,720
+questions for the room or online
+
+1429
+00:57:13,510 --> 00:57:12,400
+we have uh we have one
+
+1430
+00:57:15,030 --> 00:57:13,520
+a couple of questions that came out
+
+1431
+00:57:17,510 --> 00:57:15,040
+online we won't get to all of them right
+
+1432
+00:57:19,829 --> 00:57:17,520
+away we will have time in the afternoon
+
+1433
+00:57:23,109 --> 00:57:19,839
+discussion session um but i would like
+
+1434
+00:57:26,470 --> 00:57:23,119
+uh paul to answer one of the questions
+
+1435
+00:57:28,390 --> 00:57:26,480
+related that came in regarding a comet
+
+1436
+00:57:32,069 --> 00:57:28,400
+so if you repeat the question paul uh
+
+1437
+00:57:34,390 --> 00:57:32,079
+yes a question from you streamer 374497
+
+1438
+00:57:36,470 --> 00:57:34,400
+comets can also pose a threat but they
+
+1439
+00:57:37,910 --> 00:57:36,480
+have different orbital characteristics
+
+1440
+00:57:39,750 --> 00:57:37,920
+than asteroids do any of these
+
+1441
+00:57:42,150 --> 00:57:39,760
+prediction methods incorporate
+
+1442
+00:57:44,549 --> 00:57:42,160
+trajectories for comments so that may
+
+1443
+00:57:47,190 --> 00:57:44,559
+have been a question
+
+1444
+00:57:48,950 --> 00:57:47,200
+for an earlier uh presenter
+
+1445
+00:57:53,349 --> 00:57:48,960
+um
+
+1446
+00:57:55,109 --> 00:57:53,359
+i'm sure the uh
+
+1447
+00:57:57,750 --> 00:57:55,119
+the trouble or the difficulty with
+
+1448
+00:57:59,270 --> 00:57:57,760
+comets is that they are usually in in um
+
+1449
+00:58:01,589 --> 00:57:59,280
+uh much more eccentric orbits and
+
+1450
+00:58:03,190 --> 00:58:01,599
+therefore traveling at higher velocity
+1451
+00:58:05,349 --> 00:58:03,200
+i'm sorry
+
+1452
+00:58:08,950 --> 00:58:05,359
+or from oily lingering oh that was for
+
+1453
+00:58:13,510 --> 00:58:11,750
+so yeah okay so i guess go ahead you can
+
+1454
+00:58:17,270 --> 00:58:13,520
+answer
+
+1455
+00:58:19,670 --> 00:58:17,280
+as this is a question for orly
+
+1456
+00:58:21,190 --> 00:58:19,680
+is early in the audience he's on
+
+1457
+00:58:23,589 --> 00:58:21,200
+he's on the phone but you can answer go
+
+1458
+00:58:26,630 --> 00:58:23,599
+ahead answer okay
+
+1459
+00:58:28,390 --> 00:58:26,640
+yeah i do believe yes exactly the same
+
+1460
+00:58:29,750 --> 00:58:28,400
+methods approach uh can be applied to
+
+1461
+00:58:32,390 --> 00:58:29,760
+comets the orbits are a little bit
+
+1462
+00:58:34,230 --> 00:58:32,400
+different the comets are approaching um
+
+1463
+00:58:35,670 --> 00:58:34,240
+at higher velocities but the
+
+1464
+00:58:37,589 --> 00:58:35,680
+but the exact same techniques can be
+
+1465
+00:58:40,069 --> 00:58:37,599
+used and radar is
+
+1466
+00:58:42,710 --> 00:58:40,079
+is used to observe uh comets as just as
+
+1467
+00:58:44,150 --> 00:58:42,720
+they are used to observe asteroids
+
+1468
+00:58:46,230 --> 00:58:44,160
+okay great
+
+1469
+00:58:47,430 --> 00:58:46,240
+well that let's um conclude our session
+
+1470
+00:58:50,230 --> 00:58:47,440
+thank you very much to our speakers
+
+1471
+00:58:51,510 --> 00:58:50,240
+we'll take a break for uh 10 minutes we
+
+1472
+00:58:53,510 --> 00:58:51,520
+will
+
+1473
+00:58:56,309 --> 00:58:53,520
+come back at
