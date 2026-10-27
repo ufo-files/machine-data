@@ -1,0 +1,677 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/1986-00-00_Fusion-Technology---Vol-10-No-2---Houlberg-and-Lacatski.pdf", "source_sha256": "59c1b37fb46153ba5c44d1f6d03188031a62db5dff72d4b7b313765447184db7", "source_bytes": 1363833, "source_mtime": 1790398575, "source_mtime_ns": 1790398575040888872, "source_ctime_ns": 1790398575077766823, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T19:51:46.289590+00:00"}
+
+Fusion Technology
+
+
+
+
+      ISSN: 0748-1896 (Print) (Online) Journal homepage: http://www.tandfonline.com/loi/ufst19
+
+
+
+
+Assessment of a Compact Torsatron Reactor,
+ATFSR
+
+Wayne A. Houlberg, James T. Lacatski & Nermin A. Uckan
+
+To cite this article: Wayne A. Houlberg, James T. Lacatski & Nermin A. Uckan (1986) Assessment
+of a Compact Torsatron Reactor, ATFSR, Fusion Technology, 10:2, 227-235, DOI: 10.13182/
+FST86-A24974
+
+To link to this article: https://doi.org/10.13182/FST86-A24974
+
+
+
+
+       Published online: 09 May 2017.
+
+
+
+       Submit your article to this journal
+
+
+
+       View related articles
+
+
+
+       Citing articles: 2 View citing articles
+
+
+
+
+                       Full Terms & Conditions of access and use can be found at
+              http://www.tandfonline.com/action/journalInformation?journalCode=ufst19
+ASSESSMENT OF A COMPACT                                                                        FUSION   REACTORS
+
+TORSATRON REACTOR, ATFSR
+WAYNE A. HOULBERG Oak Ridge National Laboratory
+P.O. Box Y, Building 9201-2, MS-3, Oak Ridge, Tennessee 37831
+
+JAMES T. LACATSKI* University of Tennessee
+Nuclear Engineering Department, Knoxville, Tennessee 37917
+
+NERMIN A. UCKAN Oak Ridge National Laboratory
+P.O. Box Y, Building 9201-2, MS-3, Oak Ridge, Tennessee 37831
+
+
+Received January 2, 1986
+Accepted for Publication April 17, 1986
+
+
+                                                              same as those for other magnetic confinement con-
+                                                              cepts: plasma beta (efficient use of the magnetic
+     Confinement and engineering issues of a small            fields), engineering (size, access, shielding, etc.), and
+(average minor radius ii== I m) moderate-aspect-ratio         energy confinement (ignition versus high-Q operation).
+torsatron reactor are evaluated. The Advanced Toroi-               The Advanced Toroidal Facility (ATF) torsatron 1
+dal Facility design is used as a starting point because       under construction at Oak Ridge National Laboratory
+of its relatively low aspect ratio and high beta capabil-     (ORNL) should give direct access to the second stabil-
+ities. The major limitation of the compact size is the        ity regime (high beta) because of its moderate aspect
+lack of space under the helical coils for the blanket         ratio, its shear, and the stabilizing influence of the
+and shield. Some combination of lower aspect ratio            magnetic axis shift. 2 The lower aspect ratio of the
+coils, higher coil current density, thinner coils, and        A TF in combination with higher beta capabilities
+more effective shielding material under the coils should      should lead to reactors that are more compact than
+be incorporated into future designs to improve the            those considered in earlier power reactor studies. 3-s
+feasibility of small torsatron reactor concepts. Current      Parameters for these designs are listed in Table I and
+neoclassical confinement models for helically trapped         compared with the result of this study, 9 the ATF Stel-
+particles show that a large radial electric field (in terms   larator Reactor (ATFSR). Reduced-aspect-ratio stella-
+of the electric potential, e<f>/T 2: 3) is necessary to       rators have been investigated in a parameter study by
+achieve ignition in a device of this size.                    Hitchon. 10 Aspect ratios as low as A == 6.5 were
+                                                              found, but constraints on the blanket/shield thickness
+                                                              led to minimum major radii of R 0 ::::: 11 m. In this
+                                                              study, we relax the blanket/shield constraint (but
+                                                              recognize it as a potential problem area) to obtain an
+I. INTRODUCTION                                               even smaller device that falls into the category of an
+                                                              ignition machine. We devote greater attention to
+     Stellarator /torsatron reactors have the advantage       evaluation of confinement, which also plays a major
+of operating with zero net plasma current and steady-         role in minimum size projections but has been largely
+state magnetic fields, thus greatly reducing cyclic           overlooked in previous studies.
+stresses and fatigue. Other advantages are disruption-             We start with A TF, scale it up to an average
+free operation, natural divertor capabilities, startup on     plasma minor radius of ii = 1 m, then examine the
+existing magnetic surfaces, and possible modular con-         confinement and engineering issues that have an
+struction. Torsatrons have the additional advantage of        impact on feasibility. In Sec. II the A TF magnetic field
+improved access (relative to stellarators) because they       and magnetohydrodynamic (MHD) properties are
+require only / helical windings to produce a poloidal         summarized and scaled up for the ATFSR. Recently
+harmonic of 1, as opposed to 21 windings in a stella-         developed theoretical models 11 and experiments 12 on
+rator. Reactor-relevant issues addressed here are the         Wendelstein VII-A have shown the importance of a
+                                                              radial electric field for confinement. The transport
+                                                              equations and models, including the electric field
+*Current address: Duke Power Company, Charlotte, North        evaluation, are presented in Sec. III, and the results
+ Carolina 28242.                                              are discussed in Sec. IV.
+
+FUSION TECHNOLOGY          VOL. JO    SEP. 1986                                                                    227
+Houlberg et al.     COMP ACT TO RSATRON
+
+                                                           TABLE I
+                                       Stellarator/Torsatron Power Reactor Designs
+
+                                        Massachusetts                                                  Los Alamos
+                                         Institute of                    Soviet     University of       National
+                                         Technology         Japan        Union       Wisconsin         Laboratory     ORNL
+                                             T-2          Heliotron-H    TNPP       UWTOR-M             MSR-IIB       ATFSR
+
+ Plasma radius (m)                            1.5               1.7         2.1           1.72              0.81        1.0
+ Major radius (m)                            24.0              21.0        36.8          24.1              23.0         7.0
+ Aspect ratio                                16.0              12.4        17.5          14.0              28.4         7.0
+ Plasma volume (m 3)                       1067              1198        3203          1407               298         138
+ Average density (10 20 /m 3 )                2.5               1.17        2.5           1.46              3.64        1.2
+ Average beta                                 0.065             0.06        0.1           0.06              0.08        0.09
+ On-axis magnetic field (T)                   5.0               4.0         4.4           4.5               6.56        5.0
+ Peak field at coil (T)                       9.0               9.0                      11.6              11.6        10.0
+ First-wall loading (MW /m 2 )                2.2               1.3         4.0           1.41              2.0         2.3
+ Thermal power [MW(thermal)]               3600              3400        9300          4820              4000         930
+ Net plant efficiency                         0.33              0.31        0.36          0.38              0.33        0.33
+ Net electric power [MW(electric)]         1188              1054        3348          1832              1320         300
+
+
+
+II. MAGNETIC PROPERTIES OF ATF AND ATFSR                                                  TABLE II
+
+    The ATF torsatron is an I= 2 (two helical coils),                      ATF and ATFSR Machine Parameters
+m = 12 [12 toroidal field (TF) periods] design with                                Dimensionless Parameters
+additional inner, middle, and outer vertical field (VF)
+coils, as shown in Fig. 1. For confinement studies, the                 Coil configuration                     Continuous
+magnetic field strength can be approximated as                          Multipolarity, I                          2
+      B=::B0 [1-E1 cos8-Ehcos(/8-m</>)],                  (1)           TF periods, m                            12
+                                                                        Plasma elongation, bplap                  1.65
+where the toroidal modulation is given by the local                     Plasma aspect ratio, R 0 /ii              7
+inverse aspect ratio E1 =:: p/R0 and the helical modula-                Coil aspect ratio, R 0 1iic                  4
+tion is                                                                 Helical ripple on axis, Eho                  0.0
+                                                     (2)                Helical ripple at edge, Eha                  0.22
+                                                                        Transform on axis, c0                        0.35
+with 0 :s p :s ii. Table II summarizes the dimensionless
+                                                                        Transform at edge, c0                        0.90
+machine parameters that A TF and A TFSR have in
+                                                                                      Scaled Parameters
+
+                                                                                                             ATF      ATFSR
+
+                                                                   Major radius, R 0 (m)                      2.1           7.0
+                                                                   Average minor radius, ii (m)               0.3           1.0
+                                                                   Plasma minor radius, ap (m)                0.23          0.78
+                                                                   Average coil radius, ac (m)                0.48          1.75
+                                                                   Major radius of inner VF coils (m)         1.33          4.43
+                                                                   Major radius of outer VF coils (m)         2.94          9.80
+                                                                   Major radius of middle VF coils
+                                                                     (m)a                                     1.69
+                                                                   Vertical position of inner VF coils
+                                                                     (m)                                    ±0.20      ±0.67
+                                                                   Vertical position of outer VF coils
+                                                                     (m)                                    ±0.64      ±2.13
+                                                                   TF on axis, B 0 (T)                       2.0         5.0
+                                                                   Helical coil current (MA)                 1.75       14.6
+Fig. 1. The ATF-style coil set. The inner, middle, and outer
+        VF coils are shown. The middle VF coil system             aMiddle VF coils are used to add flexibility to the ATF
+        (upper coils inside torus) adds flexibility to the ATF     magnetic configuration. The standard configuration re-
+        configuration but can be eliminated in ATFSR.              quires no current in these coils.
+
+228                                                                         FUSION TECHNOLOGY             VOL. 10     SEP. 1986
+                                                                           Houlberg et al.    COMPACT TORSATRON
+
+common and also the scaled sizes, fields, and currents.        reference operating point of ATFSR, although there
+For ATFSR, the size has been scaled up by a factor of          is a large uncertainty in this number as an upper limit
+10/3 and the magnetic field by a factor of 5/2; coil           on beta.
+currents must be scaled by the product of these two                 The one major problem in scaling up the ATF
+factors, or 25/3, according to Ampere's law.                   design is the rather tight area between the plasma and
+    One of the most appealing aspects of the A TF              the HF coils, tl.S = 0.4 m, as shown schematically in
+configuration is its MHD stability properties, 1•2 as          Fig. 3 (dimensions and other parameters are given in
+shown in Fig. 2. The equilibrium limit has been                Table III). A 0.1-m dewar and a 0.05-m first-wall
+extended to slightly higher beta than that shown               thickness are assumed. Because ATF was not designed
+through improved resolution in the computational               to allow for a blanket/shield, it is not surprising that
+models. The limit corresponds to a constraint that the         a simple scale-up of the device leads to limited space
+Shafranov shift be less than - 500/o of the minor              in this region. If tl.S can be increased to 0.6 to 0.7 m,
+radius. The stability boundary is determined by low-           however, an efficient shielding material, such as tung-
+n, internal ideal instabilities near the plasma edge,          sten with boron carbide, could be used directly under
+which is bounded by a close-fitting conducting shell.          the coils. 13
+As the shell is moved away from the plasma, no sig-                 In tokamak plasmas, where very low order har-
+nificant change is seen in this boundary. In the stan-         monics of the poloidal magnetic field are used for
+dard A TF configuration, resistive modes are expected          shaping, it is relatively easy to move the coils (in minor
+to occur only in the edge region. Saturation of the            radius) away from the plasma and allow for a thicker
+modes leads to turbulence and enhanced transport               blanket/shield. In stellarators or torsatrons, even small
+(e.g., resistive-g modes). The ATF has enough flexibil-        modifications to the HF coils can have a significant
+ity in its helical field (HF) and VF coil systems to           effect on the vacuum magnetic field topology.
+examine whether the window to the second stability             Nonetheless, several options to relax the tight spacing
+regime exists and, if it does exist, to attempt to opti-       of the ATF scale-up exist: thinner, higher current den-
+mize the magnetic configuration. The equilibrium and           sity coils with the same height and aspect ratio (i.e.,
+stability limits of Fig. 2 should apply directly to            the same distance from the coil center to the plasma);
+A TFSR because the same magnetic configuration is              lower aspect ratio HF coils; a larger scale device; or
+used. An average beta of 90/o has been chosen for the          some combination of these. Changing either the aspect
+
+
+
+
+                20
+
+
+
+
+            0
+           CQ
+
+
+                10
+
+
+
+
+                                      10                     15                     20                   25
+                                                           m (ex A)
+
+
+Fig. 2. Combined equilibrium and stability constraints for ATF, showing central /30 as a function of TF period number.
+        These constraints indicate possible access to the second stability regime at m = 12.
+
+FUSION TECHNOLOGY         VOL. IO    SEP. 1986                                                                       229
+Houlberg et al.                       COMP ACT TO RSATRON
+
+
+ FITTED FIRST                         /
+                                          /
+                                              ,,,-   -- ' '                        sity to -15 MA/m 2 • The field at the coil is twice that
+                                                                                   on axis, Be== 10 T, so the design is comfortably
+      WALL
+                             /
+                                 /
+                                                     ABS
+                                                                  '''   PLASMA     within the limits for pool boiling in NbTi superconduc-
+                     I                                                             tor magnets (==18 to 20 MA/m 2 ). Forced flow in
+                 I                                                                 Nb 3 Sn could raise the limit to ==40 MA/m 2 (Ref. 15).
+
+
+
+         D
+             I                                                           HELICAL        The chamber wall is shown as fitted to the plasma
+                                                                          COIL
+             l.                  7                                                 in Fig. 3. Because space is not a restriction in the semi-
+                                                                                   major radius (located at the top and bottom in the fig-
+                                                                                   ure, and rotating poloidally as it moves toroidally
+                                 '
+  COIL                           \                                                 around the machine), room can be made for an
+ DEWAR                           .\                                                expanded boundary or divertor 16 to collect particles
+             (.··                                                                  and energy; for diagnostic, fueling, and heating ports;
+                                                                                   etc.
+              '      \
+                         \
+                             \
+                                                                                   Ill. CONFINEMENT MODEL WITH RADIAL
+                                     ' ',...... ____ ,,.,,,   /                         ELECTRIC FIELD EFFECTS
+
+Fig. 3. Schematic cross-sectional view of ATFSR, showing                               The confinement properties of A TFSR were exam-
+        the elliptic plasma (semiminor radius Op, semima-                          ined with the POPCON option in the WHIST trans-
+        jor radius bp) with a fitted first wall (semiminor                         port code, 17 including the analysis of Hastings et al.
+        radius ow, semimajor radius bw) a coil shield (thick-                      for a neoclassical formulation of the radial electric
+        ness AS), and a blanket (blanket/ shield thickness                         field. 11 The particle and energy transport equations
+        ABS). The coil dewars and the HF coils (thickness                          are essentially those used in tokamak analyses, but
+        <>er. width oew) are shown with the cross sections                         with the radial electric field effects incorporated into
+        normal to the coils; the projections of their cross                        the radial fluxes.
+        sections in this plane are larger than shown because
+        of the helical pitch of the coils. The plasma cham-                            The particle balance is given by
+        ber rotates poloidally with the TF period number
+        m= 12.                                                                             :tna+ V'~p) ~ [V'(p)r =Spa,   0]                 (3)
+
+                                                                                   where
+                     TABLE III                                                         subscript o = any of the ion species
+      ATFSR Blanket, Shield, and Coil Parameters
+                                                                                               V(p) =volume of plasma contained inside
+      First-wall configuration                                          Fitted                          the flux surface p
+      Wall semiminor radius, Ow (m)                                       0.86                 V ' (p) =effective surface area of the flux sur-
+      Wall semimajor radius, bw (m)                                       1.37                          face p.
+      Wall surface area, Sw (m 2 )                                      276
+      First-wall thickness (m)                                           0.05      The particle source represents the net source of ions
+      Dewar thickness (m)                                                0.1       from all atomic physics processes. Pellet fueling is
+      Coil shield thickness, AS (m)                                       0.4      taken as the source of deuterium and tritium in the
+      Blanket/shield thickness, ABS (m)                                   1.5      A TFSR calculations. The electron density is treated as
+      Field at coil, B,,.ax (T)                                          IO        a dependent variable and evaluated from charge neu-
+      Maximum current density (MA/ m2 )                                  15        trality.
+      Coil thickness, <>er (m)                                            0.7          The energy balance for ions results from a summa-
+      Coil width, Dew (m)                                                 1.4      tion over all thermal ion species, using the assumption
+                                                                                   that strong collisional coupling equilibrates their tem-
+                                                                                   peratures at Ti:
+
+ratio or the dimensions of the HF coils requires reas-
+sessment of the magnetics and a more thorough study                                ~ :t [(~ na) Ti]
+than that undertaken here. Lower aspect ratio coil
+designs that preserve the desirable MHD characteris-                                       + ~ { V'~p) :P [v'(p) (qa+ ~ raTi) ]}
+tics of A TF are under investigation. 14
+     The HF coils in A TF are designed for 28 MA/m 2
+in the copper or -20 MA/m 2 averaged over the coil,                                    =L: [re~(naTJ+Qea+SEa-Zara<P'],
+including structure and cooling channels. The scale-up
+                                                                                           a     neap
+to ATFSR leads to a reduction in HF coil current den-                                                                                       (4)
+
+230                                                                                             FUSION TECHNOLOGY         VOL. 10     SEP. 1986
+                                                                                  Houlberg et al.              COMP ACT TO RSATRON
+
+where the right side of Eq. (4) contains, in order, the          and the expressions for Et and Eh are given in Sec. II.
+flow-work term, the energy exchange between the elec-            The driving forces for the fluxes are radial nonunifor-
+tron and ion fluids, the heating of thermal ions from            mities in the fluid quantities (assumed constant on a
+both external (e.g., wave heating, beam injection) and           magnetic surface):
+internal (e.g., energetic fusion-produced alphas)
+sources, and the kinetic energy expended (created) by
+the ions in climbing (falling) through the radial elec-
+                                                                 A1(X)      =-n11an· + Z·e act> + -1 (x - -3) aT
+                                                                                  __J_
+                                                                                 ap     ~ ap
+                                                                                            _J_ -
+                                                                                                  ~        2 ap
+                                                                                                                          _J     •    (12)
+
+tric potential.
+                                                                 The effective frequency in the denominator of the
+     The electron energy balance equation is notation-           integrand of Eq. (8) is given by
+ally the same as the ion energy balance with the sub-
+                                                                                   2_ 2
+script e replacing a, the species summation removed on                           Wj = Wdj        + Wsj2 + Wpj2 + Wvj2 ,               (13)
+the left side, and the sign changed on the flow-work
+                                                                 where the electric field and grad-B drift contribute to
+and energy exchange terms:                                       an effective drift frequency in the collisionless non-
+                                                                 resonant regime,
+                                                                                  2
+                                                                                 Wdj   = 1.67 -Et (wE + WvBj) 2 '                     (14)
+                                                                                                  Eh
+                                                                 with
+                                                                                                           <P'                        (15)
+                                                                                            WE=--
+where radiative losses are included in the electron                                                        eBp
+energy source term, in addition to the energy sources            and
+discussed in the ion energy equation.
+                                                                                                      aEh
+     The particle and heat fluxes are assumed to con-                                   WvB· := -XVd· -                               (16)
+                                                                                            'J             J     ap
+sist of three parts: a neoclassical contribution from
+particles trapped in the helical ripple (ncr), a neoclas-        The superbanana, plateau, and collisional terms are
+sical axisymmetric contribution (nca) from toroidally            obtained with the following effective frequencies:
+trapped particles, and an additional anomalous term
+(an) where warranted by experimental evidence.
+Thus,                                                                              W~    =0.25 ( E~E)3/2 W~Bj                         (17)
+
+                                                           (6)
+and                                                                                                                                   (18)
+                                                           (7)   and
+where the subscript j designates either ions or elec-                                   2.=30[11j(X)]2                                (19)
+                                                                                       Wv; - •
+trons.                                                                                           Eh
+    The integral formulation of Shaing 18 gives a                respectively.
+smooth fit to the neoclassical particle and energy                   The neoclassical heat fluxes for ripple-trapped ions
+fluxes of helically trapped ions and electrons over a            and electrons are similar to the neoclassical particle
+wide range of plasma parameters. The particle fluxes             fluxes but involve a higher velocity moment of the dis-
+are given by                                                     tribution function:
+r!'cr= -E2Ell2v2·n·f"' dxx512e-x11-·(x) Aj(x)
+ J       t h  d; J                J       2( )        .
+                                                           (8)   Q!'CT _ q!'CT
+                                                                  J     -    J
+                                                                                  + ~2 r!'CTT
+                                                                                        J   J
+                   0                    Wj X
+
+The drift of species j in the nonuniform magnetic field                 _
+                                                                        -
+                                                                                 2 112 2
+                                                                            -Et Eh      Vdjnj
+                                                                                                 TzJ"'
+                                                                                                  j
+                                                                                                       dxx 112 e -x-llj ( x ) Aj(x)
+                                                                                                                               2( )
+is                                                                                                     O                    Wj   X
+                         TJ_
+                   Vd·= _ _
+                                                                                                                                      (20)
+                                                           (9)
+                     'J    Z1 eBp                                The integrals over velocity space in Eqs. (12) and (20)
+The effective collisionality in the helical magnetic field       are evaluated numerically. The axisymmetric neoclas-
+IS                                                               sical terms are taken from Hinton and Hazeltine 19 in
+                                                                 simplified diagonal form.
+                                                          (10)       In the collisional regime of existing experiments,
+                                                                 the neoclassical particle and electron heat fluxes are
+where 111 is the energy-dependent 90-deg collision fre-          small and, therefore, susceptible to anomalous trans-
+quency; the dimensionless energy is                              port because of small-scale turbulence, as in tokamak
+                               2
+                                                                 plasmas. An additional contribution is typically added
+                   x=--.
+                          m;·V1h'J.
+                                                          (11)   to the neoclassical fluxes for better experimental agree-
+                      -    2TJ        '                          ment. 20 We add the following anomalous terms to the
+
+FUSION TECHNOLOGY           VOL. 10       SEP. 1986                                                                                   231
+Houlberg et al.      COMPACT TORSATRON
+
+particle and electron heat fluxes, assuming (for lack of
+a better understanding of the physical processes
+involved) that the contributions to the electron and ion
+particle fluxes are equal and do not influence the                                                                     (28)
+radial potential:
+                    r/n = rj- r/c
+                                                                          =th [lcJ>'I IJIC~/Zje)ehlJ r
+                                                                                                          13
+                                                                                                                        29
+                                                                     Xi             +                          '       < >
+                         =-nan ane                       (21)
+                                      ap                        and vAp is the poloidal Alfven velocity.
+and                                                                 In steady state and in the absence of a very sharp
+                                      are                       gradient in cf> [i.e., a discontinuity produced by the
+                  qean -_ -n e xae n -ap    '            (22)   vanishing of a root of Eq. (26)], the solution of Eq.
+                                                                (27) reduces to that of Eq. (26). The time scale for this
+where                                                           relaxation is faster than the particle or energy diffusion
+                     1.5 x 10 12                                time scales, so an inner loop with a shorter time step
+        nan= x:n13 = -  ---                              (23)   is used to evolve this equation.
+                                 ne
+     Two methods of incorporating the radial electric
+field are discussed in the following analysis: (a) assum-       IV. DISCUSSION OF CONFINEMENT RESULTS
+ing a parabolic profile for the electric potential nor-
+malized to the central ion temperature,                             A Gaussian heating profile with a half-width of
+                                                                a/2 and with 25% of the power delivered to the elec-
+                  cf>= -~Ti(O) (~)2         ,            (24)
+                                                                trons and 75% to the thermal ions was used to simu-
+                                                                late ion cyclotron resonant heating (ICRH) in the
+                                                                evaluation of auxiliary power needs for startup. Pel-
+and (b) solving for a self-consistent radial electric           let fueling maintained equal densities of deuterium and
+potential from the neoclassical particle fluxes.                tritium through feedback on the source.
+    In an axisymmetric tokamak plasma, the radial                    Figure 4 shows the operating contours (in (ne)-
+electric field term is ignored, using the argument that         (T) space) for a fixed potential characterized by~= 4,
+the radial fluxes of ions and electrons are intrinsically       where
+ambipolar. In a nonaxisymmetric plasma, the radial
+electric field (-cf>') strongly influences the particle
+drifts and, therefore, the net particle fluxes. The con-
+                                                                          ( T) = - 1 - 1
+                                                                                 (ne) 2V
+                                                                                           I   dV(n e Te + n·T·)
+                                                                                                            i I
+                                                                                                                       (30)
+straint that the radial charge flows of electrons and
+ions must be equal then leads to an algebraic equation          and (ne) is the volume-averaged electron density.
+for the radial electric field that is highly nonlinear and      Ignition (P%:fx = 0) occurs at (f3r) =:: 8% with a fusion
+multivalued for neoclassical transport models 21 •22 :          power output of - 300 MW. The reference operating
+                                                                values of Table I are obtained at the intersection of the
+                                                         (25)   ignition curve and the (f3r) = 9% contour. A recir-
+                            a                                   culating power fraction of 5%, a thermal conversion
+Because of the assumption that the axisymmetric and             efficiency of 33%, and an energy multiplication fac-
+anomalous contributions are independent of cf>', Eq.            tor of 1.2 in the blanket have also been assumed. The
+(25) reduces to                                                 electron energy confinement time is -0.5 s, and the
+                                                                ion energy confinement is - 5 s for a net global energy
+                                                                confinement time of 0.9 s-comparable to that for a
+                             a                                  tokamak of the same size.
+Time evolution of the electric field can lead to discon-             Because stellarators can operate in a steady state,
+tinuities in the radial solution, 23 so we adopt a diffu-       startup is infrequent, and there is no strong limitation
+sion equation for the evolution of cf>' rather than using       on the startup time; the minimum in the steady-state
+Eq. (26) (Refs. 11 and 24):                                     auxiliary power contours between the origin ((f3r) = 0)
+                                                                and the ignition curve then closely approximates the
+          2                                                     startup power requirements.17 In this case, -20 MW
+:1[Eo~P (~)cf>']=~ {zjerrr+ V'~p) :P                            is required for a low-density startup.
+                                                                     The same analysis with ~ = 2 raises the ignition
+                                                                curve above 9% beta. For this case, Q =:: 15 at the ref-
+                            x [ V'(p )ZjnEj     aa~']} ' (27)   erence operating point, which requires - 50 MW of
+                                                                steady-state auxiliary power and has a global energy
+where                                                           confinement time of =::O. 7 s. At ~ =:: 3, the ignition
+
+232                                                                         FUSION TECHNOLOGY           VOL. 10    SEP. 1986
+                                                                               Houlberg et al.     COMPACT TORSATRON
+
+                                                ATFSR ANOMALOUS CONFINEMENT
+                                                       ~ = 4, ION HEATING
+                      16
+                      14
+
+            M
+                      12                                                           \       "''-soo
+             I
+
+             E 10                                                                      ""          600
+            m
+            -0
+                       8
+            - 6
+             x
+            ,,..._
+              c:"
+            ...._,                                    10                       Pius (MWI
+                       4
+                       2
+                       0
+
+                      16
+                      14
+
+            M
+                      12
+             I
+
+                 E 10
+            ~
+             0         8
+                 x
+             -
+             ,,..._    6
+               c:"
+             ...._,
+                       4
+                       2
+                       0
+                           0    5        10     15         20   25 0       5        10        15         20   25
+                                         (T) (keV)                                     (T) (keV)
+
+Fig. 4. Steady-state contours for an assumed electric potential profile characterized by ~ = 4. The contours are supplemen-
+        tary heating <P:3x), fusion power (Pius), Q (P1uslP:3x), and toroidal beta ((f3r) ).
+
+
+
+curve just intersects the 9% beta curve, giving a single-        low-density startup. At a density of (ne) = 2 x 10 19
+point operating window (ignition margin of one).                 m - 3 , an auxiliary power of =20 MW (contour not
+     At low temperatures, the neoclassical ion particle          shown) can be used to force the transition to the low-
+losses dominate and yield a negative ambipolar elec-             collisionality, electron-dominated loss solution at a low
+tric potential in the solution of Eq. (26) or (27). In the       temperature (=5 keV) where the conduction losses are
+higher temperature, lower collisionality regime of a             not very severe. As the density is increased, the tran-
+reactor, the electron losses dominate and a positive             sition occurs at higher temperatures, with the resonant
+potential is obtained. This leads to a necessary transi-         losses increasing rapidly.
+tion through small potentials and electric fields where
+resonant neoclassical helical ripple losses are large.
+When Eq. (27) is solved through the transition zone,             V. SUMMARY
+the results in Fig. 5 are obtained. The potential is
+forced to asymptotically approach~= 4 at high tem-                   Emphasis has been placed in this study on a low-
+peratures where the neoclassical ripple-induced fluxes           aspect-ratio torsatron configuration that has high beta
+are reduced and, therefore, are more vulnerable to               capabilities and, thus, leads to an attractive reactor
+anomalous losses. The <P = 0 transition occurs along a           regime. The ATFSR represents only a preliminary
+curve roughly intersecting the bottoms of the auxiliary          scale-up of the ATF to a reactor that is more compact
+power contours and strengthens the requirement of a              than those considered in earlier studies. Blanket/shield
+
+FUSION TECHNOLOGY              VOL. 10    SEP. 1986                                                                    233
+Houlberg et al.             COMPACT TORSATRON
+
+                                               ATFSR ANOMALOUS CONFINEMENT
+                                              ROOT TRANSITION,~= 4, ION HEATING
+                       16
+                       14
+
+            M
+                       12                                                              \       ~"900
+             I
+              E 10                                                                         ~        600
+            ~
+            0           8
+                 x
+             ...... 6
+             ~
+
+
+
+
+               c:"'
+             .....,, 4
+                                           P~~x (MW)                          Pius (MW)
+                        2
+                       0
+                       16
+                       14
+                       12
+                                                                                                          ' 12
+            M
+             I
+              E 10
+            m
+            ~
+
+
+
+             0         8
+                 x                                                                         3
+             ......     6
+               c:"'
+             .....,,   4
+
+                        2
+                       0
+                            0   5     10       15      20       25 0      5       10           15    20          25
+                                      (T) (keV)                                    (T) (keV)
+
+Fig. 5. Steady-state contours with self-consistent E, evolution through the transition and ~ = 4 thereafter. The contours
+        are those described in Fig. 4.
+
+
+space under the helical coils is not adequate, but a             consistent radial electric field. However, nonambipolar
+push to helical coils with a slightly lower aspect ratio         anomalous losses or a nonthermal, anisotropic tail on
+(from :::::4 to :::::3.7 to 3.8), coupled with increased coil    either the electron or ion distribution function driven
+current density, could solve this problem. If so, an             by auxiliary heating may dominate the particle losses
+ATFSR-size machine may be used for ignition demon-               and govern the potential (e.g., as shown by the Wen-
+stration or "multiplexed" (grouped with others) in a             delstein VII-A beam injection experiments 12 ). The
+central station power complex.                                   choice of auxiliary heating (neutral beams, electron
+    Although the results of recent MHD stability and             cyclotron resonant heating, ICRH, etc.) may well pro-
+confinement studies have been used, it must be empha-            vide some external control of the ambipolar potential
+sized that the physics has been extended into an exper-          and therefore the confinement of thermal particles.
+imentally untried regime in which new phenomena are              This remains a rich area for both theoretical and
+predicted (high beta through direct access to the sec-           experimental investigation.
+ond stability regime and an electron-dominated colli-
+sionless neoclassical transport regime). The goals of                               ACKNOWLEDGMENT
+the existing experimental confinement program are to
+explore these issues and to provide a firmer footing for              This research was sponsored by the Office of Fusion
+further studies.                                                 Energy, U.S. Department of Energy, under contract DE-
+    For example, neoclassical ripple-induced losses of           AC05-840R21400 with Martin Marietta Energy Systems,
+thermal particles have been used to evaluate a self-             Inc.
+
+234                                                                        FUSION TECHNOLOGY          VOL. 10         SEP. 1986
+                                                                         Houlberg et al.     COMPACT TORSATRON
+
+                       REFERENCES                            PENNINGSFELD, E. SPETH, and H. BUCHL, "Plasma
+                                                             Confinement and the Effect of Rotational Transform in the
+ 1. J. F. LYON, B. A. CARRERAS, K. K. CHIPLEY,               Wendelstein VII-A Stellarator," Proc. 10th Int. Conj.
+M. C. COLE, J. H. HARRIS, T. C. JERNIGAN, R. L.              Plasma Physics and Controlled Nuclear Fusion Research,
+JOHNSON, V. E. LYNCH, B. E. NELSON, J. A. ROME,              London, England, 1984, Vol. 2, p. 371, International
+J. SHEFFIELD, and P. B. THOMPSON, "The Advanced              Atomic Energy Agency, Vienna (1985).
+Toroidal Facility," Fusion Technol., 10, 179 (1986).
+                                                             13. C. C. BAKER et al., "STARFIRE: A Commercial Fu-
+  2. B. A. CARRERAS, H. R. HICKS, J. A. HOLMES,              sion Tokamak Power Plant Study," ANL/FPP-80-1, Ar-
+V. E. LYNCH, L. GARCIA, J. H. HARRIS, T. C.                  gonne National Laboratory (1980).
+HENDER, and B. F. MASDEN, "Equilibrium and Stabil-
+ity Properties of High-Beta Torsatrons," Phys. Fluids, 26,   14. J. H. HARRIS, Oak Ridge National Laboratory, Pri-
+3569 (1983).                                                 vate Communication (1985).
+
+ 3. R. L. MILLER, "Recent Progress in Stellarator Reac-      15. J. SHEFFIELD, R. A. DORY, S. M. COHN, J. G.
+tor Conceptual Design," Fusion Technol., 8, 1581 (1985).     DELENE, L. PARSLY, D. E.T. F. ASHBY, and W. T.
+                                                             REIERSEN, "Cost Assessment of a Generic Magnetic
+ 4. R. E. POTOK, D.R. COHN, and L. M. LIDSKY,                Fusion Reactor," ORNL/TM-9311, Oak Ridge National
+"Design Features of T-2, A Torsatron Reactor with Contin-    Laboratory (1986).
+uous Coils," Proc. 10th IEEE Symp. Fusion Engineering,
+Philadelphia, Pennsylvania, Vol. 2, p. 1859, Institute of    16. R. SANDERS and I. N. SVIATOLAVSKY, "Divertor
+Electrical and Electronics Engineers (1983).                 Target Design for the UWTOR-M Modular Stellarator
+                                                             Power Reactor," Nuc/. Technol.!Fusion, 4, Part 3, 993
+ 5. I. YANAGISAWA, N. UEDA, M. YAMADA et al.,                (1983).
+"A Design Study of a Heliotron Power Reactor," Nuc/.
+Technol./Fusion, 4, Part 3, 1302 (1983).                     17. W. A. HOULBERG, S. E. ATTENBERGER, and
+                                                             L. M. HIVELY, "Contour Analysis of Fusion Reactor
+ 6. A. V. KOMIN, M. V. KRIVOSHEYEV, and A. B.                Plasma Performance," Nuc/. Fusion, 22, 935 (1982).
+MINEYEV, "Parameter Studies of a Stellarator Reactor
+with Various Types of Blankets," Questions of Atomic         18. K. C. SHAING, "Stability of the Radial Electric Field
+Science and Technology Series: Thermonuclear Fusion,         in a Nonaxisymmetric Torus," Phys. Fluids, 27, 1567 (1984).
+Vol. 2, p. 12 (1984) (in Russian).
+                                                             19. F. L. HINTON and R. D. HAZELTINE, "Theory of
+ 7. "UWTOR-M: A Conceptual Modular Stellarator Reac-         Plasma Transport in Toroidal Confinement Systems," Rev.
+tor," UWFDM-550, University of Wisconsin, Madison            Mod. Phys., 48, 239 (1976).
+(1982).
+                                                             20. V. ERCKMANN, G. JANZEN, W. KASPAREK, G.
+ 8. R.L.MILLER,C.G.BATHKE,R.A.KRAKOW-                        MULLER, P. G. SCHULLER, K. SCHWORER, M.
+SKI et al., "Modular Stellarator Reactor Conceptual Design   THUMM, R. WILHELM, and WENDELSTEIN VII-A
+Study," Nuc/. Technol.!Fusion, 4, Part 3, 1308 (1983).       TEAM, "Electron Cyclotron Resonance Heating Experi-
+                                                             ments in the Wendelstein VII-A Stellarator," Fusion Tech-
+ 9. J. T. LACATSKI, W. A. HOULBERG, and N. A.                nol., 1, 275 (1985).
+UCKAN, "Plasma Engineering Analysis of a Small Torsa-
+tron Reactor," ORNL/TM-9533, Oak Ridge National Lab-         21. H. E. MYNICK and W. N. G. HITCHON, "Effect of
+oratory (1985).                                              the Ambipolar Potential on Stellarator Confinement,"
+                                                             Nuc/. Fusion, 23, 1053 (1983).
+10. W. N. G. HITCHON, "Reduced-Aspect-Ratio Stella-
+rator Reactors," Nuc/. Fusion, 24, 91 (1984).                22. L. M. KOVRIZHNYKH, "The Energy Confinement
+                                                             Time in Stellarators," Nuc/. Fusion, 24, 435 (1984).
+11. D. E. HASTINGS, W. A. HOULBERG, and K. C.
+SHAING, "The Ambipolar Electric Field in Stellarators,"      23. D. E. HASTINGS, "Development of a Differential
+Nuc/. Fusion, 25, 445 (1985).                                Equation for the Ambipolar Electric Field in a Bumpy
+                                                             Torus in the Low Collision Frequency Limit," Phys. Fluids,
+12. WENDELSTEIN VII-A TEAM: G. CATTANEI, D.                  27, 2372 (1984).
+DORST, A. ELSNER, V. ERCKMANN, G. GRIEGER,
+P. GRIGULL, H. HACKER, H.J. HARTFUSS, M.A.                   24. K. C. SHAING, R. H. FOWLER, D. E. HASTINGS,
+HELLBERG, H. JACKEL, R. JAENICKE, J. JUNKER,                 W. A. HOULBERG, E. F. JAEGER, J. F. LYON, J. A.
+M. KICK, H. KROISS, G. KUEHNER, H. MAASSBERG,                ROME, and J. S. TOLLIVER, "The Radial Electric Field
+C. MAHN, S. MARKLIER, G. MULLER, W. OHLEN-                   in a Non-Axisymmetric Torus," Proc. 10th Int. Conj.
+DORF, F. RAU, H. RENNER, H. RINGLER, F. SARDEI,              Plasma Physics and Controlled Nuclear Fusion Research,
+M. TUTTER, A. WELLER, H. WOBIG, E. WURSCH-                   London, England, 1984, Vol. 2, p. 189, International
+ING, M. ZIPPE, K. FREUDENBERGER, W. OTT, F.-P.               Atomic Energy Agency, Vienna (1985).
+
+
+FUSION TECHNOLOGY          VOL. 10    SEP. 1986                                                                     235
