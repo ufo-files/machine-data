@@ -1,0 +1,4341 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2015-10-30---NASA-s-Ames-Research-Center---Kevin-Reynolds---Affordable-Airplanes-Modular-Design-and-Additive-Manufacturing_9UQ6zC0b8os---transcript-automated-.txt", "source_sha256": "fb59ac1c66315ea077137249e0872356ed95d27c9ff263494fdc5bbb359b0715", "source_bytes": 72809, "source_mtime": 1790105133, "source_mtime_ns": 1790105133572303581, "source_ctime_ns": 1790105133575021582, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T22:13:23.406410+00:00"}
+
+1
+00:00:01,000 --> 00:00:07,000
+[music playing]
+
+2
+00:00:17,033 --> 00:00:21,300
+- Welcome to the 2015
+NASA Ames Summer Series.
+
+3
+00:00:22,733 --> 00:00:26,733
+Modular design reduces risk
+and speeds up
+
+4
+00:00:26,733 --> 00:00:28,966
+technology advancements.
+
+5
+00:00:30,333 --> 00:00:35,100
+Also, combining capabilities
+from different fields
+
+6
+00:00:35,100 --> 00:00:38,400
+leads to disruptive evolution
+of technology.
+
+7
+00:00:39,900 --> 00:00:42,700
+So the combination
+of modular design
+
+8
+00:00:42,700 --> 00:00:45,266
+and looking at different fields
+in combination
+
+9
+00:00:45,266 --> 00:00:50,366
+really advances whatever
+technology we're looking at.
+
+10
+00:00:50,366 --> 00:00:53,600
+Today's talk,
+entitled "Affordable Airplanes:
+
+11
+00:00:53,600 --> 00:00:57,766
+Modular Design
+and Additive Manufacturing,"
+
+12
+00:00:57,766 --> 00:01:00,500
+will be given
+by Kevin Reynolds.
+
+13
+00:01:00,500 --> 00:01:03,000
+Kevin received
+dual bachelor's degrees
+
+14
+00:01:03,000 --> 00:01:05,833
+in physics and mathematics
+with a minor
+
+15
+00:01:05,833 --> 00:01:09,933
+in electronics
+from Norfolk State University
+
+16
+00:01:09,933 --> 00:01:12,500
+and then went on
+to get the master's degree,
+
+17
+00:01:12,500 --> 00:01:15,966
+and as you could guess,
+he did a dual master's degree
+
+18
+00:01:15,966 --> 00:01:18,366
+in aeronautics
+and mechanical engineering
+
+19
+00:01:18,366 --> 00:01:20,066
+from Stanford.
+
+20
+00:01:20,066 --> 00:01:24,000
+He's both an NSF and a Stanford
+Graduate School of Business
+
+21
+00:01:24,000 --> 00:01:27,433
+Insight program fellow.
+
+22
+00:01:27,433 --> 00:01:31,500
+Along the way,
+he has had many experiences.
+
+23
+00:01:31,500 --> 00:01:33,800
+He's worked
+at CERN in Switzerland,
+
+24
+00:01:33,800 --> 00:01:36,433
+BMW Technology in Germany,
+
+25
+00:01:36,433 --> 00:01:38,533
+Hitachi in Japan,
+
+26
+00:01:38,533 --> 00:01:41,033
+and Golden Key International
+in China.
+
+27
+00:01:45,600 --> 00:01:49,000
+He came to NASA Ames
+in 2010 and--
+
+28
+00:01:49,000 --> 00:01:52,000
+as a civil servant to the--
+
+29
+00:01:52,000 --> 00:01:53,766
+as an aerospace engineer
+
+30
+00:01:53,766 --> 00:01:56,500
+in the Intelligent System
+Division.
+
+31
+00:01:58,666 --> 00:02:02,333
+He has won numerous awards,
+and obviously,
+
+32
+00:02:02,333 --> 00:02:05,533
+he has won the NASA Ames
+Early Career Research Award
+
+33
+00:02:05,533 --> 00:02:07,633
+that my office handles.
+
+34
+00:02:07,633 --> 00:02:10,866
+So please join me
+in welcoming Kevin Reynolds.
+
+35
+00:02:10,866 --> 00:02:14,366
+[applause]
+
+36
+00:02:14,366 --> 00:02:15,800
+- Thank you.
+
+37
+00:02:19,100 --> 00:02:21,766
+Thank you.
+Thank you for the introduction.
+
+38
+00:02:21,766 --> 00:02:25,133
+And it's a pleasure for me
+to have the opportunity today
+
+39
+00:02:25,133 --> 00:02:26,266
+to present to you on a topic
+
+40
+00:02:26,266 --> 00:02:28,266
+that I find
+extremely fascinating
+
+41
+00:02:28,266 --> 00:02:31,466
+and that is of using
+3-D printing to make airplanes.
+
+42
+00:02:31,466 --> 00:02:34,733
+So, as you can see, the title is
+"Affordable Airplanes:
+
+43
+00:02:34,733 --> 00:02:37,433
+Modular Design
+and Additive Manufacturing."
+
+44
+00:02:37,433 --> 00:02:40,833
+I want to start just by focusing
+on the word "affordable"
+
+45
+00:02:40,833 --> 00:02:44,600
+because it's somewhat misleading
+in that everyone has
+
+46
+00:02:44,600 --> 00:02:46,600
+their own perception
+of what is affordable,
+
+47
+00:02:46,600 --> 00:02:51,200
+and that perception changes
+as we go through our lifetime.
+
+48
+00:02:51,200 --> 00:02:53,633
+So instead of this talk
+focusing on actually placing
+
+49
+00:02:53,633 --> 00:02:57,433
+a value--a dollar value--
+on affordable airplanes,
+
+50
+00:02:57,433 --> 00:03:00,200
+we're really going to focus on
+the value proposition
+
+51
+00:03:00,200 --> 00:03:03,366
+that can be offered
+by two key design elements.
+
+52
+00:03:03,366 --> 00:03:05,466
+And those elements
+are modular design
+
+53
+00:03:05,466 --> 00:03:09,133
+and additive manufacturing,
+also known as 3-D printing.
+
+54
+00:03:09,133 --> 00:03:12,566
+This talk is focused on
+demonstrating the use
+
+55
+00:03:12,566 --> 00:03:15,133
+of those design elements
+for unmanned aircraft
+
+56
+00:03:15,133 --> 00:03:18,566
+but may have future applications
+for other type of airplanes
+
+57
+00:03:18,566 --> 00:03:21,966
+that are designed
+to different requirements.
+
+58
+00:03:21,966 --> 00:03:23,633
+I want to also acknowledge
+
+59
+00:03:23,633 --> 00:03:26,300
+and thank the contributors
+of this work.
+
+60
+00:03:26,300 --> 00:03:28,133
+The success of the project
+was built
+
+61
+00:03:28,133 --> 00:03:30,266
+on the shoulders of giants,
+as they say,
+
+62
+00:03:30,266 --> 00:03:34,266
+and so credit is given to
+the team that made this happen
+
+63
+00:03:34,266 --> 00:03:37,100
+as well as the advisors
+and the mentors
+
+64
+00:03:37,100 --> 00:03:40,666
+that indirectly or directly
+influenced the work here:
+
+65
+00:03:40,666 --> 00:03:45,466
+Matt Fladeland, Dr. Don Nguyen,
+Dr. Bob Dahlgren, and others.
+
+66
+00:03:45,466 --> 00:03:48,100
+Many others.
+
+67
+00:03:48,100 --> 00:03:51,900
+So I wanted to start
+by framing the talk
+
+68
+00:03:51,900 --> 00:03:55,466
+with an experience
+that I had as an early engineer.
+
+69
+00:03:55,466 --> 00:03:58,100
+In fact, I was actually
+a physics major at the time,
+
+70
+00:03:58,100 --> 00:04:02,966
+and I visited a place called
+the Pima Air & Space Museum.
+
+71
+00:04:02,966 --> 00:04:04,833
+This place is
+in the middle of the desert
+
+72
+00:04:04,833 --> 00:04:06,700
+in a place
+called Tucson, Arizona,
+
+73
+00:04:06,700 --> 00:04:10,400
+and this is where
+airplanes go to die.
+
+74
+00:04:10,400 --> 00:04:13,766
+So, at the end of a lifetime,
+which is usually determined
+
+75
+00:04:13,766 --> 00:04:16,300
+by when the materials
+in the aircraft
+
+76
+00:04:16,300 --> 00:04:17,700
+have reached the fatigue point
+
+77
+00:04:17,700 --> 00:04:20,266
+where they're no longer
+deemed airworthy,
+
+78
+00:04:20,266 --> 00:04:21,900
+they are taken to this place,
+
+79
+00:04:21,900 --> 00:04:25,266
+and the low humidity
+in the desert
+
+80
+00:04:25,266 --> 00:04:27,933
+preserves the parts
+so that it can then
+
+81
+00:04:27,933 --> 00:04:31,300
+perhaps be reused
+in certain applications.
+
+82
+00:04:31,300 --> 00:04:33,266
+But here in the middle
+of the desert,
+
+83
+00:04:33,266 --> 00:04:36,033
+there are over 4,000 airplanes
+that are just sitting,
+
+84
+00:04:36,033 --> 00:04:38,866
+waiting for the possibility
+of having a part
+
+85
+00:04:38,866 --> 00:04:40,833
+here or there salvaged
+or repurposed
+
+86
+00:04:40,833 --> 00:04:42,466
+for a new airplane.
+
+87
+00:04:42,466 --> 00:04:43,800
+The engines, obviously,
+
+88
+00:04:43,800 --> 00:04:47,300
+are usually taken off first
+and overhauled,
+
+89
+00:04:47,300 --> 00:04:49,033
+but this really points
+to a big problem
+
+90
+00:04:49,033 --> 00:04:51,100
+that the aerospace industry
+is facing,
+
+91
+00:04:51,100 --> 00:04:54,033
+and that is:
+how can we extend
+
+92
+00:04:54,033 --> 00:04:57,666
+the useful lifetime of aircraft
+so that--
+
+93
+00:04:57,666 --> 00:05:02,033
+by reusing parts,
+by taking surplus parts,
+
+94
+00:05:02,033 --> 00:05:03,400
+and repurposing them
+
+95
+00:05:03,400 --> 00:05:05,566
+so that we don't have
+all this waste?
+
+96
+00:05:05,566 --> 00:05:08,866
+Because this was
+my first experience
+
+97
+00:05:08,866 --> 00:05:11,100
+when I was an undergraduate
+visiting this place.
+
+98
+00:05:11,100 --> 00:05:14,133
+But 15 years later,
+I think of this place,
+
+99
+00:05:14,133 --> 00:05:15,233
+and I think,
+this is the worst place
+
+100
+00:05:15,233 --> 00:05:16,800
+in the world
+for an aerospace engineer,
+
+101
+00:05:16,800 --> 00:05:19,000
+because who wants to design
+an airplane
+
+102
+00:05:19,000 --> 00:05:22,833
+that will sit in the desert
+for 20 years?
+
+103
+00:05:22,833 --> 00:05:26,166
+Well, design an airplane
+and then have that airplane
+
+104
+00:05:26,166 --> 00:05:27,966
+sit in the middle of the desert.
+
+105
+00:05:27,966 --> 00:05:30,066
+And so this is really
+what helped to frame
+
+106
+00:05:30,066 --> 00:05:32,300
+the rest of the discussion
+today.
+
+107
+00:05:32,300 --> 00:05:35,200
+So I look for places
+for inspiration
+
+108
+00:05:35,200 --> 00:05:38,066
+in many different places,
+but one of the unlikely places
+
+109
+00:05:38,066 --> 00:05:39,833
+that I found the inspiration
+
+110
+00:05:39,833 --> 00:05:41,700
+was actually
+my four-year-old son.
+
+111
+00:05:41,700 --> 00:05:45,666
+His name is Arlo,
+and he aspires one day
+
+112
+00:05:45,666 --> 00:05:49,900
+to be an astronaut,
+and he loves playing with LEGOs.
+
+113
+00:05:49,900 --> 00:05:53,266
+And most of us are familiar
+with LEGO design,
+
+114
+00:05:53,266 --> 00:05:54,933
+but the idea of LEGO design
+
+115
+00:05:54,933 --> 00:05:56,333
+is that you can take
+very simple components
+
+116
+00:05:56,333 --> 00:05:58,066
+and rearrange them
+and reorient them
+
+117
+00:05:58,066 --> 00:05:59,900
+in ways that will produce
+a new product.
+
+118
+00:05:59,900 --> 00:06:01,633
+Sometimes that product
+can be bigger
+
+119
+00:06:01,633 --> 00:06:04,566
+than the person
+actually creating it.
+
+120
+00:06:04,566 --> 00:06:07,066
+To the right,
+he is using his imagination
+
+121
+00:06:07,066 --> 00:06:10,733
+to show what he would look like
+as an astronaut.
+
+122
+00:06:10,733 --> 00:06:14,533
+So this really
+encouraged me to think,
+
+123
+00:06:14,533 --> 00:06:18,733
+are there things that I can do
+to possibly optimize
+
+124
+00:06:18,733 --> 00:06:21,133
+a process for making an airplane
+so that we can extend
+
+125
+00:06:21,133 --> 00:06:23,833
+the useful life of that airplane
+and make it--
+
+126
+00:06:23,833 --> 00:06:28,166
+and reduce the waste
+associated with these airplanes?
+
+127
+00:06:28,166 --> 00:06:29,966
+So one other process--
+
+128
+00:06:29,966 --> 00:06:31,400
+processes that I want
+to focus on
+
+129
+00:06:31,400 --> 00:06:34,100
+is that
+of additive manufacturing,
+
+130
+00:06:34,100 --> 00:06:35,766
+also known as 3-D printing,
+and the process
+
+131
+00:06:35,766 --> 00:06:39,200
+of 3-D printing is that
+you can take a CAD drawing--
+
+132
+00:06:39,200 --> 00:06:42,033
+a virtual shape--
+and you can create
+
+133
+00:06:42,033 --> 00:06:46,766
+a three-dimensional object
+by depositing layers
+
+134
+00:06:46,766 --> 00:06:48,800
+on top of one another,
+and the different methods
+
+135
+00:06:48,800 --> 00:06:52,866
+that are used differentiate
+
+136
+00:06:52,866 --> 00:06:55,266
+between the different types of
+printers used for this method.
+
+137
+00:06:55,266 --> 00:06:56,733
+We want to leverage this
+in some way
+
+138
+00:06:56,733 --> 00:07:01,700
+in order to repurpose
+some of the existing parts
+
+139
+00:07:01,700 --> 00:07:03,533
+of these airplanes.
+
+140
+00:07:03,533 --> 00:07:08,200
+So the innovation
+lies in the idea that,
+
+141
+00:07:08,200 --> 00:07:10,566
+from an amorphous design space,
+
+142
+00:07:10,566 --> 00:07:12,366
+we can then start
+creating designs
+
+143
+00:07:12,366 --> 00:07:13,866
+that are optimized specifically
+
+144
+00:07:13,866 --> 00:07:15,366
+for meeting
+mission requirements,
+
+145
+00:07:15,366 --> 00:07:16,666
+and the two fundamental elements
+
+146
+00:07:16,666 --> 00:07:19,533
+are the modular design
+and additive manufacturing.
+
+147
+00:07:19,533 --> 00:07:23,400
+The advantage of modular design
+is that we intentionally design
+
+148
+00:07:23,400 --> 00:07:27,500
+an airplane so that
+the parts can be interchanged
+
+149
+00:07:27,500 --> 00:07:30,700
+and we can update the design
+as the technology matures
+
+150
+00:07:30,700 --> 00:07:33,100
+and as it advances.
+
+151
+00:07:33,100 --> 00:07:35,000
+The main advantages
+of additive manufacturing
+
+152
+00:07:35,000 --> 00:07:38,200
+are that you can print
+and realize a part on demand
+
+153
+00:07:38,200 --> 00:07:40,066
+without having to wait
+for something
+
+154
+00:07:40,066 --> 00:07:41,466
+to be shipped to you.
+
+155
+00:07:41,466 --> 00:07:45,500
+And this can have huge impact
+on mission requirements
+
+156
+00:07:45,500 --> 00:07:50,566
+that may be in remote locations
+and other specific situations
+
+157
+00:07:50,566 --> 00:07:51,700
+such as that.
+
+158
+00:07:51,700 --> 00:07:54,333
+But the real advantage
+is in reducing
+
+159
+00:07:54,333 --> 00:07:56,733
+the development time,
+which can then translate
+
+160
+00:07:56,733 --> 00:07:59,366
+into development cost
+
+161
+00:07:59,366 --> 00:08:02,566
+for the specific application.
+
+162
+00:08:02,566 --> 00:08:06,666
+So high-performance airplanes
+represent a big opportunity
+
+163
+00:08:06,666 --> 00:08:08,900
+for reducing overall cost.
+
+164
+00:08:08,900 --> 00:08:10,900
+You can think
+of the vertical axis
+
+165
+00:08:10,900 --> 00:08:12,866
+being the sticker price
+of an airplane.
+
+166
+00:08:12,866 --> 00:08:14,933
+We also call it
+the acquisition cost.
+
+167
+00:08:14,933 --> 00:08:17,466
+And traditionally,
+that acquisition cost
+
+168
+00:08:17,466 --> 00:08:21,000
+is a function
+of how high performing
+
+169
+00:08:21,000 --> 00:08:23,366
+the airplane is,
+and we usually--
+
+170
+00:08:23,366 --> 00:08:25,733
+we tend to use a metric
+called endurance
+
+171
+00:08:25,733 --> 00:08:29,433
+to describe the performance
+of an unmanned vehicle
+
+172
+00:08:29,433 --> 00:08:31,066
+that could be used
+for a NASA mission.
+
+173
+00:08:31,066 --> 00:08:35,000
+So the longer time
+that airplane can fly--
+
+174
+00:08:35,000 --> 00:08:37,166
+and usually,
+the bigger the airplane is,
+
+175
+00:08:37,166 --> 00:08:39,166
+the higher the acquisition cost.
+
+176
+00:08:39,166 --> 00:08:40,433
+But what we really want
+to focus on
+
+177
+00:08:40,433 --> 00:08:43,866
+is how to make this relationship
+more or less linear,
+
+178
+00:08:43,866 --> 00:08:48,733
+as opposed to exponential,
+as we see in the plot.
+
+179
+00:08:48,733 --> 00:08:53,066
+So we want to illustrate
+some of the concepts--
+
+180
+00:08:53,066 --> 00:08:56,166
+specifically of modular design
+and additive manufacturing,
+
+181
+00:08:56,166 --> 00:08:58,766
+using an existing design
+that many of you
+
+182
+00:08:58,766 --> 00:09:02,200
+have seen on the way in
+called the FrankenEye design,
+
+183
+00:09:02,200 --> 00:09:05,966
+and we want to also extract
+potential lessons learned
+
+184
+00:09:05,966 --> 00:09:07,633
+for future applications.
+
+185
+00:09:07,633 --> 00:09:09,533
+So we've talked a little bit
+about the motivation,
+
+186
+00:09:09,533 --> 00:09:13,266
+so let's dive
+into the modular design aspect.
+
+187
+00:09:13,266 --> 00:09:15,066
+So Earth Science Missions
+here at NASA
+
+188
+00:09:15,066 --> 00:09:18,233
+are really a core competency
+that we have
+
+189
+00:09:18,233 --> 00:09:21,266
+relative to other NASA centers,
+and Earth Science Missions
+
+190
+00:09:21,266 --> 00:09:24,200
+really focused
+on taking unmanned aircraft,
+
+191
+00:09:24,200 --> 00:09:26,200
+or even manned aircraft,
+and flying them
+
+192
+00:09:26,200 --> 00:09:28,400
+to parts of the world that
+we want to better understand.
+
+193
+00:09:28,400 --> 00:09:31,300
+And one of the places that
+we want to better understand
+
+194
+00:09:31,300 --> 00:09:32,433
+are volcanoes.
+
+195
+00:09:32,433 --> 00:09:33,933
+This is a picture
+that was taken
+
+196
+00:09:33,933 --> 00:09:37,166
+from Turrialba Volcano in 2003,
+
+197
+00:09:37,166 --> 00:09:40,733
+which is located in Costa Rica,
+and the scientists
+
+198
+00:09:40,733 --> 00:09:42,766
+were very interested
+in understanding
+
+199
+00:09:42,766 --> 00:09:45,333
+what type of gasses
+were being emitted
+
+200
+00:09:45,333 --> 00:09:47,500
+from the volcano
+and how that might impact
+
+201
+00:09:47,500 --> 00:09:49,233
+climate change, for instance.
+
+202
+00:09:49,233 --> 00:09:51,133
+But what we found out
+very quickly
+
+203
+00:09:51,133 --> 00:09:54,066
+was that, when we took parts
+that were surplus from--
+
+204
+00:09:54,066 --> 00:09:56,300
+as military hardware,
+
+205
+00:09:56,300 --> 00:09:59,900
+those airplanes were not
+optimized for the long endurance
+
+206
+00:09:59,900 --> 00:10:02,000
+that we wanted
+in our science missions.
+
+207
+00:10:02,000 --> 00:10:04,400
+Science missions also tend
+to want aircraft
+
+208
+00:10:04,400 --> 00:10:07,066
+that will carry large payloads,
+large sensors,
+
+209
+00:10:07,066 --> 00:10:09,366
+and fly those sensors
+for long periods of time.
+
+210
+00:10:09,366 --> 00:10:11,366
+We didn't have that
+in the current design.
+
+211
+00:10:11,366 --> 00:10:13,666
+So this raises the question:
+how can we optimize?
+
+212
+00:10:13,666 --> 00:10:16,666
+How can we modify
+an existing design
+
+213
+00:10:16,666 --> 00:10:18,933
+so that we can meet
+the performance requirements
+
+214
+00:10:18,933 --> 00:10:20,866
+for the specific mission?
+
+215
+00:10:20,866 --> 00:10:22,566
+So one of the ways
+that we wanted
+
+216
+00:10:22,566 --> 00:10:25,800
+to leverage technology
+was through the use
+
+217
+00:10:25,800 --> 00:10:29,666
+of additive manufacturing,
+and this illustration
+
+218
+00:10:29,666 --> 00:10:32,333
+compares the subtractive
+manufacturing process
+
+219
+00:10:32,333 --> 00:10:34,033
+to the additive
+manufacturing process.
+
+220
+00:10:34,033 --> 00:10:36,400
+Typically, in a subtractive
+manufacturing process,
+
+221
+00:10:36,400 --> 00:10:37,966
+you start with the material,
+
+222
+00:10:37,966 --> 00:10:40,100
+and your design
+is largely constrained
+
+223
+00:10:40,100 --> 00:10:42,366
+by what you can manufacture
+with that material.
+
+224
+00:10:42,366 --> 00:10:44,033
+Carbon fiber, for instance,
+
+225
+00:10:44,033 --> 00:10:48,766
+needs an autoclave
+to solidify the part.
+
+226
+00:10:48,766 --> 00:10:51,100
+And so, because of those type
+of limitations,
+
+227
+00:10:51,100 --> 00:10:54,266
+we also are limited
+in terms of the final assembly
+
+228
+00:10:54,266 --> 00:10:56,700
+that we hope to achieve.
+
+229
+00:10:56,700 --> 00:10:58,400
+Additive manufacturing,
+on the other end,
+
+230
+00:10:58,400 --> 00:11:01,966
+really allows you
+at the very early stages
+
+231
+00:11:01,966 --> 00:11:05,033
+of the design
+to focus on the functionality
+
+232
+00:11:05,033 --> 00:11:08,566
+without being limited
+directly by the material choice.
+
+233
+00:11:08,566 --> 00:11:12,200
+And so we can generate parts
+
+234
+00:11:12,200 --> 00:11:13,566
+that can then be sent
+to a printer,
+
+235
+00:11:13,566 --> 00:11:16,333
+and we can decide
+on the materials
+
+236
+00:11:16,333 --> 00:11:20,166
+based on the requirements
+that we have.
+
+237
+00:11:20,166 --> 00:11:23,166
+So, for this project,
+we wanted to take advantage
+
+238
+00:11:23,166 --> 00:11:26,900
+of the fact
+that we had a good number
+
+239
+00:11:26,900 --> 00:11:29,766
+of surplus UAVs
+that had been provided to us
+
+240
+00:11:29,766 --> 00:11:32,266
+by the U.S. Marines.
+
+241
+00:11:32,266 --> 00:11:33,933
+And we--
+
+242
+00:11:33,933 --> 00:11:37,333
+The feedstock that we had
+for this specific project
+
+243
+00:11:37,333 --> 00:11:41,966
+was the DragonEye UAV,
+which is also here with me.
+
+244
+00:11:41,966 --> 00:11:44,933
+This aircraft is designed
+in five pieces,
+
+245
+00:11:44,933 --> 00:11:50,233
+and those five pieces can be
+detached from the aircraft,
+
+246
+00:11:50,233 --> 00:11:52,533
+so you can simply
+snap the wings off,
+
+247
+00:11:52,533 --> 00:11:55,233
+which are being held together
+using bungee cords.
+
+248
+00:11:55,233 --> 00:11:56,733
+And this is really nice,
+
+249
+00:11:56,733 --> 00:12:00,500
+because if you hit a tree
+or if you hit the ground
+
+250
+00:12:00,500 --> 00:12:03,766
+or you hit something else,
+then you can absorb the energy
+
+251
+00:12:03,766 --> 00:12:06,666
+in the joint instead of
+having it break apart.
+
+252
+00:12:06,666 --> 00:12:09,066
+That would need to be repaired.
+
+253
+00:12:11,300 --> 00:12:12,866
+So, because of the design
+of this airplane,
+
+254
+00:12:12,866 --> 00:12:16,266
+we wanted to leverage the fact
+that we had a modular wing,
+
+255
+00:12:16,266 --> 00:12:18,300
+we had
+a modular payload compartment,
+
+256
+00:12:18,300 --> 00:12:20,800
+which tends to be the nose cone.
+
+257
+00:12:20,800 --> 00:12:22,066
+And we wanted
+to build off of that
+
+258
+00:12:22,066 --> 00:12:25,333
+by using 3-D printing
+to create new parts
+
+259
+00:12:25,333 --> 00:12:27,366
+that would enhance
+the performance
+
+260
+00:12:27,366 --> 00:12:30,566
+of the existing design.
+
+261
+00:12:30,566 --> 00:12:33,333
+So the five parts
+are shown here.
+
+262
+00:12:33,333 --> 00:12:36,500
+The two wing modules
+and a center wing pod
+
+263
+00:12:36,500 --> 00:12:39,600
+that holds the battery
+and then the tail and the nose
+
+264
+00:12:39,600 --> 00:12:41,633
+are those components.
+
+265
+00:12:41,633 --> 00:12:44,866
+And this design is such
+that it can be assembled
+
+266
+00:12:44,866 --> 00:12:46,800
+in less than five minutes
+for the purposes
+
+267
+00:12:46,800 --> 00:12:50,533
+of a typical mission.
+
+268
+00:12:50,533 --> 00:12:55,033
+So, to demonstrate this concept,
+we took several DragonEye UAVs
+
+269
+00:12:55,033 --> 00:12:57,400
+and the components
+that they consisted of
+
+270
+00:12:57,400 --> 00:12:59,400
+and we looked at ways
+of rearranging them
+
+271
+00:12:59,400 --> 00:13:01,600
+or reorienting them
+in a way that would improve
+
+272
+00:13:01,600 --> 00:13:02,766
+performance.
+
+273
+00:13:02,766 --> 00:13:04,933
+In general, a long, slender wing
+will provide
+
+274
+00:13:04,933 --> 00:13:07,800
+the longest endurance
+for an aircraft.
+
+275
+00:13:07,800 --> 00:13:11,000
+And so this is an example
+of an aircraft
+
+276
+00:13:11,000 --> 00:13:13,866
+where we attempted to print
+essentially every part
+
+277
+00:13:13,866 --> 00:13:17,033
+of the aircraft,
+including the wing sections,
+
+278
+00:13:17,033 --> 00:13:18,733
+the structural components
+as well,
+
+279
+00:13:18,733 --> 00:13:20,700
+the nose cones,
+and propeller blades.
+
+280
+00:13:20,700 --> 00:13:22,666
+And this is just
+to demonstrate
+
+281
+00:13:22,666 --> 00:13:25,300
+the vast variety of parts
+that we could achieve
+
+282
+00:13:25,300 --> 00:13:31,200
+using 3-D printing with, really,
+there being limited
+
+283
+00:13:31,200 --> 00:13:36,166
+material constraints
+for producing a given part.
+
+284
+00:13:36,166 --> 00:13:37,600
+And so you can think
+of this design
+
+285
+00:13:37,600 --> 00:13:40,900
+as being a function
+of how many units
+
+286
+00:13:40,900 --> 00:13:42,466
+are attached together.
+
+287
+00:13:42,466 --> 00:13:46,966
+And so you can think of this
+as being a 3U design,
+
+288
+00:13:46,966 --> 00:13:49,100
+similar to the jargon
+that's used
+
+289
+00:13:49,100 --> 00:13:51,333
+in small satellite design.
+
+290
+00:13:51,333 --> 00:13:54,066
+And so what we really want
+in the Earth Science community
+
+291
+00:13:54,066 --> 00:13:56,566
+is something that looks
+like this.
+
+292
+00:13:56,566 --> 00:13:58,600
+This is the Helios Aircraft,
+which was actually
+
+293
+00:13:58,600 --> 00:14:00,166
+a joint project between NASA
+
+294
+00:14:00,166 --> 00:14:02,333
+and several other
+government agencies,
+
+295
+00:14:02,333 --> 00:14:05,066
+but it was an extremely
+high-performance aircraft.
+
+296
+00:14:07,133 --> 00:14:09,000
+The caveat, though,
+was that this airplane
+
+297
+00:14:09,000 --> 00:14:10,866
+wasn't designed for cost.
+
+298
+00:14:10,866 --> 00:14:13,866
+And so
+could we replicate something
+
+299
+00:14:13,866 --> 00:14:18,966
+with a similar performance
+but with a lower cost-point?
+
+300
+00:14:18,966 --> 00:14:21,833
+So, as some of you may know,
+
+301
+00:14:21,833 --> 00:14:24,600
+the Helios did crash
+a few years back,
+
+302
+00:14:24,600 --> 00:14:28,266
+and it was attributed
+to some difficulties managing
+
+303
+00:14:28,266 --> 00:14:31,100
+the flexibility of the wing
+associated with the Helios
+
+304
+00:14:31,100 --> 00:14:32,933
+and how that flexibility
+was accounted for
+
+305
+00:14:32,933 --> 00:14:34,333
+in the control system.
+
+306
+00:14:34,333 --> 00:14:36,366
+Now we have tools
+that allow us
+
+307
+00:14:36,366 --> 00:14:39,866
+to model the flexibility
+of the materials
+
+308
+00:14:39,866 --> 00:14:43,166
+as well as the contributions
+of the propulsion to the design.
+
+309
+00:14:43,166 --> 00:14:44,300
+And so, going forward,
+
+310
+00:14:44,300 --> 00:14:45,966
+we can look at designs
+like this.
+
+311
+00:14:45,966 --> 00:14:48,666
+This is a 16U design,
+
+312
+00:14:48,666 --> 00:14:51,633
+which we have the capability
+to model.
+
+313
+00:14:51,633 --> 00:14:54,466
+So when you actually look
+at the performance contributions
+
+314
+00:14:54,466 --> 00:14:55,866
+of these individual elements,
+
+315
+00:14:55,866 --> 00:14:57,533
+you can then start to understand
+
+316
+00:14:57,533 --> 00:14:59,533
+how each component
+is contributing
+
+317
+00:14:59,533 --> 00:15:01,433
+to the overall performance.
+
+318
+00:15:01,433 --> 00:15:04,800
+And normally,
+when we use endurance
+
+319
+00:15:04,800 --> 00:15:07,800
+as the metric for performance,
+we can look
+
+320
+00:15:07,800 --> 00:15:10,933
+at aerodynamic efficiency,
+propulsive efficiency,
+
+321
+00:15:10,933 --> 00:15:12,600
+and structural efficiency.
+
+322
+00:15:12,600 --> 00:15:15,233
+This focus is really on
+the propulsive efficiency
+
+323
+00:15:15,233 --> 00:15:17,400
+and the aerodynamic efficiency
+of the design
+
+324
+00:15:17,400 --> 00:15:19,200
+and the different
+contributions.
+
+325
+00:15:19,200 --> 00:15:21,700
+In general,
+when you take a propeller
+
+326
+00:15:21,700 --> 00:15:24,533
+and you have it
+blow across a wing,
+
+327
+00:15:24,533 --> 00:15:26,333
+it enhances the dynamic--
+
+328
+00:15:26,333 --> 00:15:28,666
+it increases
+the dynamic pressure on the wing
+
+329
+00:15:28,666 --> 00:15:32,100
+and thereby increases
+the lift capacity of the wing.
+
+330
+00:15:32,100 --> 00:15:35,933
+But the trade is that
+it also contributes to drag.
+
+331
+00:15:35,933 --> 00:15:38,166
+So, by making
+these important trades
+
+332
+00:15:38,166 --> 00:15:40,066
+and choosing
+an optimal wingspan,
+
+333
+00:15:40,066 --> 00:15:42,966
+we can establish the trade
+between aerodynamic efficiency
+
+334
+00:15:42,966 --> 00:15:44,533
+and propulsive efficiency,
+which
+
+335
+00:15:44,533 --> 00:15:46,200
+both feed into endurance,
+
+336
+00:15:46,200 --> 00:15:48,533
+which is what
+we're interested in.
+
+337
+00:15:48,533 --> 00:15:50,500
+So say we wanted
+to design an airplane
+
+338
+00:15:50,500 --> 00:15:52,966
+that was optimized
+for a specific mission,
+
+339
+00:15:52,966 --> 00:15:55,633
+so we could choose
+certain parameters,
+
+340
+00:15:55,633 --> 00:15:57,766
+which we choose to optimize for.
+
+341
+00:15:57,766 --> 00:16:00,166
+Maybe in this case,
+it would be maximum range
+
+342
+00:16:00,166 --> 00:16:03,000
+and other--
+with other constraints
+
+343
+00:16:03,000 --> 00:16:04,833
+on climb rate and other things.
+
+344
+00:16:04,833 --> 00:16:07,133
+And then we can start
+to generate trajectories
+
+345
+00:16:07,133 --> 00:16:11,166
+that look something like this,
+where we're looking at--
+
+346
+00:16:11,166 --> 00:16:13,666
+the blue line represents
+the trajectory that the aircraft
+
+347
+00:16:13,666 --> 00:16:17,600
+would take from the--
+in the vertical plane.
+
+348
+00:16:17,600 --> 00:16:20,833
+And the green line
+represents the speed
+
+349
+00:16:20,833 --> 00:16:22,500
+at which that airplane
+would fly.
+
+350
+00:16:22,500 --> 00:16:24,166
+And so one thing
+that we understand
+
+351
+00:16:24,166 --> 00:16:26,033
+very quickly,
+specifically with this
+
+352
+00:16:26,033 --> 00:16:29,700
+battery-powered design,
+is that speed-optimal flight
+
+353
+00:16:29,700 --> 00:16:32,433
+is extremely important,
+because it's a hit or a miss
+
+354
+00:16:32,433 --> 00:16:35,766
+on the aerodynamic efficiency
+of the design.
+
+355
+00:16:35,766 --> 00:16:37,666
+And so this is just
+an example of how,
+
+356
+00:16:37,666 --> 00:16:40,000
+by understanding
+how those different parameters
+
+357
+00:16:40,000 --> 00:16:42,666
+feed into the mission,
+you can then start to
+
+358
+00:16:42,666 --> 00:16:45,333
+optimize for things
+like maximum energy recovery
+
+359
+00:16:45,333 --> 00:16:48,500
+in the descent
+of the aircraft.
+
+360
+00:16:50,066 --> 00:16:52,000
+So we talked a bit
+about modular design.
+
+361
+00:16:52,000 --> 00:16:54,266
+Now we want to talk more
+about additive manufacturing
+
+362
+00:16:54,266 --> 00:16:56,733
+and the contributions
+it can potentially make
+
+363
+00:16:56,733 --> 00:17:01,666
+to the structural efficiency
+of a design.
+
+364
+00:17:01,666 --> 00:17:04,766
+So this is a drawing
+that was taken of the first
+
+365
+00:17:04,766 --> 00:17:08,766
+powered flight here in the U.S.
+by the Wright brothers.
+
+366
+00:17:08,766 --> 00:17:10,900
+And the unusual thing
+about this design
+
+367
+00:17:10,900 --> 00:17:12,566
+was that it wasn't--
+
+368
+00:17:12,566 --> 00:17:14,866
+it didn't come together
+with aerospace-grade materials.
+
+369
+00:17:14,866 --> 00:17:18,033
+It actually came together
+with wires, cloth, and wood--
+
+370
+00:17:18,033 --> 00:17:19,766
+things that you typically
+wouldn't think
+
+371
+00:17:19,766 --> 00:17:21,600
+go inside of an airplane.
+
+372
+00:17:21,600 --> 00:17:23,066
+But one of the things
+
+373
+00:17:23,066 --> 00:17:24,400
+that we know
+that they understood
+
+374
+00:17:24,400 --> 00:17:26,533
+was how to make
+lightweight structures
+
+375
+00:17:26,533 --> 00:17:28,833
+using those materials,
+and they had to overcome
+
+376
+00:17:28,833 --> 00:17:31,533
+the challenges of the propulsion
+and of the aerodynamics
+
+377
+00:17:31,533 --> 00:17:34,200
+by making extremely
+lightweight parts.
+
+378
+00:17:34,200 --> 00:17:36,633
+The reason why this
+is an interesting example
+
+379
+00:17:36,633 --> 00:17:38,633
+is because
+that same lattice structure
+
+380
+00:17:38,633 --> 00:17:40,766
+now feeds into some of
+the lightest weight structures
+
+381
+00:17:40,766 --> 00:17:42,233
+that we know exist today.
+
+382
+00:17:42,233 --> 00:17:44,066
+This was a structure
+that was manufactured
+
+383
+00:17:44,066 --> 00:17:46,566
+using a similar
+3-D printing method
+
+384
+00:17:46,566 --> 00:17:48,733
+but then electroplated
+in metal,
+
+385
+00:17:48,733 --> 00:17:51,200
+and it's shown sitting on top
+of a dandelion.
+
+386
+00:17:51,200 --> 00:17:53,900
+Extremely lightweight
+but was manufactured
+
+387
+00:17:53,900 --> 00:17:56,566
+using a very similar method.
+
+388
+00:17:56,566 --> 00:18:00,333
+So the point of me showing this
+is really that this is--
+
+389
+00:18:00,333 --> 00:18:03,166
+this captures a story
+of innovation and why innovation
+
+390
+00:18:03,166 --> 00:18:05,233
+is so important,
+because as materials change,
+
+391
+00:18:05,233 --> 00:18:09,333
+as technologies change,
+those allow us to then innovate
+
+392
+00:18:09,333 --> 00:18:11,166
+in ways that weren't possible
+5 years ago
+
+393
+00:18:11,166 --> 00:18:13,533
+or 10 years ago
+or 20 years ago.
+
+394
+00:18:15,600 --> 00:18:18,300
+So in order to kind of
+further extend the concept
+
+395
+00:18:18,300 --> 00:18:19,866
+that we presented
+with the FrankenEye,
+
+396
+00:18:19,866 --> 00:18:23,166
+we invited several students
+and personnel
+
+397
+00:18:23,166 --> 00:18:25,566
+from many different
+backgrounds--
+
+398
+00:18:25,566 --> 00:18:26,733
+male, female,
+
+399
+00:18:26,733 --> 00:18:29,100
+white, black,
+and young and old,
+
+400
+00:18:29,100 --> 00:18:30,800
+Republican and Democrat...
+
+401
+00:18:32,866 --> 00:18:34,733
+I guess I got
+carried away there.
+
+402
+00:18:34,733 --> 00:18:38,233
+But we invited several students,
+young engineers,
+
+403
+00:18:38,233 --> 00:18:41,733
+to experiment
+with the advantages
+
+404
+00:18:41,733 --> 00:18:44,366
+that we could potentially see
+using these methods.
+
+405
+00:18:44,366 --> 00:18:47,366
+And so we formed teams of three
+which were given the task
+
+406
+00:18:47,366 --> 00:18:51,700
+of designing their own airplane
+to image in highest definition
+
+407
+00:18:51,700 --> 00:18:53,700
+an object that we were
+going to place on the ground
+
+408
+00:18:53,700 --> 00:18:55,533
+using their airplane.
+
+409
+00:18:55,533 --> 00:18:57,866
+And the interesting thing
+about the result
+
+410
+00:18:57,866 --> 00:19:00,266
+of those experiments
+was that they came up
+
+411
+00:19:00,266 --> 00:19:02,066
+with three different
+airplane designs
+
+412
+00:19:02,066 --> 00:19:04,366
+that were really designed
+to do the same mission.
+
+413
+00:19:05,900 --> 00:19:08,900
+So this goes to say that,
+many times, we limit
+
+414
+00:19:08,900 --> 00:19:12,000
+the design space to the point
+where we don't even consider
+
+415
+00:19:12,000 --> 00:19:14,166
+ideas outside the box
+that may accomplish
+
+416
+00:19:14,166 --> 00:19:16,466
+the same exact mission
+but in a different way.
+
+417
+00:19:16,466 --> 00:19:18,333
+The first concept,
+which is shown here
+
+418
+00:19:18,333 --> 00:19:22,133
+by Team Hyperion, was designed
+to turn into a hover,
+
+419
+00:19:22,133 --> 00:19:25,633
+and once it reached a position
+where it was in the vicinity
+
+420
+00:19:25,633 --> 00:19:28,300
+of the image that was being--
+the object being imaged,
+
+421
+00:19:28,300 --> 00:19:30,466
+it would,
+from that hover position,
+
+422
+00:19:30,466 --> 00:19:34,333
+create a 360-degree map,
+
+423
+00:19:34,333 --> 00:19:36,300
+increasing the likelihood
+of it catching
+
+424
+00:19:36,300 --> 00:19:41,133
+a high-definition image
+of the object.
+
+425
+00:19:41,133 --> 00:19:43,666
+And Team Chimaera
+and Team Alconto,
+
+426
+00:19:43,666 --> 00:19:47,333
+they also looked at ways
+of extending
+
+427
+00:19:47,333 --> 00:19:49,133
+the performance
+of the fixed-wing aircraft
+
+428
+00:19:49,133 --> 00:19:53,533
+by adding winglets
+and enhancing the flap system.
+
+429
+00:19:53,533 --> 00:19:58,733
+But this all shows that,
+from a exponential--
+
+430
+00:19:58,733 --> 00:20:00,700
+from a library of parts
+which we created
+
+431
+00:20:00,700 --> 00:20:03,366
+for the students,
+there is an exponential
+
+432
+00:20:03,366 --> 00:20:05,166
+design space
+that can be explored.
+
+433
+00:20:05,166 --> 00:20:09,033
+And maybe some designs
+like the 1910 Jacobs Design
+
+434
+00:20:09,033 --> 00:20:11,866
+are possible.
+
+435
+00:20:11,866 --> 00:20:14,133
+The next step
+of our summer task
+
+436
+00:20:14,133 --> 00:20:16,333
+was to have the students
+simulate how their airplane
+
+437
+00:20:16,333 --> 00:20:18,333
+would perform
+in an actual mission,
+
+438
+00:20:18,333 --> 00:20:19,866
+and so they simulated cruise,
+
+439
+00:20:19,866 --> 00:20:22,433
+they simulated hover,
+they simulated
+
+440
+00:20:22,433 --> 00:20:25,000
+maneuver conditions
+that would place unusual,
+
+441
+00:20:25,000 --> 00:20:27,333
+asymmetric loads on the wing.
+
+442
+00:20:27,333 --> 00:20:29,933
+They also simulated
+gimbal camera systems
+
+443
+00:20:29,933 --> 00:20:32,966
+for capturing images
+from the stationary platform
+
+444
+00:20:32,966 --> 00:20:36,800
+of the aircraft,
+and they also simulated
+
+445
+00:20:36,800 --> 00:20:39,166
+high-performance,
+high-lift systems,
+
+446
+00:20:39,166 --> 00:20:42,000
+like the cambered flaps
+system
+
+447
+00:20:42,000 --> 00:20:43,433
+which is shown here.
+
+448
+00:20:43,433 --> 00:20:44,866
+And so,
+through those simulations,
+
+449
+00:20:44,866 --> 00:20:46,533
+they gained a better
+understanding of how
+
+450
+00:20:46,533 --> 00:20:48,533
+these parts
+would ideally perform
+
+451
+00:20:48,533 --> 00:20:51,766
+in the real world
+after being manufactured.
+
+452
+00:20:51,766 --> 00:20:53,833
+So with the results
+of those simulations,
+
+453
+00:20:53,833 --> 00:20:56,833
+they then went to
+hardware-in-the-loop testing.
+
+454
+00:20:56,833 --> 00:20:59,233
+This is an example
+of testing that was done
+
+455
+00:20:59,233 --> 00:21:01,900
+on a flap system
+that you saw,
+
+456
+00:21:01,900 --> 00:21:06,866
+and we had some of the students
+hook their autopilot
+
+457
+00:21:06,866 --> 00:21:10,866
+to the hardware
+and actually, you know,
+
+458
+00:21:10,866 --> 00:21:12,833
+for the first time,
+really see that their design
+
+459
+00:21:12,833 --> 00:21:15,133
+was actually working.
+
+460
+00:21:15,133 --> 00:21:17,166
+And so they're doing
+some flap tests here,
+
+461
+00:21:17,166 --> 00:21:19,433
+and they also do some
+power-on tests--
+
+462
+00:21:19,433 --> 00:21:22,333
+you can see the motor spinning--
+to make sure that everything
+
+463
+00:21:22,333 --> 00:21:24,666
+checks out
+in terms of the power--
+
+464
+00:21:24,666 --> 00:21:26,466
+power system
+on the aircraft.
+
+465
+00:21:27,900 --> 00:21:29,466
+So from that stage,
+we understood
+
+466
+00:21:29,466 --> 00:21:31,633
+that the basic design worked,
+but we then needed
+
+467
+00:21:31,633 --> 00:21:34,300
+to optimize them
+for structural weight
+
+468
+00:21:34,300 --> 00:21:35,966
+and for
+other performance metrics.
+
+469
+00:21:35,966 --> 00:21:37,533
+And so this is really
+where the skill set
+
+470
+00:21:37,533 --> 00:21:39,300
+of the students came in,
+where they were able
+
+471
+00:21:39,300 --> 00:21:43,100
+to apply their background
+in aerodynamic structures
+
+472
+00:21:43,100 --> 00:21:46,800
+and other areas
+to optimize the design.
+
+473
+00:21:46,800 --> 00:21:49,033
+And really what we want
+is designs that look more
+
+474
+00:21:49,033 --> 00:21:50,400
+like what we see in nature.
+
+475
+00:21:50,400 --> 00:21:54,300
+A bird's wing
+looks very interesting
+
+476
+00:21:54,300 --> 00:21:56,600
+in that there's only material
+where it needs to be
+
+477
+00:21:56,600 --> 00:21:58,100
+in order to maintain
+the certain load
+
+478
+00:21:58,100 --> 00:22:00,900
+that the bird
+is carrying in flight.
+
+479
+00:22:00,900 --> 00:22:03,166
+And we can also think about
+how this can be applied
+
+480
+00:22:03,166 --> 00:22:05,266
+on the scale
+of the aircraft itself
+
+481
+00:22:05,266 --> 00:22:10,900
+using flexible materials,
+using shape-changing materials
+
+482
+00:22:10,900 --> 00:22:12,933
+that would simulate--
+that would move us closer
+
+483
+00:22:12,933 --> 00:22:15,033
+towards the direction
+of what we see in bird flight.
+
+484
+00:22:16,700 --> 00:22:18,600
+Another area
+that we wanted to explore
+
+485
+00:22:18,600 --> 00:22:21,333
+was how to take a cheap part
+that is printed in plastic
+
+486
+00:22:21,333 --> 00:22:25,100
+or in some inexpensive material
+and to enhance the strength
+
+487
+00:22:25,100 --> 00:22:27,366
+of that part, and we looked
+at two different methods.
+
+488
+00:22:27,366 --> 00:22:29,866
+One is plating on plastic--
+
+489
+00:22:29,866 --> 00:22:31,266
+curing on plastic.
+
+490
+00:22:31,266 --> 00:22:34,033
+Plating on plastic
+is also known as electroplating,
+
+491
+00:22:34,033 --> 00:22:36,100
+and it's widely used
+in the jewelry industry,
+
+492
+00:22:36,100 --> 00:22:38,433
+in the plumbing industry
+and many other industries
+
+493
+00:22:38,433 --> 00:22:42,133
+but is now being investigated
+for use in the aerospace
+
+494
+00:22:42,133 --> 00:22:44,500
+engineering industry.
+
+495
+00:22:44,500 --> 00:22:47,366
+And we also were looking
+at ways of taking carbon fiber,
+
+496
+00:22:47,366 --> 00:22:50,233
+fiberglass, Kevlar,
+and using them
+
+497
+00:22:50,233 --> 00:22:53,166
+to mold
+against a 3-D-printed part.
+
+498
+00:22:53,166 --> 00:22:56,300
+The results of that
+were that we showed--
+
+499
+00:22:56,300 --> 00:22:58,700
+using these different prototypes
+that are shown,
+
+500
+00:22:58,700 --> 00:23:02,500
+that we could
+enhance the strength
+
+501
+00:23:02,500 --> 00:23:04,133
+of the part by
+at least three times,
+
+502
+00:23:04,133 --> 00:23:07,666
+making those parts
+almost comparable
+
+503
+00:23:07,666 --> 00:23:09,533
+to the strength
+of aluminum,
+
+504
+00:23:09,533 --> 00:23:11,366
+which is really impressive
+for something
+
+505
+00:23:11,366 --> 00:23:13,533
+that costs roughly
+half the cost
+
+506
+00:23:13,533 --> 00:23:15,366
+of an extruded piece
+of aluminum
+
+507
+00:23:15,366 --> 00:23:18,000
+of the same dimension and shape.
+
+508
+00:23:19,766 --> 00:23:21,266
+Another consideration
+that we would need
+
+509
+00:23:21,266 --> 00:23:23,266
+to make in order
+to satisfy a mission requirement
+
+510
+00:23:23,266 --> 00:23:25,566
+is understanding how the sensors
+play into that mission
+
+511
+00:23:25,566 --> 00:23:28,233
+and how perhaps
+they can be optimized
+
+512
+00:23:28,233 --> 00:23:30,566
+to collect the information
+that is important
+
+513
+00:23:30,566 --> 00:23:32,766
+for the mission succeeding.
+
+514
+00:23:32,766 --> 00:23:34,566
+And by having
+a variety of sensors,
+
+515
+00:23:34,566 --> 00:23:38,333
+which are then themselves
+design modular to the aircraft,
+
+516
+00:23:38,333 --> 00:23:42,000
+we can interchange sensors
+to meet a certain requirement.
+
+517
+00:23:43,966 --> 00:23:45,533
+So we talked
+about modular design,
+
+518
+00:23:45,533 --> 00:23:47,666
+additive manufacturing,
+and now we can talk more
+
+519
+00:23:47,666 --> 00:23:50,333
+about the specific missions
+and the flight operations
+
+520
+00:23:50,333 --> 00:23:52,833
+that are required
+for getting the airplane
+
+521
+00:23:52,833 --> 00:23:56,000
+into the actual mission.
+
+522
+00:23:56,000 --> 00:24:00,200
+So the airworthiness process
+requires that we take parts
+
+523
+00:24:00,200 --> 00:24:02,333
+and we test them
+to their structural
+
+524
+00:24:02,333 --> 00:24:04,866
+failure point
+to better understand
+
+525
+00:24:04,866 --> 00:24:06,366
+the limitations
+of the materials.
+
+526
+00:24:06,366 --> 00:24:09,100
+And we want to make sure
+that the strength of the part
+
+527
+00:24:09,100 --> 00:24:13,066
+begins to reflect
+the harsh environment
+
+528
+00:24:13,066 --> 00:24:15,133
+that we expect to see
+in certain flight conditions,
+
+529
+00:24:15,133 --> 00:24:18,766
+and so, as a part of that
+airworthiness review process,
+
+530
+00:24:18,766 --> 00:24:21,533
+we did static testing,
+which is where you take a wing
+
+531
+00:24:21,533 --> 00:24:25,700
+and you load it
+to the point where it strains
+
+532
+00:24:25,700 --> 00:24:28,366
+and then you look
+for the place where it fails
+
+533
+00:24:28,366 --> 00:24:32,533
+and you try to understand
+something about why it failed
+
+534
+00:24:32,533 --> 00:24:34,366
+and look at ways
+of reducing the weight
+
+535
+00:24:34,366 --> 00:24:36,100
+so that you can still
+meet the requirements
+
+536
+00:24:36,100 --> 00:24:37,633
+for flight,
+and this was an example
+
+537
+00:24:37,633 --> 00:24:39,233
+of a static test.
+
+538
+00:24:39,233 --> 00:24:42,366
+Beyond that,
+when you start thinking
+
+539
+00:24:42,366 --> 00:24:45,066
+about putting aircraft
+into production
+
+540
+00:24:45,066 --> 00:24:47,500
+or even looking
+at larger-size airplanes,
+
+541
+00:24:47,500 --> 00:24:50,100
+you also need confidence
+in the models
+
+542
+00:24:50,100 --> 00:24:51,900
+that are used to simulate
+what is happening
+
+543
+00:24:51,900 --> 00:24:54,700
+in the actual physical test.
+
+544
+00:24:54,700 --> 00:24:57,633
+So finite element modeling
+is very important
+
+545
+00:24:57,633 --> 00:24:59,133
+to improving that understanding,
+
+546
+00:24:59,133 --> 00:25:00,666
+particularly
+if you're interested
+
+547
+00:25:00,666 --> 00:25:02,466
+in putting something
+into production;
+
+548
+00:25:02,466 --> 00:25:06,766
+you don't want to have to do
+a large number of static tests,
+
+549
+00:25:06,766 --> 00:25:08,833
+but you would rather
+have confidence in your model
+
+550
+00:25:08,833 --> 00:25:12,333
+matching the static test
+of the sacrificial part.
+
+551
+00:25:14,166 --> 00:25:16,466
+One of the other questions
+that we wanted to answer,
+
+552
+00:25:16,466 --> 00:25:19,700
+now that we had explored methods
+of how to improve the strength
+
+553
+00:25:19,700 --> 00:25:22,533
+of 3-D-printed parts was,
+"How big of an airplane
+
+554
+00:25:22,533 --> 00:25:24,566
+"can we build
+using the limitations
+
+555
+00:25:24,566 --> 00:25:26,066
+of the existing materials?"
+
+556
+00:25:26,066 --> 00:25:27,200
+And this was a study
+
+557
+00:25:27,200 --> 00:25:29,200
+looking at the different
+possible options
+
+558
+00:25:29,200 --> 00:25:34,333
+for increasing the size
+of the aircraft,
+
+559
+00:25:34,333 --> 00:25:36,500
+limited by
+the root bending moment,
+
+560
+00:25:36,500 --> 00:25:40,000
+which is the integration
+of the lift along the wing.
+
+561
+00:25:40,000 --> 00:25:42,500
+And so the answer
+to the question
+
+562
+00:25:42,500 --> 00:25:44,333
+is really
+that it really depends
+
+563
+00:25:44,333 --> 00:25:46,166
+on what the airplane
+is designed to do.
+
+564
+00:25:46,166 --> 00:25:49,000
+Most large airplanes that
+are long-endurance airplanes
+
+565
+00:25:49,000 --> 00:25:52,100
+are designed to be
+somewhat of high-altitude,
+
+566
+00:25:52,100 --> 00:25:53,266
+long-endurance aircraft--
+
+567
+00:25:53,266 --> 00:25:56,400
+the HALE UAV
+that you've seen
+
+568
+00:25:56,400 --> 00:25:58,066
+certain entities pursuing.
+
+569
+00:25:58,066 --> 00:25:59,233
+But they're really designed
+
+570
+00:25:59,233 --> 00:26:00,766
+against
+the structural limitations
+
+571
+00:26:00,766 --> 00:26:02,633
+of the material being used
+in the wing.
+
+572
+00:26:02,633 --> 00:26:05,266
+Another alternative
+is that you can design
+
+573
+00:26:05,266 --> 00:26:06,600
+much lighter-weight
+structures
+
+574
+00:26:06,600 --> 00:26:08,233
+that have some docking feature
+
+575
+00:26:08,233 --> 00:26:10,733
+where there's
+minimal load transfer
+
+576
+00:26:10,733 --> 00:26:12,866
+between individual components,
+
+577
+00:26:12,866 --> 00:26:14,800
+but they can still
+share information.
+
+578
+00:26:14,800 --> 00:26:17,666
+A good example is of sharing
+
+579
+00:26:17,666 --> 00:26:20,366
+of actual
+physical material
+
+580
+00:26:20,366 --> 00:26:22,633
+is air-to-air refueling.
+
+581
+00:26:22,633 --> 00:26:27,900
+If an airplane is refueling
+from a tanker, for instance,
+
+582
+00:26:27,900 --> 00:26:31,200
+there's minimal load transfer,
+but still, the physical fuel
+
+583
+00:26:31,200 --> 00:26:33,133
+is being transferred,
+and so I think this
+
+584
+00:26:33,133 --> 00:26:34,966
+is really--
+has a great potential
+
+585
+00:26:34,966 --> 00:26:37,700
+to produce aircraft
+that are just as efficient
+
+586
+00:26:37,700 --> 00:26:41,333
+as some of the HALE UAVs
+but are extremely lightweight
+
+587
+00:26:41,333 --> 00:26:46,100
+in their design,
+and this is an unexplored area.
+
+588
+00:26:46,100 --> 00:26:47,866
+Another question
+that we had to answer
+
+589
+00:26:47,866 --> 00:26:49,333
+related to the strength
+of the part
+
+590
+00:26:49,333 --> 00:26:52,200
+is how would that part
+survive in a crash landing,
+
+591
+00:26:52,200 --> 00:26:54,966
+and so we did
+catapult launch tests,
+
+592
+00:26:54,966 --> 00:26:57,000
+which are shown here,
+where the aircraft
+
+593
+00:26:57,000 --> 00:26:59,533
+is launched with 20 pounds
+of weight loaded
+
+594
+00:26:59,533 --> 00:27:01,400
+into the center fuselage
+to simulate
+
+595
+00:27:01,400 --> 00:27:04,300
+a much larger airplane,
+and as you see in the test,
+
+596
+00:27:04,300 --> 00:27:07,633
+the airplane just breaks apart,
+which is great.
+
+597
+00:27:07,633 --> 00:27:09,866
+It confused
+some of the students at first
+
+598
+00:27:09,866 --> 00:27:12,633
+because they didn't know
+whether it was--
+
+599
+00:27:12,633 --> 00:27:14,600
+it should be thought of
+as a failure or a success,
+
+600
+00:27:14,600 --> 00:27:16,466
+but for us,
+it was a success,
+
+601
+00:27:16,466 --> 00:27:18,700
+because we learned more
+about our launcher system,
+
+602
+00:27:18,700 --> 00:27:20,533
+and we gained confidence
+in the ability
+
+603
+00:27:20,533 --> 00:27:23,400
+for that launcher system
+to handle larger airplanes.
+
+604
+00:27:23,400 --> 00:27:25,633
+And so this is an example
+of some of the information
+
+605
+00:27:25,633 --> 00:27:27,866
+that we got from our
+catapult launch testing,
+
+606
+00:27:27,866 --> 00:27:30,933
+where the accelerations
+for the launcher
+
+607
+00:27:30,933 --> 00:27:35,700
+matched those that we needed
+to launch much larger airplanes,
+
+608
+00:27:35,700 --> 00:27:40,200
+and we went through many
+different iterations of that.
+
+609
+00:27:40,200 --> 00:27:42,533
+So now going to flight,
+we take our simulations,
+
+610
+00:27:42,533 --> 00:27:45,600
+and then we try
+to learn something
+
+611
+00:27:45,600 --> 00:27:48,933
+from the flight testing
+to calibrate our simulations
+
+612
+00:27:48,933 --> 00:27:52,333
+to the actual data
+that we collect in flight.
+
+613
+00:27:52,333 --> 00:27:54,500
+And so this is one of
+the first flight tests.
+
+614
+00:27:54,500 --> 00:27:56,633
+As you saw previously,
+it was a little rough
+
+615
+00:27:56,633 --> 00:27:59,966
+coming off of--
+of the catapult launcher,
+
+616
+00:27:59,966 --> 00:28:02,200
+but luckily by that time,
+we had de-risked
+
+617
+00:28:02,200 --> 00:28:05,900
+the launcher design itself
+so that the real worry
+
+618
+00:28:05,900 --> 00:28:07,733
+was how the airplane
+would perform in flight.
+
+619
+00:28:07,733 --> 00:28:09,433
+And this was some video
+that was taken.
+
+620
+00:28:09,433 --> 00:28:11,500
+We're located
+in the right corner
+
+621
+00:28:11,500 --> 00:28:15,533
+over there on the ground
+as the airplane's flying by.
+
+622
+00:28:15,533 --> 00:28:17,866
+And then the question was,
+"Now that we have
+
+623
+00:28:17,866 --> 00:28:20,733
+"a better understanding
+of how the airplane performs,
+
+624
+00:28:20,733 --> 00:28:25,033
+can we understand and map
+the aerodynamic improvement
+
+625
+00:28:25,033 --> 00:28:28,100
+to the models
+that we've been generating?"
+
+626
+00:28:28,100 --> 00:28:30,466
+And by doing that,
+we can now start to build
+
+627
+00:28:30,466 --> 00:28:33,600
+a way of the computer
+or the laptop
+
+628
+00:28:33,600 --> 00:28:35,366
+that's being used
+as a ground station
+
+629
+00:28:35,366 --> 00:28:41,000
+to directly control the aircraft
+instead of having an RC pilot
+
+630
+00:28:41,000 --> 00:28:42,433
+fly the aircraft.
+
+631
+00:28:42,433 --> 00:28:44,066
+So this is known
+as autonomous flight,
+
+632
+00:28:44,066 --> 00:28:45,633
+where we want the airplane
+to be flown
+
+633
+00:28:45,633 --> 00:28:49,033
+by the computer
+instead of by a pilot.
+
+634
+00:28:49,033 --> 00:28:51,466
+And so we can
+do certain experiments
+
+635
+00:28:51,466 --> 00:28:54,400
+with waypoint navigation,
+where we set up the flight path
+
+636
+00:28:54,400 --> 00:28:57,433
+in the software that
+the airplane is going to take,
+
+637
+00:28:57,433 --> 00:29:00,566
+and these are actually the--
+the actual coordinates
+
+638
+00:29:00,566 --> 00:29:01,900
+of the airplane
+as it's following
+
+639
+00:29:01,900 --> 00:29:05,733
+that flight path,
+which has been set up.
+
+640
+00:29:05,733 --> 00:29:09,000
+So this is an example
+of how we took that design,
+
+641
+00:29:09,000 --> 00:29:12,266
+which we now had
+a better understanding of how--
+
+642
+00:29:12,266 --> 00:29:14,466
+how it flew
+and how efficient it was
+
+643
+00:29:14,466 --> 00:29:17,066
+to an autonomous flight test.
+
+644
+00:29:18,766 --> 00:29:20,466
+One of the final considerations
+
+645
+00:29:20,466 --> 00:29:21,566
+I want to mention here
+
+646
+00:29:21,566 --> 00:29:24,066
+is that the useful life
+
+647
+00:29:24,066 --> 00:29:25,800
+of an airplane depends also
+
+648
+00:29:25,800 --> 00:29:27,266
+on how it's being used, and we
+
+649
+00:29:27,266 --> 00:29:29,066
+often refer to this as being
+
+650
+00:29:29,066 --> 00:29:30,366
+the dynamic loading environment
+
+651
+00:29:30,366 --> 00:29:31,833
+of an aircraft.
+
+652
+00:29:31,833 --> 00:29:33,000
+We tend to think
+
+653
+00:29:33,000 --> 00:29:35,400
+that the more material we add
+
+654
+00:29:35,400 --> 00:29:36,566
+to an airplane, the longer
+
+655
+00:29:36,566 --> 00:29:38,166
+a life it will have, but this
+
+656
+00:29:38,166 --> 00:29:39,633
+is kind of counterintuitive
+
+657
+00:29:39,633 --> 00:29:42,166
+to what actually--what we see.
+
+658
+00:29:42,166 --> 00:29:43,833
+Airplanes
+that are usually designed
+
+659
+00:29:43,833 --> 00:29:45,900
+to a higher safety factor--
+meaning more weight
+
+660
+00:29:45,900 --> 00:29:49,133
+is put in the wing--
+degrade very quickly
+
+661
+00:29:49,133 --> 00:29:52,266
+because they operate
+in very extreme environments
+
+662
+00:29:52,266 --> 00:29:56,100
+that put certain stresses
+on the materials.
+
+663
+00:29:56,100 --> 00:29:57,633
+We can also compare
+what we see
+
+664
+00:29:57,633 --> 00:30:00,000
+in the aircraft design world
+to what we see
+
+665
+00:30:00,000 --> 00:30:02,700
+in the natural world
+with bird flight,
+
+666
+00:30:02,700 --> 00:30:06,566
+and, surprisingly,
+some of the most long-endurance
+
+667
+00:30:06,566 --> 00:30:09,233
+performance birds,
+like the albatross,
+
+668
+00:30:09,233 --> 00:30:10,733
+are ones that live the longest.
+
+669
+00:30:10,733 --> 00:30:12,633
+So maybe that gives us
+some lessons
+
+670
+00:30:12,633 --> 00:30:15,400
+about how we should also
+be more conscious of our health
+
+671
+00:30:15,400 --> 00:30:17,733
+and, you know, what type of
+stresses we have on our bodies
+
+672
+00:30:17,733 --> 00:30:20,300
+to live as long as we can.
+
+673
+00:30:20,300 --> 00:30:24,133
+Finally, I'm going to end up
+with a summary and conclusions.
+
+674
+00:30:24,133 --> 00:30:26,533
+So, the key elements
+that made this project a success
+
+675
+00:30:26,533 --> 00:30:27,533
+were that we were able to
+
+676
+00:30:27,533 --> 00:30:29,466
+leverage open-source avionics;
+
+677
+00:30:29,466 --> 00:30:30,566
+we were able to leverage
+
+678
+00:30:30,566 --> 00:30:31,866
+modular design reuse
+
+679
+00:30:31,866 --> 00:30:33,700
+of the DragonEye components
+
+680
+00:30:33,700 --> 00:30:36,000
+and rapid prototyping provided
+
+681
+00:30:36,000 --> 00:30:37,600
+to us through the facilities
+
+682
+00:30:37,600 --> 00:30:39,733
+available in the NASA SpaceShop.
+
+683
+00:30:39,733 --> 00:30:41,933
+And we were also able
+to leverage the use
+
+684
+00:30:41,933 --> 00:30:45,100
+of the Airworthiness Flight
+Review Board
+
+685
+00:30:45,100 --> 00:30:47,733
+that is located here
+at NASA Ames,
+
+686
+00:30:47,733 --> 00:30:50,666
+which walked with us
+every step of the way
+
+687
+00:30:50,666 --> 00:30:53,533
+through our
+flight testing process.
+
+688
+00:30:53,533 --> 00:30:57,033
+And by taking advantage
+of these three core elements,
+
+689
+00:30:57,033 --> 00:31:00,833
+we were able to achieve flight
+in less than eight weeks.
+
+690
+00:31:00,833 --> 00:31:03,700
+This is less than two months
+going from a paper design
+
+691
+00:31:03,700 --> 00:31:07,966
+all the way to the final flying
+autonomous flight.
+
+692
+00:31:07,966 --> 00:31:11,733
+And not only did we do it
+one time; we did it twice.
+
+693
+00:31:11,733 --> 00:31:13,800
+So this is an example of some
+
+694
+00:31:13,800 --> 00:31:15,733
+of the 3-D printed parts
+that we came up with,
+
+695
+00:31:15,733 --> 00:31:18,133
+some of them using
+the lattice type designs.
+
+696
+00:31:18,133 --> 00:31:21,500
+This design was done by Dave--
+
+697
+00:31:21,500 --> 00:31:25,633
+by Kenny Chong,
+who is a researcher here.
+
+698
+00:31:25,633 --> 00:31:28,500
+And we also were able to take
+an existing wing
+
+699
+00:31:28,500 --> 00:31:30,900
+that was made out of pink foam
+and re-create it
+
+700
+00:31:30,900 --> 00:31:33,400
+using 3-D printed parts.
+
+701
+00:31:33,400 --> 00:31:36,533
+This is, essentially, the idea
+of 3-D printing a fuel tank,
+
+702
+00:31:36,533 --> 00:31:39,700
+where the airplane can be--
+
+703
+00:31:39,700 --> 00:31:41,700
+the parts can be designed
+so that they fit together
+
+704
+00:31:41,700 --> 00:31:43,700
+in a way that
+you just simply add fuel
+
+705
+00:31:43,700 --> 00:31:46,133
+in the middle of the wing,
+
+706
+00:31:46,133 --> 00:31:49,900
+and you can snap it
+on your airplane and go and fly.
+
+707
+00:31:49,900 --> 00:31:52,400
+And so this was
+a major contribution, I think,
+
+708
+00:31:52,400 --> 00:31:57,000
+in the area of the wing design
+using 3-D printing.
+
+709
+00:31:57,000 --> 00:31:59,466
+And as I mentioned before,
+concept of flight,
+
+710
+00:31:59,466 --> 00:32:02,433
+autonomous flight,
+in less than eight weeks
+
+711
+00:32:02,433 --> 00:32:05,900
+by leveraging the elements
+that I showed earlier.
+
+712
+00:32:05,900 --> 00:32:11,566
+And so we want to--
+so this was
+
+713
+00:32:11,566 --> 00:32:14,166
+an extremely successful project
+from my perspective.
+
+714
+00:32:14,166 --> 00:32:18,200
+The team members that
+contributed and the mentors
+
+715
+00:32:18,200 --> 00:32:19,666
+deserve all the credit
+for this,
+
+716
+00:32:19,666 --> 00:32:22,366
+and I'm just
+their spokesperson.
+
+717
+00:32:22,366 --> 00:32:26,566
+But some of that success
+was reflected
+
+718
+00:32:26,566 --> 00:32:28,666
+in the media coverage
+that we received.
+
+719
+00:32:28,666 --> 00:32:31,400
+We had a very interesting
+Halloween article
+
+720
+00:32:31,400 --> 00:32:36,133
+that was published with--
+referring to how we were able
+
+721
+00:32:36,133 --> 00:32:38,400
+to take these airplanes
+and put them together
+
+722
+00:32:38,400 --> 00:32:40,600
+almost like
+a Frankenstein monster.
+
+723
+00:32:40,600 --> 00:32:43,833
+And one of the other
+interesting insights
+
+724
+00:32:43,833 --> 00:32:46,133
+that I derived
+from this project
+
+725
+00:32:46,133 --> 00:32:49,600
+was that in the course
+of eight weeks,
+
+726
+00:32:49,600 --> 00:32:53,500
+these student teams
+all came up with solutions
+
+727
+00:32:53,500 --> 00:32:55,400
+very different
+to the same problem.
+
+728
+00:32:55,400 --> 00:32:57,933
+And if you take all of those--
+the three solutions
+
+729
+00:32:57,933 --> 00:33:00,833
+and you superimpose them,
+you get something that
+
+730
+00:33:00,833 --> 00:33:02,633
+you may have seen
+on the way in,
+
+731
+00:33:02,633 --> 00:33:04,200
+the Super FrankenEye,
+
+732
+00:33:04,200 --> 00:33:06,100
+superimposed FrankenEye.
+
+733
+00:33:06,100 --> 00:33:08,233
+So the ironic thing
+about this design
+
+734
+00:33:08,233 --> 00:33:12,466
+is that it looks very similar
+to a Russian design, actually,
+
+735
+00:33:12,466 --> 00:33:16,166
+that currently holds
+15 world records.
+
+736
+00:33:16,166 --> 00:33:18,200
+Very different scale,
+
+737
+00:33:18,200 --> 00:33:19,600
+very different application,
+
+738
+00:33:19,600 --> 00:33:23,166
+but the point
+is that by using
+
+739
+00:33:23,166 --> 00:33:26,566
+the rapid manufacturing
+and rapid prototyping approach
+
+740
+00:33:26,566 --> 00:33:29,400
+we were able to kind of start
+focusing down
+
+741
+00:33:29,400 --> 00:33:31,233
+on the elements that were
+most important
+
+742
+00:33:31,233 --> 00:33:32,700
+for improving performance,
+
+743
+00:33:32,700 --> 00:33:35,266
+and now we were able
+to generate a design
+
+744
+00:33:35,266 --> 00:33:38,966
+that we would expect
+to be an optimal performer
+
+745
+00:33:38,966 --> 00:33:42,166
+if it, say, were scaled up
+to a larger size.
+
+746
+00:33:42,166 --> 00:33:46,166
+And we also were able to--
+I was able to meet
+
+747
+00:33:46,166 --> 00:33:48,366
+President Obama
+on one of his visits,
+
+748
+00:33:48,366 --> 00:33:51,733
+and I'm very grateful for
+the support that was provided
+
+749
+00:33:51,733 --> 00:33:54,800
+with his visit.
+
+750
+00:33:54,800 --> 00:33:57,933
+And the final comment
+was that we--
+
+751
+00:33:57,933 --> 00:34:00,833
+in one of our articles,
+we were actually given
+
+752
+00:34:00,833 --> 00:34:03,233
+a new word,
+"Frankensteined,"
+
+753
+00:34:03,233 --> 00:34:06,166
+which I'm really happy about.
+
+754
+00:34:06,166 --> 00:34:08,166
+And I think people
+just get the idea that
+
+755
+00:34:08,166 --> 00:34:10,766
+we're trying to reuse,
+we're trying to repurpose,
+
+756
+00:34:10,766 --> 00:34:13,200
+we're trying to recycle
+existing components
+
+757
+00:34:13,200 --> 00:34:15,200
+but just re-architect them
+in a different way
+
+758
+00:34:15,200 --> 00:34:18,200
+that improves
+their performance.
+
+759
+00:34:18,200 --> 00:34:20,966
+And we've also seen
+that the aviation industry
+
+760
+00:34:20,966 --> 00:34:23,033
+has taken some interest
+in this.
+
+761
+00:34:23,033 --> 00:34:25,466
+These are some examples--
+recent examples
+
+762
+00:34:25,466 --> 00:34:27,733
+of how 3-D printing
+and modular design
+
+763
+00:34:27,733 --> 00:34:29,433
+are being used
+in different ways.
+
+764
+00:34:29,433 --> 00:34:31,766
+And we only expect
+the future to be
+
+765
+00:34:31,766 --> 00:34:33,666
+much brighter
+in these areas.
+
+766
+00:34:33,666 --> 00:34:36,400
+And the potential cost savings
+is going to be reflected
+
+767
+00:34:36,400 --> 00:34:39,733
+as we see some of these methods
+potentially applied
+
+768
+00:34:39,733 --> 00:34:42,666
+to larger aircraft systems.
+
+769
+00:34:42,666 --> 00:34:45,833
+I would say that this area
+is an emerging area
+
+770
+00:34:45,833 --> 00:34:47,400
+that needs more research.
+
+771
+00:34:47,400 --> 00:34:50,766
+It needs more attention,
+but it has the potential
+
+772
+00:34:50,766 --> 00:34:55,066
+to really impact the industry
+in a big way.
+
+773
+00:34:55,066 --> 00:34:58,500
+So with that, I will...
+
+774
+00:35:01,800 --> 00:35:04,933
+With that, I will ask
+for your questions.
+
+775
+00:35:04,933 --> 00:35:07,800
+The next slide is just--yeah.
+
+776
+00:35:07,800 --> 00:35:10,366
+With that, I will ask
+for your questions.
+
+777
+00:35:10,366 --> 00:35:13,366
+[applause]
+
+778
+00:35:17,500 --> 00:35:19,500
+- Thank you, Kevin.
+- Yeah, thank you.
+
+779
+00:35:19,500 --> 00:35:22,333
+- So if you have questions,
+please line up
+
+780
+00:35:22,333 --> 00:35:24,266
+on the microphone
+in the center aisle
+
+781
+00:35:24,266 --> 00:35:26,866
+and ask one question only.
+
+782
+00:35:29,333 --> 00:35:31,833
+Okay.
+
+783
+00:35:31,833 --> 00:35:34,533
+- Hi, and thank you for
+the lecture. Very interesting.
+
+784
+00:35:34,533 --> 00:35:36,200
+I was wondering if there's
+any crossover
+
+785
+00:35:36,200 --> 00:35:38,233
+with other industries
+that could clearly benefit
+
+786
+00:35:38,233 --> 00:35:41,333
+from the whole
+modular design idea.
+
+787
+00:35:41,333 --> 00:35:43,533
+In other words, like,
+buildings or automobiles
+
+788
+00:35:43,533 --> 00:35:45,700
+or, you know, subways,
+you know?
+
+789
+00:35:45,700 --> 00:35:50,666
+Has there been any sharing
+of lessons learned, et cetera?
+
+790
+00:35:50,666 --> 00:35:52,666
+- Yeah,
+thanks for the question.
+
+791
+00:35:52,666 --> 00:35:54,666
+We see modular design
+all around us.
+
+792
+00:35:54,666 --> 00:35:57,466
+Almost every assembly
+or complex system
+
+793
+00:35:57,466 --> 00:35:59,066
+that we deal with
+on a day-to-day basis
+
+794
+00:35:59,066 --> 00:36:03,833
+has many components,
+but typically those components
+
+795
+00:36:03,833 --> 00:36:06,433
+are just added together
+using screws or bolts
+
+796
+00:36:06,433 --> 00:36:08,666
+or in different ways.
+
+797
+00:36:08,666 --> 00:36:11,766
+I think the thing that is unique
+about this specific design
+
+798
+00:36:11,766 --> 00:36:15,400
+is that we approach aircraft
+design from the perspective
+
+799
+00:36:15,400 --> 00:36:18,100
+that parts
+have to be interchangeable.
+
+800
+00:36:18,100 --> 00:36:19,533
+We want simple interfaces,
+
+801
+00:36:19,533 --> 00:36:21,533
+mechanical and electrical
+interfaces,
+
+802
+00:36:21,533 --> 00:36:24,533
+to make plugging in a new part
+just as simple
+
+803
+00:36:24,533 --> 00:36:28,366
+as plugging in a device
+into a USB drive on a computer.
+
+804
+00:36:28,366 --> 00:36:33,300
+And so I think we can
+leverage lessons learned
+
+805
+00:36:33,300 --> 00:36:35,733
+from other industries
+like the computer industry
+
+806
+00:36:35,733 --> 00:36:38,100
+and like many of the other
+industries that produce
+
+807
+00:36:38,100 --> 00:36:41,466
+these complex systems
+that have multiple parts.
+
+808
+00:36:43,666 --> 00:36:46,266
+- Hi, I had a question
+about scaling
+
+809
+00:36:46,266 --> 00:36:47,900
+that you touched
+a little bit on.
+
+810
+00:36:47,900 --> 00:36:50,366
+So there's a big difference
+in material properties
+
+811
+00:36:50,366 --> 00:36:53,033
+between what you can 3-D print
+and what traditionally
+
+812
+00:36:53,033 --> 00:36:55,033
+is used in big airplanes.
+
+813
+00:36:55,033 --> 00:36:58,366
+So I imagine
+that as you go smaller,
+
+814
+00:36:58,366 --> 00:37:01,966
+those kinds of restrictions
+get easier to deal with.
+
+815
+00:37:01,966 --> 00:37:05,333
+So did you guys come up with
+any kind of estimate
+
+816
+00:37:05,333 --> 00:37:08,333
+on how big of an airplane
+or what kind of wing loading
+
+817
+00:37:08,333 --> 00:37:11,266
+or some other metric
+that you can reach
+
+818
+00:37:11,266 --> 00:37:13,833
+using these kinds
+of approaches?
+
+819
+00:37:13,833 --> 00:37:16,500
+- You bring up some
+very important points.
+
+820
+00:37:16,500 --> 00:37:20,300
+Large airplanes, specifically,
+are in a class of their own
+
+821
+00:37:20,300 --> 00:37:24,266
+because they use
+parts that are
+
+822
+00:37:24,266 --> 00:37:27,066
+extremely strong
+and lightweight.
+
+823
+00:37:27,066 --> 00:37:29,100
+For the purposes
+of this project,
+
+824
+00:37:29,100 --> 00:37:30,900
+we were really focused on
+unmanned aircraft
+
+825
+00:37:30,900 --> 00:37:34,433
+because we saw that
+as the low-hanging fruit
+
+826
+00:37:34,433 --> 00:37:36,066
+because we didn't--
+we weren't putting
+
+827
+00:37:36,066 --> 00:37:40,133
+people's lives at risk
+by flying an unmanned airplane.
+
+828
+00:37:40,133 --> 00:37:42,800
+I think as the materials
+that we see in 3-D printing
+
+829
+00:37:42,800 --> 00:37:45,800
+improve and become stronger,
+which we expect they will,
+
+830
+00:37:45,800 --> 00:37:48,800
+we can then start to scale up
+to larger sizes.
+
+831
+00:37:48,800 --> 00:37:51,500
+One of the aircraft
+that we simulated
+
+832
+00:37:51,500 --> 00:37:55,733
+and some of the results
+that were shown
+
+833
+00:37:55,733 --> 00:37:58,833
+was actually looking
+at a 16U design
+
+834
+00:37:58,833 --> 00:38:01,400
+based on the DragonEye concept,
+
+835
+00:38:01,400 --> 00:38:04,566
+and it was approximately
+a 60-foot airplane.
+
+836
+00:38:04,566 --> 00:38:07,033
+So at that span,
+there are also other questions
+
+837
+00:38:07,033 --> 00:38:09,100
+that need to be addressed like,
+"How do you control it?
+
+838
+00:38:09,100 --> 00:38:11,033
+How do you launch it?"
+
+839
+00:38:11,033 --> 00:38:13,200
+And we think this
+is just the very beginning
+
+840
+00:38:13,200 --> 00:38:15,366
+of where it's going.
+
+841
+00:38:15,366 --> 00:38:19,133
+Hope that answered
+your question.
+
+842
+00:38:19,133 --> 00:38:20,133
+- Hi, I have a question
+
+843
+00:38:20,133 --> 00:38:21,566
+about the additive manufacturing
+
+844
+00:38:21,566 --> 00:38:23,966
+and the modular design combined.
+
+845
+00:38:23,966 --> 00:38:26,533
+I assume there's some type
+of efficiency loss
+
+846
+00:38:26,533 --> 00:38:29,033
+for the structural mass
+when you look
+
+847
+00:38:29,033 --> 00:38:31,600
+at adding parts together
+at the joints.
+
+848
+00:38:31,600 --> 00:38:34,033
+Can you comment
+as to what type of degree
+
+849
+00:38:34,033 --> 00:38:37,500
+of efficiency loss you get
+by using a modular design?
+
+850
+00:38:37,500 --> 00:38:40,966
+- Right, so one of
+the things that is worth noting
+
+851
+00:38:40,966 --> 00:38:46,633
+is when you look at aerodynamic
+efficiency of aircraft,
+
+852
+00:38:46,633 --> 00:38:48,666
+it really--
+
+853
+00:38:48,666 --> 00:38:50,966
+Aerodynamic efficiency
+can be achieved
+
+854
+00:38:50,966 --> 00:38:55,066
+in many different ways
+by using biplane wings
+
+855
+00:38:55,066 --> 00:38:58,666
+or using non-planar structures.
+
+856
+00:38:58,666 --> 00:39:00,900
+What really matters in terms
+of aerodynamic efficiency
+
+857
+00:39:00,900 --> 00:39:03,466
+is what the lift distribution
+looks like
+
+858
+00:39:03,466 --> 00:39:05,766
+across the configuration.
+
+859
+00:39:05,766 --> 00:39:08,366
+And we often account for
+what that lift distribution
+
+860
+00:39:08,366 --> 00:39:10,233
+looks like by looking
+in the truss plane,
+
+861
+00:39:10,233 --> 00:39:14,266
+which is actually several spans
+behind the airplane.
+
+862
+00:39:14,266 --> 00:39:16,833
+So from an aerodynamic
+efficiency perspective,
+
+863
+00:39:16,833 --> 00:39:20,400
+we can achieve
+similar performance
+
+864
+00:39:20,400 --> 00:39:22,266
+using modular designs
+
+865
+00:39:22,266 --> 00:39:27,166
+that have
+structurally weak parts.
+
+866
+00:39:27,166 --> 00:39:30,533
+But from the structural
+efficiency perspective,
+
+867
+00:39:30,533 --> 00:39:32,833
+the design of the joints
+can be extremely important
+
+868
+00:39:32,833 --> 00:39:35,066
+for the application
+that is mentioned.
+
+869
+00:39:35,066 --> 00:39:37,166
+In one of the earlier charts
+I showed,
+
+870
+00:39:37,166 --> 00:39:40,366
+a self-docking structure
+can be designed
+
+871
+00:39:40,366 --> 00:39:43,433
+to have very weak joints,
+but it just needs
+
+872
+00:39:43,433 --> 00:39:45,500
+to hold the position required
+to maintain
+
+873
+00:39:45,500 --> 00:39:47,566
+the aerodynamic efficiency
+benefit.
+
+874
+00:39:47,566 --> 00:39:49,333
+That's just an example.
+
+875
+00:39:49,333 --> 00:39:50,766
+But typically what we see
+
+876
+00:39:50,766 --> 00:39:54,266
+in most high-altitude airplane
+designs is that
+
+877
+00:39:54,266 --> 00:39:56,833
+those designs are really pushing
+the limits of the structure.
+
+878
+00:39:56,833 --> 00:39:58,900
+And I think
+there are opportunities
+
+879
+00:39:58,900 --> 00:40:01,366
+that perhaps don't push
+the limits of the structure,
+
+880
+00:40:01,366 --> 00:40:06,800
+but more focused
+on the control challenges.
+
+881
+00:40:06,800 --> 00:40:08,133
+- Thanks for your talk, Kevin.
+
+882
+00:40:08,133 --> 00:40:10,333
+Could you talk a little bit
+about how you would tune
+
+883
+00:40:10,333 --> 00:40:12,700
+the control laws
+for these planes,
+
+884
+00:40:12,700 --> 00:40:15,366
+given one design or the other?
+
+885
+00:40:15,366 --> 00:40:18,366
+- Right, so for the purposes
+of our project,
+
+886
+00:40:18,366 --> 00:40:22,233
+which was on a short time scale,
+
+887
+00:40:22,233 --> 00:40:25,800
+on a two-month development
+period,
+
+888
+00:40:25,800 --> 00:40:28,933
+we used open source
+simulation hardware,
+
+889
+00:40:28,933 --> 00:40:31,200
+"Mission Planner,"
+and "X-Plane,"
+
+890
+00:40:31,200 --> 00:40:34,200
+to simulate the flight
+performance of the aircraft,
+
+891
+00:40:34,200 --> 00:40:38,566
+and those software tools
+allow us to build
+
+892
+00:40:38,566 --> 00:40:41,666
+a virtual flight dynamic model
+of the design.
+
+893
+00:40:41,666 --> 00:40:44,866
+In a more rigorous--
+
+894
+00:40:44,866 --> 00:40:48,033
+For more rigorous design,
+we would actually go into
+
+895
+00:40:48,033 --> 00:40:50,900
+calculating stability based--
+using stability derivatives
+
+896
+00:40:50,900 --> 00:40:53,300
+and those type of things,
+but for the purposes
+
+897
+00:40:53,300 --> 00:40:54,666
+of our experimental project,
+
+898
+00:40:54,666 --> 00:40:56,733
+we relied
+on the flight dynamic model
+
+899
+00:40:56,733 --> 00:41:01,300
+being created
+by the flight simulator.
+
+900
+00:41:06,000 --> 00:41:08,066
+- Please join me
+in thanking Kevin Reynolds
+
+901
+00:41:08,066 --> 00:41:10,966
+for an excellent seminar.
+
+902
+00:41:10,966 --> 00:41:13,966
+[applause]

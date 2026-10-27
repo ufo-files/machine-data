@@ -1,0 +1,6219 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2019-08-29---NASA-s-Ames-Research-Center---NASA-in-Silicon-Valley-Live---Space-Robots_9mIRDcSndwg---transcript-automated-.pdf", "source_sha256": "2b32c64e779c5301b7fba6ea4fb9eeeccc612af5e1a8409817ab1582c8f68d05", "source_bytes": 279244, "source_mtime": 1790176183, "source_mtime_ns": 1790176183897517516, "source_ctime_ns": 1790176184061869976, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T00:13:13.572830+00:00"}
+
+1
+00:00:00,829 --> 00:00:11,600
+nine eight seven six five four three two
+
+2
+00:00:31,820 --> 00:00:28,600
+[Music]
+
+3
+00:00:35,300 --> 00:00:31,830
+hi everybody welcome to another episode
+
+4
+00:00:38,000 --> 00:00:35,310
+of NASA in Silicon Valley live I am your
+
+5
+00:00:41,060 --> 00:00:38,010
+host Tiffany Blake if this is your first
+
+6
+00:00:43,430 --> 00:00:41,070
+time tuning in to the show the NASA and
+
+7
+00:00:45,229 --> 00:00:43,440
+Silicon Valley live is a conversational
+
+8
+00:00:48,290 --> 00:00:45,239
+show out of NASA's Ames Research Center
+
+9
+00:00:50,930 --> 00:00:48,300
+or we talk about all the nerdy NASA news
+
+10
+00:00:52,280 --> 00:00:50,940
+you need to know today with me I have
+
+11
+00:00:55,460 --> 00:00:52,290
+the awesome
+
+12
+00:00:57,320 --> 00:00:55,470
+Abbie Tabor hello Tiffany yes hi
+
+13
+00:00:59,840 --> 00:00:57,330
+everybody I'm your co-host today Abbie
+
+14
+00:01:03,020 --> 00:00:59,850
+Tabor and we are simultaneously live
+
+15
+00:01:05,509 --> 00:01:03,030
+right now on twitch YouTube Facebook and
+
+16
+00:01:07,160 --> 00:01:05,519
+periscope but if you want to join in the
+
+17
+00:01:08,390 --> 00:01:07,170
+chat and leave questions for our awesome
+
+18
+00:01:13,730 --> 00:01:08,400
+guest today you need to do that on
+
+19
+00:01:15,890 --> 00:01:13,740
+Twitch so go to www.twitch.tv/esa so
+
+20
+00:01:21,950 --> 00:01:15,900
+today I'm really excited we're talking
+
+21
+00:01:24,590 --> 00:01:21,960
+about space robot space we have a couple
+
+22
+00:01:25,850 --> 00:01:24,600
+of amazing guests here today so why
+
+23
+00:01:28,040 --> 00:01:25,860
+don't we go ahead and meet them can you
+
+24
+00:01:31,100 --> 00:01:28,050
+guys tell us your name what you do here
+
+25
+00:01:34,160 --> 00:01:31,110
+at Ames um I'm really I'm a robotics
+26
+00:01:37,670 --> 00:01:34,170
+engineer and I build space robots pretty
+
+27
+00:01:39,560 --> 00:01:37,680
+sweet all right yeah I'm Terry Fong I'm
+
+28
+00:01:41,510 --> 00:01:39,570
+the chief roboticist here at NASA Ames
+
+29
+00:01:43,880 --> 00:01:41,520
+and I dream up the robots that Maria
+
+30
+00:01:47,179 --> 00:01:43,890
+then has to go build awesome job
+
+31
+00:01:49,190 --> 00:01:47,189
+description thanks for joining
+
+32
+00:01:50,779 --> 00:01:49,200
+before we get into the show and one
+
+33
+00:01:53,870 --> 00:01:50,789
+remind our audience about this really
+
+34
+00:01:56,510 --> 00:01:53,880
+cool clock we have here yes exactly
+
+35
+00:01:59,270 --> 00:01:56,520
+this lovely item that we have for you
+
+36
+00:02:02,660 --> 00:01:59,280
+today is our moon countdown clock so
+
+37
+00:02:04,819 --> 00:02:02,670
+fires from now in 2024 we're planning to
+
+38
+00:02:07,130 --> 00:02:04,829
+send humans to the moon as part of our
+
+39
+00:02:09,800 --> 00:02:07,140
+Artemis program and this clock is
+
+40
+00:02:12,920 --> 00:02:09,810
+counting down the days hours minutes and
+
+41
+00:02:14,810 --> 00:02:12,930
+seconds until 2024 when the first woman
+
+42
+00:02:17,330 --> 00:02:14,820
+and the next man will walk on the moon
+
+43
+00:02:18,890 --> 00:02:17,340
+south pole so pretty exciting we'll talk
+
+44
+00:02:21,140 --> 00:02:18,900
+more about that later in the show but if
+
+45
+00:02:26,000 --> 00:02:21,150
+you want to learn more meanwhile you can
+
+46
+00:02:29,690 --> 00:02:26,010
+visit www.nasa.gov slash artemis okay
+
+47
+00:02:31,610 --> 00:02:29,700
+let's get started okay I'm excited I
+
+48
+00:02:33,530 --> 00:02:31,620
+think let's start with just the basics
+
+49
+00:02:36,500 --> 00:02:33,540
+like what's the history of you know
+
+50
+00:02:37,759 --> 00:02:36,510
+humans and robots in space sorry can you
+51
+00:02:40,339 --> 00:02:37,769
+tell us a little bit sure you know I
+
+52
+00:02:41,390 --> 00:02:40,349
+mean NASA has used robots in space for a
+
+53
+00:02:43,160 --> 00:02:41,400
+long time to carry out
+
+54
+00:02:45,289 --> 00:02:43,170
+planetary exploration we've sent robots
+
+55
+00:02:47,630 --> 00:02:45,299
+to Mars and we still have robots on Mars
+
+56
+00:02:49,850 --> 00:02:47,640
+today of course but in parallel to that
+
+57
+00:02:51,320 --> 00:02:49,860
+there's been this real development for
+
+58
+00:02:55,100 --> 00:02:51,330
+actually for a long time of robots that
+
+59
+00:02:56,990 --> 00:02:55,110
+work with humans and they are used you
+
+60
+00:02:59,330 --> 00:02:57,000
+know outside of spacecraft like outside
+
+61
+00:03:00,649 --> 00:02:59,340
+of the space station and more recently
+
+62
+00:03:02,600 --> 00:03:00,659
+we've been working with robots inside a
+
+63
+00:03:04,039 --> 00:03:02,610
+spacecraft as well right we're going a
+
+64
+00:03:04,610 --> 00:03:04,049
+little bit closer together right yeah
+
+65
+00:03:07,850 --> 00:03:04,620
+really
+
+66
+00:03:09,619 --> 00:03:07,860
+awesome so how about we talk a little
+
+67
+00:03:13,339 --> 00:03:09,629
+bit about you know how they work
+
+68
+00:03:16,430 --> 00:03:13,349
+together yeah how exactly do robots and
+
+69
+00:03:18,380 --> 00:03:16,440
+humans interact yeah I think a great
+
+70
+00:03:20,660 --> 00:03:18,390
+thing about when you talk about robots
+
+71
+00:03:22,339 --> 00:03:20,670
+and humans together it's this not just
+
+72
+00:03:23,990 --> 00:03:22,349
+oh how how do I make that robot you know
+
+73
+00:03:26,000 --> 00:03:24,000
+just go off and do something but this
+
+74
+00:03:28,130 --> 00:03:26,010
+whole notion of you know humans and
+
+75
+00:03:29,839 --> 00:03:28,140
+robots working as a team and as
+76
+00:03:31,190 --> 00:03:29,849
+something I think we're gonna see much
+
+77
+00:03:34,430 --> 00:03:31,200
+more of as we go forward in the future
+
+78
+00:03:37,399 --> 00:03:34,440
+this whole idea that we can use robots
+
+79
+00:03:39,710 --> 00:03:37,409
+to work together with humans to perform
+
+80
+00:03:42,259 --> 00:03:39,720
+work in space or on planetary surfaces
+
+81
+00:03:43,880 --> 00:03:42,269
+and the idea is you might have all kinds
+
+82
+00:03:45,229 --> 00:03:43,890
+of different robots and all kinds of
+
+83
+00:03:45,710 --> 00:03:45,239
+humans working together with those
+
+84
+00:03:48,170 --> 00:03:45,720
+robots
+
+85
+00:03:50,089 --> 00:03:48,180
+right and the same way that a team for
+
+86
+00:03:52,009 --> 00:03:50,099
+example a football team has specialists
+
+87
+00:03:53,599 --> 00:03:52,019
+yeah you play to the strengths of the
+
+88
+00:03:55,309 --> 00:03:53,609
+different members of the team so in this
+
+89
+00:03:58,580 --> 00:03:55,319
+case you'd play the strengths of the
+
+90
+00:04:05,869 --> 00:03:58,590
+humans versus the robots certain things
+
+91
+00:04:10,490 --> 00:04:05,879
+humans are better yeah you were telling
+
+92
+00:04:13,580 --> 00:04:10,500
+us earlier about the 3ds pretty common
+
+93
+00:04:16,400 --> 00:04:13,590
+phrase and in robotics the 3ds which is
+
+94
+00:04:18,339 --> 00:04:16,410
+dull dirty and dangerous those are the
+
+95
+00:04:21,229 --> 00:04:18,349
+cases where you want to send a robot in
+
+96
+00:04:22,640 --> 00:04:21,239
+rather than a human yeah you know if
+
+97
+00:04:24,260 --> 00:04:22,650
+it's something really boring to do you
+
+98
+00:04:26,000 --> 00:04:24,270
+gotta take a whole bunch of measurements
+
+99
+00:04:30,860 --> 00:04:26,010
+it's probably better to sense a robot
+
+100
+00:04:32,810 --> 00:04:30,870
+who doesn't mind do you know if it's if
+101
+00:04:35,750 --> 00:04:32,820
+it's something where it's a dangerous
+
+102
+00:04:42,810 --> 00:04:35,760
+situation again you it's sad but you
+
+103
+00:04:49,060 --> 00:04:46,840
+far less than losing a human yeah so
+
+104
+00:04:51,400 --> 00:04:49,070
+could a dangerous to be something out in
+
+105
+00:04:53,920 --> 00:04:51,410
+space like leaving oh sure yeah yeah I
+
+106
+00:04:55,390 --> 00:04:53,930
+mean I think beyond just dangerous I
+
+107
+00:04:57,220 --> 00:04:55,400
+mean there are some things you know like
+
+108
+00:04:59,470 --> 00:04:57,230
+Maria was saying that you know really
+
+109
+00:05:00,970 --> 00:04:59,480
+plays to the strengths of robots you
+
+110
+00:05:04,000 --> 00:05:00,980
+know there are some things that require
+
+111
+00:05:06,790 --> 00:05:04,010
+moving very large pieces of equipment or
+
+112
+00:05:09,790 --> 00:05:06,800
+other things in space that are just too
+
+113
+00:05:12,360 --> 00:05:09,800
+massive or too heavy for human to move
+
+114
+00:05:16,930 --> 00:05:12,370
+yeah and sometimes take longer yeah
+
+115
+00:05:18,880 --> 00:05:16,940
+precise placement right place the items
+
+116
+00:05:21,040 --> 00:05:18,890
+very precisely with a robot but just
+
+117
+00:05:23,710 --> 00:05:21,050
+like in any any team you know I think if
+
+118
+00:05:25,390 --> 00:05:23,720
+you have a combination of humans and
+
+119
+00:05:26,710 --> 00:05:25,400
+robots that can work well together I
+
+120
+00:05:28,540 --> 00:05:26,720
+mean you know that allows you to do much
+
+121
+00:05:31,950 --> 00:05:28,550
+more than just you know any individual
+
+122
+00:05:35,080 --> 00:05:31,960
+thing one person by themselves yeah and
+
+123
+00:05:36,490 --> 00:05:35,090
+an example I think of the precision that
+
+124
+00:05:37,930 --> 00:05:36,500
+you're talking about you guys told us
+
+125
+00:05:48,580 --> 00:05:37,940
+the International Space Station was
+126
+00:05:50,800 --> 00:05:48,590
+assembled by robots right yeah cool so
+
+127
+00:05:52,750 --> 00:05:50,810
+we have robots working outside of
+
+128
+00:05:55,090 --> 00:05:52,760
+spacecraft robots working inside a
+
+129
+00:05:57,280 --> 00:05:55,100
+spacecraft right so let's talk about
+
+130
+00:05:59,440 --> 00:05:57,290
+some of those what are some historical
+
+131
+00:06:05,800 --> 00:05:59,450
+robots that have worked on Space Station
+
+132
+00:06:08,770 --> 00:06:05,810
+or Canada arm Space Shuttle 50 foot
+
+133
+00:06:10,360 --> 00:06:08,780
+robot arm that was used for things like
+
+134
+00:06:12,550 --> 00:06:10,370
+which we see right now
+
+135
+00:06:17,500 --> 00:06:12,560
+I used to deploy things like satellites
+
+136
+00:06:20,860 --> 00:06:17,510
+to very precisely place equipment for
+
+137
+00:06:22,900 --> 00:06:20,870
+example when when we were integrating
+
+138
+00:06:24,730 --> 00:06:22,910
+the space station yeah this was actually
+
+139
+00:06:27,060 --> 00:06:24,740
+a pretty big arm it's like a 50 foot
+
+140
+00:06:29,350 --> 00:06:27,070
+long arm Wow and I was able to move
+
+141
+00:06:32,980 --> 00:06:29,360
+32,000 pounds that's basically like
+
+142
+00:06:39,400 --> 00:06:32,990
+moving a school bus in position a school
+
+143
+00:06:41,050 --> 00:06:39,410
+bus that's a pretty big robot benefit
+
+144
+00:06:43,990 --> 00:06:41,060
+you know to building something like you
+
+145
+00:06:46,630 --> 00:06:44,000
+know how long a station is also able to
+
+146
+00:06:48,400 --> 00:06:46,640
+bolt to hold astronauts in place yeah
+
+147
+00:06:49,460 --> 00:06:48,410
+really - Oh like well they're working
+
+148
+00:07:00,320 --> 00:06:49,470
+ones are working right
+
+149
+00:07:07,850 --> 00:07:00,330
+funny go floating off of the things you
+
+150
+00:07:11,110 --> 00:07:07,860
+never think about here's the cool one
+151
+00:07:14,780 --> 00:07:13,070
+mentioned earlier that robots can work
+
+152
+00:07:17,780 --> 00:07:14,790
+outside or inside a spacecraft so
+
+153
+00:07:19,460 --> 00:07:17,790
+Robonaut 2 was a a humanoid robot that
+
+154
+00:07:21,410 --> 00:07:19,470
+we sent up a few years ago to the space
+
+155
+00:07:22,970 --> 00:07:21,420
+station in the picture you can see here
+
+156
+00:07:25,520 --> 00:07:22,980
+it's holding something which looks like
+
+157
+00:07:29,480 --> 00:07:25,530
+a magic wand but that's actually an air
+
+158
+00:07:30,890 --> 00:07:29,490
+flow measurement device has a great name
+
+159
+00:07:32,570 --> 00:07:30,900
+what the device actually is called the
+
+160
+00:07:35,690 --> 00:07:32,580
+the sensor is actually called a velocity
+
+161
+00:07:37,190 --> 00:07:35,700
+elk it's really meant to to be used
+
+162
+00:07:39,080 --> 00:07:37,200
+inside a space station for monitoring
+
+163
+00:07:41,170 --> 00:07:39,090
+airflow and here we were doing some
+
+164
+00:07:43,700 --> 00:07:41,180
+experiments to see how a robot like
+
+165
+00:07:45,590 --> 00:07:43,710
+Robonaut 2 could carry out tasks which
+
+166
+00:07:47,390 --> 00:07:45,600
+are normally done by humans all right
+
+167
+00:07:49,820 --> 00:07:47,400
+those humanoid robots can use the same
+
+168
+00:07:52,870 --> 00:07:49,830
+tools as astronauts so you don't have to
+
+169
+00:07:55,159 --> 00:07:52,880
+retool everything that vilasa calc
+
+170
+00:07:57,980 --> 00:07:55,169
+instrument is usually used by the
+
+171
+00:07:59,780 --> 00:07:57,990
+astronauts so Robonaut because it has
+
+172
+00:08:01,640 --> 00:07:59,790
+hands can actually hold it and use it
+
+173
+00:08:03,140 --> 00:08:01,650
+the same way an astronaut would and the
+
+174
+00:08:04,880 --> 00:08:03,150
+benefit of course of you know a robot
+
+175
+00:08:06,800 --> 00:08:04,890
+for doing this kind of jobs it doesn't
+176
+00:08:08,900 --> 00:08:06,810
+get tired of holding something and if
+
+177
+00:08:16,010 --> 00:08:08,910
+you do it many times over and over and
+
+178
+00:08:17,840 --> 00:08:16,020
+it's not going to complain I was in
+
+179
+00:08:25,420 --> 00:08:17,850
+space I wouldn't care what I would be as
+
+180
+00:08:34,240 --> 00:08:28,370
+what about some current robots in space
+
+181
+00:08:38,149 --> 00:08:34,250
+that we have so there's spheres which a
+
+182
+00:08:40,130 --> 00:08:38,159
+testbed actually I have a model here and
+
+183
+00:08:44,960 --> 00:08:40,140
+this one's near and dear to our heart
+
+184
+00:08:47,450 --> 00:08:44,970
+here at Ames of course right it is so
+
+185
+00:08:49,670 --> 00:08:47,460
+this is a model of the spheres which are
+
+186
+00:08:52,370 --> 00:08:49,680
+currently on orbit there's three of them
+
+187
+00:08:55,040 --> 00:08:52,380
+on the space station and they've been
+
+188
+00:08:58,840 --> 00:08:55,050
+used as a testbed for guest scientists
+
+189
+00:09:00,879 --> 00:08:58,850
+so developers technology developers on
+
+190
+00:09:03,819 --> 00:09:00,889
+on earth like from academia from
+
+191
+00:09:05,050 --> 00:09:03,829
+commercial from inside of NASA have
+
+192
+00:09:07,629 --> 00:09:05,060
+developed technologies that they would
+
+193
+00:09:10,090 --> 00:09:07,639
+like to fly in zero-g and so they can
+
+194
+00:09:12,160 --> 00:09:10,100
+actually deploy it on a spheres which
+
+195
+00:09:14,530 --> 00:09:12,170
+would then fly them around inside a
+
+196
+00:09:16,120 --> 00:09:14,540
+space station so what we see here is
+
+197
+00:09:20,110 --> 00:09:16,130
+actually the mounting point where you
+
+198
+00:09:21,160 --> 00:09:20,120
+can put a payload on oh yeah yeah you
+
+199
+00:09:23,259 --> 00:09:21,170
+know one interesting thing about these
+
+200
+00:09:25,090 --> 00:09:23,269
+is that they fly around by using
+201
+00:09:27,069 --> 00:09:25,100
+actually carbon dioxide so there's
+
+202
+00:09:29,650 --> 00:09:27,079
+normally a tank that plugs into these
+
+203
+00:09:32,259 --> 00:09:29,660
+and they have little little nozzles
+
+204
+00:09:35,079 --> 00:09:32,269
+basically which release controlled puffs
+
+205
+00:09:38,920 --> 00:09:35,089
+of carbon dioxide yeah basically these
+
+206
+00:09:40,360 --> 00:09:38,930
+little circular basically its way around
+
+207
+00:09:43,780 --> 00:09:40,370
+inside a space station
+
+208
+00:09:46,540 --> 00:09:43,790
+oh cool very cool they've been on orbit
+
+209
+00:09:53,980 --> 00:09:46,550
+for over a decade yeah well yes held an
+
+210
+00:09:55,870 --> 00:09:53,990
+astronaut for over a decade you know yes
+
+211
+00:09:59,170 --> 00:09:55,880
+kind of the size of a volleyball we've
+
+212
+00:10:01,480 --> 00:09:59,180
+been saying rise it self around it holds
+
+213
+00:10:04,240 --> 00:10:01,490
+experiments okay and as as if that
+
+214
+00:10:08,259 --> 00:10:04,250
+wasn't enough you guys upgraded your
+
+215
+00:10:11,980 --> 00:10:08,269
+spheres at one point right yes we have a
+
+216
+00:10:13,389 --> 00:10:11,990
+project called smart spheres where we we
+
+217
+00:10:16,210 --> 00:10:13,399
+wanted to see what we could do to
+
+218
+00:10:19,030 --> 00:10:16,220
+improve the the compute power on board
+
+219
+00:10:21,120 --> 00:10:19,040
+the sensing power on board because these
+
+220
+00:10:25,480 --> 00:10:21,130
+were built you know 14 15 years ago so
+
+221
+00:10:27,910 --> 00:10:25,490
+so the sensors the the computer very old
+
+222
+00:10:29,610 --> 00:10:27,920
+very out of date and so we want to be
+
+223
+00:10:33,129 --> 00:10:29,620
+able to kind of speed them up and try
+
+224
+00:10:35,740 --> 00:10:33,139
+some robotics experiments on board and
+
+225
+00:10:39,699 --> 00:10:35,750
+so we actually flew this which I'm sure
+226
+00:10:41,470 --> 00:10:39,709
+do you want to this is yeah this is you
+
+227
+00:10:44,199 --> 00:10:41,480
+might recognize this as a smartphone and
+
+228
+00:10:50,600 --> 00:10:44,209
+this is actually a Nexus S smartphone
+
+229
+00:10:56,280 --> 00:10:55,019
+back in like 2010 and you know we had to
+
+230
+00:10:57,900 --> 00:10:56,290
+make some modifications it doesn't look
+
+231
+00:11:00,239 --> 00:10:57,910
+like the off-the-shelf thing although I
+
+232
+00:11:01,619 --> 00:11:00,249
+will say this started off you know at a
+
+233
+00:11:14,970 --> 00:11:01,629
+local electronics store was actually
+
+234
+00:11:16,920 --> 00:11:14,980
+purchased and you know you know you
+
+235
+00:11:18,509 --> 00:11:16,930
+worry about obviously people worried
+
+236
+00:11:20,429 --> 00:11:18,519
+about breaking their smartphones and you
+
+237
+00:11:22,049 --> 00:11:20,439
+know they cover their screens and of
+
+238
+00:11:23,460 --> 00:11:22,059
+course we worry about that but we didn't
+
+239
+00:11:25,110 --> 00:11:23,470
+want the shards if they were I need to
+
+240
+00:11:27,569 --> 00:11:25,120
+fly off right so this there's actually
+
+241
+00:11:29,280 --> 00:11:27,579
+some teflon tape on here it's got this
+
+242
+00:11:30,480 --> 00:11:29,290
+very you know sort of sleek battery pack
+
+243
+00:11:35,579 --> 00:11:30,490
+here because we have some concerns about
+
+244
+00:11:36,840 --> 00:11:35,589
+putting of lithium you know but the
+
+245
+00:11:40,710 --> 00:11:36,850
+great thing about this is it's very
+
+246
+00:11:42,840 --> 00:11:40,720
+compact it gave us cameras and built-in
+
+247
+00:11:48,900 --> 00:11:42,850
+accelerometers and has high bandwidth
+
+248
+00:11:55,199 --> 00:11:48,910
+wireless data transfer so the ultimate
+
+249
+00:12:01,319 --> 00:11:55,209
+brain upgrade next time on pimp your
+
+250
+00:12:04,799 --> 00:12:01,329
+robot also the fun fact about spheres is
+251
+00:12:08,669 --> 00:12:04,809
+that it was based on an idea from Star
+
+252
+00:12:11,369 --> 00:12:08,679
+Wars right that's right based on the
+
+253
+00:12:13,799 --> 00:12:11,379
+training droid in the first Star Wars
+
+254
+00:12:24,480 --> 00:12:13,809
+movie when Luke is learning how to use a
+
+255
+00:12:26,069 --> 00:12:24,490
+lightsaber this actually came up you
+
+256
+00:12:27,689 --> 00:12:26,079
+know from the original place where
+
+257
+00:12:29,970 --> 00:12:27,699
+Spears was developed and that was at MIT
+
+258
+00:12:32,280 --> 00:12:29,980
+and professor Dave Miller challenged his
+
+259
+00:12:34,049 --> 00:12:32,290
+you know his his engineering class yeah
+
+260
+00:12:41,400 --> 00:12:34,059
+yeah you know here's here's the thing
+
+261
+00:12:42,600 --> 00:12:41,410
+and Star Wars can you build me one all
+
+262
+00:12:45,569 --> 00:12:42,610
+right so that's one that we particularly
+
+263
+00:12:48,030 --> 00:12:45,579
+love there are a few others that are
+
+264
+00:12:49,739 --> 00:12:48,040
+currently I think on the station that we
+
+265
+00:12:51,269 --> 00:12:49,749
+could talk about and share some pictures
+
+266
+00:12:55,139 --> 00:12:51,279
+on you showed us before Canada arm
+
+267
+00:13:00,299 --> 00:12:55,149
+there's Canada arm - that's right 58
+
+268
+00:13:02,860 --> 00:13:00,309
+foot robotic arm on the outside of the
+
+269
+00:13:04,990 --> 00:13:02,870
+space station and it's used for multiple
+
+270
+00:13:08,350 --> 00:13:05,000
+purposes but it also it's used to dock
+
+271
+00:13:10,900 --> 00:13:08,360
+the commercial commercial cargo vehicles
+
+272
+00:13:15,340 --> 00:13:10,910
+so what we see here is it it's being
+
+273
+00:13:17,740 --> 00:13:15,350
+used to dock the the SpaceX Dragon yeah
+
+274
+00:13:18,820 --> 00:13:17,750
+and this arm is is even as Maria said
+
+275
+00:13:21,010 --> 00:13:18,830
+it's even longer than the original
+276
+00:13:23,019 --> 00:13:21,020
+Canada arm which was on the on this
+
+277
+00:13:25,269 --> 00:13:23,029
+Space Shuttle this one
+
+278
+00:13:37,110 --> 00:13:25,279
+also it's a really big arm it can
+
+279
+00:13:44,050 --> 00:13:42,400
+Space Station modules it's really cool
+
+280
+00:13:45,700 --> 00:13:44,060
+the way it can inchworm around the
+
+281
+00:13:47,650 --> 00:13:45,710
+station so it can wherever it needs to
+
+282
+00:13:50,650 --> 00:13:47,660
+be deployed they sort of it there are
+
+283
+00:13:58,560 --> 00:13:50,660
+holding spots around the outside of the
+
+284
+00:14:02,710 --> 00:14:00,610
+robot because it's actually a collection
+
+285
+00:14:04,480 --> 00:14:02,720
+of you know a bunch of different robots
+
+286
+00:14:08,170 --> 00:14:04,490
+that fit together and there's the big
+
+287
+00:14:10,480 --> 00:14:08,180
+arm itself but there's also a separate
+
+288
+00:14:13,060 --> 00:14:10,490
+set of robot arms that can attach the
+
+289
+00:14:15,880 --> 00:14:13,070
+end and those those arms form the system
+
+290
+00:14:18,490 --> 00:14:15,890
+called Dexter or if you like acronyms
+
+291
+00:14:26,769 --> 00:14:18,500
+it's the the spdm the special purpose
+
+292
+00:14:29,530 --> 00:14:26,779
+dexterous manipulator basically allows
+
+293
+00:14:30,519 --> 00:14:29,540
+this large arm to have the ability to to
+
+294
+00:14:32,530 --> 00:14:30,529
+do fine
+
+295
+00:14:34,750 --> 00:14:32,540
+quote fine dexterous motion so you have
+
+296
+00:14:36,940 --> 00:14:34,760
+two smaller arms attached to this bigger
+
+297
+00:14:39,250 --> 00:14:36,950
+arm and those go on to a mobile base and
+
+298
+00:14:40,870 --> 00:14:39,260
+so now you have this big large system
+
+299
+00:14:43,480 --> 00:14:40,880
+that can really move all kinds of things
+
+300
+00:14:49,510 --> 00:14:43,490
+around outside of the space station Wow
+301
+00:14:52,570 --> 00:14:49,520
+pretty handy yeah what about Simon Simon
+
+302
+00:14:55,300 --> 00:14:52,580
+with a seat Simon with the sea yes that
+
+303
+00:15:00,310 --> 00:14:55,310
+was built by the German space agency and
+
+304
+00:15:04,600 --> 00:15:00,320
+an Airbus there we see it Simon
+
+305
+00:15:07,840 --> 00:15:04,610
+it's meant to be a personal assistant to
+
+306
+00:15:10,030 --> 00:15:07,850
+astronauts on the station so we see him
+
+307
+00:15:12,220 --> 00:15:10,040
+there with Alexander Gerst who was a
+
+308
+00:15:13,670 --> 00:15:12,230
+commander on station about a year ago
+
+309
+00:15:16,220 --> 00:15:13,680
+last summer
+
+310
+00:15:19,850 --> 00:15:16,230
+they ran the experiment Simon actually
+
+311
+00:15:23,150 --> 00:15:19,860
+runs Watson so it's similar to you know
+
+312
+00:15:34,369 --> 00:15:23,160
+the smart speakers that you know add
+
+313
+00:15:36,889 --> 00:15:34,379
+something to my shopping list or it can
+
+314
+00:15:39,829 --> 00:15:36,899
+be helpful you know if they need to have
+
+315
+00:15:41,840 --> 00:15:39,839
+a procedure brought up so you know help
+
+316
+00:15:44,509 --> 00:15:41,850
+them with different tasks that they're
+
+317
+00:15:48,889 --> 00:15:44,519
+doing and yeah your personal robotic
+
+318
+00:15:57,410 --> 00:15:48,899
+assistant you know its voice commanded
+
+319
+00:16:06,199 --> 00:15:57,420
+yeah yeah yeah I think we have another
+
+320
+00:16:08,660 --> 00:16:06,209
+here ant ball info was built by the
+
+321
+00:16:10,579 --> 00:16:08,670
+Japanese space agency and it's meant to
+
+322
+00:16:12,259 --> 00:16:10,589
+be basically a floating camera it can
+
+323
+00:16:15,079 --> 00:16:12,269
+move around inside the Japanese
+
+324
+00:16:17,540 --> 00:16:15,089
+experiment module and take over some of
+
+325
+00:16:20,989 --> 00:16:17,550
+the sort of videography chores of
+326
+00:16:24,110 --> 00:16:20,999
+astronauts so a lot of times astronauts
+
+327
+00:16:26,179 --> 00:16:24,120
+need to document activities you know so
+
+328
+00:16:29,119 --> 00:16:26,189
+they're filming other astronauts doing
+
+329
+00:16:33,559 --> 00:16:29,129
+things and so this little robot can take
+
+330
+00:16:35,480 --> 00:16:33,569
+the take over that job yeah I have a
+
+331
+00:16:37,340 --> 00:16:35,490
+question here before we go to our
+
+332
+00:16:41,809 --> 00:16:37,350
+rapid-fire questions we're gonna take as
+
+333
+00:16:43,160 --> 00:16:41,819
+many as possible but Shamli wants to
+
+334
+00:16:44,720 --> 00:16:43,170
+know would robots on the International
+
+335
+00:16:47,030 --> 00:16:44,730
+Space Station be controlled by Houston
+
+336
+00:16:48,650 --> 00:16:47,040
+or command here on earth or would they
+
+337
+00:16:54,710 --> 00:16:48,660
+be in the hands of the astronaut aboard
+
+338
+00:16:57,019 --> 00:16:54,720
+the station I mean just like there's no
+
+339
+00:16:59,030 --> 00:16:57,029
+one perfect robot you know for
+
+340
+00:17:01,039 --> 00:16:59,040
+everything there's there's not one you
+
+341
+00:17:03,019 --> 00:17:01,049
+know a specific way that any of these
+
+342
+00:17:04,579 --> 00:17:03,029
+robots would be operated you know they
+
+343
+00:17:07,579 --> 00:17:04,589
+could be controlled from from the earth
+
+344
+00:17:09,470 --> 00:17:07,589
+they could operate you know autonomously
+
+345
+00:17:13,420 --> 00:17:09,480
+or they could be you know operated also
+
+346
+00:17:15,790 --> 00:17:13,430
+by astronauts oh yes yes
+
+347
+00:17:17,650 --> 00:17:15,800
+right and actually sis fears that we
+
+348
+00:17:19,000 --> 00:17:17,660
+were looking at a minute ago it does do
+
+349
+00:17:22,660 --> 00:17:19,010
+some things autonomously on Space
+
+350
+00:17:29,290 --> 00:17:22,670
+Station right and we have video of it
+351
+00:17:30,250 --> 00:17:29,300
+docking and undocking okay you know the
+
+352
+00:17:32,200 --> 00:17:30,260
+some of the experiments that we've done
+
+353
+00:17:34,900 --> 00:17:32,210
+with spheres you know we've tried to
+
+354
+00:17:37,750 --> 00:17:34,910
+allow it to operate and fly around
+
+355
+00:17:39,340 --> 00:17:37,760
+inside the space station by itself it
+
+356
+00:17:41,770 --> 00:17:39,350
+can be used to carry out things like
+
+357
+00:17:44,620 --> 00:17:41,780
+interior surveys they can fly back and
+
+358
+00:17:46,150 --> 00:17:44,630
+forth to various specific locations Oh
+
+359
+00:17:48,880 --> 00:17:46,160
+take readings at those locations and
+
+360
+00:17:50,050 --> 00:17:48,890
+then fly on yeah do a video of that
+
+361
+00:17:51,730 --> 00:17:50,060
+maybe that's what I was thinking of yes
+
+362
+00:17:55,870 --> 00:17:51,740
+yeah yeah let's see if we get that
+
+363
+00:17:57,220 --> 00:17:55,880
+spheres video so there you see a smart
+
+364
+00:17:59,470 --> 00:17:57,230
+spheres this is yeah this was a
+
+365
+00:18:01,030 --> 00:17:59,480
+different smartphone so we we work with
+
+366
+00:18:04,930 --> 00:18:01,040
+not just the Nexus S but this was a
+
+367
+00:18:06,910 --> 00:18:04,940
+project tango smartphone that we worked
+
+368
+00:18:09,250 --> 00:18:06,920
+on in partnership with our friends next
+
+369
+00:18:10,630 --> 00:18:09,260
+door over at Google and here is a
+
+370
+00:18:12,130 --> 00:18:10,640
+picture this is a video here you
+
+371
+00:18:13,990 --> 00:18:12,140
+actually see a smartphone on the front
+
+372
+00:18:15,550 --> 00:18:14,000
+of spheres it's flying around inside of
+
+373
+00:18:17,380 --> 00:18:15,560
+the space station it's actually going
+
+374
+00:18:19,300 --> 00:18:17,390
+back and forward back and forth flying
+
+375
+00:18:20,950 --> 00:18:19,310
+kind of a lawnmower pattern and this is
+376
+00:18:22,780 --> 00:18:20,960
+what Mission Control sees so you can see
+
+377
+00:18:25,300 --> 00:18:22,790
+video coming down from the smartphone
+
+378
+00:18:26,950 --> 00:18:25,310
+cameras you can see what looks like a
+
+379
+00:18:29,140 --> 00:18:26,960
+video game on the right side you can see
+
+380
+00:18:30,640 --> 00:18:29,150
+the path that it's flying and the weight
+
+381
+00:18:32,110 --> 00:18:30,650
+points that it's going back and forth
+
+382
+00:18:34,750 --> 00:18:32,120
+between so here's flying towards point
+
+383
+00:18:36,760 --> 00:18:34,760
+seven at the lower right there there's
+
+384
+00:18:38,770 --> 00:18:36,770
+an image that shows the representation
+
+385
+00:18:40,810 --> 00:18:38,780
+of what the camera seemed that kind of
+
+386
+00:18:42,250 --> 00:18:40,820
+blue thing and this allows us to have a
+
+387
+00:18:44,320 --> 00:18:42,260
+really good understanding of the robot
+
+388
+00:18:47,590 --> 00:18:44,330
+in its environment and what it's doing
+
+389
+00:18:49,690 --> 00:18:47,600
+at any given time oh yeah cool so
+
+390
+00:19:07,750 --> 00:18:49,700
+there's your answer to that yeah we have
+
+391
+00:19:09,580 --> 00:19:07,760
+a comic from snow the end says I quit we
+
+392
+00:19:13,870 --> 00:19:09,590
+could jump right into our right hand
+
+393
+00:19:18,430 --> 00:19:13,880
+fire let me start session emphasis on
+
+394
+00:19:21,010 --> 00:19:18,440
+the creek all right Tiffany do that yes
+
+395
+00:19:22,870 --> 00:19:21,020
+I have one so let's say four Spears how
+
+396
+00:19:26,210 --> 00:19:22,880
+long did it take to actually create the
+
+397
+00:19:29,539 --> 00:19:26,220
+robot actually designed that yeah
+
+398
+00:19:31,760 --> 00:19:29,549
+well as I said this this was a a project
+
+399
+00:19:34,730 --> 00:19:31,770
+that started MIT with with actually an
+
+400
+00:19:36,860 --> 00:19:34,740
+undergraduate engineering class and so
+401
+00:19:38,539 --> 00:19:36,870
+the students worked on that extensively
+
+402
+00:19:40,130 --> 00:19:38,549
+that led to a number of different
+
+403
+00:19:42,890 --> 00:19:40,140
+prototypes and eventually those were
+
+404
+00:19:44,390 --> 00:19:42,900
+sent up to the space station but you
+
+405
+00:19:45,950 --> 00:19:44,400
+know the reality is that it's hard to
+
+406
+00:19:47,899 --> 00:19:45,960
+say exactly how long it takes to build
+
+407
+00:19:50,570 --> 00:19:47,909
+something because you have to design it
+
+408
+00:19:51,950 --> 00:19:50,580
+test it there are lot of things for the
+
+409
+00:19:53,450 --> 00:19:51,960
+space station that we're concerned about
+
+410
+00:19:55,250 --> 00:19:53,460
+in terms of making sure things are safe
+
+411
+00:19:57,080 --> 00:19:55,260
+right of course in terms of like
+
+412
+00:19:59,360 --> 00:19:57,090
+materials and how it operates and all
+
+413
+00:20:00,710 --> 00:19:59,370
+those kinds of things so a fair amount
+
+414
+00:20:01,640 --> 00:20:00,720
+of time especially with that and then of
+
+415
+00:20:02,930 --> 00:20:01,650
+course once they get on the space
+
+416
+00:20:08,360 --> 00:20:02,940
+station you know just because you get
+
+417
+00:20:10,190 --> 00:20:08,370
+there done every single robot that goes
+
+418
+00:20:14,529 --> 00:20:10,200
+up into space we're still learning how
+
+419
+00:20:17,510 --> 00:20:14,539
+to improve and make them better a
+
+420
+00:20:27,740 --> 00:20:17,520
+comment about int ball from airplane man
+
+421
+00:20:30,049 --> 00:20:27,750
+1997 so cute yes the Jaypee guy has a
+
+422
+00:20:31,610 --> 00:20:30,059
+question about learning and training to
+
+423
+00:20:33,320 --> 00:20:31,620
+do things like you guys do
+
+424
+00:20:35,029 --> 00:20:33,330
+it is it possible to learn robotics by
+
+425
+00:20:36,529 --> 00:20:35,039
+self-study and tinkering with machines
+426
+00:20:40,070 --> 00:20:36,539
+what books or resources would you
+
+427
+00:20:43,279 --> 00:20:40,080
+suggest yes I would say I would say so
+
+428
+00:20:47,480 --> 00:20:43,289
+robotics is it's very broad field so you
+
+429
+00:20:49,430 --> 00:20:47,490
+can contribute to a robotics project you
+
+430
+00:20:52,250 --> 00:20:49,440
+know with any kind of background almost
+
+431
+00:20:54,799 --> 00:20:52,260
+you know product designers you know
+
+432
+00:20:55,909 --> 00:20:54,809
+programmers electrical engineers
+
+433
+00:20:59,240 --> 00:20:55,919
+mechanical engineers
+
+434
+00:21:01,970 --> 00:20:59,250
+so really it's whatever you love to do
+
+435
+00:21:04,340 --> 00:21:01,980
+you know what would you prefer to to do
+
+436
+00:21:07,460 --> 00:21:04,350
+and then you know you can contribute
+
+437
+00:21:09,169 --> 00:21:07,470
+then to yeah a robotics team that's
+
+438
+00:21:11,180 --> 00:21:09,179
+awesome that's good news do a lot of
+
+439
+00:21:13,130 --> 00:21:11,190
+different things yeah and I think a
+
+440
+00:21:14,210 --> 00:21:13,140
+great thing today which didn't exist a
+
+441
+00:21:16,430 --> 00:21:14,220
+few years ago is there are a lot of
+
+442
+00:21:18,470 --> 00:21:16,440
+online classes you can take in robotics
+
+443
+00:21:19,490 --> 00:21:18,480
+and so I think learning by yourself is
+
+444
+00:21:21,140 --> 00:21:19,500
+totally possible
+
+445
+00:21:23,630 --> 00:21:21,150
+there are even open-source robotics
+
+446
+00:21:24,740 --> 00:21:23,640
+projects that you can contribute to and
+
+447
+00:21:27,140 --> 00:21:24,750
+so I think the important thing is just
+
+448
+00:21:28,909 --> 00:21:27,150
+to get involved and not worry about
+
+449
+00:21:35,599 --> 00:21:28,919
+whether or not this is in a university
+
+450
+00:21:46,409 --> 00:21:44,039
+and get started yeah mr tritscher prime
+451
+00:21:48,690 --> 00:21:46,419
+qwerty r back I saw the floating square
+
+452
+00:21:50,549 --> 00:21:48,700
+a robot assistant Esther B or maybe it
+
+453
+00:21:52,469 --> 00:21:50,559
+was the other one I forget the name the
+
+454
+00:22:04,109 --> 00:21:52,479
+assistant robots testing on the
+
+455
+00:22:06,899 --> 00:22:04,119
+International and of course we had the
+
+456
+00:22:09,060 --> 00:22:06,909
+speech TV net says on the ISS do they
+
+457
+00:22:10,680 --> 00:22:09,070
+have something they can talk to or ask
+
+458
+00:22:17,570 --> 00:22:10,690
+questions like a lecture at Google home
+
+459
+00:22:22,169 --> 00:22:20,279
+good question Godzilla's asks can we
+
+460
+00:22:24,389 --> 00:22:22,179
+expect robots to take over the role of
+
+461
+00:22:26,969 --> 00:22:24,399
+astronauts on spacewalks and conduct
+
+462
+00:22:28,950 --> 00:22:26,979
+things such as maintenance well I think
+
+463
+00:22:31,830 --> 00:22:28,960
+you know machen is one of those things
+
+464
+00:22:33,839 --> 00:22:31,840
+that we really want to see robots you
+
+465
+00:22:36,869 --> 00:22:33,849
+know take on an increasing role because
+
+466
+00:22:39,450 --> 00:22:36,879
+so much of the time of astronauts today
+
+467
+00:22:41,249 --> 00:22:39,460
+is spent doing preventive and corrective
+
+468
+00:22:44,039 --> 00:22:41,259
+maintenance onboard the space station
+
+469
+00:22:45,930 --> 00:22:44,049
+and so we'd love to have robots be able
+
+470
+00:22:47,580 --> 00:22:45,940
+to take spacewalks but you know right
+
+471
+00:22:49,200 --> 00:22:47,590
+now we have these large arms that are
+
+472
+00:22:50,669 --> 00:22:49,210
+actually used to do some amount of
+
+473
+00:22:55,919 --> 00:22:50,679
+maintenance external to the space
+
+474
+00:23:01,769 --> 00:22:55,929
+station without astronauts do you have
+
+475
+00:23:03,599 --> 00:23:01,779
+another one you wanna see here there's a
+476
+00:23:17,639 --> 00:23:03,609
+question about robotics competitions
+
+477
+00:23:18,889 --> 00:23:17,649
+yeah MIT developed the exactly and it's
+
+478
+00:23:21,779 --> 00:23:18,899
+a middle school and a high school
+
+479
+00:23:24,029 --> 00:23:21,789
+sophomore competition so awesome the
+
+480
+00:23:26,909 --> 00:23:24,039
+preliminaries are done in simulation you
+
+481
+00:23:29,369 --> 00:23:26,919
+you program the spheres to perform
+
+482
+00:23:30,779 --> 00:23:29,379
+certain tasks that so the preliminary
+
+483
+00:23:32,669 --> 00:23:30,789
+rounds are done in simulation and then
+
+484
+00:23:34,830 --> 00:23:32,679
+the finalists get to fly their code
+
+485
+00:23:37,769 --> 00:23:34,840
+along the spheres on the international
+
+486
+00:23:38,940 --> 00:23:37,779
+space station for real excellent yeah
+
+487
+00:23:40,499 --> 00:23:38,950
+I'm good all in high school middle and
+
+488
+00:23:43,739 --> 00:23:40,509
+high school yeah yeah
+
+489
+00:23:45,850 --> 00:23:43,749
+get started early yeah it was not
+
+490
+00:24:02,710 --> 00:23:45,860
+sending code to the space station
+
+491
+00:24:04,990 --> 00:24:02,720
+I don't want to say my age the question
+
+492
+00:24:07,750 --> 00:24:05,000
+here for Cali cama
+
+493
+00:24:10,299 --> 00:24:07,760
+do you see a point where robot robotics
+
+494
+00:24:14,680 --> 00:24:10,309
+will be able to perform enough tasks
+
+495
+00:24:16,180 --> 00:24:14,690
+where humans won't be needed on ISS you
+
+496
+00:24:18,010 --> 00:24:16,190
+know I am often asked that question
+
+497
+00:24:20,080 --> 00:24:18,020
+about you know you know the relative
+
+498
+00:24:23,169 --> 00:24:20,090
+strengths and weaknesses of humans and
+
+499
+00:24:24,789 --> 00:24:23,179
+robots and I I think that you know we
+
+500
+00:24:26,289 --> 00:24:24,799
+will always have humans involved in
+501
+00:24:28,799 --> 00:24:26,299
+space I mean partially it's because you
+
+502
+00:24:31,299 --> 00:24:28,809
+know we as humans want to also explore
+
+503
+00:24:33,490 --> 00:24:31,309
+but it's also the case too that you know
+
+504
+00:24:36,220 --> 00:24:33,500
+we can't do everything by ourselves and
+
+505
+00:24:38,530 --> 00:24:36,230
+just like any you know team you know is
+
+506
+00:24:40,000 --> 00:24:38,540
+more than one person involved and I
+
+507
+00:24:41,620 --> 00:24:40,010
+think that'd be more than you know one
+
+508
+00:24:43,570 --> 00:24:41,630
+human and one robot and more than just
+
+509
+00:24:46,110 --> 00:24:43,580
+robots really I think the future is
+
+510
+00:24:49,060 --> 00:24:46,120
+humans and robots together yeah yeah
+
+511
+00:24:52,480 --> 00:24:49,070
+cool how about one more question from
+
+512
+00:24:55,510 --> 00:24:52,490
+the chat okay move on which I have now
+
+513
+00:24:57,880 --> 00:24:55,520
+lost space TV net hello wants to know
+
+514
+00:25:00,850 --> 00:24:57,890
+what animal shape is the best for robots
+
+515
+00:25:04,330 --> 00:25:00,860
+in zero gravity is there an animal in
+
+516
+00:25:08,340 --> 00:25:04,340
+sprin nature inspiration shapes that
+
+517
+00:25:13,120 --> 00:25:11,470
+for guys you know we like at least for
+
+518
+00:25:15,070 --> 00:25:13,130
+flying robots to have some sort of
+
+519
+00:25:18,610 --> 00:25:15,080
+symmetry to them because they can fly in
+
+520
+00:25:20,500 --> 00:25:18,620
+any direction in space sometimes I think
+
+521
+00:25:23,830 --> 00:25:20,510
+robot design draws inspiration from
+
+522
+00:25:25,659 --> 00:25:23,840
+animals in biology has obviously evolved
+
+523
+00:25:27,070 --> 00:25:25,669
+all kinds of different shapes different
+
+524
+00:25:28,990 --> 00:25:27,080
+forms and we'd like to try to take
+
+525
+00:25:30,340 --> 00:25:29,000
+advantage of that but we also sometimes
+526
+00:25:32,919 --> 00:25:30,350
+draw inspiration you know as we said
+
+527
+00:25:34,810 --> 00:25:32,929
+from like science fiction you know the
+
+528
+00:25:36,490 --> 00:25:34,820
+idea that people come up with in
+
+529
+00:25:42,549 --> 00:25:36,500
+Hollywood for robots I mean sometimes
+
+530
+00:25:43,870 --> 00:25:42,559
+okay which makes the shape also it
+
+531
+00:25:45,940 --> 00:25:43,880
+depends on what functionality you're
+
+532
+00:25:48,250 --> 00:25:45,950
+looking for so you build it so that it's
+
+533
+00:25:51,280 --> 00:25:48,260
+most efficient at the job interview want
+
+534
+00:25:53,430 --> 00:25:51,290
+to accomplish so that's what drives that
+
+535
+00:25:55,500 --> 00:25:53,440
+drives the show all right
+
+536
+00:25:57,900 --> 00:25:55,510
+it makes sense well speaking of science
+
+537
+00:25:59,760 --> 00:25:57,910
+fiction okay my question for us we see
+
+538
+00:26:01,440 --> 00:25:59,770
+robots all over in movies and TV shows
+
+539
+00:26:03,990 --> 00:26:01,450
+comics everything what are your
+
+540
+00:26:07,020 --> 00:26:04,000
+favorites oh that's easy I mean for me
+
+541
+00:26:10,140 --> 00:26:07,030
+you know my favorite robot is k9 which
+
+542
+00:26:13,470 --> 00:26:10,150
+comes from Doctor Who k9 was the doctors
+
+543
+00:26:15,750 --> 00:26:13,480
+robot dog and had basically you know a
+
+544
+00:26:19,170 --> 00:26:15,760
+supercomputer built in inside and a
+
+545
+00:26:21,710 --> 00:26:19,180
+little laser that's knows but yeah k9 no
+
+546
+00:26:27,480 --> 00:26:21,720
+question have you built a dog robot yet
+
+547
+00:26:38,640 --> 00:26:27,490
+I have to say that one of my previous
+
+548
+00:26:41,510 --> 00:26:38,650
+robots in our group I don't really play
+
+549
+00:26:49,310 --> 00:26:41,520
+favorites I don't really have a favorite
+
+550
+00:26:53,460 --> 00:26:52,830
+all right well speaking of your
+551
+00:26:55,440 --> 00:26:53,470
+favorites
+
+552
+00:26:57,890 --> 00:26:55,450
+well now let's come to that in just a
+
+553
+00:26:59,970 --> 00:26:57,900
+moment okay so we wanted to talk about
+
+554
+00:27:02,490 --> 00:26:59,980
+characteristic yeah like what kind of
+
+555
+00:27:05,610 --> 00:27:02,500
+qualities do you look for in a robot
+
+556
+00:27:07,380 --> 00:27:05,620
+yeah right you know we look for we look
+
+557
+00:27:08,820 --> 00:27:07,390
+for robots that can really help out
+
+558
+00:27:11,310 --> 00:27:08,830
+especially we're talking about humans
+
+559
+00:27:13,980 --> 00:27:11,320
+and robots in space yeah to really work
+
+560
+00:27:16,650 --> 00:27:13,990
+well together and I think just like here
+
+561
+00:27:18,840 --> 00:27:16,660
+on earth there's no single definition of
+
+562
+00:27:20,580 --> 00:27:18,850
+what a team is the same is true in space
+
+563
+00:27:22,950 --> 00:27:20,590
+I mean fact we could have robots that
+
+564
+00:27:25,680 --> 00:27:22,960
+work say before humans or robots that
+
+565
+00:27:27,960 --> 00:27:25,690
+work after humans or maybe even in
+
+566
+00:27:30,000 --> 00:27:27,970
+parallel or in support so the idea is
+
+567
+00:27:32,820 --> 00:27:30,010
+that you could have a team and all kinds
+
+568
+00:27:35,010 --> 00:27:32,830
+of you know different settings and so
+
+569
+00:27:37,290 --> 00:27:35,020
+sometimes we build robots to do things
+
+570
+00:27:38,730 --> 00:27:37,300
+that might take a long period of time
+
+571
+00:27:39,360 --> 00:27:38,740
+you have them work either before or
+
+572
+00:27:41,070 --> 00:27:39,370
+after
+
+573
+00:27:44,220 --> 00:27:41,080
+other times we want robots that can
+
+574
+00:27:46,890 --> 00:27:44,230
+interact more sort of like human speed
+
+575
+00:27:50,610 --> 00:27:46,900
+pacing so just like we're talking we'd
+576
+00:27:53,070 --> 00:27:50,620
+like robots they can react to us - do
+
+577
+00:27:55,590 --> 00:27:53,080
+you remember the other day - yes his
+
+578
+00:27:55,590 --> 00:27:55,600
+comparison
+
+579
+00:27:55,600 --> 00:27:58,890
+[Music]
+
+580
+00:28:03,700 --> 00:28:01,660
+and Marie and I we spend all of our time
+
+581
+00:28:05,920 --> 00:28:03,710
+here at work you know thinking about him
+
+582
+00:28:09,090 --> 00:28:05,930
+trying to build robots and you know
+
+583
+00:28:11,740 --> 00:28:09,100
+sometimes I admit it's it's frustrating
+
+584
+00:28:15,870 --> 00:28:11,750
+it's it's not unlike you know trying to
+
+585
+00:28:18,520 --> 00:28:15,880
+raise kids to be you know good
+
+586
+00:28:21,910 --> 00:28:18,530
+autonomous team members and to work with
+
+587
+00:28:23,350 --> 00:28:21,920
+you and you know sometimes I'm not sure
+
+588
+00:28:24,610 --> 00:28:23,360
+if it's more or less challenging than
+
+589
+00:28:28,990 --> 00:28:24,620
+trying to build robots to do the same
+
+590
+00:28:41,820 --> 00:28:29,000
+thing my kids have grown up to be you
+
+591
+00:28:41,830 --> 00:28:51,930
+[Laughter]
+
+592
+00:29:27,040 --> 00:29:05,860
+vacuum cleaner to get well should we
+
+593
+00:29:29,650 --> 00:29:27,050
+talk about what's the name in general
+
+594
+00:29:32,170 --> 00:29:29,660
+these robots are called Astro B or hasta
+
+595
+00:29:35,920 --> 00:29:32,180
+B's but they each have their own name
+
+596
+00:29:38,320 --> 00:29:35,930
+and the color so this stunt double model
+
+597
+00:29:40,600 --> 00:29:38,330
+you see is you turn it so you can see
+
+598
+00:29:44,170 --> 00:29:40,610
+the color better is orange
+
+599
+00:29:46,870 --> 00:29:44,180
+and it's called killer Olivia d'ervy but
+
+600
+00:29:49,260 --> 00:29:46,880
+we also have three of these on space
+601
+00:29:52,780 --> 00:29:49,270
+station currently and they are named
+
+602
+00:29:59,260 --> 00:29:52,790
+bumble which is blue honey which is
+
+603
+00:30:00,940 --> 00:29:59,270
+yellow and Queen which is green we
+
+604
+00:30:04,330 --> 00:30:00,950
+always know which one it is of course on
+
+605
+00:30:06,250 --> 00:30:04,340
+the color yeah so yeah this is Myra my
+
+606
+00:30:08,450 --> 00:30:06,260
+favorite robot we just finished building
+
+607
+00:30:12,290 --> 00:30:08,460
+these and watching them
+
+608
+00:30:13,670 --> 00:30:12,300
+I'm very exciting yeah it's Maria's
+
+609
+00:30:21,170 --> 00:30:13,680
+favorite robot cuz the past four years
+
+610
+00:30:23,000 --> 00:30:21,180
+of my life exactly Farah no ask how long
+
+611
+00:30:24,950 --> 00:30:23,010
+it takes to build something well as to
+
+612
+00:30:27,890 --> 00:30:24,960
+be well it's been now almost five years
+
+613
+00:30:30,230 --> 00:30:27,900
+since we started but but I mean fish
+
+614
+00:30:32,210 --> 00:30:30,240
+building them and launching them within
+
+615
+00:30:33,740 --> 00:30:32,220
+those five years so so they're and
+
+616
+00:30:36,470 --> 00:30:33,750
+they're now starting to operate with it
+
+617
+00:30:39,670 --> 00:30:36,480
+yeah so about like a little over four
+
+618
+00:30:41,840 --> 00:30:39,680
+years to build the actual flight units
+
+619
+00:30:44,030 --> 00:30:41,850
+and so I can I can tell you a little bit
+
+620
+00:30:45,440 --> 00:30:44,040
+about how these work the number one
+
+621
+00:30:48,380 --> 00:30:45,450
+question I get when talking about
+
+622
+00:30:51,560 --> 00:30:48,390
+Ospreys was how do they move in day
+
+623
+00:30:53,690 --> 00:30:51,570
+right so first of all after me only
+
+624
+00:30:57,370 --> 00:30:53,700
+works inside the space station because
+
+625
+00:31:01,040 --> 00:30:57,380
+it needs air it's fan base propulsion
+626
+00:31:05,060 --> 00:31:01,050
+there are two fans on board the sort of
+
+627
+00:31:05,690 --> 00:31:05,070
+circular yeah I can see it better there
+
+628
+00:31:07,730 --> 00:31:05,700
+we go
+
+629
+00:31:16,970 --> 00:31:07,740
+the the circular opening that you see on
+
+630
+00:31:18,740 --> 00:31:16,980
+the side maybe like a speaker that's a
+
+631
+00:31:21,860 --> 00:31:18,750
+there's an impeller fan in there so that
+
+632
+00:31:24,350 --> 00:31:21,870
+pulls air in and lightly pressurizes the
+
+633
+00:31:26,450 --> 00:31:24,360
+propulsion module and then those grills
+
+634
+00:31:28,190 --> 00:31:26,460
+that you see there's there's two on
+
+635
+00:31:37,760 --> 00:31:28,200
+every side so there's twelve total
+
+636
+00:31:40,430 --> 00:31:37,770
+that's right open and close releasing
+
+637
+00:31:43,190 --> 00:31:40,440
+some of that pressurized air and that's
+
+638
+00:31:45,290 --> 00:31:43,200
+how it pushes itself around Space
+
+639
+00:31:47,750 --> 00:31:45,300
+Station all right so yeah it's it's very
+
+640
+00:31:51,530 --> 00:31:47,760
+light pressure it's only about point one
+
+641
+00:31:53,120 --> 00:31:51,540
+psi over the ambient station pressure so
+
+642
+00:31:57,710 --> 00:31:53,130
+very safe it's not gonna you know
+
+643
+00:31:59,420 --> 00:31:57,720
+anything yes in fact we've seen it when
+
+644
+00:32:06,140 --> 00:31:59,430
+its operating on orbit we'll see like
+
+645
+00:32:09,590 --> 00:32:06,150
+here definitely see the air is moving
+
+646
+00:32:12,020 --> 00:32:09,600
+yeah it's not gonna like push them out
+
+647
+00:32:14,510 --> 00:32:12,030
+away you're an asset for this to push
+
+648
+00:32:16,220 --> 00:32:14,520
+out yeah yeah cool all right now and
+
+649
+00:32:19,340 --> 00:32:16,230
+then of course the other question we
+
+650
+00:32:20,340 --> 00:32:19,350
+always get is how does it how does it
+651
+00:32:22,080 --> 00:32:20,350
+know where it is
+
+652
+00:32:27,509 --> 00:32:22,090
+you know how does it move and navigate
+
+653
+00:32:29,159 --> 00:32:27,519
+and not crash into the walls it's sort
+
+654
+00:32:33,180 --> 00:32:29,169
+of central white section that you see
+
+655
+00:32:36,409 --> 00:32:33,190
+right there is the the heart and soul of
+
+656
+00:32:39,480 --> 00:32:36,419
+it it's the core module inside our three
+
+657
+00:32:42,600 --> 00:32:39,490
+cell phone class computers so pretty
+
+658
+00:32:50,669 --> 00:32:42,610
+much the same as your cell phone and it
+
+659
+00:32:53,129 --> 00:32:50,679
+uses a camera but the main camera the
+
+660
+00:32:56,850 --> 00:32:53,139
+navigation camera on this end right
+
+661
+00:32:59,399 --> 00:32:56,860
+there it uses that camera to look at
+
+662
+00:33:01,799 --> 00:32:59,409
+features inside the space station okay
+
+663
+00:33:04,139 --> 00:33:01,809
+so it has a map that it keeps on board
+
+664
+00:33:05,940 --> 00:33:04,149
+of features it knows where those you
+
+665
+00:33:07,889 --> 00:33:05,950
+know features should be in the station
+
+666
+00:33:09,659 --> 00:33:07,899
+and then as its flying around it
+
+667
+00:33:12,680 --> 00:33:09,669
+compares what it currently sees to that
+
+668
+00:33:15,210 --> 00:33:12,690
+map to you know figure out where it is
+
+669
+00:33:17,249 --> 00:33:15,220
+just like you know humans recognize
+
+670
+00:33:19,169 --> 00:33:17,259
+landmarks to understand where we are
+
+671
+00:33:22,590 --> 00:33:19,179
+this does that but in a much more
+
+672
+00:33:24,480 --> 00:33:22,600
+precise manner and you know I think the
+
+673
+00:33:26,070 --> 00:33:24,490
+other thing that Maria was kind of you
+
+674
+00:33:28,320 --> 00:33:26,080
+know pointed out is that we've added a
+
+675
+00:33:30,419 --> 00:33:28,330
+whole bunch of cameras on here that's
+676
+00:33:32,490 --> 00:33:30,429
+really enable it to fly around and know
+
+677
+00:33:33,930 --> 00:33:32,500
+where it is some of these are optimized
+
+678
+00:33:35,879 --> 00:33:33,940
+for really sort of like the closed-end
+
+679
+00:33:38,820 --> 00:33:35,889
+docking that you might want to do with a
+
+680
+00:33:40,590 --> 00:33:38,830
+robot we need a lot of accuracy and
+
+681
+00:33:42,389 --> 00:33:40,600
+others therefore just sort of like free
+
+682
+00:33:44,730 --> 00:33:42,399
+flight when you're really just trying to
+
+683
+00:33:46,470 --> 00:33:44,740
+worry about hey am I going to you know
+
+684
+00:33:48,930 --> 00:33:46,480
+be in the center of a module or near a
+
+685
+00:33:50,129 --> 00:33:48,940
+wall and that kind of thing yeah and
+
+686
+00:33:53,279 --> 00:33:50,139
+then the last thing I like to point out
+
+687
+00:33:55,740 --> 00:33:53,289
+on this model and part of the main
+
+688
+00:33:57,960 --> 00:33:55,750
+purpose of this robot is to carry
+
+689
+00:34:00,419 --> 00:33:57,970
+payloads we are actually going to be
+
+690
+00:34:03,389 --> 00:34:00,429
+replacing the spheres that we saw
+
+691
+00:34:06,600 --> 00:34:03,399
+earlier of to carry around other
+
+692
+00:34:08,790 --> 00:34:06,610
+experiments okay and so there's a lot of
+
+693
+00:34:12,840 --> 00:34:08,800
+open space you can sort of see me and
+
+694
+00:34:19,300 --> 00:34:16,930
+allows other technologies to plug into
+
+695
+00:34:20,740 --> 00:34:19,310
+this robot and we will fly you around
+
+696
+00:34:21,670 --> 00:34:20,750
+where you ever you want to go in Space
+
+697
+00:34:23,920 --> 00:34:21,680
+Station
+
+698
+00:34:26,680 --> 00:34:23,930
+take your experiments your equipment
+
+699
+00:34:30,730 --> 00:34:26,690
+yeah we'll take you around Space Station
+
+700
+00:34:32,890 --> 00:34:30,740
+how cool is that if people out there
+701
+00:34:35,590 --> 00:34:32,900
+have an idea for I got a great you know
+
+702
+00:34:37,480 --> 00:34:35,600
+mechanism or a sensor or something else
+
+703
+00:34:42,340 --> 00:34:37,490
+that could be built for s Trippi and you
+
+704
+00:34:44,320 --> 00:34:42,350
+can go to wboc.com / Astro be a STR OBE
+
+705
+00:34:46,810 --> 00:34:44,330
+and you'll find all kinds of information
+
+706
+00:34:49,720 --> 00:34:46,820
+about the Astro B guest science program
+
+707
+00:34:51,730 --> 00:34:49,730
+and that tells people about you know the
+
+708
+00:34:53,950 --> 00:34:51,740
+physical size of the payload bay is you
+
+709
+00:34:56,440 --> 00:34:53,960
+know how you can really develop software
+
+710
+00:34:57,580 --> 00:34:56,450
+for this actually some of some of our
+
+711
+00:35:00,430 --> 00:34:57,590
+interesting experiments are just gonna
+
+712
+00:35:02,560 --> 00:35:00,440
+be just purely software people right and
+
+713
+00:35:04,600 --> 00:35:02,570
+we upload into one or more of the
+
+714
+00:35:12,460 --> 00:35:04,610
+processors onboard do you want some of
+
+715
+00:35:15,160 --> 00:35:12,470
+our payload oh sure is this it's a it's
+
+716
+00:35:16,630 --> 00:35:15,170
+actually a robot arm you can see the
+
+717
+00:35:35,550 --> 00:35:16,640
+gripper here and we can open the gripper
+
+718
+00:35:39,610 --> 00:35:38,050
+this is a payload for Astra be just like
+
+719
+00:35:41,470 --> 00:35:39,620
+any other and it can plug in on the
+
+720
+00:35:43,720 --> 00:35:41,480
+Henderson murió just show you where it
+
+721
+00:35:46,060 --> 00:35:43,730
+would go like right in here in the top
+
+722
+00:35:49,090 --> 00:35:46,070
+payload Bay we just slot it in here all
+
+723
+00:35:52,000 --> 00:35:49,100
+right right these couple of levers here
+
+724
+00:35:53,290 --> 00:35:52,010
+that the astronauts can can switch to
+
+725
+00:35:56,560 --> 00:35:53,300
+lock it into place
+726
+00:35:58,900 --> 00:35:56,570
+mm-hmm and so it ends oh how it should
+
+727
+00:36:01,060 --> 00:35:58,910
+be used approaching arm oh so it has it
+
+728
+00:36:02,320 --> 00:36:01,070
+has this gripper on the front here and
+
+729
+00:36:05,800 --> 00:36:02,330
+you know I can actually open this up
+
+730
+00:36:09,340 --> 00:36:05,810
+here this is designed to really you know
+
+731
+00:36:10,990 --> 00:36:09,350
+reach in and grab something grab the
+
+732
+00:36:13,630 --> 00:36:11,000
+bottle of water here
+
+733
+00:36:15,310 --> 00:36:13,640
+okay but inside the space station there
+
+734
+00:36:17,050 --> 00:36:15,320
+are all these handrails that are all
+
+735
+00:36:18,640 --> 00:36:17,060
+over inside the space station and the
+
+736
+00:36:21,190 --> 00:36:18,650
+astronauts actually reach out they grab
+
+737
+00:36:24,100 --> 00:36:21,200
+on to them to hold on hold themselves in
+
+738
+00:36:26,140 --> 00:36:24,110
+position or to push themselves on on to
+
+739
+00:36:28,780 --> 00:36:26,150
+the next area and we can take advantage
+
+740
+00:36:31,030 --> 00:36:28,790
+of all the handrails there for Astra be
+
+741
+00:36:33,310 --> 00:36:31,040
+to grab onto and that's why we refer to
+
+742
+00:36:35,200 --> 00:36:33,320
+this actually as the perching arm you
+
+743
+00:36:37,360 --> 00:36:35,210
+know it's it's meant to perch on to
+
+744
+00:36:39,070 --> 00:36:37,370
+things inside a station right when after
+
+745
+00:36:41,470 --> 00:36:39,080
+we grabs hold of the handrail we can
+
+746
+00:36:43,980 --> 00:36:41,480
+turn the propulsion modules off and save
+
+747
+00:36:49,150 --> 00:36:46,690
+and because there's a camera we have a
+
+748
+00:36:51,100 --> 00:36:49,160
+high-def camera on the front end and
+
+749
+00:36:54,040 --> 00:36:51,110
+that the perching arm here would be off
+
+750
+00:36:56,820 --> 00:36:54,050
+the back end right we can use this then
+751
+00:37:00,160 --> 00:36:56,830
+as a pan tilt unit to point the camera
+
+752
+00:37:02,020 --> 00:37:00,170
+okay so you can still move the can't
+
+753
+00:37:03,640 --> 00:37:02,030
+even though the robot is kind of grabbed
+
+754
+00:37:05,980 --> 00:37:03,650
+on to something and not flying around
+
+755
+00:37:08,680 --> 00:37:05,990
+you can still point the camera and the
+
+756
+00:37:13,180 --> 00:37:08,690
+camera we can still be working yeah I
+
+757
+00:37:15,040 --> 00:37:13,190
+have a question here from M DM PhD what
+
+758
+00:37:16,480 --> 00:37:15,050
+serious mission aspects can be worked by
+
+759
+00:37:20,170 --> 00:37:16,490
+robots such as pester beam
+
+760
+00:37:22,510 --> 00:37:20,180
+oh all kinds of things you know this in
+
+761
+00:37:24,670 --> 00:37:22,520
+addition to being a research platform
+
+762
+00:37:27,130 --> 00:37:24,680
+you know that's a gonna follow on two
+
+763
+00:37:29,260 --> 00:37:27,140
+spheres is also for us meant to be
+
+764
+00:37:30,670 --> 00:37:29,270
+something we can test out various things
+
+765
+00:37:33,340 --> 00:37:30,680
+that we would like future robots to do
+
+766
+00:37:36,460 --> 00:37:33,350
+inside of you know spacecraft or maybe
+
+767
+00:37:38,530 --> 00:37:36,470
+even future habitats on planets so for
+
+768
+00:37:41,170 --> 00:37:38,540
+example this robot is going to carry a
+
+769
+00:37:43,930 --> 00:37:41,180
+different payload built by our friends
+
+770
+00:37:47,860 --> 00:37:43,940
+down at NASA Johnson in Texas that's an
+
+771
+00:37:49,810 --> 00:37:47,870
+RFID scanner so basically we can go
+
+772
+00:37:52,120 --> 00:37:49,820
+around and use the free flying robot to
+
+773
+00:37:54,040 --> 00:37:52,130
+take inventory of things that we have
+
+774
+00:37:58,150 --> 00:37:54,050
+tagged with you know little little tags
+
+775
+00:38:01,120 --> 00:37:58,160
+just like in your credit cards and
+776
+00:38:03,730 --> 00:38:01,130
+grocery stores just to do inventory so
+
+777
+00:38:05,680 --> 00:38:03,740
+inventory is a great task for robots
+
+778
+00:38:08,230 --> 00:38:05,690
+another is just monitoring the
+
+779
+00:38:10,150 --> 00:38:08,240
+environment just trying to assess you
+
+780
+00:38:12,220 --> 00:38:10,160
+know like light levels or sound levels
+
+781
+00:38:13,870 --> 00:38:12,230
+or air quality and so we can put
+
+782
+00:38:16,210 --> 00:38:13,880
+different sensors onto Astra P and do
+
+783
+00:38:18,460 --> 00:38:16,220
+that you know all kinds of interesting
+
+784
+00:38:20,380 --> 00:38:18,470
+things that you can use a robot for
+
+785
+00:38:22,420 --> 00:38:20,390
+really you know help take care of the
+
+786
+00:38:23,950 --> 00:38:22,430
+environment inside your spacecraft and
+
+787
+00:38:24,370 --> 00:38:23,960
+kind of freeing up the time for the
+
+788
+00:38:25,450 --> 00:38:24,380
+Astra
+
+789
+00:38:27,430 --> 00:38:25,460
+that's right because they spent a lot of
+
+790
+00:38:29,650 --> 00:38:27,440
+time doing tasks like the inventory and
+
+791
+00:38:32,319 --> 00:38:29,660
+the monitoring and if you have a robot
+
+792
+00:38:33,910 --> 00:38:32,329
+doing that it you know freezin about to
+
+793
+00:38:38,950 --> 00:38:33,920
+do other things right yes that kind of
+
+794
+00:38:40,930 --> 00:38:38,960
+the I think today maybe we'll talk about
+
+795
+00:38:43,299 --> 00:38:40,940
+this more and later on in the the show
+
+796
+00:38:45,069 --> 00:38:43,309
+here but you know today on the space
+
+797
+00:38:46,509 --> 00:38:45,079
+station it's a place where we have you
+
+798
+00:38:48,910 --> 00:38:46,519
+know astronauts all the time it's been
+
+799
+00:38:50,559 --> 00:38:48,920
+continuously man for a long time now but
+
+800
+00:38:52,150 --> 00:38:50,569
+the astronauts actually spend a lot of
+801
+00:38:54,039 --> 00:38:52,160
+their time doing maintenance a lot of
+
+802
+00:38:56,470 --> 00:38:54,049
+routine maintenance some of it is just
+
+803
+00:38:57,910 --> 00:38:56,480
+you know preventive you know it's time
+
+804
+00:38:58,299 --> 00:38:57,920
+to actually you know change an air
+
+805
+00:38:59,799 --> 00:38:58,309
+filter
+
+806
+00:39:01,960 --> 00:38:59,809
+some of it is corrective because
+
+807
+00:39:03,880 --> 00:39:01,970
+something broke and we'd like to try to
+
+808
+00:39:05,470 --> 00:39:03,890
+use robots to help take care of those
+
+809
+00:39:09,809 --> 00:39:05,480
+tasks so that you know the astronauts
+
+810
+00:39:22,539 --> 00:39:12,819
+have a couple of comments about Astor V
+
+811
+00:39:26,710 --> 00:39:22,549
+that's one weird-looking r2d2 kind of
+
+812
+00:39:28,390 --> 00:39:26,720
+like a companion cube yes it's been
+
+813
+00:39:33,400 --> 00:39:28,400
+pointed out to us that the resemblance
+
+814
+00:39:36,999 --> 00:39:33,410
+in the past all right we have a question
+
+815
+00:39:43,749 --> 00:39:37,009
+here this is how do you charge or
+
+816
+00:39:46,960 --> 00:39:43,759
+recharge the attributes the astra B
+
+817
+00:39:50,829 --> 00:39:46,970
+actually has a docking station on on
+
+818
+00:39:52,930 --> 00:39:50,839
+space station that lets us the robot can
+
+819
+00:39:55,960 --> 00:39:52,940
+actually autonomously plug itself in so
+
+820
+00:39:57,970 --> 00:39:55,970
+it's kind of your Roomba in space you
+
+821
+00:40:01,450 --> 00:39:57,980
+can go out and fly these sorties where
+
+822
+00:40:03,400 --> 00:40:01,460
+it takes measurements and does guess
+
+823
+00:40:05,740 --> 00:40:03,410
+science and then when it starts the
+
+824
+00:40:08,410 --> 00:40:05,750
+power starts to run low it has a docking
+
+825
+00:40:10,569 --> 00:40:08,420
+port on the back which we see here and
+826
+00:40:13,690 --> 00:40:10,579
+it can actually back itself into its its
+
+827
+00:40:15,609 --> 00:40:13,700
+docking station and recharge and we also
+
+828
+00:40:18,339 --> 00:40:15,619
+give it an Ethernet connection to the
+
+829
+00:40:20,259 --> 00:40:18,349
+space station local area network when we
+
+830
+00:40:23,079 --> 00:40:20,269
+do that so we get a little bit a higher
+
+831
+00:40:26,820 --> 00:40:23,089
+bandwidth on vacation oh yeah okay so
+
+832
+00:40:29,810 --> 00:40:26,830
+you could download a neat detail exactly
+
+833
+00:40:37,070 --> 00:40:29,820
+[Laughter]
+
+834
+00:40:44,490 --> 00:40:42,950
+Astra B's first autonomous undock we see
+
+835
+00:40:46,350 --> 00:40:44,500
+astronaut daavid
+
+836
+00:40:52,280 --> 00:40:46,360
+they're giving us the play-by-play
+
+837
+00:40:57,030 --> 00:40:54,870
+this motion and then here we see it
+
+838
+00:40:59,790 --> 00:40:57,040
+docking this is our first autonomous
+
+839
+00:41:01,980 --> 00:40:59,800
+docking motion so it just backed itself
+
+840
+00:41:03,480 --> 00:41:01,990
+up into the dock we'll see a little like
+
+841
+00:41:06,570 --> 00:41:03,490
+come on telling us that there we go
+
+842
+00:41:11,400 --> 00:41:06,580
+we've got a good connection this was big
+
+843
+00:41:20,940 --> 00:41:11,410
+celebration for us and and crew was very
+
+844
+00:41:26,100 --> 00:41:20,950
+excited - yeah what if the astronauts
+
+845
+00:41:27,990 --> 00:41:26,110
+say about working with aster be really
+
+846
+00:41:30,000 --> 00:41:28,000
+positive comments from them I mean for
+
+847
+00:41:33,690 --> 00:41:30,010
+them really it's it's a new teammate in
+
+848
+00:41:36,270 --> 00:41:33,700
+space and you know I recall the first
+
+849
+00:41:38,070 --> 00:41:36,280
+time you know that a3 was at least the
+
+850
+00:41:41,120 --> 00:41:38,080
+first Astra be what was unboxed it was
+851
+00:41:44,160 --> 00:41:41,130
+kind of like you know Christmas in space
+
+852
+00:41:44,580 --> 00:41:44,170
+I got a new teammate I got a new
+
+853
+00:41:46,530 --> 00:41:44,590
+roommate
+
+854
+00:42:02,940 --> 00:41:46,540
+all you want and I can teach you how to
+
+855
+00:42:04,560 --> 00:42:02,950
+actually you know be a good roommate so
+
+856
+00:42:05,790 --> 00:42:04,570
+we certainly have that we well we were
+
+857
+00:42:07,920 --> 00:42:05,800
+first building it was very much a
+
+858
+00:42:09,870 --> 00:42:07,930
+concern that we would be good teammates
+
+859
+00:42:12,330 --> 00:42:09,880
+that we would be for instance too loud
+
+860
+00:42:16,890 --> 00:42:12,340
+you know we wanted to stay quiet and we
+
+861
+00:42:18,990 --> 00:42:16,900
+don't to be annoying it's gonna make a
+
+862
+00:42:21,000 --> 00:42:19,000
+constant noise so we want to you know
+
+863
+00:42:23,610 --> 00:42:21,010
+minimize that and so far the feedback
+
+864
+00:42:25,470 --> 00:42:23,620
+we've gotten from from astronauts is
+
+865
+00:42:27,390 --> 00:42:25,480
+that it's it's very reasonable it's not
+
+866
+00:42:34,579 --> 00:42:27,400
+too loud and it's they actually kind of
+
+867
+00:42:40,140 --> 00:42:37,009
+fun things to say the other day about
+
+868
+00:42:42,719 --> 00:42:40,150
+the astronauts are guiding it around I
+
+869
+00:42:44,609 --> 00:42:42,729
+think so yes
+
+870
+00:42:47,189 --> 00:42:44,619
+one of the first activities we had to do
+
+871
+00:42:50,789 --> 00:42:47,199
+is build the map of the inside of the
+
+872
+00:42:52,559 --> 00:42:50,799
+space station you need to know what it
+
+873
+00:42:56,160 --> 00:42:52,569
+really looks like you know from the
+
+874
+00:42:59,400 --> 00:42:56,170
+robots point of view so astronauts ovide
+
+875
+00:43:00,929 --> 00:42:59,410
+was actually flying us manually flying
+876
+00:43:03,749 --> 00:43:00,939
+us around so that we could collect
+
+877
+00:43:04,709 --> 00:43:03,759
+imagery data while he was moving us
+
+878
+00:43:07,549 --> 00:43:04,719
+around because we don't know where we
+
+879
+00:43:10,199 --> 00:43:07,559
+are yet so we can't fly ourselves so we
+
+880
+00:43:11,459 --> 00:43:10,209
+moved us back and forth and he it was
+
+881
+00:43:18,179 --> 00:43:11,469
+great he said it was like teaching a
+
+882
+00:43:19,949 --> 00:43:18,189
+child I must say it was really
+
+883
+00:43:22,259 --> 00:43:19,959
+interesting and like exciting watching
+
+884
+00:43:24,599 --> 00:43:22,269
+you guys you know do these you know
+
+885
+00:43:26,039 --> 00:43:24,609
+tests in the lab here and just the
+
+886
+00:43:28,079 --> 00:43:26,049
+excitement I mean the astronauts are
+
+887
+00:43:30,689 --> 00:43:28,089
+excited and then the team's excited here
+
+888
+00:43:38,249 --> 00:43:30,699
+it's really really cool experience I was
+
+889
+00:43:40,469 --> 00:43:38,259
+in the back you know working through the
+
+890
+00:43:42,299 --> 00:43:40,479
+design and development of Astro B and
+
+891
+00:43:44,459 --> 00:43:42,309
+certainly I think for the team you know
+
+892
+00:43:46,229 --> 00:43:44,469
+seeing it in space was just hugely you
+
+893
+00:43:47,969 --> 00:43:46,239
+know really rewarding it was really
+
+894
+00:43:50,069 --> 00:43:47,979
+great to see that you know you actually
+
+895
+00:43:52,289 --> 00:43:50,079
+happen I can give you some breaking news
+
+896
+00:43:55,949 --> 00:43:52,299
+that just yesterday morning very early
+
+897
+00:43:57,900 --> 00:43:55,959
+in the morning we we have a test with
+
+898
+00:44:00,599 --> 00:43:57,910
+Astro be with with bumble the blue or
+
+899
+00:44:02,969 --> 00:44:00,609
+the blue robot flying it around it flew
+
+900
+00:44:04,199 --> 00:44:02,979
+itself it autonomously operated it ran a
+901
+00:44:05,849 --> 00:44:04,209
+whole bunch of plans
+
+902
+00:44:09,410 --> 00:44:05,859
+you know undocked itself flew around
+
+903
+00:44:12,269 --> 00:44:09,420
+came back to dock it went really great
+
+904
+00:44:21,929 --> 00:44:12,279
+to see that independence it really is
+
+905
+00:44:23,669 --> 00:44:21,939
+like a kid we don't want to wait you
+
+906
+00:44:29,370 --> 00:44:23,679
+know 20 years for it to grow and get a
+
+907
+00:44:36,420 --> 00:44:33,560
+[Laughter]
+
+908
+00:44:38,160 --> 00:44:36,430
+all right so we've been talking about
+
+909
+00:44:40,470 --> 00:44:38,170
+how these robots are helping astronauts
+
+910
+00:44:41,910 --> 00:44:40,480
+today right so what about looking a
+
+911
+00:44:44,460 --> 00:44:41,920
+little bit ahead because right now NASA
+
+912
+00:44:46,620 --> 00:44:44,470
+is busy working to get humans to the
+
+913
+00:44:49,410 --> 00:44:46,630
+moon in 2024 that's the Emmis burgers
+
+914
+00:44:51,510 --> 00:44:49,420
+right could you maybe summarize for
+
+915
+00:44:53,580 --> 00:44:51,520
+people what Artemis is all about and
+
+916
+00:44:55,860 --> 00:44:53,590
+then yeah so I mean Artemis is certainly
+
+917
+00:44:58,320 --> 00:44:55,870
+a first step of you know extending human
+
+918
+00:45:00,720 --> 00:44:58,330
+presence beyond just you know Earth and
+
+919
+00:45:02,340 --> 00:45:00,730
+Earth orbit you know our goal here is of
+
+920
+00:45:04,740 --> 00:45:02,350
+course to get people back to the moon
+
+921
+00:45:05,760 --> 00:45:04,750
+you know by 2024 and to do that we're
+
+922
+00:45:08,970 --> 00:45:05,770
+building a number of different systems
+
+923
+00:45:10,440 --> 00:45:08,980
+you know new spacecraft new Landers and
+
+924
+00:45:12,750 --> 00:45:10,450
+this really interesting thing called the
+
+925
+00:45:15,420 --> 00:45:12,760
+Gateway yeah you know it's meant to be
+926
+00:45:17,430 --> 00:45:15,430
+an orbiting sort of mini space station
+
+927
+00:45:19,890 --> 00:45:17,440
+around the moon and it's a place that
+
+928
+00:45:21,030 --> 00:45:19,900
+we're building not just because we want
+
+929
+00:45:22,890 --> 00:45:21,040
+something to orbit the moon but it's
+
+930
+00:45:25,020 --> 00:45:22,900
+really a jumping-off point yeah I'm to
+
+931
+00:45:26,790 --> 00:45:25,030
+go beyond the moon and also to be a
+
+932
+00:45:29,400 --> 00:45:26,800
+place where you can you know carry out
+
+933
+00:45:31,380 --> 00:45:29,410
+experiments beyond Earth orbit in a
+
+934
+00:45:34,710 --> 00:45:31,390
+place where you can you use that to go
+
+935
+00:45:36,000 --> 00:45:34,720
+to and from the lunar surface but unlike
+
+936
+00:45:37,530 --> 00:45:36,010
+the space station it's meant to be a
+
+937
+00:45:38,970 --> 00:45:37,540
+place where you know we'll only
+
+938
+00:45:41,310 --> 00:45:38,980
+occasionally be there at least at first
+
+939
+00:45:43,170 --> 00:45:41,320
+okay and so if you're only there for say
+
+940
+00:45:45,090 --> 00:45:43,180
+you know a few weeks of the year what
+
+941
+00:45:46,470 --> 00:45:45,100
+happens rest the time well it's like
+
+942
+00:45:48,090 --> 00:45:46,480
+having a vacation home you still need to
+
+943
+00:45:50,820 --> 00:45:48,100
+take care of that maintainer you need to
+
+944
+00:45:52,050 --> 00:45:50,830
+do caretaking and this in my opinion I
+
+945
+00:45:55,500 --> 00:45:52,060
+think the very best way of doing that is
+
+946
+00:46:08,970 --> 00:45:55,510
+to make use of robots you know maybe
+
+947
+00:46:10,470 --> 00:46:08,980
+they'll be a little lonely because the
+
+948
+00:46:12,540 --> 00:46:10,480
+Gateway it might be fun for people to
+
+949
+00:46:14,670 --> 00:46:12,550
+see that and I think you just answered
+
+950
+00:46:16,230 --> 00:46:14,680
+Pluto Oh nines question could you
+951
+00:46:20,550 --> 00:46:16,240
+explain how the role of robotics could
+
+952
+00:46:24,850 --> 00:46:22,750
+robots being inside and outside a
+
+953
+00:46:28,090 --> 00:46:24,860
+station so and I think the same thing is
+
+954
+00:46:30,070 --> 00:46:28,100
+true about the Gateway certainly we
+
+955
+00:46:31,450 --> 00:46:30,080
+expect there to be an external robot arm
+
+956
+00:46:34,540 --> 00:46:31,460
+you can see that right there in the
+
+957
+00:46:36,070 --> 00:46:34,550
+animation and I think at some point in
+
+958
+00:46:38,490 --> 00:46:36,080
+the future hopefully not too distant
+
+959
+00:46:40,540 --> 00:46:38,500
+future we'll see robots inside
+
+960
+00:46:43,480 --> 00:46:40,550
+performing some of these these
+
+961
+00:46:45,610 --> 00:46:43,490
+caretaking right now tasks and I think
+
+962
+00:46:48,130 --> 00:46:45,620
+beyond that to of course you know here
+
+963
+00:46:49,810 --> 00:46:48,140
+you know at NASA we have spent quite a
+
+964
+00:46:52,150 --> 00:46:49,820
+bit of time you know researching
+
+965
+00:46:54,930 --> 00:46:52,160
+studying you know how humans the robots
+
+966
+00:46:57,610 --> 00:46:54,940
+can work together on planetary surfaces
+
+967
+00:46:59,440 --> 00:46:57,620
+as we get you know people back to the
+
+968
+00:47:01,600 --> 00:46:59,450
+moon I fully expect there to be be
+
+969
+00:47:03,220 --> 00:47:01,610
+robots there as well and there are the
+
+970
+00:47:05,980 --> 00:47:03,230
+idea is that you could have humans and
+
+971
+00:47:07,720 --> 00:47:05,990
+robots doing things on the surface maybe
+
+972
+00:47:09,130 --> 00:47:07,730
+the robots are doing scouting maybe
+
+973
+00:47:11,710 --> 00:47:09,140
+they're setting up you know
+
+974
+00:47:18,490 --> 00:47:11,720
+infrastructure like communication arrays
+
+975
+00:47:20,650 --> 00:47:18,500
+solar panels and they're you know really
+976
+00:47:22,360 --> 00:47:20,660
+I think the honestly the sky's the limit
+
+977
+00:47:25,090 --> 00:47:22,370
+about the things you can think about or
+
+978
+00:47:27,760 --> 00:47:25,100
+ways for humans and robots the team as
+
+979
+00:47:29,200 --> 00:47:27,770
+we carry out future exploration mmm I
+
+980
+00:47:30,790 --> 00:47:29,210
+think we have a question here from and
+
+981
+00:47:35,860 --> 00:47:30,800
+you know to what you're speaking about
+
+982
+00:47:39,190 --> 00:47:35,870
+airplane men 1997 will we have robots in
+
+983
+00:47:41,290 --> 00:47:39,200
+deep space on other planets that will
+
+984
+00:47:42,640 --> 00:47:41,300
+help humans you know explore those
+
+985
+00:47:44,830 --> 00:47:42,650
+planets that we've never you know
+
+986
+00:47:47,080 --> 00:47:44,840
+support before yeah absolutely I mean we
+
+987
+00:47:48,490 --> 00:47:47,090
+have robots today on Mars but at some
+
+988
+00:47:51,340 --> 00:47:48,500
+point in time we'll have humans there as
+
+989
+00:47:53,110 --> 00:47:51,350
+well you know and I think at least right
+
+990
+00:47:55,240 --> 00:47:53,120
+now the current focus on the moon is a
+
+991
+00:47:57,550 --> 00:47:55,250
+great opportunity of not just for NASA
+
+992
+00:48:00,160 --> 00:47:57,560
+but for the you know the entire world to
+
+993
+00:48:01,810 --> 00:48:00,170
+learn how to really live and work you
+
+994
+00:48:04,120 --> 00:48:01,820
+know another planetary surface on the
+
+995
+00:48:05,320 --> 00:48:04,130
+moon and then we use all the things that
+
+996
+00:48:07,420 --> 00:48:05,330
+we learn everything that we've developed
+
+997
+00:48:10,240 --> 00:48:07,430
+and tested and apply it to other places
+
+998
+00:48:12,070 --> 00:48:10,250
+such as Mars kind of continue the
+
+999
+00:48:16,990 --> 00:48:12,080
+teaming that you talked about earlier
+
+1000
+00:48:18,940 --> 00:48:17,000
+great strength exactly you guys already
+1001
+00:48:21,400 --> 00:48:18,950
+talked a little bit about the before in
+
+1002
+00:48:23,980 --> 00:48:21,410
+parallel and after kind of idea
+
+1003
+00:48:25,630 --> 00:48:23,990
+Terry sort of covered that with talking
+
+1004
+00:48:28,180 --> 00:48:25,640
+about scouting and preparing
+
+1005
+00:48:30,130 --> 00:48:28,190
+infrastructure sort of the after is you
+
+1006
+00:48:31,510 --> 00:48:30,140
+can you know crew is only going to be
+
+1007
+00:48:33,100 --> 00:48:31,520
+there for a certain amount of time you
+
+1008
+00:48:36,520 --> 00:48:33,110
+know that the humans are probably then
+
+1009
+00:48:38,230 --> 00:48:36,530
+after a few months or year maybe and
+
+1010
+00:48:40,960 --> 00:48:38,240
+then you want that the robots will stay
+
+1011
+00:48:43,300 --> 00:48:40,970
+behind so they can continue to do some
+
+1012
+00:48:44,950 --> 00:48:43,310
+of the work that the astronauts started
+
+1013
+00:48:47,710 --> 00:48:44,960
+yeah for instance we talked about those
+
+1014
+00:48:49,270 --> 00:48:47,720
+tedious you know jobs yes taking lots of
+
+1015
+00:49:00,510 --> 00:48:49,280
+measurements so they could go in there
+
+1016
+00:49:06,330 --> 00:49:04,770
+go spend several years ago we had a
+
+1017
+00:49:08,760 --> 00:49:06,340
+research project here at NASA Ames
+
+1018
+00:49:11,310 --> 00:49:08,770
+called the robotic follow-up project and
+
+1019
+00:49:13,050 --> 00:49:11,320
+Maria was actually the project manager
+
+1020
+00:49:15,060 --> 00:49:13,060
+for that okay and that was really all
+
+1021
+00:49:17,820 --> 00:49:15,070
+about exactly that you know we we sent
+
+1022
+00:49:20,940 --> 00:49:17,830
+out some astronauts into the field and
+
+1023
+00:49:27,060 --> 00:49:20,950
+they had handheld you know cameras and
+
+1024
+00:49:29,310 --> 00:49:27,070
+instruments here on earth I guess we
+
+1025
+00:49:31,440 --> 00:49:29,320
+call a planetary analog you know so a
+1026
+00:49:34,080 --> 00:49:31,450
+location on Earth that has features
+
+1027
+00:49:35,460 --> 00:49:34,090
+similar exactly to places in the care
+
+1028
+00:49:36,630 --> 00:49:35,470
+about on the Moon or Mars in this
+
+1029
+00:49:36,960 --> 00:49:36,640
+particular case was in the Canadian
+
+1030
+00:49:39,420 --> 00:49:36,970
+Arctic
+
+1031
+00:49:41,640 --> 00:49:39,430
+oh this wonderfully interesting place
+
+1032
+00:49:44,550 --> 00:49:41,650
+called Devon Island and on there is a
+
+1033
+00:49:47,670 --> 00:49:44,560
+large 20 kilometer you know 12 meter or
+
+1034
+00:49:51,270 --> 00:49:47,680
+12 mile or so diameter impact structure
+
+1035
+00:49:54,630 --> 00:49:51,280
+a big giant crater we had simulated
+
+1036
+00:49:57,630 --> 00:49:54,640
+astronauts doing some mapping work there
+
+1037
+00:49:59,580 --> 00:49:57,640
+some field geology work and then after
+
+1038
+00:50:10,200 --> 00:49:59,590
+they were done you know they came back
+
+1039
+00:50:12,390 --> 00:50:10,210
+home like for instance he's a
+
+1040
+00:50:14,040 --> 00:50:12,400
+ground-penetrating radar and they'll
+
+1041
+00:50:16,260 --> 00:50:14,050
+sweep over the ground you're just going
+
+1042
+00:50:20,910 --> 00:50:16,270
+back and forth yeah usually mowing the
+
+1043
+00:50:23,760 --> 00:50:20,920
+lawn taking thousands of measurements
+
+1044
+00:50:26,550 --> 00:50:23,770
+that frankly would have been really
+
+1045
+00:50:30,690 --> 00:50:26,560
+tedious really you know difficult I
+
+1046
+00:50:43,770 --> 00:50:30,700
+think for humans yeah how did it do did
+
+1047
+00:50:50,700 --> 00:50:43,780
+it do well its job well another robot
+
+1048
+00:50:53,099 --> 00:50:50,710
+robots they run out of energy that's
+
+1049
+00:50:56,070 --> 00:50:53,109
+true okay yeah so that was the after
+
+1050
+00:50:57,900 --> 00:50:56,080
+example of this for during and after
+1051
+00:51:00,349 --> 00:50:57,910
+humans are there which is kind of like
+
+1052
+00:51:03,000 --> 00:51:00,359
+surgery he told me the other day yeah
+
+1053
+00:51:04,590 --> 00:51:03,010
+it's like surgery to you know I mean you
+
+1054
+00:51:06,510 --> 00:51:04,600
+know obviously the brain surgeons not
+
+1055
+00:51:08,849 --> 00:51:06,520
+gonna do everything and and there's
+
+1056
+00:51:10,740 --> 00:51:08,859
+someone who's doing preparation and they
+
+1057
+00:51:11,570 --> 00:51:10,750
+get the patient ready in the operating
+
+1058
+00:51:13,670 --> 00:51:11,580
+room and
+
+1059
+00:51:16,910 --> 00:51:13,680
+ready and then the brain surgeon comes
+
+1060
+00:51:19,610 --> 00:51:16,920
+in and then somebody cleans up
+
+1061
+00:51:22,070 --> 00:51:19,620
+afterwards uh you know and I think you
+
+1062
+00:51:24,140 --> 00:51:22,080
+know the idea that humans working with
+
+1063
+00:51:25,400 --> 00:51:24,150
+robots in space you know it might they
+
+1064
+00:51:27,020 --> 00:51:25,410
+might fall out see I'm kind of model you
+
+1065
+00:51:28,970 --> 00:51:27,030
+have robots that are doing things ahead
+
+1066
+00:51:31,370 --> 00:51:28,980
+of time and maybe takes a long time mhm
+
+1067
+00:51:33,530 --> 00:51:31,380
+and then the humans arrive and do the
+
+1068
+00:51:35,960 --> 00:51:33,540
+parts that require humans and you know
+
+1069
+00:51:37,820 --> 00:51:35,970
+afterwards yeah the robots come back and
+
+1070
+00:51:50,210 --> 00:51:37,830
+they say okay now that pesky humans are
+
+1071
+00:51:51,890 --> 00:51:50,220
+gone ninety seven once know should there
+
+1072
+00:51:53,510 --> 00:51:51,900
+be a robot that follows people around to
+
+1073
+00:51:56,780 --> 00:51:53,520
+make sure areas are safe when we're on
+
+1074
+00:51:58,610 --> 00:51:56,790
+Mars for example yeah there have been
+
+1075
+00:52:01,040 --> 00:51:58,620
+other projects here at NASA that have
+1076
+00:52:02,810 --> 00:52:01,050
+looked at the idea of robots doing
+
+1077
+00:52:05,060 --> 00:52:02,820
+scouting we're asking where they're
+
+1078
+00:52:07,010 --> 00:52:05,070
+really scouting you know not you know
+
+1079
+00:52:09,200 --> 00:52:07,020
+years in advance but just ahead of
+
+1080
+00:52:11,990 --> 00:52:09,210
+humans or maybe robots that are just
+
+1081
+00:52:14,240 --> 00:52:12,000
+behind them carrying tools or supplies
+
+1082
+00:52:16,610 --> 00:52:14,250
+yeah I think that kind of you know
+
+1083
+00:52:21,590 --> 00:52:16,620
+real-time support is also really of
+
+1084
+00:52:22,760 --> 00:52:21,600
+interest to yeah well three yeah we've
+
+1085
+00:52:25,490 --> 00:52:22,770
+got lots of questions we're gonna
+
+1086
+00:52:28,250 --> 00:52:25,500
+definitely save time for those uh some
+
+1087
+00:52:35,060 --> 00:52:28,260
+comments like the life is yours calls
+
+1088
+00:52:36,950 --> 00:52:35,070
+Esther be space Roomba we've had other
+
+1089
+00:52:38,660 --> 00:52:36,960
+comments to that you know people have
+
+1090
+00:52:40,160 --> 00:52:38,670
+said hey you know you the the spheres
+
+1091
+00:52:42,110 --> 00:52:40,170
+robots that you guys been working with
+
+1092
+00:52:43,640 --> 00:52:42,120
+obviously inspired by Star Wars and you
+
+1093
+00:52:46,160 --> 00:52:43,650
+know some some people have said well you
+
+1094
+00:52:48,650 --> 00:52:46,170
+know your new robot is a cube you know
+
+1095
+00:52:54,520 --> 00:52:48,660
+so was that inspired by that other
+
+1096
+00:53:08,650 --> 00:53:07,220
+what are its intentions just wanna make
+
+1097
+00:53:11,330 --> 00:53:08,660
+that clear
+
+1098
+00:53:14,420 --> 00:53:11,340
+we are questionable we have a question
+
+1099
+00:53:16,160 --> 00:53:14,430
+here from coffee FX saying what are the
+
+1100
+00:53:17,690 --> 00:53:16,170
+biggest challenges in building a robot
+1101
+00:53:19,070 --> 00:53:17,700
+designed to operate in a space
+
+1102
+00:53:20,420 --> 00:53:19,080
+environment yeah that's a great question
+
+1103
+00:53:23,390 --> 00:53:20,430
+so actually one of our biggest
+
+1104
+00:53:26,060 --> 00:53:23,400
+challenges in it comes from operating
+
+1105
+00:53:28,040 --> 00:53:26,070
+near humans in safety right of course so
+
+1106
+00:53:31,730 --> 00:53:28,050
+you know we could probably make a robot
+
+1107
+00:53:34,820 --> 00:53:31,740
+that can fly real fast and but you know
+
+1108
+00:53:39,890 --> 00:53:34,830
+there are windows so we don't want to
+
+1109
+00:53:42,260 --> 00:53:39,900
+actually be actually it's been pretty
+
+1110
+00:53:46,360 --> 00:53:42,270
+challenging coming up with a propulsion
+
+1111
+00:53:48,590 --> 00:53:46,370
+system that's very nimble responsive
+
+1112
+00:53:50,960 --> 00:53:48,600
+mooses are like a reasonable rate can
+
+1113
+00:53:54,500 --> 00:53:50,970
+move a reasonable amount of mass and yet
+
+1114
+00:53:55,910 --> 00:53:54,510
+is safe right so you know those
+
+1115
+00:53:59,090 --> 00:53:55,920
+considerations are really making a
+
+1116
+00:54:01,910 --> 00:53:59,100
+challenge and there I don't know their
+
+1117
+00:54:08,570 --> 00:54:01,920
+hardware considerations like does it
+
+1118
+00:54:11,270 --> 00:54:08,580
+have to be extra sturdy the space
+
+1119
+00:54:13,010 --> 00:54:11,280
+station environment is actually a nice
+
+1120
+00:54:15,080 --> 00:54:13,020
+gentle environment I mean there's
+
+1121
+00:54:16,430 --> 00:54:15,090
+there's there's very little gravity and
+
+1122
+00:54:19,130 --> 00:54:16,440
+it's really microgravity they're
+
+1123
+00:54:20,540 --> 00:54:19,140
+essentially zero gravity and it's like
+
+1124
+00:54:25,700 --> 00:54:20,550
+an office environment you know it's
+
+1125
+00:54:28,190 --> 00:54:25,710
+shirt sleeved it's but the problem is
+1126
+00:54:30,770 --> 00:54:28,200
+getting there because to get there you
+
+1127
+00:54:32,990 --> 00:54:30,780
+have to get on a rocket a rocket shakes
+
+1128
+00:54:35,030 --> 00:54:33,000
+you and shakes you and shakes you and so
+
+1129
+00:54:36,980 --> 00:54:35,040
+some of what we did over the past couple
+
+1130
+00:54:39,530 --> 00:54:36,990
+years was try to design an Astra be to
+
+1131
+00:54:41,750 --> 00:54:39,540
+survive really the shock of being
+
+1132
+00:54:44,540 --> 00:54:41,760
+blanched to the space station yeah yeah
+
+1133
+00:54:48,320 --> 00:54:44,550
+we have to do vibration testing and it
+
+1134
+00:54:50,720 --> 00:54:48,330
+still worked after we shook it there are
+
+1135
+00:54:52,700 --> 00:54:50,730
+structural constraints electricity
+
+1136
+00:54:54,170 --> 00:54:52,710
+electrical as well your sisters you have
+
+1137
+00:54:57,000 --> 00:54:54,180
+to be make sure they aren't going to
+
+1138
+00:55:00,690 --> 00:54:57,010
+shock any you know
+
+1139
+00:55:02,310 --> 00:55:00,700
+yeah any other system on the space
+
+1140
+00:55:04,440 --> 00:55:02,320
+station so you have two pretty nice with
+
+1141
+00:55:06,750 --> 00:55:04,450
+all the other systems long space yeah so
+
+1142
+00:55:09,060 --> 00:55:06,760
+you know you have to look at radiate
+
+1143
+00:55:10,890 --> 00:55:09,070
+like do you are you radiating noise you
+
+1144
+00:55:13,830 --> 00:55:10,900
+know are you gonna interfere with the
+
+1145
+00:55:16,320 --> 00:55:13,840
+other systems on Space Station and of
+
+1146
+00:55:18,300 --> 00:55:16,330
+course we control Astra from the ground
+
+1147
+00:55:20,520 --> 00:55:18,310
+from Mission Control and so that means
+
+1148
+00:55:22,440 --> 00:55:20,530
+we're sending you know data back and
+
+1149
+00:55:24,480 --> 00:55:22,450
+forth yeah on the space station it's
+
+1150
+00:55:26,100 --> 00:55:24,490
+being you know set across the the
+1151
+00:55:27,750 --> 00:55:26,110
+wireless network the Wi-Fi network on
+
+1152
+00:55:41,610 --> 00:55:27,760
+space station it's of course you don't
+
+1153
+00:55:44,730 --> 00:55:41,620
+want to be a network hog are you
+
+1154
+00:55:46,380 --> 00:55:44,740
+watching also I know I've talked to you
+
+1155
+00:55:48,240 --> 00:55:46,390
+guys about this I'm you know taking what
+
+1156
+00:55:51,690 --> 00:55:48,250
+you guys learn from spheres and applying
+
+1157
+00:55:54,920 --> 00:55:51,700
+that to ash Toby in your design and
+
+1158
+00:55:57,570 --> 00:55:54,930
+testing for you know yeah absolutely so
+
+1159
+00:55:59,370 --> 00:55:57,580
+one of our considerations was we didn't
+
+1160
+00:56:01,920 --> 00:55:59,380
+want to have astronauts have to put
+
+1161
+00:56:04,380 --> 00:56:01,930
+these gas canisters into Astra me that's
+
+1162
+00:56:06,570 --> 00:56:04,390
+that's a chore that we're adding to the
+
+1163
+00:56:08,670 --> 00:56:06,580
+chores then you take care of the robot
+
+1164
+00:56:10,260 --> 00:56:08,680
+so we made an all-electric system and
+
+1165
+00:56:11,820 --> 00:56:10,270
+that can just plug itself in and is the
+
+1166
+00:56:14,670 --> 00:56:11,830
+only consumable is electricity
+
+1167
+00:56:17,370 --> 00:56:14,680
+you know battery power docking stations
+
+1168
+00:56:18,660 --> 00:56:17,380
+they can go recharge itself yeah yeah I
+
+1169
+00:56:20,340 --> 00:56:18,670
+guess the other thing to the but we
+
+1170
+00:56:23,340 --> 00:56:20,350
+should have point out about spheres is
+
+1171
+00:56:25,200 --> 00:56:23,350
+that in addition to this you know carbon
+
+1172
+00:56:27,420 --> 00:56:25,210
+dioxide propulsion which is in a little
+
+1173
+00:56:29,460 --> 00:56:27,430
+tank that you change out it requires a
+
+1174
+00:56:32,250 --> 00:56:29,470
+basically these these eight pack of
+
+1175
+00:56:33,810 --> 00:56:32,260
+double-a batteries yeah and of course
+1176
+00:56:35,730 --> 00:56:33,820
+that what that means is that the spheres
+
+1177
+00:56:38,580 --> 00:56:35,740
+couldn't really run for a pretty long
+
+1178
+00:56:39,950 --> 00:56:38,590
+time maybe an hour or two and then you
+
+1179
+00:56:42,480 --> 00:56:39,960
+know someone's have come over and
+
+1180
+00:56:45,360 --> 00:56:42,490
+changed the tank and changed the
+
+1181
+00:56:47,730 --> 00:56:45,370
+batteries and so a stir be of core part
+
+1182
+00:56:50,460 --> 00:56:47,740
+of the design was let's get away from
+
+1183
+00:56:52,020 --> 00:56:50,470
+all that let it just recharge itself and
+
+1184
+00:56:54,120 --> 00:56:52,030
+then spheres also was not allowed to
+
+1185
+00:56:55,920 --> 00:56:54,130
+operate by itself because the materials
+
+1186
+00:56:58,710 --> 00:56:55,930
+are not are there's some flammable
+
+1187
+00:57:01,290 --> 00:56:58,720
+materials so it had to have human
+
+1188
+00:57:02,100 --> 00:57:01,300
+oversight at all times yeah in case it
+
+1189
+00:57:09,100 --> 00:57:02,110
+bursts into flame
+
+1190
+00:57:14,120 --> 00:57:11,840
+so all the materials on aster be are
+
+1191
+00:57:16,010 --> 00:57:14,130
+either flame-retardant or they're
+
+1192
+00:57:18,830 --> 00:57:16,020
+they're such a small amount that they
+
+1193
+00:57:21,620 --> 00:57:18,840
+aren't a hazard or we cover them with a
+
+1194
+00:57:24,920 --> 00:57:21,630
+flame-retardant material oh yeah that's
+
+1195
+00:57:27,350 --> 00:57:24,930
+pretty cool yeah you were talking about
+
+1196
+00:57:29,780 --> 00:57:27,360
+communicating with the robots so here's
+
+1197
+00:57:31,190 --> 00:57:29,790
+maybe a bigger general question are
+
+1198
+00:57:33,230 --> 00:57:31,200
+these robots designed to communicate
+
+1199
+00:57:38,000 --> 00:57:33,240
+directly with the DSN and can you tell
+
+1200
+00:57:40,400 --> 00:57:38,010
+us what the DSN the Deep Space Network
+1201
+00:57:43,130 --> 00:57:40,410
+it's what NASA and and frankly I believe
+
+1202
+00:57:45,920 --> 00:57:43,140
+all spacefaring countries used to
+
+1203
+00:57:50,180 --> 00:57:45,930
+communicate to spacecraft robotics or
+
+1204
+00:57:52,610 --> 00:57:50,190
+human in space you know I think as we
+
+1205
+00:57:54,080 --> 00:57:52,620
+see robots going to other places along
+
+1206
+00:57:56,420 --> 00:57:54,090
+with humans then there'll be you know
+
+1207
+00:57:59,330 --> 00:57:56,430
+more and more use of the the DSN for
+
+1208
+00:58:01,280 --> 00:57:59,340
+communications on the space station of
+
+1209
+00:58:04,040 --> 00:58:01,290
+course we don't use the DSN because it's
+
+1210
+00:58:13,630 --> 00:58:04,050
+in Earth orbit we instead use another
+
+1211
+00:58:19,370 --> 00:58:16,640
+tracking and data relay satellite system
+
+1212
+00:58:21,770 --> 00:58:19,380
+I think it's a set of communication
+
+1213
+00:58:24,350 --> 00:58:21,780
+satellites in Earth orbit and it relays
+
+1214
+00:58:27,860 --> 00:58:24,360
+the signals from the space station to
+
+1215
+00:58:29,360 --> 00:58:27,870
+the ground to Mission Control and so we
+
+1216
+00:58:30,040 --> 00:58:29,370
+use that to communicate to and from the
+
+1217
+00:58:35,120 --> 00:58:30,050
+space station
+
+1218
+00:58:37,670 --> 00:58:35,130
+all right perfecting yes there are
+
+1219
+00:58:39,350 --> 00:58:37,680
+dropouts in comm between the space
+
+1220
+00:58:41,270 --> 00:58:39,360
+station and the ground yeah
+
+1221
+00:58:43,460 --> 00:58:41,280
+so we also design a sturdy to be able to
+
+1222
+00:58:45,680 --> 00:58:43,470
+operate through those dropouts when it
+
+1223
+00:58:48,590 --> 00:58:45,690
+can't oh okay to the ground yeah that's
+
+1224
+00:58:50,960 --> 00:58:48,600
+what yeah the autonomous nature of can
+
+1225
+00:58:51,590 --> 00:58:50,970
+carry on
+1226
+00:58:55,179 --> 00:58:51,600
+[Music]
+
+1227
+00:58:56,829 --> 00:58:55,189
+[Laughter]
+
+1228
+00:58:59,410 --> 00:58:56,839
+we actually have some questions about
+
+1229
+00:59:01,029 --> 00:58:59,420
+career paths into robotics and things
+
+1230
+00:59:03,219 --> 00:59:01,039
+like that can you guys kind of share how
+
+1231
+00:59:04,870 --> 00:59:03,229
+you got into robotics and you know
+
+1232
+00:59:06,699 --> 00:59:04,880
+education we have people who are
+
+1233
+00:59:08,799 --> 00:59:06,709
+interested in you know what kind of you
+
+1234
+00:59:10,269 --> 00:59:08,809
+know programs were you in in school and
+
+1235
+00:59:11,529 --> 00:59:10,279
+internships and things like that so
+
+1236
+00:59:14,259 --> 00:59:11,539
+first off I might be a little bit biased
+
+1237
+00:59:19,929 --> 00:59:14,269
+but you know I think everybody should be
+
+1238
+00:59:22,089 --> 00:59:19,939
+a roboticist i I think partially is
+
+1239
+00:59:24,759 --> 00:59:22,099
+because it is really fun working with
+
+1240
+00:59:27,160 --> 00:59:24,769
+with robots yeah and I said earlier I
+
+1241
+00:59:29,019 --> 00:59:27,170
+mean robotics and covers lots of
+
+1242
+00:59:31,419 --> 00:59:29,029
+different kinds of domains lots of
+
+1243
+00:59:33,759 --> 00:59:31,429
+different areas of study and so there's
+
+1244
+00:59:36,099 --> 00:59:33,769
+not one single path that you can go down
+
+1245
+00:59:38,169 --> 00:59:36,109
+or have to go down you can if you like
+
+1246
+00:59:39,609 --> 00:59:38,179
+you know computers you can be a come to
+
+1247
+00:59:41,529 --> 00:59:39,619
+this from computer science point of view
+
+1248
+00:59:42,579 --> 00:59:41,539
+if you like mechanical design you know
+
+1249
+00:59:48,160 --> 00:59:42,589
+mechanical engineering or Electrical
+
+1250
+00:59:49,839 --> 00:59:48,170
+Engineering we need you all somebody
+1251
+00:59:55,599 --> 00:59:49,849
+wanted to know if you can use
+
+1252
+00:59:58,089 --> 00:59:55,609
+programmers yes do web developers health
+
+1253
+01:00:01,179 --> 00:59:58,099
+and robotics oh yeah definitely
+
+1254
+01:00:02,709 --> 01:00:01,189
+yeah because one of the key things we we
+
+1255
+01:00:04,509 --> 01:00:02,719
+worry about us you know how do we
+
+1256
+01:00:06,009 --> 01:00:04,519
+understand what the robot is doing and
+
+1257
+01:00:08,140 --> 01:00:06,019
+how do we communicate to that how do we
+
+1258
+01:00:09,729 --> 01:00:08,150
+command it and so in addition to
+
+1259
+01:00:11,650 --> 01:00:09,739
+building the robot system itself we'll
+
+1260
+01:00:13,599 --> 01:00:11,660
+build user interfaces you know all the
+
+1261
+01:00:15,819 --> 01:00:13,609
+interfaces that run admission control
+
+1262
+01:00:17,439 --> 01:00:15,829
+that talk to spacecraft well some of
+
+1263
+01:00:20,140 --> 01:00:17,449
+those are custom interfaces some of them
+
+1264
+01:00:22,719 --> 01:00:20,150
+just run on web browsers might be web
+
+1265
+01:00:25,299 --> 01:00:22,729
+applications and so I think the answer
+
+1266
+01:00:26,919 --> 01:00:25,309
+is definitely yes you know you can get
+
+1267
+01:00:28,809 --> 01:00:26,929
+involved if you do web programming hey
+
+1268
+01:00:30,880 --> 01:00:28,819
+you could do that for a robot too
+
+1269
+01:00:35,169 --> 01:00:30,890
+absolutely yeah very good
+
+1270
+01:00:37,630 --> 01:00:35,179
+good news GDS system yeah but software
+
+1271
+01:00:40,269 --> 01:00:37,640
+design here we have actually a ground
+
+1272
+01:00:42,309 --> 01:00:40,279
+data system that that we use for science
+
+1273
+01:00:44,380 --> 01:00:42,319
+playing so mission science planning
+
+1274
+01:00:49,749 --> 01:00:44,390
+oh yeah that's web-based cool all right
+
+1275
+01:00:52,539 --> 01:00:49,759
+so a resounding yes a couple of people
+1276
+01:00:54,729 --> 01:00:52,549
+have asked about the cost of space
+
+1277
+01:00:56,019 --> 01:00:54,739
+robots and when do you consider that
+
+1278
+01:00:58,719 --> 01:00:56,029
+that was the question do you consider
+
+1279
+01:01:00,400 --> 01:00:58,729
+the cost before after and yes in terms
+
+1280
+01:01:02,199 --> 01:01:00,410
+of like you know the robots themselves
+
+1281
+01:01:03,999 --> 01:01:02,209
+these days at least for the ones inside
+
+1282
+01:01:06,080 --> 01:01:04,009
+a space station which is just like being
+
+1283
+01:01:08,060 --> 01:01:06,090
+in an office or a home
+
+1284
+01:01:10,040 --> 01:01:08,070
+you know the-the-the components actually
+
+1285
+01:01:11,990 --> 01:01:10,050
+are not the main cost the main cost has
+
+1286
+01:01:14,750 --> 01:01:12,000
+to do with the the time spent developing
+
+1287
+01:01:17,420 --> 01:01:14,760
+and building an engineer the engineering
+
+1288
+01:01:21,500 --> 01:01:17,430
+time but you know astra B as Maria said
+
+1289
+01:01:23,840 --> 01:01:21,510
+uses a set of basically smartphone class
+
+1290
+01:01:27,770 --> 01:01:23,850
+processors and we use off-the-shelf
+
+1291
+01:01:30,410 --> 01:01:27,780
+software as well Astra bade runs both
+
+1292
+01:01:32,960 --> 01:01:30,420
+Android and Linux in terms of operating
+
+1293
+01:01:35,960 --> 01:01:32,970
+system and and so it's not you know like
+
+1294
+01:01:38,780 --> 01:01:35,970
+we've custom crafted our own unique you
+
+1295
+01:01:40,400 --> 01:01:38,790
+know set of software some of the
+
+1296
+01:01:41,480 --> 01:01:40,410
+hardware obviously is unique I mean
+
+1297
+01:01:49,400 --> 01:01:41,490
+master B doesn't look like anything
+
+1298
+01:01:51,710 --> 01:01:49,410
+you'd buy in a store machine parts open
+
+1299
+01:01:54,290 --> 01:01:51,720
+it up allow the inside no I recognize
+
+1300
+01:01:58,520 --> 01:01:54,300
+that I could buy that mm-hmm all right
+1301
+01:02:01,280 --> 01:01:58,530
+cool I have one that I like I'm curious
+
+1302
+01:02:03,500 --> 01:02:01,290
+about say the JP guy asks is it possible
+
+1303
+01:02:10,150 --> 01:02:03,510
+to create self-sterilizing robots to
+
+1304
+01:02:13,010 --> 01:02:10,160
+prevent contamination during exercise a
+
+1305
+01:02:15,380 --> 01:02:13,020
+possible payload for aster be in the
+
+1306
+01:02:18,530 --> 01:02:15,390
+near future we had some folks come in to
+
+1307
+01:02:21,020 --> 01:02:18,540
+talk to us about its equipment for
+
+1308
+01:02:22,730 --> 01:02:21,030
+sterilizing inside the space station
+
+1309
+01:02:26,660 --> 01:02:22,740
+it's basically ultraviolet light I think
+
+1310
+01:02:29,120 --> 01:02:26,670
+light UV some yeah yeah right
+
+1311
+01:02:31,610 --> 01:02:29,130
+the it's basically like a panel of LEDs
+
+1312
+01:02:33,350 --> 01:02:31,620
+that you just go and hold it up against
+
+1313
+01:02:53,480 --> 01:02:33,360
+the our nearest surface and the light
+
+1314
+01:02:56,960 --> 01:02:53,490
+will sterilize okay UV light to kill off
+
+1315
+01:03:02,870 --> 01:02:56,970
+bacteria and that could work it could
+
+1316
+01:03:09,290 --> 01:03:02,880
+work you have a comment here from wall
+
+1317
+01:03:11,900 --> 01:03:09,300
+opposed very cool y'all here's a
+
+1318
+01:03:15,830 --> 01:03:11,910
+question from rest are are there any
+
+1319
+01:03:18,560 --> 01:03:15,840
+crawling robots robots that could easily
+
+1320
+01:03:20,300 --> 01:03:18,570
+manipulate things rather than flying
+
+1321
+01:03:23,270 --> 01:03:20,310
+because that uses you know a certain
+
+1322
+01:03:24,740 --> 01:03:23,280
+kind of energy yeah yeah well I mean we
+
+1323
+01:03:26,300 --> 01:03:24,750
+saw some of the other robots that NASA
+
+1324
+01:03:29,330 --> 01:03:26,310
+has worked with in the past earlier on
+
+1325
+01:03:32,090 --> 01:03:29,340
+the show um you know I certainly think
+1326
+01:03:33,859 --> 01:03:32,100
+that all kinds of robots are needed and
+
+1327
+01:03:36,680 --> 01:03:33,869
+of course you know robots light like
+
+1328
+01:03:37,790 --> 01:03:36,690
+like Robonaut 2 we had a few years ago I
+
+1329
+01:03:40,849 --> 01:03:37,800
+mean those were designed to be humanoid
+
+1330
+01:03:42,560 --> 01:03:40,859
+Robonaut 2 actually at one point was
+
+1331
+01:03:45,500 --> 01:03:42,570
+going to have a pair of these climbing
+
+1332
+01:03:46,520 --> 01:03:45,510
+limbs so well the legs are kind of
+
+1333
+01:03:53,480 --> 01:03:46,530
+backwards to the knees were kind of
+
+1334
+01:03:54,920 --> 01:03:53,490
+backwards base to really like climb all
+
+1335
+01:03:57,410 --> 01:03:54,930
+over in the inside of Space Station so
+
+1336
+01:03:59,390 --> 01:03:57,420
+it would have two arms and two legs or
+
+1337
+01:04:01,010 --> 01:03:59,400
+two limbs and then you could use all
+
+1338
+01:04:03,140 --> 01:04:01,020
+four of those to climb around now
+
+1339
+01:04:04,849 --> 01:04:03,150
+unfortunately we had some some problems
+
+1340
+01:04:07,099 --> 01:04:04,859
+with the electrical system and we
+
+1341
+01:04:08,540 --> 01:04:07,109
+brought Robonaut to back down but maybe
+
+1342
+01:04:11,840 --> 01:04:08,550
+in the future you'll see systems like
+
+1343
+01:04:13,849 --> 01:04:11,850
+Robonaut 2 that can climb yeah actually
+
+1344
+01:04:16,849 --> 01:04:13,859
+for ground exploration yet there are
+
+1345
+01:04:23,690 --> 01:04:16,859
+snake robots and you know that again
+
+1346
+01:04:25,190 --> 01:04:23,700
+bio-inspired you know you know move
+
+1347
+01:04:27,859 --> 01:04:25,200
+across the ground in different ways and
+
+1348
+01:04:29,930 --> 01:04:27,869
+can be very efficient yeah and so
+
+1349
+01:04:32,420 --> 01:04:29,940
+there's a lot of work developing these
+
+1350
+01:04:34,280 --> 01:04:32,430
+sort of bio-inspired robots that's cool
+1351
+01:04:36,440 --> 01:04:34,290
+it's kind of related to this one the
+
+1352
+01:04:38,780 --> 01:04:36,450
+life is yours asks what a robot like the
+
+1353
+01:04:41,920 --> 01:04:38,790
+Boston dynamic ones work on Mars and the
+
+1354
+01:04:45,859 --> 01:04:44,300
+obviously Boston Dynamics has created
+
+1355
+01:04:47,150 --> 01:04:45,869
+lots of really interesting videos
+
+1356
+01:04:50,690 --> 01:04:47,160
+showing their robots doing everything
+
+1357
+01:04:52,310 --> 01:04:50,700
+from gymnastics all kinds of things you
+
+1358
+01:04:54,770 --> 01:04:52,320
+know with running and jumping and
+
+1359
+01:04:56,390 --> 01:04:54,780
+hopping and you know quite honestly you
+
+1360
+01:04:58,520 --> 01:04:56,400
+know NASA has interest in those things
+
+1361
+01:05:00,800 --> 01:04:58,530
+those kinds of you know robot
+
+1362
+01:05:02,650 --> 01:05:00,810
+capabilities because there are places
+
+1363
+01:05:05,359 --> 01:05:02,660
+they're just not suited to wheels
+
+1364
+01:05:06,859 --> 01:05:05,369
+they're places where maybe you can't fly
+
+1365
+01:05:08,480 --> 01:05:06,869
+if there's no atmosphere
+
+1366
+01:05:10,730 --> 01:05:08,490
+you know Astro B for example it does
+
+1367
+01:05:12,680 --> 01:05:10,740
+require error and the Mars helicopter
+
+1368
+01:05:14,060 --> 01:05:12,690
+requires error on Mars you can't really
+
+1369
+01:05:21,560 --> 01:05:14,070
+have that kind of flying robot on the
+
+1370
+01:05:24,170 --> 01:05:21,570
+moon robot doesn't require air to move
+
+1371
+01:05:26,240 --> 01:05:24,180
+and it's probably designed to operate in
+
+1372
+01:05:28,099 --> 01:05:26,250
+air for things like cooling so you
+
+1373
+01:05:30,299 --> 01:05:28,109
+couldn't just transport that that
+
+1374
+01:05:33,519 --> 01:05:30,309
+particular robot as
+
+1375
+01:05:35,680 --> 01:05:33,529
+that's yeah so you do have to do some
+1376
+01:05:37,509 --> 01:05:35,690
+redesign so that would be capable of
+
+1377
+01:05:39,819 --> 01:05:37,519
+operating on those other in those other
+
+1378
+01:05:43,120 --> 01:05:39,829
+environments but the method of
+
+1379
+01:05:45,400 --> 01:05:43,130
+locomotion certainly yeah we would look
+
+1380
+01:05:50,890 --> 01:05:45,410
+at walking and crawling robots and
+
+1381
+01:05:54,220 --> 01:05:50,900
+jumping and hopping and we'll see a
+
+1382
+01:05:56,410 --> 01:05:54,230
+couple people have asked again I think
+
+1383
+01:05:58,480 --> 01:05:56,420
+it's about Esther B how did these robots
+
+1384
+01:06:00,609 --> 01:05:58,490
+propel themselves in zero-gravity in a
+
+1385
+01:06:04,509 --> 01:06:00,619
+spaceship so because you just review
+
+1386
+01:06:05,829 --> 01:06:04,519
+quickly fan base system you know this
+
+1387
+01:06:08,200 --> 01:06:05,839
+our particular robot there are other
+
+1388
+01:06:11,859 --> 01:06:08,210
+ways of propelling yourself yeah inside
+
+1389
+01:06:14,289 --> 01:06:11,869
+a space base station but after me in
+
+1390
+01:06:21,130 --> 01:06:14,299
+particular its fan based it has impeller
+
+1391
+01:06:22,569 --> 01:06:21,140
+I'm actually alright so actually right
+
+1392
+01:06:25,930 --> 01:06:22,579
+there is might be good so I can actually
+
+1393
+01:06:32,490 --> 01:06:25,940
+point things yeah so again the circular
+
+1394
+01:06:37,390 --> 01:06:35,289
+can actually talk to the microphone so
+
+1395
+01:06:40,450 --> 01:06:37,400
+the circular part here there's a fan
+
+1396
+01:06:42,730 --> 01:06:40,460
+inside here and that brings the air into
+
+1397
+01:06:45,339 --> 01:06:42,740
+this sort of it's sort of like a box
+
+1398
+01:06:49,240 --> 01:06:45,349
+almost on the end of the robot this sort
+
+1399
+01:06:51,910 --> 01:06:49,250
+of black section and then it goes it's
+
+1400
+01:06:55,630 --> 01:06:51,920
+so it lightly pressurizes the box and
+1401
+01:06:57,009 --> 01:06:55,640
+then these grilles right here it looks
+
+1402
+01:07:00,130 --> 01:06:57,019
+like the vents in your cooler they look
+
+1403
+01:07:01,650 --> 01:07:00,140
+like many events there's a nozzle behind
+
+1404
+01:07:07,390 --> 01:07:01,660
+that right that the grille is to keep
+
+1405
+01:07:10,089 --> 01:07:07,400
+astronaut fingers from going in but
+
+1406
+01:07:13,990 --> 01:07:10,099
+behind there are these nozzles that have
+
+1407
+01:07:16,480 --> 01:07:14,000
+flappers that open and close and so that
+
+1408
+01:07:17,920 --> 01:07:16,490
+lets air out and you have that different
+
+1409
+01:07:19,029 --> 01:07:17,930
+amounts of different amounts right you
+
+1410
+01:07:20,400 --> 01:07:19,039
+open it a little bit yeah a little bit
+
+1411
+01:07:23,710 --> 01:07:20,410
+of air you open it wide to get more air
+
+1412
+01:07:25,809 --> 01:07:23,720
+and then so that the air moving out
+
+1413
+01:07:27,819 --> 01:07:25,819
+pushes the robot in the opposite
+
+1414
+01:07:32,499 --> 01:07:27,829
+direction this is the whole magic of
+
+1415
+01:07:35,799 --> 01:07:32,509
+zero-g it's the you know equal and
+
+1416
+01:07:37,630 --> 01:07:35,809
+opposite reaction that's how we we
+
+1417
+01:07:40,960 --> 01:07:37,640
+propel ourselves around Space Station
+
+1418
+01:07:42,310 --> 01:07:40,970
+awesome yeah Apollo mg asks is it gyro
+
+1419
+01:07:44,830 --> 01:07:42,320
+stabilized
+
+1420
+01:07:47,980 --> 01:07:44,840
+and what does it's partially quote
+
+1421
+01:07:49,660 --> 01:07:47,990
+gyro-stabilized you know you have fans
+
+1422
+01:07:52,710 --> 01:07:49,670
+here and there's actually a fan on both
+
+1423
+01:07:55,180 --> 01:07:52,720
+sides so it's it's counter-rotating and
+
+1424
+01:07:57,430 --> 01:07:55,190
+what's fascinating is that depending on
+
+1425
+01:08:00,400 --> 01:07:57,440
+how fast we spin this you know we can
+1426
+01:08:02,500 --> 01:08:00,410
+change how stable is in space so as we
+
+1427
+01:08:05,560 --> 01:08:02,510
+do docking for example and we want to
+
+1428
+01:08:07,510 --> 01:08:05,570
+move in very precisely and very you know
+
+1429
+01:08:09,040 --> 01:08:07,520
+it was very smooth motion will basically
+
+1430
+01:08:11,560 --> 01:08:09,050
+spin up the robot and you can actually
+
+1431
+01:08:14,200 --> 01:08:11,570
+hear it get louder yeah and it becomes
+
+1432
+01:08:15,400 --> 01:08:14,210
+more stable because it's using its fans
+
+1433
+01:08:16,960 --> 01:08:15,410
+and how fast they're spinning to
+
+1434
+01:08:18,910 --> 01:08:16,970
+stabilize it it also gives a little more
+
+1435
+01:08:20,620 --> 01:08:18,920
+control authority because there's a
+
+1436
+01:08:22,270 --> 01:08:20,630
+little more pressure a touchable
+
+1437
+01:08:30,700 --> 01:08:22,280
+pressure so it can actually push itself
+
+1438
+01:08:33,790 --> 01:08:30,710
+a little bit harder keeps coming in we
+
+1439
+01:08:35,530 --> 01:08:33,800
+have one question from ill Inc are
+
+1440
+01:08:38,320 --> 01:08:35,540
+robots good for tending the growing of
+
+1441
+01:08:43,840 --> 01:08:38,330
+plants in space oh you know this is
+
+1442
+01:08:46,720 --> 01:08:43,850
+actually a super timely question I went
+
+1443
+01:08:50,460 --> 01:08:46,730
+to a NASA workshop on how robots could
+
+1444
+01:08:53,620 --> 01:08:50,470
+be used to help grow crops in space and
+
+1445
+01:08:55,240 --> 01:08:53,630
+it's fascinating you think about all the
+
+1446
+01:08:56,740 --> 01:08:55,250
+challenges that you know would be
+
+1447
+01:09:00,340 --> 01:08:56,750
+associated with doing that I mean
+
+1448
+01:09:02,140 --> 01:09:00,350
+planting and monitoring and tending and
+
+1449
+01:09:04,599 --> 01:09:02,150
+harvesting and then processing
+
+1450
+01:09:07,060 --> 01:09:04,609
+afterwards yeah so I think it's a great
+1451
+01:09:10,329 --> 01:09:07,070
+area for research and development not
+
+1452
+01:09:12,640 --> 01:09:10,339
+ready today but if we want to send
+
+1453
+01:09:14,349 --> 01:09:12,650
+humans especially the deep space can't
+
+1454
+01:09:15,329 --> 01:09:14,359
+just package all the food right they're
+
+1455
+01:09:17,440 --> 01:09:15,339
+not just gonna be eating you know
+
+1456
+01:09:20,110 --> 01:09:17,450
+microwavable things okay they're gonna
+
+1457
+01:09:22,900 --> 01:09:20,120
+need fresh food and it's really as
+
+1458
+01:09:25,120 --> 01:09:22,910
+anybody who's grown anything knows it
+
+1459
+01:09:28,349 --> 01:09:25,130
+takes a lot of effort so I think robots
+
+1460
+01:09:30,910 --> 01:09:28,359
+definitely are needed for that mm-hmm
+
+1461
+01:09:37,630 --> 01:09:30,920
+some are already being used on earth
+
+1462
+01:09:39,849 --> 01:09:37,640
+yeah at end yeah there's this whole new
+
+1463
+01:09:41,920 --> 01:09:39,859
+interesting you know category called
+
+1464
+01:09:45,190 --> 01:09:41,930
+vertical farming you know what people
+
+1465
+01:09:47,290 --> 01:09:45,200
+want to like grow really crops inside
+
+1466
+01:09:50,740 --> 01:09:47,300
+their homes or their apartments and a
+
+1467
+01:09:51,910 --> 01:09:50,750
+small space how can you grow vertically
+
+1468
+01:09:53,559 --> 01:09:51,920
+you have all these different like
+
+1469
+01:09:57,010 --> 01:09:53,569
+shelves and like
+
+1470
+01:09:59,140 --> 01:09:57,020
+like hydroponics that go into you know
+
+1471
+01:10:00,669 --> 01:09:59,150
+help plants grow but the problem is you
+
+1472
+01:10:02,109 --> 01:10:00,679
+still take care of the system itself
+
+1473
+01:10:05,350 --> 01:10:02,119
+you know things always get clogged
+
+1474
+01:10:08,709 --> 01:10:05,360
+things need to get harvested so I think
+
+1475
+01:10:11,979 --> 01:10:08,719
+we're gonna need robots for that here's
+1476
+01:10:14,379 --> 01:10:11,989
+an interesting one phone things as to
+
+1477
+01:10:16,359 --> 01:10:14,389
+what types of prehensile tasks do robots
+
+1478
+01:10:20,649 --> 01:10:16,369
+performance space ie gripping and
+
+1479
+01:10:23,140 --> 01:10:20,659
+grasping tasks is that as well so we've
+
+1480
+01:10:26,560 --> 01:10:23,150
+talked about the perching are purging
+
+1481
+01:10:29,410 --> 01:10:26,570
+arms yes lots of finger and and yes save
+
+1482
+01:10:31,569 --> 01:10:29,420
+energy by doing that also we've been
+
+1483
+01:10:34,600 --> 01:10:31,579
+looking at prehensile tasks that like a
+
+1484
+01:10:37,089 --> 01:10:34,610
+rover out rinse in a wheeled robots can
+
+1485
+01:10:39,339 --> 01:10:37,099
+do when it's on a planetary surface
+
+1486
+01:10:41,530 --> 01:10:39,349
+mm-hmm for instance it can dig a trench
+
+1487
+01:10:43,180 --> 01:10:41,540
+right if you you drive three of the
+
+1488
+01:10:44,919 --> 01:10:43,190
+wheels and your fourth one you just kind
+
+1489
+01:10:46,089 --> 01:10:44,929
+of you turn it sideways and spin it a
+
+1490
+01:10:49,540 --> 01:10:46,099
+little bit differently you can actually
+
+1491
+01:10:51,430 --> 01:10:49,550
+dig a trench so for instance say you
+
+1492
+01:10:54,790 --> 01:10:51,440
+want to lay some cables you know that
+
+1493
+01:10:56,379 --> 01:10:54,800
+you then bury around the habitat you
+
+1494
+01:10:59,200 --> 01:10:56,389
+could use the robot to dig the trenches
+
+1495
+01:11:00,609 --> 01:10:59,210
+to put the cables in okay that's kind of
+
+1496
+01:11:08,350 --> 01:11:00,619
+a gripping task because it's holding
+
+1497
+01:11:10,569 --> 01:11:08,360
+that's we Hansel so there's no but in
+
+1498
+01:11:12,669 --> 01:11:10,579
+terms of grasping things you know we
+
+1499
+01:11:15,700 --> 01:11:12,679
+said earlier that Astra P only has an
+
+1500
+01:11:18,430 --> 01:11:15,710
+arm for perching but obviously other
+1501
+01:11:21,040 --> 01:11:18,440
+systems like Robonaut 2 or even on the
+
+1502
+01:11:23,169 --> 01:11:21,050
+Camino the canadarm2 with its dexter
+
+1503
+01:11:25,270 --> 01:11:23,179
+system you know has the ability to
+
+1504
+01:11:26,740 --> 01:11:25,280
+really reach out and and physically
+
+1505
+01:11:28,990 --> 01:11:26,750
+interact with things you know maybe
+
+1506
+01:11:31,450 --> 01:11:29,000
+you're gonna try to to unscrew something
+
+1507
+01:11:35,600 --> 01:11:31,460
+or to swap out some module which needs
+
+1508
+01:11:41,830 --> 01:11:38,939
+[Laughter]
+
+1509
+01:11:46,569 --> 01:11:41,840
+actually developing a gecko inspired
+
+1510
+01:11:48,669 --> 01:11:46,579
+gripper perching are for astra baby is
+
+1511
+01:11:51,069 --> 01:11:48,679
+already actually on orbit it wants yeah
+
+1512
+01:11:54,180 --> 01:11:51,079
+it just launched and so they're looking
+
+1513
+01:11:56,500 --> 01:11:54,190
+at being able to perch on any surface
+
+1514
+01:11:58,810 --> 01:11:56,510
+the universal gripper i mean you think
+
+1515
+01:12:05,140 --> 01:11:58,820
+you know geckos they can you know adhere
+
+1516
+01:12:13,580 --> 01:12:07,040
+not so thrilled about that when they're
+
+1517
+01:12:15,439 --> 01:12:13,590
+in your home this new this new robot
+
+1518
+01:12:17,240 --> 01:12:15,449
+hand basically is meant to be the
+
+1519
+01:12:20,330 --> 01:12:17,250
+universal thing so it can stick to any
+
+1520
+01:12:21,560 --> 01:12:20,340
+kind of surface any kind of shape and
+
+1521
+01:12:23,240 --> 01:12:21,570
+that's one of the things that over the
+
+1522
+01:12:28,490 --> 01:12:23,250
+next several months we're hoping to see
+
+1523
+01:12:31,299 --> 01:12:28,500
+tested with a strobe hmm very cool cuz
+
+1524
+01:12:33,529 --> 01:12:31,309
+we're gonna have to finish soon are ya
+
+1525
+01:12:35,660 --> 01:12:33,539
+do you have a favorite question or
+1526
+01:12:38,540 --> 01:12:35,670
+should I throw one out there uh you go
+
+1527
+01:12:40,299 --> 01:12:38,550
+first okay pour us an under South so how
+
+1528
+01:12:43,010 --> 01:12:40,309
+could you perform real-life tests
+
+1529
+01:12:44,959 --> 01:12:43,020
+parabolic flights perhaps that's nearly
+
+1530
+01:12:47,180 --> 01:12:44,969
+testing like with punch punch cards
+
+1531
+01:12:50,209 --> 01:12:47,190
+cost-wise well how would you how do you
+
+1532
+01:12:52,459 --> 01:12:50,219
+test these space robots on earth well so
+
+1533
+01:12:56,149 --> 01:12:52,469
+Astra B we test it on a granite table
+
+1534
+01:12:58,640 --> 01:12:56,159
+it's kind of an upside down air hockey
+
+1535
+01:13:00,260 --> 01:12:58,650
+table huh where instead of the air
+
+1536
+01:13:02,720 --> 01:13:00,270
+coming out of the table it comes out of
+
+1537
+01:13:10,580 --> 01:13:02,730
+a puck and the robot sits on top of this
+
+1538
+01:13:13,459 --> 01:13:10,590
+puck it's like a frictionless surface so
+
+1539
+01:13:14,899 --> 01:13:13,469
+it can simulate what it's like to fire
+
+1540
+01:13:17,600 --> 01:13:14,909
+unfortunately we can only do two
+
+1541
+01:13:19,069 --> 01:13:17,610
+dimensions not three yeah yeah we don't
+
+1542
+01:13:27,120 --> 01:13:19,079
+have enough thrust to actually lift up
+
+1543
+01:13:34,380 --> 01:13:32,250
+faster as a job
+
+1544
+01:13:37,050 --> 01:13:34,390
+we have these kind of gantry crane
+
+1545
+01:13:43,010 --> 01:13:37,060
+systems that are used as gravity offset
+
+1546
+01:13:48,149 --> 01:13:46,439
+I'm you know the effects of gravity's
+
+1547
+01:13:50,430 --> 01:13:48,159
+you attach something you hang it from it
+
+1548
+01:13:51,600 --> 01:13:50,440
+and then basically how you program the
+
+1549
+01:13:53,459 --> 01:13:51,610
+crane to move around
+
+1550
+01:13:56,399 --> 01:13:53,469
+you know simulates it being you know
+1551
+01:13:59,959 --> 01:13:56,409
+basically in zero gravity you can't use
+
+1552
+01:14:03,410 --> 01:13:59,969
+the propulsion system on it when you're
+
+1553
+01:14:08,490 --> 01:14:03,420
+it commands the crane to move it as if
+
+1554
+01:14:10,470 --> 01:14:08,500
+propulsion system work okay since since
+
+1555
+01:14:13,020 --> 01:14:10,480
+the comment mentioned parabolic flights
+
+1556
+01:14:15,089 --> 01:14:13,030
+and we did do some tests you know a few
+
+1557
+01:14:21,180 --> 01:14:15,099
+years ago with spheres the smart spheres
+
+1558
+01:14:27,209 --> 01:14:21,190
+you know and sort of this you know they
+
+1559
+01:14:30,330 --> 01:14:27,219
+briefly mimic seconds at most periods
+
+1560
+01:14:31,919 --> 01:14:30,340
+and so you know from a engineering you
+
+1561
+01:14:33,060 --> 01:14:31,929
+know point of view it's really hard or
+
+1562
+01:14:34,890 --> 01:14:33,070
+you say okay let's get ready to get
+
+1563
+01:14:44,609 --> 01:14:34,900
+ready and then that comes in like what
+
+1564
+01:14:46,770 --> 01:14:44,619
+we learn in fifteen seconds it's
+
+1565
+01:14:49,229 --> 01:14:46,780
+probably the highest fidelity way we can
+
+1566
+01:14:55,800 --> 01:14:49,239
+you know simulate you know here on earth
+
+1567
+01:14:58,020 --> 01:14:55,810
+rate on earth you know thank you guys so
+
+1568
+01:15:00,479 --> 01:14:58,030
+much for joining us today I think that's
+
+1569
+01:15:02,430 --> 01:15:00,489
+about all the time we have today huge
+
+1570
+01:15:05,310 --> 01:15:02,440
+thanks to everyone who joined us in the
