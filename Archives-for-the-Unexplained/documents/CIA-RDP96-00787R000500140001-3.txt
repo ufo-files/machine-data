@@ -1,0 +1,1691 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/CIA-RDP96-00787R000500140001-3.pdf", "source_sha256": "1ee259700d865f2b79513e1ea67d83f8b6a665ec514ae6d9dff1603173e494d1", "source_bytes": 1135733, "source_mtime": 1790745514, "source_mtime_ns": 1790745514038345620, "source_ctime_ns": 1790745514195869755, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T02:44:55.806667+00:00"}
+
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                     Final Report- -Objective E, Tasks 3 and 4                  December 1986
+                                                                                       J96o...
+
+
+
+
+                     INTUITIVE OAT A SORTING: AN INFORMATIONAL
+                     MODEL OF PSYCHOENERGETIC FUNCTIONING
+
+
+
+
+                     By:    EDWIN C. MAY
+
+
+
+
+                     Prepared for:
+
+                     PETER J. McNELIS, DSW
+                     CONTRACTING OFFICER'S TECHNICAL REPRESENTATIVE
+
+
+
+
+                      333 Ravenswood Avenue
+                      Menlo Park, California 94025 U.S.A.
+                      (415) 326-6200
+                      Cable: SRI INTL MPK
+                      TWX: 910-373--2046
+~::..;..:-:.r-"'PP".,.. oved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+~~~"'~®
+                   Final Report- -Objective E, Tasks 3 and 4                        December 1986
+                   Covering the Period 1 October 1985 to 30 September 1986
+
+
+
+
+                   INTUITIVE OAT A SORTING: AN INFORMATIONAL
+                   MODEL OF PSYCHOENERGETIC FUNCTIONING
+
+
+
+
+                   By:    EDWIN C. MAY
+
+
+
+
+                   Prepared for:
+
+                   PETER J. McNELIS, DSW
+                   CONTRACTING OFFICER'S TECHNICAL REPRESENTATIVE
+
+
+
+
+                    SRI Project 1291
+
+
+
+
+                    Approved by:
+
+                    ROBERT S. LEONARD, Executive Director
+                    Geoscience and Engineering Center
+
+
+
+
+                    333 Ravenswood Avenue • Menlo Park, California 94025 • U.S.A.
+                    (415) 326-6200 • Cable: SRI INTL MPK • TWX: 910-373-2046
+~~~!!~:~~' oved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+ ~~~®
+-----------------------------------------
+
+           Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                                  ABSTRACT
+
+
+                We develop a comprehensive model of psychoenergetic functioning called Intuitive Data
+           Sorting (IDS). Extending purely philosophical arguments, we derive specific mathematical
+           predictions for the interpretation of random number generator experiments. Two experiments
+           are analyzed: (1) a pseudorandom number generator (PRNG) experiment conducted at SRI
+           International, and (2) a random number generator experiment conducted at the Princeton
+           Engineering Anomalies Research laboratory at Princeton University. Preliminary results from
+           the PRNG experiment are in statistical agreement with the IDS model. We show, however,
+           that the Princeton University RNG data were collected under unfavorable conditions to serve
+           as a test of the IDS model; we recommend an RNG experiment protocol that will allow a
+           more favorable test.
+
+
+
+
+                                                       ii
+
+
+
+           Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+       Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                               TABLE OF CONTENTS
+
+ABSTRACT ................................................................ .
+
+LIST OF ILLUSTRATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iv
+
+LIST OF TABLES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    v
+
+      I         INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       1
+                A.      A Conceptual Thought Experiment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                  2
+                B.      A Practical Thought Experiment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .             3
+
+     II         BACKGROUND . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       6
+
+    III         METHOD OF APPROACH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                 8
+                A.      Theoretical Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         8
+                        1. RA Data Reduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .         8
+                        2. Mean Chance Expectation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .               9
+                             a.   Theoretical Considerations for Overall Mean Chance Expectation . .                                     9
+                             b. Theoretical Considerations for an RA Interaction . . . . . . . . . . . . . . . 11
+                             c.   Theoretical Considerations for the IDS Model . . . . . . . . . . . . . . . . . 14
+                             d. IDS vs. RA in Perspective .................................. 17
+                        3. Analysis and Hypothesis Testing ................................ 18
+                B.      The SRI Pseudorandom Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+                        1. Justification for a Pseudorandom Number Generator Experiment . . . . . 20
+                        2. PRNG Experiment Description ................................. 20
+                C.      The Princeton Engineering Anomalies Research Data . . . . . . . . . . . . . . . . . 21
+     IV         RESULTS AND DISCUSSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+                A.      The PRNG Experiment Results .................................... 24
+                B.      The PEAR Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+                         1. Data Reduction and Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+                         2. Discussion of the PEAR Results ................................ 27
+      V         CONCLUSIONS AND RECOMMENDATIONS ........................... 29
+REFERENCES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+
+
+                                                                  iii
+
+
+
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                 LIST OF ILLUSTRATIONS
+
+
+1.     Generalized Decision Process ............................... · · ... · · · · · · · · · ·   1
+2.     A Conceptual Thought Experiment .................................. · · · · · · ·           3
+3.     A Practical Thought Experiment ...................................... · · · · . ·          4
+
+4.     One RA Model Compared with MCE .................................. · · ·. · 14
+5.     One IDS Model Compared to MCE and One RA Hypothesis ............... · · .. · 16
+
+6.     MCE and PK- Data ............................ ·· .. ······················ 28
+
+
+
+
+                                                  iv
+
+
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                                     LIST OF TABLES
+
+
+1.    Exact and Approximate Values of ln(i~p\) ........ · · · · · · · · · · · · · · · · · · · · · · · · · · · 11
+
+2.    Raw Data for Operator 10--Princeton University Data . · . · · · · · · · · · · · · · · · · · · · · · · · 23
+                                                                                                                                                                                                                                             25
+3.    MCE for Each Data Set          O   O   O   O   I   O   O   O   O   I   I   O   0   0   0   1   0   0   0   1   I   0   0   0   0   I   0   0   0   0   0   I   0   0   0   0   0   0   0   0   0   O   O   0   0   O   0   O   O   0
+
+
+
+
+4.    Results of the Analysis of the PEAR RNG Data ........... · · . · · · · · · · · · · · · · · · · · 26
+
+
+
+
+                                                                                                 v
+
+
+
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                     I INTRODUCTION
+
+       Since 1979, SRI International has been constructing a model of psychoenergetic
+functioning that may provide an explanation for a broad range of experimental data.* The
+idea first occurred to us as part of an interpretation of an experiment we conducted that
+year. 1 t   In that experiment, it appeared that individuals were able to make decisions
+(psychoenergetically) based upon information propagating backward in time. This unorthodox
+concept, in its generalized form, is shown schematically in Figure 1 as one of the inputs to a
+decision process.
+
+
+
+
+                                            Decision??
+
+
+
+
+                       FIGURE 1      GENERALIZED DECISION PROCESS
+
+        For example, suppose that you had to decide if it were safe to cross a highway. Clearly,
+one input to that decision is real-time analysis: There is a continuous stream of traffic; don't
+cross the road. Suppose that there was only one car on the road, but it was at some distance
+away. Experience might suggest that you are unable to run fast enough to avoid being hit;
+don't cross. Without defining intuition, it might tell you not to cross the highway even though
+
+ * This report constitutes deliverable "a" --final report on RA perturbation of device-driven
+   random sequences--for Objective E, Task 4, Conduct a retrospective test and analysis
+   of the Intuitive Data Sorting (IDS) model, and the deliverable--final report on RA
+   activity upon pseudorandom number generators--Objective E, Task 3, Investigate RA
+   activity by examining statistical changes of state of pseudorandom number generators.
+ t References are listed at the end of this report.
+
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+all other indicators suggest that it is safe. We recognize that all these processes are
+intermixed, and that there may be others that we have not yet considered.
+
+     Our model proposes that there is one other source of input to the decision process that
+has not yet been considered--information propagating backward in time from the future.         You
+have an impression (maybe a visual experience) that indicates that you are dead on the
+highway; don't cross the road.
+
+     While there are specific examples of information propagating backward in time in physics
+(e.g., the Dirac equation--a positron traveling forward in time is mathematically identical to
+an electron traveling backward in time), the idea that it is possible at the macroscopic level is
+not generally accepted. It is beyond the scope of this report to discuss the profound
+implications for physics and philosophy if it were true.
+
+      Since the late 1930s, however, the parapsychological research journals have been
+reporting evidence that information from the future is available in the present--at least
+statistically. We are not able, at this time, to provide a complete analysis of this literature,
+which claims evidence for precognition--the parapsychological term for accessing information
+from the future. Rather, we provide a brief discussion of two of the pertinent reports.
+
+      In 19 8 3, C. T. Tart reviewed the precognition "forced choice" literature as part of an
+investigation to determine information rates for both real-time and precognition experiments2
+In this context, "forced choice" implies that the subject was aware of the limited number of
+possible targets, but was blind to the actual target chosen for any single trial. Tart found 32
+studies, of this type, that claimed statistically significant evidence for precognition.
+
+      In 1986, Nelson et at. reported the results of over 400 "free-response" precognition
+trials demonstrating strong statistical evidence for information flow from the future. 3 • 4
+"Free-response" experiments differ from "forced-choice" in that the target material is
+relatively unbounded (i.e., while the general nature of the target material might be known by
+the subject, the range of target possibilities is very large and is unknown to the subject).
+
+      Because these reports provide strongly suggestive evidence for macroscopic information
+flow from the future, we proceed with the development of the model.
+
+
+      A.    A Conceptual Thought Experiment
+
+            Consider an arbitrarily complex experiment as shown in Figure 2. Further,
+suppose that this experiment has one result and that there is a single decision required before
+the experiment is conducted.     (We recognize that complex experiments produce more than
+
+
+
+
+                                                   2
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+one result and require many decisions for their design; therefore, we are considering only the
+primary result and decision, and are including the lesser results and decisions as part of the
+complexity of the experiment.) There are no limitations placed upon the complex
+experiment. In principle, it might be conducted by many researchers at different laboratories
+for many years.
+
+           To be specific, let us assume that the single decision involves turning a knob to
+one of five settings, 1 through 5. Also consider that the single result is a meter reading in
+which we assume a high reading is "good." Our model proposes that the following internal
+dialogue by the decis.ion maker is possible:
+
+
+                             Information Flow (Backward in Time)
+
+
+
+
+                                           Very
+                                           Complex
+                                           Experiment
+
+
+
+                  FIGURE 2      A CONCEPTUAL THOUGHT EXPERIMENT
+
+
+           If I were to conduct this experiment with the knob set at 2, let me
+           "peek" into the future and examine the result. I perceive the meter
+           showing a low reading and thus I reject that option. Suppose I were to
+           conduct this experiment with the knob set at 4. I perceive the meter
+           showing a very high reading. Because I like that result, I will set the
+           knob at 4, and conduct the experiment!
+
+            For the above dialogue to be sensible, we must be able to "sample" the
+future--reject the unwanted ones, and "select" a preferred one. When the model is
+formulated mathematically and applied to a specific set of experiments, it will provide
+compelling evidence (see below) that this unorthodox idea is possible.
+
+
+      B.    A Practical Thought Experiment
+
+            By describing a practical thought experiment, we will illustrate an important
+consequence of the model. If we are allowed to "sample" the future, then what was
+previously thought of as a cause-and-effect relationship might be confused with an
+informational relationship involving no causality at all.
+
+
+
+
+                                                  3
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+           Suppose that we wanted to demonstrate that cyclamates cause cancer in laboratory
+rats. Further, assume that normal double blind protocols are in effect. A laboratory assistant
+is asked to administer injections to two separate groups of rats--one a control group, the
+other a target group. By double blind, we mean that the assistant does not know which is the
+control group, nor which injections will be cyclamates rather than biologically neutral
+cyclamate placebos.
+
+           Let us assume that the experiment produces a statistically significant (e.g., p <
+0.01) separation between the control and target groups (i.e., the probability of a target rat
+contracting cancer is significantly larger than for a control rat). This result is shown
+schematically in the lower half of Figure 3. The conclusion that is drawn from this
+experiment is that whatever was in the syringe caused cancer in the rats.
+
+
+
+                      Psychoenergetic
+                      Sorting of Rats
+
+
+
+
+                                              I\
+                       Control   Group~                           Drug Group
+
+
+
+
+                   FIGURE 3      A PRACTICAL THOUGHT EXPERIMENT
+
+
+           To illustrate an informational explanation of this same result, we describe a totally
+fraudulent way in which this experiment might be conducted. Suppose that the researcher is
+motivated to cheat, and in doing so is able to select from a normal population of rats those
+that are predisposed toward cancer.     (Because this is a thought experiment, we can invent a
+mechanism by which he/she could do this.)      We assume that this researcher is sophisticated in
+statistical matters and sorts the selected rats into target and control groups in such a way (by
+cross mixing them) to produce the identical results described above.     Furthermore, to
+preclude any possible confounding of the fraudulent outcome, the researcher replaces the
+contents of the syringes with distilled water. Then he/she lets the experiment proceed as
+above.
+
+
+
+
+                                                  4
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+           The statistically significant result (p < 0.01) would still be interpreted as before.
+Whatever was in the syringe caused cancer in the rats--in this case distilled water! Thus, a
+purely informational process (knowledge of the individual rats' predisposition toward cancer) is
+mistaken as a causal one (distilled water causes cancer in rats).
+
+           The researcher, in the above example, need not be fraudulent to produce the
+identical result. We propose that by statistically "peeking" into the future he/she is able select
+the predisposed rats. For example, having picked a rat, he could sample the future to
+determine if that rat is likely to contract cancer. If so, he would add it to the target group; if
+not, it would be included in the control group. Thus, this researcher has "simply"
+psychoenergetically sorted rats (see Figure 1). We call this putative ability Intuitive Data
+Sorting (IDS).
+
+           Because large bodies of research have concluded some form of cause-and-effect
+relationship based upon statistical hypothesis testing, it is important to determine if our model
+has any scientific basis. What follows is the application of our model to a large body of
+psychoenergetic experimental data.
+
+
+
+
+                                                   5
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                    II BACKGROUND
+
+
+
+      In 1969, Schmidt5 introduced a type of psychoenergetic experiment in which individuals
+were asked to "modify" the statistics of "true" random number generators (RNG), i.e.,
+devices that generate sequences of numbers based on some fundamental random process such
+as radioactive decay or thermal noise. Since publication of that important initial paper, we
+have been able to locate (through 1984) 56 pertinent references in English language journals
+and reports describing a total of 332 individual binary RNG experiments. We simulated an
+additional 95 nonsignificant experiments to account for a "filedrawer" problem (i.e.,
+experiments that were conducted and not published because they were not significant). 6 By
+including these simulated studies in the data base, we refrain from using an artificially inflated
+data base because of selected reporting of "successful" studies. In the preliminary analysis of
+these data, we calculated that the probability that the observed deviations occurred by normal
+statistical fluctuations alone wasp < 3.9 X 10- 18 during experimental conditions, and p <
+0.78 under control conditions. Clearly, there is a statistical anomaly within these data.
+
+
+
+      Since 1969, there has been considerable discussion about mechanisms that can explain
+these RNG results.s, 7, 8 (For the purpose of this report, we assume that artifact and incorrect
+statistics have been accounted for. Radin has shown that this assumption is true to first
+order; 6 a detailed meta-analysis is now in progress to determine the overall validity of the
+RNG data base.) The most frequently proposed explanations are remote action (RA) and
+precognition. Under an RA hypothesis, by definition, a participant "forces" a physical
+modification in a source of random signals so as to produce a change in the output statistics.
+Alternatively, under the IDS hypothesis, we propose that humans can make decisions (by
+psychoenergetic means) to take advantage of the natural and unperturbed fluctuations of a
+system. In the context of an RNG experiment, it appears that individuals can anticipate
+locally deviant subsequences from within larger and unperturbed sequences and make
+decisions based upon that knowledge. Suppose that an individual is asked to "make" the
+RNG produce more binary ones (1s) than zeros (Os). Rather than "causing" the device to
+produce binary ones, we suggest that the participant has simply initiated the run by
+anticipating when the RNG was going to produce a series of ones as part of its natural
+
+
+
+
+                                                  6
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+binomial fluctuation. Thus, the participant has capitalized upon natural events, rather than
+"causing" anything to occur.
+
+       In our final report to a client in FY 1984, we applied the IDS formalism to the data
+base of RNG experiments described above. 9 We found that the data were described by the
+IDS model rather than the RA hypothesis. There were problems, however, with the
+comparison of the IDS model to the previously published RNG data base. The IDS formalism
+is derived from the assumption that the sequence length, [n], results from a single press of a
+button. None of the experiments in the data base were reported in that way. All of the data
+were aggregates over many button presses. While we were able to draw conclusions based
+upon averaged data, (e.g., on the average, IDS appears to account for the results in the
+historical data base), the ideal test of IDS must be conducted using data resulting from single
+button presses.
+
+     There are two questions that should be addressed when conducting single button press
+experiments:
+
+      •    Is IDS possible under conditions that preclude any RA? If so, are there
+           any sequence length dependencies in the ability?
+
+      •    Can IDS provide an interpretation of RNG data?
+
+      We have addressed both issues as separate tasks for FY 1986. The first task was to
+examine the IDS model, at SRI under a condition that precludes RA--using pseudorandom
+number generators. To know if IDS is possible, in principle, we must conduct experiments
+that have as few confounding factors as possible. The second was to examine the IDS model
+using "true" RNGs. The only data of this type that was available was collected by the
+Princeton Engineering Anomalies Research (PEAR) Laboratory, in the school of Engineering
+at Princeton University. 10 We therefore let a subcontract to this laboratory to provide us with
+their single button press RNG data.
+
+
+
+
+                                                 7
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                              III METHOD OF APPROACH
+
+      Our method of approaching the data generated at SRI and Princeton proceeds in three
+phases:
+
+       •    Theoretical considerations--a derivation of mean chance expectation for
+            the various models under study.
+
+       •    The SRI data--details of the pseudorandom data collection and display.
+
+       •    The PEAR data--details of the Princeton "true" RNG data collection.
+
+
+A.    Theoretical Considerations
+
+      The data analysis proceeds in three steps, data reduction, definition of mean chance
+expectation, and analysis and hypothesis testing.
+
+       1.   RA Data Reduction
+            For each button press, the raw data consist of a sequence length [n) and the
+number of "hits" [h) (e.g., binary ls). We transform these data into logarithmic form for
+analysis by computing the following quantities for each data point:
+
+
+                                                 p = ..h.
+                                                       n '
+
+
+                                       ln It. pI = ln   I(~ - 5) I
+                                                             0.
+
+                                                  ln(n)
+
+and
+
+                                                  p- 0.5
+                                          z =
+                                                 _lfl
+                                                  2'J~
+
+
+
+            If the linear correlation coefficient for all pairs of data points, ln(n) and lnl t.pl, is
+significant, then a straight line may be fit to the data, and thus, the raw data are reduced to
+two coefficients--the slope and the intercept.
+
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+     2.    Mean Chance Expectation
+
+           In the absence of all forms of psychoenergetic functioning, we must determine,
+theoretically, the mean chance expectation (MCE) for the type of data described above.
+
+
+           a.    Theoretical Considerations for Overall Mean Chance Expectation
+
+                 We define the sequence length, [n], as the number of samples collected from
+an RNG as a result of a single button press. If we consider all possible values of sequence
+lengths, it is convenient to use the binomial statistic in its exact form for n < 200, and use the
+normal approximation for larger sequence lengths. We use the observed fractional hit rate, p
+(hits/trials), minus the expected fractional hit rate, p 0 (equal to 0.5 for binary RNGs), as the
+dependent variable, .6.p = p - p 0 , and [n] as the independent variable.
+
+                 For the "continuous" region where n > 200, .6.p is normally distributed about
+a mean of zero with a standard deviation of a0 given by
+
+
+
+
+where q 0 = (1 - p 0 ). For convenience, we shall examine the statistical properties of [n] and
+.6.p in logarithmic form--ln(n) and ln(.6.p), respectively, and, without loss of generality,
+consider only the absolute value of .6.p, I.6.PI· The expected value of lnl.6.pl is given by
+
+
+                                           00                           2
+                                                            -0 5 (~)
+                                      J
+                                   "'-'0
+                                            In I .6. p I e ·        %       d (.6. p)
+
+                  In l.6.pl   =                                                                 (1)
+                                                00              2
+
+
+                                       "'-'0
+                                                J e . (~)
+                                                     -0 5
+                                                       ao           d (.6.p)
+
+
+
+Following the usual definition of a z-score, let
+
+
+
+                                           izl =
+
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+Substituting into Equation (1), we find that
+
+
+
+                                    In Ill- p I   = In a 0 + In I z I
+And because
+
+
+
+
+                       ln lll-p I    = 0.5 In P0 q 0 + ln I z I -       0.5 ln n                 (2)
+
+
+                 Equation (2) is a simple way to express the null hypothesis of no
+psychoenergetic functioning for the RNG data. If many RNG runs of varying sequence lengths
+are conducted in the absence of all psychoenergetic phenomena, the natural logarithm of the
+sequence lengths and their associated logs of Ill-PI's are linearly related--having a slope of
+-0.5, and an intercept determined by p 0 , q 0 and the average value of lnlzl--a known
+constant.
+
+                 Given the "unboundedness" of lzl (i.e., 0 < lzl < oo), it may surprise some
+readers that there is a linear relationship between the expected value of lnlll-pl and ln(n). To
+demonstrate this linear relationship from a different perspective, we calculate the expected
+linear correlation coefficient, r, under the null hypothesis:9*
+
+
+
+
+                           r   =
+                                                                                                 (3)
+
+
+
+
+Sx and SM are the logarithms of the maximum and minimum sequence lengths, respectively.
+
+                 Equations (2) and (3) form the basic set of relationships that describe, in
+detail, the expected results under the null hypothesis.
+
+                  A significant note must be added at this point. Equation (2) represents the
+MCE under a normal approximation. As we will show, for any actual experimental case, the
+ *The authors wish to acknowledge and thank Dr. J. Utts for deriving this relationship.
+
+
+
+
+                                                        10
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+difference between normality and the exact binomial calculation becomes important in
+determining the expected slope of the MCE line. Table 1 shows a comparison between the
+normal approximation and the exact binomial calculation for the expected value of ln It.p I as
+a function of selected sequence lengths.
+
+                                                  Table 1
+
+                      EXACT AND APPROXIMATE VALUES OF lnlt.PI
+
+                          Sequence     Exact                Normal       Percent
+                          Length       Binomial             Approx.      Error
+
+                             200       -3.7880             -3.9774       4.76
+                            2000       -5.0504             -5.1288       1.53
+                           10000       -5.8922             -5.9335       0.70
+                          100000       -7.0689             -7.0848       0.24
+
+
+
+
+                  For any given experiment, the MCE line should be computed in the following
+way:
+
+            •     Compute the exact value for lnlt.pl for each sequence used in the
+                  experiment.
+            •     Fit the above result with a weighted straight line. The weighting
+                  factor for each sequence length is the number of trials, for that
+                  sequence length, that were conducted in the experiment under
+                  study.
+            •     Use the slope and intercept from the above for the MCE values.
+
+
+            b.    Theoretical Considerations for an RA Interaction
+
+                  Because in the most general case of RA a subject could "perturb" the RNG
+device in any way, the Gaussian in Equation (1) must be replaced by an arbitrary function,
+f(t.p,n).   Or,
+
+                                       00
+
+
+                                           J1n I t.p I f(t.p,n) d(t.p)
+                                   .......,0
+                  In lt.pl   =               00
+
+                                            Jrc t.p,n) d(t.p)
+                                      .... o
+
+
+
+                                                      11
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+To evaluate this general relationship, we must assume some specific form for f(~p.n). From
+this point on in the development of the model, we will assume that RA induces a minor
+perturbation in the physical system. Thus, we assume that f(~p.n) remains Gaussian, but RA
+shifts its mean--slightly.
+
+                  We consider a class of RA models in which RA perturbs (to a small degree)
+a binomial distribution by shifting its mean. The theoretical task is to evaluate the expected
+value for the lnl ~PI using Equation (1). Define
+
+
+                                   ~p    = p    - P,
+
+                                   ~P.   = Pa - Po
+
+                                   ~Pa   = P    - Pa        = ~p- ~P.
+
+
+As before, Po is the mean of an unperturbed distribution, and now pais the mean of a shifted
+distribution.   ~pa is the difference between the observed fractional hitting rate, p,      and the
+shifted mean, pa, and ~P• is the shift in the means of the two distributions. We have derived
+the expected value of lnl ~PI elsewhere,9 but we present a simplified version of it here.
+
+                   For this calculation, we assume that the RNG is binary
+(i.e., Po= 0.5). Under these conditions, the expected value of lni~PI is given by
+
+
+
+
+                    ln I ~pI = 0.5 ln(0.25) + ln [zf( ~P.) + Z 8 ]      -   0.5 ln(n)   ,             (4)
+
+
+where
+
+                                                 ~p
+                                               = __ s
+                                         zs
+
+and
+
+
+
+
+                   This latter term arises because the variance of a binomial distribution depends
+upon the mean of that distribution. If the shift of the distribution is small (i.e., ~P• ~ 0),
+then f(fl.ps) ~ 1. For any RA model under consideration, we must define how the mean of
+
+
+
+
+                                                       12
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+the shifted distribution behaves as a function of the sequence length, [n], and knowing that
+[z] is distributed normally, the evaluation of Equation ( 4) reduces to the evaluation of the
+expectation of ln(zf(b.ps) + zs). Or,
+
+                                                                                          2
+                                                                                 -0.5 z
+          ln [ z f (b. P • ) + z s ]   =     ;-:;      t n [ z f ( b. P. ) + z,] e            d z        (5)
+                                           ~ --;;- '""' 0
+
+                  Let us now consider a general class of binary RNG models where the mean
+of a binomial distribution is shifted by an amount:
+
+
+
+                                            P3     = 0.5 (1 + a)
+and
+                                           b. P.   = pa - 0.5 = 0.5 a ,
+
+
+where [a] is an RA strength parameter. That is to say, the properties of the RNG device are
+modified by RA such that the mean probability of producing a hit has been shifted from 0.5
+to pa. There are many other models that we might consider, but this particular one has been
+proposed by the PEAR group. They report that if n = 200, [a] is approximately 0.001.10,11
+
+                  In other words, this model implies that individuals cause the mean probability
+of producing a hit to be constant, regardless of the sequence length.                (The logarithm term in
+Equation 4 does retain an n-dependency through the zs term even though b.pa does not.) RA
+perturbs the device on a bit-by-bit basis that is independent of the number of bits in the
+sequence. Figure 4 shows the result of evaluating Equation (4) for various values of [a]
+compared to the MCE line.
+
+
+
+
+                                                            13
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                                                                  a
+                                                                                0.01
+
+
+
+
+                    -3
+   I.6.PI   3 xlO
+
+
+                                                                                0.001
+
+
+
+
+                           pa = 0.5 (1 + a)                                     0.0001
+                                                                                MCE
+
+
+                                    2                         3                          5
+                         2.5 X 10                  2.0 X 10                  8.0 X 10
+                                              Sequence Length (n)
+
+                          FIGURE 4      ONE RA MODEL COMPARED WITH MCE
+
+
+
+            c.      Theoretical Considerations for the IDS Model
+
+                    Equation (2) represents the MCE condition in which no psychoenergetic
+interaction is present. Because one premise of the IDS model is that no causal interactions
+occur, there is only one term in Equation (2) that can possibly account for a non-causal, but
+psychoenergetic effect. The 0.5 ln(p 0 q 0 ) and the -0.5 ln(n) terms are consequences of the
+standard deviation for the unperturbed distribution of .6.p; therefore, the only remaining term,
+the expected value for In! zl, must contain the IDS considerations.
+
+
+
+
+                                                   14
+
+
+
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+                 In general terms, the expected value for lnlzl is given by
+
+                                                00
+
+                                               J     ln(z) g(z,n) dz
+                                           .... 0
+                                                                                                    (6)
+                          In I z I   =
+                                                      00
+
+                                                     J    g(z,n) dz
+                                                .... o
+
+The function g(z,n) is the distribution that reflects a subject's ability to select subsequences,
+leading to z-scores. For example, if a subject were always able to select subsequences
+(regardless of sequence length) leading to z = 2.15, then g(z,n) contains no n-dependence
+and is a Dirac delta function at z = 2.15. If g(z,n) is simply a Gaussian with a mean of zero
+and a standard deviation of one, then Equation (6) reduces back to the null hypothesis. To
+determine predictions under the IDS model, Equation (6) must be evaluated for different
+assumptions for the function g(z,n).
+
+                  Consider the case in which g(z,n) is not a function of the sequence length.
+Then, g(z,n) = 'Y(z). Equation (6) becomes a sequence length independent constant, which
+can only affect the intercept of a straight line, regardless of any details of )' (z). Figure 5
+shows the RA hypothesis from Figure 4 and an example of the IDS case described above.
+
+                  Suppose, however, g(z,n) does contain some n-dependencies. Even under
+the IDS hypothesis, we might expect this to be the case. Recalling that IDS is a
+psychoenergetic decision algorithm, we can imagine that better "decisions" result when a lot of
+"information" is available, or the reverse: "decisions" are inaccurate if there is not enough
+"information." It is possible that inaccurate "decisions" are made in the presence of too
+much "information" as well.
+
+                  Elementary information theory tells us that the amount of information in a
+sequence of length [n] is proportional to [n] if the bits in the sequence are independent.
+Therefore, we can equate "information" in the above paragraph with the sequence length.
+
+
+
+
+                                                         15
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                                                                                  a
+
+
+
+
+                  -3
+   \~PI   3 x10
+
+                         RA:
+                                                                                                 0.001
+                         Pa = 0.5 (1 + a )
+                               t::::::::::::::::::::::::::::::::l
+
+                         IDS (n Independent)
+                                                                                                 0.0001
+                                                                                                 MCE
+                  -4
+          3 X 10
+                                  2                                                       3               5
+                       2.5 X 10                                                2.0 X 10       8.0 X 10
+                                                                        Sequence Length (n)
+
+   FIGURE 5        ONE IDS MODEL COMPARED TO MCE AND ONE RA HYPOTHESIS
+
+
+                   We now examine the case in which g(z,n) retains a sequence length
+dependency. To define g(z,n), we transform the coordinates similar to what was done in the
+RA derivation. Let
+
+
+                                            ~z                      = z - zo
+
+                                           ~Za                      = Z - Za = ~Z - ~Zs
+
+
+
+
+                                                                               16
+
+
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+where za is the mean of a "shifted" Gaussian z-score distribution having a standard deviation
+of a.   Z 0 is the mean of the "unshifted" z-score distribution (i.e., zo = 0.0). Using this
+transformation, g(z,n) becomes
+
+
+                                                                             2
+                                                        -0. 5 ( ~ Za(n))
+                                      g(z,n)   = e                 a(n)
+
+
+
+Let zeta be given by
+
+
+                                               ~=A.&.
+                                                  ()"
+
+
+
+
+Then Equation ( 6) becomes
+
+
+                                                                                              2
+                                                                                        -0.5 6
+                           In I z I                                                 6.) e         d6   (7)
+
+
+
+where
+                                                    J
+                                               6.       = ~ Zs            ( O"o =   1) .
+                                                             O"o
+
+
+
+
+                  We notice that Equation (7) is of the same form as Equation (5)--including
+their relative n-dependencies. Thus, depending upon the parameters involved in both
+equations, we would be generally unable to differentiate between RA and n-dependent IDS.
+
+
+             d.    IDS vs. RA in Perspective
+
+                  The IDS model appears to have the sensitivity to differentiate between some
+causal processes and some informational ones. In particular, the most obvious causal model
+ (i.e., the "interaction" is, on the average, the same for each bit in the sequence) contains
+vastly different predictions than the most obvious IDS model (i.e., sequence length
+independent of the z-scores).
+
+
+                   There is another class of RA models that have attracted attention:
+
+
+
+
+                                                            17
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+This particular form of [pa] leads directly to an n-independent zs = a.     F(~ps)   in Equation
+(5) becomes
+                                                     a2 ]112
+                                 f(~p)     =   [ 1 -n-       ~      1
+                                     s
+
+
+This function is approximately equal to one for most actual cases (i.e., a= 0.1, n > 200).
+We note here, that it may be possible to separate even this RA model from IDS at small
+sequence lengths. Thus, Equation (5) reduces to a sequence length independent constant and
+is equivalent to the IDS case of g(z,n) = "Y(z) in Equation (6). Therefore, RA (of this form)
+and IDS are indistinguishable. All other forms of n-dependent RA contain a strong
+n-dependence in the zs term.
+
+                  To separate RA from IDS in this case, requires a different approach
+altogether. Suppose that RNG experiments continue to produce significant results that appear
+to be independent of all known physical parameters (e.g., source type--13 decay, noise,
+distance, shielding, etc.). Further, suppose that PRNG experiments continue to produce
+significant results. We would then argue that IDS is the preferred choice for a mechanism
+because:
+
+                  •     Precognition can be shown to be true by separate and fundamentally
+                        different experiments.
+                  •     IDS can be shown to be possible (PRNG results).
+                  •     Results of one of our RNG experiments1 suggest that human-mediated
+                        RA must be able to switch on and off within 1 ms.
+                  •     There is no known force in nature that can interact equally with the
+                        weak nuclear and electromagnetic forces.
+
+To us, it would seem more parsimonious to assume that humans are more able to anticipate
+the unperturbed natural fluctuations of an RNG, rather than generate "forces" that must
+conform to such a set of attributes.
+
+
+      3.    Analysis and Hypothesis Testing
+
+            The first step, after data reduction, is to determine if we are justified in continuing
+ with a linear analysis. To accomplish this, we calculate the linear correlation coefficient for
+ all data points [ln(n), lnj~pj], and determine if there is a significant correlation (i.e., [r]
+ significantly different than 0.0) and, as a side interest, determine if the correlation is
+ significantly different than expected [i.e., Equation (3)].
+
+            If the correlation is significantly different than 0.0, we fit the data with a straight
+ line, where the intercept is determined at the average value of ln(n) for the data set. By
+
+
+
+
+                                                   18
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+transforming the data about the average value of ln(n) slope and intercept hypotheses testing
+may be done separately. To determine if the observed line is significantly different from the
+MCE line, we use an ANOVA technique.12 The F-ratios (from the ANOVA) for the two
+tests are given below.
+
+
+Let nk = ln(sk ), where f\ is the sequence length for the kth data point. Let nbe the average
+value for the nk over [m] data points, or
+
+
+
+
+The F-ratios are given by
+
+
+                          m (b- b')
+                                      2
+                                          x
+                                               (
+                                                      L
+                                                      m  2
+                                                        ~ - -2)
+                                                            n
+                                                      k=l m
+       F(slope)    = --------------                                       , dfl = 1; df2 = (m - 2)
+
+
+and
+                                                  2
+                              m ( a - a')
+       F(intercept)      =                             , df1 = 1; df2 = (n - 2)
+                                   b.
+
+
+where [a] and [b] are the intercept and slope for [m] data points, (ln(n), lnl b. pi).
+[a'] and [b'] are the intercept (at nk = i1) and slope for the MCE line. b. is given by
+
+               m                              m                    m        m            m
+                      2        2          2
+               L Mk + ma           + b        Ln; + 2 a b Lnk- 2 a LMk - 2 b LnkMk
+               k=l                            k=l                  k=l      k=l          k=l
+      b.   =
+                                                          m- 2
+
+Mk is the observed value of ln\b.pl for the kth data point.
+
+
+            If the F-ratio for the slope is not significant, then we can conclude that the
+z-scores do not have a sequence length dependency. Furthermore, if the F-ratio for the
+intercept is significant, then there is evidence in support of the IDS model. Deviations from
+this scenario will be discussed below.
+
+
+
+
+                                                              19
+
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+B.    The SRI Pseudorandom Data
+
+       In 1985, Radin and May described a protocol that could be used as the pseudorandom
+portion of a comprehensive test of the IDS model, and presented pilot data that appeared to
+support the IDS model.13 We have modified and extended that original proposal to form the
+basis of our pseudorandom investigation.
+
+
+       1.   Justification for a Pseudorandom Number Generator Experiment
+
+            We have proposed an elaborate model (IDS) that predicts significantly different
+results from those expected from an RA interaction. As part of a systematic investigation of
+the validity of the model, we must determine if an IDS "interaction" can be demonstrated, in
+principle, under conditions that preclude RA.
+
+            Because there has been no evidence to date to support the idea that computer
+hardware is susceptible to a putative RA interaction, we assume that a purely pseudorandom
+number generator (PRNG), which is seeded by a computer clock, constitutes an environment
+that precludes RA.
+
+
+       2.   PRNG Experiment Description
+
+            The primary concept for this experiment is to study ILl.pl as a function of sequence
+length. To accomplish this, we design a PRNG experiment in which a single trial contains the
+following steps:
+
+            •      Select a sequence length, [n], from a limited menu of lengths.
+            •      Collect [n] bits from a PRNG that has been seeded from a
+                   computer system clock at the moment when the participant presses
+                   a button.
+            •      Calculate ILl.pl and a z-score, and display the z-score to the
+                   participant.
+            •      Store raw data for later analysis.
+
+             Since the data will be analyzed in logarithmic form, we chose the following 10
+sequence lengths because they are relatively evenly spaced when they are expressed as
+logarithms, and they did not allow Ll.p = 0.0 (i.e., the lniLl.pl will remain finite): 101, 201,
+501, 1001, 3501, 7001, 10001, 35001, 70001, and 100001. While we may have wanted to
+explore larger sequence lengths than 100001, we were limited by the speed of the Sun
+Microsystems Model 3/160-C computer, and by human factor considerations. The delay
+between a button press and the display of the result was approximately 1.5 seconds. This
+
+
+
+
+                                                   20
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+delay was constant in spite of the actual sequence length chosen, in order for a given trial to
+maintain a double blind condition with respect to sequence length.
+
+            At the first trial of a series, the above sequences were placed in a random order
+and stored as part of a data file. The sequence length, for a given trial, was taken in order
+from this randomized list. Thus, the sequence length ordering was repeated every 10 trials.
+
+           The PRNG that was used (a Kendel shift register feedback algorithm) has been
+studied extensively theoretically by Lewis14 and experimentally by May. 1 This algorithm meets
+the accepted tests for "randomness" 15 and was checked further in this particular experiment
+using control trials. The low order 15 bits from the system clock were used as seeds for the
+PRNG.
+
+            For each trial, the seed, sequence length, number of ones in the sequence,
+z-score, time (to the nearest second), and date of the trial were stored as part of a data file
+for later analysis.
+
+
+
+C.    The Princeton Engineering Anomalies Research Data*
+
+      In order not to "pre-select" data to support (or not) a given hypothesis, we obtained all
+of the data to date (September 1986) from one of PEAR's best RNG participants. A subset
+of these data has been reported previously, but we have a complete set as of this writing.1°
+
+       A single trial was defined as a continuous collection of binary bits from a "true" RNG
+(i.e., the sequence was derived from the noise associated with a back-biased PN junction).
+For the data under study there were two trial lengths, 200 bits and 2000 bits. To avoid
+problems of a possible single dimensional "bias" in the hardware, a target bit was toggled at a
+rate such that each new bit from the generator was compared to the one's (ls) complement
+of the previous target bit. Data were collected in two fundamental modes, manual and
+automatic. In the manual mode, a single button press resulted in a single trial. During the
+automatic mode, a single button press resulted in 50 consecutive trials. In the IDS formalism,
+is the total number of bits (sequence length) resulting in a single button press is the
+independent variable. Thus, there are only 4 allowed values for this independent variable:
+200, 2000, 10000, and 100000.
+
+
+
+ * We wish to express our appreciation to R. Jahn, R. Nelson and B. Dunne for providing
+  access. to their data and for their assistance in transferring it to our computer system.
+
+
+
+
+                                                  21
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+     For all sequence lengths, data were collected as a function of "aim"
+
+      •     PK+ -- The participant attempts to force matches between the target bit
+            and "response" bit from the generator.
+
+      •     PK- -- The participant attempts to force mismatches between target bit
+            and "response" bit from the generator.
+
+       •    BL -- The participant makes no attempt to modify the bits from the
+            generator. These data are referred to by PEAR as the baseline data.
+
+The order of "aim" was determined in two modes: the volitional modes, in which the
+participant chooses the order of the triad, and the random mode, in which an RNG
+determines the order of the triad. Table 2 shows the data files that were used for the IDS
+analysis.   A few of the button presses produced results in which the number of matches
+between target and response bits was exactly equal to one-half of the sequence length. Those
+special cases are ignored in our analysis to avoid computing logarithms of zero. The analysis
+will focus upon the specific aim regardless of volitional/random control of the aim.
+
+
+
+
+                                                 22
+
+
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+ Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+                                 Table 2
+      RAW DATA FOR OPERATOR 10--PRINCETON UNIVERSITY DATA
+
+                                Sequence   Button    Number
+               Data Set         Length     Presses    z=O
+
+                                    200     5918      332
+              All PK ±             2000    15014      286
+              (A_PK)              10000     2065       13
+                                1000000      597        3
+                                    200     3088      162
+              All PK +             2000     7219      131
+              (PK+)               10000     1028        9
+                                1000000      299        1
+                                    200     2830       170
+              All PK-              2000     7795       155
+              (PK-)               10000     1037         4
+                                1000000      298         2
+                                    200     1471       79
+              Volitional PK +      2000     4913       87
+              (V_PK+)             10000      330        4
+                                1000000      105        0
+                                    200       985       65
+              Volitional PK -      2000      5203       97
+              (V_PK-)             10000       328        1
+                                1000000       100        0
+                                    200      1617       83
+              Random PK+           2000      2306       44
+              (R_PK+)             10000       698        5
+                                1000000       194        1
+                                    200      1845      105
+              Random PK-           2000      2592       58
+              (R_PK-)             10000       709        3
+                                1000000       198        2
+                                    200         0        0
+              All Baseline         2000      2451       49
+              (BL)                10000      1170       12
+                                1000000       350        0
+
+
+
+
+                                      23
+
+
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                             IV RESULTS AND DISCUSSION
+
+      The results of the SRI pseudorandom number generator experiment and the PEAR
+experiment will be discussed separately here and then compared in Chapter V, Conclusions
+and Recommendations.
+
+
+A.     The PRNG Experiment Results
+
+       In 1985, Radin and May reported pilot results for two participants (I.D. 105 and I.D.
+531) who were selected on the basis of past successful performances in similar tasks.1       For
+example, Participant 531 was the most significant contributor in our 1979 RNG experiment.
+In the 1985 pilot experiment, Participants 531 and 105 contributed 500 and 298 trials,
+respectively. The analysis showed that neither of the participants produced sequence length
+dependencies different from MCE (i.e., a slope of -0.5). However, the analysis revealed that
+both individuals showed independently significant evidence for IDS (i.e., the intercepts were
+significantly above MCE at the p < 0.005 level for each participant). Thus, our tentative
+conclusion from these data is that IDS appears possible, at least with these two participants.
+
+       During the FY 1986 program, we conducted the experiment in two phases: a screening
+and an experiment phase. For the pilot phases, we asked 20 individuals to contribute 100
+trials each under the protocol described above. All but 4 of them completed this task. For
+availability reasons, the 4 participants contributed varying numbers of trials (less than 100).
+We had decided to select 7 individuals from within the pilot group to participate in a formal
+PRNG IDS experiment. The criterion for being included in the formal group was that the
+participant had to produce a significant increase above MCE of the variance of the z-score
+distribution over 100 trials (the MCE variance = 1.0).
+
+       Of the 16 participants who finished the 100 trial series, only one, 531, met the above
+requirement (variance= 1.37, p < 0.008). The second best performer, however, produced a
+variance = 1. 21 (p < 0. 07). Judging from the 19 8 4 study, we would not expect to see a
+significant intercept with only 100 trials, and none were observed.
+
+       While it is particularly interesting that Participant 5 31 maintains his/her consistent
+performance, we felt that we should continue the pilot screening until we are able to select 7
+
+
+
+
+                                                   24
+
+
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+significant participants. Thus, at this point, we do not have any results to report for the
+formal experiment.
+
+
+
+B.      The PEAR Results
+
+
+        1.     Data Reduction and Analysis
+
+               Using the exact binomial procedure described in Chapter III, we have computed
+the MCE lines for the various data sets (see Table 3). These MCE lines were used as the
+basis for the IDS analysis that follows.
+
+
+                                              Table 3
+                                      MCE FOR EACH DATA SET
+
+                                                            Data Set
+       Variable
+                         A_PK       PK+       PK-       BL       V_PK+     V_PK-     R_PK+     R_PK-
+     Intercept (X=O)     -0.9514   -0.9502   -0.9525   -1.0923   -0.9379   -0.9498   -0.9575   -0.9545
+     Intercept (X-bar)   -4.8845   -4.8688   -4.8999   -5.4789   -4.8738   -4.9533   -4.8616   -4.8331
+     Slope               -0.5380   -0.5381   -0.5378   -0.5208   -0.5402   -0.5387   -0.5365   -0.5370
+     X-bar                7.263     7.233     7.293     8.420     7.242     7.397     7.219     7.164
+
+
+
+
+               We have analyzed the PEAR data from a "top down" perspective (i.e., beginning
+with the most combined data and ending with the most condition specific data). The first
+requirement from Chapter III is that we must determine if a linear analysis is appropriate for
+these data. For all data sets, the linear coefficient was strongly significant (i.e., r ~ -0.6 for
+all data sets) when compared to r = 0. Therefore, we are justified in continuing with the IDS
+analysis. Table 4 shows the results of this analysis (the data set abbreviations are taken from
+Table 2).
+
+
+
+
+                                                       25
+
+
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+                                               Table 4
+
+                  RESULTS OF THE ANALYSIS OF THE PEAR RNG DATA
+                                                          Data Set
+    Variable
+                    A_PK       PKt        PK-         BL       V PKt     V_PK-     R_PKt      R_PK-
+
+  Trials             23594    11634      11960        3971      6819      6616      4815      5344
+  Mean-Z            -0.0067    0.0180   -0.0308      -0.0097    0.0185   -0.010     0.018    -0.056
+  Z-Variance         1.018     1.016     1.019        1.035     1.002     1.025     1.036     1.012
+  p-of-Variance      0.024     0.110     0.070        0.062     0.454     0.083     0.038     0.274
+  Stouffer's Z      -1.031     1. 946   -3.367    -0.613        1.516    -0.821     1.219    -4.124
+  p-of-Z             0.849     0.026     3.80(-4) 0.730         0.065     0.794     0.038     1.86(-5)
+  MCE
+  X-bar              7.263     7.233     7.293        8.420     7.242     7.397     7.219     7.164
+  Intercept         -4.8606   -4.8420   -4.8754      -5.4778   -4.8502   -4.9349   -4.8305   -4.8017
+  Slope             -0.5380   -0.5381   -0.5379      -0.5208   -0.5402   -0.5387   -0.5365   -0.5370
+   DATA
+   Intercept        -4.8606   -4.8469   -4.8737      -5.4580   -4.8574   -4.9338   -4.8319   -4.7989
+   Slope            -0.5317   -0.5471   -0.5157      -0.5276   -0.5449   -0.5167   -0.5486   -0.5144
+   F-Intercept       0.06      0.32      0.03         0.21      0.42      0.01     0.01       0.024
+   p-value           0.784     0.570     0.859        0.649     0.626     0.920    0.913      0.878
+   F-Siope           2.01      2.09     12.20         0.26      0.24      4.16      2.20      8.34
+   p-value           0.155     0.148     4.79(-4)     0.609     0.626     0.041     0.137     0.004
+   df-2              23592     11632     11958        3969       6817      6614     4813       5342
+
+
+
+The meaning of MCE and data variables and their associated F-ratios have been discussed in
+Chapter III. The z-score variables are included here in order to make comparisons with the
+results published previously for part of these data. 10 The mean z-score is the average value of
+the z-scores for all the trials shown in each column; the MCE is zero. The variance for the
+z-score is calculated for the same data; the MCE is one. Note that both of these quantities
+were not calculated as absolute values. The Stouffer's z-score is the proper way of combining
+all the z-scores to test against the MCE hypothesis: no psychoenergetic functioning. The
+Stouffer's z-score is given by16
+
+
+
+
+                                          Zg     =
+
+
+
+where [n] is the number of trials.
+
+
+
+
+                                                     26
+
+
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+      2.    Discussion of the PEAR Results
+
+            We note that our analysis is consistent with PEAR's in that the difference between
+the PK+ data (the participant was tasked to force more matches than MCE regardless of the
+origin of the "aim" request--volitional or random) and PK- data as measured by the
+Stouffer's z-score (zctiff = 3.75, p < 8.6 x 10-5 ) is highly significant. While the magnitude of
+the effect is small, it is, nonetheless, persistent and statistically robust.
+
+
+            We are able to discuss the IDS analysis for all of the PEAR data by examining the
+most deviant (from MCE) data set. Figure 6 shows the best fit line for the PK- data
+compared to its MCE. We plot this particular data set because it produced the most
+significant deviation (p < 4.79 x 10-4 ) from the MCE slope.
+
+
+            While the slope of the data line is significantly more positive than the MCE slope,
+the intercept is not significantly different. In effect, the data line has rotated about its
+intercept point (i.e., sequence length= 1470). Yet, the Stouffer's z-score indicates strong
+evidence for some form of psychoenergetic functioning (p < 3.8 x 10-4) for this data set.
+The resolution of this apparent inconsistency involves understanding a fundamental, and
+unfortunate, problem with these PEAR data in general.
+
+
+            Their data were not collected to provide a specific test of our IDS model. Thus,
+the sequence lengths that were chosen and, more importantly, the number of trials collected
+at each sequence length, were not optimized for our test. In the extreme, if all the data were
+collected at a single sequence length, our IDS analysis is completely inappropriate (i.e., the
+IDS formalism requires testing as a function of sequence length). To first order, these PEAR
+data suffer from the same problem. Sixty-five percent of the total data shown in Figure 6
+were collected at a single sequence length (i.e., 2000). When we examine these data at each
+sequence length, we find that the Stouffer's z-scores are -2.98, -0.80, -2.87, and -2.69 for
+sequence lengths of 200, 2000, 10000, and 100000, respectively. Thus, most of the data for
+this set are not significant, even though when they are combined across sequence lengths, they
+are highly significant.
+
+
+            The situation described above is similar for all data sets; none of the data sets
+produced significant intercepts.     Because the data were not collected uniformly as a function
+of sequence length, it is difficult to interpret the results of analysis. We feel that it is
+premature to speculate upon forms of either RA or IDS models that can fit these data.
+
+
+
+
+                                                     27
+
+
+    Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+               -3
+I~PI   3 x10
+
+
+
+
+                     PK-
+                                        -4
+                     p(slope) < 4.8 x 10
+                                                                 MCE
+
+                               2                        3                 5
+                    2.5 X 10                 2.0 X 10          8.0 X 10
+                                         Sequence Length (n)
+
+                                   FIGURE 6 MCE AND PK- DATA
+
+
+
+
+                                             28
+
+
+Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                  V CONCLUSIONS AND RECOMMENDATIONS
+
+     In this report, we have developed a detailed model (IDS) for psychoenergetic
+functioning.   In particular, we have provided a mathematical formalism by which random
+number generator experiments may be used to test the concept.
+
+      Preliminary results using pseudorandom number generators (PRNG), indicate that an IDS
+ability appears possible. Many more data are required using PRNGs to confirm these
+preliminary results. It is anticipated that by 3rd quarter, FY 1987, we will be able to
+complete the PRNG experiment.
+
+      The PEAR data represent the largest amount of RNG data currently available. The
+PEAR group have reported strong statistical evidence of psychoenergetic functioning within this
+massive data base (i.e., 1.12 x 108 binary bits). It is unfortunate that the data were collected
+in such a way that an IDS analysis is inconclusive.
+
+      We strongly recommend that RNG data be collected with an equal number of trials as a
+function of sequence length. The protocol should be similar to the one in use in our PRNG
+experiment, in which a double-blind condition is maintained with respect to sequence length.
+
+      We conclude with some speculation. Suppose, after many experiments of different
+varieties, we could demonstrate that the philosophical concepts behind IDS were true. We
+would call into question any experimental results from any discipline that claim
+cause-and-effect relations based upon statistical inference.
+
+
+
+
+                                                 29
+
+
+   Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+
+
+
+                                      REFERENCES
+
+1.    May, E. C., Humphrey, B. S., and Hubbard, G. S., "Electronic System Perturbation
+      Techniques," Final Report, SRI International, Menlo Park, California (September 1980).
+2.    Tart, C. T., "Information Acquisition Rates in Forced-Choice ESP Experiments:
+      Precognition Does Not Work as Well as Present-Time ESP," JASPR, Vol. 77, No. 4,
+      pp. 293-310 (October 1983).
+3.     Nelson, R. D., Jahn, R. G., and Dunne, B. J., "Operator-Related Anomalies in Physical
+       Systems and Information Processes," JASPR, Vol. 53, No. 803, pp. 261-285 (April
+       1986).
+4.     Dunne, B. J., Jahn, R. G, and Nelson, R. D, "Precognitive Remote Perception,"
+       Technical Note PEAR 83003, Princeton Engineering Anomalies Research Laboratory,
+       Princeton University School of Engineering/Applied Science, Princeton, New Jersey
+       (1983).
+5.     Schmidt, H., "Precognition of a Quantum Process," Journal of Parapsychology, Vol. 33,
+       pp. 99-108 (1969).
+6.     Radin, D. 1., May, E. C., and Thomson, M. J., "Psi Experiments with Random Number
+       Generators: Meta-Analysis Part 1," Proceedings of the Presented Papers of the 28th
+       Annual Parapsychological Association Convention, pp. 199-234, Tufts University,
+       Medford, Massachusetts (August 19 8 5).
+7.     Schmidt, H., "A PK Test with Electronic Equipment," Journal of Parapsychology, Vol.
+       34, pp. 175-181 (1970).
+8.     Tart, C. T., "Laboratory PK: Frequency of Manifestation and Resemblance to
+       Precognition," Research in Parapsychology 1982, W. G. Roll, J. Beloff, and R. A.
+       White (Eds.) Scarecrow Press, Metuchen, New Jersey, pp. 101-102 (1982).
+9.     May, E. C., Radin, D. 1., Hubbard, G. S., and Humphrey, B. S., "Psi Experiments with
+       Random Number Generators: An Informational Model," Final Report, SRI Project
+       8067, SRI International, Menlo Park, California (October 1985).
+10.    Nelson, R. D., Dunne, B. J., and Jahn, R. G., "An REG Experiment with Large Data
+       Base Capability, III: Operator Related Anomalies," Technical Note PEAR 84003,
+       Princeton Engineering Anomalies Research Laboratory, Princeton University School of
+       Engineering/Applied Science, Princeton, New Jersey (1984).
+11.    Jahn, R. G., "The Persistent Paradox of Psychic Phenomena: An Engineering
+       Perspective," Proceedings of the IEEE, Vol. 70, No. 2, pp. 136-170 (1982).
+12.    Cooper, B. E., Statistics for Experimentalists, pp. 219-221, Pergamon Press Inc.,
+       Maxwell House, Fairview Park, Elmsford, New York (1969).
+13.    Radin, D. I. and May, E. C., "Testing the Intuitive Data Sorting Model with
+       Pseudorandom Number Generators: A proposed Method," Proceedings of the
+       Presented Papers of the 29th Annual Parapsychological Association Convention, pp.
+       539-554, Sonoma State University, Rohnert Park, California (August, 1986).
+
+
+
+
+                                                30
+
+
+     Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
+
+14.   Lewis, T. G. and Payne, W. H., "Generalized Feedback Shift Register Pseudorandom
+      Number Algorithm," JAC, Vol. 20, No. 3 (July 1973).
+15.   Lewis, T. G., Distribution Sampling for Computer Simulation, Lexington Books,
+      Lexington, Massachusetts (1975).
+16.   Rosenthal, R., Meta-Analytic Procedures for Social Research, Sage Publications, Beverly
+      Hills, California ( 19 8 4) .
+
+
+
+
+                                               31
+
+
+  Approved For Release 2000/08/07 : CIA-RDP96-00787R000500140001-3
