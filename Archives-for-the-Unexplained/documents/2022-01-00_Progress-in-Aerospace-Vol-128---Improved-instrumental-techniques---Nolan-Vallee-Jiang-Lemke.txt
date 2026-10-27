@@ -1,0 +1,859 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2022-01-00_Progress-in-Aerospace-Vol-128---Improved-instrumental-techniques---Nolan-Vallee-Jiang-Lemke.pdf", "source_sha256": "dee195d4773fe95ebde2705ec5636a6a0a7cdfacf62e5ac7854afb1b212bfb18", "source_bytes": 6643336, "source_mtime": 1790197070, "source_mtime_ns": 1790197070485468290, "source_ctime_ns": 1790197070843243636, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T01:23:34.037400+00:00"}
+
+Progress in Aerospace Sciences 128 (2022) 100788
+
+
+                                                                 Contents lists available at ScienceDirect
+
+
+                                                         Progress in Aerospace Sciences
+                                                        journal homepage: www.elsevier.com/locate/paerosci
+
+
+
+
+Improved instrumental techniques, including isotopic analysis, applicable
+to the characterization of unusual materials with potential relevance to
+aerospace forensics
+Garry P. Nolan a, *, Jacques F. Vallee b, Sizun Jiang a, Larry G. Lemke c
+a
+    Department of Pathology, Stanford University, USA
+b
+    Documatica Research, LLC, San Francisco, CA, USA
+c
+    NASA-Ames Research Center (retd.), USA
+
+
+
+
+A R T I C L E I N F O                                    A B S T R A C T
+
+Keywords:                                                The problem of precise characterization, analysis, and eventual identification of unknown materials arises in
+Secondary Ion Beam Mass Spectrometry                     many fields and takes many forms, depending on the nature of the substances under study. In the first part of this
+SIMS                                                     paper we review common, modern mass spectrometry techniques applied to such studies. We also give an
+Council Bluffs
+                                                         overview of improvements made to these technologies in recent years by Silicon Valley companies and other
+                                                         teams focused on precise biomedical research dependent upon sensitive techniques, yet applicable to a wide
+                                                         range of non-biological materials. In the second and third parts of the paper we review practical experiences
+                                                         applying these techniques to the simplest case of the characterization of solid materials (as opposed to liquids or
+                                                         gases) and comparing our results with previously undertaken isotopic analysis. In particular, we describe our
+                                                         correlations of that analysis with the patterns described by witnesses in a well-documented, still-unexplained
+                                                         incident, initially thought to be of aerospace origin, which gave rise to the deposition of unknown material, and
+                                                         by the investigators who handled it in the field and the laboratory. The lessons from this specific investigation are
+                                                         applicable to a wider range of issues in reverse engineering of complex, esoteric materials, and aerospace
+                                                         forensics.
+
+
+
+
+1. Introduction                                                                            wide range of non-biological materials. This development was driven by
+                                                                                           that fact that most materials are not ‘uniform’ in their composition and
+    The problem of precise characterization, analysis, and eventual                        therefore techniques that allow for 2D and 3D analysis of materials are
+identification of unknown materials arises in many fields – ranging from                   key to both understanding as well as quality control.
+archaeology to meteoritics, medicine, law enforcement, nuclear foren­                          For example, an insight brought from the biological research arena is
+sics, space exploration and national (US and foreign) intelligence                         that spatial patterns (for instance, of cells) in a tissue are critical de­
+agencies. In materials analysis of metals and other inorganics, the                        terminants of outcomes in disease states (whether certain immune cell
+approach can take many forms, depending on the nature of the sub­                          types are within a given radius of a tumor or pathogen). Spatial
+stances under study. In general, one starts with basic constituents such                   component organization is key as well in design of microelectronic cir­
+as elemental composition, moving onto studies of internal structure if                     cuitry. As such, in the analysis of novel materials whose function will
+any.                                                                                       depend on local changes in elemental composition (wiring or semi­
+    In the first part of this report, we review common analytic proced­                    conductors), the use of spatially sensitive instrumentation adds great
+ures, including modern mass spectrometry, X-Ray spectroscopy, and                          value. In addition, while isotopes of elements are often considered equal
+certain other techniques that are often initially applied for such studies.                in functional attributes for most purposes, subtle distinctions in prop­
+We also provide an overview of improvements made to one of these                           erties of isotopes relative to spin states of nuclei, utility in quantum
+technologies in recent years by investigators that focused on precise                      entanglement systems, and even pharmaceutical effects have been
+biomedical research with sensitive techniques yet are still applicable to a                apparent in recent years (detailed below).
+
+
+
+    * Corresponding author.
+      E-mail address: garrypjnolan@gmail.com (G.P. Nolan).
+
+https://doi.org/10.1016/j.paerosci.2021.100788
+Received 31 December 2020; Received in revised form 30 November 2021; Accepted 1 December 2021
+Available online 9 December 2021
+0376-0421/© 2021 Published by Elsevier Ltd.
+G.P. Nolan et al.                                                                                                            Progress in Aerospace Sciences 128 (2022) 100788
+
+
+    In the second and third parts of this report we review practical                     isotopes of a given element are not relevant, the ratios of the stable
+experience applying some of these techniques to a simple case of the                     isotopes in an analytic sample can also be determined using sufficiently
+characterization of a solid material (as opposed to liquids or gases) while              sensitive mass spectrometry instrumentation.
+comparing our results with previously undertaken isotopic and                                If one is interested in local chemical bonding structures, alloys,
+elemental analysis.                                                                      nanomaterials and organic constituents, then more complex analytic
+    We describe correlations of that analysis with the patterns described                approaches are warranted such as nuclear magnetic resonance ("NMR"),
+by witnesses in a well-documented, still-unexplained incident, initially                 electron microscopy, scanning transmission electron microscopy
+thought to be of aerospace origin, which gave rise to the deposition of an               (STEM), X-ray diffraction XRD, back-scatter, among others. An overview
+unknown material, and by the investigators who handled it in the field                   of a retinue of currently available analytic procedures, and their utility,
+and in the laboratory. The lessons from this specific investigation are                  is shown in Fig. 1.
+applicable to a wider range of issues in reverse engineering of complex,                     We will detail the principal approaches used in the current analysis,
+esoteric materials, and aerospace forensics.                                             with a focus on mass spectrometry, with the understanding that more
+    We apply these insights to a case of a material derived from an un­                  advanced analysis is warranted by the initial findings on the current case
+identified aerial object as observed by multiple independent witnesses.                  and several others under investigation by the authors.
+We apply the standard, and new, techniques as outlined herein as an
+example of how the analysis of such materials can be addressed. We
+detail the elemental and spatial differences in elemental and isotopic                   2.1. Materials analysis techniques using ICP-MS and SIMS
+composition of subsamples from the parent sample CB_JV-1 at 50 nm
+resolution. The results show differences in the elemental distribution                       The two principal techniques we have applied so far in our investi­
+based on 5 subsample grains, suggesting the parent sample is inhomo­                     gative work with unknown materials are known as ICP-MS (Inductively
+geneous. For each of the subsamples the elemental composition was                        Coupled Plasma Mass Spectrometry) and SIMS (Secondary Ion Mass
+homogeneous to a depth of ~50 nm. Notably, there were no significant                     Spectrometry). Both techniques are based on determination of the
+isotopic differences from terrestrial normal in the subsamples, and thus                 masses of the atomic components of a material. They operate principally
+the overall sample could have been made with terrestrial-derived ma­                     by ionizing the atoms in such material and passing those ions into an
+terials. That said, the CB_JV-1 sample itself remains of unknown prov­                   instrument that determines their mass, usually by time of flight ("TOF"),
+enance or function.                                                                      magnetic sector, or by other means that separate them based on mass
+                                                                                         and charge of the atom.
+2. Basic approaches for the initial characterization of unknown                              These two techniques have distinct, and important, applications.
+materials                                                                                ICP-MS generally accomplishes isotopic measurements of materials
+                                                                                         dissolved in a liquid, typically in monoatomic form. SIMS can undertake
+    There are multiple technologies for determining the chemical                         similar measurements in two and three dimensions in an intact material
+makeup of complex materials. The analytic approach that is to be taken                   with resolutions down to at least the 25 nm per axis scale, and under
+is largely determined by the general nature of the material under anal­                  certain circumstances, at 5 nm per axis scale. This latter capability might
+ysis. With materials of completely unknown makeup, and starting from                     be key in understanding how elements and isotopes are spatially
+the smallest scale, one can begin with identifying the elements, such as                 distributed throughout a given material. While we document here some
+hydrogen, carbon, iron, copper, and so on, and determining their rela­                   significant technical uses for both technologies, it is also important to
+tive abundances within a sample. While for most analytic purposes the                    recognize their limitations in specific analytical settings, given the
+                                                                                         varied nature of the samples under study. The approaches discussed
+
+
+
+
+Fig. 1. Overview of techniques for materials analysis. The color legend represents the functional utility of the technique. The center of the graph provides the names
+of techniques often used in materials analysis. The X axis represents the scale of size of the same in xy dimensions and shows in purple the general techniques and the
+range across which they are useful. The Y axis left hand side represents the numbers of atoms measurable in cubic centimeters as a metric. The Y axis on the right side
+represents the same data but as a measure of sensitivity in terms of parts per thousand (ppt top), parts per million (ppm), parts per billion (ppb), and parts per trillion
+(ppt bottom). On the right side are the instruments and techniques and the range across which they are sensitive. Adapted from https://www.eag.com/techniques/.
+(For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+
+                                                                                     2
+G.P. Nolan et al.                                                                                                      Progress in Aerospace Sciences 128 (2022) 100788
+
+
+have a long history and acceptance in analysis of metals and alloys                under study. In one experiment they were able to detect the spin of the
+[1–3], organic and inorganic materials [4,5], to detail everything from            nucleus that distinguished 56Fe from 57Fe when they were sitting in a
+isotopic constituents [6], materials structure, and material contaminants          bilayer of MgO. In a second experiment they detected the electron
+[1–3,5,7,8]. Given this resolution limit, neither approach allows for the          parametric resonances of the 47Ti versus 48Ti isotopes of titanium
+direct determination of the molecular or local atomic structure of any             (Fig. 2). In addition, spintronics is already used in crystalline insulators
+given material. Atomic localization requires measurements on the scale             [18]. A related phenomenon is termed spin mechatronics wherein the
+of 2–5 angstroms (where 1 angstrom = 0.1 nanometer) and can be                     magnetic or acoustical or optical properties of a materials are deter­
+carried out by procedures such as X ray diffraction [9] or atom probe              mined. Yet another phenomena is termed acoustic phonons and can be
+tomography [10], which are additional specific techniques useful in                used, for instance, to measure superconductivity in rhombohedral tri­
+analysis.                                                                          layer graphene [19]. Spintronics has been previously investigated in US
+    The result of such an analytic procedure is a table of the relative            government analysis of unconventional craft in the Defense Intelligence
+ratios of the elements, and their isotopes, across a given mass range.             Reference Documents produced under the Advanced Aerospace Weapon
+Depending on the instruments, that can include everything from                     System Applications Program (AAWSAP) program (see item #24
+hydrogen up through the heaviest of the elements. With the most sen­               Metallic Spintronics [20]). Finally, spinplasmonics combines spintronics
+sitive instruments and appropriate calibration, one can tell the differ­           and plasmonics where one uses electron spin (again, which can be
+ence between, say, 64Zinc (34 neutrons and 30 protons, or as the linear            driven by the isotope of a given nucleus and surrounding materials) to
+formula 64Zn34) and 64Nickel (36 neutrons and 28 protons, or as the                create novel materials that can be used as storage devices, light emitting
+linear formula 64Ni36). 64Zn has an atomic mass of 63.729145 and 64Ni              devices, and electronic switches with low power consumption.
+has a mass of 63.9279679 — a difference of 0.1988 AMU (Atomic Mass                     The latter examples are not meant to be a comprehensive review of
+Units).                                                                            the utility of quantum mechanical functions that can be exploited via
+    Instruments capable of measuring the composition of materials to               usage of given elements and their surroundings. The associated fields are
+such accuracy are useful in a variety of contexts. For instance, stable            only just recently developing methodologies to detect their existence,
+(non-radioactive) isotopes are used as tracers that can serve as atomic            derive their functionalities, and then exploit them for practical gain. But
+barcodes indicating the origin of materials. Similarly, small differences          they underscore a growing realization that isotopes of different elements
+in certain isotope ratios of given elements can determine the origin of a          can offer novel electronic properties for materials design.
+gemstone (e.g., African, or South American), or whether a meteorite had
+an origin from the inner solar system, outer, or beyond [11,12]. Isotope           2.2. Inductively coupled plasma mass spectrometry (ICP-MS)
+abundances can also be used to trace manufacturing processes and more
+recently is used in tagging of monetary currencies to prevent                          ICP-MS operates by passing a small portions of the material under
+counterfeiting.                                                                    study through a super-hot (i.e., several thousand Kelvin ≈ surface
+    Interestingly, isotopes can influence a variety of important biolog­           temperature of the sun) argon plasma, to atomize and ionize it [1,2].
+ical, chemical, and electronic functions. From a clinical perspective,             Most ICP-MS instruments require an experimental sample to be
+Lithium–widely recognized for its effect in psychiatry– has been shown             completely dissolved in liquid. If the material is not already dissolved,
+to have profoundly different effects upon the nursing behavior of female           this can be accomplished by grinding the material into a powder and
+rats and on the depth perception of said nursed pups, depending upon               then dissolving it in one or more acids (such as nitric or hydrochloric
+whether it is provided as 6Li or 7Li [13]. In materials utilization,               acid). Alternatively, the materials can be dispersed by intense pulse
+Silicon-28, or 28Si, is valuable in quantum computing due to its lack of a         application of lasers or electric discharge, then passed into the plasma,
+nuclear spin—which for certain applications facilitates a lower quantum            and then into the mass spectrometer.
+decoherence effect [14]. In some cases, nuclear spin of the atom can be                Other approaches, such as the "CyTOF" mass spectrometer available
+‘programmed’ using isotopes of certain elements, such as for NMR la­               in one of the labs [21] used in this study, allow for introduction of the
+beling, where 2H, 13C, 14N, 15N, 17O among others are used in clinical
+imaging. Varying the isotope constituency of carbon in a boron-doped
+diamond has demonstrated changes in the superconductivity transi­
+tion temperature of this material. The behavior of light, reflected as a
+change in optical emission spectra, can be altered in transition metal
+dichalcogenides wherein isotopically pure 86W80Se2 bilayer single
+crystals had a distinct (and useful) phonon-assisted indirect excitonic
+transition when compared to the natural isotope abundance counterpart
+[15]. And most recently, cubic-boron nitride, when made specifically of
+only 10B or 11B, was found to give markedly increased thermal con­
+ductivity when compared to the material derived from a mixture 10B and
+11
+   B [16]. Thus, while these effects might be subtle, more precise control
+of the way a material is engineered might lead to important discoveries
+that change the way we will eventually design advanced products with
+unique and powerful properties.
+    Beyond NMR use of isotopes, there are other aspects of materials
+function that isotopes can affect. These areas are spintronics, spin-
+mechatronics, and spin-plasmonics. Together these are termed “spin
+physics” and exploit the quantum mechanical properties of elementary
+particles and nuclei, where the isotope can drive the differential
+behavior of its nuclei and electron. Spintronics is short for spin transport
+electronics and uses the spin of an electron along with its magnetic
+                                                                                   Fig. 2. The local spintronic environment of a given paramagnetic isotope is
+moment to drive electron transport in materials.                                   governed by its surrounding atoms wherein a 47Ti atom was place proximal to a
+    For instance, researchers at IBM recently [17] used atomic force               48
+                                                                                      Ti. The bottom graph shows that the dimer of the two distinct isotopes show a
+microscopy to control the magnetic properties of single atoms. They                different coupling strength for 47Ti than for the 47Ti atom alone. See Ref. [17]
+accomplish this via use of the spin of the electrons that orbit the nuclei         for details.
+
+                                                                               3
+G.P. Nolan et al.                                                                                                   Progress in Aerospace Sciences 128 (2022) 100788
+
+
+materials into the mass spectrometer as mono-disperse colloids (parti­             isotopes. Any measurement of materials containing Nickel isotopes by
+cles up to 10 μm across, about the size of a cell) which then are atomized         MIBI, or any SIMS instrument is perfectly valid although there are po­
+and ionized for mass determination of the particle’s atomic constituents.          tential artefacts due to oxide, hydride, and other diatomics.
+    Those particles retain information about local structure and content               MIBI was designed for biologic measurements of proteins via metal
+compared to ICP-MS, which homogenizes an experimental sample by                    chelated antibodies and permits routine imaging of up to 50 proteins
+dissolving it in acid. This can be a significant advantage because it al­          simultaneously as opposed to only two or three with currently available
+lows local isotopic content to be determined relative to other atoms in            instruments, with resolution on par with light microscopy, but also
+the immediate vicinity. ICP-MS instruments are manufactured by a va­               enabled to accomplish 3D determinations [22,23].
+riety of vendors (Thermo Fisher, Bruker, etc.) with a heavy focus by
+purveyors to the fields of biomedical analytics, geological, and nano­             2.4. Energy dispersive spectroscopy (EDS) and related materials analysis
+materials composition and engineering.                                             systems
+
+2.3. Secondary ion mass spectrometry ("SIMS"): Nano-Sims and "MIBI"                    While both spectrometry techniques noted above are destructive,
+technology                                                                         EDS enables relative ratios of elements to be measured in a material. In
+                                                                                   EDS, the experimental sample is bombarded with a charged particle
+    SIMS allows for materials analysis ’in situ’. It can raster across a           beam (electrons or protons), or X-rays (a related technique is called EDX,
+target material, ablate in an XY plane down to generally 5–1000 nm with            energy dispersive Xray spectroscopy). Each element, depending on its
+a Z depth of as little as 5 nm. With such rastering one can collect both 2D        electron shell composition, will emit X rays with a distinct signature.
+and 3D information on the content [5,22,23].                                       Comparison to prior known standards allows for multiple elements to be
+    The instrument works by accelerating a PRIMARY beam of particles               distinguished.
+(usually charged ions) to hit the target, ablate it, and atomize the target            The value of EDS to the analysis of materials, especially when using
+into secondary ions, via the kinetic energy of the primary ions. These             SIMS of ICP-MS data, is that it allows for one to rule out certain diatomic
+secondary ions are electromagnetically directed into a mass spectrom­              species that might form during ion generation. Since both SIMS and ICP-
+eter. The primary ion beam can vary from helium, other elements, and               MS can form oxide and hydride diatomics, EDS allows for correction or
+heavier objects such as buckyballs (60 carbon regular truncated                    filtering of values.
+icosahedron)—with different ion beams able to ionize or fragment given                 Related to EDS, but slightly different in detection modes is X-ray
+materials with different efficiencies [3,4].                                       fluorescence microscopy (XRF). XRF can detect elements at parts per
+    Traditional SIMS is exemplified by the NanoSIMS (Supplementary                 million limits, whereas EDS generally can only detect elements at the
+Fig. 1) we have used in preliminary testing of materials at the Stanford           0.1% lev.
+Shared NanoSIMS Facility. That instrument (Cameca NanoSIMS 50L),
+however, is limited in that it can only measure 7 isotopes at a time. The          2.5. Scanning transmission electron microscopy
+device is extraordinarily sensitive and capable of distinguishing isotopes
+of different elements with near identical mass and is accomplished using               With scanning transmission electron microscopy (STEM), beams of
+a magnetic sector device [24]. In addition to the Zn and Ni isotopes               electrons are focused on an ultra-thin material wherein the electrons are
+noted above, many other isotopes have an amu that requires highly                  either scattered and detected as such (thereby indicating the presence of
+accurate instrumentation. For instance, 54Fe and 54Cr weigh respec­                an atom) or the detector can be an EDS or EDX, which can provide the
+tively, 53.9396 and 53.9389 atomic mass units, which means the device              elemental composition of said atom. This device is used for nanometer
+must be capable of a sensitivity in the parts per million range to correctly       and sub nanometer determination of structures of materials, can be non-
+call the difference. In such a device the resulting secondary ions                 destructive, has been adapted in limited cases to sub-angstrom scale
+generated from the investigation material is passed through a strong               capable of determining inter-atomic distances. The reader is directed to
+electromagnetic field. Atoms of different mass not only move and arrive            Ref. [26] for an overview of additional techniques relevant to the use of
+at a detector according to their mass (with lighter elements arriving              STEM.
+first), but they are separated in 2D space according to their ionization (i.
+e., charge). Together these can be used to place detectors along a track           2.6. Raman
+on the instrument to capture ions at specific, expected locales calculated
+based on mass and charge. The detectors can be bulky and only a limited                Raman spectroscopy is yet another technique for measuring con­
+number can be linearly placed on the Cameca device, and that limits the            stituent atoms and molecules. Generally, the technique is used to create
+numbers of isotopes that can be measured at a given time. Alternative              signatures of molecules from the scattering of photons from a material.
+equipment as also applied here for secondary ion mass spectroscopy is              Photons impinging on a material interact with the vibrational compo­
+known as "MIBI" for "Multiplexed Ion Beam Imaging." It provides isotope            nents of that material (which can also include phonons). Recently,
+analysis and spatial resolution within the material. The "MIBI" instru­            certain nanomaterials (such as gold or other metal nanoparticles) have
+ment (Supplementary Fig. 2) represents an advance that allows us to                been shown to ‘amplify’ the Raman signature to a level useable as
+read across the entire mass range AND it has all the advantages of SIMS,           standardized detectors. Usually, however, the signatures are complex
+as well as allowing for 3D structure determination of nanometer scale              and complex materials give back spectra that are too difficult to
+objects using isotopes as tags [25].                                               deconstruct. However, as perhaps noted by the fact that phonon vibra­
+    The caveat applicable to SIMS of any type is still relevant, however:          tions are dependent on nuclear structure, Raman signatures can also be
+The particle beam (oxygen plasma, cesium, or gold) determines the                  affected by the isotopes found in a molecule. The reader is directed to
+material that can be analyzed and the efficiency of elemental ionization           Refs. [27,28] for further reading.
+[3,4]. Critically for the applications here, isotopes of a given element are
+released at the same ionization efficiency, but different elements might           3. Investigating unknown material collected in the field: A case
+have vastly different ionization efficiencies. That is, one cannot compare         study
+the molar ratios between different elements in an experimental sample,
+but comparisons of isotopes within a given element is valid. Therefore,               Elemental and isotopic analysis has proven of value in the study of
+the MIBI instrument used in this report is not quantitative between el­            material recovered from disintegrating aeronautical or astronomical
+ements, due to difference in efficiencies of ionization, while it is quan­         objects, or from residue deposited on earth following an observation of
+titative for isotopes intra-element. For instance, Nickel has 5 stable             an unknown phenomenon. In such cases it is essential to distinguish
+
+                                                                               4
+G.P. Nolan et al.                                                                                                     Progress in Aerospace Sciences 128 (2022) 100788
+
+
+between natural and manufactured material and, in the latter case, to
+obtain information about the process that led to the creation of the
+recovered sample, and its potential purpose.
+    While geologists and astronomers are keenly interested in the anal­
+ysis of meteorites or comet residue, where isotopic ratios differing from
+terrestrial norms may give clues to the distribution of elements in the
+solar system (and even our galaxy) across space and time [11,12], other
+scientists have focused on materials suggesting industrial or military
+processes oriented to propulsion or other purposes of aerial or space
+navigation.
+
+3.1. Overview of the incident at Council Bluffs, Iowa (17 December
+1977)
+
+    An event that took place in Council Bluffs, Iowa, on the evening of
+Saturday, December 17, 1977, provides an interesting opportunity to
+compare testing methodologies suitable for the analysis of material
+recovered from aerial objects. The Council Bluffs case has been previ­
+ously reported in detail by Jacques Vallée [29] and in a book by Pro­
+fessor Peter Sturrock of Stanford University’s Plasma Research Institute
+[30].
+    On that day, at 19:45 CST (0145 GMT) a red, luminous mass was
+observed by two Council Bluffs residents as it fell to earth near the
+northern city limits, slow enough to enable its approximate trajectory to
+be noted. A bright flash was seen, followed by flames 8–10 feet high.
+When they reached the scene, the witnesses found an area covered by
+molten metal that glowed red-orange, igniting the grass. Police and a
+fireman arrived within 15 min and saw the mass (with estimates ranging
+from 35 to 55 pounds) “running, boiling down to the edges of the levee,”
+                                                                                       Fig. 3. Material samples recovered at Council Bluffs (scale in inches).
+in an area of about 4 feet by 6 feet. The central portion remained warm
+to the touch for approximately 2 h. No cratering was noticed.
+                                                                                    witnesses in separate groups, all within an hour of the incident. Unusual
+    The site is a public area (“Big Lake Park”) in that suburb of Omaha,
+                                                                                    in such cases of anomalous phenomena, the key witnesses could be
+Nebraska, located on the southeastern shore of the Missouri River in
+                                                                                    positively located and identified.
+Iowa. This section of the park, known as “Gilbert’s Pond,” lies across the
+                                                                                        The first report came at 7:45 p.m. from 17-year-old Kenny Drake and
+river from Eppley airport. The weather at the time was overcast with a
+                                                                                    his nephew, 12-year-old Randy James, who were driving on North 16th
+2500 feet ceiling, visibility 10 miles, temperature 32 ◦ F. Wind was from
+                                                                                    street. Kenny’s wife Carol, 16 years old, was also in the car. All three saw
+the WNW at 16 mph, with gusts up to about 25 mph.
+                                                                                    a “reddish ball” at an estimated altitude of 500–600 feet. It fell “straight
+    Given the physical evidence (a representative fragment is shown in
+                                                                                    down” and impacted within Big Lake Park (see map). There was a bright
+Fig. 3), the availability of cooperating witnesses, and the proximity of a
+                                                                                    flash and what appeared to be “flames shooting into the air, 8–10 feet
+major airport, the investigation was immediately oriented to the po­
+                                                                                    high.” While these witnesses only observed the dropping object, others
+tential for an industrial accident, an aeronautical malfunction, or a
+                                                                                    (see below) had observed a stationary flashing object that was in the
+meteorite. After ascertaining that the material was not radioactive, two
+                                                                                    area from where the reddish ball originated.
+chemical analyses were rapidly conducted, one at the Iowa State Uni­
+                                                                                        Mr. Robert Allen, who had served in the Air Force and wrote a reg­
+versity laboratory and the other at Griffin Pipe Products Company. Both
+                                                                                    ular astronomy column for a local paper, investigated the site the next
+agreed with the determination that the material was a metallic alloy,
+                                                                                    day and confirmed “there was a clear line of sight from the impact point
+chiefly iron with small amounts of nickel and chromium. The report
+                                                                                    to (their) location.” As the molten material formed a large hot mass
+indicated that the micro-structure suggested the studied sample was
+                                                                                    about four by six feet wide (Fig. 4 and Supplementary Fig. 3 for 4
+carbon steel that was cast, subsequently re-heated to about 1000◦ and
+                                                                                    original Polaroids), igniting the nearby grass, Drake and James drove to
+cooled at an intermediate rate, so that it resembled wrought iron [31]
+                                                                                    a local store and called 911. The call was given to Jack Moore, Assistant
+(wrought iron is an alloy containing low carbon content in the 0.08% or
+                                                                                    fire chief for the Council Bluffs fire department, who responded in his
+less level). No pictures of the ‘microstructure’ were provided in the
+                                                                                    personal fire car. No fire-fighting crews were required, however, while
+historical report. The problem with that determination was that nothing
+                                                                                    the police, who had intercepted the call, dispatched a cruiser car to the
+accounted for the way a large amount of that very heavy and extremely
+                                                                                    scene, driven by Assistant chief Moore. He requested an officer from the
+hot material could have been deposited in that area in a molten state,
+                                                                                    Identification section to join him with a camera to photograph the ma­
+following the clear observation of a luminous object in the sky, (the
+                                                                                    terial that was “running, boiling down the edges of the levee. The center
+purported source of the material) which remained unidentified.
+                                                                                    of it was way too hot to touch.” The material would remain warm for
+    Therefore, the investigation went into a second, more specific phase
+                                                                                    another 2 h, despite the freezing air and ground temperature. The time
+of analysis along several hypotheses. First, there was an abundance of
+                                                                                    was about 8pm.
+valuable eyewitness testimony that had to be reconsidered, which will
+                                                                                        Officer Dennis Murphy arrived and took several pictures with both a
+be reviewed below.
+                                                                                    Polaroid color camera and a 35 mm SLR camera equipped with color
+                                                                                    film. (Note: Four Polaroids shown in Supplementary Fig. 3, original
+3.2. Initial eyewitnesses and official reaction: First “on the spot” evidence
+                                                                                    Polaroid photographs are in the authors’ case file). The recount of the
+                                                                                    incident by Drake and James before the officers did not deviate from the
+    As mentioned above, the first observers were “two Council Bluffs
+                                                                                    story they first told. Checks were made with both Eppley Airfield and
+residents,” and their report was soon confirmed by independent people.
+                                                                                    Offutt Air Force Base, Nebraska, “to ascertain if any aircraft might have
+Investigators were able to gather testimony from no less than 11
+
+                                                                                5
+G.P. Nolan et al.                                                                                                              Progress in Aerospace Sciences 128 (2022) 100788
+
+
+                                                                                          gathered several samples of the ground, and pieces of the object,
+                                                                                          including the ones now in the authors’ custody, were collected and
+                                                                                          catalogued. But an analysis of the reports disclosed another interesting
+                                                                                          fact: Early witnesses had observed a hovering object, separate from the
+                                                                                          glowing, falling mass.
+
+                                                                                          3.3. Corroborating witnesses
+
+                                                                                              As the first three witnesses were watching the glowing mass, a small
+                                                                                          car stopped and four young men, about 18 years old, asked if they had
+                                                                                          seen “that thing fall out of the sky,” after which they drove away (Fig. 6,
+                                                                                          original map, point #1). A few minutes later, when Kenny Drake was
+                                                                                          making the 911 phone call, authorities were also contacted by a middle-
+                                                                                          aged couple who were travelling north on 16th street (Fig. 5, point #2).
+                                                                                              They reported seeing a bright red mass “rocket to the ground near Big
+                                                                                          Lake”. They refused to be identified on the record. At that point, no less
+                                                                                          than nine witnesses in three separate groups had watched the incident as
+                                                                                          it happened. Two more would soon come forward.
+                                                                                              Further south on Broadway Avenue, 24-year-old Mike Moore and his
+Fig. 4. Enhanced Original Polaroid of #3 of 4 Police photographs showing
+                                                                                          wife Criss had been driving east toward downtown, crossing the 16th
+deposited material (grey and green area). (For interpretation of the references           street intersection when she first saw the object, described as round with
+to color in this figure legend, the reader is referred to the Web version of              “red lights blinking in sequence around the periphery.” Mr. Moore saw it
+this article.)                                                                            when they reached the Broadway viaduct (Fig. 6, point #3), as a “bright-
+                                                                                          red thing at treetop level.” He described it as “a big round thing hovering
+reported equipment or engine failure or loss,” with negative response                     in the sky, below treetops. It was hovering. It wasn’t moving.” Mike Moore
+from both.                                                                                was at that time a parts man at an auto dealership. His wife Criss, also 24
+   Arriving on the scene the next morning, Robert Allen had no diffi­                     years old, was a legal secretary. Supplementary Fig. 4 shows a circa
+culty locating the site, noting there was no cratering—which he had                       1970s map of the area.
+expected given that he believed there would have been an impact. He                           Given the amount of detail and the consistency of the observations,
+                                                                                          supported by the evidence of the mass of material, five hypotheses had
+
+
+
+
+Fig. 5. Contemporary map of Council Bluffs, with the site of impact (X) and main witness locations as numbered. Numbered circles indicate positions of witnesses,
+Starred X with red arrow represents the site of material as it was discovered. (For interpretation of the references to color in this figure legend, the reader is referred to
+the Web version of this article.)
+
+                                                                                      6
+G.P. Nolan et al.                                                                                                      Progress in Aerospace Sciences 128 (2022) 100788
+
+
+                                                                                            Space debris having a reasonable ballistic coefficient in the
+                                                                                            100–300 pound per square foot range can be expected to hit at a
+                                                                                            velocity of 200–400 miles per hour and would make at least some
+                                                                                            impression in the ground and would have splattered well beyond
+                                                                                            the original site—no such dispersal was noted by any witness.
+                                                                                        (c) The reported visual sighting was at an estimated altitude of only
+                                                                                            500 or 600 feet. Reentering space debris is not glowing or hov­
+                                                                                            ering at this low altitude.
+                                                                                        (d) There are no structure indications in any of the debris samples.
+                                                                                            This is very unlikely for space debris from human satellites or
+                                                                                            missile launches.
+
+                                                                                        Colonel Charles Senn concluded: “The Air Force does not feel that
+                                                                                     additional investigation or analysis is warranted.” While helpful in dis­
+                                                                                     missing the satellite hypothesis, this report left Mr. Allen and the Council
+                                                                                     Bluffs police department with an unsolved problem, and four remaining
+                                                                                     hypotheses (see Supplementary Fig. 5 for a copy of the letter).
+
+                                                                                     3.5. Meteoric impact hypothesis
+
+                                                                                         The idea that the material might be the result of a meteoric impact
+                                                                                     seemed initially attractive. Meteorites of all dimensions are routinely
+                                                                                     picked up on the surface of the earth. In this case, however, examination
+                                                                                     of the site and primary chemical analysis quickly eliminated this hy­
+                                                                                     pothesis. First, there was no cratering. Perhaps a glancing impact would
+                                                                                     have accounted for this?
+                                                                                         Two additional determinative lines of argument eliminate an iron
+                                                                                     meteorite fall as the source of the Council Bluffs material. First, there are
+                                                                                     the aerodynamic forces of passage through the atmosphere interacting
+                                                                                     with the mechanical properties of the meteorite that determine at what
+Fig. 6. Isotope abundances for (a) Titanium; (b) Iron; (c) Chromium as deter­        speed and in what form meteorites can impact the Earth’s surface. The
+mined by NanoSIMs on two fragments of the Council Bluffs material. The grey          total mass of the Council Bluffs material (≈18 kg) would have formed a
+and the blue bars represent readings from each of two subsamples tested. The         bolide of only about 8 cm radius. Computer modeling shows that at
+left Y axis shows the total ion count for each sample, and the right Y axis is       typical meteorite atmospheric entry speeds (≈11–30 km/s) an iron
+scaled to represent percentage abundance for the isotopes of each metal. (For        meteorite of this size would probably survive to the surface without
+interpretation of the references to color in this figure legend, the reader is       breakup but would have a terminal velocity of ≤100 m/s [32]. An
+referred to the Web version of this article.)                                        impact velocity of 100 m/s corresponds to a specific energy of 5 kJ/kg,
+                                                                                     while the specific energy required to melt slag iron (latent heat of
+to be seriously investigated.                                                        fusion) ≈ 209 kJ/kg [33,34]. Thus, an iron meteorite of this size would
+                                                                                     arrive at the ground with far too little kinetic energy to become molten.
+3.4. Reentering satellite debris hypothesis                                          Second, iron meteorites are found to contain between 5 and 40% Nickel
+                                                                                     [35], whereas the Council Bluffs material had only trace amounts of
+    The US Air Force reacted rapidly to Robert Allen’s request for their             Nickel.
+advice. The detailed report he had submitted to them proposed: “It is our                Thus, the material did not meet the physical requirements for a
+theory that (the material) was a piece of space debris which re-entered              meteorite. It remained too long in a molten state, and “spectrographic
+the earth’s atmosphere and was not completely destroyed during re-                   analysis did not disclose metal components that should be an integral
+entry. Measurements taken at the impact point would indicate the ob­                 part of meteoritic material.”
+ject was travelling from the southwest to the northeast on a heading of
+109–110◦ .”                                                                          3.6. Fallen equipment from aircraft hypothesis
+    In response, the Office of the Secretary wrote that its scientists “were
+very impressed by the thorough documentation of the events and the                       Because of the proximity of Eppley Airfield, it was thought that the
+analysis presented in (the) report,” yet they did not feel that the material         incident might have been associated with “a piece of equipment or metal
+was space debris for four reasons:                                                   which fell from an aircraft landing at Eppley on the runway heading
+                                                                                     320◦ .” The initial check with Eppley, however, indicated no pilot report
+   (a) Reentering spacecraft debris does not impact the earth’s surface              of equipment loss or failure.
+       in a molten state. The aerodynamic heating that usually causes                    Next, a check of all airlines operating into Eppley Field indicated no
+       the spacecraft to completely burn up during reentry takes place in            arrivals using the runway that would bring any aircraft near the impact
+       the upper layers of the atmosphere before the maximum dynamic                 site. Furthermore, no equipment or metal would fall at a speed necessary
+       pressure is reached. If the material were hot enough to be in a               to bring the material to incandescent or molten state. An aircraft using
+       molten condition as it passes through this maximum deceleration               that runway would have had to descend rapidly over the Richmond
+       point, which probably reaches 10 g’s, it would separate like a                Gordman Store from which impact was observed by the first two wit­
+       fluid. In that case, it would have cooled while descending through            nesses, and at that point it would be at 500–1000 feet altitude only.
+       the lower atmosphere and would have been solid at earth impact                    Having eliminated the hypotheses of reentering space debris, mete­
+       – not in a molten state.                                                      orite or aircraft equipment, the investigators were left with the possi­
+   (b) The mass of material was estimated by police to weight 35 to 40               bility that the case might be the result of a hoax. There were two ways in
+       pounds, yet there was no crater or noticeable indentation (Fig. 4).           which one might imagine that the material might have been deposited as
+
+                                                                                 7
+G.P. Nolan et al.                                                                                                        Progress in Aerospace Sciences 128 (2022) 100788
+
+
+a joke.                                                                               4. Advanced analytical methods applicable to exceptional
+                                                                                      physical events
+3.7. Is this a hoax perpetrated using thermite?
+                                                                                         The material recovered at Council Bluffs consists of three compo­
+    When the material was examined at the laboratory of Professor Frank               nents: solid metal, slag, and white ash inclusions in the slag. In the
+Kayser (University of Iowa at Ames) he observed that: “One could pre­                 previous section we have mentioned the results of the analysis at the
+pare a rather similar sample in the following way: One would collect the              Ames Laboratory, which examined all three of those by X-Ray fluores­
+splatters from a casting or welding operation involving carbon steel. One             cence, electron beam microprobe, and emission spectroscopy, under the
+would transport this to the position where the material was found. One                supervision of Mr. Edward DeKalb.
+would then surround the metal with thermite powder and ignite the
+latter. This would heat the metal to the 900-1000-degree C range, and                 4.1. Early tests of chemical composition
+the thermite reaction would generate the iron-aluminum oxide sponge.
+A cooling rate appropriate to ‘wrought iron’ microstructure could be                      The metal was found to be chiefly iron, with less than 1% of alloying
+achieved by spraying water on the mixture.”                                           metals such as nickel and chromium. The slag was a foam material
+    The problem with that hypothesis was that the material was in a                   containing metallic iron and aluminum with smaller amounts of mag­
+molten state when witnesses arrived. It had not solidified and could not              nesium, silicon, and titanium, “probably present as their oxides.” The
+be picked up. The ground was frozen to a depth of at least 4 inches and               white ash inclusions were “principally calcium with some magnesium,
+the air temperature was 32◦ F. Thus, “had someone tried to cool the ma­               again probably as oxides.”
+terial in an intermediate state, there would have been considerable ice in the            The first test, run on 21 December 1977 (within four days of the
+immediate vicinity caused by the water used to cool the material.”                    incident) by lab technician Jack Coan (at Griffin Pipe Products), was run
+    Finally, a check made with both chemical and construction firms in                on two exposures of the metal sample using a “Spectro-Comp” instru­
+the Council Bluffs-Omaha area disclosed no source of thermite. Thermite               ment that could identify 18 elements spectroscopically. It found carbon
+is readily made from powdered iron oxide III and aluminum powder                      at 0.70%, manganese at 0.56%, silicon at 0.52% and other elements as
+which can react as: Fe2O3 + 2 Al → 2 Fe + Al2O3. While it is not                      traces only.
+impossible to rule this out, this does not explain how thirty pounds of                   The more comprehensive Ames report (Table 1) confirmed the fact
+iron (with other elements such as titanium) was reacted in midair and                 that the material was not of meteoritic origin, for “in that case one would
+dropped visibly in sight of multiple witnesses and how no visible melting             expect a much higher nickel content” [31]. The authors added that
+of nearby earth was evident to have created the heat to melt iron at that             man-made space hardware would also be unlikely as a source: “Such
+temperature.                                                                          hardware usually involved alloys of much higher strength-to-weight
+                                                                                      ratio, containing high amounts of nickel, chromium and titanium. Our
+3.8. Is the incident a hoax perpetrated by pouring molten metal on the                first judgment was that the material resembled cast iron.” Interestingly,
+ground?                                                                               carbon steels are usually configured to contain between 0.05 and 3.8%
+                                                                                      by weight of carbon. Given that carbon is about 4.5-fold lighter than
+    Another, more radical hypothesis assumed that persons unknown                     iron, and assuming the material is principally iron, then by percent
+(perhaps the first two witnesses) had simply brought molten material to               composition the carbon should be present at between 0.23 and 17%.
+the site and poured it on the ground. Accordingly, a check was made                   This was not represented in any of the data from the Ames lab report.
+with every metal firm in the Metropolitan area with the remotest pos­                     Next, Professor Frank Kayser, of the metallurgy division at University
+sibility of maintaining metal in a molten state. This included all                    of Iowa, in Ames Iowa, examined the metal sample metallographically
+foundries, pipe manufacturers, metal fabricators, etc.                                and reported it was most likely a carbon steel, confirming the judgment
+    The only facility with such capability and equipment in Council                   of the Griffin Pipe Products Company. He pointed out that “despite the
+Bluffs was the Griffin Pipe Products Company. Mr. Linton Stewart, works               name, carbon steels contain less carbon (about 1.0–1.2%), than cast iron
+manager, stated they “dropped the bottom from their cupolas” on Friday                (about 4%).” From the microstructure he judged that the metal was cast,
+afternoon and did no pouring whatsoever until early on Monday.                        subsequently reheated to 900–1000◦ C, and cooled at an intermediate
+    Katelman’s Foundry used to have facilities for pouring molten metal               rate so that it resembled wrought iron (see Supplementary Fig. 6).
+at one time but had not done so in three years. Paxton-Mitchell Steel in                  These were the observations available to us when we undertook the
+Omaha stated that “in order to melt the material and then transport the               study of the isotopic ratios in the main components of the metal samples.
+molten mass to the Big Lake area would require considerable equipment.”
+They added: “The melting point of some of the components is in the range of           4.2. Secondary ion mass spectrometry: Initial isotopic results
+2400-2500 degrees F. Once molten, the metal would have to be transported in
+a brick oven of at least 6 inches thick lining, which would necessitate a large           A surviving piece of the original material was retained by JV and
+truck to transport the oven. And it would be necessary to keep the metal at the       provided for the experiments herein (hence termed CB_JV-1 for clarity).
+required melting point.”                                                              The CB_JV-1 sample is approximately 2 inches across in the XYZ di­
+    The investigators concluded that:                                                 mensions. Note that while this sample is claimed to be derived from the
+                                                                                      same samples used in Table 1 (those samples are no longer available), it
+    “The material associated with the object in Big Lake Park was not
+                                                                                      is distinct and uniquely measured in this report.
+    manufactured, transported or deposited in the area in order to
+                                                                                          The isotopic abundances of two subsample grains from the parent
+    perpetrate a hoax, by any of the foundries in the metropolitan area.
+                                                                                      Council Bluffs metal CB_JV-1 sample, as run by the authors on a Nano­
+    Primary witnesses do not have the equipment or experience to meet
+                                                                                      SIMS machine (manufactured by Thomson-Syseca) yielded the graphs
+    all the prerequisites of perpetrating a hoax. In all interviews and
+                                                                                      shown for the relative distribution of isotopes of Titanium (46Ti, 47Ti,
+    discussions with investigator, police, and news media, their recounts             48
+                                                                                         Ti and 49Ti). The results are consistent with terrestrial values (Fig. 6a).
+    of the events have not deviated since the initial conversations.”
+                                                                                      We also found unsurprising ratios for Iron (56Fe and 57Fe) and for
+                                                                                      Chromium (52Cr and 53Cr) (Fig. 6b and c).
+                                                                                          From an analytical viewpoint it is important to note that error bars
+                                                                                      are often not included in such analyses since, due to local oxidation
+                                                                                      conditions on the sample, or other impurities, sputtering efficiencies,
+                                                                                      charge fractionation, sample bias setting, and other issues can lead to
+
+                                                                                  8
+G.P. Nolan et al.                                                                                                             Progress in Aerospace Sciences 128 (2022) 100788
+
+
+Table 1
+Table of results from Laboratory of Professor Frank Kayser (University of Iowa at Ames). Per written notes (see Supp Figure 3) these are qualitative estimates based on
+spectrography. Given the sample is principally iron, we interpret » 1 to be a convention used by the analyst relate that the amplification of the spectrometer was set to
+maximum to measure the trace elements.
+                            metal-1               metal-2                metal-3               metal 4               slag-1                   slag-2                 ash
+
+  Iron                      >>1.00                >>1.00                 >>1.00                >>1.00                >0.1                     >0.1                   0.20
+  Magnesium                 0.30                  0.30                   0.30                  0.30                  >0.1                     0.10                   0.10
+  Tantalum                  <0.40                 <0.40                  <0.40                 <0.40                 0.40                     0.40                   <0.40
+  Titanium                  0.25                  0.05                   0.05                  0.05                  0.10                     0.10                   <0.1
+  Molybdenum                0.20                  0.20                   0.20                  0.20                  <0.05                    <0.05                  <0.05
+  Aluminum                  0.15                  0.03                   0.03                  0.01                  >>0.10                   >0.10                  0.03
+  Silicon                   0.10                  0.20                   0.20                  0.20                  <0.10                    << 0.1                 <0.10
+  Manganese                 0.10                  0.10                   0.10                  0.02                  0.50                     0.10                   0.10
+  Tungsten                  <0.10                 0.10                   0.10                  0.10                  0.10                     0.10                   <0.10
+  Trace elements:
+  Copper                    0.08                  0.08                   0.08                  0.08                  0.02                     0.02                   0.01
+  Chromium                  0.02                  0.01                   0.02                  0.01                  0.10                     0.01                   <0.01
+  Nickel                    0.04                  0.04                   0.04                  0.04                  <0.005                   0.01                   0.01
+  Calcium                   <0.01                 0.01                   <0.01                 0.01                  0.10                     0.25                   >>0.1
+  Cobalt                    <0.01                 0.01                   0.01                  0.01                  <0.10                    <0.10                  <0.10
+
+
+
+significant systematic effects. In the case of the sample analyzed here                 4.3. Multiplexed ion beam imaging: Advanced results
+(see below) we addressed this in part by measuring different areas of the
+sample to access a sense of the homogeneity (or heterogeneity) of the                       Five subsample grains from the parent CB_JV-1 sample measuring
+material composition (see below).                                                       approximately 100 μm across and 50 μm thick were chosen for analysis,
+    On this basis our initial conclusion was that sample components were                focusing on grains that had minimal apparent oxidation. Samples were
+consistent with a terrestrial origin. Since NanoSIMS is limited to                      embedded on carbon conductive stickers and placed on a gold-coated
+measuring 8 elements or isotopes concurrently, we turned to a different                 slide.
+instrument capable of measuring a broader range of isotopes. Therefore,                     The conductivity of the embedding substrate (i.e., conductive carbon
+to further validate this result, and add a spatial depth analysis, we                   and gold) is necessary to minimize charge buildup from the primary ion
+subsequently ran the samples again using the recently developed MIBI                    beam on the samples during the SIMS run. The primary ion beam was set
+instrument.                                                                             to a low sample bias which minimizes the contribution of diatomics such
+                                                                                        as hydrides, oxides, or diatomics of the main sample constituents
+                                                                                        (Mg–Mg, Al–Mg, etc.).
+
+
+
+
+Fig. 7. Relative isotopic ionization efficiencies comparing 5 subsamples of the original parent sample. Peak heights and isotope are shown in the bottom panel for
+subsample 5.
+
+                                                                                    9
+G.P. Nolan et al.                                                                                                        Progress in Aerospace Sciences 128 (2022) 100788
+
+
+    Ten depths measurements were collected (from each of 5 subsample                  elements compared across the 5 subsample grains from the parent
+grains from the parent CB_JV-1 sample in the series). Each depth was                  sample CB_JV-1 (Fig. 9). Note that the relative amount of detectable Al
+approximately 1 nm in the Z dimension. Raw data for the entire run is in              varies up to 2-fold across the subsamples, Fe up to 10-fold, and Mg up to
+supplemental materials as Excel spreadsheets. The measurements for                    20-fold. While this can be explained potentially by relative oxidation
+each of the ten depths for each of the grains (subsamples) 1 through 5                levels of the individual constituents altering the ionization efficiencies,
+were summed and are shown in Fig. 7 as raw values between 20 and 60                   the samples chosen did not exhibit significant surface oxidation and
+mass units. While the subsamples showed similar elemental content, the                further over the depths of the samples (about 200–500 nm), there were
+ratios of the prominent elements differed slightly, suggesting the sample             no apparent differences in the relative detection of these 4 elements.
+grains arose from an inhomogeneous parent sample. For instance, note                  Therefore, it might be reasonable to conclude that the sample was
+in S10 (subsample 5) that the primary Fe peak cluster is greater than the             inhomogeneous (incompletely mixed) across its totality for reasons yet
+Mg cluster and those of Na, Al, and Si. However, the Fe cluster is                    to be determined.
+significantly lower relative to the other peaks in subsamples 1 through 4.                Examination of the entire mass spectrum suggests several potential
+The differences could be due to local variations in oxidation of the                  trace elements are present in the sample. The most significant is 72Ge
+sample. For instance, if Fe is oxidized in the other samples, it would be             with a mass of 71.922. However, again, the peak from the collected data
+subject to diatomic filtering of Fe–O due to instrument settings. Sup­                is at 71.83, suggesting again a diatomic from sample elemental con­
+porting this is the observation that samples 2 and 4, which had the                   stituents is the explanation.
+lowest ion counts across the mass range (meaning they were slightly
+oxidized and perhaps not well ionized during analysis) also had the                   5. Speculative conclusions
+lowest Fe peak cluster ratio relative to the other elements as detected in
+the samples.                                                                             We have outlined current trends in advanced materials analysis, as
+    In Fig. 8A (left panel) are shown the principal isotope counts for the            applied to solid samples collected in the field, with a view to determine
+most abundant elements between mass 20 and mass 60 for samples 1, 3,                  their nature, structure, and potential purpose. Our experience with the
+and 5 (samples 2 and 4 are not presented here due to the low ion counts).             Council Bluffs case study shows how difficult such a determination can
+These principal elements were Na, Mg, Al, Si, Ti, Fe, and Mn. Ti is not               be, even when abundant evidence is collected within minutes of an
+considered here in the analysis due to the presence of Ca and K in the                event, supported by reliable testimony from multiple witnesses and in
+sample, whose weights cannot be discriminated from from the trace                     well-defined meteorological conditions.
+amounts of isotopes of Ti. In addition, 23Na|23Na and 23Na|24 Mg di­
+atomics similarly overlap with the Ti peaks. High peaks such as Ca, K,
+                                                                                      5.1. Operation Morning Light
+and Ni are not included in this analysis due to the possible interference
+with significant diatomics. Other mass spectrometry approaches, such as
+                                                                                          After their initial dismissal, the US Air Force again took a special
+ICP-MS specifically targeted to this mass range will be needed to verify
+                                                                                      interest in this case because of another “crash” that took place in
+this result but would require the complete destruction of the sample.
+                                                                                      northern Canada at 11:53 a.m. GMT on January 24, 1978, only five
+    All isotope ratios were similar between the samples and did not show
+                                                                                      weeks after the unidentified observation and the recovery of metallic
+any statistically significant deviations from expected terrestrial normal
+                                                                                      material at Council Bluffs.
+except for 57Fe. In examining the ion values around 57Fe it is apparent
+                                                                                          The Canadian crash was the result of a malfunction aboard Cosmos
+that this slightly high value of 57Fe in the samples can be attributed to a
+                                                                                      954, a soviet reconnaissance satellite designed to observe ocean traffic,
+minor contribution of a diatomic peak around 57.05 (Fig. 9B, right
+                                                                                      including surface and undersea vessels. It was powered by a liquid
+panel). Since 56Fe is 91.72% of terrestrial Fe, this is likely to be caused by
+                                                                                      sodium-potassium thermionic converter driven by a nuclear reactor
+a minor contamination of Fe-hydride diatomic ions from contaminating
+                                                                                      containing 45 kilograms of uranium-235 [36]. Soviet authorities
+C–H or O–H sources.
+                                                                                      secretly warned the United States that control of the satellite had been
+    We examined the depth profile of all samples for the given elemental
+                                                                                      lost and that the system intended to propel the spent reactor core into a
+cluster set. Again, no variations from isotope frequencies were observed
+                                                                                      safe disposal orbit had failed. The science correspondent of the London
+(data not shown). A representative profile from subsample 3 is shown in
+                                                                                      Daily Mirror, Arthur Smith, pointed out the satellite was the fifteenth of
+Supplementary Fig. 6. As can be noted there is a slight increase in the
+                                                                                      its type to be launched by Russia [37,38]. The effort to recover radio­
+ionization efficiency with increasing depth which might be expected as
+                                                                                      active material from Cosmos 954 was dubbed Operation Morning Light.
+oxidation layers are removed during continued sample ablation.
+                                                                                      Thus, it was natural for US and Canadian authorities to revive their
+    While there were no significant differences noted in the measured
+                                                                                      lagging interest in Council Bluffs and to investigate a potential
+isotope ratios that could not be explained by artifactual interferences,
+                                                                                      connection.
+we did observe significant differences in the homogeneity of the
+                                                                                          Given the analytical results and the instrumental procedures
+
+
+
+
+Fig. 8. A. Table of primary elements and their isotopes with ion counts for subsamples 1, 3, and 5. Relative ratios of isotopes are calculated for each subsample and
+the natural ratio is shown in the final Table column. B. Ion counts for the masses around 57Fe showing a diatomic signature as represented by the black squares that
+indicate a non-Poisson distribution in the curve, suggesting a second minor peak.
+
+                                                                                 10
+G.P. Nolan et al.                                                                                                   Progress in Aerospace Sciences 128 (2022) 100788
+
+
+
+
+                     Fig. 9. Relative ratios of the elements for each of the subsamples indicating inhomogeneous elemental distribution.
+
+
+described above, it soon became clear there was no connection between             not fundamentally different from those we have outlined above. One
+the two events. The origin of the materials collected at Council Bluffs           would have to ask, does the catalogue of elements found in the material
+remained a tantalizing mystery, leading to speculation about more                 cause us to believe it does not come from our planet? The materials from
+esoteric theories about the hovering object with rotating lights inde­            Council Bluff show no evidence suggesting it was been engineered or
+pendently described by two of the witnesses. One is led to ask, what              designed. The material would not be expected to form naturally, and as
+would be the requirements to determine whether such materials were                shown does have unusual inhomogeneity. While we cannot divine the
+not man-made, but originated with an unknown source, either in the                purpose, that does not mean it could not be created by methods even
+solar neighborhood, or elsewhere in the galaxy? This includes the pos­            extant in the 1970s.
+sibility that the material was engineered in a purely conventional                    A definitive study of the isotope ratios would be part of any inves­
+manner by humans for yet purposes unknown.                                        tigation, while keeping in mind that such ratios should be expected to
+                                                                                  only vary by a small amount (a few percentage points) across our
+5.2. Potential significance of advanced material design                           neighborhood of the galaxy. Large differences in isotope ratios, on the
+                                                                                  other hand, while they would be interesting, would not, by themselves,
+   The fact that two witnesses (Mike and Criss Moore) saw a round                 “prove” an outer space origin: They would only mean that the material
+object hovering (“not falling”) with “red lights blinking around the pe­          had been re-engineered at the isotopic level (as major nations have been
+riphery” is intriguing. Such an object might have ejected the mass of             doing for the last 70 years, since the Manhattan Project, in separating
+material observed by the other witnesses and recovered by police.                 uranium isotopes to make atom bombs).
+   Even in such a speculative area, the scientific steps to be taken are
+
+                                                                             11
+G.P. Nolan et al.                                                                                                         Progress in Aerospace Sciences 128 (2022) 100788
+
+
+5.3. Liquid metal, MHD and advanced flying vehicles                                from unknown aerial objects. It has not been possible, or financially
+                                                                                   feasible to date, to bring full range of current materials analysis capa­
+     One aspect of the material is that it was claimed to have dropped             bilities to bear. Deep metallurgical analysis by specifically trained ana­
+from an aerial vehicle. Could liquid metal be part of some propulsion or           lysts will need to be consulted for each different material as warranted.
+power generation system? In the words of J. R. Bumby of the University             Recently, news reports have suggested the presence of other aerial craft
+of Durham, "the high conductivity of liquid metals makes them an                   of unknown provenance witnessed by Navy pilots concurrently detected
+attractive means of current collection for homopolar machines." [39]. A            with electronic sensors and visual identification [47–49]. While the data
+homopolar machine, when implying a motor of some kind is wherein the               collected about this set of events does not include any material evidence,
+electrical polarity of the conductor in the system and magnetic field              the day might come when materials from such events are available to be
+poles do not change, as with the first such electric motors built by               examined. Approaches that maximally provide information down to the
+Faraday as far back as 1821 [40]. He goes on to cite several such tech­            atomic scale are now applicable to such studies, including such devices
+niques, both superconducting and non-superconducting, that have been               as atom probes and cryo-electron microscopy. Since technology has
+built [41–43] and one that is commercially available [44,45]. No such              considerably improved since 1977, we are now better prepared to
+device has been reported to date, so such ideas remain highly                      analyze such events, with a view to bringing previously unidentified
+speculative.                                                                       episodes into the scope of practical and reproducible science. The
+     Similarly, liquid metal designs have been proposed for magneto-               objective is to provide data in an open-source manner so that others
+hydrodynamic (MHD) generators for the decomposition of toxic                       might replicate the analytic approaches or divine a testable hypothesis
+wastes and for superconducting airborne platforms [46]. However, the               of why and how such materials are deposited or left behind. To many
+composition of the liquids used in such machines is radically different            this will feel incomplete or insufficient, but this would be a premature
+from the list of elements in the Council Bluffs materials. As noted by             conclusion. In the case of Council Bluffs, however, the data is verifi­
+Busby, "At room temperature the only pure liquid metal is mercury,                 able… it is only the origin and nature of the material (and the phe­
+although at slightly higher temperature gallium (29.8 ◦ C) and sodium              nomenon in general) that remains open.
+(97.8 ◦ C) become liquid." Again, there is no current physics that could
+explain the use of liquid iron with impurities in any of the aforemen­
+tioned technologies. Actual machines are using sodium-potassium and                Declaration of competing interest
+gallium-indium mixtures as current conductors, thus minimizing wear
+and friction. The latter is liquid above 15.7 ◦ C. None of these elements              The authors declare that they have no known competing financial
+has been identified so far among the samples we have reviewed.                     interests or personal relationships that could have appeared to influence
+     A different approach has been proposed by J. Roser in correspon­              the work reported in this paper.
+dence with one of the authors: He hypothesized a nuclear design as a
+potential power plant, utilizing direct energy conversion rather than a            Acknowledgments
+heat-driven mechanical prime mover: "A closed cycle MHD generator
+with a liquid metal working fluid with no vapor staging pumping could                  The authors wish to thank the following persons who contributed to
+be configured in a torus or circular shape and would make very little              the documentation of the Council Bluffs case and to its scientific
+noise due to the lack of moving parts," he wrote, adding that the nuclear          investigation: Mr. Robert Allen, journalist, and amateur astronomer; Dr.
+process known as beta decay might allow the design to extract a surplus            Michael Angelo, IonPath, Inc.; Mr. Randy Fitzgerald, The Reader’s Digest;
+of power in the form of free electrons.                                            Mr. Robert Hansen, Director, Ames Laboratory, Iowa State University;
+     Assuming a working fluid of aluminum-27 plus some percentage of               Mr. Richard Masilko, investigator, Omaha, Nebraska; Mr. Jack Moore,
+phosphorus-31 (solitary stable isotopes of their respective elements)              assistant fire chief, Council Bluffs; Officer Dennis Murphy, Council Bluffs
+Roser speculated that depleted fluid might need to be occasionally ejected:        Police department; Colonel Charles H. Senn, USAF; Major Gateff,
+"This discarded material would contain Al-27, P-11, iron from the                  Foreign Technology Division, Wright-Patterson Air Force Base; and Mr.
+original melt or housing erosion, plus isotopes of nuclei close to                 Chuck Hitzman, Stanford University NanoSIMS center.
+aluminum and phosphorus such as Mg, Na, Si and S.” (Iron and Silicon
+were indeed found in our Council Bluffs samples, but the other elements
+                                                                                   Appendix A. Supplementary data
+were not present). Roser suggests further isotopic analysis to determine
+if it reveals anomalous isotopes (such as 32Si with half-life of 280 years)
+                                                                                      Supplementary data to this article can be found online at https://doi.
+which would indicate a nuclear-based power source. The latter isotope
+                                                                                   org/10.1016/j.paerosci.2021.100788.
+was not detected in the Council Bluffs materials. Should the Council
+Bluffs material be determined to be engineered for a function we don’t
+currently understand, it remains that our physics are as yet insufficient          References
+to explain the purpose of such a material.
+                                                                                    [1] https://en.wikipedia.org/wiki/Inductively_coupled_plasma_mass_spectrometry.
+                                                                                    [2] S.C. Wilschefski, M.R. Baxter, Inductively coupled plasma mass spectrometry:
+6. Summary                                                                              Introduction to analytical aspects. The clinical biochemist, Reviews 40 (3) (2019)
+                                                                                        115–133.
+                                                                                    [3] A.V. Walker, Secondary ion mass spectrometry, in: J.C. Lindon, G.E. Tranter, D.
+   Because of the clarity, abundance and timeliness of the testimony,                   W. Koppenaal (Eds.), Encyclopedia of Spectroscopy and Spectrometry, third ed.,
+and the open attitude of local police and fire investigators in the Council             Academic Press, Oxford, 2017, pp. 44–49.
+Bluffs case, we were able to investigate the event with a high degree of            [4] S.H. Kim YP, S.K. Shin, T.G. Lee, Probing nanoparticles and nanoparticle-
+                                                                                        conjugated biomolecules using time-of-flight secondary ion mass spectrometry,
+certainty as to chain of custody around the material obtained. While this               Mass Spectrom. Rev. 34 (2) (2015) 237–247.
+study verified the prior findings in terms of elemental composition and             [5] A.V. Singh, et al., ToF-SIMS 3D imaging unveils important insights on the cellular
+“natural” isotope content, we additionally found that there was local                   microenvironment during biomineralization of gold nanostructures, Sci. Rep. 10
+                                                                                        (1) (2020) 261.
+homogeneity of the samples to the degree measured, but considerable
+                                                                                    [6] S.K. Aggarwal, C.F. You, A review on the determination of isotope ratios of boron
+diversity in the elemental ratios across the subsamples. This implies that              with mass spectrometry, Mass Spectrom. Rev. 36 (4) (2017) 499–519.
+whatever the sample’s origins, it was incompletely mixed at the time of             [7] E.A. Bonnin, S.O. Rizzoli, Novel secondary ion mass spectrometry methods for the
+deposition.                                                                             examination of metabolic effects at the cellular and subcellular levels, Front.
+                                                                                        Behav. Neurosci. 14 (2020), 124-124.
+   The Council Bluffs case is one of many—the last several decades has              [8] A.P.Lynn, M.C.D., A review: secondary ion mass spectrometry (SIMS of polymeric
+recorded numerous cases wherein materials were claimed to be dropped                    biomaterials). Clin. Mater.. 5(2–4).
+
+
+                                                                              12
+G.P. Nolan et al.                                                                                                                       Progress in Aerospace Sciences 128 (2022) 100788
+
+ [9] X-ray crystallography, Wikipedia 2021 2021/09/09/T11:20:02Z; Available from:               [28] M. Li, et al., Stable isotope probing and Raman spectroscopy for monitoring carbon
+     https://en.wikipedia.org/w/index.php?title=X-ray_crystallography&oldid                          flow in a food chain and revealing metabolic pathway, Anal. Chem. 85 (3) (2013)
+     =1043299971.                                                                                    1642–1649.
+[10] B. Gault, et al., Atom probe tomography, Nat. Rev. Methods Prim. 1 (1) (2021)              [29] J. Vallee, Physical analyses in ten cases of unexplained areal objects with material
+     1–30.                                                                                           samples, J. Sci. Explor. 12 (3) (1998) 359–375.
+[11] N. Prantzos, O. Aubert, J. Audouze, Evolution of the carbon and oxygen isotopes in         [30] P. Sturrock, The UFO Enigma, a New Review of the Physical Evidence, Warner
+     the Galaxy, Astron. Astrophys. 309 (1996) 760–774.                                              Books, 1999.
+[12] R.C.c. Steven Goderis *ab, Vinciane Debaille d and János Kodolányi e, isotopes in        [31] Kayzer, Prof Frank, Metallurgy Division, Ames Laboratory, Cited in a Letter from
+     cosmochemistry: recipe for a Solar System, J. Anal. Atom. Spectrom. 31 (2016)                   Robert S. Hansen, Director, to Mr. Robert Allen. Private Communication, January 6,
+     841–862.                                                                                        1978.
+[13] J.A. Sechzer, et al., Aberrant parenting and delayed offspring development in rats         [32] 1993AJ....105.1114H Page 1114.
+     exposed to lithium, Biol. Psychiatr. 21 (13) (1986) 1258–1266.                             [33] Kinetic energy, Available from: https://www.engineeringtoolbox.com/kineti
+[14] A.N. Ramanayaka, et al., Use of quantum effects as potential qualifying metrics for             c-energy-d_944.html.
+     “quantum grade silicon”, AIP Adv. 9 (12) (2019) 125153.                                    [34] Impact force, Available from: https://www.engineeringtoolbox.com/impact-forc
+[15] W. Wu, et al., Isotope effect in bilayer WSe2, Nano Lett. 19 (3) (2019) 1527–1533.              e-d_1780.html.
+[16] N.V. Novikova, et al., Effect of isotope content on the cubic boron nitride lattice        [35] E.R.D. Scott, Iron Meteorites: Composition, Age, and Origin, Oxford Research
+     thermal conductivity, Diam. Relat. Mater. 9 (3–6) (2000) 629–631.                               Encyclopedia of Planetary Science, 2020.
+[17] P. Willke, et al., Hyperfine interaction of individual atoms on a surface, Science         [36] Herald-Tribune, N., 27 February 1978.
+     362 (6412) (2018) 336–339.                                                                 [37] Daily Mirror (London), 26 January 1978.
+[18] S. Huang, C. Hsieh, J. Yu, Effective Field Theories of Topological Crystalline             [38] Kosmos (satellite), Wikipedia 2021 2021/01/16/T07:20:01Z; Available from:
+     Insulators and Topological Crystals, 2021, p. 3409, arXiv:2107.                                 https://en.wikipedia.org/w/index.php?title=Kosmos_(satellite)&oldid=1
+[19] Y.-Z. Chou, et al., Acoustic-phonon-mediated Superconductivity in Rhombohedral                  000695372.
+     Trilayer Graphene, 2021 arXiv:2106.13231 [cond-mat].                                       [39] Bumby, Superconducting Rotating Electrical Machines, Monographs in Electrical
+[20] AAWSAP Program Documents, Defense intelligence reference documents,                             and Electronic Engineering, vol. 15, 1983.
+     Available from, https://irp.fas.org/dia/aatip-list.pdf, 2018.                              [40] Homopolar motor, Wikipedia 2021 2021/07/23/T05:43:15Z; Available from: http
+[21] S.C. Bendall, et al., Single-cell mass cytometry of differential immune and drug                s://en.wikipedia.org/w/index.php?title=Homopolar_motor&oldid=1035019815.
+     responses across a human hematopoietic continuum, Science 332 (6030) (2011)                [41] D.A. Watt, The Development and Operation of a 10 Kw Homopolar Generator with
+     687–696.                                                                                        Mercury Brushes, Institute of Electrical and Electronics Engineers, 1958 paper
+[22] L. Keren, et al., MIBI-TOF: a multiplexed imaging platform relates cellular                     2606U.
+     phenotypes and tissue structure, Sci. Adv. 5 (10) (2019) eaax5851.                         [42] J.T. Doyle, Shaped field superconductive d.c. Ship drive systems, Adv. Cryog. Eng.
+[23] M. Angelo, et al., Multiplexed ion beam imaging of human breast tumors, Nat.                    19 (1974) 162.
+     Med. 20 (4) (2014) 436–442.                                                                [43] J.F. Chabrerie, G. Fournet, A. Mailfert, Flooded Rotor, Direct current acyclic motor,
+[24] Sector mass spectrometer, Wikipedia 2021 2021/05/27/T18:36:09Z; Available                       with superconducting field winding, Proc. Appl. Supercond. Conf. 4 (23) (1972)
+     from: https://en.wikipedia.org/w/index.php?title=Sector_mass_spectrometer                       93–97. Annapolis.
+     &oldid=1025467649.                                                                         [44] D.L. Lewis, Practical Homopolar Machines. Use of Liquid Metal Slip Rings, Jal. Sci.
+[25] X. Rovira-Clavé, et al., Subcellular localization of biomolecules and drug                     Tech., 1971.
+     distribution by high-definition ion beam imaging, Nat. Commun. 12 (1) (2021)               [45] Lewis, D.L., Homopolar d.c. Machines for Industry. Elect. Rev., July 23, 1971.
+     4628.                                                                                      [46] H.L. Southall, C.E. Oberly, System considerations for airborne, high-power
+[26] Scanning transmission electron microscopy, Wikipedia 2021 2021/09/03/T03:09:                    superconducting generators, Inst. Electr. Electron. Eng. 15 (1) (1979) 711.
+     51Z; Available from: https://en.wikipedia.org/w/index.php?title=Scanning_tran              [47] Pentagon UFO Videos, Wikipedia, 2021.
+     smission_electron_microscopy&oldid=1042077375.                                             [48] L. David, Scientists Call for Serious Study of ’unidentified Aerial Phenomena,
+[27] Isotope Effects in Vibrational Spectroscopy, Chemistry LibreTexts, 2013.                        Space.com, 2020.
+                                                                                                [49] Loeb, A., To Look or Not to Look? that Is the Question. Scientific American.
+
+
+
+
+                                                                                           13
