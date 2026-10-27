@@ -1,0 +1,5725 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2013-11-22---NASA---Asteroid-Initiative-Workshop-Asteroid-Crew-Systems-Part-2_AoyPwadQXqw---transcript-automated-.txt", "source_sha256": "a37481fbcebba70978df24fe937d7dcc6b4cf7ffee47abf89c5487437a23f9c7", "source_bytes": 102197, "source_mtime": 1790709527, "source_mtime_ns": 1790709527403957021, "source_ctime_ns": 1790709527425091470, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T21:43:35.834192+00:00"}
+
+1
+00:00:05,670 --> 00:00:03,030
+okay thanks everybody for uh for
+
+2
+00:00:07,510 --> 00:00:05,680
+rejoining our session um first thing i'd
+
+3
+00:00:09,750 --> 00:00:07,520
+like to do is just
+
+4
+00:00:11,749 --> 00:00:09,760
+i think we had a fabulous session with
+
+5
+00:00:14,390 --> 00:00:11,759
+our presenters i'd like to
+
+6
+00:00:17,029 --> 00:00:14,400
+really thank everybody who submitted an
+
+7
+00:00:18,870 --> 00:00:17,039
+rfi input and presented today
+
+8
+00:00:20,630 --> 00:00:18,880
+um i think we had a so congratulations
+
+9
+00:00:22,550 --> 00:00:20,640
+to all i know it takes a lot of time and
+
+10
+00:00:24,310 --> 00:00:22,560
+energy to put these together
+
+11
+00:00:25,670 --> 00:00:24,320
+to write the paper and submit them but
+
+12
+00:00:27,589 --> 00:00:25,680
+there's some really good ideas that we
+
+13
+00:00:32,709 --> 00:00:27,599
+can use so thank you very much for
+
+14
+00:00:36,950 --> 00:00:34,870
+i'd also like to thank before we get
+
+15
+00:00:39,110 --> 00:00:36,960
+into talking about uh the different
+
+16
+00:00:40,549 --> 00:00:39,120
+topics that we'll kind of cover i'd
+
+17
+00:00:42,630 --> 00:00:40,559
+really like to thank a few people that
+
+18
+00:00:45,990 --> 00:00:42,640
+made this session possible like to thank
+
+19
+00:00:48,709 --> 00:00:46,000
+mark mcdonald who led our cat team
+
+20
+00:00:50,709 --> 00:00:48,719
+joe gard who helped look at all the rfi
+
+21
+00:00:51,830 --> 00:00:50,719
+submittals and pedro lopez who isn't
+
+22
+00:00:54,069 --> 00:00:51,840
+here today
+
+23
+00:00:55,189 --> 00:00:54,079
+wendy watkins for helping support the
+
+24
+00:00:58,310 --> 00:00:55,199
+session
+
+25
+00:00:59,910 --> 00:00:58,320
+alma stephanie tapia who's kept me
+
+26
+00:01:01,349 --> 00:00:59,920
+trying to keep me straight
+
+27
+00:01:02,869 --> 00:01:01,359
+for this whole
+
+28
+00:01:04,469 --> 00:01:02,879
+this whole workshop and for many other
+
+29
+00:01:05,590 --> 00:01:04,479
+things she's helped organize our session
+
+30
+00:01:07,590 --> 00:01:05,600
+today
+
+31
+00:01:08,630 --> 00:01:07,600
+carlos westell who's helped build the
+
+32
+00:01:09,990 --> 00:01:08,640
+charts
+
+33
+00:01:12,310 --> 00:01:10,000
+and
+
+34
+00:01:13,990 --> 00:01:12,320
+all our other team members back in
+
+35
+00:01:15,190 --> 00:01:14,000
+houston that really helped make this
+
+36
+00:01:16,710 --> 00:01:15,200
+possible
+
+37
+00:01:18,149 --> 00:01:16,720
+so what we're going to do is hopefully
+
+38
+00:01:20,149 --> 00:01:18,159
+we'll make this a little interactive but
+
+39
+00:01:21,830 --> 00:01:20,159
+we'll try to talk about
+
+40
+00:01:23,350 --> 00:01:21,840
+a few of the different topics coming out
+
+41
+00:01:24,870 --> 00:01:23,360
+of today's session and where we go
+
+42
+00:01:26,710 --> 00:01:24,880
+forward from here
+
+43
+00:01:28,070 --> 00:01:26,720
+we really see this in in a couple of
+
+44
+00:01:29,830 --> 00:01:28,080
+different uh
+
+45
+00:01:31,510 --> 00:01:29,840
+a couple different frameworks these are
+
+46
+00:01:33,990 --> 00:01:31,520
+the building blocks that we use that i
+
+47
+00:01:35,990 --> 00:01:34,000
+talked about we were really trying to to
+
+48
+00:01:37,590 --> 00:01:36,000
+make this mission very affordable very
+
+49
+00:01:39,270 --> 00:01:37,600
+lean and just use the bare bones
+
+50
+00:01:40,950 --> 00:01:39,280
+capabilities for orion
+
+51
+00:01:42,550 --> 00:01:40,960
+today
+
+52
+00:01:46,310 --> 00:01:42,560
+you guys have presented some amazing
+
+53
+00:01:48,149 --> 00:01:46,320
+ideas of how we can move forward
+
+54
+00:01:49,670 --> 00:01:48,159
+we'll talk about things under four
+
+55
+00:01:51,109 --> 00:01:49,680
+different areas extensibility for
+
+56
+00:01:52,630 --> 00:01:51,119
+exploration
+
+57
+00:01:54,870 --> 00:01:52,640
+anchoring techniques
+
+58
+00:01:56,310 --> 00:01:54,880
+translation and tools robotics and
+
+59
+00:01:58,550 --> 00:01:56,320
+additional mass
+
+60
+00:02:00,870 --> 00:01:58,560
+delivery for utilization
+
+61
+00:02:02,149 --> 00:02:00,880
+the way we kind of see the mission
+
+62
+00:02:05,670 --> 00:02:02,159
+for those of you that are familiar with
+
+63
+00:02:08,869 --> 00:02:07,270
+you know today we have the international
+
+64
+00:02:11,029 --> 00:02:08,879
+space station at the top row and we're
+
+65
+00:02:12,949 --> 00:02:11,039
+doing amazing exploration
+
+66
+00:02:14,390 --> 00:02:12,959
+work onboard the space station closed
+
+67
+00:02:15,910 --> 00:02:14,400
+loop life support
+
+68
+00:02:17,190 --> 00:02:15,920
+habitability human health and
+
+69
+00:02:19,190 --> 00:02:17,200
+performance
+
+70
+00:02:20,869 --> 00:02:19,200
+the next phase is this asteroid redirect
+
+71
+00:02:22,710 --> 00:02:20,879
+mission in the next row where we'll do
+
+72
+00:02:25,190 --> 00:02:22,720
+some exploration of that
+
+73
+00:02:27,270 --> 00:02:25,200
+that asteroid in one or two missions is
+
+74
+00:02:29,270 --> 00:02:27,280
+kind of the concept those sort of feed
+
+75
+00:02:30,949 --> 00:02:29,280
+into an extended duration time frame in
+
+76
+00:02:32,550 --> 00:02:30,959
+cis lunar space and many of the ideas
+
+77
+00:02:35,670 --> 00:02:32,560
+that we've talked about
+
+78
+00:02:38,309 --> 00:02:35,680
+with enhanced robotics uh with modules
+
+79
+00:02:40,550 --> 00:02:38,319
+to extend our duration and cis lunar
+
+80
+00:02:42,470 --> 00:02:40,560
+space beyond what orion provides those
+
+81
+00:02:44,550 --> 00:02:42,480
+are the things that feed into that into
+
+82
+00:02:46,390 --> 00:02:44,560
+that kind of realm that lunar vicinity
+
+83
+00:02:48,830 --> 00:02:46,400
+cis lunar space
+
+84
+00:02:51,670 --> 00:02:48,840
+will sort of use this as a staging point
+
+85
+00:02:52,790 --> 00:02:51,680
+for sort of building up for exploration
+
+86
+00:02:55,030 --> 00:02:52,800
+and then
+
+87
+00:02:57,750 --> 00:02:55,040
+the the global exploration roadmap shows
+
+88
+00:03:00,149 --> 00:02:57,760
+the next phase of of other partners who
+
+89
+00:03:02,949 --> 00:03:00,159
+are interested very much in the lunar
+
+90
+00:03:04,949 --> 00:03:02,959
+operations it shows a path there that
+
+91
+00:03:06,710 --> 00:03:04,959
+nasa would support those operations
+
+92
+00:03:08,390 --> 00:03:06,720
+should another partner decide
+
+93
+00:03:09,990 --> 00:03:08,400
+to pursue that and then of course our
+
+94
+00:03:13,110 --> 00:03:10,000
+ultimate destination on the bottom row
+
+95
+00:03:14,869 --> 00:03:13,120
+is sustainability toward mars and so the
+
+96
+00:03:16,550 --> 00:03:14,879
+things when we talk about what
+
+97
+00:03:19,190 --> 00:03:16,560
+capabilities to pursue
+
+98
+00:03:20,949 --> 00:03:19,200
+we need to keep in mind the end goal of
+
+99
+00:03:22,710 --> 00:03:20,959
+mars is the destination
+
+100
+00:03:24,229 --> 00:03:22,720
+and also these these other paths in
+
+101
+00:03:25,910 --> 00:03:24,239
+system or space
+
+102
+00:03:27,589 --> 00:03:25,920
+so what we want to do is take the
+
+103
+00:03:30,229 --> 00:03:27,599
+initial mission which is
+
+104
+00:03:32,390 --> 00:03:30,239
+we agree is a very uh capable mission
+
+105
+00:03:34,309 --> 00:03:32,400
+but very very simplistic and sort of
+
+106
+00:03:36,710 --> 00:03:34,319
+build upon that with the things we've
+
+107
+00:03:38,630 --> 00:03:36,720
+talked about today
+
+108
+00:03:39,990 --> 00:03:38,640
+so here's kind of a notional path that
+
+109
+00:03:42,309 --> 00:03:40,000
+we might uh
+
+110
+00:03:45,589 --> 00:03:42,319
+we might be on this is our concept of
+
+111
+00:03:47,030 --> 00:03:45,599
+extensibility sort of in the near term
+
+112
+00:03:48,949 --> 00:03:47,040
+you know we would fly a couple of
+
+113
+00:03:50,949 --> 00:03:48,959
+missions testing out the orion
+
+114
+00:03:53,509 --> 00:03:50,959
+capabilities then we would fly maybe
+
+115
+00:03:55,190 --> 00:03:53,519
+this arm mission to the asteroid you can
+
+116
+00:03:56,710 --> 00:03:55,200
+see the robotic spacecraft in the upper
+
+117
+00:03:58,949 --> 00:03:56,720
+left and then we would bring orion up
+
+118
+00:04:00,630 --> 00:03:58,959
+and then we sort of see this next phase
+
+119
+00:04:02,149 --> 00:04:00,640
+is extended operations in cis-lunar
+
+120
+00:04:04,550 --> 00:04:02,159
+space
+
+121
+00:04:07,509 --> 00:04:04,560
+where we might have a habitation module
+
+122
+00:04:09,350 --> 00:04:07,519
+of sorts we show a node-like module but
+
+123
+00:04:11,350 --> 00:04:09,360
+but boeing and lockheed had really good
+
+124
+00:04:12,710 --> 00:04:11,360
+ideas as well on how to how to extend
+
+125
+00:04:13,589 --> 00:04:12,720
+that capability how to do different
+
+126
+00:04:15,429 --> 00:04:13,599
+things
+
+127
+00:04:17,110 --> 00:04:15,439
+perhaps that module is an international
+
+128
+00:04:19,110 --> 00:04:17,120
+module as mike
+
+129
+00:04:20,629 --> 00:04:19,120
+rafferty showed in his presentation and
+
+130
+00:04:22,150 --> 00:04:20,639
+then we showed you know maybe there's
+
+131
+00:04:23,189 --> 00:04:22,160
+some resupply
+
+132
+00:04:25,350 --> 00:04:23,199
+vehicle
+
+133
+00:04:28,550 --> 00:04:25,360
+on there as well and then there's sort
+
+134
+00:04:30,150 --> 00:04:28,560
+of a path as we build in cis-lunar space
+
+135
+00:04:32,070 --> 00:04:30,160
+then we can build toward a mars deep
+
+136
+00:04:34,710 --> 00:04:32,080
+exploration capability or
+
+137
+00:04:37,110 --> 00:04:34,720
+maybe some uh some lunar excursions to
+
+138
+00:04:38,550 --> 00:04:37,120
+to work telerobotics with with the with
+
+139
+00:04:40,310 --> 00:04:38,560
+the lunar surface so there's sort of a
+
+140
+00:04:41,909 --> 00:04:40,320
+path that supports the global
+
+141
+00:04:43,189 --> 00:04:41,919
+exploration roadmap we've had to work
+
+142
+00:04:44,710 --> 00:04:43,199
+hand-in-hand with our partners through
+
+143
+00:04:46,629 --> 00:04:44,720
+this process
+
+144
+00:04:48,950 --> 00:04:46,639
+so this is just sort of notional of how
+
+145
+00:04:50,870 --> 00:04:48,960
+how we sort of see it
+
+146
+00:04:52,629 --> 00:04:50,880
+in the workshop today we've had a lot of
+
+147
+00:04:54,390 --> 00:04:52,639
+really good ideas on extending orion
+
+148
+00:04:55,990 --> 00:04:54,400
+capability beyond
+
+149
+00:04:57,350 --> 00:04:56,000
+what it's designed for which is for crew
+
+150
+00:04:59,110 --> 00:04:57,360
+21 days
+
+151
+00:05:01,029 --> 00:04:59,120
+you know we thought that the pantry idea
+
+152
+00:05:01,909 --> 00:05:01,039
+was a really great idea by lockheed to
+
+153
+00:05:05,350 --> 00:05:01,919
+try to
+
+154
+00:05:07,670 --> 00:05:05,360
+extend that capability uh and
+
+155
+00:05:10,629 --> 00:05:07,680
+in a relatively simplistic approach i
+
+156
+00:05:12,390 --> 00:05:10,639
+think we would have to to work on
+
+157
+00:05:14,870 --> 00:05:12,400
+launch mass and how that mission would
+
+158
+00:05:17,189 --> 00:05:14,880
+be executed to social interspace
+
+159
+00:05:18,790 --> 00:05:17,199
+with our early block one
+
+160
+00:05:20,230 --> 00:05:18,800
+we we have
+
+161
+00:05:21,990 --> 00:05:20,240
+very good capability but we'd have to
+
+162
+00:05:23,510 --> 00:05:22,000
+look at that carefully
+
+163
+00:05:25,189 --> 00:05:23,520
+the pantry is pretty unique and
+
+164
+00:05:27,830 --> 00:05:25,199
+innovative and that you know we could
+
+165
+00:05:29,830 --> 00:05:27,840
+stow with some additional uh
+
+166
+00:05:32,150 --> 00:05:29,840
+eva hardware additional food to extend
+
+167
+00:05:33,430 --> 00:05:32,160
+that duration and just use orion so it's
+
+168
+00:05:35,749 --> 00:05:33,440
+looks like it would be something we
+
+169
+00:05:38,629 --> 00:05:35,759
+could study and be pretty affordable
+
+170
+00:05:40,710 --> 00:05:38,639
+then on the lower left we see you know
+
+171
+00:05:42,550 --> 00:05:40,720
+the boeing approach which
+
+172
+00:05:45,510 --> 00:05:42,560
+shows maybe more extended capability
+
+173
+00:05:47,270 --> 00:05:45,520
+using using a node attached to the arv
+
+174
+00:05:49,029 --> 00:05:47,280
+which is a very similar concept to what
+
+175
+00:05:51,510 --> 00:05:49,039
+what we've looked at as well and trying
+
+176
+00:05:52,870 --> 00:05:51,520
+to extend that operations in in cisco
+
+177
+00:05:53,990 --> 00:05:52,880
+interspace so we think that feeds
+
+178
+00:05:54,790 --> 00:05:54,000
+forward very well and something that
+
+179
+00:05:59,830 --> 00:05:54,800
+we'll
+
+180
+00:06:01,990 --> 00:05:59,840
+and then you know beyond that there was
+
+181
+00:06:03,590 --> 00:06:02,000
+some really good ideas relative to
+
+182
+00:06:05,270 --> 00:06:03,600
+robotics and how
+
+183
+00:06:06,950 --> 00:06:05,280
+we could extend the capability and
+
+184
+00:06:10,710 --> 00:06:06,960
+provide more capability
+
+185
+00:06:12,710 --> 00:06:10,720
+from from mda from goddard from atk and
+
+186
+00:06:15,189 --> 00:06:12,720
+from several others on how we could we
+
+187
+00:06:17,189 --> 00:06:15,199
+could maybe extend that capability
+
+188
+00:06:18,790 --> 00:06:17,199
+that really augments the asteroid
+
+189
+00:06:20,230 --> 00:06:18,800
+mission it provides
+
+190
+00:06:22,550 --> 00:06:20,240
+you know extended capability we'd have
+
+191
+00:06:24,550 --> 00:06:22,560
+to mature the suits along with that
+
+192
+00:06:26,710 --> 00:06:24,560
+today that the suits as i talked about
+
+193
+00:06:28,870 --> 00:06:26,720
+earlier and talked about yesterday
+
+194
+00:06:29,909 --> 00:06:28,880
+the early suit capability that we're
+
+195
+00:06:31,830 --> 00:06:29,919
+employing
+
+196
+00:06:34,390 --> 00:06:31,840
+is a very limited capability and so we'd
+
+197
+00:06:36,070 --> 00:06:34,400
+have to expand our eva capability to
+
+198
+00:06:38,150 --> 00:06:36,080
+to utilize some of these robotics and
+
+199
+00:06:41,270 --> 00:06:38,160
+then at the bottom again
+
+200
+00:06:42,950 --> 00:06:41,280
+we see a nice concept with another
+
+201
+00:06:45,430 --> 00:06:42,960
+perhaps international partner module
+
+202
+00:06:47,430 --> 00:06:45,440
+extending operations in cisco interspace
+
+203
+00:06:48,550 --> 00:06:47,440
+so we really see this as a series of
+
+204
+00:06:50,710 --> 00:06:48,560
+missions
+
+205
+00:06:53,990 --> 00:06:50,720
+not just one initial mission we've
+
+206
+00:06:55,830 --> 00:06:54,000
+talked openly about the first mission
+
+207
+00:06:57,830 --> 00:06:55,840
+a lot and we've worked on that at the
+
+208
+00:07:00,070 --> 00:06:57,840
+conceptual level we really need to kind
+
+209
+00:07:01,110 --> 00:07:00,080
+of string together some some sequence of
+
+210
+00:07:02,710 --> 00:07:01,120
+missions
+
+211
+00:07:05,110 --> 00:07:02,720
+and i think i'll pause here to see if
+
+212
+00:07:06,469 --> 00:07:05,120
+there's any comments from anybody
+
+213
+00:07:08,150 --> 00:07:06,479
+in the audience
+
+214
+00:07:09,670 --> 00:07:08,160
+in our panel today relative to
+
+215
+00:07:12,469 --> 00:07:09,680
+extensibility
+
+216
+00:07:18,629 --> 00:07:12,479
+um whether mike or somebody wants to
+
+217
+00:07:21,749 --> 00:07:20,230
+if we can talk a little bit about the
+
+218
+00:07:23,909 --> 00:07:21,759
+sequence of missions
+
+219
+00:07:28,230 --> 00:07:23,919
+concept um that seems like a really
+
+220
+00:07:31,430 --> 00:07:28,240
+important concept and it's difficult
+
+221
+00:07:34,550 --> 00:07:31,440
+not having a firm destination set for
+
+222
+00:07:36,230 --> 00:07:34,560
+after asteroid but maybe there's ways to
+
+223
+00:07:37,909 --> 00:07:36,240
+look at
+
+224
+00:07:40,469 --> 00:07:37,919
+capabilities in a sequence of missions
+
+225
+00:07:42,390 --> 00:07:40,479
+that feed forward directly to mars and
+
+226
+00:07:44,629 --> 00:07:42,400
+have
+
+227
+00:07:47,670 --> 00:07:44,639
+direct applicability to that kind of
+
+228
+00:07:48,869 --> 00:07:47,680
+mission has been maybe emphasized
+
+229
+00:07:50,230 --> 00:07:48,879
+um
+
+230
+00:07:51,589 --> 00:07:50,240
+and it seems like that would tie in with
+
+231
+00:07:52,869 --> 00:07:51,599
+the ger what are your thoughts about
+
+232
+00:07:54,550 --> 00:07:52,879
+that steve
+
+233
+00:07:57,510 --> 00:07:54,560
+yeah i think we're sort of looking at
+
+234
+00:07:59,350 --> 00:07:57,520
+you know how do we tie together uh
+
+235
+00:08:01,270 --> 00:07:59,360
+how do we start with this mission and
+
+236
+00:08:03,589 --> 00:08:01,280
+then build upon that and the sequence of
+
+237
+00:08:05,589 --> 00:08:03,599
+missions that gets us to mars and what
+
+238
+00:08:07,430 --> 00:08:05,599
+would those missions look like
+
+239
+00:08:08,869 --> 00:08:07,440
+what would the propulsion system look
+
+240
+00:08:10,710 --> 00:08:08,879
+like how does the solar electric
+
+241
+00:08:12,150 --> 00:08:10,720
+propulsion feed forward
+
+242
+00:08:14,230 --> 00:08:12,160
+um how do the solar array technology
+
+243
+00:08:16,150 --> 00:08:14,240
+feed forward all that we think you know
+
+244
+00:08:18,550 --> 00:08:16,160
+lines up very well with with cargo
+
+245
+00:08:20,390 --> 00:08:18,560
+delivery to mars and so some sequence of
+
+246
+00:08:22,790 --> 00:08:20,400
+of launches we think system of space
+
+247
+00:08:24,309 --> 00:08:22,800
+will be an area will operate in for some
+
+248
+00:08:25,430 --> 00:08:24,319
+period of time as we do the build up
+
+249
+00:08:27,270 --> 00:08:25,440
+just like for international space
+
+250
+00:08:29,029 --> 00:08:27,280
+station there was some sequence of time
+
+251
+00:08:31,430 --> 00:08:29,039
+where you're building up
+
+252
+00:08:32,790 --> 00:08:31,440
+but we agree mike that there's some
+
+253
+00:08:34,630 --> 00:08:32,800
+period of time where we're going to be
+
+254
+00:08:36,870 --> 00:08:34,640
+building up a capability
+
+255
+00:08:39,990 --> 00:08:36,880
+in cisco inner space and as we begin to
+
+256
+00:08:47,670 --> 00:08:40,000
+move out toward mars
+
+257
+00:08:53,590 --> 00:08:51,269
+i think you you said it well steve um
+
+258
+00:08:56,310 --> 00:08:53,600
+by looking forward
+
+259
+00:08:59,910 --> 00:08:56,320
+that's really the focus of where human
+
+260
+00:09:02,150 --> 00:08:59,920
+exploration is going on to mars and and
+
+261
+00:09:03,750 --> 00:09:02,160
+i think we kind of although the asteroid
+
+262
+00:09:05,590 --> 00:09:03,760
+mission is very important we think of
+
+263
+00:09:06,870 --> 00:09:05,600
+that as a stepping stone to going
+
+264
+00:09:08,630 --> 00:09:06,880
+further so
+
+265
+00:09:10,470 --> 00:09:08,640
+keeping that in mind and making sure
+
+266
+00:09:13,910 --> 00:09:10,480
+that things for the asteroid mission are
+
+267
+00:09:15,829 --> 00:09:13,920
+proving out that next step is crucial in
+
+268
+00:09:17,829 --> 00:09:15,839
+doing things that are extensive
+
+269
+00:09:20,550 --> 00:09:17,839
+extensible in that regard
+
+270
+00:09:21,910 --> 00:09:20,560
+i agree we see the asteroid mission as a
+
+271
+00:09:23,990 --> 00:09:21,920
+a nice foundation where we get those
+
+272
+00:09:25,590 --> 00:09:24,000
+early capabilities docking
+
+273
+00:09:27,110 --> 00:09:25,600
+um eva
+
+274
+00:09:29,110 --> 00:09:27,120
+and then the solar array insular
+
+275
+00:09:31,430 --> 00:09:29,120
+electric propulsion and we can operate
+
+276
+00:09:33,990 --> 00:09:31,440
+relatively close to the earth it's much
+
+277
+00:09:35,350 --> 00:09:34,000
+further 10 days or 12 days away relative
+
+278
+00:09:38,710 --> 00:09:35,360
+to where we're at with space station but
+
+279
+00:09:40,550 --> 00:09:38,720
+it's a kind of a stepping stone approach
+
+280
+00:09:42,630 --> 00:09:40,560
+i think ben has a comment
+
+281
+00:09:44,710 --> 00:09:42,640
+yeah
+
+282
+00:09:46,150 --> 00:09:44,720
+i would say that uh and i know you're
+
+283
+00:09:48,230 --> 00:09:46,160
+doing this as well but just to let the
+
+284
+00:09:50,150 --> 00:09:48,240
+public know that not only
+
+285
+00:09:51,750 --> 00:09:50,160
+destinations you know where are we going
+
+286
+00:09:53,269 --> 00:09:51,760
+to go next but
+
+287
+00:09:55,990 --> 00:09:53,279
+just sticking around there's still lots
+
+288
+00:09:58,710 --> 00:09:56,000
+of very meaningful work that the crew
+
+289
+00:10:01,590 --> 00:09:58,720
+can do in orbit that robots can't do by
+
+290
+00:10:03,190 --> 00:10:01,600
+themselves like assemble very large
+
+291
+00:10:04,870 --> 00:10:03,200
+observatories
+
+292
+00:10:06,550 --> 00:10:04,880
+so i think as we develop the
+
+293
+00:10:09,910 --> 00:10:06,560
+capabilities here to stay out there
+
+294
+00:10:11,990 --> 00:10:09,920
+longer to have advanced
+
+295
+00:10:15,190 --> 00:10:12,000
+techniques for evas and robotics
+
+296
+00:10:18,069 --> 00:10:15,200
+assembly and and manipulation of goods
+
+297
+00:10:19,670 --> 00:10:18,079
+that that lends itself extremely well
+
+298
+00:10:21,910 --> 00:10:19,680
+towards
+
+299
+00:10:23,190 --> 00:10:21,920
+a meaningful goal for the public
+
+300
+00:10:26,870 --> 00:10:23,200
+and
+
+301
+00:10:29,670 --> 00:10:26,880
+science missions that could not
+
+302
+00:10:31,590 --> 00:10:29,680
+otherwise be done right it is enabling
+
+303
+00:10:32,949 --> 00:10:31,600
+to science
+
+304
+00:10:34,870 --> 00:10:32,959
+and i think that's one of the things
+
+305
+00:10:36,150 --> 00:10:34,880
+that made the hubble mission so
+
+306
+00:10:38,870 --> 00:10:36,160
+successful
+
+307
+00:10:41,829 --> 00:10:38,880
+for everyone is not just that we did
+
+308
+00:10:44,150 --> 00:10:41,839
+neato engineering things but we rewrote
+
+309
+00:10:45,829 --> 00:10:44,160
+the textbook two or three and four times
+
+310
+00:10:48,069 --> 00:10:45,839
+over with the science that hubble did
+
+311
+00:10:49,910 --> 00:10:48,079
+afterwards that was only possible
+
+312
+00:10:51,829 --> 00:10:49,920
+because of the crew
+
+313
+00:10:53,829 --> 00:10:51,839
+the crew and robots working together to
+
+314
+00:10:56,630 --> 00:10:53,839
+change out those instruments and to to
+
+315
+00:10:59,590 --> 00:10:56,640
+do the repairs the unplanned tasks
+
+316
+00:11:02,069 --> 00:10:59,600
+that i think is is one way that nasa can
+
+317
+00:11:04,310 --> 00:11:02,079
+you know recapture the american spirit
+
+318
+00:11:06,150 --> 00:11:04,320
+and and support is by doing meaningful
+
+319
+00:11:07,350 --> 00:11:06,160
+missions like that
+
+320
+00:11:09,350 --> 00:11:07,360
+thanks ben
+
+321
+00:11:10,710 --> 00:11:09,360
+and we think too you know
+
+322
+00:11:12,069 --> 00:11:10,720
+i think chris moore said it best
+
+323
+00:11:14,470 --> 00:11:12,079
+probably last night when he talked about
+
+324
+00:11:16,389 --> 00:11:14,480
+the asteroid mission being unique i
+
+325
+00:11:18,550 --> 00:11:16,399
+think we in human spaceflight think of
+
+326
+00:11:21,190 --> 00:11:18,560
+the piece parts about
+
+327
+00:11:23,269 --> 00:11:21,200
+robotics and eva
+
+328
+00:11:25,350 --> 00:11:23,279
+how we would collect the samples how we
+
+329
+00:11:27,910 --> 00:11:25,360
+would dock and rendezvous but
+
+330
+00:11:30,069 --> 00:11:27,920
+the the power of moving a heavenly body
+
+331
+00:11:32,470 --> 00:11:30,079
+from an orbit that it's been in
+
+332
+00:11:36,389 --> 00:11:32,480
+from its inception
+
+333
+00:11:38,310 --> 00:11:36,399
+four billion years ago to a location
+
+334
+00:11:40,550 --> 00:11:38,320
+is very very powerful as well so we
+
+335
+00:11:41,910 --> 00:11:40,560
+think that is is a
+
+336
+00:11:42,949 --> 00:11:41,920
+big selling point for the mission as
+
+337
+00:11:49,990 --> 00:11:42,959
+well
+
+338
+00:11:54,150 --> 00:11:51,190
+so they were just wondering if you
+
+339
+00:11:56,150 --> 00:11:54,160
+wanted to comment on um how the asteroid
+
+340
+00:11:58,389 --> 00:11:56,160
+mission actually extends into other
+
+341
+00:11:59,269 --> 00:11:58,399
+destinations i think i'll let mark do
+
+342
+00:12:00,629 --> 00:11:59,279
+this
+
+343
+00:12:01,590 --> 00:12:00,639
+okay
+
+344
+00:12:03,269 --> 00:12:01,600
+um
+
+345
+00:12:05,030 --> 00:12:03,279
+there's actually several ways that the
+
+346
+00:12:07,750 --> 00:12:05,040
+technologies that we're investing in
+
+347
+00:12:10,550 --> 00:12:07,760
+today directly apply to future missions
+
+348
+00:12:12,310 --> 00:12:10,560
+uh easily the most easy example is orion
+
+349
+00:12:13,750 --> 00:12:12,320
+the re-entry speeds that we demonstrate
+
+350
+00:12:15,670 --> 00:12:13,760
+on this mission are the same re-entry
+
+351
+00:12:17,430 --> 00:12:15,680
+speeds we would need for any lunar
+
+352
+00:12:19,590 --> 00:12:17,440
+mission that you would want to support
+
+353
+00:12:21,030 --> 00:12:19,600
+international desires but based on your
+
+354
+00:12:23,110 --> 00:12:21,040
+mission design it can also support
+
+355
+00:12:24,870 --> 00:12:23,120
+missions further into deep space
+
+356
+00:12:26,470 --> 00:12:24,880
+and is a stepping stone in proving out
+
+357
+00:12:28,629 --> 00:12:26,480
+the technologies necessary for mars
+
+358
+00:12:29,750 --> 00:12:28,639
+entries additional technology developed
+
+359
+00:12:31,190 --> 00:12:29,760
+would need to be done on the heat shield
+
+360
+00:12:34,069 --> 00:12:31,200
+for that but this is would be the
+
+361
+00:12:34,870 --> 00:12:34,079
+fastest re-entry that we had ever done
+
+362
+00:12:36,710 --> 00:12:34,880
+so
+
+363
+00:12:38,870 --> 00:12:36,720
+the second thing is the uva suits which
+
+364
+00:12:40,710 --> 00:12:38,880
+steve mentioned earlier the plus suits
+
+365
+00:12:42,949 --> 00:12:40,720
+the portable life support systems for
+
+366
+00:12:45,509 --> 00:12:42,959
+the for the cva would be exactly
+
+367
+00:12:48,310 --> 00:12:45,519
+applicable to a lunar surface eva or any
+
+368
+00:12:49,910 --> 00:12:48,320
+deep space eva with minor modifications
+
+369
+00:12:52,389 --> 00:12:49,920
+the same life support system could work
+
+370
+00:12:53,990 --> 00:12:52,399
+for a mars surface surfacing so that
+
+371
+00:12:56,629 --> 00:12:54,000
+that would apply as well
+
+372
+00:12:58,470 --> 00:12:56,639
+microgravity suits for for all of the
+
+373
+00:13:01,110 --> 00:12:58,480
+robotic crew interactions
+
+374
+00:13:03,430 --> 00:13:01,120
+in a second step for logistics we could
+
+375
+00:13:05,590 --> 00:13:03,440
+bring up additional microgravity suits
+
+376
+00:13:07,750 --> 00:13:05,600
+to augment our initial capability and
+
+377
+00:13:09,670 --> 00:13:07,760
+this would be a stepping stone for that
+
+378
+00:13:10,790 --> 00:13:09,680
+solar electric propulsion on the robotic
+
+379
+00:13:12,310 --> 00:13:10,800
+side
+
+380
+00:13:15,190 --> 00:13:12,320
+when you look at the efficiencies of
+
+381
+00:13:17,750 --> 00:13:15,200
+solar electric propulsion compared to
+
+382
+00:13:20,550 --> 00:13:17,760
+chemical propulsion it's dramatic
+
+383
+00:13:21,670 --> 00:13:20,560
+so having a 40 kilowatt class
+
+384
+00:13:23,829 --> 00:13:21,680
+sep
+
+385
+00:13:25,590 --> 00:13:23,839
+tug it's not only applicable for
+
+386
+00:13:28,150 --> 00:13:25,600
+reorganizing the solar system as steve
+
+387
+00:13:30,389 --> 00:13:28,160
+describes but is an extremely effective
+
+388
+00:13:34,069 --> 00:13:30,399
+way of delivering cargo
+
+389
+00:13:35,990 --> 00:13:34,079
+to a cis lunar base all right for
+
+390
+00:13:38,389 --> 00:13:36,000
+observations or whatever science you
+
+391
+00:13:39,990 --> 00:13:38,399
+chose to do if you wanted to support an
+
+392
+00:13:41,269 --> 00:13:40,000
+international mission to the moon that
+
+393
+00:13:43,269 --> 00:13:41,279
+could be a tug to support an
+
+394
+00:13:46,389 --> 00:13:43,279
+international mission and for mars
+
+395
+00:13:48,150 --> 00:13:46,399
+staging to deliver mars elements to mars
+
+396
+00:13:49,990 --> 00:13:48,160
+it's a technology stepping stone of
+
+397
+00:13:52,230 --> 00:13:50,000
+increasing our solar array efficiencies
+
+398
+00:13:54,069 --> 00:13:52,240
+and the ability to do large-scale solar
+
+399
+00:13:56,230 --> 00:13:54,079
+stepping towards the capabilities we
+
+400
+00:13:58,069 --> 00:13:56,240
+would need for mars that's actually the
+
+401
+00:14:00,710 --> 00:13:58,079
+beauty of this mission is that
+
+402
+00:14:02,470 --> 00:14:00,720
+everything we're doing applies
+
+403
+00:14:05,110 --> 00:14:02,480
+whether or not the asteroid mission's
+
+404
+00:14:07,590 --> 00:14:05,120
+there it's a very flexible technology
+
+405
+00:14:09,030 --> 00:14:07,600
+place that can support lots of missions
+
+406
+00:14:10,629 --> 00:14:09,040
+going forward
+
+407
+00:14:12,310 --> 00:14:10,639
+and i think i think mark said it very
+
+408
+00:14:14,389 --> 00:14:12,320
+well and in terms of suits frank you
+
+409
+00:14:16,150 --> 00:14:14,399
+know we we have traded umbilicals and
+
+410
+00:14:17,509 --> 00:14:16,160
+when we looked at those not only are
+
+411
+00:14:18,629 --> 00:14:17,519
+there technical challenges with long
+
+412
+00:14:19,990 --> 00:14:18,639
+umbilicals
+
+413
+00:14:22,389 --> 00:14:20,000
+you need more consumables actually
+
+414
+00:14:24,310 --> 00:14:22,399
+because typically you're pumping that
+
+415
+00:14:26,389 --> 00:14:24,320
+the oxygen at the crew breeze overboard
+
+416
+00:14:28,550 --> 00:14:26,399
+but if you look at how does that feed
+
+417
+00:14:30,790 --> 00:14:28,560
+forward to mars we need a
+
+418
+00:14:33,430 --> 00:14:30,800
+suit that's independent of a vehicle to
+
+419
+00:14:35,030 --> 00:14:33,440
+traverse the martian surface someday
+
+420
+00:14:36,069 --> 00:14:35,040
+and then maybe as our structures grow
+
+421
+00:14:38,550 --> 00:14:36,079
+bigger and bigger if we're doing a
+
+422
+00:14:40,629 --> 00:14:38,560
+repair uh of some sort or some kind of a
+
+423
+00:14:42,150 --> 00:14:40,639
+science experiment outside the vehicle
+
+424
+00:14:43,910 --> 00:14:42,160
+those kind of things don't feed forward
+
+425
+00:14:45,189 --> 00:14:43,920
+so when we look at eva technology we're
+
+426
+00:14:46,790 --> 00:14:45,199
+trying to look for
+
+427
+00:14:49,269 --> 00:14:46,800
+you know a suit that then takes us
+
+428
+00:14:51,750 --> 00:14:49,279
+forward toward toward mars as an
+
+429
+00:14:53,990 --> 00:14:51,760
+evolutionary path
+
+430
+00:14:56,470 --> 00:14:54,000
+does anybody else have any comments that
+
+431
+00:14:58,069 --> 00:14:56,480
+went from aaron yeah so on the on the
+
+432
+00:15:01,350 --> 00:14:58,079
+topic of the extensibility i think the
+
+433
+00:15:03,590 --> 00:15:01,360
+destination drivers are one uh axis to
+
+434
+00:15:05,430 --> 00:15:03,600
+look at it but as mark was saying there
+
+435
+00:15:07,910 --> 00:15:05,440
+you know there are sort of capabilities
+
+436
+00:15:09,030 --> 00:15:07,920
+that you want to get into the portfolio
+
+437
+00:15:10,470 --> 00:15:09,040
+and so
+
+438
+00:15:12,629 --> 00:15:10,480
+maybe there can be a little bit more
+
+439
+00:15:14,550 --> 00:15:12,639
+discussion uh you know the commercial
+
+440
+00:15:17,910 --> 00:15:14,560
+interests seem to be
+
+441
+00:15:19,829 --> 00:15:17,920
+focused on isru and and whether that's
+
+442
+00:15:20,870 --> 00:15:19,839
+part of the capability suite that we
+
+443
+00:15:22,470 --> 00:15:20,880
+need
+
+444
+00:15:25,509 --> 00:15:22,480
+also a lot of the talk today was on
+
+445
+00:15:27,430 --> 00:15:25,519
+human robot interaction and cooperation
+
+446
+00:15:29,430 --> 00:15:27,440
+especially as you lose
+
+447
+00:15:30,629 --> 00:15:29,440
+ground support as you move further away
+
+448
+00:15:32,550 --> 00:15:30,639
+or at least the
+
+449
+00:15:34,629 --> 00:15:32,560
+the sort of imminent or you know real
+
+450
+00:15:36,069 --> 00:15:34,639
+time ground support
+
+451
+00:15:39,509 --> 00:15:36,079
+maybe there are some more as well and
+
+452
+00:15:41,430 --> 00:15:39,519
+then and this could prove kind of as a
+
+453
+00:15:44,949 --> 00:15:41,440
+not only a destination but also a
+
+454
+00:15:47,990 --> 00:15:44,959
+technology incubator of sorts
+
+455
+00:15:50,550 --> 00:15:48,000
+certainly the asteroid is a potential uh
+
+456
+00:15:52,870 --> 00:15:50,560
+for i in space resource utilization
+
+457
+00:15:55,110 --> 00:15:52,880
+where we would learn to utilize
+
+458
+00:15:56,069 --> 00:15:55,120
+today in human space flight we have
+
+459
+00:15:58,389 --> 00:15:56,079
+taken
+
+460
+00:15:59,829 --> 00:15:58,399
+every single pound of
+
+461
+00:16:02,310 --> 00:15:59,839
+tulle or
+
+462
+00:16:05,189 --> 00:16:02,320
+food or clothing water
+
+463
+00:16:06,790 --> 00:16:05,199
+air with us on every single mission
+
+464
+00:16:08,790 --> 00:16:06,800
+we've ever executed
+
+465
+00:16:10,550 --> 00:16:08,800
+from the very beginning
+
+466
+00:16:12,870 --> 00:16:10,560
+we need somehow to move away from that
+
+467
+00:16:14,550 --> 00:16:12,880
+paradigm perhaps uh
+
+468
+00:16:16,069 --> 00:16:14,560
+this asteroid would be
+
+469
+00:16:17,590 --> 00:16:16,079
+one area where we could test those kind
+
+470
+00:16:20,230 --> 00:16:17,600
+of things and i'll see if mark has
+
+471
+00:16:22,069 --> 00:16:20,240
+anything to add
+
+472
+00:16:23,990 --> 00:16:22,079
+so it's my job in the technical lead
+
+473
+00:16:25,749 --> 00:16:24,000
+i've got to look at
+
+474
+00:16:27,030 --> 00:16:25,759
+from a step back
+
+475
+00:16:29,670 --> 00:16:27,040
+so when we talk about adding
+
+476
+00:16:31,509 --> 00:16:29,680
+capabilities regretfully every
+
+477
+00:16:33,189 --> 00:16:31,519
+capability comes with the mass penalty
+
+478
+00:16:35,189 --> 00:16:33,199
+of delivering it there
+
+479
+00:16:37,030 --> 00:16:35,199
+so when we look in this first mission as
+
+480
+00:16:39,430 --> 00:16:37,040
+mike described you've really got to look
+
+481
+00:16:40,550 --> 00:16:39,440
+at this in a series of missions so if we
+
+482
+00:16:43,269 --> 00:16:40,560
+want to do
+
+483
+00:16:46,150 --> 00:16:43,279
+isru greater science on the asteroid
+
+484
+00:16:48,550 --> 00:16:46,160
+whatever capability you're talking about
+
+485
+00:16:51,030 --> 00:16:48,560
+the first question i have to ask myself
+
+486
+00:16:53,269 --> 00:16:51,040
+is how are we going to get it there
+
+487
+00:16:55,269 --> 00:16:53,279
+so in the architecture the way it is now
+
+488
+00:16:56,550 --> 00:16:55,279
+with the base performance of the sls and
+
+489
+00:16:58,870 --> 00:16:56,560
+the orion
+
+490
+00:17:00,150 --> 00:16:58,880
+very flexible platforms which enable
+
+491
+00:17:01,590 --> 00:17:00,160
+this mission that they were never
+
+492
+00:17:04,150 --> 00:17:01,600
+designed to do
+
+493
+00:17:07,029 --> 00:17:04,160
+but we don't have significant extra mass
+
+494
+00:17:09,189 --> 00:17:07,039
+to bring up the mass power resources
+
+495
+00:17:11,510 --> 00:17:09,199
+necessary to do isru
+
+496
+00:17:14,309 --> 00:17:11,520
+so that's where things like providing
+
+497
+00:17:15,909 --> 00:17:14,319
+opportunities to commercial logistics to
+
+498
+00:17:18,390 --> 00:17:15,919
+deliver extra mass
+
+499
+00:17:20,870 --> 00:17:18,400
+things that point us to a node where you
+
+500
+00:17:23,029 --> 00:17:20,880
+could dock a commercial logistics module
+
+501
+00:17:24,789 --> 00:17:23,039
+in an orion to aggregate new
+
+502
+00:17:26,549 --> 00:17:24,799
+capabilities
+
+503
+00:17:29,350 --> 00:17:26,559
+long-term life support for mars
+
+504
+00:17:31,909 --> 00:17:29,360
+closed-loop life support or isru
+
+505
+00:17:33,830 --> 00:17:31,919
+so all of those capabilities lead to
+
+506
+00:17:36,470 --> 00:17:33,840
+enabling commercial participation
+
+507
+00:17:37,270 --> 00:17:36,480
+through logistics supply beyond leo
+
+508
+00:17:39,029 --> 00:17:37,280
+and
+
+509
+00:17:40,870 --> 00:17:39,039
+potential international or commercial
+
+510
+00:17:43,270 --> 00:17:40,880
+development for
+
+511
+00:17:44,789 --> 00:17:43,280
+node-like things to you know aggregate
+
+512
+00:17:46,390 --> 00:17:44,799
+multiple elements
+
+513
+00:17:47,990 --> 00:17:46,400
+those in themselves are techniques we
+
+514
+00:17:50,390 --> 00:17:48,000
+need to go to mars we need to be able to
+
+515
+00:17:52,390 --> 00:17:50,400
+assemble vehicles in deep space those
+
+516
+00:17:54,070 --> 00:17:52,400
+types of things so all of those
+
+517
+00:17:56,470 --> 00:17:54,080
+capabilities play together in an
+
+518
+00:17:58,630 --> 00:17:56,480
+integrated architecture moving us as a
+
+519
+00:17:59,909 --> 00:17:58,640
+stepping stone towards mars so all of
+
+520
+00:18:02,789 --> 00:17:59,919
+those things will play out as we go
+
+521
+00:18:07,669 --> 00:18:04,950
+stan did you have a comment or
+
+522
+00:18:12,549 --> 00:18:10,950
+any other comments on extensibility
+
+523
+00:18:14,390 --> 00:18:12,559
+i think i think we're in the community
+
+524
+00:18:15,909 --> 00:18:14,400
+is in general agreement that we need
+
+525
+00:18:17,110 --> 00:18:15,919
+sequence of missions
+
+526
+00:18:19,190 --> 00:18:17,120
+i think the community is in general
+
+527
+00:18:20,390 --> 00:18:19,200
+agreement that cis lunar space is the
+
+528
+00:18:22,470 --> 00:18:20,400
+next
+
+529
+00:18:24,470 --> 00:18:22,480
+logical destination
+
+530
+00:18:26,549 --> 00:18:24,480
+i think the communities in general
+
+531
+00:18:28,230 --> 00:18:26,559
+agreement that this aspect mission
+
+532
+00:18:30,070 --> 00:18:28,240
+is the next best step for the different
+
+533
+00:18:31,190 --> 00:18:30,080
+capabilities that that it brings to
+
+534
+00:18:34,789 --> 00:18:31,200
+baron
+
+535
+00:18:35,990 --> 00:18:34,799
+sort of our job uh across both nasa and
+
+536
+00:18:38,070 --> 00:18:36,000
+industry to
+
+537
+00:18:40,710 --> 00:18:38,080
+to build that plan of how then we feed
+
+538
+00:18:43,350 --> 00:18:40,720
+this forward to mars and talk about it
+
+539
+00:18:45,430 --> 00:18:43,360
+in a way that shows that this is indeed
+
+540
+00:18:46,789 --> 00:18:45,440
+the right path to be on for the times
+
+541
+00:18:48,070 --> 00:18:46,799
+that we're in for the capabilities that
+
+542
+00:18:49,350 --> 00:18:48,080
+we're building
+
+543
+00:18:51,270 --> 00:18:49,360
+i think it's a
+
+544
+00:18:53,190 --> 00:18:51,280
+great mission from a sense that we it
+
+545
+00:18:55,029 --> 00:18:53,200
+leverages a lot of the things that that
+
+546
+00:18:56,950 --> 00:18:55,039
+we're doing today and then builds toward
+
+547
+00:18:59,110 --> 00:18:56,960
+the future at the same time so
+
+548
+00:19:00,870 --> 00:18:59,120
+we just got to explain that story put
+
+549
+00:19:02,470 --> 00:19:00,880
+together the kind of the sequence of how
+
+550
+00:19:04,070 --> 00:19:02,480
+that might work and then
+
+551
+00:19:05,909 --> 00:19:04,080
+and then talk about it as a community to
+
+552
+00:19:07,029 --> 00:19:05,919
+make sure that we're all sort of an
+
+553
+00:19:10,070 --> 00:19:07,039
+agreement in the direction that we're
+
+554
+00:19:15,750 --> 00:19:12,230
+okay the next topic is anchor techniques
+
+555
+00:19:19,190 --> 00:19:15,760
+uh i think we saw a lot of innovative
+
+556
+00:19:21,190 --> 00:19:19,200
+uh approaches to anchoring that
+
+557
+00:19:22,789 --> 00:19:21,200
+that we really hadn't thought of and
+
+558
+00:19:25,590 --> 00:19:22,799
+hadn't spent a lot of time of you know
+
+559
+00:19:26,870 --> 00:19:25,600
+we have spent time
+
+560
+00:19:28,710 --> 00:19:26,880
+using
+
+561
+00:19:30,150 --> 00:19:28,720
+more traditional techniques of some
+
+562
+00:19:32,390 --> 00:19:30,160
+simple booms
+
+563
+00:19:36,310 --> 00:19:32,400
+on how we would anchor
+
+564
+00:19:40,390 --> 00:19:38,549
+vehicle that anchors upside down was was
+
+565
+00:19:42,390 --> 00:19:40,400
+pretty incredible i mean
+
+566
+00:19:43,990 --> 00:19:42,400
+potentially this is something we could
+
+567
+00:19:45,669 --> 00:19:44,000
+we could look at
+
+568
+00:19:47,590 --> 00:19:45,679
+maybe as uh
+
+569
+00:19:48,950 --> 00:19:47,600
+down the road after the first mission
+
+570
+00:19:51,029 --> 00:19:48,960
+something we deploy that could then
+
+571
+00:19:53,110 --> 00:19:51,039
+traverse around on an asteroid
+
+572
+00:19:55,270 --> 00:19:53,120
+and then do some kind of experiments in
+
+573
+00:19:56,150 --> 00:19:55,280
+between the human visits i think this is
+
+574
+00:19:57,830 --> 00:19:56,160
+a great
+
+575
+00:19:59,510 --> 00:19:57,840
+great capability
+
+576
+00:20:02,310 --> 00:19:59,520
+all the other anchoring techniques are
+
+577
+00:20:04,470 --> 00:20:02,320
+things that we i think need to look at
+
+578
+00:20:06,710 --> 00:20:04,480
+you know most of what we had have been
+
+579
+00:20:09,190 --> 00:20:06,720
+focused on is not necessarily having the
+
+580
+00:20:11,190 --> 00:20:09,200
+crew since we're talking about a uh for
+
+581
+00:20:13,110 --> 00:20:11,200
+the reference mission a 10 meter
+
+582
+00:20:15,590 --> 00:20:13,120
+diameter asteroid we we hadn't really
+
+583
+00:20:18,710 --> 00:20:15,600
+intended to to have the crew actually
+
+584
+00:20:20,630 --> 00:20:18,720
+traverse on the asteroid so our our
+
+585
+00:20:23,909 --> 00:20:20,640
+thought process was more of
+
+586
+00:20:25,669 --> 00:20:23,919
+anchoring from a simple boom or you know
+
+587
+00:20:28,310 --> 00:20:25,679
+in more evolved missions
+
+588
+00:20:29,990 --> 00:20:28,320
+later on from a robotic platform but
+
+589
+00:20:32,070 --> 00:20:30,000
+many of these anchoring techniques are
+
+590
+00:20:34,710 --> 00:20:32,080
+very interesting and may feed forward
+
+591
+00:20:35,990 --> 00:20:34,720
+to to the mars surface or or other
+
+592
+00:20:38,630 --> 00:20:36,000
+destinations
+
+593
+00:20:40,950 --> 00:20:38,640
+um someday so i thought there was a lot
+
+594
+00:20:42,710 --> 00:20:40,960
+of really good innovative ideas
+
+595
+00:20:43,590 --> 00:20:42,720
+um i think the
+
+596
+00:20:51,190 --> 00:20:43,600
+the
+
+597
+00:20:53,669 --> 00:20:51,200
+asteroid from a
+
+598
+00:20:54,950 --> 00:20:53,679
+solid rock material to
+
+599
+00:20:57,909 --> 00:20:54,960
+maybe a
+
+600
+00:20:59,350 --> 00:20:57,919
+a looser material or even a rubble pile
+
+601
+00:21:00,630 --> 00:20:59,360
+those that's when the anchoring
+
+602
+00:21:01,590 --> 00:21:00,640
+techniques become problematic for
+
+603
+00:21:05,590 --> 00:21:01,600
+smaller
+
+604
+00:21:07,909 --> 00:21:05,600
+so so these there were some really good
+
+605
+00:21:09,190 --> 00:21:07,919
+ideas does anybody have any more
+
+606
+00:21:12,470 --> 00:21:09,200
+comments on
+
+607
+00:21:14,950 --> 00:21:13,590
+i mean i think that's something we need
+
+608
+00:21:16,630 --> 00:21:14,960
+to look at
+
+609
+00:21:18,310 --> 00:21:16,640
+something we'll feed forward there's a
+
+610
+00:21:20,230 --> 00:21:18,320
+question online
+
+611
+00:21:21,350 --> 00:21:20,240
+go ahead joe joe
+
+612
+00:21:22,789 --> 00:21:21,360
+yeah there are a couple of online
+
+613
+00:21:24,950 --> 00:21:22,799
+questions the first one was actually to
+
+614
+00:21:26,710 --> 00:21:24,960
+aaron parnis of jpl
+
+615
+00:21:28,549 --> 00:21:26,720
+the question was any worries about the
+
+616
+00:21:30,789 --> 00:21:28,559
+broken claws
+
+617
+00:21:33,590 --> 00:21:30,799
+creating any kind of a sharp edge hazard
+
+618
+00:21:35,830 --> 00:21:33,600
+to eva crew members could you get aaron
+
+619
+00:21:38,789 --> 00:21:35,840
+the mic please thanks dan
+
+620
+00:21:41,590 --> 00:21:38,799
+uh i i do think that is a potential
+
+621
+00:21:44,310 --> 00:21:41,600
+concern uh i know that there's a lot of
+
+622
+00:21:45,430 --> 00:21:44,320
+thought put into how tools are made to
+
+623
+00:21:47,510 --> 00:21:45,440
+prevent
+
+624
+00:21:49,990 --> 00:21:47,520
+you know
+
+625
+00:21:51,750 --> 00:21:50,000
+tearing the suits and i'm sure that the
+
+626
+00:21:53,350 --> 00:21:51,760
+asteroid itself presents somewhat of a
+
+627
+00:21:57,270 --> 00:21:53,360
+hazard
+
+628
+00:21:58,870 --> 00:21:57,280
+if it's a real sharp kind of rock
+
+629
+00:21:59,669 --> 00:21:58,880
+so that that's something we would have
+
+630
+00:22:03,430 --> 00:21:59,679
+to
+
+631
+00:22:07,830 --> 00:22:04,950
+joe what else you got
+
+632
+00:22:09,190 --> 00:22:07,840
+um i don't know if jonathan robill sorry
+
+633
+00:22:12,310 --> 00:22:09,200
+i'm sure i'm saying that wrong of a
+
+634
+00:22:15,510 --> 00:22:12,320
+honeybee robotics is still online
+
+635
+00:22:18,710 --> 00:22:16,630
+yeah and i should have said earlier this
+
+636
+00:22:20,310 --> 00:22:18,720
+is an opportunity to if if somebody had
+
+637
+00:22:21,590 --> 00:22:20,320
+a question as we work through these
+
+638
+00:22:23,750 --> 00:22:21,600
+different topics
+
+639
+00:22:26,390 --> 00:22:23,760
+to go ahead and answer ask the question
+
+640
+00:22:29,110 --> 00:22:26,400
+as well as we as we talk through go
+
+641
+00:22:30,870 --> 00:22:29,120
+ahead john yeah the question was uh
+
+642
+00:22:33,270 --> 00:22:30,880
+he mentioned the need to thoroughly test
+
+643
+00:22:36,070 --> 00:22:33,280
+drilling in advance of the mission and
+
+644
+00:22:37,669 --> 00:22:36,080
+the question is and and it perhaps could
+
+645
+00:22:40,390 --> 00:22:37,679
+apply to aaron as well how would you go
+
+646
+00:22:42,310 --> 00:22:40,400
+about doing uh that kind of testing on
+
+647
+00:22:44,870 --> 00:22:42,320
+the ground
+
+648
+00:22:47,830 --> 00:22:44,880
+you want to take a swing at that aaron
+
+649
+00:22:50,310 --> 00:22:47,840
+sure so for our hundreds of k sort of
+
+650
+00:22:51,590 --> 00:22:50,320
+development uh we test
+
+651
+00:22:54,230 --> 00:22:51,600
+in the lab just at different
+
+652
+00:22:57,029 --> 00:22:54,240
+gravitational orientations
+
+653
+00:22:59,430 --> 00:22:57,039
+you know the iss is a great platform to
+
+654
+00:23:00,870 --> 00:22:59,440
+try and test some of these at true zero
+
+655
+00:23:03,430 --> 00:23:00,880
+gravity
+
+656
+00:23:05,909 --> 00:23:03,440
+that would be one pathway
+
+657
+00:23:08,950 --> 00:23:05,919
+you know some of the zero g flights and
+
+658
+00:23:11,590 --> 00:23:08,960
+drop towers and things offer windows of
+
+659
+00:23:13,590 --> 00:23:11,600
+of adequate testing but probably not
+
+660
+00:23:15,350 --> 00:23:13,600
+enough to really do the
+
+661
+00:23:17,110 --> 00:23:15,360
+the work you need well and that actually
+
+662
+00:23:19,350 --> 00:23:17,120
+leads into the to another question
+
+663
+00:23:22,710 --> 00:23:19,360
+related which would be um
+
+664
+00:23:23,830 --> 00:23:22,720
+how do you manage the dust and debris
+
+665
+00:23:25,029 --> 00:23:23,840
+make sure that you know when you're
+
+666
+00:23:28,310 --> 00:23:25,039
+doing drilling and that kind of thing
+
+667
+00:23:30,710 --> 00:23:28,320
+that you're not creating a a hazard for
+
+668
+00:23:31,590 --> 00:23:30,720
+a test on iss for instance
+
+669
+00:23:33,990 --> 00:23:31,600
+uh
+
+670
+00:23:35,669 --> 00:23:34,000
+yeah i think you if you're up on iss you
+
+671
+00:23:38,149 --> 00:23:35,679
+need to have sort of full containment
+
+672
+00:23:38,950 --> 00:23:38,159
+you do it inside of a you know a fram or
+
+673
+00:24:08,230 --> 00:23:38,960
+a
+
+674
+00:24:11,990 --> 00:24:08,240
+of
+
+675
+00:24:14,070 --> 00:24:12,000
+very hard you don't know from first
+
+676
+00:24:16,310 --> 00:24:14,080
+principles whether an asteroid you go to
+
+677
+00:24:18,789 --> 00:24:16,320
+is going to be as solid as a block a
+
+678
+00:24:20,710 --> 00:24:18,799
+cast iron or as fluffy as a bunch of
+
+679
+00:24:22,870 --> 00:24:20,720
+beanbag chair filler if you've ever
+
+680
+00:24:25,350 --> 00:24:22,880
+opened up a beanbag chair you know
+
+681
+00:24:27,029 --> 00:24:25,360
+how much you're dealing with there
+
+682
+00:24:29,750 --> 00:24:27,039
+and you know your so your anchoring
+
+683
+00:24:31,830 --> 00:24:29,760
+could be as simple as a magnet
+
+684
+00:24:33,350 --> 00:24:31,840
+if you're talking to a block of nickel
+
+685
+00:24:34,870 --> 00:24:33,360
+iron you can just use a magnet to hold
+
+686
+00:24:37,190 --> 00:24:34,880
+yourself on or it could be that you
+
+687
+00:24:38,549 --> 00:24:37,200
+cannot do anything with it mechanically
+
+688
+00:24:41,029 --> 00:24:38,559
+and you have to put the thing in a bag
+
+689
+00:24:43,909 --> 00:24:41,039
+so this is
+
+690
+00:24:45,190 --> 00:24:43,919
+a very difficult series of problems but
+
+691
+00:24:46,630 --> 00:24:45,200
+on the other hand it means that there's
+
+692
+00:24:48,310 --> 00:24:46,640
+opportunities for a lot of valuable
+
+693
+00:24:50,230 --> 00:24:48,320
+future work
+
+694
+00:24:52,870 --> 00:24:50,240
+and i think maybe you know
+
+695
+00:24:54,310 --> 00:24:52,880
+the the solid asteroid drill into that
+
+696
+00:24:55,909 --> 00:24:54,320
+is probably not maybe the hardest case
+
+697
+00:24:57,590 --> 00:24:55,919
+in some ways because you've got to
+
+698
+00:24:59,110 --> 00:24:57,600
+penetrate a very hard object i think we
+
+699
+00:25:02,470 --> 00:24:59,120
+have good ways to simulate that on the
+
+700
+00:25:03,830 --> 00:25:02,480
+ground i th maybe getting into uh
+
+701
+00:25:06,870 --> 00:25:03,840
+different consistencies of asteroids are
+
+702
+00:25:08,710 --> 00:25:06,880
+maybe easier simpler tools
+
+703
+00:25:10,310 --> 00:25:08,720
+the thing then is to keep the crew
+
+704
+00:25:11,830 --> 00:25:10,320
+protected from liberation of material
+
+705
+00:25:13,669 --> 00:25:11,840
+that's probably the biggest challenge
+
+706
+00:25:16,070 --> 00:25:13,679
+and getting dust on the suit still as
+
+707
+00:25:19,669 --> 00:25:16,080
+well so i have a comment to echo on that
+
+708
+00:25:21,029 --> 00:25:19,679
+and and i share uh stan's frustration
+
+709
+00:25:22,630 --> 00:25:21,039
+sometimes i keep asking all these
+
+710
+00:25:23,590 --> 00:25:22,640
+scientists what's the surface like and
+
+711
+00:25:25,830 --> 00:25:23,600
+you get
+
+712
+00:25:26,870 --> 00:25:25,840
+every different answer um
+
+713
+00:25:28,630 --> 00:25:26,880
+and
+
+714
+00:25:30,950 --> 00:25:28,640
+the exciting thing is this is the sort
+
+715
+00:25:32,870 --> 00:25:30,960
+of the beginning right and we have a
+
+716
+00:25:35,110 --> 00:25:32,880
+sequence of missions already in line
+
+717
+00:25:37,110 --> 00:25:35,120
+that are going to go to these bodies so
+
+718
+00:25:40,070 --> 00:25:37,120
+we learned a lot when we got pictures
+
+719
+00:25:43,510 --> 00:25:40,080
+from itakawa and we have osiris-rex uh
+
+720
+00:25:44,870 --> 00:25:43,520
+on its way uh in the next uh uh you know
+
+721
+00:25:47,430 --> 00:25:44,880
+cycle of missions and we have a
+
+722
+00:25:49,990 --> 00:25:47,440
+hayabusa2 mission that may be going as
+
+723
+00:25:52,310 --> 00:25:50,000
+well so uh we'll start to learn what
+
+724
+00:25:53,669 --> 00:25:52,320
+these surface properties are so if you
+
+725
+00:25:55,750 --> 00:25:53,679
+you know you're tying in the anchoring
+
+726
+00:25:58,149 --> 00:25:55,760
+to some of the extensibility hopefully
+
+727
+00:26:01,190 --> 00:25:58,159
+we won't be you know dealing with such a
+
+728
+00:26:03,029 --> 00:26:01,200
+wide range of uncertainty uh in the
+
+729
+00:26:06,230 --> 00:26:03,039
+future the one thing to keep in mind in
+
+730
+00:26:08,630 --> 00:26:06,240
+this mission also is that the
+
+731
+00:26:10,470 --> 00:26:08,640
+asteroid robotic vehicle is going to get
+
+732
+00:26:12,470 --> 00:26:10,480
+detailed imaging and sensing of the
+
+733
+00:26:14,390 --> 00:26:12,480
+asteroid when we capture it and then
+
+734
+00:26:16,789 --> 00:26:14,400
+during the time it is towing it back to
+
+735
+00:26:17,669 --> 00:26:16,799
+the dro we will have a few years to plan
+
+736
+00:26:19,510 --> 00:26:17,679
+out our
+
+737
+00:26:22,789 --> 00:26:19,520
+detailed dba and adjust our tool
+
+738
+00:26:26,390 --> 00:26:24,630
+that makes good sense also the more we
+
+739
+00:26:27,990 --> 00:26:26,400
+can get pictures of near earth asteroids
+
+740
+00:26:29,590 --> 00:26:28,000
+and start building up a statistical
+
+741
+00:26:32,149 --> 00:26:29,600
+understanding of what the population is
+
+742
+00:26:34,549 --> 00:26:32,159
+like um that would be good i've heard
+
+743
+00:26:35,590 --> 00:26:34,559
+discussions from some of the uh private
+
+744
+00:26:36,950 --> 00:26:35,600
+companies that they want to go out and
+
+745
+00:26:40,230 --> 00:26:36,960
+start prospecting asteroids that's all
+
+746
+00:26:42,549 --> 00:26:40,240
+going to be very valuable information
+
+747
+00:26:43,909 --> 00:26:42,559
+i think from a from the technical
+
+748
+00:26:46,149 --> 00:26:43,919
+standpoint
+
+749
+00:26:48,310 --> 00:26:46,159
+anchoring and drilling on a rubble pile
+
+750
+00:26:49,830 --> 00:26:48,320
+is probably going to be our our biggest
+
+751
+00:26:51,029 --> 00:26:49,840
+problem it's going to be very very hard
+
+752
+00:26:53,590 --> 00:26:51,039
+to deal with
+
+753
+00:26:56,070 --> 00:26:53,600
+what's what's essentially a cloud of
+
+754
+00:26:58,390 --> 00:26:56,080
+stones where individually they're very
+
+755
+00:26:59,990 --> 00:26:58,400
+hard but they have almost no cohesion
+
+756
+00:27:02,390 --> 00:27:00,000
+with one another it's going to be
+
+757
+00:27:04,630 --> 00:27:02,400
+a great technical challenge for us
+
+758
+00:27:06,070 --> 00:27:04,640
+and i think you know as engineers we all
+
+759
+00:27:07,430 --> 00:27:06,080
+like to have give me the design
+
+760
+00:27:08,470 --> 00:27:07,440
+parameters and not build a perfect
+
+761
+00:27:10,070 --> 00:27:08,480
+system and
+
+762
+00:27:12,310 --> 00:27:10,080
+remember we're about exploring so
+
+763
+00:27:14,149 --> 00:27:12,320
+sometimes we may have to have a couple
+
+764
+00:27:15,110 --> 00:27:14,159
+of different approaches and
+
+765
+00:27:16,789 --> 00:27:15,120
+we may
+
+766
+00:27:19,190 --> 00:27:16,799
+have a little bit of the unexpected when
+
+767
+00:27:20,389 --> 00:27:19,200
+we arrive and that's okay because
+
+768
+00:27:21,909 --> 00:27:20,399
+the reason we're going there is because
+
+769
+00:27:23,750 --> 00:27:21,919
+we really don't totally understand
+
+770
+00:27:26,630 --> 00:27:23,760
+asteroids very well and we want to learn
+
+771
+00:27:31,909 --> 00:27:29,430
+any more on anchoring techniques
+
+772
+00:27:33,830 --> 00:27:31,919
+this is wonderful
+
+773
+00:27:35,430 --> 00:27:33,840
+so translation and eva tools we've
+
+774
+00:27:37,190 --> 00:27:35,440
+talked quite a bit about this and this
+
+775
+00:27:39,430 --> 00:27:37,200
+kind of
+
+776
+00:27:41,110 --> 00:27:39,440
+is a good segue from anchoring you know
+
+777
+00:27:43,029 --> 00:27:41,120
+knowing the asteroid is important we've
+
+778
+00:27:44,950 --> 00:27:43,039
+talked about that i think there were
+
+779
+00:27:46,310 --> 00:27:44,960
+several promising
+
+780
+00:27:49,110 --> 00:27:46,320
+drill
+
+781
+00:27:50,950 --> 00:27:49,120
+kind of ideas that we will go look at
+
+782
+00:27:52,710 --> 00:27:50,960
+you know the idea of taking something
+
+783
+00:27:55,590 --> 00:27:52,720
+that works with our pistol
+
+784
+00:27:56,950 --> 00:27:55,600
+grip tool that we use for eva is is very
+
+785
+00:27:58,630 --> 00:27:56,960
+intriguing something that's fairly
+
+786
+00:28:01,190 --> 00:27:58,640
+lightweight maybe we could
+
+787
+00:28:03,510 --> 00:28:01,200
+modify and and uh and go take a core
+
+788
+00:28:05,590 --> 00:28:03,520
+sample if it's a more solid asteroid
+
+789
+00:28:07,830 --> 00:28:05,600
+um i think we have to
+
+790
+00:28:09,190 --> 00:28:07,840
+think a little bit more about uh what we
+
+791
+00:28:11,190 --> 00:28:09,200
+do for these
+
+792
+00:28:13,909 --> 00:28:11,200
+rubble piles how do we
+
+793
+00:28:15,750 --> 00:28:13,919
+get the sample but yet in enclosing in a
+
+794
+00:28:16,870 --> 00:28:15,760
+way we get it a nut and have a bunch of
+
+795
+00:28:19,350 --> 00:28:16,880
+debris
+
+796
+00:28:21,750 --> 00:28:19,360
+on the crew and exposing it to orion
+
+797
+00:28:23,110 --> 00:28:21,760
+and the hatches and so forth so we need
+
+798
+00:28:27,110 --> 00:28:23,120
+to work on that i think we've got a lot
+
+799
+00:28:28,710 --> 00:28:27,120
+of good ideas to to go choose from there
+
+800
+00:28:30,870 --> 00:28:28,720
+i was very intrigued by the presentation
+
+801
+00:28:32,310 --> 00:28:30,880
+from rob mueller who i don't think he
+
+802
+00:28:34,789 --> 00:28:32,320
+may have departed
+
+803
+00:28:36,389 --> 00:28:34,799
+early but um thinking about maybe some
+
+804
+00:28:38,870 --> 00:28:36,399
+simple way to
+
+805
+00:28:39,990 --> 00:28:38,880
+to keep get the dust off the suit
+
+806
+00:28:43,029 --> 00:28:40,000
+maybe we need to do a little more
+
+807
+00:28:45,190 --> 00:28:43,039
+testing with those materials
+
+808
+00:28:46,950 --> 00:28:45,200
+and we can we can work with rob on doing
+
+809
+00:28:47,909 --> 00:28:46,960
+that and maybe some shapes that are
+
+810
+00:28:50,470 --> 00:28:47,919
+different than
+
+811
+00:28:52,230 --> 00:28:50,480
+you know we do a lot of uh very simple
+
+812
+00:28:53,750 --> 00:28:52,240
+tests in the lab on a very flat sample
+
+813
+00:28:55,430 --> 00:28:53,760
+but the suit
+
+814
+00:28:57,510 --> 00:28:55,440
+is not very flat there's a lot of curves
+
+815
+00:29:00,389 --> 00:28:57,520
+and contours so how would that system
+
+816
+00:29:02,470 --> 00:29:00,399
+work to to dust
+
+817
+00:29:03,190 --> 00:29:02,480
+dust was a huge problem during apollo
+
+818
+00:29:04,149 --> 00:29:03,200
+and
+
+819
+00:29:05,990 --> 00:29:04,159
+uh
+
+820
+00:29:07,830 --> 00:29:06,000
+for a for a solid asteroid i don't think
+
+821
+00:29:08,870 --> 00:29:07,840
+the dust would be much of a problem but
+
+822
+00:29:11,190 --> 00:29:08,880
+for these
+
+823
+00:29:13,830 --> 00:29:11,200
+rubble piles as we talked those would be
+
+824
+00:29:15,669 --> 00:29:13,840
+very very challenging
+
+825
+00:29:17,909 --> 00:29:15,679
+and then
+
+826
+00:29:18,789 --> 00:29:17,919
+the suits and tools
+
+827
+00:29:22,389 --> 00:29:18,799
+great
+
+828
+00:29:25,110 --> 00:29:22,399
+kinds of tools from
+
+829
+00:29:27,830 --> 00:29:25,120
+from rrm the the
+
+830
+00:29:30,070 --> 00:29:27,840
+wire cutter the tools that that atk
+
+831
+00:29:32,070 --> 00:29:30,080
+talked about and then the drill
+
+832
+00:29:34,070 --> 00:29:32,080
+we've got a lot of good things to build
+
+833
+00:29:35,590 --> 00:29:34,080
+upon we've talked some about this but
+
+834
+00:29:37,029 --> 00:29:35,600
+this is an area i think we can leverage
+
+835
+00:29:39,590 --> 00:29:37,039
+this session
+
+836
+00:29:41,430 --> 00:29:39,600
+pretty heavily on adapting and building
+
+837
+00:29:43,510 --> 00:29:41,440
+different kinds of tools
+
+838
+00:29:45,029 --> 00:29:43,520
+we've started some of that work
+
+839
+00:29:47,430 --> 00:29:45,039
+in the neutral buoyancy lab but this is
+
+840
+00:29:48,950 --> 00:29:47,440
+kind of a good time to have this session
+
+841
+00:29:50,549 --> 00:29:48,960
+and get some input from the community on
+
+842
+00:29:53,190 --> 00:29:50,559
+the kinds of things that we could go
+
+843
+00:29:53,200 --> 00:29:58,710
+any discussion on tools michelle
+
+844
+00:30:06,310 --> 00:30:02,470
+so just one thought is that there was
+
+845
+00:30:09,110 --> 00:30:06,320
+um there were ideas presented
+
+846
+00:30:10,389 --> 00:30:09,120
+with i would say some traditional tool
+
+847
+00:30:11,990 --> 00:30:10,399
+concepts
+
+848
+00:30:14,230 --> 00:30:12,000
+and then um
+
+849
+00:30:17,830 --> 00:30:14,240
+a couple i saw that reminded me that
+
+850
+00:30:20,549 --> 00:30:17,840
+there have been conversations about
+
+851
+00:30:23,110 --> 00:30:20,559
+the low density asteroidal surface
+
+852
+00:30:24,470 --> 00:30:23,120
+potentially requiring standoff distance
+
+853
+00:30:27,750 --> 00:30:24,480
+with the crew
+
+854
+00:30:29,510 --> 00:30:27,760
+and that there may be advances in some
+
+855
+00:30:31,269 --> 00:30:29,520
+of the remote sensing techniques that
+
+856
+00:30:33,909 --> 00:30:31,279
+actually could be used at a standoff
+
+857
+00:30:35,909 --> 00:30:33,919
+distance that would both take advantage
+
+858
+00:30:38,710 --> 00:30:35,919
+of what the crew brings to the table but
+
+859
+00:30:40,470 --> 00:30:38,720
+also provide additional protection
+
+860
+00:30:42,389 --> 00:30:40,480
+especially if there's a bag and you open
+
+861
+00:30:43,909 --> 00:30:42,399
+it you don't really know exactly
+
+862
+00:30:46,070 --> 00:30:43,919
+what's going to happen when you do that
+
+863
+00:30:47,750 --> 00:30:46,080
+anyway so i mean that might that was
+
+864
+00:30:49,590 --> 00:30:47,760
+kind of an interesting
+
+865
+00:30:51,110 --> 00:30:49,600
+contrast in some of the ideas that were
+
+866
+00:30:53,909 --> 00:30:51,120
+brought forward that might be something
+
+867
+00:30:56,389 --> 00:30:53,919
+we need to look at a little bit
+
+868
+00:30:58,070 --> 00:30:56,399
+then there was the one ksc concept as
+
+869
+00:30:59,669 --> 00:30:58,080
+well that was kind of intriguing where
+
+870
+00:31:01,909 --> 00:30:59,679
+we had the device put the pneumatic kind
+
+871
+00:31:03,269 --> 00:31:01,919
+of sound device on the shovel maybe a
+
+872
+00:31:05,909 --> 00:31:03,279
+shovel may not be quite right but
+
+873
+00:31:08,070 --> 00:31:05,919
+something akin to that might be
+
+874
+00:31:10,470 --> 00:31:08,080
+worth looking at
+
+875
+00:31:12,710 --> 00:31:10,480
+one step back i'm sorry
+
+876
+00:31:16,310 --> 00:31:12,720
+one step back from from the actual tool
+
+877
+00:31:18,630 --> 00:31:16,320
+as end effector is the interface to
+
+878
+00:31:20,950 --> 00:31:18,640
+the crew member or the robots that are
+
+879
+00:31:22,710 --> 00:31:20,960
+manipulating those tools and i know
+
+880
+00:31:25,669 --> 00:31:22,720
+there's work going on at darpa and
+
+881
+00:31:28,310 --> 00:31:25,679
+things like this to to generate
+
+882
+00:31:29,909 --> 00:31:28,320
+very effective designs for adaptable
+
+883
+00:31:31,750 --> 00:31:29,919
+tool interfaces
+
+884
+00:31:33,430 --> 00:31:31,760
+and you know as we look at the overall
+
+885
+00:31:35,750 --> 00:31:33,440
+architecture we should be looking at the
+
+886
+00:31:37,830 --> 00:31:35,760
+architecture of interfaces between
+
+887
+00:31:39,669 --> 00:31:37,840
+interchangeable parts and make sure that
+
+888
+00:31:41,909 --> 00:31:39,679
+we get all the functionality at those
+
+889
+00:31:43,830 --> 00:31:41,919
+interfaces that we need so that they are
+
+890
+00:31:45,350 --> 00:31:43,840
+extensible as well that's a good point
+
+891
+00:31:47,590 --> 00:31:45,360
+frank
+
+892
+00:31:49,590 --> 00:31:47,600
+i think uh stan has a
+
+893
+00:31:51,590 --> 00:31:49,600
+so well that mike's transitioning to
+
+894
+00:31:53,269 --> 00:31:51,600
+address one of michelle's comments
+
+895
+00:31:54,789 --> 00:31:53,279
+one of the things we've discussed that
+
+896
+00:31:56,389 --> 00:31:54,799
+didn't get out in the video so this
+
+897
+00:31:57,269 --> 00:31:56,399
+audience hasn't seen it so i'll describe
+
+898
+00:31:58,950 --> 00:31:57,279
+it is
+
+899
+00:32:01,509 --> 00:31:58,960
+when you're worried about
+
+900
+00:32:03,029 --> 00:32:01,519
+particulates coming out from a drill or
+
+901
+00:32:05,590 --> 00:32:03,039
+you know contamination coming out to the
+
+902
+00:32:07,430 --> 00:32:05,600
+crew so how do you contain that and you
+
+903
+00:32:09,190 --> 00:32:07,440
+combine that with a bag
+
+904
+00:32:11,029 --> 00:32:09,200
+one of the advantages the bag offers
+
+905
+00:32:12,789 --> 00:32:11,039
+with a rubble pile is that instead of
+
+906
+00:32:15,430 --> 00:32:12,799
+just cutting open the bag you could
+
+907
+00:32:16,630 --> 00:32:15,440
+install effectively a portable glove box
+
+908
+00:32:18,149 --> 00:32:16,640
+over the bag
+
+909
+00:32:19,669 --> 00:32:18,159
+and then cut the hole in the bag to
+
+910
+00:32:22,710 --> 00:32:19,679
+provide containment
+
+911
+00:32:23,750 --> 00:32:22,720
+so we've talked about deployable
+
+912
+00:32:25,590 --> 00:32:23,760
+tents
+
+913
+00:32:27,669 --> 00:32:25,600
+you know to where you would affix those
+
+914
+00:32:30,470 --> 00:32:27,679
+to the bag to provide a barrier between
+
+915
+00:32:32,470 --> 00:32:30,480
+the crew and the particulates and then
+
+916
+00:32:34,470 --> 00:32:32,480
+have your drill going inside that tent
+
+917
+00:32:35,990 --> 00:32:34,480
+or inside that glove box to contain
+
+918
+00:32:37,430 --> 00:32:36,000
+those types of things
+
+919
+00:32:39,029 --> 00:32:37,440
+so some of those concepts have been
+
+920
+00:32:40,549 --> 00:32:39,039
+discussed one of the things i was
+
+921
+00:32:42,549 --> 00:32:40,559
+these and this is
+
+922
+00:32:44,789 --> 00:32:42,559
+we've discussed tools and we've
+
+923
+00:32:47,350 --> 00:32:44,799
+discussed getting the astronaut to the
+
+924
+00:32:49,590 --> 00:32:47,360
+work site but how you set up the work
+
+925
+00:32:51,430 --> 00:32:49,600
+site preparation in terms of a glove box
+
+926
+00:32:53,750 --> 00:32:51,440
+or a tent or debris shields that type of
+
+927
+00:32:55,990 --> 00:32:53,760
+thing is uh something that can mitigate
+
+928
+00:32:57,669 --> 00:32:56,000
+some of these risks we're talking about
+
+929
+00:32:59,590 --> 00:32:57,679
+and i think that's that's one area that
+
+930
+00:33:01,590 --> 00:32:59,600
+we could use the community's help on if
+
+931
+00:33:05,269 --> 00:33:01,600
+there's ideas about
+
+932
+00:33:07,750 --> 00:33:05,279
+what's the best approach to actually
+
+933
+00:33:09,990 --> 00:33:07,760
+you know get into the bag or get next to
+
+934
+00:33:12,549 --> 00:33:10,000
+the asteroid we like the bag concept
+
+935
+00:33:14,789 --> 00:33:12,559
+because it works for the wide range of
+
+936
+00:33:16,710 --> 00:33:14,799
+potential kinds of asteroids that may be
+
+937
+00:33:18,149 --> 00:33:16,720
+anywhere from robopile to
+
+938
+00:33:19,669 --> 00:33:18,159
+to uh but those
+
+939
+00:33:21,190 --> 00:33:19,679
+we're still in the process of figuring
+
+940
+00:33:22,950 --> 00:33:21,200
+out what's the techniques and so the
+
+941
+00:33:24,789 --> 00:33:22,960
+community
+
+942
+00:33:26,470 --> 00:33:24,799
+he's got a lot of experience we showed a
+
+943
+00:33:27,669 --> 00:33:26,480
+lot of pictures from shuttle flights
+
+944
+00:33:29,909 --> 00:33:27,679
+that i remember where we came up with
+
+945
+00:33:33,269 --> 00:33:29,919
+really innovative things to go repair
+
+946
+00:33:35,590 --> 00:33:33,279
+blankets and other other things uh solar
+
+947
+00:33:37,509 --> 00:33:35,600
+rays this community could probably help
+
+948
+00:33:38,950 --> 00:33:37,519
+us think through some of those things as
+
+949
+00:33:40,950 --> 00:33:38,960
+well
+
+950
+00:33:42,470 --> 00:33:40,960
+we'll let stan and then we'll and uh
+
+951
+00:33:44,470 --> 00:33:42,480
+steve mentioned the neutral buoyancy
+
+952
+00:33:46,310 --> 00:33:44,480
+laboratory and i'd like to amplify that
+
+953
+00:33:49,590 --> 00:33:46,320
+a little bit um
+
+954
+00:33:51,509 --> 00:33:49,600
+the nbl the underwater environment works
+
+955
+00:33:53,029 --> 00:33:51,519
+for training people and developing tools
+
+956
+00:33:57,750 --> 00:33:53,039
+and techniques for working in zero
+
+957
+00:34:01,430 --> 00:33:59,909
+the orbital environment zero gravity
+
+958
+00:34:03,110 --> 00:34:01,440
+outside of spacecraft is probably about
+
+959
+00:34:05,830 --> 00:34:03,120
+the most unnatural environment you can
+
+960
+00:34:07,590 --> 00:34:05,840
+possibly imagine for a person to work in
+
+961
+00:34:09,909 --> 00:34:07,600
+and the neutral buoyancy laboratory does
+
+962
+00:34:11,510 --> 00:34:09,919
+a great job of preparing people to work
+
+963
+00:34:13,669 --> 00:34:11,520
+in that environment effectively on their
+
+964
+00:34:17,349 --> 00:34:13,679
+first time out the hatch so that's a
+
+965
+00:34:19,270 --> 00:34:17,359
+resource that we should not overlook
+
+966
+00:34:20,869 --> 00:34:19,280
+in addition to that
+
+967
+00:34:23,030 --> 00:34:20,879
+tools and techniques that we tested in
+
+968
+00:34:24,710 --> 00:34:23,040
+the nbl and then tested again
+
+969
+00:34:28,389 --> 00:34:24,720
+underwater off the coast of florida in
+
+970
+00:34:31,109 --> 00:34:28,399
+nemo looking at exploring asteroids
+
+971
+00:34:33,109 --> 00:34:31,119
+in my opinion with the background in
+
+972
+00:34:35,270 --> 00:34:33,119
+space flight and in asteroid science we
+
+973
+00:34:37,669 --> 00:34:35,280
+went from not knowing how to do an eva
+
+974
+00:34:39,909 --> 00:34:37,679
+on an asteroid to now knowing how to do
+
+975
+00:34:41,829 --> 00:34:39,919
+an eva on an asteroid
+
+976
+00:34:43,909 --> 00:34:41,839
+it's that valuable
+
+977
+00:34:45,829 --> 00:34:43,919
+and all that's available at a pretty low
+
+978
+00:34:48,710 --> 00:34:45,839
+cost and i think it's a it's a resource
+
+979
+00:34:50,550 --> 00:34:48,720
+that we can make very good use of and be
+
+980
+00:34:52,629 --> 00:34:50,560
+confident that what we develop is is
+
+981
+00:34:55,669 --> 00:34:52,639
+going to work in space
+
+982
+00:34:57,589 --> 00:34:55,679
+a shorter comment on containment
+
+983
+00:34:59,030 --> 00:34:57,599
+we know that most near-earth asteroids
+
+984
+00:35:00,390 --> 00:34:59,040
+are not too different from most
+
+985
+00:35:01,670 --> 00:35:00,400
+meteorites
+
+986
+00:35:03,030 --> 00:35:01,680
+and people are cutting those things
+
+987
+00:35:05,589 --> 00:35:03,040
+apart in laboratories all the time
+
+988
+00:35:07,510 --> 00:35:05,599
+without uh insane levels of containment
+
+989
+00:35:08,790 --> 00:35:07,520
+they're basically rocks so i hope we
+
+990
+00:35:10,630 --> 00:35:08,800
+don't frighten ourselves into thinking
+
+991
+00:35:12,470 --> 00:35:10,640
+that we can't touch these things
+
+992
+00:35:16,069 --> 00:35:12,480
+dust will be a problem but they're not
+
+993
+00:35:21,589 --> 00:35:18,069
+doug has a comment i think
+
+994
+00:35:24,390 --> 00:35:21,599
+yes uh one area that i i haven't seen
+
+995
+00:35:25,829 --> 00:35:24,400
+talked about with related with regard to
+
+996
+00:35:28,470 --> 00:35:25,839
+tools is
+
+997
+00:35:31,430 --> 00:35:28,480
+uh actually getting into the containment
+
+998
+00:35:32,950 --> 00:35:31,440
+bag the capture bag all the videos so
+
+999
+00:35:35,190 --> 00:35:32,960
+far have just shown
+
+1000
+00:35:37,109 --> 00:35:35,200
+the bag already open ready for the crew
+
+1001
+00:35:38,950 --> 00:35:37,119
+member to show up and start working
+
+1002
+00:35:41,190 --> 00:35:38,960
+there but i think there are some
+
+1003
+00:35:44,310 --> 00:35:41,200
+competing design
+
+1004
+00:35:46,630 --> 00:35:44,320
+principles on the one hand making that
+
+1005
+00:35:47,910 --> 00:35:46,640
+bag very durable and tough and able to
+
+1006
+00:35:49,510 --> 00:35:47,920
+withstand
+
+1007
+00:35:51,349 --> 00:35:49,520
+anything that the asteroid can do to it
+
+1008
+00:35:53,589 --> 00:35:51,359
+then the second is you need to be able
+
+1009
+00:35:56,150 --> 00:35:53,599
+to get into it quickly and easily
+
+1010
+00:35:57,829 --> 00:35:56,160
+so i could see a need for
+
+1011
+00:35:59,349 --> 00:35:57,839
+some kind of tool development there
+
+1012
+00:36:01,109 --> 00:35:59,359
+especially if there's reinforcement to
+
+1013
+00:36:02,710 --> 00:36:01,119
+cut through that kind of thing
+
+1014
+00:36:04,390 --> 00:36:02,720
+yeah i mean we've talked about the
+
+1015
+00:36:05,910 --> 00:36:04,400
+concepts but we're still kind of working
+
+1016
+00:36:08,470 --> 00:36:05,920
+through those i mean we've talked about
+
+1017
+00:36:10,550 --> 00:36:08,480
+having slits positioned in the bag
+
+1018
+00:36:12,230 --> 00:36:10,560
+of course the size of the asteroid will
+
+1019
+00:36:14,150 --> 00:36:12,240
+determine the configuration you know
+
+1020
+00:36:16,550 --> 00:36:14,160
+we're going to design the bag for
+
+1021
+00:36:19,109 --> 00:36:16,560
+for a wide wide range of sizes maybe up
+
+1022
+00:36:20,550 --> 00:36:19,119
+to 12 meters in diameter and so if it's
+
+1023
+00:36:22,150 --> 00:36:20,560
+smaller then you've got folds to deal
+
+1024
+00:36:23,589 --> 00:36:22,160
+with so we've got to work through that
+
+1025
+00:36:25,109 --> 00:36:23,599
+if you knew it was solid you could i
+
+1026
+00:36:26,630 --> 00:36:25,119
+think take a drill and drill right
+
+1027
+00:36:28,790 --> 00:36:26,640
+through it and get the core you want and
+
+1028
+00:36:29,990 --> 00:36:28,800
+then discard the material later
+
+1029
+00:36:32,470 --> 00:36:30,000
+but if it's a rubble pile then we've got
+
+1030
+00:36:34,790 --> 00:36:32,480
+to figure out how do i how do i open it
+
+1031
+00:36:36,230 --> 00:36:34,800
+get inside access the sample and maybe
+
+1032
+00:36:38,550 --> 00:36:36,240
+some of these tools
+
+1033
+00:36:40,950 --> 00:36:38,560
+maybe some ideas about a telescoping
+
+1034
+00:36:43,829 --> 00:36:40,960
+kind of tool that you get in and collect
+
+1035
+00:36:46,069 --> 00:36:43,839
+not only the core sample but if it's
+
+1036
+00:36:47,589 --> 00:36:46,079
+solid but then you know some rubble
+
+1037
+00:36:50,069 --> 00:36:47,599
+out of it maybe there's some ideas here
+
+1038
+00:36:51,990 --> 00:36:50,079
+that we can we can build upon
+
+1039
+00:36:53,270 --> 00:36:52,000
+but that's forward work we know that's
+
+1040
+00:36:55,109 --> 00:36:53,280
+that's probably the biggest challenge
+
+1041
+00:36:56,710 --> 00:36:55,119
+and then making the suit
+
+1042
+00:36:58,310 --> 00:36:56,720
+uh learning how to work in the suit with
+
+1043
+00:36:59,030 --> 00:36:58,320
+the tools in the neutral buoyancy lab
+
+1044
+00:37:00,150 --> 00:36:59,040
+which
+
+1045
+00:37:02,870 --> 00:37:00,160
+is the way we've developed every
+
+1046
+00:37:04,950 --> 00:37:02,880
+spacewalk in the history that at least
+
+1047
+00:37:07,109 --> 00:37:04,960
+i've been a part of here at nasa's we go
+
+1048
+00:37:08,870 --> 00:37:07,119
+in the nbl we work with the tools in the
+
+1049
+00:37:10,550 --> 00:37:08,880
+suit that we're going to be in try to
+
+1050
+00:37:13,030 --> 00:37:10,560
+design the tasks such that we can
+
+1051
+00:37:14,390 --> 00:37:13,040
+position ourselves for success
+
+1052
+00:37:15,990 --> 00:37:14,400
+the other thing i'll have to add to
+
+1053
+00:37:17,349 --> 00:37:16,000
+steve's answer on i agree with all of
+
+1054
+00:37:19,349 --> 00:37:17,359
+that is
+
+1055
+00:37:21,190 --> 00:37:19,359
+when we go to collect a sample
+
+1056
+00:37:23,510 --> 00:37:21,200
+it depends on what type of asteroid
+
+1057
+00:37:26,150 --> 00:37:23,520
+we're going to on what art requirements
+
+1058
+00:37:28,790 --> 00:37:26,160
+we would put on the sample container
+
+1059
+00:37:30,710 --> 00:37:28,800
+if it is a rock as some people described
+
+1060
+00:37:32,710 --> 00:37:30,720
+then putting it in a baggie and stowing
+
+1061
+00:37:34,710 --> 00:37:32,720
+it you know would be okay
+
+1062
+00:37:36,470 --> 00:37:34,720
+if it is a carbonaceous asteroid where
+
+1063
+00:37:38,310 --> 00:37:36,480
+one of your primary primary things you
+
+1064
+00:37:40,790 --> 00:37:38,320
+want to do is to capture the volatiles
+
+1065
+00:37:41,990 --> 00:37:40,800
+in that rock and study the volatiles
+
+1066
+00:37:43,589 --> 00:37:42,000
+you're going to want a hermetically
+
+1067
+00:37:44,710 --> 00:37:43,599
+sealed container to contain those
+
+1068
+00:37:46,790 --> 00:37:44,720
+volatiles
+
+1069
+00:37:49,190 --> 00:37:46,800
+so there's some some differences there
+
+1070
+00:37:51,270 --> 00:37:49,200
+that we'll take into account that's as
+
+1071
+00:37:52,790 --> 00:37:51,280
+we peel the onion as we go deeper into
+
+1072
+00:37:54,230 --> 00:37:52,800
+the study we'll investigate the
+
+1073
+00:37:58,230 --> 00:37:54,240
+different different techniques and how
+
+1074
+00:38:04,710 --> 00:38:00,630
+how about online any uh
+
+1075
+00:38:09,510 --> 00:38:07,190
+yeah there was a question um it didn't
+
+1076
+00:38:11,430 --> 00:38:09,520
+directly relate to tools but it was um
+
+1077
+00:38:13,510 --> 00:38:11,440
+there was a question about
+
+1078
+00:38:15,589 --> 00:38:13,520
+how the asus suit
+
+1079
+00:38:18,069 --> 00:38:15,599
+was actually derived as the as the
+
+1080
+00:38:20,230 --> 00:38:18,079
+asteroid suit and what mods and relevant
+
+1081
+00:38:21,270 --> 00:38:20,240
+uh what mods were
+
+1082
+00:38:23,190 --> 00:38:21,280
+would have to be made to make that
+
+1083
+00:38:27,430 --> 00:38:23,200
+relevant for the asteroid mission so so
+
+1084
+00:38:31,670 --> 00:38:29,430
+when we started looking at this mission
+
+1085
+00:38:33,349 --> 00:38:31,680
+we looked at
+
+1086
+00:38:35,750 --> 00:38:33,359
+all the suits in our inventory we looked
+
+1087
+00:38:38,150 --> 00:38:35,760
+at the current emu that's
+
+1088
+00:38:39,109 --> 00:38:38,160
+extra vehicular mobility unit that's on
+
+1089
+00:38:41,270 --> 00:38:39,119
+station
+
+1090
+00:38:44,150 --> 00:38:41,280
+we looked at the exploration suit
+
+1091
+00:38:47,349 --> 00:38:44,160
+and we looked at at the modified aces as
+
+1092
+00:38:50,710 --> 00:38:47,359
+a very bare-bones eva capability
+
+1093
+00:38:53,510 --> 00:38:50,720
+we also traded uh an umbilical eva
+
+1094
+00:38:56,310 --> 00:38:53,520
+versus versus a traditional what we've
+
+1095
+00:38:57,910 --> 00:38:56,320
+done ever since skylab is a
+
+1096
+00:38:59,510 --> 00:38:57,920
+plus or portable life support system
+
+1097
+00:39:01,750 --> 00:38:59,520
+based dba
+
+1098
+00:39:04,390 --> 00:39:01,760
+when we looked at all those
+
+1099
+00:39:06,390 --> 00:39:04,400
+different suit capabilities
+
+1100
+00:39:07,750 --> 00:39:06,400
+we knew
+
+1101
+00:39:09,670 --> 00:39:07,760
+anytime you do an ebay you want the
+
+1102
+00:39:11,510 --> 00:39:09,680
+absolute best suit and i would never
+
+1103
+00:39:12,950 --> 00:39:11,520
+argue with that but when we looked at
+
+1104
+00:39:16,790 --> 00:39:12,960
+the constraints of the mission and what
+
+1105
+00:39:18,790 --> 00:39:16,800
+we could do using orion
+
+1106
+00:39:21,270 --> 00:39:18,800
+as the eva platform from an
+
+1107
+00:39:23,270 --> 00:39:21,280
+affordability perspective of trying to
+
+1108
+00:39:24,630 --> 00:39:23,280
+minimize new developments in this time
+
+1109
+00:39:27,270 --> 00:39:24,640
+frame
+
+1110
+00:39:29,829 --> 00:39:27,280
+the modified asus suit traded best
+
+1111
+00:39:32,150 --> 00:39:29,839
+because that suit had to be worn by the
+
+1112
+00:39:34,069 --> 00:39:32,160
+crew anyway for launch and entry and we
+
+1113
+00:39:36,790 --> 00:39:34,079
+went back and looked at the gemini time
+
+1114
+00:39:38,550 --> 00:39:36,800
+frame and that suit that the modified
+
+1115
+00:39:40,470 --> 00:39:38,560
+asus it's a full pressure suit it'll
+
+1116
+00:39:42,550 --> 00:39:40,480
+protect you from the vacuum it has
+
+1117
+00:39:46,069 --> 00:39:42,560
+heritage all the way back to gemini and
+
+1118
+00:39:48,470 --> 00:39:46,079
+gemini did several tasks in that suit
+
+1119
+00:39:50,470 --> 00:39:48,480
+so when we looked at the mass trade and
+
+1120
+00:39:51,990 --> 00:39:50,480
+how we would stow the suits
+
+1121
+00:39:53,430 --> 00:39:52,000
+in orion and the things we needed to
+
+1122
+00:39:55,589 --> 00:39:53,440
+carry with us
+
+1123
+00:39:57,270 --> 00:39:55,599
+that suit traded best from a mass and
+
+1124
+00:39:59,030 --> 00:39:57,280
+performance perspective
+
+1125
+00:40:02,310 --> 00:39:59,040
+orion has
+
+1126
+00:40:04,550 --> 00:40:02,320
+launch mass constraints and it has abort
+
+1127
+00:40:06,230 --> 00:40:04,560
+and nominal and emission
+
+1128
+00:40:08,069 --> 00:40:06,240
+weight constraints it can only carry a
+
+1129
+00:40:09,750 --> 00:40:08,079
+certain amount of weight as the system
+
+1130
+00:40:11,430 --> 00:40:09,760
+is designed
+
+1131
+00:40:13,349 --> 00:40:11,440
+so we made this trade of we're going to
+
+1132
+00:40:16,150 --> 00:40:13,359
+go with a less capable suit
+
+1133
+00:40:17,430 --> 00:40:16,160
+for the short term uh to execute this
+
+1134
+00:40:18,950 --> 00:40:17,440
+early mission
+
+1135
+00:40:20,790 --> 00:40:18,960
+and then for the long term we'll keep
+
+1136
+00:40:22,710 --> 00:40:20,800
+evolving and go build the exploration
+
+1137
+00:40:24,150 --> 00:40:22,720
+suit we really need for the future
+
+1138
+00:40:28,230 --> 00:40:24,160
+that's kind of the trade hopefully that
+
+1139
+00:40:33,510 --> 00:40:30,550
+any other questions online
+
+1140
+00:40:36,069 --> 00:40:33,520
+any other comments for eva tools and so
+
+1141
+00:40:38,309 --> 00:40:36,079
+let me in case the the other technical
+
+1142
+00:40:39,510 --> 00:40:38,319
+modifications that were made to the suit
+
+1143
+00:40:41,030 --> 00:40:39,520
+were
+
+1144
+00:40:44,069 --> 00:40:41,040
+some biasing and the stitching to
+
+1145
+00:40:45,670 --> 00:40:44,079
+encrypt to improve where the natural
+
+1146
+00:40:47,510 --> 00:40:45,680
+work site is for the crew's hands to
+
+1147
+00:40:49,510 --> 00:40:47,520
+reduce crew effort
+
+1148
+00:40:51,670 --> 00:40:49,520
+adding a thermal protection over garment
+
+1149
+00:40:54,230 --> 00:40:51,680
+to handle the difference of the thermal
+
+1150
+00:40:56,630 --> 00:40:54,240
+environment from outside the cabin
+
+1151
+00:40:58,710 --> 00:40:56,640
+modifications of including the
+
+1152
+00:41:00,710 --> 00:40:58,720
+the phase six gloves that are currently
+
+1153
+00:41:03,109 --> 00:41:00,720
+being used on stations so there were
+
+1154
+00:41:05,109 --> 00:41:03,119
+basically mobility enhancements and
+
+1155
+00:41:07,670 --> 00:41:05,119
+enhancements to handle the eva
+
+1156
+00:41:09,670 --> 00:41:07,680
+environment different from the suit
+
+1157
+00:41:11,589 --> 00:41:09,680
+those types of things the tmg for
+
+1158
+00:41:12,870 --> 00:41:11,599
+example would those material
+
+1159
+00:41:15,910 --> 00:41:12,880
+developments and everything else would
+
+1160
+00:41:17,430 --> 00:41:15,920
+apply to a future suit as well
+
+1161
+00:41:20,790 --> 00:41:17,440
+so we're about to make some of those
+
+1162
+00:41:23,270 --> 00:41:20,800
+mods to the suit and get back in the nbl
+
+1163
+00:41:24,950 --> 00:41:23,280
+as the calendar year turns over
+
+1164
+00:41:27,510 --> 00:41:24,960
+and then try to test out
+
+1165
+00:41:29,829 --> 00:41:27,520
+some modifications that the
+
+1166
+00:41:31,190 --> 00:41:29,839
+asus suit the hands aren't necessarily
+
+1167
+00:41:33,030 --> 00:41:31,200
+biased properly it was designed for
+
+1168
+00:41:35,670 --> 00:41:33,040
+launch entry we think we can we can bias
+
+1169
+00:41:37,510 --> 00:41:35,680
+those and do even more productive work
+
+1170
+00:41:38,950 --> 00:41:37,520
+we know it's not the best suit but it's
+
+1171
+00:41:41,430 --> 00:41:38,960
+it'll it'll work for this mission at
+
+1172
+00:41:43,190 --> 00:41:41,440
+least we think for short evas
+
+1173
+00:41:46,309 --> 00:41:43,200
+the next chart i have here is we there's
+
+1174
+00:41:48,950 --> 00:41:46,319
+some pretty amazing things that that we
+
+1175
+00:41:50,630 --> 00:41:48,960
+got out of this session relative to
+
+1176
+00:41:52,870 --> 00:41:50,640
+how we would do translation and these
+
+1177
+00:41:54,309 --> 00:41:52,880
+these telescoping booms
+
+1178
+00:41:56,630 --> 00:41:54,319
+you saw in our animation and our
+
+1179
+00:41:58,950 --> 00:41:56,640
+graphics we had a couple of booms but we
+
+1180
+00:41:59,829 --> 00:41:58,960
+didn't we didn't really look at
+
+1181
+00:42:01,430 --> 00:41:59,839
+um
+
+1182
+00:42:04,309 --> 00:42:01,440
+you know we'd love to have a more
+
+1183
+00:42:05,670 --> 00:42:04,319
+capable robotic arm but from a mass
+
+1184
+00:42:07,270 --> 00:42:05,680
+perspective for the first mission it
+
+1185
+00:42:09,430 --> 00:42:07,280
+just doesn't really work out
+
+1186
+00:42:11,030 --> 00:42:09,440
+so some of these concepts of a
+
+1187
+00:42:13,030 --> 00:42:11,040
+telescoping boom
+
+1188
+00:42:14,870 --> 00:42:13,040
+kind of intrigue us a little bit
+
+1189
+00:42:15,750 --> 00:42:14,880
+we've been struggling with how do we get
+
+1190
+00:42:19,030 --> 00:42:15,760
+to
+
+1191
+00:42:20,950 --> 00:42:19,040
+asteroid let's say
+
+1192
+00:42:22,630 --> 00:42:20,960
+we think we can get to positions near
+
+1193
+00:42:24,470 --> 00:42:22,640
+the the base if you saw in our graphic
+
+1194
+00:42:26,309 --> 00:42:24,480
+pretty well but then if we want to go up
+
+1195
+00:42:27,750 --> 00:42:26,319
+a little higher in the asteroid we're a
+
+1196
+00:42:29,990 --> 00:42:27,760
+little challenged by our current
+
+1197
+00:42:32,790 --> 00:42:30,000
+capability but these telescoping booms
+
+1198
+00:42:33,829 --> 00:42:32,800
+are pretty simple they're pretty uh
+
+1199
+00:42:35,109 --> 00:42:33,839
+pretty
+
+1200
+00:42:36,390 --> 00:42:35,119
+we suspect they're relatively cost
+
+1201
+00:42:37,829 --> 00:42:36,400
+effective and they may give us that
+
+1202
+00:42:38,630 --> 00:42:37,839
+capability so this is something we want
+
+1203
+00:42:40,870 --> 00:42:38,640
+to go
+
+1204
+00:42:42,630 --> 00:42:40,880
+take a little bit more look at
+
+1205
+00:42:45,270 --> 00:42:42,640
+you know we talked a lot about
+
+1206
+00:42:46,710 --> 00:42:45,280
+other the canada arm dexter
+
+1207
+00:42:47,510 --> 00:42:46,720
+the darpa friend arm and those are
+
+1208
+00:42:49,030 --> 00:42:47,520
+things
+
+1209
+00:42:50,550 --> 00:42:49,040
+you know probably would be not for the
+
+1210
+00:42:51,750 --> 00:42:50,560
+first mission but maybe maybe down the
+
+1211
+00:42:52,550 --> 00:42:51,760
+road there would be something we would
+
+1212
+00:42:54,790 --> 00:42:52,560
+add
+
+1213
+00:42:56,390 --> 00:42:54,800
+but these telescoping booms are pretty
+
+1214
+00:42:58,550 --> 00:42:56,400
+intriguing and then
+
+1215
+00:43:01,270 --> 00:42:58,560
+something we'll go look at a little bit
+
+1216
+00:43:03,030 --> 00:43:01,280
+more we were very interested in those
+
+1217
+00:43:06,230 --> 00:43:03,040
+something that both mark and i commented
+
+1218
+00:43:08,230 --> 00:43:06,240
+on as we went through the session today
+
+1219
+00:43:11,349 --> 00:43:08,240
+any other comments on translation aids
+
+1220
+00:43:13,750 --> 00:43:11,359
+or robotics as we
+
+1221
+00:43:16,230 --> 00:43:13,760
+move forward
+
+1222
+00:43:21,190 --> 00:43:18,309
+and then you know we've talked about
+
+1223
+00:43:23,190 --> 00:43:21,200
+you know what do we do to uh to further
+
+1224
+00:43:25,750 --> 00:43:23,200
+um explore the asteroid relative to
+
+1225
+00:43:27,030 --> 00:43:25,760
+things like in situ resource utilization
+
+1226
+00:43:28,870 --> 00:43:27,040
+this was an intriguing robotic
+
+1227
+00:43:30,710 --> 00:43:28,880
+capability to maybe maybe look inside
+
+1228
+00:43:32,150 --> 00:43:30,720
+the asteroid maybe this is something
+
+1229
+00:43:33,349 --> 00:43:32,160
+we could think about pre-positioning on
+
+1230
+00:43:35,430 --> 00:43:33,359
+the robotic spacecraft i think that's
+
+1231
+00:43:37,270 --> 00:43:35,440
+something we need to talk about
+
+1232
+00:43:39,750 --> 00:43:37,280
+how do we package things there's there's
+
+1233
+00:43:42,790 --> 00:43:39,760
+been a lot of mass trades done but as we
+
+1234
+00:43:44,230 --> 00:43:42,800
+move forward for uh for future missions
+
+1235
+00:43:46,230 --> 00:43:44,240
+you know how do we add things that
+
+1236
+00:43:47,829 --> 00:43:46,240
+really improve our our utilization of
+
+1237
+00:43:54,150 --> 00:43:47,839
+the asteroid or maybe turn it over to
+
+1238
+00:43:58,069 --> 00:43:56,870
+and then uh again we've got a really
+
+1239
+00:43:59,910 --> 00:43:58,079
+focus on
+
+1240
+00:44:02,230 --> 00:43:59,920
+how do we how do we
+
+1241
+00:44:04,309 --> 00:44:02,240
+build functionality across the modules
+
+1242
+00:44:05,990 --> 00:44:04,319
+we've talked about for extensibility
+
+1243
+00:44:08,150 --> 00:44:06,000
+obviously orion there's going to be some
+
+1244
+00:44:10,390 --> 00:44:08,160
+limit at some point orion is really a
+
+1245
+00:44:11,990 --> 00:44:10,400
+crew transportation vehicle but it can
+
+1246
+00:44:14,069 --> 00:44:12,000
+be used as an airlock for the simple
+
+1247
+00:44:15,430 --> 00:44:14,079
+missions where do we move
+
+1248
+00:44:17,349 --> 00:44:15,440
+where do we put hardware in the future
+
+1249
+00:44:18,790 --> 00:44:17,359
+it's probably on
+
+1250
+00:44:20,550 --> 00:44:18,800
+some of the modules that we propose
+
+1251
+00:44:22,550 --> 00:44:20,560
+either an exploration module or some of
+
+1252
+00:44:24,870 --> 00:44:22,560
+these robotic modules
+
+1253
+00:44:26,710 --> 00:44:24,880
+to optimize future missions
+
+1254
+00:44:28,870 --> 00:44:26,720
+um you know we
+
+1255
+00:44:30,790 --> 00:44:28,880
+we liked the simulation work that has
+
+1256
+00:44:32,550 --> 00:44:30,800
+been been done at goddard and things
+
+1257
+00:44:33,910 --> 00:44:32,560
+that can enhance the mission obviously
+
+1258
+00:44:36,069 --> 00:44:33,920
+goddard has done a lot of work on the
+
+1259
+00:44:37,670 --> 00:44:36,079
+sensor technology as well that that
+
+1260
+00:44:39,670 --> 00:44:37,680
+feeds forward not only for this mission
+
+1261
+00:44:41,430 --> 00:44:39,680
+but future missions
+
+1262
+00:44:43,190 --> 00:44:41,440
+and then you know everything that we do
+
+1263
+00:44:45,030 --> 00:44:43,200
+we really need to keep affordability in
+
+1264
+00:44:47,750 --> 00:44:45,040
+mind we we have
+
+1265
+00:44:49,510 --> 00:44:47,760
+as uh as the human space flight
+
+1266
+00:44:50,870 --> 00:44:49,520
+team knows it's a
+
+1267
+00:44:52,309 --> 00:44:50,880
+we need to
+
+1268
+00:44:54,230 --> 00:44:52,319
+work within our budget constraints
+
+1269
+00:44:55,190 --> 00:44:54,240
+continue to work on sls and orion and
+
+1270
+00:44:57,430 --> 00:44:55,200
+then
+
+1271
+00:44:59,270 --> 00:44:57,440
+use this as the first mission for those
+
+1272
+00:45:00,230 --> 00:44:59,280
+for those vehicles
+
+1273
+00:45:01,430 --> 00:45:00,240
+so
+
+1274
+00:45:03,589 --> 00:45:01,440
+in summary
+
+1275
+00:45:06,230 --> 00:45:03,599
+we might wrap up a little early
+
+1276
+00:45:07,670 --> 00:45:06,240
+we had a lot of really good ideas
+
+1277
+00:45:09,109 --> 00:45:07,680
+we're going to take those ideas and go
+
+1278
+00:45:11,349 --> 00:45:09,119
+back in our team and
+
+1279
+00:45:13,750 --> 00:45:11,359
+use those to approve the mission
+
+1280
+00:45:15,750 --> 00:45:13,760
+extensibility is very important as we
+
+1281
+00:45:17,990 --> 00:45:15,760
+take this mission build forward
+
+1282
+00:45:19,670 --> 00:45:18,000
+for exploration
+
+1283
+00:45:22,150 --> 00:45:19,680
+this isn't a one of mission it's a
+
+1284
+00:45:23,910 --> 00:45:22,160
+stepping stone to future missions uh to
+
+1285
+00:45:25,990 --> 00:45:23,920
+build upon
+
+1286
+00:45:27,670 --> 00:45:26,000
+initially in cis lunar space and then
+
+1287
+00:45:29,349 --> 00:45:27,680
+onward to mars
+
+1288
+00:45:31,430 --> 00:45:29,359
+it very much lines up with a global
+
+1289
+00:45:32,950 --> 00:45:31,440
+exploration roadmap which we've been
+
+1290
+00:45:34,309 --> 00:45:32,960
+working
+
+1291
+00:45:36,470 --> 00:45:34,319
+hand-in-hand with our partners which was
+
+1292
+00:45:37,990 --> 00:45:36,480
+released earlier this calendar year
+
+1293
+00:45:39,910 --> 00:45:38,000
+we'll maintain some flexibility in the
+
+1294
+00:45:41,589 --> 00:45:39,920
+design and this is a good time in fact
+
+1295
+00:45:43,510 --> 00:45:41,599
+today has been what i think is the best
+
+1296
+00:45:45,750 --> 00:45:43,520
+interaction we've had
+
+1297
+00:45:46,870 --> 00:45:45,760
+getting a lot of good ideas from from a
+
+1298
+00:45:49,589 --> 00:45:46,880
+broad
+
+1299
+00:45:51,030 --> 00:45:49,599
+source of teammates that we work with
+
+1300
+00:45:53,190 --> 00:45:51,040
+day in and day out some that we don't
+
+1301
+00:45:55,030 --> 00:45:53,200
+work with and some in academia
+
+1302
+00:45:57,030 --> 00:45:55,040
+and we're going to continue to leverage
+
+1303
+00:45:59,750 --> 00:45:57,040
+this team and and work in the future to
+
+1304
+00:46:02,630 --> 00:45:59,760
+put together the best mission we can so
+
+1305
+00:46:04,550 --> 00:46:02,640
+thank you very much for attending and uh
+
+1306
+00:46:06,790 --> 00:46:04,560
+really appreciate the support
+
+1307
+00:46:10,230 --> 00:46:06,800
+any last comments or questions from the
+
+1308
+00:46:14,550 --> 00:46:11,589
+so we're really looking for
+
+1309
+00:46:17,270 --> 00:46:14,560
+recommendations for further work
+
+1310
+00:46:18,950 --> 00:46:17,280
+i didn't really see any here so
+
+1311
+00:46:20,630 --> 00:46:18,960
+i'd like to see that tomorrow morning
+
+1312
+00:46:22,390 --> 00:46:20,640
+when you brief out
+
+1313
+00:46:24,069 --> 00:46:22,400
+because we have to write a final report
+
+1314
+00:46:25,510 --> 00:46:24,079
+about this workshop and that's going to
+
+1315
+00:46:27,190 --> 00:46:25,520
+be key
+
+1316
+00:46:29,190 --> 00:46:27,200
+yeah we'll put together that's what we
+
+1317
+00:46:31,190 --> 00:46:29,200
+have tonight some recommendations we
+
+1318
+00:46:33,430 --> 00:46:31,200
+really wanted to have a discussion
+
+1319
+00:46:34,710 --> 00:46:33,440
+uh in this phase but
+
+1320
+00:46:36,870 --> 00:46:34,720
+you know the telescoping boom is
+
+1321
+00:46:39,349 --> 00:46:36,880
+something we will carry forward
+
+1322
+00:46:42,790 --> 00:46:39,359
+i think that the suit dust
+
+1323
+00:46:45,190 --> 00:46:42,800
+item is something we'll carry forward
+
+1324
+00:46:46,790 --> 00:46:45,200
+the the drill technology and using the
+
+1325
+00:46:48,390 --> 00:46:46,800
+the pgt
+
+1326
+00:46:49,750 --> 00:46:48,400
+with the drill is something will carry
+
+1327
+00:46:52,870 --> 00:46:49,760
+forward
+
+1328
+00:46:54,390 --> 00:46:52,880
+so uh the extensibility ideas that mike
+
+1329
+00:46:55,589 --> 00:46:54,400
+rafferty and the boeing team propose on
+
+1330
+00:46:57,190 --> 00:46:55,599
+how to build upon it something will
+
+1331
+00:46:58,470 --> 00:46:57,200
+carry forward so those are three or four
+
+1332
+00:47:00,069 --> 00:46:58,480
+things that will
+
+1333
+00:47:03,030 --> 00:47:00,079
+will carry forward
+
+1334
+00:47:04,710 --> 00:47:03,040
+there are also in the first um
+
+1335
+00:47:06,470 --> 00:47:04,720
+paper there were some ideas on
+
+1336
+00:47:08,069 --> 00:47:06,480
+partnerships
+
+1337
+00:47:10,950 --> 00:47:08,079
+that would be really interesting to
+
+1338
+00:47:14,309 --> 00:47:10,960
+explore as well
+
+1339
+00:47:17,990 --> 00:47:16,230
+any other clues and comments thanks
+
+1340
+00:47:19,990 --> 00:47:18,000
+steve and i both took some notes on ones
+
+1341
+00:47:21,670 --> 00:47:20,000
+that piqued our interest for
+
+1342
+00:47:23,670 --> 00:47:21,680
+continued work and we'll collaborate on
+
+1343
+00:47:25,190 --> 00:47:23,680
+that after to me i found it very hard
+
+1344
+00:47:26,549 --> 00:47:25,200
+it's one thing to read the papers it's
+
+1345
+00:47:27,750 --> 00:47:26,559
+one thing to
+
+1346
+00:47:28,630 --> 00:47:27,760
+look at the presentations but it's
+
+1347
+00:47:30,790 --> 00:47:28,640
+another thing to hear their
+
+1348
+00:47:32,150 --> 00:47:30,800
+presentations in person and and see how
+
+1349
+00:47:34,230 --> 00:47:32,160
+they're delivered and listen to the
+
+1350
+00:47:36,150 --> 00:47:34,240
+ideas and get the exchange i think we
+
+1351
+00:47:38,069 --> 00:47:36,160
+get a better product that way
+
+1352
+00:47:40,069 --> 00:47:38,079
+so but we'll have some recognitions
+
+1353
+00:47:42,630 --> 00:47:40,079
+tomorrow as well so
+
+1354
+00:47:45,190 --> 00:47:42,640
+for our headquarters friends
+
+1355
+00:47:47,510 --> 00:47:45,200
+i wanted to comment that um i also think
+
+1356
+00:47:49,750 --> 00:47:47,520
+that the dust on the suit has a lot of
+
+1357
+00:47:51,430 --> 00:47:49,760
+promise and i want to echo that i do
+
+1358
+00:47:53,349 --> 00:47:51,440
+think though that there's a lot of maybe
+
+1359
+00:47:55,589 --> 00:47:53,359
+material durability and the fact that
+
+1360
+00:47:57,589 --> 00:47:55,599
+it's an electronic material and take
+
+1361
+00:47:59,910 --> 00:47:57,599
+into consideration
+
+1362
+00:48:01,670 --> 00:47:59,920
+some of those maybe long-term material
+
+1363
+00:48:05,030 --> 00:48:01,680
+certification things like flammability
+
+1364
+00:48:07,270 --> 00:48:05,040
+concerns as they go forward and do more
+
+1365
+00:48:09,430 --> 00:48:07,280
+detailed evaluation on those types of
+
+1366
+00:48:11,670 --> 00:48:09,440
+materials
+
+1367
+00:48:13,190 --> 00:48:11,680
+thank you
+
+1368
+00:48:18,630 --> 00:48:13,200
+any other comments
+
+1369
+00:48:23,270 --> 00:48:20,230
+this this may be a bad one when
+
+1370
+00:48:25,829 --> 00:48:23,280
+everybody's ready to leave but uh
+
+1371
+00:48:28,549 --> 00:48:25,839
+so i i know uh space technology mission
+
+1372
+00:48:30,630 --> 00:48:28,559
+directorate is playing an active role in
+
+1373
+00:48:32,150 --> 00:48:30,640
+the robotic vehicle because they're very
+
+1374
+00:48:33,910 --> 00:48:32,160
+interested in forwarding the solar
+
+1375
+00:48:35,910 --> 00:48:33,920
+electric propulsion
+
+1376
+00:48:37,910 --> 00:48:35,920
+and the question is whether
+
+1377
+00:48:40,230 --> 00:48:37,920
+they've engaged
+
+1378
+00:48:41,430 --> 00:48:40,240
+you guys in the crew portion of the
+
+1379
+00:48:43,750 --> 00:48:41,440
+mission yet
+
+1380
+00:48:45,190 --> 00:48:43,760
+and if you see a role for them to help
+
+1381
+00:48:47,589 --> 00:48:45,200
+support
+
+1382
+00:48:51,030 --> 00:48:47,599
+some of these activities or building out
+
+1383
+00:48:53,670 --> 00:48:51,040
+some of the future capabilities so i can
+
+1384
+00:48:55,670 --> 00:48:53,680
+comment a little bit uh
+
+1385
+00:48:57,910 --> 00:48:55,680
+yes they've been very engaged on the
+
+1386
+00:48:59,190 --> 00:48:57,920
+solar array technology and the
+
+1387
+00:49:00,950 --> 00:48:59,200
+set
+
+1388
+00:49:01,670 --> 00:49:00,960
+systems and the hall thruster technology
+
+1389
+00:49:03,109 --> 00:49:01,680
+which
+
+1390
+00:49:04,790 --> 00:49:03,119
+feeds four we've talked to them about
+
+1391
+00:49:07,750 --> 00:49:04,800
+how that feeds forward in terms of the
+
+1392
+00:49:09,910 --> 00:49:07,760
+array size the mass and power that that
+
+1393
+00:49:12,309 --> 00:49:09,920
+we need but they're also participating
+
+1394
+00:49:14,549 --> 00:49:12,319
+in a lot of different areas
+
+1395
+00:49:16,470 --> 00:49:14,559
+for example in our advanced exploration
+
+1396
+00:49:17,990 --> 00:49:16,480
+suit development they are a partner in
+
+1397
+00:49:19,990 --> 00:49:18,000
+our suit development they've funded some
+
+1398
+00:49:21,190 --> 00:49:20,000
+advanced glove work today they continue
+
+1399
+00:49:23,670 --> 00:49:21,200
+to do that
+
+1400
+00:49:25,670 --> 00:49:23,680
+human robotic systems
+
+1401
+00:49:27,829 --> 00:49:25,680
+some of the technology that
+
+1402
+00:49:29,829 --> 00:49:27,839
+that rob from ksc talked about are
+
+1403
+00:49:32,790 --> 00:49:29,839
+actually being funded by the human
+
+1404
+00:49:34,470 --> 00:49:32,800
+robotic systems project in space tech so
+
+1405
+00:49:36,549 --> 00:49:34,480
+they're already
+
+1406
+00:49:37,990 --> 00:49:36,559
+looking at technologies we need
+
+1407
+00:49:41,430 --> 00:49:38,000
+for exploration
+
+1408
+00:49:43,670 --> 00:49:41,440
+i know chris moore and jason crusad from
+
+1409
+00:49:45,910 --> 00:49:43,680
+advanced exploration systems works hand
+
+1410
+00:49:48,150 --> 00:49:45,920
+in hand with space tech on helping them
+
+1411
+00:49:49,589 --> 00:49:48,160
+to define the technologies required that
+
+1412
+00:49:52,150 --> 00:49:49,599
+feed forward
+
+1413
+00:49:53,990 --> 00:49:52,160
+they've got work on going on in situ
+
+1414
+00:49:56,710 --> 00:49:54,000
+resource utilization
+
+1415
+00:49:59,270 --> 00:49:56,720
+for various destinations so
+
+1416
+00:50:01,270 --> 00:49:59,280
+they've been a partner with us
+
+1417
+00:50:04,549 --> 00:50:01,280
+we've talked a lot probably maybe too
+
+1418
+00:50:06,630 --> 00:50:04,559
+much about the sep which is really
+
+1419
+00:50:09,349 --> 00:50:06,640
+a big factor in this mission in fact
+
+1420
+00:50:11,750 --> 00:50:09,359
+accept technology really enables
+
+1421
+00:50:13,430 --> 00:50:11,760
+us to even dream of bringing back these
+
+1422
+00:50:15,349 --> 00:50:13,440
+kinds of masses
+
+1423
+00:50:17,270 --> 00:50:15,359
+from deep space but there's other things
+
+1424
+00:50:22,470 --> 00:50:17,280
+that space tech has been
+
+1425
+00:50:28,870 --> 00:50:25,030
+any other questions or comments
+
+1426
+00:50:32,470 --> 00:50:30,710
+thank you very much this has been an
+
+1427
+00:50:33,829 --> 00:50:32,480
+incredible session so thanks for all
+
+1428
+00:50:35,670 --> 00:50:33,839
+your time and
+
+1429
+00:50:37,750 --> 00:50:35,680
+and i really appreciate it and continue
+
+1430
+00:50:39,109 --> 00:50:37,760
+to watch the asteroid initiative on
+
+1431
+00:50:40,549 --> 00:50:39,119
+nasa.gov

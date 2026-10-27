@@ -1,0 +1,5282 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "plain-text", "source_file": "Archives-for-the-Unexplained/documents/2017-01-31---NASA-s-Ames-Research-Center---Kenneth-Cheung---Building-Blocks-for-Aerostructures_PuLp97j_sgM---transcript-automated-.txt", "source_sha256": "97ccbf360985974cee0e8cc38198c188cc917a0152cf1be05697c2361ead646c", "source_bytes": 87109, "source_mtime": 1790406636, "source_mtime_ns": 1790406636868337767, "source_ctime_ns": 1790406636871187593, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T22:43:27.116477+00:00"}
+
+1
+00:00:00,833 --> 00:00:06,833
+[music playing]
+
+2
+00:00:16,733 --> 00:00:22,633
+- Welcome to the 2016 NASA
+Ames Summer Series.
+
+3
+00:00:22,633 --> 00:00:26,733
+When Robert C. Hook, in 1653,
+
+4
+00:00:26,733 --> 00:00:29,333
+took a thin slice of cork
+
+5
+00:00:29,333 --> 00:00:31,900
+and observed it
+under a microscope,
+
+6
+00:00:31,900 --> 00:00:38,366
+he discovered modular chambers
+he termed "cells."
+
+7
+00:00:38,366 --> 00:00:41,400
+Upon further studies,
+
+8
+00:00:41,400 --> 00:00:44,066
+we found that living cells
+
+9
+00:00:44,066 --> 00:00:46,500
+have the capability to react
+
+10
+00:00:46,500 --> 00:00:50,633
+and adapt to the environment.
+
+11
+00:00:50,633 --> 00:00:54,966
+Imagine a world
+where vehicles start off
+
+12
+00:00:54,966 --> 00:00:56,766
+with a particular form
+
+13
+00:00:56,766 --> 00:01:01,633
+and have the capability
+to morph, during travel,
+
+14
+00:01:01,633 --> 00:01:06,666
+to the environment
+that they experience.
+
+15
+00:01:06,666 --> 00:01:08,733
+Today's seminar, entitled
+
+16
+00:01:08,733 --> 00:01:11,233
+"Building Blocks
+for Aerostructures,"
+
+17
+00:01:11,233 --> 00:01:16,666
+will be given by
+Dr. Kenny Cheung.
+
+18
+00:01:16,666 --> 00:01:18,833
+Dr. Cheung received
+a Bachelor of Arts
+
+19
+00:01:18,833 --> 00:01:21,466
+from Cornell University,
+
+20
+00:01:21,466 --> 00:01:24,733
+then came over to this side
+
+21
+00:01:24,733 --> 00:01:28,500
+and received a Masters
+in Computer Science--
+
+22
+00:01:28,500 --> 00:01:30,300
+actually didn't.
+Sorry, I apologize.
+
+23
+00:01:30,300 --> 00:01:32,666
+Stayed at MIT.
+
+24
+00:01:32,666 --> 00:01:35,533
+Did a Masters
+in computer science at MIT,
+
+25
+00:01:35,533 --> 00:01:41,600
+followed by a PhD
+in applied physics.
+
+26
+00:01:41,600 --> 00:01:44,166
+He joined Ames
+and is currently
+
+27
+00:01:44,166 --> 00:01:45,666
+a research scientist
+with the Office
+
+28
+00:01:45,666 --> 00:01:47,466
+of Chief Technologist,
+
+29
+00:01:47,466 --> 00:01:49,700
+and he conducts research
+on the application
+
+30
+00:01:49,700 --> 00:01:51,800
+of building blocks,
+base materials,
+
+31
+00:01:51,800 --> 00:01:57,633
+and algorithms for aeronautical
+and space systems.
+
+32
+00:01:57,633 --> 00:02:01,400
+Please join me
+in welcoming Dr. Cheung.
+
+33
+00:02:01,400 --> 00:02:05,766
+[applause]
+
+34
+00:02:05,766 --> 00:02:12,200
+- Thank you, and thank
+you all for coming today.
+
+35
+00:02:12,200 --> 00:02:16,133
+I'd like to begin
+by acknowledging the various
+
+36
+00:02:16,133 --> 00:02:17,433
+contributing organizations
+
+37
+00:02:17,433 --> 00:02:19,800
+to the work that
+you'll see in this talk.
+
+38
+00:02:19,800 --> 00:02:23,866
+In particular,
+the Aero Research Mission
+
+39
+00:02:23,866 --> 00:02:27,166
+Directorate's Convergent
+Aeronautics Solutions program,
+
+40
+00:02:27,166 --> 00:02:30,400
+which is right now
+our biggest sponsor,
+
+41
+00:02:30,400 --> 00:02:32,100
+if you will,
+under the Transformative
+
+42
+00:02:32,100 --> 00:02:34,233
+Aeronautics Concepts program.
+
+43
+00:02:34,233 --> 00:02:37,300
+That work extends from NASA
+
+44
+00:02:37,300 --> 00:02:40,800
+Aeronautics Research Institute,
+Team Seedling.
+
+45
+00:02:40,800 --> 00:02:42,766
+That was very enabling.
+
+46
+00:02:42,766 --> 00:02:45,266
+And we also have some work
+that you'll see today
+
+47
+00:02:45,266 --> 00:02:48,266
+that's been funded under
+the Space Tech Mission
+
+48
+00:02:48,266 --> 00:02:51,466
+Directorate's game-changing
+development program.
+
+49
+00:02:51,466 --> 00:02:55,100
+Also involved are--
+
+50
+00:02:55,100 --> 00:02:57,266
+with in-kind support
+
+51
+00:02:57,266 --> 00:03:01,966
+as well as just
+collaborators, UCSC,
+
+52
+00:03:01,966 --> 00:03:04,000
+the Massachusetts Institute
+of Technology Center
+
+53
+00:03:04,000 --> 00:03:09,066
+for Bits and Atoms,
+and MOOG's base systems.
+
+54
+00:03:09,066 --> 00:03:15,366
+I also want
+to acknowledge the two
+
+55
+00:03:15,366 --> 00:03:17,700
+most significant mentors
+I've had here at Ames,
+
+56
+00:03:17,700 --> 00:03:20,200
+in the short period of time
+I've been here so far,
+
+57
+00:03:20,200 --> 00:03:23,066
+which is Harry Partridge
+and Sean Swei.
+
+58
+00:03:23,066 --> 00:03:28,033
+And Sean Swei has also
+spent time sitting in the lab
+
+59
+00:03:28,033 --> 00:03:30,766
+as well as all the faces
+that you see here,
+
+60
+00:03:30,766 --> 00:03:32,966
+which are the minds
+
+61
+00:03:32,966 --> 00:03:34,600
+and hands behind the work
+
+62
+00:03:34,600 --> 00:03:38,166
+that you'll see
+in this presentation.
+
+63
+00:03:38,166 --> 00:03:42,433
+And being here at NASA
+Ames Research Center
+
+64
+00:03:42,433 --> 00:03:45,133
+has been really wonderful.
+
+65
+00:03:45,133 --> 00:03:48,733
+You can see this is just some of
+all of the people here
+
+66
+00:03:48,733 --> 00:03:50,600
+who have been involved
+in this work,
+
+67
+00:03:50,600 --> 00:03:52,833
+and it hasn't been going
+on that long here.
+
+68
+00:03:52,833 --> 00:03:55,200
+So you get an idea
+of the kind of support
+
+69
+00:03:55,200 --> 00:03:57,533
+we have here at NASA Ames.
+
+70
+00:03:57,533 --> 00:03:59,200
+So, thank you all.
+
+71
+00:03:59,200 --> 00:04:03,000
+So I'm here today to talk about
+
+72
+00:04:03,000 --> 00:04:05,433
+building blocks
+for aerostructures.
+
+73
+00:04:05,433 --> 00:04:08,866
+And this comes from
+an intersection
+
+74
+00:04:08,866 --> 00:04:12,333
+of digital materials,
+cellular solids,
+
+75
+00:04:12,333 --> 00:04:14,433
+and fiber composites.
+
+76
+00:04:14,433 --> 00:04:16,700
+And so what I aim to show
+is that it's possible
+
+77
+00:04:16,700 --> 00:04:18,333
+to make things lighter,
+
+78
+00:04:18,333 --> 00:04:19,666
+in a way, stronger,
+
+79
+00:04:19,666 --> 00:04:22,533
+as well as possibly
+faster and cheaper
+
+80
+00:04:22,533 --> 00:04:24,600
+by assembling
+composite materials
+
+81
+00:04:24,600 --> 00:04:26,900
+from small,
+discrete parts.
+
+82
+00:04:26,900 --> 00:04:29,533
+Short-term applications
+include infrastructure
+
+83
+00:04:29,533 --> 00:04:31,900
+like buildings
+and bridges,
+
+84
+00:04:31,900 --> 00:04:33,900
+or vehicles like airplanes.
+
+85
+00:04:33,900 --> 00:04:36,266
+In all cases,
+the most significant benefit
+
+86
+00:04:36,266 --> 00:04:38,966
+might be immaterial life cycles.
+
+87
+00:04:38,966 --> 00:04:42,800
+So, the most obvious
+short-term benefit
+
+88
+00:04:42,800 --> 00:04:44,633
+comes from the reduced weight.
+For example,
+
+89
+00:04:44,633 --> 00:04:46,700
+less structural weight
+in an aircraft
+
+90
+00:04:46,700 --> 00:04:49,400
+means less required fuel.
+
+91
+00:04:49,400 --> 00:04:53,900
+Oops. Sorry--which itself
+means less weight,
+
+92
+00:04:53,900 --> 00:04:56,166
+which means lower
+structural requirements
+
+93
+00:04:56,166 --> 00:04:57,666
+and even less
+required fuel.
+
+94
+00:04:57,666 --> 00:05:00,500
+So I'll say a bit about
+each of these areas,
+
+95
+00:05:00,500 --> 00:05:02,100
+and then explain how it
+all fits together
+
+96
+00:05:02,100 --> 00:05:03,666
+and show a couple of examples
+
+97
+00:05:03,666 --> 00:05:06,833
+that we're pursuing
+as applications.
+
+98
+00:05:06,833 --> 00:05:09,366
+So what are digital materials?
+
+99
+00:05:09,366 --> 00:05:11,566
+Digital materials
+are made from a small
+
+100
+00:05:11,566 --> 00:05:13,700
+and discrete set of parts,
+
+101
+00:05:13,700 --> 00:05:16,500
+with discrete locations
+and discrete connections.
+
+102
+00:05:16,500 --> 00:05:18,300
+They form as low-cost
+and reversible ways
+
+103
+00:05:18,300 --> 00:05:19,533
+of making things,
+
+104
+00:05:19,533 --> 00:05:21,866
+with low precision
+assembly requirements.
+
+105
+00:05:21,866 --> 00:05:24,200
+Think about the precision
+of a 3-year-old,
+
+106
+00:05:24,200 --> 00:05:27,400
+relative to the precision
+of the assemblies
+
+107
+00:05:27,400 --> 00:05:31,500
+that he or she can make
+from, say, Lego bricks.
+
+108
+00:05:31,500 --> 00:05:33,933
+So this is accomplished
+with aero reduction,
+
+109
+00:05:33,933 --> 00:05:35,966
+tolerance,
+and correction mechanisms,
+
+110
+00:05:35,966 --> 00:05:37,800
+which is just like
+what we see in digital
+
+111
+00:05:37,800 --> 00:05:39,966
+communication
+and computation systems.
+
+112
+00:05:39,966 --> 00:05:42,166
+So digital systems in general,
+
+113
+00:05:42,166 --> 00:05:44,466
+as we understand them,
+employ many--
+
+114
+00:05:44,466 --> 00:05:46,033
+and as we've engineered them--
+
+115
+00:05:46,033 --> 00:05:48,600
+employ many fungible units
+to form assemblies
+
+116
+00:05:48,600 --> 00:05:51,033
+with a wide range
+of size and function.
+
+117
+00:05:51,033 --> 00:05:52,666
+All from low
+and finite sets of types
+
+118
+00:05:52,666 --> 00:05:54,333
+of discrete building blocks.
+
+119
+00:05:54,333 --> 00:05:57,300
+If the application
+of this to materials sounds
+
+120
+00:05:57,300 --> 00:05:58,800
+to you a bit like biology,
+
+121
+00:05:58,800 --> 00:06:03,533
+and Jacob helped to
+introduce this analogy,
+
+122
+00:06:03,533 --> 00:06:06,400
+that's because it is indeed
+similar to our basic models
+
+123
+00:06:06,400 --> 00:06:09,033
+for how materials
+are used in living organisms.
+
+124
+00:06:09,033 --> 00:06:10,266
+So in biology,
+
+125
+00:06:10,266 --> 00:06:12,966
+we see discrete assembly
+resulting in structures
+
+126
+00:06:12,966 --> 00:06:15,766
+with a wide range of size
+and function in organisms
+
+127
+00:06:15,766 --> 00:06:17,200
+as a whole,
+
+128
+00:06:17,200 --> 00:06:19,566
+or specialized organs
+and tissues,
+
+129
+00:06:19,566 --> 00:06:21,300
+all from a low
+and finite set of types
+
+130
+00:06:21,300 --> 00:06:22,866
+of discrete building blocks.
+
+131
+00:06:22,866 --> 00:06:27,600
+So the most, the simplest way
+
+132
+00:06:27,600 --> 00:06:29,800
+you can look this
+is amino acids
+
+133
+00:06:29,800 --> 00:06:31,633
+as building blocks.
+
+134
+00:06:31,633 --> 00:06:33,033
+And so the diversity of things
+
+135
+00:06:33,033 --> 00:06:35,666
+that can be made with this
+sort of combinatorial system,
+
+136
+00:06:35,666 --> 00:06:37,500
+at various levels of hierarchy,
+
+137
+00:06:37,500 --> 00:06:38,800
+is plainly evident
+
+138
+00:06:38,800 --> 00:06:40,933
+and the small number
+of required building blocks,
+
+139
+00:06:40,933 --> 00:06:43,033
+along with system scalability,
+
+140
+00:06:43,033 --> 00:06:45,433
+has allowed synthetic biologists
+
+141
+00:06:45,433 --> 00:06:46,666
+to make new systems
+
+142
+00:06:46,666 --> 00:06:48,866
+from the same
+or similar material.
+
+143
+00:06:48,866 --> 00:06:51,466
+It's amazing work with
+incredible rates of progress,
+
+144
+00:06:51,466 --> 00:06:53,066
+some of which
+is going on here.
+
+145
+00:06:53,066 --> 00:06:58,166
+For many of our current
+manufacturing applications,
+
+146
+00:06:58,166 --> 00:07:00,333
+however, we may be able
+to take advantage
+
+147
+00:07:00,333 --> 00:07:02,900
+of the ability to work
+at a much larger scale,
+
+148
+00:07:02,900 --> 00:07:05,466
+and with many fewer
+building block types,
+
+149
+00:07:05,466 --> 00:07:09,500
+or diversity of parameters
+and objective functions.
+
+150
+00:07:09,500 --> 00:07:13,700
+So short of setting out
+to try and re-create life,
+
+151
+00:07:13,700 --> 00:07:16,533
+which is being done
+
+152
+00:07:16,533 --> 00:07:20,700
+in the synthetic
+biology world right now,
+
+153
+00:07:20,700 --> 00:07:25,300
+we're looking at modular systems
+that, on the surface,
+
+154
+00:07:25,300 --> 00:07:26,800
+appear not that different
+from those
+
+155
+00:07:26,800 --> 00:07:30,100
+that have been studied for ages,
+
+156
+00:07:30,100 --> 00:07:32,400
+but historically,
+
+157
+00:07:32,400 --> 00:07:34,600
+these kinds of physical systems
+are often considered
+
+158
+00:07:34,600 --> 00:07:38,200
+to be a mechanical compromise
+relative to conventional
+
+159
+00:07:38,200 --> 00:07:39,966
+manufacturing methods.
+
+160
+00:07:39,966 --> 00:07:41,233
+So there's a couple things
+
+161
+00:07:41,233 --> 00:07:43,566
+I want to point out
+on this slide.
+
+162
+00:07:43,566 --> 00:07:45,133
+The first is that,
+
+163
+00:07:45,133 --> 00:07:49,166
+while it's sad that
+the Lego house got torn down,
+
+164
+00:07:49,166 --> 00:07:51,033
+it's not sad
+that most of the parts
+
+165
+00:07:51,033 --> 00:07:53,033
+got distributed
+amongst many children
+
+166
+00:07:53,033 --> 00:07:56,266
+and therefore maintained
+most of their utility.
+
+167
+00:07:56,266 --> 00:07:59,766
+It's harder to do that with
+your typical demolition job.
+
+168
+00:07:59,766 --> 00:08:01,900
+So can I have a show of hands
+
+169
+00:08:01,900 --> 00:08:05,666
+for how many of you played
+
+170
+00:08:05,666 --> 00:08:08,866
+with toy sets like that?
+
+171
+00:08:14,133 --> 00:08:16,133
+And so can I now
+have a show of hands
+
+172
+00:08:16,133 --> 00:08:17,900
+for how many of you,
+
+173
+00:08:17,900 --> 00:08:21,166
+given a set like
+the one in the middle,
+
+174
+00:08:21,166 --> 00:08:23,166
+would only use
+the provided bricks
+
+175
+00:08:23,166 --> 00:08:27,233
+to make the things shown
+on the cover of the box?
+
+176
+00:08:27,233 --> 00:08:33,333
+So in a way, that set,
+
+177
+00:08:33,333 --> 00:08:36,633
+for a wind turbine set,
+is very realistic
+
+178
+00:08:36,633 --> 00:08:38,000
+because it comes with a truck
+
+179
+00:08:38,000 --> 00:08:40,033
+that is almost
+as big as the turbine.
+
+180
+00:08:40,033 --> 00:08:43,166
+And today's terrestrial
+wind turbines
+
+181
+00:08:43,166 --> 00:08:44,566
+are indeed size-constrained by
+
+182
+00:08:44,566 --> 00:08:46,466
+that truck,
+which is, in turn,
+
+183
+00:08:46,466 --> 00:08:48,600
+constrained by the geometry
+of the roadway system.
+
+184
+00:08:48,600 --> 00:08:54,700
+So we have wind turbines
+that are set by the roadways.
+
+185
+00:08:54,700 --> 00:08:56,966
+So, the funny thing
+is that the Lego version
+
+186
+00:08:56,966 --> 00:08:58,933
+doesn't actually need
+the enormous truck.
+
+187
+00:08:58,933 --> 00:09:01,200
+And you can bet
+that there are some kids
+
+188
+00:09:01,200 --> 00:09:03,700
+that have made some
+curiously big wind turbines,
+
+189
+00:09:03,700 --> 00:09:05,933
+together with mysteriously
+small trucks,
+
+190
+00:09:05,933 --> 00:09:08,433
+just like how the parts
+are meant to be exchanged
+
+191
+00:09:08,433 --> 00:09:11,533
+among the hundred or so
+explicit designs
+
+192
+00:09:11,533 --> 00:09:14,200
+in the reconfigurable
+plane sets.
+
+193
+00:09:14,200 --> 00:09:16,200
+Okay?
+So, one of the things
+
+194
+00:09:16,200 --> 00:09:17,866
+that make toys
+like this work so well
+
+195
+00:09:17,866 --> 00:09:21,566
+is that the parts fit
+together into a regular lattice
+
+196
+00:09:21,566 --> 00:09:23,000
+and when it comes to studying
+
+197
+00:09:23,000 --> 00:09:24,833
+the mechanics of
+lattice structures,
+
+198
+00:09:24,833 --> 00:09:27,000
+we have the science
+of cellular solids.
+
+199
+00:09:27,000 --> 00:09:29,033
+And so this was forged
+in the '80s
+
+200
+00:09:29,033 --> 00:09:31,400
+by Lorna Gibson
+and Michael Ashby,
+
+201
+00:09:31,400 --> 00:09:33,700
+and it shows that we can treat
+these kind of materials
+
+202
+00:09:33,700 --> 00:09:36,166
+as continuous materials
+with bulk properties.
+
+203
+00:09:36,166 --> 00:09:38,333
+That really changes
+how you can design
+
+204
+00:09:38,333 --> 00:09:40,900
+with these kinds of materials.
+
+205
+00:09:40,900 --> 00:09:42,666
+And so the result
+has been the modern
+
+206
+00:09:42,666 --> 00:09:45,733
+engineering use
+of materials
+
+207
+00:09:45,733 --> 00:09:48,133
+with useful characteristics
+
+208
+00:09:48,133 --> 00:09:51,000
+like lower density,
+greater elasticity,
+
+209
+00:09:51,000 --> 00:09:52,833
+and better energy absorption
+
+210
+00:09:52,833 --> 00:09:54,400
+than previously commonly used.
+
+211
+00:09:54,400 --> 00:09:57,366
+So these include the foam
+in bicycle helmets,
+
+212
+00:09:57,366 --> 00:09:58,666
+optimize uses for wood,
+
+213
+00:09:58,666 --> 00:10:00,600
+and ultralight materials
+like aerogel.
+
+214
+00:10:00,600 --> 00:10:03,000
+So the properties
+of any cellular solid
+
+215
+00:10:03,000 --> 00:10:05,066
+are defined by the properties
+of the solid material
+
+216
+00:10:05,066 --> 00:10:06,433
+that it's made from,
+
+217
+00:10:06,433 --> 00:10:10,300
+and the geometric spatial
+configuration of that material.
+
+218
+00:10:10,300 --> 00:10:13,033
+So if we're going to assemble
+a cellular solid
+
+219
+00:10:13,033 --> 00:10:15,100
+from small parts,
+
+220
+00:10:15,100 --> 00:10:18,433
+we could do whatever we wanted
+with a spatial configuration.
+
+221
+00:10:18,433 --> 00:10:22,600
+So, what should we aim for?
+
+222
+00:10:22,600 --> 00:10:24,066
+To get an idea
+of what we could try,
+
+223
+00:10:24,066 --> 00:10:26,033
+we can look at
+a material property chart
+
+224
+00:10:26,033 --> 00:10:27,933
+like those pioneered
+by Michael Ashby,
+
+225
+00:10:27,933 --> 00:10:30,366
+and this shows
+most of the broad categories
+
+226
+00:10:30,366 --> 00:10:32,866
+of materials that we use
+in engineering today.
+
+227
+00:10:32,866 --> 00:10:34,633
+It has density
+along the X-axis
+
+228
+00:10:34,633 --> 00:10:37,000
+and modular stiffness
+along the Y-axis.
+
+229
+00:10:37,000 --> 00:10:40,233
+So metals and ceramics
+are the densest and stiffest
+
+230
+00:10:40,233 --> 00:10:43,100
+and foams are the least dense
+and least stiff.
+
+231
+00:10:43,100 --> 00:10:45,100
+If we were to make anything
+out of these materials,
+
+232
+00:10:45,100 --> 00:10:46,633
+it's simple to see
+what the optimal
+
+233
+00:10:46,633 --> 00:10:48,066
+performance could be
+
+234
+00:10:48,066 --> 00:10:50,033
+by following
+the proportional modulus
+
+235
+00:10:50,033 --> 00:10:51,833
+to density lines
+down the chart.
+
+236
+00:10:51,833 --> 00:10:53,200
+So if you build something sparse
+
+237
+00:10:53,200 --> 00:10:55,466
+that optimally uses
+any of these materials
+
+238
+00:10:55,466 --> 00:10:58,166
+that you see in the bubbles
+
+239
+00:10:58,166 --> 00:11:00,100
+to support the loads,
+
+240
+00:11:00,100 --> 00:11:03,266
+with behavior that's dominated
+by stretching of the material,
+
+241
+00:11:03,266 --> 00:11:04,466
+then the relative stiffness
+
+242
+00:11:04,466 --> 00:11:06,466
+will stay proportional
+to the relative density,
+
+243
+00:11:06,466 --> 00:11:09,600
+so it's gonna follow
+down along those lines.
+
+244
+00:11:09,600 --> 00:11:12,233
+So this is sort of the absolute
+best case design goal,
+
+245
+00:11:12,233 --> 00:11:14,433
+the physical boundary,
+if you will.
+
+246
+00:11:14,433 --> 00:11:15,966
+So we therefore know
+
+247
+00:11:15,966 --> 00:11:17,933
+that we should be able
+to access the area
+
+248
+00:11:17,933 --> 00:11:19,400
+in yellow on this chart,
+
+249
+00:11:19,400 --> 00:11:21,366
+by properly making
+a cellular solid
+
+250
+00:11:21,366 --> 00:11:24,700
+out of a known
+constituent solid material.
+
+251
+00:11:24,700 --> 00:11:25,966
+In practice, however,
+
+252
+00:11:25,966 --> 00:11:27,266
+we've only followed these lines
+
+253
+00:11:27,266 --> 00:11:29,666
+down about in order of magnitude
+and relative density.
+
+254
+00:11:29,666 --> 00:11:31,900
+So we've had reasonable success
+
+255
+00:11:31,900 --> 00:11:33,133
+getting down to around 1/10
+
+256
+00:11:33,133 --> 00:11:35,233
+the volume of the materials
+
+257
+00:11:35,233 --> 00:11:38,233
+that you see here--
+most of them--
+
+258
+00:11:38,233 --> 00:11:40,866
+before reaching
+the limits of conventional
+
+259
+00:11:40,866 --> 00:11:42,266
+manufacturing methods.
+
+260
+00:11:42,266 --> 00:11:46,366
+So if the designs that are truly
+volumetric periodic structures,
+
+261
+00:11:46,366 --> 00:11:49,000
+a pioneer of lattice-based
+metallic structures,
+
+262
+00:11:49,000 --> 00:11:51,600
+Hayden Wiley, has said
+that it is not trivial
+
+263
+00:11:51,600 --> 00:11:54,333
+to ensure that the increased
+cost of periodic cellular
+
+264
+00:11:54,333 --> 00:11:56,466
+manufacturing processes
+is compensated
+
+265
+00:11:56,466 --> 00:11:57,933
+for by the reduction in weight.
+
+266
+00:11:57,933 --> 00:12:01,766
+So whatever cost gains
+you get in your application
+
+267
+00:12:01,766 --> 00:12:03,166
+through the reduction
+and weight.
+
+268
+00:12:03,166 --> 00:12:05,333
+So this presumably refers
+to the technologies
+
+269
+00:12:05,333 --> 00:12:06,733
+like the cast aluminum structure
+
+270
+00:12:06,733 --> 00:12:08,033
+that you see
+on the lower right.
+
+271
+00:12:08,033 --> 00:12:10,633
+So architecture
+and civil engineering
+
+272
+00:12:10,633 --> 00:12:12,500
+have employed space
+frame truss structures
+
+273
+00:12:12,500 --> 00:12:15,966
+for a very long time
+in buildings and aircraft
+
+274
+00:12:15,966 --> 00:12:17,800
+but have yet to implement
+the principal
+
+275
+00:12:17,800 --> 00:12:19,533
+in a way that takes
+advantage of the ability
+
+276
+00:12:19,533 --> 00:12:23,133
+to treat such structures
+as a continuum material.
+
+277
+00:12:23,133 --> 00:12:25,466
+In any case,
+the appreciation for designs
+
+278
+00:12:25,466 --> 00:12:26,900
+that have lots
+of similar elements,
+
+279
+00:12:26,900 --> 00:12:28,633
+sharing structural duties
+is evident
+
+280
+00:12:28,633 --> 00:12:31,233
+throughout our history
+of high performing structures.
+
+281
+00:12:31,233 --> 00:12:32,666
+You think of the Eiffel Tower
+
+282
+00:12:32,666 --> 00:12:34,933
+or you could think
+of the geodetic aircraft,
+
+283
+00:12:34,933 --> 00:12:38,666
+the Vickers aircraft,
+from the '30s.
+
+284
+00:12:38,666 --> 00:12:41,300
+So we're still left
+with the red area
+
+285
+00:12:41,300 --> 00:12:42,966
+on this materials
+property graph,
+
+286
+00:12:42,966 --> 00:12:44,233
+which is physically possible,
+
+287
+00:12:44,233 --> 00:12:45,866
+but for which we still have yet
+
+288
+00:12:45,866 --> 00:12:49,666
+to show suitable
+methods of fabrication.
+
+289
+00:12:49,666 --> 00:12:52,766
+So we do have methods
+of creating cellular materials
+
+290
+00:12:52,766 --> 00:12:54,966
+with greater reductions
+in mass density
+
+291
+00:12:54,966 --> 00:12:58,100
+than those 1 to 10
+that I just mentioned.
+
+292
+00:12:58,100 --> 00:12:59,633
+So these, however,
+have the property
+
+293
+00:12:59,633 --> 00:13:01,433
+that instead of material
+stretching,
+
+294
+00:13:01,433 --> 00:13:03,200
+the phenomenon
+that governs their behavior
+
+295
+00:13:03,200 --> 00:13:04,566
+under load is bending.
+
+296
+00:13:04,566 --> 00:13:07,000
+This results in the bulk
+
+297
+00:13:07,000 --> 00:13:10,166
+following reduced
+mechanical property laws,
+
+298
+00:13:10,166 --> 00:13:12,066
+which is shown here.
+
+299
+00:13:12,066 --> 00:13:13,400
+And many of these materials
+
+300
+00:13:13,400 --> 00:13:15,366
+can be produced
+very efficiently.
+
+301
+00:13:15,366 --> 00:13:16,600
+For instance, by bubbling
+
+302
+00:13:16,600 --> 00:13:19,766
+or mixing a liquid state
+with air before hardening.
+
+303
+00:13:19,766 --> 00:13:21,300
+It is these kinds
+of the materials
+
+304
+00:13:21,300 --> 00:13:23,866
+that have achieved
+ultralight status
+
+305
+00:13:23,866 --> 00:13:26,433
+at the extreme left-hand
+side of this chart.
+
+306
+00:13:26,433 --> 00:13:28,466
+But this still leaves
+this entire
+
+307
+00:13:28,466 --> 00:13:29,966
+red region of the chart behind,
+
+308
+00:13:29,966 --> 00:13:31,766
+due to the effect
+of the beam-bending
+
+309
+00:13:31,766 --> 00:13:33,566
+dominated behavior
+
+310
+00:13:33,566 --> 00:13:35,433
+and the order of magnitude
+practical limit
+
+311
+00:13:35,433 --> 00:13:37,266
+for the processes
+that produce materials
+
+312
+00:13:37,266 --> 00:13:38,600
+with proportional scaling.
+
+313
+00:13:38,600 --> 00:13:41,266
+So it's this region of
+material property space
+
+314
+00:13:41,266 --> 00:13:44,900
+that we focused on
+with some success.
+
+315
+00:13:44,900 --> 00:13:47,100
+So it's interesting because
+for many applications,
+
+316
+00:13:47,100 --> 00:13:49,400
+it's not a strength
+or stiffness that matters
+
+317
+00:13:49,400 --> 00:13:50,866
+or weight that matters,
+
+318
+00:13:50,866 --> 00:13:53,333
+it's strength
+or stiffness per weight.
+
+319
+00:13:53,333 --> 00:13:55,400
+So you can make something
+
+320
+00:13:55,400 --> 00:13:57,000
+with the same stiffness
+per weight,
+
+321
+00:13:57,000 --> 00:13:58,633
+but at a lower weight.
+
+322
+00:13:58,633 --> 00:14:01,200
+Then it costs less to do things
+like move it around,
+
+323
+00:14:01,200 --> 00:14:03,866
+keep it steady, heat it up
+or cool it down.
+
+324
+00:14:03,866 --> 00:14:06,133
+So one current
+industry strategy
+
+325
+00:14:06,133 --> 00:14:09,133
+for trying to get total systems
+into this regime
+
+326
+00:14:09,133 --> 00:14:11,300
+is with fiber composites,
+
+327
+00:14:11,300 --> 00:14:13,066
+which is a technology
+that's undergoing a bit
+
+328
+00:14:13,066 --> 00:14:15,366
+of a Renaissance
+in prototyping capabilities
+
+329
+00:14:15,366 --> 00:14:18,733
+and extensibility of
+manufacturing equipment.
+
+330
+00:14:18,733 --> 00:14:20,466
+So, here we traditionally
+have a process
+
+331
+00:14:20,466 --> 00:14:22,233
+where the manufacturing
+systems are larger
+
+332
+00:14:22,233 --> 00:14:24,300
+and more complex
+than the product,
+
+333
+00:14:24,300 --> 00:14:25,966
+which can be a problem
+when your product
+
+334
+00:14:25,966 --> 00:14:29,100
+is as large and complex
+as a passenger aircraft.
+
+335
+00:14:29,100 --> 00:14:32,300
+So this diagram is from a guide
+that does an admirable job
+
+336
+00:14:32,300 --> 00:14:35,466
+of distilling the best practices
+for composites material design
+
+337
+00:14:35,466 --> 00:14:37,266
+analysis and manufacturing,
+
+338
+00:14:37,266 --> 00:14:38,666
+as well as testing,
+
+339
+00:14:38,666 --> 00:14:44,733
+into a concise,
+693-page handbook.
+
+340
+00:14:44,733 --> 00:14:48,800
+Commercial aircraft are used
+as examples in this guide
+
+341
+00:14:48,800 --> 00:14:50,966
+and new composite aircraft
+architecture can be partly
+
+342
+00:14:50,966 --> 00:14:53,033
+considered as attempts
+to reduce the enormity
+
+343
+00:14:53,033 --> 00:14:56,400
+of this pyramid of design
+analysis and testing.
+
+344
+00:14:56,400 --> 00:14:59,233
+For example,
+we now have the cockpit
+
+345
+00:14:59,233 --> 00:15:00,933
+and forward fuselage
+
+346
+00:15:00,933 --> 00:15:05,433
+down behind the ninth
+passenger window.
+
+347
+00:15:05,433 --> 00:15:07,700
+All the way from
+basically in the nose
+
+348
+00:15:07,700 --> 00:15:11,333
+to behind the ninth
+passenger window,
+
+349
+00:15:11,333 --> 00:15:14,233
+as a single piece
+manufactured as a single,
+
+350
+00:15:14,233 --> 00:15:16,200
+monolithic
+carbon fiber winding.
+
+351
+00:15:16,200 --> 00:15:17,800
+So this one part
+is about 1/6
+
+352
+00:15:17,800 --> 00:15:19,466
+the size of the entire plane,
+
+353
+00:15:19,466 --> 00:15:21,533
+and needs a tool or framework
+
+354
+00:15:21,533 --> 00:15:23,866
+that's about 1/3 the size
+of the entire plane,
+
+355
+00:15:23,866 --> 00:15:25,266
+which needs to go
+into an autoclave
+
+356
+00:15:25,266 --> 00:15:26,500
+to cure the composite
+
+357
+00:15:26,500 --> 00:15:28,600
+that's almost the size
+of the plane,
+
+358
+00:15:28,600 --> 00:15:30,300
+and then get processed
+on a CNC mill
+
+359
+00:15:30,300 --> 00:15:33,066
+that is also almost
+the size of the plane.
+
+360
+00:15:33,066 --> 00:15:34,566
+When it comes to
+shipping the part
+
+361
+00:15:34,566 --> 00:15:36,133
+to the final assembly plant,
+
+362
+00:15:36,133 --> 00:15:37,700
+it has to go on a plane
+
+363
+00:15:37,700 --> 00:15:41,000
+that's twice
+the size of a plane.
+
+364
+00:15:41,000 --> 00:15:42,566
+This plane was custom-designed
+
+365
+00:15:42,566 --> 00:15:45,433
+and built as part of
+the manufacturing process
+
+366
+00:15:45,433 --> 00:15:46,700
+for another plane.
+
+367
+00:15:46,700 --> 00:15:49,300
+So this isn't
+particularly scalable.
+
+368
+00:15:49,300 --> 00:15:54,766
+By the way, not only one
+manufacturer has done this.
+
+369
+00:15:54,766 --> 00:15:57,933
+This isn't the first time
+in history this has been done.
+
+370
+00:15:57,933 --> 00:16:00,100
+But it isn't
+particularly scalable,
+
+371
+00:16:00,100 --> 00:16:02,566
+though they've done an
+admirable job up to this point.
+
+372
+00:16:02,566 --> 00:16:05,666
+But it's largely in the name
+of lighter weight.
+
+373
+00:16:05,666 --> 00:16:08,566
+So what digital
+composites propose
+
+374
+00:16:08,566 --> 00:16:11,533
+is to assemble structures
+from a lot of linked parts.
+
+375
+00:16:11,533 --> 00:16:13,666
+The core concept is that
+
+376
+00:16:13,666 --> 00:16:16,600
+if we can effectively couple
+loops of fibers,
+
+377
+00:16:16,600 --> 00:16:18,900
+then a chain of discrete
+fiber composite parts
+
+378
+00:16:18,900 --> 00:16:21,400
+can be close to the strength
+of a monolithic part,
+
+379
+00:16:21,400 --> 00:16:23,233
+and would have advantages
+with manufacturing
+
+380
+00:16:23,233 --> 00:16:25,166
+processes, serviceability,
+
+381
+00:16:25,166 --> 00:16:26,933
+and reusability,
+
+382
+00:16:26,933 --> 00:16:29,233
+in addition to the tunability
+and extensibility
+
+383
+00:16:29,233 --> 00:16:32,833
+that are general goals
+of digital materials.
+
+384
+00:16:32,833 --> 00:16:34,433
+And the tunability in particular
+
+385
+00:16:34,433 --> 00:16:38,800
+is also a very specific
+goal of composites.
+
+386
+00:16:38,800 --> 00:16:42,300
+And so, at the sort of larger
+scale than amino acids,
+
+387
+00:16:42,300 --> 00:16:44,433
+of course, recent work has shown
+
+388
+00:16:44,433 --> 00:16:46,266
+that a building block approach
+
+389
+00:16:46,266 --> 00:16:49,066
+can be used to achieve
+novel material properties
+
+390
+00:16:49,066 --> 00:16:50,566
+and cellular materials
+
+391
+00:16:50,566 --> 00:16:52,566
+with centimeter scale
+lattice pitch.
+
+392
+00:16:52,566 --> 00:16:54,666
+So these are essentially
+three-dimensional,
+
+393
+00:16:54,666 --> 00:16:56,600
+optimized fiber composites.
+
+394
+00:16:56,600 --> 00:17:01,866
+You get the unidirectional
+material performance scaling,
+
+395
+00:17:01,866 --> 00:17:05,633
+but now in a quasi-isotropic
+cellular solid.
+
+396
+00:17:05,633 --> 00:17:09,700
+So we've shown better
+specific modulus scaling
+
+397
+00:17:09,700 --> 00:17:11,933
+than previously known
+ultralight materials,
+
+398
+00:17:11,933 --> 00:17:14,300
+and this is possible
+because assembly allows us
+
+399
+00:17:14,300 --> 00:17:16,933
+to produce geometries
+that have not been achieved
+
+400
+00:17:16,933 --> 00:17:19,266
+with conventional
+ultralight processes.
+
+401
+00:17:19,266 --> 00:17:21,600
+So, the strength of the material
+performed similarly
+
+402
+00:17:21,600 --> 00:17:23,866
+to the expectations of other
+high-performance
+
+403
+00:17:23,866 --> 00:17:25,233
+ultralight materials,
+
+404
+00:17:25,233 --> 00:17:28,033
+and the stiffness
+is much better.
+
+405
+00:17:28,033 --> 00:17:30,133
+So despite how light it is,
+
+406
+00:17:30,133 --> 00:17:32,800
+you don't need much
+of this stuff to, for instance,
+
+407
+00:17:32,800 --> 00:17:35,300
+support the weight of a person.
+
+408
+00:17:35,300 --> 00:17:37,600
+And you'll see some
+application slides
+
+409
+00:17:37,600 --> 00:17:38,900
+that demonstrate that.
+
+410
+00:17:38,900 --> 00:17:40,866
+But we're not that interested
+in quasi-static
+
+411
+00:17:40,866 --> 00:17:42,966
+applications here.
+
+412
+00:17:42,966 --> 00:17:44,666
+There are many metrics
+that we can use
+
+413
+00:17:44,666 --> 00:17:46,366
+to compare the usefulness
+of this material
+
+414
+00:17:46,366 --> 00:17:48,700
+to what we use today
+and a simple example
+
+415
+00:17:48,700 --> 00:17:50,066
+is a beam performance index,
+
+416
+00:17:50,066 --> 00:17:52,800
+first described by
+Ashby and Cebon,
+
+417
+00:17:52,800 --> 00:17:55,066
+which simply quantifies
+beam-bending stiffness.
+
+418
+00:17:55,066 --> 00:17:58,433
+So if we're given
+description of a beam,
+
+419
+00:17:58,433 --> 00:18:00,800
+a given cross-sectional
+mass distribution,
+
+420
+00:18:00,800 --> 00:18:02,533
+or a second moment
+of inertia,
+
+421
+00:18:02,533 --> 00:18:04,533
+this is governed by
+the square root of the material
+
+422
+00:18:04,533 --> 00:18:07,266
+modulus divided by the mass
+density of the material.
+
+423
+00:18:07,266 --> 00:18:10,733
+So, we can immediately
+recognize that exceeding
+
+424
+00:18:10,733 --> 00:18:12,733
+the quadratic relative density
+
+425
+00:18:12,733 --> 00:18:15,366
+to relative modulus
+of cellular solid scaling
+
+426
+00:18:15,366 --> 00:18:16,833
+will have a very
+positive effect
+
+427
+00:18:16,833 --> 00:18:18,166
+on beam performance.
+
+428
+00:18:18,166 --> 00:18:20,533
+So by reducing the weight
+
+429
+00:18:20,533 --> 00:18:25,433
+for these very specific
+performance metrics,
+
+430
+00:18:25,433 --> 00:18:27,733
+we don't have to maintain
+ideal performance,
+
+431
+00:18:27,733 --> 00:18:30,733
+as long as we don't go below
+the quadratic scaling
+
+432
+00:18:30,733 --> 00:18:33,266
+to actually increase
+the functional performance
+
+433
+00:18:33,266 --> 00:18:34,766
+in an application.
+
+434
+00:18:34,766 --> 00:18:38,500
+Even for one
+as simple as a beam.
+
+435
+00:18:38,500 --> 00:18:42,633
+So, here we see
+
+436
+00:18:42,633 --> 00:18:45,666
+that we've achieved
+
+437
+00:18:45,666 --> 00:18:49,400
+an experiment
+of better performance
+
+438
+00:18:49,400 --> 00:18:51,500
+than conventional
+aerostructure materials.
+
+439
+00:18:51,500 --> 00:18:53,933
+So this is based on
+the linear elastic regime,
+
+440
+00:18:53,933 --> 00:18:56,466
+which is generally considered
+to be the useful bit.
+
+441
+00:18:56,466 --> 00:18:59,433
+And when you exceed
+the linear elastic regime,
+
+442
+00:18:59,433 --> 00:19:04,733
+we do see a non-dissipative
+super elastic mode.
+
+443
+00:19:04,733 --> 00:19:07,633
+And so this--
+
+444
+00:19:07,633 --> 00:19:10,666
+I won't go too much
+into detail here,
+
+445
+00:19:10,666 --> 00:19:16,766
+but what you see is
+
+446
+00:19:16,766 --> 00:19:18,466
+there's this effective twisting,
+
+447
+00:19:18,466 --> 00:19:19,833
+the free end node
+is transferring
+
+448
+00:19:19,833 --> 00:19:22,666
+a substantial bending moment
+through these nodes,
+
+449
+00:19:22,666 --> 00:19:27,400
+and you'll see from
+the strut spacing
+
+450
+00:19:27,400 --> 00:19:31,000
+and the buckling of the struts
+
+451
+00:19:31,000 --> 00:19:34,700
+that you have this
+coordinating twisting motion.
+
+452
+00:19:34,700 --> 00:19:36,166
+And so throughout
+a large structure,
+
+453
+00:19:36,166 --> 00:19:39,100
+this appears to develop into
+a coordinated buckling behavior
+
+454
+00:19:39,100 --> 00:19:40,900
+that is something like
+a three-dimensional
+
+455
+00:19:40,900 --> 00:19:42,600
+folding or pleating.
+
+456
+00:19:42,600 --> 00:19:44,933
+This is also readily apparent
+in simulation work
+
+457
+00:19:44,933 --> 00:19:48,200
+being done by Khan and Joseph.
+
+458
+00:19:48,200 --> 00:19:50,066
+And the rotational displacements
+
+459
+00:19:50,066 --> 00:19:53,266
+that develop for each node
+are anti-symmetric
+
+460
+00:19:53,266 --> 00:19:56,000
+relative to most
+of its neighbors.
+
+461
+00:19:56,000 --> 00:19:58,000
+A kind of unconstrained
+coordinated twisting
+
+462
+00:19:58,000 --> 00:19:59,933
+stress response
+has been reported
+
+463
+00:19:59,933 --> 00:20:02,466
+in two-dimensional surfaces,
+
+464
+00:20:02,466 --> 00:20:04,400
+particularly some natural ones.
+
+465
+00:20:04,400 --> 00:20:06,233
+And we're currently
+working to describe this
+
+466
+00:20:06,233 --> 00:20:08,766
+for such a partially
+constrained condition
+
+467
+00:20:08,766 --> 00:20:10,566
+in three-dimensional lattices.
+
+468
+00:20:10,566 --> 00:20:11,766
+So what happens if we keep
+
+469
+00:20:11,766 --> 00:20:15,400
+loading the material
+past this point?
+
+470
+00:20:15,400 --> 00:20:17,433
+A significant
+perceived pain point
+
+471
+00:20:17,433 --> 00:20:18,966
+with fiber composites
+
+472
+00:20:18,966 --> 00:20:21,566
+is with failure modes
+of typical engineered parts.
+
+473
+00:20:21,566 --> 00:20:23,733
+A caricature of
+the stress strain curve
+
+474
+00:20:23,733 --> 00:20:25,500
+for a typical fiber
+composite part
+
+475
+00:20:25,500 --> 00:20:27,900
+is a straight
+linear elastic line
+
+476
+00:20:27,900 --> 00:20:29,766
+that abruptly ends in breakage.
+
+477
+00:20:29,766 --> 00:20:31,433
+And what this means,
+in a practical sense,
+
+478
+00:20:31,433 --> 00:20:33,566
+is that breakages can be
+accompanied by elastic
+
+479
+00:20:33,566 --> 00:20:36,500
+unloading of a great deal
+of stored energy.
+
+480
+00:20:36,500 --> 00:20:38,600
+And this can be
+quite dangerous.
+
+481
+00:20:38,600 --> 00:20:40,333
+So now we still have
+a great deal of work
+
+482
+00:20:40,333 --> 00:20:41,500
+to do on this topic,
+
+483
+00:20:41,500 --> 00:20:43,866
+of failure mechanisms
+for digital composites,
+
+484
+00:20:43,866 --> 00:20:45,533
+but early tests suggest
+the possibility
+
+485
+00:20:45,533 --> 00:20:47,000
+of being able
+to tune materials
+
+486
+00:20:47,000 --> 00:20:48,966
+to behave in new ways.
+
+487
+00:20:48,966 --> 00:20:53,133
+So this is an open
+frontier in materials science.
+
+488
+00:20:53,133 --> 00:20:55,233
+So why does this work?
+
+489
+00:20:55,233 --> 00:20:57,166
+So it's possible that
+we have mechanics at work
+
+490
+00:20:57,166 --> 00:20:59,966
+that can be described
+as stretch-bend coupling.
+
+491
+00:20:59,966 --> 00:21:02,800
+And this has been described,
+
+492
+00:21:02,800 --> 00:21:09,400
+not so much in the bulk
+material solids literature...
+
+493
+00:21:09,400 --> 00:21:13,566
+but...
+
+494
+00:21:13,566 --> 00:21:15,100
+once there's any tendency
+
+495
+00:21:15,100 --> 00:21:17,933
+towards microstructural
+bending under load,
+
+496
+00:21:17,933 --> 00:21:20,366
+for the kinds of materials
+
+497
+00:21:20,366 --> 00:21:22,366
+that have been considered
+
+498
+00:21:22,366 --> 00:21:24,166
+in the class
+of stochastic materials
+
+499
+00:21:24,166 --> 00:21:27,066
+in the cellular solids
+literature,
+
+500
+00:21:27,066 --> 00:21:29,900
+it seems that the
+geometries that result
+
+501
+00:21:29,900 --> 00:21:33,100
+from the typical ways
+of making engineered foams,
+
+502
+00:21:33,100 --> 00:21:36,033
+stochastic engineered foams,
+predispose the structure
+
+503
+00:21:36,033 --> 00:21:38,066
+to fall into
+a bending-dominated behavior.
+
+504
+00:21:38,066 --> 00:21:40,933
+So we don't really see
+this middle regime
+
+505
+00:21:40,933 --> 00:21:43,300
+in most of engineered
+cellular solids.
+
+506
+00:21:43,300 --> 00:21:46,900
+There just doesn't appear to be
+much observable middle ground.
+
+507
+00:21:46,900 --> 00:21:48,866
+In contrast,
+studies of biomaterials
+
+508
+00:21:48,866 --> 00:21:52,233
+such as intracellular meshworks
+of actin,
+
+509
+00:21:52,233 --> 00:21:54,366
+microtubules
+and extracellular matrices
+
+510
+00:21:54,366 --> 00:21:57,166
+of fibrin and collagen have
+shown mechanical performance
+
+511
+00:21:57,166 --> 00:22:00,166
+that exceeds predictions based
+on framework rigidity theory.
+
+512
+00:22:00,166 --> 00:22:02,166
+So these are the same theories
+
+513
+00:22:02,166 --> 00:22:06,033
+that underpin
+the cellular solids work.
+
+514
+00:22:06,033 --> 00:22:08,433
+And they use these
+rigidity criteria as bases
+
+515
+00:22:08,433 --> 00:22:10,700
+for estimating the balance
+of degrees of freedom
+
+516
+00:22:10,700 --> 00:22:12,133
+and constraints
+in a structure.
+
+517
+00:22:12,133 --> 00:22:14,133
+So recent work suggests
+
+518
+00:22:14,133 --> 00:22:15,700
+that departing from
+these principles
+
+519
+00:22:15,700 --> 00:22:17,566
+by assuming that significant
+bending moments
+
+520
+00:22:17,566 --> 00:22:20,000
+can be transmitted through
+the nodes in the structure,
+
+521
+00:22:20,000 --> 00:22:25,233
+can result in effective
+models of these biomaterials.
+
+522
+00:22:25,233 --> 00:22:26,966
+So we think,
+
+523
+00:22:26,966 --> 00:22:29,033
+while many support
+this model
+
+524
+00:22:29,033 --> 00:22:30,700
+for its simplicity
+with an understanding
+
+525
+00:22:30,700 --> 00:22:32,733
+of the relative magnitude
+of the forces concerned
+
+526
+00:22:32,733 --> 00:22:38,633
+when you're talking
+about biomaterials,
+
+527
+00:22:38,633 --> 00:22:41,766
+and if in principle
+this kind of framework exists,
+
+528
+00:22:41,766 --> 00:22:44,233
+then we should be able to create
+one with a macroscale
+
+529
+00:22:44,233 --> 00:22:46,833
+and it looks like we have.
+
+530
+00:22:46,833 --> 00:22:48,866
+The level of description
+that's being used
+
+531
+00:22:48,866 --> 00:22:52,700
+for the biomaterials
+actually suits
+
+532
+00:22:52,700 --> 00:22:55,800
+what we're doing
+perhaps even better.
+
+533
+00:22:55,800 --> 00:22:57,500
+So if we apply
+a simple adjustment
+
+534
+00:22:57,500 --> 00:22:59,300
+to the dimensional
+scaling arguments
+
+535
+00:22:59,300 --> 00:23:01,933
+that so efficiently describe
+classical cellular solids,
+
+536
+00:23:01,933 --> 00:23:03,400
+we produce a scaling rule
+
+537
+00:23:03,400 --> 00:23:05,000
+for stretch-bend coupled
+lattices
+
+538
+00:23:05,000 --> 00:23:06,600
+that's very close
+to the behavior
+
+539
+00:23:06,600 --> 00:23:10,633
+that we actually see.
+
+540
+00:23:10,633 --> 00:23:14,233
+And so we have these
+different lattice types
+
+541
+00:23:14,233 --> 00:23:16,966
+that we've essentially
+been playing with,
+
+542
+00:23:16,966 --> 00:23:20,766
+with building blocks
+that we produce.
+
+543
+00:23:20,766 --> 00:23:26,666
+We snapped them together,
+initially by hand.
+
+544
+00:23:26,666 --> 00:23:29,266
+And we have these different
+types of geometries
+
+545
+00:23:29,266 --> 00:23:30,533
+that we're working with.
+
+546
+00:23:30,533 --> 00:23:32,033
+There's nothing
+magical about any one
+
+547
+00:23:32,033 --> 00:23:33,600
+of these particular geometries,
+
+548
+00:23:33,600 --> 00:23:35,033
+there's just ones
+that work and ones
+
+549
+00:23:35,033 --> 00:23:37,600
+that we can get
+to work together.
+
+550
+00:23:37,600 --> 00:23:39,466
+And so, we can ask the question
+of what happens
+
+551
+00:23:39,466 --> 00:23:42,800
+if we start mixing them?
+
+552
+00:23:42,800 --> 00:23:44,866
+And so, to illustrate
+
+553
+00:23:44,866 --> 00:23:47,966
+the sort of exponential fan-out
+and variability
+
+554
+00:23:47,966 --> 00:23:49,500
+that you can get by doing this,
+
+555
+00:23:49,500 --> 00:23:50,966
+this is an example
+of designer
+
+556
+00:23:50,966 --> 00:23:52,833
+material properties
+from this approach.
+
+557
+00:23:52,833 --> 00:23:55,333
+So each of these
+towers are built
+
+558
+00:23:55,333 --> 00:23:57,466
+with the same set of components
+
+559
+00:23:57,466 --> 00:23:59,266
+but compress or buckle
+in different ways,
+
+560
+00:23:59,266 --> 00:24:00,900
+under identical
+boundary conditions,
+
+561
+00:24:00,900 --> 00:24:02,533
+all as a result of differences
+
+562
+00:24:02,533 --> 00:24:06,266
+in the ordering or spatial
+arrangement of the parts.
+
+563
+00:24:06,266 --> 00:24:12,300
+So this becomes
+a jumping-off point for us,
+
+564
+00:24:12,300 --> 00:24:17,200
+as an example of bringing it
+down to an application
+
+565
+00:24:17,200 --> 00:24:18,966
+that utilizes the variability
+
+566
+00:24:18,966 --> 00:24:20,600
+that you get
+as you mix these parts.
+
+567
+00:24:20,600 --> 00:24:22,266
+So the key thing
+to understand here
+
+568
+00:24:22,266 --> 00:24:24,500
+is that there's
+this global variability
+
+569
+00:24:24,500 --> 00:24:26,000
+that we can produce by
+
+570
+00:24:26,000 --> 00:24:28,866
+mixing a very small set
+of different types of parts,
+
+571
+00:24:28,866 --> 00:24:30,400
+as long as we have
+a lot of them.
+
+572
+00:24:30,400 --> 00:24:32,133
+And so it's exponential,
+the behaviors
+
+573
+00:24:32,133 --> 00:24:35,033
+that we get are exponential
+
+574
+00:24:35,033 --> 00:24:36,233
+with a number of parts
+
+575
+00:24:36,233 --> 00:24:39,133
+that compose our system.
+
+576
+00:24:39,133 --> 00:24:45,433
+So the first example is wings.
+
+577
+00:24:45,433 --> 00:24:53,933
+If I can get this to play.
+
+578
+00:24:53,933 --> 00:24:56,433
+So this shows,
+
+579
+00:24:56,433 --> 00:25:00,533
+with the same models
+of the large lattices
+
+580
+00:25:00,533 --> 00:25:03,533
+that I just showed,
+
+581
+00:25:03,533 --> 00:25:05,300
+what kinds of deformations
+can be produced
+
+582
+00:25:05,300 --> 00:25:07,433
+by simple actuators
+
+583
+00:25:07,433 --> 00:25:11,700
+with just specified
+arrangement of stiffer
+
+584
+00:25:11,700 --> 00:25:14,433
+and less stiff parts
+in a structure.
+
+585
+00:25:20,600 --> 00:25:22,333
+And so we did some
+initial testing
+
+586
+00:25:22,333 --> 00:25:23,900
+of different kinds
+of shapes
+
+587
+00:25:23,900 --> 00:25:27,066
+going between
+different kinds of shapes,
+
+588
+00:25:27,066 --> 00:25:29,333
+and seeing if in principle,
+
+589
+00:25:29,333 --> 00:25:30,933
+they could hold up
+for instance,
+
+590
+00:25:30,933 --> 00:25:33,533
+in a wind tunnel.
+
+591
+00:25:33,533 --> 00:25:35,333
+And the results
+look promising enough
+
+592
+00:25:35,333 --> 00:25:39,400
+that we went forward
+with the NARI
+
+593
+00:25:39,400 --> 00:25:43,833
+Team Seedling project,
+
+594
+00:25:43,833 --> 00:25:48,933
+which basically takes
+the pyramid of tests
+
+595
+00:25:48,933 --> 00:25:52,233
+and takes out the middle.
+
+596
+00:25:52,233 --> 00:25:55,800
+So the top
+of the pyramid of tests
+
+597
+00:25:55,800 --> 00:25:57,566
+are the small coupon tests,
+
+598
+00:25:57,566 --> 00:26:00,866
+and our parts look like
+those small coupons.
+
+599
+00:26:00,866 --> 00:26:03,833
+And so we can go very quickly,
+
+600
+00:26:03,833 --> 00:26:07,266
+as far as the entire
+process from design
+
+601
+00:26:07,266 --> 00:26:09,000
+and manufacturing,
+
+602
+00:26:09,000 --> 00:26:11,033
+from those small coupon tests,
+
+603
+00:26:11,033 --> 00:26:14,066
+to a complete structure
+
+604
+00:26:14,066 --> 00:26:19,666
+with apparently
+complex behavior.
+
+605
+00:26:19,666 --> 00:26:22,733
+And so this shows
+the process...
+
+606
+00:26:32,633 --> 00:26:38,366
+Including some testing
+of our skin structure.
+
+607
+00:26:42,300 --> 00:26:45,933
+That was on campus, by the way.
+
+608
+00:26:45,933 --> 00:26:47,200
+And so we can go through--
+
+609
+00:26:47,200 --> 00:26:50,166
+and the skins are
+also discrete units.
+
+610
+00:26:50,166 --> 00:26:53,433
+And so this obeys the same
+sort of property
+
+611
+00:26:53,433 --> 00:26:56,500
+of what we can do, in terms
+of the design and testing,
+
+612
+00:26:56,500 --> 00:26:58,666
+and very quickly
+get to the wind tunnel
+
+613
+00:26:58,666 --> 00:27:00,133
+model that you see here.
+
+614
+00:27:00,133 --> 00:27:02,933
+And in fact, we had two.
+
+615
+00:27:02,933 --> 00:27:06,800
+And we have the parts
+for another one.
+
+616
+00:27:06,800 --> 00:27:10,933
+And so you see the bench
+testing that we've done
+
+617
+00:27:10,933 --> 00:27:12,733
+to validate
+
+618
+00:27:12,733 --> 00:27:17,400
+the behavior and the stiffness
+of the structure.
+
+619
+00:27:17,400 --> 00:27:20,933
+And we've been able to bring
+
+620
+00:27:20,933 --> 00:27:25,533
+the modeling down
+in the same way.
+
+621
+00:27:25,533 --> 00:27:29,466
+So, here we're looking
+at vibrational modes,
+
+622
+00:27:29,466 --> 00:27:30,766
+using a modeling strategy
+
+623
+00:27:30,766 --> 00:27:34,200
+that actually obeys
+the same kind of principles
+
+624
+00:27:34,200 --> 00:27:37,233
+as our fabrication strategy.
+
+625
+00:27:37,233 --> 00:27:38,633
+And so what I mean by this is
+
+626
+00:27:38,633 --> 00:27:43,400
+that a traditional
+finite element model
+
+627
+00:27:43,400 --> 00:27:44,900
+will break down the geometry
+
+628
+00:27:44,900 --> 00:27:47,166
+into a number
+of finite elements
+
+629
+00:27:47,166 --> 00:27:49,133
+that compose your mesh.
+
+630
+00:27:49,133 --> 00:27:51,566
+And what we've been able to show
+
+631
+00:27:51,566 --> 00:27:56,100
+is that we can have a number
+of different mesh element
+
+632
+00:27:56,100 --> 00:28:00,200
+types that equals the number
+of different parts of we have.
+
+633
+00:28:00,200 --> 00:28:02,600
+And we can model
+and exhaustively test
+
+634
+00:28:02,600 --> 00:28:05,900
+to tune the model
+of those individual parts,
+
+635
+00:28:05,900 --> 00:28:09,100
+and then each one of those
+is a single simplex
+
+636
+00:28:09,100 --> 00:28:11,400
+in the mesh for our simulation.
+
+637
+00:28:11,400 --> 00:28:15,033
+And that allows us to do things,
+
+638
+00:28:15,033 --> 00:28:18,433
+in terms of the simulation
+and design,
+
+639
+00:28:18,433 --> 00:28:21,666
+essentially in real-time
+and with computational loads
+
+640
+00:28:21,666 --> 00:28:27,566
+that vastly undercut
+traditional processes.
+
+641
+00:28:27,566 --> 00:28:31,466
+And so all this work
+in the wind tunnel tests
+
+642
+00:28:31,466 --> 00:28:33,366
+that you just saw videos of
+
+643
+00:28:33,366 --> 00:28:36,066
+led up to a direct comparison
+
+644
+00:28:36,066 --> 00:28:38,900
+between the white
+3-D printed model
+
+645
+00:28:38,900 --> 00:28:40,333
+you see on the bottom.
+
+646
+00:28:40,333 --> 00:28:42,400
+It's not a biplane.
+
+647
+00:28:42,400 --> 00:28:44,266
+They're just stacked
+on top of each other.
+
+648
+00:28:44,266 --> 00:28:47,633
+And the twist model
+on top.
+
+649
+00:28:47,633 --> 00:28:51,166
+And you can see
+on the bottom model
+
+650
+00:28:51,166 --> 00:28:53,766
+that we have
+conventional ailerons
+
+651
+00:28:53,766 --> 00:28:56,400
+that are replaceable
+on the bottom model.
+
+652
+00:28:56,400 --> 00:28:58,600
+The bottom model, by the way,
+was 3-D printed
+
+653
+00:28:58,600 --> 00:29:04,766
+by Gary Wainwright at Langley.
+
+654
+00:29:04,766 --> 00:29:06,900
+And so we were able to do
+a direct comparison
+
+655
+00:29:06,900 --> 00:29:10,966
+between these two
+
+656
+00:29:10,966 --> 00:29:12,233
+and show the viability
+
+657
+00:29:12,233 --> 00:29:15,100
+of the digital
+composite structure.
+
+658
+00:29:15,100 --> 00:29:20,033
+So as opposed to a traditional
+wind tunnel model
+
+659
+00:29:20,033 --> 00:29:24,500
+that is often built
+extremely stiff,
+
+660
+00:29:24,500 --> 00:29:29,800
+sometimes out of
+a solid block of metal,
+
+661
+00:29:29,800 --> 00:29:34,433
+we were able to use
+a structure that,
+
+662
+00:29:34,433 --> 00:29:37,066
+in this case,
+weighs 100 grams on each side.
+
+663
+00:29:43,733 --> 00:29:47,466
+And we had some fun
+with the wind tunnel tests.
+
+664
+00:29:47,466 --> 00:29:53,166
+Here, we're driving it
+with a forced oscillation
+
+665
+00:29:53,166 --> 00:29:57,400
+and also driving
+the wings
+
+666
+00:29:57,400 --> 00:29:59,566
+to actually counter the motion
+
+667
+00:29:59,566 --> 00:30:03,300
+of the forced oscillation
+of the wind tunnel rig.
+
+668
+00:30:03,300 --> 00:30:06,300
+So this is the team,
+
+669
+00:30:06,300 --> 00:30:08,700
+including the flight
+dynamics group at Langley,
+
+670
+00:30:08,700 --> 00:30:13,033
+that was wonderful
+to work with.
+
+671
+00:30:13,033 --> 00:30:16,966
+And so we moved forward
+with 100 grams per wing,
+
+672
+00:30:16,966 --> 00:30:19,800
+and surviving to full pressure
+of the wind tunnel
+
+673
+00:30:19,800 --> 00:30:21,633
+that we used,
+
+674
+00:30:21,633 --> 00:30:25,733
+we thought, "Why not fly it?"
+
+675
+00:30:25,733 --> 00:30:33,266
+And so we took the same
+wings and flew them.
+
+676
+00:30:37,366 --> 00:30:41,733
+There was sound, but you can
+imagine the sound that it makes.
+
+677
+00:30:41,733 --> 00:30:43,066
+Vroom!
+
+678
+00:30:49,566 --> 00:30:55,133
+And that's a barrel roll,
+
+679
+00:30:55,133 --> 00:30:58,233
+thanks to a very skilled pilot.
+
+680
+00:31:07,033 --> 00:31:10,333
+And so what we're going forward
+with for this project,
+
+681
+00:31:10,333 --> 00:31:12,600
+which is the Mission Adaptive
+Digital Composite
+
+682
+00:31:12,600 --> 00:31:14,200
+Aerostructures
+Technologies project,
+
+683
+00:31:14,200 --> 00:31:17,033
+or MADCAT for short,
+
+684
+00:31:17,033 --> 00:31:21,466
+are what we're calling X
+to the N planes.
+
+685
+00:31:21,466 --> 00:31:23,900
+And so you can see that,
+
+686
+00:31:23,900 --> 00:31:26,366
+if we have the set of
+building blocks,
+
+687
+00:31:26,366 --> 00:31:28,933
+that we can show
+can be rapidly integrated
+
+688
+00:31:28,933 --> 00:31:31,533
+into a flying aircraft,
+
+689
+00:31:31,533 --> 00:31:34,833
+and we can take that
+same set of building blocks
+
+690
+00:31:34,833 --> 00:31:37,100
+and just by snapping them apart
+
+691
+00:31:37,100 --> 00:31:38,666
+and snapping them
+back together again
+
+692
+00:31:38,666 --> 00:31:44,066
+in a different configuration,
+
+693
+00:31:44,066 --> 00:31:46,200
+meet very rapidly,
+
+694
+00:31:46,200 --> 00:31:49,300
+through design and analysis,
+
+695
+00:31:49,300 --> 00:31:52,933
+all of the goals
+of aircraft design
+
+696
+00:31:52,933 --> 00:31:55,766
+analysis and manufacturing.
+
+697
+00:31:55,766 --> 00:31:58,566
+That means that
+we can very quickly
+
+698
+00:31:58,566 --> 00:32:01,200
+get into the air
+lots of different,
+
+699
+00:32:01,200 --> 00:32:04,633
+maybe novel, maybe theorized
+in the literature,
+
+700
+00:32:04,633 --> 00:32:09,300
+but difficult to fabricate
+aircraft types including,
+
+701
+00:32:09,300 --> 00:32:12,833
+in particular,
+the morphing aircraft types.
+
+702
+00:32:12,833 --> 00:32:15,166
+Because what we've
+been able to show
+
+703
+00:32:15,166 --> 00:32:18,766
+is the ability to change
+
+704
+00:32:18,766 --> 00:32:20,966
+where a stiffer part
+and a less stiff part
+
+705
+00:32:20,966 --> 00:32:22,600
+is throughout the structure,
+
+706
+00:32:22,600 --> 00:32:24,800
+in order to define
+global deformation modes
+
+707
+00:32:24,800 --> 00:32:27,000
+with very simple actuation.
+
+708
+00:32:27,000 --> 00:32:34,233
+There are only two servos
+on the twist wing
+
+709
+00:32:34,233 --> 00:32:35,733
+that I just showed.
+
+710
+00:32:35,733 --> 00:32:38,766
+And we think we can keep
+
+711
+00:32:38,766 --> 00:32:40,800
+the number of actuators
+extremely low
+
+712
+00:32:40,800 --> 00:32:44,633
+for essentially arbitrarily
+complex deformation modes,
+
+713
+00:32:44,633 --> 00:32:46,733
+where the number
+of states relates
+
+714
+00:32:46,733 --> 00:32:48,333
+to the number of actuators,
+
+715
+00:32:48,333 --> 00:32:53,433
+not the complexity
+of the deformation mode.
+
+716
+00:32:53,433 --> 00:32:55,433
+And the manufacturing techniques
+
+717
+00:32:55,433 --> 00:32:57,166
+that we look to employ
+with these methods
+
+718
+00:32:57,166 --> 00:32:58,566
+and that we're going
+forward with,
+
+719
+00:32:58,566 --> 00:33:01,533
+are ones that suit
+mass manufacturing.
+
+720
+00:33:01,533 --> 00:33:04,700
+Which means that
+the cost of all
+
+721
+00:33:04,700 --> 00:33:07,933
+of the components
+can come very close
+
+722
+00:33:07,933 --> 00:33:11,900
+to the theoretical energy cost
+of those components.
+
+723
+00:33:16,833 --> 00:33:18,600
+And the long-term vision,
+
+724
+00:33:18,600 --> 00:33:22,633
+if you have a material ecosystem
+
+725
+00:33:22,633 --> 00:33:25,900
+that works this way,
+
+726
+00:33:25,900 --> 00:33:28,933
+is the ability to take
+that fundamental energy
+
+727
+00:33:28,933 --> 00:33:33,833
+cost and amortize it over many
+different applications,
+
+728
+00:33:33,833 --> 00:33:37,500
+because the actual cost
+of assembling these things
+
+729
+00:33:37,500 --> 00:33:41,166
+by snapping them together
+is extremely, extremely low.
+
+730
+00:33:41,166 --> 00:33:42,833
+And so you can
+start to envision
+
+731
+00:33:42,833 --> 00:33:49,166
+completely new ways
+of managing material.
+
+732
+00:33:49,166 --> 00:33:56,166
+So this brings us
+to this question of--
+
+733
+00:33:56,166 --> 00:33:59,933
+I've brought this to this
+question of price-performance.
+
+734
+00:33:59,933 --> 00:34:01,466
+And so to put this
+in perspective,
+
+735
+00:34:01,466 --> 00:34:03,666
+we can briefly look at
+how this proposal relates
+
+736
+00:34:03,666 --> 00:34:07,066
+to aerostructures fabrication
+as we know it.
+
+737
+00:34:07,066 --> 00:34:09,800
+And so the closest example
+
+738
+00:34:09,800 --> 00:34:12,400
+of an aerostructure built
+with the principle
+
+739
+00:34:12,400 --> 00:34:13,833
+of distributing
+load requirements
+
+740
+00:34:13,833 --> 00:34:15,500
+over many smaller parts
+is probably
+
+741
+00:34:15,500 --> 00:34:17,433
+the Vickers geodetic aircraft.
+
+742
+00:34:17,433 --> 00:34:19,166
+So one of them is a plane
+
+743
+00:34:19,166 --> 00:34:22,100
+that still holds the record
+for distance flown nonstop
+
+744
+00:34:22,100 --> 00:34:23,633
+by a single engine aircraft.
+
+745
+00:34:23,633 --> 00:34:26,133
+Over 7,000 miles.
+
+746
+00:34:26,133 --> 00:34:29,500
+So we can assume that this was
+not a heavy aircraft, obviously.
+
+747
+00:34:29,500 --> 00:34:32,533
+So it also had
+the reputation of it
+
+748
+00:34:32,533 --> 00:34:34,733
+being extraordinarily
+damage tolerant,
+
+749
+00:34:34,733 --> 00:34:37,400
+and the unusual robustness
+came at a perceived
+
+750
+00:34:37,400 --> 00:34:40,133
+cost of manufacturer ability.
+
+751
+00:34:40,133 --> 00:34:42,000
+And the factory countered
+this perception
+
+752
+00:34:42,000 --> 00:34:43,600
+was a much-publicized exercise
+
+753
+00:34:43,600 --> 00:34:45,500
+where they built
+an entire aircraft from start
+
+754
+00:34:45,500 --> 00:34:47,366
+to finish in 24 hours,
+
+755
+00:34:47,366 --> 00:34:51,033
+actually taking off
+after that much time.
+
+756
+00:34:51,033 --> 00:34:52,733
+There's not a lot
+of information out there
+
+757
+00:34:52,733 --> 00:34:54,800
+on how many parts
+are in those aircraft.
+
+758
+00:34:54,800 --> 00:34:57,066
+But the time of production
+is similar to today's
+
+759
+00:34:57,066 --> 00:34:58,666
+commercial production
+capability
+
+760
+00:34:58,666 --> 00:35:03,533
+for, say, a Boeing 737.
+
+761
+00:35:03,533 --> 00:35:05,633
+So the current 737 fuselage
+
+762
+00:35:05,633 --> 00:35:08,066
+is comprised of a couple
+hundred of thousand parts,
+
+763
+00:35:08,066 --> 00:35:11,300
+an additional couple hundred
+of thousand fasteners, rivets,
+
+764
+00:35:11,300 --> 00:35:13,466
+are used to attach
+these parts to each other.
+
+765
+00:35:13,466 --> 00:35:16,133
+With the factory system
+of about 700 people,
+
+766
+00:35:16,133 --> 00:35:19,166
+about 1 fuselage
+per day is completed.
+
+767
+00:35:19,166 --> 00:35:21,533
+And therefore, we can estimate
+that on average,
+
+768
+00:35:21,533 --> 00:35:24,066
+7,000 parts are added
+to the assembly per hour,
+
+769
+00:35:24,066 --> 00:35:25,933
+or 10 per person, per hour,
+
+770
+00:35:25,933 --> 00:35:27,166
+or about 2 per second.
+
+771
+00:35:27,166 --> 00:35:28,800
+And estimating
+the total structural
+
+772
+00:35:28,800 --> 00:35:31,100
+volume of the fuselage
+as a cylinder,
+
+773
+00:35:31,100 --> 00:35:35,000
+4 meters in diameter,
+40 meters long,
+
+774
+00:35:35,000 --> 00:35:36,333
+25 centimeters thick,
+
+775
+00:35:36,333 --> 00:35:41,000
+gives us about
+120 cubic meters.
+
+776
+00:35:41,000 --> 00:35:43,966
+And this would require
+about 900,000 parts,
+
+777
+00:35:43,966 --> 00:35:45,766
+if we simply use
+the cuboct truss
+
+778
+00:35:45,766 --> 00:35:48,500
+digital composite
+design presented earlier.
+
+779
+00:35:48,500 --> 00:35:50,733
+So I know that trained students
+
+780
+00:35:50,733 --> 00:35:53,733
+can place one of the
+cuboct truss parts
+
+781
+00:35:53,733 --> 00:35:56,566
+every 5 minutes or faster.
+
+782
+00:35:56,566 --> 00:35:57,900
+So with the same workforce,
+
+783
+00:35:57,900 --> 00:36:00,233
+the job would get done
+in about five days.
+
+784
+00:36:00,233 --> 00:36:01,533
+So we're not even
+talking about
+
+785
+00:36:01,533 --> 00:36:03,600
+a necessarily great
+increase in parts
+
+786
+00:36:03,600 --> 00:36:05,166
+to realize some
+of the advantages
+
+787
+00:36:05,166 --> 00:36:06,833
+of digital construction.
+
+788
+00:36:06,833 --> 00:36:10,466
+And the difference here
+is that for an entire plane,
+
+789
+00:36:10,466 --> 00:36:12,433
+we would now have a few million
+of the same part,
+
+790
+00:36:12,433 --> 00:36:15,133
+instead of around
+a million of custom parts,
+
+791
+00:36:15,133 --> 00:36:18,600
+with around a million
+of the same rivet.
+
+792
+00:36:18,600 --> 00:36:21,200
+So the life cycle implications
+are not trivial,
+
+793
+00:36:21,200 --> 00:36:23,266
+from design through fabrication,
+
+794
+00:36:23,266 --> 00:36:25,166
+to repair and reuse.
+
+795
+00:36:25,166 --> 00:36:28,766
+It's easy to see
+the potential advantages.
+
+796
+00:36:28,766 --> 00:36:33,866
+So this points out
+that your typical
+
+797
+00:36:33,866 --> 00:36:37,566
+toy building block
+price per kilogram
+
+798
+00:36:37,566 --> 00:36:42,200
+comes very close
+to what you would expect
+
+799
+00:36:42,200 --> 00:36:44,966
+for the cost
+to produce the raw material
+
+800
+00:36:44,966 --> 00:36:49,600
+that it's composed of.
+
+801
+00:36:49,600 --> 00:36:54,566
+The next vertical line over
+are the materials
+
+802
+00:36:54,566 --> 00:37:01,033
+that we're currently
+using for our experiments.
+
+803
+00:37:01,033 --> 00:37:04,533
+And we can expect
+to come reasonably close
+
+804
+00:37:04,533 --> 00:37:08,666
+to that cost,
+at scale,
+
+805
+00:37:08,666 --> 00:37:13,733
+for producing
+arbitrarily large structures
+
+806
+00:37:13,733 --> 00:37:15,466
+per kilogram.
+
+807
+00:37:15,466 --> 00:37:17,833
+And so that's compared
+against things
+
+808
+00:37:17,833 --> 00:37:20,133
+like tennis rackets
+and bicycles,
+
+809
+00:37:20,133 --> 00:37:22,100
+consumer drones,
+
+810
+00:37:22,100 --> 00:37:25,533
+which, I'm not sure why
+they're that expensive except
+
+811
+00:37:25,533 --> 00:37:30,200
+that maybe that's what you
+all will pay for them.
+
+812
+00:37:30,200 --> 00:37:36,500
+And then we have the newest
+composite aircraft
+
+813
+00:37:36,500 --> 00:37:39,066
+and your phones,
+
+814
+00:37:39,066 --> 00:37:42,300
+which actually cost
+more per unit kilogram.
+
+815
+00:37:42,300 --> 00:37:46,400
+But, at least looks less
+than an orbital launch,
+
+816
+00:37:46,400 --> 00:37:49,133
+except when you consider
+
+817
+00:37:49,133 --> 00:37:55,166
+what SpaceX seems
+to be able to do,
+
+818
+00:37:55,166 --> 00:37:59,266
+which is actually just
+under what your phone costs
+
+819
+00:37:59,266 --> 00:38:02,866
+per kilogram.
+
+820
+00:38:02,866 --> 00:38:04,800
+And so we can look
+
+821
+00:38:04,800 --> 00:38:09,933
+at what this means
+for space applications,
+
+822
+00:38:09,933 --> 00:38:16,233
+where this cannot only change
+how you get to space,
+
+823
+00:38:16,233 --> 00:38:19,433
+but what you do
+once you get there.
+
+824
+00:38:19,433 --> 00:38:22,833
+And so, what does it mean
+to be building things in space
+
+825
+00:38:22,833 --> 00:38:24,400
+and what does it do for you?
+
+826
+00:38:24,400 --> 00:38:27,733
+And so the launch environment,
+many of you know,
+
+827
+00:38:27,733 --> 00:38:29,866
+almost always presents
+the largest
+
+828
+00:38:29,866 --> 00:38:34,033
+and governing structural
+requirement for a spacecraft.
+
+829
+00:38:34,033 --> 00:38:35,800
+And so using dimensional
+scaling arguments
+
+830
+00:38:35,800 --> 00:38:37,800
+in the difference between
+the launch environment
+
+831
+00:38:37,800 --> 00:38:40,533
+and, say,
+space station deployment,
+
+832
+00:38:40,533 --> 00:38:42,966
+for an assembled cube set,
+
+833
+00:38:42,966 --> 00:38:45,466
+you could see a factor
+of 10 difference
+
+834
+00:38:45,466 --> 00:38:48,300
+in the low frequency
+accelerations,
+
+835
+00:38:48,300 --> 00:38:51,933
+which can theoretically result
+in about a factor of 3 reduction
+
+836
+00:38:51,933 --> 00:38:54,366
+in the required structural mass.
+
+837
+00:38:54,366 --> 00:38:55,766
+And so this is even
+more pronounced
+
+838
+00:38:55,766 --> 00:38:58,466
+when you're considering
+launch vibration,
+
+839
+00:38:58,466 --> 00:39:01,066
+given the typical strategy
+for avoiding vibration-induced
+
+840
+00:39:01,066 --> 00:39:03,400
+damage by keeping natural
+
+841
+00:39:03,400 --> 00:39:05,166
+resin frequencies higher
+
+842
+00:39:05,166 --> 00:39:07,833
+than the significant driving
+frequencies during launch.
+
+843
+00:39:07,833 --> 00:39:09,700
+And so for these
+same cube sets,
+
+844
+00:39:09,700 --> 00:39:12,400
+this could theoretically mean
+a hundredfold or more decrease
+
+845
+00:39:12,400 --> 00:39:13,866
+in the required
+structural mass,
+
+846
+00:39:13,866 --> 00:39:17,633
+depending on what
+you need to carry.
+
+847
+00:39:17,633 --> 00:39:20,666
+So that's a pretty big deal.
+
+848
+00:39:20,666 --> 00:39:26,300
+And the state-of-the-art energy
+
+849
+00:39:26,300 --> 00:39:30,100
+to low Earth orbit
+right now,
+
+850
+00:39:30,100 --> 00:39:34,366
+and that is based on
+the Falcon 9.
+
+851
+00:39:34,366 --> 00:39:37,000
+The gap between that
+and what we know
+
+852
+00:39:37,000 --> 00:39:38,666
+is the minimum
+theoretical energy
+
+853
+00:39:38,666 --> 00:39:40,100
+if you were, say,
+
+854
+00:39:40,100 --> 00:39:43,400
+reusing all of
+your launch mass--
+
+855
+00:39:43,400 --> 00:39:47,300
+not including the fuel--
+
+856
+00:39:47,300 --> 00:39:48,866
+is quite large,
+
+857
+00:39:48,866 --> 00:39:54,433
+and actually spans the space
+
+858
+00:39:54,433 --> 00:39:58,600
+of the production energy
+per unit kilogram
+
+859
+00:39:58,600 --> 00:40:01,466
+of a lot of the materials
+that we use in space,
+
+860
+00:40:01,466 --> 00:40:04,700
+or in engineered
+materials in general.
+
+861
+00:40:04,700 --> 00:40:08,066
+Which means as we
+come down this chart
+
+862
+00:40:08,066 --> 00:40:09,566
+with the right-hand line,
+
+863
+00:40:09,566 --> 00:40:11,833
+it starts become
+much more sensible
+
+864
+00:40:11,833 --> 00:40:15,866
+to be not only building
+
+865
+00:40:15,866 --> 00:40:17,633
+and doing manufacturing
+
+866
+00:40:17,633 --> 00:40:19,700
+in space in general,
+
+867
+00:40:19,700 --> 00:40:22,433
+but to be looking
+for the materials
+
+868
+00:40:22,433 --> 00:40:26,166
+to do so as well.
+
+869
+00:40:26,166 --> 00:40:30,066
+Complete raw
+manufacturing in space.
+
+870
+00:40:30,066 --> 00:40:33,066
+And so this is something
+
+871
+00:40:33,066 --> 00:40:37,366
+that's a lot of progress
+has been made on,
+
+872
+00:40:37,366 --> 00:40:39,000
+since the '80s,
+
+873
+00:40:39,000 --> 00:40:41,233
+and we can leverage
+the progress--
+
+874
+00:40:41,233 --> 00:40:46,700
+the amazing progress
+done by NASA,
+
+875
+00:40:46,700 --> 00:40:50,466
+to look forward
+to what this means
+
+876
+00:40:50,466 --> 00:40:53,833
+when we know that we can now
+create these bulk materials
+
+877
+00:40:53,833 --> 00:40:57,266
+and cellular solids
+out of composite materials.
+
+878
+00:40:57,266 --> 00:41:01,766
+And now using potentially
+a much smaller
+
+879
+00:41:01,766 --> 00:41:03,266
+building block,
+
+880
+00:41:03,266 --> 00:41:05,366
+and taking advantage
+of all of the advances
+
+881
+00:41:05,366 --> 00:41:09,866
+in robotics since then.
+
+882
+00:41:09,866 --> 00:41:12,000
+And so here is
+the building block
+
+883
+00:41:12,000 --> 00:41:13,466
+as what you see on the left,
+
+884
+00:41:13,466 --> 00:41:15,833
+which itself is composed
+of building blocks,
+
+885
+00:41:15,833 --> 00:41:18,633
+smaller building blocks.
+
+886
+00:41:18,633 --> 00:41:21,500
+And they're injection
+molded fiber composites,
+
+887
+00:41:21,500 --> 00:41:25,866
+and the tubes are
+pultruded carbon fiber.
+
+888
+00:41:25,866 --> 00:41:29,333
+And these can be assembled
+into these structures,
+
+889
+00:41:29,333 --> 00:41:32,100
+which we can evaluate
+on a load testing machine
+
+890
+00:41:32,100 --> 00:41:35,700
+or by standing on them.
+
+891
+00:41:35,700 --> 00:41:39,633
+And so, the bridge that you see
+below weighs 18 kilograms.
+
+892
+00:41:39,633 --> 00:41:43,933
+And we fit it into
+two backpacks.
+
+893
+00:41:43,933 --> 00:41:48,500
+And assembled it in a day.
+
+894
+00:41:48,500 --> 00:41:53,533
+And then we disassembled it
+and made into a boat.
+
+895
+00:41:53,533 --> 00:41:59,600
+And disassembled it again
+and made it into a structure.
+
+896
+00:41:59,600 --> 00:42:03,466
+And so, some proof
+that it's not that heavy.
+
+897
+00:42:03,466 --> 00:42:13,400
+And this is the structure,
+
+898
+00:42:13,400 --> 00:42:19,000
+the small habitat structure
+that we built.
+
+899
+00:42:19,000 --> 00:42:23,133
+And so the fungibility
+of this unit, these units,
+
+900
+00:42:23,133 --> 00:42:27,233
+actually extends beyond
+mechanical systems.
+
+901
+00:42:27,233 --> 00:42:31,533
+And so we've also been exploring
+
+902
+00:42:31,533 --> 00:42:36,233
+what it means to combine
+the electrical systems,
+
+903
+00:42:36,233 --> 00:42:39,066
+the power systems,
+
+904
+00:42:39,066 --> 00:42:41,700
+and the communication systems,
+
+905
+00:42:41,700 --> 00:42:43,166
+whatever protocols for actually
+
+906
+00:42:43,166 --> 00:42:48,633
+running a mission
+on board a spacecraft.
+
+907
+00:42:48,633 --> 00:42:51,933
+This is largely
+Daniel and Greenfield's work.
+
+908
+00:42:51,933 --> 00:42:58,066
+Sitting in front here.
+Swell.
+
+909
+00:42:58,066 --> 00:43:01,533
+This has a name
+for the larger project,
+
+910
+00:43:01,533 --> 00:43:05,500
+which is OuroburoSat.
+
+911
+00:43:05,500 --> 00:43:09,900
+And Daniel would be happy
+to discuss that name with you.
+
+912
+00:43:09,900 --> 00:43:13,733
+And the OuroburoSat board
+
+913
+00:43:13,733 --> 00:43:15,266
+is one of these white boards.
+
+914
+00:43:15,266 --> 00:43:18,166
+And each one
+can carry a payload,
+
+915
+00:43:18,166 --> 00:43:22,033
+and what you see here
+
+916
+00:43:22,033 --> 00:43:24,266
+includes a coms payload
+on the one on the right
+
+917
+00:43:24,266 --> 00:43:25,900
+and actually
+an experimental payload
+
+918
+00:43:25,900 --> 00:43:28,166
+on the one on the left.
+
+919
+00:43:28,166 --> 00:43:31,666
+And so these boards can
+all communicate with each other,
+
+920
+00:43:31,666 --> 00:43:35,233
+not only share information,
+but share power.
+
+921
+00:43:35,233 --> 00:43:38,166
+And so they can
+each handle power production
+
+922
+00:43:38,166 --> 00:43:41,500
+with solar panels
+and power storage.
+
+923
+00:43:41,500 --> 00:43:46,033
+And they're reconfigurable
+into different layouts.
+
+924
+00:43:46,033 --> 00:43:48,833
+So we were lucky enough
+
+925
+00:43:48,833 --> 00:43:52,366
+to be able to work with
+Marcus Murbach
+
+926
+00:43:52,366 --> 00:43:55,300
+to get a flight.
+
+927
+00:43:55,300 --> 00:43:59,400
+And the space that we were
+given was the shape of this,
+
+928
+00:43:59,400 --> 00:44:01,200
+instead of the shape of this.
+
+929
+00:44:01,200 --> 00:44:04,866
+So we just reconfigured it
+
+930
+00:44:04,866 --> 00:44:11,000
+and flew that
+on board a sounding rocket.
+
+931
+00:44:13,266 --> 00:44:15,000
+So there's obviously
+no underestimating
+
+932
+00:44:15,000 --> 00:44:18,466
+what things you can learn
+
+933
+00:44:18,466 --> 00:44:20,500
+from an actual
+flight experiment.
+
+934
+00:44:20,500 --> 00:44:23,033
+And so going forward with that,
+
+935
+00:44:23,033 --> 00:44:27,500
+this version shows the inner
+connectivity extending out,
+
+936
+00:44:27,500 --> 00:44:30,300
+not just to a cube,
+but in three dimensions
+
+937
+00:44:30,300 --> 00:44:33,700
+to fill a volume.
+
+938
+00:44:33,700 --> 00:44:37,033
+And so where
+do we go from here?
+
+939
+00:44:37,033 --> 00:44:43,200
+And so this is the direction
+that we're trying to head in.
+
+940
+00:44:43,200 --> 00:44:51,733
+And what we think is that this
+is critical to getting here.
+
+941
+00:44:51,733 --> 00:44:55,000
+So these are much
+larger structures
+
+942
+00:44:55,000 --> 00:44:57,766
+than anything we've built
+in space,
+
+943
+00:44:57,766 --> 00:45:00,500
+in fact, they're many orders
+of magnitude,
+
+944
+00:45:00,500 --> 00:45:02,966
+more mass,
+
+945
+00:45:02,966 --> 00:45:09,100
+than everything we've put
+in space combined.
+
+946
+00:45:09,100 --> 00:45:11,000
+But there's no
+physical principle
+
+947
+00:45:11,000 --> 00:45:13,966
+saying that these
+aren't possible.
+
+948
+00:45:13,966 --> 00:45:15,466
+It's just that
+our current methods
+
+949
+00:45:15,466 --> 00:45:21,133
+for producing space hardware
+don't suit.
+
+950
+00:45:21,133 --> 00:45:24,900
+And so what does it mean
+to have something,
+
+951
+00:45:24,900 --> 00:45:28,966
+to have a system that
+doesn't require your factory
+
+952
+00:45:28,966 --> 00:45:31,833
+to be larger than the thing
+you're making?
+
+953
+00:45:31,833 --> 00:45:34,433
+And so we think
+that we may be able
+
+954
+00:45:34,433 --> 00:45:39,233
+to make progress
+in this direction.
+
+955
+00:45:39,233 --> 00:45:42,666
+And if this seems far-fetched,
+
+956
+00:45:42,666 --> 00:45:46,100
+I like the example
+of "The Brick Moon,"
+
+957
+00:45:46,100 --> 00:45:49,066
+which is a short story
+by Edward Everett Hale,
+
+958
+00:45:49,066 --> 00:45:51,500
+published in 1869,
+
+959
+00:45:57,333 --> 00:46:02,033
+which is said to be
+the first historical proposal
+
+960
+00:46:02,033 --> 00:46:04,333
+for a satellite.
+
+961
+00:46:04,333 --> 00:46:08,966
+And the story goes that
+it was an accident
+
+962
+00:46:08,966 --> 00:46:12,233
+that people were still
+on the brick moon
+
+963
+00:46:12,233 --> 00:46:14,066
+before it got sent up,
+
+964
+00:46:14,066 --> 00:46:15,900
+and they started
+a colony up there.
+
+965
+00:46:15,900 --> 00:46:19,633
+And this was completely
+fanciful in 1869.
+
+966
+00:46:19,633 --> 00:46:25,166
+That wasn't that long ago.
+
+967
+00:46:25,166 --> 00:46:31,066
+So I want to leave
+plenty of time for questions.
+
+968
+00:46:31,066 --> 00:46:35,133
+So I'm going
+to leave it at that.
+
+969
+00:46:35,133 --> 00:46:37,333
+And open it up to questions.
+
+970
+00:46:37,333 --> 00:46:40,333
+[applause]
+
+971
+00:46:45,833 --> 00:46:47,900
+- If you have a question,
+please raise your hand
+
+972
+00:46:47,900 --> 00:46:49,500
+and wait for the microphone
+
+973
+00:46:49,500 --> 00:46:51,533
+and ask a single question
+at a time.
+
+974
+00:46:51,533 --> 00:46:52,533
+Thanks.
+
+975
+00:47:02,566 --> 00:47:06,866
+- Okay, so, imagine
+you're on a space mission
+
+976
+00:47:06,866 --> 00:47:10,466
+and you need to have the ability
+
+977
+00:47:10,466 --> 00:47:12,533
+to make repairs
+and do maintenance.
+
+978
+00:47:12,533 --> 00:47:16,300
+And so there's the philosophy--
+
+979
+00:47:16,300 --> 00:47:21,700
+or an approach of carrying
+a lot of the modular parts,
+
+980
+00:47:21,700 --> 00:47:25,433
+which are nearly all identical
+like you describe,
+
+981
+00:47:25,433 --> 00:47:27,200
+or you could be
+even more fundamental
+
+982
+00:47:27,200 --> 00:47:29,966
+and carry the completely
+raw materials
+
+983
+00:47:29,966 --> 00:47:32,700
+and 3-D print parts
+as you need them.
+
+984
+00:47:32,700 --> 00:47:34,566
+And so have you
+given some thought
+
+985
+00:47:34,566 --> 00:47:36,133
+about how you allocate
+those resources
+
+986
+00:47:36,133 --> 00:47:40,966
+in those directions?
+
+987
+00:47:40,966 --> 00:47:45,766
+- It's a very good question.
+
+988
+00:47:45,766 --> 00:47:48,366
+And in particular
+because we are doing
+
+989
+00:47:48,366 --> 00:47:51,866
+so much work on 3-D printing,
+
+990
+00:47:51,866 --> 00:48:01,166
+NASA as a whole and it's
+state-of-the-art in general.
+
+991
+00:48:01,166 --> 00:48:02,700
+I think there's some question
+
+992
+00:48:02,700 --> 00:48:04,566
+as to how you define
+3-D printing
+
+993
+00:48:04,566 --> 00:48:07,866
+and what counts is that additive
+manufacturing.
+
+994
+00:48:07,866 --> 00:48:10,300
+In a way, what I'm proposing
+was snapping together--
+
+995
+00:48:10,300 --> 00:48:12,333
+what we're proposing
+was snapping together
+
+996
+00:48:12,333 --> 00:48:16,500
+building blocks here,
+is additive manufacturing.
+
+997
+00:48:16,500 --> 00:48:19,833
+So in that sense,
+it's one in the same.
+
+998
+00:48:19,833 --> 00:48:24,000
+In terms of what we think
+of as 3-D printing,
+
+999
+00:48:24,000 --> 00:48:26,666
+in terms of
+the 3-D printing devices
+
+1000
+00:48:26,666 --> 00:48:32,500
+that we see for instance,
+in the Space Shop.
+
+1001
+00:48:32,500 --> 00:48:36,500
+One thing you can look at
+is the energy cost.
+
+1002
+00:48:36,500 --> 00:48:39,133
+And so, it becomes a question of
+
+1003
+00:48:39,133 --> 00:48:44,433
+what your energy sources are.
+
+1004
+00:48:44,433 --> 00:48:48,300
+By and large, when you
+look at the total energy cost
+
+1005
+00:48:48,300 --> 00:48:52,600
+to arrive
+at a piece of hardware,
+
+1006
+00:48:52,600 --> 00:48:55,466
+it appears that the majority
+of that is worked up
+
+1007
+00:48:55,466 --> 00:48:58,566
+in the raw materials production.
+
+1008
+00:48:58,566 --> 00:49:01,900
+And a large proportion
+
+1009
+00:49:01,900 --> 00:49:05,666
+of that you can arrive
+
+1010
+00:49:05,666 --> 00:49:08,800
+at or estimate
+just by,
+
+1011
+00:49:08,800 --> 00:49:10,200
+for instance,
+
+1012
+00:49:10,200 --> 00:49:13,800
+needing to overcome
+latent heating fusion.
+
+1013
+00:49:13,800 --> 00:49:21,833
+So needing to liquefy
+any given material.
+
+1014
+00:49:21,833 --> 00:49:26,500
+And since that dominates
+the production cost,
+
+1015
+00:49:26,500 --> 00:49:32,233
+processes that have
+to re-liquefy the material
+
+1016
+00:49:32,233 --> 00:49:35,566
+are sort of gonna
+double your base
+
+1017
+00:49:35,566 --> 00:49:36,866
+material production cost,
+
+1018
+00:49:36,866 --> 00:49:38,966
+or significantly
+add to it.
+
+1019
+00:49:38,966 --> 00:49:43,566
+And so, the versatility
+is undeniable
+
+1020
+00:49:43,566 --> 00:49:46,733
+and it's moving towards--
+
+1021
+00:49:46,733 --> 00:49:50,966
+of what we now think
+of as conventional 3-D printing,
+
+1022
+00:49:50,966 --> 00:49:55,633
+it's moving towards
+being able to produce
+
+1023
+00:49:55,633 --> 00:49:59,000
+well-characterized parts.
+
+1024
+00:49:59,000 --> 00:50:01,200
+But as it is, in a situation
+
+1025
+00:50:01,200 --> 00:50:08,500
+where you have
+a very strict energy limit,
+
+1026
+00:50:08,500 --> 00:50:11,800
+it can be difficult to justify
+some of the processes
+
+1027
+00:50:11,800 --> 00:50:15,666
+that are currently
+used for 3-D printing.
+
+1028
+00:50:15,666 --> 00:50:18,500
+And so, some of this comes down
+
+1029
+00:50:18,500 --> 00:50:20,666
+to a question of whether
+
+1030
+00:50:20,666 --> 00:50:23,100
+or not you can
+even tell the difference.
+
+1031
+00:50:23,100 --> 00:50:27,766
+And so this is a question
+of pixelating a picture,
+
+1032
+00:50:27,766 --> 00:50:29,366
+whether or not a digital picture
+
+1033
+00:50:29,366 --> 00:50:31,966
+is sufficient versus
+
+1034
+00:50:31,966 --> 00:50:34,200
+what you would term
+an analog picture.
+
+1035
+00:50:34,200 --> 00:50:37,000
+But some point, when you get
+down to the molecules,
+
+1036
+00:50:37,000 --> 00:50:38,800
+your color molecules
+in the picture,
+
+1037
+00:50:38,800 --> 00:50:43,200
+you could argue that you have
+a digital picture anyway.
+
+1038
+00:50:43,200 --> 00:50:46,000
+And so the only
+fundamental difference
+
+1039
+00:50:46,000 --> 00:50:49,700
+is your conventionally-
+considered digital picture
+
+1040
+00:50:49,700 --> 00:50:54,200
+has the pixels
+on a regular lattice.
+
+1041
+00:50:54,200 --> 00:51:00,700
+And so what we've found
+with digital photography
+
+1042
+00:51:00,700 --> 00:51:05,133
+and digital images that there
+are all of these advantages.
+
+1043
+00:51:05,133 --> 00:51:08,033
+You can do compression,
+
+1044
+00:51:08,033 --> 00:51:13,466
+you can operate over
+the actual functional image
+
+1045
+00:51:13,466 --> 00:51:15,166
+in terms of the shapes
+that are on the image,
+
+1046
+00:51:15,166 --> 00:51:18,366
+with algorithms,
+extremely efficiently.
+
+1047
+00:51:19,766 --> 00:51:24,933
+And we think that
+the same thing applies
+
+1048
+00:51:24,933 --> 00:51:27,266
+to three-dimensional systems.
+
+1049
+00:51:27,266 --> 00:51:30,033
+Where if you're defining
+three-dimensional systems
+
+1050
+00:51:30,033 --> 00:51:31,833
+in terms of voxels,
+
+1051
+00:51:31,833 --> 00:51:34,633
+for given applications
+there's a minimum resolution
+
+1052
+00:51:34,633 --> 00:51:37,833
+that you need,
+just like with pictures.
+
+1053
+00:51:37,833 --> 00:51:39,200
+And as long as you meet that,
+
+1054
+00:51:39,200 --> 00:51:41,900
+then there could be
+all of these advantages
+
+1055
+00:51:41,900 --> 00:51:45,700
+to being able
+to address things
+
+1056
+00:51:45,700 --> 00:51:48,900
+in terms of the discrete states.
+
+1057
+00:51:48,900 --> 00:51:52,200
+And so I think there
+are these advantages
+
+1058
+00:51:52,200 --> 00:51:53,500
+in terms of scope,
+
+1059
+00:51:53,500 --> 00:51:56,400
+of the kinds of things
+you can do,
+
+1060
+00:51:56,400 --> 00:51:58,400
+if your systems
+are built in this
+
+1061
+00:51:58,400 --> 00:52:02,533
+fundamentally
+reconfigurable way versus
+
+1062
+00:52:02,533 --> 00:52:07,066
+what's right now
+considered as 3-D printing,
+
+1063
+00:52:07,066 --> 00:52:10,200
+which sort of compresses a lot
+
+1064
+00:52:10,200 --> 00:52:12,966
+of the industrial infrastructure
+
+1065
+00:52:12,966 --> 00:52:14,933
+producing hardware
+
+1066
+00:52:14,933 --> 00:52:19,566
+as we know it
+into a small box.
+
+1067
+00:52:19,566 --> 00:52:21,200
+Which is amazing.
+
+1068
+00:52:21,200 --> 00:52:23,333
+And really useful.
+
+1069
+00:52:23,333 --> 00:52:30,066
+But the extensibility
+of the digital approach
+
+1070
+00:52:30,066 --> 00:52:35,000
+I think is very promising
+and interesting.
+
+1071
+00:52:35,000 --> 00:52:36,500
+Thanks.
+
+1072
+00:52:36,500 --> 00:52:37,700
+Yes.
+
+1073
+00:52:43,000 --> 00:52:45,366
+- For the snap together
+structures that you've shown,
+
+1074
+00:52:45,366 --> 00:52:48,166
+would it be reasonable
+to eventually have automated
+
+1075
+00:52:48,166 --> 00:52:51,500
+assembly and reassembly?
+
+1076
+00:52:51,500 --> 00:52:53,400
+- That's an easy one.
+
+1077
+00:52:53,400 --> 00:52:56,233
+Yes.
+
+1078
+00:52:56,233 --> 00:52:58,366
+And that's what
+we're working on right now,
+
+1079
+00:52:58,366 --> 00:53:04,400
+that's a major focus of our work
+in the lab right now.
+
+1080
+00:53:04,400 --> 00:53:08,766
+And we're talking about robots
+that are actually quite simple.
+
+1081
+00:53:08,766 --> 00:53:11,933
+You don't need many,
+many degrees of freedom,
+
+1082
+00:53:11,933 --> 00:53:17,366
+but you could have many robots.
+
+1083
+00:53:17,366 --> 00:53:19,700
+- Hi, for the structures
+you were showing,
+
+1084
+00:53:19,700 --> 00:53:21,233
+that were composite materials,
+
+1085
+00:53:21,233 --> 00:53:24,900
+they weren't separated
+in discrete layers
+
+1086
+00:53:24,900 --> 00:53:27,300
+but more combined
+in a marble structure.
+
+1087
+00:53:27,300 --> 00:53:29,366
+I was wondering
+how is that determined
+
+1088
+00:53:29,366 --> 00:53:31,400
+if you were measuring
+the force loads
+
+1089
+00:53:31,400 --> 00:53:34,566
+or just have a random algorithm
+
+1090
+00:53:34,566 --> 00:53:38,500
+that determines
+how that is made?
+
+1091
+00:53:38,500 --> 00:53:41,833
+- So, the one where I showed
+
+1092
+00:53:41,833 --> 00:53:45,466
+the blue low
+connectivity structure
+
+1093
+00:53:45,466 --> 00:53:50,366
+and the red denser structure
+
+1094
+00:53:50,366 --> 00:53:54,300
+and then the sort of marbled
+one, that one was random.
+
+1095
+00:53:54,300 --> 00:53:56,800
+But it's a very good question
+
+1096
+00:53:56,800 --> 00:53:58,566
+and it points to the direction
+
+1097
+00:53:58,566 --> 00:54:04,566
+that we're headed
+in at that point,
+
+1098
+00:54:04,566 --> 00:54:08,933
+which is to look at how
+to optimize the distribution.
+
+1099
+00:54:08,933 --> 00:54:12,100
+And Holly, I'm not sure
+she's here right now,
+
+1100
+00:54:12,100 --> 00:54:17,000
+Holly Jackson has done some work
+on exactly that question.
+
+1101
+00:54:17,000 --> 00:54:21,500
+Of not only the question
+between the red
+
+1102
+00:54:21,500 --> 00:54:23,566
+and the blue ones was sort of,
+
+1103
+00:54:23,566 --> 00:54:25,866
+if you have a stiffer one
+and a less stiff one.
+
+1104
+00:54:25,866 --> 00:54:28,400
+And the most basic version
+of that question is,
+
+1105
+00:54:28,400 --> 00:54:31,966
+do you have a part
+or not in that location?
+
+1106
+00:54:31,966 --> 00:54:34,666
+And so, it re-addresses
+
+1107
+00:54:34,666 --> 00:54:38,400
+the topological
+optimization problem
+
+1108
+00:54:38,400 --> 00:54:42,166
+within the scope
+of the finite element
+
+1109
+00:54:42,166 --> 00:54:44,333
+tools in a way
+
+1110
+00:54:44,333 --> 00:54:46,200
+that takes advantage
+of our ability
+
+1111
+00:54:46,200 --> 00:54:49,066
+to modularize the finite
+element process as well.
+
+1112
+00:54:49,066 --> 00:54:50,933
+So we can look at some
+of these incredibly
+
+1113
+00:54:50,933 --> 00:54:57,166
+computational-intensive
+topological optimization methods
+
+1114
+00:54:57,166 --> 00:55:01,700
+and apply them to something
+that would have been also
+
+1115
+00:55:01,700 --> 00:55:04,333
+an incredibly
+computationally-intensive
+
+1116
+00:55:04,333 --> 00:55:07,533
+finite element analysis problem.
+
+1117
+00:55:07,533 --> 00:55:10,666
+But we can cut most of
+the computational intensiveness
+
+1118
+00:55:10,666 --> 00:55:12,433
+out of the finite element
+analysis problem
+
+1119
+00:55:12,433 --> 00:55:16,066
+and just focus on
+the optimization problem.
+
+1120
+00:55:16,066 --> 00:55:21,266
+And so that's the crux
+of the approach
+
+1121
+00:55:21,266 --> 00:55:24,000
+to the X to the N planes,
+in fact.
+
+1122
+00:55:24,000 --> 00:55:25,466
+Because what we'd like
+to be able to do
+
+1123
+00:55:25,466 --> 00:55:28,433
+is define the overall
+boundary shape
+
+1124
+00:55:28,433 --> 00:55:31,166
+and the deformation modes
+
+1125
+00:55:31,166 --> 00:55:32,433
+and then really optimize
+
+1126
+00:55:32,433 --> 00:55:34,066
+how the parts
+are placed within that,
+
+1127
+00:55:34,066 --> 00:55:39,666
+in order to meet that objective.
+
+1128
+00:55:39,666 --> 00:55:42,466
+- So, please join me
+in thanking
