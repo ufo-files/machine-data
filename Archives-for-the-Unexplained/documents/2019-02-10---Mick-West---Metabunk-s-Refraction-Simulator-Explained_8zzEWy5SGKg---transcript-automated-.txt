@@ -1,0 +1,1906 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/2019-02-10---Mick-West---Metabunk-s-Refraction-Simulator-Explained_8zzEWy5SGKg---transcript-automated-.pdf", "source_sha256": "269a219d9a73a8c34a0f47436eb7477795263de7e83c3133949147b70cffee06", "source_bytes": 188909, "source_mtime": 1790270121, "source_mtime_ns": 1790270121594785170, "source_ctime_ns": 1790270121607341489, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T23:53:37.500018+00:00"}
+
+1
+00:00:03,949 --> 00:00:02,180
+hi this is my quest on Medibank dot org
+
+2
+00:00:07,190 --> 00:00:03,959
+and we're having a look at the meta
+
+3
+00:00:09,919 --> 00:00:07,200
+bunker refraction simulator I wrote this
+
+4
+00:00:12,589 --> 00:00:09,929
+refraction simulator over the last who
+
+5
+00:00:16,460 --> 00:00:12,599
+would have know several months based on
+
+6
+00:00:19,040 --> 00:00:16,470
+a view of Toronto this is Toronto here
+
+7
+00:00:21,019 --> 00:00:19,050
+and this is the CN Tower and this white
+
+8
+00:00:25,279 --> 00:00:21,029
+thing here next to it is the Rogers
+
+9
+00:00:27,620 --> 00:00:25,289
+Center and this view is from Fort
+
+10
+00:00:32,299 --> 00:00:27,630
+Niagara which is across the lake on the
+
+11
+00:00:33,490 --> 00:00:32,309
+other side of the lake ontario and from
+
+12
+00:00:35,270 --> 00:00:33,500
+that site from that position
+
+13
+00:00:36,770 --> 00:00:35,280
+theoretically you shouldn't be able to
+
+14
+00:00:38,900 --> 00:00:36,780
+see the Rogers Center cause it should be
+
+15
+00:00:41,240 --> 00:00:38,910
+hidden behind the curve but you can see
+
+16
+00:00:44,299 --> 00:00:41,250
+it because of the refraction lifting it
+
+17
+00:00:45,979 --> 00:00:44,309
+up beyond the curve and you know this
+
+18
+00:00:48,170 --> 00:00:45,989
+confuses people so I wrote this
+
+19
+00:00:49,910 --> 00:00:48,180
+refraction and simulated to explain
+
+20
+00:00:52,040 --> 00:00:49,920
+what's going on enough to demonstrate
+
+21
+00:00:54,490 --> 00:00:52,050
+what's going on first of all let me just
+
+22
+00:00:55,610 --> 00:00:54,500
+show you real quick watch this is
+
+23
+00:00:57,920 --> 00:00:55,620
+beautiful
+
+24
+00:01:00,200 --> 00:00:57,930
+there's a checkbox over here on the left
+
+25
+00:01:01,970 --> 00:01:00,210
+where you can turn refraction off so if
+26
+00:01:03,799 --> 00:01:01,980
+I turn it off this is what you would
+
+27
+00:01:05,810 --> 00:01:03,809
+expect to see if there was no
+
+28
+00:01:07,670 --> 00:01:05,820
+atmospheric refraction it did this all
+
+29
+00:01:10,160 --> 00:01:07,680
+these buildings down here a hidden but
+
+30
+00:01:12,289 --> 00:01:10,170
+when there is refraction it pops into
+
+31
+00:01:13,910 --> 00:01:12,299
+view now of course refraction isn't a
+
+32
+00:01:17,090 --> 00:01:13,920
+constant so I had to make it editable
+
+33
+00:01:21,469 --> 00:01:17,100
+and over here on the upper left hand
+
+34
+00:01:23,149 --> 00:01:21,479
+side is the temperature profile the
+
+35
+00:01:25,490 --> 00:01:23,159
+temperature on celcius is along the
+
+36
+00:01:28,429 --> 00:01:25,500
+bottom and the height above the water
+
+37
+00:01:31,100 --> 00:01:28,439
+level in feet is on the left I'm kind of
+
+38
+00:01:33,499 --> 00:01:31,110
+mixing my metric and imperial units and
+
+39
+00:01:35,990 --> 00:01:33,509
+this is a curve editor and this curve
+
+40
+00:01:39,260 --> 00:01:36,000
+represents what the temperature is at a
+
+41
+00:01:41,270 --> 00:01:39,270
+particular altitude say at 60 feet here
+
+42
+00:01:42,770 --> 00:01:41,280
+it's 15 and a half degrees so I can grab
+
+43
+00:01:45,440 --> 00:01:42,780
+that and I can move it around and you
+
+44
+00:01:49,550 --> 00:01:45,450
+can see this has a quite dramatic effect
+
+45
+00:01:51,499 --> 00:01:49,560
+on what you actually see this curve
+
+46
+00:01:52,850 --> 00:01:51,509
+editor you control by moving these
+
+47
+00:01:55,760 --> 00:01:52,860
+points around you can change the shape
+
+48
+00:01:57,289 --> 00:01:55,770
+of the curve with the green and you can
+
+49
+00:01:59,330 --> 00:01:57,299
+change the actual data points by moving
+
+50
+00:02:00,649 --> 00:01:59,340
+the black ones around you can add new
+51
+00:02:02,870 --> 00:02:00,659
+points if you want to make the more
+
+52
+00:02:05,330 --> 00:02:02,880
+complicated curve by just clicking in
+
+53
+00:02:07,670 --> 00:02:05,340
+any empty space and it will make new
+
+54
+00:02:11,180 --> 00:02:07,680
+points you can delete points by left
+
+55
+00:02:12,620 --> 00:02:11,190
+clicking and that will remove a point so
+
+56
+00:02:15,200 --> 00:02:12,630
+you can create all kinds of interest
+
+57
+00:02:19,100 --> 00:02:15,210
+effects that are things that you can see
+
+58
+00:02:22,550 --> 00:02:19,110
+in real life you can see for example you
+
+59
+00:02:24,410 --> 00:02:22,560
+can see big compression near the horizon
+
+60
+00:02:28,550 --> 00:02:24,420
+here and you can see the Roger Center
+
+61
+00:02:30,650 --> 00:02:28,560
+being lifted up if you have the water
+
+62
+00:02:32,630 --> 00:02:30,660
+temperature of the lower down
+
+63
+00:02:33,950 --> 00:02:32,640
+temperature a lot hotter than the upper
+
+64
+00:02:36,110 --> 00:02:33,960
+temperature you will create a kind of
+
+65
+00:02:38,840 --> 00:02:36,120
+mirror eyes effects where you get this
+
+66
+00:02:41,240 --> 00:02:38,850
+this mirroring which kind of looks like
+
+67
+00:02:43,460 --> 00:02:41,250
+what you see sometimes on a hot road
+
+68
+00:02:46,310 --> 00:02:43,470
+when the road is very hot compared to
+
+69
+00:02:48,950 --> 00:02:46,320
+the air you get this reflection this
+
+70
+00:02:51,680 --> 00:02:48,960
+kind of total reflection a reflection
+
+71
+00:02:55,220 --> 00:02:51,690
+from refraction so you can mess around
+
+72
+00:02:57,770 --> 00:02:55,230
+with this temperature curve and see the
+
+73
+00:02:59,900 --> 00:02:57,780
+various effects now of course it would
+
+74
+00:03:01,700 --> 00:02:59,910
+be a bit boring if we just did Toronto
+
+75
+00:03:04,010 --> 00:03:01,710
+so I made it very very configurable and
+76
+00:03:07,280 --> 00:03:04,020
+you can actually look at lots of
+
+77
+00:03:08,840 --> 00:03:07,290
+different places in the world and lots
+
+78
+00:03:10,100 --> 00:03:08,850
+of different situations you can even set
+
+79
+00:03:12,770 --> 00:03:10,110
+up your own so that's just go for your
+
+80
+00:03:15,410 --> 00:03:12,780
+your food let's go through a few things
+
+81
+00:03:17,690 --> 00:03:15,420
+right now I'm gonna look at the controls
+
+82
+00:03:19,700 --> 00:03:17,700
+over here and I'm just going to reset
+
+83
+00:03:23,140 --> 00:03:19,710
+this we click on preset link it will
+
+84
+00:03:26,510 --> 00:03:23,150
+load the last that's preset that you had
+
+85
+00:03:29,210 --> 00:03:26,520
+the viewer height here is in feet you
+
+86
+00:03:30,800 --> 00:03:29,220
+can just move this up and down if you
+
+87
+00:03:32,450 --> 00:03:30,810
+let go or pop back to the middle and
+
+88
+00:03:33,860 --> 00:03:32,460
+kind of reset so you have to keep
+
+89
+00:03:35,600 --> 00:03:33,870
+dragging it and you can get higher and
+
+90
+00:03:38,480 --> 00:03:35,610
+higher as you expect as you get higher
+
+91
+00:03:41,050 --> 00:03:38,490
+you can see more and more I'm just going
+
+92
+00:03:43,280 --> 00:03:41,060
+to reset that again if you click on
+
+93
+00:03:45,980 --> 00:03:43,290
+refraction on and off it's fairly
+
+94
+00:03:48,800 --> 00:03:45,990
+straightforward standard refraction just
+
+95
+00:03:50,660 --> 00:03:48,810
+makes the temperature profile be a
+
+96
+00:03:52,880 --> 00:03:50,670
+straight line just getting colder as you
+
+97
+00:03:54,890 --> 00:03:52,890
+get higher which it's gonna let the
+
+98
+00:03:57,890 --> 00:03:54,900
+standard atmosphere so it gives you like
+
+99
+00:04:00,470 --> 00:03:57,900
+it since we can average refraction if
+
+100
+00:04:02,330 --> 00:04:00,480
+you look at my curve calculator this
+101
+00:04:06,500 --> 00:04:02,340
+amount of refraction is what you're
+
+102
+00:04:08,150 --> 00:04:06,510
+seeing when I'm calculating what how
+
+103
+00:04:10,130 --> 00:04:08,160
+much you should be visible with standard
+
+104
+00:04:11,540 --> 00:04:10,140
+refraction I can to the refraction on
+
+105
+00:04:13,490 --> 00:04:11,550
+and off vegan you can see this is the
+
+106
+00:04:14,960 --> 00:04:13,500
+effect of standard refraction if you
+
+107
+00:04:16,460 --> 00:04:14,970
+don't stand it off you get the curve
+
+108
+00:04:18,140 --> 00:04:16,470
+back again and you can edit the curve or
+
+109
+00:04:21,770 --> 00:04:18,150
+you can get the more interesting effects
+
+110
+00:04:24,680 --> 00:04:21,780
+from refraction
+
+111
+00:04:26,990 --> 00:04:24,690
+the series click on a level it will show
+
+112
+00:04:30,830 --> 00:04:27,000
+you where your eye level is which is
+
+113
+00:04:33,170 --> 00:04:30,840
+like zero degrees basically relative to
+
+114
+00:04:35,240 --> 00:04:33,180
+the local vertical and you see in this
+
+115
+00:04:38,960 --> 00:04:35,250
+situation the horizon is below eye level
+
+116
+00:04:40,130 --> 00:04:38,970
+and if we turn off refraction this is
+
+117
+00:04:41,960 --> 00:04:40,140
+like it's you know essentially in no
+
+118
+00:04:44,780 --> 00:04:41,970
+atmosphere you can see it's below there
+
+119
+00:04:48,080 --> 00:04:44,790
+and with standard refraction turned on
+
+120
+00:04:49,550 --> 00:04:48,090
+it's below and in with this you know you
+
+121
+00:04:51,290 --> 00:04:49,560
+can see that the rear the reflection
+
+122
+00:04:53,390 --> 00:04:51,300
+that we're getting in situations like
+
+123
+00:04:56,270 --> 00:04:53,400
+this is actually happening below higher
+
+124
+00:04:58,310 --> 00:04:56,280
+level or Engler to reset things again
+
+125
+00:04:59,450 --> 00:04:58,320
+because I'm messing up fewer offsets
+126
+00:05:01,220 --> 00:04:59,460
+just a simple thing you can move things
+
+127
+00:05:03,050 --> 00:05:01,230
+left and right it's going to useful to
+
+128
+00:05:06,590 --> 00:05:03,060
+you know to set up a nice scene like
+
+129
+00:05:09,020 --> 00:05:06,600
+saying I wanted to do this so you can
+
+130
+00:05:11,090 --> 00:05:09,030
+see this know what this window actually
+
+131
+00:05:13,910 --> 00:05:11,100
+is I should probably explain that this
+
+132
+00:05:16,790 --> 00:05:13,920
+window is essentially the side view it's
+
+133
+00:05:19,730 --> 00:05:16,800
+greatly compressed left to right this is
+
+134
+00:05:22,160 --> 00:05:19,740
+showing you the curve of the earth this
+
+135
+00:05:24,080 --> 00:05:22,170
+is where your camera is and this is
+
+136
+00:05:26,360 --> 00:05:24,090
+where the target is so this represents
+
+137
+00:05:27,920 --> 00:05:26,370
+the full height of the target image and
+
+138
+00:05:30,140 --> 00:05:27,930
+you can see where this yellow line is
+
+139
+00:05:32,240 --> 00:05:30,150
+here and where the yellow line is there
+
+140
+00:05:34,190 --> 00:05:32,250
+like it's touching the top of the CN
+
+141
+00:05:36,560 --> 00:05:34,200
+Tower that's the top of those clouds
+
+142
+00:05:38,720 --> 00:05:36,570
+which is where the top of the images the
+
+143
+00:05:40,130 --> 00:05:38,730
+red and the blue lines that registry
+
+144
+00:05:42,100 --> 00:05:40,140
+presenta lines that are going up the
+
+145
+00:05:45,430 --> 00:05:42,110
+blue represent lines that are going down
+
+146
+00:05:49,130 --> 00:05:45,440
+from your point of view so you can see
+
+147
+00:05:52,850 --> 00:05:49,140
+if we turn on high level yeah you can
+
+148
+00:05:55,850 --> 00:05:52,860
+see that right here between the red and
+
+149
+00:05:57,290 --> 00:05:55,860
+the blue is where your eye level is if
+
+150
+00:05:58,880 --> 00:05:57,300
+you turn off refraction you can see it's
+151
+00:06:02,180 --> 00:05:58,890
+just gonna be perfectly straight there
+
+152
+00:06:05,630 --> 00:06:02,190
+with the red going up and the blue lines
+
+153
+00:06:08,830 --> 00:06:05,640
+going down and this is more apparent if
+
+154
+00:06:11,200 --> 00:06:08,840
+you increase the viewer height to be a
+
+155
+00:06:15,990 --> 00:06:11,210
+much higher altitude
+
+156
+00:06:20,970 --> 00:06:17,610
+the next thing to look at is the
+
+157
+00:06:24,270 --> 00:06:20,980
+vertical Buell vertical fov which is
+
+158
+00:06:25,890 --> 00:06:24,280
+perhaps a little of a long-winded way of
+
+159
+00:06:29,159 --> 00:06:25,900
+putting things but this is basically the
+
+160
+00:06:34,310 --> 00:06:29,169
+field of view vertically for the entire
+
+161
+00:06:37,350 --> 00:06:34,320
+screen and here it's set to 1.5 degrees
+
+162
+00:06:39,450 --> 00:06:37,360
+this is essentially the zoom on a camera
+
+163
+00:06:42,510 --> 00:06:39,460
+but I'm expressing in terms of field of
+
+164
+00:06:46,379 --> 00:06:42,520
+view I should perhaps there also put the
+
+165
+00:06:49,830 --> 00:06:46,389
+millimeter equivalent zoom there a p900
+
+166
+00:06:53,370 --> 00:06:49,840
+Nikon P 900 is about point 6 vertically
+
+167
+00:06:57,830 --> 00:06:53,380
+so this would be the maximum zoom of a
+
+168
+00:07:00,600 --> 00:06:57,840
+nikon p900 for this particular scene
+
+169
+00:07:02,220 --> 00:07:00,610
+yeah let's see if your tilt you can just
+
+170
+00:07:03,930 --> 00:07:02,230
+tilt the scene up and down let's just
+
+171
+00:07:06,210 --> 00:07:03,940
+just you can get into a good position
+
+172
+00:07:10,920 --> 00:07:06,220
+doesn't really change what it actually
+
+173
+00:07:13,830 --> 00:07:10,930
+looks like then here there's a field
+
+174
+00:07:15,300 --> 00:07:13,840
+called what's the image files this
+
+175
+00:07:17,940 --> 00:07:15,310
+allows you to put in your own image
+176
+00:07:22,350 --> 00:07:17,950
+files you could go to Google Images and
+
+177
+00:07:26,219 --> 00:07:22,360
+I could do something like type in Tower
+
+178
+00:07:29,940 --> 00:07:26,229
+Bridge find a nice straight on picture
+
+179
+00:07:35,650 --> 00:07:29,950
+of Terra bridge here we go and let me
+
+180
+00:07:39,460 --> 00:07:35,660
+just see I can do a copy image address
+
+181
+00:07:40,890 --> 00:07:39,470
+and stick this in here I'm not sure this
+
+182
+00:07:44,140 --> 00:07:40,900
+is going to work on that
+
+183
+00:07:46,420 --> 00:07:44,150
+BAM there you go so you'd have to
+
+184
+00:07:48,670 --> 00:07:46,430
+actually once you've put in a target
+
+185
+00:07:51,370 --> 00:07:48,680
+file then you have to put in the target
+
+186
+00:07:54,400 --> 00:07:51,380
+height it's 2,000 here I think Tower
+
+187
+00:07:55,540 --> 00:07:54,410
+Bridge is probably more like 800 feet or
+
+188
+00:07:58,870 --> 00:07:55,550
+something like that and for less than
+
+189
+00:08:02,290 --> 00:07:58,880
+let's say 500 feet not even that or is
+
+190
+00:08:04,120 --> 00:08:02,300
+it like 300 feet anyway sir you would
+
+191
+00:08:06,670 --> 00:08:04,130
+have to look that up you can see it's
+
+192
+00:08:08,380 --> 00:08:06,680
+hidden behind the horizon there now a
+
+193
+00:08:10,300 --> 00:08:08,390
+target distance is the distance to the
+
+194
+00:08:11,620 --> 00:08:10,310
+hook to that target so I can bring it a
+
+195
+00:08:14,770 --> 00:08:11,630
+little bit closer good bit more
+
+196
+00:08:17,050 --> 00:08:14,780
+realistic looking this is in miles
+
+197
+00:08:19,380 --> 00:08:17,060
+target height as in feet I kind of mix
+
+198
+00:08:22,960 --> 00:08:19,390
+the units a little bit sorry about that
+
+199
+00:08:26,440 --> 00:08:22,970
+next two things multiple you can
+
+200
+00:08:29,200 --> 00:08:26,450
+actually make multiple versions of an
+201
+00:08:32,890 --> 00:08:29,210
+image so if I put in four and then put
+
+202
+00:08:35,680 --> 00:08:32,900
+in say like 3000 feet
+
+203
+00:08:37,120 --> 00:08:35,690
+it makes four copies of this particular
+
+204
+00:08:38,620 --> 00:08:37,130
+image you can actually see them though
+
+205
+00:08:42,339 --> 00:08:38,630
+cuz they're all behind one another I
+
+206
+00:08:43,779 --> 00:08:42,349
+think if I change the offset you might
+
+207
+00:08:45,670 --> 00:08:43,789
+be able to see how they do
+
+208
+00:08:49,570 --> 00:08:45,680
+behind each other has changed this gap
+
+209
+00:08:50,950 --> 00:08:49,580
+to 10,000 yeah yep you can see them
+
+210
+00:08:53,350 --> 00:08:50,960
+going off into the distance so you can
+
+211
+00:08:56,770 --> 00:08:53,360
+set up with multiple multiple images
+
+212
+00:08:58,360 --> 00:08:56,780
+this your en lines is just the density
+
+213
+00:09:00,940 --> 00:08:58,370
+of lines here it's not very important
+
+214
+00:09:03,160 --> 00:09:00,950
+wavelength is the wavelength of light
+
+215
+00:09:04,870 --> 00:09:03,170
+that I assume for the calculations if
+
+216
+00:09:07,090 --> 00:09:04,880
+you want you could try changing it to
+
+217
+00:09:09,160 --> 00:09:07,100
+something else like for example infrared
+
+218
+00:09:10,960 --> 00:09:09,170
+lights it's going to be around 1500 and
+
+219
+00:09:12,490 --> 00:09:10,970
+nanometers so you can change that you
+
+220
+00:09:14,860 --> 00:09:12,500
+can see it makes a very very slight
+
+221
+00:09:17,260 --> 00:09:14,870
+difference to what you're actually
+
+222
+00:09:21,240 --> 00:09:17,270
+seeing now probably the more interesting
+
+223
+00:09:25,330 --> 00:09:21,250
+thing here is all the different presets
+
+224
+00:09:27,730 --> 00:09:25,340
+right for example see Catalina from
+
+225
+00:09:30,550 --> 00:09:27,740
+Santa Monica this is a have a classic
+226
+00:09:33,850 --> 00:09:30,560
+view this is the view from six feet on
+
+227
+00:09:35,980 --> 00:09:33,860
+the beach Santa Monica and it's based on
+
+228
+00:09:38,140 --> 00:09:35,990
+photographs that I took well when I
+
+229
+00:09:43,300 --> 00:09:38,150
+visited a few years ago you get this
+
+230
+00:09:45,850 --> 00:09:43,310
+very nice hidden part of Catalina now I
+
+231
+00:09:47,410 --> 00:09:45,860
+have a flat earth view you can click on
+
+232
+00:09:49,480 --> 00:09:47,420
+Flat Earth it will show you what it will
+
+233
+00:09:51,269 --> 00:09:49,490
+look like if the earth is flat
+
+234
+00:09:54,009 --> 00:09:51,279
+and this is what it should look like
+
+235
+00:09:56,049 --> 00:09:54,019
+from six feet if the earth is flatter
+
+236
+00:09:57,280 --> 00:09:56,059
+this is actually with refraction down
+
+237
+00:09:59,559 --> 00:09:57,290
+refraction of people actually look like
+
+238
+00:10:01,720 --> 00:09:59,569
+that you see there's a huge amount of
+
+239
+00:10:04,090 --> 00:10:01,730
+Catalina Island down here this is twin
+
+240
+00:10:06,340 --> 00:10:04,100
+harbors down here just gonna behind this
+
+241
+00:10:08,199 --> 00:10:06,350
+this thing here but what you actually
+
+242
+00:10:12,040 --> 00:10:08,209
+see and what you see in my photographs
+
+243
+00:10:16,299 --> 00:10:12,050
+is the nun flutter of view of the view
+
+244
+00:10:17,980 --> 00:10:16,309
+with myth refraction I should turn a
+
+245
+00:10:21,759 --> 00:10:17,990
+standard refraction this is what you'll
+
+246
+00:10:23,049 --> 00:10:21,769
+expect if it's just a flat curve this is
+
+247
+00:10:24,970 --> 00:10:23,059
+what you actually see from Santa Monica
+
+248
+00:10:26,769 --> 00:10:24,980
+beach where it's gonna you know pretty
+
+249
+00:10:28,900 --> 00:10:26,779
+much by yourself just proves that's the
+
+250
+00:10:30,850 --> 00:10:28,910
+you know the ocean is curved there's a
+251
+00:10:37,269 --> 00:10:30,860
+very very big difference between that
+
+252
+00:10:39,429 --> 00:10:37,279
+and this anyway that aside and I'm
+
+253
+00:10:42,639 --> 00:10:39,439
+explaining how to use it not what is
+
+254
+00:10:45,999 --> 00:10:42,649
+proof what is proving Chicago view of
+
+255
+00:10:47,859 --> 00:10:46,009
+Chicago and let's see there's a more
+
+256
+00:10:51,970 --> 00:10:47,869
+interesting one the Bedford level
+
+257
+00:10:54,669 --> 00:10:51,980
+experiments here is the classic Bedford
+
+258
+00:10:58,210 --> 00:10:54,679
+level this is a six mile stretch of
+
+259
+00:10:59,619 --> 00:10:58,220
+canal and hopes is showing it as a open
+
+260
+00:11:02,319 --> 00:10:59,629
+ocean but you can think of it as it
+
+261
+00:11:04,829 --> 00:11:02,329
+being a canal obviously six miles away
+
+262
+00:11:07,090 --> 00:11:04,839
+is this bridge now we have to get the
+
+263
+00:11:08,889 --> 00:11:07,100
+field of view all the way down to zero
+
+264
+00:11:11,470 --> 00:11:08,899
+point one here so we can zoom in so
+
+265
+00:11:13,900 --> 00:11:11,480
+that's a very powerful zoom p900 view
+
+266
+00:11:15,730 --> 00:11:13,910
+would be more like like this in the full
+
+267
+00:11:17,230 --> 00:11:15,740
+frame so yeah you still be able to see
+
+268
+00:11:20,590 --> 00:11:17,240
+it you probably want to use the digital
+
+269
+00:11:22,809 --> 00:11:20,600
+zoom to see it all the way so we've got
+
+270
+00:11:26,319 --> 00:11:22,819
+two things here we have this target
+
+271
+00:11:29,739 --> 00:11:26,329
+which is set halfway along and we've got
+
+272
+00:11:32,379 --> 00:11:29,749
+this guy in a boat and we've got our
+
+273
+00:11:36,549 --> 00:11:32,389
+viewer height set at 14 feet which is
+
+274
+00:11:39,879 --> 00:11:36,559
+about the height of this target itself
+
+275
+00:11:42,400 --> 00:11:39,889
+in the middle and this is type height of
+276
+00:11:43,539 --> 00:11:42,410
+this bridge itself and this is a classic
+
+277
+00:11:46,960 --> 00:11:43,549
+experiment that's done it's a little
+
+278
+00:11:48,340 --> 00:11:46,970
+hard to visualize perhaps but if it was
+
+279
+00:11:50,410 --> 00:11:48,350
+there flat earth and I can actually
+
+280
+00:11:53,439 --> 00:11:50,420
+share that let's turn off refraction go
+
+281
+00:11:55,299 --> 00:11:53,449
+to Flat Earth view then this this one
+
+282
+00:11:57,579 --> 00:11:55,309
+here is actually at the top of the
+
+283
+00:11:59,799 --> 00:11:57,589
+bridge this one here is quite a bit
+
+284
+00:12:02,409 --> 00:11:59,809
+below because he's looking straight at
+
+285
+00:12:03,160 --> 00:12:02,419
+it but if we go to the none Flat Earth
+
+286
+00:12:04,809 --> 00:12:03,170
+view
+
+287
+00:12:07,539 --> 00:12:04,819
+then this one is above the top of the
+
+288
+00:12:09,840 --> 00:12:07,549
+bridge completely different and this
+
+289
+00:12:11,799 --> 00:12:09,850
+kind of is a very good demonstration I
+
+290
+00:12:14,379 --> 00:12:11,809
+someone care to repeat this we could be
+
+291
+00:12:16,179 --> 00:12:14,389
+great it's good demonstration of the
+
+292
+00:12:19,479 --> 00:12:16,189
+curve of the earth and you can play
+
+293
+00:12:21,249 --> 00:12:19,489
+around with this an interesting thing to
+
+294
+00:12:25,960 --> 00:12:21,259
+do is you go to the different version of
+
+295
+00:12:28,509 --> 00:12:25,970
+this the Bedford level boat this has the
+
+296
+00:12:32,289 --> 00:12:28,519
+viewer heights at a four feet and this
+
+297
+00:12:34,869 --> 00:12:32,299
+guy in the boat you can actually see
+
+298
+00:12:37,509 --> 00:12:34,879
+this the this field here target to it it
+
+299
+00:12:39,039 --> 00:12:37,519
+shows the different targets here so the
+
+300
+00:12:41,439 --> 00:12:39,049
+Tuda Stargate the main the boat of the
+301
+00:12:43,539 --> 00:12:41,449
+bridge check the men in the boat one we
+
+302
+00:12:45,699 --> 00:12:43,549
+can change his distance so we can bring
+
+303
+00:12:48,729 --> 00:12:45,709
+him closer so this is him just a mile
+
+304
+00:12:50,109 --> 00:12:48,739
+away and you can see he keeps going
+
+305
+00:12:51,549 --> 00:12:50,119
+further and further and further away but
+
+306
+00:12:53,289 --> 00:12:51,559
+he doesn't know he disappear even though
+
+307
+00:12:54,849 --> 00:12:53,299
+he gets all the way to the bridge over
+
+308
+00:12:57,579 --> 00:12:54,859
+there you can see him now this was a
+
+309
+00:13:00,519 --> 00:12:57,589
+classic experiment that was done in the
+
+310
+00:13:00,909 --> 00:13:00,529
+1800s and it was thought by the guy who
+
+311
+00:13:03,429 --> 00:13:00,919
+did it
+
+312
+00:13:04,960 --> 00:13:03,439
+Samuel Robbo from that he demonstrated
+
+313
+00:13:07,840 --> 00:13:04,970
+that the earth was flat because he could
+
+314
+00:13:08,710 --> 00:13:07,850
+see this guy all the way down to the
+
+315
+00:13:10,960 --> 00:13:08,720
+bridge where he should actually
+
+316
+00:13:12,609 --> 00:13:10,970
+disappeared if I turn refraction off you
+
+317
+00:13:15,460 --> 00:13:12,619
+can see what you would expect to see
+
+318
+00:13:18,369 --> 00:13:15,470
+which is the guy disappearing smoothly
+
+319
+00:13:20,859 --> 00:13:18,379
+over the horizon and be completely
+
+320
+00:13:22,569 --> 00:13:20,869
+invisible at about five miles but he
+
+321
+00:13:25,090 --> 00:13:22,579
+didn't see any sewage visible the whole
+
+322
+00:13:28,479 --> 00:13:25,100
+way because they were at was atmospheric
+
+323
+00:13:32,470 --> 00:13:28,489
+refraction so he was mistakenly assuming
+
+324
+00:13:34,059 --> 00:13:32,480
+that the earth was in fact flat because
+
+325
+00:13:36,519 --> 00:13:34,069
+he wouldn't give you vastly distorted
+326
+00:13:38,739 --> 00:13:36,529
+and he wouldn't be able to see him now
+
+327
+00:13:40,869 --> 00:13:38,749
+another thing that brings up is low
+
+328
+00:13:43,900 --> 00:13:40,879
+level humidity we can actually edit the
+
+329
+00:13:46,749 --> 00:13:43,910
+humidity I say to 50% by defaults but we
+
+330
+00:13:49,749 --> 00:13:46,759
+can edit it using a curve using the same
+
+331
+00:13:52,269 --> 00:13:49,759
+same curve editor type thing as we do
+
+332
+00:13:53,970 --> 00:13:52,279
+for a temperature and it's actually
+
+333
+00:13:57,100 --> 00:13:53,980
+interesting for something like this the
+
+334
+00:13:59,259 --> 00:13:57,110
+humidity has a quite large effect on
+
+335
+00:14:01,059 --> 00:13:59,269
+small things that are very close to the
+
+336
+00:14:04,150 --> 00:14:01,069
+horizon he doesn't have much of an
+
+337
+00:14:05,879 --> 00:14:04,160
+effect for large scenes but something
+
+338
+00:14:07,470 --> 00:14:05,889
+like they say can have quite a dramatic
+
+339
+00:14:10,059 --> 00:14:07,480
+effect
+
+340
+00:14:12,400 --> 00:14:10,069
+firstly I'm not sure how realistic this
+
+341
+00:14:14,799 --> 00:14:12,410
+curve is but I'm letting people edit it
+
+342
+00:14:18,090 --> 00:14:14,809
+and perhaps they'll figure out what the
+
+343
+00:14:22,510 --> 00:14:18,100
+actual limits to refraction should be
+
+344
+00:14:27,040 --> 00:14:22,520
+another classic a modern classic is Lake
+
+345
+00:14:28,180 --> 00:14:27,050
+Pontchartrain I call these pylons in in
+
+346
+00:14:32,470 --> 00:14:28,190
+England's we call electrical
+
+347
+00:14:37,030 --> 00:14:32,480
+transmission towers pylons and this uses
+
+348
+00:14:39,670 --> 00:14:37,040
+the multiple thing here we've got these
+
+349
+00:14:41,260 --> 00:14:39,680
+targets electrical towers and boats so
+
+350
+00:14:43,420 --> 00:14:41,270
+this one here has a multiple of 80
+351
+00:14:45,640 --> 00:14:43,430
+targets with a gap of nine hundred and
+
+352
+00:14:48,060 --> 00:14:45,650
+seventy nine feet in between each one
+
+353
+00:14:51,100 --> 00:14:48,070
+and I think that this is just the first
+
+354
+00:14:53,020 --> 00:14:51,110
+target here first target distances in
+
+355
+00:14:54,880 --> 00:14:53,030
+miles and the subsequent gaps are in
+
+356
+00:14:57,790 --> 00:14:54,890
+feet again I apologize for mixing the
+
+357
+00:14:59,320 --> 00:14:57,800
+units and this is a boat which I just
+
+358
+00:15:01,840 --> 00:14:59,330
+stuck in just to give you something else
+
+359
+00:15:04,360 --> 00:15:01,850
+to look at you can change the distance
+
+360
+00:15:07,630 --> 00:15:04,370
+to that one this is a classic because
+
+361
+00:15:09,370 --> 00:15:07,640
+you can see the curve quite clearly you
+
+362
+00:15:11,830 --> 00:15:09,380
+can move around from left or right as if
+
+363
+00:15:13,930 --> 00:15:11,840
+you're moving along the freeway so you
+
+364
+00:15:17,110 --> 00:15:13,940
+can take this and interesting things we
+
+365
+00:15:21,240 --> 00:15:17,120
+can do here is that we can actually mess
+
+366
+00:15:24,760 --> 00:15:21,250
+around with the temperature gradient and
+
+367
+00:15:27,250 --> 00:15:24,770
+actually kind of flatten out the curve
+
+368
+00:15:29,200 --> 00:15:27,260
+by moving it this way
+
+369
+00:15:30,910 --> 00:15:29,210
+and we can actually raise it up and
+
+370
+00:15:32,620 --> 00:15:30,920
+there's a there's a photograph that
+
+371
+00:15:36,720 --> 00:15:32,630
+shares this kind of condition we have
+
+372
+00:15:39,790 --> 00:15:36,730
+very very cold water relative to the air
+
+373
+00:15:42,850 --> 00:15:39,800
+it can actually make the curve of
+
+374
+00:15:44,440 --> 00:15:42,860
+refraction go around the earth that's
+
+375
+00:15:46,780 --> 00:15:44,450
+you know very similar curve to the
+376
+00:15:50,410 --> 00:15:46,790
+actual earth itself and so it actually
+
+377
+00:15:51,730 --> 00:15:50,420
+makes it look flat which is kind of kind
+
+378
+00:15:53,320 --> 00:15:51,740
+of annoying when you want to demonstrate
+
+379
+00:15:55,360 --> 00:15:53,330
+these things but yeah it really works
+
+380
+00:15:56,890 --> 00:15:55,370
+with things that are fairly close to the
+
+381
+00:15:59,470 --> 00:15:56,900
+horizon because you need this kind of
+
+382
+00:16:01,600 --> 00:15:59,480
+steep temperature gradient which you
+
+383
+00:16:03,970 --> 00:16:01,610
+only really get when it's closer to
+
+384
+00:16:05,680 --> 00:16:03,980
+water things like distant mountains it
+
+385
+00:16:09,310 --> 00:16:05,690
+doesn't really work of they're
+
+386
+00:16:13,410 --> 00:16:09,320
+interesting things this is a simulation
+
+387
+00:16:17,710 --> 00:16:13,420
+of a fata morgana which is caused by a
+
+388
+00:16:20,560 --> 00:16:17,720
+steep inversion at this point 100 feet
+
+389
+00:16:22,510 --> 00:16:20,570
+up the temperature's going down normally
+
+390
+00:16:24,510 --> 00:16:22,520
+then it suddenly increases as a warmer
+
+391
+00:16:27,160 --> 00:16:24,520
+layer just yeah two and a half degrees
+
+392
+00:16:29,770 --> 00:16:27,170
+but that is enough to create this quite
+
+393
+00:16:31,840 --> 00:16:29,780
+dramatic effects by moving it around you
+
+394
+00:16:34,840 --> 00:16:31,850
+can see how quickly it can change with
+
+395
+00:16:38,470 --> 00:16:34,850
+just a very small amount of variation in
+
+396
+00:16:40,270 --> 00:16:38,480
+these these values this is something I
+
+397
+00:16:42,720 --> 00:16:40,280
+actually observed from santa monica and
+
+398
+00:16:46,120 --> 00:16:42,730
+this country duplicate the same thing
+
+399
+00:16:50,040 --> 00:16:46,130
+and i think it kind of covers a lot of
+
+400
+00:16:52,990 --> 00:16:50,050
+things over sir there's one flag that's
+401
+00:16:55,900 --> 00:16:53,000
+distant laser spot 3 feet above the
+
+402
+00:16:57,220 --> 00:16:55,910
+water level and what's interesting is
+
+403
+00:16:59,380 --> 00:16:57,230
+you can see the laser but you've no idea
+
+404
+00:17:01,450 --> 00:16:59,390
+what's really going on what that's
+
+405
+00:17:04,210 --> 00:17:01,460
+because I have this night flag turned on
+
+406
+00:17:06,040 --> 00:17:04,220
+if you turn off the night flag you can
+
+407
+00:17:07,990 --> 00:17:06,050
+see you've got this ridiculous amount of
+
+408
+00:17:09,760 --> 00:17:08,000
+refraction and you just happen to be
+
+409
+00:17:12,370 --> 00:17:09,770
+able to see this laser just kind of
+
+410
+00:17:14,290 --> 00:17:12,380
+poking through it and if i zoom out a
+
+411
+00:17:14,950 --> 00:17:14,300
+bit you're gonna see more what's going
+
+412
+00:17:18,280 --> 00:17:14,960
+on here
+
+413
+00:17:20,170 --> 00:17:18,290
+the lasers down here somewhere and if I
+
+414
+00:17:22,330 --> 00:17:20,180
+move this around you can see us you just
+
+415
+00:17:26,410 --> 00:17:22,340
+random with it it happened to bump into
+
+416
+00:17:28,900 --> 00:17:26,420
+view there is again laser down here but
+
+417
+00:17:30,310 --> 00:17:28,910
+yeah this just shows how difficult it is
+
+418
+00:17:33,280 --> 00:17:30,320
+to see what's going on when you do
+
+419
+00:17:34,800 --> 00:17:33,290
+experiments at night I was just white
+
+420
+00:17:37,550 --> 00:17:34,810
+he's out the way I did this particular
+
+421
+00:17:39,410 --> 00:17:37,560
+particular configuration
+
+422
+00:17:40,910 --> 00:17:39,420
+oh I think I pretty much covered
+
+423
+00:17:43,700 --> 00:17:40,920
+everything that was obvious is a bunch
+
+424
+00:17:46,340 --> 00:17:43,710
+of different examples in there that you
+
+425
+00:17:48,140 --> 00:17:46,350
+can look at this is this is this pose is
+426
+00:17:51,080 --> 00:17:48,150
+actually in my book escaping the rabbit
+
+427
+00:17:54,890 --> 00:17:51,090
+hole and you can do things like select
+
+428
+00:17:57,440 --> 00:17:54,900
+the book the boat sailboat here and move
+
+429
+00:18:00,530 --> 00:17:57,450
+it closer or further away and you'll see
+
+430
+00:18:03,140 --> 00:18:00,540
+it disappear Hey yes this is a situation
+
+431
+00:18:04,280 --> 00:18:03,150
+I just had a fairly boring temperature
+
+432
+00:18:07,250 --> 00:18:04,290
+curve you can actually make it more
+
+433
+00:18:10,340 --> 00:18:07,260
+dramatic cold the water is what normally
+
+434
+00:18:12,980 --> 00:18:10,350
+happens and see what happens just mess
+
+435
+00:18:14,480 --> 00:18:12,990
+around with it see what effect cooling
+
+436
+00:18:16,980 --> 00:18:14,490
+things down as you can see it there for
+
+437
+00:18:19,799 --> 00:18:16,990
+longer and you see more compression
+
+438
+00:18:21,690 --> 00:18:19,809
+and I think yeah I think I pretty much
+
+439
+00:18:24,149 --> 00:18:21,700
+covered it well like it was how to use
+
+440
+00:18:28,039 --> 00:18:24,159
+it now you might want to set up your own
+
+441
+00:18:31,500 --> 00:18:28,049
+things you can add a new target and you
+
+442
+00:18:33,570 --> 00:18:31,510
+will it just basically duplicates the
+
+443
+00:18:35,760 --> 00:18:33,580
+pre-existing target I'm gonna expand
+
+444
+00:18:38,430 --> 00:18:35,770
+this later so you can select which image
+
+445
+00:18:39,000 --> 00:18:38,440
+to use it doesn't really let you do that
+
+446
+00:18:41,310 --> 00:18:39,010
+right now
+
+447
+00:18:44,850 --> 00:18:41,320
+and you can do various multiples of
+
+448
+00:18:46,590 --> 00:18:44,860
+things if you want to if you get a nice
+
+449
+00:18:49,320 --> 00:18:46,600
+set up so you know you think I want to
+
+450
+00:18:53,909 --> 00:18:49,330
+share this with people this particular
+451
+00:18:56,730 --> 00:18:53,919
+scene you can click on permalink and it
+
+452
+00:18:58,830 --> 00:18:56,740
+will give you a link on the top here
+
+453
+00:19:00,389 --> 00:18:58,840
+very long a link but you can still just
+
+454
+00:19:03,049 --> 00:19:00,399
+take it and post it you can post it in a
+
+455
+00:19:05,899 --> 00:19:03,059
+forum post so it usually works on
+
+456
+00:19:08,610 --> 00:19:05,909
+youtube or on Facebook or even Twitter
+
+457
+00:19:10,620 --> 00:19:08,620
+and this will take them directly to this
+
+458
+00:19:13,980 --> 00:19:10,630
+scene you just reload that now it takes
+
+459
+00:19:15,510 --> 00:19:13,990
+you to the exact same scene which is
+
+460
+00:19:18,840 --> 00:19:15,520
+quite handy for sharing it there's
+
+461
+00:19:24,299 --> 00:19:18,850
+another button here export which will
+
+462
+00:19:27,330 --> 00:19:24,309
+create a text version of the data which
+
+463
+00:19:29,760 --> 00:19:27,340
+I can then like stick into my code so if
+
+464
+00:19:32,220 --> 00:19:29,770
+you have a nice set up then I can take
+
+465
+00:19:36,899 --> 00:19:32,230
+that and put it into the code as a
+
+466
+00:19:40,019 --> 00:19:36,909
+preset this link here will take you to
+
+467
+00:19:42,539 --> 00:19:40,029
+the discussion thread and I think I
+
+468
+00:19:46,350 --> 00:19:42,549
+think that is pretty much everything so
+
+469
+00:19:50,639 --> 00:19:46,360
+yeah I if you've got any suggestions I
+
+470
+00:19:52,320 --> 00:19:50,649
+would be happy to add things to this a
+
+471
+00:19:54,269 --> 00:19:52,330
+couple things I didn't say you can turn
+
+472
+00:19:56,730 --> 00:19:54,279
+this side view on and off you can also
+
+473
+00:19:59,549 --> 00:19:56,740
+make it turn off the gradient so you can
+
+474
+00:20:01,380 --> 00:19:59,559
+see the lines a bit easier ignore this
+
+475
+00:20:03,260 --> 00:20:01,390
+debug thing it's meaningless is just a
+476
+00:20:06,260 --> 00:20:03,270
+test thing for me
+
+477
+00:20:08,240 --> 00:20:06,270
+yeah yeah so if you have any suggestions
+
+478
+00:20:12,140 --> 00:20:08,250
+just let me know and I will be happy to
+
+479
+00:20:13,340 --> 00:20:12,150
+add it given time over the next weeks
+
+480
+00:20:15,620 --> 00:20:13,350
+and months because I'm actually quite
+
+481
+00:20:18,440 --> 00:20:15,630
+enjoying messing around with it and
