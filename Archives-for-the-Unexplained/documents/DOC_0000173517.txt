@@ -1,0 +1,977 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/DOC_0000173517.pdf", "source_sha256": "60b7a143b1e18f3286e4fdbd3f731ac255730244741215495874ba71036c162e", "source_bytes": 967638, "source_mtime": 1790097731, "source_mtime_ns": 1790097731146339298, "source_ctime_ns": 1790097731463591852, "source_hash_basis": "archived-file", "created_utc": "2026-10-27T03:23:28.570500+00:00"}
+
+THE COMMUNICATION AND INFORMATION THEORY ASPECTS
+             OF THE NERVOUS SYSTEM
+
+
+
+
+                              By
+
+                       Eugene Agalides
+                         Head of the
+           Biophysical Communications Laboratory
+
+
+
+
+                     Paper presented at the
+ 17th Annual Conference in Engineering in Medicine and Biology,
+              November 18, 1964, Cleveland, Ohio
+
+
+
+
+                 General Dynamics/ Electronics
+             Biophysical Communications Laboratory
+                      Research Department
+                      Rochester, New York
+-
+       THE COMMUNICATION AND INFORMATION THEORY ASPECTS
+                   OF THE NERVOUS SYSTEM*
+
+                                     by
+                               Eugene Agalides
+        Paper presented at the 17th Annual Conference in Engineering
+        in Medicine and Biology, November 18, 1964, Cleveland, Ohio.
+
+
+         The quest for a quantitative expression of natural phenomena has
+
+    lead, in communication theory, to the definition of a quantity of infor-
+
+    mation.   The fact that information theory is today applied to several
+
+    fields other than electrical communications underlines its importance.
+
+    Information theory fulfills the needs of these various fields for quanti-
+
+    tative organization because they present characteristics very similar
+
+    to those of telecommunication.   In the case of the nervous system,
+
+    for instance, communication is present in the form of impulses
+
+    (stimuli) conveyed to the central nervous system (CNS) for integration,
+
+    detection, and computation, or from the CNS to the effectors (muscles,
+
+    internal glands, etc. ) .
+
+         Having established the link between information theory and the
+
+    biophysical sciences, we are led to regard the central nervous system
+
+    as a gigantic information processing device.
+
+         There are two ways to consider the phenomenon of nervous communi-
+
+    cation.   First, it may be thought of as a problem in communication itself
+
+    *This research is sponsored jointly by the Air Force Office of Scientific
+     Research, Information System Directorate under Contract AF 49( 638) -1185;
+     by the Office of Naval Research, Biology Branch under Contract Nonr 3993(00);
+     and by General Dynamics I Electronics, Research Department.
+-
+                                         2
+
+    in which noise is to be eliminated from the message content through the
+
+    application of coding and redundancy.    Second, nervous communicahon
+
+    may be thought of as a problem in data processing where the messages
+
+    must be stripped of their redundant parts in. order to be accommodated
+
+    in the CNS.   These two problems are not contradictory.     The first one
+
+    concerns the retrieval of information from noise; i.e. , the coding of
+
+    information to be transmitted, with a consequent increase in reliability.
+
+    The second problem concerns the processing of data or the coding of
+
+    the source information so that redundancy is eliminated.     As an analogy,
+
+    the transmission of English language over a noisy channel can be
+
+    considered.   Before messages are transmitted on the line, all re-
+
+    dundancies pertaining to the language have to be removed; when
+
+    this is done, the messages could be coded to combat noise.
+
+         The duality of this problem might raise the question: Why does an
+
+    organism need an elaborate coding scheme if only the pertinent infor-
+
+    mation is used by its CNS? The answer could lie in the possibility
+
+    that the data processing is not done only at the CNS bllt also in the
+
+    ganglions present along the transmission path.    Thus, there would be
+
+    a great need for efficient coding close to the periphery of the sensorial
+
+    mechanism.    As the information travels up to the CNS, this need might
+
+    diminish as far as the processing is concerned.    But, processing is
+
+    still needed as far as the noise is concerned since it is reasonable to
+                                       3
+
+assume that the noise increases as the information approaches the
+
+CNS.    (Noise, as used here, means all unwanted information con-
+
+verging on the CNS at the same time as the wanted information.)
+
+       To illustrate this attributed quality of the ganglion, it is only
+
+necessary to recall that a constant stimulus, after a certain period of
+
+time, does not elicit a response in the neuron.      We may postulate that
+
+this saving in transmission is accomplished by an accommodation
+
+phenomenon in the nervous system.
+
+       In order to understand the processes involved in neuron firing,
+
+various mathematical models have been evolved such as those by
+
+Goldstein, 1 Rosenblith, 2 and Agalides. 3    Goldstein and Rosenblith
+
+have represented neuron activity as a resultant of the summation of
+
+responses from a whole population of nervous fibers exhibiting the
+
+same characteristics.     This approach leads to a microscopic view of
+                           •
+neural mechanism. 4     Thus, a modified shot noise effect is brought in
+
+the picture.
+
+       To organize the amount of data available and to extricate from
+
+the apparently random nature of the data the statistical parameters
+
+necessary for the understanding of the processes at hand, constitute
+
+another scientific challenge.    We might mention along these lines the
+
+contribution already given by spectral analysis to the interpretation of
+
+data, as expounded by WienerS and Brazier, 6 where autocorrelation
+..        ·-
+
+                                        4
+
+     techniques have helped to detect low frequency phenomena in Electro-
+
+     Encephalography and to assign different locking frequencies for the
+
+     various rhythmic activities of the brain (a -rhythm .. 10 cps, j3 -rhythm
+
+     = 20-25 cps, Y -rhythm= 40-60 cps, &-rhythm= 1;:-2 cps,      a-rhythm=
+
+     4-7 cps, k (kappa) -rhythm~ 10 cps).
+
+         Throughout the experimental work on the nervous system, both
+
+     macroscopic and microscopic considerations tend to influence the
+
+     development of theoretical explanations in nervous transmission in
+
+     separate, although well-defined, directions.   In both cases, we are
+
+     led to consider the problem of coding and redundancy.    These concepts
+
+     arise when we study the ability of a receiver to detect accurately the
+
+     nature of the message being sent in the presence of interferring noise.
+
+     In applying information theory to the nervous system, this problem
+
+     becomes complicated by two factors not usually encountered in usual
+
+     telecommunication practice.    One, already mentioned above, reflects
+
+     the difference between macroscopic and microscopic phenomena.
+
+     The other, which is perhaps more complex involves the presence of
+
+     both spatial and temporal effects in coding.
+
+         It may be said that the presence of both macroscopic and micro-
+
+     scopic points of view should not necessarily lead to a conflict.   This
+
+     is true in thermodynamics where the former leads to analysis on the
+
+     basis of ensemble averages, whereas the latter illustrates the dynamics
+                                     5
+
+of individual particles.   The study of the nervous system is virtually
+
+carried out on this dual basis.   However, if we want to analyze com-
+
+munication in the nervous system from the point of view of coding, a
+
+conceptual difficulty arises because coding and !edundancy do not by
+
+necessity belong to either a macroscopic or a microscopic mode.
+
+Dr. Brazier, 6 in affect, has suggested that the existence of a multi-
+
+coding scheme in the nervous system might explain the conveyance of
+
+both temporal and spatial information.
+
+    The existence of multicoding in the transmission of stimuli to the
+
+central nervous system and the macroscopic and microscopic aspects
+
+of stimuli transmission are studied.     The approaches to the study of
+
+these aspects of stimuli transmission are:
+
+    1.   Microscopic Approach.     The transmission of equal stimuli
+
+         along different individual fibers of the same nervous bundle
+
+         are studied, and ' a signal is observed as it travels along the
+
+         path of the nervous bundle and as it is interpreted by the
+
+         central nervous system or an integrating organ.
+
+    2.   Macroscopic Approach.     The transmission of equal stimuli
+
+         along different nervous bundles is studied again with
+
+         observation of a signal as it travels along an integrating
+
+         path, and an analysis is made of the signal as it is interpreted
+
+         by the central nervous system or an integrating organ.
+                                                           -
+                                     6
+
+    Two types of coding are investigated.     In the microscopic approach
+
+we attempt to verify that the signal traveling along similar fibers is
+
+not necessarily transmitted by similar coding or modulating schemes,
+
+but that a multitype of coding is used to provide b_etter noise recording
+
+properties.   In the macroscopic approach we are concerned with the
+
+integration of possible different codes along a complex nervous path,
+
+again with a possible gain in information capacity through improved
+
+noise contributing properties.
+
+          The two approaches have been defined above in broad terms.
+
+Note that we have not mentioned the problem of distinguishing between
+
+temporal and spatial types of coding.    This is because we are only
+
+concerned here with the problem of "how" the stimuli are being coded,
+
+not with "what" is being coded.    This latter problem could only be
+
+studied after some definite forms of coding have been established.
+
+To find these coding for~ we neglect, as a first approximation,
+
+another aspect of nervous communication; i.e. , the orientation of
+
+neural structures.
+
+          It is evident that the outlined approaches are of a general
+
+nature.   As we consider the vast array of neural structures, we find
+
+differences in functions.
+
+          In the nervous system we are faced with two problems derived
+
+from the specific needs of information transmission.     One is to find how
+                                                              -
+                                           7
+
+    to obtain maximum efficiency.    The other is how to obtain minimum
+
+    equivocation.   The first problem calls for making maximum use of
+
+    the capacity of the transmission channels.   The second is to find the
+
+    way to minimize the noise effect, environment, and threshold vari-
+
+    ation in order to overcome equivocation or misunderstanding.
+
+          In the first case, a multiple coding system would be beneficial.
+
+    Here the term "multiple" means not only the coding in itself but also
+
+    the system as such.   For example, the use of pulse position modulation,
+
+    pulse duration modulation, and pulse amplitude modulation could be
+
+    one way to solve the problem of t~ansmitting three different messages
+
+J   over one and the same channel.    The effect of noise and the resulting
+
+    equivocation could be determined by using three or more types of
+
+    coding systems for one and the same message.       Each coded message
+
+    could then be transmitted over separate channels or over a single
+
+    channel, depending on the Teliability required.   See Fig. 1.
+
+          A particular noise at a time "t" will not affect all three different
+
+    modulation systems in the same way and to the same degree.       Three
+
+    types of modulation and two types of noise are shown in Fig. 2.     Any
+
+    one of the noise types will not affect in the same way a pulse duration
+
+    modulation system, a pulse position modulation system, and a pulse
+
+    amplitude modulation system.
+
+          Figure 3 shows a modulation system with three degrees of freedom.
+
+          For a modulation system with three degrees of freedom, the
+
+    modulated wave can be represented by:
+                                                 8
+                                                         Filtering
+                                                            and
+                                                         Detection        Coincidence and
+                                                                          Decision Element
+                                         Channel x
+
+                              Noise
+Information                              Channel z                                 Information
+                                 N                                                     OUT
+    IN
+
+                                         Channel k
+
+                                         System I
+                                                         Filte t·ing
+                                                            and
+                                                                          Coincidence and
+
+       Transmission
+            Point
+                         Combined Channel
+                             X   +Z +k                                             Information
+Information
+    IN
+                                                                                       OUT
+
+
+                            System II
+
+
+
+
+          Fig. 1.   Multichannel multicoding and unichannel-multicoding
+                    transmission and reception systems.
+
+
+
+
+(PDM) X        n
+          ~ 1n ~ 1ij ij o     n uij n~ •     1
+
+                    ij    ij ·~ ~        ~
+
+
+
+
+  Noise
+(Type B) -
+           ~ n- ~ ~ ~ 0 ~ ~ ~ ~ n 0 n               ..
+
+
+ Fig. 2.      PDM, PPM, PAM, and two                            Fig. 3.   Pulse modulation with
+              types of noise transmitted                                  three degrees of freedom
+              simultaneously.                                             (applying PDM, PPM, and
+                                                                          PAM at the same time).
+>
+                              9
+
+
+
+            M(t) =      !L +to K3 V3 (T n> + 2An
+                        T                 T                      T
+                    2AnK3V3 (T n>                     oo        2
+                +                             + ~              ffiTT
+                              T                   m=l
+
+
+
+
+    where
+                         KlVl (T n) - KzVz (T n)
+                    An = _..;....;;...__:.:-_..;;_.;;;.._..:.:..
+                                            2
+
+
+
+
+                        2 [1 + K 3 V3 (T n>]
+               am (n) = ---.:.....:::..-~
+                                          IDTT
+
+                                                  t
+                                                      °
+                                  sin mw c [ - + A n ] cos mw c B n
+                                            2
+
+                                  2 (1 + K3 V3 (T )]
+               b        (n)   =                            n
+                   ID                     IDTT
+
+                                                                       t
+                              sinw        B       sin mw          [ ...ll.. + An].
+                                      c       n                  c 2
+                                              10
+
+
+The unmodulated pulses are ideal rectangular pulses with time dur-
+
+ation t 0 , amplitude unity, and repetition period T.               The leading edge
+
+is modulated with modulation factor K 1 and the trailing edge with a
+
+modulation factor Kz.           V1 (t) and Vz (t) are independent modulating
+
+waves; n = 0, ± 1, ± 2; and T n and Tn                 denote the respective times
+                                         1         z
+in the nth period that V 1 (t) and Vz (t) are sampled.              We may assume
+
+that T n
+           1
+               = T n z = T n·   With uniform sampling, T n , Tn , ·
+                                                                1      z
+                                                                                     Tn
+                                                                                          n
+can be replaced by Tn.            The terms am(n) and bm(n) are constants
+
+over any one period T1 but may vary from period to period.                   Also
+
+we= 2 rr/T.        Finally, K 3is a modulation factor applied to the amplitude
+
+of the pulse.
+
+     A modulation form prevalent in living organisms is Pulse Repetition
+
+Rate Modulation (PRRM).               This type of modulation is a digital equivalent
+
+of the frequency modulation of an analog signal.                A form of pulse
+                                  .
+repetition rate modulation is found in the sp_inal cord.               In the skin
+
+receptors, transmission of stimuli seems to occur in the form of a
+
+pulse position modulation system.             Graded signals in the nervous
+
+system seem to belong to an amplitude modulation system.
+
+     We can now state that in complex living organism like vertebrates
+
+there are many modulation systems used for transmitting information.
+
+In addition there are different types of coding.              The name of multi-
+
+dimensional coding could be applied to the form in which different
+
+coded signals are transmitted over one and the same channeL at the same
+
+time.
+pt
+
+
+
+
+                                           11
+
+
+           Brazier mentioned the multitude of codes existing in the nervous sys-
+
+     tem at the 1960 Moscow Conference on Higher Nervous Activity.        It can be
+
+     shown that the multiple coding system represents an economy in the trans-
+
+     mission channels in the case of different stimuli.   On the other hand, .if the
+
+     same stimulus is transmitted by a multi-channel multi-coding system, there
+
+     is a definite advantage as compared with the transmission of the stimulus
+
+     by a single coding system.   This is true regardless of how good a single
+
+     coding system can be because it can be one of the multiple coding systems.
+
+           To ascertain the existence of different types of codes, we investigated
+
+     the response of different stimuli on the skin sensory receptors.     The first
+
+     receptor to be studied was the Pacinian Corpuscle (Fig. 4).    Agalides com-
+
+     pared the elicited responses to mechanical and acoustic stimuli. 7     The
+
+
+
+
+             Fig. 4.   Photomicrograph of a Pacinian Corpuscle, 40X.
+                       (Nikon Interference Phase Microscope, Nikon
+                       Microflex Camera, Tri-Pan-X Kodak Film;
+                       exposure time, 0. 5 sec.)
+                                           12
+
+
+
+difference between the form,amplitude and latency involved for each response
+
+was shown (Figs. 5, 6, 7).      The power and frequency curves of the trans-
+
+ducers were plotted.      There is a definite difference between the response
+
+of the same receptor to mechanical and to acoustical stimuli.       This was an
+
+investigation in vitro.    If the coding in the nervous system in vivo should be
+
+studied, then either gross recording electrodes or microelectrodes can be used.
+
+
+
+
+Fig. 5.   Impulses from a Pacinian Corpuscle; stimulus, mechanical
+          pressure; vertical scale, 20 J.LV I division (large scale); horizontal
+          scale, 10 msldivision (large scale).
+
+
+
+
+                                Stimulus
+                                                                            Stimulus
+
+
+
+Figs. 6 and 7. Effect of acoustical wave pressure on Pacinian Corpuscle.
+               B and K heterodyne oscillator and amplifier; 70 cps,
+               keyed; 100 v rms on the piezo-electric acoustic transducer,
+               one electrode grounded. Recorded between the Pacinian
+               Corpuscle and first node of Ranvier and the axon of the
+               sensory receptor at a distance of 7 mm from the corpuscle.
+               Vertical scale, 10 1-1vl division (large scale); horizontal
+               scale, 1 ms I division (large scale).
+                                     13
+
+
+The damage done to the surrounding cells by inserting electrodes into
+
+the nervous system cannot be overlooked.      Another approach for
+
+studying in vivo coding processes in living organisms is via an in-
+
+vestigation of the electrical activity of electric fishes.
+
+    Figure 8 shows some representatives of gymnotid fishes from
+
+tropical and equatorial South America and mormyrid fishes from
+
+tropical and equatorial Africa.   Some of the fishes having electric
+
+organs use them for offensive and defensive purposes.        These are
+
+strong electric fishes whose discharge can paralize prey or at least
+
+scare away enemies.     Torpedo Nobiliana, a marine electric fish,
+
+can discharge electric pulses of some 2 20 volts.    The short -circuit
+
+current of an adult Torpedo can reach 50 amperes.       The output
+
+capabilities of Electrophorus Electric us, the Electric Eel, (Fig. 9),
+
+a fresh-water electric fish, were studied.     Voltage discharges of
+                       •
+over 600 volts were measured.      The maximum current at 10 ohms
+
+load resistance was close to one ampere.      The pulse peak power was
+
+around 100 watts.
+
+    There are other electric fishes, called weak electric fishes,
+
+which use electric coded impulses for navigation and communication
+
+purposes.   Pulse shape and pulse duration are very different de-
+
+pending on species.
+
+     The electric eel has three electric organs, each of which per-
+
+forms different functions.   One is called the main electric organ and
+                                     14
+
+
+
+
+              Monnyrldae                                ~ymnocld~e
+
+
+
+
+                                            ~
+                                             ~---      ---,•••--~
+                                               ......,••.•    i\i~··~
+                                                                 Scernarchorftyndtus
+                                                                                      .
+                                                                    oJqrhynchus
+
+
+
+                                                         +w
+                                                               GytMOrltamphlchthys
+                                                                       hypostomus
+
+                                                                     '**~
+                                                                        Gymnotus
+                                                                            CJraptJ
+ anenuatus
+
+                                                                       E.irenmannla
+                                                                         macrops
+ Gymnarchus
+  nllotlcus
+
+Figure 8. Representative types of the Mormyridae and Gymnotidae.
+              The convergent evolution between these unrelated families
+              is expressed in terms of their electric discharges, reduction
+              of the tail fin, propulsion through an elongated unpaired fin,
+              development of long snouts, and several other features.
+                                      15
+
+
+
+
+              Fig. 9.   Electrophorus Electric us (electric eel).
+
+produces high voltage pulses used for stunning purposes.     Another electric
+
+organ, called the organ of Hunter, is used for communication and navi-
+
+gation purposes.   A third electric organ, called the organ of Sachs, is
+
+thought to have an auxiliary function and its electric discharge is much
+
+weaker than that of the main electric organ.
+
+      By studying the form and shape of the coded impulses, we can dis-
+
+tinguish a large variety of coding systems (Figs. 10, 11).    Gymnarchus
+
+Niloticus, an electric fish from equatorial and tropical Africa, studied
+
+in detail by Lissman and Machin 8 , is one of the most sensitive electric
+
+fishes.   It can sense any disturbance of the surrounding water produced
+
+by objects.   It can distinguish between electric conductors and micro-
+
+conductors.   Charges of the electric field of 0. 03 ~vI em produced by
+
+direct currents can be detected by Gymnarchus Niloticus.      Its receptor
+
+system operates in the second derivative mode.      The change in current
+
+in the electroreceptors was calculated to about 0. 003 ~~a for 1 ms pulses
+
+at a frequency of 300 cps.
+                                                     16
+
+       +                                                  +
+
+
+
+
+       0             r~
+                          (_~
+                                                     l
+                                                     >    0       ~
+                                                                    ~
+
+
+
+
+                     ~         5
+                              ms         ~
+                                                     1            ~       !lOO~
+                                                                          ms
+                     Torpedo and J\stroscopus                          Raia
+
+       +                                                  +
+                           ~
+
+       0
+                      z
+                           l-\.-
+                                   3:                l
+                                                     >    0
+                                                                :z '""
+                                                                      r\
+                                                                      r-s
+
+                     f.-- Js             ~
+                                                     l          j.-- 2 resp.
+                                                                         ms
+                                                                             10~
+                   Electrophorus                              Eigenmannia and Sternopygus
+
+       +                                                  +
+
+
+
+
+       0
+                                                     r
+                                                     >    0
+
+
+
+
+                     j.       3
+                              ms         ~
+                                                     1            j4-     5        ~
+                                                                         ms
+             Gymnotus (other tha;-, Electrophorus)                 Gnathonemus
+
+       +                                                  +
+
+
+
+
+       0         ~    -
+                                                     I
+                                                     >
+                                                          0
+                          \          7                             ~-          /
+                           ~
+                     j.- Js --I
+                                                     l            'r
+                                                                  ~T.4
+                          Mormyrus                                Malaptet·urus
+
+
+Fig~       10.   Pulse shape arid pulse duration of the discharges of some species
+                 of electric and magnetic sensitive fish. (After H. Grundfest, 1952)
+                                                                -
+                                       17
+
+
+
+
+               lOOms
+
+
+
+
+Fig. 11.   Cross communication between two electric eels in two separate
+           aquaria; optical galvanometer recorder. de to 10 kc frequency
+           range. speed 7 6 mm per second.
+
+      Gnathonemus Petersii (Figs. 12. 13). an African electric Mormyrid.
+
+utilizes a pulse position plus pulse amplitude modulation.     The slope of the
+
+
+                           .
+pulse is less than 50 J.LSec. and the entire pulse duration is 250 p.sec .
+
+      Sternarchus Albifrons (Figs. 14. 15. 16). a South American Ster-
+
+narchid, utilizes a permuted phase plus an amplitude modulation coding
+
+system.
+
+      Electrophorus Electricus utilizes a very complicated coding method
+
+in conjunction with a modulation system with three degrees of freedom.
+
+      It was verified that the fish can decode the electric signals emitted by
+
+other fish of the same species.    The experiment proving this fact was
+
+reported at the 1964 Rochester Conference on Data Acquisition and Processing
+
+in Biology and Medicine. 9
+                                        18
+
+      By studying the types of coding used by fishes for perhaps twenty or
+
+thirty million years. we can once more observe that evolution has solved
+
+biochemical. electrical. and mechanical problems of energy transformation
+
+by always finding the way to utilize minimum energy combined with excel-
+
+lent efficiency.   In the case reported on here. evolution found the way to
+
+extract signals from noise with little power utilization.    The study of the
+
+natural phenomena and of living organisms still can provide the scientist
+
+with new clues and means to further the general progress of science.
+
+                                 Acknowledgement
+
+      I wish to express my appreciation for the support offered by the Air
+
+Force Office of Scientific Research. Information System Directorate; the
+
+Office of Naval Research. Biology Branch; and General Dynamics/Electronics.
+
+In particular I wish to thank Dr. H. C. Nedderman. Director of Research
+
+for GD/E. for his managerial assistance.      Mr. Bernardini was responsible
+                             .
+for the excellent microsurgery required to dissect the Pacinian Corpuscle.
+
+the electric organs of electric fishes. and their brains.    Mr. R. Zinsmeister
+
+set up the electric equipment and skillfully recorded the electrical activity
+
+of electric fishes and that of the skin sensory receptors.    Finally I would
+
+like to thank Mr. R. Doughty for his help in editing this article.
+                                                   19
+
+
+
+
+                 Fig. 12.               Gnathonemus Petersii
+                                        (African electric fish).
+
+
+
+
+Fig. 13.   Electrical signals emitted by Gnathonemus Petersii.
+           ~0-:1loc·   ~:--n,.....t;,.....~1   _t=\n ~;;;"' lrl;.,..,..   J..-,,-.."Y'.;-=-,-..Y'lf- ...... 1   ~0   1""'-.c:::"'   lrl;.,..,.
+-.
+
+
+
+                                    20
+
+
+
+
+                Fig. 14.   Sternarchus Albifrons
+                           (South American electric fish).
+
+
+
+
+     Fig. 15.   Electrical signals emitted by Sternarchus Albifrons.
+                Scales: vertical, 2 mv/div; horizontal, 1 ms/div.
+                                                                                                          ·~
+
+
+
+                                  \: I
+                                   ,I                                              iUdli\M~~P.I\   I~
+   .   ILI~I\1 U\1"~~
+
+
+
+
+                                                                                                   t.;l
+                                                                                                   ,_..
+
+
+Recording made with two stainless steel electrodes, 7 inches long, placed in the water tank.
+Recorder: Midwestern Optical Recorder.
+Amplifiers: (1) Tektronix and (2) specially constructed units.
+Date of recording: 2 February 1963           Time: 2:00 PM           Recorder speed: 60 ips
+Voltage at electrode: 1 rnv (equals 1. 6-inch deflection on recording paper).
+Voltage at output of second amplifier: 1. 1 v (equals l-inch deflection on recording paper).
+
+
+
+
+                    Fig. 16.   Recording of the electrical activity of Sternarchus Albifrons.
+                                         22
+
+
+                               BIBLIOGRAPHY
+
+1.   Goldstein, M. H •• Jr •• "A Statistical Model for Interpreting
+
+     Neuroelectric Responses." Information and Control, 3,
+
+     pp. 1-17 (1960).
+
+2.   Rosenblith, W. A •• editor,. "Sensory Communication," MIT
+
+     Press and John Wiley and Sons, Inc •• p. 196 (1961}.•
+
+3.   Agalides, E •• "The Mathematical Model of the Neuron,"
+
+     Rochester Conference on Data Acquisition and Data Processing
+
+     in Medicine and Biology, Pergamon Press 1962.
+
+4.   Adolph, A. R.. "Sensory Neurology and Analog" Technical
+
+     Document LMSD 49752, Lockheed Aircraft Corp. (June 1959}.
+                    11
+5.   Wiener, N .•        Cybernetics, 11 or "Control and Communication
+
+     in the Animal and the Machine," MIT Press and John Wiley
+
+     and Sons, Inc •• Chapt. 10 (1961).
+                     '
+6.   Brazier, M.A. B., "Long-persisting Electrical Traces in the
+
+     Brain of Man and Their Possible Relationship to Higher
+
+     Nervous Activity, 11 Moscow Symposium on Higher Nervous
+
+     Sensitivity, 1960.
+
+7.   Agalides. E •• "The Effect of Acoustical Waves on the Pacinian
+
+     Corpuscle, " Transaction of the New York Academy of Sciences,
+
+     Vol.   • No.        • April 1964.
+
+8.   Lissman, H. W. and K. E. Machin, "The Mechanism of Object
+
+     Location in Gymnarchus Niloticus and similar Fishes, "
+
+     J. Exper. Biology. ~. 451 (1958).
+                                                                 -
+                               23
+
+
+9. Agalides, E., J. Bernardini, and R. Zinsmeister, "Infor-
+
+  mation Processing by Electric Fishes," Proceedings of the
+
+  1964 Rochester Conference on Data Acquisition and ProceSsing
+
+  in Medicine and Biology, ed., by K. Enslein, in press:
+ Pergamon Press~ London and New York.
