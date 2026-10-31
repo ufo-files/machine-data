@@ -1,83 +1,39 @@
 {
-  "canonical_text_sha256": "9846d24b7d8ce59db2097d9a24afd9b14958e0b367185a6b2a919e50e7295ab1",
+  "canonical_text_sha256": "eb03d3279176c5e9635a563d44597665517953ff6f8f296636fac1d9f912548b",
   "document_id": "doc-a578031cd73bbe4c12602486",
   "extraction": {
     "engine": "poppler-pdftotext",
-    "generated_at": "2026-08-09T22:10:33Z",
+    "generated_at": "2026-10-31T18:21:14Z",
     "mode": "embedded-text",
     "tools": {
-      "pdftotext": "pdftotext version 26.08.0"
+      "pdftotext": "pdftotext version 26.09.0",
+      "text_order": "reading"
     }
   },
-  "generated_at": "2026-08-09T22:10:33Z",
+  "generated_at": "2026-10-31T18:21:14Z",
   "page_count": 10,
   "pipeline_version": "ufo-files-portuguese-pipeline/1.0.11",
   "qa_status": "needs-review",
-  "remaining_manual_review_count": 95,
-  "repair": {
-    "human_reviewed": false,
-    "id": "2026-09-27-targeted-translations",
-    "previous_translation": {
-      "generated_at": "2026-09-27T05:09:50Z",
-      "method": "local-mlx-lm",
-      "model": "mlx-community/aya-expanse-8b-4bit",
-      "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-      "prompt_sha256": "e1eda5d46202f08c55f99a2df35d1248ff9b6da45449261c7f91b1f66e2544ac",
-      "review_status": "needs-review",
-      "runtime_version": "0.30.7",
-      "workflow_version": "pt-en-translation-prompt/v3"
-    },
-    "retranslated_segments": [
-      {
-        "human_reviewed": false,
-        "method": "codex-assisted-translation",
-        "source_sha256": "9c2b7c84809aa0b0e4de7b213c762d1f161409da9261d299823317c4b988a569",
-        "status": "machine-unreviewed",
-        "uncertain_ocr_values_preserved": false
-      },
-      {
-        "human_reviewed": false,
-        "method": "codex-assisted-translation",
-        "source_sha256": "2de37e194539480ac127408c011038ea5db613d7a28d6df30aa0a2be4d8d2e19",
-        "status": "machine-unreviewed",
-        "uncertain_ocr_values_preserved": false
-      },
-      {
-        "human_reviewed": false,
-        "method": "codex-assisted-translation",
-        "source_sha256": "8a841de2f51b6c5a3fcb90603a56dd56f8765377dcea7247ba66c1985f4537ee",
-        "status": "machine-unreviewed",
-        "uncertain_ocr_values_preserved": false
-      },
-      {
-        "human_reviewed": false,
-        "method": "codex-assisted-translation",
-        "source_sha256": "d58b411f764fc9d0975c390398ae330e2b1dacee3b62e2635e6c803e7705bfe0",
-        "status": "machine-unreviewed",
-        "uncertain_ocr_values_preserved": false
-      }
-    ]
-  },
-  "retranslated_at": "2026-09-27T05:14:48Z",
+  "remaining_manual_review_count": 84,
   "runtime": {
     "machine": "arm64",
-    "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
-    "python": "3.14.6"
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python": "3.13.15"
   },
   "schema": "ufo-files-portuguese-provenance/v1",
-  "segment_count": 95,
+  "segment_count": 84,
   "source_bytes": 180949,
   "source_sha256": "a75169a8d1f952d5e29705af035702456ebf5ed3fc69b058a8d103084694df24",
-  "status": "complete",
+  "status": "partial",
   "translation": {
-    "generated_at": "2026-09-27T05:14:48Z",
-    "method": "mixed-verified-recovery",
-    "model": "mixed; see segment translation_provenance",
-    "model_revision": "source-bound-recovery-2026-09-27",
-    "prompt_sha256": "",
-    "review_status": "needs-review",
-    "runtime_version": "mixed",
-    "workflow_version": "source-bound-translation-recovery/v1"
+    "generated_at": "2026-10-31T18:21:14Z",
+    "method": "local-mlx-lm",
+    "model": "mlx-community/aya-expanse-8b-4bit",
+    "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
+    "prompt_sha256": "b7f9c25c4fa7dea30d57478795d497d15449100792788277e886d680e5446463",
+    "review_status": "partial",
+    "runtime_version": "0.30.7",
+    "workflow_version": "pt-en-translation-prompt/v6"
   },
-  "translation_text_sha256": "814756bcfd6d272ff81a1400095f21674448337d565e2a744225a4babd854354"
+  "translation_text_sha256": "0d113eb882d9feefe06c2953792ebbcc87edcb8b462cf9ad5964be08db2bacce"
 }

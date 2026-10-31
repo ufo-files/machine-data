@@ -1,0 +1,231 @@
+{"schema": "ufo-files-archive-ocr/v1", "engine": "source-text-extraction/v4", "engine_mode": "embedded-text", "source_file": "Archives-for-the-Unexplained/documents/20040527-Re_What-is-SETI_-was-__Re_-How-smart-are-SETI-homers_---ScientificAmerican-137955.pdf", "source_sha256": "db88797fb99fa0b6eab7e3e4c9ee82740ad9c0bee4bfa29756313e874085e82b", "source_bytes": 34537, "source_mtime": 1790859617, "source_mtime_ns": 1790859617020047441, "source_ctime_ns": 1790859618868566662, "source_hash_basis": "archived-file", "created_utc": "2026-10-26T20:46:04.638930+00:00"}
+
+Re: What is SETI? was->>Re: How smart are SETI@homers? - ScientificAmerican
+
+
+  Subject: Re: What is SETI? was->>Re: How smart are SETI@homers? - ScientificAmerican
+  From: Rich
+  Date: 27/05/2004, 18:10
+  Newsgroups: sci.astro.seti,alt.sci.seti,sci.space.policy
+
+
+
+  In infinite wisdom Sander Vesik answered:
+
+          In sci.space.policy Rich <someone@somewhere.com> wrote:
+
+
+                         And unlike modern computers, it doesn't have any cache memory.
+
+
+                 Why would it need cache? The memory ran at full processor speed. Cache
+                 is used to buffer things of vastly different speeds, like disk blocks
+
+
+          The memory certainly didn't run as fast as the processor,
+
+
+  Looks like the 120ns memory used back then should be good up to about
+  8MHZ with no wait states. And it was used in the 8MHZ macs as I recall.
+
+
+          for that you would have needed to use a pipelined bus connected to a 0-latency,
+
+
+  Latency and speed are two different things. My cable modem has high
+  latency, but lots of bandwidth. My 56K modem has low latency, and a
+  bandwidth to match. The high latency cable modem is very much faster
+  thank you.
+
+
+          ZBT SRAM at teh very least, somethingthat didn't even exist back then. You would have needed to clock it
+          at 2x higher frequency than the core
+          too.
+
+
+  I'm not sure what you're on about.
+
+  http://www.micron.com/news/product/1999-08-23_16248.html
+
+  Looks like ZBT SRAM is designed to avoid bus contention when dealing
+  with devices with a slow turn-off. They don't quite explain how they
+  do so, but one possibility is slow turn-on for the SRAM.
+
+
+          It didn't have amemory system that ran at the same *speed* as the processor, it had a memory system that
+          ran at the same
+          frequency.
+
+
+
+
+20040527-Re_What is SETI_ was-__Re_ How smart are SETI@homers_ - ScientificAmerican-137955.html[12/03/2022 16:12:59]
+Re: What is SETI? was->>Re: How smart are SETI@homers? - ScientificAmerican
+
+  WRT memory, I don't see the distinction as essentially meaningful.
+
+
+          The two were not the same even back then.
+
+
+  Everything else being equal, they are directly related.
+
+
+          Even
+          an instruction buffer that just did simple prefetch would have
+          sped it up. Go on, do the math if you want to argue otherwise.
+
+
+  By how much?
+
+  You know, I always though the 8088 was a dog, still do in fact. I
+  always thought that IBM should have used the 8086, strictly logical
+  arguments convinced me that it would have made a big performance
+  difference, and the 4.7MHZ was often slower than a 1MHZ 6502.
+
+  But eventually, reality intruded and I saw benchmarks with real
+  8086 systems (of the same generation). The 8086 was indeed faster,
+  but not by much. I think that it was a maximum of 8% faster, with
+  a marginal 4-6% for most things.
+
+  Whether it was a good design decision by IBM at the time is hard
+  to tell, but it seems to be a reasonable move WRT cost. YMMV.
+
+
+                 for disk cache, and memory for processor cache. This is because the
+                 modern processor runs 20x faster than the memory bus. Without the
+                 cache the processor would spend most of it's time waiting for memory
+                 access. With cache it runs at full speed for a large percentage of the
+                 time, bur it still must wait for cache to fill whenever non-cached
+                 memory is accessed.
+
+
+          The difference in frequency of the processor vs. that of memory system is irrelevant.
+
+
+  Is it really? Irrelevant to what? Certainly not system performance.
+
+
+          What matters is the excution rate vs latency (and in limited cases bandwidth) of the memory system.
+
+
+  Ever run a system with shared memory video? When I first heard of the
+  idea it sounded OK, superficially. But much later I bough a $300
+  Emachines to play with. It was a 300MHZ K-6. Quite a buy at the time,
+  but I won't buy any more Emachines. The problem, which was apparent
+  when I ran the system, was that the video system took all the memory
+  bandwidth. Programs were starved. I preferred 1024x768 resolution, and
+  it took 5 minutes for Windows Explorer to draw a screen full of file
+  names. It was horrible at anything but 640x480, which I won't use. I
+
+20040527-Re_What is SETI_ was-__Re_ How smart are SETI@homers_ - ScientificAmerican-137955.html[12/03/2022 16:12:59]
+Re: What is SETI? was->>Re: How smart are SETI@homers? - ScientificAmerican
+
+  had to buy a PCI video card to use the machine.
+
+  Recently, for different reasons entirely, I bought a refurbished HP,
+  a 2.6 GHZ P4, at a very good price. It has the new shared video and
+  works well at 1024x768, as long as you're not doing anything processor
+  intensive, at which point it bogs down. Seems that the new DDR memory
+  allows shared memory video to work reasonably well at higher resolutions, there being enough overhead for simple
+  tasks like word
+  processing and web browsing and even mastering CDs. But just for
+  grins and giggles, I loaded C&C Generals. I have no plans to play
+  games on this machine (not that I do very much anyway), I was just
+  curious about the performance of the shared memory video. As I'd
+  suspected, C&C is processor and memory intensive, it bogs down to a
+  crawl. On my old 2GHZ homebuilt, with a reasonable AGP display,
+  it runs quickly and smoothly.
+
+  The point is that memory bandwidth is indeed a measure of system
+  performance, and indeed, the two are directly related.
+
+  With SETI this is true as well for any system without 2MB cache,
+  a population in which most SETI@home users fall.
+
+
+                   Cache is not a good thing WRT computer speed. It's a sign that your
+                   computer is running slower than it's processor.
+
+
+          If your memory runs faster than your processor in real terms you should fire your processor design team.
+
+
+  There comes a point of diminishing returns. It's already apparent
+  with the 2GHZ celeron, without enough cache it bogs and stutters.
+
+
+          Becuase they weren't trying at all.
+
+
+  And what when the processor is 100x faster than memory?
+
+
+          [snip]
+
+
+                   You want to compare system speeds you need to check some benchmarks.
+                   And even these can be fooled if the entire benchmark fits in cache.
+                   Look at the difference a large cache makes for SETI, everything else
+                   being equal. This is why streaming video skips and breaks on a modern
+                   2GHZ celeron, only 128K of cache, the system is limited to memory
+                   speed for most things.
+
+
+          latency problems in media display are probably caused by OS deficencies
+          not processor speed.
+
+
+
+
+20040527-Re_What is SETI_ was-__Re_ How smart are SETI@homers_ - ScientificAmerican-137955.html[12/03/2022 16:12:59]
+Re: What is SETI? was->>Re: How smart are SETI@homers? - ScientificAmerican
+
+  Ever replaced a celeron with a same speed Pentium with more cache?
+  I have. The skips and hangs disappear. Without sufficient cache, the
+  processor runs nearer memory bandwidth.
+
+  Hell, with that old 300MHZ K6-3, I had an interesting experience. I
+  added more memory. Later, I decided to add more than the 128MB I had
+  in, despite my knowledge that only memory up to 128MB was cached
+  (a chipset limitation). I thought it through and reasoned that uncached
+  memory would still be faster than swap (disk). So I upped the memory
+  to 256MB (from my old main machine, just upgraded). To my surprise,
+  the computer would run normally much of the time, but often it would
+  just hang, dead to the world for up to 20 or 30 seconds. Then it would
+  go on as if nothing had happened. Rather bizarre behavior for
+  doubling memory don't you think? Seems that uncached memory is vastly
+  slower than cache, unless there was something else wrong (like a design
+  issue). But I would imagine that the cache subsystem loads blocks of
+  memory, seeing latency only for the initial memory access, but not
+  for the rest of the block, while the uncached memory saw latency for
+  every byte accessed. This was a big issue ten years ago BTW, and
+  even workstations had limits to the memory cached such that if you
+  added all available memory (as in many applications would naturally
+  be done) there was a severe performance penalty.
+
+
+                 Or better yet, compile the same code with the same compiler on both
+                 machines. That would give a more reasonable comparison.
+
+
+  Along those lines I once did some work for someone with an old machine,
+  that had an original norton utilities installed. Just for grins, I took
+  the speed test back and ran it on my computer (don't recall, maybe from
+  100-200 MHZ). It ran, but overflowed and gave garbage output. No doubt
+  this was a result of assumptions made at compile time, but I've always
+  wondered what it would have said if it had not overflowed.
+
+  Rich
+
+
+                 Rich
+
+
+
+                         Alex.
+
+
+
+
+20040527-Re_What is SETI_ was-__Re_ How smart are SETI@homers_ - ScientificAmerican-137955.html[12/03/2022 16:12:59]
