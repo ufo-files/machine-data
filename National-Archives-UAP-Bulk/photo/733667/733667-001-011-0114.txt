@@ -1,0 +1,53 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-11-02T05:02:59Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 1, "preprocessing": "imagemagick target 600dpi (oversized page boxes bounded to 40 megapixels and 9000 pixels per edge): plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 4001709, "source_ctime_ns": 1793394206085381429, "source_file": "National-Archives-UAP-Bulk/photo/733667/733667-001-011-0114.jpg", "source_mtime_ns": 1785567336000000000, "source_rel": "National-Archives-UAP-Bulk/photo/733667/733667-001-011-0114.jpg", "source_sha256": "e748317f2ff7e5ad7edfb8cc48168b9c39283ac7f5cd047288020dd7f1d1c1d1"}
+
+===== PAGE 1 =====
+{"alpha_words": 738, "chars": 4751, "method": "ocr", "page": 1, "variant": "plain-vision"}
+Federal Agencies Digitization Initiative Still Image Working Group - August 2010
+TECHNICAL OVERVIEW
+Raster Image Characteristics
+Spatial Resolution
+Spatial resolution determines the amount of information in a raster image file in terms of the number of picture
+elements or pixels per unit of measurement, but it does not define or guarantee the quality of the information. Spatial
+resolution defines how finely or widely spaced the individual pixels are from each other. The higher the spatial
+resolution, the more finely spaced and the higher the number of pixels overall. The lower the spatial resolution, the
+more widely spaced and the fewer the number of pixels overall.
+Spatial resolution is measured as pixels per inch or PPI; pixels per millimeter or pixels per centimeter are also used.
+Resolution is often referred to as dots per inch or DPI. In common usage, the terms PPI and DPI are used
+interchangeably. Since raster image files are composed of pixels, technically PPI is a more accurate term and is used
+in this document (one example in support of using the PPI term is that Adobe Photoshop software uses the pixels per
+inch terminology). DPI is the appropriate term for describing printer resolution (actual dots vs. pixels); however,
+DPI is used often in scanning and image processing software to refer to spatial resolution and this usage is an
+understandable convention.
+The spatial resolution and the image dimensions determine the total number of pixels in the image; an 8"x10
+photograph scanned at 100 ppi produces an image that has 800 pixels by 1000 pixels or a total of 800,000 pixels.
+The numbers of rows and columns of pixels, or the height and width of the image in pixels as described in the
+previous sentence, is known as the pixel array. When specifying a desired file size, it is always necessary to provide
+both the resolution and the image dimensions; ex. 300 ppi at 8"x10 or even 300 ppi at original size.
+The image file size, in terms of data storage, is proportional to the spatial resolution (the higher the resolution, the
+larger the file size for a set document size) and to the size of the document being scanned (the larger the document,
+the larger the file size for a set spatial resolution). Increasing resolution increases the total number of pixels,
+resulting in a larger image file. Scanning larger documents produces more pixels resulting in larger image files.
+Higher spatial resolution provides more pixels, and generally will render more fine detail of the original in the
+digital image, but not always. The actual rendition of fine detail is more dependent on the spatial frequency response
+SFR) of the scanner or digital camera (see Quantifying Scanner/Digital Camera Performance below), the image
+processing applied, and the characteristics of the item being scanned. Also, depending on the intended usage of the
+master files, there may be a practical limit to how much fine detail is actually needed.
+Signal Resolution
+Bit-depth or signal resolution, sometimes called tonal resolution, defines the maximum number of shades and/or
+colors in a digital image file, but does not define or guarantee the quality of the information.
+In a 1-bit file each pixel is represented by a single binary digit (either a 0 or 1), so the pixel can be either black or
+white. There are only two possible combinations or 2' = 2.
+The common standard for grayscale and color images is to use 8-bits (eight binary digits representing each pixel) of
+data per channel and this provides a maximum of 256 shades per channel ranging from black to white; 28 = 256
+possible combinations of zeroes and ones.
+High-bit or 16-bits (16 binary digits representing each pixel) per channel images can have a greater number of
+shades compared to 8-bit per channel images, a maximum of over 65,000 shades vs. 256 shades; 216 - 65,536
+possible combinations of zeroes and ones.
+Well done 8-bits per channel imaging will meet most needs - with a limited ability for major corrections,
+transformations, and re-purposing. Gross corrections of 8-bit per channel images may cause shades to drop out of
+the image, creating a posterization effect due to the limited number of shades.
+High-bit images can match the effective shading and density range of photographic originals (assuming the scanner
+is actually able to capture the information), and, due to the greater shading (compared to 8-bits per channel), may be
+beneficial when re-purposing images and when working with images that need major or excessive adjustments to the
+tone distribution and/or color balance. However, at this time, monitors for viewing images and output devices for
+Technical Guidelines for Digitizing Cultural Heritage Materials: Creation of Raster Image Master Files
