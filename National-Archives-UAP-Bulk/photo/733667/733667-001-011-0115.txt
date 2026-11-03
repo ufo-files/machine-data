@@ -1,0 +1,53 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-11-03T20:00:44Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 1, "preprocessing": "imagemagick target 600dpi (oversized page boxes bounded to 40 megapixels and 9000 pixels per edge): plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 4393260, "source_ctime_ns": 1793394206437159363, "source_file": "National-Archives-UAP-Bulk/photo/733667/733667-001-011-0115.jpg", "source_mtime_ns": 1785567336000000000, "source_rel": "National-Archives-UAP-Bulk/photo/733667/733667-001-011-0115.jpg", "source_sha256": "ff01124033b1870c10c301d7af4b05244b8aa2c23685430c1216773785f3daca"}
+
+===== PAGE 1 =====
+{"alpha_words": 752, "chars": 4944, "method": "ocr", "page": 1, "variant": "plain-vision"}
+Federal Agencies Digitization Initiative Still Image Working Group - August 2010
+printing images all render high-bit images at 8-bits per pixel, so there is limited practical benefit to saving high-bit
+images and no way to verify the accuracy and quality of high-bit images. Also, it is best to do a good job during
+digitization to ensure accurate tone and color reproduction, rather than relying on post-scan correction of high-bit
+images. Poorly done high-bit imaging has no benefit.
+Color Mode
+Grayscale image files consist of a single channel, commonly either 8-bits (256 levels) or 16-bits (65,536 levels) per
+pixel with the tonal values ranging from black to white. Color images consist of three or more grayscale channels
+that represent color and brightness information. Common color modes include RGB (red, green, blue), CMYK
+(cyan, magenta, yellow, black), and LAB (lightness, red-green, blue-yellow). The channels in color files may be
+either 8- bits (256 levels) or 16-bits (65,536 levels). Display and output devices mathematically combine the
+numeric values from the multiple channels to form full color pixels, ranging from black to white and to full colors.
+RGB represents an additive color process: red, green, and blue light are combined to form white light. This is the
+approach commonly used by computer monitors and televisions, film recorders that image onto photographic film,
+and digital printers/enlargers that print to photographic paper. RGB files have three color channels: 3 channels × 8-
+bits = 24-bit color file or 3 channels x 16-bits = 48-bit color. All scanners and digital cameras create RGB files by
+sampling for each pixel the amount of light passing through red, green and blue filters that is being reflected or
+transmitted by the item or scene being digitized. Black is represented by combined RGB levels of 0-0-0, and white is
+represented by combined RGB levels of 255-255-255. This is based on 8-bit imaging and 256 levels from 0 to 255;
+this convention is used for 16-bit imaging as well, despite the greater number of shades. All neutral colors have
+equal levels in all three color channels. A pure red color is represented by levels of 255-0-0, pure green by 0-255-0,
+and pure blue by 0-0-255.
+CMYK files are an electronic representation of a subtractive process: cyan (C), magenta (M), and yellow (Y) are
+combined to form black. CMYK mode files are used for prepress work and include a fourth channel representing
+black ink (K). The subtractive color approach is used in printing presses (four color printing), color inkjet and laser
+printers (four color inks, many photo inkjet printers now have more colors), and almost all traditional color
+photographic processes (red, green and blue sensitive layers that form cyan, magenta and yellow dyes).
+LAB color mode is a device independent color space that is matched to human perception: three channels
+representing lightness (L, equivalent to a grayscale version of the image), red and green information (A), and blue
+and yellow information (B). One benefit of LAB mode is that it is matched to human perception, and also LAB
+mode does not require color profiles (see section on color management). Disadvantages of LAB include the potential
+loss of information in the conversion from the RGB mode files from scanners and digital cameras, the need to have
+high-bit data, and the fact that few applications and file formats support it.
+Avoid saving files in CMYK mode; CMYK files have a significantly reduced color gamut (see section on color
+management) and are not suitable for master image files for digital imaging projects involving holdings/collections
+in cultural institutions. While theoretically LAB may have benefits, at this time we feel that RGB files produced to
+the color and tone reproduction described in these guidelines and saved with an Adobe RGB 1998 color profile (or,
+alternatively, an sRGB color profile), are the most practical option for master files and are relatively device
+independent. We acknowledge that the workflow described in these guidelines to produce RGB master files may
+incur some level of loss of data; however, we believe the benefits of using RGB files brought to a common
+rendering outweigh the minor loss.
+Digitization Environment
+Our recommendations and the ISO standards referred to below are based on using CRT monitors; however, the
+criteria specified below also applies to LCD monitors, as LCDs have now replaced CRTs in most imaging
+environments.. Be aware that inexpensive LCD monitors may have artifacts that make it difficult to distinguish
+image quality problems in the image files, and the appearance of colors and monitor brightness can shift with the
+viewing angle of the LCD panel. We recommend using a high-end LCD monitor designed for the graphic arts,
+photography, or multimedia markets.
+Technical Guidelines for Digitizing Cultural Heritage Materials: Creation of Raster Image Master Files
