@@ -43,15 +43,15 @@
           "field": "region",
           "page_id": "page-d37215be1e79b78ab10aa910",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-2087c3c56f38ece0d098d2b6",
           "segment_index": 3,
           "source_segment_id": "seg-2087c3c56f38ece0d098d2b6",
           "source_text_sha256": "059d12cde048b669eed10ebe9246935a60ce3b994b570c9f85a3754a09ccc658",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Region: Provence-Alpes-Côte d'Azur",
-          "translation_text_sha256": "e7afbc080811fff103dcb9e287dd1fb0a0d689053bdf08eda8087b1d27065051"
+          "status": "not-required",
+          "text": "Region: Provence Alpes Cote d'azur",
+          "translation_text_sha256": "5b14e3b48b2fdd5900bcdae8dd5e713b6bef4d1cdf3d01cda781d5947af25b87"
         },
         {
           "end_ms": null,
@@ -59,13 +59,13 @@
           "field": "department",
           "page_id": "page-d37215be1e79b78ab10aa910",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-6421fcbcc43d8e461f2cbf67",
           "segment_index": 4,
           "source_segment_id": "seg-6421fcbcc43d8e461f2cbf67",
           "source_text_sha256": "7623a260d905385fee9da2310ac9edabaa1e857de85e1af130a1b8e3bf65780e",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Department: Vaucluse",
           "translation_text_sha256": "2eb05fbae4cdd6c5beff9ba26603d78924bf014fe10a7f93f8af4d054a58998f"
         },
@@ -123,15 +123,15 @@
           "field": "documents",
           "page_id": "page-d37215be1e79b78ab10aa910",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-60ef10cfb34cdd2adb2475bc",
           "segment_index": 8,
           "source_segment_id": "seg-60ef10cfb34cdd2adb2475bc",
           "source_text_sha256": "574f480e5d0139bb7c48b80c5ea9d23a079a6c3a9429fb8783a6bc5289aec1b6",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  PV AERO (1951208633).pdf",
-          "translation_text_sha256": "ad00a3326e9d42f0e4924b872b1e04a1afcf730f5c506f2f5449e6939b5ba81a"
+          "status": "not-required",
+          "text": "Documents: PV AERO (1951208633).pdf",
+          "translation_text_sha256": "574f480e5d0139bb7c48b80c5ea9d23a079a6c3a9429fb8783a6bc5289aec1b6"
         },
         {
           "end_ms": null,
@@ -139,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-d37215be1e79b78ab10aa910",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-4c91e8e4d5581f8789561fce",
           "segment_index": 9,
           "source_segment_id": "seg-4c91e8e4d5581f8789561fce",
           "source_text_sha256": "23ba442093d493754adf3590def8111d66ca2047b63223b95c71fe929b01d2a3",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: [AERO MIL] ORANGE (84) 15.06.1951 T1 [AERO MIL] ORANGE (84) 15.06.1951 T2",
           "translation_text_sha256": "22ba1b36ee87d7be930aef0bbecdbd8c6af1f7b4c8fc2bb847c6007ce4154f10"
         },
@@ -162,8 +162,8 @@
           "source_text_sha256": "ff05fa60d89f46d1444523a200dd52f9a5aec57f545ab4fc09c6e744943787e0",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Summary: In-flight observations by two pilots of a very bright stationary phenomenon then in motion in the sky; pursuit before disappearance over the horizon: strange, unidentified phenomenon.",
-          "translation_text_sha256": "e229395561ea1407fbf66e736cc120067e38f88a07c1ce03ebcc6188d4bbc2e3"
+          "text": "Summary: Observations by two pilots in flight of a very bright stationary phenomenon then in motion in the sky; pursuit before disappearing over the horizon: strange unidentified phenomenon.",
+          "translation_text_sha256": "ae6007ee6ee1c4d5b89abb14fcc7e34ae0344ded384486b5b5e99973a1abf416"
         },
         {
           "end_ms": null,
@@ -172,28 +172,8 @@
           "page_id": "page-d37215be1e79b78ab10aa910",
           "qa_findings": [
             {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "11:30"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
               "added_in_translation": [
-                "10000 ft"
-              ],
-              "check": "measurements",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "10000",
-                "11",
-                "30"
+                "10000"
               ],
               "check": "numbers",
               "missing_from_translation": [
@@ -210,8 +190,8 @@
           "source_text_sha256": "2b918a936351da22a21ba35809494c69c27ff7a70248534314e80cd225fd8eef",
           "start_ms": null,
           "status": "needs-review",
-          "text": "Description: On June 15, 1951, at 11:30 a.m., two pilots took off from the Orange-Caritat Air Base. One of the pilots was surprised to see a silver, very bright, circular or spherical object in the sky. He informed his patrol chief, who also spotted it. The object was stationary and, according to one of the pilots, located in the south of the Pelvoux massif (Ecrins massif) at the same altitude as the Pelvoux peaks and his aircraft (10,000 feet). Both aircraft pursued the object, which appeared to grow in size. The object then moved on a slightly ascending trajectory, taking on an oblong shape. The simultaneous observation lasted approximately 6 minutes before the object disappeared from the horizon as a point. The investigation at the time, conducted by the base commander, confirmed the credibility of the observations. It is noted that some descriptions in these testimonies suggest a stratospheric balloon observed from a distance. However, since one of the pilots reported a rapid distance increase from the object when he attempted to get closer, this hypothesis is not supported. The GEIPAN classifies this case as D: Strange phenomenon / Very strange, with average to strong consistency.",
-          "translation_text_sha256": "3ca6e871f36be550a6c1d2fd94e067a9fcbcac914ca81e895c16b068b8e27851"
+          "text": "Description: On June 15, 1951 at 11:30 am, two pilots took off from Orange-Caritat Air Base. One of the pilots is surprised to see a craft that appears circular or spherical, silver and very shiny in the sky. He informs his patrol chief who in turn spots him. The craft is stationary and located, according to one of the pilots, in the south of the Pelvoux massif (Ecrins massif) at the same altitude as the Pelvoux peaks and his aircraft (10,000 feet). The two planes are pursuing this object which appears to be growing larger to them. The craft then moves on a slightly ascending trajectory while taking on an oblong shape. The simultaneous observation will last approximately 6 minutes before the craft disappears as a point on the horizon. The investigation at the time conducted by the base commander confirms the credibility of the observations. It is noted that some descriptions in these testimonies suggest a stratospheric balloon observed from a distance. Nevertheless, the fact that one of the pilots reports a rapid distance increase from the object as he attempts to approach it does not support this hypothesis. The GEIPAN classifies this case as D: Strange phenomenon / Very strange, with a consistency ranging from medium to strong.",
+          "translation_text_sha256": "ff3a19ca89b869bc5d4c55636fbaba59f4ff94b5b3b1de796d5da7db3374b64e"
         }
       ],
       "source_page_id": "page-d37215be1e79b78ab10aa910"
@@ -222,13 +202,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-11T16:48:07Z",
+    "generated_at": "2026-11-05T04:02:19Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+    "prompt_sha256": "6e05a472dd3a9630569cd08a1cdb536271348d81c7b54228eca5c68644d7eee2",
     "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v5"
   }
 }
