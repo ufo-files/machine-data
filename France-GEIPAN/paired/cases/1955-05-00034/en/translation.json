@@ -43,13 +43,13 @@
           "field": "region",
           "page_id": "page-e701adc79d62247728327b37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-e1706c3473409728e5745662",
           "segment_index": 3,
           "source_segment_id": "seg-e1706c3473409728e5745662",
           "source_text_sha256": "204aa105a193d21bd3cce2fd94e5eb50d019ec9c3844a957feac128941fed871",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Region: Champagne-Ardenne",
           "translation_text_sha256": "044ac9efa207e14bad977eeff8fb03f3ca95427d75706064c6763e282c692d2f"
         },
@@ -59,13 +59,13 @@
           "field": "department",
           "page_id": "page-e701adc79d62247728327b37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-9582edae3f83092c1eba6a6d",
           "segment_index": 4,
           "source_segment_id": "seg-9582edae3f83092c1eba6a6d",
           "source_text_sha256": "02d2dd4f5dd272b40738617748b9da24a784b9ad536f0d64535b81d134b73e2f",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Department: Ardennes",
           "translation_text_sha256": "7651a8da3f5ab46533c9b09e89024865337dd3f9131923634514a44987d59cef"
         },
@@ -114,8 +114,8 @@
           "source_text_sha256": "dbad85a3ad02ab17720560f5a1c8a47ea8d1da55d6a37d0ff866d70458b6428f",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Phenomenon type: Meteor",
-          "translation_text_sha256": "fdceb79368a04d4710a373e6b4140ee470b50537255dce87f1f5839fb4820453"
+          "text": "Phenomenon type: Meteorite",
+          "translation_text_sha256": "b49048f99b3f0d1bcef57f3b952103f704fa0cd47d72e30bb3ac66e0d728fea5"
         },
         {
           "end_ms": null,
@@ -123,15 +123,15 @@
           "field": "documents",
           "page_id": "page-e701adc79d62247728327b37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-5cc7973796a5010086e88e1a",
           "segment_index": 8,
           "source_segment_id": "seg-5cc7973796a5010086e88e1a",
           "source_text_sha256": "3a82fd545345489149eec49791d1779390e401f612ada079c9d19f57497fda2d",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents: PV n° 79 (1955309641).pdf",
-          "translation_text_sha256": "ebac619eeaf5b101b6c0b68ce5d1160e6dcbaddb00a32bc3dd2f1617a8a3ea22"
+          "status": "not-required",
+          "text": "Documents: PV n°79 (1955309641).pdf",
+          "translation_text_sha256": "3a82fd545345489149eec49791d1779390e401f612ada079c9d19f57497fda2d"
         },
         {
           "end_ms": null,
@@ -139,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-e701adc79d62247728327b37",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-3addffa75f1789fa63e1f8df",
           "segment_index": 9,
           "source_segment_id": "seg-3addffa75f1789fa63e1f8df",
           "source_text_sha256": "18c789c3d696448a47a3397d000451259862144b80ca272cbc746e0b32b3cff1",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: GIVET (08) 20.05.1955 T1 GIVET (08) 20.05.1955 T2",
           "translation_text_sha256": "40e1faa411bc475a45c8086f22918607762f3b4907ef7ebd8fd89f8fb33fc885"
         },
@@ -170,36 +170,16 @@
           "error": null,
           "field": "description",
           "page_id": "page-e701adc79d62247728327b37",
-          "qa_findings": [
-            {
-              "added_in_translation": [],
-              "check": "times",
-              "missing_from_translation": [
-                "02:30"
-              ],
-              "severity": "error",
-              "status": "mismatch"
-            },
-            {
-              "added_in_translation": [
-                "2",
-                "30"
-              ],
-              "check": "numbers",
-              "missing_from_translation": [],
-              "severity": "warning",
-              "status": "mismatch"
-            }
-          ],
-          "review_status": "needs-review",
+          "qa_findings": [],
+          "review_status": "machine-unreviewed",
           "segment_id": "seg-25338c0fc3bccf11d7801ca4",
           "segment_index": 11,
           "source_segment_id": "seg-25338c0fc3bccf11d7801ca4",
           "source_text_sha256": "4a5d709b31ca21a72880ddd990c6749a5fba2942b3f31092f4b271b83998d3d4",
           "start_ms": null,
-          "status": "needs-review",
-          "text": "Description: On May 20, 1955, at 2:30 a.m., two gendarmes observed the southeast to northwest passage of a luminous phenomenon that intrigued them and disappeared in a few seconds. This phenomenon had the shape of a shell and was followed by a multicolored light trail. A gendarmerie report was filed. The GEIPAN classified this case as B: probable observation of a bolide, that is, the atmospheric reentry of a meteoroid.",
-          "translation_text_sha256": "ab16cc27b5a0530bb8ebbe9442556e368fe4acd1998f0e807c7423c0b5d76599"
+          "status": "machine-unreviewed",
+          "text": "Description: On May 20, 1955, at 2:30 a.m., two gendarmes observed the southeast-northwest passage of a luminous phenomenon that intrigued them and disappeared in a few seconds. This phenomenon had the shape of a shell and was followed by a multicolored light trail. A gendarmerie report was drawn up. The GEIPAN classified this case as B: probable observation of a bolide, that is to say, the atmospheric reentry of a meteoroid.",
+          "translation_text_sha256": "751e9e394dae72c8ae9206eac527b923693a884fe8707ebf9797cc8e3185a51d"
         }
       ],
       "source_page_id": "page-e701adc79d62247728327b37"
@@ -210,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-27T00:29:51Z",
+    "generated_at": "2026-11-05T05:54:02Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
-    "review_status": "needs-review",
+    "prompt_sha256": "6e05a472dd3a9630569cd08a1cdb536271348d81c7b54228eca5c68644d7eee2",
+    "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v5"
   }
 }
