@@ -1,0 +1,54 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-11-05T22:01:10Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 1, "preprocessing": "imagemagick target 600dpi (oversized page boxes bounded to 40 megapixels and 9000 pixels per edge): plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 3712201, "source_ctime_ns": 1793380618070167821, "source_file": "National-Archives-UAP-Bulk/photo/597821-images-3/28977216/0467.jpg", "source_mtime_ns": 1785701060000000000, "source_rel": "National-Archives-UAP-Bulk/photo/597821-images-3/28977216/0467.jpg", "source_sha256": "b9a7576309254861208da282b6a09df5476fabdeebd76e26a7a65d3d4067bdcc"}
+
+===== PAGE 1 =====
+{"alpha_words": 322, "chars": 2074, "method": "ocr", "page": 1, "variant": "plain-vision"}
+- 31 -
+centricity of the orbit, Tine is given as a polynomial in
+the number of revolutions, from which the period can be
+determined; position of the ascending node and perigee are
+polynomials in time; the other elements are instantaneous
+values at an arbitrary, specified time. Additional imput
+data includes positions of the vernal equinox and the sun
+for January 0 of the current year, and the dates for which
+predictions are desired.
+The program follows the general outline listed below:
+(1) Reduces the station coordinates to more con-
+venient form,
+(2) Updates the instantaneous values of the orbital
+elements, This is done each revolution.
+(3) Computes
+Imputes is shadet of
+the point of entry into and exit from
+This data may be printed
+out if desired, It is useful for general pre-
+dictions where great accuracy is not expected.
+(4)
+Computes the position of culmination for each
+station, deterines whether the conditions for
+visibility from che stations are fulfilled, and
+if so prints that inforaation.
+There are three distinct portions of the output.
+First,
+the latitude, longitude and time of entry into or exit from
+the earth's shadow.
+Second, the altitude, azimuch,
+range,
+angular velocity, and time of culmination of visible passes
+for each station. The conditions for visibility
+require that the satellite be visible at least 15o above the
+horizon end be illuminated by the sun, while the scacion is
+inside the earth's shadow.
+No restriction is placed upon the
+photographic magnitude of the satellite, Hence, the range
+is printed to be taken into consideration when using the pre-
+dictions, Angular velocity is useful for tracking purposes.
+The third portion of the output is essentially the sta-
+tion prediction described above, however, it is put into a code
+suitable for teletype transmission, which may be sent directly
+without further reworking.
+Thus,
+the program computes predictions over a specified
+interval of time and supplies the following information at
+each visible passage of a station:
+(1) Altitude and azimuth of the point of closest
+approach.
