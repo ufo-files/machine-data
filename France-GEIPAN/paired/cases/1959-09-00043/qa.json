@@ -1,10 +1,31 @@
 {
   "document_id": "doc-11bc025bfd437ae7fafe77e7",
-  "findings": [],
+  "findings": [
+    {
+      "added_in_translation": [
+        "03:00"
+      ],
+      "check": "times",
+      "missing_from_translation": [],
+      "segment_id": "seg-689b6db93a83d9cecae681d4",
+      "severity": "error",
+      "status": "mismatch"
+    },
+    {
+      "added_in_translation": [],
+      "check": "numbers",
+      "missing_from_translation": [
+        "15"
+      ],
+      "segment_id": "seg-689b6db93a83d9cecae681d4",
+      "severity": "warning",
+      "status": "mismatch"
+    }
+  ],
   "page_count_match": true,
   "schema": "ufo-files-french-translation-qa/v1",
   "segment_count_match": true,
   "source_language": "fr-FR",
-  "status": "pass",
+  "status": "needs-review",
   "target_language": "en"
 }

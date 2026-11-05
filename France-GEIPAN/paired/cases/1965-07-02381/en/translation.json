@@ -43,15 +43,15 @@
           "field": "region",
           "page_id": "page-78a703f79c0a9e5bfa213c2e",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-0fbd19412e8ce861f75719c4",
           "segment_index": 3,
           "source_segment_id": "seg-0fbd19412e8ce861f75719c4",
           "source_text_sha256": "059d12cde048b669eed10ebe9246935a60ce3b994b570c9f85a3754a09ccc658",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Region: Provence-Alpes-Côte d'Azur",
-          "translation_text_sha256": "e7afbc080811fff103dcb9e287dd1fb0a0d689053bdf08eda8087b1d27065051"
+          "status": "not-required",
+          "text": "Region: Provence Alpes Cote d'azur",
+          "translation_text_sha256": "5b14e3b48b2fdd5900bcdae8dd5e713b6bef4d1cdf3d01cda781d5947af25b87"
         },
         {
           "end_ms": null,
@@ -59,13 +59,13 @@
           "field": "department",
           "page_id": "page-78a703f79c0a9e5bfa213c2e",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-6a4a5c7abd29589740d2a0b4",
           "segment_index": 4,
           "source_segment_id": "seg-6a4a5c7abd29589740d2a0b4",
           "source_text_sha256": "f8f9b5bb123c593e2b542fd0dfe7ecb03f2b1eeac4a26829dcb70d792d0de5fe",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Department: Alpes-de-Haute-Provence",
           "translation_text_sha256": "c588adbe4961b15d3a08773db7fc80e4b28c2c0202851f8fba0c41e6be149404"
         },
@@ -123,15 +123,15 @@
           "field": "documents",
           "page_id": "page-78a703f79c0a9e5bfa213c2e",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-5794e549b6d12c9729a0eaae",
           "segment_index": 8,
           "source_segment_id": "seg-5794e549b6d12c9729a0eaae",
           "source_text_sha256": "c2969634ea87fee72cc4c19fc33c49ae36cddc37489405429c5cd38a1e03c12e",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents:  Temoignage direct-R.pdf",
-          "translation_text_sha256": "d29131a86e503d2bcca2ae09241aed3bdac915ef303ff224c70f788520c5eb24"
+          "status": "not-required",
+          "text": "Documents: Temoignage direct-R.pdf",
+          "translation_text_sha256": "c2969634ea87fee72cc4c19fc33c49ae36cddc37489405429c5cd38a1e03c12e"
         },
         {
           "end_ms": null,
@@ -139,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-78a703f79c0a9e5bfa213c2e",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-9dc56f63698f59b9b4f0d9b2",
           "segment_index": 9,
           "source_segment_id": "seg-9dc56f63698f59b9b4f0d9b2",
           "source_text_sha256": "5f75b95328a702f9c4ff08c61895c5bebccf5b5a0c9cd91a6ab3c8a80640e3b7",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: DE MOUSTIERS-SAINTE-MARIE (04) vers MANOSQUE (04) --.07.1965",
           "translation_text_sha256": "73b0fcfb5196408fa579f78eb65e24ac179fa62bfe710ba0d3c9fa6e8e75f420"
         },
@@ -162,8 +162,8 @@
           "source_text_sha256": "b552fdf0711aee81be130d4d971945a35aeedc9d15e2e9fdcbad62d70aff8f8a",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Summary: Brief 2009 witness statement of an old (1965) observation from a vehicle, of \"children\" emerging from a saucer-shaped object in a lavender field: information lacking.",
-          "translation_text_sha256": "75d408deed011f0cf2ec0f1d1ef90785fa407b9f6542768537d19668e78c7c8a"
+          "text": "Summary: A brief 2009 witness statement of an old (1965) observation from a vehicle, of \"children\" emerging from a saucer-shaped object in a lavender field: lack of information.",
+          "translation_text_sha256": "1baca77778e083a48b0494f6f0795a7b49d5d5b9188358ae49adf6bda3eb2e83"
         },
         {
           "end_ms": null,
@@ -171,15 +171,6 @@
           "field": "description",
           "page_id": "page-78a703f79c0a9e5bfa213c2e",
           "qa_findings": [
-            {
-              "added_in_translation": [
-                "1965-07-01"
-              ],
-              "check": "dates",
-              "missing_from_translation": [],
-              "severity": "error",
-              "status": "mismatch"
-            },
             {
               "added_in_translation": [
                 "1"
@@ -197,8 +188,8 @@
           "source_text_sha256": "1c217c1b2da3e31a3e3ae8ce5b9cb45af7a3ef51a4f31de2e167591314e85c0b",
           "start_ms": null,
           "status": "needs-review",
-          "text": "Description: Recent testimony (August 17, 2009) of an old observation made at the beginning of July 1965 (the exact date is not specified by the witness; an arbitrary date is given as July 1, 1965; the witness also does not specify the exact location of the observation). By a concise email, a witness reports an observation made from a vehicle on an undetermined road between Moustiers-Sainte-Marie (04) and Manosque (04): around 7 PM or 7:30 PM, while traveling through the Verdon Gorges and crossing a lavender field, the witness, then aged 14, and his 4-year-old brother, saw from the back of the car \"a large plate turned over in a field\" and \"children coming out of the plate.\" No other information was gathered, and no other testimony was reported. This seemingly strange case is too poorly documented for an investigation (no precise location or date). The additional information requested by GEIPAN was not provided. This case is classified as \"C,\" impossible to investigate. However, we note that the position of the Moon at its rising in the southeast on July 11 could be a cause of misperception. This, of course, does not explain the small beings (children?) observed.",
-          "translation_text_sha256": "0659270b075e6c0d73369a8c138c276292b17c2eec928e1989d4c5d3b72da1b8"
+          "text": "Description: Recent testimony (August 17, 2009) of an old observation made at the beginning of July 1965 (the exact date is not specified by the witness; an arbitrary date is given as July 1, 1965; the witness also does not specify the exact location of the observation). A concise email from a witness reports an observation made from a vehicle on an undetermined road between Moustiers-Sainte-Marie (04) and Manosque (04): around 7 PM or 7:30 PM, while traveling through the Verdon Gorges and crossing a lavender field, the witness, then aged 14, and his 4-year-old brother, saw from the back of the car \"a large plate turned over in a field\" and \"children coming out of that plate.\" No further information is collected, and no other testimony will be reported. This at first sight strange case is too poorly documented for an investigation (no precise location or date). The additional elements requested by GEIPAN were not provided. This case is classified as \"C\" - Impossible investigation. However, it is noted that the position of the Moon at its rise in the southeast on July 11 could be a cause of confusion. This obviously does not explain the small beings (children?) observed.",
+          "translation_text_sha256": "337175e28d9d2905dda26c542b13117bf0f62471ffea8eb47f6f99f1ee8c86e9"
         }
       ],
       "source_page_id": "page-78a703f79c0a9e5bfa213c2e"
@@ -209,13 +200,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-09-09T07:04:01Z",
+    "generated_at": "2026-11-05T07:37:43Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+    "prompt_sha256": "6e05a472dd3a9630569cd08a1cdb536271348d81c7b54228eca5c68644d7eee2",
     "review_status": "needs-review",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v5"
   }
 }
