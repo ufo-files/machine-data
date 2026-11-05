@@ -43,15 +43,15 @@
           "field": "region",
           "page_id": "page-829965c5327eb9cc8578bb5f",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-482956eceb0f633455164506",
           "segment_index": 3,
           "source_segment_id": "seg-482956eceb0f633455164506",
           "source_text_sha256": "059d12cde048b669eed10ebe9246935a60ce3b994b570c9f85a3754a09ccc658",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Region: Provence-Alpes-Côte d'Azur",
-          "translation_text_sha256": "e7afbc080811fff103dcb9e287dd1fb0a0d689053bdf08eda8087b1d27065051"
+          "status": "not-required",
+          "text": "Region: Provence Alpes Cote d'azur",
+          "translation_text_sha256": "5b14e3b48b2fdd5900bcdae8dd5e713b6bef4d1cdf3d01cda781d5947af25b87"
         },
         {
           "end_ms": null,
@@ -59,13 +59,13 @@
           "field": "department",
           "page_id": "page-829965c5327eb9cc8578bb5f",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-2fd584fd9a5ab6f9cc9e3f20",
           "segment_index": 4,
           "source_segment_id": "seg-2fd584fd9a5ab6f9cc9e3f20",
           "source_text_sha256": "7623a260d905385fee9da2310ac9edabaa1e857de85e1af130a1b8e3bf65780e",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Department: Vaucluse",
           "translation_text_sha256": "2eb05fbae4cdd6c5beff9ba26603d78924bf014fe10a7f93f8af4d054a58998f"
         },
@@ -123,15 +123,15 @@
           "field": "documents",
           "page_id": "page-829965c5327eb9cc8578bb5f",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-2cb0760b69fcdb0a8d01b007",
           "segment_index": 8,
           "source_segment_id": "seg-2cb0760b69fcdb0a8d01b007",
           "source_text_sha256": "41178252c697d68b5f5f984d7d96014ba7b1ce60eaf1e43bddd93f6c6c3d72c9",
           "start_ms": null,
-          "status": "machine-unreviewed",
-          "text": "Documents: PV n° 661 (1955309643).pdf",
-          "translation_text_sha256": "acefd29b7d74d2df48f635ca4a9d669ef9dae31da0db7fe1656752a60351f341"
+          "status": "not-required",
+          "text": "Documents: PV n°661 (1955309643).pdf",
+          "translation_text_sha256": "41178252c697d68b5f5f984d7d96014ba7b1ce60eaf1e43bddd93f6c6c3d72c9"
         },
         {
           "end_ms": null,
@@ -139,13 +139,13 @@
           "field": "testimonies",
           "page_id": "page-829965c5327eb9cc8578bb5f",
           "qa_findings": [],
-          "review_status": "machine-unreviewed",
+          "review_status": "not-required",
           "segment_id": "seg-a73e236bccacbf6dd92fd5ec",
           "segment_index": 9,
           "source_segment_id": "seg-a73e236bccacbf6dd92fd5ec",
           "source_text_sha256": "dc1f04c739ea1f9a4e2a2815236a9d1aa38656c816c6e80ca079ddd0f0251d25",
           "start_ms": null,
-          "status": "machine-unreviewed",
+          "status": "not-required",
           "text": "Testimonies: CAVAILLON (84) 05.06.1955",
           "translation_text_sha256": "bab70f940d30a1651f069256936303ebe5d57f1dcfdd9556ea59da54552208b7"
         },
@@ -178,8 +178,8 @@
           "source_text_sha256": "197874d3e63ff3bde8d9a279aa4ff4a757d0ac304c2ec7afbbed40377d40700b",
           "start_ms": null,
           "status": "machine-unreviewed",
-          "text": "Description: On June 5, 1955, at 8:55 PM, three witnesses in Cavaillon observed for 20 seconds in the direction of the west side of the Luberon mountain range a red-hot rectangular light in the sky. Initially stationary, the phenomenon then moved very quickly, changing shape (from a crescent to a ball) and heading towards the east. It shrank and then disappeared. Astronomical verification eliminated the Moon as a possibility. The hypothesis of an airplane was abandoned. The GEIPAN classified this case as C due to lack of information and corroboration.",
-          "translation_text_sha256": "b6699a3af5215b3a5756be668c6618accb65a66886917f837411f920c6b9e2a7"
+          "text": "Description: On June 5, 1955, at 20:55, three witnesses in Cavaillon observed for 20 seconds in the direction of the west side of the Luberon mountain range a red-hot rectangular light in the sky. Initially stationary, the phenomenon then moved very quickly, changing shape (from a crescent to a ball) and heading towards the east. It shrank and then disappeared. Astronomical verification eliminated the Moon. The hypothesis of an aircraft was abandoned. The GEIPAN classified this case as C due to a lack of information and corroboration.",
+          "translation_text_sha256": "d0c90a325d4a527229ff16c046d4c6f3f686f227d51042c5520ab35322213fe8"
         }
       ],
       "source_page_id": "page-829965c5327eb9cc8578bb5f"
@@ -190,13 +190,13 @@
   "source_language": "fr-FR",
   "target_language": "en",
   "translation": {
-    "generated_at": "2026-08-26T20:19:33Z",
+    "generated_at": "2026-11-05T01:46:34Z",
     "method": "local-mlx-lm",
     "model": "mlx-community/aya-expanse-8b-4bit",
     "model_revision": "3a7cee37dd4ab4ed76642f61f6253da4748e63ba",
-    "prompt_sha256": "2212752d6ec719b84c87d65b09fe6ecd9c52f6b671c5f793ff2b80fd0934d6b0",
+    "prompt_sha256": "6e05a472dd3a9630569cd08a1cdb536271348d81c7b54228eca5c68644d7eee2",
     "review_status": "machine-unreviewed",
     "runtime_version": "0.30.7",
-    "workflow_version": "fr-en-geipan-translation-prompt/v1"
+    "workflow_version": "fr-en-geipan-translation-prompt/v5"
   }
 }
