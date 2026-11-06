@@ -1,0 +1,50 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-11-06T02:05:14Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 1, "preprocessing": "imagemagick target 600dpi (oversized page boxes bounded to 40 megapixels and 9000 pixels per edge): plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 3735628, "source_ctime_ns": 1793380617672586232, "source_file": "National-Archives-UAP-Bulk/photo/597821-images-3/28977216/0465.jpg", "source_mtime_ns": 1785701060000000000, "source_rel": "National-Archives-UAP-Bulk/photo/597821-images-3/28977216/0465.jpg", "source_sha256": "c04023ed100072965066ea496cd1f5ba95bcaf88d7ae0eabf95f2ae8078a340f"}
+
+===== PAGE 1 =====
+{"alpha_words": 358, "chars": 2247, "method": "ocr", "page": 1, "variant": "plain-vision"}
+- 29 -
+In addition the results may be rounded to the nearest
+minute, tenth of a degree, and mile, or one hundredth
+of a minute, one thousandth of a degree, and one hun-
+dredth of a mile, for time, longitude, and height,
+respectively.
+The elements necessary as input data for the pro-
+gram are as follows: an equation either for the time
+of crossing the ascending node or of passage through
+perigee as a function of the number of revolutions,
+quadratic equations in time for the argument oi periges
+and the rignc ascension or the ascending node: che in-
+clination; and the perigee distance. The perigee dis-
+tance is assumed to be constant over the range of pre-
+diction. From these elements the predictions are made
+using the standard equations for an elliptic orbit.
+Secular and long period perturbations causing
+changes in the argument of perigee and right ascension
+of the node are accounted for in the quadratic equations
+for these elements. Atmospheric drag is accounted for
+empirically in the equation for time of nodal crossing
+or perigee passage. Short period perturbations are
+not included. The semi-major axis is computed directly
+from Kepler's Third Law, using either the nodal or
+anomalistic period, depending on the for of the time
+equation. This leads to some error in the heights,
+but for the present satellites, this does not exceed
+one mile.
+A secondary part of the program is concerned with
+producing a "situation" report which gives the most
+pertinent facts about a satellite's orbit. Computed
+for any day are the period, rate of change of period,
+latitude of perigee, rate of change of latitude of peri-
+gee, height of perigee, height of apogee, rate of change
+of height of apogee, and height over a specific parallel
+of latitude (40th for 1957 Alpha and 1957 Beta, 30th for
+1958 Alpha and 1958 Beta) Pop both the south-north and
+north-south crossings.
+The program is in operating condition and has been
+used successfully for the
+predictions for the U S. satellites. Changes are con-
+templated in the future to incorporate a more accurate
+method of determining the heights. Tests will be made
+to insure that the program works properly for special
+cases such as inclinations greater than ninecy degrees
+(retrograde satellites).
