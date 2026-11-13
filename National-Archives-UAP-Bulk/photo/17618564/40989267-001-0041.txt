@@ -1,0 +1,51 @@
+{"collection": "UFO Files Data Archive", "created_utc": "2026-11-13T17:30:23Z", "dpi": 600, "engine": "mac-m3-imagemagick-tesseract-vision-ocr", "engine_mode": "ocr", "lang": "eng", "pages": 1, "preprocessing": "imagemagick target 600dpi (oversized page boxes bounded to 40 megapixels and 9000 pixels per edge): plain gray/auto-orient plus deskew/normalize/contrast/threshold variants; scored Apple Vision OCR and tesseract psm candidates", "schema": "ufo-files-archive-ocr/v1", "source_bytes": 14505956, "source_ctime_ns": 1793355459735459443, "source_file": "National-Archives-UAP-Bulk/photo/17618564/40989267-001-0041.jpg", "source_mtime_ns": 1785564459000000000, "source_rel": "National-Archives-UAP-Bulk/photo/17618564/40989267-001-0041.jpg", "source_sha256": "3b5ceb8c40c3087bd3cf451323705a6804af703fd72903e824f9d1b1c7ef920e"}
+
+===== PAGE 1 =====
+{"alpha_words": 443, "chars": 2897, "method": "ocr", "page": 1, "variant": "plain-vision"}
+NOZZLE
+NOZZLE
+Figure 2. Functional Block Diagram of Azimuth Control System
+Figure 4 illustrates a generalized phase-plane plot on which are shown instan-
+taneous values of y and y resulting from control and disturbance torques during
+attitude hold. The abscissa of the plot is attitude error and the ordinate attitude
+rate. The two parallel lines are the switching lines, that is, the region beyond
+which control authority is exerted by rate and/or attitude error. The relative con-
+trol authority between attitude error and attitude rate is determined by the slope of
+the switching line. The region between the switching lines is the region of no con-
+trol and represents the system "deadband". The selection of the slope of the
+switching line and the deadband are calibrated values determined as the result of
+extensive system simulation work.
+Over-all system operation in the presence of a disturbing torque is described
+in the following paragraphs (refer to Figure 4).
+Commencing at point A, assume balloon rotation is such as to produce a posi-
+tive disturbance torque (+TD). TD acts to increase both W and i along ABC. At
+point B control torque is commanded (-Tc). Because of the pull-in time of the
+solenoid valve and the thrust buildup time, -Tc does not become effective until
+point C. (-TC +TD) then acts to decrease / and & along CDA as ITcl> ITDI. At
+point D, zero control torque is commanded but because of the dropout time of the
+solenoid valve and thrust decay time, Ic does not actually go to zero until point A
+TD = DISTURBANCE TORQUE
+To = CONTROL TORQUE
+8 = GYRO DAMPING RATIO
+J = GONDOLA INERTIA
+H = RATE GYRO HYSTERESIS
+W = RATE GYRO NATURAL FREQUENCY
+K1 = MAGNETOMETER GAIN
+K2 = RATE GYRO GAIN
+*1 = REACTION JET PULL IN/DROP OUT TIME
+T2' 3 = TIME CONSTANT
+Figure 3. Analytical Block Diagram
+is reached. The disturbance torque carries the system to point B and the cycle
+repeats. If the balloon rotation is continuous, the gondola will oscillate slowly as
+illustrated about one edge of the deadband. If the balloon rotation should reverse,
+the sign of TD reverses requiring control torque of opposite sign. The system will
+then operate about the opposite side of the deadband.
+A linear recording of attitude error (magnetometer output) taken during a
+flight operation is shown in Figure 5. The trace illustrates the gondola attitude
+during the acquisition process and after attitude hold has been achieved. Although
+the response is typical of the response of systems similar to Figure 3, the specific
+time constants and the decrement during acquisition are, of course, characteristic
+of the specific gondola described. The maximum attitude error is + 0.1 degree
+with a maximum rate of + 0.07 degree per second.
+Control system fuel consumption is a direct function of the disturbance torque
+(in this case bearing friction) and rate deadband. The limit cycle frequency (that is,
